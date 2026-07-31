@@ -105,6 +105,9 @@ class TursoConnectionWrapper:
     def __init__(self, client):
         self.client = client
     
+    def cursor(self):
+        return self
+    
     def execute(self, query, params=()):
         result_set = self.client.execute(query, list(params))
         return TursoCursorWrapper(result_set)
@@ -2333,8 +2336,19 @@ def get_other_sources_data(force_refresh=False):
 @app.route('/api/country_glance_report/data')
 @app.route('/api/country_glance_test/data', endpoint='api_country_glance_test_data')
 def api_country_glance_test():
-    """Exact hardcoded data matching the June 15th PDF."""
+    """Exact data matching the June 15th PDF."""
     data = cache_get('country_glance_data')
+    if not data:
+        _build_glance_data()
+        data = cache_get('country_glance_data')
+    if not data:
+        cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
+        if os.path.exists(cache_file):
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    cache_set('country_glance_data', data)
+            except: pass
     if data:
         return jsonify(data)
     else:
@@ -2352,10 +2366,20 @@ def api_country_glance_test():
 def api_country_glance():
     """State-level coverage matrix matching exact PDF business logic."""
     data = cache_get('country_glance_data')
+    if not data:
+        _build_glance_data()
+        data = cache_get('country_glance_data')
+    if not data:
+        cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
+        if os.path.exists(cache_file):
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                    cache_set('country_glance_data', data)
+            except: pass
     if data:
         return jsonify(data)
     else:
-        # Fallback empty structure while building
         return jsonify({
             "success": True,
             "national_avg": {
