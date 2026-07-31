@@ -1,0 +1,15 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    venv,
+    env,
+    scratch,
+    app_fixed.py,
+    generate_country_glance.py,
+    generate_glance_data.py,
+    check_*.py,
+    run_*.py,
+    migrate_db.py,
+    debug_*.py
+max-line-length = 127
