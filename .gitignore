@@ -7,6 +7,10 @@ env/
 # Data Files (synced from S3 instead of git)
 *.db
 *.json
+!computed_glance_data.json
+!ac_pc_extracted.json
+!live_extracted.json
+!static/data/*.json
 *.csv
 *.zip
 *.log
