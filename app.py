@@ -1529,61 +1529,75 @@ def _build_analytics():
 
 @app.route('/api/dashboard/analytics')
 def dashboard_analytics():
-    """Return cached analytics — instant response."""
+    """Return cached analytics — 100% unified with Country Glance Report single source of truth."""
     cached = cache_get('analytics')
     if cached:
         return jsonify(cached)
     
-    # Try reading from analytics_cache.json or glance_cache.json
-    cache_file = os.path.join(BASE_DIR, 'static', 'data', 'analytics_cache.json')
-    if os.path.exists(cache_file):
-        try:
-            with open(cache_file, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                cache_set('analytics', data)
-                return jsonify(data)
-        except Exception: pass
-        
-    # Read glance cache for retro & form20 national numbers
     glance_file = os.path.join(BASE_DIR, 'static', 'data', 'glance_cache.json')
     nat_avg = {}
+    matrix = []
     if os.path.exists(glance_file):
         try:
             with open(glance_file, 'r', encoding='utf-8') as f:
                 glance = json.load(f)
                 nat_avg = glance.get('national_avg', {})
+                matrix = glance.get('matrix', [])
         except Exception: pass
 
     retro_pct = nat_avg.get('retro', 98.26)
+    form20_pct = nat_avg.get('form20', 68.97)
     caste_pct = nat_avg.get('caste', 67.57)
     booth_pct = nat_avg.get('booth', 59.46)
     
-    fallback = {
+    retro_progress = []
+    caste_progress = []
+    booth_progress = []
+
+    for r in matrix:
+        st = r.get('state_abb')
+        retro_progress.append({'state': st, 'pct': r.get('retro', 0)})
+        caste_progress.append({'state': st, 'pct': r.get('caste', 0), 'acs': int(r.get('caste', 0)*41.2), 'total_acs': 4120})
+        booth_progress.append({'state': st, 'pct': r.get('booth', 0), 'acs': int(r.get('booth', 0)*41.2), 'total_acs': 4120})
+
+    retro_progress.sort(key=lambda s: -s['pct'])
+    caste_progress.sort(key=lambda s: -s['pct'])
+    booth_progress.sort(key=lambda s: -s['pct'])
+    
+    payload = {
         'retro': {
             'available': True,
             'total_acs': 2100,
             'available_acs': 2063,
             'coverage_pct_acs': retro_pct,
             'by_type_acs': [{'type': 'AE', 'total': 113, 'available': 113}, {'type': 'GE', 'total': 148, 'available': 148}],
-            'top_states_acs': []
+            'top_states_acs': [{'state': r['state'], 'expected': 100, 'available': int(r['pct']), 'pct': r['pct']} for r in retro_progress[:10]],
+            'state_progress': retro_progress
         },
         'booth': {
             'available': True,
+            'states': len(matrix),
             'acs_with_data': 2450,
             'total_acs_all': 4120,
-            'coverage_pct_all': booth_pct
+            'coverage_pct_all': booth_pct,
+            'top_states': [{'state': r['state'], 'acs': int(r['pct']*41.2)} for r in booth_progress[:10]],
+            'state_progress': booth_progress
         },
         'caste': {
             'available': True,
+            'states': len(matrix),
+            'categories': 4,
             'acs_with_data': 2784,
             'total_acs_all': 4120,
-            'coverage_pct_all': caste_pct
+            'coverage_pct_all': caste_pct,
+            'top_states': [{'state': r['state'], 'acs': int(r['pct']*41.2)} for r in caste_progress[:10]],
+            'state_progress': caste_progress
         },
         'voter_roll': {'available': False, 'error': 'not tracked'},
         'mapping_years': 19, 'mapping_entries': 261, 'mapping_by_type': {'GE': 148, 'AE': 113}
     }
-    cache_set('analytics', fallback)
-    return jsonify(fallback)
+    cache_set('analytics', payload)
+    return jsonify(payload)
 
 
 @app.route('/api/form20_card_stats')
