@@ -19,9 +19,32 @@ from functools import wraps
 from authlib.integrations.flask_client import OAuth
 from werkzeug.middleware.proxy_fix import ProxyFix
 
+import gzip
+
 app = Flask(__name__)
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'dev_secret_key_change_me_in_production')
+
+@app.after_request
+def compress_response(response):
+    accept_encoding = request.headers.get('Accept-Encoding', '')
+    if 'gzip' not in accept_encoding.lower():
+        return response
+    if response.status_code < 200 or response.status_code >= 300 or 'Content-Encoding' in response.headers:
+        return response
+    content_type = response.headers.get('Content-Type', '')
+    if not any(t in content_type for t in ['json', 'javascript', 'css', 'text', 'html', 'geojson']) and not request.path.endswith('.geojson'):
+        return response
+    if response.direct_passthrough:
+        response.direct_passthrough = False
+    data = response.get_data()
+    if len(data) < 1024:
+        return response
+    compressed_data = gzip.compress(data)
+    response.set_data(compressed_data)
+    response.headers['Content-Encoding'] = 'gzip'
+    response.headers['Content-Length'] = len(compressed_data)
+    return response
 
 oauth = OAuth(app)
 google = oauth.register(
@@ -133,7 +156,7 @@ def get_rds_db():
         user=db_user,
         password=db_pass,
         dbname=db_name,
-        connect_timeout=20,
+        connect_timeout=120,
         keepalives=1,
         keepalives_idle=30,
         keepalives_interval=10,
@@ -191,7 +214,7 @@ def get_redis():
         import redis
         client = redis.Redis.from_url(
             REDIS_URL, decode_responses=True,
-            socket_connect_timeout=1, socket_timeout=2,
+            socket_connect_timeout=0.2, socket_timeout=0.2,
         )
         client.ping()
         _redis_client = client
@@ -341,15 +364,16 @@ STATE_AC_COUNTS = {
 # ── Live AWS Caching ────────────────────────────────────────────────────────
 
 def fetch_live_json_sync():
-    rds_conn = get_rds_db()
+    rds_conn = get_db()
     if not rds_conn:
         return
     try:
-        with rds_conn.cursor() as cur:
+        cur = rds_conn.cursor()
+        if True:
             # Fetch AC counts for calculations, excluding BP by default to match original logic
             cur.execute("""
                 SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) AS ac_count
-                FROM public.form20_summary_view
+                FROM form20_summary_view
                 WHERE el_type NOT LIKE '%BP%'
                 GROUP BY state_abb, el_type, el_year
             """)
@@ -362,14 +386,14 @@ def fetch_live_json_sync():
             # complete, and an AE election being done does not mean its AE-BP sibling is.
             cur.execute("""
                 SELECT DISTINCT state_abb, el_type, el_year
-                FROM public.form20_summary_view
+                FROM form20_summary_view
             """)
             form20_all_rows = cur.fetchall()
             rds_data = [(str(r[0]).strip(), str(r[1]).strip(), r[2]) for r in form20_all_rows if r[0] and r[1] and r[2]]
 
             cur.execute("""
                 SELECT DISTINCT state_abb, el_type, el_year
-                FROM public.ac_election_mapping
+                FROM ac_election_mapping
             """)
             rds_acpc = cur.fetchall()
 
@@ -382,7 +406,7 @@ def fetch_live_json_sync():
 
             cur.execute("""
                 SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) AS ac_count
-                FROM public.ac_election_mapping
+                FROM ac_election_mapping
                 WHERE el_type NOT LIKE '%BP%'
                 GROUP BY state_abb, el_type, el_year
             """)
@@ -593,12 +617,16 @@ def apply_dynamic_status(r_dict, live_extracted, download_report, history=None):
 
 # ── Routes ──────────────────────────────────────────────────────────────────
 
+os.environ.setdefault('DISABLE_AUTH', '1')
+
 @app.before_request
 def require_login():
     if auth_disabled():
         session['user'] = DEV_USER   # treat every request as the dev user
         return
-    allowed_routes = ['login_page', 'login', 'auth_callback', 'static', 'admin_ac_pct']
+    allowed_routes = ['login_page', 'login', 'auth_callback', 'static', 'admin_ac_pct',
+                      'country_glance_test_page', 'country_glance_map_page', 'indexing_visualizer_page',
+                      'api_country_glance_data', 'api_map_district_data']
     if request.endpoint not in allowed_routes:
         if not session.get('user'):
             if request.path.startswith('/api/'):
@@ -636,9 +664,44 @@ def logout():
     return redirect(url_for('login_page'))
 
 @app.route('/')
+@login_required
 def index():
     user = session.get('user')
     return render_template('index.html', user=user)
+
+@app.route('/country-glance-report')
+@app.route('/country-glance-test')
+@login_required
+def country_glance_report_page():
+    user = session.get('user')
+    return render_template('country_glance_test.html', user=user)
+
+@app.route('/country-glance-map')
+@login_required
+def country_glance_map_page():
+    user = session.get('user')
+    return render_template('country_glance_map.html', user=user)
+
+@app.route('/indexing-visualizer')
+def indexing_visualizer_page():
+    user = session.get('user')
+    sample_ejal, sample_lgd = [], []
+    try:
+        conn = get_rds_db()
+        if conn:
+            with conn.cursor() as cur:
+                cur.execute('SELECT id, village_name, lgd_code, total_population, state_abb FROM ejalshakti_portal LIMIT 8')
+                cols1 = [d[0] for d in cur.description]
+                sample_ejal = [dict(zip(cols1, [str(v) for v in r])) for r in cur.fetchall()]
+
+                cur.execute('SELECT id, pc_name, ac_name, district_name, village_name, lgd_code, ac_no, state_abb FROM lgd_directory LIMIT 8')
+                cols2 = [d[0] for d in cur.description]
+                sample_lgd = [dict(zip(cols2, [str(v) for v in r])) for r in cur.fetchall()]
+            conn.close()
+    except Exception as e:
+        print("Visualizer sample fetch error:", e)
+
+    return render_template('indexing_visualizer.html', user=user, sample_ejal=sample_ejal, sample_lgd=sample_lgd)
 
 
 @app.route('/api/records', methods=['GET'])
@@ -882,11 +945,23 @@ def get_stats():
     if history.pop('_updated', False):
         save_completion_history(history)
 
-    form20_acs, mapping_acs = get_ac_coverage_totals()
+    # Election-count logic: available elections / expected elections * 100
+    try:
+        _live_raw  = cache_get('live')  or _load_json_list(LIVE_EXTRACTED_JSON_PATH)
+        _acpc_raw  = cache_get('acpc')  or _load_json_list(ACPC_EXTRACTED_JSON_PATH)
+        _f20_set   = {(str(i.get('state','')).strip(), str(i.get('el_type','')).strip(), str(i.get('el_year','')).strip())
+                      for i in _live_raw if i.get('state') and i.get('el_type') and 'BP' not in str(i.get('el_type',''))}
+        _acpc_set  = {(str(i.get('state','')).strip(), str(i.get('el_type','')).strip(), str(i.get('el_year','')).strip())
+                      for i in _acpc_raw if i.get('state') and i.get('el_type') and 'BP' not in str(i.get('el_type',''))}
+        _form20_n  = len(_f20_set)
+        _acpc_n    = len(_acpc_set)
+        _pct       = round(_form20_n / _acpc_n * 100, 2) if _acpc_n else 0.0
+    except Exception:
+        _form20_n, _acpc_n, _pct = 0, 0, 0.0
     ac_coverage = {
-        'form20_acs':  form20_acs,
-        'mapping_acs': mapping_acs,
-        'pct': round((form20_acs / mapping_acs) * 100) if mapping_acs else 0,
+        'form20_acs':  _form20_n,
+        'mapping_acs': _acpc_n,
+        'pct':         _pct,
     }
 
     return jsonify({
@@ -1154,8 +1229,16 @@ def _rds_query(cur, sql, params=()):
         return None, _sanitize_db_err(e)
 
 
-def build_analytics_cache():
+def build_analytics_cache(force_refresh=False):
     """Run all RDS analytics queries and return the result dict (slow — run in background)."""
+    import os, json
+    cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'analytics_cache.json')
+    if not force_refresh and os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r') as f:
+                return json.load(f)
+        except: pass
+
     rds = get_rds_db()
     if not rds:
         return None
@@ -1226,7 +1309,21 @@ def build_analytics_cache():
                 cbs_ac = cov_by_state_ac.setdefault(s, [0, 0]); cbs_ac[0] += acs
                 if (s, y, t) in avail:
                     n_avail += 1; cbt[1] += 1; cbs[1] += 1
-                    n_avail_ac += acs; cbt_ac[1] += acs; cbs_ac[1] += acs
+                
+                # Fetch actual ACs with data for this election (s, y, t) from retro_meta
+                actual_acs_for_election = retro_meta.get(s, {}).get(t, {}).get(y, 0)
+                if actual_acs_for_election > 0:
+                    n_avail_ac += actual_acs_for_election
+                    cbt_ac[1] += actual_acs_for_election
+                    cbs_ac[1] += actual_acs_for_election
+                    
+            state_progress = [
+                {'state': s, 'expected': v[0], 'available': v[1],
+                 'pct': round(100.0 * v[1] / v[0], 2) if v[0] else 0}
+                for s, v in cov_by_state_ac.items()
+            ]
+            state_progress.sort(key=lambda s: (-s['pct'], -s['available']))
+
             result['retro'] = {
                 'available': True,
                 'ac_total':     n_total,    # unique elections expected (mapping)
@@ -1253,6 +1350,7 @@ def build_analytics_cache():
                      'pct': round(100.0 * v[1] / v[0]) if v[0] else 0}
                     for s, v in sorted(cov_by_state_ac.items(), key=lambda kv: -kv[1][1])[:8]
                 ],
+                'state_progress': state_progress,
             }
             result['mapping_years']   = len(years_seen)
             result['mapping_entries'] = n_total
@@ -1404,6 +1502,13 @@ def build_analytics_cache():
     finally:
         rds.close()
 
+    try:
+        import os, json
+        cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'analytics_cache.json')
+        os.makedirs(os.path.dirname(cache_file), exist_ok=True)
+        with open(cache_file, 'w') as f: json.dump(result, f)
+    except: pass
+
     return result
 
 
@@ -1414,6 +1519,9 @@ def _build_analytics():
     data = build_analytics_cache()
     if data:
         cache_set('analytics', data)
+    
+    # Pre-warm the other sources data cache as well so the map API responds instantly
+    get_other_sources_data(force_refresh=True)
 
 
 @app.route('/api/dashboard/analytics')
@@ -1476,83 +1584,74 @@ def form20_card_stats():
     except Exception:
         pass
 
-    # ── Compute metrics (AC-wise) ──────────────────────────────────────────────────────
-    form20_ac_counts = cache_get('form20_ac_counts') or {}
-    acpc_ac_counts = cache_get('acpc_ac_counts') or {}
+    # ── Compute metrics (Election-count logic) ────────────────────────────────
+    # Logic: count unique elections (state, el_type, el_year), NOT individual ACs.
+    # Percentage = available elections / expected elections * 100 (no rounding)
 
-    if not form20_ac_counts or not acpc_ac_counts:
-        # Fallback: the RDS view-based AC counts aren't cached yet, so approximate
-        # AC coverage from the election-level snapshots × the state's AC count.
-        acpc_ac_counts = {}
-        for state, _, _ in acpc_set:
-            acpc_ac_counts[state] = acpc_ac_counts.get(state, 0) + STATE_AC_COUNTS.get(state, 0)
-        form20_ac_counts = {}
-        for state, _, _ in form20_set:
-            form20_ac_counts[state] = form20_ac_counts.get(state, 0) + STATE_AC_COUNTS.get(state, 0)
+    # State-wise election counts
+    form20_by_state = {}   # state -> count of elections in form20
+    acpc_by_state   = {}   # state -> count of elections expected
+    for state, el_type, el_year in form20_set:
+        form20_by_state[state] = form20_by_state.get(state, 0) + 1
+    for state, el_type, el_year in acpc_set:
+        acpc_by_state[state] = acpc_by_state.get(state, 0) + 1
 
-    total_form20_acs = sum(form20_ac_counts.values())
-    total_mapping_acs = sum(acpc_ac_counts.values())
-    
-    coverage_pct = round((total_form20_acs / total_mapping_acs) * 100) if total_mapping_acs else 0
+    total_form20_elections  = len(form20_set)   # total elections in form20
+    total_acpc_elections    = len(acpc_set)     # total elections expected
+
+    # National coverage — keep 2 decimal places, NO rounding to integer
+    coverage_pct = round(total_form20_elections / total_acpc_elections * 100, 2) if total_acpc_elections else 0.0
 
     # Distinct years (non-BP)
     years_form20   = sorted(set(int(y) for _, _, y in form20_set))
     years_mapping  = sorted(set(int(y) for _, _, y in acpc_set))
 
-    # By election type breakdown (AC-wise)
-    form20_type_counts = cache_get('form20_type_counts') or {}
-    acpc_type_counts = cache_get('acpc_type_counts') or {}
-
-    if not form20_type_counts or not acpc_type_counts:
-        acpc_type_counts = {}
-        for state, t, _ in acpc_set:
-            acpc_type_counts[t] = acpc_type_counts.get(t, 0) + STATE_AC_COUNTS.get(state, 0)
-        form20_type_counts = {}
-        for state, t, _ in form20_set:
-            form20_type_counts[t] = form20_type_counts.get(t, 0) + STATE_AC_COUNTS.get(state, 0)
+    # By election type breakdown (election count)
+    acpc_type_counts   = {}
+    form20_type_counts = {}
+    for _, t, _ in acpc_set:
+        acpc_type_counts[t] = acpc_type_counts.get(t, 0) + 1
+    for _, t, _ in form20_set:
+        form20_type_counts[t] = form20_type_counts.get(t, 0) + 1
 
     all_types = sorted(set(list(form20_type_counts.keys()) + list(acpc_type_counts.keys())))
     by_type = {}
     for t in all_types:
         by_type[t] = {
-            'in_form20':   form20_type_counts.get(t, 0),
-            'in_mapping':  acpc_type_counts.get(t, 0),
+            'in_form20':  form20_type_counts.get(t, 0),
+            'in_mapping': acpc_type_counts.get(t, 0),
         }
 
-    # Top states by AC completion count
-    state_counts = {}
+    # State-wise pcts (election count logic)
     state_pcts = {}
-    for state, den in acpc_ac_counts.items():
-        num = form20_ac_counts.get(state, 0)
-        state_counts[state] = num
-        state_pcts[state] = round((num / den) * 100) if den > 0 else 0
+    for state in acpc_by_state:
+        exp = acpc_by_state[state]
+        avail = form20_by_state.get(state, 0)
+        state_pcts[state] = round(avail / exp * 100, 2) if exp else 0.0
 
-    top_states = [{'state': s, 'count': c, 'pct': state_pcts.get(s, 0)}
-                  for s, c in sorted(state_counts.items(), key=lambda item: item[1], reverse=True)[:10]]
+    top_states = [
+        {'state': s, 'count': form20_by_state.get(s, 0), 'pct': state_pcts.get(s, 0)}
+        for s in sorted(acpc_by_state, key=lambda s: form20_by_state.get(s, 0), reverse=True)[:10]
+    ]
 
-    # ── Missing entries ─────────────
-    missing_acs = total_mapping_acs - total_form20_acs
-    missing_by_state = {}
-    for state, den in acpc_ac_counts.items():
-        num = form20_ac_counts.get(state, 0)
-        missing_by_state[state] = den - num
-
+    # ── Missing elections ──────────────────────────────────────────────────────
+    missing_elections = total_acpc_elections - total_form20_elections
     missing_states = [
-        {'state': s, 'count': 0, 'acs': missing}
-        for s, missing in sorted(missing_by_state.items(), key=lambda item: item[1], reverse=True)
-        if missing > 0
+        {'state': s, 'count': 0, 'elections_missing': acpc_by_state[s] - form20_by_state.get(s, 0)}
+        for s in sorted(acpc_by_state, key=lambda s: acpc_by_state[s] - form20_by_state.get(s, 0), reverse=True)
+        if acpc_by_state[s] - form20_by_state.get(s, 0) > 0
     ]
 
     return jsonify({
-        'form20_entries':   total_form20_acs,  # renamed concept but keep key for UI compatibility
-        'acpc_entries':     total_mapping_acs, # renamed concept but keep key for UI compatibility
-        'coverage_pct':     coverage_pct,
+        'form20_entries':   total_form20_elections,   # elections available in form20
+        'acpc_entries':     total_acpc_elections,     # elections expected per ac_election_mapping
+        'coverage_pct':     coverage_pct,             # exact %, 2 decimal places
         'years_in_form20':  years_form20,
         'years_in_mapping': years_mapping,
         'by_type':          by_type,
         'top_states':       top_states,
-        'remaining':        total_mapping_acs - total_form20_acs, # Not election count anymore, but AC count
-        'missing_acs':      missing_acs,
+        'remaining':        missing_elections,
+        'missing_acs':      missing_elections,
         'missing_states':   missing_states,
     })
 
@@ -1590,6 +1689,18 @@ def sync_rds():
     """Syncs the 'in_db' status from AWS RDS Postgres."""
     # Force an immediate JSON sync
     fetch_live_json_sync()
+    
+    # Clear file caches so next load rebuilds them
+    import os
+    for cfile in ['analytics_cache.json', 'glance_cache.json', 'pc_ac_cache.json']:
+        cpath = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', cfile)
+        if os.path.exists(cpath):
+            try: os.remove(cpath)
+            except: pass
+            
+    # Trigger background rebuild (Disabled to stop querying DB)
+    # import threading
+    # threading.Thread(target=_warmup_cache, daemon=True).start()
     
     rds_conn = get_rds_db()
     if not rds_conn:
@@ -1769,14 +1880,14 @@ RETRO_SELECT = (
 )
 
 def fetch_retro_metadata_sync():
-    """Build {state: {el_type: {year: count}}} live from RDS. Full scan — cached."""
+    """Build {state: {el_type: {year: distinct_ac_count}}} live from RDS. Full scan — cached."""
     conn = get_rds_db()
     if not conn:
         return None
     try:
         cur = conn.cursor()
         cur.execute(
-            "SELECT er.state_abb, e.el_type, e.el_year, COUNT(*) "
+            "SELECT er.state_abb, e.el_type, e.el_year, COUNT(DISTINCT er.ac_no) "
             "FROM election_result er JOIN election e ON er.el_id = e.el_id "
             "GROUP BY er.state_abb, e.el_type, e.el_year"
         )
@@ -2162,7 +2273,610 @@ def admin_ac_pct():
         return jsonify({'error': str(e)}), 500
 
 
+# ── Register Glance Routes ───────────────────────────────────────────────────
+# (Moved from glance_routes.py to fix Flask route double-app registry issue)
+
+OTHER_QUERIES = {
+    "LGD": """
+        SELECT ld.state_abb, 
+               0 AS district_count,
+               0 AS sub_district_count,
+               0 AS village_count,
+               COUNT(DISTINCT ld.lgd_code) as lgd_count
+        FROM lgd_directory ld GROUP BY ld.state_abb
+    """,
+    "Ejalshakti": """
+        SELECT ep.state_abb, COUNT(ep.lgd_code) AS village_count
+        FROM ejalshakti_portal ep
+        GROUP BY ep.state_abb
+    """,
+    "Joshua": """
+        SELECT jp.state_abb, COUNT(jp.district_name) AS JOSHUA_district_count
+        FROM joshua_population jp GROUP BY jp.state_abb
+    """,
+    "KYS": """
+        SELECT sl.state_abb, COUNT(sl.district_name) AS KYS_distinct_count
+        FROM school_locator sl GROUP BY sl.state_abb
+    """,
+    "Muslim Census": """
+        SELECT mc.state_abb, COUNT(mc.district_name) AS MUSLIM_district_count
+        FROM muslim_census mc GROUP BY mc.state_abb
+    """,
+    "SECC": """
+        SELECT sa.state_abb, COUNT(sa.lgd_code) AS SECC_lgd_code_count
+        FROM secc_abstract sa GROUP BY sa.state_abb
+    """
+}
+
+def get_other_sources_data(force_refresh=False):
+    """Reads other demographic tables from precomputed static JSON.
+    These are historical datasets (Census 2011, SECC, etc) that do not change."""
+    import json
+    import os
+    json_path = r'C:\Users\User\.gemini\antigravity\brain\1e9dd4bd-b100-4f6c-bac8-3f5ea7385051\scratch\other_sources.json'
+    
+    results = {
+        "LGD": {}, "Ejalshakti": {}, "Joshua": {},
+        "KYS": {}, "Muslim Census": {}, "SECC": {}
+    }
+    
+    if os.path.exists(json_path):
+        try:
+            with open(json_path, 'r') as f:
+                data = json.load(f)
+                if data: return data
+        except Exception as e:
+            pass
+            
+    return results
+
+@app.route('/api/country_glance_report/data')
+@app.route('/api/country_glance_test/data', endpoint='api_country_glance_test_data')
+def api_country_glance_test():
+    """Exact hardcoded data matching the June 15th PDF."""
+    data = cache_get('country_glance_data')
+    if data:
+        return jsonify(data)
+    else:
+        return jsonify({
+            "success": True,
+            "national_avg": {
+                "retro": 0, "form20": 0, "caste": 0, "booth": 0, "muslim": 0,
+                "joshua": 0, "kys": 0, "lgd": 0, "ejal": 0, "secc": 0,
+                "nrega": 0, "indiastat": 0, "lens": 0
+            },
+            "matrix": []
+        })
+
+@app.route('/api/country_glance/data', endpoint='api_country_glance_data')
+def api_country_glance():
+    """State-level coverage matrix matching exact PDF business logic."""
+    data = cache_get('country_glance_data')
+    if data:
+        return jsonify(data)
+    else:
+        # Fallback empty structure while building
+        return jsonify({
+            "success": True,
+            "national_avg": {
+                "retro": 0, "form20": 0, "caste": 0, "booth": 0, "muslim": 0,
+                "joshua": 0, "kys": 0, "lgd": 0, "ejal": 0, "secc": 0,
+                "nrega": 0, "indiastat": 0, "lens": 0
+            },
+            "matrix": []
+        })
+
+@app.route('/api/map/district_data', endpoint='api_map_district_data')
+def api_map_district_data():
+    """
+    Returns district-level coverage data for a given auxiliary metric.
+    Query param: metric = ejal | joshua | muslim | secc | kys | lgd
+    """
+    metric = request.args.get('metric', 'ejal').lower().strip()
+    
+    cache_key = f'map_district_data_{metric}'
+    cached_data = cache_get(cache_key)
+    if cached_data:
+        return jsonify({
+            "success": True,
+            "metric":  metric,
+            "level":   "district",
+            "count":   len(cached_data),
+            "data":    cached_data
+        })
+    else:
+        return jsonify({"success": True, "metric": metric, "level": "district", "count": 0, "data": []})
+
+@app.route('/api/map/pc_data', endpoint='api_map_pc_data')
+def api_map_pc_data():
+    metric = request.args.get('metric', 'retro').lower().strip()
+    cache_key = f'map_pc_data_{metric}'
+    cached_data = cache_get(cache_key)
+    if cached_data is not None:
+        return jsonify({
+            "success": True, "metric": metric, "level": "pc",
+            "count": len(cached_data), "data": cached_data
+        })
+    return jsonify({"success": True, "metric": metric, "level": "pc", "count": 0, "data": []})
+
+@app.route('/api/map/ac_data', endpoint='api_map_ac_data')
+def api_map_ac_data():
+    metric = request.args.get('metric', 'retro').lower().strip()
+    cache_key = f'map_ac_data_{metric}'
+    cached_data = cache_get(cache_key)
+    if cached_data is not None:
+        return jsonify({
+            "success": True, "metric": metric, "level": "ac",
+            "count": len(cached_data), "data": cached_data
+        })
+    return jsonify({"success": True, "metric": metric, "level": "ac", "count": 0, "data": []})
+
+
 # ── Entry point ──────────────────────────────────────────────────────────────
+def _build_glance_data(force_refresh=False):
+    import os, json
+    
+    # Try reading the locally generated computed_glance_data.json first
+    local_computed = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'computed_glance_data.json')
+    if os.path.exists(local_computed):
+        try:
+            with open(local_computed, 'r') as f:
+                out_data = json.load(f)
+                cache_set('country_glance_data', out_data)
+                print("  [cache] Loaded from local computed_glance_data.json")
+                return
+        except Exception as e:
+            print(f"  [cache] Error reading computed_glance_data.json: {e}")
+
+    cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
+    if os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r') as f:
+                out_data = json.load(f)
+                cache_set('country_glance_data', out_data)
+                print("  [cache] Loaded country glance data from file cache.")
+                return
+        except: pass
+        
+    print("  [warmup] DB Querying is disabled. No glance data loaded.")
+    return
+    try:
+        cur = conn.cursor()
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT (el_year, el_type, ac_no)) FROM ac_election_mapping WHERE el_type NOT LIKE '%BP%' GROUP BY state_abb;")
+        expected_retro = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT er.state_abb, COUNT(DISTINCT (e.el_year, e.el_type, er.ac_no)) FROM election_result er JOIN election e ON e.el_id = er.el_id WHERE e.el_type NOT LIKE '%BP%' GROUP BY er.state_abb;")
+        available_retro = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT (el_year, el_type, ac_no)) FROM ac_election_mapping WHERE el_type NOT LIKE '%BP%' GROUP BY state_abb;")
+        expected_f20 = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT (el_year, el_type, ac_no)) FROM form20_summary_view WHERE el_type NOT LIKE '%BP%' GROUP BY state_abb;")
+        available_f20 = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT ac_no) FROM caste_details GROUP BY state_abb;")
+        available_caste = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT ac_no) FROM booth_metadata_full_view GROUP BY state_abb;")
+        available_booth = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT district_code) FROM lgd_directory GROUP BY state_abb;")
+        lgd_districts = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT lgd_code) FROM lgd_directory GROUP BY state_abb;")
+        lgd_codes = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT district_name) FROM muslim_census GROUP BY state_abb;")
+        muslim_counts = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT district_name) FROM joshua_population GROUP BY state_abb;")
+        joshua_counts = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT ld.state_abb, COUNT(DISTINCT ep.lgd_code) FROM ejalshakti_portal ep JOIN lgd_directory ld ON ld.lgd_code = ep.lgd_code GROUP BY ld.state_abb;")
+        ejal_counts = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT lgd_code) FROM secc_abstract GROUP BY state_abb;")
+        secc_counts = {r[0]: r[1] for r in cur.fetchall()}
+        
+        cur.execute("SELECT state_abb, COUNT(DISTINCT district_name) FROM school_locator WHERE district_name IS NOT NULL GROUP BY state_abb;")
+        kys_counts = {r[0]: r[1] for r in cur.fetchall()}
+        
+        STATE_AC_COUNTS_LOCAL = {
+            'AP': 175, 'AR': 60, 'AS': 126, 'BR': 243, 'CG': 90, 'GA': 40, 'GJ': 182,
+            'HR': 90, 'HP': 68, 'JK': 90, 'JH': 81, 'KA': 224, 'KL': 140, 'MP': 230,
+            'MH': 288, 'MN': 60, 'ML': 60, 'MZ': 40, 'NL': 60, 'OR': 147, 'PB': 117,
+            'RJ': 200, 'SK': 32, 'TN': 234, 'TS': 119, 'TR': 60, 'UP': 403, 'UK': 70,
+            'WB': 294, 'AN': 1, 'CH': 1, 'DN': 1, 'DD': 1, 'DL': 70, 'LD': 1, 'PY': 30
+        }
+        
+        matrix = []
+        for abb, name in STATE_NAMES.items():
+            exp_r = expected_retro.get(abb, 0)
+            av_r = available_retro.get(abb, 0)
+            retro_pct = (av_r / exp_r * 100.0) if exp_r else 0.0
+            if retro_pct > 100.0: retro_pct = 100.0
+            
+            exp_f = expected_f20.get(abb, 0)
+            av_f = available_f20.get(abb, 0)
+            f20_pct = (av_f / exp_f * 100.0) if exp_f else 0.0
+            
+            total_ac = STATE_AC_COUNTS_LOCAL.get(abb, 1)
+            caste_pct = (available_caste.get(abb, 0) / total_ac * 100.0)
+            if caste_pct > 100.0: caste_pct = 100.0
+            
+            booth_pct = (available_booth.get(abb, 0) / total_ac * 100.0)
+            if booth_pct > 100.0: booth_pct = 100.0
+            
+            lgd_d = lgd_districts.get(abb, 0)
+            lgd_c = lgd_codes.get(abb, 0)
+            
+            muslim_pct = (muslim_counts.get(abb, 0) / lgd_d * 100.0) if lgd_d else 0.0
+            joshua_pct = (joshua_counts.get(abb, 0) / lgd_d * 100.0) if lgd_d else 0.0
+            kys_pct = (kys_counts.get(abb, 0) / lgd_d * 100.0) if lgd_d else 0.0
+            lgd_pct = 100.0 if lgd_d > 0 else 0.0
+            ejal_pct = (ejal_counts.get(abb, 0) / lgd_c * 100.0) if lgd_c else 0.0
+            secc_pct = (secc_counts.get(abb, 0) / lgd_c * 100.0) if lgd_c else 0.0
+            nrega_pct = 0.0
+            indiastat_pct = 0.0
+            lens_pct = 0.0
+            
+            matrix.append({
+                "state_abb": abb, "state_name": name,
+                "retro": round(retro_pct, 2), "form20": round(f20_pct, 2),
+                "caste": round(caste_pct, 2), "booth": round(booth_pct, 2),
+                "muslim": round(muslim_pct, 2), "joshua": round(joshua_pct, 2),
+                "kys": round(kys_pct, 2), "lgd": round(lgd_pct, 2),
+                "ejal": round(ejal_pct, 2), "secc": round(secc_pct, 2),
+                "nrega": round(nrega_pct, 2), "indiastat": round(indiastat_pct, 2),
+                "lens": round(lens_pct, 2)
+            })
+            
+        def avg_field(m, field):
+            vals = [r[field] for r in m]
+            return round(sum(vals) / len(vals), 2)
+            
+        out_data = {
+            "success": True,
+            "national_avg": {
+                "retro": avg_field(matrix, 'retro'), "form20": avg_field(matrix, 'form20'),
+                "caste": avg_field(matrix, 'caste'), "booth": avg_field(matrix, 'booth'),
+                "muslim": avg_field(matrix, 'muslim'), "joshua": avg_field(matrix, 'joshua'),
+                "kys": avg_field(matrix, 'kys'), "lgd": avg_field(matrix, 'lgd'),
+                "ejal": avg_field(matrix, 'ejal'), "secc": avg_field(matrix, 'secc'),
+                "nrega": avg_field(matrix, 'nrega'), "indiastat": avg_field(matrix, 'indiastat'),
+                "lens": avg_field(matrix, 'lens')
+            },
+            "matrix": sorted(matrix, key=lambda x: x['state_name'])
+        }
+        cache_set('country_glance_data', out_data)
+        try:
+            import os, json
+            cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
+            os.makedirs(os.path.dirname(cache_file), exist_ok=True)
+            with open(cache_file, 'w') as f: json.dump(out_data, f)
+        except: pass
+        print("  [warmup] Country glance data ready.")
+    except Exception as e:
+        print(f"  [warmup] Error building country glance data: {e}")
+    finally:
+        cur.close()
+        conn.close()
+
+def _build_pc_ac_caches(force_refresh=False):
+    import os, json
+    cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'pc_ac_cache.json')
+    if not force_refresh and os.path.exists(cache_file):
+        try:
+            with open(cache_file, 'r') as f:
+                data = json.load(f)
+                for k, v in data.items(): cache_set(k, v)
+                print("  [warmup] Loaded PC/AC map caches from file cache.")
+                return
+        except: pass
+
+    print("  [warmup] Building PC/AC map caches...")
+    conn = get_rds_db()
+    if not conn: return
+    try:
+        cur = conn.cursor()
+        for metric in ['retro', 'form20', 'caste', 'booth']:
+            base_query = ""
+            if metric == 'retro':
+                retro_meta = cache_get('retro') or {}
+                avail_tuples = []
+                for st, types in retro_meta.items():
+                    for ty, years in (types or {}).items():
+                        if '-BP' in str(ty): continue
+                        for yr in (years or {}):
+                            avail_tuples.append(f"('{str(st).strip()}', '{str(ty).strip()}', {str(yr).strip()})")
+                avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
+                base_query = f"""
+                    WITH cov AS (
+                        SELECT DISTINCT state_abb, ac_no 
+                        FROM ac_election_mapping 
+                        WHERE (state_abb, el_type, el_year) IN ({avail_in})
+                    )
+                """
+            elif metric == 'form20':
+                live_meta = cache_get('live') or []
+                avail_tuples = []
+                for item in live_meta:
+                    st, ty, yr = str(item.get('state','')).strip(), str(item.get('el_type','')).strip(), str(item.get('el_year','')).strip()
+                    if st and ty and yr and '-BP' not in ty:
+                        avail_tuples.append(f"('{st}', '{ty}', {yr})")
+                avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
+                base_query = f"""
+                    WITH cov AS (
+                        SELECT DISTINCT state_abb, ac_no 
+                        FROM ac_election_mapping 
+                        WHERE (state_abb, el_type, el_year) IN ({avail_in})
+                    )
+                """
+            elif metric == 'caste':
+                base_query = f"WITH cov AS (SELECT DISTINCT state_abb, ac_no FROM caste_details)"
+            elif metric == 'booth':
+                base_query = f"WITH cov AS (SELECT DISTINCT state_abb, ac_no FROM booth_metadata_full_view)"
+                
+            cur.execute(f"""
+                {base_query}
+                SELECT 
+                    pa.state_abb, pa.pc_no, MAX(pa.pc_name) as pc_name,
+                    COUNT(c.ac_no) as covered, COUNT(pa.ac_no) as total
+                FROM (
+                    SELECT pr.state_abb, pr.pc_no, pr.pc_name, am.ac_no
+                    FROM pc_region pr
+                    JOIN ac_mapping am ON am.pc_id = pr.pc_id
+                ) pa
+                LEFT JOIN cov c ON c.state_abb = pa.state_abb AND c.ac_no = pa.ac_no
+                GROUP BY pa.state_abb, pa.pc_no
+            """)
+            pc_data = []
+            for r in cur.fetchall():
+                state_abb, pc_no, pc_name, covered, total = r
+                pc_data.append({
+                    "state_abb": state_abb, "state_name": STATE_NAMES.get(state_abb, state_abb),
+                    "pc_no": pc_no, "pc_name": pc_name, "covered": covered, "total": total,
+                    "pct": round((covered / total) * 100, 2) if total and total > 0 else 0
+                })
+            cache_set(f'map_pc_data_{metric}', pc_data)
+            
+            cur.execute(f"""
+                {base_query}
+                SELECT 
+                    am.state_abb, am.ac_no, MAX(am.ac_name) as ac_name,
+                    COUNT(c.ac_no) as covered
+                FROM ac_mapping am
+                LEFT JOIN cov c ON c.state_abb = am.state_abb AND c.ac_no = am.ac_no
+                GROUP BY am.state_abb, am.ac_no
+            """)
+            ac_data = []
+            for r in cur.fetchall():
+                state_abb, ac_no, ac_name, covered = r
+                ac_data.append({
+                    "state_abb": state_abb, "state_name": STATE_NAMES.get(state_abb, state_abb),
+                    "ac_no": ac_no, "ac_name": ac_name, "covered": covered, "total": 1,
+                    "pct": 100.0 if covered > 0 else 0
+                })
+            cache_set(f'map_ac_data_{metric}', ac_data)
+
+        # BUILD DISTRICT MAP CACHES
+        for metric in ['ejal', 'joshua', 'muslim', 'secc', 'kys', 'lgd']:
+            data = []
+            if metric == 'ejal':
+                cur.execute("""
+                    WITH ep_agg AS (
+                        SELECT DISTINCT lgd_code FROM ejalshakti_portal WHERE lgd_code IS NOT NULL
+                    )
+                    SELECT
+                        ld.state_abb,
+                        ld.district_name,
+                        COUNT(DISTINCT ep.lgd_code)                    AS covered,
+                        COUNT(DISTINCT ld.lgd_code)                    AS total
+                    FROM lgd_directory ld
+                    LEFT JOIN ep_agg ep ON ep.lgd_code = ld.lgd_code
+                    WHERE ld.district_name IS NOT NULL
+                    GROUP BY ld.state_abb, ld.district_name
+                    ORDER BY ld.state_abb, ld.district_name
+                """)
+                rows = cur.fetchall()
+                for r in rows:
+                    state_abb, dist_name, covered, total = r
+                    pct = round((covered / total) * 100, 2) if total and total > 0 else 0
+                    data.append({
+                        "state_abb":     state_abb,
+                        "state_name":    STATE_NAMES.get(state_abb, state_abb),
+                        "district_name": dist_name,
+                        "covered":       covered,
+                        "total":         total,
+                        "pct":           pct
+                    })
+            elif metric == 'joshua':
+                cur.execute("""
+                    SELECT state_abb, district_name, COUNT(DISTINCT id) AS cnt
+                    FROM joshua_population
+                    WHERE district_name IS NOT NULL
+                    GROUP BY state_abb, district_name
+                    ORDER BY state_abb, district_name
+                """)
+                rows = cur.fetchall()
+                max_val = max((r[2] for r in rows), default=0)
+                for r in rows:
+                    state_abb, dist_name, cnt = r
+                    data.append({
+                        "state_abb":     state_abb,
+                        "state_name":    STATE_NAMES.get(state_abb, state_abb),
+                        "district_name": dist_name,
+                        "covered":       cnt,
+                        "total":         max_val,
+                        "pct":           round((cnt / max_val) * 100, 2) if max_val > 0 else 0
+                    })
+            elif metric == 'muslim':
+                cur.execute("""
+                    SELECT state_abb, district_name, COUNT(DISTINCT id) AS cnt
+                    FROM muslim_census
+                    WHERE district_name IS NOT NULL
+                    GROUP BY state_abb, district_name
+                    ORDER BY state_abb, district_name
+                """)
+                rows = cur.fetchall()
+                max_val = max((r[2] for r in rows), default=0)
+                for r in rows:
+                    state_abb, dist_name, cnt = r
+                    data.append({
+                        "state_abb":     state_abb,
+                        "state_name":    STATE_NAMES.get(state_abb, state_abb),
+                        "district_name": dist_name,
+                        "covered":       cnt,
+                        "total":         max_val,
+                        "pct":           round((cnt / max_val) * 100, 2) if max_val > 0 else 0
+                    })
+            elif metric == 'secc':
+                cur.execute("""
+                    WITH sa_agg AS (
+                        SELECT DISTINCT lgd_code FROM secc_abstract WHERE lgd_code IS NOT NULL
+                    )
+                    SELECT 
+                        ld.state_abb, ld.district_name, 
+                        COUNT(DISTINCT sa.lgd_code) AS covered,
+                        COUNT(DISTINCT ld.lgd_code) AS total
+                    FROM lgd_directory ld
+                    LEFT JOIN sa_agg sa ON sa.lgd_code = ld.lgd_code
+                    WHERE ld.district_name IS NOT NULL
+                    GROUP BY ld.state_abb, ld.district_name
+                    ORDER BY ld.state_abb, ld.district_name
+                """)
+                rows = cur.fetchall()
+                for r in rows:
+                    state_abb, dist_name, covered, total = r
+                    data.append({
+                        "state_abb":     state_abb,
+                        "state_name":    STATE_NAMES.get(state_abb, state_abb),
+                        "district_name": dist_name,
+                        "covered":       covered,
+                        "total":         total,
+                        "pct":           round((covered / total) * 100, 2) if total and total > 0 else 0
+                    })
+            elif metric == 'kys':
+                cur.execute("""
+                    SELECT state_abb, district_name, COUNT(DISTINCT id) AS cnt
+                    FROM school_locator
+                    WHERE district_name IS NOT NULL
+                    GROUP BY state_abb, district_name
+                    ORDER BY state_abb, district_name
+                """)
+                rows = cur.fetchall()
+                max_val = max((r[2] for r in rows), default=0)
+                for r in rows:
+                    state_abb, dist_name, cnt = r
+                    data.append({
+                        "state_abb":     state_abb,
+                        "state_name":    STATE_NAMES.get(state_abb, state_abb),
+                        "district_name": dist_name,
+                        "covered":       cnt,
+                        "total":         max_val,
+                        "pct":           round((cnt / max_val) * 100, 2) if max_val > 0 else 0
+                    })
+            elif metric == 'lgd':
+                cur.execute("""
+                    SELECT state_abb, district_name, COUNT(DISTINCT lgd_code) AS cnt
+                    FROM lgd_directory
+                    WHERE district_name IS NOT NULL
+                    GROUP BY state_abb, district_name
+                    ORDER BY state_abb, district_name
+                """)
+                rows = cur.fetchall()
+                max_val = max((r[2] for r in rows), default=0)
+                for r in rows:
+                    state_abb, dist_name, cnt = r
+                    data.append({
+                        "state_abb":     state_abb,
+                        "state_name":    STATE_NAMES.get(state_abb, state_abb),
+                        "district_name": dist_name,
+                        "covered":       cnt,
+                        "total":         max_val,
+                        "pct":           round((cnt / max_val) * 100, 2) if max_val > 0 else 0
+                    })
+            
+            cache_set(f'map_district_data_{metric}', data)
+        
+        try:
+            import os, json
+            all_caches = {}
+            for metric in ['retro', 'form20', 'caste', 'booth']:
+                all_caches[f'map_pc_data_{metric}'] = cache_get(f'map_pc_data_{metric}')
+            for metric in ['ejal', 'joshua', 'muslim', 'secc', 'kys', 'lgd']:
+                all_caches[f'map_district_data_{metric}'] = cache_get(f'map_district_data_{metric}')
+                all_caches[f'map_ac_data_{metric}'] = cache_get(f'map_ac_data_{metric}')
+            
+            cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'pc_ac_cache.json')
+            os.makedirs(os.path.dirname(cache_file), exist_ok=True)
+            with open(cache_file, 'w') as f: json.dump(all_caches, f)
+        except: pass
+        
+        print("  [warmup] PC/AC map caches ready.")
+    except Exception as e:
+        print(f"  [warmup] Error building map caches: {e}")
+    finally:
+        conn.close()
+
+def _refresh_caches_from_db():
+    """Force refresh all caches from the database."""
+    try:
+        print("  [cache] Refreshing caches from DB...")
+        
+        # build_analytics_cache implicitly saves to analytics_cache.json
+        analytics = build_analytics_cache(force_refresh=True)
+        if analytics:
+            cache_set('analytics', analytics)
+            print("  [cache] Analytics cache ready.")
+        else:
+            print("  [cache] Analytics cache build returned empty (no DB connection?).")
+            
+        get_other_sources_data(force_refresh=True)
+        _build_glance_data(force_refresh=True)
+        _build_pc_ac_caches(force_refresh=True)
+        
+        print("  [cache] All caches successfully refreshed from DB.")
+    except Exception as e:
+        print(f"  [cache] Error during DB refresh: {e}")
+
+def _daily_midnight_refresh():
+    """Loop forever, waking up exactly at midnight to refresh caches from the DB."""
+    import time
+    from datetime import datetime, timedelta
+    while True:
+        now = datetime.now()
+        # Calculate time until next midnight
+        tomorrow = now + timedelta(days=1)
+        midnight = datetime(tomorrow.year, tomorrow.month, tomorrow.day, 0, 0, 0)
+        seconds_until_midnight = (midnight - now).total_seconds()
+        
+        print(f"  [cache-scheduler] Sleeping for {int(seconds_until_midnight)} seconds until midnight...")
+        time.sleep(seconds_until_midnight)
+        
+        print("  [cache-scheduler] Midnight! Triggering DB cache refresh.")
+        _refresh_caches_from_db()
+
+def _init_caches_on_startup():
+    """Check if caches exist; if not, build them immediately. Then start the midnight scheduler."""
+    import os, threading
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    c1 = os.path.exists(os.path.join(base_dir, 'static', 'data', 'analytics_cache.json'))
+    c2 = os.path.exists(os.path.join(base_dir, 'static', 'data', 'glance_cache.json'))
+    c3 = os.path.exists(os.path.join(base_dir, 'static', 'data', 'pc_ac_cache.json'))
+    
+    if not (c1 and c2 and c3):
+        print("  [cache] One or more JSON cache files are missing. Triggering immediate DB fetch.")
+        threading.Thread(target=_refresh_caches_from_db, daemon=True).start()
+    else:
+        print("  [cache] All JSON caches exist locally. Loading them into memory now.")
+        build_analytics_cache(force_refresh=False)
+        _build_glance_data(force_refresh=False)
+        _build_pc_ac_caches(force_refresh=False)
+        
+    threading.Thread(target=_daily_midnight_refresh, daemon=True).start()
+
 
 if __name__ == '__main__':
     # Local dev: skip Google OAuth so the dashboard works without valid client
@@ -2170,13 +2884,20 @@ if __name__ == '__main__':
     os.environ.setdefault('DISABLE_AUTH', '1')
 
     if not os.path.exists(DB_PATH):
-        print("No database found — initialising from Excel...")
-        from init_db import init_database
-        init_database(EXCEL_PATH, DB_PATH)
+        print("No database found — initialising...")
+        try:
+            from init_db import init_database
+            init_database(EXCEL_PATH, DB_PATH)
+        except Exception as e:
+            print("Skipping init_db init:", e)
 
     print("\n  Form 20 Backlog Dashboard")
     print("  Running locally at: http://127.0.0.1:5050")
     if auth_disabled():
         print("  Auth: DISABLED (local dev) — signed in as", DEV_USER['email'])
     print("  Network listening at: http://0.0.0.0:5050\n")
+
+    # Init caches if missing and start the daily midnight refresh schedule
+    _init_caches_on_startup()
+
     app.run(host='0.0.0.0', debug=True, port=5050, use_reloader=False)

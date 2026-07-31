@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Country Glance Map | Project CleanRoom</title>
+  <link rel="icon" href="/static/favicon.png" type="image/png">
+
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" rel="stylesheet"/>
+
+  <!-- Uber Deck.gl & MapLibre GL Libraries (Local for instant loading) -->
+  <script src="/static/js/deck.gl.min.js"></script>
+  <script src="/static/js/maplibre-gl.js"></script>
+  <link href="/static/css/maplibre-gl.css" rel="stylesheet" />
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Inter", "system-ui", "sans-serif"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #f5f5f5;
+      color: #111827;
+      -webkit-font-smoothing: antialiased;
+      overflow: hidden;
+    }
+    h1, h2, h3 { letter-spacing: -0.02em; }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+      font-size: 18px; vertical-align: middle; line-height: 1;
+    }
+
+    /* ── Exact nav-tab from index.html & country_glance_test.html ── */
+    .nav-tab { position: relative; transition: color 0.1s, background 0.1s; }
+    .nav-tab.active { color: #111827; font-weight: 600; }
+    .nav-tab.active::after {
+      content: ''; position: absolute; bottom: -1px; left: 0; right: 0;
+      height: 2px; background: #111827; border-radius: 2px 2px 0 0;
+    }
+    .nav-tab:not(.active) { color: #6b7280; }
+    .nav-tab:not(.active):hover { color: #374151; background: #f9fafb; }
+
+    /* ── Deck.gl Canvas Container ── */
+    #deck-canvas-container {
+      position: absolute;
+      top: 48px; left: 0; right: 0; bottom: 0;
+      width: 100%; height: calc(100vh - 48px);
+      background: #f1f5f9;
+    }
+
+    /* ── Status Dots ── */
+    .sdot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+    .sdot-dark-green  { background:#059669; box-shadow:0 0 0 2.5px #d1fae5; }
+    .sdot-light-green { background:#34d399; box-shadow:0 0 0 2.5px #ecfdf5; }
+    .sdot-yellow      { background:#fbbf24; box-shadow:0 0 0 2.5px #fef3c7; }
+    .sdot-orange      { background:#f97316; box-shadow:0 0 0 2.5px #ffedd5; }
+    .sdot-red         { background:#dc2626; box-shadow:0 0 0 2.5px #fee2e2; }
+    .sdot-grey        { background:#a1a1aa; box-shadow:0 0 0 2.5px #f4f4f5; }
+
+    /* ── Tab pills ── */
+    .filter-tab-active   { background:#18181b; color:#fff; box-shadow:0 1px 3px rgba(0,0,0,0.15); }
+    .filter-tab-inactive { background:transparent; color:#71717a; }
+    .filter-tab-inactive:hover { background:rgba(0,0,0,0.05); color:#18181b; }
+
+    /* ── Metric buttons ── */
+    .metric-btn-active   { background:#18181b; color:#fff; border-color:#18181b; }
+    .metric-btn-inactive { background:#f9fafb; color:#374151; border-color:#e5e7eb; }
+    .metric-btn-inactive:hover { background:#f3f4f6; }
+
+    /* ── Custom Tooltip ── */
+    .map-tooltip {
+      position: absolute;
+      pointer-events: none;
+      z-index: 50;
+      background: rgba(255, 255, 255, 0.97);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border: 1px solid rgba(0,0,0,0.10);
+      box-shadow: 0 10px 25px -5px rgba(0,0,0,0.13), 0 0 0 1px rgba(0,0,0,0.04);
+      border-radius: 12px;
+      padding: 12px 14px;
+      color: #111827;
+      font-size: 12px;
+      display: none;
+      min-width: 230px;
+      max-width: 280px;
+    }
+
+    /* ── Loading overlay ── */
+    #loading-overlay {
+      position: absolute; top: 48px; left: 0; right: 0; bottom: 0;
+      background: rgba(245,245,245,0.92);
+      z-index: 100;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      gap: 12px;
+    }
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid #e5e7eb;
+      border-top-color: #18181b;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Level badge ── */
+    .level-badge {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 11px; font-weight: 700; letter-spacing: 0.03em;
+      padding: 4px 10px; border-radius: 99px; cursor: pointer; transition: all 0.2s;
+    }
+    .level-inactive { background: #ffffff; color: #6b7280; border: 1px solid #e5e7eb; }
+    .level-inactive:hover { background: #f9fafb; color: #374151; }
+    
+    .level-state-active    { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
+    .level-district-active { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
+    .level-pc-active       { background: #fdf4ff; color: #a21caf; border: 1px solid #fae8ff; }
+    .level-ac-active       { background: #fffbeb; color: #b45309; border: 1px solid #fef3c7; }
+
+    /* Scrollbars */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #d4d4d8; border-radius: 99px; }
+  </style>
+</head>
+
+<body class="antialiased flex flex-col h-screen overflow-hidden">
+
+<!-- ═══════════════════════════════════════════
+     TOP NAVIGATION — exact match to index.html
+═══════════════════════════════════════════ -->
+<nav class="fixed top-0 left-0 w-full z-50 h-[48px] bg-white border-b border-gray-200 flex items-center justify-between px-5">
+  <div class="flex items-center gap-5 h-full">
+    <!-- Logo -->
+    <div class="flex items-center gap-2 shrink-0">
+      <div class="w-6 h-6 rounded-md bg-gray-900 flex items-center justify-center">
+        <span class="material-symbols-outlined text-white" style="font-size:13px;">ballot</span>
+      </div>
+      <span class="text-[13px] font-semibold text-gray-900 tracking-tight">Project CleanRoom</span>
+    </div>
+
+    <div class="w-px h-4 bg-gray-200 shrink-0"></div>
+
+    <!-- Nav Links -->
+    <div class="hidden md:flex items-center h-full">
+      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Dashboard</a>
+      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Backlog Tracker</a>
+      <a href="/" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
+        <span class="material-symbols-outlined text-gray-400" style="font-size:14px;">fact_check</span>
+        Weekly Report
+      </a>
+      <a href="/country-glance-test" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
+        <span class="material-symbols-outlined text-gray-500" style="font-size:14px;">table_chart</span>
+        Glance Table
+      </a>
+      <a href="/country-glance-map" class="nav-tab active h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
+        <span class="material-symbols-outlined text-gray-900" style="font-size:14px;">public</span>
+        Country Glance Map
+      </a>
+    </div>
+  </div>
+
+  <!-- Right: Profile -->
+  <div class="flex items-center gap-3 pr-1">
+    <div class="flex items-center gap-2">
+      {% if user and user.picture %}
+        <img src="{{ user.picture }}" alt="Profile" class="w-6 h-6 rounded-full border border-gray-200">
+      {% else %}
+        <div class="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center border border-indigo-200">
+          <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">person</span>
+        </div>
+      {% endif %}
+      <span class="text-[12px] font-medium text-gray-700 hidden md:block">
+        {{ user.email if user else 'Guest' }}
+      </span>
+    </div>
+    <a href="/logout" class="h-7 px-2.5 text-[11.5px] font-semibold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors flex items-center">
+      Logout
+    </a>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════
+     DECK.GL MAP CONTAINER
+═══════════════════════════════════════════ -->
+<div id="deck-canvas-container">
+  <div id="maplibre-bg" style="width:100%; height:100%;"></div>
+</div>
+
+<!-- Loading Overlay -->
+<div id="loading-overlay">
+  <div class="spinner"></div>
+  <p class="text-sm font-medium text-gray-600" id="loading-text">Loading map data...</p>
+</div>
+
+<!-- No Data Warning Overlay -->
+<div id="no-data-warning" style="display: none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(17,24,39,0.7); z-index: 40; justify-content: center; align-items: center; backdrop-filter: blur(2px);">
+  <div class="bg-gray-800 border border-gray-700 text-white rounded-xl shadow-2xl p-6 max-w-sm text-center flex flex-col items-center">
+    <svg class="w-12 h-12 text-yellow-500 mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
+    <h3 class="text-lg font-bold mb-1">Data Not In Database</h3>
+    <p class="text-sm text-gray-300">The selected metric has 0 records in the database for this boundary level.</p>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     FLOATING CONTROL PANEL (LIGHT THEME)
+═══════════════════════════════════════════ -->
+<aside class="fixed top-[64px] left-6 z-40 w-[288px] bg-white/90 backdrop-blur-md border border-gray-200/80 rounded-2xl p-5 space-y-4 shadow-lg shadow-gray-900/5 max-h-[calc(100vh-80px)] overflow-y-auto">
+
+  <div>
+    <div class="flex items-center justify-between mb-0.5">
+      <h1 class="text-base font-bold text-gray-900 flex items-center gap-1.5">
+        <span class="material-symbols-outlined text-gray-700" style="font-size:18px;">public</span>
+        India Data Map
+      </h1>
+      <span class="text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full">Live RDS</span>
+    </div>
+    <div class="mt-2 space-y-1.5">
+      <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Boundary Level</p>
+      <div class="flex items-center gap-1.5">
+        <button onclick="setGranularity('state')" id="btn-gran-state" class="level-badge level-state-active">State</button>
+        <button onclick="setGranularity('pc')" id="btn-gran-pc" class="level-badge level-inactive">PC</button>
+        <button onclick="setGranularity('ac')" id="btn-gran-ac" class="level-badge level-inactive">AC</button>
+        <button onclick="setGranularity('district')" id="btn-gran-district" class="level-badge level-inactive hidden">District</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ECI vs Other Tab selector -->
+  <div class="flex items-center bg-gray-100 p-1 rounded-xl border border-gray-200 text-[11.5px] font-semibold gap-0.5">
+    <button id="main-tab-eci" onclick="switchMainTab('eci')" class="filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all">ECI Primary</button>
+    <button id="main-tab-other" onclick="switchMainTab('other')" class="filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all">Auxiliary Sources</button>
+  </div>
+
+  <!-- Layer Selectors -->
+  <div class="space-y-3">
+    <!-- ECI Primary Options -->
+    <div id="group-opts-eci" class="space-y-1.5">
+      <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Select Metric (AC-wise %)</p>
+
+      <button onclick="setMetric('retro')" id="btn-metric-retro"
+        class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-semibold metric-btn-active border transition">
+        <span class="flex items-center gap-2">
+          <span class="sdot sdot-dark-green"></span> Retro Data
+        </span>
+        <span class="font-mono text-emerald-300 font-bold" id="badge-retro">–%</span>
+      </button>
+
+      <button onclick="setMetric('form20')" id="btn-metric-form20"
+        class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+        <span class="flex items-center gap-2">
+          <span class="sdot sdot-yellow"></span> Form 20
+        </span>
+        <span class="font-mono text-gray-600" id="badge-form20">–%</span>
+      </button>
+
+      <button onclick="setMetric('caste')" id="btn-metric-caste"
+        class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+        <span class="flex items-center gap-2">
+          <span class="sdot sdot-light-green"></span> Caste Data
+        </span>
+        <span class="font-mono text-gray-600" id="badge-caste">–%</span>
+      </button>
+
+      <button onclick="setMetric('booth')" id="btn-metric-booth"
+        class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+        <span class="flex items-center gap-2">
+          <span class="sdot sdot-yellow"></span> Booth Details
+        </span>
+        <span class="font-mono text-gray-600" id="badge-booth">–%</span>
+      </button>
+    </div>
+
+    <!-- Auxiliary Options -->
+    <div id="group-opts-other" class="hidden space-y-1.5">
+      <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Select Metric (District-wise %)</p>
+      <div class="space-y-1.5">
+        <button onclick="setMetric('ejal')" id="btn-metric-ejal"
+          class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+          <span class="flex items-center gap-2">
+            <span class="sdot sdot-dark-green"></span> Ejalshakti
+          </span>
+          <span class="font-mono text-gray-500 text-[10px]">District</span>
+        </button>
+        <button onclick="setMetric('joshua')" id="btn-metric-joshua"
+          class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+          <span class="flex items-center gap-2">
+            <span class="sdot sdot-light-green"></span> Joshua Pop.
+          </span>
+          <span class="font-mono text-gray-500 text-[10px]">District</span>
+        </button>
+        <button onclick="setMetric('muslim')" id="btn-metric-muslim"
+          class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+          <span class="flex items-center gap-2">
+            <span class="sdot sdot-yellow"></span> Muslim Census
+          </span>
+          <span class="font-mono text-gray-500 text-[10px]">District</span>
+        </button>
+        <button onclick="setMetric('secc')" id="btn-metric-secc"
+          class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+          <span class="flex items-center gap-2">
+            <span class="sdot sdot-orange"></span> SECC
+          </span>
+          <span class="font-mono text-gray-500 text-[10px]">District</span>
+        </button>
+        <button onclick="setMetric('kys')" id="btn-metric-kys"
+          class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+          <span class="flex items-center gap-2">
+            <span class="sdot sdot-light-green"></span> KYS Schools
+          </span>
+          <span class="font-mono text-gray-500 text-[10px]">District</span>
+        </button>
+        <button onclick="setMetric('lgd')" id="btn-metric-lgd"
+          class="w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium metric-btn-inactive border transition">
+          <span class="flex items-center gap-2">
+            <span class="sdot sdot-dark-green"></span> LGD Directory
+          </span>
+          <span class="font-mono text-gray-500 text-[10px]">District</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Threshold Legend -->
+  <div class="border-t border-gray-200 pt-3 space-y-2">
+    <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Coverage Thresholds</p>
+    <div class="grid grid-cols-2 gap-x-3 gap-y-1.5 text-[11px] text-gray-600 font-medium">
+      <div class="flex items-center gap-1.5"><span class="sdot sdot-dark-green"></span> 95–100%</div>
+      <div class="flex items-center gap-1.5"><span class="sdot sdot-light-green"></span> 80–94%</div>
+      <div class="flex items-center gap-1.5"><span class="sdot sdot-yellow"></span> 50–79%</div>
+      <div class="flex items-center gap-1.5"><span class="sdot sdot-orange"></span> 11–49%</div>
+      <div class="flex items-center gap-1.5"><span class="sdot sdot-red"></span> 1–10%</div>
+      <div class="flex items-center gap-1.5"><span class="sdot sdot-grey"></span> No data</div>
+    </div>
+  </div>
+
+  <!-- Stats summary bar -->
+  <div id="stats-bar" class="border-t border-gray-200 pt-3 hidden">
+    <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-2">Summary</p>
+    <div class="grid grid-cols-2 gap-2 text-[11px]">
+      <div class="bg-gray-50 rounded-lg p-2 border border-gray-200">
+        <div class="text-gray-400 mb-0.5">Covered</div>
+        <div class="font-bold text-gray-900" id="stat-covered">–</div>
+      </div>
+      <div class="bg-gray-50 rounded-lg p-2 border border-gray-200">
+        <div class="text-gray-400 mb-0.5">Total</div>
+        <div class="font-bold text-gray-900" id="stat-total">–</div>
+      </div>
+    </div>
+  </div>
+
+</aside>
+
+<!-- Hover Tooltip Container -->
+<div id="map-tooltip" class="map-tooltip">
+  <div class="flex items-center justify-between border-b border-gray-100 pb-2 mb-2">
+    <div>
+      <strong id="tooltip-region" class="text-xs font-bold text-gray-900 block">Region</strong>
+      <span id="tooltip-parent" class="text-[10px] text-gray-400"></span>
+    </div>
+    <span id="tooltip-score" class="text-[11px] font-mono font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded whitespace-nowrap">–%</span>
+  </div>
+  <div class="space-y-1 text-[11px] text-gray-600" id="tooltip-details">
+    <!-- Populated on hover -->
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════════════
+     DECK.GL MAP JAVASCRIPT
+═══════════════════════════════════════════ -->
+<script>
+// ─── State ─────────────────────────────────────────────────────────────────
+  let activeMainTab = 'eci';
+  let activeMetric  = 'retro';
+  let activeGranularity = 'state'; // 'state', 'district', 'pc', 'ac'
+
+  let stateData     = [];   // array of {state_abb, state_name, retro, form20, ...}
+  let districtCache = {};   // metric → {key: {pct, covered, total}}
+  let pcCache       = {};   // metric → {dict: {...}, coveredCount, totalCount}
+  let acCache       = {};   // metric → {dict: {...}, coveredCount, totalCount}
+
+  let stateGeoJSON  = null;
+  let districtGeoJSON = null;
+  let pcGeoJSON     = null;
+  let acGeoJSON     = null;
+  
+  let deckgl        = null;
+  let maplibre      = null;
+
+  const DISTRICT_METRICS = new Set(['ejal', 'joshua', 'muslim', 'secc', 'kys', 'lgd']);
+  const ALL_METRICS = ['retro','form20','caste','booth','ejal','joshua','muslim','secc','kys','lgd'];
+
+  // ─── Color scale ───────────────────────────────────────────────────────────
+  function getRGBA(val) {
+    if (val === null || val === undefined || val < 0) return [161, 161, 170, 140]; // grey — no data
+    const p = parseFloat(val);
+    if (p === 0)  return [220, 38, 38, 200];    // red  — 0%
+    if (p <= 10)  return [220, 38, 38, 200];    // red
+    if (p <= 49)  return [249, 115, 22, 200];   // orange
+    if (p <= 79)  return [251, 191, 36, 210];   // yellow
+    if (p <= 94)  return [52, 211, 153, 210];   // light green
+    return [5, 150, 105, 220];                  // dark green ≥95%
+  }
+
+  // ─── Name normalization ────────────────────────────────────────────────────
+  function normalizeStateName(raw) {
+    if (!raw) return '';
+    let s = raw.trim().toLowerCase();
+    s = s.replace(/ and /g, ' & ');
+    s = s.replace(/\s+/g, ' ');
+    if (s === 'orissa') return 'odisha';
+    if (s === 'uttaranchal') return 'uttarakhand';
+    if (s.includes('andaman')) return 'andaman & nicobar islands';
+    if (s.includes('dadra') && s.includes('nagar')) return 'dadra & nagar haveli';
+    if (s.includes('daman')) return 'daman & diu';
+    if (s.includes('jammu')) return 'jammu & kashmir';
+    if (s.includes('telangana') || s === 'ts') return 'telangana';
+    return s;
+  }
+
+  function normalizeDistrictName(raw) {
+    if (!raw) return '';
+    return raw.trim().toLowerCase()
+      .replace(/\s+/g, ' ')
+      .replace(/ district$/, '')
+      .replace(/ dt$/, '');
+  }
+
+  let geoStateNameToAbb = {};
+
+  function buildGeoStateNameMap() {
+    geoStateNameToAbb = {};
+    for (const row of stateData) {
+      const normDb = normalizeStateName(row.state_name);
+      geoStateNameToAbb[normDb] = row.state_abb;
+    }
+  }
+
+  function getStateAbbFromGeoName(geoName) {
+    const norm = normalizeStateName(geoName);
+    return geoStateNameToAbb[norm] || null;
+  }
+
+  // ─── Feature matching ────────────────────────────────────────────────
+  function getStateRow(featureProps) {
+    const rawGeoName = featureProps.NAME_1 || featureProps.ST_NAME || featureProps.name || '';
+    const normGeo    = normalizeStateName(rawGeoName);
+    return stateData.find(r => {
+      const normDB = normalizeStateName(r.state_name);
+      return normDB === normGeo || normDB.includes(normGeo) || normGeo.includes(normDB);
+    });
+  }
+
+  function getDistrictPct(featureProps) {
+    const geoStateName = featureProps.NAME_1 || '';
+    const geoDistName  = featureProps.NAME_2 || '';
+    const stateAbb     = getStateAbbFromGeoName(geoStateName);
+    if (!stateAbb) return null;
+
+    const cache = districtCache[activeMetric];
+    if (!cache) return null;
+
+    const normDist = normalizeDistrictName(geoDistName);
+    const key = `${stateAbb}|${normDist}`;
+    if (cache[key] !== undefined) return cache[key];
+
+    for (const [k, v] of Object.entries(cache)) {
+      const [kAbb, kDist] = k.split('|');
+      if (kAbb !== stateAbb) continue;
+      if (kDist.includes(normDist) || normDist.includes(kDist)) return v;
+    }
+    return null;
+  }
+
+  function getPCPct(featureProps) {
+    const pcName = (featureProps.ls_seat_name || featureProps.PC_NAME || featureProps.pc_name || '').toLowerCase().trim();
+    const stateName = (featureProps.ST_NAME || featureProps.st_name || featureProps.NAME_1 || '').toLowerCase().trim();
+    const stAbb = getStateAbbFromGeoName(stateName) || '';
+    const cacheObj = pcCache[activeMetric];
+    if (!cacheObj) return null;
+    const cache = cacheObj.dict;
+
+    const exact = cache[`${stAbb}|${pcName}`];
+    if (exact) return exact;
+
+    for (const [k, v] of Object.entries(cache)) {
+        if (k.endsWith(`|${pcName}`)) return v;
+    }
+
+    for (const [k, v] of Object.entries(cache)) {
+        const parts = k.split('|');
+        const cSt = parts[0];
+        const cPc = parts[1];
+        if (cSt === stAbb && (cPc.includes(pcName) || pcName.includes(cPc))) return v;
+    }
+    return null;
+  }
+
+  function getACPct(featureProps) {
+    const acName = (featureProps.AC_NAME || featureProps.ac_name || '').toLowerCase().trim();
+    const stateName = (featureProps.ST_NAME || featureProps.st_name || featureProps.NAME_1 || '').toLowerCase().trim();
+    const stAbb = getStateAbbFromGeoName(stateName) || '';
+    const cacheObj = acCache[activeMetric];
+    if (!cacheObj) return null;
+    const cache = cacheObj.dict;
+
+    const exact = cache[`${stAbb}|${acName}`];
+    if (exact) return exact;
+
+    for (const [k, v] of Object.entries(cache)) {
+        const parts = k.split('|');
+        const cSt = parts[0];
+        const cAc = parts[1];
+        if (cSt === stAbb && (cAc.includes(acName) || acName.includes(cAc))) return v;
+    }
+    return null;
+  }
+
+  // ─── Load data from APIs ───────────────────────────────────────────────────
+  async function loadStateData() {
+    setLoadingText('Loading state coverage data...');
+    try {
+      const res  = await fetch('/api/country_glance/data');
+      const json = await res.json();
+      if (json.matrix && json.matrix.length > 0) {
+        stateData = json.matrix;
+        const natAvg = json.national_avg || {};
+        updateBadge('retro',  natAvg.retro);
+        updateBadge('form20', natAvg.form20);
+        updateBadge('caste',  natAvg.caste);
+        updateBadge('booth',  natAvg.booth);
+      }
+    } catch (e) {
+      console.error('State data load error:', e);
+    }
+  }
+
+  async function loadDistrictData(metric) {
+    if (districtCache[metric]) return; 
+    setLoadingText(`Loading ${metric.toUpperCase()} district data...`);
+    try {
+      const res  = await fetch(`/api/map/district_data?metric=${metric}`);
+      const json = await res.json();
+      if (json.success && json.data) {
+        const cache = {};
+        let coveredCount = 0;
+        let totalCount = 0;
+        for (const row of json.data) {
+          const key = `${row.state_abb}|${normalizeDistrictName(row.district_name)}`;
+          cache[key] = { pct: row.pct, covered: row.covered, total: row.total, district_name: row.district_name, state_name: row.state_name };
+          if (row.pct > 0) coveredCount++;
+          totalCount++;
+        }
+        districtCache[metric] = cache;
+      }
+    } catch (e) {
+      districtCache[metric] = {};
+    }
+  }
+
+  async function loadPCData(metric) {
+    if (pcCache[metric]) return;
+    setLoadingText(`Loading ${metric.toUpperCase()} PC data...`);
+    try {
+        const res = await fetch(`/api/map/pc_data?metric=${metric}`);
+        const json = await res.json();
+        if (json.success && json.data) {
+            const cache = {};
+            let coveredCount = 0, totalCount = 0;
+            for (const row of json.data) {
+                const st = row.state_abb || getStateAbbFromGeoName(row.state_name) || '';
+                const pc = (row.ls_seat_name || row.pc_name || '').toLowerCase().trim();
+                cache[`${st}|${pc}`] = { pct: row.pct, covered: row.covered, total: row.total, name: row.ls_seat_name || row.pc_name };
+                if (row.pct > 0) coveredCount++;
+                totalCount++;
+            }
+            pcCache[metric] = { dict: cache, coveredCount, totalCount };
+        }
+    } catch (e) {
+        pcCache[metric] = { dict: {}, coveredCount: 0, totalCount: 0 };
+    }
+  }
+
+  async function loadACData(metric) {
+    if (acCache[metric]) return;
+    setLoadingText(`Loading ${metric.toUpperCase()} AC data...`);
+    try {
+        const res = await fetch(`/api/map/ac_data?metric=${metric}`);
+        const json = await res.json();
+        if (json.success && json.data) {
+            const cache = {};
+            let coveredCount = 0, totalCount = 0;
+            for (const row of json.data) {
+                const st = row.state_abb || getStateAbbFromGeoName(row.state_name) || '';
+                const ac = (row.ac_name || row.AC_NAME || '').toLowerCase().trim();
+                cache[`${st}|${ac}`] = { pct: row.pct, covered: row.covered, total: row.total, name: row.ac_name || row.AC_NAME };
+                if (row.pct > 0) coveredCount++;
+                totalCount++;
+            }
+            acCache[metric] = { dict: cache, coveredCount, totalCount };
+        }
+    } catch (e) {
+        acCache[metric] = { dict: {}, coveredCount: 0, totalCount: 0 };
+    }
+  }
+
+  async function ensureGeoJSON(granularity) {
+    if (granularity === 'district' && !districtGeoJSON) {
+        setLoadingText('Loading district boundaries (one-time)...');
+        districtGeoJSON = await (await fetch('/static/data/district_simplified.geojson')).json();
+    } else if (granularity === 'pc' && !pcGeoJSON) {
+        setLoadingText('Loading PC boundaries (one-time)...');
+        pcGeoJSON = await (await fetch('/static/data/pc_constituencies.geojson')).json();
+    } else if (granularity === 'ac' && !acGeoJSON) {
+        setLoadingText('Loading AC boundaries (one-time)...');
+        acGeoJSON = await (await fetch('/static/data/ac_constituencies.geojson')).json();
+    }
+  }
+
+  async function loadDataForCurrentGranularityAndMetric() {
+    if (activeGranularity === 'state') {
+        document.getElementById('stats-bar').classList.add('hidden');
+        return; 
+    }
+
+    if (activeGranularity === 'district') {
+        await loadDistrictData(activeMetric);
+        updateStatsBar(districtCache[activeMetric] ? { 
+            coveredCount: Object.values(districtCache[activeMetric]).filter(v => v.pct > 0).length,
+            totalCount: Object.values(districtCache[activeMetric]).length 
+        } : null, 'districts');
+    } else if (activeGranularity === 'pc') {
+        await loadPCData(activeMetric);
+        updateStatsBar(pcCache[activeMetric], 'PCs');
+    } else if (activeGranularity === 'ac') {
+        await loadACData(activeMetric);
+        updateStatsBar(acCache[activeMetric], 'ACs');
+    }
+  }
+
+  function updateStatsBar(cacheObj, label) {
+    const statsBar = document.getElementById('stats-bar');
+    if (!cacheObj) {
+        statsBar.classList.add('hidden');
+        return;
+    }
+    statsBar.classList.remove('hidden');
+    document.getElementById('stat-covered').textContent = (cacheObj.coveredCount || 0).toLocaleString() + ' ' + label;
+    document.getElementById('stat-total').textContent = (cacheObj.totalCount || 0).toLocaleString() + ' total';
+  }
+
+  function updateBadge(metric, val) {
+    const el = document.getElementById('badge-' + metric);
+    if (el && val !== undefined && val !== null) {
+      el.textContent = parseFloat(val).toFixed(1) + '%';
+    }
+  }
+
+  function setLoadingText(text) {
+    const el = document.getElementById('loading-text');
+    if (el) el.textContent = text;
+  }
+
+  function showLoading(show) {
+    document.getElementById('loading-overlay').style.display = show ? 'flex' : 'none';
+  }
+  
+  function showNoDataWarning(show) {
+    document.getElementById('no-data-warning').style.display = show ? 'flex' : 'none';
+  }
+
+  // ─── GeoJSON Layer rendering ───────────────────────────────────────────────
+  function renderLayers() {
+    if (!deckgl) return;
+    
+    let isDataEmpty = false;
+    let layerData = null;
+    let layerId = '';
+    let getFillColor = null;
+    let onHover = null;
+    let updateTrig = {};
+    
+    if (activeGranularity === 'state' && stateGeoJSON) {
+        layerData = stateGeoJSON;
+        layerId = 'india-state-layer';
+        getFillColor = (feature) => {
+            const row = getStateRow(feature.properties);
+            const val = row ? (row[activeMetric] ?? -1) : -1;
+            return getRGBA(val);
+        };
+        onHover = onStateHover;
+        updateTrig = { getFillColor: [activeMetric, stateData.length] };
+    } else if (activeGranularity === 'district' && districtGeoJSON) {
+        layerData = districtGeoJSON;
+        layerId = 'india-district-layer';
+        getFillColor = (feature) => {
+            const info = getDistrictPct(feature.properties);
+            return getRGBA(info ? info.pct : -1);
+        };
+        onHover = onDistrictHover;
+        updateTrig = { getFillColor: [activeMetric, Object.keys(districtCache).join(',')] };
+    } else if (activeGranularity === 'pc' && pcGeoJSON) {
+        layerData = pcGeoJSON;
+        layerId = 'india-pc-layer';
+        getFillColor = (feature) => {
+            const info = getPCPct(feature.properties);
+            return getRGBA(info ? info.pct : -1);
+        };
+        onHover = onPCHover;
+        updateTrig = { getFillColor: [activeMetric, pcCache[activeMetric] ? 'loaded' : 'none'] };
+    } else if (activeGranularity === 'ac' && acGeoJSON) {
+        layerData = acGeoJSON;
+        layerId = 'india-ac-layer';
+        getFillColor = (feature) => {
+            const info = getACPct(feature.properties);
+            return getRGBA(info ? info.pct : -1);
+        };
+        onHover = onACHover;
+        updateTrig = { getFillColor: [activeMetric, acCache[activeMetric] ? 'loaded' : 'none'] };
+    }
+    
+    if (!layerData) return;
+
+    if (activeGranularity === 'state') {
+        const sum = stateData.reduce((acc, row) => acc + (row[activeMetric] || 0), 0);
+        if (sum === 0) isDataEmpty = true;
+    } else if (activeGranularity === 'district') {
+        const c = districtCache[activeMetric];
+        if (!c || Object.keys(c).length === 0) isDataEmpty = true;
+    } else if (activeGranularity === 'pc') {
+        const c = pcCache[activeMetric];
+        if (!c || Object.keys(c || {}).length === 0) isDataEmpty = true;
+    } else if (activeGranularity === 'ac') {
+        const c = acCache[activeMetric];
+        if (!c || Object.keys(c || {}).length === 0) isDataEmpty = true;
+    }
+    
+    showNoDataWarning(isDataEmpty);
+    
+    deckgl.setProps({
+        layers: [
+            new deck.GeoJsonLayer({
+                id: layerId,
+                data: layerData,
+                pickable: true,
+                stroked: true,
+                filled: true,
+                lineWidthMinPixels: activeGranularity === 'state' ? 1.5 : 0.8,
+                getFillColor: getFillColor,
+                getLineColor: [255, 255, 255, activeGranularity === 'state' ? 220 : 180],
+                lineWidthScale: 1,
+                autoHighlight: true,
+                highlightColor: [255, 255, 255, 100],
+                onHover: onHover,
+                updateTriggers: updateTrig
+            })
+        ]
+    });
+  }
+
+  // ─── Tooltip handlers ─────────────────────────────────────────────────────
+  function getScoreClassName(pct) {
+    if (pct >= 95) return 'text-[11px] font-mono font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.5 rounded whitespace-nowrap';
+    if (pct > 0) return 'text-[11px] font-mono font-bold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.5 rounded whitespace-nowrap';
+    return 'text-[11px] font-mono font-bold text-gray-500 bg-gray-50 border border-gray-200 px-1.5 py-0.5 rounded whitespace-nowrap';
+  }
+
+  function onStateHover(info) {
+    const tooltip = document.getElementById('map-tooltip');
+    if (!info.object) { tooltip.style.display = 'none'; return; }
+
+    const row = getStateRow(info.object.properties);
+    const stateName = row ? row.state_name : (info.object.properties.NAME_1 || 'State');
+    const activeVal = row ? (row[activeMetric] ?? 0) : 0;
+
+    document.getElementById('tooltip-region').textContent = stateName;
+    document.getElementById('tooltip-parent').textContent = '';
+    
+    const scoreEl = document.getElementById('tooltip-score');
+    scoreEl.textContent = parseFloat(activeVal).toFixed(1) + '%';
+    scoreEl.className = getScoreClassName(activeVal);
+
+    if (row) {
+      const METRIC_LABELS = { retro: 'Retro Data', form20: 'Form 20', caste: 'Caste Data', booth: 'Booth Details' };
+      let html = '';
+      for (const [key, label] of Object.entries(METRIC_LABELS)) {
+        const val = row[key] ?? 0;
+        const dot = val >= 95 ? 'sdot-dark-green' : val >= 80 ? 'sdot-light-green' : val >= 50 ? 'sdot-yellow' : val >= 11 ? 'sdot-orange' : 'sdot-red';
+        const isActive = key === activeMetric;
+        html += `<div class="flex justify-between py-0.5 ${isActive ? 'font-semibold text-gray-900' : ''}">
+          <span class="flex items-center gap-1.5"><span class="sdot ${dot}"></span>${label}</span>
+          <span class="font-mono">${parseFloat(val).toFixed(1)}%</span>
+        </div>`;
+      }
+      document.getElementById('tooltip-details').innerHTML = html;
+    } else {
+      document.getElementById('tooltip-details').innerHTML = '<div class="text-gray-400 mt-1">No data in DB</div>';
+    }
+
+    positionTooltip(tooltip, info.x, info.y);
+  }
+
+  function onDistrictHover(info) {
+    const tooltip = document.getElementById('map-tooltip');
+    if (!info.object) { tooltip.style.display = 'none'; return; }
+
+    const props = info.object.properties;
+    const distName  = props.NAME_2 || 'District';
+    const stateName = props.NAME_1 || 'State';
+    const distInfo  = getDistrictPct(props);
+    const pct       = distInfo ? distInfo.pct : 0;
+    const covered   = distInfo ? distInfo.covered : 0;
+    const total     = distInfo ? distInfo.total   : 0;
+
+    document.getElementById('tooltip-region').textContent = distName;
+    document.getElementById('tooltip-parent').textContent = stateName;
+
+    const scoreEl = document.getElementById('tooltip-score');
+    scoreEl.textContent = pct > 0 ? parseFloat(pct).toFixed(1) + '%' : 'No data';
+    scoreEl.className = getScoreClassName(pct);
+
+    const METRIC_NAMES = {
+      ejal: 'Villages (Ejalshakti)', joshua: 'People Groups (Joshua)',
+      muslim: 'Sub-districts (Muslim Census)', secc: 'LGD Codes (SECC)',
+      kys: 'Schools (KYS)', lgd: 'LGD Entries'
+    };
+
+    document.getElementById('tooltip-details').innerHTML = `
+      <div class="flex justify-between py-0.5 text-gray-700">
+        <span>${METRIC_NAMES[activeMetric] || 'Records'} covered</span>
+        <span class="font-mono font-semibold">${covered.toLocaleString()}</span>
+      </div>
+      <div class="flex justify-between py-0.5 text-gray-700">
+        <span>Total entries</span>
+        <span class="font-mono font-semibold">${total.toLocaleString()}</span>
+      </div>
+      ${distInfo ? `<div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
+        <span>Coverage</span>
+        <span class="font-mono text-emerald-700">${parseFloat(pct).toFixed(2)}%</span>
+      </div>` : '<div class="text-gray-400 mt-1">No data in DB for this district</div>'}
+    `;
+
+    positionTooltip(tooltip, info.x, info.y);
+  }
+
+  function onPCHover(info) {
+    const tooltip = document.getElementById('map-tooltip');
+    if (!info.object) { tooltip.style.display = 'none'; return; }
+
+    const props = info.object.properties;
+    const pcName = props.ls_seat_name || props.PC_NAME || props.pc_name || 'PC';
+    const stateName = props.ST_NAME || props.st_name || props.NAME_1 || 'State';
+    const pcInfo = getPCPct(props);
+    const pct = pcInfo ? pcInfo.pct : 0;
+    const covered = pcInfo ? pcInfo.covered : 0;
+    const total = pcInfo ? pcInfo.total : 0;
+
+    document.getElementById('tooltip-region').textContent = pcName;
+    document.getElementById('tooltip-parent').textContent = stateName;
+
+    const scoreEl = document.getElementById('tooltip-score');
+    scoreEl.textContent = pct > 0 ? parseFloat(pct).toFixed(1) + '%' : 'No data';
+    scoreEl.className = getScoreClassName(pct);
+
+    const METRIC_NAMES = { retro: 'Retro Data', form20: 'Form 20', caste: 'Caste Data', booth: 'Booth Details' };
+    
+    document.getElementById('tooltip-details').innerHTML = `
+      <div class="flex justify-between py-0.5 text-gray-700">
+        <span>${METRIC_NAMES[activeMetric] || 'Records'} covered</span>
+        <span class="font-mono font-semibold">${covered.toLocaleString()}</span>
+      </div>
+      <div class="flex justify-between py-0.5 text-gray-700">
+        <span>Total entries</span>
+        <span class="font-mono font-semibold">${total.toLocaleString()}</span>
+      </div>
+      ${pcInfo ? `<div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
+        <span>Coverage</span>
+        <span class="font-mono text-emerald-700">${parseFloat(pct).toFixed(2)}%</span>
+      </div>` : '<div class="text-gray-400 mt-1">No data in DB for this PC</div>'}
+    `;
+
+    positionTooltip(tooltip, info.x, info.y);
+  }
+
+  function onACHover(info) {
+    const tooltip = document.getElementById('map-tooltip');
+    if (!info.object) { tooltip.style.display = 'none'; return; }
+
+    const props = info.object.properties;
+    const acName = props.AC_NAME || props.ac_name || 'AC';
+    const stateName = props.ST_NAME || props.st_name || props.NAME_1 || 'State';
+    const acInfo = getACPct(props);
+    const pct = acInfo ? acInfo.pct : 0;
+    const covered = acInfo ? acInfo.covered : 0;
+    const total = acInfo ? acInfo.total : 0;
+
+    document.getElementById('tooltip-region').textContent = acName;
+    document.getElementById('tooltip-parent').textContent = stateName;
+
+    const scoreEl = document.getElementById('tooltip-score');
+    scoreEl.textContent = pct > 0 ? parseFloat(pct).toFixed(1) + '%' : 'No data';
+    scoreEl.className = getScoreClassName(pct);
+
+    const METRIC_NAMES = { retro: 'Retro Data', form20: 'Form 20', caste: 'Caste Data', booth: 'Booth Details' };
+    
+    document.getElementById('tooltip-details').innerHTML = `
+      <div class="flex justify-between py-0.5 text-gray-700">
+        <span>${METRIC_NAMES[activeMetric] || 'Records'} covered</span>
+        <span class="font-mono font-semibold">${covered.toLocaleString()}</span>
+      </div>
+      <div class="flex justify-between py-0.5 text-gray-700">
+        <span>Total entries</span>
+        <span class="font-mono font-semibold">${total.toLocaleString()}</span>
+      </div>
+      ${acInfo ? `<div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
+        <span>Coverage</span>
+        <span class="font-mono text-emerald-700">${parseFloat(pct).toFixed(2)}%</span>
+      </div>` : '<div class="text-gray-400 mt-1">No data in DB for this AC</div>'}
+    `;
+
+    positionTooltip(tooltip, info.x, info.y);
+  }
+
+  function positionTooltip(tooltip, x, y) {
+    tooltip.style.display = 'block';
+    const panelWidth = 280;
+    const vpW = window.innerWidth;
+    const vpH = window.innerHeight;
+    let left = x + 15;
+    let top  = y + 15;
+    if (left + panelWidth > vpW - 10) left = x - panelWidth - 10;
+    if (top + 180 > vpH - 10) top = y - 190;
+    tooltip.style.left = `${Math.max(8, left)}px`;
+    tooltip.style.top  = `${Math.max(56, top)}px`;
+  }
+
+  // ─── UI switching ──────────────────────────────────────────────────────────
+  function updateGranularityUI() {
+    const isEci = activeMainTab === 'eci';
+    document.getElementById('btn-gran-pc').style.display = isEci ? 'inline-flex' : 'none';
+    document.getElementById('btn-gran-ac').style.display = isEci ? 'inline-flex' : 'none';
+    document.getElementById('btn-gran-district').style.display = isEci ? 'none' : 'inline-flex';
+
+    const btns = ['state', 'pc', 'ac', 'district'];
+    btns.forEach(g => {
+        const btn = document.getElementById('btn-gran-' + g);
+        if (!btn) return;
+        if (g === activeGranularity) {
+            btn.className = `level-badge level-${g}-active`;
+        } else {
+            btn.className = 'level-badge level-inactive';
+        }
+    });
+  }
+
+  function updateMetricUI() {
+    for (const m of ALL_METRICS) {
+        const btn = document.getElementById('btn-metric-' + m);
+        if (!btn) continue;
+        if (m === activeMetric) {
+            btn.classList.remove('metric-btn-inactive');
+            btn.classList.add('metric-btn-active');
+            const badge = btn.querySelector('.font-mono');
+            if (badge && badge.classList.contains('text-gray-500')) {
+                badge.classList.remove('text-gray-500');
+                badge.classList.add('text-emerald-300');
+            }
+        } else {
+            btn.classList.remove('metric-btn-active');
+            btn.classList.add('metric-btn-inactive');
+            const badge = btn.querySelector('.font-mono');
+            if (badge) {
+                badge.classList.remove('text-emerald-300');
+                badge.classList.add('text-gray-500');
+            }
+        }
+    }
+  }
+
+  async function switchMainTab(tab) {
+    if (activeMainTab === tab) return;
+    activeMainTab = tab;
+    
+    const eciActive = tab === 'eci';
+    document.getElementById('main-tab-eci').className   = eciActive ? 'filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all' : 'filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all';
+    document.getElementById('main-tab-other').className = eciActive ? 'filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all' : 'filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all';
+    document.getElementById('group-opts-eci').className   = eciActive ? 'space-y-1.5' : 'hidden space-y-1.5';
+    document.getElementById('group-opts-other').className = eciActive ? 'hidden space-y-1.5' : 'space-y-1.5';
+    
+    activeMetric = eciActive ? 'retro' : 'ejal';
+    
+    if (eciActive && activeGranularity === 'district') {
+        activeGranularity = 'state';
+    } else if (!eciActive && (activeGranularity === 'pc' || activeGranularity === 'ac')) {
+        activeGranularity = 'state';
+    }
+
+    updateGranularityUI();
+    updateMetricUI();
+
+    showLoading(true);
+    try {
+      await ensureGeoJSON(activeGranularity);
+      await loadDataForCurrentGranularityAndMetric();
+    } catch (e) {
+      console.error('Error switching tab:', e);
+    } finally {
+      showLoading(false);
+    }
+
+    renderLayers();
+  }
+
+  async function setMetric(metric) {
+    if (activeMetric === metric) return;
+    activeMetric = metric;
+    updateMetricUI();
+
+    showLoading(true);
+    try {
+      await loadDataForCurrentGranularityAndMetric();
+    } catch (e) {
+      console.error('Error setting metric:', e);
+    } finally {
+      showLoading(false);
+    }
+
+    renderLayers();
+  }
+
+  async function setGranularity(g) {
+    if (g === activeGranularity) return;
+    activeGranularity = g;
+    updateGranularityUI();
+
+    showLoading(true);
+    try {
+      await ensureGeoJSON(activeGranularity);
+      await loadDataForCurrentGranularityAndMetric();
+    } catch (e) {
+      console.error('Error setting granularity:', e);
+    } finally {
+      showLoading(false);
+    }
+
+    renderLayers();
+  }
+
+  // ─── Initialization ────────────────────────────────────────────────────────
+  async function initDeckGL() {
+    showLoading(true);
+
+    try {
+      if (typeof deck === 'undefined' || typeof maplibregl === 'undefined') {
+        setLoadingText('Map libraries (Deck.gl / MapLibre) failed to load from CDN. Please check your internet connection and refresh.');
+        return;
+      }
+
+      await loadStateData();
+      buildGeoStateNameMap();
+
+      setLoadingText('Loading India map boundaries...');
+      try {
+        const stateRes = await fetch('/static/data/state.geojson');
+        stateGeoJSON   = await stateRes.json();
+      } catch (e) {
+        console.error('GeoJSON fetch error:', e);
+      }
+
+      try {
+        maplibre = new maplibregl.Map({
+          container: 'maplibre-bg',
+          style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
+          center: [82.5, 22.5],
+          zoom: 4.3,
+          interactive: false
+        });
+      } catch (mErr) {
+        console.warn('MapLibre basemap init warning:', mErr);
+      }
+
+      deckgl = new deck.DeckGL({
+        container: 'deck-canvas-container',
+        initialViewState: {
+          longitude: 82.5,
+          latitude: 22.5,
+          zoom: 4.3,
+          pitch: 0,
+          bearing: 0
+        },
+        controller: true,
+        onViewStateChange: ({ viewState }) => {
+          if (maplibre) {
+            maplibre.jumpTo({
+              center: [viewState.longitude, viewState.latitude],
+              zoom: viewState.zoom,
+              bearing: viewState.bearing,
+              pitch: viewState.pitch
+            });
+          }
+        },
+        layers: []
+      });
+    } catch (err) {
+      console.error('Map initialization error:', err);
+    } finally {
+      showLoading(false);
+    }
+
+    // Render initial layer (Retro — state level)
+    renderLayers();
+  }
+
+  document.addEventListener('DOMContentLoaded', initDeckGL);
+</script>
+
+</body>
+</html>

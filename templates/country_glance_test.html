@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Country Glance | Project CleanRoom</title>
+  <link rel="icon" href="/static/favicon.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0" rel="stylesheet"/>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: { extend: { fontFamily: { sans: ["Inter","system-ui","sans-serif"] } } }
+    }
+  </script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html { height: 100%; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: #f5f5f5;
+      color: #111827;
+      -webkit-font-smoothing: antialiased;
+      margin: 0; padding: 0;
+      /* Page scrolls naturally — only the body itself is the scroll container */
+      min-height: 100%;
+    }
+    h1, h2, h3 { letter-spacing: -0.02em; }
+
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+      font-size: 18px; vertical-align: middle; line-height: 1;
+    }
+
+    /* ── Exact nav-tab from index.html ── */
+    .nav-tab { position: relative; transition: color 0.1s, background 0.1s; }
+    .nav-tab.active { color: #111827; font-weight: 600; }
+    .nav-tab.active::after {
+      content: ''; position: absolute; bottom: -1px; left: 0; right: 0;
+      height: 2px; background: #111827; border-radius: 2px 2px 0 0;
+    }
+    .nav-tab:not(.active) { color: #6b7280; }
+    .nav-tab:not(.active):hover { color: #374151; background: #f9fafb; }
+
+    /* ── Scrollbars ── */
+    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #d4d4d8; border-radius: 99px; }
+    ::-webkit-scrollbar-thumb:hover { background: #a1a1aa; }
+
+    /* ── Background blobs (fixed, behind everything) ── */
+    @keyframes blob {
+      0%   { transform: translate(0,0) scale(1); }
+      33%  { transform: translate(28px,-38px) scale(1.07); }
+      66%  { transform: translate(-18px,18px) scale(0.94); }
+      100% { transform: translate(0,0) scale(1); }
+    }
+    .blob { animation: blob 9s infinite; border-radius: 50%; filter: blur(90px); position: fixed; pointer-events: none; z-index: 0; }
+    .blob-1 { animation-delay: 0s; }
+    .blob-2 { animation-delay: 3s; }
+    .blob-3 { animation-delay: 6s; }
+
+    /* ── Scroll-away hero section ── */
+    .hero-section {
+      /* Sits in normal flow — scrolls away with the page */
+    }
+
+    /* ── Sticky Controls Bar ── */
+    .sticky-controls {
+      position: sticky;
+      top: 48px; /* height of the fixed nav */
+      z-index: 30;
+      background: rgba(245,245,245,0.92);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    }
+
+    /* ── Glass KPI cards ── */
+    .glass-kpi {
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(255,255,255,0.55);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04), 0 0 0 1px rgba(0,0,0,0.02);
+      transition: transform 0.25s cubic-bezier(0.16,1,0.3,1), box-shadow 0.25s;
+    }
+    .glass-kpi:hover { transform: translateY(-3px); box-shadow: 0 10px 24px -6px rgba(0,0,0,0.09); }
+
+    /* ── Glass Table Wrapper ── */
+    .glass-table-wrap {
+      background: rgba(255,255,255,0.80);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.5);
+      box-shadow: 0 4px 16px rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,0.025);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    /* ── Dense Enterprise Table ── */
+    table.glance-tbl { width: 100%; border-collapse: separate; border-spacing: 0; }
+    table.glance-tbl th {
+      background: rgba(248,250,252,0.94);
+      color: #52525b;
+      font-size: 0.67rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      padding: 11px 10px;
+      border-bottom: 1px solid rgba(0,0,0,0.07);
+      border-right: 1px solid rgba(0,0,0,0.04);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      white-space: nowrap;
+    }
+    table.glance-tbl td {
+      padding: 9px 10px;
+      font-size: 0.8rem;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+      border-right: 1px solid rgba(0,0,0,0.04);
+      color: #27272a;
+      transition: background 0.1s ease;
+    }
+    table.glance-tbl th:last-child,
+    table.glance-tbl td:last-child { border-right: none; }
+    table.glance-tbl tr:hover td { background: rgba(0,0,0,0.016) !important; }
+    table.glance-tbl tbody tr:last-child td { border-bottom: none; }
+
+    /* ── Status Dots ── */
+    .sdot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
+    .sdot-dark-green  { background:#059669; box-shadow:0 0 0 2.5px #d1fae5; }
+    .sdot-light-green { background:#34d399; box-shadow:0 0 0 2.5px #ecfdf5; }
+    .sdot-yellow      { background:#fbbf24; box-shadow:0 0 0 2.5px #fef3c7; }
+    .sdot-orange      { background:#f97316; box-shadow:0 0 0 2.5px #ffedd5; }
+    .sdot-red         { background:#dc2626; box-shadow:0 0 0 2.5px #fee2e2; }
+    .sdot-gray        { background:#a1a1aa; box-shadow:0 0 0 2.5px #f4f4f5; }
+
+    /* ── Tab pills ── */
+    .filter-tab-active   { background:#18181b; color:#fff; box-shadow:0 1px 3px rgba(0,0,0,0.15); }
+    .filter-tab-inactive { background:transparent; color:#71717a; }
+    .filter-tab-inactive:hover { background:rgba(0,0,0,0.05); color:#18181b; }
+
+    /* ── Fade-in animations ── */
+    @keyframes fadeInUp {
+      from { opacity:0; transform:translateY(16px); }
+      to   { opacity:1; transform:none; }
+    }
+    .fade-in { opacity:0; animation:fadeInUp 0.65s cubic-bezier(0.16,1,0.3,1) forwards; }
+    .d1 { animation-delay:60ms; }
+    .d2 { animation-delay:130ms; }
+    .d3 { animation-delay:200ms; }
+
+    /* ── Info Panel — Always Displayed ── */
+    .info-panel {
+      display: block;
+      opacity: 1;
+      max-height: none;
+      overflow: visible;
+    }
+    .dp-card {
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(226,232,240,0.9);
+      border-radius: 16px;
+      padding: 16px 18px;
+      transition: transform 0.22s cubic-bezier(0.16,1,0.3,1), box-shadow 0.22s, border-color 0.22s;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 2px 8px -2px rgba(0,0,0,0.04);
+    }
+    .dp-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3.5px;
+      border-radius: 16px 16px 0 0;
+    }
+    .dp-card.eci::before  { background: linear-gradient(90deg, #4f46e5, #7c3aed); }
+    .dp-card.aux::before  { background: linear-gradient(90deg, #0891b2, #0d9488); }
+    .dp-card:hover { transform: translateY(-3px); box-shadow: 0 12px 24px -4px rgba(0,0,0,0.08); border-color: rgba(148,163,184,0.6); }
+    .guide-card {
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(226,232,240,0.9);
+      border-radius: 16px;
+      padding: 20px 22px;
+      box-shadow: 0 2px 8px -2px rgba(0,0,0,0.04);
+    }
+    .badge-count {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 20px; height: 20px; border-radius: 50%;
+      font-size: 10px; font-weight: 700; margin-left: 6px;
+    }
+    @keyframes panelFadeIn {
+      from { opacity:0; transform:translateY(-6px); }
+      to   { opacity:1; transform:none; }
+    }
+    .panel-item { animation: panelFadeIn 0.35s cubic-bezier(0.16,1,0.3,1) both; }
+
+    /* ── High-Impact Wide Executive Black Tab Buttons ── */
+    .tab-switcher-container {
+      background: rgba(255, 255, 255, 0.9);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(203, 213, 225, 0.8);
+      padding: 5px;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px -2px rgba(0, 0, 0, 0.05), inset 0 1px 2px rgba(255, 255, 255, 0.9);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .btn-tab-active-black {
+      background: #18181b !important;
+      color: #ffffff !important;
+      box-shadow: 0 4px 14px -1px rgba(24, 24, 27, 0.35), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+      border: 1px solid #27272a;
+    }
+
+    .btn-tab-inactive-gray {
+      background: rgba(241, 245, 249, 0.85);
+      color: #475569 !important;
+      border: 1px solid rgba(226, 232, 240, 0.8);
+    }
+    .btn-tab-inactive-gray:hover {
+      background: #ffffff;
+      color: #0f172a !important;
+      border-color: #cbd5e1;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Fixed background blobs -->
+<div aria-hidden="true">
+  <div class="blob blob-1 w-[420px] h-[420px] opacity-[0.28]" style="background:#e0e7ff;top:0;left:-5%;"></div>
+  <div class="blob blob-2 w-[320px] h-[320px] opacity-[0.22]" style="background:#fce7f3;top:30%;right:-8%;"></div>
+  <div class="blob blob-3 w-[500px] h-[500px] opacity-[0.18]" style="background:#dcfce7;bottom:-10%;left:20%;"></div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     TOP NAVIGATION — exact match to index.html
+═══════════════════════════════════════════ -->
+<nav class="fixed top-0 left-0 w-full z-50 h-[48px] bg-white border-b border-gray-200 flex items-center justify-between px-5">
+  <div class="flex items-center gap-5 h-full">
+    <!-- Logo -->
+    <div class="flex items-center gap-2 shrink-0">
+      <div class="w-6 h-6 rounded-md bg-gray-900 flex items-center justify-center">
+        <span class="material-symbols-outlined text-white" style="font-size:13px;">ballot</span>
+      </div>
+      <span class="text-[13px] font-semibold text-gray-900 tracking-tight">Project CleanRoom</span>
+    </div>
+
+    <div class="w-px h-4 bg-gray-200 shrink-0"></div>
+
+    <!-- Tabs -->
+    <div class="hidden md:flex items-center h-full">
+      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Dashboard</a>
+      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Backlog Tracker</a>
+      <a href="/" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
+        <span class="material-symbols-outlined text-gray-400" style="font-size:14px;">fact_check</span>
+        Weekly Report
+      </a>
+      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Retro Export</a>
+      <a href="/country-glance-test" class="nav-tab active h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
+        <span class="material-symbols-outlined text-gray-600" style="font-size:14px;">public</span>
+        Country Glance
+      </a>
+    </div>
+  </div>
+
+  <!-- Right: Profile -->
+  <div class="flex items-center gap-3 pr-1">
+    <div class="flex items-center gap-2">
+      {% if user and user.picture %}
+        <img src="{{ user.picture }}" alt="Profile" class="w-6 h-6 rounded-full border border-gray-200">
+      {% else %}
+        <div class="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center border border-indigo-200">
+          <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">person</span>
+        </div>
+      {% endif %}
+      <span class="text-[12px] font-medium text-gray-700 hidden md:block">
+        {{ user.email if user else 'Guest' }}
+      </span>
+    </div>
+    <a href="/logout" class="h-7 px-2.5 text-[11.5px] font-semibold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors flex items-center">
+      Logout
+    </a>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════
+     SCROLLABLE PAGE BODY
+═══════════════════════════════════════════ -->
+<div style="padding-top:48px; position:relative; z-index:1; min-height:100vh;">
+
+  <!-- ─────────────────────────────────────────
+       HERO SECTION — scrolls away with the page
+  ───────────────────────────────────────── -->
+  <div class="hero-section max-w-[1760px] mx-auto px-6 pt-8 pb-6">
+
+    <!-- Page title row -->
+    <div class="flex items-start justify-between flex-wrap gap-4 mb-7 fade-in">
+      <div>
+        <h1 class="text-[26px] font-bold text-gray-900">Country Glance Report</h1>
+        <p class="text-sm text-gray-500 mt-0.5">Electoral &amp; demographic data coverage across <strong class="text-gray-700">37 States &amp; UTs</strong></p>
+      </div>
+      <div class="flex items-center gap-2 pt-1">
+        <button onclick="exportToCSV()" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-white border border-gray-200 hover:bg-gray-50 hover:border-gray-300 shadow-sm transition text-gray-700 text-[12px] font-medium">
+          <span class="material-symbols-outlined" style="font-size:15px;">download</span> Export CSV
+        </button>
+        <button onclick="loadData(true)" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-gray-900 hover:bg-gray-800 text-white text-[12px] font-medium shadow-sm transition">
+          <span class="material-symbols-outlined" style="font-size:15px;">refresh</span> Refresh Data
+        </button>
+      </div>
+    </div>
+
+    <!-- KPI Cards — 4 national averages from live DB -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 fade-in d1">
+
+      <div class="glass-kpi rounded-2xl p-5 flex items-center justify-between gap-4">
+        <div class="min-w-0">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Retro Data Avg</p>
+          <h2 class="text-[28px] font-bold text-gray-900 tabular-nums leading-none" id="kpi-retro">—</h2>
+          <p class="text-[11px] text-gray-400 mt-1.5">AC-level coverage vs. canonical total</p>
+        </div>
+        <div class="w-11 h-11 rounded-full bg-emerald-50 border border-emerald-100 flex items-center justify-center shrink-0">
+          <div class="sdot sdot-dark-green" style="width:14px;height:14px;"></div>
+        </div>
+      </div>
+
+      <div class="glass-kpi rounded-2xl p-5 flex items-center justify-between gap-4">
+        <div class="min-w-0">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Form 20 Data Avg</p>
+          <h2 class="text-[28px] font-bold text-gray-900 tabular-nums leading-none" id="kpi-form20">—</h2>
+          <p class="text-[11px] text-gray-400 mt-1.5">Boothwise candidate/party votes</p>
+        </div>
+        <div class="w-11 h-11 rounded-full bg-amber-50 border border-amber-100 flex items-center justify-center shrink-0">
+          <div class="sdot sdot-yellow" style="width:14px;height:14px;"></div>
+        </div>
+      </div>
+
+      <div class="glass-kpi rounded-2xl p-5 flex items-center justify-between gap-4">
+        <div class="min-w-0">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Caste Data Avg</p>
+          <h2 class="text-[28px] font-bold text-gray-900 tabular-nums leading-none" id="kpi-caste">—</h2>
+          <p class="text-[11px] text-gray-400 mt-1.5">AC-wise caste category coverage</p>
+        </div>
+        <div class="w-11 h-11 rounded-full bg-emerald-50 border border-emerald-100 flex items-center justify-center shrink-0">
+          <div class="sdot sdot-light-green" style="width:14px;height:14px;"></div>
+        </div>
+      </div>
+
+      <div class="glass-kpi rounded-2xl p-5 flex items-center justify-between gap-4">
+        <div class="min-w-0">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Booth Details Avg</p>
+          <h2 class="text-[28px] font-bold text-gray-900 tabular-nums leading-none" id="kpi-booth">—</h2>
+          <p class="text-[11px] text-gray-400 mt-1.5">Booth geospatial &amp; voter data</p>
+        </div>
+        <div class="w-11 h-11 rounded-full bg-amber-50 border border-amber-100 flex items-center justify-center shrink-0">
+          <div class="sdot sdot-yellow" style="width:14px;height:14px;"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!-- /hero-section -->
+
+
+  <!-- ─────────────────────────────────────────
+       STICKY CONTROLS BAR — sticks at top: 48px
+       when the hero section scrolls out of view
+  ───────────────────────────────────────── -->
+  <div class="sticky-controls">
+    <div class="max-w-[1760px] mx-auto px-6 py-3 flex items-center justify-between flex-wrap gap-3">
+
+      <!-- Wide Executive Black Tab Selector -->
+      <div class="tab-switcher-container">
+        <button id="tab-eci"
+                onclick="switchTab('eci')"
+                class="btn-tab-active-black px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95">
+          <span class="material-symbols-outlined" style="font-size:18px;">how_to_vote</span>
+          <span>ECI Primary</span>
+        </button>
+        <button id="tab-other"
+                onclick="switchTab('other')"
+                class="btn-tab-inactive-gray px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95">
+          <span class="material-symbols-outlined" style="font-size:18px;">dataset</span>
+          <span>Auxiliary Sources</span>
+        </button>
+      </div>
+
+      <!-- Legend + Search -->
+      <div class="flex items-center flex-wrap gap-4">
+        <!-- Threshold legend -->
+        <div class="flex items-center gap-3.5 text-[11px] font-semibold text-gray-500">
+          <span class="flex items-center gap-1.5"><span class="sdot sdot-dark-green"></span>95–100%</span>
+          <span class="flex items-center gap-1.5"><span class="sdot sdot-light-green"></span>80–94%</span>
+          <span class="flex items-center gap-1.5"><span class="sdot sdot-yellow"></span>50–79%</span>
+          <span class="flex items-center gap-1.5"><span class="sdot sdot-orange"></span>11–49%</span>
+          <span class="flex items-center gap-1.5"><span class="sdot sdot-red"></span>0–10%</span>
+        </div>
+        <!-- Search -->
+        <div class="relative">
+          <span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400" style="font-size:15px;">search</span>
+          <input type="text" id="state-search" onkeyup="filterMatrix()" placeholder="Search state…"
+            class="bg-white border border-gray-200 rounded-xl pl-9 pr-4 py-2 text-[12.5px] text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-900/30 transition w-48"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /sticky-controls -->
+
+
+  <!-- ─────────────────────────────────────────
+       INFO PANEL — slides in under tab bar
+  ───────────────────────────────────────── -->
+  <div id="info-panel" class="info-panel">
+    <div class="max-w-[1760px] mx-auto px-6 pt-3 pb-5">
+
+      <!-- ══ ECI Primary Panel ══ -->
+      <div id="panel-eci">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+
+          <!-- Data Points Grid (2/3 width) -->
+          <div class="lg:col-span-2">
+            <p class="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-3 flex items-center gap-1.5">
+              <span class="material-symbols-outlined" style="font-size:13px;">database</span>
+              4 Available Data Points
+            </p>
+            <div class="grid grid-cols-2 gap-3">
+
+              <div class="dp-card eci panel-item" style="animation-delay:0ms">
+                <div class="flex items-start justify-between mb-2">
+                  <div class="flex items-center gap-2">
+                    <span class="sdot sdot-dark-green" style="width:10px;height:10px"></span>
+                    <span class="text-[13px] font-bold text-gray-900">Retro Data</span>
+                  </div>
+                  <span class="text-[11px] font-mono font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full" id="dp-retro-pct">—</span>
+                </div>
+                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Historical election results — constituency-wise votes, candidates, turnout from past elections stored in DB.</p>
+                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
+                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
+                  Measured: AC count in <code class="bg-gray-100 px-1 rounded">election_result</code> vs mapping
+                </div>
+              </div>
+
+              <div class="dp-card eci panel-item" style="animation-delay:60ms">
+                <div class="flex items-start justify-between mb-2">
+                  <div class="flex items-center gap-2">
+                    <span class="sdot sdot-yellow" style="width:10px;height:10px"></span>
+                    <span class="text-[13px] font-bold text-gray-900">Form 20</span>
+                  </div>
+                  <span class="text-[11px] font-mono font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full" id="dp-form20-pct">—</span>
+                </div>
+                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Official ECI booth-wise vote count forms — tracks elections where Form 20 data has been pushed to the database.</p>
+                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
+                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
+                  Measured: elections in <code class="bg-gray-100 px-1 rounded">form20_summary_view</code> vs mapping
+                </div>
+              </div>
+
+              <div class="dp-card eci panel-item" style="animation-delay:120ms">
+                <div class="flex items-start justify-between mb-2">
+                  <div class="flex items-center gap-2">
+                    <span class="sdot sdot-light-green" style="width:10px;height:10px"></span>
+                    <span class="text-[13px] font-bold text-gray-900">Caste Data</span>
+                  </div>
+                  <span class="text-[11px] font-mono font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full" id="dp-caste-pct">—</span>
+                </div>
+                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Category-wise voter registration data per Assembly Constituency — SC, ST, General category breakdowns.</p>
+                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
+                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
+                  Measured: distinct ACs in <code class="bg-gray-100 px-1 rounded">caste_details</code>
+                </div>
+              </div>
+
+              <div class="dp-card eci panel-item" style="animation-delay:180ms">
+                <div class="flex items-start justify-between mb-2">
+                  <div class="flex items-center gap-2">
+                    <span class="sdot sdot-yellow" style="width:10px;height:10px"></span>
+                    <span class="text-[13px] font-bold text-gray-900">Booth Details</span>
+                  </div>
+                  <span class="text-[11px] font-mono font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full" id="dp-booth-pct">—</span>
+                </div>
+                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Geospatial booth metadata including voter lists, GPS coordinates, and physical booth infrastructure data.</p>
+                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
+                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
+                  Measured: distinct ACs in <code class="bg-gray-100 px-1 rounded">booth_metadata_full_view</code>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Reading Manual (1/3 width) -->
+          <div class="panel-item" style="animation-delay:80ms">
+            <p class="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-3 flex items-center gap-1.5">
+              <span class="material-symbols-outlined" style="font-size:13px;">menu_book</span>
+              Reading Manual
+            </p>
+            <div class="guide-card h-full">
+              <div class="space-y-3.5">
+                <div>
+                  <p class="text-[11px] font-bold text-gray-700 mb-1">How to read percentages</p>
+                  <p class="text-[11px] text-gray-500 leading-relaxed">Each cell shows what fraction of the canonical total has been ingested into the database for that state.</p>
+                </div>
+                <div class="border-t border-gray-100 pt-3 space-y-2">
+                  <div class="flex items-center gap-2"><span class="sdot sdot-dark-green"></span><span class="text-[11px] text-gray-600"><strong>95–100%</strong> — Fully covered, data complete</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-light-green"></span><span class="text-[11px] text-gray-600"><strong>80–94%</strong> — Mostly done, minor gaps</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-yellow"></span><span class="text-[11px] text-gray-600"><strong>50–79%</strong> — In progress, half done</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-orange"></span><span class="text-[11px] text-gray-600"><strong>11–49%</strong> — Early stage, backlog exists</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-red"></span><span class="text-[11px] text-gray-600"><strong>0–10%</strong> — Not started / critical gap</span></div>
+                </div>
+                <div class="border-t border-gray-100 pt-3">
+                  <p class="text-[11px] font-bold text-gray-700 mb-1">Formula (Retro / Caste / Booth)</p>
+                  <code class="text-[10.5px] bg-indigo-50 text-indigo-700 px-2 py-1 rounded block leading-relaxed">ACs in DB / Total ACs in Mapping × 100</code>
+                </div>
+                <div class="border-t border-gray-100 pt-3">
+                  <p class="text-[11px] font-bold text-gray-700 mb-1">Formula (Form 20)</p>
+                  <code class="text-[10.5px] bg-amber-50 text-amber-700 px-2 py-1 rounded block leading-relaxed">Elections pushed to DB / Elections expected × 100</code>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- /panel-eci -->
+
+      <!-- ══ Auxiliary Panel ══ -->
+      <div id="panel-aux" class="hidden">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+
+          <!-- Data Points Grid (2/3 width) -->
+          <div class="lg:col-span-2">
+            <p class="text-[10px] font-bold text-cyan-600 uppercase tracking-widest mb-3 flex items-center gap-1.5">
+              <span class="material-symbols-outlined" style="font-size:13px;">database</span>
+              9 Available Data Points
+            </p>
+            <div class="grid grid-cols-3 gap-3">
+
+              <div class="dp-card aux panel-item" style="animation-delay:0ms">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-gray-900">Muslim Census</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">District-level Muslim population data from Census 2011.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
+                  Districts in <code class="bg-gray-100 px-0.5 rounded">muslim_census</code>
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:50ms">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-gray-900">Joshua</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Christian population data — Joshua Project district-level coverage.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
+                  Districts in <code class="bg-gray-100 px-0.5 rounded">joshua_population</code>
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:100ms">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-gray-900">KYS Schools</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Know Your Schools — district-wise school locator data from government sources.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
+                  Districts in <code class="bg-gray-100 px-0.5 rounded">school_locator</code>
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:150ms">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-gray-900">LGD Directory</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Local Government Directory — official district and village-level geo codes.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
+                  Districts in <code class="bg-gray-100 px-0.5 rounded">lgd_directory</code>
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:200ms">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-gray-900">Ejalshakti</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Ministry of Jal Shakti data — gram panchayat–level water supply coverage.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
+                  LGD codes in <code class="bg-gray-100 px-0.5 rounded">ejalshakti_portal</code>
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:250ms">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-gray-900">SECC</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Socio-Economic Caste Census — deprivation indicators per LGD code, district level.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
+                  LGD codes in <code class="bg-gray-100 px-0.5 rounded">secc_abstract</code>
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:300ms; border-color: rgba(16,185,129,0.25);">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-emerald-700">NREGA</span>
+                  <span class="text-[9px] bg-emerald-100 text-emerald-600 px-1.5 rounded-full font-bold">External</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">National Rural Employment Guarantee Act — work provided, wages paid per district.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">link</span>
+                  Sourced externally
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:350ms; border-color: rgba(16,185,129,0.25);">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-emerald-700">Indiastat</span>
+                  <span class="text-[9px] bg-emerald-100 text-emerald-600 px-1.5 rounded-full font-bold">External</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Statistical data aggregator — socio-economic state and district profiles from Indiastat.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">link</span>
+                  Sourced externally
+                </div>
+              </div>
+
+              <div class="dp-card aux panel-item" style="animation-delay:400ms; border-color: rgba(16,185,129,0.25);">
+                <div class="flex items-start justify-between mb-1.5">
+                  <span class="text-[12.5px] font-bold text-emerald-700">Election Lens</span>
+                  <span class="text-[9px] bg-emerald-100 text-emerald-600 px-1.5 rounded-full font-bold">External</span>
+                </div>
+                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Election analysis platform data — voter behaviour, swing analysis from election lenses.</p>
+                <div class="text-[10px] text-gray-400 flex items-center gap-1">
+                  <span class="material-symbols-outlined" style="font-size:11px;">link</span>
+                  Sourced externally
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Reading Manual (1/3 width) -->
+          <div class="panel-item" style="animation-delay:80ms">
+            <p class="text-[10px] font-bold text-cyan-600 uppercase tracking-widest mb-3 flex items-center gap-1.5">
+              <span class="material-symbols-outlined" style="font-size:13px;">menu_book</span>
+              Reading Manual
+            </p>
+            <div class="guide-card">
+              <div class="space-y-3.5">
+                <div>
+                  <p class="text-[11px] font-bold text-gray-700 mb-1">How to read percentages</p>
+                  <p class="text-[11px] text-gray-500 leading-relaxed">Each cell shows what fraction of a state's expected districts/LGD codes has data ingested into the database.</p>
+                </div>
+                <div class="border-t border-gray-100 pt-3 space-y-2">
+                  <div class="flex items-center gap-2"><span class="sdot sdot-dark-green"></span><span class="text-[11px] text-gray-600"><strong>95–100%</strong> — Fully covered</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-light-green"></span><span class="text-[11px] text-gray-600"><strong>80–94%</strong> — Mostly done</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-yellow"></span><span class="text-[11px] text-gray-600"><strong>50–79%</strong> — In progress</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-orange"></span><span class="text-[11px] text-gray-600"><strong>11–49%</strong> — Early stage</span></div>
+                  <div class="flex items-center gap-2"><span class="sdot sdot-red"></span><span class="text-[11px] text-gray-600"><strong>0–10%</strong> — Not started</span></div>
+                </div>
+                <div class="border-t border-gray-100 pt-3">
+                  <p class="text-[11px] font-bold text-gray-700 mb-1">Formula (Census / LGD sources)</p>
+                  <code class="text-[10.5px] bg-cyan-50 text-cyan-700 px-2 py-1 rounded block leading-relaxed">Districts in DB / Total LGD districts × 100</code>
+                </div>
+                <div class="border-t border-gray-100 pt-3">
+                  <p class="text-[11px] font-bold text-gray-700 mb-1">External Sources</p>
+                  <p class="text-[11px] text-gray-500 leading-relaxed">NREGA, Indiastat, and Election Lens data comes from third-party sources and is not yet in the database — shown as 0% until ingested.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- /panel-aux -->
+
+    </div>
+  </div>
+  <!-- /info-panel -->
+
+
+  <!-- ─────────────────────────────────────────
+       DATA MATRIX TABLE
+  ───────────────────────────────────────── -->
+  <div class="max-w-[1760px] mx-auto px-6 pt-5 pb-12 fade-in d2">
+    <div class="glass-table-wrap">
+
+      <!-- Loading state -->
+      <div id="table-loading" class="py-16 flex flex-col items-center justify-center gap-3 text-gray-400">
+        <div class="w-7 h-7 border-2 border-gray-200 border-t-gray-700 rounded-full animate-spin"></div>
+        <span class="text-sm font-medium">Querying database…</span>
+      </div>
+
+      <!-- Table -->
+      
+  <div id="list-no-data-warning" class="hidden mb-4 bg-yellow-50 border-l-4 border-yellow-400 p-4">
+    <div class="flex">
+      <div class="flex-shrink-0">
+        <svg class="h-5 w-5 text-yellow-400" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+        </svg>
+      </div>
+      <div class="ml-3">
+        <p class="text-sm text-yellow-700">
+          <strong>Data Not In Database:</strong> Some metrics (like NREGA, KYS, etc.) are showing 0% because the corresponding database tables are currently empty.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="table-wrap" class="hidden overflow-x-auto" style="max-height: calc(100vh - 260px);">
+        <table class="glance-tbl" id="glanceTable">
+          <thead>
+            <tr>
+              <th rowspan="2" class="w-10 text-center sticky left-0 z-20 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]">#</th>
+              <th rowspan="2" class="w-60 text-left cursor-pointer sticky left-[40px] z-20 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" onclick="sortTable('state_name')">
+                State / UT <span class="text-[10px] text-gray-300 ml-0.5">↕</span>
+              </th>
+              <!-- ECI group header -->
+              <th colspan="4" class="text-center" id="group-eci">ECI Data Points <span class="text-[9.5px] font-normal text-gray-400 font-mono">(AC-wise %)</span></th>
+              <!-- Other sources group header -->
+              <th colspan="9" class="text-center bg-gray-50/70" id="group-other">Available Data — Other Sources <span class="text-[9.5px] font-normal text-gray-500 font-mono">(District-wise %)</span></th>
+            </tr>
+            <tr>
+              <!-- ECI cols -->
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('retro')">Retro Data</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('caste')">Caste Data</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('booth')">Booth Details</th>
+              <!-- Auxiliary cols -->
+              <th class="text-center other-col bg-gray-50/50">Muslim Census</th>
+              <th class="text-center other-col bg-gray-50/50">Joshua</th>
+              <th class="text-center other-col bg-gray-50/50">KYS</th>
+              <th class="text-center other-col bg-gray-50/50">LGD</th>
+              <th class="text-center other-col bg-gray-50/50">Ejalshakti</th>
+              <th class="text-center other-col bg-gray-50/50">SECC</th>
+              <th class="text-center other-col bg-emerald-50/50 text-emerald-700">NREGA</th>
+              <th class="text-center other-col bg-emerald-50/50 text-emerald-700">Indiastat</th>
+              <th class="text-center other-col bg-emerald-50/50 text-emerald-700">Election Lens</th>
+            </tr>
+          </thead>
+          <tbody id="matrix-tbody"></tbody>
+        </table>
+      </div>
+
+      <!-- Footer row -->
+      <div id="table-footer" class="hidden border-t border-gray-200/60 bg-white/70 px-6 py-3 flex items-center justify-between flex-wrap gap-2 text-[11.5px] text-gray-500">
+        <span>Showing <strong id="visible-count" class="text-gray-800">—</strong> of 37 States / UTs</span>
+        <div class="flex items-center gap-1.5 text-[11px] text-amber-800 bg-amber-50 px-3 py-1 rounded-lg border border-amber-200/70 font-medium">
+          <span class="font-bold">* Note for J&K:</span> Coverage is set to 100% (adjusted for election seats increase from 87 to 90 seats in 2022).
+        </div>
+        <span class="flex items-center gap-1.5">
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
+          Live from AWS RDS
+        </span>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /page body -->
+
+
+<script>
+  // ── State ───────────────────────────────────────────────────────
+  let globalMatrix = [];
+  let currentTab   = 'eci';   // Default: ECI Primary open
+  let sortColumn   = 'state_name';
+  let sortAsc      = true;
+
+  function updateInfoPanelKPIs() {
+    const fillDp = (id, kpiId) => {
+      const kpi = document.getElementById(kpiId);
+      const dp  = document.getElementById(id);
+      if (kpi && dp) dp.textContent = kpi.textContent;
+    };
+    fillDp('dp-retro-pct',  'kpi-retro');
+    fillDp('dp-form20-pct', 'kpi-form20');
+    fillDp('dp-caste-pct',  'kpi-caste');
+    fillDp('dp-booth-pct',  'kpi-booth');
+  }
+
+  // ── Data load ───────────────────────────────────────────────────
+  async function loadData(forceRefresh = false) {
+    document.getElementById('table-loading').classList.remove('hidden');
+    document.getElementById('table-wrap').classList.add('hidden');
+    document.getElementById('table-footer').classList.add('hidden');
+
+    try {
+      const res  = await fetch(forceRefresh ? '/api/country_glance_test/data?refresh=1' : '/api/country_glance_test/data');
+      const json = await res.json();
+
+      if (json.matrix && json.matrix.length > 0) {
+        let nregaMissing = true;
+        let kysMissing = true;
+
+        globalMatrix = json.matrix.map(m => {
+          if (m.nrega > 0) nregaMissing = false;
+          if (m.kys > 0) kysMissing = false;
+          return {
+            state_name: m.state_name,
+            retro:     m.retro     ?? 0,
+            form20:    m.form20    ?? 0,
+            caste:     m.caste     ?? 0,
+            booth:     m.booth     ?? 0,
+            muslim:    m.muslim    ?? 0,
+            joshua:    m.joshua    ?? 0,
+            kys:       m.kys       ?? 0,
+            lgd:       m.lgd       ?? 0,
+            ejal:      m.ejal      ?? 0,
+            secc:      m.secc      ?? 0,
+            nrega:     m.nrega     ?? 0,
+            indiastat: m.indiastat ?? 0,
+            elens:     m.lens      ?? 0,
+          };
+        });
+        
+        if (nregaMissing || kysMissing) {
+            document.getElementById('list-no-data-warning').classList.remove('hidden');
+        } else {
+            document.getElementById('list-no-data-warning').classList.add('hidden');
+        }
+        
+        const nav = json.national_avg || {};
+        setKPI('kpi-retro',  nav.retro  ?? calcAvg('retro'));
+        setKPI('kpi-form20', nav.form20 ?? calcAvg('form20'));
+        setKPI('kpi-caste',  nav.caste  ?? calcAvg('caste'));
+        setKPI('kpi-booth',  nav.booth  ?? calcAvg('booth'));
+        updateInfoPanelKPIs();
+      } else {
+        throw new Error('empty');
+      }
+    } catch {
+      globalMatrix = [];
+      setKPI('kpi-retro',  0);
+      setKPI('kpi-form20', 0);
+      setKPI('kpi-caste',  0);
+      setKPI('kpi-booth',  0);
+      updateInfoPanelKPIs();
+    }
+
+    document.getElementById('table-loading').classList.add('hidden');
+    document.getElementById('table-wrap').classList.remove('hidden');
+    document.getElementById('table-footer').classList.remove('hidden');
+    renderMatrix();
+  }
+
+  function calcAvg(key) {
+    const v = globalMatrix.map(r => parseFloat(r[key]) || 0);
+    return v.length ? v.reduce((a,b) => a+b, 0) / v.length : 0;
+  }
+  function setKPI(id, val) {
+    const el = document.getElementById(id);
+    if (el) el.textContent = parseFloat(val).toFixed(2) + '%';
+  }
+
+  // ── Rendering ───────────────────────────────────────────────────
+  function getDotHTML(val) {
+    if (val === null || val === undefined || val === -1) {
+      return `<span class="flex items-center justify-center gap-1.5"><span class="sdot sdot-gray" style="width:8px;height:8px"></span><span class="text-[11px] text-gray-400 font-medium">—</span></span>`;
+    }
+    const p = parseFloat(val);
+    let dc = 'sdot-red', tc = 'text-rose-600';
+    if      (p >= 95) { dc = 'sdot-dark-green';  tc = 'text-emerald-700'; }
+    else if (p >= 80) { dc = 'sdot-light-green';  tc = 'text-emerald-600'; }
+    else if (p >= 50) { dc = 'sdot-yellow';       tc = 'text-amber-600';   }
+    else if (p >= 11) { dc = 'sdot-orange';       tc = 'text-orange-600';  }
+    return `<span class="flex items-center justify-center gap-1.5 tabular-nums mx-auto w-14">
+              <span class="sdot ${dc}"></span>
+              <span class="text-[11.5px] font-semibold ${tc} w-9 text-right">${p.toFixed(0)}%</span>
+            </span>`;
+  }
+
+  function renderMatrix() {
+    const tbody = document.getElementById('matrix-tbody');
+    tbody.innerHTML = '';
+    let rows = [...globalMatrix];
+
+    const q = document.getElementById('state-search').value.toLowerCase().trim();
+    if (q) rows = rows.filter(r => r.state_name.toLowerCase().includes(q));
+
+    rows.sort((a, b) => {
+      const va = a[sortColumn], vb = b[sortColumn];
+      return typeof va === 'string'
+        ? (sortAsc ? va.localeCompare(vb) : vb.localeCompare(va))
+        : (sortAsc ? va - vb : vb - va);
+    });
+
+    document.getElementById('visible-count').textContent = rows.length;
+
+    rows.forEach((row, idx) => {
+      const tr = document.createElement('tr');
+      const stateLabel = row.state_abb === 'JK'
+        ? `${row.state_name} <span class="text-amber-600 font-bold ml-0.5" title="Capped at 100% (adjusted for election seats increase from 87 to 90 seats in 2022)">*</span>`
+        : row.state_name;
+      tr.innerHTML = `
+        <td class="text-center text-gray-400 font-medium text-xs bg-[#f8fafc] sticky left-0 z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)]">${idx+1}</td>
+        <td class="font-semibold text-gray-800 text-[12.5px] bg-[#f8fafc] sticky left-[40px] z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)] pr-4">${stateLabel}</td>
+        <td class="text-center eci-col">${getDotHTML(row.retro)}</td>
+        <td class="text-center eci-col">${getDotHTML(row.form20)}</td>
+        <td class="text-center eci-col">${getDotHTML(row.caste)}</td>
+        <td class="text-center eci-col border-r-2 border-gray-200">${getDotHTML(row.booth)}</td>
+        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.muslim)}</td>
+        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.joshua)}</td>
+        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.kys)}</td>
+        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.lgd)}</td>
+        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.ejal)}</td>
+        <td class="text-center other-col bg-gray-50/20 border-r-2 border-gray-200">${getDotHTML(row.secc)}</td>
+        <td class="text-center other-col bg-emerald-50/20">${getDotHTML(row.nrega)}</td>
+        <td class="text-center other-col bg-emerald-50/20">${getDotHTML(row.indiastat)}</td>
+        <td class="text-center other-col bg-emerald-50/20">${getDotHTML(row.elens)}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+
+    updateColVisibility();
+  }
+
+  // ── Tab switching — ECI & Auxiliary Sources (Always Displayed Info Panel) ──
+  function switchTab(tab) {
+    currentTab = tab;
+    const tabEci = document.getElementById('tab-eci');
+    const tabOther = document.getElementById('tab-other');
+
+    const btnBase = 'px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95';
+
+    if (tab === 'eci') {
+      tabEci.className = 'btn-tab-active-black ' + btnBase;
+      tabOther.className = 'btn-tab-inactive-gray ' + btnBase;
+    } else {
+      tabEci.className = 'btn-tab-inactive-gray ' + btnBase;
+      tabOther.className = 'btn-tab-active-black ' + btnBase;
+    }
+
+    const panelEci = document.getElementById('panel-eci');
+    const panelAux = document.getElementById('panel-aux');
+    if (panelEci) panelEci.classList.toggle('hidden', tab !== 'eci');
+    if (panelAux) panelAux.classList.toggle('hidden', tab !== 'other');
+
+    if (tab === 'eci') {
+      updateInfoPanelKPIs();
+    }
+    updateColVisibility();
+  }
+
+  function updateColVisibility() {
+    const eciEls   = document.querySelectorAll('.eci-col');
+    const otherEls = document.querySelectorAll('.other-col');
+    const gEci     = document.getElementById('group-eci');
+    const gOther   = document.getElementById('group-other');
+
+    if (currentTab === 'eci') {
+      eciEls.forEach(el  => el.style.display = '');
+      otherEls.forEach(el => el.style.display = 'none');
+      gEci.style.display   = '';
+      gOther.style.display = 'none';
+      gEci.colSpan = 4;
+    } else {
+      eciEls.forEach(el  => el.style.display = 'none');
+      otherEls.forEach(el => el.style.display = '');
+      gEci.style.display   = 'none';
+      gOther.style.display = '';
+      gOther.colSpan = 9;
+    }
+  }
+
+  function filterMatrix() { renderMatrix(); }
+
+  function sortTable(col) {
+    sortAsc = sortColumn === col ? !sortAsc : true;
+    sortColumn = col;
+    renderMatrix();
+  }
+
+  function exportToCSV() {
+    const hdr = 'Sr,State,Retro%,Form20%,Caste%,Booth%,Muslim%,Joshua%,KYS%,LGD%,Ejal%,SECC%,NREGA%,Indiastat%,ElectionLens%';
+    const rows = globalMatrix.map((r, i) =>
+      [i+1,r.state_name,r.retro,r.form20,r.caste,r.booth,r.muslim,r.joshua,r.kys,r.lgd,r.ejal,r.secc,r.nrega,r.indiastat,r.elens]
+      .map(v => `"${v}"`).join(',')
+    );
+    const blob = new Blob([[hdr,...rows].join('\n')], {type:'text/csv'});
+    Object.assign(document.createElement('a'), {
+      href: URL.createObjectURL(blob),
+      download:`Country_Glance_${new Date().toISOString().slice(0,10)}.csv`
+    }).click();
+  }
+
+  document.addEventListener('DOMContentLoaded', () => loadData(false));
+</script>
+
+</body>
+</html>
