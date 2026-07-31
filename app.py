@@ -1530,10 +1530,6 @@ def _build_analytics():
 @app.route('/api/dashboard/analytics')
 def dashboard_analytics():
     """Return cached analytics — 100% unified with Country Glance Report single source of truth."""
-    cached = cache_get('analytics')
-    if cached:
-        return jsonify(cached)
-    
     glance_file = os.path.join(BASE_DIR, 'static', 'data', 'glance_cache.json')
     nat_avg = {}
     matrix = []
@@ -1596,7 +1592,6 @@ def dashboard_analytics():
         'voter_roll': {'available': False, 'error': 'not tracked'},
         'mapping_years': 19, 'mapping_entries': 261, 'mapping_by_type': {'GE': 148, 'AE': 113}
     }
-    cache_set('analytics', payload)
     return jsonify(payload)
 
 
