@@ -233,7 +233,151 @@
         <section class="site-shell report-head" aria-labelledby="page-title"><div class="report-head__row reveal"><div><span class="eyebrow"><i></i> Internal reporting</span><h1 id="page-title" class="display">Country Glance Report</h1></div><p>A unified operational view of data availability across States and Union Territories. Built for the Project CleanRoom team.</p></div></section>
         <section class="site-shell" aria-label="Key coverage metrics"><div class="metrics reveal"><div><span>States &amp; UTs</span><b>37</b></div><div><span>Retro data</span><b>98.26%</b></div><div><span>Form 20 data</span><b>74.71%</b></div><div><span>Sources unified</span><b>13</b></div></div></section>
         <section class="site-shell analytics" aria-labelledby="analytics-heading"><div class="section-head"><div><span class="eyebrow">Coverage intelligence</span><h2 id="analytics-heading" class="display mt-4">Know where work matters.</h2></div><p>Live summaries calculated from the same complete state-level matrix shown below. No source data is hidden or removed.</p></div><div class="analytics-grid"><article class="insight-card"><h3>Source health</h3><p class="insight-card__intro">Average completion across all States and Union Territories.</p><div id="source-health" class="source-health" aria-live="polite"></div></article><article class="insight-card"><h3>Priority action queue</h3><p class="insight-card__intro">The lowest coverage items across primary ECI datasets.</p><div id="priority-list" class="priority-list" aria-live="polite"></div></article><article class="insight-card"><h3>ECI coverage heatmap</h3><p class="insight-card__intro">A compact, scan-friendly comparison of every State across the four primary datasets.</p><div class="matrix-legend" aria-label="Heatmap legend"><span><i class="heat-strong"></i>95–100%</span><span><i class="heat-good"></i>80–94%</span><span><i class="heat-watch"></i>50–79%</span><span><i class="heat-risk"></i>Below 50%</span></div><div id="coverage-heatmap" class="heatmap" role="table" aria-label="ECI coverage heatmap"></div><div class="analytics-note"><span>Scroll the complete matrix for every source and exact value.</span><a href="#country-data">Open full matrix</a></div></article></div></section>
-        <section class="site-shell catalog" aria-labelledby="source-heading"><div class="section-head"><div><span class="eyebrow">Source reference</span><h2 id="source-heading" class="display mt-4">What each signal covers.</h2></div><p>Use this reference to understand the source systems and fields behind the coverage figures below.</p></div><div class="catalog-grid"><article class="catalog-card"><div class="catalog-card__head"><h3>Available ECI data points</h3><span>PRIMARY</span></div><ul class="source-list"><li><strong>Booth Data</strong><span>AC, booth and voter details; polling station, ward, pincode and address.</span></li><li><strong>Caste Data</strong><span>AC name, caste, sub-caste, category and percentage.</span></li><li><strong>Form 20</strong><span>AC and booth number, party, candidate, votes and booth rank.</span></li><li><strong>Retro Data</strong><span>Candidate, party, votes, election type and election year.</span></li><li><strong>Geospatial Mappings</strong><span>AC, booth and voter EPIC mapping with latitude and longitude where available.</span></li></ul></article><article class="catalog-card"><div class="catalog-card__head"><h3>Available data of other sources</h3><span>AUXILIARY</span></div><ul class="source-list"><li><strong>Ejalshakti</strong><span>Village, Lgd code, block, panchayat, population and household data.</span></li><li><strong>Joshua</strong><span>District, population, language and religion demographics.</span></li><li><strong>LGD Data</strong><span>LGD, PC and AC codes with district, block and panchayat mappings.</span></li><li><strong>Muslim Census</strong><span>District, sub-district, population and Muslim percentage.</span></li><li><strong>SECC Data</strong><span>Households, income, marital status, population, caste and age.</span></li><li><strong>NREGA Data</strong><span>Job cards, person-days, payments, work completion and assets.</span></li><li><strong>Election Lens</strong><span>AC, voters, turnout, candidate, party, votes, gender, caste and age.</span></li><li><strong>Other sources</strong><span>Indiastat, Know Your School, Pincode and Municipal election datasets.</span></li></ul></article></div><aside class="reading-note"><b>Reading manual</b><ol><li>Caste and Booth Data percentages use the total number of Assembly Constituencies and the number of ACs currently available.</li><li>Retro Data and Form 20 percentages use election type, election year and the count of actual available ACs.</li><li>Daman &amp; Diu and Dadra &amp; Nagar Haveli are handled separately in this analysis, although officially combined by the Government of India.</li><li>Other-source percentages are calculated using the district count in the LGD directory; Census district counts may differ.</li></ol></aside></section>
+        <section class="site-shell catalog" aria-labelledby="source-heading"><div class="section-head"><div><span class="eyebrow">Source reference</span><h2 id="source-heading" class="display mt-4">What each signal covers.</h2></div><p>Use this reference to understand the source systems and fields behind the coverage figures below.</p></div><div class="space-y-6">
+  <!-- Legend -->
+  <article class="catalog-card mb-6">
+    <div class="catalog-card__head">
+      <h3>Color Legend</h3>
+      <span>METRICS</span>
+    </div>
+    <div class="p-5 flex flex-wrap gap-4 text-[13px] font-medium text-[#46574f]">
+      <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #166534;"></div> <span>Dark Green (95-100%)</span></div>
+      <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #22c55e;"></div> <span>Light Green (80-94%)</span></div>
+      <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #eab308;"></div> <span>Yellow (50-79%)</span></div>
+      <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #f97316;"></div> <span>Orange (11-49%)</span></div>
+      <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #ef4444;"></div> <span>Red (0-10%)</span></div>
+    </div>
+  </article>
+
+  <!-- Primary Data -->
+  <article class="catalog-card">
+    <div class="catalog-card__head">
+      <h3>Available ECI data points</h3>
+      <span>PRIMARY</span>
+    </div>
+    <div class="overflow-x-auto">
+      <table class="w-full text-[12px] text-left border-collapse">
+        <thead>
+          <tr class="border-b border-[rgba(20,34,29,.08)] text-[11px] text-[#46574f]">
+            <th class="p-3 font-semibold uppercase whitespace-nowrap">Dataset Name</th>
+            <th class="p-3 font-semibold uppercase">Field Coverage</th>
+            <th class="p-3 font-semibold uppercase whitespace-nowrap">Source System</th>
+            <th class="p-3 font-semibold uppercase whitespace-nowrap">Granularity</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-[rgba(20,34,29,.08)]">
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Booth Data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">AcName,BoothNo.,FemaleVoters,MaleVoters,TotalVoters,MainVillage,District,Taluka,Tehsil,Sub-Division,Block,PostOffice,PoliceStation,WardNo.,Pincode,BoothName,BoothAddress</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)] whitespace-nowrap">ECI</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Boothwise voters Details</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Caste Data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">AcName,CasteName,Sub_Caste,CasteCategory,CastePercentage</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)] whitespace-nowrap">ECI</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">ACwise Caste details</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Form 20</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">AcName,BoothNo.,PartyName,CandidateName,Votes,BoothRank</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)] whitespace-nowrap">CEO Websites</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Boothwise Candidate/Party Votes</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Retro Data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">CandidateName,PartyName,Votes,ElectionType,ElectionYear</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)] whitespace-nowrap">ECI</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">ACwise Candidate/Party Votes</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Geospatial Mappings-Polaris</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">AC,boothnumber,VoterEPICnumber,Latitude,longitude(Available for KL,TN,WB,AS)</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)] whitespace-nowrap">ECI & Lat-Long</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Booth and voter geo-coordinates</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </article>
+
+  <!-- Auxiliary Data -->
+  <article class="catalog-card mt-6">
+    <div class="catalog-card__head">
+      <h3>Available data of other sources</h3>
+      <span>AUXILIARY</span>
+    </div>
+    <div class="overflow-x-auto">
+      <table class="w-full text-[12px] text-left border-collapse">
+        <thead>
+          <tr class="border-b border-[rgba(20,34,29,.08)] text-[11px] text-[#46574f]">
+            <th class="p-3 font-semibold uppercase whitespace-nowrap">Dataset Name</th>
+            <th class="p-3 font-semibold uppercase w-[55%]">Field Coverage</th>
+            <th class="p-3 font-semibold uppercase w-[25%]">Source System</th>
+          </tr>
+        </thead>
+        <tbody class="divide-y divide-[rgba(20,34,29,.08)]">
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Ejalshakti Data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">VillageName,LgdCode,Block,Panchayat,TotalPopulation,SCPopulation,STPopulation,GeneralPopulation,No.ofhabitants,No.of households,TapConnections,HabitationName</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Ministry of Jal Shakti (GOI)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Joshua</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">DistrictName,TotalPopulation,PeopleGroupName,PrimaryLanguage,HinduPopulation,Muslim Population,SikhPopulation,Christian Population,BuddhistPopulation,OtherReligionsPopulation</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Joshua Project</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">LGD Data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">LGDCode,PCName,ACName,DistrictCode,DisttrictName,SubDistrictCode,SubDistrictName,Block,Panchayat</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Ministry of Panchayati Raj (GOI)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Muslim Census</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">District,Sub-District,TotalPopulation,Muslim Population,Muslim Percentage</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Muslim Census (demographic data site)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">SECC Data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">DeprivedHouseholds,HouseholdsOwnership,ExcludedHouseholds,IncludedHouseholds,MainIncomeSource,Pop,MaritalStatus, Education,Age</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Socio-Economic and Caste Census (SECC) Portal, (GOI)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">NREGA Data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">National Rural Employment Guarantee Act data covering job cards, person-days generated, wage payments, work completion, asset creation, and demographic participation at panchayat/block/district levels</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Ministry of Rural Development</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Election Lens</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">ACName,ValidVotes,Electors,Turnout,enop,CandidateName,Party,Votes,Gender,Caste,Age</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">ElectionLens</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">IndiaStat Publication</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Elector count, turnout %, reservation, MP/MLA party affiliation, urban rural classification at PC/AC/District level</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Indiastat Publication</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Know Your School</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Education infrastructure mapping, Student enrollment profiling, resource allocation tracking at ditrict/village/block level.</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">Department of School education and Litreracy</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Pincode</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">CircleName,RegionName,DivisionName,OfficeName,PinCode,officeType,District,State,Lat-long,ACNumber,ACName(Available for All India)</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">OpenGov.Data (OGD)</td>
+          </tr>
+          <tr>
+            <td class="p-3 font-bold whitespace-nowrap text-[#18181b]">Municipal elections</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">All India Gram panchayat shapefiles, BMC ward-wise results and shapefiles, Punjab MCs nomination data, Bengaluru GBA shapefiles & voter data</td>
+            <td class="p-3 text-[rgba(20,34,29,.7)]">State Election Commision Website, Twitter, etc</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </article>
+</div>
+<aside class="reading-note"><b>Reading manual</b><ol><li>Caste and Booth Data percentages use the total number of Assembly Constituencies and the number of ACs currently available.</li><li>Retro Data and Form 20 percentages use election type, election year and the count of actual available ACs.</li><li>Daman &amp; Diu and Dadra &amp; Nagar Haveli are handled separately in this analysis, although officially combined by the Government of India.</li><li>Other-source percentages are calculated using the district count in the LGD directory; Census district counts may differ.</li></ol></aside></section>
         <section id="country-data" class="site-shell pb-20" aria-labelledby="data-heading"><div class="section-head"><div><span class="eyebrow">Coverage matrix</span><h2 id="data-heading" class="display mt-4">Country data availability.</h2></div><p>Compare the coverage of primary and auxiliary sources. Search, sort, or export the complete view when you need it.</p></div>
         <div class="w-full mb-4 flex flex-wrap items-center justify-between gap-4">
             <div class="flex items-center bg-white/60 backdrop-blur-md p-1.5 rounded-xl border border-gray-200/60 shadow-sm text-sm font-medium">
