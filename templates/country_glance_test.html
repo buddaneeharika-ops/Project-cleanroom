@@ -427,152 +427,206 @@
        INFO PANEL — slides in under tab bar
   ───────────────────────────────────────── -->
   <div id="info-panel" class="info-panel">
-    <div class="max-w-[1760px] mx-auto px-6 pt-3 pb-5">
-      <div class="space-y-6">
-        <!-- Legend -->
-        <article class="bg-white rounded-xl border border-gray-200 p-5 shadow-sm mb-6">
-          <div class="flex items-center justify-between mb-4">
-            <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider">Color Legend</h3>
-            <span class="text-[10px] font-bold bg-gray-100 text-gray-600 px-2 py-0.5 rounded">METRICS</span>
-          </div>
-          <div class="flex flex-wrap gap-4 text-[13px] font-medium text-gray-700">
-            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #166534;"></div> <span>Dark Green (95-100%)</span></div>
-            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #22c55e;"></div> <span>Light Green (80-94%)</span></div>
-            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #eab308;"></div> <span>Yellow (50-79%)</span></div>
-            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #f97316;"></div> <span>Orange (11-49%)</span></div>
-            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #ef4444;"></div> <span>Red (0-10%)</span></div>
-          </div>
-        </article>
+    <div class="max-w-[1760px] mx-auto px-6 pt-5 pb-8">
+      
+      <!-- Header & Tabs -->
+      <div class="mb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
+        <div>
+          <h2 class="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 tracking-tight">Source Dictionary</h2>
+          <p class="text-gray-500 text-[13px] mt-1.5 font-medium">Explore available datasets, fields, and integration systems.</p>
+        </div>
+        
+        <!-- Tabs -->
+        <div class="flex items-center p-1 bg-gray-100/70 backdrop-blur-md rounded-xl border border-gray-200/60 shadow-inner w-max">
+          <button onclick="switchTab('primary')" id="tab-primary" class="px-5 py-2 text-sm font-bold rounded-lg transition-all duration-300 bg-white shadow-sm shadow-indigo-100 border border-gray-200/60">
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600">Primary ECI Data</span>
+          </button>
+          <button onclick="switchTab('auxiliary')" id="tab-auxiliary" class="px-5 py-2 text-sm font-bold rounded-lg transition-all duration-300 text-gray-500 hover:text-gray-700 hover:bg-gray-50/80 border border-transparent">
+            <span>Auxiliary Sources</span>
+          </button>
+        </div>
+      </div>
 
-        <!-- Primary Data -->
-        <article class="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
-          <div class="px-5 py-4 border-b border-gray-200 bg-gray-50 flex items-center justify-between">
-            <h3 class="font-semibold text-gray-900">Available ECI data points</h3>
-            <span class="text-xs font-medium bg-gray-200 text-gray-700 px-2 py-1 rounded">PRIMARY</span>
-          </div>
-          <div class="overflow-x-auto">
-            <table class="w-full text-[12px] text-left border-collapse">
-              <thead>
-                <tr class="border-b border-gray-100 text-[11px] text-gray-500 bg-gray-50/50">
-                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Dataset Name</th>
-                  <th class="p-3 font-semibold uppercase">Field Coverage</th>
-                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Source System</th>
-                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Granularity</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-gray-50">
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Booth Data</td>
-                  <td class="p-3 text-gray-600">AcName,BoothNo.,FemaleVoters,MaleVoters,TotalVoters,MainVillage,District,Taluka,Tehsil,Sub-Division,Block,PostOffice,PoliceStation,WardNo.,Pincode,BoothName,BoothAddress</td>
-                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI</td>
-                  <td class="p-3 text-gray-600">Boothwise voters Details</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Caste Data</td>
-                  <td class="p-3 text-gray-600">AcName,CasteName,Sub_Caste,CasteCategory,CastePercentage</td>
-                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI</td>
-                  <td class="p-3 text-gray-600">ACwise Caste details</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Form 20</td>
-                  <td class="p-3 text-gray-600">AcName,BoothNo.,PartyName,CandidateName,Votes,BoothRank</td>
-                  <td class="p-3 text-gray-600 whitespace-nowrap">CEO Websites</td>
-                  <td class="p-3 text-gray-600">Boothwise Candidate/Party Votes</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Retro Data</td>
-                  <td class="p-3 text-gray-600">CandidateName,PartyName,Votes,ElectionType,ElectionYear</td>
-                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI</td>
-                  <td class="p-3 text-gray-600">ACwise Candidate/Party Votes</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Geospatial Mappings-Polaris</td>
-                  <td class="p-3 text-gray-600">AC,boothnumber,VoterEPICnumber,Latitude,longitude(Available for KL,TN,WB,AS)</td>
-                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI & Lat-Long</td>
-                  <td class="p-3 text-gray-600">Booth and voter geo-coordinates</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </article>
+      <!-- Legend -->
+      <div class="mb-6 bg-white/70 backdrop-blur-md rounded-2xl border border-gray-200/50 p-4 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.03)] flex flex-wrap items-center gap-6">
+        <div class="flex items-center gap-1.5 text-[11px] font-black text-gray-400 uppercase tracking-widest mr-2">
+            <span class="material-symbols-outlined" style="font-size:14px;">insights</span> Coverage
+        </div>
+        <div class="flex items-center gap-2"><div class="w-3.5 h-3.5 rounded-full bg-gradient-to-br from-green-700 to-green-900 shadow-sm shadow-green-900/20"></div> <span class="text-[12px] font-semibold text-gray-700">Dark Green (95-100%)</span></div>
+        <div class="flex items-center gap-2"><div class="w-3.5 h-3.5 rounded-full bg-gradient-to-br from-green-400 to-green-600 shadow-sm shadow-green-500/20"></div> <span class="text-[12px] font-semibold text-gray-700">Light Green (80-94%)</span></div>
+        <div class="flex items-center gap-2"><div class="w-3.5 h-3.5 rounded-full bg-gradient-to-br from-yellow-300 to-yellow-500 shadow-sm shadow-yellow-500/20"></div> <span class="text-[12px] font-semibold text-gray-700">Yellow (50-79%)</span></div>
+        <div class="flex items-center gap-2"><div class="w-3.5 h-3.5 rounded-full bg-gradient-to-br from-orange-400 to-orange-600 shadow-sm shadow-orange-500/20"></div> <span class="text-[12px] font-semibold text-gray-700">Orange (11-49%)</span></div>
+        <div class="flex items-center gap-2"><div class="w-3.5 h-3.5 rounded-full bg-gradient-to-br from-red-500 to-red-700 shadow-sm shadow-red-600/20"></div> <span class="text-[12px] font-semibold text-gray-700">Red (0-10%)</span></div>
+      </div>
 
-        <!-- Auxiliary Data -->
-        <article class="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm mt-6">
-          <div class="px-5 py-4 border-b border-gray-200 bg-gray-50 flex items-center justify-between">
-            <h3 class="font-semibold text-gray-900">Available data of other sources</h3>
-            <span class="text-xs font-medium bg-gray-200 text-gray-700 px-2 py-1 rounded">AUXILIARY</span>
+      <!-- Tab Contents -->
+      <div class="relative min-h-[400px]">
+        
+        <!-- Primary Tab -->
+        <div id="content-primary" class="transition-all duration-400 ease-[cubic-bezier(0.16,1,0.3,1)] opacity-100 translate-y-0 relative z-10">
+          <div class="bg-white/80 backdrop-blur-xl rounded-2xl border border-gray-200/60 overflow-hidden shadow-[0_8px_30px_-4px_rgba(79,70,229,0.08)]">
+            <div class="overflow-x-auto">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="bg-gradient-to-r from-indigo-50/50 to-blue-50/50 border-b border-indigo-100/50">
+                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Dataset Name</th>
+                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest">Field Coverage</th>
+                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Source System</th>
+                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Granularity</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-indigo-50/50 text-[13px]">
+                  <tr class="hover:bg-indigo-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Booth Data</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AcName, BoothNo., FemaleVoters, MaleVoters, TotalVoters, MainVillage, District, Taluka, Tehsil, Sub-Division, Block, PostOffice, PoliceStation, WardNo., Pincode, BoothName, BoothAddress</td>
+                    <td class="p-4"><span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI</span></td>
+                    <td class="p-4 text-gray-600 font-medium">Boothwise voters Details</td>
+                  </tr>
+                  <tr class="hover:bg-indigo-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Caste Data</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AcName, CasteName, Sub_Caste, CasteCategory, CastePercentage</td>
+                    <td class="p-4"><span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI</span></td>
+                    <td class="p-4 text-gray-600 font-medium">ACwise Caste details</td>
+                  </tr>
+                  <tr class="hover:bg-indigo-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Form 20</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AcName, BoothNo., PartyName, CandidateName, Votes, BoothRank</td>
+                    <td class="p-4"><span class="bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md font-bold text-[11px]">CEO Websites</span></td>
+                    <td class="p-4 text-gray-600 font-medium">Boothwise Candidate/Party Votes</td>
+                  </tr>
+                  <tr class="hover:bg-indigo-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Retro Data</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">CandidateName, PartyName, Votes, ElectionType, ElectionYear</td>
+                    <td class="p-4"><span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI</span></td>
+                    <td class="p-4 text-gray-600 font-medium">ACwise Candidate/Party Votes</td>
+                  </tr>
+                  <tr class="hover:bg-indigo-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Geospatial Mappings-Polaris</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AC, boothnumber, VoterEPICnumber, Latitude, longitude (Available for KL, TN, WB, AS)</td>
+                    <td class="p-4"><span class="bg-purple-50 text-purple-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI & Lat-Long</span></td>
+                    <td class="p-4 text-gray-600 font-medium">Booth and voter geo-coordinates</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-          <div class="overflow-x-auto">
-            <table class="w-full text-[12px] text-left border-collapse">
-              <thead>
-                <tr class="border-b border-gray-100 text-[11px] text-gray-500 bg-gray-50/50">
-                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Dataset Name</th>
-                  <th class="p-3 font-semibold uppercase w-[55%]">Field Coverage</th>
-                  <th class="p-3 font-semibold uppercase w-[25%]">Source System</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-gray-50">
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Ejalshakti Data</td>
-                  <td class="p-3 text-gray-600">VillageName,LgdCode,Block,Panchayat,TotalPopulation,SCPopulation,STPopulation,GeneralPopulation,No.ofhabitants,No.of households,TapConnections,HabitationName</td>
-                  <td class="p-3 text-gray-600">Ministry of Jal Shakti (GOI)</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Joshua</td>
-                  <td class="p-3 text-gray-600">DistrictName,TotalPopulation,PeopleGroupName,PrimaryLanguage,HinduPopulation,Muslim Population,SikhPopulation,Christian Population,BuddhistPopulation,OtherReligionsPopulation</td>
-                  <td class="p-3 text-gray-600">Joshua Project</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">LGD Data</td>
-                  <td class="p-3 text-gray-600">LGDCode,PCName,ACName,DistrictCode,DisttrictName,SubDistrictCode,SubDistrictName,Block,Panchayat</td>
-                  <td class="p-3 text-gray-600">Ministry of Panchayati Raj (GOI)</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Muslim Census</td>
-                  <td class="p-3 text-gray-600">District,Sub-District,TotalPopulation,Muslim Population,Muslim Percentage</td>
-                  <td class="p-3 text-gray-600">Muslim Census (demographic data site)</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">SECC Data</td>
-                  <td class="p-3 text-gray-600">DeprivedHouseholds,HouseholdsOwnership,ExcludedHouseholds,IncludedHouseholds,MainIncomeSource,Pop,MaritalStatus, Education,Age</td>
-                  <td class="p-3 text-gray-600">Socio-Economic and Caste Census (SECC) Portal, (GOI)</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">NREGA Data</td>
-                  <td class="p-3 text-gray-600">National Rural Employment Guarantee Act data covering job cards, person-days generated, wage payments, work completion, asset creation, and demographic participation at panchayat/block/district levels</td>
-                  <td class="p-3 text-gray-600">Ministry of Rural Development</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Election Lens</td>
-                  <td class="p-3 text-gray-600">ACName,ValidVotes,Electors,Turnout,enop,CandidateName,Party,Votes,Gender,Caste,Age</td>
-                  <td class="p-3 text-gray-600">ElectionLens</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">IndiaStat Publication</td>
-                  <td class="p-3 text-gray-600">Elector count, turnout %, reservation, MP/MLA party affiliation, urban rural classification at PC/AC/District level</td>
-                  <td class="p-3 text-gray-600">Indiastat Publication</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Know Your School</td>
-                  <td class="p-3 text-gray-600">Education infrastructure mapping, Student enrollment profiling, resource allocation tracking at ditrict/village/block level.</td>
-                  <td class="p-3 text-gray-600">Department of School education and Litreracy</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Pincode</td>
-                  <td class="p-3 text-gray-600">CircleName,RegionName,DivisionName,OfficeName,PinCode,officeType,District,State,Lat-long,ACNumber,ACName(Available for All India)</td>
-                  <td class="p-3 text-gray-600">OpenGov.Data (OGD)</td>
-                </tr>
-                <tr class="hover:bg-gray-50">
-                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Municipal elections</td>
-                  <td class="p-3 text-gray-600">All India Gram panchayat shapefiles, BMC ward-wise results and shapefiles, Punjab MCs nomination data, Bengaluru GBA shapefiles & voter data</td>
-                  <td class="p-3 text-gray-600">State Election Commision Website, Twitter, etc</td>
-                </tr>
-              </tbody>
-            </table>
+        </div>
+        
+        <!-- Auxiliary Tab -->
+        <div id="content-auxiliary" class="transition-all duration-400 ease-[cubic-bezier(0.16,1,0.3,1)] opacity-0 pointer-events-none translate-y-4 absolute inset-0">
+          <div class="bg-white/80 backdrop-blur-xl rounded-2xl border border-gray-200/60 overflow-hidden shadow-[0_8px_30px_-4px_rgba(16,185,129,0.08)]">
+            <div class="overflow-x-auto">
+              <table class="w-full text-left border-collapse">
+                <thead>
+                  <tr class="bg-gradient-to-r from-emerald-50/50 to-teal-50/50 border-b border-emerald-100/50">
+                    <th class="p-4 text-[11px] font-bold text-emerald-900/60 uppercase tracking-widest whitespace-nowrap w-[20%]">Dataset Name</th>
+                    <th class="p-4 text-[11px] font-bold text-emerald-900/60 uppercase tracking-widest w-[55%]">Field Coverage</th>
+                    <th class="p-4 text-[11px] font-bold text-emerald-900/60 uppercase tracking-widest w-[25%]">Source System</th>
+                  </tr>
+                </thead>
+                <tbody class="divide-y divide-emerald-50/50 text-[13px]">
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Ejalshakti Data</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">VillageName, LgdCode, Block, Panchayat, TotalPopulation, SCPopulation, STPopulation, GeneralPopulation, No.ofhabitants, No.of households, TapConnections, HabitationName</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Ministry of Jal Shakti (GOI)</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Joshua</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">DistrictName, TotalPopulation, PeopleGroupName, PrimaryLanguage, HinduPopulation, Muslim Population, SikhPopulation, Christian Population, BuddhistPopulation, OtherReligionsPopulation</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Joshua Project</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">LGD Data</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">LGDCode, PCName, ACName, DistrictCode, DisttrictName, SubDistrictCode, SubDistrictName, Block, Panchayat</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Ministry of Panchayati Raj (GOI)</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Muslim Census</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">District, Sub-District, TotalPopulation, Muslim Population, Muslim Percentage</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Muslim Census</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">SECC Data</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">DeprivedHouseholds, HouseholdsOwnership, ExcludedHouseholds, IncludedHouseholds, MainIncomeSource, Pop, MaritalStatus, Education, Age</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">SECC Portal (GOI)</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">NREGA Data</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">National Rural Employment Guarantee Act data covering job cards, person-days generated, wage payments, work completion, asset creation, and demographic participation at panchayat/block/district levels</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Ministry of Rural Development</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Election Lens</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">ACName, ValidVotes, Electors, Turnout, enop, CandidateName, Party, Votes, Gender, Caste, Age</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ElectionLens</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">IndiaStat Publication</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">Elector count, turnout %, reservation, MP/MLA party affiliation, urban rural classification at PC/AC/District level</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Indiastat Publication</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Know Your School</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">Education infrastructure mapping, Student enrollment profiling, resource allocation tracking at ditrict/village/block level.</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Dept of School Education</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Pincode</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">CircleName, RegionName, DivisionName, OfficeName, PinCode, officeType, District, State, Lat-long, ACNumber, ACName</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">OpenGov.Data (OGD)</span></td>
+                  </tr>
+                  <tr class="hover:bg-emerald-50/30 transition-colors group">
+                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Municipal elections</td>
+                    <td class="p-4 text-gray-600 leading-relaxed font-medium">All India Gram panchayat shapefiles, BMC ward-wise results and shapefiles, Punjab MCs nomination data, Bengaluru GBA shapefiles & voter data</td>
+                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">State Election Commision</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
-        </article>
+        </div>
+
       </div>
     </div>
+    
+    <script>
+      function switchTab(tab) {
+          const tPrimary = document.getElementById('tab-primary');
+          const tAux = document.getElementById('tab-auxiliary');
+          const cPrimary = document.getElementById('content-primary');
+          const cAux = document.getElementById('content-auxiliary');
+
+          const activeTabClasses = "px-5 py-2 text-sm font-bold rounded-lg transition-all duration-300 bg-white shadow-sm shadow-indigo-100 border border-gray-200/60";
+          const inactiveTabClasses = "px-5 py-2 text-sm font-bold rounded-lg transition-all duration-300 text-gray-500 hover:text-gray-700 hover:bg-gray-50/80 border border-transparent";
+          
+          if (tab === 'primary') {
+              tPrimary.className = activeTabClasses;
+              tPrimary.firstElementChild.className = "bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-indigo-600";
+              
+              tAux.className = inactiveTabClasses.replace('shadow-indigo-100', 'shadow-emerald-100');
+              tAux.firstElementChild.className = "";
+
+              cPrimary.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4', 'absolute', 'inset-0');
+              cPrimary.classList.add('opacity-100', 'translate-y-0', 'relative', 'z-10');
+
+              cAux.classList.remove('opacity-100', 'translate-y-0', 'relative', 'z-10');
+              cAux.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4', 'absolute', 'inset-0');
+              
+          } else {
+              tAux.className = activeTabClasses.replace('shadow-indigo-100', 'shadow-emerald-100');
+              tAux.firstElementChild.className = "bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 to-teal-600";
+              
+              tPrimary.className = inactiveTabClasses;
+              tPrimary.firstElementChild.className = "";
+
+              cAux.classList.remove('opacity-0', 'pointer-events-none', 'translate-y-4', 'absolute', 'inset-0');
+              cAux.classList.add('opacity-100', 'translate-y-0', 'relative', 'z-10');
+
+              cPrimary.classList.remove('opacity-100', 'translate-y-0', 'relative', 'z-10');
+              cPrimary.classList.add('opacity-0', 'pointer-events-none', 'translate-y-4', 'absolute', 'inset-0');
+          }
+      }
+    </script>
   </div>
 
   <!-- ─────────────────────────────────────────
