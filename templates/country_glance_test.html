@@ -428,273 +428,152 @@
   ───────────────────────────────────────── -->
   <div id="info-panel" class="info-panel">
     <div class="max-w-[1760px] mx-auto px-6 pt-3 pb-5">
-
-      <!-- ══ ECI Primary Panel ══ -->
-      <div id="panel-eci">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-
-          <!-- Data Points Grid (2/3 width) -->
-          <div class="lg:col-span-2">
-            <p class="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-3 flex items-center gap-1.5">
-              <span class="material-symbols-outlined" style="font-size:13px;">database</span>
-              4 Available Data Points
-            </p>
-            <div class="grid grid-cols-2 gap-3">
-
-              <div class="dp-card eci panel-item" style="animation-delay:0ms">
-                <div class="flex items-start justify-between mb-2">
-                  <div class="flex items-center gap-2">
-                    <span class="sdot sdot-dark-green" style="width:10px;height:10px"></span>
-                    <span class="text-[13px] font-bold text-gray-900">Retro Data</span>
-                  </div>
-                  <span class="text-[11px] font-mono font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full" id="dp-retro-pct">—</span>
-                </div>
-                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Historical election results — constituency-wise votes, candidates, turnout from past elections stored in DB.</p>
-                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
-                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
-                  Measured: AC count in <code class="bg-gray-100 px-1 rounded">election_result</code> vs mapping
-                </div>
-              </div>
-
-              <div class="dp-card eci panel-item" style="animation-delay:60ms">
-                <div class="flex items-start justify-between mb-2">
-                  <div class="flex items-center gap-2">
-                    <span class="sdot sdot-yellow" style="width:10px;height:10px"></span>
-                    <span class="text-[13px] font-bold text-gray-900">Form 20</span>
-                  </div>
-                  <span class="text-[11px] font-mono font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full" id="dp-form20-pct">—</span>
-                </div>
-                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Official ECI booth-wise vote count forms — tracks elections where Form 20 data has been pushed to the database.</p>
-                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
-                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
-                  Measured: elections in <code class="bg-gray-100 px-1 rounded">form20_summary_view</code> vs mapping
-                </div>
-              </div>
-
-              <div class="dp-card eci panel-item" style="animation-delay:120ms">
-                <div class="flex items-start justify-between mb-2">
-                  <div class="flex items-center gap-2">
-                    <span class="sdot sdot-light-green" style="width:10px;height:10px"></span>
-                    <span class="text-[13px] font-bold text-gray-900">Caste Data</span>
-                  </div>
-                  <span class="text-[11px] font-mono font-bold text-emerald-600 bg-emerald-50 px-2 py-0.5 rounded-full" id="dp-caste-pct">—</span>
-                </div>
-                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Category-wise voter registration data per Assembly Constituency — SC, ST, General category breakdowns.</p>
-                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
-                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
-                  Measured: distinct ACs in <code class="bg-gray-100 px-1 rounded">caste_details</code>
-                </div>
-              </div>
-
-              <div class="dp-card eci panel-item" style="animation-delay:180ms">
-                <div class="flex items-start justify-between mb-2">
-                  <div class="flex items-center gap-2">
-                    <span class="sdot sdot-yellow" style="width:10px;height:10px"></span>
-                    <span class="text-[13px] font-bold text-gray-900">Booth Details</span>
-                  </div>
-                  <span class="text-[11px] font-mono font-bold text-amber-600 bg-amber-50 px-2 py-0.5 rounded-full" id="dp-booth-pct">—</span>
-                </div>
-                <p class="text-[11.5px] text-gray-600 leading-relaxed mb-2">Geospatial booth metadata including voter lists, GPS coordinates, and physical booth infrastructure data.</p>
-                <div class="flex items-center gap-1.5 text-[10.5px] text-gray-400">
-                  <span class="material-symbols-outlined" style="font-size:12px;">straighten</span>
-                  Measured: distinct ACs in <code class="bg-gray-100 px-1 rounded">booth_metadata_full_view</code>
-                </div>
-              </div>
-
-            </div>
+      <div class="space-y-6">
+        <!-- Legend -->
+        <article class="bg-white rounded-xl border border-gray-200 p-5 shadow-sm mb-6">
+          <div class="flex items-center justify-between mb-4">
+            <h3 class="text-sm font-semibold text-gray-900 uppercase tracking-wider">Color Legend</h3>
+            <span class="text-[10px] font-bold bg-gray-100 text-gray-600 px-2 py-0.5 rounded">METRICS</span>
           </div>
-
-          <!-- Reading Manual (1/3 width) -->
-          <div class="panel-item" style="animation-delay:80ms">
-            <p class="text-[10px] font-bold text-indigo-500 uppercase tracking-widest mb-3 flex items-center gap-1.5">
-              <span class="material-symbols-outlined" style="font-size:13px;">menu_book</span>
-              Reading Manual
-            </p>
-            <div class="guide-card h-full">
-              <div class="space-y-3.5">
-                <div>
-                  <p class="text-[11px] font-bold text-gray-700 mb-1">How to read percentages</p>
-                  <p class="text-[11px] text-gray-500 leading-relaxed">Each cell shows what fraction of the canonical total has been ingested into the database for that state.</p>
-                </div>
-                <div class="border-t border-gray-100 pt-3 space-y-2">
-                  <div class="flex items-center gap-2"><span class="sdot sdot-dark-green"></span><span class="text-[11px] text-gray-600"><strong>95–100%</strong> — Fully covered, data complete</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-light-green"></span><span class="text-[11px] text-gray-600"><strong>80–94%</strong> — Mostly done, minor gaps</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-yellow"></span><span class="text-[11px] text-gray-600"><strong>50–79%</strong> — In progress, half done</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-orange"></span><span class="text-[11px] text-gray-600"><strong>11–49%</strong> — Early stage, backlog exists</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-red"></span><span class="text-[11px] text-gray-600"><strong>0–10%</strong> — Not started / critical gap</span></div>
-                </div>
-                <div class="border-t border-gray-100 pt-3">
-                  <p class="text-[11px] font-bold text-gray-700 mb-1">Formula (Retro / Caste / Booth)</p>
-                  <code class="text-[10.5px] bg-indigo-50 text-indigo-700 px-2 py-1 rounded block leading-relaxed">ACs in DB / Total ACs in Mapping × 100</code>
-                </div>
-                <div class="border-t border-gray-100 pt-3">
-                  <p class="text-[11px] font-bold text-gray-700 mb-1">Formula (Form 20)</p>
-                  <code class="text-[10.5px] bg-amber-50 text-amber-700 px-2 py-1 rounded block leading-relaxed">Elections pushed to DB / Elections expected × 100</code>
-                </div>
-              </div>
-            </div>
+          <div class="flex flex-wrap gap-4 text-[13px] font-medium text-gray-700">
+            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #166534;"></div> <span>Dark Green (95-100%)</span></div>
+            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #22c55e;"></div> <span>Light Green (80-94%)</span></div>
+            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #eab308;"></div> <span>Yellow (50-79%)</span></div>
+            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #f97316;"></div> <span>Orange (11-49%)</span></div>
+            <div class="flex items-center gap-2"><div class="w-4 h-4 rounded" style="background-color: #ef4444;"></div> <span>Red (0-10%)</span></div>
           </div>
+        </article>
 
-        </div>
+        <!-- Primary Data -->
+        <article class="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm">
+          <div class="px-5 py-4 border-b border-gray-200 bg-gray-50 flex items-center justify-between">
+            <h3 class="font-semibold text-gray-900">Available ECI data points</h3>
+            <span class="text-xs font-medium bg-gray-200 text-gray-700 px-2 py-1 rounded">PRIMARY</span>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-[12px] text-left border-collapse">
+              <thead>
+                <tr class="border-b border-gray-100 text-[11px] text-gray-500 bg-gray-50/50">
+                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Dataset Name</th>
+                  <th class="p-3 font-semibold uppercase">Field Coverage</th>
+                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Source System</th>
+                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Granularity</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-50">
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Booth Data</td>
+                  <td class="p-3 text-gray-600">AcName,BoothNo.,FemaleVoters,MaleVoters,TotalVoters,MainVillage,District,Taluka,Tehsil,Sub-Division,Block,PostOffice,PoliceStation,WardNo.,Pincode,BoothName,BoothAddress</td>
+                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI</td>
+                  <td class="p-3 text-gray-600">Boothwise voters Details</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Caste Data</td>
+                  <td class="p-3 text-gray-600">AcName,CasteName,Sub_Caste,CasteCategory,CastePercentage</td>
+                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI</td>
+                  <td class="p-3 text-gray-600">ACwise Caste details</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Form 20</td>
+                  <td class="p-3 text-gray-600">AcName,BoothNo.,PartyName,CandidateName,Votes,BoothRank</td>
+                  <td class="p-3 text-gray-600 whitespace-nowrap">CEO Websites</td>
+                  <td class="p-3 text-gray-600">Boothwise Candidate/Party Votes</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Retro Data</td>
+                  <td class="p-3 text-gray-600">CandidateName,PartyName,Votes,ElectionType,ElectionYear</td>
+                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI</td>
+                  <td class="p-3 text-gray-600">ACwise Candidate/Party Votes</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Geospatial Mappings-Polaris</td>
+                  <td class="p-3 text-gray-600">AC,boothnumber,VoterEPICnumber,Latitude,longitude(Available for KL,TN,WB,AS)</td>
+                  <td class="p-3 text-gray-600 whitespace-nowrap">ECI & Lat-Long</td>
+                  <td class="p-3 text-gray-600">Booth and voter geo-coordinates</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <!-- Auxiliary Data -->
+        <article class="bg-white rounded-xl border border-gray-200 overflow-hidden shadow-sm mt-6">
+          <div class="px-5 py-4 border-b border-gray-200 bg-gray-50 flex items-center justify-between">
+            <h3 class="font-semibold text-gray-900">Available data of other sources</h3>
+            <span class="text-xs font-medium bg-gray-200 text-gray-700 px-2 py-1 rounded">AUXILIARY</span>
+          </div>
+          <div class="overflow-x-auto">
+            <table class="w-full text-[12px] text-left border-collapse">
+              <thead>
+                <tr class="border-b border-gray-100 text-[11px] text-gray-500 bg-gray-50/50">
+                  <th class="p-3 font-semibold uppercase whitespace-nowrap">Dataset Name</th>
+                  <th class="p-3 font-semibold uppercase w-[55%]">Field Coverage</th>
+                  <th class="p-3 font-semibold uppercase w-[25%]">Source System</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-50">
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Ejalshakti Data</td>
+                  <td class="p-3 text-gray-600">VillageName,LgdCode,Block,Panchayat,TotalPopulation,SCPopulation,STPopulation,GeneralPopulation,No.ofhabitants,No.of households,TapConnections,HabitationName</td>
+                  <td class="p-3 text-gray-600">Ministry of Jal Shakti (GOI)</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Joshua</td>
+                  <td class="p-3 text-gray-600">DistrictName,TotalPopulation,PeopleGroupName,PrimaryLanguage,HinduPopulation,Muslim Population,SikhPopulation,Christian Population,BuddhistPopulation,OtherReligionsPopulation</td>
+                  <td class="p-3 text-gray-600">Joshua Project</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">LGD Data</td>
+                  <td class="p-3 text-gray-600">LGDCode,PCName,ACName,DistrictCode,DisttrictName,SubDistrictCode,SubDistrictName,Block,Panchayat</td>
+                  <td class="p-3 text-gray-600">Ministry of Panchayati Raj (GOI)</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Muslim Census</td>
+                  <td class="p-3 text-gray-600">District,Sub-District,TotalPopulation,Muslim Population,Muslim Percentage</td>
+                  <td class="p-3 text-gray-600">Muslim Census (demographic data site)</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">SECC Data</td>
+                  <td class="p-3 text-gray-600">DeprivedHouseholds,HouseholdsOwnership,ExcludedHouseholds,IncludedHouseholds,MainIncomeSource,Pop,MaritalStatus, Education,Age</td>
+                  <td class="p-3 text-gray-600">Socio-Economic and Caste Census (SECC) Portal, (GOI)</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">NREGA Data</td>
+                  <td class="p-3 text-gray-600">National Rural Employment Guarantee Act data covering job cards, person-days generated, wage payments, work completion, asset creation, and demographic participation at panchayat/block/district levels</td>
+                  <td class="p-3 text-gray-600">Ministry of Rural Development</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Election Lens</td>
+                  <td class="p-3 text-gray-600">ACName,ValidVotes,Electors,Turnout,enop,CandidateName,Party,Votes,Gender,Caste,Age</td>
+                  <td class="p-3 text-gray-600">ElectionLens</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">IndiaStat Publication</td>
+                  <td class="p-3 text-gray-600">Elector count, turnout %, reservation, MP/MLA party affiliation, urban rural classification at PC/AC/District level</td>
+                  <td class="p-3 text-gray-600">Indiastat Publication</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Know Your School</td>
+                  <td class="p-3 text-gray-600">Education infrastructure mapping, Student enrollment profiling, resource allocation tracking at ditrict/village/block level.</td>
+                  <td class="p-3 text-gray-600">Department of School education and Litreracy</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Pincode</td>
+                  <td class="p-3 text-gray-600">CircleName,RegionName,DivisionName,OfficeName,PinCode,officeType,District,State,Lat-long,ACNumber,ACName(Available for All India)</td>
+                  <td class="p-3 text-gray-600">OpenGov.Data (OGD)</td>
+                </tr>
+                <tr class="hover:bg-gray-50">
+                  <td class="p-3 font-bold whitespace-nowrap text-gray-900">Municipal elections</td>
+                  <td class="p-3 text-gray-600">All India Gram panchayat shapefiles, BMC ward-wise results and shapefiles, Punjab MCs nomination data, Bengaluru GBA shapefiles & voter data</td>
+                  <td class="p-3 text-gray-600">State Election Commision Website, Twitter, etc</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
       </div>
-      <!-- /panel-eci -->
-
-      <!-- ══ Auxiliary Panel ══ -->
-      <div id="panel-aux" class="hidden">
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
-
-          <!-- Data Points Grid (2/3 width) -->
-          <div class="lg:col-span-2">
-            <p class="text-[10px] font-bold text-cyan-600 uppercase tracking-widest mb-3 flex items-center gap-1.5">
-              <span class="material-symbols-outlined" style="font-size:13px;">database</span>
-              9 Available Data Points
-            </p>
-            <div class="grid grid-cols-3 gap-3">
-
-              <div class="dp-card aux panel-item" style="animation-delay:0ms">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-gray-900">Muslim Census</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">District-level Muslim population data from Census 2011.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
-                  Districts in <code class="bg-gray-100 px-0.5 rounded">muslim_census</code>
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:50ms">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-gray-900">Joshua</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Christian population data — Joshua Project district-level coverage.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
-                  Districts in <code class="bg-gray-100 px-0.5 rounded">joshua_population</code>
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:100ms">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-gray-900">KYS Schools</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Know Your Schools — district-wise school locator data from government sources.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
-                  Districts in <code class="bg-gray-100 px-0.5 rounded">school_locator</code>
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:150ms">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-gray-900">LGD Directory</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Local Government Directory — official district and village-level geo codes.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
-                  Districts in <code class="bg-gray-100 px-0.5 rounded">lgd_directory</code>
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:200ms">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-gray-900">Ejalshakti</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Ministry of Jal Shakti data — gram panchayat–level water supply coverage.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
-                  LGD codes in <code class="bg-gray-100 px-0.5 rounded">ejalshakti_portal</code>
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:250ms">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-gray-900">SECC</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Socio-Economic Caste Census — deprivation indicators per LGD code, district level.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">straighten</span>
-                  LGD codes in <code class="bg-gray-100 px-0.5 rounded">secc_abstract</code>
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:300ms; border-color: rgba(16,185,129,0.25);">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-emerald-700">NREGA</span>
-                  <span class="text-[9px] bg-emerald-100 text-emerald-600 px-1.5 rounded-full font-bold">External</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">National Rural Employment Guarantee Act — work provided, wages paid per district.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">link</span>
-                  Sourced externally
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:350ms; border-color: rgba(16,185,129,0.25);">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-emerald-700">Indiastat</span>
-                  <span class="text-[9px] bg-emerald-100 text-emerald-600 px-1.5 rounded-full font-bold">External</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Statistical data aggregator — socio-economic state and district profiles from Indiastat.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">link</span>
-                  Sourced externally
-                </div>
-              </div>
-
-              <div class="dp-card aux panel-item" style="animation-delay:400ms; border-color: rgba(16,185,129,0.25);">
-                <div class="flex items-start justify-between mb-1.5">
-                  <span class="text-[12.5px] font-bold text-emerald-700">Election Lens</span>
-                  <span class="text-[9px] bg-emerald-100 text-emerald-600 px-1.5 rounded-full font-bold">External</span>
-                </div>
-                <p class="text-[10.5px] text-gray-500 leading-relaxed mb-1.5">Election analysis platform data — voter behaviour, swing analysis from election lenses.</p>
-                <div class="text-[10px] text-gray-400 flex items-center gap-1">
-                  <span class="material-symbols-outlined" style="font-size:11px;">link</span>
-                  Sourced externally
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Reading Manual (1/3 width) -->
-          <div class="panel-item" style="animation-delay:80ms">
-            <p class="text-[10px] font-bold text-cyan-600 uppercase tracking-widest mb-3 flex items-center gap-1.5">
-              <span class="material-symbols-outlined" style="font-size:13px;">menu_book</span>
-              Reading Manual
-            </p>
-            <div class="guide-card">
-              <div class="space-y-3.5">
-                <div>
-                  <p class="text-[11px] font-bold text-gray-700 mb-1">How to read percentages</p>
-                  <p class="text-[11px] text-gray-500 leading-relaxed">Each cell shows what fraction of a state's expected districts/LGD codes has data ingested into the database.</p>
-                </div>
-                <div class="border-t border-gray-100 pt-3 space-y-2">
-                  <div class="flex items-center gap-2"><span class="sdot sdot-dark-green"></span><span class="text-[11px] text-gray-600"><strong>95–100%</strong> — Fully covered</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-light-green"></span><span class="text-[11px] text-gray-600"><strong>80–94%</strong> — Mostly done</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-yellow"></span><span class="text-[11px] text-gray-600"><strong>50–79%</strong> — In progress</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-orange"></span><span class="text-[11px] text-gray-600"><strong>11–49%</strong> — Early stage</span></div>
-                  <div class="flex items-center gap-2"><span class="sdot sdot-red"></span><span class="text-[11px] text-gray-600"><strong>0–10%</strong> — Not started</span></div>
-                </div>
-                <div class="border-t border-gray-100 pt-3">
-                  <p class="text-[11px] font-bold text-gray-700 mb-1">Formula (Census / LGD sources)</p>
-                  <code class="text-[10.5px] bg-cyan-50 text-cyan-700 px-2 py-1 rounded block leading-relaxed">Districts in DB / Total LGD districts × 100</code>
-                </div>
-                <div class="border-t border-gray-100 pt-3">
-                  <p class="text-[11px] font-bold text-gray-700 mb-1">External Sources</p>
-                  <p class="text-[11px] text-gray-500 leading-relaxed">NREGA, Indiastat, and Election Lens data comes from third-party sources and is not yet in the database — shown as 0% until ingested.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-      <!-- /panel-aux -->
-
     </div>
   </div>
-  <!-- /info-panel -->
-
 
   <!-- ─────────────────────────────────────────
        DATA MATRIX TABLE
