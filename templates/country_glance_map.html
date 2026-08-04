@@ -1723,7 +1723,11 @@
         if (!info.object) return;
         const row = getStateRow(info.object.properties);
         if (row) {
-          selectStateByName(row.state_name);
+          if (selectedState && selectedState.state_name === row.state_name) {
+            deselectState();
+          } else {
+            selectStateByName(row.state_name);
+          }
         }
       };
     }
