@@ -2451,7 +2451,7 @@ def _build_pc_ac_caches(force_refresh=False):
     # 1️⃣ Check Redis first — if all PC/AC metric keys are present, nothing to do
     if not force_refresh:
         redis_keys_present = all(
-            cache_get(f'map_pc_{m}') is not None or cache_get(f'map_ac_{m}') is not None
+            cache_get(f'map_pc_data_{m}') is not None or cache_get(f'map_ac_data_{m}') is not None
             for m in ['retro', 'form20']
         )
         if redis_keys_present:
@@ -2460,7 +2460,7 @@ def _build_pc_ac_caches(force_refresh=False):
 
     # 2️⃣ Fallback: load from local JSON and push into Redis
     cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'pc_ac_cache.json')
-    if not force_refresh and os.path.exists(cache_file):
+    if os.path.exists(cache_file):
         try:
             with open(cache_file, 'r') as f:
                 data = json.load(f)
@@ -2928,7 +2928,7 @@ def _init_caches_on_startup():
     # Check which keys are already live in Redis
     redis_has_analytics       = r and r.exists('cache:analytics:data')
     redis_has_glance          = r and r.exists('cache:country_glance_data:data')
-    redis_has_pc_ac           = r and (r.exists('cache:map_pc_retro:data') or r.exists('cache:map_ac_retro:data'))
+    redis_has_pc_ac           = r and (r.exists('cache:map_pc_data_retro:data') or r.exists('cache:map_ac_data_retro:data'))
     redis_has_live            = r and r.exists('cache:live:data')
     redis_has_retro           = r and r.exists('cache:retro:data')
     redis_has_other_sources   = r and r.exists('cache:other_sources:data')
