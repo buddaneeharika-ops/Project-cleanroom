@@ -2411,43 +2411,64 @@ def api_map_ac_data():
 # ── Entry point ──────────────────────────────────────────────────────────────
 def _build_glance_data(force_refresh=False):
     import os, json
-    
-    # Try reading the locally generated computed_glance_data.json first
+
+    # 1️⃣ Check Redis first — it is the primary source of truth
+    if not force_refresh:
+        cached = cache_get('country_glance_data')
+        if cached:
+            print("  [cache] Glance data served from Redis.")
+            return
+
+    # 2️⃣ Fallback: locally generated computed_glance_data.json
     local_computed = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'computed_glance_data.json')
     if os.path.exists(local_computed):
         try:
             with open(local_computed, 'r') as f:
                 out_data = json.load(f)
                 cache_set('country_glance_data', out_data)
-                print("  [cache] Loaded from local computed_glance_data.json")
+                print("  [cache] Loaded glance data from computed_glance_data.json -> pushed to Redis.")
                 return
         except Exception as e:
             print(f"  [cache] Error reading computed_glance_data.json: {e}")
 
+    # 3️⃣ Fallback: static/data/glance_cache.json
     cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
     if os.path.exists(cache_file):
         try:
             with open(cache_file, 'r') as f:
                 out_data = json.load(f)
                 cache_set('country_glance_data', out_data)
-                print("  [cache] Loaded country glance data from file cache.")
+                print("  [cache] Loaded glance data from glance_cache.json -> pushed to Redis.")
                 return
-        except: pass
-        
-    print("  [warmup] DB Querying is disabled. No glance data loaded.")
-    return
+        except Exception as e:
+            print(f"  [cache] Error reading glance_cache.json: {e}")
+
+    print("  [warmup] No glance data in Redis or local JSON. Skipping (DB queries disabled).")
 
 def _build_pc_ac_caches(force_refresh=False):
     import os, json
+
+    # 1️⃣ Check Redis first — if all PC/AC metric keys are present, nothing to do
+    if not force_refresh:
+        redis_keys_present = all(
+            cache_get(f'map_pc_{m}') is not None or cache_get(f'map_ac_{m}') is not None
+            for m in ['retro', 'form20']
+        )
+        if redis_keys_present:
+            print("  [cache] PC/AC map caches served from Redis.")
+            return
+
+    # 2️⃣ Fallback: load from local JSON and push into Redis
     cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'pc_ac_cache.json')
     if not force_refresh and os.path.exists(cache_file):
         try:
             with open(cache_file, 'r') as f:
                 data = json.load(f)
                 for k, v in data.items(): cache_set(k, v)
-                print("  [warmup] Loaded PC/AC map caches from file cache.")
+                print("  [warmup] Loaded PC/AC map caches from JSON -> pushed to Redis.")
                 return
-        except: pass
+        except Exception as e:
+            print(f"  [cache] Error reading pc_ac_cache.json: {e}")
 
     print("  [warmup] Building PC/AC map caches...")
     conn = get_rds_db()
@@ -2896,23 +2917,56 @@ def _daily_midnight_refresh():
         _refresh_caches_from_db()
 
 def _init_caches_on_startup():
-    """Check if caches exist; if not, build them immediately. Then start the midnight scheduler."""
-    import os, threading
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    c1 = os.path.exists(os.path.join(base_dir, 'static', 'data', 'analytics_cache.json'))
-    c2 = os.path.exists(os.path.join(base_dir, 'static', 'data', 'glance_cache.json'))
-    c3 = os.path.exists(os.path.join(base_dir, 'static', 'data', 'pc_ac_cache.json'))
-    
-    if not (c1 and c2 and c3):
-        print("  [cache] One or more JSON cache files are missing. Triggering immediate DB fetch.")
-        threading.Thread(target=_refresh_caches_from_db, daemon=True).start()
+    """On startup: check Redis first. If Redis has all data, serve from it.
+    If Redis is cold/empty, fall back to local JSON files and warm Redis.
+    NEVER queries the DB during startup — DB is only touched at midnight."""
+    import threading
+
+    print("  [startup] Checking Redis for existing cache data...")
+    r = get_redis()
+
+    # Check which keys are already live in Redis
+    redis_has_analytics       = r and r.exists('cache:analytics:data')
+    redis_has_glance          = r and r.exists('cache:country_glance_data:data')
+    redis_has_pc_ac           = r and (r.exists('cache:map_pc_retro:data') or r.exists('cache:map_ac_retro:data'))
+    redis_has_live            = r and r.exists('cache:live:data')
+    redis_has_retro           = r and r.exists('cache:retro:data')
+    redis_has_other_sources   = r and r.exists('cache:other_sources:data')
+
+    all_in_redis = all([
+        redis_has_analytics, redis_has_glance, redis_has_pc_ac,
+        redis_has_live, redis_has_retro
+    ])
+
+    if all_in_redis:
+        print("  [startup] ✅ All caches found in Redis — serving directly. No DB, no JSON reads.")
     else:
-        print("  [cache] All JSON caches exist locally. Loading them into memory now.")
+        print("  [startup] Redis cache is cold or partial. Loading from local JSON files into Redis...")
+        # These functions check Redis first, then fall back to JSON, then push to Redis
         build_analytics_cache(force_refresh=False)
         _build_glance_data(force_refresh=False)
         _build_pc_ac_caches(force_refresh=False)
-        
+        # Also warm live/retro metadata from JSON if present
+        import os, json
+        for cache_key, json_path in [
+            ('live',  os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'analytics_cache.json')),
+        ]:
+            if not (r and r.exists(f'cache:{cache_key}:data')) and os.path.exists(json_path):
+                try:
+                    with open(json_path) as f:
+                        d = json.load(f)
+                    if cache_key == 'live' and isinstance(d, dict):
+                        live_val = d.get('form20', {}).get('state_progress', [])
+                        if live_val:
+                            cache_set('live', live_val)
+                            print(f"  [startup] Warmed '{cache_key}' cache from JSON.")
+                except Exception as e:
+                    print(f"  [startup] Could not warm '{cache_key}' from JSON: {e}")
+        print("  [startup] ✅ JSON → Redis warmup complete.")
+
+    # Start the midnight scheduler (only refreshes from DB once per night)
     threading.Thread(target=_daily_midnight_refresh, daemon=True).start()
+    print("  [startup] Midnight scheduler started.")
 
 
 if __name__ == '__main__':
