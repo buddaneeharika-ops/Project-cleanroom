@@ -133,6 +133,16 @@ async function loadStats() {
     set('sl-mi-count',  bs.missing    || '0');
     set('sl-wip-count', s.wip_count   || '0');
 
+    const wipLabelEl = document.getElementById('wip-label');
+    if (wipLabelEl) {
+      let lText = 'WIP';
+      if (filters.el_type) {
+        const baseTy = String(filters.el_type).split('-')[0];
+        lText = (EL_TYPE_NAMES[baseTy] || filters.el_type) + ' WIP';
+      }
+      wipLabelEl.textContent = lText + ' In Progress';
+    }
+
     const completed = (bs.db_pushed || 0) + (bs.completed || 0);
 
     // Sidebar progress footer — the single home for overall completion + pipeline mix.
@@ -343,9 +353,9 @@ function renderTable() {
                 ${rec.wip
                   ? 'bg-amber-50 text-amber-600 border-amber-200 hover:bg-amber-100'
                   : 'bg-white text-gray-400 border-gray-200 hover:bg-gray-50 hover:text-gray-600'}"
-                data-id="${rec.id}" title="Toggle LF In Progress">
+                data-id="${rec.id}" title="Toggle WIP Status">
                 <span class="material-symbols-outlined" style="font-size:13px;">${rec.wip ? 'hourglass_top' : 'hourglass_empty'}</span>
-                LF WIP
+                ${(EL_TYPE_NAMES[String(rec.el_type).split('-')[0]] || 'WIP').split(' ')[0]} WIP
               </button>
               <button class="btn-edit p-1.5 hover:bg-gray-100 rounded-lg text-gray-400 hover:text-gray-700 transition-colors" data-id="${rec.id}">
                 <span class="material-symbols-outlined" style="font-size:15px;">edit</span>
