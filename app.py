@@ -136,9 +136,8 @@ def get_db():
         return conn
 
 def get_rds_db():
+    return None
     import os
-    import psycopg2
-    from psycopg2.extras import DictCursor
     
     # Credentials from AWS RDS
     db_host = os.environ.get('DB_HOST')
@@ -375,24 +374,28 @@ def fetch_live_json_sync():
         if True:
             # Fetch AC counts for calculations, excluding BP by default to match original logic
             cur.execute("""
-                SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) AS ac_count
-                FROM form20_summary_view
-                WHERE el_type NOT LIKE '%BP%'
+                SELECT
+                    state_abb,
+                    el_type,
+                    el_year,
+                    COUNT(DISTINCT ac_no) AS ac_count
+                FROM public.form20_summary_view
                 GROUP BY state_abb, el_type, el_year
             """)
-            form20_rows = cur.fetchall()
-
-            # Full Form 20 election set INCLUDING bypolls (BP). A unique election is
-            # (state_abb, el_type, el_year); any election present here is "done" and
-            # must be hidden from the Listing page. BP must NOT be stripped/filtered:
-            # form20_summary_view contains BP elections (e.g. AE-BP) that are genuinely
-            # complete, and an AE election being done does not mean its AE-BP sibling is.
-            cur.execute("""
-                SELECT DISTINCT state_abb, el_type, el_year
-                FROM form20_summary_view
-            """)
-            form20_all_rows = cur.fetchall()
-            rds_data = [(str(r[0]).strip(), str(r[1]).strip(), r[2]) for r in form20_all_rows if r[0] and r[1] and r[2]]
+            all_form20_rows = cur.fetchall()
+            
+            form20_rows = []
+            rds_data = []
+            
+            for r in all_form20_rows:
+                state, el_type, el_year, ac_count = str(r[0]).strip(), str(r[1]).strip(), r[2], int(r[3])
+                if not state or not el_type or not el_year:
+                    continue
+                # For ac counts (non-BP only)
+                if '-BP' not in el_type:
+                    form20_rows.append((state, el_type, el_year, ac_count))
+                # For unique elections (all types)
+                rds_data.append((state, el_type, el_year))
 
             cur.execute("""
                 SELECT DISTINCT state_abb, el_type, el_year
@@ -1983,7 +1986,6 @@ def retro_metadata():
 
 @app.route('/api/retro/export')
 def export_retro():
-    import io, csv, openpyxl
     state   = request.args.get('state', '').strip()
     el_type = request.args.get('el_type', '').strip()
     year    = request.args.get('year', '').strip()
@@ -1991,64 +1993,17 @@ def export_retro():
 
     if not state or not el_type or not year:
         return jsonify({'error': 'Missing required filters: state, el_type, year'}), 400
-    try:
-        year_int = int(year)
-    except ValueError:
-        return jsonify({'error': 'Invalid year parameter'}), 400
 
-    conn = get_rds_db()
-    if not conn:
-        return jsonify({'error': 'AWS RDS not configured — cannot export live retro data'}), 503
-    try:
-        cur = conn.cursor()
-        cur.execute(
-            RETRO_SELECT + " WHERE er.state_abb = %s AND e.el_type = %s AND e.el_year = %s "
-            "ORDER BY er.ac_no, er.el_rank",
-            (state, el_type, year_int),
-        )
-        rows = cur.fetchall()
-    except Exception as e:
-        return jsonify({'error': f'RDS query failed: {_sanitize_db_err(e)}'}), 500
-    finally:
-        conn.close()
-
-    if not rows:
-        return jsonify({'error': 'No retro data found for this filter combination.'}), 404
-
-    ts = datetime.now().strftime('%Y%m%d_%H%M%S')
-    filename = f"Retro_{state}_{el_type}_{year}_{ts}"
-
-    if fmt == 'xlsx':
-        from openpyxl.styles import Font, PatternFill
-        output = io.BytesIO()
-        wb = openpyxl.Workbook()
-        ws = wb.active
-        ws.title = "Retro Data"
-        header_font = Font(bold=True, color="FFFFFF")
-        header_fill = PatternFill(start_color="1E293B", end_color="1E293B", fill_type="solid")
-        ws.append(RETRO_HEADERS)
-        for cell in ws[1]:
-            cell.font = header_font
-            cell.fill = header_fill
-        for row in rows:
-            ws.append(list(row))
-        ws.freeze_panes = "A2"
-        wb.save(output)
-        output.seek(0)
-        return send_file(
-            output,
-            mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-            as_attachment=True, download_name=f"{filename}.xlsx",
-        )
+    import os
+    base_name = f"Retro_{state}_{el_type}_{year}"
+    filename = f"{base_name}.{fmt}"
+    file_path = os.path.join(os.path.dirname(__file__), 'static', 'data', 'exports', filename)
+    
+    if os.path.exists(file_path):
+        mime = 'text/csv' if fmt == 'csv' else 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        return send_file(file_path, mimetype=mime, as_attachment=True, download_name=filename)
     else:
-        output = io.StringIO()
-        writer = csv.writer(output)
-        writer.writerow(RETRO_HEADERS)
-        writer.writerows(rows)
-        return send_file(
-            io.BytesIO(output.getvalue().encode('utf-8-sig')),
-            mimetype='text/csv', as_attachment=True, download_name=f"{filename}.csv",
-        )
+        return jsonify({'error': 'Export file not found or not built yet. It will be generated at midnight.'}), 404
 
 
 @app.route('/api/retro/filters')
@@ -2285,42 +2240,10 @@ def weekly_momentum():
 @app.route('/api/admin/ac_pct')
 def admin_ac_pct():
     """Temporary admin endpoint: AC-wise % per state from form20_summary_view vs ac_election_mapping."""
-    rds = get_rds_db()
-    if not rds:
-        return jsonify({'error': 'No RDS connection'}), 503
-    try:
-        cur = rds.cursor()
-        cur.execute("""
-            SELECT state_abb, SUM(ac_count) AS total_mapping_acs
-            FROM (
-                SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) AS ac_count
-                FROM ac_election_mapping
-                GROUP BY state_abb, el_type, el_year
-            ) sub GROUP BY state_abb ORDER BY state_abb
-        """)
-        mapping = {r[0]: int(r[1]) for r in cur.fetchall()}
-        cur.execute("""
-            SELECT state_abb, SUM(ac_count) AS total_form20_acs
-            FROM (
-                SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) AS ac_count
-                FROM form20_summary_view
-                GROUP BY state_abb, el_type, el_year
-            ) sub GROUP BY state_abb ORDER BY state_abb
-        """)
-        form20 = {r[0]: int(r[1]) for r in cur.fetchall()}
-        cur.close(); rds.close()
-        all_states = sorted(set(list(mapping.keys()) + list(form20.keys())))
-        rows = []
-        total_f = total_m = 0
-        for state in all_states:
-            f = form20.get(state, 0); m = mapping.get(state, 0)
-            pct = round(f / m * 100, 2) if m > 0 else 0.0
-            total_f += f; total_m += m
-            rows.append({'state': state, 'form20_acs': f, 'mapping_acs': m, 'pct': pct})
-        total_pct = round(total_f / total_m * 100, 2) if total_m > 0 else 0.0
-        return jsonify({'rows': rows, 'total_form20': total_f, 'total_mapping': total_m, 'total_pct': total_pct})
-    except Exception as e:
-        return jsonify({'error': str(e)}), 500
+    data = cache_get('admin_ac_pct')
+    if data:
+        return jsonify(data)
+    return jsonify({'error': 'Cache not ready. Will be populated at midnight.'}), 503
 
 
 # ── Register Glance Routes ───────────────────────────────────────────────────
@@ -2844,8 +2767,116 @@ def _refresh_caches_from_db():
         print("  [cache] PC/AC map caches ready.")
     except Exception as e:
         print(f"  [cache] Error building PC/AC caches: {e}")
+
+    try:
+        _build_admin_ac_pct_cache(force_refresh=True)
+        print("  [cache] Admin AC Pct cache ready.")
+    except Exception as e:
+        print(f"  [cache] Error building admin_ac_pct cache: {e}")
+
+    try:
+        _build_retro_exports(force_refresh=True)
+        print("  [cache] Retro Exports ready.")
+    except Exception as e:
+        print(f"  [cache] Error building retro exports: {e}")
         
     print("  [cache] Midnight cache refresh process completed.")
+
+def _build_admin_ac_pct_cache(force_refresh=False):
+    if not force_refresh: return
+    rds = get_rds_db()
+    if not rds: return
+    try:
+        cur = rds.cursor()
+        cur.execute("""
+            SELECT state_abb, SUM(ac_count) AS total_mapping_acs
+            FROM (
+                SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) AS ac_count
+                FROM ac_election_mapping
+                GROUP BY state_abb, el_type, el_year
+            ) sub GROUP BY state_abb ORDER BY state_abb
+        """)
+        mapping = {r[0]: int(r[1]) for r in cur.fetchall()}
+        cur.execute("""
+            SELECT state_abb, SUM(ac_count) AS total_form20_acs
+            FROM (
+                SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) AS ac_count
+                FROM form20_summary_view
+                GROUP BY state_abb, el_type, el_year
+            ) sub GROUP BY state_abb ORDER BY state_abb
+        """)
+        form20 = {r[0]: int(r[1]) for r in cur.fetchall()}
+        all_states = sorted(set(list(mapping.keys()) + list(form20.keys())))
+        rows = []
+        total_f = total_m = 0
+        for state in all_states:
+            f = form20.get(state, 0); m = mapping.get(state, 0)
+            pct = round(f / m * 100, 2) if m > 0 else 0.0
+            total_f += f; total_m += m
+            rows.append({'state': state, 'form20_acs': f, 'mapping_acs': m, 'pct': pct})
+        total_pct = round(total_f / total_m * 100, 2) if total_m > 0 else 0.0
+        data = {'rows': rows, 'total_form20': total_f, 'total_mapping': total_m, 'total_pct': total_pct}
+        cache_set('admin_ac_pct', data)
+    except Exception as e:
+        print(f"Error building admin_ac_pct cache: {e}")
+    finally:
+        rds.close()
+
+def _build_retro_exports(force_refresh=False):
+    if not force_refresh: return
+    print("  [cache] Building retro export files...")
+    meta = fetch_retro_metadata_sync()
+    if not meta: return
+    conn = get_rds_db()
+    if not conn: return
+    
+    import csv, openpyxl, os
+    from openpyxl.styles import Font, PatternFill
+    out_dir = os.path.join(os.path.dirname(__file__), 'static', 'data', 'exports')
+    os.makedirs(out_dir, exist_ok=True)
+    
+    try:
+        cur = conn.cursor()
+        for state, types in meta.items():
+            for el_type, years in types.items():
+                for year in years.keys():
+                    try:
+                        year_int = int(year)
+                        cur.execute(
+                            RETRO_SELECT + " WHERE er.state_abb = %s AND e.el_type = %s AND e.el_year = %s ORDER BY er.ac_no, er.el_rank",
+                            (state, el_type, year_int)
+                        )
+                        rows = cur.fetchall()
+                        if not rows: continue
+                        
+                        base_name = f"Retro_{state}_{el_type}_{year}"
+                        csv_path = os.path.join(out_dir, f"{base_name}.csv")
+                        xlsx_path = os.path.join(out_dir, f"{base_name}.xlsx")
+                        
+                        # Build CSV
+                        with open(csv_path, 'w', newline='', encoding='utf-8-sig') as f:
+                            writer = csv.writer(f)
+                            writer.writerow(RETRO_HEADERS)
+                            writer.writerows(rows)
+                            
+                        # Build XLSX
+                        wb = openpyxl.Workbook()
+                        ws = wb.active
+                        ws.title = "Retro Data"
+                        hf = Font(bold=True, color="FFFFFF")
+                        fill = PatternFill(start_color="1E293B", end_color="1E293B", fill_type="solid")
+                        ws.append(RETRO_HEADERS)
+                        for cell in ws[1]:
+                            cell.font = hf
+                            cell.fill = fill
+                        for r in rows:
+                            ws.append(list(r))
+                        ws.freeze_panes = "A2"
+                        wb.save(xlsx_path)
+                    except Exception as e:
+                        print(f"Error building export for {state} {el_type} {year}: {e}")
+    finally:
+        conn.close()
 
 def _daily_midnight_refresh():
     """Loop forever, waking up exactly at midnight to refresh caches from the DB."""
