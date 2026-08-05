@@ -24,6 +24,7 @@ import gzip
 app = Flask(__name__)
 app.wsgi_app = ProxyFix(app.wsgi_app, x_proto=1, x_host=1)
 app.secret_key = os.environ.get('FLASK_SECRET_KEY', 'dev_secret_key_change_me_in_production')
+app.permanent_session_lifetime = timedelta(hours=1)
 
 @app.after_request
 def compress_response(response):
@@ -623,8 +624,6 @@ def apply_dynamic_status(r_dict, live_extracted, download_report, history=None):
 
 # ── Routes ──────────────────────────────────────────────────────────────────
 
-os.environ.setdefault('DISABLE_AUTH', '1')
-
 @app.before_request
 def require_login():
     if auth_disabled():
@@ -661,6 +660,7 @@ def auth_callback():
         if not user_email.endswith('@' + allowed_domain):
             return jsonify({"error": f"Unauthorized domain. Must be an @{allowed_domain} email."}), 403
             
+    session.permanent = True
     session['user'] = user_info
     return redirect(url_for('index'))
 
