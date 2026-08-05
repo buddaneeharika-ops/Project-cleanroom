@@ -351,9 +351,6 @@
           <div class="absolute inset-0 bg-white/20 translate-y-[-100%] group-hover:translate-y-[100%] transition-transform duration-500"></div>
           <span class="material-symbols-outlined" style="font-size:16px;">map</span> Live Country Map ✨
         </a>
-        <button onclick="exportToCSV()" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-white border border-gray-200 hover:bg-gray-50 hover:border-gray-300 shadow-sm transition text-gray-700 text-[12px] font-medium">
-          <span class="material-symbols-outlined" style="font-size:15px;">download</span> Export CSV
-        </button>
         <button onclick="loadData(true)" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-gray-900 hover:bg-gray-800 text-white text-[12px] font-medium shadow-sm transition">
           <span class="material-symbols-outlined" style="font-size:15px;">refresh</span> Refresh Data
         </button>
@@ -1015,19 +1012,6 @@
     sortAsc = sortColumn === col ? !sortAsc : true;
     sortColumn = col;
     renderMatrix();
-  }
-
-  function exportToCSV() {
-    const hdr = 'Sr,State,Retro%,Form20%,Caste%,Booth%,Muslim%,Joshua%,KYS%,LGD%,Ejal%,SECC%,NREGA%,Indiastat%,ElectionLens%';
-    const rows = globalMatrix.map((r, i) =>
-      [i+1,r.state_name,r.retro,r.form20,r.caste,r.booth,r.muslim,r.joshua,r.kys,r.lgd,r.ejal,r.secc,r.nrega,r.indiastat,r.elens]
-      .map(v => `"${v}"`).join(',')
-    );
-    const blob = new Blob([[hdr,...rows].join('\n')], {type:'text/csv'});
-    Object.assign(document.createElement('a'), {
-      href: URL.createObjectURL(blob),
-      download:`Country_Glance_${new Date().toISOString().slice(0,10)}.csv`
-    }).click();
   }
 
   document.addEventListener('DOMContentLoaded', () => loadData(false));

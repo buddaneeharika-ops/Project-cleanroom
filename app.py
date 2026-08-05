@@ -367,7 +367,7 @@ STATE_AC_COUNTS = {
 # ── Live AWS Caching ────────────────────────────────────────────────────────
 
 def fetch_live_json_sync():
-    rds_conn = get_db()
+    rds_conn = get_rds_db()
     if not rds_conn:
         return
     try:
@@ -2384,9 +2384,10 @@ def get_other_sources_data(force_refresh=False):
 @app.route('/api/country_glance_test/data', endpoint='api_country_glance_test_data')
 def api_country_glance_test():
     """Exact data matching the June 15th PDF."""
+    force_refresh = request.args.get('refresh', '0') == '1'
     data = cache_get('country_glance_data')
-    if not data:
-        _build_glance_data()
+    if force_refresh or not data:
+        _build_glance_data(force_refresh=True)
         data = cache_get('country_glance_data')
     if not data:
         cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
@@ -2412,9 +2413,10 @@ def api_country_glance_test():
 @app.route('/api/country_glance/data', endpoint='api_country_glance_data')
 def api_country_glance():
     """State-level coverage matrix matching exact PDF business logic."""
+    force_refresh = request.args.get('refresh', '0') == '1'
     data = cache_get('country_glance_data')
-    if not data:
-        _build_glance_data()
+    if force_refresh or not data:
+        _build_glance_data(force_refresh=True)
         data = cache_get('country_glance_data')
     if not data:
         cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
@@ -2530,7 +2532,6 @@ def _build_pc_ac_caches(force_refresh=False):
     try:
         cur = conn.cursor()
         for metric in ['retro', 'form20', 'caste', 'booth']:
-            base_query = ""
             if metric == 'retro':
                 retro_meta = cache_get('retro') or {}
                 avail_tuples = []
@@ -2542,9 +2543,16 @@ def _build_pc_ac_caches(force_refresh=False):
                 avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
                 base_query = f"""
                     WITH cov AS (
-                        SELECT DISTINCT state_abb, ac_no 
+                        SELECT state_abb, ac_no, COUNT(*) as cnt
                         FROM ac_election_mapping 
                         WHERE (state_abb, el_type, el_year) IN ({avail_in})
+                        GROUP BY state_abb, ac_no
+                    ),
+                    tot AS (
+                        SELECT state_abb, ac_no, COUNT(*) as cnt
+                        FROM ac_election_mapping
+                        WHERE el_type NOT LIKE '%-BP%'
+                        GROUP BY state_abb, ac_no
                     )
                 """
             elif metric == 'form20':
@@ -2557,32 +2565,64 @@ def _build_pc_ac_caches(force_refresh=False):
                 avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
                 base_query = f"""
                     WITH cov AS (
-                        SELECT DISTINCT state_abb, ac_no 
+                        SELECT state_abb, ac_no, COUNT(*) as cnt 
                         FROM ac_election_mapping 
                         WHERE (state_abb, el_type, el_year) IN ({avail_in})
+                        GROUP BY state_abb, ac_no
+                    ),
+                    tot AS (
+                        SELECT state_abb, ac_no, COUNT(*) as cnt
+                        FROM ac_election_mapping
+                        WHERE el_type NOT LIKE '%-BP%'
+                        GROUP BY state_abb, ac_no
                     )
                 """
             elif metric == 'caste':
-                base_query = f"WITH cov AS (SELECT DISTINCT state_abb, ac_no FROM caste_details)"
+                base_query = f"""
+                    WITH cov AS (
+                        SELECT state_abb, ac_no, 1 as cnt 
+                        FROM caste_details
+                        GROUP BY state_abb, ac_no
+                    ),
+                    tot AS (
+                        SELECT state_abb, ac_no, 1 as cnt
+                        FROM ac_mapping
+                        GROUP BY state_abb, ac_no
+                    )
+                """
             elif metric == 'booth':
-                base_query = f"WITH cov AS (SELECT DISTINCT state_abb, ac_no FROM booth_metadata_full_view)"
+                base_query = f"""
+                    WITH cov AS (
+                        SELECT state_abb, ac_no, 1 as cnt 
+                        FROM booth_metadata_full_view
+                        GROUP BY state_abb, ac_no
+                    ),
+                    tot AS (
+                        SELECT state_abb, ac_no, 1 as cnt
+                        FROM ac_mapping
+                        GROUP BY state_abb, ac_no
+                    )
+                """
                 
             cur.execute(f"""
                 {base_query}
                 SELECT 
                     pa.state_abb, pa.pc_no, MAX(pa.pc_name) as pc_name,
-                    COUNT(c.ac_no) as covered, COUNT(pa.ac_no) as total
+                    SUM(COALESCE(c.cnt, 0)) as covered, SUM(COALESCE(t.cnt, 1)) as total
                 FROM (
                     SELECT pr.state_abb, pr.pc_no, pr.pc_name, am.ac_no
                     FROM pc_region pr
                     JOIN ac_mapping am ON am.pc_id = pr.pc_id
                 ) pa
                 LEFT JOIN cov c ON c.state_abb = pa.state_abb AND c.ac_no = pa.ac_no
+                LEFT JOIN tot t ON t.state_abb = pa.state_abb AND t.ac_no = pa.ac_no
                 GROUP BY pa.state_abb, pa.pc_no
             """)
             pc_data = []
             for r in cur.fetchall():
                 state_abb, pc_no, pc_name, covered, total = r
+                covered = int(covered) if covered else 0
+                total = int(total) if total else 0
                 pc_data.append({
                     "state_abb": state_abb, "state_name": STATE_NAMES.get(state_abb, state_abb),
                     "pc_no": pc_no, "pc_name": pc_name, "covered": covered, "total": total,
@@ -2594,18 +2634,21 @@ def _build_pc_ac_caches(force_refresh=False):
                 {base_query}
                 SELECT 
                     am.state_abb, am.ac_no, MAX(am.ac_name) as ac_name,
-                    COUNT(c.ac_no) as covered
+                    COALESCE(MAX(c.cnt), 0) as covered, COALESCE(MAX(t.cnt), 1) as total
                 FROM ac_mapping am
                 LEFT JOIN cov c ON c.state_abb = am.state_abb AND c.ac_no = am.ac_no
+                LEFT JOIN tot t ON t.state_abb = am.state_abb AND t.ac_no = am.ac_no
                 GROUP BY am.state_abb, am.ac_no
             """)
             ac_data = []
             for r in cur.fetchall():
-                state_abb, ac_no, ac_name, covered = r
+                state_abb, ac_no, ac_name, covered, total = r
+                covered = int(covered) if covered else 0
+                total = int(total) if total else 0
                 ac_data.append({
                     "state_abb": state_abb, "state_name": STATE_NAMES.get(state_abb, state_abb),
-                    "ac_no": ac_no, "ac_name": ac_name, "covered": covered, "total": 1,
-                    "pct": 100.0 if covered > 0 else 0
+                    "ac_no": ac_no, "ac_name": ac_name, "covered": covered, "total": total,
+                    "pct": round((covered / total) * 100, 2) if total and total > 0 else 0
                 })
             cache_set(f'map_ac_data_{metric}', ac_data)
 
@@ -2754,6 +2797,7 @@ def _build_pc_ac_caches(force_refresh=False):
             all_caches = {}
             for metric in ['retro', 'form20', 'caste', 'booth']:
                 all_caches[f'map_pc_data_{metric}'] = cache_get(f'map_pc_data_{metric}')
+                all_caches[f'map_ac_data_{metric}'] = cache_get(f'map_ac_data_{metric}')
             for metric in ['ejal', 'joshua', 'muslim', 'secc', 'kys', 'lgd']:
                 all_caches[f'map_district_data_{metric}'] = cache_get(f'map_district_data_{metric}')
                 all_caches[f'map_ac_data_{metric}'] = cache_get(f'map_ac_data_{metric}')
@@ -2770,25 +2814,38 @@ def _build_pc_ac_caches(force_refresh=False):
         conn.close()
 
 def _refresh_caches_from_db():
-    """Force refresh all caches from the database."""
+    """Force refresh all caches from the database with individual failure handling."""
+    print("  [cache] Refreshing caches from DB...")
+    
     try:
-        print("  [cache] Refreshing caches from DB...")
-        
-        # build_analytics_cache implicitly saves to analytics_cache.json
         analytics = build_analytics_cache(force_refresh=True)
         if analytics:
             cache_set('analytics', analytics)
             print("  [cache] Analytics cache ready.")
         else:
             print("  [cache] Analytics cache build returned empty (no DB connection?).")
-            
-        get_other_sources_data(force_refresh=True)
-        _build_glance_data(force_refresh=True)
-        _build_pc_ac_caches(force_refresh=True)
-        
-        print("  [cache] All caches successfully refreshed from DB.")
     except Exception as e:
-        print(f"  [cache] Error during DB refresh: {e}")
+        print(f"  [cache] Error building analytics cache: {e}")
+
+    try:
+        get_other_sources_data(force_refresh=True)
+        print("  [cache] Other sources cache ready.")
+    except Exception as e:
+        print(f"  [cache] Error building other sources cache: {e}")
+
+    try:
+        _build_glance_data(force_refresh=True)
+        print("  [cache] Glance data cache ready.")
+    except Exception as e:
+        print(f"  [cache] Error building glance data cache: {e}")
+
+    try:
+        _build_pc_ac_caches(force_refresh=True)
+        print("  [cache] PC/AC map caches ready.")
+    except Exception as e:
+        print(f"  [cache] Error building PC/AC caches: {e}")
+        
+    print("  [cache] Midnight cache refresh process completed.")
 
 def _daily_midnight_refresh():
     """Loop forever, waking up exactly at midnight to refresh caches from the DB."""
@@ -2850,3 +2907,5 @@ if __name__ == '__main__':
     _init_caches_on_startup()
 
     app.run(host='0.0.0.0', debug=True, port=5050, use_reloader=False)
+
+# Trigger reload
