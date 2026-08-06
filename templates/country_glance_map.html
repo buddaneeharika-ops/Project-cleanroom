@@ -563,7 +563,7 @@
 
   function getPCPct(featureProps) {
     const pcName = (featureProps.ls_seat_name || featureProps.PC_NAME || featureProps.pc_name || '').toLowerCase().trim();
-    const stateName = (featureProps.ST_NAME || featureProps.st_name || featureProps.NAME_1 || '').toLowerCase().trim();
+    const stateName = (featureProps.state_ut_name || featureProps.ST_NAME || featureProps.st_name || featureProps.NAME_1 || '').toLowerCase().trim();
     const stAbb = getStateAbbFromGeoName(stateName) || '';
     const cacheObj = pcCache[activeMetric];
     if (!cacheObj) return null;
