@@ -889,7 +889,10 @@
                 filled: false,
                 lineWidthMinPixels: 2.5,
                 getLineColor: [0, 0, 0, 255], // Solid black for extreme visibility
-                lineWidthScale: 1
+                lineWidthScale: 1,
+                parameters: {
+                    depthTest: false // Ensures this layer draws ON TOP of the PC/AC layer regardless of z-fighting
+                }
             })
         );
     }
