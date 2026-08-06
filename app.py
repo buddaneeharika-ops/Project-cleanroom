@@ -2485,115 +2485,69 @@ def _build_pc_ac_caches(force_refresh=False):
                         for yr in (years or {}):
                             avail_tuples.append(f"('{str(st).strip()}', '{str(ty).strip()}', {str(yr).strip()})")
                 avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
-                base_query = f"""
-                    WITH cov AS (
-                        SELECT state_abb, ac_no, COUNT(*) as cnt
-                        FROM ac_election_mapping 
-                        WHERE (state_abb, el_type, el_year) IN ({avail_in})
-                        GROUP BY state_abb, ac_no
-                    ),
-                    tot AS (
-                        SELECT state_abb, ac_no, COUNT(*) as cnt
-                        FROM ac_election_mapping
-                        WHERE el_type NOT LIKE '%-BP%'
-                        GROUP BY state_abb, ac_no
-                    )
-                """
-            elif metric == 'form20':
-                live_meta = cache_get('live') or []
-                avail_tuples = []
-                for item in live_meta:
-                    st, ty, yr = str(item.get('state','')).strip(), str(item.get('el_type','')).strip(), str(item.get('el_year','')).strip()
-                    if st and ty and yr and '-BP' not in ty:
-                        avail_tuples.append(f"('{st}', '{ty}', {yr})")
-                avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
-                base_query = f"""
-                    WITH cov AS (
-                        SELECT state_abb, ac_no, COUNT(*) as cnt 
-                        FROM ac_election_mapping 
-                        WHERE (state_abb, el_type, el_year) IN ({avail_in})
-                        GROUP BY state_abb, ac_no
-                    ),
-                    tot AS (
-                        SELECT state_abb, ac_no, COUNT(*) as cnt
-                        FROM ac_election_mapping
-                        WHERE el_type NOT LIKE '%-BP%'
-                        GROUP BY state_abb, ac_no
-                    )
-                """
-            elif metric == 'caste':
-                base_query = f"""
-                    WITH cov AS (
-                        SELECT state_abb, ac_no, 1 as cnt 
-                        FROM caste_details
-                        GROUP BY state_abb, ac_no
-                    ),
-                    tot AS (
-                        SELECT state_abb, ac_no, 1 as cnt
-                        FROM ac_mapping
-                        GROUP BY state_abb, ac_no
-                    )
-                """
-            elif metric == 'booth':
-                base_query = f"""
-                    WITH cov AS (
-                        SELECT state_abb, ac_no, 1 as cnt 
-                        FROM booth_metadata_full_view
-                        GROUP BY state_abb, ac_no
-                    ),
-                    tot AS (
-                        SELECT state_abb, ac_no, 1 as cnt
-                        FROM ac_mapping
-                        GROUP BY state_abb, ac_no
-                    )
-                """
-                
-            cur.execute(f"""
-                {base_query}
-                SELECT 
-                    pa.state_abb, pa.pc_no, MAX(pa.pc_name) as pc_name,
-                    SUM(COALESCE(c.cnt, 0)) as covered, SUM(COALESCE(t.cnt, 1)) as total
-                FROM (
-                    SELECT pr.state_abb, pr.pc_no, pr.pc_name, am.ac_no
-                    FROM pc_region pr
-                    JOIN ac_mapping am ON am.pc_id = pr.pc_id
-                ) pa
-                LEFT JOIN cov c ON c.state_abb = pa.state_abb AND c.ac_no = pa.ac_no
-                LEFT JOIN tot t ON t.state_abb = pa.state_abb AND t.ac_no = pa.ac_no
-                GROUP BY pa.state_abb, pa.pc_no
-            """)
-            pc_data = []
-            for r in cur.fetchall():
-                state_abb, pc_no, pc_name, covered, total = r
-                covered = int(covered) if covered else 0
-                total = int(total) if total else 0
-                pc_data.append({
-                    "state_abb": state_abb, "state_name": STATE_NAMES.get(state_abb, state_abb),
-                    "pc_no": pc_no, "pc_name": pc_name, "covered": covered, "total": total,
-                    "pct": round((covered / total) * 100, 2) if total and total > 0 else 0
-                })
-            cache_set(f'map_pc_data_{metric}', pc_data)
+            cov_query = ""
+            tot_query = ""
             
-            cur.execute(f"""
-                {base_query}
-                SELECT 
-                    am.state_abb, am.ac_no, MAX(am.ac_name) as ac_name,
-                    COALESCE(MAX(c.cnt), 0) as covered, COALESCE(MAX(t.cnt), 1) as total
-                FROM ac_mapping am
-                LEFT JOIN cov c ON c.state_abb = am.state_abb AND c.ac_no = am.ac_no
-                LEFT JOIN tot t ON t.state_abb = am.state_abb AND t.ac_no = am.ac_no
-                GROUP BY am.state_abb, am.ac_no
-            """)
+            if metric == 'retro':
+                cov_query = f"SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE (state_abb, el_type, el_year) IN ({avail_in}) GROUP BY state_abb, ac_no"
+                tot_query = "SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE el_type NOT LIKE '%-BP%' GROUP BY state_abb, ac_no"
+            elif metric == 'form20':
+                cov_query = f"SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE (state_abb, el_type, el_year) IN ({avail_in}) GROUP BY state_abb, ac_no"
+                tot_query = "SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE el_type NOT LIKE '%-BP%' GROUP BY state_abb, ac_no"
+            elif metric == 'caste':
+                cov_query = "SELECT state_abb, ac_no, 1 as cnt FROM caste_details GROUP BY state_abb, ac_no"
+                tot_query = "SELECT state_abb, ac_no, 1 as cnt FROM ac_mapping GROUP BY state_abb, ac_no"
+            elif metric == 'booth':
+                cov_query = "SELECT state_abb, ac_no, 1 as cnt FROM booth_metadata_full_view GROUP BY state_abb, ac_no"
+                tot_query = "SELECT state_abb, ac_no, 1 as cnt FROM ac_mapping GROUP BY state_abb, ac_no"
+                
+            cur.execute(cov_query)
+            cov_dict = {f"{r[0]}|{r[1]}": r[2] for r in cur.fetchall()}
+            
+            cur.execute(tot_query)
+            tot_dict = {f"{r[0]}|{r[1]}": r[2] for r in cur.fetchall()}
+            
+            mapping_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'ac_pc_mapping.json')
+            import json
+            with open(mapping_file, 'r', encoding='utf-8') as f:
+                ac_pc_map = json.load(f)
+                
+            pc_agg = {}
             ac_data = []
-            for r in cur.fetchall():
-                state_abb, ac_no, ac_name, covered, total = r
-                covered = int(covered) if covered else 0
-                total = int(total) if total else 0
+            
+            for ac_key, ac_info in ac_pc_map['acs'].items():
+                st, ac_no = ac_key.split('|')
+                covered = int(cov_dict.get(ac_key, 0))
+                total = int(tot_dict.get(ac_key, 1))
+                
                 ac_data.append({
-                    "state_abb": state_abb, "state_name": STATE_NAMES.get(state_abb, state_abb),
-                    "ac_no": ac_no, "ac_name": ac_name, "covered": covered, "total": total,
-                    "pct": round((covered / total) * 100, 2) if total and total > 0 else 0
+                    "state_abb": st, "state_name": STATE_NAMES.get(st, st),
+                    "ac_no": ac_no, "ac_name": ac_info['ac_name'],
+                    "covered": covered, "total": total,
+                    "pct": round((covered / total) * 100, 2) if total > 0 else 0
                 })
+                
+                pc_id = ac_info['pc_id']
+                if pc_id not in pc_agg:
+                    pc_agg[pc_id] = {'covered': 0, 'total': 0}
+                pc_agg[pc_id]['covered'] += covered
+                pc_agg[pc_id]['total'] += total
+                
+            pc_data = []
+            for pc_id, counts in pc_agg.items():
+                if pc_id in ac_pc_map['pcs']:
+                    pc_info = ac_pc_map['pcs'][pc_id]
+                    covered = counts['covered']
+                    total = counts['total']
+                    st = pc_info['state_abb']
+                    pc_data.append({
+                        "state_abb": st, "state_name": STATE_NAMES.get(st, st),
+                        "pc_no": pc_info['pc_no'], "pc_name": pc_info['pc_name'],
+                        "covered": covered, "total": total,
+                        "pct": round((covered / total) * 100, 2) if total > 0 else 0
+                    })
+                    
+            cache_set(f'map_pc_data_{metric}', pc_data)
             cache_set(f'map_ac_data_{metric}', ac_data)
 
         # BUILD DISTRICT MAP CACHES
