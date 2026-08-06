@@ -861,24 +861,41 @@
     
     showNoDataWarning(isDataEmpty);
     
-    deckgl.setProps({
-        layers: [
+    const layersToRender = [
+        new deck.GeoJsonLayer({
+            id: layerId,
+            data: layerData,
+            pickable: true,
+            stroked: true,
+            filled: true,
+            lineWidthMinPixels: activeGranularity === 'state' ? 1.5 : 0.8,
+            getFillColor: getFillColor,
+            getLineColor: [255, 255, 255, activeGranularity === 'state' ? 220 : 180],
+            lineWidthScale: 1,
+            autoHighlight: true,
+            highlightColor: [255, 255, 255, 100],
+            onHover: onHover,
+            updateTriggers: updateTrig
+        })
+    ];
+
+    if (activeGranularity !== 'state' && stateGeoJSON) {
+        layersToRender.push(
             new deck.GeoJsonLayer({
-                id: layerId,
-                data: layerData,
-                pickable: true,
+                id: 'india-state-overlay',
+                data: stateGeoJSON,
+                pickable: false,
                 stroked: true,
-                filled: true,
-                lineWidthMinPixels: activeGranularity === 'state' ? 1.5 : 0.8,
-                getFillColor: getFillColor,
-                getLineColor: [255, 255, 255, activeGranularity === 'state' ? 220 : 180],
-                lineWidthScale: 1,
-                autoHighlight: true,
-                highlightColor: [255, 255, 255, 100],
-                onHover: onHover,
-                updateTriggers: updateTrig
+                filled: false,
+                lineWidthMinPixels: 2.0,
+                getLineColor: [30, 41, 59, 220], // Dark slate border for states
+                lineWidthScale: 1
             })
-        ]
+        );
+    }
+
+    deckgl.setProps({
+        layers: layersToRender
     });
   }
 
