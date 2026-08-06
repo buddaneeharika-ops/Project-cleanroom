@@ -561,8 +561,43 @@
     return null;
   }
 
+  const PC_ALIASES = {
+    'gauhati': 'guwahati',
+    'diphu (ex autonomous district)': 'diphu(st)',
+    'hardwar': 'haridwar',
+    'dadra & nagar haveli': 'dadar & nagar haveli',
+    'pondicherry': 'puducherry',
+    'bellary': 'ballari',
+    'anakapalle': 'anakapalli',
+    'bangalore south': 'bengaluru south',
+    'bangalore north': 'bengaluru north',
+    'bangalore rural': 'bengaluru rural',
+    'bangalore central': 'bengaluru central',
+    'araku': 'aruku',
+    'chikkballapur': 'chikkaballapur',
+    'tiruvallur': 'thiruvallur',
+    'darrang udalguri (ex mangaldoi)': 'darrang-udalguri',
+    'bhandara-gondiya': 'bhandara - gondiya',
+    'ratnagiri -sindhudurg': 'ratnagiri - sindhudurg',
+    'ahmednagar': 'ahmadnagar',
+    'barrackpur': 'barrackpore',
+    'bardhaman-durgapur': 'burdwan - durgapur',
+    'coochbehar': 'cooch behar',
+    'jaynagar': 'joynagar',
+    'sreerampur': 'srerampur',
+    'karauli -dholpur': 'karauli-dholpur',
+    'chamarajanagar': 'chamrajnagar',
+    'mysore': 'mysuru',
+    'tonk - sawai madhopur': 'tonk-sawai madhopur',
+    'rest of ladakh': 'ladakh',
+    'rest of j&k': 'baramulla' // Approximate mapping or handle manually
+  };
+
   function getPCPct(featureProps) {
-    const pcName = (featureProps.ls_seat_name || featureProps.PC_NAME || featureProps.pc_name || '').toLowerCase().trim();
+    let pcName = (featureProps.ls_seat_name || featureProps.PC_NAME || featureProps.pc_name || '').toLowerCase().trim();
+    if (PC_ALIASES[pcName]) {
+      pcName = PC_ALIASES[pcName];
+    }
     const stateName = (featureProps.state_ut_name || featureProps.ST_NAME || featureProps.st_name || featureProps.NAME_1 || '').toLowerCase().trim();
     const stAbb = getStateAbbFromGeoName(stateName) || '';
     const cacheObj = pcCache[activeMetric];
