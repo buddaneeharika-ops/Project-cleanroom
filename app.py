@@ -138,6 +138,7 @@ def get_db():
 
 def get_rds_db():
     import os
+    import psycopg2
     
     # Credentials from AWS RDS
     db_host = os.environ.get('DB_HOST')
