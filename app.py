@@ -137,7 +137,6 @@ def get_db():
         return conn
 
 def get_rds_db():
-    return None
     import os
     
     # Credentials from AWS RDS
