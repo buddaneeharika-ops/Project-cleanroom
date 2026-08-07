@@ -1994,16 +1994,57 @@ def export_retro():
     if not state or not el_type or not year:
         return jsonify({'error': 'Missing required filters: state, el_type, year'}), 400
 
-    import os
-    base_name = f"Retro_{state}_{el_type}_{year}"
-    filename = f"{base_name}.{fmt}"
-    file_path = os.path.join(os.path.dirname(__file__), 'static', 'data', 'exports', filename)
-    
-    if os.path.exists(file_path):
-        mime = 'text/csv' if fmt == 'csv' else 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-        return send_file(file_path, mimetype=mime, as_attachment=True, download_name=filename)
-    else:
-        return jsonify({'error': 'Export file not found or not built yet. It will be generated at midnight.'}), 404
+    conn = get_rds_db()
+    if not conn:
+        return jsonify({'error': 'Database connection failed'}), 500
+
+    try:
+        cur = conn.cursor()
+        query = """
+            SELECT er.* 
+            FROM election_result er 
+            JOIN election e ON er.el_id = e.el_id
+            WHERE er.state_abb = %s AND e.el_type = %s AND e.el_year = %s
+        """
+        cur.execute(query, (state, el_type, year))
+        rows = cur.fetchall()
+        col_names = [desc[0] for desc in cur.description]
+        
+        base_name = f"Retro_{state}_{el_type}_{year}"
+        
+        import io
+        if fmt == 'xlsx':
+            import openpyxl
+            wb = openpyxl.Workbook()
+            ws = wb.active
+            ws.title = "Retro Data"
+            ws.append(col_names)
+            for row in rows:
+                ws.append(row)
+            out = io.BytesIO()
+            wb.save(out)
+            out.seek(0)
+            
+            return send_file(out, download_name=f"{base_name}.xlsx", as_attachment=True, mimetype='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
+            
+        else:
+            import csv
+            from flask import Response
+            si = io.StringIO()
+            cw = csv.writer(si)
+            cw.writerow(col_names)
+            cw.writerows(rows)
+            
+            output = si.getvalue()
+            return Response(
+                output,
+                mimetype="text/csv",
+                headers={"Content-Disposition": f"attachment;filename={base_name}.csv"}
+            )
+            
+    except Exception as e:
+        print(f"Export error: {e}")
+        return jsonify({'error': str(e)}), 500
 
 
 @app.route('/api/retro/filters')
