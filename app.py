@@ -618,13 +618,6 @@ def apply_dynamic_status(r_dict, live_extracted, download_report, history=None):
     if is_live_completed:
         r_dict['overall_status'] = 'db_pushed'
         r_dict['db_status'] = 'in_db'
-        
-        if history is not None and key not in history:
-            from datetime import datetime
-            # If the record is in the DB but missing from history (e.g. pushed directly by pipeline),
-            # stamp it now so the Weekly Report graph can track it.
-            history[key] = datetime.now().strftime('%Y-%m-%d')
-            history['_updated'] = True
 
     return r_dict
 
