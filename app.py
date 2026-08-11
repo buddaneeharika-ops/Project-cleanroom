@@ -2146,8 +2146,40 @@ def weekly_momentum():
         except Exception:
             pass
 
-    # Build 4-week series (oldest → newest)
-    weeks = [(cur_mon - timedelta(days=7 * i)).isoformat() for i in range(3, -1, -1)]
+    # Build dynamic series: span from earliest week with data → current week (max 12 weeks)
+    if f20_by_week:
+        earliest_data_wk = min(f20_by_week.keys())
+        # Also check snapshots for earliest retro/caste data
+        snapshot_weeks = sorted(snapshots.keys())
+        if snapshot_weeks:
+            earliest_snap_wk = snapshot_weeks[0][:10]  # normalize
+            # Convert to Monday
+            d = datetime.strptime(earliest_snap_wk, '%Y-%m-%d').date()
+            earliest_snap_mon = (d - timedelta(days=d.weekday())).isoformat()
+            earliest_wk = min(earliest_data_wk, earliest_snap_mon)
+        else:
+            earliest_wk = earliest_data_wk
+    elif snapshots:
+        snapshot_weeks = sorted(snapshots.keys())
+        d = datetime.strptime(snapshot_weeks[0][:10], '%Y-%m-%d').date()
+        earliest_wk = (d - timedelta(days=d.weekday())).isoformat()
+    else:
+        earliest_wk = (cur_mon - timedelta(days=7 * 11)).isoformat()  # default 12 weeks back
+
+    # Build full week list from earliest → current week
+    all_weeks = []
+    wk_cursor = datetime.strptime(earliest_wk, '%Y-%m-%d').date()
+    while wk_cursor <= cur_mon:
+        all_weeks.append(wk_cursor.isoformat())
+        wk_cursor += timedelta(days=7)
+
+    # Cap at max 12 weeks, keeping the most recent ones that have data
+    MAX_WEEKS = 12
+    if len(all_weeks) > MAX_WEEKS:
+        # Keep last MAX_WEEKS
+        all_weeks = all_weeks[-MAX_WEEKS:]
+
+    weeks = all_weeks
 
     def _snap(wk):
         s = snapshots.get(wk, snapshots.get(wk + 'T00:00:00', {}))
