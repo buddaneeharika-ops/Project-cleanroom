@@ -513,59 +513,113 @@
           </div>
         </div>
 
-        <!-- ══ Form 20 — full-width analytical showcase ══ -->
-        <div class="card card-lift overflow-hidden flex flex-col mt-4" id="panel-form20">
-          <div class="px-5 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
-            <div class="flex items-center gap-2.5">
-              <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center shrink-0 shadow-sm">
-                <span class="material-symbols-outlined text-gray-700" style="font-size:16px;">ballot</span>
-              </div>
-              <div>
-                <p class="text-[13.5px] font-bold text-gray-900 leading-none">Form 20 Pipeline</p>
-                <p class="text-[10.5px] text-gray-400 mt-0.5">AC coverage across <span id="f20-sub-states">—</span> states · overall_pipeline</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-2">
-              <span class="text-[9.5px] font-semibold text-gray-700 bg-gray-50 border border-gray-200 px-2.5 py-1 rounded-full flex items-center gap-1">
-                <span class="material-symbols-outlined" style="font-size:11px;">map</span>
-                <span id="f20-pct-badge">—</span>
-              </span>
-              <span class="text-[9.5px] font-semibold text-emerald-600 bg-emerald-50 border border-emerald-100 px-2 py-1 rounded-full">Live</span>
-            </div>
-          </div>
-          <div id="f20-body" class="flex-1 flex flex-col">
-            <div class="flex-1 flex items-center justify-center py-16">
-              <span class="material-symbols-outlined animate-spin text-gray-200" style="font-size:24px;">refresh</span>
-            </div>
-          </div>
-        </div>
+        <!-- ══ analytics grid ══ -->
+        <div class="grid grid-cols-2 gap-4" id="analytics-panels">
 
-        <!-- ══ Retro Data — full-width analytical showcase ══ -->
-        <div class="card card-lift overflow-hidden flex flex-col mt-4" id="panel-retro">
-          <div class="px-5 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
-            <div class="flex items-center gap-2.5">
-              <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-400 to-indigo-600 flex items-center justify-center shrink-0 shadow-sm">
-                <span class="material-symbols-outlined text-white" style="font-size:16px;">history_edu</span>
+          <!-- ── Form 20 ──────────────────────────────────────────────── -->
+          <div class="card card-lift overflow-hidden flex flex-col" id="panel-form20">
+            <div class="px-4 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
+              <div class="flex items-center gap-2">
+                <div class="w-7 h-7 rounded-lg bg-gray-100 flex items-center justify-center shrink-0">
+                  <span class="material-symbols-outlined text-gray-600" style="font-size:14px;">ballot</span>
+                </div>
+                <div>
+                  <p class="text-[12.5px] font-semibold text-gray-900 leading-none">Form 20</p>
+                  <p class="text-[10px] text-gray-400 mt-0.5">Overall pipeline analytics</p>
+                </div>
               </div>
-              <div>
-                <p class="text-[13.5px] font-bold text-gray-900 leading-none">Retro Analytics</p>
-                <p class="text-[10.5px] text-gray-400 mt-0.5">AC coverage across <span id="retro-sub-states">—</span> states · election_results</p>
+              <span class="text-[9.5px] font-semibold text-gray-500 bg-gray-50 border border-gray-200 px-2 py-0.5 rounded-full" id="f20-pct-badge">—</span>
+            </div>
+            <!-- Ring chart + completion metric -->
+            <div class="px-4 py-3 flex items-center gap-3 border-b border-gray-50">
+              <div class="relative shrink-0 w-[64px] h-[64px]">
+                <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
+                  <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
+                  <circle id="f20-ring" cx="32" cy="32" r="26" fill="none" stroke="#111827" stroke-width="6"
+                    stroke-dasharray="163.4" stroke-dashoffset="163.4" stroke-linecap="round"
+                    style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+                </svg>
+                <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700 rotate-0" id="f20-ring-pct">—</span>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-baseline gap-1.5">
+                  <span class="text-[28px] font-black text-gray-900 tabular-nums leading-none" id="f20-pct">—</span>
+                  <span class="text-[10.5px] text-gray-400 font-medium" id="f20-pct-label">complete</span>
+                </div>
+                <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium" id="f20-counts">— / — elections in DB</p>
+                <div class="w-full h-1 bg-gray-100 rounded-full overflow-hidden mt-2">
+                  <div id="f20-prog" class="h-full bg-gray-800 rounded-full bar-fill" style="width:0%"></div>
+                </div>
               </div>
             </div>
-            <div class="flex items-center gap-2">
-              <span class="text-[9.5px] font-semibold text-indigo-700 bg-indigo-50 border border-indigo-100 px-2.5 py-1 rounded-full flex items-center gap-1">
-                <span class="material-symbols-outlined" style="font-size:11px;">map</span>
-                <span id="retro-pct-badge">—</span>
-              </span>
-              <span class="text-[9.5px] font-semibold text-emerald-600 bg-emerald-50 border border-emerald-100 px-2 py-1 rounded-full">Live</span>
+            <!-- AE / GE breakdown -->
+            <div class="px-4 py-3 border-b border-gray-50">
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">By Election Type</p>
+              <div class="flex flex-col gap-2" id="f20-type-rows">
+                <div class="h-3 w-full bg-gray-50 rounded animate-pulse"></div>
+                <div class="h-3 w-3/4 bg-gray-50 rounded animate-pulse"></div>
+              </div>
+            </div>
+            <!-- Top completed states -->
+            <div class="px-4 py-3">
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top States · ACs in Form 20</p>
+              <p class="text-[9px] text-gray-300 mb-2.5">Number = ACs with Form 20 results</p>
+              <div id="f20-state-rows" class="grid grid-cols-4 gap-1.5"></div>
             </div>
           </div>
-          <div id="retro-body" class="flex-1 flex flex-col">
-            <div class="flex-1 flex items-center justify-center py-16">
-              <span class="material-symbols-outlined animate-spin text-gray-200" style="font-size:24px;">refresh</span>
+
+          <!-- ── Retro ────────────────────────────────────────────────── -->
+          <div class="card card-lift overflow-hidden flex flex-col" id="panel-retro">
+            <div class="px-4 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
+              <div class="flex items-center gap-2">
+                <div class="w-7 h-7 rounded-lg bg-indigo-50 flex items-center justify-center shrink-0">
+                  <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">history_edu</span>
+                </div>
+                <div>
+                  <p class="text-[12.5px] font-semibold text-gray-900 leading-none">Retro</p>
+                  <p class="text-[10px] text-gray-400 mt-0.5">Election results in DB</p>
+                </div>
+              </div>
+              <span class="text-[9.5px] font-semibold text-indigo-600 bg-indigo-50 border border-indigo-100 px-2 py-0.5 rounded-full">Live</span>
+            </div>
+            <div class="px-4 py-3 flex items-center gap-3 border-b border-gray-50">
+              <div class="relative shrink-0 w-[64px] h-[64px]">
+                <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
+                  <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
+                  <circle id="retro-ring" cx="32" cy="32" r="26" fill="none" stroke="#6366f1" stroke-width="6"
+                    stroke-dasharray="163.4" stroke-dashoffset="163.4" stroke-linecap="round"
+                    style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+                </svg>
+                <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700 rotate-0" id="retro-ring-pct">—</span>
+              </div>
+              <div class="flex-1 min-w-0">
+                <div class="flex items-baseline gap-1.5">
+                  <span class="text-[28px] font-black text-indigo-600 tabular-nums leading-none" id="retro-pct">—</span>
+                  <span class="text-[10.5px] text-gray-400 font-medium">of expected</span>
+                </div>
+                <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium" id="retro-covered-label">— elections covered</p>
+                <span class="hidden" id="retro-total-label"></span>
+                <div class="w-full h-1 bg-gray-100 rounded-full overflow-hidden mt-2">
+                  <div id="retro-prog" class="h-full bg-indigo-500 rounded-full bar-fill" style="width:0%"></div>
+                </div>
+              </div>
+            </div>
+            <div class="px-4 py-3 border-b border-gray-50">
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">By Election Type</p>
+              <div class="flex flex-col gap-2" id="retro-type-rows">
+                <div class="h-3 w-full bg-gray-50 rounded animate-pulse"></div>
+                <div class="h-3 w-full bg-gray-50 rounded animate-pulse"></div>
+                <div class="h-3 w-3/4 bg-gray-50 rounded animate-pulse"></div>
+              </div>
+            </div>
+            <div class="px-4 py-3">
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top States · ACs in DB</p>
+              <p class="text-[9px] text-gray-300 mb-2.5">Number = ACs with results · % = coverage of expected</p>
+              <div id="retro-state-rows" class="grid grid-cols-4 gap-1.5"></div>
             </div>
           </div>
-        </div>
+
+        </div><!-- /analytics-panels -->
 
         <!-- ══ Caste Data — full-width analytical showcase ══ -->
         <div class="card card-lift overflow-hidden flex flex-col mt-4" id="panel-caste">
