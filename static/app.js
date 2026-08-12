@@ -133,6 +133,16 @@ async function loadStats() {
     set('sl-mi-count',  bs.missing    || '0');
     set('sl-wip-count', s.wip_count   || '0');
 
+    const wipLabelEl = document.getElementById('wip-label');
+    if (wipLabelEl) {
+      let lText = 'WIP';
+      if (filters.el_type) {
+        const baseTy = String(filters.el_type).split('-')[0];
+        lText = (EL_TYPE_NAMES[baseTy] || filters.el_type) + ' WIP';
+      }
+      wipLabelEl.textContent = lText + ' In Progress';
+    }
+
     const completed = (bs.db_pushed || 0) + (bs.completed || 0);
 
     // Sidebar progress footer — the single home for overall completion + pipeline mix.
@@ -343,9 +353,9 @@ function renderTable() {
                 ${rec.wip
                   ? 'bg-amber-50 text-amber-600 border-amber-200 hover:bg-amber-100'
                   : 'bg-white text-gray-400 border-gray-200 hover:bg-gray-50 hover:text-gray-600'}"
-                data-id="${rec.id}" title="Toggle LF In Progress">
+                data-id="${rec.id}" title="Toggle WIP Status">
                 <span class="material-symbols-outlined" style="font-size:13px;">${rec.wip ? 'hourglass_top' : 'hourglass_empty'}</span>
-                LF WIP
+                ${(EL_TYPE_NAMES[String(rec.el_type).split('-')[0]] || 'WIP').split(' ')[0]} WIP
               </button>
               <button class="btn-edit p-1.5 hover:bg-gray-100 rounded-lg text-gray-400 hover:text-gray-700 transition-colors" data-id="${rec.id}">
                 <span class="material-symbols-outlined" style="font-size:15px;">edit</span>
@@ -2053,10 +2063,17 @@ function renderGlanceDatasetSection(analytics, f20Stats) {
 }
 
 async function renderGlanceMomentumAndTable() {
-  const wk = (document.getElementById('glance-date-filter') || {}).value || '';
+  const wk       = (document.getElementById('glance-date-filter') || {}).value || '';
+  const fromWk   = (document.getElementById('glance-from-week')   || {}).value || '';
+  const toWk     = (document.getElementById('glance-to-week')     || {}).value || '';
   let momentum;
   try {
-    momentum = await apiFetch('/api/weekly_momentum' + (wk ? ('?week=' + encodeURIComponent(wk)) : ''));
+    const params = new URLSearchParams();
+    if (wk)     params.set('week',      wk);
+    if (fromWk) params.set('from_week', fromWk);
+    if (toWk)   params.set('to_week',   toWk);
+    const qs = params.toString();
+    momentum = await apiFetch('/api/weekly_momentum' + (qs ? ('?' + qs) : ''));
   } catch { return; }
 
   const series   = momentum.series || [];
@@ -2070,9 +2087,10 @@ async function renderGlanceMomentumAndTable() {
   // Row 1 aggregate cards are populated by renderGlanceAnalytics (Form 20 driven).
   const setTxt = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
   const f20This = f20Week.length;                                // selected week's Form 20 pushes
-  const f20Last4 = series.reduce((a, s) => a + (s.f20 || 0), 0); // last 4 weeks
+  const f20Period = series.reduce((a, s) => a + (s.f20 || 0), 0);
+  const periodLabel = (document.getElementById('glance-from-week') || {}).value ? 'in selected range' : 'in last 4 weeks';
   setTxt('glance-stat-f20-week', f20This.toLocaleString('en-IN'));
-  setTxt('glance-stat-f20-sub',  `${f20Last4.toLocaleString('en-IN')} pushed in last 4 weeks`);
+  setTxt('glance-stat-f20-sub',  `${f20Period.toLocaleString('en-IN')} pushed ${periodLabel}`);
   setTxt('glance-stat-retro-week', '0');
   setTxt('glance-stat-retro-sub',  'pushed this week');
   setTxt('glance-stat-booth-week', '0');
@@ -2405,3 +2423,62 @@ function renderYearComparison(allWeeks) {
 }
 
 // togglePanelWeek removed — accordion replaced with state-grouped grid
+
+// ── Graph Range selector for Weekly Report ────────────────────────────────
+function setGlanceGraphRange(range) {
+  // Update active button style
+  ['4','8','12','all','custom'].forEach(r => {
+    const btn = document.getElementById('grange-' + r);
+    if (btn) btn.classList.toggle('grange-active', r === range);
+  });
+
+  const customInputs = document.getElementById('grange-custom-inputs');
+  const fromEl = document.getElementById('glance-from-week');
+  const toEl   = document.getElementById('glance-to-week');
+
+  if (range === 'custom') {
+    // Show custom date pickers
+    if (customInputs) customInputs.classList.replace('hidden', 'flex');
+    // Don't fetch yet — wait for user to pick dates
+    return;
+  }
+
+  // Hide custom inputs
+  if (customInputs) customInputs.classList.replace('flex', 'hidden');
+
+  const today = new Date();
+  const curMon = new Date(today);
+  curMon.setDate(today.getDate() - today.getDay() + (today.getDay() === 0 ? -6 : 1)); // ISO Monday
+
+  const toDate = fmtDate(curMon);
+
+  if (range === 'all') {
+    // All time: from project start (2026-05-25)
+    fromEl.value = '2026-05-25';
+    toEl.value   = toDate;
+  } else {
+    const weeks = parseInt(range, 10);
+    const fromDate = new Date(curMon);
+    fromDate.setDate(fromDate.getDate() - 7 * (weeks - 1));
+    fromEl.value = fmtDate(fromDate);
+    toEl.value   = toDate;
+  }
+
+  renderGlanceMomentumAndTable();
+}
+
+function applyGlanceCustomRange() {
+  const fromCustom = (document.getElementById('glance-from-custom') || {}).value || '';
+  const toCustom   = (document.getElementById('glance-to-custom')   || {}).value || '';
+  const fromEl = document.getElementById('glance-from-week');
+  const toEl   = document.getElementById('glance-to-week');
+  if (fromEl) fromEl.value = fromCustom;
+  if (toEl)   toEl.value   = toCustom;
+  if (fromCustom && toCustom) renderGlanceMomentumAndTable();
+}
+
+function fmtDate(d) {
+  return d.getFullYear() + '-' +
+    String(d.getMonth() + 1).padStart(2, '0') + '-' +
+    String(d.getDate()).padStart(2, '0');
+}
