@@ -813,11 +813,7 @@ function bindEvents() {
         nav.classList.remove('active');
       }
     });
-    // The records search box only applies to the Backlog Tracker — hide it on the
-    // Dashboard and Weekly Report. Inline display lets the responsive `sm:block`
-    // class take over again when shown.
-    const searchWrap = document.getElementById('global-search-wrap');
-    if (searchWrap) searchWrap.style.display = (activeId === 'nav-listing') ? '' : 'none';
+
 
     // Remember the active tab so a browser reload restores the same page.
     try { localStorage.setItem('activeTab', activeId); } catch (e) {}
