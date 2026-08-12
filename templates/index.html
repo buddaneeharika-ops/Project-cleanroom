@@ -684,6 +684,21 @@
         </div>
         <div class="flex items-center gap-1.5">
           <input type="hidden" id="glance-date-filter" value="">
+          <!-- Date range filter for graph -->
+          <div class="flex items-center gap-1 bg-gray-50 rounded-xl px-2 py-1 border border-gray-200">
+            <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-wider shrink-0">Graph:</span>
+            <input type="date" id="glance-from-week"
+              class="text-[11px] text-gray-700 bg-transparent border-0 outline-none cursor-pointer"
+              title="Graph from week"
+              onchange="renderGlanceMomentumAndTable()">
+            <span class="text-[10px] text-gray-400">→</span>
+            <input type="date" id="glance-to-week"
+              class="text-[11px] text-gray-700 bg-transparent border-0 outline-none cursor-pointer"
+              title="Graph to week"
+              onchange="renderGlanceMomentumAndTable()">
+            <button onclick="document.getElementById('glance-from-week').value='';document.getElementById('glance-to-week').value='';renderGlanceMomentumAndTable();"
+              class="text-[10px] text-gray-400 hover:text-indigo-500 ml-0.5 font-medium" title="Reset to last 4 weeks">✕</button>
+          </div>
           <div class="relative">
             <button id="glance-cal-btn" class="h-8 pl-2.5 pr-3 rounded-xl text-[12px] font-semibold text-white flex items-center gap-2 select-none shadow-sm hover:shadow-md transition-all duration-200"
               style="background:linear-gradient(135deg,#6366f1 0%,#8b5cf6 50%,#d946ef 100%);">

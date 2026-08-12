@@ -2063,10 +2063,17 @@ function renderGlanceDatasetSection(analytics, f20Stats) {
 }
 
 async function renderGlanceMomentumAndTable() {
-  const wk = (document.getElementById('glance-date-filter') || {}).value || '';
+  const wk       = (document.getElementById('glance-date-filter') || {}).value || '';
+  const fromWk   = (document.getElementById('glance-from-week')   || {}).value || '';
+  const toWk     = (document.getElementById('glance-to-week')     || {}).value || '';
   let momentum;
   try {
-    momentum = await apiFetch('/api/weekly_momentum' + (wk ? ('?week=' + encodeURIComponent(wk)) : ''));
+    const params = new URLSearchParams();
+    if (wk)     params.set('week',      wk);
+    if (fromWk) params.set('from_week', fromWk);
+    if (toWk)   params.set('to_week',   toWk);
+    const qs = params.toString();
+    momentum = await apiFetch('/api/weekly_momentum' + (qs ? ('?' + qs) : ''));
   } catch { return; }
 
   const series   = momentum.series || [];
@@ -2080,9 +2087,10 @@ async function renderGlanceMomentumAndTable() {
   // Row 1 aggregate cards are populated by renderGlanceAnalytics (Form 20 driven).
   const setTxt = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
   const f20This = f20Week.length;                                // selected week's Form 20 pushes
-  const f20Last4 = series.reduce((a, s) => a + (s.f20 || 0), 0); // last 4 weeks
+  const f20Period = series.reduce((a, s) => a + (s.f20 || 0), 0);
+  const periodLabel = (document.getElementById('glance-from-week') || {}).value ? 'in selected range' : 'in last 4 weeks';
   setTxt('glance-stat-f20-week', f20This.toLocaleString('en-IN'));
-  setTxt('glance-stat-f20-sub',  `${f20Last4.toLocaleString('en-IN')} pushed in last 4 weeks`);
+  setTxt('glance-stat-f20-sub',  `${f20Period.toLocaleString('en-IN')} pushed ${periodLabel}`);
   setTxt('glance-stat-retro-week', '0');
   setTxt('glance-stat-retro-sub',  'pushed this week');
   setTxt('glance-stat-booth-week', '0');

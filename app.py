@@ -2146,38 +2146,37 @@ def weekly_momentum():
         except Exception:
             pass
 
-    # Build dynamic series: span from earliest week with data → current week (max 12 weeks)
-    if f20_by_week:
-        earliest_data_wk = min(f20_by_week.keys())
-        # Also check snapshots for earliest retro/caste data
-        snapshot_weeks = sorted(snapshots.keys())
-        if snapshot_weeks:
-            earliest_snap_wk = snapshot_weeks[0][:10]  # normalize
-            # Convert to Monday
-            d = datetime.strptime(earliest_snap_wk, '%Y-%m-%d').date()
-            earliest_snap_mon = (d - timedelta(days=d.weekday())).isoformat()
-            earliest_wk = min(earliest_data_wk, earliest_snap_mon)
-        else:
-            earliest_wk = earliest_data_wk
-    elif snapshots:
-        snapshot_weeks = sorted(snapshots.keys())
-        d = datetime.strptime(snapshot_weeks[0][:10], '%Y-%m-%d').date()
-        earliest_wk = (d - timedelta(days=d.weekday())).isoformat()
-    else:
-        earliest_wk = (cur_mon - timedelta(days=7 * 11)).isoformat()  # default 12 weeks back
+    # ── Build week window ─────────────────────────────────────────────────────
+    # Default: last 4 weeks (current week + 3 prior)
+    # With ?from_week=YYYY-MM-DD&to_week=YYYY-MM-DD → custom range (max 26 weeks)
+    from_week_param = request.args.get('from_week', '').strip()
+    to_week_param   = request.args.get('to_week',   '').strip()
 
-    # Build full week list from earliest → current week
+    if from_week_param:
+        try:
+            d = datetime.strptime(from_week_param, '%Y-%m-%d').date()
+            range_start = d - timedelta(days=d.weekday())   # snap to Monday
+        except ValueError:
+            range_start = cur_mon - timedelta(days=7 * 3)
+    else:
+        range_start = cur_mon - timedelta(days=7 * 3)      # default: 4 weeks back
+
+    if to_week_param:
+        try:
+            d = datetime.strptime(to_week_param, '%Y-%m-%d').date()
+            range_end = d - timedelta(days=d.weekday())
+        except ValueError:
+            range_end = cur_mon
+    else:
+        range_end = cur_mon
+
+    # Safety cap: never show more than 26 weeks
+    MAX_WEEKS = 26
     all_weeks = []
-    wk_cursor = datetime.strptime(earliest_wk, '%Y-%m-%d').date()
-    while wk_cursor <= cur_mon:
+    wk_cursor = range_start
+    while wk_cursor <= range_end and len(all_weeks) < MAX_WEEKS:
         all_weeks.append(wk_cursor.isoformat())
         wk_cursor += timedelta(days=7)
-
-    # Cap at max 12 weeks, keeping the most recent ones that have data
-    MAX_WEEKS = 12
-    if len(all_weeks) > MAX_WEEKS:
-        # Keep last MAX_WEEKS
-        all_weeks = all_weeks[-MAX_WEEKS:]
 
     weeks = all_weeks
 
