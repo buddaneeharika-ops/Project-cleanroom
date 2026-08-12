@@ -236,7 +236,36 @@
       border-color: #cbd5e1;
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
     }
-  </style>
+  
+
+  /* Custom scrollbar for data panels */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba(156, 163, 175, 0.4);
+    border-radius: 4px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba(107, 114, 128, 0.6);
+  }
+  
+  body[data-active-tab="eci"] .other-col,
+
+  body[data-active-tab="eci"] #group-other {
+    display: none !important;
+  }
+  
+  body[data-active-tab="other"] .eci-col,
+  body[data-active-tab="other"] #group-eci {
+    display: none !important;
+  }
+</style>
+
 </head>
 
 <body>
@@ -258,24 +287,24 @@
       <div class="w-6 h-6 rounded-md bg-gray-900 flex items-center justify-center">
         <span class="material-symbols-outlined text-white" style="font-size:13px;">ballot</span>
       </div>
-      <span class="text-[13px] font-semibold text-gray-900 tracking-tight">Project CleanRoom</span>
+      <span class="text-xs font-semibold text-gray-900 tracking-tight">Project CleanRoom</span>
     </div>
 
     <div class="w-px h-4 bg-gray-200 shrink-0"></div>
 
     <!-- Tabs -->
     <div class="hidden md:flex items-center h-full">
-      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Dashboard</a>
-      <a href="/#listing" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Backlog Tracker</a>
-      <a href="/country-glance-report" class="nav-tab active h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
+      <a href="/" class="nav-tab h-full px-3 flex items-center text-xs cursor-pointer select-none">Dashboard</a>
+      <a href="/#listing" class="nav-tab h-full px-3 flex items-center text-xs cursor-pointer select-none">Backlog Tracker</a>
+      <a href="/country-glance-report" class="nav-tab active h-full px-3 flex items-center gap-1.5 text-xs cursor-pointer select-none">
         <span class="material-symbols-outlined text-gray-600" style="font-size:14px;">public</span>
         Country Glance Report
       </a>
-      <a href="/#glance" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
+      <a href="/#glance" class="nav-tab h-full px-3 flex items-center gap-1.5 text-xs cursor-pointer select-none">
         <span class="material-symbols-outlined text-gray-400" style="font-size:14px;">fact_check</span>
         Weekly Report
       </a>
-      <a href="/#retro" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Retro Export</a>
+      <a href="/#retro" class="nav-tab h-full px-3 flex items-center text-xs cursor-pointer select-none">Retro Export</a>
     </div>
   </div>
 
@@ -290,7 +319,7 @@
         </div>
       {% endif %}
       <span class="text-[12px] font-medium text-gray-700 hidden md:block">
-        {{ user.email if user else 'Guest' }}
+        {{ user.name if (user and user.name) else (user.email if user else 'Guest') }}
       </span>
     </div>
     <a href="/logout" class="h-7 px-2.5 text-[11.5px] font-semibold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors flex items-center">
@@ -308,7 +337,7 @@
   <!-- ─────────────────────────────────────────
        HERO SECTION — scrolls away with the page
   ───────────────────────────────────────── -->
-  <div class="hero-section max-w-[1760px] mx-auto px-6 pt-8 pb-6">
+  <div class="hero-section w-full mx-auto px-6 pt-8 pb-6">
 
     <!-- Page title row -->
     <div class="flex items-start justify-between flex-wrap gap-4 mb-7 fade-in">
@@ -317,9 +346,11 @@
         <p class="text-sm text-gray-500 mt-0.5">Electoral &amp; demographic data coverage across <strong class="text-gray-700">37 States &amp; UTs</strong></p>
       </div>
       <div class="flex items-center gap-2 pt-1">
-        <button onclick="exportToCSV()" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-white border border-gray-200 hover:bg-gray-50 hover:border-gray-300 shadow-sm transition text-gray-700 text-[12px] font-medium">
-          <span class="material-symbols-outlined" style="font-size:15px;">download</span> Export CSV
-        </button>
+        <!-- New Special Mention Button for Map -->
+        <a href="/country-glance-map" class="relative group flex items-center gap-1.5 h-8 px-4 rounded-lg bg-gradient-to-r from-indigo-500 to-blue-600 hover:from-indigo-600 hover:to-blue-700 text-white text-[12px] font-bold shadow-md hover:shadow-lg transition-all overflow-hidden mr-1">
+          <div class="absolute inset-0 bg-white/20 translate-y-[-100%] group-hover:translate-y-[100%] transition-transform duration-500"></div>
+          <span class="material-symbols-outlined" style="font-size:16px;">map</span> Live Country Map ✨
+        </a>
         <button onclick="loadData(true)" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-gray-900 hover:bg-gray-800 text-white text-[12px] font-medium shadow-sm transition">
           <span class="material-symbols-outlined" style="font-size:15px;">refresh</span> Refresh Data
         </button>
@@ -383,7 +414,7 @@
        when the hero section scrolls out of view
   ───────────────────────────────────────── -->
   <div class="sticky-controls">
-    <div class="max-w-[1760px] mx-auto px-6 py-3 flex items-center justify-between flex-wrap gap-3">
+    <div class="w-full mx-auto px-6 py-3 flex items-center justify-between flex-wrap gap-3">
 
       <!-- Wide Executive Black Tab Selector -->
       <div class="tab-switcher-container">
@@ -401,21 +432,75 @@
         </button>
       </div>
 
-      <!-- Legend + Search -->
-      <div class="flex items-center flex-wrap gap-4">
-        <!-- Threshold legend -->
-        <div class="flex items-center gap-3.5 text-[11px] font-semibold text-gray-500">
-          <span class="flex items-center gap-1.5"><span class="sdot sdot-dark-green"></span>95–100%</span>
-          <span class="flex items-center gap-1.5"><span class="sdot sdot-light-green"></span>80–94%</span>
-          <span class="flex items-center gap-1.5"><span class="sdot sdot-yellow"></span>50–79%</span>
-          <span class="flex items-center gap-1.5"><span class="sdot sdot-orange"></span>11–49%</span>
-          <span class="flex items-center gap-1.5"><span class="sdot sdot-red"></span>0–10%</span>
-        </div>
-        <!-- Search -->
+      <!-- Search and Filters -->
+      <div class="flex items-center gap-2 relative ml-auto">
         <div class="relative">
           <span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400" style="font-size:15px;">search</span>
-          <input type="text" id="state-search" onkeyup="filterMatrix()" placeholder="Search state…"
-            class="bg-white border border-gray-200 rounded-xl pl-9 pr-4 py-2 text-[12.5px] text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-gray-900/30 transition w-48"/>
+          <input type="text" id="state-search" onkeyup="filterMatrix()" placeholder="Search state..."
+            class="bg-white border border-gray-200 rounded-xl pl-9 pr-4 py-2 text-[12.5px] text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500/30 transition w-48 shadow-sm"/>
+        </div>
+        <div class="relative">
+          <button onclick="toggleFilterMenu()" class="bg-white border border-gray-200 rounded-xl px-4 py-2 text-[12.5px] font-semibold text-gray-700 hover:bg-gray-50 transition flex items-center gap-1.5 shadow-sm" title="Apply more filters">
+            <span class="material-symbols-outlined" style="font-size:16px;">tune</span>
+            <span>More Filters</span>
+          </button>
+          <div id="filter-menu" class="hidden absolute right-0 top-full mt-2 w-72 bg-white border border-gray-200 rounded-xl shadow-[0_10px_40px_-10px_rgba(0,0,0,0.15)] p-5 z-50">
+              <h3 class="text-xs font-bold text-gray-900 mb-3 uppercase tracking-wider flex items-center gap-1.5"><span class="material-symbols-outlined" style="font-size:16px;">filter_list</span> Filter Conditions</h3>
+              
+              <div class="space-y-4">
+                <div>
+                  <label class="block text-[11px] font-bold text-gray-500 mb-2 uppercase tracking-wide">Columns to match</label>
+                  <div class="grid grid-cols-2 gap-1.5 text-xs text-gray-700" id="filter-cols-container">
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="retro" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Retro</label>
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="form20" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Form 20</label>
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="caste" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Caste</label>
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="booth" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Booth</label>
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="muslim" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Muslim</label>
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="joshua" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Joshua</label>
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="secc" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> SECC</label>
+                  </div>
+                  <p class="text-[10px] text-gray-400 mt-1 italic">Leave empty to match ANY column.</p>
+                </div>
+                
+                <div class="border-t border-gray-100 pt-3">
+                  <label class="block text-[11px] font-bold text-gray-500 mb-2 uppercase tracking-wide">Coverage Range</label>
+                  <div class="space-y-1 text-xs text-gray-700 font-medium">
+                    <label class="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded">
+                      <input type="radio" name="filter_range" value="all" checked onchange="toggleCustomRange()" class="text-indigo-600 focus:ring-indigo-500"> All Data
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded">
+                      <input type="radio" name="filter_range" value="95-100" onchange="toggleCustomRange()" class="text-indigo-600 focus:ring-indigo-500"> <span class="sdot sdot-dark-green"></span> 95–100%
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded">
+                      <input type="radio" name="filter_range" value="80-94" onchange="toggleCustomRange()" class="text-indigo-600 focus:ring-indigo-500"> <span class="sdot sdot-light-green"></span> 80–94%
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded">
+                      <input type="radio" name="filter_range" value="50-79" onchange="toggleCustomRange()" class="text-indigo-600 focus:ring-indigo-500"> <span class="sdot sdot-yellow"></span> 50–79%
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded">
+                      <input type="radio" name="filter_range" value="11-49" onchange="toggleCustomRange()" class="text-indigo-600 focus:ring-indigo-500"> <span class="sdot sdot-orange"></span> 11–49%
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded">
+                      <input type="radio" name="filter_range" value="0-10" onchange="toggleCustomRange()" class="text-indigo-600 focus:ring-indigo-500"> <span class="sdot sdot-red"></span> 0–10%
+                    </label>
+                    <label class="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded">
+                      <input type="radio" name="filter_range" value="custom" onchange="toggleCustomRange()" class="text-indigo-600 focus:ring-indigo-500"> Custom Range...
+                    </label>
+                  </div>
+                </div>
+
+                <div id="custom-range-inputs" class="hidden flex items-center gap-2 pt-1">
+                  <input type="number" id="filter-min" placeholder="Min %" class="w-1/2 text-xs border border-gray-300 rounded-lg p-1.5 focus:outline-none focus:ring-1 focus:ring-indigo-500" min="0" max="100">
+                  <span class="text-gray-400 text-xs">-</span>
+                  <input type="number" id="filter-max" placeholder="Max %" class="w-1/2 text-xs border border-gray-300 rounded-lg p-1.5 focus:outline-none focus:ring-1 focus:ring-indigo-500" min="0" max="100">
+                </div>
+                
+                <div class="border-t border-gray-100 pt-3 flex items-center justify-between gap-2">
+                  <button onclick="clearFilters()" class="text-xs font-semibold text-gray-500 hover:text-gray-900 transition px-2 py-1">Clear</button>
+                  <button onclick="applyFilters()" class="bg-indigo-600 text-white text-xs font-semibold px-4 py-2 rounded-lg hover:bg-indigo-700 transition shadow-sm">Apply Filter</button>
+                </div>
+              </div>
+          </div>
         </div>
       </div>
     </div>
@@ -427,13 +512,13 @@
        INFO PANEL — slides in under tab bar
   ───────────────────────────────────────── -->
   <div id="info-panel" class="info-panel">
-    <div class="max-w-[1760px] mx-auto px-6 pt-5 pb-8">
+    <div class="w-full mx-auto px-6 pt-5 pb-8">
       
       <!-- Header -->
       <div class="mb-6 flex flex-col md:flex-row md:items-end justify-between gap-4">
         <div>
           <h2 class="text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 tracking-tight">Source Dictionary</h2>
-          <p class="text-gray-500 text-[13px] mt-1.5 font-medium">Explore available datasets, fields, and integration systems.</p>
+          <p class="text-gray-500 text-xs mt-1.5 font-medium">Explore available datasets, fields, and integration systems.</p>
         </div>
       </div>
 
@@ -459,42 +544,42 @@
               <table class="w-full text-left border-collapse">
                 <thead>
                   <tr class="bg-gradient-to-r from-indigo-50/50 to-blue-50/50 border-b border-indigo-100/50">
-                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Dataset Name</th>
-                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest">Field Coverage</th>
-                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Source System</th>
-                    <th class="p-4 text-[11px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Granularity</th>
+                    <th class="px-3 py-1.5 text-[10px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Dataset Name</th>
+                    <th class="px-3 py-1.5 text-[10px] font-bold text-indigo-900/60 uppercase tracking-widest">Field Coverage</th>
+                    <th class="px-3 py-1.5 text-[10px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Source System</th>
+                    <th class="px-3 py-1.5 text-[10px] font-bold text-indigo-900/60 uppercase tracking-widest whitespace-nowrap">Granularity</th>
                   </tr>
                 </thead>
-                <tbody class="divide-y divide-indigo-50/50 text-[13px]">
+                <tbody class="divide-y divide-indigo-50/50 text-[11px]">
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Booth Data</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AcName, BoothNo., FemaleVoters, MaleVoters, TotalVoters, MainVillage, District, Taluka, Tehsil, Sub-Division, Block, PostOffice, PoliceStation, WardNo., Pincode, BoothName, BoothAddress</td>
-                    <td class="p-4"><span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI</span></td>
-                    <td class="p-4 text-gray-600 font-medium">Boothwise voters Details</td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Booth Data</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AcName, BoothNo., FemaleVoters, MaleVoters, TotalVoters, MainVillage, District, Taluka, Tehsil, Sub-Division, Block, PostOffice, PoliceStation, WardNo., Pincode, BoothName, BoothAddress</td>
+                    <td class="px-3 py-1.5"><span class="bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ECI</span></td>
+                    <td class="px-3 py-1.5 text-gray-600 font-medium">Boothwise voters Details</td>
                   </tr>
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Caste Data</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AcName, CasteName, Sub_Caste, CasteCategory, CastePercentage</td>
-                    <td class="p-4"><span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI</span></td>
-                    <td class="p-4 text-gray-600 font-medium">ACwise Caste details</td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Caste Data</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AcName, CasteName, Sub_Caste, CasteCategory, CastePercentage</td>
+                    <td class="px-3 py-1.5"><span class="bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ECI</span></td>
+                    <td class="px-3 py-1.5 text-gray-600 font-medium">ACwise Caste details</td>
                   </tr>
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Form 20</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AcName, BoothNo., PartyName, CandidateName, Votes, BoothRank</td>
-                    <td class="p-4"><span class="bg-blue-50 text-blue-700 px-2.5 py-1 rounded-md font-bold text-[11px]">CEO Websites</span></td>
-                    <td class="p-4 text-gray-600 font-medium">Boothwise Candidate/Party Votes</td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Form 20</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AcName, BoothNo., PartyName, CandidateName, Votes, BoothRank</td>
+                    <td class="px-3 py-1.5"><span class="bg-blue-50 text-blue-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">CEO Websites</span></td>
+                    <td class="px-3 py-1.5 text-gray-600 font-medium">Boothwise Candidate/Party Votes</td>
                   </tr>
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Retro Data</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">CandidateName, PartyName, Votes, ElectionType, ElectionYear</td>
-                    <td class="p-4"><span class="bg-indigo-50 text-indigo-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI</span></td>
-                    <td class="p-4 text-gray-600 font-medium">ACwise Candidate/Party Votes</td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Retro Data</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">CandidateName, PartyName, Votes, ElectionType, ElectionYear</td>
+                    <td class="px-3 py-1.5"><span class="bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ECI</span></td>
+                    <td class="px-3 py-1.5 text-gray-600 font-medium">ACwise Candidate/Party Votes</td>
                   </tr>
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Geospatial Mappings-Polaris</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">AC, boothnumber, VoterEPICnumber, Latitude, longitude (Available for KL, TN, WB, AS)</td>
-                    <td class="p-4"><span class="bg-purple-50 text-purple-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ECI & Lat-Long</span></td>
-                    <td class="p-4 text-gray-600 font-medium">Booth and voter geo-coordinates</td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Geospatial Mappings-Polaris</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AC, boothnumber, VoterEPICnumber, Latitude, longitude (Available for KL, TN, WB, AS)</td>
+                    <td class="px-3 py-1.5"><span class="bg-purple-50 text-purple-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ECI & Lat-Long</span></td>
+                    <td class="px-3 py-1.5 text-gray-600 font-medium">Booth and voter geo-coordinates</td>
                   </tr>
                 </tbody>
               </table>
@@ -509,66 +594,66 @@
               <table class="w-full text-left border-collapse">
                 <thead>
                   <tr class="bg-gradient-to-r from-emerald-50/50 to-teal-50/50 border-b border-emerald-100/50">
-                    <th class="p-4 text-[11px] font-bold text-emerald-900/60 uppercase tracking-widest whitespace-nowrap w-[20%]">Dataset Name</th>
-                    <th class="p-4 text-[11px] font-bold text-emerald-900/60 uppercase tracking-widest w-[55%]">Field Coverage</th>
-                    <th class="p-4 text-[11px] font-bold text-emerald-900/60 uppercase tracking-widest w-[25%]">Source System</th>
+                    <th class="px-3 py-1.5 text-[10px] font-bold text-emerald-900/60 uppercase tracking-widest whitespace-nowrap w-[20%]">Dataset Name</th>
+                    <th class="px-3 py-1.5 text-[10px] font-bold text-emerald-900/60 uppercase tracking-widest w-[55%]">Field Coverage</th>
+                    <th class="px-3 py-1.5 text-[10px] font-bold text-emerald-900/60 uppercase tracking-widest w-[25%]">Source System</th>
                   </tr>
                 </thead>
-                <tbody class="divide-y divide-emerald-50/50 text-[13px]">
+                <tbody class="divide-y divide-emerald-50/50 text-[11px]">
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Ejalshakti Data</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">VillageName, LgdCode, Block, Panchayat, TotalPopulation, SCPopulation, STPopulation, GeneralPopulation, No.ofhabitants, No.of households, TapConnections, HabitationName</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Ministry of Jal Shakti (GOI)</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Ejalshakti Data</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">VillageName, LgdCode, Block, Panchayat, TotalPopulation, SCPopulation, STPopulation, GeneralPopulation, No.ofhabitants, No.of households, TapConnections, HabitationName</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Ministry of Jal Shakti (GOI)</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Joshua</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">DistrictName, TotalPopulation, PeopleGroupName, PrimaryLanguage, HinduPopulation, Muslim Population, SikhPopulation, Christian Population, BuddhistPopulation, OtherReligionsPopulation</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Joshua Project</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Joshua</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">DistrictName, TotalPopulation, PeopleGroupName, PrimaryLanguage, HinduPopulation, Muslim Population, SikhPopulation, Christian Population, BuddhistPopulation, OtherReligionsPopulation</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Joshua Project</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">LGD Data</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">LGDCode, PCName, ACName, DistrictCode, DisttrictName, SubDistrictCode, SubDistrictName, Block, Panchayat</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Ministry of Panchayati Raj (GOI)</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">LGD Data</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">LGDCode, PCName, ACName, DistrictCode, DisttrictName, SubDistrictCode, SubDistrictName, Block, Panchayat</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Ministry of Panchayati Raj (GOI)</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Muslim Census</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">District, Sub-District, TotalPopulation, Muslim Population, Muslim Percentage</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Muslim Census</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Muslim Census</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">District, Sub-District, TotalPopulation, Muslim Population, Muslim Percentage</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Muslim Census</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">SECC Data</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">DeprivedHouseholds, HouseholdsOwnership, ExcludedHouseholds, IncludedHouseholds, MainIncomeSource, Pop, MaritalStatus, Education, Age</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">SECC Portal (GOI)</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">SECC Data</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">DeprivedHouseholds, HouseholdsOwnership, ExcludedHouseholds, IncludedHouseholds, MainIncomeSource, Pop, MaritalStatus, Education, Age</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">SECC Portal (GOI)</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">NREGA Data</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">National Rural Employment Guarantee Act data covering job cards, person-days generated, wage payments, work completion, asset creation, and demographic participation at panchayat/block/district levels</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Ministry of Rural Development</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">NREGA Data</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">National Rural Employment Guarantee Act data covering job cards, person-days generated, wage payments, work completion, asset creation, and demographic participation at panchayat/block/district levels</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Ministry of Rural Development</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Election Lens</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">ACName, ValidVotes, Electors, Turnout, enop, CandidateName, Party, Votes, Gender, Caste, Age</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">ElectionLens</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Election Lens</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">ACName, ValidVotes, Electors, Turnout, enop, CandidateName, Party, Votes, Gender, Caste, Age</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ElectionLens</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">IndiaStat Publication</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">Elector count, turnout %, reservation, MP/MLA party affiliation, urban rural classification at PC/AC/District level</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Indiastat Publication</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">IndiaStat Publication</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">Elector count, turnout %, reservation, MP/MLA party affiliation, urban rural classification at PC/AC/District level</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Indiastat Publication</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Know Your School</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">Education infrastructure mapping, Student enrollment profiling, resource allocation tracking at ditrict/village/block level.</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">Dept of School Education</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Know Your School</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">Education infrastructure mapping, Student enrollment profiling, resource allocation tracking at ditrict/village/block level.</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Dept of School Education</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Pincode</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">CircleName, RegionName, DivisionName, OfficeName, PinCode, officeType, District, State, Lat-long, ACNumber, ACName</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">OpenGov.Data (OGD)</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Pincode</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">CircleName, RegionName, DivisionName, OfficeName, PinCode, officeType, District, State, Lat-long, ACNumber, ACName</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">OpenGov.Data (OGD)</span></td>
                   </tr>
                   <tr class="hover:bg-emerald-50/30 transition-colors group">
-                    <td class="p-4 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Municipal elections</td>
-                    <td class="p-4 text-gray-600 leading-relaxed font-medium">All India Gram panchayat shapefiles, BMC ward-wise results and shapefiles, Punjab MCs nomination data, Bengaluru GBA shapefiles & voter data</td>
-                    <td class="p-4"><span class="bg-gray-100 text-gray-700 px-2.5 py-1 rounded-md font-bold text-[11px]">State Election Commision</span></td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-emerald-600 transition-colors">Municipal elections</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">All India Gram panchayat shapefiles, BMC ward-wise results and shapefiles, Punjab MCs nomination data, Bengaluru GBA shapefiles & voter data</td>
+                    <td class="px-3 py-1.5"><span class="bg-gray-100 text-gray-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">State Election Commision</span></td>
                   </tr>
                 </tbody>
               </table>
@@ -583,7 +668,7 @@
   <!-- ─────────────────────────────────────────
        DATA MATRIX TABLE
   ───────────────────────────────────────── -->
-  <div class="max-w-[1760px] mx-auto px-6 pt-5 pb-12 fade-in d2">
+  <div class="w-full mx-auto px-6 pt-5 pb-12 fade-in d2">
     <div class="glass-table-wrap">
 
       <!-- Loading state -->
@@ -771,6 +856,9 @@
             </span>`;
   }
 
+  let activeFilter = { cols: [], range: 'all', min: 0, max: 100 };
+  let hasScrolledForSearch = false;
+
   function renderMatrix() {
     const tbody = document.getElementById('matrix-tbody');
     tbody.innerHTML = '';
@@ -778,6 +866,28 @@
 
     const q = document.getElementById('state-search').value.toLowerCase().trim();
     if (q) rows = rows.filter(r => r.state_name.toLowerCase().includes(q));
+
+    // Advanced Filtering
+    if (activeFilter.range !== 'all') {
+      rows = rows.filter(r => {
+        if (activeFilter.cols.length === 0) {
+          // Check if ANY metric column meets the condition
+          const cols = ['retro','form20','caste','booth','muslim','joshua','kys','lgd','ejal','secc','nrega','indiastat','elens'];
+          return cols.some(c => {
+             const v = parseFloat(r[c]);
+             if (isNaN(v) || v < 0) return false;
+             return v >= activeFilter.min && v <= activeFilter.max;
+          });
+        } else {
+          // ANY selected column must meet the condition
+          return activeFilter.cols.some(c => {
+             const v = parseFloat(r[c]);
+             if (isNaN(v) || v < 0) return false;
+             return v >= activeFilter.min && v <= activeFilter.max;
+          });
+        }
+      });
+    }
 
     rows.sort((a, b) => {
       const va = a[sortColumn], vb = b[sortColumn];
@@ -788,83 +898,115 @@
 
     document.getElementById('visible-count').textContent = rows.length;
 
+    const h = (col) => activeFilter.cols.includes(col) ? 'bg-indigo-50/70 shadow-[inset_0_0_0_1px_rgba(99,102,241,0.2)]' : '';
+
     rows.forEach((row, idx) => {
       const tr = document.createElement('tr');
+      tr.className = "hover:bg-gray-50 transition-colors";
       const stateLabel = row.state_abb === 'JK'
         ? `${row.state_name} <span class="text-amber-600 font-bold ml-0.5" title="Capped at 100% (adjusted for election seats increase from 87 to 90 seats in 2022)">*</span>`
         : row.state_name;
       tr.innerHTML = `
         <td class="text-center text-gray-400 font-medium text-xs bg-[#f8fafc] sticky left-0 z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)]">${idx+1}</td>
         <td class="font-semibold text-gray-800 text-[12.5px] bg-[#f8fafc] sticky left-[40px] z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)] pr-4">${stateLabel}</td>
-        <td class="text-center eci-col">${getDotHTML(row.retro)}</td>
-        <td class="text-center eci-col">${getDotHTML(row.form20)}</td>
-        <td class="text-center eci-col">${getDotHTML(row.caste)}</td>
-        <td class="text-center eci-col border-r-2 border-gray-200">${getDotHTML(row.booth)}</td>
-        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.muslim)}</td>
-        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.joshua)}</td>
-        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.kys)}</td>
-        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.lgd)}</td>
-        <td class="text-center other-col bg-gray-50/20">${getDotHTML(row.ejal)}</td>
-        <td class="text-center other-col bg-gray-50/20 border-r-2 border-gray-200">${getDotHTML(row.secc)}</td>
-        <td class="text-center other-col bg-emerald-50/20">${getDotHTML(row.nrega)}</td>
-        <td class="text-center other-col bg-emerald-50/20">${getDotHTML(row.indiastat)}</td>
-        <td class="text-center other-col bg-emerald-50/20">${getDotHTML(row.elens)}</td>
+        <td class="text-center eci-col ${h('retro')}">${getDotHTML(row.retro)}</td>
+        <td class="text-center eci-col ${h('form20')}">${getDotHTML(row.form20)}</td>
+        <td class="text-center eci-col ${h('caste')}">${getDotHTML(row.caste)}</td>
+        <td class="text-center eci-col ${h('booth')}">${getDotHTML(row.booth)}</td>
+        <td class="text-center other-col ${h('muslim')}">${getDotHTML(row.muslim)}</td>
+        <td class="text-center other-col ${h('joshua')}">${getDotHTML(row.joshua)}</td>
+        <td class="text-center other-col ${h('kys')}">${getDotHTML(row.kys)}</td>
+        <td class="text-center other-col ${h('lgd')}">${getDotHTML(row.lgd)}</td>
+        <td class="text-center other-col ${h('ejal')}">${getDotHTML(row.ejal)}</td>
+        <td class="text-center other-col ${h('secc')}">${getDotHTML(row.secc)}</td>
+        <td class="text-center other-col ${h('nrega')}">${getDotHTML(row.nrega)}</td>
+        <td class="text-center other-col ${h('indiastat')}">${getDotHTML(row.indiastat)}</td>
+        <td class="text-center other-col ${h('elens')}">${getDotHTML(row.elens)}</td>
       `;
       tbody.appendChild(tr);
     });
-
-    updateColVisibility();
   }
 
-  // ── Tab switching — ECI & Auxiliary Sources (Always Displayed Info Panel) ──
-  function switchTab(tab) {
-    currentTab = tab;
-    const tabEci = document.getElementById('tab-eci');
-    const tabOther = document.getElementById('tab-other');
-
-    const btnBase = 'px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95';
-
-    if (tab === 'eci') {
-      tabEci.className = 'btn-tab-active-black ' + btnBase;
-      tabOther.className = 'btn-tab-inactive-gray ' + btnBase;
-    } else {
-      tabEci.className = 'btn-tab-inactive-gray ' + btnBase;
-      tabOther.className = 'btn-tab-active-black ' + btnBase;
-    }
-
-    const panelEci = document.getElementById('panel-eci');
-    const panelAux = document.getElementById('panel-aux');
-    if (panelEci) panelEci.classList.toggle('hidden', tab !== 'eci');
-    if (panelAux) panelAux.classList.toggle('hidden', tab !== 'other');
-
-    if (tab === 'eci') {
-      updateInfoPanelKPIs();
-    }
-    updateColVisibility();
-  }
-
-  function updateColVisibility() {
-    const eciEls   = document.querySelectorAll('.eci-col');
-    const otherEls = document.querySelectorAll('.other-col');
-    const gEci     = document.getElementById('group-eci');
-    const gOther   = document.getElementById('group-other');
-
-    if (currentTab === 'eci') {
-      eciEls.forEach(el  => el.style.display = '');
-      otherEls.forEach(el => el.style.display = 'none');
-      gEci.style.display   = '';
-      gOther.style.display = 'none';
-      gEci.colSpan = 4;
-    } else {
-      eciEls.forEach(el  => el.style.display = 'none');
-      otherEls.forEach(el => el.style.display = '');
-      gEci.style.display   = 'none';
-      gOther.style.display = '';
-      gOther.colSpan = 9;
+  function filterMatrix() {
+    renderMatrix();
+    const q = document.getElementById('state-search').value.trim();
+    if (q && !hasScrolledForSearch) {
+      const tableWrap = document.getElementById('table-wrap');
+      if (tableWrap) {
+        const y = tableWrap.getBoundingClientRect().top + window.scrollY - 140;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+        hasScrolledForSearch = true;
+      }
+    } else if (!q) {
+      hasScrolledForSearch = false;
     }
   }
 
-  function filterMatrix() { renderMatrix(); }
+  function toggleFilterMenu() {
+    const menu = document.getElementById('filter-menu');
+    menu.classList.toggle('hidden');
+  }
+
+  // Close filter menu when clicking outside
+  document.addEventListener('click', function(e) {
+    const filterBtn = e.target.closest('button[title="Apply more filters"]');
+    const filterMenu = document.getElementById('filter-menu');
+    if (!filterBtn && filterMenu && !filterMenu.contains(e.target) && !filterMenu.classList.contains('hidden')) {
+      filterMenu.classList.add('hidden');
+    }
+  });
+
+  function toggleCustomRange() {
+    const checked = document.querySelector('input[name="filter_range"]:checked');
+    if(checked) {
+      const range = checked.value;
+      document.getElementById('custom-range-inputs').classList.toggle('hidden', range !== 'custom');
+    }
+  }
+
+  function clearFilters() {
+    document.querySelectorAll('.filter-col-chk').forEach(c => c.checked = false);
+    const allRadio = document.querySelector('input[name="filter_range"][value="all"]');
+    if(allRadio) allRadio.checked = true;
+    document.getElementById('filter-min').value = '';
+    document.getElementById('filter-max').value = '';
+    toggleCustomRange();
+    activeFilter = { cols: [], range: 'all', min: 0, max: 100 };
+    filterMatrix();
+    toggleFilterMenu();
+  }
+
+  function applyFilters() {
+    const checkedCols = Array.from(document.querySelectorAll('.filter-col-chk:checked')).map(c => c.value);
+    const rangeObj = document.querySelector('input[name="filter_range"]:checked');
+    const range = rangeObj ? rangeObj.value : 'all';
+    let min = 0, max = 100;
+    
+    if (range === '95-100') { min = 95; max = 100; }
+    else if (range === '80-94') { min = 80; max = 94; }
+    else if (range === '50-79') { min = 50; max = 79; }
+    else if (range === '11-49') { min = 11; max = 49; }
+    else if (range === '0-10') { min = 0; max = 10; }
+    else if (range === 'custom') {
+      min = parseFloat(document.getElementById('filter-min').value) || 0;
+      max = parseFloat(document.getElementById('filter-max').value) || 100;
+    }
+    
+    activeFilter = { cols: checkedCols, range, min, max };
+    filterMatrix();
+    toggleFilterMenu();
+
+    // Auto-select corresponding tab based on filtered columns
+    if (checkedCols.length > 0) {
+      const eciCols = ['retro', 'form20', 'caste', 'booth'];
+      const hasEci = checkedCols.some(c => eciCols.includes(c));
+      if (hasEci) {
+        switchTab('eci');
+      } else {
+        switchTab('other');
+      }
+    }
+  }
 
   function sortTable(col) {
     sortAsc = sortColumn === col ? !sortAsc : true;
@@ -872,20 +1014,40 @@
     renderMatrix();
   }
 
-  function exportToCSV() {
-    const hdr = 'Sr,State,Retro%,Form20%,Caste%,Booth%,Muslim%,Joshua%,KYS%,LGD%,Ejal%,SECC%,NREGA%,Indiastat%,ElectionLens%';
-    const rows = globalMatrix.map((r, i) =>
-      [i+1,r.state_name,r.retro,r.form20,r.caste,r.booth,r.muslim,r.joshua,r.kys,r.lgd,r.ejal,r.secc,r.nrega,r.indiastat,r.elens]
-      .map(v => `"${v}"`).join(',')
-    );
-    const blob = new Blob([[hdr,...rows].join('\n')], {type:'text/csv'});
-    Object.assign(document.createElement('a'), {
-      href: URL.createObjectURL(blob),
-      download:`Country_Glance_${new Date().toISOString().slice(0,10)}.csv`
-    }).click();
+  document.addEventListener('DOMContentLoaded', () => loadData(false));
+
+  // --- Tab Switching Logic ---
+  function switchTab(tab) {
+    currentTab = tab;
+    document.body.setAttribute('data-active-tab', tab);
+    
+    const btnEci = document.getElementById('tab-eci');
+    const btnOther = document.getElementById('tab-other');
+    
+    if (tab === 'eci') {
+      if (btnEci) btnEci.className = "btn-tab-active-black px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95";
+      if (btnOther) btnOther.className = "btn-tab-inactive-gray px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95";
+      
+      const pEci = document.getElementById('panel-eci');
+      const pOther = document.getElementById('panel-aux');
+      if (pEci) pEci.classList.remove('hidden');
+      if (pOther) pOther.classList.add('hidden');
+    } else {
+      if (btnOther) btnOther.className = "btn-tab-active-black px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95";
+      if (btnEci) btnEci.className = "btn-tab-inactive-gray px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95";
+      
+      const pEci = document.getElementById('panel-eci');
+      const pOther = document.getElementById('panel-aux');
+      if (pEci) pEci.classList.add('hidden');
+      if (pOther) pOther.classList.remove('hidden');
+    }
   }
 
-  document.addEventListener('DOMContentLoaded', () => loadData(false));
+  // Initialize tabs on load
+  document.addEventListener('DOMContentLoaded', () => {
+    switchTab('eci');
+  });
+
 </script>
 
 </body>
