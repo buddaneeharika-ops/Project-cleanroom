@@ -669,6 +669,21 @@ def logout():
     session.pop('user', None)
     return redirect(url_for('login_page'))
 
+@app.context_processor
+def inject_user_helpers():
+    def get_user_display_name(user):
+        if not user:
+            return 'Guest'
+        name = user.get('name')
+        if name:
+            return name
+        email = user.get('email')
+        if email:
+            return email.split('@')[0].replace('.', ' ').title()
+        return 'User'
+    return dict(get_user_display_name=get_user_display_name)
+
+
 @app.route('/')
 @login_required
 def index():
@@ -2988,7 +3003,7 @@ def _init_caches_on_startup():
                             print(f"  [startup] Warmed '{cache_key}' cache from JSON.")
                 except Exception as e:
                     print(f"  [startup] Could not warm '{cache_key}' from JSON: {e}")
-        print("  [startup] ✅ JSON → Redis warmup complete.")
+        print("  [startup] JSON -> Redis warmup complete.")
 
     # Start the midnight scheduler (only refreshes from DB once per night)
     threading.Thread(target=_daily_midnight_refresh, daemon=True).start()

@@ -319,7 +319,7 @@
         </div>
       {% endif %}
       <span class="text-[12px] font-medium text-gray-700 hidden md:block">
-        {{ user.name if (user and user.name) else (user.email if user else 'Guest') }}
+        {{ get_user_display_name(user) }}
       </span>
     </div>
     <a href="/logout" class="h-7 px-2.5 text-[11.5px] font-semibold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors flex items-center">
