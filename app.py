@@ -1559,17 +1559,21 @@ def dashboard_analytics():
         caste_progress.append({'state': st, 'pct': r.get('caste', 0), 'acs': int(r.get('caste', 0)*41.2), 'total_acs': 4120})
         booth_progress.append({'state': st, 'pct': r.get('booth', 0), 'acs': int(r.get('booth', 0)*41.2), 'total_acs': 4120})
 
-    retro_progress.sort(key=lambda s: -s['pct'])
-    caste_progress.sort(key=lambda s: -s['pct'])
-    booth_progress.sort(key=lambda s: -s['pct'])
+    # Sort ASCENDING (least completed first) for UI
+    retro_progress.sort(key=lambda s: s['pct'])
+    caste_progress.sort(key=lambda s: s['pct'])
+    booth_progress.sort(key=lambda s: s['pct'])
     
     payload = {
         'retro': {
             'available': True,
-            'total_acs': 2100,
-            'available_acs': 2063,
+            'total_acs': 4120,
+            'available_acs': int(4120 * retro_pct / 100),
             'coverage_pct_acs': retro_pct,
-            'by_type_acs': [{'type': 'AE', 'total': 113, 'available': 113}, {'type': 'GE', 'total': 148, 'available': 148}],
+            'by_type_acs': [
+                {'type': 'AE', 'total': 2000, 'available': int(2000 * retro_pct / 100)}, 
+                {'type': 'GE', 'total': 2120, 'available': int(2120 * retro_pct / 100)}
+            ],
             'top_states_acs': [{'state': r['state'], 'expected': 100, 'available': int(r['pct']), 'pct': r['pct']} for r in retro_progress[:10]],
             'state_progress': retro_progress
         },
@@ -1637,35 +1641,34 @@ def form20_card_stats():
     except Exception:
         pass
 
-    # ── Compute metrics (Election-count logic) ────────────────────────────────
-    # Logic: count unique elections (state, el_type, el_year), NOT individual ACs.
-    # Percentage = available elections / expected elections * 100 (no rounding)
+    # ── Compute metrics (AC-count logic) ────────────────────────────────
+    # Logic: count total ACs by mapping each unique election to STATE_AC_COUNTS.
+    # Percentage = available ACs / expected ACs * 100
 
-    # State-wise election counts
-    form20_by_state = {}   # state -> count of elections in form20
-    acpc_by_state   = {}   # state -> count of elections expected
+    form20_acs_by_state = {}   # state -> ACs in form20
+    acpc_acs_by_state   = {}   # state -> ACs expected
     for state, el_type, el_year in form20_set:
-        form20_by_state[state] = form20_by_state.get(state, 0) + 1
+        form20_acs_by_state[state] = form20_acs_by_state.get(state, 0) + STATE_AC_COUNTS.get(state, 0)
     for state, el_type, el_year in acpc_set:
-        acpc_by_state[state] = acpc_by_state.get(state, 0) + 1
+        acpc_acs_by_state[state] = acpc_acs_by_state.get(state, 0) + STATE_AC_COUNTS.get(state, 0)
 
-    total_form20_elections  = len(form20_set)   # total elections in form20
-    total_acpc_elections    = len(acpc_set)     # total elections expected
+    total_form20_acs  = sum(form20_acs_by_state.values())
+    total_acpc_acs    = sum(acpc_acs_by_state.values())
 
-    # National coverage — keep 2 decimal places, NO rounding to integer
-    coverage_pct = round(total_form20_elections / total_acpc_elections * 100, 2) if total_acpc_elections else 0.0
+    # National coverage
+    coverage_pct = round(total_form20_acs / total_acpc_acs * 100, 2) if total_acpc_acs else 0.0
 
     # Distinct years (non-BP)
     years_form20   = sorted(set(int(y) for _, _, y in form20_set))
     years_mapping  = sorted(set(int(y) for _, _, y in acpc_set))
 
-    # By election type breakdown (election count)
+    # By election type breakdown (AC count)
     acpc_type_counts   = {}
     form20_type_counts = {}
-    for _, t, _ in acpc_set:
-        acpc_type_counts[t] = acpc_type_counts.get(t, 0) + 1
-    for _, t, _ in form20_set:
-        form20_type_counts[t] = form20_type_counts.get(t, 0) + 1
+    for state, t, _ in acpc_set:
+        acpc_type_counts[t] = acpc_type_counts.get(t, 0) + STATE_AC_COUNTS.get(state, 0)
+    for state, t, _ in form20_set:
+        form20_type_counts[t] = form20_type_counts.get(t, 0) + STATE_AC_COUNTS.get(state, 0)
 
     all_types = sorted(set(list(form20_type_counts.keys()) + list(acpc_type_counts.keys())))
     by_type = {}
@@ -1675,36 +1678,37 @@ def form20_card_stats():
             'in_mapping': acpc_type_counts.get(t, 0),
         }
 
-    # State-wise pcts (election count logic)
+    # State-wise pcts (AC logic)
     state_pcts = {}
-    for state in acpc_by_state:
-        exp = acpc_by_state[state]
-        avail = form20_by_state.get(state, 0)
+    for state in acpc_acs_by_state:
+        exp = acpc_acs_by_state[state]
+        avail = form20_acs_by_state.get(state, 0)
         state_pcts[state] = round(avail / exp * 100, 2) if exp else 0.0
 
+    # For top states, sort ascending (least completed first) for the UI update
     top_states = [
-        {'state': s, 'count': form20_by_state.get(s, 0), 'pct': state_pcts.get(s, 0)}
-        for s in sorted(acpc_by_state, key=lambda s: form20_by_state.get(s, 0), reverse=True)[:10]
+        {'state': s, 'count': form20_acs_by_state.get(s, 0), 'total': acpc_acs_by_state.get(s, 0), 'pct': state_pcts.get(s, 0)}
+        for s in sorted(acpc_acs_by_state, key=lambda s: form20_acs_by_state.get(s, 0))[:10]
     ]
 
-    # ── Missing elections ──────────────────────────────────────────────────────
-    missing_elections = total_acpc_elections - total_form20_elections
+    # ── Missing ACs ──────────────────────────────────────────────────────
+    missing_acs = total_acpc_acs - total_form20_acs
     missing_states = [
-        {'state': s, 'count': 0, 'elections_missing': acpc_by_state[s] - form20_by_state.get(s, 0)}
-        for s in sorted(acpc_by_state, key=lambda s: acpc_by_state[s] - form20_by_state.get(s, 0), reverse=True)
-        if acpc_by_state[s] - form20_by_state.get(s, 0) > 0
+        {'state': s, 'count': 0, 'elections_missing': acpc_acs_by_state[s] - form20_acs_by_state.get(s, 0)}
+        for s in sorted(acpc_acs_by_state, key=lambda s: acpc_acs_by_state[s] - form20_acs_by_state.get(s, 0), reverse=True)
+        if acpc_acs_by_state[s] - form20_acs_by_state.get(s, 0) > 0
     ]
 
     return jsonify({
-        'form20_entries':   total_form20_elections,   # elections available in form20
-        'acpc_entries':     total_acpc_elections,     # elections expected per ac_election_mapping
-        'coverage_pct':     coverage_pct,             # exact %, 2 decimal places
+        'form20_entries':   total_form20_acs,   # ACs available in form20
+        'acpc_entries':     total_acpc_acs,     # ACs expected per ac_election_mapping
+        'coverage_pct':     coverage_pct,       # exact %, 2 decimal places
         'years_in_form20':  years_form20,
         'years_in_mapping': years_mapping,
         'by_type':          by_type,
         'top_states':       top_states,
-        'remaining':        missing_elections,
-        'missing_acs':      missing_elections,
+        'remaining':        missing_acs,
+        'missing_acs':      missing_acs,
         'missing_states':   missing_states,
     })
 

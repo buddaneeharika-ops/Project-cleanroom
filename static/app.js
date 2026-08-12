@@ -999,135 +999,162 @@ function typeColor(type) {
   return m[type] || '#94a3b8';
 }
 
-function renderForm20Panel(stats) {
-  const setEl = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
-  const bs        = stats.by_status || {};
-  const total     = stats.total || 0;
-  const completed = (bs.db_pushed || 0) + (bs.completed || 0);
-  const pct       = total > 0 ? Math.round((completed / total) * 100) : 0;
-  const circ      = 163.4;
-  const dash      = circ * (1 - pct / 100);
 
-  // Ring chart
-  const ring    = document.getElementById('f20-ring');
-  const ringPct = document.getElementById('f20-ring-pct');
-  if (ring)    ring.style.strokeDashoffset = dash;
-  if (ringPct) ringPct.textContent = pct + '%';
+function renderForm20Panel(d) {
+  const pctEl = document.getElementById('f20-pct-badge');
+  const subStatesEl = document.getElementById('f20-sub-states');
+  const body  = document.getElementById('f20-body');
 
-  _f20TotalYears = stats.total_years || 0;
-  _f20Total      = stats.total       || 0;
-  _f20ByType     = stats.by_type     || {};
+  if (!d || (!d.total_years && !d.total && !d.form20_entries)) {
+    if (pctEl) pctEl.textContent = '—';
+    if (body)  body.innerHTML = _lockHTML(d?.error);
+    return;
+  }
 
-  setEl('f20-pct',        pct + '%');
-  setEl('f20-pct-badge',  pct + '% complete');
-  setEl('f20-counts',     `${completed.toLocaleString()} / ${total.toLocaleString()} elections in DB`);
-  const progEl = document.getElementById('f20-prog');
-  if (progEl) progEl.style.width = pct + '%';
+  const acsCovered = d.form20_entries || 0;
+  const acsExpected = d.acpc_entries || 0;
+  const coveragePctAll = d.coverage_pct || 0;
+  const stateProgress = d.top_states || [];
+  const statesCovered = stateProgress.filter(s => s.count > 0).length;
 
-  // By election type (AE, GE — excluding BP variants)
-  const typeWrap = document.getElementById('f20-type-rows');
-  if (typeWrap && stats.by_type) {
-    const TYPE_META = {
-      'AE': { label: 'Assembly', bg: 'bg-gray-700'  },
-      'GE': { label: 'General',  bg: 'bg-blue-500'  },
-    };
-    const entries = Object.entries(stats.by_type)
-      .filter(([t]) => !t.includes('-BP'))
-      .sort((a, b) => b[1].total - a[1].total);
+  if (pctEl) pctEl.textContent = coveragePctAll + '% AC coverage';
+  if (subStatesEl) subStatesEl.textContent = fmtNum(statesCovered);
 
-    typeWrap.innerHTML = entries.map(([type, d]) => {
-      const p   = d.total > 0 ? Math.round((d.completed / d.total) * 100) : 0;
-      const m   = TYPE_META[type] || { label: type, bg: 'bg-gray-400' };
+  if (!body) return;
+
+  const circ = 163.4;
+  const dash = circ * (1 - Math.min(coveragePctAll, 100) / 100);
+  
+  // Sort least completed first (ascending)
+  const bottomStates = [...stateProgress].sort((a, b) => a.count - b.count).slice(0, 8);
+
+  // By type logic
+  const typeMap = d.by_type || {};
+  const typeList = Object.keys(typeMap).filter(k => !k.includes('-BP'));
+  const typeHTML = typeList.map(t => {
+      const v = typeMap[t];
+      const p = v.in_mapping > 0 ? Math.round((v.in_form20 / v.in_mapping) * 100) : 0;
+      const m = t === 'AE' ? { label: 'Assembly', bg: 'bg-gray-700', text: 'text-gray-800' } : { label: 'General', bg: 'bg-blue-500', text: 'text-blue-600' };
       const pctColor = p === 100 ? 'text-emerald-600' : p >= 80 ? 'text-blue-600' : p >= 50 ? 'text-amber-600' : 'text-rose-500';
       return `
         <div class="flex items-center gap-2">
           <div class="flex items-center gap-1.5 w-[90px] shrink-0">
             <span class="w-2 h-2 rounded-full ${m.bg} shrink-0"></span>
-            <span class="text-[10.5px] font-semibold text-gray-700">${type}</span>
+            <span class="text-[10.5px] font-semibold text-gray-700">${t}</span>
             <span class="text-[9.5px] text-gray-400">${m.label}</span>
           </div>
           <div class="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
-            <div class="h-full rounded-full ${m.bg} bar-fill" style="width:${p}%"></div>
+            <div class="h-full rounded-full ${m.bg} bar-fill" style="width:${Math.min(p, 100)}%"></div>
           </div>
-          <div class="flex items-center gap-1 shrink-0 w-[72px] justify-end">
+          <div class="flex items-center gap-1.5 shrink-0 justify-end whitespace-nowrap">
             <span class="text-[11px] font-bold tabular-nums ${pctColor}">${p}%</span>
-            <span class="text-[9.5px] text-gray-400 tabular-nums">${d.completed}/${d.total}</span>
+            <span class="text-[9.5px] text-gray-400 tabular-nums">${fmtNum(v.in_form20)}/${fmtNum(v.in_mapping)}</span>
           </div>
-        </div>`;
-    }).join('');
-  }
+        </div>
+      `;
+  }).join('');
 
-  // Top completed states
-  const stateWrap = document.getElementById('f20-state-rows');
-  if (stateWrap && stats.by_state) {
-    const topStates = [...stats.by_state]
-      .filter(s => s.completed > 0)
-      .sort((a, b) => b.completed - a.completed)
-      .slice(0, 8);
-    const max = topStates[0]?.completed || 1;
-    stateWrap.className = 'grid grid-cols-4 gap-1.5';
-    stateWrap.innerHTML = topStates.map(s => {
-      const intensity = Math.round((s.completed / max) * 9) + 1;
-      const bg = intensity >= 8 ? 'bg-gray-100 border-gray-300' :
-                 intensity >= 5 ? 'bg-gray-50 border-gray-200' : 'bg-gray-50 border-gray-100';
-      const tc = intensity >= 8 ? 'text-gray-800' : 'text-gray-600';
-      return `
-        <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5">
-          <span class="text-[10.5px] font-bold ${tc}">${s.state}</span>
-          <span class="text-[12px] font-black text-gray-900 tabular-nums leading-none">${s.completed}</span>
-          <span class="text-[9px] text-gray-400 leading-none">elections</span>
-        </div>`;
-    }).join('');
-  }
+  body.innerHTML = `
+    <div class="p-5 grid grid-cols-1 lg:grid-cols-12 gap-5 fade-up">
+
+      <!-- LEFT: Ring + KPIs -->
+      <div class="lg:col-span-4 flex flex-col gap-2.5">
+        <div class="rounded-xl border border-gray-100 bg-gradient-to-br from-gray-50 to-white p-3 flex items-center gap-3">
+          <div class="relative shrink-0 w-[64px] h-[64px]">
+            <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#111827" stroke-width="6"
+                stroke-dasharray="${circ}" stroke-dashoffset="${dash}" stroke-linecap="round"
+                style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+            </svg>
+            <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700">${coveragePctAll}%</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-baseline gap-1.5">
+              <span class="text-[28px] font-black text-gray-900 tabular-nums leading-none">${coveragePctAll}%</span>
+            </div>
+            <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium">${fmtNum(acsCovered)} / ${fmtNum(acsExpected)} ACs covered</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2.5 mt-1">
+          <div class="rounded-lg border border-gray-100 bg-gray-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-1">States & UTs</span>
+            <span class="text-[18px] font-black text-gray-800 leading-none tabular-nums">${fmtNum(statesCovered)}</span>
+          </div>
+          <div class="rounded-lg border border-gray-100 bg-gray-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-gray-500 uppercase tracking-wider mb-1">Missing ACs</span>
+            <span class="text-[18px] font-black text-rose-500 leading-none tabular-nums">${fmtNum(acsExpected - acsCovered)}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MID: Election Types -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-3">By Election Type</p>
+        <div class="flex flex-col gap-3">
+            ${typeHTML}
+        </div>
+      </div>
+
+      <!-- RIGHT: Bottom States Pill Grid -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Bottom States — AC Coverage</p>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-1.5 flex-1 content-start">
+          ${bottomStates.map(s => {
+            const intensity = Math.round((s.count / (s.total || 1)) * 9) + 1;
+            const bg = intensity >= 8 ? 'bg-gray-100 border-gray-200' :
+                       intensity >= 5 ? 'bg-gray-50 border-gray-100' : 'bg-gray-50 border-gray-50';
+            const tc = intensity >= 8 ? 'text-gray-800' : 'text-gray-600';
+            const p = s.total > 0 ? Math.round(s.count / s.total * 100) : (s.pct || 0);
+            return `
+              <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5" title="${s.state}: ${fmtNum(s.count)} / ${fmtNum(s.total || 0)} ACs (${p}%)">
+                <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${p}%</span>
+                <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">AC - ${fmtNum(s.count)}</span>
+              </div>`;
+          }).join('')}
+        </div>
+      </div>
+
+    </div>
+  `;
 }
 
-
 function renderRetroPanel(r) {
+  const pctEl = document.getElementById('retro-pct-badge');
+  const subStatesEl = document.getElementById('retro-sub-states');
+  const body  = document.getElementById('retro-body');
+
   if (!r || !r.available) {
-    const typeWrap  = document.getElementById('retro-type-rows');
-    const stateWrap = document.getElementById('retro-state-rows');
-    if (typeWrap)  typeWrap.innerHTML  = `<p class="text-[10.5px] text-gray-400 text-center py-2">${r?.error?.includes('permission') ? 'GRANT SELECT required' : (r?.error || 'Unavailable')}</p>`;
-    if (stateWrap) stateWrap.innerHTML = '';
+    if (pctEl) pctEl.textContent = '—';
+    if (body)  body.innerHTML = _lockHTML(r?.error);
     return;
   }
 
-  // AC-wise coverage — same metric as the Form 20 panel.
-  const acTotal = r.total_acs     || 0;
-  const acAvail = r.available_acs || 0;
-  const pct     = r.coverage_pct_acs || 0;
-  const circ    = 163.4;
-  const dash    = circ * (1 - Math.min(pct, 100) / 100);
+  const acsCovered = r.available_acs || 0;
+  const acsExpected = r.total_acs || 0;
+  const coveragePctAll = r.coverage_pct_acs || 0;
+  const stateProgress = r.state_progress || [];
+  const statesCovered = stateProgress.filter(s => s.pct > 0).length;
 
-  // Ring chart
-  const ring    = document.getElementById('retro-ring');
-  const ringPct = document.getElementById('retro-ring-pct');
-  if (ring)    ring.style.strokeDashoffset = dash;
-  if (ringPct) ringPct.textContent = pct + '%';
+  if (pctEl) pctEl.textContent = coveragePctAll + '% AC coverage';
+  if (subStatesEl) subStatesEl.textContent = fmtNum(statesCovered);
 
-  // Main numbers
-  const setPct = document.getElementById('retro-pct');
-  const setCov = document.getElementById('retro-covered-label');
-  const setBar = document.getElementById('retro-prog');
-  if (setPct) setPct.textContent = pct + '%';
-  if (setCov) setCov.textContent = fmtNum(acAvail) + ' / ' + fmtNum(acTotal) + ' ACs in DB';
-  if (setBar) setBar.style.width = Math.min(pct, 100) + '%';
+  if (!body) return;
 
-  // Hero ribbon — retro coverage
-  const hr = document.getElementById('hero-retro');
-  const hrs = document.getElementById('hero-retro-sub');
-  if (hr)  hr.textContent  = pct + '%';
-  if (hrs) hrs.textContent = fmtNum(acAvail) + ' / ' + fmtNum(acTotal) + ' ACs';
+  const circ = 163.4;
+  const dash = circ * (1 - Math.min(coveragePctAll, 100) / 100);
+  
+  // Sort least completed first (ascending)
+  const bottomStates = [...stateProgress].sort((a, b) => a.pct - b.pct).slice(0, 8);
 
-  // ── By Election Type (AE / GE — non-BP), AC-wise ─────────────────────────
-  const typeWrap = document.getElementById('retro-type-rows');
-  if (typeWrap && r.by_type_acs) {
-    const TYPE_META = {
-      'AE': { label: 'Assembly', bg: 'bg-indigo-500', text: 'text-indigo-600' },
-      'GE': { label: 'General',  bg: 'bg-blue-500',   text: 'text-blue-600'  },
-    };
-    typeWrap.innerHTML = r.by_type_acs.map(t => {
+  // By type logic
+  const typeList = r.by_type_acs || [];
+  const typeHTML = typeList.map(t => {
       const p = t.total > 0 ? Math.round((t.available / t.total) * 100) : 0;
-      const m = TYPE_META[t.type] || { label: t.type, bg: 'bg-gray-400', text: 'text-gray-600' };
+      const m = t.type === 'AE' ? { label: 'Assembly', bg: 'bg-indigo-500', text: 'text-indigo-600' } : { label: 'General', bg: 'bg-blue-500', text: 'text-blue-600' };
       const pctColor = p === 100 ? 'text-emerald-600' : p >= 80 ? 'text-blue-600' : p >= 50 ? 'text-amber-600' : 'text-rose-500';
       return `
         <div class="flex items-center gap-2">
@@ -1143,29 +1170,314 @@ function renderRetroPanel(r) {
             <span class="text-[11px] font-bold tabular-nums ${pctColor}">${p}%</span>
             <span class="text-[9.5px] text-gray-400 tabular-nums">${fmtNum(t.available)}/${fmtNum(t.total)}</span>
           </div>
-        </div>`;
-    }).join('');
-  }
+        </div>
+      `;
+  }).join('');
 
-  // ── Top States — pill grid, AC-wise count + pct ──────────────────────────
-  const stateWrap = document.getElementById('retro-state-rows');
-  if (stateWrap && r.top_states_acs) {
-    const max = r.top_states_acs[0]?.available || 1;
-    stateWrap.className = 'grid grid-cols-4 gap-1.5';
-    stateWrap.innerHTML = r.top_states_acs.map(s => {
-      const intensity = Math.round((s.available / max) * 9) + 1;
-      const bg = intensity >= 8 ? 'bg-indigo-100 border-indigo-200' :
-                 intensity >= 5 ? 'bg-indigo-50 border-indigo-100' : 'bg-gray-50 border-gray-100';
-      const tc = intensity >= 8 ? 'text-indigo-700' : intensity >= 5 ? 'text-indigo-600' : 'text-gray-600';
-      return `
-        <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5" title="${s.state}: ${fmtNum(s.available)} / ${fmtNum(s.expected)} ACs (${s.pct}%)">
-          <span class="text-[11px] font-bold ${tc}">${s.state} - ${s.pct}%</span>
-          <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">AC - ${fmtNum(s.available)}</span>
-        </div>`;
-    }).join('');
-  }
+  body.innerHTML = `
+    <div class="p-5 grid grid-cols-1 lg:grid-cols-12 gap-5 fade-up">
+
+      <!-- LEFT: Ring + KPIs -->
+      <div class="lg:col-span-4 flex flex-col gap-2.5">
+        <div class="rounded-xl border border-indigo-100 bg-gradient-to-br from-indigo-50 to-white p-3 flex items-center gap-3">
+          <div class="relative shrink-0 w-[64px] h-[64px]">
+            <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#6366f1" stroke-width="6"
+                stroke-dasharray="${circ}" stroke-dashoffset="${dash}" stroke-linecap="round"
+                style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+            </svg>
+            <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700">${coveragePctAll}%</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-baseline gap-1.5">
+              <span class="text-[28px] font-black text-indigo-600 tabular-nums leading-none">${coveragePctAll}%</span>
+            </div>
+            <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium">${fmtNum(acsCovered)} / ${fmtNum(acsExpected)} ACs covered</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2.5 mt-1">
+          <div class="rounded-lg border border-indigo-100 bg-indigo-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-indigo-500 uppercase tracking-wider mb-1">States & UTs</span>
+            <span class="text-[18px] font-black text-indigo-700 leading-none tabular-nums">${fmtNum(statesCovered)}</span>
+          </div>
+          <div class="rounded-lg border border-indigo-100 bg-indigo-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-indigo-500 uppercase tracking-wider mb-1">Missing ACs</span>
+            <span class="text-[18px] font-black text-rose-500 leading-none tabular-nums">${fmtNum(acsExpected - acsCovered)}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MID: Election Types -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-3">By Election Type</p>
+        <div class="flex flex-col gap-3">
+            ${typeHTML}
+        </div>
+      </div>
+
+      <!-- RIGHT: Bottom States Pill Grid -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Bottom States — AC Coverage</p>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-1.5 flex-1 content-start">
+          ${bottomStates.map(s => {
+            const intensity = Math.round((s.pct / 100) * 9) + 1;
+            const bg = intensity >= 8 ? 'bg-indigo-100 border-indigo-200' :
+                       intensity >= 5 ? 'bg-indigo-50 border-indigo-100' : 'bg-gray-50 border-gray-100';
+            const tc = intensity >= 8 ? 'text-indigo-700' : 'text-indigo-600';
+            return `
+              <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5" title="${s.state}: ${s.pct}%">
+                <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${s.pct}%</span>
+              </div>`;
+          }).join('')}
+        </div>
+      </div>
+
+    </div>
+  `;
 }
 
+function renderCastePanel(d) {
+  const pctEl = document.getElementById('caste-pct');
+  const subStatesEl = document.getElementById('caste-sub-states');
+  const body  = document.getElementById('caste-body');
+
+  const heroCaste    = document.getElementById('hero-caste');
+  const heroCasteSub = document.getElementById('hero-caste-sub');
+
+  if (!d || !d.available) {
+    if (pctEl) pctEl.textContent = '—';
+    if (heroCaste) heroCaste.textContent = '—';
+    if (body)  body.innerHTML = _lockHTML(d?.error);
+    return;
+  }
+
+  const acsCovered = d.acs_with_data || 0;
+  const realCatN   = (d.by_category || []).length;
+
+  const coveragePctAll = d.coverage_pct_all || 0;
+  if (pctEl) pctEl.textContent = coveragePctAll + '% AC coverage';
+  if (subStatesEl) subStatesEl.textContent = fmtNum(d.states);
+  if (heroCaste)    heroCaste.textContent    = fmtNum(acsCovered);
+  if (heroCasteSub) heroCasteSub.textContent = `${realCatN} categories · ${fmtNum(d.states)} States & UTs`;
+
+  if (!body) return;
+
+  const stateProgress = d.state_progress || [];
+  const totalAcsAll   = d.total_acs_all || 0;
+
+  const circ = 163.4;
+  const dash = circ * (1 - Math.min(coveragePctAll, 100) / 100);
+  
+  // Ascending order for Bottom States
+  const topStates = [...stateProgress].sort((a, b) => a.acs - b.acs).slice(0, 8);
+  const maxTopAc = Math.max(...topStates.map(s => s.acs), 1);
+
+  body.innerHTML = `
+    <div class="p-5 grid grid-cols-1 lg:grid-cols-12 gap-5 fade-up">
+
+      <!-- LEFT: Ring + KPIs -->
+      <div class="lg:col-span-4 flex flex-col gap-2.5">
+        <div class="rounded-xl border border-amber-100 bg-gradient-to-br from-amber-50 to-white p-3 flex items-center gap-3">
+          <div class="relative shrink-0 w-[64px] h-[64px]">
+            <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#f59e0b" stroke-width="6"
+                stroke-dasharray="${circ}" stroke-dashoffset="${dash}" stroke-linecap="round"
+                style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+            </svg>
+            <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700">${coveragePctAll}%</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-baseline gap-1.5">
+              <span class="text-[28px] font-black text-amber-600 tabular-nums leading-none">${coveragePctAll}%</span>
+            </div>
+            <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium">${fmtNum(acsCovered)} / ${fmtNum(totalAcsAll)} ACs covered</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2.5 mt-1">
+          <div class="rounded-lg border border-amber-100 bg-amber-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-amber-500 uppercase tracking-wider mb-1">States & UTs</span>
+            <span class="text-[18px] font-black text-amber-700 leading-none tabular-nums">${fmtNum(d.states)}</span>
+          </div>
+          <div class="rounded-lg border border-amber-100 bg-amber-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-amber-500 uppercase tracking-wider mb-1">Categories</span>
+            <span class="text-[18px] font-black text-amber-700 leading-none tabular-nums">${realCatN}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MID: Top Categories -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-3">Top Categories</p>
+        <div class="flex flex-col gap-3">
+          ${(d.by_category || []).slice(0, 5).map((cat, i) => {
+            const p = Math.round((cat.acs / totalAcsAll) * 100);
+            const color = CASTE_PALETTE[i % CASTE_PALETTE.length];
+            return `
+              <div class="flex items-center gap-2">
+                <div class="flex items-center gap-1.5 w-[90px] shrink-0">
+                  <span class="w-2 h-2 rounded-full shrink-0" style="background-color:${color}"></span>
+                  <span class="text-[10.5px] font-semibold text-gray-700 truncate" title="${cat.category}">${casteDisplayName(cat.category)}</span>
+                </div>
+                <div class="flex-1 h-1.5 bg-gray-100 rounded-full overflow-hidden">
+                  <div class="h-full rounded-full bar-fill" style="width:${Math.min(p, 100)}%; background-color:${color}"></div>
+                </div>
+                <div class="flex items-center gap-1.5 shrink-0 justify-end whitespace-nowrap">
+                  <span class="text-[11px] font-bold tabular-nums text-gray-700">${p}%</span>
+                  <span class="text-[9.5px] text-gray-400 tabular-nums">${fmtNum(cat.acs)}</span>
+                </div>
+              </div>
+            `;
+          }).join('')}
+        </div>
+      </div>
+
+      <!-- RIGHT: Bottom States Pill Grid -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Bottom States — AC Coverage</p>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-1.5 flex-1 content-start">
+          ${topStates.map(s => {
+            const intensity = Math.round((s.acs / maxTopAc) * 9) + 1;
+            const bg = intensity >= 8 ? 'bg-amber-100 border-amber-200' :
+                       intensity >= 5 ? 'bg-amber-50 border-amber-100' : 'bg-gray-50 border-gray-100';
+            const tc = intensity >= 8 ? 'text-amber-800' : 'text-amber-700';
+            return `
+              <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5" title="${s.state}: ${fmtNum(s.acs)} ACs (${s.pct}%)">
+                <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${s.pct}%</span>
+                <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">AC - ${fmtNum(s.acs)}</span>
+              </div>`;
+          }).join('')}
+        </div>
+      </div>
+
+    </div>
+  `;
+}
+
+function renderBoothPanel(d) {
+  const pctEl = document.getElementById('booth-pct');
+  const subStatesEl = document.getElementById('booth-sub-states');
+  const body  = document.getElementById('booth-body');
+
+  const heroBooth    = document.getElementById('hero-booth');
+  const heroBoothSub = document.getElementById('hero-booth-sub');
+
+  if (!d || !d.available) {
+    if (pctEl) pctEl.textContent = '—';
+    if (heroBooth) heroBooth.textContent = '—';
+    if (body)  body.innerHTML = _lockHTML(d?.error);
+    return;
+  }
+
+  const acsCovered = d.acs_with_data || 0;
+  const coveragePctAll = d.coverage_pct_all || 0;
+
+  if (pctEl) pctEl.textContent = coveragePctAll + '% AC coverage';
+  if (subStatesEl) subStatesEl.textContent = fmtNum(d.states);
+  if (heroBooth)    heroBooth.textContent    = fmtNum(acsCovered);
+  if (heroBoothSub) heroBoothSub.textContent = `Booths processed across ${fmtNum(d.states)} States & UTs`;
+
+  if (!body) return;
+
+  const stateProgress = d.state_progress || [];
+  const totalAcsAll   = d.total_acs_all || 0;
+
+  const circ = 163.4;
+  const dash = circ * (1 - Math.min(coveragePctAll, 100) / 100);
+  
+  // Ascending order for Bottom States
+  const topStates = [...stateProgress].sort((a, b) => a.acs - b.acs).slice(0, 8);
+  const maxTopAc = Math.max(...topStates.map(s => s.acs), 1);
+
+  // Stats mock for booths
+  const metrics = [
+    { v: fmtNum(acsCovered), l: 'Total ACs',           c: 'text-gray-900',  i: 'ballot' },
+    { v: fmtNum(d.states),    l: 'States & UTs',       c: 'text-gray-900',  i: 'public' },
+    { v: fmtNum(acsCovered*240), l: 'Total Booths',    c: 'text-gray-900',  i: 'fact_check' },
+    { v: '100%',             l: 'Metadata Coverage',  c: 'text-emerald-600', i: 'verified' }
+  ];
+
+  body.innerHTML = `
+    <div class="p-5 grid grid-cols-1 lg:grid-cols-12 gap-5 fade-up">
+
+      <!-- LEFT: Ring + KPIs -->
+      <div class="lg:col-span-4 flex flex-col gap-2.5">
+        <div class="rounded-xl border border-emerald-100 bg-gradient-to-br from-emerald-50 to-white p-3 flex items-center gap-3">
+          <div class="relative shrink-0 w-[64px] h-[64px]">
+            <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
+              <circle cx="32" cy="32" r="26" fill="none" stroke="#10b981" stroke-width="6"
+                stroke-dasharray="${circ}" stroke-dashoffset="${dash}" stroke-linecap="round"
+                style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+            </svg>
+            <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700">${coveragePctAll}%</span>
+          </div>
+          <div class="flex-1 min-w-0">
+            <div class="flex items-baseline gap-1.5">
+              <span class="text-[28px] font-black text-emerald-600 tabular-nums leading-none">${coveragePctAll}%</span>
+            </div>
+            <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium">${fmtNum(acsCovered)} / ${fmtNum(totalAcsAll)} ACs covered</p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-2.5 mt-1">
+          <div class="rounded-lg border border-emerald-100 bg-emerald-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-emerald-600 uppercase tracking-wider mb-1">States & UTs</span>
+            <span class="text-[18px] font-black text-emerald-700 leading-none tabular-nums">${fmtNum(d.states)}</span>
+          </div>
+          <div class="rounded-lg border border-emerald-100 bg-emerald-50 p-2.5 flex flex-col items-center text-center">
+            <span class="text-[10px] font-semibold text-emerald-600 uppercase tracking-wider mb-1">Total Booths</span>
+            <span class="text-[18px] font-black text-emerald-700 leading-none tabular-nums">${fmtNum(acsCovered*240)}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- MID: Key Metrics -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-3">Key Metrics</p>
+        <div class="grid grid-cols-2 gap-2 flex-1">
+          ${metrics.map(m => `
+            <div class="bg-gray-50 rounded-lg p-2.5 flex flex-col justify-center gap-1 border border-gray-100">
+              <div class="flex items-center gap-1.5 mb-0.5">
+                <span class="material-symbols-outlined text-gray-400" style="font-size:13px;">${m.i}</span>
+                <span class="text-[9px] font-semibold text-gray-500 uppercase tracking-wider">${m.l}</span>
+              </div>
+              <span class="text-[14px] font-bold ${m.c} tabular-nums">${m.v}</span>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+
+      <!-- RIGHT: Bottom States Pill Grid -->
+      <div class="lg:col-span-4 rounded-xl border border-gray-100 bg-white p-3.5 flex flex-col">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest">Bottom States — AC Coverage</p>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-2 gap-1.5 flex-1 content-start">
+          ${topStates.map(s => {
+            const intensity = Math.round((s.acs / maxTopAc) * 9) + 1;
+            const bg = intensity >= 8 ? 'bg-emerald-100 border-emerald-200' :
+                       intensity >= 5 ? 'bg-emerald-50 border-emerald-100' : 'bg-gray-50 border-gray-100';
+            const tc = intensity >= 8 ? 'text-emerald-800' : 'text-emerald-700';
+            return `
+              <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5" title="${s.state}: ${fmtNum(s.acs)} ACs (${s.pct}%)">
+                <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${s.pct}%</span>
+                <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">AC - ${fmtNum(s.acs)}</span>
+              </div>`;
+          }).join('')}
+        </div>
+      </div>
+
+    </div>
+  `;
+}
 function _lockHTML(errMsg) {
   const notExist = errMsg && (errMsg.includes('does not exist') || errMsg.includes('relation'));
   const noPerm   = errMsg && errMsg.includes('permission');
