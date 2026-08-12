@@ -2423,3 +2423,62 @@ function renderYearComparison(allWeeks) {
 }
 
 // togglePanelWeek removed — accordion replaced with state-grouped grid
+
+// ── Graph Range selector for Weekly Report ────────────────────────────────
+function setGlanceGraphRange(range) {
+  // Update active button style
+  ['4','8','12','all','custom'].forEach(r => {
+    const btn = document.getElementById('grange-' + r);
+    if (btn) btn.classList.toggle('grange-active', r === range);
+  });
+
+  const customInputs = document.getElementById('grange-custom-inputs');
+  const fromEl = document.getElementById('glance-from-week');
+  const toEl   = document.getElementById('glance-to-week');
+
+  if (range === 'custom') {
+    // Show custom date pickers
+    if (customInputs) customInputs.classList.replace('hidden', 'flex');
+    // Don't fetch yet — wait for user to pick dates
+    return;
+  }
+
+  // Hide custom inputs
+  if (customInputs) customInputs.classList.replace('flex', 'hidden');
+
+  const today = new Date();
+  const curMon = new Date(today);
+  curMon.setDate(today.getDate() - today.getDay() + (today.getDay() === 0 ? -6 : 1)); // ISO Monday
+
+  const toDate = fmtDate(curMon);
+
+  if (range === 'all') {
+    // All time: from project start (2026-05-25)
+    fromEl.value = '2026-05-25';
+    toEl.value   = toDate;
+  } else {
+    const weeks = parseInt(range, 10);
+    const fromDate = new Date(curMon);
+    fromDate.setDate(fromDate.getDate() - 7 * (weeks - 1));
+    fromEl.value = fmtDate(fromDate);
+    toEl.value   = toDate;
+  }
+
+  renderGlanceMomentumAndTable();
+}
+
+function applyGlanceCustomRange() {
+  const fromCustom = (document.getElementById('glance-from-custom') || {}).value || '';
+  const toCustom   = (document.getElementById('glance-to-custom')   || {}).value || '';
+  const fromEl = document.getElementById('glance-from-week');
+  const toEl   = document.getElementById('glance-to-week');
+  if (fromEl) fromEl.value = fromCustom;
+  if (toEl)   toEl.value   = toCustom;
+  if (fromCustom && toCustom) renderGlanceMomentumAndTable();
+}
+
+function fmtDate(d) {
+  return d.getFullYear() + '-' +
+    String(d.getMonth() + 1).padStart(2, '0') + '-' +
+    String(d.getDate()).padStart(2, '0');
+}

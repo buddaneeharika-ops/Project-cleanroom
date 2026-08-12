@@ -136,6 +136,18 @@
     #glance-view .card { transition: box-shadow .18s ease, border-color .18s ease; }
     #glance-view .card:hover { box-shadow: 0 1px 3px rgba(16,24,40,.06), 0 1px 2px rgba(16,24,40,.04); }
 
+    /* ── Graph range preset buttons ── */
+    .grange-btn {
+      font-size: 10.5px; font-weight: 600; font-family: 'Inter', sans-serif;
+      padding: 3px 9px; border-radius: 8px; border: none; cursor: pointer;
+      color: #6b7280; background: transparent;
+      transition: background .15s, color .15s;
+      white-space: nowrap;
+    }
+    .grange-btn:hover { background: #e0e7ff; color: #4f46e5; }
+    .grange-btn.grange-active { background: #4f46e5; color: #fff; }
+
+
     /* ── Premium dashboard (hero ribbon + analytical cards) ── */
     .hero-kpi {
       position: relative;
@@ -682,23 +694,36 @@
           <h2 class="text-[13px] font-semibold text-gray-900">Weekly Report</h2>
           <span class="text-[11px] font-semibold bg-indigo-50 text-indigo-600 px-2.5 py-0.5 rounded-full tabular-nums" id="glance-panel-count">— records</span>
         </div>
-        <div class="flex items-center gap-1.5">
+        <div class="flex items-center gap-2">
           <input type="hidden" id="glance-date-filter" value="">
-          <!-- Date range filter for graph -->
-          <div class="flex items-center gap-1 bg-gray-50 rounded-xl px-2 py-1 border border-gray-200">
-            <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-wider shrink-0">Graph:</span>
-            <input type="date" id="glance-from-week"
-              class="text-[11px] text-gray-700 bg-transparent border-0 outline-none cursor-pointer"
-              title="Graph from week"
-              onchange="renderGlanceMomentumAndTable()">
-            <span class="text-[10px] text-gray-400">→</span>
-            <input type="date" id="glance-to-week"
-              class="text-[11px] text-gray-700 bg-transparent border-0 outline-none cursor-pointer"
-              title="Graph to week"
-              onchange="renderGlanceMomentumAndTable()">
-            <button onclick="document.getElementById('glance-from-week').value='';document.getElementById('glance-to-week').value='';renderGlanceMomentumAndTable();"
-              class="text-[10px] text-gray-400 hover:text-indigo-500 ml-0.5 font-medium" title="Reset to last 4 weeks">✕</button>
+          <input type="hidden" id="glance-from-week" value="">
+          <input type="hidden" id="glance-to-week"   value="">
+
+          <!-- Graph range preset selector -->
+          <div class="flex items-center gap-1 bg-gray-50 border border-gray-200 rounded-xl px-1 py-0.5">
+            <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-wider px-1.5 shrink-0">Graph Range</span>
+            <div class="flex gap-0.5">
+              <button onclick="setGlanceGraphRange('4')"  id="grange-4"  class="grange-btn grange-active">Last 4 wks</button>
+              <button onclick="setGlanceGraphRange('8')"  id="grange-8"  class="grange-btn">8 wks</button>
+              <button onclick="setGlanceGraphRange('12')" id="grange-12" class="grange-btn">12 wks</button>
+              <button onclick="setGlanceGraphRange('all')" id="grange-all" class="grange-btn">All Time</button>
+              <button onclick="setGlanceGraphRange('custom')" id="grange-custom" class="grange-btn">Custom</button>
+            </div>
           </div>
+
+          <!-- Custom date inputs (shown only when Custom selected) -->
+          <div id="grange-custom-inputs" class="hidden items-center gap-1 bg-white border border-indigo-200 rounded-xl px-2 py-1">
+            <span class="text-[10px] text-gray-400 shrink-0">From</span>
+            <input type="date" id="glance-from-custom"
+              class="text-[11px] text-gray-700 bg-transparent border-0 outline-none cursor-pointer w-[115px]"
+              onchange="applyGlanceCustomRange()">
+            <span class="text-[10px] text-gray-400">to</span>
+            <input type="date" id="glance-to-custom"
+              class="text-[11px] text-gray-700 bg-transparent border-0 outline-none cursor-pointer w-[115px]"
+              onchange="applyGlanceCustomRange()">
+          </div>
+
+          <!-- Existing weekly table calendar button -->
           <div class="relative">
             <button id="glance-cal-btn" class="h-8 pl-2.5 pr-3 rounded-xl text-[12px] font-semibold text-white flex items-center gap-2 select-none shadow-sm hover:shadow-md transition-all duration-200"
               style="background:linear-gradient(135deg,#6366f1 0%,#8b5cf6 50%,#d946ef 100%);">
@@ -711,11 +736,8 @@
         </div>
       </div>
 
-      <!-- Week picker strip -->
-      <div class="bg-white border-b border-gray-200 px-5 py-2.5 flex items-center gap-2 sticky top-[50px] z-10 shrink-0">
-        <span class="text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider shrink-0">Week</span>
-        <div id="glance-week-picker" class="flex items-center gap-1.5 overflow-x-auto custom-scrollbar flex-1 py-0.5"></div>
-      </div>
+      <!-- Week picker strip removed; range controlled by Graph Range selector above -->
+      <div id="glance-week-picker" class="hidden"></div>
 
       <!-- ══ Top stat strip — aggregate (all 4) + per-dataset working cards ══ -->
       <div class="px-5 pt-5 shrink-0 flex flex-col gap-3">
