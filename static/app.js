@@ -949,10 +949,18 @@ function bindEvents() {
   // and never re-opened on reload.
   const PERSIST_TABS = new Set(navTabs.map(t => t.id));
   let startTab = 'nav-dashboard';
-  try {
-    const saved = localStorage.getItem('activeTab');
-    if (saved && PERSIST_TABS.has(saved)) startTab = saved;
-  } catch (e) {}
+  const hash = window.location.hash;
+  
+  if (hash === '#glance') {
+    startTab = 'nav-glance';
+  } else if (hash === '#listing' || hash.startsWith('#state-')) {
+    startTab = 'nav-listing';
+  } else {
+    try {
+      const saved = localStorage.getItem('activeTab');
+      if (saved && PERSIST_TABS.has(saved)) startTab = saved;
+    } catch (e) {}
+  }
   switchTab(startTab);
 }
 
