@@ -137,7 +137,7 @@
     },
     {
       "state_abb": "DN",
-      "state_name": "Dadra & Nagar Haveli",
+      "state_name": "Dadra & Nagar Haveli and Daman & Diu",
       "retro": 100.0,
       "form20": 0.0,
       "caste": 0.0,
@@ -149,23 +149,6 @@
       "ejal": 0.0,
       "secc": 0.0,
       "nrega": 100.0,
-      "indiastat": 0.0,
-      "lens": 0.0
-    },
-    {
-      "state_abb": "DD",
-      "state_name": "Daman & Diu",
-      "retro": 100.0,
-      "form20": 0.0,
-      "caste": 0.0,
-      "booth": 0.0,
-      "muslim": 0.0,
-      "joshua": 0.0,
-      "kys": 0.0,
-      "lgd": 0.0,
-      "ejal": 0.0,
-      "secc": 0.0,
-      "nrega": 0.0,
       "indiastat": 0.0,
       "lens": 0.0
     },

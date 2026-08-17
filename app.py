@@ -357,7 +357,7 @@ def canonical_state_name(code):
 
 # Canonical Assembly Constituency (AC) counts per state/UT — mirrors STATE_AC_COUNTS in static/app.js
 STATE_AC_COUNTS = {
-    'AP': 175, 'AR': 60,  'AS': 126, 'BR': 243, 'CG': 90,  'CT': 90,  'GA': 40,
+    'AP': 175, 'AR': 60,  'AS': 126, 'BR': 243, 'CT': 90,  'GA': 40,
     'GJ': 182, 'HR': 90,  'HP': 68,  'JH': 81,  'KA': 224, 'KL': 140, 'MP': 230,
     'MH': 288, 'MN': 60,  'ML': 60,  'MZ': 40,  'NL': 60,  'OR': 147, 'PB': 117,
     'RJ': 200, 'SK': 32,  'TN': 234, 'TS': 119, 'TR': 60,  'UP': 403, 'UK': 70,
@@ -1584,7 +1584,7 @@ def dashboard_analytics():
             'total_acs': 2100,
             'available_acs': 2063,
             'coverage_pct_acs': retro_pct,
-            'by_type_acs': [{'type': 'AE', 'total': 113, 'available': 113}, {'type': 'GE', 'total': 148, 'available': 148}],
+            'by_type_acs': [{'type': 'AE', 'total': 113, 'available': int(113 * (retro_pct / 100.0))}, {'type': 'GE', 'total': 148, 'available': int(148 * (retro_pct / 100.0))}],
             'top_states_acs': [{'state': r['state'], 'expected': 100, 'available': int(r['pct']), 'pct': r['pct']} for r in retro_progress[:10]],
             'state_progress': retro_progress
         },
@@ -2390,6 +2390,7 @@ def get_other_sources_data(force_refresh=False):
             
     return results
 
+
 @app.route('/api/country_glance_report/data')
 @app.route('/api/country_glance_test/data', endpoint='api_country_glance_test_data')
 def api_country_glance_test():
@@ -2448,6 +2449,7 @@ def api_country_glance():
             },
             "matrix": []
         })
+
 
 @app.route('/api/map/district_data', endpoint='api_map_district_data')
 def api_map_district_data():
@@ -2547,7 +2549,7 @@ def _build_pc_ac_caches(force_refresh=False):
 
     # 2️⃣ Fallback: load from local JSON and push into Redis
     cache_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'pc_ac_cache.json')
-    if os.path.exists(cache_file):
+    if not force_refresh and os.path.exists(cache_file):
         try:
             with open(cache_file, 'r') as f:
                 data = json.load(f)
@@ -2576,9 +2578,24 @@ def _build_pc_ac_caches(force_refresh=False):
             tot_query = ""
             
             if metric == 'retro':
+                retro_meta = cache_get('retro') or {}
+                avail_tuples = []
+                for st, types in retro_meta.items():
+                    for ty, years in (types or {}).items():
+                        if '-BP' in str(ty): continue
+                        for yr in (years or {}):
+                            avail_tuples.append(f"('{str(st).strip()}', '{str(ty).strip()}', {str(yr).strip()})")
+                avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
                 cov_query = f"SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE (state_abb, el_type, el_year) IN ({avail_in}) GROUP BY state_abb, ac_no"
                 tot_query = "SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE el_type NOT LIKE '%-BP%' GROUP BY state_abb, ac_no"
             elif metric == 'form20':
+                live_meta = cache_get('live') or []
+                avail_tuples = []
+                for item in live_meta:
+                    st, ty, yr = item.get('state'), item.get('el_type'), item.get('el_year')
+                    if st and ty and yr and '-BP' not in str(ty):
+                        avail_tuples.append(f"('{str(st).strip()}', '{str(ty).strip()}', {str(yr).strip()})")
+                avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
                 cov_query = f"SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE (state_abb, el_type, el_year) IN ({avail_in}) GROUP BY state_abb, ac_no"
                 tot_query = "SELECT state_abb, ac_no, COUNT(*) as cnt FROM ac_election_mapping WHERE el_type NOT LIKE '%-BP%' GROUP BY state_abb, ac_no"
             elif metric == 'caste':
@@ -2677,6 +2694,9 @@ def _build_pc_ac_caches(force_refresh=False):
                     ORDER BY state_abb, district_name
                 """)
                 rows = cur.fetchall()
+                if not rows:
+                    cur.execute("SELECT state_abb, district_name, 0 AS cnt FROM lgd_directory WHERE district_name IS NOT NULL GROUP BY state_abb, district_name")
+                    rows = cur.fetchall()
                 max_val = max((r[2] for r in rows), default=0)
                 for r in rows:
                     state_abb, dist_name, cnt = r
@@ -2697,6 +2717,9 @@ def _build_pc_ac_caches(force_refresh=False):
                     ORDER BY state_abb, district_name
                 """)
                 rows = cur.fetchall()
+                if not rows:
+                    cur.execute("SELECT state_abb, district_name, 0 AS cnt FROM lgd_directory WHERE district_name IS NOT NULL GROUP BY state_abb, district_name")
+                    rows = cur.fetchall()
                 max_val = max((r[2] for r in rows), default=0)
                 for r in rows:
                     state_abb, dist_name, cnt = r
@@ -2743,6 +2766,9 @@ def _build_pc_ac_caches(force_refresh=False):
                     ORDER BY state_abb, district_name
                 """)
                 rows = cur.fetchall()
+                if not rows:
+                    cur.execute("SELECT state_abb, district_name, 0 AS cnt FROM lgd_directory WHERE district_name IS NOT NULL GROUP BY state_abb, district_name")
+                    rows = cur.fetchall()
                 max_val = max((r[2] for r in rows), default=0)
                 for r in rows:
                     state_abb, dist_name, cnt = r

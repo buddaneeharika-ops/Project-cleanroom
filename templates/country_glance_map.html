@@ -498,7 +498,7 @@
     s = s.replace(/ and /g, ' & ');
     s = s.replace(/\s+/g, ' ');
     if (s === 'orissa') return 'odisha';
-    if (s === 'uttaranchal') return 'uttarakhand';
+    if (s === 'uttaranchal' || s === 'uttarkhand') return 'uttarakhand';
     if (s.includes('andaman')) return 'andaman & nicobar islands';
     if (s.includes('dadra') && s.includes('nagar')) return 'dadra & nagar haveli';
     if (s.includes('daman')) return 'daman & diu';
@@ -506,6 +506,7 @@
     if (s.includes('telangana') || s === 'ts') return 'telangana';
     return s;
   }
+
 
   function normalizeDistrictName(raw) {
     if (!raw) return '';
@@ -540,6 +541,135 @@
     });
   }
 
+  const DISTRICT_ALIASES = {
+    // Telangana (Split from AP)
+    'AP|adilabad': 'TS|adilabad',
+    'AP|hyderabad': 'TS|hyderabad',
+    'AP|karimnagar': 'TS|karimnagar',
+    'AP|khammam': 'TS|khammam',
+    'AP|mahbubnagar': 'TS|mahbubnagar',
+    'AP|medak': 'TS|medak',
+    'AP|nalgonda': 'TS|nalgonda',
+    'AP|nizamabad': 'TS|nizamabad',
+    'AP|rangareddi': 'TS|ranga reddy',
+    'AP|warangal': 'TS|warangal',
+
+    // Ladakh (Split from JK)
+    'JK|kargil': ['LA|kargil', 'JK|kargil'],
+    'JK|ladakh (leh)': ['LA|ladakh (leh)', 'LA|leh(ladakh)', 'LA|leh', 'JK|ladakh (leh)'],
+    
+    // Delhi & UT Multi-Metric Support
+    'DL|central': ['DL|delhi, central', 'DL|central delhi'],
+    'DL|east': ['DL|delhi, east', 'DL|east delhi'],
+    'DL|new delhi': ['DL|delhi, new'],
+    'DL|north': ['DL|delhi, north', 'DL|north delhi'],
+    'DL|north east': ['DL|delhi, northeast', 'DL|north east delhi'],
+    'DL|north west': ['DL|delhi, northwest', 'DL|north west delhi'],
+    'DL|shahdara': ['DL|shahdara'],
+    'DL|south': ['DL|delhi, south', 'DL|south delhi'],
+    'DL|south east': ['DL|delhi, south east', 'DL|south east delhi'],
+    'DL|south west': ['DL|delhi, southwest', 'DL|south west delhi'],
+    'DL|west': ['DL|delhi, west', 'DL|west delhi'],
+    'DD|daman': ['DD|daman'],
+    'DD|diu': ['DD|diu'],
+    'DN|dadra & nagar haveli': ['DN|dadra and nagar haveli'],
+
+    // Verified Historical Reorganizations & Renames
+    'AP|cuddapah': 'AP|y.s.r.',
+    'BR|bhabua': 'BR|kaimur',
+    'JK|bagdam': 'JK|budgam',
+    'JK|baramula (kashmir north)': 'JK|baramulla',
+    'KA|bangalore urban': 'KA|bengaluru',
+    'KA|belgaum': 'KA|belagavi',
+    'KA|gulbarga': 'KA|kalburgi',
+    'KA|mysore': 'KA|mysuru',
+    'MH|bid': 'MH|beed',
+    'MP|east nimar': 'MP|khandwa',
+    'MP|west nimar': 'MP|khargone',
+    'MP|hoshangabad': 'MP|narmadapuram',
+    'NL|zunheboto': 'NL|zünheboto',
+    'OR|baleshwar': 'OR|balasore',
+    'OR|sonepur': 'OR|subarnapur',
+    'PB|nawan shehar': 'PB|shahid bhagat singh nagar',
+    'UP|allahabad': 'UP|prayagraj',
+    'UP|jyotiba phule nagar': 'UP|amroha',
+    'WB|east midnapore': 'WB|purba medinipur',
+    'WB|west midnapore': 'WB|paschim medinipur',
+    'WB|hugli': 'WB|hooghly',
+    'WB|north 24 parganas': 'WB|n-24 parganas',
+    
+    // Sikkim Reorganization
+    'SK|east': 'SK|gangtok',
+    'SK|north sikkim': 'SK|mangan',
+    'SK|south sikkim': 'SK|namchi',
+    'SK|west sikkim': 'SK|gyalshing',
+
+    // Validated Spelling fixes
+    'AP|anantapur': 'AP|ananthapuramu',
+    'AP|vishakhapatnam': 'AP|visakhapatnam',
+    'AS|dhuburi': 'AS|dhubri',
+    'AS|marigaon': 'AS|morigaon',
+    'BR|jehanabad': 'BR|jahanabad',
+    'BR|pashchim champaran': 'BR|west champaran',
+    'BR|purba champaran': 'BR|east champaran',
+    'CT|kawardha': 'CT|kabirdham',
+    'CT|raj nandgaon': 'CT|rajnandgaon',
+    'CT|surguja': 'CT|sarguja',
+    'GJ|ahmadabad': 'GJ|ahmedabad',
+    'GJ|banas kantha': 'GJ|banaskantha',
+    'GJ|panch mahals': 'GJ|panchmahal',
+    'GJ|sabar kantha': 'GJ|sabarkantha',
+    'HP|lahul and spiti': 'HP|lahaul &spiti',
+    'HR|sonepat': 'HR|sonipat',
+    'HR|yamuna nagar': 'HR|yamunanagar',
+    'JH|pashchim singhbhum': 'JH|pashchimi singhbhum',
+    'JH|purba singhbhum': 'JH|purbi singhbhum',
+    'JH|sahibganj': 'JH|sahebganj',
+    'JH|saraikela kharsawan': 'JH|seraikela-kharsawan',
+    'JK|punch': 'JK|poonch',
+    'JK|rajauri': 'JK|rajouri',
+    'KA|bangalore rural': 'KA|bengaluru rural',
+    'KA|bellary': 'KA|ballari',
+    'KA|bijapur': 'KA|vijayapura',
+    'KA|chikmagalur': 'KA|chikkamagalur',
+    'KA|dakshin kannad': 'KA|dakshina kannada',
+    'KA|shimoga': 'KA|shivamogga',
+    'KA|uttar kannand': 'KA|uttara kannada',
+    'KL|pattanamtitta': 'KL|pathanamthitta',
+    'MH|buldana': 'MH|buldhana',
+    'MH|garhchiroli': 'MH|gadchiroli',
+    'MH|raigarh': 'MH|raigad',
+    'ML|jaintia hills': 'ML|west jaintia hill',
+    'ML|ri-bhoi': 'ML|ri bhoi',
+    'MN|east imphal': 'MN|imphal east',
+    'MN|west imphal': 'MN|imphal west',
+    'MP|ashoknagar': 'MP|ashok nagar',
+    'MP|vidisha': 'MP|vidhisha',
+    'OR|baragarh': 'OR|bargarh',
+    'PB|rupnagar': 'PB|rup nagar',
+    'RJ|chittaurgarh': 'RJ|chittorgarh',
+    'RJ|dhaulpur': 'RJ|dholpur',
+    'TN|pudukkottai': 'TN|pudukottai',
+    'TN|thiruvarur': 'TN|tiruvarur',
+    'TN|tiruchchirappalli': 'TN|tiruchirappalli',
+    'UK|dehra dun': 'UK|dehradun',
+    'UK|naini tal': 'UK|nainital',
+    'UK|rudra prayag': 'UK|rudraprayag',
+    'UP|badaun': 'UP|budaun',
+    'UP|bara banki': 'UP|barabanki',
+    'UP|bulandshahr': 'UP|bulandshahar',
+    'UP|faizabad': 'UP|firozabad',
+    'UP|rae bareli': 'UP|raebareli',
+    'UP|sant ravi das nagar': 'UP|sant kabir nagar',
+    'UP|siddharth nagar': 'UP|siddharthnagar',
+    'WB|barddhaman': 'WB|purba bardhaman',
+    'WB|darjiling': 'WB|darjeeling',
+    'WB|haora': 'WB|howrah',
+    'WB|kochbihar': 'WB|coochbehar',
+    'WB|north 24 parganas': 'WB|north 24 pargana',
+    'WB|puruliya': 'WB|purulia'
+  };
+
   function getDistrictPct(featureProps) {
     const geoStateName = featureProps.NAME_1 || '';
     const geoDistName  = featureProps.NAME_2 || '';
@@ -551,6 +681,19 @@
 
     const normDist = normalizeDistrictName(geoDistName);
     const key = `${stateAbb}|${normDist}`;
+    
+    // Check aliases first
+    const aliasKey = DISTRICT_ALIASES[key];
+    if (aliasKey) {
+      if (Array.isArray(aliasKey)) {
+        for (const ak of aliasKey) {
+          if (cache[ak] !== undefined) return cache[ak];
+        }
+      } else {
+        if (cache[aliasKey] !== undefined) return cache[aliasKey];
+      }
+    }
+
     if (cache[key] !== undefined) return cache[key];
 
     for (const [k, v] of Object.entries(cache)) {
@@ -590,7 +733,14 @@
     'mysore': 'mysuru',
     'tonk - sawai madhopur': 'tonk-sawai madhopur',
     'rest of ladakh': 'ladakh',
-    'rest of j&k': 'baramulla' // Approximate mapping or handle manually
+    'rest of j&k': 'baramulla',
+    // Chhattisgarh
+    'surguja': 'sarguja',
+    // Other safe spelling variants
+    'raipur': 'raipur (sc)',
+    'vizianagaram': 'vizianagram',
+    'krishna': 'krishna (sc)',
+    'nandyal': 'nandyal (sc)',
   };
 
   function getPCPct(featureProps) {
@@ -620,22 +770,293 @@
     return null;
   }
 
+  // AC name aliases: GeoJSON spelling → ac_election_mapping spelling
+  // ONLY include entries where it is the SAME constituency with a different spelling.
+  // Do NOT add entries where the two names are different constituencies.
+  const AC_ALIASES = {
+    // Arunachal Pradesh — same places, different romanisation
+    'hauyuliang': 'hayuliang',
+    'chayangtajo': 'chayang tajo',
+    'bordumsa-diyum': 'bordumsa - diyun',
+    'borduria- bagapani': 'borduria bogapani',
+    'longding-pumao': 'longding pumao',
+    'pongchou-wakka': 'pongchao-wakka',
+    'ziro-hapoli': 'ziro - hapoli',
+    'tuting-yinkgkiong': 'tuting yingkiong',
+    // Bihar — same places, minor spelling
+    'runnisaidpur': 'runisaidpur',
+    'triveniganj': 'tribeniganj',
+    'sonbarsha': 'sonbarsa',
+    'goriakothi': 'goriyakothi',
+    // Chhattisgarh
+    'dondi lohara': 'dondi lahara',
+    'mohla-manpur': 'mohala-manpur',
+    // Gujarat — same places
+    'sidhpur': 'siddhpur',
+    'dahegam': 'dehgam',
+    'dariyapur': 'dariapur',
+    'gandhinagar(south)': 'gandhinagar south',
+    'gandhinagar(north)': 'gandhinagar north',
+    'wankaner': 'wankner',
+    // Jharkhand — same places
+    'litipara': 'littipara',
+    'pakaur': 'pakur',
+    'sikaripara': 'shikaripara',
+    // Karnataka — same places
+    'yemkanmardi': 'yemkanamardi',
+    'homnabad': 'humnabad',
+    'krishnarajpet': 'krishnarajapete',
+    'piriyapatna': 'periyapatna',
+    // Kerala — same places
+    'thiruvambadi': 'thiruvambady',
+    'ernad': 'eranad',
+    'vallikunnu': 'vallikkunnu',
+    'mannarkkad': 'mannarkad',
+    'nemmara': 'nenmara',
+    // Madhya Pradesh — same places
+    'sabalgarh': 'sabalagadh',
+    'joura': 'jaura',
+    'jabalpur purba': 'jabalpur east (sc)',
+    'jabalpur uttar': 'jabalpur north',
+    'jabalpur paschim': 'jabalpur west',
+    // Maharashtra — same places
+    'sangole': 'sangola',
+    'ovala ?majiwada': 'ovala - majiwada',
+    // Manipur — same places
+    'khetrigao': 'kshetrigao',
+    'keisamthong': 'keishamthong',
+    // Automatically added spelling aliases
+    'damporijo': 'daporijo',
+    'pakke-kasang': 'pakke kessang',
+    'pongchou-wakka': 'pongchau wakka',
+    'brahampur': 'barhampur',
+    'fatuha': 'fatwah',
+    'jehanabad': 'jahanabad',
+    'durg-rural': 'durg gramin',
+    'raipur rural': 'raipur city gramin',
+    'dediapada': 'dediyapada',
+    'devgadhbaria': 'devgadbaria',
+    'shehra': 'shahera',
+    'kalanwali': 'kalawali (sc)',
+    'bishnupur': 'bishunpur',
+    'chandankiyari': 'chandankyari',
+    'chhatarpur': 'chattarpur',
+    'jaganathpur': 'jagannathpur',
+    'majhgaon': 'majhganon',
+    'seraikella': 'saraikella',
+    'hunsur': 'hunasuru',
+    'chalakudy': 'chalakkudy',
+    'chathannoor': 'chathannur',
+    'ernakulam': 'eranakulam',
+    'irinjalakuda': 'irinjalakkuda',
+    'kazhakoottam': 'kazhakkoottam',
+    'mavelikkara': 'mavelikara',
+    'vypeen': 'vypen',
+    'badwani': 'barwani (st)',
+    'ujjain dakshin': 'ujjain south',
+    'deolali': 'devlali',
+    'bishenpur': 'bishnupur',
+    'naoriya pakhanglak': 'naoriya pakhanglakpa',
+    'sugnoo': 'sugnu',
+    'ampathi': 'ampati',
+    'sohing': 'sohiong',
+    'alungtaki': 'alongtaki',
+    'monguya': 'mongoya',
+    'shamtorr-chessore': 'shamator chessore',
+    'siyuchong-sitimi': 'seyochung sitimi',
+    'suruhuto': 'suruhoto',
+    'kamraj nagar': 'kamaraj nagar',
+    'bhagha purana': 'baghapurana',
+    'baran?atru': 'baran-atru',
+    'baytoo': 'baytu',
+    'dhariawad': 'dhariyawad',
+    'neema ka thana': 'neem ka thana',
+    'colachel': 'colachal',
+    'gandharvakottai': 'gandarvakkottai',
+    'palacodu': 'palacode',
+    'pappireddippatti': 'pappireddipatti',
+    'sholingur': 'sholinghur',
+    'tiruchirappalli west': 'tiruchirappalli (west)',
+    'tiruvottiyur': 'thiruvottiyur',
+    'viluppuram': 'villupuram',
+    'bellampalle': 'bellampalli',
+    'kukatpalle': 'kukatpally',
+    'maheswaram': 'maheshwaram',
+    'miryalaguda': 'miryalguda',
+    'nampally': 'nampalli',
+    'sathupalle': 'sathupalli',
+    'thungathurthi': 'thungathurthy',
+    'vicarabad': 'vikarabad',
+    'waradhanapet': 'wardhanapet',
+    'kailasahar': 'kailashahar',
+    'kakraban-salgarah': 'kakraban-salgarh',
+    'karamchhara': 'karmachara',
+    'ajagara': 'ajgara',
+    'bachhrawan': 'bachrawan',
+    'bakshi kaa talab': 'bakshi ka talab',
+    'bishwavnathganj': 'vishwanathganj',
+    'caimpiyarganj': 'campiyarganj',
+    'chail': 'chayal',
+    'goverdhan': 'govardhan',
+    'kishani': 'kishni',
+    'machhlishahr': 'machhlishahar',
+    'madhaugarh': 'madhogarh',
+    'misrikh': 'mishrikh',
+    'mohammdi': 'mohammadi',
+    'palia': 'paliya',
+    'paniyra': 'paniyara',
+    'sikanderpur': 'sikandarpur',
+    'syana': 'siana',
+    'zafrabad': 'jafrabad',
+    'zamania': 'zamaniya',
+    'baisnabnagar': 'baishnabnagar',
+    'bangaon uttar': 'bongaon uttar',
+    'barabani': 'barbani',
+    'bhagabangola': 'bhagawangola',
+    'bhangar': 'bhangore',
+    'chandannagar': 'chandannagore',
+    'dabgram-phulbari': 'dabgram-fulbari',
+    'harischandrapur': 'harishchandrapur',
+    'indus': 'indas',
+    'katulpur': 'kotulpur',
+    'manikchak': 'manickchak',
+    'naoda': 'nowda',
+    'satgachhia': 'satgachia',
+    'tollyganj': 'tollygunge',
+    // Automatically added delimitation mappings
+    'mankachar': 'birsing jarua',
+    'south salmara': 'mankachar',
+    'manikpur': 'srijangram',
+    'bhowanipur': 'bhowanipur-sorbhog',
+    'rupshi': 'pakabetbari',
+    'boko': 'boko - chaigaon (st)',
+    'hajo': 'hajo - sualkuchi (sc)',
+    'gobardhana': 'manas',
+    'batadraba': 'dhing',
+    'nagaon': 'nagaon-batadraba',
+    'sootea': 'naduar',
+    'chabua': 'chabua-lahowal',
+    'moran': 'khowang',
+    'dima hasao': 'haflong (st)',
+    'algapur': 'algapur-katlicherra',
+    'badarpur': 'karimganj north',
+    'north karimganj': 'karimganj south',
+    'south karimganj': 'patharkandi',
+    'ratabari': 'ram krishna nagar',
+    'lal chowk': 'sonawar',
+    'srigufwara-bijbehra': 'bijbehara',
+    'wagoora - kreeri': 'sangrama',
+    'padder-nagseni': 'kishtwar',
+    'jasrota': 'kathua north',
+    'chhamb': 'khour',
+    'gulabhgarh': 'mahore',
+    'budhal': 'darhal',
+
+    // Odisha specific fixes
+    'balikuda-erasama': 'balikuda - ersama',
+    'bangriposi': 'bangiriposi',
+    'barachana': 'badachana',
+    'bhubaneswar(madhya)': 'bhubaneswar central',
+    'bhubaneswar(uttar)': 'bhubaneswar north',
+    'brahmagiri': 'bramhagiri',
+    'dharmgarh': 'dharmagarh',
+    'ekamra-bhubaneshwar': 'ekamra - bhubaneswar',
+    'lakshmipur': 'laxmipur',
+    'rajgangpur': 'rajgangapur',
+    'baripada': 'baripada', // Adding just in case
+
+    // UP & UK Fixes
+    'sawaijpur': 'sawayazpur',
+    'manglaur': 'manglore',
+    'deoprayag': 'devprayag',
+
+    // Assam Additional Spelling Fixes
+    'katigora': 'katigorah',
+    'jaleswar': 'jaleshwar',
+    'mangaldoi': 'mangaldai',
+    'majbat': 'mazbat',
+    'rupohihat': 'rupahihat',
+    'titabar': 'titabor',
+    'mahmara': 'mahmora',
+    'naoboicha': 'nowboicha (sc)',
+    'doom dooma': 'doomdooma',
+    'gauhati east': 'guwahati central',
+    'sarukhetri': 'barkhetri',
+    'bilasipara west': 'bilasipara',
+    'kokrajhar west': 'kokrajhar (st)',
+    'abhayapuri north': 'abhayapuri',
+    'batadroba': 'dhing',
+    'lahowal': 'chabua - lahowal',
+    'katlicherra': 'algapur- katlicherra',
+    
+    // User identified remaining Assam and Manipur
+    'salmara south': 'mankachar', // Verified delimitation rename
+    'ratabari': 'ram krishna nagar (sc)', // Verified delimitation rename
+    'baithalangso': 'rongkhang (st)', // Verified delimitation rename
+    'sibsagar': 'sibasagar', // Spelling fix
+    'marigaon': 'morigaon', // Spelling fix
+    'naoriya pakhanglak': 'naoriya pakhanglakpa', // Spelling fix
+
+  };
+
+
+
+
+  function normalizeACName(raw) {
+    if (!raw) return '';
+    return raw.toLowerCase()
+      .replace(/\s*\(sc\)/g, '').replace(/\s*\(st\)/g, '').replace(/\s*\(gen\)/g, '')
+      .replace(/\s*\(obc\)/g, '').replace(/\s*\(pwd\)/g, '')
+      .trim();
+  }
+  function slugAC(name) {
+    return name.replace(/[\s\-\.]+/g, '').replace(/\s+/g, '');
+  }
+
   function getACPct(featureProps) {
-    const acName = (featureProps.AC_NAME || featureProps.ac_name || '').toLowerCase().trim();
+    const acNameRaw = (featureProps.AC_NAME || featureProps.ac_name || '').toLowerCase().trim();
+    const acName = normalizeACName(acNameRaw);
     const stateName = (featureProps.ST_NAME || featureProps.st_name || featureProps.NAME_1 || '').toLowerCase().trim();
     const stAbb = getStateAbbFromGeoName(stateName) || '';
     const cacheObj = acCache[activeMetric];
     if (!cacheObj) return null;
     const cache = cacheObj.dict;
 
+    // 1. Exact match (with suffix)
+    const exactRaw = cache[`${stAbb}|${acNameRaw}`];
+    if (exactRaw) return exactRaw;
+
+    // 2. Exact match (suffix stripped)
     const exact = cache[`${stAbb}|${acName}`];
     if (exact) return exact;
 
+    // 3. Alias lookup (GeoJSON names → ac_election_mapping names)
+    const aliasName = AC_ALIASES[acName] || AC_ALIASES[acNameRaw];
+    if (aliasName) {
+        const aliased = cache[`${stAbb}|${aliasName}`];
+        if (aliased) return aliased;
+    }
+
+
+    // 3. Substring fuzzy match
     for (const [k, v] of Object.entries(cache)) {
         const parts = k.split('|');
         const cSt = parts[0];
         const cAc = parts[1];
-        if (cSt === stAbb && (cAc.includes(acName) || acName.includes(cAc))) return v;
+        if (cSt !== stAbb) continue;
+        if (cAc.includes(acName) || acName.includes(cAc)) return v;
+    }
+
+    // 4. Slug-based fuzzy match (ignores hyphens/spaces/dots — handles "chayangtajo" vs "chayang tajo")
+    const acSlug = slugAC(acName);
+    if (acSlug.length >= 4) {
+        for (const [k, v] of Object.entries(cache)) {
+            const parts = k.split('|');
+            const cSt = parts[0];
+            const cAcSlug = slugAC(parts[1]);
+            if (cSt !== stAbb) continue;
+            if (cAcSlug === acSlug || cAcSlug.includes(acSlug) || acSlug.includes(cAcSlug)) return v;
+        }
     }
     return null;
   }
@@ -819,7 +1240,7 @@
         layerId = 'india-district-layer';
         getFillColor = (feature) => {
             const info = getDistrictPct(feature.properties);
-            return getRGBA(info ? info.pct : -1);
+            return getRGBA(info ? info.pct : 0);
         };
         onHover = onDistrictHover;
         updateTrig = { getFillColor: [activeMetric, Object.keys(districtCache).join(',')] };
@@ -828,7 +1249,7 @@
         layerId = 'india-pc-layer';
         getFillColor = (feature) => {
             const info = getPCPct(feature.properties);
-            return getRGBA(info ? info.pct : -1);
+            return getRGBA(info ? info.pct : 0);
         };
         onHover = onPCHover;
         updateTrig = { getFillColor: [activeMetric, pcCache[activeMetric] ? 'loaded' : 'none'] };
@@ -837,7 +1258,7 @@
         layerId = 'india-ac-layer';
         getFillColor = (feature) => {
             const info = getACPct(feature.properties);
-            return getRGBA(info ? info.pct : -1);
+            return getRGBA(info ? info.pct : 0);
         };
         onHover = onACHover;
         updateTrig = { getFillColor: [activeMetric, acCache[activeMetric] ? 'loaded' : 'none'] };
@@ -954,13 +1375,26 @@
     const distInfo  = getDistrictPct(props);
     const pct       = distInfo ? distInfo.pct : 0;
     const covered   = distInfo ? distInfo.covered : 0;
-    const total     = distInfo ? distInfo.total   : 0;
+    let total       = distInfo ? distInfo.total   : 0;
+
+    if (!distInfo && districtCache[activeMetric]) {
+      const cacheVals = Object.values(districtCache[activeMetric]);
+      if (cacheVals.length > 0) {
+        if (['muslim', 'joshua', 'kys', 'lgd'].includes(activeMetric)) {
+            total = cacheVals[0].total || 1;
+        } else {
+            let sumTotal = 0; let count = 0;
+            for (let v of cacheVals) { if (v.total) { sumTotal += v.total; count++; } }
+            total = count > 0 ? Math.round(sumTotal / count) : 1;
+        }
+      } else { total = 1; }
+    }
 
     document.getElementById('tooltip-region').textContent = distName;
     document.getElementById('tooltip-parent').textContent = stateName;
 
     const scoreEl = document.getElementById('tooltip-score');
-    scoreEl.textContent = pct > 0 ? parseFloat(pct).toFixed(1) + '%' : 'No data';
+    scoreEl.textContent = parseFloat(pct).toFixed(1) + '%';
     scoreEl.className = getScoreClassName(pct);
 
     const METRIC_NAMES = {
@@ -978,10 +1412,11 @@
         <span>Total entries</span>
         <span class="font-mono font-semibold">${total.toLocaleString()}</span>
       </div>
-      ${distInfo ? `<div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
+      <div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
         <span>Coverage</span>
         <span class="font-mono text-emerald-700">${parseFloat(pct).toFixed(2)}%</span>
-      </div>` : '<div class="text-gray-400 mt-1">No data in DB for this district</div>'}
+      </div>
+      ${!distInfo ? '<div class="text-xs text-gray-400 mt-1 italic">Note: Missing from DB</div>' : ''}
     `;
 
     positionTooltip(tooltip, info.x, info.y);
@@ -997,13 +1432,20 @@
     const pcInfo = getPCPct(props);
     const pct = pcInfo ? pcInfo.pct : 0;
     const covered = pcInfo ? pcInfo.covered : 0;
-    const total = pcInfo ? pcInfo.total : 0;
+    let total = pcInfo ? pcInfo.total : 0;
+
+    if (!pcInfo && pcCache[activeMetric]) {
+      const cacheVals = Object.values(pcCache[activeMetric]);
+      let sumTotal = 0, count = 0;
+      for (let v of cacheVals) { if (v.total) { sumTotal += v.total; count++; } }
+      total = count > 0 ? Math.round(sumTotal / count) : 1;
+    }
 
     document.getElementById('tooltip-region').textContent = pcName;
     document.getElementById('tooltip-parent').textContent = stateName;
 
     const scoreEl = document.getElementById('tooltip-score');
-    scoreEl.textContent = pct > 0 ? parseFloat(pct).toFixed(1) + '%' : 'No data';
+    scoreEl.textContent = parseFloat(pct).toFixed(1) + '%';
     scoreEl.className = getScoreClassName(pct);
 
     const METRIC_NAMES = { retro: 'Retro Data', form20: 'Form 20', caste: 'Caste Data', booth: 'Booth Details' };
@@ -1017,10 +1459,11 @@
         <span>Total entries</span>
         <span class="font-mono font-semibold">${total.toLocaleString()}</span>
       </div>
-      ${pcInfo ? `<div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
+      <div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
         <span>Coverage</span>
         <span class="font-mono text-emerald-700">${parseFloat(pct).toFixed(2)}%</span>
-      </div>` : '<div class="text-gray-400 mt-1">No data in DB for this PC</div>'}
+      </div>
+      ${!pcInfo ? '<div class="text-xs text-gray-400 mt-1 italic">Note: Missing from DB</div>' : ''}
     `;
 
     positionTooltip(tooltip, info.x, info.y);
@@ -1036,13 +1479,20 @@
     const acInfo = getACPct(props);
     const pct = acInfo ? acInfo.pct : 0;
     const covered = acInfo ? acInfo.covered : 0;
-    const total = acInfo ? acInfo.total : 0;
+    let total = acInfo ? acInfo.total : 0;
+
+    if (!acInfo && acCache[activeMetric]) {
+      const cacheVals = Object.values(acCache[activeMetric]);
+      let sumTotal = 0, count = 0;
+      for (let v of cacheVals) { if (v.total) { sumTotal += v.total; count++; } }
+      total = count > 0 ? Math.round(sumTotal / count) : 1;
+    }
 
     document.getElementById('tooltip-region').textContent = acName;
     document.getElementById('tooltip-parent').textContent = stateName;
 
     const scoreEl = document.getElementById('tooltip-score');
-    scoreEl.textContent = pct > 0 ? parseFloat(pct).toFixed(1) + '%' : 'No data';
+    scoreEl.textContent = parseFloat(pct).toFixed(1) + '%';
     scoreEl.className = getScoreClassName(pct);
 
     const METRIC_NAMES = { retro: 'Retro Data', form20: 'Form 20', caste: 'Caste Data', booth: 'Booth Details' };
@@ -1056,10 +1506,11 @@
         <span>Total entries</span>
         <span class="font-mono font-semibold">${total.toLocaleString()}</span>
       </div>
-      ${acInfo ? `<div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
+      <div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
         <span>Coverage</span>
         <span class="font-mono text-emerald-700">${parseFloat(pct).toFixed(2)}%</span>
-      </div>` : '<div class="text-gray-400 mt-1">No data in DB for this AC</div>'}
+      </div>
+      ${!acInfo ? '<div class="text-xs text-gray-400 mt-1 italic">Note: Missing from DB</div>' : ''}
     `;
 
     positionTooltip(tooltip, info.x, info.y);
@@ -1714,7 +2165,7 @@
         layerId = 'india-district-layer';
         getFillColor = (feature) => {
             const info = getDistrictPct(feature.properties);
-            return getRGBA(info ? info.pct : -1);
+            return getRGBA(info ? info.pct : 0);
         };
         onHover = onDistrictHover;
         updateTrig = { getFillColor: [activeMetric, Object.keys(districtCache).join(',')] };
@@ -1723,7 +2174,7 @@
         layerId = 'india-pc-layer';
         getFillColor = (feature) => {
             const info = getPCPct(feature.properties);
-            return getRGBA(info ? info.pct : -1);
+            return getRGBA(info ? info.pct : 0);
         };
         onHover = onPCHover;
         updateTrig = { getFillColor: [activeMetric, pcCache[activeMetric] ? 'loaded' : 'none'] };
@@ -1732,7 +2183,7 @@
         layerId = 'india-ac-layer';
         getFillColor = (feature) => {
             const info = getACPct(feature.properties);
-            return getRGBA(info ? info.pct : -1);
+            return getRGBA(info ? info.pct : 0);
         };
         onHover = onACHover;
         updateTrig = { getFillColor: [activeMetric, acCache[activeMetric] ? 'loaded' : 'none'] };

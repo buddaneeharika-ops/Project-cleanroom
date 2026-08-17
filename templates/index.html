@@ -44,13 +44,15 @@
     .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
 
     /* ── Nav tabs ── */
-    .nav-tab {
+        .nav-tab {
+      color: #64748b !important;
       position: relative;
-      transition: color 0.1s, background 0.1s;
+    }
+    .nav-tab:hover {
+      color: #0f172a !important;
     }
     .nav-tab.active {
-      color: #111827;
-      font-weight: 600;
+      color: #0f172a !important;
     }
     .nav-tab.active::after {
       content: '';
@@ -58,9 +60,9 @@
       bottom: -1px;
       left: 0;
       right: 0;
-      height: 2px;
-      background: #111827;
-      border-radius: 2px 2px 0 0;
+      height: 3px;
+      background: #4f46e5;
+      border-radius: 3px 3px 0 0;
     }
     .nav-tab:not(.active) { color: #6b7280; }
     .nav-tab:not(.active):hover { color: #374151; background: #f9fafb; }
@@ -209,57 +211,69 @@
     .sel:focus { border-color: #9ca3af; }
     .sel:disabled { background: #f9fafb; color: #d1d5db; cursor: not-allowed; }
   </style>
+
+  <script>
+    (function() {
+      var h = window.location.hash;
+      if (h === '#glance') {
+        document.documentElement.classList.add('init-glance');
+      } else if (h === '#listing') {
+        document.documentElement.classList.add('init-listing');
+      }
+    })();
+  </script>
+  <style>
+    html.init-glance #dashboard-view { display: none !important; }
+    html.init-glance #glance-view { display: flex !important; }
+    
+    html.init-listing #dashboard-view { display: none !important; }
+    html.init-listing #listing-view { display: flex !important; }
+  </style>
 </head>
 <body class="antialiased">
 
 <!-- ═══════════════════════════════════
      TOP NAVIGATION  48px
 ═══════════════════════════════════ -->
-<nav class="fixed top-0 left-0 w-full z-50 h-[48px] bg-white border-b border-gray-200 flex items-center justify-between px-5">
-
-  <div class="flex items-center gap-5 h-full">
+<nav class="fixed top-0 left-0 w-full z-50 h-[56px] bg-white/75 backdrop-blur-xl border-b border-gray-200/60 flex items-center justify-between px-6 shadow-[0_2px_8px_-2px_rgba(0,0,0,0.03)] transition-all">
+  <div class="flex items-center gap-6 h-full">
     <!-- Logo -->
-    <div class="flex items-center gap-2 shrink-0">
-      <div class="w-6 h-6 rounded-md bg-gray-900 flex items-center justify-center">
-        <span class="material-symbols-outlined text-white" style="font-size:13px;">ballot</span>
+    <div class="flex items-center gap-2.5 shrink-0">
+      <div class="w-7 h-7 rounded-[8px] bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center shadow-md shadow-indigo-500/20">
+        <span class="material-symbols-outlined text-white" style="font-size:15px;">ballot</span>
       </div>
-      <span class="text-[13px] font-semibold text-gray-900 tracking-tight">Project CleanRoom</span>
+      <span class="text-[14px] font-extrabold text-gray-900 tracking-tight">Project CleanRoom</span>
     </div>
 
-    <div class="w-px h-4 bg-gray-200 shrink-0"></div>
+    <div class="w-px h-5 bg-gray-200 shrink-0 mx-1"></div>
 
     <!-- Tabs -->
-    <div class="hidden md:flex items-center h-full">
-      <a id="nav-dashboard" class="nav-tab active h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Dashboard</a>
-      <a id="nav-listing"   class="nav-tab        h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Backlog Tracker</a>
-      <a href="/country-glance-report" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
-        <span class="material-symbols-outlined text-gray-400" style="font-size:14px;">public</span>
-        Country Glance Report
-      </a>
-      <a id="nav-glance"    class="nav-tab        h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
-        <span class="material-symbols-outlined text-gray-400" style="font-size:14px;">fact_check</span>
-        Weekly Report
-      </a>
-      <a id="nav-retro"     class="nav-tab        h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Retro Export</a>
+    <div class="hidden md:flex items-center h-full gap-1">
+      <a id="nav-dashboard" href="/" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative active">Dashboard</a>
+      <a id="nav-listing" href="/#listing" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Backlog Tracker</a>
+      <a href="/country-glance-report" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Country Glance Report</a>
+      <a id="nav-glance" href="/#glance" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Weekly Report</a>
+      <a id="nav-retro" href="/#retro" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Retro Export</a>
     </div>
   </div>
 
   <!-- Right: Profile -->
   <div class="flex items-center gap-4">
     <div class="flex items-center gap-3 pr-1">
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
         {% if user and user.picture %}
-          <img src="{{ user.picture }}" alt="Profile" class="w-6 h-6 rounded-full border border-gray-200">
+          <img src="{{ user.picture }}" alt="Profile" class="w-7 h-7 rounded-full border border-gray-200 shadow-sm">
         {% else %}
-          <div class="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center border border-indigo-200">
-            <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">person</span>
+          <div class="w-7 h-7 rounded-full bg-indigo-50 flex items-center justify-center border border-indigo-100 shadow-sm">
+            <span class="material-symbols-outlined text-indigo-500" style="font-size:15px;">person</span>
           </div>
         {% endif %}
-        <span class="text-[12px] font-medium text-gray-700 hidden md:block">
+        <span class="text-[12.5px] font-bold text-gray-700 hidden md:block">
           {{ get_user_display_name(user) }}
         </span>
       </div>
-      <a href="/logout" class="h-7 px-2.5 text-[11.5px] font-semibold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors flex items-center">
+      <div class="w-px h-4 bg-gray-200 shrink-0 mx-1"></div>
+      <a href="/logout" class="h-8 px-3.5 text-[12px] font-bold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all flex items-center shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
         Logout
       </a>
     </div>
@@ -301,11 +315,11 @@
           <select id="filter-state" class="sel">
             <option value="">All States</option>
           </select>
-          <select id="filter-type" class="sel">
-            <option value="">All Types</option>
-          </select>
           <select id="filter-year" class="sel">
             <option value="">All Years</option>
+          </select>
+          <select id="filter-type" class="sel">
+            <option value="">All Types</option>
           </select>
           <label class="flex items-center gap-1.5 h-7 px-2.5 border border-gray-200 bg-white rounded-lg hover:border-gray-300 cursor-pointer text-[12px] font-medium text-gray-600 transition-colors select-none">
             <input type="checkbox" id="filter-sir" class="w-3 h-3 rounded border-gray-300 text-gray-800 focus:ring-0 cursor-pointer"/>
@@ -518,41 +532,49 @@
 
           <!-- ── Form 20 ──────────────────────────────────────────────── -->
           <div class="card card-lift overflow-hidden flex flex-col" id="panel-form20">
-            <div class="px-4 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-lg bg-gray-100 flex items-center justify-center shrink-0">
-                  <span class="material-symbols-outlined text-gray-600" style="font-size:14px;">ballot</span>
+
+            <div class="px-6 pt-5 pb-4 flex items-center justify-between border-b border-gray-100/60 bg-white">
+              <div class="flex items-center gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-b from-gray-50 to-gray-100 flex items-center justify-center shrink-0 border border-gray-200 shadow-sm shadow-gray-200/50">
+                  <span class="material-symbols-outlined text-gray-700" style="font-size:20px;">ballot</span>
                 </div>
                 <div>
-                  <p class="text-[12.5px] font-semibold text-gray-900 leading-none">Form 20</p>
-                  <p class="text-[10px] text-gray-400 mt-0.5">Overall pipeline analytics</p>
+                  <p class="text-[14.5px] font-bold tracking-tight text-gray-900 leading-none mb-1">Form 20</p>
+                  <p class="text-[11px] font-medium text-gray-400">Overall pipeline analytics</p>
                 </div>
               </div>
-              <span class="text-[9.5px] font-semibold text-gray-500 bg-gray-50 border border-gray-200 px-2 py-0.5 rounded-full" id="f20-pct-badge">—</span>
+              <span class="text-[10px] font-bold text-gray-600 bg-white border border-gray-200 shadow-sm px-3 py-1 rounded-full tracking-wide" id="f20-pct-badge">—</span>
             </div>
-            <!-- Ring chart + completion metric -->
-            <div class="px-4 py-3 flex items-center gap-3 border-b border-gray-50">
-              <div class="relative shrink-0 w-[64px] h-[64px]">
-                <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
-                  <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
-                  <circle id="f20-ring" cx="32" cy="32" r="26" fill="none" stroke="#111827" stroke-width="6"
-                    stroke-dasharray="163.4" stroke-dashoffset="163.4" stroke-linecap="round"
-                    style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+            
+            <div class="px-5 pt-8 pb-7 flex flex-col items-center justify-center border-b border-gray-100/60 bg-gradient-to-b from-white to-gray-50/30 group relative overflow-hidden">
+              <div class="absolute -top-24 -right-24 w-48 h-48 bg-gray-100/40 rounded-full blur-3xl"></div>
+              
+              <div class="relative shrink-0 w-[140px] h-[140px] mb-6 transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+                <div class="absolute inset-0 rounded-full bg-gray-400/10 blur-xl scale-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <svg width="140" height="140" viewBox="0 0 140 140" class="-rotate-90 relative z-10 drop-shadow-sm">
+                  <circle cx="70" cy="70" r="58" fill="none" stroke="#f1f5f9" stroke-width="12"/>
+                  <circle id="f20-ring" cx="70" cy="70" r="58" fill="none" stroke="url(#f20-grad)" stroke-width="12"
+                    stroke-dasharray="364.42" stroke-dashoffset="364.42" stroke-linecap="round"
+                    style="transition:stroke-dashoffset 1.2s cubic-bezier(0.16, 1, 0.3, 1)"/>
+                  <defs>
+                    <linearGradient id="f20-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#475569" />
+                      <stop offset="100%" stop-color="#0f172a" />
+                    </linearGradient>
+                  </defs>
                 </svg>
-                <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700 rotate-0" id="f20-ring-pct">—</span>
+                <div class="absolute inset-0 flex flex-col items-center justify-center z-20">
+                  <span class="text-[28px] font-black tracking-tight text-gray-900 leading-none drop-shadow-sm" id="f20-ring-pct">—</span>
+                  <span class="text-[9px] text-gray-400 font-bold mt-1.5 uppercase tracking-[0.2em]" id="f20-pct-label">coverage</span>
+                </div>
               </div>
-              <div class="flex-1 min-w-0">
-                <div class="flex items-baseline gap-1.5">
-                  <span class="text-[28px] font-black text-gray-900 tabular-nums leading-none" id="f20-pct">—</span>
-                  <span class="text-[10.5px] text-gray-400 font-medium" id="f20-pct-label">complete</span>
-                </div>
-                <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium" id="f20-counts">— / — elections in DB</p>
-                <div class="w-full h-1 bg-gray-100 rounded-full overflow-hidden mt-2">
-                  <div id="f20-prog" class="h-full bg-gray-800 rounded-full bar-fill" style="width:0%"></div>
-                </div>
+              <div class="flex flex-col items-center min-w-0 w-full px-4 relative z-10">
+                <p class="text-[12.5px] text-gray-600 font-semibold tracking-tight" id="f20-counts">— / — elections in DB</p>
+                <span class="hidden" id="f20-pct"></span>
               </div>
             </div>
-            <!-- AE / GE breakdown -->
+
+<!-- AE / GE breakdown -->
             <div class="px-4 py-3 border-b border-gray-50">
               <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">By Election Type</p>
               <div class="flex flex-col gap-2" id="f20-type-rows">
@@ -560,9 +582,10 @@
                 <div class="h-3 w-3/4 bg-gray-50 rounded animate-pulse"></div>
               </div>
             </div>
-            <!-- Top completed states -->
+
+            <!-- Top remaining changes -->
             <div class="px-4 py-3">
-              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top States · ACs in Form 20</p>
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top remaining changes · Form 20</p>
               <p class="text-[9px] text-gray-300 mb-2.5">Number = ACs with Form 20 results</p>
               <div id="f20-state-rows" class="grid grid-cols-4 gap-1.5"></div>
             </div>
@@ -570,41 +593,50 @@
 
           <!-- ── Retro ────────────────────────────────────────────────── -->
           <div class="card card-lift overflow-hidden flex flex-col" id="panel-retro">
-            <div class="px-4 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
-              <div class="flex items-center gap-2">
-                <div class="w-7 h-7 rounded-lg bg-indigo-50 flex items-center justify-center shrink-0">
-                  <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">history_edu</span>
+
+            <div class="px-6 pt-5 pb-4 flex items-center justify-between border-b border-gray-100/60 bg-white">
+              <div class="flex items-center gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-b from-indigo-50 to-indigo-100 flex items-center justify-center shrink-0 border border-indigo-200/50 shadow-sm shadow-indigo-200/50">
+                  <span class="material-symbols-outlined text-indigo-600" style="font-size:20px;">history_edu</span>
                 </div>
                 <div>
-                  <p class="text-[12.5px] font-semibold text-gray-900 leading-none">Retro</p>
-                  <p class="text-[10px] text-gray-400 mt-0.5">Election results in DB</p>
+                  <p class="text-[14.5px] font-bold tracking-tight text-gray-900 leading-none mb-1">Retro DB</p>
+                  <p class="text-[11px] font-medium text-gray-400">Historical election vault</p>
                 </div>
               </div>
-              <span class="text-[9.5px] font-semibold text-indigo-600 bg-indigo-50 border border-indigo-100 px-2 py-0.5 rounded-full">Live</span>
+              <span class="text-[10px] font-bold text-indigo-600 bg-indigo-50 border border-indigo-100 shadow-sm px-3 py-1 rounded-full tracking-wide">Live</span>
             </div>
-            <div class="px-4 py-3 flex items-center gap-3 border-b border-gray-50">
-              <div class="relative shrink-0 w-[64px] h-[64px]">
-                <svg width="64" height="64" viewBox="0 0 64 64" class="-rotate-90">
-                  <circle cx="32" cy="32" r="26" fill="none" stroke="#e5e7eb" stroke-width="6"/>
-                  <circle id="retro-ring" cx="32" cy="32" r="26" fill="none" stroke="#6366f1" stroke-width="6"
-                    stroke-dasharray="163.4" stroke-dashoffset="163.4" stroke-linecap="round"
-                    style="transition:stroke-dashoffset 1s cubic-bezier(.4,0,.2,1)"/>
+
+            <div class="px-5 pt-8 pb-7 flex flex-col items-center justify-center border-b border-gray-100/60 bg-gradient-to-b from-white to-indigo-50/20 group relative overflow-hidden">
+              <div class="absolute -top-24 -right-24 w-48 h-48 bg-indigo-100/40 rounded-full blur-3xl"></div>
+              
+              <div class="relative shrink-0 w-[140px] h-[140px] mb-6 transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+                <div class="absolute inset-0 rounded-full bg-indigo-400/20 blur-xl scale-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <svg width="140" height="140" viewBox="0 0 140 140" class="-rotate-90 relative z-10 drop-shadow-sm">
+                  <circle cx="70" cy="70" r="58" fill="none" stroke="#f1f5f9" stroke-width="12"/>
+                  <circle id="retro-ring" cx="70" cy="70" r="58" fill="none" stroke="url(#retro-grad)" stroke-width="12"
+                    stroke-dasharray="364.42" stroke-dashoffset="364.42" stroke-linecap="round"
+                    style="transition:stroke-dashoffset 1.2s cubic-bezier(0.16, 1, 0.3, 1)"/>
+                  <defs>
+                    <linearGradient id="retro-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#818cf8" />
+                      <stop offset="100%" stop-color="#4338ca" />
+                    </linearGradient>
+                  </defs>
                 </svg>
-                <span class="absolute inset-0 flex items-center justify-center text-[11px] font-bold text-gray-700 rotate-0" id="retro-ring-pct">—</span>
+                <div class="absolute inset-0 flex flex-col items-center justify-center z-20">
+                  <span class="text-[28px] font-black tracking-tight text-indigo-700 leading-none drop-shadow-sm" id="retro-ring-pct">—</span>
+                  <span class="text-[9px] text-gray-400 font-bold mt-1.5 uppercase tracking-[0.2em]">coverage</span>
+                </div>
               </div>
-              <div class="flex-1 min-w-0">
-                <div class="flex items-baseline gap-1.5">
-                  <span class="text-[28px] font-black text-indigo-600 tabular-nums leading-none" id="retro-pct">—</span>
-                  <span class="text-[10.5px] text-gray-400 font-medium">of expected</span>
-                </div>
-                <p class="text-[11px] text-gray-500 tabular-nums mt-0.5 font-medium" id="retro-covered-label">— elections covered</p>
+              <div class="flex flex-col items-center min-w-0 w-full px-4 relative z-10">
+                <p class="text-[12.5px] text-gray-600 font-semibold tracking-tight" id="retro-covered-label">— elections covered</p>
+                <span class="hidden" id="retro-pct"></span>
                 <span class="hidden" id="retro-total-label"></span>
-                <div class="w-full h-1 bg-gray-100 rounded-full overflow-hidden mt-2">
-                  <div id="retro-prog" class="h-full bg-indigo-500 rounded-full bar-fill" style="width:0%"></div>
-                </div>
               </div>
             </div>
-            <div class="px-4 py-3 border-b border-gray-50">
+
+<div class="px-4 py-3 border-b border-gray-50">
               <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-2.5">By Election Type</p>
               <div class="flex flex-col gap-2" id="retro-type-rows">
                 <div class="h-3 w-full bg-gray-50 rounded animate-pulse"></div>
@@ -613,67 +645,130 @@
               </div>
             </div>
             <div class="px-4 py-3">
-              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top States · ACs in DB</p>
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top remaining changes · Retro DB</p>
               <p class="text-[9px] text-gray-300 mb-2.5">Number = ACs with results · % = coverage of expected</p>
               <div id="retro-state-rows" class="grid grid-cols-4 gap-1.5"></div>
             </div>
           </div>
 
+          <!-- ══ Caste Data — full-width analytical showcase ══ -->
+          <div class="card card-lift overflow-hidden flex flex-col" id="panel-caste">
+
+            <div class="px-6 pt-5 pb-4 flex items-center justify-between border-b border-gray-100/60 bg-white">
+              <div class="flex items-center gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shrink-0 border border-orange-200/50 shadow-sm shadow-orange-500/20">
+                  <span class="material-symbols-outlined text-white" style="font-size:20px;">diversity_3</span>
+                </div>
+                <div>
+                  <p class="text-[14.5px] font-bold tracking-tight text-gray-900 leading-none mb-1">Caste Demographics</p>
+                  <p class="text-[11px] font-medium text-gray-400">Coverage across <span id="caste-sub-states">—</span> states</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-bold text-amber-700 bg-amber-50 border border-amber-100 px-3 py-1 rounded-full flex items-center gap-1 shadow-sm">
+                  <span class="material-symbols-outlined" style="font-size:12px;">map</span>
+                  <span id="caste-pct">—</span>
+                </span>
+                <span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-100 shadow-sm px-3 py-1 rounded-full tracking-wide">Live</span>
+              </div>
+            </div>
+
+            <div class="px-5 pt-8 pb-7 flex flex-col items-center justify-center border-b border-gray-100/60 bg-gradient-to-b from-white to-orange-50/20 group relative overflow-hidden">
+              <div class="absolute -top-24 -right-24 w-48 h-48 bg-orange-100/40 rounded-full blur-3xl"></div>
+              
+              <div class="relative shrink-0 w-[140px] h-[140px] mb-6 transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+                <div class="absolute inset-0 rounded-full bg-orange-400/20 blur-xl scale-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <svg width="140" height="140" viewBox="0 0 140 140" class="-rotate-90 relative z-10 drop-shadow-sm">
+                  <circle cx="70" cy="70" r="58" fill="none" stroke="#f1f5f9" stroke-width="12"/>
+                  <circle id="caste-ring" cx="70" cy="70" r="58" fill="none" stroke="url(#caste-grad)" stroke-width="12"
+                    stroke-dasharray="364.42" stroke-dashoffset="364.42" stroke-linecap="round"
+                    style="transition:stroke-dashoffset 1.2s cubic-bezier(0.16, 1, 0.3, 1)"/>
+                  <defs>
+                    <linearGradient id="caste-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#fbbf24" />
+                      <stop offset="100%" stop-color="#d97706" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="absolute inset-0 flex flex-col items-center justify-center z-20">
+                  <span class="text-[28px] font-black tracking-tight text-amber-600 leading-none drop-shadow-sm" id="caste-ring-pct">—</span>
+                  <span class="text-[9px] text-gray-400 font-bold mt-1.5 uppercase tracking-[0.2em]">coverage</span>
+                </div>
+              </div>
+              <div class="flex flex-col items-center min-w-0 w-full px-4 relative z-10">
+                <p class="text-[12.5px] text-gray-600 font-semibold tracking-tight" id="caste-covered-label">— elections covered</p>
+                <span class="hidden" id="caste-pct-large"></span>
+              </div>
+            </div>
+
+
+            <!-- Top remaining changes -->
+            <div class="px-4 py-3">
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top remaining changes · AC-wise Coverage</p>
+              <p class="text-[9px] text-gray-300 mb-2.5">Number = ACs with data · % = coverage of expected</p>
+              <div id="caste-state-rows" class="grid grid-cols-4 gap-1.5"></div>
+            </div>
+          </div>
+
+          <!-- ══ Booth Details — full-width analytical showcase ══ -->
+          <div class="card card-lift overflow-hidden flex flex-col" id="panel-booth">
+
+            <div class="px-6 pt-5 pb-4 flex items-center justify-between border-b border-gray-100/60 bg-white">
+              <div class="flex items-center gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center shrink-0 border border-emerald-200/50 shadow-sm shadow-emerald-500/20">
+                  <span class="material-symbols-outlined text-white" style="font-size:20px;">how_to_vote</span>
+                </div>
+                <div>
+                  <p class="text-[14.5px] font-bold tracking-tight text-gray-900 leading-none mb-1">Booth Details</p>
+                  <p class="text-[11px] font-medium text-gray-400">Coverage across <span id="booth-sub-states">—</span> states</p>
+                </div>
+              </div>
+              <div class="flex items-center gap-2">
+                <span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-100 px-3 py-1 rounded-full flex items-center gap-1 shadow-sm">
+                  <span class="material-symbols-outlined" style="font-size:12px;">map</span>
+                  <span id="booth-pct">—</span>
+                </span>
+                <span class="text-[10px] font-bold text-emerald-600 bg-emerald-50 border border-emerald-100 shadow-sm px-3 py-1 rounded-full tracking-wide">Live</span>
+              </div>
+            </div>
+
+            <div class="px-5 pt-8 pb-7 flex flex-col items-center justify-center border-b border-gray-100/60 bg-gradient-to-b from-white to-emerald-50/20 group relative overflow-hidden">
+              <div class="absolute -top-24 -right-24 w-48 h-48 bg-emerald-100/40 rounded-full blur-3xl"></div>
+              
+              <div class="relative shrink-0 w-[140px] h-[140px] mb-6 transition-transform duration-500 ease-out group-hover:scale-[1.03]">
+                <div class="absolute inset-0 rounded-full bg-emerald-400/20 blur-xl scale-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <svg width="140" height="140" viewBox="0 0 140 140" class="-rotate-90 relative z-10 drop-shadow-sm">
+                  <circle cx="70" cy="70" r="58" fill="none" stroke="#f1f5f9" stroke-width="12"/>
+                  <circle id="booth-ring" cx="70" cy="70" r="58" fill="none" stroke="url(#booth-grad)" stroke-width="12"
+                    stroke-dasharray="364.42" stroke-dashoffset="364.42" stroke-linecap="round"
+                    style="transition:stroke-dashoffset 1.2s cubic-bezier(0.16, 1, 0.3, 1)"/>
+                  <defs>
+                    <linearGradient id="booth-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stop-color="#34d399" />
+                      <stop offset="100%" stop-color="#059669" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+                <div class="absolute inset-0 flex flex-col items-center justify-center z-20">
+                  <span class="text-[28px] font-black tracking-tight text-emerald-600 leading-none drop-shadow-sm" id="booth-ring-pct">—</span>
+                  <span class="text-[9px] text-gray-400 font-bold mt-1.5 uppercase tracking-[0.2em]">coverage</span>
+                </div>
+              </div>
+              <div class="flex flex-col items-center min-w-0 w-full px-4 relative z-10">
+                <p class="text-[12.5px] text-gray-600 font-semibold tracking-tight" id="booth-covered-label">— elections covered</p>
+                <span class="hidden" id="booth-pct-large"></span>
+              </div>
+            </div>
+
+<!-- Top remaining changes -->
+            <div class="px-4 py-3">
+              <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top remaining changes · AC-wise Coverage</p>
+              <p class="text-[9px] text-gray-300 mb-2.5">Number = ACs with data · % = coverage of expected</p>
+              <div id="booth-state-rows" class="grid grid-cols-4 gap-1.5"></div>
+            </div>
+          </div>
+
         </div><!-- /analytics-panels -->
-
-        <!-- ══ Caste Data — full-width analytical showcase ══ -->
-        <div class="card card-lift overflow-hidden flex flex-col mt-4" id="panel-caste">
-          <div class="px-5 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
-            <div class="flex items-center gap-2.5">
-              <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shrink-0 shadow-sm">
-                <span class="material-symbols-outlined text-white" style="font-size:16px;">diversity_3</span>
-              </div>
-              <div>
-                <p class="text-[13.5px] font-bold text-gray-900 leading-none">Caste Demographics</p>
-                <p class="text-[10.5px] text-gray-400 mt-0.5">Coverage &amp; volume across <span id="caste-sub-states">—</span> states · caste_details</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-2">
-              <span class="text-[9.5px] font-semibold text-amber-700 bg-amber-50 border border-amber-100 px-2.5 py-1 rounded-full flex items-center gap-1">
-                <span class="material-symbols-outlined" style="font-size:11px;">map</span>
-                <span id="caste-pct">—</span>
-              </span>
-              <span class="text-[9.5px] font-semibold text-emerald-600 bg-emerald-50 border border-emerald-100 px-2 py-1 rounded-full">Live</span>
-            </div>
-          </div>
-          <div id="caste-body" class="flex-1 flex flex-col">
-            <div class="flex-1 flex items-center justify-center py-16">
-              <span class="material-symbols-outlined animate-spin text-gray-200" style="font-size:24px;">refresh</span>
-            </div>
-          </div>
-        </div>
-
-        <!-- ══ Booth Details — full-width analytical showcase ══ -->
-        <div class="card card-lift overflow-hidden flex flex-col mt-4" id="panel-booth">
-          <div class="px-5 pt-4 pb-3 flex items-center justify-between border-b border-gray-50">
-            <div class="flex items-center gap-2.5">
-              <div class="w-8 h-8 rounded-lg bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center shrink-0 shadow-sm">
-                <span class="material-symbols-outlined text-white" style="font-size:16px;">how_to_vote</span>
-              </div>
-              <div>
-                <p class="text-[13.5px] font-bold text-gray-900 leading-none">Booth Details</p>
-                <p class="text-[10.5px] text-gray-400 mt-0.5">AC coverage across <span id="booth-sub-states">—</span> states · booth_metadata_full_view</p>
-              </div>
-            </div>
-            <div class="flex items-center gap-2">
-              <span class="text-[9.5px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-100 px-2.5 py-1 rounded-full flex items-center gap-1">
-                <span class="material-symbols-outlined" style="font-size:11px;">map</span>
-                <span id="booth-pct">—</span>
-              </span>
-              <span class="text-[9.5px] font-semibold text-emerald-600 bg-emerald-50 border border-emerald-100 px-2 py-1 rounded-full">Live</span>
-            </div>
-          </div>
-          <div id="booth-body" class="flex-1 flex flex-col">
-            <div class="flex-1 flex items-center justify-center py-16">
-              <span class="material-symbols-outlined animate-spin text-gray-200" style="font-size:24px;">refresh</span>
-            </div>
-          </div>
-        </div>
 
       </div><!-- /dashboard content -->
 
@@ -1121,6 +1216,6 @@
 <div id="toast" class="fixed bottom-5 right-5 bg-gray-900 text-white px-4 py-2.5 rounded-xl shadow-lg text-[12.5px] font-medium transition-all duration-300 opacity-0 pointer-events-none translate-y-2 z-[200] flex items-center gap-2 max-w-xs">
 </div>
 
-<script src="/static/app.js?v=20260629k"></script>
+<script src="/static/app.js?v=20260813d"></script>
 </body>
 </html>
