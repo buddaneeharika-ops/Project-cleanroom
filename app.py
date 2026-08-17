@@ -2391,6 +2391,99 @@ def get_other_sources_data(force_refresh=False):
     return results
 
 
+
+@app.route('/state-glance-report')
+@login_required
+def state_glance_report_page():
+    user = session.get('user')
+    return render_template('state_glance_report.html', user=user)
+
+@app.route('/api/state_glance/data')
+def api_state_glance_data():
+    state_abb = request.args.get('state_abb', 'BR').upper().strip()
+    
+    import os, json
+    cache_path = os.path.join(BASE_DIR, 'static', 'data', 'state_intelligence_cache.json')
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, 'r') as f:
+                data = json.load(f)
+                state_data = data.get(state_abb)
+                if state_data:
+                    return jsonify({"success": True, "data": state_data})
+        except:
+            pass
+            
+    # Mocked structure
+    mock_data = {
+        "data_quality": {
+            "overall_score": 85.4,
+            "heatmaps": [
+                {"name": "Form 20", "score": 92},
+                {"name": "Retro", "score": 78},
+                {"name": "Booth", "score": 88},
+                {"name": "Caste", "score": 95}
+            ],
+            "timeline": [
+                {"month": "Jan", "completeness": 60},
+                {"month": "Feb", "completeness": 75},
+                {"month": "Mar", "completeness": 85},
+                {"month": "Apr", "completeness": 92}
+            ]
+        },
+        "election_data": {
+            "radial_gauge": 88,
+            "dual_line": [
+                {"year": "2014", "turnout": 65, "margin": 5},
+                {"year": "2019", "turnout": 68, "margin": 8},
+                {"year": "2024", "turnout": 72, "margin": 12}
+            ],
+            "horizontal_bars": [
+                {"party": "Party A", "seats": 120, "pct": 45},
+                {"party": "Party B", "seats": 80, "pct": 35},
+                {"party": "Party C", "seats": 43, "pct": 20}
+            ]
+        },
+        "governance": {
+            "kpis": [
+                {"label": "EJAL Coverage", "value": "94%"},
+                {"label": "NREGA Active", "value": "2.4M"},
+                {"label": "Schools Mapped", "value": "100%"}
+            ],
+            "lollipops": [
+                {"district": "Patna", "value": 98},
+                {"district": "Gaya", "value": 85},
+                {"district": "Saran", "value": 72}
+            ],
+            "dumbbells": [
+                {"metric": "Water Supply", "prev": 45, "curr": 78},
+                {"metric": "Road", "prev": 60, "curr": 85},
+                {"metric": "Power", "prev": 70, "curr": 95}
+            ]
+        },
+        "demographics": {
+            "ranked_bars": [
+                {"category": "Youth (18-25)", "pct": 35},
+                {"category": "Adults (26-45)", "pct": 45},
+                {"category": "Seniors (46+)", "pct": 20}
+            ],
+            "rings": [
+                {"label": "Muslim Census", "pct": 18},
+                {"label": "SECC Coverage", "pct": 82}
+            ],
+            "top_districts": [
+                {"name": "Patna", "population": "6.8M", "growth": "+12%"},
+                {"name": "Muzaffarpur", "population": "5.4M", "growth": "+8%"},
+                {"name": "Gaya", "population": "4.9M", "growth": "+10%"}
+            ]
+        }
+    }
+    
+    return jsonify({
+        "success": True,
+        "data": mock_data
+    })
+
 @app.route('/api/country_glance_report/data')
 @app.route('/api/country_glance_test/data', endpoint='api_country_glance_test_data')
 def api_country_glance_test():
