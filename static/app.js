@@ -800,6 +800,8 @@ function bindEvents() {
   ];
 
   function switchTab(activeId) {
+    document.documentElement.classList.remove('init-glance', 'init-listing', 'init-retro');
+
     navTabs.forEach(t => {
       const nav  = document.getElementById(t.id);
       const view = document.getElementById(t.viewId);
