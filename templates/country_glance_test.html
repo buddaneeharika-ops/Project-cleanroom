@@ -35,17 +35,26 @@
     }
 
     /* ── Exact nav-tab from index.html ── */
-    .nav-tab { position: relative; transition: color 0.1s, background 0.1s; }
-    .nav-tab.active { color: #111827; font-weight: 600; }
-    .nav-tab.active::after {
-      content: ''; position: absolute; bottom: -1px; left: 0; right: 0;
-      height: 2px; background: #111827; border-radius: 2px 2px 0 0;
+        .nav-tab {
+      color: #64748b !important;
+      position: relative;
     }
-    .nav-tab:not(.active) { color: #6b7280; }
-    .nav-tab:not(.active):hover { color: #374151; background: #f9fafb; }
-
-    /* ── Scrollbars ── */
-    ::-webkit-scrollbar { width: 6px; height: 6px; }
+    .nav-tab:hover {
+      color: #0f172a !important;
+    }
+    .nav-tab.active {
+      color: #0f172a !important;
+    }
+    .nav-tab.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: #4f46e5;
+      border-radius: 3px 3px 0 0;
+    }
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: #d4d4d8; border-radius: 99px; }
     ::-webkit-scrollbar-thumb:hover { background: #a1a1aa; }
@@ -70,7 +79,7 @@
     /* ── Sticky Controls Bar ── */
     .sticky-controls {
       position: sticky;
-      top: 48px; /* height of the fixed nav */
+      top: 56px; /* height of the fixed nav */
       z-index: 30;
       background: rgba(245,245,245,0.92);
       backdrop-filter: blur(14px);
@@ -280,50 +289,48 @@
 <!-- ═══════════════════════════════════════════
      TOP NAVIGATION — exact match to index.html
 ═══════════════════════════════════════════ -->
-<nav class="fixed top-0 left-0 w-full z-50 h-[48px] bg-white border-b border-gray-200 flex items-center justify-between px-5">
-  <div class="flex items-center gap-5 h-full">
+<nav class="fixed top-0 left-0 w-full z-50 h-[56px] bg-white/75 backdrop-blur-xl border-b border-gray-200/60 flex items-center justify-between px-6 shadow-[0_2px_8px_-2px_rgba(0,0,0,0.03)] transition-all">
+  <div class="flex items-center gap-6 h-full">
     <!-- Logo -->
-    <div class="flex items-center gap-2 shrink-0">
-      <div class="w-6 h-6 rounded-md bg-gray-900 flex items-center justify-center">
-        <span class="material-symbols-outlined text-white" style="font-size:13px;">ballot</span>
+    <div class="flex items-center gap-2.5 shrink-0">
+      <div class="w-7 h-7 rounded-[8px] bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center shadow-md shadow-indigo-500/20">
+        <span class="material-symbols-outlined text-white" style="font-size:15px;">ballot</span>
       </div>
-      <span class="text-[13px] font-semibold text-gray-900 tracking-tight">Project CleanRoom</span>
+      <span class="text-[14px] font-extrabold text-gray-900 tracking-tight">Project CleanRoom</span>
     </div>
 
-    <div class="w-px h-4 bg-gray-200 shrink-0"></div>
+    <div class="w-px h-5 bg-gray-200 shrink-0 mx-1"></div>
 
-    <div class="hidden md:flex items-center h-full">
-      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Dashboard</a>
-      <a href="/#listing" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Backlog Tracker</a>
-      <a href="/country-glance-report" class="nav-tab active h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
-        <span class="material-symbols-outlined text-gray-600" style="font-size:14px;">public</span>
-        Country Glance Report
-      </a>
-      <a href="/#glance" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
-        <span class="material-symbols-outlined text-gray-400" style="font-size:14px;">fact_check</span>
-        Weekly Report
-      </a>
-      <a href="/#retro" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Retro Export</a>
+    <!-- Tabs -->
+    <div class="hidden md:flex items-center h-full gap-1">
+      <a id="nav-dashboard" href="/" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Dashboard</a>
+      <a id="nav-listing" href="/#listing" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Backlog Tracker</a>
+      <a href="/country-glance-report" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative active">Country Glance Report</a>
+      <a id="nav-glance" href="/#glance" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Weekly Report</a>
+      <a id="nav-retro" href="/#retro" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Retro Export</a>
     </div>
   </div>
 
   <!-- Right: Profile -->
-  <div class="flex items-center gap-3 pr-1">
-    <div class="flex items-center gap-2">
-      {% if user and user.picture %}
-        <img src="{{ user.picture }}" alt="Profile" class="w-6 h-6 rounded-full border border-gray-200">
-      {% else %}
-        <div class="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center border border-indigo-200">
-          <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">person</span>
-        </div>
-      {% endif %}
-      <span class="text-[12px] font-medium text-gray-700 hidden md:block">
-        {{ get_user_display_name(user) }}
-      </span>
+  <div class="flex items-center gap-4">
+    <div class="flex items-center gap-3 pr-1">
+      <div class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
+        {% if user and user.picture %}
+          <img src="{{ user.picture }}" alt="Profile" class="w-7 h-7 rounded-full border border-gray-200 shadow-sm">
+        {% else %}
+          <div class="w-7 h-7 rounded-full bg-indigo-50 flex items-center justify-center border border-indigo-100 shadow-sm">
+            <span class="material-symbols-outlined text-indigo-500" style="font-size:15px;">person</span>
+          </div>
+        {% endif %}
+        <span class="text-[12.5px] font-bold text-gray-700 hidden md:block">
+          {{ get_user_display_name(user) }}
+        </span>
+      </div>
+      <div class="w-px h-4 bg-gray-200 shrink-0 mx-1"></div>
+      <a href="/logout" class="h-8 px-3.5 text-[12px] font-bold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all flex items-center shadow-[0_1px_2px_rgba(0,0,0,0.02)]">
+        Logout
+      </a>
     </div>
-    <a href="/logout" class="h-7 px-2.5 text-[11.5px] font-semibold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors flex items-center">
-      Logout
-    </a>
   </div>
 </nav>
 
@@ -342,7 +349,7 @@
     <div class="flex items-start justify-between flex-wrap gap-4 mb-7 fade-in">
       <div>
         <h1 class="text-[26px] font-bold text-gray-900">Country Glance Report</h1>
-        <p class="text-sm text-gray-500 mt-0.5">Electoral &amp; demographic data coverage across <strong class="text-gray-700">37 States &amp; UTs</strong></p>
+        <p class="text-sm text-gray-500 mt-0.5">Electoral &amp; demographic data coverage across <strong class="text-gray-700">36 States &amp; UTs</strong></p>
       </div>
       <div class="flex items-center gap-2 pt-1">
         <!-- New Special Mention Button for Map -->
@@ -350,6 +357,7 @@
           <div class="absolute inset-0 bg-white/20 translate-y-[-100%] group-hover:translate-y-[100%] transition-transform duration-500"></div>
           <span class="material-symbols-outlined" style="font-size:16px;">map</span> Live Country Map ✨
         </a>
+        
         <button onclick="loadData(true)" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-gray-900 hover:bg-gray-800 text-white text-[12px] font-medium shadow-sm transition">
           <span class="material-symbols-outlined" style="font-size:15px;">refresh</span> Refresh Data
         </button>
@@ -584,6 +592,28 @@
               </table>
             </div>
           </div>
+        
+          <!-- Inline Reading Manual: ECI -->
+          <div class="mt-6 bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+            <div class="bg-indigo-50/50 border-b border-indigo-100 px-4 py-2.5 flex items-center gap-2">
+              <span class="material-symbols-outlined text-indigo-600" style="font-size:16px">menu_book</span>
+              <h3 class="text-xs font-bold text-indigo-900">Reading Manual: ECI Primary</h3>
+            </div>
+            <div class="p-4">
+              <ul class="space-y-2 text-[11.5px] text-gray-600 pl-2">
+                <li class="flex gap-2">
+                  <span class="font-bold text-indigo-400">1.</span>
+                  <span>Caste Data and Booth Data percentages are calculated based on the total number of Assembly Constituencies (ACs) and the number of ACs for which data is currently available.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="font-bold text-indigo-400">2.</span>
+                  <span>Percentages for Retro Data and Form 20 Data are computed using the election type, election year, and the count of actual ACs for which data is available.</span>
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+
         </div>
         
         <!-- Auxiliary Tab -->
@@ -658,6 +688,27 @@
               </table>
             </div>
           </div>
+        
+          <!-- Inline Reading Manual: Aux -->
+          <div class="mt-6 bg-white border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+            <div class="bg-emerald-50/50 border-b border-emerald-100 px-4 py-2.5 flex items-center gap-2">
+              <span class="material-symbols-outlined text-emerald-600" style="font-size:16px">menu_book</span>
+              <h3 class="text-xs font-bold text-emerald-900">Reading Manual: Axillary Sources</h3>
+            </div>
+            <div class="p-4">
+              <ul class="space-y-2 text-[11.5px] text-gray-600 pl-2">
+                <li class="flex gap-2">
+                  <span class="font-bold text-emerald-400">1.</span>
+                  <span>The percentages are computed based on the total number of districts listed in the LGD directory.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="font-bold text-emerald-400">2.</span>
+                  <span><strong class="text-gray-700">* Note:</strong> Census Districts are greater in number compared to the LGD District counts.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
         </div>
 
       </div>
@@ -730,16 +781,22 @@
 
       <!-- Footer row -->
       <div id="table-footer" class="hidden border-t border-gray-200/60 bg-white/70 px-6 py-3 flex items-center justify-between flex-wrap gap-2 text-[11.5px] text-gray-500">
-        <span>Showing <strong id="visible-count" class="text-gray-800">—</strong> of 37 States / UTs</span>
+        <span>Showing <strong id="visible-count" class="text-gray-800">—</strong> of 36 States / UTs</span>
         <div class="flex items-center gap-1.5 text-[11px] text-amber-800 bg-amber-50 px-3 py-1 rounded-lg border border-amber-200/70 font-medium">
           <span class="font-bold">* Note for J&K:</span> Coverage is set to 100% (adjusted for election seats increase from 87 to 90 seats in 2022).
+        </div>
+        <div class="flex items-center gap-1.5 text-[11px] text-indigo-800 bg-indigo-50 px-3 py-1 rounded-lg border border-indigo-200/70 font-medium">
+          <span class="font-bold">* Note for DN/DD:</span> Dadra & Nagar Haveli and Daman & Diu merged in 2020. Pre-2020 historical metrics are aggregated for continuity.
         </div>
         <span class="flex items-center gap-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
           Live from AWS RDS
         </span>
       </div>
+      </div>
     </div>
+    
+    
   </div>
 
 </div><!-- /page body -->
@@ -1048,6 +1105,11 @@
   });
 
 </script>
+
+
+  </div>
+
+    
 
 </body>
 </html>
