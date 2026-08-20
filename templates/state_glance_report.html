@@ -513,6 +513,46 @@
           </div>
         </div>
       </div>
+
+      <!-- KERALA ONLY BOOTH ANALYSIS -->
+      <div id="klBoothAnalysis" class="hidden mt-6 pt-6 border-t border-gray-200">
+        <div class="flex items-center gap-2 mb-4">
+          <svg class="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.242-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+          <p class="text-sm font-bold text-gray-800">Polling Booth Analysis (ECI vs Available)</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div class="bg-indigo-50/50 rounded-lg p-4 border border-indigo-100">
+             <p class="text-[10px] font-bold text-indigo-600 uppercase tracking-wider mb-1">Total ECI Record</p>
+             <p class="text-2xl font-black text-gray-900 tabular-nums">30,471</p>
+          </div>
+          <div class="bg-indigo-50/50 rounded-lg p-4 border border-indigo-100">
+             <p class="text-[10px] font-bold text-indigo-600 uppercase tracking-wider mb-1">Available (Jan 2025)</p>
+             <p class="text-2xl font-black text-emerald-600 tabular-nums">25,401</p>
+             <p class="text-[10px] text-emerald-700 mt-1">83.36% coverage</p>
+          </div>
+          <div class="bg-rose-50/50 rounded-lg p-4 border border-rose-100 lg:col-span-2">
+             <p class="text-[10px] font-bold text-rose-600 uppercase tracking-wider mb-2">Missing Booths by Zone</p>
+             <div class="grid grid-cols-2 gap-x-4 gap-y-2">
+                <div class="flex justify-between items-center text-xs">
+                  <span class="text-gray-600">Palakkad</span>
+                  <span class="font-bold text-rose-700">1,743 missing</span>
+                </div>
+                <div class="flex justify-between items-center text-xs">
+                  <span class="text-gray-600">Kozhikode</span>
+                  <span class="font-bold text-rose-700">1,140 missing</span>
+                </div>
+                <div class="flex justify-between items-center text-xs">
+                  <span class="text-gray-600">Ernakulam</span>
+                  <span class="font-bold text-rose-700">1,129 missing</span>
+                </div>
+                <div class="flex justify-between items-center text-xs">
+                  <span class="text-gray-600">Thiruvananthapuram</span>
+                  <span class="font-bold text-rose-700">1,058 missing</span>
+                </div>
+             </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -1246,7 +1286,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ══ Main render ══ */
   const renderDashboard = (d) => {
-    if(!d) return;
+    // Show/hide Kerala-specific booth analysis block
+    const klBlock = document.getElementById('klBoothAnalysis');
+    if (klBlock) {
+      if (d.metadata && d.metadata.state_abb === 'KL') {
+        klBlock.classList.remove('hidden');
+      } else {
+        klBlock.classList.add('hidden');
+      }
+    }
 
     /* HERO */
     if(d.hero) {
