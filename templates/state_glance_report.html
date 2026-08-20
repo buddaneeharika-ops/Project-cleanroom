@@ -1,0 +1,1880 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Glance Report - State Report</title>
+  <link rel="icon" href="/static/favicon.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,400,0,0&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      background: #f5f5f5;
+      color: #111827;
+      font-family: 'Inter', system-ui, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+      font-size: 18px; vertical-align: middle; line-height: 1;
+    }
+    /* ── Nav tabs (exact match to index.html) ── */
+    .nav-tab { color: #64748b !important; position: relative; }
+    .nav-tab:hover { color: #0f172a !important; }
+    .nav-tab.active { color: #0f172a !important; }
+    .nav-tab.active::after {
+      content: ''; position: absolute; bottom: -1px; left: 0; right: 0;
+      height: 3px; background: #4f46e5; border-radius: 3px 3px 0 0;
+    }
+    /* ── Scrollbars ── */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 99px; }
+    ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+    /* ── Section card ── */
+    .sec { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; }
+    .sec-head { padding: 12px 18px; border-bottom: 1px solid #f1f5f9; background: #f8fafc; display:flex; align-items:center; justify-content:space-between; }
+    .sec-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #475569; }
+    /* ── Status chips ── */
+    .chip { display:inline-flex; align-items:center; font-size:9.5px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; padding:2px 7px; border-radius:3px; border-width:1px; border-style:solid; white-space:nowrap; }
+    .chip-green  { background:#f0fdf4; color:#15803d; border-color:#bbf7d0; }
+    .chip-red    { background:#fef2f2; color:#b91c1c; border-color:#fecaca; }
+    .chip-amber  { background:#fffbeb; color:#92400e; border-color:#fde68a; }
+    .chip-blue   { background:#eff6ff; color:#1d4ed8; border-color:#bfdbfe; }
+    .chip-violet { background:#f5f3ff; color:#6d28d9; border-color:#ddd6fe; }
+    .chip-slate  { background:#f8fafc; color:#475569; border-color:#e2e8f0; }
+    /* ── Matrix table ── */
+    .mx-tbl { width:100%; border-collapse:collapse; }
+    .mx-tbl th { font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:#64748b; padding:6px 10px; background:#f8fafc; border-bottom:1px solid #e5e7eb; text-align:center; white-space:nowrap; }
+    .mx-tbl th:first-child { text-align:left; }
+    .mx-tbl td { padding:6px 10px; font-size:11.5px; border-bottom:1px solid #f1f5f9; text-align:center; }
+    .mx-tbl td:first-child { text-align:left; font-weight:600; color:#374151; font-size:11px; }
+    .mx-tbl tr:last-child td { border-bottom:none; }
+    .mx-tbl tr:hover td { background:#f8fafc; }
+    /* Avail badge */
+    .av-g { background:#f0fdf4; color:#15803d; border:1px solid #bbf7d0; border-radius:4px; padding:1px 7px; font-size:10px; font-weight:700; display:inline-block; }
+    .av-a { background:#fffbeb; color:#92400e; border:1px solid #fde68a; border-radius:4px; padding:1px 7px; font-size:10px; font-weight:700; display:inline-block; }
+    .av-r { background:#fef2f2; color:#b91c1c; border:1px solid #fecaca; border-radius:4px; padding:1px 7px; font-size:10px; font-weight:700; display:inline-block; }
+    /* ── KPI mini card ── */
+    .kpi-mini { background:#fff; border:1px solid #e5e7eb; border-radius:10px; padding:12px 14px; }
+    /* ── Coverage cell ── */
+    .cov-cell { background:#f8fafc; border:1px solid #e5e7eb; border-radius:8px; padding:8px 10px; text-align:center; }
+    /* ── Ring animation ── */
+    .ring-fill { transform:rotate(-90deg); transform-origin:50% 50%; transition: stroke-dasharray 1.2s cubic-bezier(.4,0,.2,1); }
+    /* ── Horizontal bar ── */
+    .hbar-track { background:#f1f5f9; border-radius:99px; overflow:hidden; height:16px; }
+    .hbar-fill  { height:100%; border-radius:99px; transition: width 1s cubic-bezier(.4,0,.2,1); }
+    /* ── Animated progress bar ── */
+    .prog-track { background:#f1f5f9; border-radius:99px; overflow:hidden; height:6px; margin-top:6px; }
+    .prog-fill  { height:100%; border-radius:99px; transition: width 1.1s cubic-bezier(.4,0,.2,1); }
+    /* ── Dense table ── */
+    .dt { width:100%; border-collapse:collapse; }
+    .dt th { font-size:10px; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:#64748b; padding:7px 10px; background:#f8fafc; border-bottom:1px solid #e5e7eb; white-space:nowrap; }
+    .dt td { padding:6px 10px; font-size:11.5px; border-bottom:1px solid #f1f5f9; color:#374151; }
+    .dt tr:last-child td { border-bottom:none; }
+    .dt tr:hover td { background:#f8fafc; }
+    /* ── Gauge ring ── */
+    .gauge-label { font-size:11px; font-weight:700; }
+    /* ── Section number badge ── */
+    .sec-num { display:inline-flex; align-items:center; justify-content:center; width:22px; height:22px; border-radius:6px; background:#eef2ff; color:#4f46e5; font-size:11px; font-weight:800; flex-shrink:0; }
+    /* ── Tier row colors ── */
+    .tier-rose   { background:#fff1f2; border-left:3px solid #f43f5e; }
+    .tier-orange { background:#fff7ed; border-left:3px solid #f97316; }
+    .tier-blue   { background:#eff6ff; border-left:3px solid #3b82f6; }
+    .tier-teal   { background:#f0fdfa; border-left:3px solid #14b8a6; }
+    /* ── Mismatch gauge arc ── */
+    #mismatchGaugeSvg { overflow:visible; }
+  
+    .custom-scrollbar::-webkit-scrollbar { height: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body class="flex flex-col min-h-screen">
+
+<!-- ═══════════════════════════════════════════════════════════
+     NAV — Exact copy from index.html
+═══════════════════════════════════════════════════════════ -->
+<nav class="fixed top-0 left-0 w-full z-50 h-[56px] bg-white/75 backdrop-blur-xl border-b border-gray-200/60 flex items-center justify-between px-6 shadow-[0_2px_8px_-2px_rgba(0,0,0,0.03)] transition-all">
+  <div class="flex items-center gap-6 h-full">
+    <!-- Logo -->
+    <div class="flex items-center gap-2.5 shrink-0">
+      <div class="w-7 h-7 rounded-[8px] bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center shadow-md shadow-indigo-500/20">
+        <span class="material-symbols-outlined text-white" style="font-size:15px;">ballot</span>
+      </div>
+      <span class="text-[14px] font-extrabold text-gray-900 tracking-tight">Project CleanRoom</span>
+    </div>
+    <div class="w-px h-5 bg-gray-200 shrink-0 mx-1"></div>
+    <!-- Tabs -->
+    <div class="hidden md:flex items-center h-full gap-1">
+      <a href="/"                   class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Dashboard</a>
+      <a href="/#listing"           class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Backlog Tracker</a>
+      <a href="/#glance"            class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Weekly Report</a>
+      <a href="/#retro"             class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Retro Export</a>
+      <a href="/state-glance-report" class="nav-tab active h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Glance Report</a>
+    </div>
+  </div>
+  <!-- Right: profile -->
+  <div class="flex items-center gap-3">
+    <div class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
+      {% if user and user.picture %}
+        <img src="{{ user.picture }}" alt="Profile" class="w-7 h-7 rounded-full border border-gray-200 shadow-sm">
+      {% else %}
+        <div class="w-7 h-7 rounded-full bg-indigo-50 flex items-center justify-center border border-indigo-100 shadow-sm">
+          <span class="material-symbols-outlined text-indigo-500" style="font-size:15px;">person</span>
+        </div>
+      {% endif %}
+      <span class="text-[12.5px] font-bold text-gray-700 hidden md:block">{{ get_user_display_name(user) }}</span>
+    </div>
+    <div class="w-px h-4 bg-gray-200 shrink-0"></div>
+    <a href="/logout" class="h-8 px-3.5 text-[12px] font-bold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all flex items-center shadow-[0_1px_2px_rgba(0,0,0,0.02)]">Logout</a>
+  </div>
+</nav>
+
+<!-- ═══════════════════════════════════════════════════════════
+     MAIN CONTENT
+═══════════════════════════════════════════════════════════ -->
+<main class="flex-1 max-w-[1600px] w-full mx-auto px-5 pt-[72px] pb-10 space-y-5">
+
+  <!-- ─────────────────────────────────────────
+       GLANCE REPORT HEADER & SEGMENTED CONTROL
+  ───────────────────────────────────────── -->
+  <div class="bg-white border border-gray-200 rounded-xl p-4 lg:p-5 flex flex-col xl:flex-row xl:items-center justify-between gap-6 shadow-[0_2px_4px_rgba(0,0,0,0.02)] relative z-10">
+    
+    <!-- Left: Segmented Control -->
+    <div class="flex flex-col gap-2 shrink-0">
+      <p class="text-[9px] font-extrabold text-gray-400 uppercase tracking-[0.1em] ml-1.5">Glance Report Zoom Level</p>
+      <div class="inline-flex bg-slate-100/80 p-1 rounded-[12px] border border-slate-200/50 self-start shadow-[inset_0_1px_2px_rgba(0,0,0,0.03)]">
+        <a href="/country-glance-report" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
+          <span class="material-symbols-outlined" style="font-size:16px;">public</span> Country Data
+        </a>
+        <a href="/country-glance-map" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
+          <span class="material-symbols-outlined" style="font-size:16px;">explore</span> Country Map
+        </a>
+        <a href="/state-glance-report" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-white bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.15)] ring-1 ring-gray-900/10 transition-all duration-200">
+          <span class="material-symbols-outlined text-gray-300" style="font-size:16px;">flag</span> State Report
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Title & Dropdown -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between xl:justify-end gap-5 w-full xl:w-auto border-t xl:border-t-0 border-gray-100 pt-5 xl:pt-0">
+      <div class="xl:text-right">
+        <h1 class="text-2xl font-black text-gray-900 tracking-tight leading-none" id="mainStateTitle">Loading...</h1>
+        <p class="text-[11px] font-bold text-gray-400 uppercase tracking-wider mt-1.5">Demographic & Coverage</p>
+      </div>
+      <!-- Premium State Autocomplete -->
+      <div id="topStateSelectorWrapper" class="relative flex items-center bg-white border border-gray-200 hover:border-indigo-300 rounded-[12px] shadow-[0_2px_8px_rgba(0,0,0,0.06)] transition-all focus-within:ring-4 focus-within:ring-indigo-500/15 focus-within:border-indigo-500 shrink-0 w-[260px] xl:w-[280px] group z-50">
+        <div class="absolute left-2.5 flex items-center pointer-events-none z-10">
+          <div class="bg-indigo-50/80 p-1.5 rounded-[8px] border border-indigo-100/50 group-hover:bg-indigo-100 transition-colors flex items-center justify-center">
+            <span class="material-symbols-outlined text-indigo-600" style="font-size:17px;">location_on</span>
+          </div>
+        </div>
+        <input type="text" id="stateSearchInput" placeholder="Search State..." class="appearance-none w-full h-[46px] pl-[44px] pr-10 text-[13.5px] font-extrabold text-gray-800 bg-transparent border-0 outline-none focus:ring-0 truncate tracking-wide" autocomplete="off" spellcheck="false" />
+        <div class="absolute right-3 flex items-center pointer-events-none z-10">
+          <span class="material-symbols-outlined text-gray-400 group-hover:text-indigo-500 transition-colors" style="font-size:20px;">search</span>
+        </div>
+        <!-- Dropdown Menu -->
+        <div id="stateSearchDropdown" class="absolute top-[calc(100%+8px)] left-0 w-full bg-white border border-gray-200 rounded-xl shadow-xl overflow-hidden hidden opacity-0 transition-opacity duration-200 max-h-[300px] overflow-y-auto">
+           <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       STUNNING EMPTY STATE / CENTER SELECTOR
+  ───────────────────────────────────────── -->
+  <div id="emptyStateContainer" class="flex flex-col items-center justify-center pt-20 pb-32 w-full fade-in" style="display: none;">
+    <div class="mb-8 relative">
+      <div class="absolute inset-0 bg-indigo-500 blur-[60px] opacity-20 rounded-full scale-150"></div>
+      <div class="relative w-24 h-24 bg-gradient-to-br from-white to-indigo-50 border border-indigo-100 rounded-[2rem] flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-6 transition-transform duration-500">
+        <span class="material-symbols-outlined text-indigo-600 drop-shadow-sm" style="font-size:48px;">map</span>
+      </div>
+    </div>
+    
+    <h2 class="text-4xl font-black text-gray-900 mb-4 tracking-tight text-center relative z-10">Select Intelligence Region</h2>
+    <p class="text-[15px] text-gray-500 font-medium text-center max-w-md leading-relaxed mb-10 relative z-10">
+      Access demographic intelligence, coverage metrics, and historical election data for any State or UT.
+    </p>
+
+    <div class="relative w-full max-w-lg group z-50 mt-4">
+      <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 rounded-[1.5rem] blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-300"></div>
+      <div class="relative flex items-center bg-white/95 backdrop-blur-xl border border-white/80 rounded-2xl shadow-2xl ring-1 ring-gray-900/5 focus-within:ring-4 focus-within:ring-indigo-500/20 focus-within:border-indigo-500 transition-all p-2 h-[76px]">
+        <div class="pl-2 pr-3 flex items-center pointer-events-none z-10">
+          <div class="bg-gradient-to-br from-indigo-500 to-blue-600 p-2.5 rounded-[12px] shadow-inner shadow-white/20 flex items-center justify-center">
+             <span class="material-symbols-outlined text-white" style="font-size:26px;">travel_explore</span>
+          </div>
+        </div>
+        <input type="text" id="centerStateSearchInput" placeholder="Type a State or UT name..." class="appearance-none w-full h-full bg-transparent text-[18px] font-black text-gray-800 outline-none border-0 focus:ring-0 tracking-tight" autocomplete="off" spellcheck="false" />
+        <div class="pr-2 flex items-center pointer-events-none z-10">
+          <div class="bg-gray-50 flex items-center justify-center h-full px-3 py-2 rounded-xl border border-gray-200/60 shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)] group-hover:bg-indigo-50 group-hover:border-indigo-100 transition-colors">
+            <span class="material-symbols-outlined text-gray-400 group-hover:text-indigo-600 transition-colors" style="font-size:24px;">search</span>
+          </div>
+        </div>
+        <!-- Dropdown Menu -->
+        <div id="centerStateSearchDropdown" class="absolute top-[calc(100%+12px)] left-0 w-full bg-white/95 backdrop-blur-xl border border-gray-200/80 rounded-2xl shadow-2xl overflow-hidden hidden opacity-0 transition-opacity duration-200 max-h-[350px] overflow-y-auto">
+           <!-- Populated by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="dashboardContent" class="space-y-5" style="display: none;">
+  <!-- ─────────────────────────────────────────
+       HERO KPI STRIP — 4 cards with progress rings
+  ───────────────────────────────────────── -->
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+
+    <!-- Retro Availability -->
+    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
+      <div>
+        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Retro Data Availability</p>
+        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroRetroVal">98.76%</p>
+        <div class="prog-track w-32 mt-2"><div class="prog-fill bg-emerald-500" id="heroRetroBar" style="width:0%"></div></div>
+        <p class="text-[10px] text-gray-400 mt-1.5">Assembly + GE + By-polls</p>
+      </div>
+      <div class="relative shrink-0 ml-3">
+        <svg width="52" height="52" viewBox="0 0 36 36">
+          <circle cx="18" cy="18" r="15.9" fill="none" stroke="#f1f5f9" stroke-width="3"/>
+          <circle cx="18" cy="18" r="15.9" fill="none" stroke="#10b981" stroke-width="3"
+            stroke-linecap="round" class="ring-fill" id="heroRetroRing" stroke-dasharray="0,100"/>
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <span class="text-[9px] font-black text-emerald-600 tabular-nums" id="heroRetroRingLabel">--</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Form 20 Availability -->
+    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
+      <div>
+        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Form 20 Availability</p>
+        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroF20Val">--%</p>
+        <div class="prog-track w-32 mt-2"><div class="prog-fill bg-indigo-500" id="heroF20Bar" style="width:0%"></div></div>
+        <p class="text-[10px] text-gray-400 mt-1.5">4 election cycles</p>
+      </div>
+      <div class="relative shrink-0 ml-3">
+        <svg width="52" height="52" viewBox="0 0 36 36">
+          <circle cx="18" cy="18" r="15.9" fill="none" stroke="#f1f5f9" stroke-width="3"/>
+          <circle cx="18" cy="18" r="15.9" fill="none" stroke="#6366f1" stroke-width="3"
+            stroke-linecap="round" class="ring-fill" id="heroF20Ring" stroke-dasharray="0,100"/>
+        </svg>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <span class="text-[9px] font-black text-indigo-600 tabular-nums" id="heroF20RingLabel">--</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Total Population -->
+    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
+      <div>
+        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Total Population</p>
+        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroPopVal">--</p>
+        <p class="text-[10px] text-gray-400 mt-2">Joshua Project</p>
+        <p class="text-[11px] font-semibold text-indigo-600 mt-0.5"><span id="heroPeoplesGroups">--</span> Peoples Groups</p>
+      </div>
+      <div class="shrink-0 ml-3 w-10 h-10 rounded-full bg-indigo-50 flex items-center justify-center border border-indigo-100">
+        <span class="material-symbols-outlined text-indigo-500" style="font-size:20px;font-variation-settings:'FILL' 1;">groups</span>
+      </div>
+    </div>
+
+    <!-- Muslim Population -->
+    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
+      <div>
+        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Muslim Population</p>
+        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroMusVal">--</p>
+        <span class="chip chip-red mt-2 inline-block" id="heroMusPct">--%</span>
+        <p class="text-[10px] text-gray-400 mt-1.5">of total — Census 2011</p>
+      </div>
+      <div class="shrink-0 ml-3 w-10 h-10 rounded-full bg-rose-50 flex items-center justify-center border border-rose-100">
+        <span class="material-symbols-outlined text-rose-500" style="font-size:20px;font-variation-settings:'FILL' 1;">mosque</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SECTION 01 — RETRO DATA AVAILABILITY
+  ───────────────────────────────────────── -->
+  <div class="sec">
+    <div class="sec-head">
+      <div class="flex items-center gap-2.5">
+        <span class="sec-num">01</span>
+        <span class="sec-title">Retro Data Availability Matrices</span>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="chip chip-green">AE — Assembly</span>
+        <span class="chip chip-blue">GE — General</span>
+        <span class="chip chip-amber">BP — By-Poll</span>
+      </div>
+    </div>
+    <div class="p-4 grid grid-cols-1 lg:grid-cols-2 gap-5">
+      <!-- AE -->
+      <div onclick="openRetroModal('AE')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
+        <div class="flex items-center justify-between mb-3 shrink-0">
+          <div class="flex items-center gap-2">
+            <span class="chip chip-green text-[10px] font-bold">AE</span>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Assembly Elections</span>
+          </div>
+          <div id="retroAeSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+        </div>
+        <div class="relative w-full" style="height: 160px;">
+          <canvas id="retroAeCanvas"></canvas>
+        </div>
+        <div id="retroAeMissingContainer" class="relative w-full mt-2" style="height: 80px;">
+          <canvas id="retroAeMissingCanvas"></canvas>
+        </div>
+        <div id="retroAeNoMissingBadge" class="hidden mt-2 flex justify-center items-center h-[80px]">
+          <span class="bg-green-50 text-green-700 border border-green-200 text-[10px] px-2 py-1 rounded-full font-medium">✓ No missing ACs across all years</span>
+        </div>
+      </div>
+      <!-- GE -->
+      <div onclick="openRetroModal('GE')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
+        <div class="flex items-center justify-between mb-3 shrink-0">
+          <div class="flex items-center gap-2">
+            <span class="chip chip-blue text-[10px] font-bold">GE</span>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">General Elections</span>
+          </div>
+          <div id="retroGeSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+        </div>
+        <div class="relative w-full" style="height: 160px;">
+          <canvas id="retroGeCanvas"></canvas>
+        </div>
+        <div id="retroGeMissingContainer" class="relative w-full mt-2" style="height: 80px;">
+          <canvas id="retroGeMissingCanvas"></canvas>
+        </div>
+        <div id="retroGeNoMissingBadge" class="hidden mt-2 flex justify-center items-center h-[80px]">
+          <span class="bg-green-50 text-green-700 border border-green-200 text-[10px] px-2 py-1 rounded-full font-medium">✓ No missing ACs across all years</span>
+        </div>
+      </div>
+      <!-- AE BP -->
+      <div onclick="openRetroModal('AE-BP')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
+        <div class="flex items-center justify-between mb-3 shrink-0">
+          <div class="flex items-center gap-2">
+            <span class="chip chip-amber text-[10px] font-bold">AE-BP</span>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Assembly By-Polls</span>
+          </div>
+          <div id="retroAeBpSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+        </div>
+        <div class="relative w-full" style="height: 160px;">
+          <canvas id="retroAeBpCanvas"></canvas>
+        </div>
+        <div id="retroAeBpMissingContainer" class="relative w-full mt-2" style="height: 80px;">
+          <canvas id="retroAeBpMissingCanvas"></canvas>
+        </div>
+        <div id="retroAeBpNoMissingBadge" class="hidden mt-2 flex justify-center items-center h-[80px]">
+          <span class="bg-green-50 text-green-700 border border-green-200 text-[10px] px-2 py-1 rounded-full font-medium">✓ No missing ACs across all years</span>
+        </div>
+      </div>
+      <!-- GE BP -->
+      <div onclick="openRetroModal('GE-BP')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
+        <div class="flex items-center justify-between mb-3 shrink-0">
+          <div class="flex items-center gap-2">
+            <span class="chip chip-amber text-[10px] font-bold">GE-BP</span>
+            <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">General By-Polls</span>
+          </div>
+          <div id="retroGeBpSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+        </div>
+        <div class="relative w-full" style="height: 160px;">
+          <canvas id="retroGeBpCanvas"></canvas>
+        </div>
+        <div id="retroGeBpMissingContainer" class="relative w-full mt-2" style="height: 80px;">
+          <canvas id="retroGeBpMissingCanvas"></canvas>
+        </div>
+        <div id="retroGeBpNoMissingBadge" class="hidden mt-2 flex justify-center items-center h-[80px]">
+          <span class="bg-green-50 text-green-700 border border-green-200 text-[10px] px-2 py-1 rounded-full font-medium">✓ No missing ACs across all years</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Missing ACs -->
+    <div class="px-4 pb-4">
+      <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Missing / Unprepared ACs (Retro)</p>
+      <div class="border border-gray-100 rounded-lg overflow-hidden" style="max-height:220px;overflow-y:auto;">
+        <table class="dt">
+          <thead class="sticky top-0 bg-white shadow-sm z-10 outline outline-1 outline-gray-100">
+            <tr>
+              <th class="text-left">Election</th>
+              <th class="text-right">AC No.</th>
+              <th class="text-left">AC Name</th>
+              <th class="text-center">Status</th>
+            </tr>
+          </thead>
+          <tbody id="missingAcsTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SECTION 02 — FORM 20 DATA QUALITY
+  ───────────────────────────────────────── -->
+  <div class="sec">
+    <div class="sec-head">
+      <div class="flex items-center gap-2.5">
+        <span class="sec-num">02</span>
+        <span class="sec-title">Form 20 Data Quality &amp; Deviation</span>
+      </div>
+    </div>
+    <div class="p-4 space-y-5">
+      <!-- KPI row -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+        <div class="kpi-mini">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Availability</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="f20AvailVal">--%</p>
+          <div class="prog-track"><div class="prog-fill bg-indigo-500" id="f20AvailBar" style="width:0%"></div></div>
+        </div>
+        <div class="kpi-mini">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Quality Score</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="f20QualVal">--%</p>
+          <div class="prog-track"><div class="prog-fill bg-emerald-500" id="f20QualBar" style="width:0%"></div></div>
+        </div>
+        <div class="kpi-mini">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Missing ACs</p>
+          <p class="text-2xl font-black text-rose-600 tabular-nums" id="f20MissingVal">--</p>
+          <p class="text-[10px] text-gray-400 mt-1">across all elections</p>
+        </div>
+        <div class="kpi-mini">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Total Booths</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="f20BoothsVal">--</p>
+          <p class="text-[10px] text-gray-400 mt-1">statewide</p>
+        </div>
+      </div>
+
+      <!-- Matrices + Mismatch -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+        <!-- AE -->
+        <div>
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2 flex items-center gap-1.5"><span class="chip chip-green">AE</span> Assembly Elections</p>
+          <div class="border border-gray-100 rounded-lg overflow-x-auto">
+            <table class="mx-tbl"><thead id="f20AeHead"></thead><tbody id="f20AeBody"></tbody></table>
+          </div>
+        </div>
+        <!-- GE -->
+        <div>
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2 flex items-center gap-1.5"><span class="chip chip-blue">GE</span> General Elections</p>
+          <div class="border border-gray-100 rounded-lg overflow-x-auto">
+            <table class="mx-tbl"><thead id="f20GeHead"></thead><tbody id="f20GeBody"></tbody></table>
+          </div>
+        </div>
+        <!-- Vote mismatch Metric Card -->
+        <div class="border border-amber-100 rounded-xl p-5 shadow-[0_1px_2px_rgba(0,0,0,0.03)] flex flex-col justify-between" style="background: linear-gradient(to bottom right, #fffbeb, #fff);">
+          <div class="flex items-start justify-between mb-4">
+            <div>
+              <p class="text-[10px] font-bold text-amber-700 uppercase tracking-wider mb-1">Vote Mismatch</p>
+              <p class="text-3xl font-black text-amber-600 tabular-nums leading-none tracking-tight" id="f20VoteMismatch">--%</p>
+            </div>
+            <span class="px-2 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider bg-white text-amber-600 border border-amber-200 shadow-sm" id="f20DevCat">--</span>
+          </div>
+          
+          <div class="grid grid-cols-2 gap-3 mt-6">
+            <div class="bg-white/70 rounded-lg p-2.5 border border-amber-100/50">
+              <p class="text-[9px] font-bold text-gray-500 uppercase mb-0.5">Remarks</p>
+              <p class="text-xl font-black text-gray-900 leading-none" id="f20RemarkCount">--</p>
+            </div>
+            <div class="bg-white/70 rounded-lg p-2.5 border border-amber-100/50 flex flex-col justify-center">
+              <div class="flex justify-between items-center mb-1.5">
+                <p class="text-[8.5px] font-bold text-gray-500 uppercase">Deviation</p>
+                <p class="text-[9px] font-bold text-amber-600 tabular-nums leading-none" id="f20IndicatorLabel">--</p>
+              </div>
+              <div class="w-full bg-amber-100/50 rounded-full h-1.5 overflow-hidden">
+                <div class="h-full bg-amber-500 rounded-full transition-all duration-1000" id="f20LinearBar" style="width:0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- By-polls + Quality Remarks -->
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div>
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Unavailable By-Poll Form 20s</p>
+          <div class="border border-gray-100 rounded-lg overflow-hidden" style="max-height:220px;overflow-y:auto;">
+            <table class="dt">
+              <thead class="sticky top-0 bg-white shadow-sm z-10 outline outline-1 outline-gray-100"><tr><th class="text-left">Election</th><th class="text-right">Retro ACs</th><th class="text-right">Form 20</th></tr></thead>
+              <tbody id="f20UnavailBypolls"></tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Quality Remarks</p>
+          <div class="border border-gray-100 rounded-lg overflow-hidden" style="max-height:220px;overflow-y:auto;">
+            <table class="dt">
+              <thead class="sticky top-0 bg-white shadow-sm z-10 outline outline-1 outline-gray-100"><tr><th class="text-left">Election</th><th class="text-left">Affected ACs</th><th class="text-left">Issue</th></tr></thead>
+              <tbody id="f20QualityRemarks"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SECTION 03 — LGD / SECC / EJAL
+  ───────────────────────────────────────── -->
+  <div class="sec">
+    <div class="sec-head">
+      <div class="flex items-center gap-2.5">
+        <span class="sec-num">03</span>
+        <span class="sec-title">State Overview — LGD / SECC / eJal Shakti</span>
+      </div>
+    </div>
+    <div class="p-4 space-y-5">
+      <!-- LGD stat row -->
+      <p class="text-sm font-bold text-gray-800 border-b border-gray-300 pb-1 mb-4">LGD Snapshot<br/><span class="text-[10px] font-normal text-gray-500">Data Points : Lgd Code, Pc Name, AC Name, District, Sub-District, Village Name, Local Body Name, Ward Number, Ward Name, Block, Panchayat</span></p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL DISTRICTS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="lgdDistricts">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">Across Zones</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL VILLAGES</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="lgdVillages">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">Rural units</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL WARDS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="lgdWards">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">Urban units</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL LGD UNITS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="lgdUnits">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">All governance units</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL PANCHAYATS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="lgdPanchayats">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">Gram Panchayats</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL BLOCKS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="lgdBlocks">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">Tehsil/Talukas</p>
+        </div>
+      </div>
+
+      <!-- SECC Overview -->
+      <p class="text-sm font-bold text-gray-800 border-b border-gray-300 pb-1 mb-4 mt-8">SECC Overview</p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL HOUSEHOLDS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="seccHH">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">Surveyed households</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600 flex justify-between items-center">
+          <div>
+            <p class="text-[9px] font-bold text-gray-500 uppercase tracking-wider mb-1">SOURCE: <span class="text-orange-700">Socio Economic and Caste census</span></p>
+            <p class="text-[9px] font-bold text-gray-500 uppercase tracking-wider">RELEASE DATE <span class="text-orange-700 ml-1 text-sm">2011</span></p>
+          </div>
+          <div class="text-right">
+             <p class="text-[9px] font-bold text-gray-500 uppercase tracking-wider mb-1">DB UPDATION DATE</p>
+             <p class="text-lg font-black text-gray-900 tabular-nums">31-12-2025</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6" id="seccCoverageRow2"></div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+          <p class="text-[11px] font-bold text-gray-700 mb-2">Overall SECC Coverage%</p>
+          <div class="relative w-full" style="height: 220px;">
+             <canvas id="seccDonutChart"></canvas>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+          <p class="text-[11px] font-bold text-gray-700 mb-2">Coverage % by LGD Type</p>
+          <div class="relative w-full" style="height: 220px;">
+             <canvas id="seccBarChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- EJal Shakti Overview -->
+      <p class="text-sm font-bold text-gray-800 border-b border-gray-300 pb-1 mb-4 mt-8">EJal Shakti Overview<br/><span class="text-[10px] font-normal text-gray-500">Data Points : Lgd code, State, Village Name, Block, Panchayat, Total Pop, SC Pop, ST Pop, Gen Pop, No. of Households, Tap Connection, Habitation Name, Rural Pop</span></p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL HOUSEHOLDS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="ejalHH">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">As per 2025 projections</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600 flex justify-between items-center">
+          <div>
+            <p class="text-[9px] font-bold text-gray-500 uppercase tracking-wider mb-1">SOURCE: <br/><span class="text-orange-700 text-sm mt-1 inline-block">Ministry of Jal Shakti (GOI)</span></p>
+          </div>
+          <div class="text-right">
+             <p class="text-[9px] font-bold text-gray-500 uppercase tracking-wider mb-1">DB UPDATION DATE</p>
+             <p class="text-lg font-black text-gray-900 tabular-nums">31-12-2025</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-[11px] font-bold text-gray-700 mb-2">EJal Shakti Coverage (LGD Mapped %)</p>
+      <div class="grid grid-cols-3 md:grid-cols-6 gap-3 mb-6" id="ejalCoverageRow2"></div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+          <p class="text-[11px] font-bold text-gray-700 mb-2 border-b border-gray-300 pb-1">EJS vs SECC Coverage</p>
+          <div class="relative w-full" style="height: 250px;">
+             <canvas id="ejsVsSeccChart"></canvas>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg border border-gray-100 shadow-sm overflow-hidden" style="min-height: 350px; position: relative;">
+          <p class="absolute top-3 left-3 z-[400] text-[11px] font-bold text-gray-700 bg-white/90 px-2 py-1 rounded shadow-sm">District-wise EJal Shakti Coverage Map</p>
+          <div id="ejalMap" style="height: 350px; width: 100%; z-index: 1;"></div>
+          <!-- Legend -->
+          <div class="absolute bottom-3 left-3 z-[400] bg-white/90 rounded-lg shadow-sm p-2 text-[9px] font-semibold">
+            <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#15803d] inline-block"></span>≥ 95%</div>
+            <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#4ade80] inline-block"></span>85–95%</div>
+            <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#facc15] inline-block"></span>70–85%</div>
+            <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#fb923c] inline-block"></span>50–70%</div>
+            <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-[#ef4444] inline-block"></span>< 50%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SECTION 04 — DEMOGRAPHIC INTELLIGENCE
+  ───────────────────────────────────────── -->
+  <div class="sec">
+    <div class="sec-head">
+      <div class="flex items-center gap-2.5">
+        <span class="sec-num">04</span>
+        <span class="sec-title">Demographic Intelligence</span>
+      </div>
+    </div>
+    <div class="p-4 space-y-5">
+      
+      <!-- KPI Row -->
+      <p class="text-sm font-bold text-gray-800 border-b border-gray-300 pb-1 mb-4">JOSHUA Dataset<br/><span class="text-[10px] font-normal text-gray-500">Data Points : State, District, Population, People Groups, Primary Language, Hindu Pop, Muslim Pop, Sikh Pop, Christian Pop, Buddhist Pop, Other Religion Pop</span></p>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL DISTRICTS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="joshuaDistricts">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">All districts covered</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL POPULATION</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="joshuaPop">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">State Population</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL UNIQUE PEOPLES GROUP</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="joshuaGroups">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">State Count</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600 flex justify-between items-center">
+          <div>
+            <p class="text-[9px] font-bold text-gray-500 uppercase tracking-wider mb-1">RELEASE DATE</p>
+            <p class="text-lg font-black text-gray-900">Not Applicable</p>
+          </div>
+          <div class="text-right">
+             <p class="text-[9px] font-bold text-gray-500 uppercase tracking-wider mb-1">DB UPDATION DATE</p>
+             <p class="text-lg font-black text-gray-900 tabular-nums">08-06-2025</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-sm font-bold text-gray-800 mb-4">Population Distribution by Zone</p>
+      <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4 mb-8">
+        <div class="relative w-full" style="height: 300px;">
+          <canvas id="zoneBarChart"></canvas>
+        </div>
+      </div>
+      
+      <p class="text-sm font-bold text-gray-800 border-b border-gray-300 pb-1 mb-4">Muslim Census<br/><span class="text-[10px] font-normal text-gray-500">Data Points : State, District, Sub-District, Total Pop, Muslim Pop, Muslim Percentage</span></p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">TOTAL DISTRICTS</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="muslimDistricts">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">All Districts</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">MUSLIM POPULATION</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="muslimPop">--</p>
+          <p class="text-[10px] text-gray-500 mt-1">Total Count</p>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm p-4 border-l-[6px] border-indigo-600">
+          <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-2">% MUSLIM POPULATION</p>
+          <p class="text-2xl font-black text-gray-900 tabular-nums" id="muslimPct">--%</p>
+          <p class="text-[10px] text-gray-500 mt-1">of total population</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+          <p class="text-[11px] font-bold text-gray-700 mb-2">Muslim % of Total Population</p>
+          <div class="relative w-full" style="height: 250px;">
+             <canvas id="muslimDonutChart"></canvas>
+          </div>
+        </div>
+        <div class="bg-white rounded-lg shadow-sm border border-gray-100 p-4">
+          <p class="text-[11px] font-bold text-gray-700 mb-2">Muslim % by District (Top8)</p>
+          <div class="relative w-full" style="height: 250px;">
+             <canvas id="muslimBarChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tiered concentration Interactive Tabs -->
+      <div>
+        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-2">Muslim Concentration — Interactive Tier Analysis</p>
+        <div class="bg-white border border-gray-100 rounded-xl shadow-[0_2px_8px_-2px_rgba(0,0,0,0.05)] overflow-hidden flex flex-col md:flex-row min-h-[300px]">
+          <!-- Sidebar Tabs -->
+          <div class="w-full md:w-64 bg-gray-50 border-b md:border-b-0 md:border-r border-gray-100 p-3 space-y-1 shrink-0" id="tierTabsContainer">
+            <!-- Populated by JS -->
+          </div>
+          <!-- Content Area -->
+          <div class="flex-1 p-0 overflow-y-auto" style="max-height:360px;">
+            <table class="w-full m-0 border-collapse">
+              <thead class="sticky top-0 z-10">
+                <tr>
+                  <th class="text-left bg-white border-b-2 border-gray-100 py-3 px-5 text-[10px] font-bold text-gray-400 uppercase tracking-wider">District</th>
+                  <th class="text-right bg-white border-b-2 border-gray-100 py-3 px-5 text-[10px] font-bold text-gray-400 uppercase tracking-wider">Muslim %</th>
+                </tr>
+              </thead>
+              <tbody id="tierContentBody">
+                 <!-- Populated by JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div> <!-- End dashboardContent -->
+
+  <!-- ─────────────────────────────────────────
+       RETRO FULL SCREEN MODAL
+  ───────────────────────────────────────── -->
+  <div id="retroFullScreenModal" class="fixed inset-0 z-[100] bg-gray-900/60 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300 flex flex-col">
+    <div class="bg-white flex-1 w-full h-full transform translate-y-10 opacity-0 transition-all duration-300 shadow-2xl flex flex-col" id="retroModalContent">
+      <!-- Header -->
+      <div class="h-[72px] shrink-0 border-b border-gray-200 px-6 flex items-center justify-between bg-gray-50/80">
+        <div class="flex items-center gap-3">
+          <div class="w-10 h-10 rounded-lg bg-indigo-100 flex items-center justify-center text-indigo-600 shadow-sm border border-indigo-200">
+            <span class="material-symbols-outlined" style="font-size: 22px;">history</span>
+          </div>
+          <div>
+            <h2 class="text-xl font-black text-gray-900 leading-none" id="retroModalTitle">Retro Data Detail</h2>
+            <p class="text-[12px] font-bold text-gray-500 uppercase tracking-wider mt-1" id="retroModalSubtitle">--</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-3">
+          <button onclick="downloadRetroCsv()" class="bg-indigo-600 hover:bg-indigo-700 text-white text-[13px] font-bold px-4 py-2 rounded-lg transition-colors shadow-sm flex items-center gap-2">
+            <span class="material-symbols-outlined" style="font-size:18px;">download</span> Export CSV
+          </button>
+          <button onclick="closeRetroModal()" class="w-10 h-10 rounded-full hover:bg-gray-200 flex items-center justify-center text-gray-500 transition-colors">
+            <span class="material-symbols-outlined" style="font-size:24px;">close</span>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Body -->
+      <div class="flex-1 overflow-auto p-6 bg-white">
+        <div class="max-w-[1200px] mx-auto">
+          
+          <div class="mb-6 flex gap-4">
+             <div class="bg-gray-50 border border-gray-200 rounded-xl p-4 flex-1">
+                <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Total Elections</p>
+                <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="retroModalCount">--</p>
+             </div>
+             <div class="bg-gray-50 border border-gray-200 rounded-xl p-4 flex-1">
+                <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Average Availability</p>
+                <p class="text-3xl font-black text-indigo-600 tabular-nums leading-none" id="retroModalAvg">--%</p>
+             </div>
+             <div class="bg-gray-50 border border-gray-200 rounded-xl p-4 flex-1">
+                <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Total Missing ACs</p>
+                <p class="text-3xl font-black text-rose-600 tabular-nums leading-none" id="retroModalMissing">--</p>
+             </div>
+          </div>
+
+          <div class="border border-gray-200 rounded-xl overflow-hidden shadow-sm">
+            <table class="w-full text-left border-collapse">
+              <thead class="bg-gray-50 border-b border-gray-200">
+                <tr>
+                  <th class="py-3 px-5 text-[11px] font-bold text-gray-500 uppercase tracking-wider">Election Year</th>
+                  <th class="py-3 px-5 text-[11px] font-bold text-gray-500 uppercase tracking-wider">Availability %</th>
+                  <th class="py-3 px-5 text-[11px] font-bold text-gray-500 uppercase tracking-wider">Missing AC Count</th>
+                  <th class="py-3 px-5 text-[11px] font-bold text-gray-500 uppercase tracking-wider">Missing ACs (List)</th>
+                </tr>
+              </thead>
+              <tbody id="retroModalTbody" class="divide-y divide-gray-100 text-[13px] font-medium text-gray-700">
+                <!-- populated via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<!-- ══════════════════════════════════
+     JAVASCRIPT
+══════════════════════════════════ -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const set  = (id, v) => { const e = document.getElementById(id); if(e) e.textContent = (v !== null && v !== undefined) ? v : '--'; };
+  const html = (id, v) => { const e = document.getElementById(id); if(e) e.innerHTML = v; };
+
+  /* Show a styled no-data placeholder inside a container */
+  const noData = (id, msg = 'Data not available for this state') => {
+    const e = document.getElementById(id);
+    if(!e) return;
+    e.innerHTML = `<div class="flex flex-col items-center justify-center py-8 text-center">
+      <svg class="w-8 h-8 text-gray-300 mb-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+      <p class="text-[11px] font-semibold text-gray-400 uppercase tracking-wider">${msg}</p>
+    </div>`;
+  };
+
+  /* Show a compact no-data badge inline */
+  const noDataBadge = (id, msg = 'No data') => {
+    const e = document.getElementById(id);
+    if(!e) return;
+    e.innerHTML = `<span class="inline-flex items-center gap-1 text-[10px] font-semibold text-gray-400 bg-gray-100 rounded-full px-2 py-0.5"><svg class="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>${msg}</span>`;
+  };
+
+  /* animated progress bar */
+  const setBar = (id, pct) => {
+    const el = document.getElementById(id);
+    if(!el) return;
+    setTimeout(() => { el.style.width = Math.min(pct, 100) + '%'; }, 50);
+  };
+
+  /* animated SVG ring */
+  const setRing = (id, pct, circ=100) => {
+    const el = document.getElementById(id);
+    if(!el) return;
+    setTimeout(() => { el.setAttribute('stroke-dasharray', `${(pct/100)*circ},${circ}`); }, 80);
+  };
+
+  /* availability color class */
+  const avClass = (v) => v >= 90 ? 'av-g' : v >= 50 ? 'av-a' : 'av-r';
+
+  /* retro / retro-bp matrix */
+  window._retroCharts = window._retroCharts || [];
+  
+  const renderRetroBarChart = (matrix, canvasId, color, summaryId) => {
+    const baseId = canvasId.replace('Canvas', '');
+    const missingCanvasId = baseId + 'MissingCanvas';
+    const missingContainerId = baseId + 'MissingContainer';
+    const noMissingBadgeId = baseId + 'NoMissingBadge';
+    
+    const canvas = document.getElementById(canvasId);
+    if(!canvas) return;
+    const summaryContainer = document.getElementById(summaryId);
+    const missingContainer = document.getElementById(missingContainerId);
+    const noMissingBadge = document.getElementById(noMissingBadgeId);
+    
+    if(!matrix || !matrix.length) {
+      canvas.style.display = 'none';
+      if (missingContainer) missingContainer.style.display = 'none';
+      if(summaryContainer) summaryContainer.innerHTML = 'No data';
+      const p = document.createElement('p');
+      p.className = 'text-[10px] text-gray-400 italic absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2';
+      p.innerText = 'No historical data available.';
+      canvas.parentElement.appendChild(p);
+      return;
+    }
+
+    let allMissingZero = true;
+    let totalMissing = 0;
+    const totalYears = matrix.length;
+    let bestYear = matrix[0], worstYear = matrix[0];
+    let all100 = true;
+
+    matrix.forEach(m => {
+      if(m.availability > bestYear.availability) bestYear = m;
+      if(m.availability < worstYear.availability) worstYear = m;
+      if(m.availability < 100) all100 = false;
+      const mCount = m.missing || 0;
+      totalMissing += mCount;
+      if(mCount > 0) allMissingZero = false;
+    });
+
+    if(summaryContainer) {
+      let kpiText = '';
+      if (all100) {
+        kpiText = `<span title="All Perfect"><b class="text-green-600">All years: 100% ✓</b></span>`;
+      } else {
+        kpiText = `
+        <span title="Best Year"><span class="text-gray-400">Best:</span> <b class="text-gray-700">${bestYear.year}</b> <span class="text-gray-400">(${bestYear.availability}%)</span></span>
+        `;
+      }
+
+      summaryContainer.innerHTML = `
+        <span title="Total Years Tracked"><span class="text-gray-400">Total:</span> <b class="text-gray-700">${totalYears}</b> <span class="text-gray-400">Yrs</span></span>
+        <span class="text-gray-300">|</span>
+        ${kpiText}
+        <span class="text-gray-300">|</span>
+        <span title="Total Missing ACs"><span class="text-gray-400">Total Missing:</span> <b class="${totalMissing > 0 ? 'text-rose-600' : 'text-gray-700'}">${totalMissing}</b></span>
+      `;
+    }
+    
+    if(window.Chart) {
+      // Top Chart: Availability %
+      const chartTop = new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels: matrix.map(m => m.year),
+          datasets: [{
+            label: 'Availability %',
+            data: matrix.map(m => m.availability),
+            backgroundColor: color,
+            borderRadius: 4
+          }]
+        },
+        options: {
+          maintainAspectRatio: false,
+          plugins: { 
+            legend: { display: false },
+            tooltip: {
+               callbacks: {
+                  label: function(context) { return `Available: ${context.raw}%`; }
+               }
+            }
+          },
+          scales: {
+            x: { grid: { display: false }, ticks: { font: { size: 10 } } },
+            y: { display: true, beginAtZero: true, max: 110, ticks: { font: { size: 10 }, callback: v => v <= 100 ? v + '%' : '' } }
+          }
+        },
+        plugins: [{
+          id: 'customDataLabelsTop',
+          afterDatasetsDraw: function(chart, args, options) {
+            const ctx = chart.ctx;
+            chart.data.datasets.forEach((dataset, i) => {
+              const meta = chart.getDatasetMeta(i);
+              if (!meta.hidden) {
+                meta.data.forEach((element, index) => {
+                  const val = dataset.data[index];
+                  ctx.save();
+                  ctx.fillStyle = '#4b5563';
+                  ctx.font = 'bold 10px sans-serif';
+                  ctx.textAlign = 'center';
+                  ctx.textBaseline = 'bottom';
+                  const dataString = Number.isInteger(val) ? val + '%' : val.toFixed(1) + '%';
+                  const position = element.tooltipPosition();
+                  ctx.fillText(dataString, position.x, position.y - 8);
+                  ctx.restore();
+                });
+              }
+            });
+          }
+        }]
+      });
+      window._retroCharts.push(chartTop);
+
+      // Bottom Chart / Badge
+      if (allMissingZero) {
+        if (missingContainer) missingContainer.style.display = 'none';
+        if (noMissingBadge) noMissingBadge.classList.remove('hidden');
+      } else {
+        const missingCanvas = document.getElementById(missingCanvasId);
+        if(missingCanvas) {
+          const maxMissing = Math.max(...matrix.map(m => m.missing || 0));
+          const chartBottom = new Chart(missingCanvas, {
+            type: 'bar',
+            data: {
+              labels: matrix.map(m => m.year),
+              datasets: [{
+                label: 'Missing ACs',
+                data: matrix.map(m => m.missing || 0),
+                backgroundColor: '#fca5a5',
+                borderColor: '#dc2626',
+                borderWidth: 1,
+                borderRadius: 2
+              }]
+            },
+            options: {
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  callbacks: {
+                    label: function(context) { return `Missing ACs: ${context.raw}`; }
+                  }
+                }
+              },
+              scales: {
+                x: { display: false },
+                y: {
+                  display: true,
+                  beginAtZero: true,
+                  suggestedMax: maxMissing > 0 ? maxMissing * 1.2 : 5,
+                  ticks: { stepSize: 1, font: { size: 10 } }
+                }
+              }
+            },
+            plugins: [{
+              id: 'customDataLabelsBottom',
+              afterDatasetsDraw: function(chart, args, options) {
+                const ctx = chart.ctx;
+                chart.data.datasets.forEach((dataset, i) => {
+                  const meta = chart.getDatasetMeta(i);
+                  if (!meta.hidden) {
+                    meta.data.forEach((element, index) => {
+                      const val = dataset.data[index];
+                      if(val > 0) {
+                        ctx.save();
+                        ctx.fillStyle = '#dc2626';
+                        ctx.font = 'bold 10px sans-serif';
+                        ctx.textAlign = 'center';
+                        ctx.textBaseline = 'bottom';
+                        const position = element.tooltipPosition();
+                        ctx.fillText(val, position.x, position.y - 2);
+                        ctx.restore();
+                      }
+                    });
+                  }
+                });
+              }
+            }]
+          });
+          window._retroCharts.push(chartBottom);
+        }
+      }
+    }
+  };
+
+  /* Form 20 matrix (3 rows: avail, missing, vote mismatch) */
+  const renderF20Matrix = (matrix, headId, bodyId) => {
+    if(!matrix || !matrix.length) return;
+    let h = `<tr><th>Metric</th>`;
+    matrix.forEach(m => { h += `<th>${m.year}</th>`; });
+    h += `</tr>`;
+    html(headId, h);
+
+    let b = `<tr><td>Availability %</td>`;
+    matrix.forEach(m => { b += `<td><span class="${avClass(m.availability)}">${m.availability.toFixed(1)}%</span></td>`; });
+    b += `</tr><tr><td>Missing ACs</td>`;
+    matrix.forEach(m => {
+      b += `<td class="tabular-nums font-semibold" style="color:${m.missing > 0 ? '#b91c1c' : '#15803d'}">${m.missing}</td>`;
+    });
+    b += `</tr><tr><td>Vote Mismatch %</td>`;
+    matrix.forEach(m => {
+      const c = m.vote_mismatch > 5 ? '#b91c1c' : m.vote_mismatch > 2.5 ? '#92400e' : '#15803d';
+      b += `<td class="tabular-nums font-bold" style="color:${c}">${m.vote_mismatch.toFixed(2)}%</td>`;
+    });
+    b += `</tr>`;
+    html(bodyId, b);
+  };
+
+  /* Coverage grid cells */
+  const renderCoverage = (obj, containerId) => {
+    if(!obj || !obj.coverage_pct) return;
+    const c = obj.coverage_pct;
+    const metrics = [['Districts', c.districts], ['Villages', c.villages], ['Wards', c.wards],
+                     ['LGD Units', c.lgd_units], ['Blocks', c.blocks], ['Panchayats', c.panchayats]];
+    let h = '';
+    metrics.forEach(([label, val]) => {
+      const pct = (val || 0).toFixed(1);
+      const color = val >= 80 ? '#15803d' : val >= 40 ? '#92400e' : '#b91c1c';
+      const bg    = val >= 80 ? '#f0fdf4' : val >= 40 ? '#fffbeb' : '#fef2f2';
+      const bdr   = val >= 80 ? '#bbf7d0' : val >= 40 ? '#fde68a' : '#fecaca';
+      h += `<div class="cov-cell" style="background:${bg};border-color:${bdr};">
+        <p class="text-[9px] font-bold uppercase tracking-wider mb-1" style="color:${color};opacity:.7;">${label}</p>
+        <p class="text-sm font-black tabular-nums" style="color:${color};">${pct}%</p>
+      </div>`;
+    });
+    html(containerId, h);
+  };
+
+  /* ═══ EJAL MAP ═══ */
+  let _leafletMap = null;
+  
+  const initEjalMap = (districtData, stateAbb) => {
+    // districtData is an array of {district_name, district_code, coverage_pct}
+    window._ejalDistrictData = districtData;
+    
+    // Destroy existing map instance completely to prevent state/DOM conflicts
+    if(_leafletMap) {
+      _leafletMap.remove();
+      _leafletMap = null;
+    }
+
+    // Ensure container is clean
+    const mapContainer = document.getElementById('ejalMap');
+    if (!mapContainer) return;
+    // We don't clear innerHTML directly here, leaflet.map will use the div.
+
+    _leafletMap = L.map('ejalMap', { zoomControl: false, scrollWheelZoom: false });
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap © CARTO'
+    }).addTo(_leafletMap);
+    L.control.zoom({ position: 'bottomright' }).addTo(_leafletMap);
+
+    const getColor = pct => {
+      if(pct >= 95) return '#15803d';
+      if(pct >= 85) return '#4ade80';
+      if(pct >= 70) return '#facc15';
+      if(pct >= 50) return '#fb923c';
+      return '#ef4444';
+    };
+
+    // Normalize names: lowercase, remove non-alpha chars for fuzzy matching
+    const norm = s => (s || '').toLowerCase().replace(/[^a-z]/g, '');
+
+    // Build lookup: normalized district name -> coverage_pct
+    const distMap = {};
+    districtData.forEach(d => { distMap[norm(d.district_name)] = d.coverage_pct; });
+
+    // EXACT mapping from state_abb -> NAME_1 value in the GeoJSON
+    // (verified against https://github.com/geohacker/india/blob/master/district/india_district.geojson)
+    const stateNameMap = {
+      'AN': 'Andaman and Nicobar',
+      'AP': 'Andhra Pradesh',
+      'AR': 'Arunachal Pradesh',
+      'AS': 'Assam',
+      'BR': 'Bihar',
+      'CH': 'Chandigarh',
+      'CT': 'Chhattisgarh',
+      'CG': 'Chhattisgarh',
+      'DN': 'Dadra and Nagar Haveli',
+      'DD': 'Daman and Diu',
+      'DL': 'Delhi',
+      'GA': 'Goa',
+      'GJ': 'Gujarat',
+      'HR': 'Haryana',
+      'HP': 'Himachal Pradesh',
+      'JK': 'Jammu and Kashmir',
+      'JH': 'Jharkhand',
+      'KA': 'Karnataka',
+      'KL': 'Kerala',
+      'LD': 'Lakshadweep',
+      'MP': 'Madhya Pradesh',
+      'MH': 'Maharashtra',
+      'MN': 'Manipur',
+      'ML': 'Meghalaya',
+      'MZ': 'Mizoram',
+      'NL': 'Nagaland',
+      'OR': 'Orissa',
+      'OD': 'Orissa',
+      'PY': 'Puducherry',
+      'PB': 'Punjab',
+      'RJ': 'Rajasthan',
+      'SK': 'Sikkim',
+      'TN': 'Tamil Nadu',
+      'TS': 'Andhra Pradesh', // Telangana was part of AP in older GeoJSON
+      'TR': 'Tripura',
+      'UP': 'Uttar Pradesh',
+      'UK': 'Uttaranchal',
+      'UT': 'Uttaranchal',
+      'WB': 'West Bengal',
+      'LA': 'Jammu and Kashmir'
+    };
+
+    const targetName = stateNameMap[stateAbb] || '';
+    if (!targetName) {
+      document.getElementById('ejalMap').innerHTML =
+        '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#9ca3af;font-size:11px">State not found in map data</div>';
+      return;
+    }
+
+    fetch('https://raw.githubusercontent.com/geohacker/india/master/district/india_district.geojson')
+      .then(r => r.json())
+      .then(geo => {
+        // Filter by NAME_1 (exact state name from GeoJSON)
+        const filtered = {
+          type: 'FeatureCollection',
+          features: geo.features.filter(f => f.properties.NAME_1 === targetName)
+        };
+
+        if (filtered.features.length === 0) {
+          // If we previously had a leaflet map, we already destroyed it above, so we can just set HTML
+          document.getElementById('ejalMap').innerHTML =
+            `<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#9ca3af;font-size:11px">No boundary data for ${targetName}</div>`;
+          return;
+        }
+
+        const geojsonLayer = L.geoJSON(filtered, {
+          style: feature => {
+            // GeoJSON district name is in NAME_2
+            const dName = norm(feature.properties.NAME_2 || '');
+            const pct = distMap[dName] || 0;
+            return {
+              fillColor: getColor(pct),
+              fillOpacity: 0.75,
+              color: '#ffffff',
+              weight: 1.5
+            };
+          },
+          onEachFeature: (feature, layer) => {
+            const dName = feature.properties.NAME_2 || 'Unknown';
+            const pct = distMap[norm(dName)] || 0;
+            const colorStr = getColor(pct);
+            layer.bindTooltip(
+              `<strong style="font-size:11px;display:block;margin-bottom:2px">${dName}</strong>` +
+              `<span style="color:${colorStr};font-weight:700;font-size:12px">${pct}%</span>` +
+              `<span style="color:#6b7280;font-size:10px"> Coverage</span>`,
+              { sticky: true, direction: 'top', offset: [0, -4] }
+            );
+            layer.on('mouseover', function() { this.setStyle({ fillOpacity: 1, weight: 2.5, color: '#374151' }); });
+            layer.on('mouseout',  function() { this.setStyle({ fillOpacity: 0.75, weight: 1.5, color: '#ffffff' }); });
+          }
+        }).addTo(_leafletMap);
+
+        _leafletMap.fitBounds(geojsonLayer.getBounds(), { padding: [0, 0], maxZoom: 9 });
+        setTimeout(() => _leafletMap.zoomIn(1), 400);
+      })
+      .catch(err => {
+        console.error('GeoJSON load error:', err);
+        document.getElementById('ejalMap').innerHTML =
+          '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:#9ca3af;font-size:11px">Failed to load map boundaries</div>';
+      });
+  };
+
+  /* ══ Main render ══ */
+  const renderDashboard = (d) => {
+    if(!d) return;
+
+    /* HERO */
+    if(d.hero) {
+      const rv = d.hero.retro_availability_pct;
+      set('heroRetroVal', rv + '%');
+      set('heroRetroRingLabel', rv + '%');
+      setBar('heroRetroBar', rv);
+      setRing('heroRetroRing', rv);
+    }
+    if(d.form20) {
+      const fv = d.form20.availability_pct;
+      set('heroF20Val', fv + '%');
+      set('heroF20RingLabel', fv + '%');
+      setBar('heroF20Bar', fv);
+      setRing('heroF20Ring', fv);
+    }
+    if(d.demographics?.joshua) {
+      set('heroPopVal', d.demographics.joshua.population);
+      set('heroPeoplesGroups', d.demographics.joshua.unique_peoples_group);
+    }
+    if(d.demographics?.muslim_census) {
+      set('heroMusVal', d.demographics.muslim_census.population);
+      set('heroMusPct', d.demographics.muslim_census.pct + '%');
+    }
+
+    /* RETRO */
+    if(d.retro) {
+      // Clear previous charts
+      if(window._retroCharts) {
+        window._retroCharts.forEach(c => c.destroy());
+        window._retroCharts = [];
+      }
+      
+      // Remove any previously appended "No data" paragraphs
+      ['retroAeCanvas', 'retroGeCanvas', 'retroAeBpCanvas', 'retroGeBpCanvas'].forEach(id => {
+         const canvas = document.getElementById(id);
+         if(canvas) {
+           canvas.style.display = 'block';
+           const sibs = Array.from(canvas.parentElement.children);
+           sibs.forEach(sib => { if(sib.tagName === 'P') sib.remove(); });
+         }
+      });
+
+      renderRetroBarChart(d.retro.matrix_ae, 'retroAeCanvas', '#16a34a', 'retroAeSummary'); // green
+      renderRetroBarChart(d.retro.matrix_ge, 'retroGeCanvas', '#2563eb', 'retroGeSummary'); // blue
+      renderRetroBarChart(d.retro.matrix_ae_bp, 'retroAeBpCanvas', '#d97706', 'retroAeBpSummary'); // amber
+      renderRetroBarChart(d.retro.matrix_ge_bp, 'retroGeBpCanvas', '#d97706', 'retroGeBpSummary'); // amber
+
+      if(d.retro.missing_acs) {
+        let rows = '';
+        d.retro.missing_acs.forEach(m => {
+          rows += `<tr>
+            <td class="font-semibold text-indigo-700 whitespace-nowrap">${m.el_type}</td>
+            <td class="text-right tabular-nums text-gray-500">${m.ac_no}</td>
+            <td>${m.ac_name}</td>
+            <td class="text-center"><span class="chip chip-red">${m.status}</span></td>
+          </tr>`;
+        });
+        html('missingAcsTable', rows);
+      }
+    }
+
+    /* FORM 20 */
+    if(d.form20) {
+      const f = d.form20;
+      set('f20AvailVal',   f.availability_pct + '%');
+      set('f20QualVal',    f.overall_quality_score + '%');
+      set('f20MissingVal', f.missing_acs_count);
+      set('f20BoothsVal',  f.total_booths);
+      set('f20VoteMismatch', f.vote_mismatch_pct + '%');
+      set('f20DevCat',     f.deviation_cat);
+      set('f20RemarkCount', f.remark_count);
+      set('f20IndicatorLabel', f.vote_mismatch_pct + '%');
+      setBar('f20AvailBar', f.availability_pct);
+      setBar('f20QualBar',  f.overall_quality_score);
+      /* mismatch linear bar: scale 0-10% -> 0-100% of bar */
+      setBar('f20LinearBar', Math.min(f.vote_mismatch_pct * 10, 100));
+
+      renderF20Matrix(f.matrix_ae, 'f20AeHead', 'f20AeBody');
+      renderF20Matrix(f.matrix_ge, 'f20GeHead', 'f20GeBody');
+
+      if(f.unavailable_bypolls && f.unavailable_bypolls.length > 0) {
+        let rows = '';
+        f.unavailable_bypolls.forEach(b => {
+          rows += `<tr>
+            <td class="font-semibold text-indigo-700 whitespace-nowrap">${b.el_type}</td>
+            <td class="text-right tabular-nums font-bold text-slate-700">${b.count}</td>
+            <td class="text-right"><span class="inline-block text-[9px] font-bold uppercase px-1.5 py-0.5 rounded bg-rose-100 text-rose-600">Unavailable</span></td>
+          </tr>`;
+        });
+        html('f20UnavailBypolls', rows);
+      } else {
+        html('f20UnavailBypolls', `<tr><td colspan="3" class="text-center text-[11px] text-gray-400 py-4">No by-poll elections found for this state</td></tr>`);
+      }
+      if(f.quality_remarks) {
+        let rows = '';
+        f.quality_remarks.forEach(r => {
+          rows += `<tr>
+            <td class="font-semibold text-indigo-700 whitespace-nowrap">${r.el_type}</td>
+            <td class="text-gray-500 text-[10px]" style="max-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;" title="${r.acs}">${r.acs}</td>
+            <td class="text-rose-600 text-[11px] font-medium">${r.issues}</td>
+          </tr>`;
+        });
+        html('f20QualityRemarks', rows);
+      }
+    }
+
+    /* OVERVIEW */
+    if(d.overview) {
+      /* LGD */
+      if(d.overview.lgd && d.overview.lgd.districts) {
+        const l = d.overview.lgd;
+        set('lgdDistricts', l.districts); set('lgdVillages', l.villages);
+        set('lgdWards', l.wards); set('lgdUnits', l.lgd_units);
+        set('lgdPanchayats', l.panchayats); set('lgdBlocks', l.blocks);
+      } else {
+        ['lgdDistricts','lgdVillages','lgdWards','lgdUnits','lgdPanchayats','lgdBlocks']
+          .forEach(id => set(id, 'N/A'));
+        noDataBadge('lgdDistricts', 'LGD data not available for this state');
+      }
+
+      /* SECC */
+      if(d.overview.secc && d.overview.secc.households) {
+        set('seccHH', d.overview.secc.households);
+        renderCoverage(d.overview.secc, 'seccCoverageRow2');
+      } else {
+        set('seccHH', 'N/A');
+        noData('seccCoverageRow2', 'SECC data not available for this state');
+      }
+
+      /* EJal */
+      if(d.overview.ejal && d.overview.ejal.households) {
+        set('ejalHH', d.overview.ejal.households);
+        renderCoverage(d.overview.ejal, 'ejalCoverageRow2');
+        if(d.overview.ejal.districts && d.overview.ejal.districts.length > 0) {
+          initEjalMap(d.overview.ejal.districts, window._currentState);
+        } else {
+          // Destroy map before showing error
+          if(_leafletMap) { _leafletMap.remove(); _leafletMap = null; }
+          
+          const mapEl = document.getElementById('ejalMap');
+          if(mapEl) mapEl.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:8px;">
+            <svg style="width:32px;height:32px;color:#d1d5db" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+            <p style="font-size:11px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.05em">District-level EJal data not available</p>
+          </div>`;
+        }
+      } else {
+        set('ejalHH', 'N/A');
+        noData('ejalCoverageRow2', 'EJal Shakti data not available for this state');
+        
+        if(_leafletMap) { _leafletMap.remove(); _leafletMap = null; }
+        
+        const mapEl = document.getElementById('ejalMap');
+        if(mapEl) mapEl.innerHTML = `<div style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;gap:8px;">
+          <svg style="width:32px;height:32px;color:#d1d5db" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+          <p style="font-size:11px;font-weight:600;color:#9ca3af;text-transform:uppercase;letter-spacing:0.05em">EJal Shakti data not available for this state</p>
+        </div>`;
+      }
+    } else {
+      noData('seccCoverageRow2', 'Overview data not available');
+      noData('ejalCoverageRow2', 'Overview data not available');
+    }
+
+    /* DEMOGRAPHICS */
+    if(d.demographics) {
+      /* Joshua project */
+      if(d.demographics.joshua && d.demographics.joshua.population) {
+        set('joshuaDistricts', d.demographics.joshua.districts);
+        set('joshuaPop',       d.demographics.joshua.population);
+        set('joshuaGroups',    d.demographics.joshua.unique_peoples_group);
+      } else {
+        set('joshuaPop', 'N/A'); set('joshuaGroups', 'N/A');
+      }
+
+      /* Zone table */
+      if(d.demographics.zone_distribution && d.demographics.zone_distribution.length > 0) {
+        let h = '';
+        d.demographics.zone_distribution.forEach(z => {
+          h += `<tr><td class="font-medium text-gray-800">${z.zone}</td><td class="text-right tabular-nums text-gray-600">${z.pop.toLocaleString()}</td></tr>`;
+        });
+        html('zoneTableBody', h);
+      } else {
+        html('zoneTableBody', `<tr><td colspan="2" class="py-6 text-center text-[11px] font-semibold text-gray-400 uppercase tracking-wider">Zone data not available</td></tr>`);
+      }
+
+      /* Muslim census */
+      if(d.demographics.muslim_census && d.demographics.muslim_census.population) {
+        set('muslimDistricts', d.demographics.muslim_census.districts);
+        set('muslimPop',       d.demographics.muslim_census.population);
+        set('muslimPct',       d.demographics.muslim_census.pct + '%');
+      } else {
+        set('muslimPop', 'N/A'); set('muslimPct', 'N/A');
+      }
+
+      /* Top 8 muslim districts table */
+      if(d.demographics.top_muslim_districts && d.demographics.top_muslim_districts.length > 0) {
+        let h = '';
+        d.demographics.top_muslim_districts.forEach(dist => {
+          h += `<tr><td class="font-medium text-gray-800">${dist.district}</td><td class="text-right tabular-nums font-bold text-teal-600">${dist.pct}%</td></tr>`;
+        });
+        html('top8MuslimTableBody', h);
+      } else {
+        html('top8MuslimTableBody', `<tr><td colspan="2" class="py-6 text-center text-[11px] font-semibold text-gray-400 uppercase tracking-wider">District data not available</td></tr>`);
+      }
+
+      /* Tiered concentration Interactive Tabs */
+      if(d.demographics.tiered_concentration) {
+        window.tieredDataCache = d.demographics.tiered_concentration;
+        
+        const tiers = [
+          { key:'very_high', label:'>15% Very High', activeBg:'bg-rose-100/60', activeText:'text-rose-800', badge:'text-rose-600', dot:'bg-rose-500' },
+          { key:'high',      label:'10-15% High',    activeBg:'bg-orange-100/60', activeText:'text-orange-800', badge:'text-orange-600', dot:'bg-orange-500' },
+          { key:'moderate',  label:'5-10% Moderate', activeBg:'bg-blue-100/60', activeText:'text-blue-800', badge:'text-blue-600', dot:'bg-blue-500' },
+          { key:'low',       label:'<5% Low',        activeBg:'bg-teal-100/60', activeText:'text-teal-800', badge:'text-teal-600', dot:'bg-teal-500' },
+        ];
+        
+        window.renderTierTab = (selectedKey) => {
+          let tabsHtml = '';
+          tiers.forEach(t => {
+            const arr = window.tieredDataCache[t.key] || [];
+            const isActive = t.key === selectedKey;
+            const bgClass = isActive ? t.activeBg + ' shadow-sm border border-black/5' : 'hover:bg-gray-200/50 border border-transparent';
+            const txtClass = isActive ? t.activeText : 'text-gray-600';
+            const fw = isActive ? 'font-black' : 'font-semibold';
+            
+            tabsHtml += `
+              <button onclick="renderTierTab('${t.key}')" class="w-full flex items-center justify-between px-3 py-2.5 rounded-lg transition-all ${bgClass} text-left outline-none focus:ring-2 focus:ring-indigo-500/30">
+                <div class="flex items-center gap-2.5">
+                  <span class="w-2 h-2 rounded-full ${t.dot}"></span>
+                  <span class="text-[11px] ${fw} ${txtClass} uppercase tracking-wider">${t.label}</span>
+                </div>
+                <span class="text-[10px] font-bold bg-white px-1.5 py-0.5 rounded shadow-sm ${t.badge} border border-black/5 tabular-nums">${arr.length}</span>
+              </button>
+            `;
+          });
+          html('tierTabsContainer', tabsHtml);
+          
+          let bodyHtml = '';
+          const activeArr = window.tieredDataCache[selectedKey] || [];
+          if(activeArr.length === 0) {
+            bodyHtml = `<tr><td colspan="2" class="text-center py-10 text-[11px] font-medium text-gray-400 uppercase tracking-widest">No districts in this tier</td></tr>`;
+          } else {
+            const tConf = tiers.find(x => x.key === selectedKey);
+            activeArr.forEach(item => {
+              bodyHtml += `
+                <tr class="hover:bg-gray-50/80 transition-colors group">
+                  <td class="py-2.5 px-5 border-b border-gray-100 text-[11.5px] font-bold text-gray-800 transition-colors group-hover:text-black">${item.district}</td>
+                  <td class="py-2.5 px-5 border-b border-gray-100 text-right">
+                    <div class="inline-flex items-center justify-end gap-3 w-full">
+                      <div class="w-24 bg-gray-100 rounded-full h-1.5 overflow-hidden hidden sm:block">
+                        <div class="h-full rounded-full ${tConf.dot}" style="width:${Math.min(item.pct,100)}%;"></div>
+                      </div>
+                      <span class="tabular-nums font-black text-[12px] ${tConf.badge} w-10 text-right">${item.pct}%</span>
+                    </div>
+                  </td>
+                </tr>
+              `;
+            });
+          }
+          html('tierContentBody', bodyHtml);
+        };
+        
+        // Initial render
+        window.renderTierTab('very_high');
+      }
+    }
+
+    /* Render Charts */
+    if(window.Chart) {
+      Chart.defaults.font.family = 'Inter';
+
+      // Replace canvases entirely to avoid Chart.js "canvas already in use" error
+      ['seccDonutChart','seccBarChart','ejsVsSeccChart','zoneBarChart','muslimDonutChart','muslimBarChart'].forEach(id => {
+        const old = document.getElementById(id);
+        if(old) { const fresh = document.createElement('canvas'); fresh.id = id; old.parentNode.replaceChild(fresh, old); }
+      });
+
+      if(d.overview?.secc) {
+        const seccVal = d.overview.secc.coverage_pct?.lgd_units || 0;
+        window._seccDonut = new Chart(document.getElementById('seccDonutChart'), {
+          type: 'doughnut',
+          data: {
+            labels: ['Covered', 'Not Covered'],
+            datasets: [{ data: [seccVal, 100-seccVal], backgroundColor: ['#4ade80', '#d1d5db'], borderWidth: 0 }]
+          },
+          options: { maintainAspectRatio: false, cutout: '75%', plugins: { legend: { position: 'bottom', labels: { usePointStyle: true, boxWidth: 8 } } } }
+        });
+        
+        const sc = d.overview.secc.coverage_pct;
+        window._seccBar = new Chart(document.getElementById('seccBarChart'), {
+          type: 'bar',
+          data: {
+            labels: ['Villages', 'Panchayat', 'Block', 'District', 'Wards'],
+            datasets: [{
+              data: [sc.villages, sc.panchayats, sc.blocks, sc.districts, sc.wards],
+              backgroundColor: '#7c3aed'
+            }]
+          },
+          options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, max: 100 } } }
+        });
+      }
+      
+      if(d.overview?.ejal && d.overview?.secc) {
+          const ec = d.overview.ejal.coverage_pct;
+          const sc = d.overview.secc.coverage_pct;
+          window._ejsBar = new Chart(document.getElementById('ejsVsSeccChart'), {
+          type: 'bar',
+          data: {
+            labels: ['Districts', 'Villages', 'Wards', 'Blocks', 'Panchayat'],
+            datasets: [
+              { label: 'SECC', data: [sc.districts, sc.villages, sc.wards, sc.blocks, sc.panchayats], backgroundColor: '#7c3aed' },
+              { label: 'EJal', data: [ec.districts, ec.villages, ec.wards, ec.blocks, ec.panchayats], backgroundColor: '#0ea5e9' }
+            ]
+          },
+          options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: { y: { beginAtZero: true, max: 100 } } }
+        });
+      }
+
+      try {
+        if(d.demographics?.zone_distribution && d.demographics.zone_distribution.length > 0) {
+            const zones = d.demographics.zone_distribution;
+            const colors = ['#ef4444', '#eab308', '#22c55e', '#14b8a6', '#3b82f6', '#f97316', '#a855f7', '#64748b'];
+            window._zoneBar = new Chart(document.getElementById('zoneBarChart'), {
+            type: 'bar',
+            data: {
+              labels: zones.map(z => z.zone),
+              datasets: [{
+                data: zones.map(z => z.pop),
+                backgroundColor: zones.map((z, i) => colors[i % colors.length])
+              }]
+            },
+            options: { plugins: { legend: { display: false } }, maintainAspectRatio: false }
+          });
+        }
+      } catch(e) { console.warn('Zone chart error:', e); }
+
+      if(d.demographics.muslim_census) {
+          const mPct = d.demographics.muslim_census.pct;
+          window._muslimDonut = new Chart(document.getElementById('muslimDonutChart'), {
+          type: 'doughnut',
+          data: {
+            labels: ['Muslim', 'Others'],
+            datasets: [{ data: [mPct, 100-mPct], backgroundColor: ['#0f766e', '#d1d5db'], borderWidth: 0 }]
+          },
+          options: { maintainAspectRatio: false, cutout: '75%', plugins: { legend: { position: 'bottom', labels: { usePointStyle: true, boxWidth: 8 } } } }
+        });
+        
+        if(d.demographics.top_muslim_districts) {
+            const top8 = d.demographics.top_muslim_districts;
+            window._muslimBar = new Chart(document.getElementById('muslimBarChart'), {
+            type: 'bar',
+            data: {
+              labels: top8.map(x => x.district),
+              datasets: [{ data: top8.map(x => x.pct), backgroundColor: '#0f766e' }]
+            },
+            options: { maintainAspectRatio: false, indexAxis: 'y', plugins: { legend: { display: false } } }
+          });
+        }
+      }
+    }
+  };
+
+
+  /* ══ FETCH STATES & INIT ══ */
+  const loadStates = async () => {
+    try {
+      const res = await fetch('/api/filters');
+      const data = await res.json();
+      if(data.state_names) {
+        window.stateNameCache = data.state_names; // Cache for title updates
+        
+        // Sort states alphabetically safely handling nulls
+        const sortedStates = Object.keys(data.state_names).sort((a,b) => {
+          const nameA = data.state_names[a] || a || '';
+          const nameB = data.state_names[b] || b || '';
+          return nameA.localeCompare(nameB);
+        });
+        
+        // Build global list for autocomplete
+        window._statesList = [];
+        sortedStates.forEach(k => {
+          if(!k || k === 'null') return;
+          window._statesList.push({ code: k, name: data.state_names[k] || k });
+        });
+        
+        setupAutocomplete('stateSearchInput', 'stateSearchDropdown', 'topStateSelectorWrapper');
+        setupAutocomplete('centerStateSearchInput', 'centerStateSearchDropdown', 'emptyStateContainer');
+        
+        // Check URL for existing state
+        const urlParams = new URLSearchParams(window.location.search);
+        let defaultState = urlParams.get('state_abb');
+        
+        if(defaultState && sortedStates.includes(defaultState)) {
+          const stateName = data.state_names[defaultState] || defaultState;
+          const topInp = document.getElementById('stateSearchInput');
+          const cenInp = document.getElementById('centerStateSearchInput');
+          if(topInp) topInp.value = stateName;
+          if(cenInp) cenInp.value = stateName;
+          loadData(defaultState);
+        } else {
+          // Empty State mode
+          const mainTitle = document.getElementById('mainStateTitle');
+          if(mainTitle) mainTitle.innerText = "State Report";
+          const dash = document.getElementById('dashboardContent');
+          const empty = document.getElementById('emptyStateContainer');
+          const topWrapper = document.getElementById('topStateSelectorWrapper');
+          if(dash) dash.style.display = 'none';
+          if(empty) empty.style.display = 'flex';
+          if(topWrapper) topWrapper.style.display = 'none';
+        }
+      }
+    } catch(e) { console.error('Failed to load states', e); }
+  };
+
+  const setupAutocomplete = (inputId, dropdownId, wrapperId) => {
+    const input = document.getElementById(inputId);
+    const dropdown = document.getElementById(dropdownId);
+    if(!input || !dropdown) return;
+
+    // Render list
+    const renderList = (filterText = '') => {
+      const q = filterText.toLowerCase().trim();
+      const matches = window._statesList.filter(s => s.name.toLowerCase().includes(q) || s.code.toLowerCase().includes(q));
+      
+      if(matches.length === 0) {
+        dropdown.innerHTML = `<div class="p-4 text-center text-gray-500 text-sm font-medium">No states found matching "${filterText}"</div>`;
+        return;
+      }
+
+      let html = '';
+      matches.forEach(s => {
+        html += `<div class="state-opt px-4 py-3 hover:bg-indigo-50 border-b border-gray-100 last:border-0 cursor-pointer flex items-center justify-between group transition-colors" data-code="${s.code}">
+          <span class="font-bold text-gray-800 group-hover:text-indigo-700 text-[14px]">${s.name}</span>
+          <span class="text-[10px] font-bold text-gray-400 bg-gray-100 group-hover:bg-indigo-100/50 group-hover:text-indigo-500 px-2 py-0.5 rounded tracking-wider uppercase">${s.code}</span>
+        </div>`;
+      });
+      dropdown.innerHTML = html;
+
+      // Add click handlers
+      dropdown.querySelectorAll('.state-opt').forEach(el => {
+        el.addEventListener('click', (e) => {
+          e.stopPropagation(); // prevent document click from firing immediately
+          const code = el.getAttribute('data-code');
+          const name = el.querySelector('span').innerText;
+          
+          // Sync both inputs
+          const topInp = document.getElementById('stateSearchInput');
+          const cenInp = document.getElementById('centerStateSearchInput');
+          if(topInp) topInp.value = name;
+          if(cenInp) cenInp.value = name;
+          
+          closeAllDropdowns();
+          loadData(code);
+        });
+      });
+    };
+
+    input.addEventListener('focus', () => {
+      closeAllDropdowns();
+      dropdown.classList.remove('hidden');
+      setTimeout(() => dropdown.classList.remove('opacity-0'), 10);
+      renderList(input.value);
+    });
+
+    input.addEventListener('input', (e) => {
+      dropdown.classList.remove('hidden');
+      dropdown.classList.remove('opacity-0');
+      renderList(e.target.value);
+    });
+    
+    // Select all text on focus
+    input.addEventListener('click', () => {
+      input.select();
+    });
+  };
+
+  const closeAllDropdowns = () => {
+    const d1 = document.getElementById('stateSearchDropdown');
+    const d2 = document.getElementById('centerStateSearchDropdown');
+    if(d1 && !d1.classList.contains('hidden')) { d1.classList.add('opacity-0'); setTimeout(() => d1.classList.add('hidden'), 200); }
+    if(d2 && !d2.classList.contains('hidden')) { d2.classList.add('opacity-0'); setTimeout(() => d2.classList.add('hidden'), 200); }
+  };
+
+  document.addEventListener('click', (e) => {
+    if(!e.target.closest('#topStateSelectorWrapper') && !e.target.closest('#emptyStateContainer')) {
+      closeAllDropdowns();
+    }
+  });
+
+  /* ══ FETCH ══ */
+  const loadData = async (state) => {
+    if(!state) return;
+    window._currentState = state;
+    
+    // Sync both inputs
+    const stateName = (window.stateNameCache && window.stateNameCache[state]) ? window.stateNameCache[state] : state;
+    const topInp = document.getElementById('stateSearchInput');
+    const cenInp = document.getElementById('centerStateSearchInput');
+    if(topInp && topInp.value !== stateName) topInp.value = stateName;
+    if(cenInp && cenInp.value !== stateName) cenInp.value = stateName;
+
+    // Update URL to match selected state without reloading page
+    const newUrl = new URL(window.location);
+    newUrl.searchParams.set('state_abb', state);
+    window.history.replaceState({}, '', newUrl);
+
+    // Show Dashboard
+    const dash = document.getElementById('dashboardContent');
+    const empty = document.getElementById('emptyStateContainer');
+    const topWrapper = document.getElementById('topStateSelectorWrapper');
+    if(empty) empty.style.display = 'none';
+    if(dash) dash.style.display = 'block';
+    if(topWrapper) topWrapper.style.display = 'flex';
+
+    // Update main header title
+    if(window.stateNameCache && window.stateNameCache[state]) {
+      const titleEl = document.getElementById('mainStateTitle');
+      if(titleEl) titleEl.innerText = window.stateNameCache[state];
+    }
+    
+    try {
+      const res = await fetch(`/api/state_glance/data?state_abb=${state}`);
+      const result = await res.json();
+      if(result.success && result.data) renderDashboard(result.data);
+      else console.error('No data for', state);
+    } catch(e) { console.error('Load error:', e); }
+  };
+
+  window._currentRetroModalData = null;
+  window._currentRetroModalType = null;
+  
+  window.openRetroModal = (type) => {
+    if(!window._currentData || !window._currentData.retro) return;
+    const retro = window._currentData.retro;
+    
+    let matrix = [];
+    let title = '';
+    if(type === 'AE') { matrix = retro.matrix_ae || []; title = 'Assembly Elections'; }
+    if(type === 'GE') { matrix = retro.matrix_ge || []; title = 'General Elections'; }
+    if(type === 'AE-BP') { matrix = retro.matrix_ae_bp || []; title = 'Assembly By-Polls'; }
+    if(type === 'GE-BP') { matrix = retro.matrix_ge_bp || []; title = 'General By-Polls'; }
+
+    window._currentRetroModalData = matrix;
+    window._currentRetroModalType = type;
+
+    document.getElementById('retroModalTitle').innerText = title;
+    document.getElementById('retroModalSubtitle').innerText = (window.stateNameCache && window._currentState) ? window.stateNameCache[window._currentState] : window._currentState;
+
+    let totalAvail = 0;
+    let totalMissing = 0;
+    let tbodyHtml = '';
+
+    matrix.forEach(m => {
+      totalAvail += m.availability || 0;
+      totalMissing += m.missing || 0;
+      
+      let badgeHtml = m.availability >= 90 ? `<span class="bg-green-100 text-green-700 px-2 py-0.5 rounded text-[11px] font-bold">${m.availability}%</span>` :
+                      m.availability >= 50 ? `<span class="bg-amber-100 text-amber-700 px-2 py-0.5 rounded text-[11px] font-bold">${m.availability}%</span>` :
+                      `<span class="bg-rose-100 text-rose-700 px-2 py-0.5 rounded text-[11px] font-bold">${m.availability}%</span>`;
+                      
+      let missingList = m.missing_acs && m.missing_acs.length > 0 ? m.missing_acs.join(', ') : '<span class="text-gray-400 italic">None</span>';
+
+      tbodyHtml += `
+        <tr class="hover:bg-gray-50">
+          <td class="py-3 px-5 font-bold">${m.year}</td>
+          <td class="py-3 px-5">${badgeHtml}</td>
+          <td class="py-3 px-5 text-rose-600 font-bold">${m.missing || 0}</td>
+          <td class="py-3 px-5 text-[11px] text-gray-500 max-w-md truncate" title="${missingList.replace(/"/g, '&quot;')}">${missingList}</td>
+        </tr>
+      `;
+    });
+
+    if(matrix.length === 0) {
+      tbodyHtml = `<tr><td colspan="4" class="py-8 text-center text-gray-400 text-sm">No historical data available for this election type.</td></tr>`;
+    }
+
+    document.getElementById('retroModalTbody').innerHTML = tbodyHtml;
+    document.getElementById('retroModalCount').innerText = matrix.length;
+    document.getElementById('retroModalAvg').innerText = matrix.length > 0 ? (totalAvail / matrix.length).toFixed(1) + '%' : '0%';
+    document.getElementById('retroModalMissing').innerText = totalMissing;
+
+    const modal = document.getElementById('retroFullScreenModal');
+    const content = document.getElementById('retroModalContent');
+    modal.classList.remove('opacity-0', 'pointer-events-none');
+    setTimeout(() => {
+      content.classList.remove('translate-y-10', 'opacity-0');
+    }, 10);
+  };
+
+  window.closeRetroModal = () => {
+    const modal = document.getElementById('retroFullScreenModal');
+    const content = document.getElementById('retroModalContent');
+    content.classList.add('translate-y-10', 'opacity-0');
+    setTimeout(() => {
+      modal.classList.add('opacity-0', 'pointer-events-none');
+    }, 300);
+  };
+
+  window.downloadRetroCsv = () => {
+    if(!window._currentRetroModalData || window._currentRetroModalData.length === 0) {
+      alert("No data available to export.");
+      return;
+    }
+    let csv = "Election Year,Availability %,Missing AC Count,Missing ACs\n";
+    window._currentRetroModalData.forEach(m => {
+      let missingList = m.missing_acs && m.missing_acs.length > 0 ? m.missing_acs.join('; ') : '';
+      csv += `${m.year},${m.availability},${m.missing || 0},"${missingList}"\n`;
+    });
+    
+    const blob = new Blob([csv], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    const stateName = (window.stateNameCache && window._currentState) ? window.stateNameCache[window._currentState] : window._currentState;
+    link.setAttribute("href", url);
+    link.setAttribute("download", `Retro_Data_${stateName}_${window._currentRetroModalType}.csv`);
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
+  const sel = document.getElementById('stateSelector');
+  const centerSel = document.getElementById('centerStateSelector');
+  if(sel) { sel.addEventListener('change', e => loadData(e.target.value)); }
+  if(centerSel) { centerSel.addEventListener('change', e => loadData(e.target.value)); }
+  
+  // Kick off initialization
+  loadStates();
+});
+</script>
+</body>
+</html>

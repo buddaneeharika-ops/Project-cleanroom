@@ -2391,6 +2391,58 @@ def get_other_sources_data(force_refresh=False):
     return results
 
 
+
+@app.route('/state-glance-report')
+@login_required
+def state_glance_report_page():
+    user = session.get('user')
+    return render_template('state_glance_report.html', user=user)
+
+@app.route('/api/state_glance/data')
+def api_state_glance_data():
+    state_abb = request.args.get('state_abb', 'BR').upper().strip()
+    
+    import os, json, redis
+    
+    # 1. Try Redis First
+    try:
+        REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
+        REDIS_PORT = int(os.environ.get('REDIS_PORT', 6379))
+        redis_client = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=0, decode_responses=True, socket_connect_timeout=2)
+        
+        cached_data = redis_client.get(f'state_glance:{state_abb}')
+        if cached_data:
+            return jsonify({
+                "success": True,
+                "data": json.loads(cached_data),
+                "source": "redis"
+            })
+    except Exception as e:
+        print(f"Redis fetch failed for {state_abb}, falling back to JSON: {e}")
+        
+    # 2. Fallback to JSON file
+    cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'state_glance_cache.json')
+    if os.path.exists(cache_path):
+        try:
+            with open(cache_path, 'r', encoding='utf-8') as f:
+                all_data = json.load(f)
+            
+            if state_abb in all_data:
+                return jsonify({
+                    "success": True,
+                    "data": all_data[state_abb],
+                    "source": "json_fallback"
+                })
+        except Exception as e:
+            print(f"Error reading state_glance_cache.json: {e}")
+            
+    # 3. Ultimate Fallback if not generated yet or missing
+    return jsonify({
+        "success": False,
+        "data": None,
+        "source": "none"
+    })
+
 @app.route('/api/country_glance_report/data')
 @app.route('/api/country_glance_test/data', endpoint='api_country_glance_test_data')
 def api_country_glance_test():
