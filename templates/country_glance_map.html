@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Country Glance Map | Project CleanRoom</title>
+  <title>Glance Report - Country Map</title>
   <link rel="icon" href="/static/favicon.png" type="image/png">
 
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
@@ -137,9 +137,9 @@
     /* ── Analytics Panel ── */
     #analytics-panel {
       position: fixed;
-      top: 48px; right: 0;
+      top: 56px; right: 0;
       width: 380px;
-      height: calc(100vh - 48px);
+      height: calc(100vh - 56px);
       background: rgba(255, 255, 255, 0.97);
       backdrop-filter: blur(16px);
       -webkit-backdrop-filter: blur(16px);
@@ -193,51 +193,39 @@
 <!-- ═══════════════════════════════════════════
      TOP NAVIGATION — exact match to index.html
 ═══════════════════════════════════════════ -->
-<nav class="fixed top-0 left-0 w-full z-50 h-[48px] bg-white border-b border-gray-200 flex items-center justify-between px-5">
-  <div class="flex items-center gap-5 h-full">
+<nav class="fixed top-0 left-0 w-full z-50 h-[56px] bg-white/75 backdrop-blur-xl border-b border-gray-200/60 flex items-center justify-between px-6 shadow-[0_2px_8px_-2px_rgba(0,0,0,0.03)] transition-all">
+  <div class="flex items-center gap-6 h-full">
     <!-- Logo -->
-    <div class="flex items-center gap-2 shrink-0">
-      <div class="w-6 h-6 rounded-md bg-gray-900 flex items-center justify-center">
-        <span class="material-symbols-outlined text-white" style="font-size:13px;">ballot</span>
+    <div class="flex items-center gap-2.5 shrink-0">
+      <div class="w-7 h-7 rounded-[8px] bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center shadow-md shadow-indigo-500/20">
+        <span class="material-symbols-outlined text-white" style="font-size:15px;">ballot</span>
       </div>
-      <span class="text-[13px] font-semibold text-gray-900 tracking-tight">Project CleanRoom</span>
+      <span class="text-[14px] font-extrabold text-gray-900 tracking-tight">Project CleanRoom</span>
     </div>
-
-    <div class="w-px h-4 bg-gray-200 shrink-0"></div>
-
-    <!-- Nav Links -->
-    <div class="hidden md:flex items-center h-full">
-      <a href="/" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Dashboard</a>
-      <a href="/#listing" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Backlog Tracker</a>
-      <a href="/country-glance-report" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
-        <span class="material-symbols-outlined text-gray-500" style="font-size:14px;">public</span>
-        Country Glance Report
-      </a>
-      <a href="/#glance" class="nav-tab h-full px-3 flex items-center gap-1.5 text-[13px] cursor-pointer select-none">
-        <span class="material-symbols-outlined text-gray-400" style="font-size:14px;">fact_check</span>
-        Weekly Report
-      </a>
-      <a href="/#retro" class="nav-tab h-full px-3 flex items-center text-[13px] cursor-pointer select-none">Retro Export</a>
+    <div class="w-px h-5 bg-gray-200 shrink-0 mx-1"></div>
+    <!-- Tabs -->
+    <div class="hidden md:flex items-center h-full gap-1">
+      <a href="/"                   class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Dashboard</a>
+      <a href="/#listing"           class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Backlog Tracker</a>
+      <a href="/#glance"            class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Weekly Report</a>
+      <a href="/#retro"             class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Retro Export</a>
+      <a href="/country-glance-report" class="nav-tab active h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Glance Report</a>
     </div>
   </div>
-
-  <!-- Right: Profile -->
-  <div class="flex items-center gap-3 pr-1">
-    <div class="flex items-center gap-2">
+  <!-- Right: profile -->
+  <div class="flex items-center gap-3">
+    <div class="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
       {% if user and user.picture %}
-        <img src="{{ user.picture }}" alt="Profile" class="w-6 h-6 rounded-full border border-gray-200">
+        <img src="{{ user.picture }}" alt="Profile" class="w-7 h-7 rounded-full border border-gray-200 shadow-sm">
       {% else %}
-        <div class="w-6 h-6 rounded-full bg-indigo-100 flex items-center justify-center border border-indigo-200">
-          <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">person</span>
+        <div class="w-7 h-7 rounded-full bg-indigo-50 flex items-center justify-center border border-indigo-100 shadow-sm">
+          <span class="material-symbols-outlined text-indigo-500" style="font-size:15px;">person</span>
         </div>
       {% endif %}
-      <span class="text-[12px] font-medium text-gray-700 hidden md:block">
-        {{ get_user_display_name(user) }}
-      </span>
+      <span class="text-[12.5px] font-bold text-gray-700 hidden md:block">{{ get_user_display_name(user) }}</span>
     </div>
-    <a href="/logout" class="h-7 px-2.5 text-[11.5px] font-semibold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-colors flex items-center">
-      Logout
-    </a>
+    <div class="w-px h-4 bg-gray-200 shrink-0"></div>
+    <a href="/logout" class="h-8 px-3.5 text-[12px] font-bold text-gray-500 hover:text-gray-900 bg-gray-50 hover:bg-gray-100 border border-gray-200 rounded-lg transition-all flex items-center shadow-[0_1px_2px_rgba(0,0,0,0.02)]">Logout</a>
   </div>
 </nav>
 
@@ -268,15 +256,31 @@
 <!-- ═══════════════════════════════════════════
      FLOATING CONTROL PANEL (LIGHT THEME)
 ═══════════════════════════════════════════ -->
-<aside class="fixed top-[64px] left-6 z-40 w-[288px] bg-white/90 backdrop-blur-md border border-gray-200/80 rounded-2xl p-5 space-y-4 shadow-lg shadow-gray-900/5 max-h-[calc(100vh-80px)] overflow-y-auto">
+<aside class="fixed top-[72px] left-6 z-40 w-[288px] bg-white/90 backdrop-blur-md border border-gray-200/80 rounded-2xl p-5 space-y-4 shadow-lg shadow-gray-900/5 max-h-[calc(100vh-80px)] overflow-y-auto">
 
   <div>
-    <div class="flex items-center justify-between mb-0.5">
+    <div class="flex items-center justify-between mb-3">
       <h1 class="text-base font-bold text-gray-900 flex items-center gap-1.5">
-        <span class="material-symbols-outlined text-gray-700" style="font-size:18px;">public</span>
+        <span class="material-symbols-outlined text-gray-700" style="font-size:18px;">explore</span>
         India Data Map
       </h1>
       <span class="text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full">Live RDS</span>
+    </div>
+
+    <!-- Zoom Level Control -->
+    <div class="mb-4">
+      <p class="text-[9px] font-extrabold text-gray-400 uppercase tracking-[0.1em] ml-1 mb-1.5">Glance Report Zoom Level</p>
+      <div class="flex bg-slate-100/80 p-1 rounded-[12px] border border-slate-200/50 w-full shadow-[inset_0_1px_2px_rgba(0,0,0,0.03)]">
+        <a href="/country-glance-report" class="flex-1 flex justify-center items-center gap-1.5 py-1.5 text-[11px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200" title="Country Data">
+          <span class="material-symbols-outlined" style="font-size:14px;">public</span> Country
+        </a>
+        <a href="/country-glance-map" class="flex-1 flex justify-center items-center gap-1.5 py-1.5 text-[11px] font-bold text-white bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.15)] ring-1 ring-gray-900/10 transition-all duration-200" title="Country Map">
+          <span class="material-symbols-outlined text-gray-300" style="font-size:14px;">explore</span> Map
+        </a>
+        <a href="/state-glance-report" class="flex-1 flex justify-center items-center gap-1.5 py-1.5 text-[11px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200" title="State Report">
+          <span class="material-symbols-outlined" style="font-size:14px;">flag</span> State
+        </a>
+      </div>
     </div>
   <!-- State Search / Filter -->
   <div class="relative">

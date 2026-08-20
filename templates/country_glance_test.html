@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Country Glance | Project CleanRoom</title>
+  <title>Glance Report - Country</title>
   <link rel="icon" href="/static/favicon.png" type="image/png">
   <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"/>
@@ -294,7 +294,7 @@
     <!-- Logo -->
     <div class="flex items-center gap-2.5 shrink-0">
       <div class="w-7 h-7 rounded-[8px] bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center shadow-md shadow-indigo-500/20">
-        <span class="material-symbols-outlined text-white" style="font-size:15px;">ballot</span>
+        <span class="material-symbols-outlined" style="font-size:15px;">ballot</span>
       </div>
       <span class="text-[14px] font-extrabold text-gray-900 tracking-tight">Project CleanRoom</span>
     </div>
@@ -305,9 +305,9 @@
     <div class="hidden md:flex items-center h-full gap-1">
       <a id="nav-dashboard" href="/" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Dashboard</a>
       <a id="nav-listing" href="/#listing" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Backlog Tracker</a>
-      <a href="/country-glance-report" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative active">Country Glance Report</a>
       <a id="nav-glance" href="/#glance" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Weekly Report</a>
       <a id="nav-retro" href="/#retro" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Retro Export</a>
+      <a href="/country-glance-report" class="nav-tab active h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-900 cursor-pointer select-none transition-colors relative">Glance Report</a>
     </div>
   </div>
 
@@ -345,22 +345,36 @@
   ───────────────────────────────────────── -->
   <div class="hero-section w-full mx-auto px-6 pt-8 pb-6">
 
-    <!-- Page title row -->
-    <div class="flex items-start justify-between flex-wrap gap-4 mb-7 fade-in">
-      <div>
-        <h1 class="text-[26px] font-bold text-gray-900">Country Glance Report</h1>
-        <p class="text-sm text-gray-500 mt-0.5">Electoral &amp; demographic data coverage across <strong class="text-gray-700">36 States &amp; UTs</strong></p>
+    <!-- Page title row & Segmented Control -->
+    <div class="flex flex-col xl:flex-row items-start xl:items-center justify-between gap-6 mb-7 fade-in">
+      
+      <!-- Left: Segmented Control -->
+      <div class="flex flex-col gap-2 shrink-0">
+        <p class="text-[9px] font-extrabold text-gray-400 uppercase tracking-[0.1em] ml-1.5">Glance Report Zoom Level</p>
+        <div class="inline-flex bg-slate-100/80 p-1 rounded-[12px] border border-slate-200/50 self-start shadow-[inset_0_1px_2px_rgba(0,0,0,0.03)]">
+          <a href="/country-glance-report" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-white bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.15)] ring-1 ring-gray-900/10 transition-all duration-200">
+            <span class="material-symbols-outlined text-gray-300" style="font-size:16px;">public</span> Country Data
+          </a>
+          <a href="/country-glance-map" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
+            <span class="material-symbols-outlined" style="font-size:16px;">explore</span> Country Map
+          </a>
+          <a href="/state-glance-report" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
+            <span class="material-symbols-outlined" style="font-size:16px;">flag</span> State Report
+          </a>
+        </div>
       </div>
-      <div class="flex items-center gap-2 pt-1">
-        <!-- New Special Mention Button for Map -->
-        <a href="/country-glance-map" class="relative group flex items-center gap-1.5 h-8 px-4 rounded-lg bg-gradient-to-r from-indigo-500 to-blue-600 hover:from-indigo-600 hover:to-blue-700 text-white text-[12px] font-bold shadow-md hover:shadow-lg transition-all overflow-hidden mr-1">
-          <div class="absolute inset-0 bg-white/20 translate-y-[-100%] group-hover:translate-y-[100%] transition-transform duration-500"></div>
-          <span class="material-symbols-outlined" style="font-size:16px;">map</span> Live Country Map ✨
-        </a>
-        
-        <button onclick="loadData(true)" class="flex items-center gap-1.5 h-8 px-3 rounded-lg bg-gray-900 hover:bg-gray-800 text-white text-[12px] font-medium shadow-sm transition">
-          <span class="material-symbols-outlined" style="font-size:15px;">refresh</span> Refresh Data
-        </button>
+
+      <!-- Right: Title & Refresh -->
+      <div class="flex flex-col md:flex-row md:items-center justify-between xl:justify-end gap-5 w-full xl:w-auto">
+        <div class="xl:text-right">
+          <h1 class="text-[26px] font-bold text-gray-900 leading-none">Country Glance Report</h1>
+          <p class="text-sm text-gray-500 mt-1">Electoral &amp; demographic data across <strong class="text-gray-700">36 States &amp; UTs</strong></p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="loadData(true)" class="flex items-center gap-1.5 h-9 px-4 rounded-lg bg-gray-900 hover:bg-gray-800 text-white text-[12.5px] font-semibold shadow-sm transition-all shrink-0">
+            <span class="material-symbols-outlined" style="font-size:16px;">refresh</span> Refresh Data
+          </button>
+        </div>
       </div>
     </div>
 
