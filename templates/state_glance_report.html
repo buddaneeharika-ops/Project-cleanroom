@@ -552,6 +552,52 @@
              </div>
           </div>
         </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-6">
+          <div class="lg:col-span-2 border border-gray-200 rounded-xl p-4 bg-white shadow-sm relative" style="height: 420px;">
+             <canvas id="klBoothProximityChart" style="width: 100%; height: 100%;"></canvas>
+          </div>
+          <div class="flex flex-col gap-3">
+            <h4 class="text-sm font-bold text-gray-800 border-b border-gray-200 pb-1">Geospatial Data Quality</h4>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="bg-emerald-50 rounded-lg p-3 border border-emerald-100">
+                <p class="text-[10px] font-bold text-emerald-700 uppercase">Valid Geocodes</p>
+                <p class="text-xl font-black text-emerald-600" id="klValidCount">-</p>
+              </div>
+              <div class="bg-rose-50 rounded-lg p-3 border border-rose-100">
+                <p class="text-[10px] font-bold text-rose-700 uppercase">Invalid / Missing</p>
+                <p class="text-xl font-black text-rose-600" id="klInvalidCount">-</p>
+              </div>
+            </div>
+
+            <h4 class="text-sm font-bold text-gray-800 border-b border-gray-200 pb-1 mt-2">Compliance Insights</h4>
+            <div class="bg-indigo-50 rounded-lg p-3 border border-indigo-100 flex items-center justify-between shadow-sm">
+               <div>
+                 <p class="text-[10px] font-bold text-indigo-700 uppercase">ECI Mandate (≤ 2km)</p>
+                 <p class="text-2xl font-black text-indigo-900" id="klCompliantPct">-</p>
+               </div>
+               <div class="text-right">
+                 <p class="text-[10px] font-semibold text-indigo-600 uppercase">Compliant Booths</p>
+                 <p class="text-sm font-bold text-indigo-800" id="klCompliantCount">-</p>
+               </div>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div class="bg-amber-50 rounded-lg p-3 border border-amber-100">
+                <p class="text-[10px] font-bold text-amber-700 uppercase">Statewide Avg</p>
+                <p class="text-xl font-black text-amber-600"><span id="klAvgDist">-</span> <span class="text-xs font-normal">KM</span></p>
+              </div>
+              <div class="bg-rose-50 rounded-lg p-3 border border-rose-100">
+                <p class="text-[10px] font-bold text-rose-700 uppercase">Furthest Booth</p>
+                <p class="text-xl font-black text-rose-600"><span id="klMaxDist">-</span> <span class="text-xs font-normal">KM</span></p>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-3 border border-gray-200 mt-2 shadow-sm">
+              <p class="text-[10px] font-bold text-gray-500 uppercase mb-2 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">warning</span> Action Required: Worst ACs</p>
+              <div id="klWorstAcs" class="space-y-2"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -1284,16 +1330,183 @@ document.addEventListener("DOMContentLoaded", () => {
       });
   };
 
+  let _klChartInstance = null;
+  const renderKLChart = () => {
+    console.log("[KL Chart] Starting fetch for KL Proximity Data...");
+    fetch('/static/data/kl_booth_proximity.json?t=' + new Date().getTime())
+      .then(res => res.json())
+      .then(data => {
+        console.log("[KL Chart] Data loaded successfully, rendering Chart.js...", data.labels.length, "points");
+        const ctx = document.getElementById('klBoothProximityChart');
+        if(!ctx) {
+          console.error("[KL Chart] Canvas element 'klBoothProximityChart' not found in DOM!");
+          return;
+        }
+        if(_klChartInstance) _klChartInstance.destroy();
+        
+        try {
+          const chartCtx = ctx.getContext('2d');
+          // ... graph logic is handled ...
+          // Next, load the actionable insights data
+          fetch('/static/data/kl_insights.json?t=' + new Date().getTime())
+            .then(r => r.json())
+            .then(ins => {
+              if(document.getElementById('klValidCount')) {
+                document.getElementById('klValidCount').innerText = ins.valid_coords.toLocaleString();
+                document.getElementById('klInvalidCount').innerText = ins.invalid_coords.toLocaleString();
+                document.getElementById('klCompliantPct').innerText = ins.compliant_pct + '%';
+                document.getElementById('klCompliantCount').innerText = ins.compliant_count.toLocaleString();
+                document.getElementById('klAvgDist').innerText = ins.avg_distance;
+                document.getElementById('klMaxDist').innerText = ins.max_distance;
+                
+                const acBox = document.getElementById('klWorstAcs');
+                acBox.innerHTML = '';
+                ins.worst_acs.forEach(ac => {
+                  acBox.innerHTML += `
+                    <div class="flex justify-between items-center text-xs">
+                       <span class="text-gray-700 font-bold">Assembly Const. ${ac.ac}</span>
+                       <span class="font-bold text-rose-600">${ac.avg} km avg</span>
+                    </div>`;
+                });
+              }
+            }).catch(e => console.error("Error loading KL insights", e));
+          
+          // 1. Create a beautiful gradient for the fill
+          const gradient = chartCtx.createLinearGradient(0, 0, 0, 400);
+          gradient.addColorStop(0, 'rgba(10, 90, 107, 0.6)'); // Darker teal at top
+          gradient.addColorStop(1, 'rgba(10, 90, 107, 0.0)'); // Transparent at bottom
+          
+          // 2. Custom Plugin to draw the ECI 2km Reference Line
+          const eciLinePlugin = {
+            id: 'eciLine',
+            afterDraw: (chart) => {
+              const xAxis = chart.scales.x;
+              const yAxis = chart.scales.y;
+              // Find the index for "2.0" label
+              const targetIndex = chart.data.labels.indexOf("2.0");
+              if (targetIndex === -1) return;
+              
+              const xPos = xAxis.getPixelForValue(targetIndex);
+              
+              chartCtx.save();
+              chartCtx.beginPath();
+              chartCtx.setLineDash([5, 5]);
+              chartCtx.moveTo(xPos, yAxis.top);
+              chartCtx.lineTo(xPos, yAxis.bottom);
+              chartCtx.lineWidth = 2;
+              chartCtx.strokeStyle = '#ef4444'; // Red-500
+              chartCtx.stroke();
+              
+              // Draw text label
+              chartCtx.fillStyle = '#ef4444';
+              chartCtx.font = 'bold 12px Inter';
+              chartCtx.textAlign = 'left';
+              chartCtx.fillText(' ECI Standard Limit (2km)', xPos + 6, yAxis.top + 16);
+              
+              chartCtx.restore();
+            }
+          };
+
+          _klChartInstance = new Chart(chartCtx, {
+            type: 'line',
+            plugins: [eciLinePlugin],
+            data: {
+              labels: data.labels,
+              datasets: [{
+                label: 'Polling Booths',
+                data: data.data,
+                borderColor: '#0a5a6b', // Deep teal
+                borderWidth: 3,
+                backgroundColor: gradient,
+                fill: true,
+                tension: 0.4, // Smooth curve
+                pointRadius: 0,
+                pointHoverRadius: 6,
+                pointHoverBackgroundColor: '#ffffff',
+                pointHoverBorderColor: '#0a5a6b',
+                pointHoverBorderWidth: 2
+              }]
+            },
+            options: {
+              responsive: true,
+              maintainAspectRatio: false,
+              interaction: {
+                mode: 'index',
+                intersect: false,
+              },
+              plugins: {
+                legend: { display: false },
+                title: {
+                  display: true,
+                  text: 'Polling Booth Proximity Density (Distance to Voters)',
+                  font: { size: 16, family: 'Inter', weight: 'bold' },
+                  color: '#1f2937',
+                  padding: { bottom: 24 }
+                },
+                tooltip: {
+                  backgroundColor: 'rgba(17, 24, 39, 0.9)',
+                  titleFont: { size: 13, family: 'Inter' },
+                  bodyFont: { size: 14, family: 'Inter', weight: 'bold' },
+                  padding: 12,
+                  cornerRadius: 8,
+                  displayColors: false,
+                  callbacks: {
+                    title: function(context) {
+                      let label = context[0].label;
+                      if (label === 'NULL') return 'Invalid / Unmapped Coordinates';
+                      if (label.includes('>')) return 'Avg Distance: Over 10 KM';
+                      return 'Avg Distance: ' + label + ' KM';
+                    },
+                    label: function(context) {
+                      return context.parsed.y.toLocaleString() + ' Polling Booths';
+                    }
+                  }
+                }
+              },
+              scales: {
+                y: {
+                  beginAtZero: true,
+                  grid: { color: '#f3f4f6', drawBorder: false },
+                  title: { display: true, text: 'Number of Booths', font: { size: 12, weight: '600' }, color: '#6b7280' },
+                  ticks: { font: { family: 'Inter' }, color: '#9ca3af' }
+                },
+                x: {
+                  grid: { display: false },
+                  ticks: { maxTicksLimit: 12, font: { family: 'Inter' }, color: '#9ca3af' },
+                  title: { display: true, text: 'Average Distance (Kilometers)', font: { size: 12, weight: '600' }, color: '#6b7280', padding: { top: 10 } }
+                }
+              }
+            }
+          });
+          console.log("[KL Chart] Chart.js instantiated successfully!");
+        } catch(chartErr) {
+          console.error("[KL Chart] Chart.js failed to initialize:", chartErr);
+          ctx.outerHTML = "<div style='padding:20px; color:red; font-weight:bold;'>Error rendering chart. See console.</div>";
+        }
+      })
+      .catch(e => {
+        console.error("[KL Chart] Error loading KL Chart JSON data:", e);
+        const container = document.getElementById('klBoothAnalysis');
+        if (container) container.innerHTML += "<p style='color:red'>Failed to load graph data.</p>";
+      });
+  };
+
   /* ══ Main render ══ */
   const renderDashboard = (d) => {
     // Show/hide Kerala-specific booth analysis block
     const klBlock = document.getElementById('klBoothAnalysis');
     if (klBlock) {
-      if (d.metadata && d.metadata.state_abb === 'KL') {
+      if (window._currentState === 'KL') {
+        console.log("[Dashboard] Unhiding KL Booth Analysis block...");
         klBlock.classList.remove('hidden');
+        klBlock.style.display = 'block';
+        renderKLChart();
       } else {
         klBlock.classList.add('hidden');
+        klBlock.style.display = 'none';
       }
+    } else {
+      console.warn("[Dashboard] klBoothAnalysis element not found in DOM!");
     }
 
     /* HERO */

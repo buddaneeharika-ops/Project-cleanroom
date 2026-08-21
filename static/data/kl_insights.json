@@ -1,0 +1,1 @@
+{"total_booths": 25401, "valid_coords": 25389, "invalid_coords": 12, "valid_pct": 100.0, "invalid_pct": 0.0, "avg_distance": 2.1, "max_distance": 235.1, "compliant_count": 15006, "compliant_pct": 59.1, "worst_acs": [{"ac": 112.0, "avg": 4.45}, {"ac": 111.0, "avg": 3.78}, {"ac": 36.0, "avg": 3.3}]}

@@ -1,0 +1,42 @@
+# Unmapped Grey Districts
+
+- Andhra Pradesh (AP): **cuddapah**
+- Assam (AS): **karimganj**
+- Bihar (BR): **bhabua**
+- Chandigarh (CH): **chandigarh**
+- Daman And Diu (DD): **daman**
+- Daman And Diu (DD): **junagadh**
+- Delhi (DL): **delhi**
+- Dadra And Nagar Haveli (DN): **dadra and nagar haveli**
+- Jammu And Kashmir (JK): **bagdam**
+- Jammu And Kashmir (JK): **baramula (kashmir north)**
+- Jammu And Kashmir (JK): **kargil**
+- Jammu And Kashmir (JK): **ladakh (leh)**
+- Karnataka (KA): **bangalore urban**
+- Karnataka (KA): **belgaum**
+- Karnataka (KA): **gulbarga**
+- Karnataka (KA): **mysore**
+- Lakshadweep (LD): **kavaratti**
+- Maharashtra (MH): **bid**
+- Maharashtra (MH): **greater bombay**
+- Madhya Pradesh (MP): **east nimar**
+- Madhya Pradesh (MP): **hoshangabad**
+- Madhya Pradesh (MP): **west nimar**
+- Nagaland (NL): **zunheboto**
+- Orissa (OR): **baleshwar**
+- Orissa (OR): **sonepur**
+- Punjab (PB): **nawan shehar**
+- Puducherry (PY): **mahe**
+- Puducherry (PY): **yanam**
+- Sikkim (SK): **east**
+- Sikkim (SK): **north sikkim**
+- Sikkim (SK): **south sikkim**
+- Sikkim (SK): **west sikkim**
+- Uttar Pradesh (UP): **allahabad**
+- Uttar Pradesh (UP): **jyotiba phule nagar**
+- West Bengal (WB): **east midnapore**
+- West Bengal (WB): **hugli**
+- West Bengal (WB): **north 24 parganas**
+- West Bengal (WB): **west midnapore**
+
+Total Unmapped: 38
