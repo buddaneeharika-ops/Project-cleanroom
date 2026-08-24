@@ -654,11 +654,12 @@ def auth_callback():
     token = google.authorize_access_token()
     user_info = token.get('userinfo')
     
-    allowed_domain = os.environ.get('ALLOWED_OAUTH_DOMAIN', '').strip().lower()
-    if allowed_domain:
+    allowed_domains_str = os.environ.get('ALLOWED_OAUTH_DOMAIN', '').strip().lower()
+    if allowed_domains_str:
+        allowed_domains = [d.strip() for d in allowed_domains_str.split(',') if d.strip()]
         user_email = user_info.get('email', '').lower()
-        if not user_email.endswith('@' + allowed_domain):
-            return jsonify({"error": f"Unauthorized domain. Must be an @{allowed_domain} email."}), 403
+        if not any(user_email.endswith('@' + d) for d in allowed_domains):
+            return jsonify({"error": f"Unauthorized domain. Must be one of: {', '.join(allowed_domains)}"}), 403
             
     session.permanent = True
     session['user'] = user_info
