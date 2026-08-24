@@ -641,7 +641,7 @@ def require_login():
 @app.route('/login_page')
 def login_page():
     if auth_disabled() or session.get('user'):
-        return redirect(url_for('index'))
+        return redirect(url_for('country_glance_map_page'))
     return render_template('login.html')
 
 @app.route('/login')
@@ -662,7 +662,7 @@ def auth_callback():
             
     session.permanent = True
     session['user'] = user_info
-    return redirect(url_for('index'))
+    return redirect(url_for('country_glance_map_page'))
 
 @app.route('/logout')
 def logout():
@@ -684,7 +684,7 @@ def inject_user_helpers():
     return dict(get_user_display_name=get_user_display_name)
 
 
-@app.route('/')
+@app.route('/dashboard')
 @login_required
 def index():
     user = session.get('user')
@@ -697,6 +697,7 @@ def country_glance_report_page():
     user = session.get('user')
     return render_template('country_glance_test.html', user=user)
 
+@app.route('/')
 @app.route('/country-glance-map')
 @login_required
 def country_glance_map_page():
@@ -2617,18 +2618,9 @@ def _build_pc_ac_caches(force_refresh=False):
     try:
         cur = conn.cursor()
         for metric in ['retro', 'form20', 'caste', 'booth']:
-            if metric == 'retro':
-                retro_meta = cache_get('retro') or {}
-                avail_tuples = []
-                for st, types in retro_meta.items():
-                    for ty, years in (types or {}).items():
-                        if '-BP' in str(ty): continue
-                        for yr in (years or {}):
-                            avail_tuples.append(f"('{str(st).strip()}', '{str(ty).strip()}', {str(yr).strip()})")
-                avail_in = ", ".join(avail_tuples) if avail_tuples else "('', '', 0)"
             cov_query = ""
             tot_query = ""
-            
+
             if metric == 'retro':
                 retro_meta = cache_get('retro') or {}
                 avail_tuples = []
@@ -2656,45 +2648,51 @@ def _build_pc_ac_caches(force_refresh=False):
             elif metric == 'booth':
                 cov_query = "SELECT state_abb, ac_no, 1 as cnt FROM booth_metadata_full_view GROUP BY state_abb, ac_no"
                 tot_query = "SELECT state_abb, ac_no, 1 as cnt FROM ac_mapping GROUP BY state_abb, ac_no"
-                
+
             cur.execute(cov_query)
             cov_dict = {f"{r[0]}|{r[1]}": r[2] for r in cur.fetchall()}
-            
+
             cur.execute(tot_query)
             tot_dict = {f"{r[0]}|{r[1]}": r[2] for r in cur.fetchall()}
-            
+
             mapping_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'ac_pc_mapping.json')
             import json
             with open(mapping_file, 'r', encoding='utf-8') as f:
                 ac_pc_map = json.load(f)
-                
+
             pc_agg = {}
             ac_data = []
-            
+
             for ac_key, ac_info in ac_pc_map['acs'].items():
                 st, ac_no = ac_key.split('|')
                 covered = int(cov_dict.get(ac_key, 0))
                 total = int(tot_dict.get(ac_key, 1))
-                
+
                 ac_data.append({
                     "state_abb": st, "state_name": STATE_NAMES.get(st, st),
                     "ac_no": ac_no, "ac_name": ac_info['ac_name'],
                     "covered": covered, "total": total,
                     "pct": round((covered / total) * 100, 2) if total > 0 else 0
                 })
-                
+
                 pc_id = ac_info['pc_id']
                 if pc_id not in pc_agg:
-                    pc_agg[pc_id] = {'covered': 0, 'total': 0}
+                    pc_agg[pc_id] = {'covered': 0, 'total': 0, 'ac_count': 0}
                 pc_agg[pc_id]['covered'] += covered
                 pc_agg[pc_id]['total'] += total
-                
+                pc_agg[pc_id]['ac_count'] += 1
+
             pc_data = []
             for pc_id, counts in pc_agg.items():
                 if pc_id in ac_pc_map['pcs']:
                     pc_info = ac_pc_map['pcs'][pc_id]
                     covered = counts['covered']
                     total = counts['total']
+                    
+                    if metric in ['retro', 'form20'] and counts['ac_count'] > 0:
+                        covered = int(round(covered / counts['ac_count']))
+                        total   = int(round(total   / counts['ac_count']))
+
                     st = pc_info['state_abb']
                     pc_data.append({
                         "state_abb": st, "state_name": STATE_NAMES.get(st, st),
@@ -2702,9 +2700,10 @@ def _build_pc_ac_caches(force_refresh=False):
                         "covered": covered, "total": total,
                         "pct": round((covered / total) * 100, 2) if total > 0 else 0
                     })
-                    
+
             cache_set(f'map_pc_data_{metric}', pc_data)
             cache_set(f'map_ac_data_{metric}', ac_data)
+
 
         # BUILD DISTRICT MAP CACHES
         for metric in ['ejal', 'joshua', 'muslim', 'secc', 'kys', 'lgd']:

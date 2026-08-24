@@ -46,6 +46,10 @@
       font-size: 18px; vertical-align: middle; line-height: 1;
     }
 
+    /* Hide scrollbar for mobile horizontal scroll */
+    .hide-scrollbar::-webkit-scrollbar { display: none; }
+    .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
     /* ── Exact nav-tab from index.html & country_glance_test.html ── */
     .nav-tab { position: relative; transition: color 0.1s, background 0.1s; }
     .nav-tab.active { color: #111827; font-weight: 600; }
@@ -83,7 +87,7 @@
     .metric-btn-inactive { background:#f9fafb; color:#374151; border-color:#e5e7eb; }
     .metric-btn-inactive:hover { background:#f3f4f6; }
 
-    /* ── Custom Tooltip ── */
+    /* ── Custom Tooltip — hidden on mobile, shown on hover on desktop ── */
     .map-tooltip {
       position: absolute;
       pointer-events: none;
@@ -98,8 +102,12 @@
       color: #111827;
       font-size: 12px;
       display: none;
-      min-width: 230px;
-      max-width: 280px;
+      min-width: 220px;
+      max-width: 270px;
+    }
+    @media (max-width: 767px) {
+      /* On mobile, tooltip is replaced by a tap-info bar at map bottom */
+      .map-tooltip { display: none !important; }
     }
 
     /* ── Loading overlay ── */
@@ -125,14 +133,15 @@
       font-size: 11px; font-weight: 700; letter-spacing: 0.03em;
       padding: 4px 10px; border-radius: 99px; cursor: pointer; transition: all 0.2s;
     }
+    @media (max-width: 767px) {
+      .level-badge { padding: 6px 12px; font-size: 12px; } /* bigger tap targets */
+    }
     .level-inactive { background: #ffffff; color: #6b7280; border: 1px solid #e5e7eb; }
     .level-inactive:hover { background: #f9fafb; color: #374151; }
-    
     .level-state-active    { background: #eff6ff; color: #1d4ed8; border: 1px solid #bfdbfe; }
     .level-district-active { background: #f0fdf4; color: #15803d; border: 1px solid #bbf7d0; }
     .level-pc-active       { background: #fdf4ff; color: #a21caf; border: 1px solid #fae8ff; }
     .level-ac-active       { background: #fffbeb; color: #b45309; border: 1px solid #fef3c7; }
-
 
     /* ── Analytics Panel ── */
     #analytics-panel {
@@ -155,26 +164,127 @@
     #analytics-panel::-webkit-scrollbar { width: 4px; }
     #analytics-panel::-webkit-scrollbar-thumb { background: #d4d4d8; border-radius: 4px; }
 
+    /* ── MOBILE BOTTOM SHEET (control panel) ── */
+    @media (max-width: 767px) {
+      /* Nav: smaller height, allow horizontal scroll */
+      nav { height: 44px !important; padding-left: 12px !important; padding-right: 12px !important; }
+      nav .text-\[14px\] { font-size: 12px !important; }
+
+      /* Map canvas starts below the 44px nav */
+      #deck-canvas-container {
+        top: 44px;
+        /* bottom is calculated by JS based on sheet height */
+        bottom: 0;
+      }
+      #loading-overlay { top: 44px; }
+
+      /* The aside becomes a bottom sheet */
+      #control-panel {
+        position: fixed !important;
+        bottom: 0 !important; left: 0 !important; right: 0 !important; top: auto !important;
+        width: 100% !important;
+        border-radius: 20px 20px 0 0 !important;
+        max-height: 52vh !important;
+        min-height: 120px !important;
+        padding: 0 16px 12px !important;
+        overflow-y: auto;
+        box-shadow: 0 -8px 30px rgba(0,0,0,0.12) !important;
+        z-index: 40;
+        /* Start collapsed, expand on tap */
+        transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1);
+      }
+      #control-panel.sheet-collapsed {
+        max-height: 68px !important;
+        overflow: hidden;
+      }
+
+      /* Drag handle pill */
+      #sheet-drag-handle {
+        display: flex !important;
+      }
+
+      /* Hide the title row description text on mobile to save space */
+      #panel-live-badge { display: none; }
+
+      /* Metric buttons: two per row on mobile */
+      #group-opts-eci .metric-grid,
+      #group-opts-other .metric-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+      }
+
+      /* Tap info bar — shown on mobile when user taps a region */
+      #mobile-tap-info {
+        display: flex !important;
+      }
+    }
+
+    /* Drag handle (hidden on desktop) */
+    #sheet-drag-handle {
+      display: none;
+      justify-content: center;
+      padding: 10px 0 6px;
+      cursor: grab;
+      touch-action: none;
+      user-select: none;
+    }
+    #sheet-drag-handle span {
+      width: 36px; height: 4px;
+      background: #d1d5db;
+      border-radius: 99px;
+      display: block;
+    }
+
+    /* Mobile tap info bar */
+    #mobile-tap-info {
+      display: none;
+      position: fixed;
+      left: 12px; right: 12px;
+      /* sits just above the sheet */
+      z-index: 45;
+      background: rgba(255,255,255,0.97);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(0,0,0,0.08);
+      border-radius: 14px;
+      padding: 10px 14px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.10);
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      font-weight: 600;
+      color: #111827;
+      transition: bottom 0.35s cubic-bezier(0.4,0,0.2,1);
+    }
+    #mobile-tap-info .tap-score {
+      margin-left: auto;
+      font-size: 12px; font-weight: 700; font-family: monospace;
+      background: #f0fdf4; color: #15803d;
+      border: 1px solid #bbf7d0;
+      padding: 3px 8px; border-radius: 8px;
+    }
+
     /* State search dropdown */
     #state-search-results {
       position: absolute; top: 100%; left: 0; right: 0;
       background: white; border: 1px solid #e5e7eb; border-radius: 10px;
       box-shadow: 0 8px 25px -5px rgba(0,0,0,0.12);
-      max-height: 240px; overflow-y: auto; z-index: 60; display: none;
+      max-height: 200px; overflow-y: auto; z-index: 60; display: none;
     }
     #state-search-results .search-item {
-      padding: 7px 12px; cursor: pointer; font-size: 12px; font-weight: 500;
+      padding: 9px 12px; cursor: pointer; font-size: 12px; font-weight: 500;
       color: #374151; display: flex; align-items: center; gap: 8px;
       transition: background 0.1s;
     }
-    #state-search-results .search-item:hover { background: #f3f4f6; }
+    #state-search-results .search-item:hover,
+    #state-search-results .search-item:active { background: #f3f4f6; }
     #state-search-results .search-item .search-abb {
       font-size: 10px; font-weight: 700; color: #9ca3af;
       background: #f3f4f6; padding: 2px 6px; border-radius: 4px;
       min-width: 28px; text-align: center;
     }
 
-    /* Selected state highlight on map */
+    /* Selected state badge */
     .state-selected-badge {
       display: inline-flex; align-items: center; gap: 5px;
       background: #eff6ff; border: 1px solid #bfdbfe; color: #1d4ed8;
@@ -204,12 +314,12 @@
     </div>
     <div class="w-px h-5 bg-gray-200 shrink-0 mx-1"></div>
     <!-- Tabs -->
-    <div class="hidden md:flex items-center h-full gap-1">
-      <a href="/"                   class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Dashboard</a>
-      <a href="/#listing"           class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Backlog Tracker</a>
-      <a href="/#glance"            class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Weekly Report</a>
-      <a href="/#retro"             class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Retro Export</a>
+    <div class="flex flex-1 md:flex-none overflow-x-auto whitespace-nowrap hide-scrollbar items-center h-full gap-1 px-2 md:px-0">
       <a href="/country-glance-report" class="nav-tab active h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Glance Report</a>
+      <a href="/dashboard"                   class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Dashboard</a>
+      <a href="/dashboard#listing"           class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Backlog Tracker</a>
+      <a href="/dashboard#glance"            class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Weekly Report</a>
+      <a href="/dashboard#retro"             class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold cursor-pointer select-none transition-colors relative">Retro Export</a>
     </div>
   </div>
   <!-- Right: profile -->
@@ -256,7 +366,21 @@
 <!-- ═══════════════════════════════════════════
      FLOATING CONTROL PANEL (LIGHT THEME)
 ═══════════════════════════════════════════ -->
-<aside class="fixed top-[72px] left-6 z-40 w-[288px] bg-white/90 backdrop-blur-md border border-gray-200/80 rounded-2xl p-5 space-y-4 shadow-lg shadow-gray-900/5 max-h-[calc(100vh-80px)] overflow-y-auto">
+<!-- Mobile tap info bar (shown above bottom sheet on mobile when a region is tapped) -->
+<div id="mobile-tap-info">
+  <span id="mobile-tap-region" class="truncate">Tap a region</span>
+  <span id="mobile-tap-sub" class="text-[10px] text-gray-400 font-normal truncate"></span>
+  <span id="mobile-tap-score" class="tap-score">–%</span>
+</div>
+
+<aside id="control-panel" class="fixed z-40 bg-white/90 backdrop-blur-md border border-gray-200/80 shadow-lg shadow-gray-900/5 overflow-y-auto transition-all bottom-0 left-0 w-full rounded-t-2xl md:top-[72px] md:bottom-auto md:left-6 md:w-[288px] md:rounded-2xl md:max-h-[calc(100vh-80px)] md:p-5 md:space-y-4">
+
+  <!-- Drag handle (mobile only) -->
+  <div id="sheet-drag-handle" role="button" aria-label="Expand or collapse panel" onclick="toggleSheet()">
+    <span></span>
+  </div>
+
+  <div class="px-1 space-y-4">
 
   <div>
     <div class="flex items-center justify-between mb-3">
@@ -264,7 +388,7 @@
         <span class="material-symbols-outlined text-gray-700" style="font-size:18px;">explore</span>
         India Data Map
       </h1>
-      <span class="text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full">Live RDS</span>
+      <span id="panel-live-badge" class="text-[10px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 px-2 py-0.5 rounded-full">Live RDS</span>
     </div>
 
     <!-- Zoom Level Control -->
@@ -441,6 +565,7 @@
     </div>
   </div>
 
+  </div><!-- /px-1 -->
 </aside>
 
 <!-- Hover Tooltip Container -->
@@ -1164,6 +1289,13 @@
         setLoadingText('Loading AC boundaries (one-time)...');
         acGeoJSON = await (await fetch('/static/data/ac_constituencies.geojson')).json();
     }
+
+    // Fallback requirement: we need pcGeoJSON to render the J&K/Ladakh boundaries 
+    // when we are in AC or District views because their own shapefiles are missing those regions.
+    if ((granularity === 'ac' || granularity === 'district') && !pcGeoJSON) {
+        setLoadingText('Loading fallback boundaries (one-time)...');
+        pcGeoJSON = await (await fetch('/static/data/pc_constituencies.geojson')).json();
+    }
   }
 
   async function loadDataForCurrentGranularityAndMetric() {
@@ -1413,7 +1545,7 @@
         <span class="font-mono font-semibold">${covered.toLocaleString()}</span>
       </div>
       <div class="flex justify-between py-0.5 text-gray-700">
-        <span>Total entries</span>
+        <span>Total</span>
         <span class="font-mono font-semibold">${total.toLocaleString()}</span>
       </div>
       <div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
@@ -1460,7 +1592,7 @@
         <span class="font-mono font-semibold">${covered.toLocaleString()}</span>
       </div>
       <div class="flex justify-between py-0.5 text-gray-700">
-        <span>Total entries</span>
+        <span>Total</span>
         <span class="font-mono font-semibold">${total.toLocaleString()}</span>
       </div>
       <div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
@@ -1507,7 +1639,7 @@
         <span class="font-mono font-semibold">${covered.toLocaleString()}</span>
       </div>
       <div class="flex justify-between py-0.5 text-gray-700">
-        <span>Total entries</span>
+        <span>Total</span>
         <span class="font-mono font-semibold">${total.toLocaleString()}</span>
       </div>
       <div class="mt-1.5 pt-1.5 border-t border-gray-100 flex justify-between font-semibold text-gray-900">
@@ -1522,6 +1654,26 @@
 
   function positionTooltip(tooltip, x, y) {
     tooltip.style.display = 'block';
+    
+    // Wire up mobile tap info
+    if (window.showMobileTapInfo) {
+      const region = document.getElementById('tooltip-region').textContent;
+      const parent = document.getElementById('tooltip-parent').textContent;
+      const scoreEl = document.getElementById('tooltip-score');
+      const pctStr = scoreEl.textContent;
+      const pct = pctStr !== '–%' ? parseFloat(pctStr) : null;
+      // Extract color from the tailwind class of scoreEl, or fallback
+      let bgClass = Array.from(scoreEl.classList).find(c => c.startsWith('bg-'));
+      let color = null;
+      if (bgClass === 'bg-emerald-50') color = '#059669';
+      else if (bgClass === 'bg-yellow-50') color = '#ca8a04';
+      else if (bgClass === 'bg-orange-50') color = '#ea580c';
+      else if (bgClass === 'bg-red-50') color = '#dc2626';
+      else if (bgClass === 'bg-gray-50') color = '#9ca3af';
+      
+      window.showMobileTapInfo(region, parent, pct, color);
+    }
+    
     const panelWidth = 280;
     const vpW = window.innerWidth;
     const vpH = window.innerHeight;
@@ -2242,8 +2394,66 @@
       };
     }
 
+    let layersToRender = [];
+
+    // J&K and Ladakh Fallback Layer: The AC and District shapefiles are missing parts of J&K/Ladakh.
+    // The user strictly wants the full J&K/Ladakh boundaries shown, including internal lines.
+    // The PC shapefile contains 'Rest of J&K', 'Ladakh', 'Rest of Ladakh', etc. which completes the map.
+    // We render this PC-level map UNDERNEATH the active layer.
+    if (activeGranularity !== 'state' && pcGeoJSON) {
+      const jkFeatures = pcGeoJSON.features.filter(f => {
+        const stateName = (f.properties.state_ut_name || f.properties.ST_NAME || '').toLowerCase();
+        const seatName = (f.properties.ls_seat_name || '').toLowerCase();
+        return stateName.includes('jammu') || seatName.includes('jammu') || 
+               stateName.includes('ladakh') || seatName.includes('ladakh');
+      });
+      
+      if (jkFeatures.length > 0) {
+        layersToRender.push(new deck.GeoJsonLayer({
+          id: 'jk-fallback-pc-layer',
+          data: { type: 'FeatureCollection', features: jkFeatures },
+          stroked: true,
+          filled: true,
+          lineWidthMinPixels: 1,
+          getFillColor: [220, 38, 38, 200], // Red (0% coverage)
+          getLineColor: [255, 255, 255, 180], // White border to match other layers
+          pickable: true,
+          onHover: function(info) {
+            const tooltip = document.getElementById('map-tooltip');
+            if (info.object) {
+              const seatName = info.object.properties.ls_seat_name || info.object.properties.state_ut_name || 'Missing Region';
+              document.getElementById('tooltip-region').textContent = seatName;
+              document.getElementById('tooltip-parent').textContent = 'Data incomplete at ' + activeGranularity + ' level';
+              const scoreEl = document.getElementById('tooltip-score');
+              scoreEl.textContent = '0.0%';
+              scoreEl.className = 'text-[11px] font-mono font-bold text-red-700 bg-red-50 border border-red-200 px-1.5 py-0.5 rounded whitespace-nowrap';
+              document.getElementById('tooltip-details').innerHTML = '<div class="text-gray-400 mt-1">No data in DB</div>';
+              positionTooltip(tooltip, info.x, info.y);
+            } else {
+              tooltip.style.display = 'none';
+            }
+          }
+        }));
+      }
+    }
+
+    layersToRender.push(new deck.GeoJsonLayer(layerConfig));
+
+    // Overlay the state boundaries on top of granular maps so states remain distinctly visible
+    if (activeGranularity !== 'state' && stateGeoJSON) {
+      layersToRender.push(new deck.GeoJsonLayer({
+        id: 'state-boundary-overlay',
+        data: stateGeoJSON,
+        filled: false,
+        stroked: true,
+        lineWidthMinPixels: 1.8,  // Thicker than the 0.8 granular borders
+        getLineColor: [255, 255, 255, 255], // Solid white to pop out
+        pickable: false // Let mouse events pass through to the AC/PC/District layer
+      }));
+    }
+
     deckgl.setProps({
-      layers: [new deck.GeoJsonLayer(layerConfig)]
+      layers: layersToRender
     });
   };
 
@@ -2344,6 +2554,77 @@
     </div>
   </div>
 </div>
+
+<script>
+// ─── Mobile / Responsive Helpers ──────────────────────────────────────────
+(function() {
+  var IS_MOBILE = window.innerWidth < 768;
+  var panel = document.getElementById('control-panel');
+  var tapInfo = document.getElementById('mobile-tap-info');
+  var canvas = document.getElementById('deck-canvas-container');
+  var sheetCollapsed = false;
+
+  function isMobile() { return window.innerWidth < 768; }
+
+  // ── Sheet toggle (drag handle tap) ────────────────────────────────────
+  window.toggleSheet = function() {
+    if (!isMobile() || !panel) return;
+    sheetCollapsed = !sheetCollapsed;
+    panel.classList.toggle('sheet-collapsed', sheetCollapsed);
+    updateTapInfoPosition();
+    // Resize map so it fills the visible area correctly
+    setTimeout(function() { if (window.deckgl) { try { window.deckgl.redraw(true); } catch(e){} } }, 400);
+  };
+
+  // ── Position tap info bar just above the sheet ─────────────────────
+  function updateTapInfoPosition() {
+    if (!isMobile() || !tapInfo) return;
+    var panelH = sheetCollapsed ? 68 : Math.min(panel.getBoundingClientRect().height || 220, window.innerHeight * 0.52);
+    tapInfo.style.bottom = (panelH + 10) + 'px';
+  }
+
+  // ── Show tap info on mobile when a region is clicked/tapped ──────────
+  window.showMobileTapInfo = function(regionName, parentName, pct, color) {
+    if (!isMobile()) return;
+    var r = document.getElementById('mobile-tap-region');
+    var s = document.getElementById('mobile-tap-sub');
+    var sc = document.getElementById('mobile-tap-score');
+    if (r) r.textContent = regionName || '—';
+    if (s) s.textContent = parentName || '';
+    if (sc) {
+      sc.textContent = pct != null ? pct.toFixed(1) + '%' : '—';
+      sc.style.background = color || '#f0fdf4';
+      sc.style.color = color ? '#fff' : '#15803d';
+      sc.style.borderColor = 'transparent';
+    }
+    updateTapInfoPosition();
+  };
+
+  // ── On startup: collapse panel & adjust ───────────────────────────
+  function initMobileLayout() {
+    if (!isMobile()) return;
+    // Start collapsed so map is visible
+    if (panel) {
+      sheetCollapsed = true;
+      panel.classList.add('sheet-collapsed');
+    }
+    updateTapInfoPosition();
+  }
+
+  // ── On resize: re-evaluate ────────────────────────────────────────
+  window.addEventListener('resize', function() {
+    if (isMobile()) {
+      initMobileLayout();
+    } else {
+      // Desktop: remove mobile overrides
+      if (panel) panel.classList.remove('sheet-collapsed');
+    }
+  });
+
+  // Init after a short delay (so panel has rendered height)
+  setTimeout(initMobileLayout, 50);
+})();
+</script>
 
 </body>
 </html>
