@@ -306,12 +306,12 @@
 <nav class="fixed top-0 left-0 w-full z-50 h-[56px] bg-white/75 backdrop-blur-xl border-b border-gray-200/60 flex items-center justify-between px-6 shadow-[0_2px_8px_-2px_rgba(0,0,0,0.03)] transition-all">
   <div class="flex items-center gap-6 h-full">
     <!-- Logo -->
-    <div class="flex items-center gap-2.5 shrink-0">
+    <a href="/country-glance-map" class="flex items-center gap-2.5 shrink-0 cursor-pointer hover:opacity-80 transition-opacity">
       <div class="w-7 h-7 rounded-[8px] bg-gradient-to-br from-indigo-600 to-indigo-800 flex items-center justify-center shadow-md shadow-indigo-500/20">
         <span class="material-symbols-outlined text-white" style="font-size:15px;">ballot</span>
       </div>
       <span class="text-[14px] font-extrabold text-gray-900 tracking-tight">Project CleanRoom</span>
-    </div>
+    </a>
     <div class="w-px h-5 bg-gray-200 shrink-0 mx-1"></div>
     <!-- Tabs -->
     <div class="flex flex-1 md:flex-none overflow-x-auto whitespace-nowrap hide-scrollbar items-center h-full gap-1 px-2 md:px-0">
@@ -2447,7 +2447,7 @@
         filled: false,
         stroked: true,
         lineWidthMinPixels: 1.8,  // Thicker than the 0.8 granular borders
-        getLineColor: [255, 255, 255, 255], // Solid white to pop out
+        getLineColor: [160, 160, 160, 255], // Lighter grey shade 
         pickable: false // Let mouse events pass through to the AC/PC/District layer
       }));
     }
