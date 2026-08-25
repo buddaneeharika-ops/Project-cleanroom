@@ -631,7 +631,7 @@ def require_login():
         return
     allowed_routes = ['login_page', 'login', 'auth_callback', 'static', 'admin_ac_pct',
                       'country_glance_test_page', 'country_glance_map_page', 'indexing_visualizer_page',
-                      'api_country_glance_data', 'api_map_district_data']
+                      'api_country_glance_data', 'api_map_district_data', 'api_map_pc_data', 'api_map_ac_data']
     if request.endpoint not in allowed_routes:
         if not session.get('user'):
             if request.path.startswith('/api/'):
@@ -654,12 +654,11 @@ def auth_callback():
     token = google.authorize_access_token()
     user_info = token.get('userinfo')
     
-    allowed_domains_str = os.environ.get('ALLOWED_OAUTH_DOMAIN', '').strip().lower()
-    if allowed_domains_str:
-        allowed_domains = [d.strip() for d in allowed_domains_str.split(',') if d.strip()]
+    allowed_domain = os.environ.get('ALLOWED_OAUTH_DOMAIN', '').strip().lower()
+    if allowed_domain:
         user_email = user_info.get('email', '').lower()
-        if not any(user_email.endswith('@' + d) for d in allowed_domains):
-            return jsonify({"error": f"Unauthorized domain. Must be one of: {', '.join(allowed_domains)}"}), 403
+        if not user_email.endswith('@' + allowed_domain):
+            return jsonify({"error": f"Unauthorized domain. Must be an @{allowed_domain} email."}), 403
             
     session.permanent = True
     session['user'] = user_info
@@ -2515,6 +2514,10 @@ def api_map_district_data():
     
     cache_key = f'map_district_data_{metric}'
     cached_data = cache_get(cache_key)
+    if not cached_data:
+        _build_pc_ac_caches(force_refresh=False)
+        cached_data = cache_get(cache_key)
+
     if cached_data:
         return jsonify({
             "success": True,
@@ -2531,6 +2534,10 @@ def api_map_pc_data():
     metric = request.args.get('metric', 'retro').lower().strip()
     cache_key = f'map_pc_data_{metric}'
     cached_data = cache_get(cache_key)
+    if not cached_data:
+        _build_pc_ac_caches(force_refresh=False)
+        cached_data = cache_get(cache_key)
+
     if cached_data is not None:
         return jsonify({
             "success": True, "metric": metric, "level": "pc",
@@ -2543,6 +2550,10 @@ def api_map_ac_data():
     metric = request.args.get('metric', 'retro').lower().strip()
     cache_key = f'map_ac_data_{metric}'
     cached_data = cache_get(cache_key)
+    if not cached_data:
+        _build_pc_ac_caches(force_refresh=False)
+        cached_data = cache_get(cache_key)
+
     if cached_data is not None:
         return jsonify({
             "success": True, "metric": metric, "level": "ac",
