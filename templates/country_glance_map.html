@@ -861,8 +861,6 @@
     'chamarajanagar': 'chamrajnagar',
     'mysore': 'mysuru',
     'tonk - sawai madhopur': 'tonk-sawai madhopur',
-    'rest of ladakh': 'ladakh',
-    'rest of j&k': 'baramulla',
     // Chhattisgarh
     'surguja': 'sarguja',
     // Other safe spelling variants
@@ -1381,7 +1379,12 @@
         onHover = onDistrictHover;
         updateTrig = { getFillColor: [activeMetric, Object.keys(districtCache).join(',')] };
     } else if (activeGranularity === 'pc' && pcGeoJSON) {
-        layerData = pcGeoJSON;
+        // Filter out giant overlapping fallback polygons that hide the real PCs in J&K/Ladakh
+        const filteredFeatures = pcGeoJSON.features.filter(f => {
+            const name = (f.properties.ls_seat_name || f.properties.PC_NAME || '').toLowerCase();
+            return !name.includes('rest of j&k') && !name.includes('rest of ladakh');
+        });
+        layerData = { type: 'FeatureCollection', features: filteredFeatures };
         layerId = 'india-pc-layer';
         getFillColor = (feature) => {
             const info = getPCPct(feature.properties);
