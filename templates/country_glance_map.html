@@ -2396,42 +2396,7 @@
 
     let layersToRender = [];
 
-    // J&K and Ladakh Fallback Layer: The AC and District shapefiles are missing parts of J&K/Ladakh.
-    // We render the perfectly aligned state-level J&K/Ladakh boundaries UNDERNEATH the active layer to prevent holes.
-    if ((activeGranularity === 'ac' || activeGranularity === 'district') && stateGeoJSON) {
-      const jkFeatures = stateGeoJSON.features.filter(f => {
-        const stateName = (f.properties.NAME_1 || f.properties.ST_NAME || '').toLowerCase();
-        return stateName.includes('jammu') || stateName.includes('ladakh');
-      });
-      
-      if (jkFeatures.length > 0) {
-        layersToRender.push(new deck.GeoJsonLayer({
-          id: 'jk-fallback-layer',
-          data: { type: 'FeatureCollection', features: jkFeatures },
-          stroked: true,
-          filled: true,
-          lineWidthMinPixels: 1,
-          getFillColor: [220, 38, 38, 200], // Red (0% coverage)
-          getLineColor: [255, 255, 255, 180], // White border to match other layers
-          pickable: true,
-          onHover: function(info) {
-            const tooltip = document.getElementById('map-tooltip');
-            if (info.object) {
-              const stateName = info.object.properties.NAME_1 || info.object.properties.ST_NAME || 'J&K / Ladakh';
-              document.getElementById('tooltip-region').textContent = stateName;
-              document.getElementById('tooltip-parent').textContent = 'Boundary missing at ' + activeGranularity + ' level';
-              const scoreEl = document.getElementById('tooltip-score');
-              scoreEl.textContent = '0.0%';
-              scoreEl.className = 'text-[11px] font-mono font-bold text-red-700 bg-red-50 border border-red-200 px-1.5 py-0.5 rounded whitespace-nowrap';
-              document.getElementById('tooltip-details').innerHTML = '<div class="text-gray-400 mt-1">Shapefile missing regions</div>';
-              positionTooltip(tooltip, info.x, info.y);
-            } else {
-              tooltip.style.display = 'none';
-            }
-          }
-        }));
-      }
-    }
+
 
     layersToRender.push(new deck.GeoJsonLayer(layerConfig));
 
