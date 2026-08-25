@@ -2397,20 +2397,16 @@
     let layersToRender = [];
 
     // J&K and Ladakh Fallback Layer: The AC and District shapefiles are missing parts of J&K/Ladakh.
-    // The user strictly wants the full J&K/Ladakh boundaries shown, including internal lines.
-    // The PC shapefile contains 'Rest of J&K', 'Ladakh', 'Rest of Ladakh', etc. which completes the map.
-    // We render this PC-level map UNDERNEATH the active layer.
-    if (activeGranularity !== 'state' && pcGeoJSON) {
-      const jkFeatures = pcGeoJSON.features.filter(f => {
-        const stateName = (f.properties.state_ut_name || f.properties.ST_NAME || '').toLowerCase();
-        const seatName = (f.properties.ls_seat_name || '').toLowerCase();
-        return stateName.includes('jammu') || seatName.includes('jammu') || 
-               stateName.includes('ladakh') || seatName.includes('ladakh');
+    // We render the perfectly aligned state-level J&K/Ladakh boundaries UNDERNEATH the active layer to prevent holes.
+    if ((activeGranularity === 'ac' || activeGranularity === 'district') && stateGeoJSON) {
+      const jkFeatures = stateGeoJSON.features.filter(f => {
+        const stateName = (f.properties.NAME_1 || f.properties.ST_NAME || '').toLowerCase();
+        return stateName.includes('jammu') || stateName.includes('ladakh');
       });
       
       if (jkFeatures.length > 0) {
         layersToRender.push(new deck.GeoJsonLayer({
-          id: 'jk-fallback-pc-layer',
+          id: 'jk-fallback-layer',
           data: { type: 'FeatureCollection', features: jkFeatures },
           stroked: true,
           filled: true,
@@ -2421,13 +2417,13 @@
           onHover: function(info) {
             const tooltip = document.getElementById('map-tooltip');
             if (info.object) {
-              const seatName = info.object.properties.ls_seat_name || info.object.properties.state_ut_name || 'Missing Region';
-              document.getElementById('tooltip-region').textContent = seatName;
-              document.getElementById('tooltip-parent').textContent = 'Data incomplete at ' + activeGranularity + ' level';
+              const stateName = info.object.properties.NAME_1 || info.object.properties.ST_NAME || 'J&K / Ladakh';
+              document.getElementById('tooltip-region').textContent = stateName;
+              document.getElementById('tooltip-parent').textContent = 'Boundary missing at ' + activeGranularity + ' level';
               const scoreEl = document.getElementById('tooltip-score');
               scoreEl.textContent = '0.0%';
               scoreEl.className = 'text-[11px] font-mono font-bold text-red-700 bg-red-50 border border-red-200 px-1.5 py-0.5 rounded whitespace-nowrap';
-              document.getElementById('tooltip-details').innerHTML = '<div class="text-gray-400 mt-1">No data in DB</div>';
+              document.getElementById('tooltip-details').innerHTML = '<div class="text-gray-400 mt-1">Shapefile missing regions</div>';
               positionTooltip(tooltip, info.x, info.y);
             } else {
               tooltip.style.display = 'none';
