@@ -861,6 +861,8 @@
     'chamarajanagar': 'chamrajnagar',
     'mysore': 'mysuru',
     'tonk - sawai madhopur': 'tonk-sawai madhopur',
+    'rest of ladakh': 'ladakh',
+    'rest of j&k': 'baramulla',
     // Chhattisgarh
     'surguja': 'sarguja',
     // Other safe spelling variants
@@ -1353,6 +1355,14 @@
     if (!deckgl) return;
     
     let isDataEmpty = false;
+
+    // Helper to identify J&K/Ladakh features
+    const isJK = (f) => {
+        const stateName = (f.properties.state_ut_name || f.properties.ST_NAME || f.properties.NAME_1 || '').toLowerCase();
+        const seatName = (f.properties.ls_seat_name || '').toLowerCase();
+        return stateName.includes('jammu') || seatName.includes('jammu') || 
+               stateName.includes('ladakh') || seatName.includes('ladakh');
+    };
     let layerData = null;
     let layerId = '';
     let getFillColor = null;
@@ -1365,26 +1375,32 @@
         getFillColor = (feature) => {
             const row = getStateRow(feature.properties);
             const val = row ? (row[activeMetric] ?? -1) : -1;
+
+            // Dim non-selected states when a state is selected
+            if (selectedState) {
+              const normSelected = normalizeStateName(selectedState.state_name);
+              const normFeature = normalizeStateName(feature.properties.NAME_1 || feature.properties.ST_NAME || '');
+              if (normSelected !== normFeature && !normSelected.includes(normFeature) && !normFeature.includes(normSelected)) {
+                const c = getRGBA(val);
+                return [c[0], c[1], c[2], 60]; // dim unselected
+              }
+            }
             return getRGBA(val);
         };
         onHover = onStateHover;
-        updateTrig = { getFillColor: [activeMetric, stateData.length] };
+        updateTrig = { getFillColor: [activeMetric, stateData.length, selectedState ? selectedState.state_abb : ''] };
     } else if (activeGranularity === 'district' && districtGeoJSON) {
         layerData = districtGeoJSON;
         layerId = 'india-district-layer';
         getFillColor = (feature) => {
+            if (isJK(feature)) return [0, 0, 0, 0]; // Transparent to show fallback layer underneath
             const info = getDistrictPct(feature.properties);
             return getRGBA(info ? info.pct : 0);
         };
         onHover = onDistrictHover;
         updateTrig = { getFillColor: [activeMetric, Object.keys(districtCache).join(',')] };
     } else if (activeGranularity === 'pc' && pcGeoJSON) {
-        // Filter out giant overlapping fallback polygons that hide the real PCs in J&K/Ladakh
-        const filteredFeatures = pcGeoJSON.features.filter(f => {
-            const name = (f.properties.ls_seat_name || f.properties.PC_NAME || '').toLowerCase();
-            return !name.includes('rest of j&k') && !name.includes('rest of ladakh');
-        });
-        layerData = { type: 'FeatureCollection', features: filteredFeatures };
+        layerData = pcGeoJSON;
         layerId = 'india-pc-layer';
         getFillColor = (feature) => {
             const info = getPCPct(feature.properties);
@@ -1396,6 +1412,7 @@
         layerData = acGeoJSON;
         layerId = 'india-ac-layer';
         getFillColor = (feature) => {
+            if (isJK(feature)) return [0, 0, 0, 0]; // Transparent to show fallback layer underneath
             const info = getACPct(feature.properties);
             return getRGBA(info ? info.pct : 0);
         };
@@ -1430,7 +1447,10 @@
             filled: true,
             lineWidthMinPixels: activeGranularity === 'state' ? 1.5 : 0.8,
             getFillColor: getFillColor,
-            getLineColor: [255, 255, 255, activeGranularity === 'state' ? 220 : 180],
+            getLineColor: (feature) => {
+                if (activeGranularity !== 'state' && activeGranularity !== 'pc' && isJK(feature)) return [0, 0, 0, 0];
+                return [255, 255, 255, activeGranularity === 'state' ? 220 : 180];
+            },
             lineWidthScale: 1,
             autoHighlight: true,
             highlightColor: [255, 255, 255, 100],
@@ -1439,22 +1459,49 @@
         })
     ];
 
+    // J&K and Ladakh Fallback Layer
+    if (activeGranularity !== 'state' && activeGranularity !== 'pc' && pcGeoJSON) {
+      const jkFeatures = pcGeoJSON.features.filter(isJK);
+      
+      if (jkFeatures.length > 0) {
+        layersToRender.unshift(new deck.GeoJsonLayer({
+          id: 'jk-fallback-pc-layer',
+          data: { type: 'FeatureCollection', features: jkFeatures },
+          stroked: true,
+          filled: true,
+          lineWidthMinPixels: 1,
+          getFillColor: [220, 38, 38, 200], // Red (0% coverage)
+          getLineColor: [255, 255, 255, 180], // White border
+          pickable: true,
+          onHover: function(info) {
+            const tooltip = document.getElementById('map-tooltip');
+            if (info.object) {
+              const seatName = info.object.properties.ls_seat_name || info.object.properties.state_ut_name || 'Missing Region';
+              document.getElementById('tooltip-region').textContent = seatName;
+              document.getElementById('tooltip-parent').textContent = 'Data incomplete at ' + activeGranularity + ' level';
+              const scoreEl = document.getElementById('tooltip-score');
+              scoreEl.textContent = '0.0%';
+              scoreEl.className = 'text-[11px] font-mono font-bold text-red-700 bg-red-50 border border-red-200 px-1.5 py-0.5 rounded whitespace-nowrap';
+              document.getElementById('tooltip-details').innerHTML = '<div class="text-gray-400 mt-1">No data in DB</div>';
+              positionTooltip(tooltip, info.x, info.y);
+            } else {
+              tooltip.style.display = 'none';
+            }
+          }
+        }));
+      }
+    }
+
     if (activeGranularity !== 'state' && stateGeoJSON) {
-        layersToRender.push(
-            new deck.GeoJsonLayer({
-                id: 'india-state-overlay',
-                data: stateGeoJSON,
-                pickable: false,
-                stroked: true,
-                filled: false,
-                lineWidthMinPixels: 2.5,
-                getLineColor: [0, 0, 0, 255], // Solid black for extreme visibility
-                lineWidthScale: 1,
-                parameters: {
-                    depthTest: false // Ensures this layer draws ON TOP of the PC/AC layer regardless of z-fighting
-                }
-            })
-        );
+      layersToRender.push(new deck.GeoJsonLayer({
+        id: 'state-boundary-overlay',
+        data: stateGeoJSON,
+        filled: false,
+        stroked: true,
+        lineWidthMinPixels: 1.8,
+        getLineColor: [160, 160, 160, 255], 
+        pickable: false 
+      }));
     }
 
     deckgl.setProps({
@@ -2286,140 +2333,7 @@
     ).join('');
   }
 
-  // ─── Click Handler for State Selection ────────────────────────────────────
-  // We need to modify the renderLayers function to add onClick
-  const origRenderLayers = renderLayers;
-  renderLayers = function() {
-    if (!deckgl) return;
-    
-    let isDataEmpty = false;
-    let layerData = null;
-    let layerId = '';
-    let getFillColor = null;
-    let onHover = null;
-    let updateTrig = {};
-    
-    if (activeGranularity === 'state' && stateGeoJSON) {
-        layerData = stateGeoJSON;
-        layerId = 'india-state-layer';
-        getFillColor = (feature) => {
-            const row = getStateRow(feature.properties);
-            const val = row ? (row[activeMetric] ?? -1) : -1;
 
-            // Dim non-selected states when a state is selected
-            if (selectedState) {
-              const normSelected = normalizeStateName(selectedState.state_name);
-              const normFeature = normalizeStateName(feature.properties.NAME_1 || feature.properties.ST_NAME || '');
-              if (normSelected !== normFeature && !normSelected.includes(normFeature) && !normFeature.includes(normSelected)) {
-                const c = getRGBA(val);
-                return [c[0], c[1], c[2], 60]; // dim unselected
-              }
-            }
-            return getRGBA(val);
-        };
-        onHover = onStateHover;
-        updateTrig = { getFillColor: [activeMetric, stateData.length, selectedState ? selectedState.state_abb : ''] };
-    } else if (activeGranularity === 'district' && districtGeoJSON) {
-        layerData = districtGeoJSON;
-        layerId = 'india-district-layer';
-        getFillColor = (feature) => {
-            const info = getDistrictPct(feature.properties);
-            return getRGBA(info ? info.pct : 0);
-        };
-        onHover = onDistrictHover;
-        updateTrig = { getFillColor: [activeMetric, Object.keys(districtCache).join(',')] };
-    } else if (activeGranularity === 'pc' && pcGeoJSON) {
-        layerData = pcGeoJSON;
-        layerId = 'india-pc-layer';
-        getFillColor = (feature) => {
-            const info = getPCPct(feature.properties);
-            return getRGBA(info ? info.pct : 0);
-        };
-        onHover = onPCHover;
-        updateTrig = { getFillColor: [activeMetric, pcCache[activeMetric] ? 'loaded' : 'none'] };
-    } else if (activeGranularity === 'ac' && acGeoJSON) {
-        layerData = acGeoJSON;
-        layerId = 'india-ac-layer';
-        getFillColor = (feature) => {
-            const info = getACPct(feature.properties);
-            return getRGBA(info ? info.pct : 0);
-        };
-        onHover = onACHover;
-        updateTrig = { getFillColor: [activeMetric, acCache[activeMetric] ? 'loaded' : 'none'] };
-    }
-    
-    if (!layerData) return;
-
-    if (activeGranularity === 'state') {
-        const sum = stateData.reduce((acc, row) => acc + (row[activeMetric] || 0), 0);
-        if (sum === 0) isDataEmpty = true;
-    } else if (activeGranularity === 'district') {
-        const c = districtCache[activeMetric];
-        if (!c || Object.keys(c).length === 0) isDataEmpty = true;
-    } else if (activeGranularity === 'pc') {
-        const c = pcCache[activeMetric];
-        if (!c || Object.keys(c || {}).length === 0) isDataEmpty = true;
-    } else if (activeGranularity === 'ac') {
-        const c = acCache[activeMetric];
-        if (!c || Object.keys(c || {}).length === 0) isDataEmpty = true;
-    }
-    
-    showNoDataWarning(isDataEmpty);
-
-    const layerConfig = {
-      id: layerId,
-      data: layerData,
-      pickable: true,
-      stroked: true,
-      filled: true,
-      lineWidthMinPixels: activeGranularity === 'state' ? 1.5 : 0.8,
-      getFillColor: getFillColor,
-      getLineColor: [255, 255, 255, activeGranularity === 'state' ? 220 : 180],
-      lineWidthScale: 1,
-      autoHighlight: true,
-      highlightColor: [255, 255, 255, 100],
-      onHover: onHover,
-      updateTriggers: updateTrig
-    };
-
-    // Add click handler for state level
-    if (activeGranularity === 'state') {
-      layerConfig.onClick = function(info) {
-        if (!info.object) return;
-        const row = getStateRow(info.object.properties);
-        if (row) {
-          if (selectedState && selectedState.state_name === row.state_name) {
-            deselectState();
-          } else {
-            selectStateByName(row.state_name);
-          }
-        }
-      };
-    }
-
-    let layersToRender = [];
-
-
-
-    layersToRender.push(new deck.GeoJsonLayer(layerConfig));
-
-    // Overlay the state boundaries on top of granular maps so states remain distinctly visible
-    if (activeGranularity !== 'state' && stateGeoJSON) {
-      layersToRender.push(new deck.GeoJsonLayer({
-        id: 'state-boundary-overlay',
-        data: stateGeoJSON,
-        filled: false,
-        stroked: true,
-        lineWidthMinPixels: 1.8,  // Thicker than the 0.8 granular borders
-        getLineColor: [160, 160, 160, 255], // Lighter grey shade 
-        pickable: false // Let mouse events pass through to the AC/PC/District layer
-      }));
-    }
-
-    deckgl.setProps({
-      layers: layersToRender
-    });
-  };
 
   document.addEventListener('DOMContentLoaded', initDeckGL);
 </script>
