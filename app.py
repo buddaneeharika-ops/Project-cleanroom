@@ -1707,10 +1707,17 @@ def form20_card_stats():
         avail = form20_by_state.get(state, 0)
         state_pcts[state] = round(avail / exp * 100, 2) if exp else 0.0
 
-    top_states = [
-        {'state': s, 'count': form20_by_state.get(s, 0), 'pct': state_pcts.get(s, 0)}
-        for s in sorted(acpc_by_state, key=lambda s: form20_by_state.get(s, 0), reverse=True)[:10]
-    ]
+    # Top 12 states with least coverage (most missing elections)
+    top_states = []
+    for s in sorted(acpc_by_state, key=lambda s: acpc_by_state[s] - form20_by_state.get(s, 0), reverse=True)[:12]:
+        missing_years = acpc_by_state[s] - form20_by_state.get(s, 0)
+        top_states.append({
+            'state': s,
+            'total': acpc_by_state[s],
+            'completed': form20_by_state.get(s, 0),
+            'missing_years': missing_years,
+            'pct': state_pcts.get(s, 0)
+        })
 
     # ── Missing elections ──────────────────────────────────────────────────────
     missing_elections = total_acpc_elections - total_form20_elections

@@ -1058,24 +1058,25 @@ function renderForm20Panel(stats) {
   // Bottom completed states (Remaining)
   const stateWrap = document.getElementById('f20-state-rows');
   if (stateWrap && stats.by_state) {
-    const topStates = [...stats.by_state]
-      .sort((a, b) => (b.total - b.completed) - (a.total - a.completed))
-      .slice(0, 8);
-    const max = Math.max(...topStates.map(s => s.completed), 1); // Highest among the bottom for color scaling
+    // Stats are already sorted by most missing years from the backend API.
+    const topStates = [...stats.by_state].slice(0, 12);
+    
+    // We want to highlight the worst offenders (most missing years) in red.
+    const maxMissing = Math.max(...topStates.map(s => s.missing_years), 1);
+    
     stateWrap.className = 'grid grid-cols-4 gap-1.5';
     stateWrap.innerHTML = topStates.map(s => {
-      // Reverse intensity so 0 is red, but wait, the prompt wants to highlight them?
-      // Just keep them subtle or use red/orange for low?
-      // Let's use red for 0, orange for low.
-      const intensity = Math.round((s.completed / max) * 9) + 1;
-      const bg = intensity <= 2 ? 'bg-red-50 border-red-100' :
-                 intensity <= 5 ? 'bg-orange-50 border-orange-100' : 'bg-gray-50 border-gray-100';
-      const tc = intensity <= 2 ? 'text-red-600' : intensity <= 5 ? 'text-orange-600' : 'text-gray-600';
+      // The closer missing_years is to maxMissing, the redder it should be.
+      const intensity = Math.round((s.missing_years / maxMissing) * 9) + 1;
+      
+      const bg = intensity >= 8 ? 'bg-red-50 border-red-100' :
+                 intensity >= 4 ? 'bg-orange-50 border-orange-100' : 'bg-gray-50 border-gray-100';
+      const tc = intensity >= 8 ? 'text-red-600' : intensity >= 4 ? 'text-orange-600' : 'text-gray-600';
+      
       return `
         <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5">
-          <span class="text-[10.5px] font-bold ${tc}">${s.state}</span>
-          <span class="text-[12px] font-black text-gray-900 tabular-nums leading-none">${s.completed}</span>
-          <span class="text-[9px] text-gray-400 leading-none">elections</span>
+          <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${Math.round(s.pct)}%</span>
+          <span class="text-[12px] font-black text-gray-900 tabular-nums leading-none">Years - ${s.missing_years}</span>
         </div>`;
     }).join('');
   }
