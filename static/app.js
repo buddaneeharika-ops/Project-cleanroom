@@ -1452,7 +1452,7 @@ function populateForm20Card(d) {
       return `
         <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5">
           <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${Math.round(s.pct)}%</span>
-          <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">Years - ${s.missing_years}</span>
+          <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">Election Years - ${s.missing_years}</span>
         </div>`;
     }).join('');
   }
