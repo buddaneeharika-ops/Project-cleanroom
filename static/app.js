@@ -816,9 +816,6 @@ function bindEvents() {
       }
     });
 
-
-    // Remember the active tab so a browser reload restores the same page.
-    try { localStorage.setItem('activeTab', activeId); } catch (e) {}
   }
 
   navTabs.forEach(t => {
@@ -957,11 +954,6 @@ function bindEvents() {
     startTab = 'nav-glance';
   } else if (hash === '#listing' || hash.startsWith('#state-')) {
     startTab = 'nav-listing';
-  } else {
-    try {
-      const saved = localStorage.getItem('activeTab');
-      if (saved && PERSIST_TABS.has(saved)) startTab = saved;
-    } catch (e) {}
   }
   switchTab(startTab);
 }
