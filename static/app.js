@@ -1055,31 +1055,7 @@ function renderForm20Panel(stats) {
     }).join('');
   }
 
-  // Bottom completed states (Remaining)
-  const stateWrap = document.getElementById('f20-state-rows');
-  if (stateWrap && stats.by_state) {
-    // Stats are already sorted by most missing years from the backend API.
-    const topStates = [...stats.by_state].slice(0, 12);
-    
-    // We want to highlight the worst offenders (most missing years) in red.
-    const maxMissing = Math.max(...topStates.map(s => s.missing_years), 1);
-    
-    stateWrap.className = 'grid grid-cols-4 gap-1.5';
-    stateWrap.innerHTML = topStates.map(s => {
-      // The closer missing_years is to maxMissing, the redder it should be.
-      const intensity = Math.round((s.missing_years / maxMissing) * 9) + 1;
-      
-      const bg = intensity >= 8 ? 'bg-red-50 border-red-100' :
-                 intensity >= 4 ? 'bg-orange-50 border-orange-100' : 'bg-gray-50 border-gray-100';
-      const tc = intensity >= 8 ? 'text-red-600' : intensity >= 4 ? 'text-orange-600' : 'text-gray-600';
-      
-      return `
-        <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5">
-          <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${Math.round(s.pct)}%</span>
-          <span class="text-[12px] font-black text-gray-900 tabular-nums leading-none">Years - ${s.missing_years}</span>
-        </div>`;
-    }).join('');
-  }
+  // (Bottom completed states for Form 20 are now exclusively handled by populateForm20Card)
 }
 
 
@@ -1462,18 +1438,21 @@ function populateForm20Card(d) {
   // ── Top states from Form 20 ───────────────────────────────────────────────
   const stateWrap = document.getElementById('f20-state-rows');
   if (stateWrap && d.top_states && d.top_states.length > 0) {
-    // (STATE_AC_COUNTS is defined at module level)
-    const max = d.top_states[0]?.count || 1;
+    const topStates = d.top_states;
+    const maxMissing = Math.max(...topStates.map(s => s.missing_years), 1);
+    
     stateWrap.className = 'grid grid-cols-4 gap-1.5';
-    stateWrap.innerHTML = d.top_states.map(s => {
-      const intensity = Math.round((s.count / max) * 9) + 1;
-      const bg = intensity >= 8 ? 'bg-gray-100 border-gray-300' :
-                 intensity >= 5 ? 'bg-gray-50 border-gray-200' : 'bg-gray-50 border-gray-100';
-      const tc = intensity >= 8 ? 'text-gray-800' : 'text-gray-600';
+    stateWrap.innerHTML = topStates.map(s => {
+      const intensity = Math.round((s.missing_years / maxMissing) * 9) + 1;
+      
+      const bg = intensity >= 8 ? 'bg-red-50 border-red-100' :
+                 intensity >= 4 ? 'bg-orange-50 border-orange-100' : 'bg-gray-50 border-gray-100';
+      const tc = intensity >= 8 ? 'text-red-600' : intensity >= 4 ? 'text-orange-600' : 'text-gray-600';
+      
       return `
-        <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5" title="${s.state}: ${fmtNum(s.count)} ACs (${s.pct ?? 0}%)">
-          <span class="text-[11px] font-bold ${tc}">${s.state} - ${s.pct ?? 0}%</span>
-          <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">AC - ${fmtNum(s.count)}</span>
+        <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5">
+          <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${Math.round(s.pct)}%</span>
+          <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">Years - ${s.missing_years}</span>
         </div>`;
     }).join('');
   }
