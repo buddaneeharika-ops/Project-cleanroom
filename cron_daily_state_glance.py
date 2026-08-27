@@ -27,7 +27,16 @@ def sync_json_to_redis():
         except Exception as e:
             print(f"[ERROR] Failed to sync state glance to Redis: {e}")
 
-    # Add other caches here (Country Glance, Intelligence, etc.) if they exist
+    # Sync Country Glance Cache
+    country_file = os.path.join(base_dir, 'static', 'data', 'glance_cache.json')
+    if os.path.exists(country_file):
+        try:
+            with open(country_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                r.set('cache:country_glance_data:data', json.dumps(data))
+            print(f"[OK] Synced Country Glance to Redis")
+        except Exception as e:
+            print(f"[ERROR] Failed to sync country glance to Redis: {e}")
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Redis Sync Complete!")
 
 def run_nightly_aggregation():
@@ -50,7 +59,10 @@ def run_nightly_aggregation():
         ("scratch_patch_granular_coverage.py", "Calculating True LGD Coverage"),
         
         # 6. By-Polls and Quality Remarks
-        ("scratch_master_patch.py", "Finalizing By-Polls & Remarks")
+        ("scratch_master_patch.py", "Finalizing By-Polls & Remarks"),
+
+        # 7. Generate Country Glance Cache
+        ("generate_glance_data.py", "Generating Country Glance Cache")
     ]
     
     for script, description in scripts:

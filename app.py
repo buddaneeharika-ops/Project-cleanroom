@@ -1677,8 +1677,15 @@ def form20_card_stats():
     total_form20_elections  = len(form20_set)   # total elections in form20
     total_acpc_elections    = len(acpc_set)     # total elections expected
 
-    # National coverage — keep 2 decimal places, NO rounding to integer
+    # National coverage — originally election-level
     coverage_pct = round(total_form20_elections / total_acpc_elections * 100, 2) if total_acpc_elections else 0.0
+
+    # User Request: Make dashboard match glance report AC-level calculation
+    glance_data = cache_get('country_glance_data')
+    if glance_data and isinstance(glance_data, dict):
+        glance_f20 = glance_data.get('national_avg', {}).get('form20')
+        if glance_f20 is not None:
+            coverage_pct = glance_f20
 
     # Distinct years (non-BP)
     years_form20   = sorted(set(int(y) for _, _, y in form20_set))

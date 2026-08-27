@@ -1389,7 +1389,7 @@ function populateForm20Card(d) {
   setEl('f20-pct',       pct + '%');
   setEl('f20-pct-label', 'coverage');
   setEl('f20-pct-badge', pct + '% complete');
-  setEl('f20-counts',    `${form20.toLocaleString()} / ${acpc.toLocaleString()} elections in Form 20`);
+  setEl('f20-counts',    `AC-Level Granular Coverage | ${form20.toLocaleString()} / ${acpc.toLocaleString()} elections processed`);
 
   // Hero ribbon — pipeline coverage
   setEl('hero-pipeline',     pct + '%');
