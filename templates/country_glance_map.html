@@ -1810,6 +1810,15 @@
     if (activeMainTab === tab) return;
     activeMainTab = tab;
     updateMainTabUI();
+
+    // Clear selected region when switching sections
+    selectedState = null;
+    document.getElementById('selected-state-badge-wrap').classList.add('hidden');
+    document.getElementById('selected-state-label').textContent = '-';
+    closeAnalyticsPanel();
+    document.getElementById('map-tooltip').style.display = 'none';
+    const mdi = document.getElementById('mobile-details-injection');
+    if (mdi) mdi.classList.add('hidden');
     
     const eciActive = activeMainTab === 'eci';
     activeMetric = eciActive ? 'retro' : 'ejal';
