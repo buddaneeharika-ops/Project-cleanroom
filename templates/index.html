@@ -42,6 +42,8 @@
     .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
     .custom-scrollbar::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 99px; }
     .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
+    .hide-scrollbar::-webkit-scrollbar { display: none; }
+    .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
 
     /* ── Nav tabs ── */
         .nav-tab {
@@ -248,7 +250,7 @@
     <div class="w-px h-5 bg-gray-200 shrink-0 mx-1"></div>
 
     <!-- Tabs -->
-    <div class="hidden md:flex items-center h-full gap-1">
+    <div class="flex flex-1 md:flex-none overflow-x-auto whitespace-nowrap hide-scrollbar items-center h-full gap-1 px-2 md:px-0">
       <a href="/country-glance-report" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Glance Report</a>
       <a id="nav-dashboard" href="/dashboard" class="nav-tab active h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-900 cursor-pointer select-none transition-colors relative ">Dashboard</a>
       <a id="nav-listing" href="/dashboard#listing" class="nav-tab h-full px-3.5 flex items-center text-[13px] font-semibold text-gray-500 hover:text-gray-900 cursor-pointer select-none transition-colors relative ">Backlog Tracker</a>

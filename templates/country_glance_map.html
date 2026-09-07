@@ -599,10 +599,18 @@
 ═══════════════════════════════════════════ -->
 <script>
 // ─── State ─────────────────────────────────────────────────────────────────
-  let activeMainTab = 'eci';
-  let activeMetric  = 'retro';
-  let activeGranularity = 'state'; // 'state', 'district', 'pc', 'ac'
+  const urlParams = new URLSearchParams(window.location.search);
+  let activeMainTab = urlParams.get('tab') || 'eci';
+  let activeMetric  = urlParams.get('metric') || 'retro';
+  let activeGranularity = urlParams.get('granularity') || 'state'; // 'state', 'district', 'pc', 'ac'
 
+  function updateURLParams() {
+    const url = new URL(window.location);
+    url.searchParams.set('tab', activeMainTab);
+    url.searchParams.set('metric', activeMetric);
+    url.searchParams.set('granularity', activeGranularity);
+    window.history.replaceState({}, '', url);
+  }
   let stateData     = [];   // array of {state_abb, state_name, retro, form20, ...}
   let districtCache = {};   // metric → {key: {pct, covered, total}}
   let pcCache       = {};   // metric → {dict: {...}, coveredCount, totalCount}
@@ -1568,7 +1576,14 @@
 
     const props = info.object.properties;
     const distName  = props.NAME_2 || 'District';
-    const stateName = props.NAME_1 || 'State';
+    let stateName = props.NAME_1 || 'State';
+    
+    // Override old GeoJSON AP to Telangana for mapped districts
+    const stateAbb = getStateAbbFromGeoName(stateName);
+    const normDist = normalizeDistrictName(distName);
+    if (stateAbb === 'AP' && DISTRICT_ALIASES[`AP|${normDist}`] && DISTRICT_ALIASES[`AP|${normDist}`].startsWith('TS|')) {
+        stateName = 'Telangana';
+    }
     const distInfo  = getDistrictPct(props);
     const pct       = distInfo ? distInfo.pct : 0;
     const covered   = distInfo ? distInfo.covered : 0;
@@ -1625,7 +1640,7 @@
 
     const props = info.object.properties;
     const pcName = props.ls_seat_name || props.PC_NAME || props.pc_name || 'PC';
-    const stateName = props.ST_NAME || props.st_name || props.NAME_1 || 'State';
+    const stateName = props.STATE_NAME || props.ST_NAME || props.st_name || props.state_name || props.NAME_1 || 'State';
     const pcInfo = getPCPct(props);
     const pct = pcInfo ? pcInfo.pct : 0;
     const covered = pcInfo ? pcInfo.covered : 0;
@@ -1794,6 +1809,7 @@
   async function switchMainTab(tab) {
     if (activeMainTab === tab) return;
     activeMainTab = tab;
+    updateURLParams();
     
     const eciActive = tab === 'eci';
     document.getElementById('main-tab-eci').className   = eciActive ? 'filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all' : 'filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all';
@@ -1828,6 +1844,7 @@
   async function setMetric(metric) {
     if (activeMetric === metric) return;
     activeMetric = metric;
+    updateURLParams();
     updateMetricUI();
 
     showLoading(true);
@@ -1845,6 +1862,13 @@
   async function setGranularity(g) {
     if (g === activeGranularity) return;
     activeGranularity = g;
+
+    // Clear tooltips when granularity changes
+    document.getElementById('map-tooltip').style.display = 'none';
+    const mdi = document.getElementById('mobile-details-injection');
+    if (mdi) mdi.classList.add('hidden');
+    
+    updateURLParams();
     updateGranularityUI();
 
     showLoading(true);
