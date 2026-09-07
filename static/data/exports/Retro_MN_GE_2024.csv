@@ -1,0 +1,377 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1712010,Angomcha Bimol Akoijam,INC,19777,8480,41.07,1,53,1,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712011,Thounaojam Basanta Kumar Singh,BJP,19780,6318,30.6,2,53,1,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712012,Maheshwar Thounaojam,RPPRINAT,19798,4968,24.06,3,53,1,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712013,Rajkumar Somendro Singh,IND,19781,517,2.5,4,53,1,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712014,Moirangthem Totomshana Nongshaba,IND,19781,181,0.88,5,53,1,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712015,Nota,NOTA,19789,126,0.61,6,53,1,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712016,Haorungbam Sarat Singh,IND,19781,56,0.27,7,53,1,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712017,Thounaojam Basanta Kumar Singh,BJP,19780,21263,71.35,1,53,2,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712018,Angomcha Bimol Akoijam,INC,19777,5429,18.22,2,53,2,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712019,Maheshwar Thounaojam,RPPRINAT,19798,2567,8.61,3,53,2,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712020,Rajkumar Somendro Singh,IND,19781,288,0.97,4,53,2,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712021,Nota,NOTA,19789,127,0.43,5,53,2,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712022,Moirangthem Totomshana Nongshaba,IND,19781,100,0.34,6,53,2,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712023,Haorungbam Sarat Singh,IND,19781,27,0.09,7,53,2,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712024,Angomcha Bimol Akoijam,INC,19777,12466,45.08,1,53,3,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712025,Thounaojam Basanta Kumar Singh,BJP,19780,7844,28.37,2,53,3,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712026,Maheshwar Thounaojam,RPPRINAT,19798,6427,23.24,3,53,3,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712027,Rajkumar Somendro Singh,IND,19781,522,1.89,4,53,3,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712028,Moirangthem Totomshana Nongshaba,IND,19781,211,0.76,5,53,3,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712029,Nota,NOTA,19789,150,0.54,6,53,3,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712030,Haorungbam Sarat Singh,IND,19781,33,0.12,7,53,3,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712031,Angomcha Bimol Akoijam,INC,19777,17188,59.17,1,53,4,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712032,Thounaojam Basanta Kumar Singh,BJP,19780,6369,21.93,2,53,4,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712033,Maheshwar Thounaojam,RPPRINAT,19798,4912,16.91,3,53,4,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712034,Rajkumar Somendro Singh,IND,19781,304,1.05,4,53,4,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712035,Moirangthem Totomshana Nongshaba,IND,19781,142,0.49,5,53,4,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712036,Nota,NOTA,19789,100,0.34,6,53,4,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712037,Haorungbam Sarat Singh,IND,19781,33,0.11,7,53,4,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712038,Angomcha Bimol Akoijam,INC,19777,11216,41.75,1,53,5,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712039,Thounaojam Basanta Kumar Singh,BJP,19780,9482,35.3,2,53,5,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712040,Maheshwar Thounaojam,RPPRINAT,19798,5326,19.83,3,53,5,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712041,Rajkumar Somendro Singh,IND,19781,407,1.52,4,53,5,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712042,Moirangthem Totomshana Nongshaba,IND,19781,205,0.76,5,53,5,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712043,Nota,NOTA,19789,196,0.73,6,53,5,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712044,Haorungbam Sarat Singh,IND,19781,32,0.12,7,53,5,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712045,Thounaojam Basanta Kumar Singh,BJP,19780,17772,70.65,1,53,6,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712046,Angomcha Bimol Akoijam,INC,19777,6251,24.85,2,53,6,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712047,Maheshwar Thounaojam,RPPRINAT,19798,928,3.69,3,53,6,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712048,Rajkumar Somendro Singh,IND,19781,100,0.4,4,53,6,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712049,Moirangthem Totomshana Nongshaba,IND,19781,51,0.2,5,53,6,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712050,Nota,NOTA,19789,34,0.14,6,53,6,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712051,Haorungbam Sarat Singh,IND,19781,20,0.08,7,53,6,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712052,Thounaojam Basanta Kumar Singh,BJP,19780,13744,45.17,1,53,7,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712053,Angomcha Bimol Akoijam,INC,19777,11780,38.71,2,53,7,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712054,Maheshwar Thounaojam,RPPRINAT,19798,4184,13.75,3,53,7,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712055,Rajkumar Somendro Singh,IND,19781,398,1.31,4,53,7,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712056,Moirangthem Totomshana Nongshaba,IND,19781,153,0.5,5,53,7,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712057,Nota,NOTA,19789,106,0.35,6,53,7,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712058,Haorungbam Sarat Singh,IND,19781,64,0.21,7,53,7,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712059,Angomcha Bimol Akoijam,INC,19777,10370,43.29,1,53,8,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712060,Thounaojam Basanta Kumar Singh,BJP,19780,8353,34.87,2,53,8,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712061,Maheshwar Thounaojam,RPPRINAT,19798,4268,17.82,3,53,8,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712062,Rajkumar Somendro Singh,IND,19781,640,2.67,4,53,8,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712063,Moirangthem Totomshana Nongshaba,IND,19781,174,0.73,5,53,8,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712064,Nota,NOTA,19789,104,0.43,6,53,8,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712065,Haorungbam Sarat Singh,IND,19781,48,0.2,7,53,8,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712066,Angomcha Bimol Akoijam,INC,19777,11260,57.05,1,53,9,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712067,Thounaojam Basanta Kumar Singh,BJP,19780,4966,25.16,2,53,9,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712068,Maheshwar Thounaojam,RPPRINAT,19798,2696,13.66,3,53,9,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712069,Rajkumar Somendro Singh,IND,19781,525,2.66,4,53,9,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712070,Nota,NOTA,19789,134,0.68,5,53,9,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712071,Moirangthem Totomshana Nongshaba,IND,19781,107,0.54,6,53,9,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712072,Haorungbam Sarat Singh,IND,19781,48,0.24,7,53,9,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712073,Angomcha Bimol Akoijam,INC,19777,10471,57.24,1,53,10,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712074,Maheshwar Thounaojam,RPPRINAT,19798,3853,21.06,2,53,10,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712075,Thounaojam Basanta Kumar Singh,BJP,19780,3415,18.67,3,53,10,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712076,Rajkumar Somendro Singh,IND,19781,318,1.74,4,53,10,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712077,Moirangthem Totomshana Nongshaba,IND,19781,107,0.58,5,53,10,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712078,Nota,NOTA,19789,100,0.55,6,53,10,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712079,Haorungbam Sarat Singh,IND,19781,29,0.16,7,53,10,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712080,Angomcha Bimol Akoijam,INC,19777,8901,50.99,1,53,11,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712081,Thounaojam Basanta Kumar Singh,BJP,19780,5404,30.95,2,53,11,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712082,Maheshwar Thounaojam,RPPRINAT,19798,2713,15.54,3,53,11,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712083,Rajkumar Somendro Singh,IND,19781,210,1.2,4,53,11,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712084,Nota,NOTA,19789,113,0.65,5,53,11,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712085,Moirangthem Totomshana Nongshaba,IND,19781,82,0.47,6,53,11,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712086,Haorungbam Sarat Singh,IND,19781,35,0.2,7,53,11,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712087,Angomcha Bimol Akoijam,INC,19777,10064,47.58,1,53,12,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712088,Maheshwar Thounaojam,RPPRINAT,19798,7894,37.32,2,53,12,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712089,Thounaojam Basanta Kumar Singh,BJP,19780,2802,13.25,3,53,12,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712090,Rajkumar Somendro Singh,IND,19781,177,0.84,4,53,12,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712091,Nota,NOTA,19789,100,0.47,5,53,12,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712092,Moirangthem Totomshana Nongshaba,IND,19781,94,0.44,6,53,12,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712093,Haorungbam Sarat Singh,IND,19781,22,0.1,7,53,12,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712094,Angomcha Bimol Akoijam,INC,19777,9386,56.67,1,53,13,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712095,Thounaojam Basanta Kumar Singh,BJP,19780,3937,23.77,2,53,13,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712096,Maheshwar Thounaojam,RPPRINAT,19798,2872,17.34,3,53,13,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712097,Rajkumar Somendro Singh,IND,19781,161,0.97,4,53,13,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712098,Moirangthem Totomshana Nongshaba,IND,19781,110,0.66,5,53,13,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712099,Nota,NOTA,19789,83,0.5,6,53,13,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712100,Haorungbam Sarat Singh,IND,19781,13,0.08,7,53,13,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712101,Angomcha Bimol Akoijam,INC,19777,11537,56.07,1,53,14,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712102,Thounaojam Basanta Kumar Singh,BJP,19780,5402,26.26,2,53,14,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712103,Maheshwar Thounaojam,RPPRINAT,19798,3093,15.03,3,53,14,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712104,Rajkumar Somendro Singh,IND,19781,259,1.26,4,53,14,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712105,Nota,NOTA,19789,119,0.58,5,53,14,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712106,Moirangthem Totomshana Nongshaba,IND,19781,110,0.53,6,53,14,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712107,Haorungbam Sarat Singh,IND,19781,55,0.27,7,53,14,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712108,Angomcha Bimol Akoijam,INC,19777,14314,56.53,1,53,15,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712109,Thounaojam Basanta Kumar Singh,BJP,19780,6711,26.5,2,53,15,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712110,Maheshwar Thounaojam,RPPRINAT,19798,3648,14.41,3,53,15,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712111,Rajkumar Somendro Singh,IND,19781,344,1.36,4,53,15,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712112,Nota,NOTA,19789,140,0.55,5,53,15,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712113,Moirangthem Totomshana Nongshaba,IND,19781,121,0.48,6,53,15,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712114,Haorungbam Sarat Singh,IND,19781,45,0.18,7,53,15,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712115,Thounaojam Basanta Kumar Singh,BJP,19780,8820,38.25,1,53,16,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712116,Angomcha Bimol Akoijam,INC,19777,7669,33.26,2,53,16,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712117,Maheshwar Thounaojam,RPPRINAT,19798,5326,23.1,3,53,16,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712118,Rajkumar Somendro Singh,IND,19781,683,2.96,4,53,16,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712119,Moirangthem Totomshana Nongshaba,IND,19781,258,1.12,5,53,16,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712120,Nota,NOTA,19789,193,0.84,6,53,16,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712121,Haorungbam Sarat Singh,IND,19781,108,0.47,7,53,16,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712122,Angomcha Bimol Akoijam,INC,19777,10076,38.05,1,53,17,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712123,Maheshwar Thounaojam,RPPRINAT,19798,7537,28.46,2,53,17,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712124,Thounaojam Basanta Kumar Singh,BJP,19780,7520,28.4,3,53,17,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712125,Rajkumar Somendro Singh,IND,19781,882,3.33,4,53,17,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712126,Moirangthem Totomshana Nongshaba,IND,19781,265,1.0,5,53,17,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712127,Nota,NOTA,19789,134,0.51,6,53,17,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712128,Haorungbam Sarat Singh,IND,19781,65,0.25,7,53,17,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712129,Thounaojam Basanta Kumar Singh,BJP,19780,11241,44.8,1,53,18,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712130,Angomcha Bimol Akoijam,INC,19777,8521,33.96,2,53,18,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712131,Maheshwar Thounaojam,RPPRINAT,19798,4580,18.25,3,53,18,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712132,Rajkumar Somendro Singh,IND,19781,434,1.73,4,53,18,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712133,Moirangthem Totomshana Nongshaba,IND,19781,177,0.71,5,53,18,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712134,Nota,NOTA,19789,103,0.41,6,53,18,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712135,Haorungbam Sarat Singh,IND,19781,34,0.14,7,53,18,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712136,Angomcha Bimol Akoijam,INC,19777,14169,47.01,1,53,19,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712137,Thounaojam Basanta Kumar Singh,BJP,19780,8532,28.31,2,53,19,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712138,Maheshwar Thounaojam,RPPRINAT,19798,6376,21.15,3,53,19,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712139,Rajkumar Somendro Singh,IND,19781,635,2.11,4,53,19,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712140,Moirangthem Totomshana Nongshaba,IND,19781,227,0.75,5,53,19,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712141,Nota,NOTA,19789,168,0.56,6,53,19,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712142,Haorungbam Sarat Singh,IND,19781,33,0.11,7,53,19,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712143,Angomcha Bimol Akoijam,INC,19777,11944,53.51,1,53,20,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712144,Thounaojam Basanta Kumar Singh,BJP,19780,5310,23.79,2,53,20,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712145,Maheshwar Thounaojam,RPPRINAT,19798,4402,19.72,3,53,20,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712146,Rajkumar Somendro Singh,IND,19781,356,1.59,4,53,20,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712147,Moirangthem Totomshana Nongshaba,IND,19781,145,0.65,5,53,20,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712148,Nota,NOTA,19789,124,0.56,6,53,20,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712149,Haorungbam Sarat Singh,IND,19781,39,0.17,7,53,20,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712150,Angomcha Bimol Akoijam,INC,19777,15282,53.36,1,53,21,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712151,Thounaojam Basanta Kumar Singh,BJP,19780,6369,22.24,2,53,21,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712152,Maheshwar Thounaojam,RPPRINAT,19798,6066,21.18,3,53,21,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712153,Rajkumar Somendro Singh,IND,19781,511,1.78,4,53,21,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712154,Moirangthem Totomshana Nongshaba,IND,19781,247,0.86,5,53,21,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712155,Nota,NOTA,19789,128,0.45,6,53,21,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712156,Haorungbam Sarat Singh,IND,19781,38,0.13,7,53,21,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712157,Angomcha Bimol Akoijam,INC,19777,11918,49.03,1,53,22,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712158,Thounaojam Basanta Kumar Singh,BJP,19780,6474,26.63,2,53,22,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712159,Maheshwar Thounaojam,RPPRINAT,19798,5099,20.97,3,53,22,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712160,Rajkumar Somendro Singh,IND,19781,487,2.0,4,53,22,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712161,Moirangthem Totomshana Nongshaba,IND,19781,189,0.78,5,53,22,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712162,Nota,NOTA,19789,96,0.39,6,53,22,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712163,Haorungbam Sarat Singh,IND,19781,47,0.19,7,53,22,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712164,Angomcha Bimol Akoijam,INC,19777,12707,50.8,1,53,23,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712165,Thounaojam Basanta Kumar Singh,BJP,19780,7613,30.44,2,53,23,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712166,Maheshwar Thounaojam,RPPRINAT,19798,4136,16.54,3,53,23,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712167,Rajkumar Somendro Singh,IND,19781,319,1.28,4,53,23,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712168,Moirangthem Totomshana Nongshaba,IND,19781,118,0.47,5,53,23,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712169,Nota,NOTA,19789,86,0.34,6,53,23,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712170,Haorungbam Sarat Singh,IND,19781,33,0.13,7,53,23,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712171,Thounaojam Basanta Kumar Singh,BJP,19780,16673,56.32,1,53,24,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712172,Angomcha Bimol Akoijam,INC,19777,10634,35.92,2,53,24,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712173,Maheshwar Thounaojam,RPPRINAT,19798,1891,6.39,3,53,24,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712174,Rajkumar Somendro Singh,IND,19781,218,0.74,4,53,24,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712175,Moirangthem Totomshana Nongshaba,IND,19781,81,0.27,5,53,24,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712176,Nota,NOTA,19789,76,0.26,6,53,24,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712177,Haorungbam Sarat Singh,IND,19781,32,0.11,7,53,24,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712178,Thounaojam Basanta Kumar Singh,BJP,19780,7802,35.19,1,53,25,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712179,Angomcha Bimol Akoijam,INC,19777,7617,34.36,2,53,25,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712180,Maheshwar Thounaojam,RPPRINAT,19798,5900,26.61,3,53,25,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712181,Rajkumar Somendro Singh,IND,19781,521,2.35,4,53,25,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712182,Moirangthem Totomshana Nongshaba,IND,19781,179,0.81,5,53,25,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712183,Nota,NOTA,19789,109,0.49,6,53,25,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712184,Haorungbam Sarat Singh,IND,19781,43,0.19,7,53,25,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712185,Thounaojam Basanta Kumar Singh,BJP,19780,12164,46.84,1,53,26,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712186,Angomcha Bimol Akoijam,INC,19777,7433,28.62,2,53,26,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712187,Maheshwar Thounaojam,RPPRINAT,19798,5360,20.64,3,53,26,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712188,Rajkumar Somendro Singh,IND,19781,659,2.54,4,53,26,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712189,Moirangthem Totomshana Nongshaba,IND,19781,178,0.69,5,53,26,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712190,Nota,NOTA,19789,142,0.55,6,53,26,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712191,Haorungbam Sarat Singh,IND,19781,34,0.13,7,53,26,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712192,Angomcha Bimol Akoijam,INC,19777,18343,60.81,1,53,27,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712193,Thounaojam Basanta Kumar Singh,BJP,19780,7955,26.37,2,53,27,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712194,Maheshwar Thounaojam,RPPRINAT,19798,3119,10.34,3,53,27,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712195,Rajkumar Somendro Singh,IND,19781,425,1.41,4,53,27,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712196,Moirangthem Totomshana Nongshaba,IND,19781,159,0.53,5,53,27,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712197,Nota,NOTA,19789,115,0.38,6,53,27,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712198,Haorungbam Sarat Singh,IND,19781,48,0.16,7,53,27,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712199,Thounaojam Basanta Kumar Singh,BJP,19780,7104,42.83,1,53,28,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712200,Angomcha Bimol Akoijam,INC,19777,5920,35.69,2,53,28,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712201,Maheshwar Thounaojam,RPPRINAT,19798,2994,18.05,3,53,28,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712202,Rajkumar Somendro Singh,IND,19781,342,2.06,4,53,28,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712203,Moirangthem Totomshana Nongshaba,IND,19781,120,0.72,5,53,28,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712204,Nota,NOTA,19789,67,0.4,6,53,28,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712205,Haorungbam Sarat Singh,IND,19781,40,0.24,7,53,28,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712206,Angomcha Bimol Akoijam,INC,19777,7746,39.19,1,53,29,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712207,Thounaojam Basanta Kumar Singh,BJP,19780,7741,39.16,2,53,29,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712208,Maheshwar Thounaojam,RPPRINAT,19798,3605,18.24,3,53,29,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712209,Rajkumar Somendro Singh,IND,19781,434,2.2,4,53,29,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712210,Moirangthem Totomshana Nongshaba,IND,19781,134,0.68,5,53,29,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712211,Nota,NOTA,19789,73,0.37,6,53,29,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712212,Haorungbam Sarat Singh,IND,19781,33,0.17,7,53,29,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712213,Angomcha Bimol Akoijam,INC,19777,21788,72.53,1,53,30,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712214,Thounaojam Basanta Kumar Singh,BJP,19780,6285,20.92,2,53,30,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712215,Maheshwar Thounaojam,RPPRINAT,19798,1557,5.18,3,53,30,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712216,Rajkumar Somendro Singh,IND,19781,187,0.62,4,53,30,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712217,Moirangthem Totomshana Nongshaba,IND,19781,105,0.35,5,53,30,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712218,Nota,NOTA,19789,92,0.31,6,53,30,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712219,Haorungbam Sarat Singh,IND,19781,27,0.09,7,53,30,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712220,Angomcha Bimol Akoijam,INC,19777,19835,75.7,1,53,31,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712221,Thounaojam Basanta Kumar Singh,BJP,19780,4923,18.79,2,53,31,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712222,Maheshwar Thounaojam,RPPRINAT,19798,1034,3.95,3,53,31,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712223,Rajkumar Somendro Singh,IND,19781,185,0.71,4,53,31,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712224,Moirangthem Totomshana Nongshaba,IND,19781,105,0.4,5,53,31,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712225,Nota,NOTA,19789,97,0.37,6,53,31,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712226,Haorungbam Sarat Singh,IND,19781,23,0.09,7,53,31,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712227,Angomcha Bimol Akoijam,INC,19777,18608,66.47,1,53,32,MN,Angomcha Bimol Akoijam,INC,,,,,False,53,2024,GE
+1712228,Thounaojam Basanta Kumar Singh,BJP,19780,4406,15.74,2,53,32,MN,Thounaojam Basanta Kumar Singh,BJP,,,,,True,53,2024,GE
+1712229,Maheshwar Thounaojam,RPPRINAT,19798,4299,15.36,3,53,32,MN,Maheshwar Thounaojam,RPPRINAT,,,,,False,53,2024,GE
+1712230,Rajkumar Somendro Singh,IND,19781,352,1.26,4,53,32,MN,Rajkumar Somendro Singh,IND,,,,,False,53,2024,GE
+1712231,Moirangthem Totomshana Nongshaba,IND,19781,170,0.61,5,53,32,MN,Moirangthem Totomshana Nongshaba,IND,,,,,False,53,2024,GE
+1712232,Nota,NOTA,19789,129,0.46,6,53,32,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712233,Haorungbam Sarat Singh,IND,19781,29,0.1,7,53,32,MN,Haorungbam Sarat Singh,IND,,,,,False,53,2024,GE
+1712234,Alfred Kanngam S Arthur,INC,19777,11550,54.67,1,53,33,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712235,Kachui Timothy Zimik,NPF,19792,7882,37.31,2,53,33,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712236,Nota,NOTA,19789,818,3.87,3,53,33,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712237,S Kho John,IND,19781,645,3.05,4,53,33,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712238,Alyson Abonmai,IND,19781,230,1.09,5,53,33,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712239,Alfred Kanngam S Arthur,INC,19777,14817,61.22,1,53,34,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712240,Kachui Timothy Zimik,NPF,19792,7941,32.81,2,53,34,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712241,Nota,NOTA,19789,797,3.29,3,53,34,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712242,S Kho John,IND,19781,413,1.71,4,53,34,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712243,Alyson Abonmai,IND,19781,236,0.98,5,53,34,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712244,Alfred Kanngam S Arthur,INC,19777,20198,71.41,1,53,35,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712245,Kachui Timothy Zimik,NPF,19792,7065,24.98,2,53,35,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712246,Nota,NOTA,19789,661,2.34,3,53,35,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712247,S Kho John,IND,19781,196,0.69,4,53,35,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712248,Alyson Abonmai,IND,19781,165,0.58,5,53,35,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712249,Alfred Kanngam S Arthur,INC,19777,13601,52.24,1,53,36,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712250,Kachui Timothy Zimik,NPF,19792,11578,44.47,2,53,36,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712251,Nota,NOTA,19789,485,1.86,3,53,36,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712252,S Kho John,IND,19781,238,0.91,4,53,36,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712253,Alyson Abonmai,IND,19781,132,0.51,5,53,36,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712254,Alfred Kanngam S Arthur,INC,19777,11869,61.68,1,53,37,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712255,Kachui Timothy Zimik,NPF,19792,6061,31.5,2,53,37,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712256,Nota,NOTA,19789,662,3.44,3,53,37,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712257,S Kho John,IND,19781,466,2.42,4,53,37,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712258,Alyson Abonmai,IND,19781,184,0.96,5,53,37,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712259,Kachui Timothy Zimik,NPF,19792,9769,53.1,1,53,38,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712260,Alfred Kanngam S Arthur,INC,19777,7685,41.77,2,53,38,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712261,Nota,NOTA,19789,539,2.93,3,53,38,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712262,S Kho John,IND,19781,204,1.11,4,53,38,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712263,Alyson Abonmai,IND,19781,202,1.1,5,53,38,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712264,Kachui Timothy Zimik,NPF,19792,10338,58.29,1,53,39,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712265,Alfred Kanngam S Arthur,INC,19777,6553,36.95,2,53,39,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712266,Nota,NOTA,19789,393,2.22,3,53,39,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712267,Alyson Abonmai,IND,19781,300,1.69,4,53,39,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712268,S Kho John,IND,19781,152,0.86,5,53,39,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712269,Alfred Kanngam S Arthur,INC,19777,9471,49.09,1,53,40,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712270,Kachui Timothy Zimik,NPF,19792,8524,44.18,2,53,40,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712271,Nota,NOTA,19789,526,2.73,3,53,40,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712272,S Kho John,IND,19781,388,2.01,4,53,40,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712273,Alyson Abonmai,IND,19781,386,2.0,5,53,40,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712274,Kachui Timothy Zimik,NPF,19792,23599,58.44,1,53,41,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712275,Alfred Kanngam S Arthur,INC,19777,15520,38.43,2,53,41,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712276,S Kho John,IND,19781,990,2.45,3,53,41,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712277,Alyson Abonmai,IND,19781,231,0.57,4,53,41,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712278,Nota,NOTA,19789,40,0.1,5,53,41,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712279,Kachui Timothy Zimik,NPF,19792,22264,56.93,1,53,42,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712280,Alfred Kanngam S Arthur,INC,19777,16181,41.38,2,53,42,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712281,S Kho John,IND,19781,461,1.18,3,53,42,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712282,Alyson Abonmai,IND,19781,133,0.34,4,53,42,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712283,Nota,NOTA,19789,67,0.17,5,53,42,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712284,Kachui Timothy Zimik,NPF,19792,15171,49.87,1,53,43,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712285,Alfred Kanngam S Arthur,INC,19777,14843,48.8,2,53,43,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712286,S Kho John,IND,19781,273,0.9,3,53,43,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712287,Alyson Abonmai,IND,19781,107,0.35,4,53,43,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712288,Nota,NOTA,19789,25,0.08,5,53,43,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712289,Kachui Timothy Zimik,NPF,19792,21404,55.96,1,53,44,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712290,Alfred Kanngam S Arthur,INC,19777,16524,43.2,2,53,44,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712291,S Kho John,IND,19781,166,0.43,3,53,44,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712292,Alyson Abonmai,IND,19781,126,0.33,4,53,44,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712293,Nota,NOTA,19789,29,0.08,5,53,44,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712294,Kachui Timothy Zimik,NPF,19792,20187,50.06,1,53,45,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712295,Alfred Kanngam S Arthur,INC,19777,19772,49.03,2,53,45,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712296,Alyson Abonmai,IND,19781,247,0.61,3,53,45,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712297,S Kho John,IND,19781,107,0.27,4,53,45,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712298,Nota,NOTA,19789,16,0.04,5,53,45,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712299,Alfred Kanngam S Arthur,INC,19777,3901,49.12,1,53,46,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712300,Kachui Timothy Zimik,NPF,19792,3585,45.15,2,53,46,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712301,S Kho John,IND,19781,340,4.28,3,53,46,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712302,Alyson Abonmai,IND,19781,104,1.31,4,53,46,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712303,Nota,NOTA,19789,11,0.14,5,53,46,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712304,S Kho John,IND,19781,35831,84.45,1,53,47,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712305,Kachui Timothy Zimik,NPF,19792,5731,13.51,2,53,47,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712306,Alfred Kanngam S Arthur,INC,19777,719,1.69,3,53,47,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712307,Alyson Abonmai,IND,19781,105,0.25,4,53,47,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712308,Nota,NOTA,19789,45,0.11,5,53,47,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712309,S Kho John,IND,19781,25178,56.22,1,53,48,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712310,Kachui Timothy Zimik,NPF,19792,17466,39.0,2,53,48,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712311,Alfred Kanngam S Arthur,INC,19777,1932,4.31,3,53,48,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712312,Alyson Abonmai,IND,19781,123,0.27,4,53,48,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712313,Nota,NOTA,19789,87,0.19,5,53,48,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712314,Kachui Timothy Zimik,NPF,19792,15032,41.39,1,53,49,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712315,S Kho John,IND,19781,11850,32.63,2,53,49,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712316,Alfred Kanngam S Arthur,INC,19777,7607,20.95,3,53,49,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712317,Alyson Abonmai,IND,19781,1642,4.52,4,53,49,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712318,Nota,NOTA,19789,186,0.51,5,53,49,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712319,Kachui Timothy Zimik,NPF,19792,8896,70.49,1,53,50,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712320,S Kho John,IND,19781,2443,19.36,2,53,50,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712321,Alfred Kanngam S Arthur,INC,19777,665,5.27,3,53,50,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712322,Alyson Abonmai,IND,19781,475,3.76,4,53,50,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712323,Nota,NOTA,19789,141,1.12,5,53,50,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712324,Kachui Timothy Zimik,NPF,19792,9199,47.08,1,53,51,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712325,Alfred Kanngam S Arthur,INC,19777,4529,23.18,2,53,51,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712326,S Kho John,IND,19781,4039,20.67,3,53,51,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712327,Alyson Abonmai,IND,19781,1684,8.62,4,53,51,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712328,Nota,NOTA,19789,87,0.45,5,53,51,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712329,Kachui Timothy Zimik,NPF,19792,26326,70.29,1,53,52,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712330,Alfred Kanngam S Arthur,INC,19777,5691,15.2,2,53,52,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712331,Alyson Abonmai,IND,19781,4907,13.1,3,53,52,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712332,S Kho John,IND,19781,492,1.31,4,53,52,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712333,Nota,NOTA,19789,35,0.09,5,53,52,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712334,Kachui Timothy Zimik,NPF,19792,17809,60.18,1,53,53,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712335,Alfred Kanngam S Arthur,INC,19777,10224,34.55,2,53,53,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712336,Alyson Abonmai,IND,19781,1213,4.1,3,53,53,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712337,S Kho John,IND,19781,327,1.1,4,53,53,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712338,Nota,NOTA,19789,20,0.07,5,53,53,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712339,Kachui Timothy Zimik,NPF,19792,16018,63.84,1,53,54,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712340,Alfred Kanngam S Arthur,INC,19777,8431,33.6,2,53,54,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712341,Alyson Abonmai,IND,19781,349,1.39,3,53,54,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712342,S Kho John,IND,19781,272,1.08,4,53,54,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712343,Nota,NOTA,19789,21,0.08,5,53,54,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712344,Alfred Kanngam S Arthur,INC,19777,13315,89.24,1,53,55,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712345,Kachui Timothy Zimik,NPF,19792,1275,8.55,2,53,55,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712346,S Kho John,IND,19781,266,1.78,3,53,55,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712347,Alyson Abonmai,IND,19781,38,0.25,4,53,55,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712348,Nota,NOTA,19789,26,0.17,5,53,55,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712349,Alfred Kanngam S Arthur,INC,19777,12389,93.28,1,53,56,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712350,S Kho John,IND,19781,437,3.29,2,53,56,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712351,Alyson Abonmai,IND,19781,389,2.93,3,53,56,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712352,Kachui Timothy Zimik,NPF,19792,38,0.29,4,53,56,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712353,Nota,NOTA,19789,29,0.22,5,53,56,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712354,Alfred Kanngam S Arthur,INC,19777,21106,84.98,1,53,57,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712355,Kachui Timothy Zimik,NPF,19792,2740,11.03,2,53,57,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712356,S Kho John,IND,19781,627,2.52,3,53,57,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712357,Alyson Abonmai,IND,19781,267,1.08,4,53,57,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712358,Nota,NOTA,19789,95,0.38,5,53,57,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712359,Alfred Kanngam S Arthur,INC,19777,39537,95.76,1,53,58,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712360,S Kho John,IND,19781,1033,2.5,2,53,58,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712361,Alyson Abonmai,IND,19781,276,0.67,3,53,58,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712362,Kachui Timothy Zimik,NPF,19792,270,0.65,4,53,58,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712363,Nota,NOTA,19789,173,0.42,5,53,58,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712364,Alfred Kanngam S Arthur,INC,19777,48600,96.29,1,53,59,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712365,S Kho John,IND,19781,908,1.8,2,53,59,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712366,Kachui Timothy Zimik,NPF,19792,519,1.03,3,53,59,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712367,Alyson Abonmai,IND,19781,270,0.53,4,53,59,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712368,Nota,NOTA,19789,175,0.35,5,53,59,MN,Nota,NOTA,,,,,False,53,2024,GE
+1712369,Alfred Kanngam S Arthur,INC,19777,19499,93.21,1,53,60,MN,Alfred Kanngam S Arthur,INC,,,,,False,53,2024,GE
+1712370,S Kho John,IND,19781,705,3.37,2,53,60,MN,S Kho John,IND,,,,,False,53,2024,GE
+1712371,Kachui Timothy Zimik,NPF,19792,414,1.98,3,53,60,MN,Kachui Timothy Zimik,NPF,,,,,True,53,2024,GE
+1712372,Alyson Abonmai,IND,19781,234,1.12,4,53,60,MN,Alyson Abonmai,IND,,,,,False,53,2024,GE
+1712373,Nota,NOTA,19789,68,0.33,5,53,60,MN,Nota,NOTA,,,,,False,53,2024,GE
+2001065,THOUNAOJAM BASANTA KUMAR SINGH,BJP,19780,1503,40.51,1,53,61,MN,THOUNAOJAM BASANTA KUMAR SINGH,BJP,,,,,,53,2024,GE
+2001066,ANGOMCHA BIMOL AKOIJAM,INC,19777,1355,36.52,2,53,61,MN,ANGOMCHA BIMOL AKOIJAM,INC,,,,,,53,2024,GE
+2001067,MAHESHWAR THOUNAOJAM,RPPRINAT,19798,678,18.27,3,53,61,MN,MAHESHWAR THOUNAOJAM,RPPRINAT,,,,,,53,2024,GE
+2001068,RAJKUMAR SOMENDRO SINGH,IND,19781,92,2.48,4,53,61,MN,RAJKUMAR SOMENDRO SINGH,IND,,,,,,53,2024,GE
+2001069,NOTA,NOTA,19789,43,1.16,5,53,61,MN,NOTA,NOTA,,,,,,53,2024,GE
+2001070,MOIRANGTHEM TOTOMSHANA NONGSHABA,IND,19781,26,0.7,6,53,61,MN,MOIRANGTHEM TOTOMSHANA NONGSHABA,IND,,,,,,53,2024,GE
+2001071,HAORUNGBAM SARAT SINGH,IND,19781,13,0.35,7,53,61,MN,HAORUNGBAM SARAT SINGH,IND,,,,,,53,2024,GE
+2001072,ALFRED KANNGAM S ARTHUR,INC,19777,5084,73.11,1,53,62,MN,ALFRED KANNGAM S ARTHUR,INC,,,,,,53,2024,GE
+2001073,KACHUI TIMOTHY ZIMIK,NPF,19792,1257,18.08,2,53,62,MN,KACHUI TIMOTHY ZIMIK,NPF,,,,,,53,2024,GE
+2001074,NOTA,NOTA,19789,273,3.93,3,53,62,MN,NOTA,NOTA,,,,,,53,2024,GE
+2001075,S KHO JOHN,IND,19781,230,3.31,4,53,62,MN,S KHO JOHN,IND,,,,,,53,2024,GE
+2001076,ALYSON ABONMAI,IND,19781,110,1.58,5,53,62,MN,ALYSON ABONMAI,IND,,,,,,53,2024,GE

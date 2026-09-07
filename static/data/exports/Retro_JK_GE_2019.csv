@@ -1,0 +1,1433 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1925920,Engineer Rashid,IND,24808,5463,24.97,1,37,1,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925921,Abdul Qayoom Wani,JKPDP,24832,4884,22.32,2,37,1,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925922,Mohammad Akbar Lone,JKN,24830,3628,16.58,3,37,1,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925923,Haji Farooq Ahmad Mir,INC,24825,3123,14.27,4,37,1,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925924,Raja Aijaz Ali,JPC,24831,3001,13.72,5,37,1,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925925,Jahangir Khan,JKNPP,24867,929,4.25,6,37,1,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925926,Nota,NOTA,24835,281,1.28,7,37,1,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925927,Mohd Maqbool War,BJP,24826,276,1.26,8,37,1,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925928,Syed Najeeb Shah Naqvi,IND,24808,160,0.73,9,37,1,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1925929,Javid Ahmad Qureshi,IND,24808,133,0.61,10,37,1,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925930,Mohammad Akbar Lone,JKN,24830,15544,26.59,1,37,2,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925931,Raja Aijaz Ali,JPC,24831,15334,26.23,2,37,2,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925932,Abdul Qayoom Wani,JKPDP,24832,12491,21.37,3,37,2,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925933,Engineer Rashid,IND,24808,12264,20.98,4,37,2,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925934,Nota,NOTA,24835,766,1.31,5,37,2,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925935,Haji Farooq Ahmad Mir,INC,24825,536,0.92,6,37,2,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925936,Mohd Maqbool War,BJP,24826,456,0.78,7,37,2,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925937,Syed Najeeb Shah Naqvi,IND,24808,429,0.73,8,37,2,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1925938,Javid Ahmad Qureshi,IND,24808,325,0.56,9,37,2,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925939,Jahangir Khan,JKNPP,24867,311,0.53,10,37,2,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925940,Mohammad Akbar Lone,JKN,24830,14794,27.77,1,37,3,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925941,Engineer Rashid,IND,24808,10675,20.04,2,37,3,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925942,Abdul Qayoom Wani,JKPDP,24832,10180,19.11,3,37,3,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925943,Haji Farooq Ahmad Mir,INC,24825,9579,17.98,4,37,3,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925944,Raja Aijaz Ali,JPC,24831,5168,9.7,5,37,3,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925945,Nota,NOTA,24835,894,1.68,6,37,3,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925946,Mohd Maqbool War,BJP,24826,702,1.32,7,37,3,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925947,Jahangir Khan,JKNPP,24867,488,0.92,8,37,3,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925948,Syed Najeeb Shah Naqvi,IND,24808,411,0.77,9,37,3,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1925949,Javid Ahmad Qureshi,IND,24808,388,0.73,10,37,3,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925950,Raja Aijaz Ali,JPC,24831,29651,48.41,1,37,4,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925951,Mohammad Akbar Lone,JKN,24830,21466,35.05,2,37,4,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925952,Engineer Rashid,IND,24808,6386,10.43,3,37,4,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925953,Nota,NOTA,24835,909,1.48,4,37,4,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925954,Abdul Qayoom Wani,JKPDP,24832,768,1.25,5,37,4,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925955,Mohd Maqbool War,BJP,24826,519,0.85,6,37,4,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925956,Javid Ahmad Qureshi,IND,24808,513,0.84,7,37,4,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925957,Jahangir Khan,JKNPP,24867,410,0.67,8,37,4,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925958,Haji Farooq Ahmad Mir,INC,24825,316,0.52,9,37,4,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925959,Syed Najeeb Shah Naqvi,IND,24808,311,0.51,10,37,4,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1925960,Engineer Rashid,IND,24808,15154,55.87,1,37,5,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925961,Raja Aijaz Ali,JPC,24831,8369,30.86,2,37,5,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925962,Mohammad Akbar Lone,JKN,24830,1305,4.81,3,37,5,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925963,Nota,NOTA,24835,619,2.28,4,37,5,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925964,Abdul Qayoom Wani,JKPDP,24832,532,1.96,5,37,5,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925965,Haji Farooq Ahmad Mir,INC,24825,529,1.95,6,37,5,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925966,Mohd Maqbool War,BJP,24826,163,0.6,7,37,5,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925967,Syed Najeeb Shah Naqvi,IND,24808,160,0.59,8,37,5,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1925968,Jahangir Khan,JKNPP,24867,146,0.54,9,37,5,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925969,Javid Ahmad Qureshi,IND,24808,146,0.54,9,37,5,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925970,Engineer Rashid,IND,24808,13652,28.73,1,37,6,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925971,Mohammad Akbar Lone,JKN,24830,10395,21.88,2,37,6,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925972,Haji Farooq Ahmad Mir,INC,24825,9518,20.03,3,37,6,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925973,Raja Aijaz Ali,JPC,24831,8407,17.69,4,37,6,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925974,Syed Najeeb Shah Naqvi,IND,24808,2289,4.82,5,37,6,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1925975,Nota,NOTA,24835,1138,2.39,6,37,6,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925976,Mohd Maqbool War,BJP,24826,871,1.83,7,37,6,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925977,Abdul Qayoom Wani,JKPDP,24832,488,1.03,8,37,6,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925978,Jahangir Khan,JKNPP,24867,404,0.85,9,37,6,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925979,Javid Ahmad Qureshi,IND,24808,357,0.75,10,37,6,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925980,Mohammad Akbar Lone,JKN,24830,3402,34.11,1,37,7,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925981,Engineer Rashid,IND,24808,2545,25.51,2,37,7,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925983,Raja Aijaz Ali,JPC,24831,1627,16.31,3,37,7,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925982,Abdul Qayoom Wani,JKPDP,24832,1627,16.31,3,37,7,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925984,Mohd Maqbool War,BJP,24826,195,1.95,5,37,7,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925985,Nota,NOTA,24835,183,1.83,6,37,7,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925986,Haji Farooq Ahmad Mir,INC,24825,125,1.25,7,37,7,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925987,Jahangir Khan,JKNPP,24867,104,1.04,8,37,7,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925988,Javid Ahmad Qureshi,IND,24808,91,0.91,9,37,7,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925989,Syed Najeeb Shah Naqvi,IND,24808,76,0.76,10,37,7,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1925990,Mohammad Akbar Lone,JKN,24830,3094,63.51,1,37,8,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1925991,Engineer Rashid,IND,24808,583,11.97,2,37,8,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1925992,Haji Farooq Ahmad Mir,INC,24825,542,11.12,3,37,8,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1925993,Raja Aijaz Ali,JPC,24831,180,3.69,4,37,8,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1925994,Abdul Qayoom Wani,JKPDP,24832,166,3.41,5,37,8,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1925995,Mohd Maqbool War,BJP,24826,124,2.55,6,37,8,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1925996,Nota,NOTA,24835,82,1.68,7,37,8,JK,Nota,NOTA,,,,,False,37,2019,GE
+1925997,Javid Ahmad Qureshi,IND,24808,41,0.84,8,37,8,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1925998,Jahangir Khan,JKNPP,24867,39,0.8,9,37,8,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1925999,Syed Najeeb Shah Naqvi,IND,24808,21,0.43,10,37,8,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926000,Mohammad Akbar Lone,JKN,24830,3523,48.31,1,37,9,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1926001,Abdul Qayoom Wani,JKPDP,24832,2831,38.82,2,37,9,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1926002,Engineer Rashid,IND,24808,231,3.17,3,37,9,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1926003,Raja Aijaz Ali,JPC,24831,220,3.02,4,37,9,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1926004,Haji Farooq Ahmad Mir,INC,24825,203,2.78,5,37,9,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1926005,Nota,NOTA,24835,94,1.29,6,37,9,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926006,Mohd Maqbool War,BJP,24826,88,1.21,7,37,9,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1926007,Jahangir Khan,JKNPP,24867,57,0.78,8,37,9,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1926008,Javid Ahmad Qureshi,IND,24808,32,0.44,9,37,9,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1926009,Syed Najeeb Shah Naqvi,IND,24808,14,0.19,10,37,9,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926010,Mohammad Akbar Lone,JKN,24830,5463,23.24,1,37,10,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1926011,Haji Farooq Ahmad Mir,INC,24825,5358,22.79,2,37,10,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1926012,Abdul Qayoom Wani,JKPDP,24832,4641,19.74,3,37,10,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1926013,Engineer Rashid,IND,24808,4354,18.52,4,37,10,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1926014,Raja Aijaz Ali,JPC,24831,1387,5.9,5,37,10,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1926015,Nota,NOTA,24835,856,3.64,6,37,10,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926016,Mohd Maqbool War,BJP,24826,458,1.95,7,37,10,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1926017,Jahangir Khan,JKNPP,24867,389,1.65,8,37,10,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1926018,Syed Najeeb Shah Naqvi,IND,24808,322,1.37,9,37,10,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926019,Javid Ahmad Qureshi,IND,24808,280,1.19,10,37,10,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1926020,Mohammad Akbar Lone,JKN,24830,24495,55.85,1,37,11,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1926021,Raja Aijaz Ali,JPC,24831,10777,24.57,2,37,11,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1926022,Engineer Rashid,IND,24808,2623,5.98,3,37,11,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1926023,Abdul Qayoom Wani,JKPDP,24832,2033,4.64,4,37,11,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1926024,Haji Farooq Ahmad Mir,INC,24825,1714,3.91,5,37,11,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1926025,Nota,NOTA,24835,780,1.78,6,37,11,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926026,Mohd Maqbool War,BJP,24826,499,1.14,7,37,11,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1926027,Javid Ahmad Qureshi,IND,24808,430,0.98,8,37,11,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1926028,Jahangir Khan,JKNPP,24867,294,0.67,9,37,11,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1926029,Syed Najeeb Shah Naqvi,IND,24808,210,0.48,10,37,11,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926030,Mohammad Akbar Lone,JKN,24830,3020,31.05,1,37,12,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1926031,Engineer Rashid,IND,24808,2626,27.0,2,37,12,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1926032,Abdul Qayoom Wani,JKPDP,24832,1837,18.89,3,37,12,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1926033,Haji Farooq Ahmad Mir,INC,24825,1176,12.09,4,37,12,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1926034,Raja Aijaz Ali,JPC,24831,512,5.26,5,37,12,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1926035,Mohd Maqbool War,BJP,24826,149,1.53,6,37,12,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1926036,Nota,NOTA,24835,143,1.47,7,37,12,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926037,Jahangir Khan,JKNPP,24867,107,1.1,8,37,12,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1926038,Javid Ahmad Qureshi,IND,24808,86,0.88,9,37,12,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1926039,Syed Najeeb Shah Naqvi,IND,24808,70,0.72,10,37,12,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926040,Engineer Rashid,IND,24808,4762,33.81,1,37,13,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1926041,Abdul Qayoom Wani,JKPDP,24832,3323,23.59,2,37,13,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1926042,Mohammad Akbar Lone,JKN,24830,2536,18.0,3,37,13,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1926043,Raja Aijaz Ali,JPC,24831,1756,12.47,4,37,13,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1926044,Haji Farooq Ahmad Mir,INC,24825,634,4.5,5,37,13,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1926045,Mohd Maqbool War,BJP,24826,433,3.07,6,37,13,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1926046,Nota,NOTA,24835,294,2.09,7,37,13,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926047,Syed Najeeb Shah Naqvi,IND,24808,125,0.89,8,37,13,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926048,Jahangir Khan,JKNPP,24867,115,0.82,9,37,13,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1926049,Javid Ahmad Qureshi,IND,24808,107,0.76,10,37,13,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1926050,Engineer Rashid,IND,24808,13951,40.94,1,37,14,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1926051,Mohammad Akbar Lone,JKN,24830,8900,26.12,2,37,14,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1926052,Abdul Qayoom Wani,JKPDP,24832,6676,19.59,3,37,14,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1926053,Raja Aijaz Ali,JPC,24831,2698,7.92,4,37,14,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1926054,Nota,NOTA,24835,644,1.89,5,37,14,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926055,Haji Farooq Ahmad Mir,INC,24825,310,0.91,6,37,14,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1926056,Mohd Maqbool War,BJP,24826,278,0.82,7,37,14,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1926057,Jahangir Khan,JKNPP,24867,237,0.7,8,37,14,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1926058,Javid Ahmad Qureshi,IND,24808,197,0.58,9,37,14,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1926059,Syed Najeeb Shah Naqvi,IND,24808,187,0.55,10,37,14,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926060,Raja Aijaz Ali,JPC,24831,13390,40.97,1,37,15,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1926061,Mohammad Akbar Lone,JKN,24830,11354,34.74,2,37,15,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1926062,Engineer Rashid,IND,24808,5398,16.51,3,37,15,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1926063,Abdul Qayoom Wani,JKPDP,24832,823,2.52,4,37,15,JK,Abdul Qayoom Wani,JKPDP,,,,,True,37,2019,GE
+1926064,Haji Farooq Ahmad Mir,INC,24825,530,1.62,5,37,15,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1926065,Nota,NOTA,24835,372,1.14,6,37,15,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926066,Mohd Maqbool War,BJP,24826,289,0.88,7,37,15,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1926067,Javid Ahmad Qureshi,IND,24808,200,0.61,8,37,15,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1926068,Jahangir Khan,JKNPP,24867,170,0.52,9,37,15,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1926069,Syed Najeeb Shah Naqvi,IND,24808,160,0.49,10,37,15,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1926070,Farooq Abdullah,JKN,24830,12239,67.3,1,37,16,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926071,Aga Syed Mohsin,PDP,24811,2238,12.31,2,37,16,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926072,Irfan Raza Ansari,JPC,24831,1074,5.91,3,37,16,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926073,Showkat Hussain Khan,JD(U),24846,582,3.2,4,37,16,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926074,Nota,NOTA,24835,347,1.91,5,37,16,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926075,Sheikh Khalid Jehangir,BJP,24826,335,1.84,6,37,16,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926076,Bilal Sultan,IND,24808,329,1.81,7,37,16,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926077,Nazir Ahmad Sofi,MaNPa,24906,295,1.62,8,37,16,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926078,Abdual Rashid Ganie,JKNPP,24867,239,1.31,9,37,16,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926079,Abdul Rashid Banday,IND,24808,176,0.97,10,37,16,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926080,Sajjad Ahmad Dar,IND,24808,132,0.73,11,37,16,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926081,Nazir Ahmad Lone,RaJPa,24813,121,0.67,12,37,16,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926082,Abdul Khaliq Bhat,SHS,24907,79,0.43,13,37,16,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926083,Farooq Abdullah,JKN,24830,7832,61.25,1,37,17,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926084,Aga Syed Mohsin,PDP,24811,2780,21.74,2,37,17,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926085,Irfan Raza Ansari,JPC,24831,963,7.53,3,37,17,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926086,Sheikh Khalid Jehangir,BJP,24826,321,2.51,4,37,17,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926087,Bilal Sultan,IND,24808,235,1.84,5,37,17,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926088,Nota,NOTA,24835,172,1.35,6,37,17,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926089,Abdul Rashid Banday,IND,24808,127,0.99,7,37,17,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926090,Showkat Hussain Khan,JD(U),24846,96,0.75,8,37,17,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926091,Nazir Ahmad Sofi,MaNPa,24906,92,0.72,9,37,17,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926092,Abdual Rashid Ganie,JKNPP,24867,52,0.41,10,37,17,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926093,Sajjad Ahmad Dar,IND,24808,49,0.38,11,37,17,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926094,Abdul Khaliq Bhat,SHS,24907,37,0.29,12,37,17,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926095,Nazir Ahmad Lone,RaJPa,24813,31,0.24,13,37,17,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926096,Farooq Abdullah,JKN,24830,3979,40.64,1,37,18,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926097,Irfan Raza Ansari,JPC,24831,3078,31.44,2,37,18,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926098,Aga Syed Mohsin,PDP,24811,2276,23.25,3,37,18,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926099,Abdul Rashid Banday,IND,24808,66,0.67,4,37,18,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926100,Nota,NOTA,24835,59,0.6,5,37,18,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926101,Sheikh Khalid Jehangir,BJP,24826,58,0.59,6,37,18,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926102,Abdual Rashid Ganie,JKNPP,24867,56,0.57,7,37,18,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926103,Nazir Ahmad Sofi,MaNPa,24906,56,0.57,7,37,18,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926104,Bilal Sultan,IND,24808,44,0.45,9,37,18,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926105,Abdul Khaliq Bhat,SHS,24907,35,0.36,10,37,18,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926106,Nazir Ahmad Lone,RaJPa,24813,31,0.32,11,37,18,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926107,Sajjad Ahmad Dar,IND,24808,26,0.27,12,37,18,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926108,Showkat Hussain Khan,JD(U),24846,26,0.27,12,37,18,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926109,Farooq Abdullah,JKN,24830,3718,50.65,1,37,19,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926110,Irfan Raza Ansari,JPC,24831,3216,43.81,2,37,19,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926111,Aga Syed Mohsin,PDP,24811,194,2.64,3,37,19,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926112,Bilal Sultan,IND,24808,44,0.6,4,37,19,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926113,Nota,NOTA,24835,32,0.44,5,37,19,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926114,Sheikh Khalid Jehangir,BJP,24826,31,0.42,6,37,19,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926115,Abdul Khaliq Bhat,SHS,24907,25,0.34,7,37,19,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926116,Nazir Ahmad Sofi,MaNPa,24906,23,0.31,8,37,19,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926117,Nazir Ahmad Lone,RaJPa,24813,21,0.29,9,37,19,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926118,Showkat Hussain Khan,JD(U),24846,15,0.2,10,37,19,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926119,Abdul Rashid Banday,IND,24808,12,0.16,11,37,19,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926120,Abdual Rashid Ganie,JKNPP,24867,5,0.04,12,37,19,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926121,Sajjad Ahmad Dar,IND,24808,4,0.03,13,37,19,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926122,Farooq Abdullah,JKN,24830,1488,68.83,1,37,20,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926123,Aga Syed Mohsin,PDP,24811,312,14.43,2,37,20,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926124,Irfan Raza Ansari,JPC,24831,213,9.85,3,37,20,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926125,Bilal Sultan,IND,24808,39,1.8,4,37,20,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926126,Nota,NOTA,24835,20,0.93,5,37,20,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926127,Sheikh Khalid Jehangir,BJP,24826,18,0.83,6,37,20,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926128,Showkat Hussain Khan,JD(U),24846,17,0.79,7,37,20,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926129,Abdual Rashid Ganie,JKNPP,24867,12,0.56,8,37,20,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926130,Abdul Rashid Banday,IND,24808,12,0.56,8,37,20,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926131,Abdul Khaliq Bhat,SHS,24907,9,0.42,10,37,20,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926132,Nazir Ahmad Sofi,MaNPa,24906,9,0.42,10,37,20,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926133,Sajjad Ahmad Dar,IND,24808,8,0.37,12,37,20,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926134,Nazir Ahmad Lone,RaJPa,24813,5,0.23,13,37,20,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926135,Farooq Abdullah,JKN,24830,3168,71.72,1,37,21,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926136,Aga Syed Mohsin,PDP,24811,931,21.08,2,37,21,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926137,Irfan Raza Ansari,JPC,24831,87,1.97,3,37,21,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926138,Nota,NOTA,24835,34,0.77,4,37,21,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926139,Bilal Sultan,IND,24808,29,0.66,5,37,21,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926140,Sheikh Khalid Jehangir,BJP,24826,28,0.63,6,37,21,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926141,Showkat Hussain Khan,JD(U),24846,28,0.63,6,37,21,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926143,Abdul Rashid Banday,IND,24808,26,0.59,8,37,21,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926142,Abdual Rashid Ganie,JKNPP,24867,26,0.59,8,37,21,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926144,Abdul Khaliq Bhat,SHS,24907,18,0.41,10,37,21,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926147,Sajjad Ahmad Dar,IND,24808,14,0.32,11,37,21,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926145,Nazir Ahmad Lone,RaJPa,24813,14,0.32,11,37,21,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926146,Nazir Ahmad Sofi,MaNPa,24906,14,0.32,11,37,21,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926148,Farooq Abdullah,JKN,24830,2128,88.26,1,37,22,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926149,Irfan Raza Ansari,JPC,24831,169,7.01,2,37,22,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926150,Aga Syed Mohsin,PDP,24811,26,1.08,3,37,22,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926151,Sheikh Khalid Jehangir,BJP,24826,21,0.87,4,37,22,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926152,Bilal Sultan,IND,24808,16,0.66,5,37,22,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926153,Nota,NOTA,24835,15,0.62,6,37,22,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926154,Abdul Khaliq Bhat,SHS,24907,10,0.41,7,37,22,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926155,Abdul Rashid Banday,IND,24808,8,0.33,8,37,22,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926156,Nazir Ahmad Sofi,MaNPa,24906,6,0.25,9,37,22,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926157,Abdual Rashid Ganie,JKNPP,24867,4,0.17,10,37,22,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926159,Showkat Hussain Khan,JD(U),24846,3,0.12,11,37,22,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926158,Sajjad Ahmad Dar,IND,24808,3,0.12,11,37,22,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926160,Nazir Ahmad Lone,RaJPa,24813,2,0.04,13,37,22,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926161,Farooq Abdullah,JKN,24830,3559,79.41,1,37,23,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926162,Irfan Raza Ansari,JPC,24831,481,10.73,2,37,23,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926163,Aga Syed Mohsin,PDP,24811,138,3.08,3,37,23,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926164,Sheikh Khalid Jehangir,BJP,24826,134,2.99,4,37,23,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926165,Nota,NOTA,24835,43,0.96,5,37,23,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926166,Bilal Sultan,IND,24808,37,0.83,6,37,23,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926167,Showkat Hussain Khan,JD(U),24846,21,0.47,7,37,23,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926168,Abdul Khaliq Bhat,SHS,24907,20,0.45,8,37,23,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926169,Nazir Ahmad Sofi,MaNPa,24906,13,0.29,9,37,23,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926170,Nazir Ahmad Lone,RaJPa,24813,10,0.22,10,37,23,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926172,Sajjad Ahmad Dar,IND,24808,9,0.2,11,37,23,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926171,Abdual Rashid Ganie,JKNPP,24867,9,0.2,11,37,23,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926173,Abdul Rashid Banday,IND,24808,8,0.18,13,37,23,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926174,Farooq Abdullah,JKN,24830,4298,41.76,1,37,24,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926175,Aga Syed Mohsin,PDP,24811,2725,26.48,2,37,24,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926176,Irfan Raza Ansari,JPC,24831,2460,23.9,3,37,24,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926177,Sheikh Khalid Jehangir,BJP,24826,189,1.84,4,37,24,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926178,Abdul Rashid Banday,IND,24808,127,1.23,5,37,24,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926179,Nota,NOTA,24835,116,1.13,6,37,24,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926180,Bilal Sultan,IND,24808,88,0.86,7,37,24,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926181,Nazir Ahmad Sofi,MaNPa,24906,83,0.81,8,37,24,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926182,Sajjad Ahmad Dar,IND,24808,57,0.55,9,37,24,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926183,Showkat Hussain Khan,JD(U),24846,42,0.41,10,37,24,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926184,Abdual Rashid Ganie,JKNPP,24867,40,0.39,11,37,24,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926185,Abdul Khaliq Bhat,SHS,24907,36,0.35,12,37,24,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926186,Nazir Ahmad Lone,RaJPa,24813,30,0.29,13,37,24,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926187,Farooq Abdullah,JKN,24830,4402,42.42,1,37,25,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926188,Aga Syed Mohsin,PDP,24811,3641,35.08,2,37,25,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926189,Irfan Raza Ansari,JPC,24831,1629,15.7,3,37,25,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926190,Sheikh Khalid Jehangir,BJP,24826,137,1.32,4,37,25,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926191,Nazir Ahmad Sofi,MaNPa,24906,108,1.04,5,37,25,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926192,Bilal Sultan,IND,24808,98,0.94,6,37,25,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926193,Nota,NOTA,24835,90,0.87,7,37,25,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926194,Abdul Rashid Banday,IND,24808,85,0.82,8,37,25,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926195,Sajjad Ahmad Dar,IND,24808,56,0.54,9,37,25,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926196,Abdual Rashid Ganie,JKNPP,24867,40,0.39,10,37,25,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926197,Showkat Hussain Khan,JD(U),24846,40,0.39,10,37,25,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926198,Abdul Khaliq Bhat,SHS,24907,33,0.32,12,37,25,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926199,Nazir Ahmad Lone,RaJPa,24813,19,0.18,13,37,25,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926200,Farooq Abdullah,JKN,24830,5323,60.58,1,37,26,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926201,Irfan Raza Ansari,JPC,24831,1739,19.79,2,37,26,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926202,Aga Syed Mohsin,PDP,24811,1459,16.6,3,37,26,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926203,Sheikh Khalid Jehangir,BJP,24826,53,0.6,4,37,26,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926204,Abdul Khaliq Bhat,SHS,24907,37,0.42,5,37,26,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926205,Showkat Hussain Khan,JD(U),24846,34,0.39,6,37,26,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926206,Nota,NOTA,24835,31,0.35,7,37,26,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926207,Bilal Sultan,IND,24808,26,0.3,8,37,26,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926208,Abdul Rashid Banday,IND,24808,24,0.27,9,37,26,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926209,Abdual Rashid Ganie,JKNPP,24867,17,0.19,10,37,26,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926210,Nazir Ahmad Lone,RaJPa,24813,17,0.19,10,37,26,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926211,Nazir Ahmad Sofi,MaNPa,24906,17,0.19,10,37,26,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926212,Sajjad Ahmad Dar,IND,24808,10,0.11,13,37,26,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926213,Farooq Abdullah,JKN,24830,9657,47.13,1,37,27,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926214,Irfan Raza Ansari,JPC,24831,5554,27.11,2,37,27,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926215,Aga Syed Mohsin,PDP,24811,4443,21.69,3,37,27,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926216,Nazir Ahmad Sofi,MaNPa,24906,248,1.21,4,37,27,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926217,Sheikh Khalid Jehangir,BJP,24826,105,0.51,5,37,27,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926218,Abdul Khaliq Bhat,SHS,24907,94,0.46,6,37,27,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926219,Bilal Sultan,IND,24808,89,0.43,7,37,27,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926220,Nota,NOTA,24835,71,0.35,8,37,27,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926221,Showkat Hussain Khan,JD(U),24846,56,0.27,9,37,27,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926222,Abdul Rashid Banday,IND,24808,54,0.26,10,37,27,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926223,Abdual Rashid Ganie,JKNPP,24867,46,0.22,11,37,27,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926224,Nazir Ahmad Lone,RaJPa,24813,36,0.18,12,37,27,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926225,Sajjad Ahmad Dar,IND,24808,35,0.17,13,37,27,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926226,Farooq Abdullah,JKN,24830,11509,49.1,1,37,28,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926227,Aga Syed Mohsin,PDP,24811,6637,28.31,2,37,28,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926228,Irfan Raza Ansari,JPC,24831,3766,16.07,3,37,28,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926229,Abdul Rashid Banday,IND,24808,369,1.57,4,37,28,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926230,Bilal Sultan,IND,24808,222,0.95,5,37,28,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926231,Sheikh Khalid Jehangir,BJP,24826,213,0.91,6,37,28,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926232,Nazir Ahmad Sofi,MaNPa,24906,184,0.78,7,37,28,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926233,Nota,NOTA,24835,153,0.65,8,37,28,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926234,Sajjad Ahmad Dar,IND,24808,90,0.38,9,37,28,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926235,Showkat Hussain Khan,JD(U),24846,87,0.37,10,37,28,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926236,Abdual Rashid Ganie,JKNPP,24867,79,0.34,11,37,28,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926237,Nazir Ahmad Lone,RaJPa,24813,69,0.29,12,37,28,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926238,Abdul Khaliq Bhat,SHS,24907,63,0.27,13,37,28,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926239,Farooq Abdullah,JKN,24830,15235,68.63,1,37,29,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926240,Irfan Raza Ansari,JPC,24831,3492,15.73,2,37,29,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926241,Aga Syed Mohsin,PDP,24811,1988,8.96,3,37,29,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926242,Abdul Rashid Banday,IND,24808,327,1.47,4,37,29,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926243,Sheikh Khalid Jehangir,BJP,24826,214,0.96,5,37,29,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926244,Bilal Sultan,IND,24808,210,0.95,6,37,29,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926245,Nazir Ahmad Sofi,MaNPa,24906,199,0.9,7,37,29,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926246,Nota,NOTA,24835,163,0.73,8,37,29,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926247,Showkat Hussain Khan,JD(U),24846,118,0.53,9,37,29,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926248,Abdual Rashid Ganie,JKNPP,24867,74,0.33,10,37,29,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926249,Nazir Ahmad Lone,RaJPa,24813,66,0.3,11,37,29,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926250,Sajjad Ahmad Dar,IND,24808,60,0.27,12,37,29,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926251,Abdul Khaliq Bhat,SHS,24907,53,0.24,13,37,29,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926252,Farooq Abdullah,JKN,24830,17921,67.96,1,37,30,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1926253,Aga Syed Mohsin,PDP,24811,6821,25.87,2,37,30,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1926254,Irfan Raza Ansari,JPC,24831,747,2.83,3,37,30,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1926255,Nazir Ahmad Sofi,MaNPa,24906,155,0.59,4,37,30,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1926256,Nota,NOTA,24835,132,0.5,5,37,30,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926257,Bilal Sultan,IND,24808,117,0.44,6,37,30,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1926258,Sheikh Khalid Jehangir,BJP,24826,105,0.4,7,37,30,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1926259,Abdul Rashid Banday,IND,24808,103,0.39,8,37,30,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1926260,Showkat Hussain Khan,JD(U),24846,80,0.3,9,37,30,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1926261,Abdual Rashid Ganie,JKNPP,24867,77,0.29,10,37,30,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1926262,Sajjad Ahmad Dar,IND,24808,57,0.22,11,37,30,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1926263,Nazir Ahmad Lone,RaJPa,24813,28,0.11,12,37,30,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1926264,Abdul Khaliq Bhat,SHS,24907,25,0.09,13,37,30,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1926265,Sofi Yousuf,BJP,24826,323,31.7,1,37,31,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926266,Hasnain Masoodi,JKN,24830,234,22.96,2,37,31,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926267,Mehbooba Mufti,JKPDP,24832,220,21.59,3,37,31,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926268,Ghulam Ahmad Mir,INC,24825,144,14.13,4,37,31,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926269,Gh. Mohd. Wani,IND,24808,17,1.67,5,37,31,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926271,Ridwana Sanam,IND,24808,10,0.98,6,37,31,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926270,Ch. Zaffar Ali,JPC,24831,10,0.98,6,37,31,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926272,Surinder Singh,PSPL,24908,9,0.88,8,37,31,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926273,Nisar Ahmad Wani,JKNPP,24867,8,0.79,9,37,31,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926274,Nota,NOTA,24835,7,0.69,10,37,31,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926276,Shams Khwaja,IND,24808,6,0.59,11,37,31,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926275,Ali Mohammad Wani,IND,24808,6,0.59,11,37,31,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926277,Sanjay Kumar Dhar,MaNPa,24906,5,0.49,13,37,31,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926278,Zubair Masoodi,IND,24808,5,0.49,13,37,31,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926279,Kyasir Ahmad Sheikh,IND,24808,4,0.39,15,37,31,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926280,Mirza Sajad Hussain Beigh,IND,24808,4,0.39,15,37,31,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926282,Manzoor Ahmad Khan,IND,24808,3,0.29,17,37,31,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926281,Imtiyaz Ahmad Rather,IND,24808,3,0.29,17,37,31,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926283,Riyaz Ahmad Bhat,IND,24808,1,0.1,19,37,31,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926284,Hasnain Masoodi,JKN,24830,2668,61.63,1,37,32,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926285,Mehbooba Mufti,JKPDP,24832,1004,23.19,2,37,32,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926286,Ghulam Ahmad Mir,INC,24825,288,6.65,3,37,32,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926287,Zubair Masoodi,IND,24808,81,1.87,4,37,32,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926288,Sofi Yousuf,BJP,24826,56,1.29,5,37,32,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926289,Mirza Sajad Hussain Beigh,IND,24808,55,1.27,6,37,32,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926290,Gh. Mohd. Wani,IND,24808,47,1.09,7,37,32,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926291,Ch. Zaffar Ali,JPC,24831,28,0.65,8,37,32,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926292,Kyasir Ahmad Sheikh,IND,24808,19,0.44,9,37,32,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926294,Shams Khwaja,IND,24808,15,0.35,10,37,32,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926293,Manzoor Ahmad Khan,IND,24808,15,0.35,10,37,32,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926295,Nota,NOTA,24835,14,0.32,12,37,32,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926296,Ali Mohammad Wani,IND,24808,10,0.23,13,37,32,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926298,Sanjay Kumar Dhar,MaNPa,24906,9,0.21,14,37,32,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926297,Nisar Ahmad Wani,JKNPP,24867,9,0.21,14,37,32,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926299,Ridwana Sanam,IND,24808,4,0.04,16,37,32,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926300,Riyaz Ahmad Bhat,IND,24808,3,0.03,17,37,32,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926302,Surinder Singh,PSPL,24908,2,0.02,18,37,32,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926301,Imtiyaz Ahmad Rather,IND,24808,2,0.02,18,37,32,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926303,Mehbooba Mufti,JKPDP,24832,331,50.38,1,37,33,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926304,Hasnain Masoodi,JKN,24830,211,32.12,2,37,33,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926305,Sofi Yousuf,BJP,24826,54,8.22,3,37,33,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926306,Ghulam Ahmad Mir,INC,24825,40,6.09,4,37,33,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926307,Gh. Mohd. Wani,IND,24808,5,0.76,5,37,33,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926312,Zubair Masoodi,IND,24808,2,0.3,6,37,33,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926309,Kyasir Ahmad Sheikh,IND,24808,2,0.3,6,37,33,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926308,Ali Mohammad Wani,IND,24808,2,0.3,6,37,33,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926310,Manzoor Ahmad Khan,IND,24808,2,0.3,6,37,33,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926313,Nota,NOTA,24835,2,0.3,6,37,33,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926311,Shams Khwaja,IND,24808,2,0.3,6,37,33,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926315,Imtiyaz Ahmad Rather,IND,24808,1,0.15,12,37,33,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926314,Ch. Zaffar Ali,JPC,24831,1,0.15,12,37,33,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926317,Sanjay Kumar Dhar,MaNPa,24906,1,0.15,12,37,33,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926316,Nisar Ahmad Wani,JKNPP,24867,1,0.15,12,37,33,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926319,Ridwana Sanam,IND,24808,0,0.0,16,37,33,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926318,Mirza Sajad Hussain Beigh,IND,24808,0,0.0,16,37,33,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926321,Surinder Singh,PSPL,24908,0,0.0,16,37,33,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926320,Riyaz Ahmad Bhat,IND,24808,0,0.0,16,37,33,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926322,MEHBOOBA MUFTI,JKPDP,24832,805,51.08,1,37,34,JK,MEHBOOBA MUFTI,JKPDP,,,,,True,37,2019,GE
+1926323,HASNAIN MASOODI,JKN,24810,411,26.08,2,37,34,JK,HASNAIN MASOODI,JKN,,,,,False,37,2019,GE
+1926324,GHULAM AHMAD MIR,INC,24825,195,12.37,3,37,34,JK,GHULAM AHMAD MIR,INC,,,,,False,37,2019,GE
+1926325,SOFI YOUSUF,BJP,24826,34,2.16,4,37,34,JK,SOFI YOUSUF,BJP,,,,,False,37,2019,GE
+1926326,CH. ZAFFAR ALI,JPC,24809,30,1.9,5,37,34,JK,CH. ZAFFAR ALI,JPC,,,,,False,37,2019,GE
+1926327,GH. MOHD. WANI,IND,24808,18,1.14,6,37,34,JK,GH. MOHD. WANI,IND,,,,,False,37,2019,GE
+1926328,ZUBAIR MASOODI,IND,24808,13,0.82,7,37,34,JK,ZUBAIR MASOODI,IND,,,,,False,37,2019,GE
+1926329,NISAR AHMAD WANI,JKNPP,24867,10,0.63,8,37,34,JK,NISAR AHMAD WANI,JKNPP,,,,,False,37,2019,GE
+1926330,SANJAY KUMAR DHAR,MaNPa,24906,10,0.63,8,37,34,JK,SANJAY KUMAR DHAR,MaNPa,,,,,False,37,2019,GE
+1926331,SHAMS KHWAJA,IND,24808,10,0.63,8,37,34,JK,SHAMS KHWAJA,IND,,,,,False,37,2019,GE
+2000770,NONE OF THE ABOVE,NOTA,24814,8,0.51,11,37,34,JK,NONE OF THE ABOVE,NOTA,,,,,False,37,2019,GE
+1926333,Ali Mohammad Wani,IND,24808,6,0.38,12,37,34,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926334,Mirza Sajad Hussain Beigh,IND,24808,6,0.38,12,37,34,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926335,Kyasir Ahmad Sheikh,IND,24808,5,0.32,14,37,34,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926337,Ridwana Sanam,IND,24808,4,0.25,15,37,34,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926336,Imtiyaz Ahmad Rather,IND,24808,4,0.25,15,37,34,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926338,Riyaz Ahmad Bhat,IND,24808,3,0.19,17,37,34,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926339,Surinder Singh,PSPL,24908,3,0.19,17,37,34,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926340,Manzoor Ahmad Khan,IND,24808,1,0.01,19,37,34,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926341,Hasnain Masoodi,JKN,24830,653,45.57,1,37,35,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926342,Mehbooba Mufti,JKPDP,24832,531,37.06,2,37,35,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926343,Ghulam Ahmad Mir,INC,24825,193,13.47,3,37,35,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926344,Nota,NOTA,24835,28,1.95,4,37,35,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926345,Gh. Mohd. Wani,IND,24808,10,0.7,5,37,35,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926346,Kyasir Ahmad Sheikh,IND,24808,5,0.35,6,37,35,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926347,Shams Khwaja,IND,24808,4,0.28,7,37,35,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926348,Sanjay Kumar Dhar,MaNPa,24906,2,0.14,8,37,35,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926350,Zubair Masoodi,IND,24808,2,0.14,8,37,35,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926349,Sofi Yousuf,BJP,24826,2,0.14,8,37,35,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926352,Nisar Ahmad Wani,JKNPP,24867,1,0.07,11,37,35,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926351,Imtiyaz Ahmad Rather,IND,24808,1,0.07,11,37,35,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926353,Ridwana Sanam,IND,24808,1,0.07,11,37,35,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926358,Riyaz Ahmad Bhat,IND,24808,0,0.0,14,37,35,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926359,Surinder Singh,PSPL,24908,0,0.0,14,37,35,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926354,Ali Mohammad Wani,IND,24808,0,0.0,14,37,35,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926356,Manzoor Ahmad Khan,IND,24808,0,0.0,14,37,35,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926355,Ch. Zaffar Ali,JPC,24831,0,0.0,14,37,35,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926357,Mirza Sajad Hussain Beigh,IND,24808,0,0.0,14,37,35,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926360,MEHBOOBA MUFTI,JKPDP,24832,1882,49.85,1,37,36,JK,MEHBOOBA MUFTI,JKPDP,,,,,True,37,2019,GE
+1926361,HASNAIN MASOODI,JKN,24810,1132,29.99,2,37,36,JK,HASNAIN MASOODI,JKN,,,,,False,37,2019,GE
+1926362,GHULAM AHMAD MIR,INC,24825,432,11.44,3,37,36,JK,GHULAM AHMAD MIR,INC,,,,,False,37,2019,GE
+1926363,SHAMS KHWAJA,IND,24808,45,1.19,4,37,36,JK,SHAMS KHWAJA,IND,,,,,False,37,2019,GE
+1926364,GH. MOHD. WANI,IND,24808,42,1.11,5,37,36,JK,GH. MOHD. WANI,IND,,,,,False,37,2019,GE
+1926365,Sofi Yousuf,BJP,24826,27,0.72,6,37,36,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926367,Sanjay Kumar Dhar,MaNPa,24906,25,0.66,7,37,36,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926366,Nisar Ahmad Wani,JKNPP,24867,25,0.66,7,37,36,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926368,Kyasir Ahmad Sheikh,IND,24808,21,0.56,9,37,36,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926369,Zubair Masoodi,IND,24808,21,0.56,9,37,36,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+2000784,NONE OF THE ABOVE,NOTA,24814,20,0.53,11,37,36,JK,NONE OF THE ABOVE,NOTA,,,,,False,37,2019,GE
+1926371,Ch. Zaffar Ali,JPC,24831,19,0.5,12,37,36,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926372,Ali Mohammad Wani,IND,24808,17,0.45,13,37,36,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926373,Imtiyaz Ahmad Rather,IND,24808,15,0.4,14,37,36,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926374,Manzoor Ahmad Khan,IND,24808,15,0.4,14,37,36,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926375,Mirza Sajad Hussain Beigh,IND,24808,12,0.32,16,37,36,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926376,Riyaz Ahmad Bhat,IND,24808,10,0.26,17,37,36,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926377,Ridwana Sanam,IND,24808,9,0.24,18,37,36,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926378,Surinder Singh,PSPL,24908,6,0.16,19,37,36,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926379,Hasnain Masoodi,JKN,24830,10317,65.21,1,37,37,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926380,Mehbooba Mufti,JKPDP,24832,3804,24.04,2,37,37,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926381,Ghulam Ahmad Mir,INC,24825,766,4.84,3,37,37,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926382,Gh. Mohd. Wani,IND,24808,223,1.41,4,37,37,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926383,Kyasir Ahmad Sheikh,IND,24808,107,0.68,5,37,37,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926384,Shams Khwaja,IND,24808,75,0.47,6,37,37,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926385,Sofi Yousuf,BJP,24826,69,0.44,7,37,37,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926386,Ali Mohammad Wani,IND,24808,64,0.4,8,37,37,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926387,Nota,NOTA,24835,63,0.4,9,37,37,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926388,Sanjay Kumar Dhar,MaNPa,24906,62,0.39,10,37,37,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926389,Zubair Masoodi,IND,24808,59,0.37,11,37,37,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926391,Nisar Ahmad Wani,JKNPP,24867,50,0.32,12,37,37,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926390,Manzoor Ahmad Khan,IND,24808,50,0.32,12,37,37,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926392,Ch. Zaffar Ali,JPC,24831,36,0.23,14,37,37,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926393,Mirza Sajad Hussain Beigh,IND,24808,29,0.18,15,37,37,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926394,Riyaz Ahmad Bhat,IND,24808,17,0.11,16,37,37,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926395,Ridwana Sanam,IND,24808,13,0.08,17,37,37,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926396,Surinder Singh,PSPL,24908,10,0.01,18,37,37,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926397,Imtiyaz Ahmad Rather,IND,24808,7,0.01,19,37,37,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926398,Hasnain Masoodi,JKN,24830,831,48.97,1,37,38,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926399,Mehbooba Mufti,JKPDP,24832,536,31.59,2,37,38,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926400,Ghulam Ahmad Mir,INC,24825,248,14.61,3,37,38,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926401,Sofi Yousuf,BJP,24826,15,0.88,4,37,38,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926403,Shams Khwaja,IND,24808,12,0.71,5,37,38,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926402,Gh. Mohd. Wani,IND,24808,12,0.71,5,37,38,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926405,Manzoor Ahmad Khan,IND,24808,8,0.47,7,37,38,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926404,Kyasir Ahmad Sheikh,IND,24808,8,0.47,7,37,38,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926406,Nisar Ahmad Wani,JKNPP,24867,6,0.35,9,37,38,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926407,Nota,NOTA,24835,5,0.29,10,37,38,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926408,Ali Mohammad Wani,IND,24808,4,0.24,11,37,38,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926410,Ridwana Sanam,IND,24808,3,0.18,12,37,38,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926409,Ch. Zaffar Ali,JPC,24831,3,0.18,12,37,38,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926411,Mirza Sajad Hussain Beigh,IND,24808,2,0.12,14,37,38,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926412,Riyaz Ahmad Bhat,IND,24808,2,0.12,14,37,38,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926413,Sanjay Kumar Dhar,MaNPa,24906,1,0.01,16,37,38,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926414,Zubair Masoodi,IND,24808,1,0.01,16,37,38,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926416,Surinder Singh,PSPL,24908,0,0.0,18,37,38,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926415,Imtiyaz Ahmad Rather,IND,24808,0,0.0,18,37,38,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926417,Hasnain Masoodi,JKN,24830,458,51.35,1,37,39,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926418,Mehbooba Mufti,JKPDP,24832,267,29.93,2,37,39,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926419,Ghulam Ahmad Mir,INC,24825,111,12.44,3,37,39,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926420,Sofi Yousuf,BJP,24826,13,1.46,4,37,39,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926421,Zubair Masoodi,IND,24808,11,1.23,5,37,39,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926422,Nota,NOTA,24835,10,1.12,6,37,39,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926423,Kyasir Ahmad Sheikh,IND,24808,4,0.45,7,37,39,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926426,Sanjay Kumar Dhar,MaNPa,24906,3,0.34,8,37,39,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926424,Gh. Mohd. Wani,IND,24808,3,0.34,8,37,39,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926425,Riyaz Ahmad Bhat,IND,24808,3,0.34,8,37,39,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926428,Mirza Sajad Hussain Beigh,IND,24808,2,0.22,11,37,39,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926427,Ali Mohammad Wani,IND,24808,2,0.22,11,37,39,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926429,Shams Khwaja,IND,24808,2,0.22,11,37,39,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926430,Manzoor Ahmad Khan,IND,24808,1,0.11,14,37,39,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926432,Surinder Singh,PSPL,24908,1,0.11,14,37,39,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926431,Ridwana Sanam,IND,24808,1,0.11,14,37,39,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926434,Imtiyaz Ahmad Rather,IND,24808,0,0.0,17,37,39,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926433,Ch. Zaffar Ali,JPC,24831,0,0.0,17,37,39,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926435,Nisar Ahmad Wani,JKNPP,24867,0,0.0,17,37,39,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926436,Ghulam Ahmad Mir,INC,24825,1474,49.07,1,37,40,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926437,Mehbooba Mufti,JKPDP,24832,839,27.93,2,37,40,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926438,Hasnain Masoodi,JKN,24830,419,13.95,3,37,40,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926439,Sofi Yousuf,BJP,24826,103,3.43,4,37,40,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926440,Manzoor Ahmad Khan,IND,24808,38,1.26,5,37,40,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926441,Nota,NOTA,24835,20,0.67,6,37,40,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926442,Nisar Ahmad Wani,JKNPP,24867,14,0.47,7,37,40,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926443,Ali Mohammad Wani,IND,24808,13,0.43,8,37,40,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926445,Ridwana Sanam,IND,24808,13,0.43,8,37,40,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926444,Gh. Mohd. Wani,IND,24808,13,0.43,8,37,40,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926446,Shams Khwaja,IND,24808,11,0.37,11,37,40,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926447,Zubair Masoodi,IND,24808,11,0.37,11,37,40,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926449,Sanjay Kumar Dhar,MaNPa,24906,8,0.27,13,37,40,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926448,Kyasir Ahmad Sheikh,IND,24808,8,0.27,13,37,40,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926450,Ch. Zaffar Ali,JPC,24831,7,0.23,15,37,40,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926451,Imtiyaz Ahmad Rather,IND,24808,7,0.23,15,37,40,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926452,Mirza Sajad Hussain Beigh,IND,24808,3,0.1,17,37,40,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926453,Surinder Singh,PSPL,24908,2,0.07,18,37,40,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926454,Riyaz Ahmad Bhat,IND,24808,1,0.01,19,37,40,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926455,Ghulam Ahmad Mir,INC,24825,5464,35.71,1,37,41,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926456,Mehbooba Mufti,JKPDP,24832,4793,31.32,2,37,41,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926457,Hasnain Masoodi,JKN,24830,3348,21.88,3,37,41,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926458,Sofi Yousuf,BJP,24826,434,2.84,4,37,41,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926459,Ch. Zaffar Ali,JPC,24831,213,1.39,5,37,41,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926460,Nisar Ahmad Wani,JKNPP,24867,148,0.97,6,37,41,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926461,Ali Mohammad Wani,IND,24808,124,0.81,7,37,41,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926462,Shams Khwaja,IND,24808,109,0.71,8,37,41,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926463,Kyasir Ahmad Sheikh,IND,24808,104,0.68,9,37,41,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926464,Gh. Mohd. Wani,IND,24808,100,0.65,10,37,41,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926465,Nota,NOTA,24835,90,0.59,11,37,41,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926466,Manzoor Ahmad Khan,IND,24808,80,0.52,12,37,41,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926467,Mirza Sajad Hussain Beigh,IND,24808,70,0.46,13,37,41,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926468,Zubair Masoodi,IND,24808,62,0.41,14,37,41,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926469,Sanjay Kumar Dhar,MaNPa,24906,61,0.4,15,37,41,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926470,Ridwana Sanam,IND,24808,31,0.2,16,37,41,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926471,Riyaz Ahmad Bhat,IND,24808,27,0.18,17,37,41,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926472,Surinder Singh,PSPL,24908,23,0.15,18,37,41,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926473,Imtiyaz Ahmad Rather,IND,24808,20,0.13,19,37,41,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926474,Ghulam Ahmad Mir,INC,24825,9818,71.66,1,37,42,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926475,Mehbooba Mufti,JKPDP,24832,1987,14.5,2,37,42,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926476,Hasnain Masoodi,JKN,24830,942,6.88,3,37,42,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926477,Ali Mohammad Wani,IND,24808,149,1.09,4,37,42,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926478,Manzoor Ahmad Khan,IND,24808,121,0.88,5,37,42,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926479,Sofi Yousuf,BJP,24826,102,0.74,6,37,42,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926480,Kyasir Ahmad Sheikh,IND,24808,94,0.69,7,37,42,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926481,Gh. Mohd. Wani,IND,24808,91,0.66,8,37,42,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926482,Shams Khwaja,IND,24808,77,0.56,9,37,42,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926483,Nota,NOTA,24835,67,0.49,10,37,42,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926484,Nisar Ahmad Wani,JKNPP,24867,43,0.31,11,37,42,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926486,Sanjay Kumar Dhar,MaNPa,24906,41,0.3,12,37,42,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926485,Mirza Sajad Hussain Beigh,IND,24808,41,0.3,12,37,42,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926487,Zubair Masoodi,IND,24808,30,0.22,14,37,42,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926488,Ch. Zaffar Ali,JPC,24831,27,0.2,15,37,42,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926489,Imtiyaz Ahmad Rather,IND,24808,21,0.15,16,37,42,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926490,Ridwana Sanam,IND,24808,17,0.12,17,37,42,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926491,Surinder Singh,PSPL,24908,17,0.12,17,37,42,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926492,Riyaz Ahmad Bhat,IND,24808,15,0.11,19,37,42,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926493,Ghulam Ahmad Mir,INC,24825,7237,39.33,1,37,43,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926494,Hasnain Masoodi,JKN,24830,4774,25.95,2,37,43,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926495,Mehbooba Mufti,JKPDP,24832,3852,20.93,3,37,43,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926496,Ch. Zaffar Ali,JPC,24831,880,4.78,4,37,43,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926497,Gh. Mohd. Wani,IND,24808,295,1.6,5,37,43,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926498,Ali Mohammad Wani,IND,24808,146,0.79,6,37,43,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926499,Sofi Yousuf,BJP,24826,143,0.78,7,37,43,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926500,Shams Khwaja,IND,24808,140,0.76,8,37,43,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926501,Sanjay Kumar Dhar,MaNPa,24906,136,0.74,9,37,43,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926502,Kyasir Ahmad Sheikh,IND,24808,131,0.71,10,37,43,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926503,Nota,NOTA,24835,118,0.64,11,37,43,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926504,Manzoor Ahmad Khan,IND,24808,109,0.59,12,37,43,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926505,Mirza Sajad Hussain Beigh,IND,24808,90,0.49,13,37,43,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926506,Nisar Ahmad Wani,JKNPP,24867,86,0.47,14,37,43,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926507,Zubair Masoodi,IND,24808,85,0.46,15,37,43,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926508,Imtiyaz Ahmad Rather,IND,24808,50,0.27,16,37,43,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926509,Ridwana Sanam,IND,24808,48,0.26,17,37,43,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926510,Riyaz Ahmad Bhat,IND,24808,45,0.24,18,37,43,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926511,Surinder Singh,PSPL,24908,35,0.19,19,37,43,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926512,Hasnain Masoodi,JKN,24830,4362,32.66,1,37,44,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926513,Ghulam Ahmad Mir,INC,24825,3842,28.76,2,37,44,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926514,Mehbooba Mufti,JKPDP,24832,3536,26.47,3,37,44,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926515,Sofi Yousuf,BJP,24826,300,2.25,4,37,44,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926516,Ch. Zaffar Ali,JPC,24831,191,1.43,5,37,44,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926517,Imtiyaz Ahmad Rather,IND,24808,170,1.27,6,37,44,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926518,Gh. Mohd. Wani,IND,24808,155,1.16,7,37,44,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926519,Sanjay Kumar Dhar,MaNPa,24906,103,0.77,8,37,44,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926520,Ali Mohammad Wani,IND,24808,87,0.65,9,37,44,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926521,Nota,NOTA,24835,86,0.64,10,37,44,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926523,Ridwana Sanam,IND,24808,85,0.64,11,37,44,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926522,Kyasir Ahmad Sheikh,IND,24808,85,0.64,11,37,44,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926524,Shams Khwaja,IND,24808,81,0.61,13,37,44,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926525,Zubair Masoodi,IND,24808,60,0.45,14,37,44,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926526,Nisar Ahmad Wani,JKNPP,24867,59,0.44,15,37,44,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926527,Manzoor Ahmad Khan,IND,24808,50,0.37,16,37,44,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926528,Mirza Sajad Hussain Beigh,IND,24808,46,0.34,17,37,44,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926529,Riyaz Ahmad Bhat,IND,24808,31,0.23,18,37,44,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926530,Surinder Singh,PSPL,24908,28,0.21,19,37,44,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926531,Mehbooba Mufti,JKPDP,24832,792,41.19,1,37,45,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926532,Hasnain Masoodi,JKN,24830,776,40.35,2,37,45,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926533,Ghulam Ahmad Mir,INC,24825,172,8.94,3,37,45,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926534,Sofi Yousuf,BJP,24826,99,5.15,4,37,45,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926535,Nota,NOTA,24835,12,0.62,5,37,45,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926536,Kyasir Ahmad Sheikh,IND,24808,8,0.42,6,37,45,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926537,Nisar Ahmad Wani,JKNPP,24867,7,0.36,7,37,45,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926541,Ridwana Sanam,IND,24808,6,0.31,8,37,45,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926542,Sanjay Kumar Dhar,MaNPa,24906,6,0.31,8,37,45,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926538,Gh. Mohd. Wani,IND,24808,6,0.31,8,37,45,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926543,Shams Khwaja,IND,24808,6,0.31,8,37,45,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926540,Manzoor Ahmad Khan,IND,24808,6,0.31,8,37,45,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926539,Imtiyaz Ahmad Rather,IND,24808,6,0.31,8,37,45,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926545,Zubair Masoodi,IND,24808,5,0.26,14,37,45,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926544,Ch. Zaffar Ali,JPC,24831,5,0.26,14,37,45,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926547,Mirza Sajad Hussain Beigh,IND,24808,4,0.21,16,37,45,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926546,Ali Mohammad Wani,IND,24808,4,0.21,16,37,45,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926548,Surinder Singh,PSPL,24908,2,0.1,18,37,45,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926549,Riyaz Ahmad Bhat,IND,24808,1,0.0,19,37,45,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926550,Hasnain Masoodi,JKN,24830,8362,46.98,1,37,46,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1926551,Mehbooba Mufti,JKPDP,24832,4889,27.47,2,37,46,JK,Mehbooba Mufti,JKPDP,,,,,True,37,2019,GE
+1926552,Ghulam Ahmad Mir,INC,24825,2110,11.85,3,37,46,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1926553,Sofi Yousuf,BJP,24826,662,3.72,4,37,46,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1926554,Gh. Mohd. Wani,IND,24808,313,1.76,5,37,46,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1926555,Kyasir Ahmad Sheikh,IND,24808,226,1.27,6,37,46,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1926556,Ali Mohammad Wani,IND,24808,170,0.96,7,37,46,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1926557,Shams Khwaja,IND,24808,164,0.92,8,37,46,JK,Shams Khwaja,IND,,,,,False,37,2019,GE
+1926558,Ridwana Sanam,IND,24808,158,0.89,9,37,46,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1926559,Nota,NOTA,24835,146,0.82,10,37,46,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926560,Ch. Zaffar Ali,JPC,24831,105,0.59,11,37,46,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1926561,Sanjay Kumar Dhar,MaNPa,24906,104,0.58,12,37,46,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1926562,Manzoor Ahmad Khan,IND,24808,92,0.52,13,37,46,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1926563,Zubair Masoodi,IND,24808,85,0.48,14,37,46,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1926564,Nisar Ahmad Wani,JKNPP,24867,77,0.43,15,37,46,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1926565,Mirza Sajad Hussain Beigh,IND,24808,55,0.31,16,37,46,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1926566,Surinder Singh,PSPL,24908,35,0.2,17,37,46,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1926567,Riyaz Ahmad Bhat,IND,24808,25,0.14,18,37,46,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1926568,Imtiyaz Ahmad Rather,IND,24808,21,0.12,19,37,46,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1926569,Jamyang Tsering Namgyal,BJP,24826,4996,52.21,1,37,47,JK,Jamyang Tsering Namgyal,BJP,,,,,False,37,2019,GE
+1926570,Rigzin Spalbar,INC,24825,3791,39.62,2,37,47,JK,Rigzin Spalbar,INC,,,,,False,37,2019,GE
+1926571,Sajjad Hussain,IND,24808,464,4.85,3,37,47,JK,Sajjad Hussain,IND,,,,,True,37,2019,GE
+1926572,Asgar Ali Karbalai,IND,24808,245,2.56,4,37,47,JK,Asgar Ali Karbalai,IND,,,,,True,37,2019,GE
+1926573,Nota,NOTA,24835,73,0.76,5,37,47,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926574,Jamyang Tsering Namgyal,BJP,24826,25971,57.86,1,37,48,JK,Jamyang Tsering Namgyal,BJP,,,,,False,37,2019,GE
+1926575,Rigzin Spalbar,INC,24825,15553,34.65,2,37,48,JK,Rigzin Spalbar,INC,,,,,False,37,2019,GE
+1926576,Asgar Ali Karbalai,IND,24808,1697,3.78,3,37,48,JK,Asgar Ali Karbalai,IND,,,,,True,37,2019,GE
+1926577,Sajjad Hussain,IND,24808,1323,2.95,4,37,48,JK,Sajjad Hussain,IND,,,,,True,37,2019,GE
+1926578,Nota,NOTA,24835,343,0.76,5,37,48,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926579,Sajjad Hussain,IND,24808,24683,48.7,1,37,49,JK,Sajjad Hussain,IND,,,,,True,37,2019,GE
+1926580,Asgar Ali Karbalai,IND,24808,21617,42.65,2,37,49,JK,Asgar Ali Karbalai,IND,,,,,True,37,2019,GE
+1926581,Jamyang Tsering Namgyal,BJP,24826,3201,6.32,3,37,49,JK,Jamyang Tsering Namgyal,BJP,,,,,False,37,2019,GE
+1926582,Rigzin Spalbar,INC,24825,793,1.56,4,37,49,JK,Rigzin Spalbar,INC,,,,,False,37,2019,GE
+1926583,Nota,NOTA,24835,390,0.77,5,37,49,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926584,Jamyang Tsering Namgyal,BJP,24826,7147,39.37,1,37,50,JK,Jamyang Tsering Namgyal,BJP,,,,,False,37,2019,GE
+1926585,Asgar Ali Karbalai,IND,24808,5510,30.35,2,37,50,JK,Asgar Ali Karbalai,IND,,,,,True,37,2019,GE
+1926586,Sajjad Hussain,IND,24808,5082,28.0,3,37,50,JK,Sajjad Hussain,IND,,,,,True,37,2019,GE
+1926587,Rigzin Spalbar,INC,24825,310,1.71,4,37,50,JK,Rigzin Spalbar,INC,,,,,False,37,2019,GE
+1926588,Nota,NOTA,24835,104,0.57,5,37,50,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926589,Vikramaditya Singh,INC,24825,27697,48.96,1,37,51,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926590,Dr. Jitendra Singh,BJP,24826,27351,48.35,2,37,51,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926591,Harsh Dev Singh,JKNPP,24867,244,0.43,3,37,51,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926592,Firdous Ahmed Bawani,IND,24808,243,0.43,4,37,51,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926593,Tilak Raj Bhagat,BSP,24827,234,0.41,5,37,51,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926594,Garib Singh,IND,24808,233,0.41,6,37,51,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926595,Nota,NOTA,24835,204,0.36,7,37,51,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926596,Lal Singh,DSSP,24909,121,0.21,8,37,51,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926597,Shaber Ahmed,IND,24808,88,0.16,9,37,51,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926598,Meenakshi,SHS,24907,47,0.04,10,37,51,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926599,Mohd Ayub,NRCP,24910,44,0.04,11,37,51,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926600,Rakesh Mudgal,IND,24808,32,0.03,12,37,51,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926601,Bansi Lal,IND,24808,29,0.03,13,37,51,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926602,Vikramaditya Singh,INC,24825,39347,61.89,1,37,52,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926603,Dr. Jitendra Singh,BJP,24826,20908,32.89,2,37,52,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926604,Firdous Ahmed Bawani,IND,24808,764,1.2,3,37,52,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926605,Harsh Dev Singh,JKNPP,24867,469,0.74,4,37,52,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926606,Nota,NOTA,24835,443,0.7,5,37,52,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926607,Garib Singh,IND,24808,425,0.67,6,37,52,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926608,Tilak Raj Bhagat,BSP,24827,357,0.56,7,37,52,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926609,Shaber Ahmed,IND,24808,288,0.45,8,37,52,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926610,Lal Singh,DSSP,24909,171,0.27,9,37,52,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926611,Bansi Lal,IND,24808,120,0.19,10,37,52,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926612,Meenakshi,SHS,24907,99,0.16,11,37,52,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926613,Mohd Ayub,NRCP,24910,96,0.15,12,37,52,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926614,Rakesh Mudgal,IND,24808,89,0.14,13,37,52,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926615,Vikramaditya Singh,INC,24825,33403,53.7,1,37,53,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926616,Dr. Jitendra Singh,BJP,24826,26992,43.39,2,37,53,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926617,Garib Singh,IND,24808,336,0.54,3,37,53,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926618,Harsh Dev Singh,JKNPP,24867,310,0.5,4,37,53,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926619,Nota,NOTA,24835,282,0.45,5,37,53,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926620,Tilak Raj Bhagat,BSP,24827,243,0.39,6,37,53,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926621,Firdous Ahmed Bawani,IND,24808,185,0.3,7,37,53,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926622,Lal Singh,DSSP,24909,164,0.26,8,37,53,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926623,Shaber Ahmed,IND,24808,116,0.19,9,37,53,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926624,Meenakshi,SHS,24907,48,0.04,10,37,53,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926625,Rakesh Mudgal,IND,24808,48,0.04,10,37,53,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926626,Mohd Ayub,NRCP,24910,44,0.04,12,37,53,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926627,Bansi Lal,IND,24808,35,0.03,13,37,53,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926628,Vikramaditya Singh,INC,24825,36907,50.25,1,37,54,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926629,Dr. Jitendra Singh,BJP,24826,34509,46.99,2,37,54,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926630,Tilak Raj Bhagat,BSP,24827,384,0.52,3,37,54,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926631,Nota,NOTA,24835,310,0.42,4,37,54,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926632,Lal Singh,DSSP,24909,273,0.37,5,37,54,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926633,Harsh Dev Singh,JKNPP,24867,269,0.37,6,37,54,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926634,Firdous Ahmed Bawani,IND,24808,237,0.32,7,37,54,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926635,Shaber Ahmed,IND,24808,191,0.26,8,37,54,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926636,Garib Singh,IND,24808,190,0.26,9,37,54,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926637,Bansi Lal,IND,24808,47,0.03,10,37,54,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926638,Meenakshi,SHS,24907,43,0.03,11,37,54,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926639,Mohd Ayub,NRCP,24910,42,0.03,12,37,54,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926640,Rakesh Mudgal,IND,24808,41,0.03,13,37,54,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926641,Dr. Jitendra Singh,BJP,24826,37949,56.38,1,37,55,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926642,Vikramaditya Singh,INC,24825,26467,39.32,2,37,55,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926643,Tilak Raj Bhagat,BSP,24827,560,0.83,3,37,55,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926644,Nota,NOTA,24835,491,0.73,4,37,55,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926645,Harsh Dev Singh,JKNPP,24867,461,0.68,5,37,55,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926646,Firdous Ahmed Bawani,IND,24808,354,0.53,6,37,55,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926647,Lal Singh,DSSP,24909,284,0.42,7,37,55,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926648,Garib Singh,IND,24808,281,0.42,8,37,55,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926649,Shaber Ahmed,IND,24808,124,0.18,9,37,55,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926650,Meenakshi,SHS,24907,97,0.14,10,37,55,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926651,Mohd Ayub,NRCP,24910,90,0.13,11,37,55,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926652,Rakesh Mudgal,IND,24808,88,0.13,12,37,55,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926653,Bansi Lal,IND,24808,68,0.05,13,37,55,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926654,Vikramaditya Singh,INC,24825,34011,74.54,1,37,56,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926655,Dr. Jitendra Singh,BJP,24826,7564,16.58,2,37,56,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926656,Shaber Ahmed,IND,24808,1455,3.19,3,37,56,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926657,Harsh Dev Singh,JKNPP,24867,709,1.55,4,37,56,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926658,Nota,NOTA,24835,415,0.91,5,37,56,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926659,Garib Singh,IND,24808,358,0.78,6,37,56,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926660,Tilak Raj Bhagat,BSP,24827,334,0.73,7,37,56,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926661,Lal Singh,DSSP,24909,230,0.5,8,37,56,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926662,Firdous Ahmed Bawani,IND,24808,177,0.39,9,37,56,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926663,Mohd Ayub,NRCP,24910,105,0.23,10,37,56,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926664,Meenakshi,SHS,24907,96,0.21,11,37,56,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926665,Bansi Lal,IND,24808,89,0.2,12,37,56,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926666,Rakesh Mudgal,IND,24808,87,0.19,13,37,56,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926667,Vikramaditya Singh,INC,24825,36688,71.6,1,37,57,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926668,Dr. Jitendra Singh,BJP,24826,10351,20.2,2,37,57,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926669,Harsh Dev Singh,JKNPP,24867,819,1.6,3,37,57,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926670,Shaber Ahmed,IND,24808,804,1.57,4,37,57,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926671,Garib Singh,IND,24808,599,1.17,5,37,57,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926672,Nota,NOTA,24835,470,0.92,6,37,57,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926673,Tilak Raj Bhagat,BSP,24827,453,0.88,7,37,57,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926674,Lal Singh,DSSP,24909,406,0.79,8,37,57,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926675,Firdous Ahmed Bawani,IND,24808,229,0.45,9,37,57,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926676,Mohd Ayub,NRCP,24910,152,0.3,10,37,57,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926677,Rakesh Mudgal,IND,24808,95,0.19,11,37,57,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926678,Meenakshi,SHS,24907,89,0.17,12,37,57,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926679,Bansi Lal,IND,24808,87,0.17,13,37,57,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926680,Dr. Jitendra Singh,BJP,24826,68600,74.27,1,37,58,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926681,Vikramaditya Singh,INC,24825,19791,21.43,2,37,58,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926682,Harsh Dev Singh,JKNPP,24867,662,0.72,3,37,58,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926683,Nota,NOTA,24835,613,0.66,4,37,58,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926684,Lal Singh,DSSP,24909,599,0.65,5,37,58,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926685,Tilak Raj Bhagat,BSP,24827,547,0.59,6,37,58,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926686,Firdous Ahmed Bawani,IND,24808,478,0.52,7,37,58,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926687,Garib Singh,IND,24808,346,0.37,8,37,58,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926688,Shaber Ahmed,IND,24808,191,0.21,9,37,58,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926689,Meenakshi,SHS,24907,165,0.18,10,37,58,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926690,Rakesh Mudgal,IND,24808,145,0.16,11,37,58,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926692,Mohd Ayub,NRCP,24910,117,0.13,12,37,58,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926691,Bansi Lal,IND,24808,117,0.13,12,37,58,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926693,Vikramaditya Singh,INC,24825,29493,63.17,1,37,59,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926694,Dr. Jitendra Singh,BJP,24826,14481,31.02,2,37,59,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926695,Harsh Dev Singh,JKNPP,24867,489,1.05,3,37,59,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926696,Garib Singh,IND,24808,481,1.03,4,37,59,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926697,Nota,NOTA,24835,408,0.87,5,37,59,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926698,Tilak Raj Bhagat,BSP,24827,381,0.82,6,37,59,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926699,Shaber Ahmed,IND,24808,239,0.51,7,37,59,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926700,Firdous Ahmed Bawani,IND,24808,185,0.4,8,37,59,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926701,Lal Singh,DSSP,24909,184,0.39,9,37,59,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926702,Mohd Ayub,NRCP,24910,108,0.23,10,37,59,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926703,Meenakshi,SHS,24907,92,0.2,11,37,59,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926704,Rakesh Mudgal,IND,24808,88,0.19,12,37,59,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926705,Bansi Lal,IND,24808,59,0.13,13,37,59,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926706,Dr. Jitendra Singh,BJP,24826,72198,77.81,1,37,60,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926707,Vikramaditya Singh,INC,24825,13733,14.8,2,37,60,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926708,Harsh Dev Singh,JKNPP,24867,3288,3.54,3,37,60,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926709,Tilak Raj Bhagat,BSP,24827,1140,1.23,4,37,60,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926710,Nota,NOTA,24835,624,0.67,5,37,60,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926711,Lal Singh,DSSP,24909,504,0.54,6,37,60,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926712,Firdous Ahmed Bawani,IND,24808,448,0.48,7,37,60,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926713,Garib Singh,IND,24808,233,0.25,8,37,60,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926714,Shaber Ahmed,IND,24808,151,0.16,9,37,60,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926715,Rakesh Mudgal,IND,24808,133,0.14,10,37,60,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926716,Meenakshi,SHS,24907,123,0.13,11,37,60,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926717,Mohd Ayub,NRCP,24910,113,0.07,12,37,60,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926718,Bansi Lal,IND,24808,103,0.06,13,37,60,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926719,Dr. Jitendra Singh,BJP,24826,57400,76.86,1,37,61,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926720,Vikramaditya Singh,INC,24825,10592,14.18,2,37,61,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926721,Harsh Dev Singh,JKNPP,24867,2553,3.42,3,37,61,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926722,Tilak Raj Bhagat,BSP,24827,1083,1.45,4,37,61,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926723,Nota,NOTA,24835,968,1.3,5,37,61,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926724,Firdous Ahmed Bawani,IND,24808,545,0.73,6,37,61,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926725,Lal Singh,DSSP,24909,391,0.52,7,37,61,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926726,Garib Singh,IND,24808,329,0.44,8,37,61,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926727,Rakesh Mudgal,IND,24808,206,0.28,9,37,61,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926728,Shaber Ahmed,IND,24808,174,0.23,10,37,61,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926729,Meenakshi,SHS,24907,160,0.21,11,37,61,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926730,Mohd Ayub,NRCP,24910,158,0.21,12,37,61,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926731,Bansi Lal,IND,24808,124,0.17,13,37,61,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926732,Dr. Jitendra Singh,BJP,24826,61162,70.23,1,37,62,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926733,Harsh Dev Singh,JKNPP,24867,12209,14.02,2,37,62,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926734,Vikramaditya Singh,INC,24825,8658,9.94,3,37,62,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926735,Tilak Raj Bhagat,BSP,24827,1832,2.1,4,37,62,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926736,Nota,NOTA,24835,834,0.96,5,37,62,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926737,Lal Singh,DSSP,24909,589,0.68,6,37,62,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926738,Firdous Ahmed Bawani,IND,24808,534,0.61,7,37,62,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926739,Garib Singh,IND,24808,294,0.34,8,37,62,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926740,Shaber Ahmed,IND,24808,239,0.27,9,37,62,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926741,Rakesh Mudgal,IND,24808,201,0.23,10,37,62,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926742,Mohd Ayub,NRCP,24910,197,0.23,11,37,62,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926743,Meenakshi,SHS,24907,180,0.21,12,37,62,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926744,Bansi Lal,IND,24808,158,0.18,13,37,62,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926745,Dr. Jitendra Singh,BJP,24826,23098,73.56,1,37,63,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926746,Vikramaditya Singh,INC,24825,7060,22.48,2,37,63,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926747,Lal Singh,DSSP,24909,281,0.89,3,37,63,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926748,Harsh Dev Singh,JKNPP,24867,201,0.64,4,37,63,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926749,Tilak Raj Bhagat,BSP,24827,189,0.6,5,37,63,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926750,Firdous Ahmed Bawani,IND,24808,145,0.46,6,37,63,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926751,Nota,NOTA,24835,141,0.45,7,37,63,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926752,Garib Singh,IND,24808,110,0.35,8,37,63,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926753,Shaber Ahmed,IND,24808,54,0.17,9,37,63,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926754,Mohd Ayub,NRCP,24910,35,0.06,10,37,63,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926755,Rakesh Mudgal,IND,24808,32,0.06,11,37,63,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926756,Meenakshi,SHS,24907,29,0.05,12,37,63,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926757,Bansi Lal,IND,24808,25,0.04,13,37,63,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926758,Dr. Jitendra Singh,BJP,24826,43125,76.47,1,37,64,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926759,Vikramaditya Singh,INC,24825,6389,11.33,2,37,64,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926760,Lal Singh,DSSP,24909,4894,8.68,3,37,64,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926761,Tilak Raj Bhagat,BSP,24827,537,0.95,4,37,64,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926762,Harsh Dev Singh,JKNPP,24867,397,0.7,5,37,64,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926763,Nota,NOTA,24835,271,0.48,6,37,64,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926764,Firdous Ahmed Bawani,IND,24808,221,0.39,7,37,64,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926765,Garib Singh,IND,24808,151,0.27,8,37,64,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926766,Rakesh Mudgal,IND,24808,106,0.19,9,37,64,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926767,Mohd Ayub,NRCP,24910,90,0.16,10,37,64,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926768,Shaber Ahmed,IND,24808,78,0.14,11,37,64,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926769,Meenakshi,SHS,24907,77,0.14,12,37,64,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926770,Bansi Lal,IND,24808,59,0.06,13,37,64,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926771,Dr. Jitendra Singh,BJP,24826,76547,76.25,1,37,65,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926772,Vikramaditya Singh,INC,24825,12909,12.86,2,37,65,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926773,Lal Singh,DSSP,24909,5396,5.38,3,37,65,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926774,Tilak Raj Bhagat,BSP,24827,3686,3.67,4,37,65,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926775,Harsh Dev Singh,JKNPP,24867,441,0.44,5,37,65,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926776,Nota,NOTA,24835,432,0.43,6,37,65,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926777,Firdous Ahmed Bawani,IND,24808,352,0.35,7,37,65,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926778,Garib Singh,IND,24808,217,0.22,8,37,65,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926779,Mohd Ayub,NRCP,24910,91,0.05,9,37,65,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926780,Meenakshi,SHS,24907,90,0.05,10,37,65,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926781,Rakesh Mudgal,IND,24808,80,0.04,11,37,65,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926782,Shaber Ahmed,IND,24808,79,0.04,12,37,65,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926783,Bansi Lal,IND,24808,67,0.03,13,37,65,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926784,Dr. Jitendra Singh,BJP,24826,62488,79.56,1,37,66,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926785,Vikramaditya Singh,INC,24825,12918,16.45,2,37,66,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926786,Lal Singh,DSSP,24909,858,1.09,3,37,66,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926787,Tilak Raj Bhagat,BSP,24827,727,0.93,4,37,66,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926788,Nota,NOTA,24835,332,0.42,5,37,66,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926789,Harsh Dev Singh,JKNPP,24867,315,0.4,6,37,66,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926790,Firdous Ahmed Bawani,IND,24808,276,0.35,7,37,66,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926791,Garib Singh,IND,24808,253,0.32,8,37,66,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926793,Mohd Ayub,NRCP,24910,81,0.06,9,37,66,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926794,Shaber Ahmed,IND,24808,81,0.06,9,37,66,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926792,Meenakshi,SHS,24907,81,0.06,9,37,66,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926795,Rakesh Mudgal,IND,24808,71,0.05,12,37,66,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926796,Bansi Lal,IND,24808,63,0.04,13,37,66,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926797,Dr. Jitendra Singh,BJP,24826,70683,79.62,1,37,67,JK,Dr. Jitendra Singh,BJP,,,,,True,37,2019,GE
+1926798,Vikramaditya Singh,INC,24825,10060,11.33,2,37,67,JK,Vikramaditya Singh,INC,,,,,False,37,2019,GE
+1926799,Tilak Raj Bhagat,BSP,24827,3755,4.23,3,37,67,JK,Tilak Raj Bhagat,BSP,,,,,False,37,2019,GE
+1926800,Lal Singh,DSSP,24909,3131,3.53,4,37,67,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926801,Harsh Dev Singh,JKNPP,24867,299,0.34,5,37,67,JK,Harsh Dev Singh,JKNPP,,,,,False,37,2019,GE
+1926802,Nota,NOTA,24835,268,0.3,6,37,67,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926803,Firdous Ahmed Bawani,IND,24808,167,0.19,7,37,67,JK,Firdous Ahmed Bawani,IND,,,,,False,37,2019,GE
+1926804,Garib Singh,IND,24808,121,0.14,8,37,67,JK,Garib Singh,IND,,,,,False,37,2019,GE
+1926805,Shaber Ahmed,IND,24808,73,0.04,9,37,67,JK,Shaber Ahmed,IND,,,,,False,37,2019,GE
+1926807,Rakesh Mudgal,IND,24808,58,0.03,10,37,67,JK,Rakesh Mudgal,IND,,,,,False,37,2019,GE
+1926806,Meenakshi,SHS,24907,58,0.03,10,37,67,JK,Meenakshi,SHS,,,,,False,37,2019,GE
+1926808,Mohd Ayub,NRCP,24910,52,0.03,12,37,67,JK,Mohd Ayub,NRCP,,,,,False,37,2019,GE
+1926809,Bansi Lal,IND,24808,46,0.03,13,37,67,JK,Bansi Lal,IND,,,,,False,37,2019,GE
+1926810,Jugal Kishore,BJP,24826,52538,76.54,1,37,68,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926811,Raman Bhalla,INC,24825,11117,16.19,2,37,68,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926812,Badri Nath,BSP,24827,2087,3.04,3,37,68,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926813,Prof. Bhim Singh,JKNPP,24867,516,0.75,4,37,68,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926814,Lal Singh,DSSP,24909,416,0.61,5,37,68,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926815,Subash Chander,IND,24808,243,0.35,6,37,68,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926816,Er. Ghulam Mustafa Chowdhary,IND,24808,167,0.24,7,37,68,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926817,Satish Poonchi,IND,24808,165,0.24,8,37,68,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926818,Tarseem Lal Khullar,IND,24808,160,0.23,9,37,68,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926819,Perseen Singh,IND,24808,151,0.22,10,37,68,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926820,Javaid Ahmed,AIFB,24823,142,0.21,11,37,68,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926821,Balwan Singh,IND,24808,128,0.19,12,37,68,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926822,Nota,NOTA,24835,127,0.19,13,37,68,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926823,Manish Sahni,SHS,24907,111,0.16,14,37,68,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1926824,Bahadur,IND,24808,77,0.06,15,37,68,JK,Bahadur,IND,,,,,False,37,2019,GE
+1926825,Anil Singh,IND,24808,73,0.06,16,37,68,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1926826,Gursagar Singh,NRCP,24910,64,0.05,17,37,68,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926827,Rajiv Chuni,IND,24808,61,0.05,18,37,68,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1926828,Ajay Kumar,IND,24808,56,0.04,19,37,68,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1926829,Sushil Kumar,HND,24911,48,0.04,20,37,68,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1926830,Mohd Younis,JKPPAP,24888,46,0.04,21,37,68,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1926831,Shazad Shabnam,IND,24808,45,0.04,22,37,68,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1926832,Sakander Ahmad Nourani,IND,24808,43,0.03,23,37,68,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1926833,Syed Aqib Hussain,INDPP,24912,34,0.03,24,37,68,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1926834,Syed Zeshan Haider,IND,24808,30,0.02,25,37,68,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1926835,Jugal Kishore,BJP,24826,66886,75.14,1,37,69,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926836,Raman Bhalla,INC,24825,16839,18.92,2,37,69,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926837,Badri Nath,BSP,24827,2042,2.29,3,37,69,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926838,Lal Singh,DSSP,24909,588,0.66,4,37,69,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926839,Subash Chander,IND,24808,301,0.34,5,37,69,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926840,Balwan Singh,IND,24808,225,0.25,6,37,69,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926841,Prof. Bhim Singh,JKNPP,24867,225,0.25,6,37,69,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926842,Tarseem Lal Khullar,IND,24808,224,0.25,8,37,69,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926843,Satish Poonchi,IND,24808,211,0.24,9,37,69,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926844,Nota,NOTA,24835,185,0.21,10,37,69,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926846,Perseen Singh,IND,24808,170,0.19,11,37,69,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926845,Er. Ghulam Mustafa Chowdhary,IND,24808,170,0.19,11,37,69,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926847,Javaid Ahmed,AIFB,24823,142,0.16,13,37,69,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926848,Rajiv Chuni,IND,24808,114,0.13,14,37,69,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1926849,Bahadur,IND,24808,90,0.05,15,37,69,JK,Bahadur,IND,,,,,False,37,2019,GE
+1926850,Manish Sahni,SHS,24907,88,0.05,16,37,69,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1926851,Anil Singh,IND,24808,87,0.05,17,37,69,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1926852,Gursagar Singh,NRCP,24910,71,0.04,18,37,69,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926853,Sushil Kumar,HND,24911,64,0.04,19,37,69,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1926854,Ajay Kumar,IND,24808,56,0.03,20,37,69,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1926855,Sakander Ahmad Nourani,IND,24808,54,0.03,21,37,69,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1926856,Syed Aqib Hussain,INDPP,24912,53,0.03,22,37,69,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1926857,Mohd Younis,JKPPAP,24888,50,0.03,23,37,69,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1926858,Shazad Shabnam,IND,24808,48,0.03,24,37,69,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1926859,Syed Zeshan Haider,IND,24808,37,0.02,25,37,69,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1926860,Jugal Kishore,BJP,24826,38252,62.54,1,37,70,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926861,Raman Bhalla,INC,24825,19779,32.34,2,37,70,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926862,Badri Nath,BSP,24827,618,1.01,3,37,70,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926863,Lal Singh,DSSP,24909,272,0.44,4,37,70,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926864,Javaid Ahmed,AIFB,24823,211,0.34,5,37,70,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926865,Subash Chander,IND,24808,185,0.3,6,37,70,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926866,Prof. Bhim Singh,JKNPP,24867,182,0.3,7,37,70,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926867,Perseen Singh,IND,24808,181,0.3,8,37,70,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926868,Satish Poonchi,IND,24808,179,0.29,9,37,70,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926869,Balwan Singh,IND,24808,151,0.25,10,37,70,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926870,Anil Singh,IND,24808,141,0.23,11,37,70,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1926871,Er. Ghulam Mustafa Chowdhary,IND,24808,120,0.2,12,37,70,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926872,Nota,NOTA,24835,119,0.19,13,37,70,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926873,Tarseem Lal Khullar,IND,24808,97,0.16,14,37,70,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926874,Bahadur,IND,24808,88,0.14,15,37,70,JK,Bahadur,IND,,,,,False,37,2019,GE
+1926875,Ajay Kumar,IND,24808,78,0.13,16,37,70,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1926876,Sushil Kumar,HND,24911,77,0.13,17,37,70,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1926877,Gursagar Singh,NRCP,24910,69,0.06,18,37,70,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926878,Manish Sahni,SHS,24907,65,0.06,19,37,70,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1926879,Sakander Ahmad Nourani,IND,24808,60,0.05,20,37,70,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1926880,Syed Aqib Hussain,INDPP,24912,52,0.05,21,37,70,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1926881,Mohd Younis,JKPPAP,24888,51,0.04,22,37,70,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1926882,Rajiv Chuni,IND,24808,47,0.04,23,37,70,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1926883,Shazad Shabnam,IND,24808,45,0.04,24,37,70,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1926884,Syed Zeshan Haider,IND,24808,42,0.04,25,37,70,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1926885,Jugal Kishore,BJP,24826,69340,63.65,1,37,71,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926886,Raman Bhalla,INC,24825,35508,32.6,2,37,71,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926887,Badri Nath,BSP,24827,1041,0.96,3,37,71,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926888,Lal Singh,DSSP,24909,668,0.61,4,37,71,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926889,Nota,NOTA,24835,358,0.33,5,37,71,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926890,Prof. Bhim Singh,JKNPP,24867,217,0.2,6,37,71,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926891,Satish Poonchi,IND,24808,188,0.17,7,37,71,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926892,Javaid Ahmed,AIFB,24823,169,0.16,8,37,71,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926893,Tarseem Lal Khullar,IND,24808,169,0.16,8,37,71,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926894,Subash Chander,IND,24808,161,0.15,10,37,71,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926895,Perseen Singh,IND,24808,148,0.14,11,37,71,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926897,Rajiv Chuni,IND,24808,129,0.12,12,37,71,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1926896,Balwan Singh,IND,24808,129,0.12,12,37,71,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926898,Gursagar Singh,NRCP,24910,104,0.05,14,37,71,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926899,Anil Singh,IND,24808,94,0.04,15,37,71,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1926900,Er. Ghulam Mustafa Chowdhary,IND,24808,91,0.04,16,37,71,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926901,Bahadur,IND,24808,78,0.04,17,37,71,JK,Bahadur,IND,,,,,False,37,2019,GE
+1926902,Manish Sahni,SHS,24907,72,0.03,18,37,71,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1926903,Sushil Kumar,HND,24911,58,0.03,19,37,71,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1926904,Syed Aqib Hussain,INDPP,24912,48,0.02,20,37,71,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1926905,Ajay Kumar,IND,24808,46,0.02,21,37,71,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1926906,Mohd Younis,JKPPAP,24888,33,0.02,22,37,71,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1926907,Sakander Ahmad Nourani,IND,24808,32,0.02,23,37,71,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1926908,Shazad Shabnam,IND,24808,29,0.01,24,37,71,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1926909,Syed Zeshan Haider,IND,24808,25,0.01,25,37,71,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1926910,Jugal Kishore,BJP,24826,25600,75.97,1,37,72,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926911,Raman Bhalla,INC,24825,7081,21.01,2,37,72,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926912,Lal Singh,DSSP,24909,376,1.12,3,37,72,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926913,Badri Nath,BSP,24827,137,0.41,4,37,72,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926914,Nota,NOTA,24835,107,0.32,5,37,72,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926915,Prof. Bhim Singh,JKNPP,24867,98,0.29,6,37,72,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926916,Subash Chander,IND,24808,41,0.12,7,37,72,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926917,Tarseem Lal Khullar,IND,24808,37,0.11,8,37,72,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926918,Satish Poonchi,IND,24808,34,0.05,9,37,72,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926919,Javaid Ahmed,AIFB,24823,26,0.04,10,37,72,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926920,Anil Singh,IND,24808,19,0.03,11,37,72,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1926921,Syed Aqib Hussain,INDPP,24912,19,0.03,11,37,72,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1926922,Rajiv Chuni,IND,24808,18,0.03,13,37,72,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1926923,Er. Ghulam Mustafa Chowdhary,IND,24808,17,0.02,14,37,72,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926924,Manish Sahni,SHS,24907,16,0.02,15,37,72,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1926925,Perseen Singh,IND,24808,12,0.02,16,37,72,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926926,Gursagar Singh,NRCP,24910,11,0.02,17,37,72,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926927,Ajay Kumar,IND,24808,10,0.01,18,37,72,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1926928,Sushil Kumar,HND,24911,8,0.01,19,37,72,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1926929,Syed Zeshan Haider,IND,24808,8,0.01,19,37,72,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1926930,Bahadur,IND,24808,6,0.01,21,37,72,JK,Bahadur,IND,,,,,False,37,2019,GE
+1926931,Sakander Ahmad Nourani,IND,24808,6,0.01,21,37,72,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1926932,Balwan Singh,IND,24808,5,0.01,23,37,72,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926933,Mohd Younis,JKPPAP,24888,5,0.01,23,37,72,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1926934,Shazad Shabnam,IND,24808,2,0.0,25,37,72,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1926935,Jugal Kishore,BJP,24826,81209,81.64,1,37,73,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926936,Raman Bhalla,INC,24825,15081,15.16,2,37,73,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926937,Badri Nath,BSP,24827,792,0.8,3,37,73,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926938,Lal Singh,DSSP,24909,637,0.64,4,37,73,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926939,Nota,NOTA,24835,299,0.3,5,37,73,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926940,Prof. Bhim Singh,JKNPP,24867,210,0.21,6,37,73,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926941,Rajiv Chuni,IND,24808,188,0.19,7,37,73,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1926942,Subash Chander,IND,24808,140,0.14,8,37,73,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926943,Perseen Singh,IND,24808,97,0.05,9,37,73,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926945,Tarseem Lal Khullar,IND,24808,95,0.05,10,37,73,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926944,Javaid Ahmed,AIFB,24823,95,0.05,10,37,73,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926946,Satish Poonchi,IND,24808,80,0.04,12,37,73,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926947,Manish Sahni,SHS,24907,72,0.04,13,37,73,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1926948,Balwan Singh,IND,24808,67,0.03,14,37,73,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926949,Er. Ghulam Mustafa Chowdhary,IND,24808,66,0.03,15,37,73,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926950,Sushil Kumar,HND,24911,53,0.03,16,37,73,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1926951,Anil Singh,IND,24808,50,0.03,17,37,73,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1926952,Bahadur,IND,24808,44,0.02,18,37,73,JK,Bahadur,IND,,,,,False,37,2019,GE
+1926953,Gursagar Singh,NRCP,24910,35,0.02,19,37,73,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926954,Syed Zeshan Haider,IND,24808,32,0.02,20,37,73,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1926955,Syed Aqib Hussain,INDPP,24912,31,0.02,21,37,73,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1926956,Sakander Ahmad Nourani,IND,24808,28,0.01,22,37,73,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1926957,Shazad Shabnam,IND,24808,26,0.01,23,37,73,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1926958,Ajay Kumar,IND,24808,25,0.01,24,37,73,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1926959,Mohd Younis,JKPPAP,24888,19,0.01,25,37,73,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1926960,Jugal Kishore,BJP,24826,58260,79.68,1,37,74,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926961,Raman Bhalla,INC,24825,10353,14.16,2,37,74,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926962,Badri Nath,BSP,24827,1605,2.2,3,37,74,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926963,Tarseem Lal Khullar,IND,24808,506,0.69,4,37,74,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926964,Lal Singh,DSSP,24909,394,0.54,5,37,74,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926965,Subash Chander,IND,24808,321,0.44,6,37,74,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926966,Er. Ghulam Mustafa Chowdhary,IND,24808,199,0.27,7,37,74,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926967,Prof. Bhim Singh,JKNPP,24867,184,0.25,8,37,74,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926968,Satish Poonchi,IND,24808,180,0.25,9,37,74,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926969,Balwan Singh,IND,24808,142,0.19,10,37,74,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926970,Nota,NOTA,24835,133,0.18,11,37,74,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926971,Perseen Singh,IND,24808,112,0.15,12,37,74,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926972,Javaid Ahmed,AIFB,24823,91,0.07,13,37,74,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926973,Anil Singh,IND,24808,89,0.12,14,37,74,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1926974,Manish Sahni,SHS,24907,76,0.05,15,37,74,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1926975,Sushil Kumar,HND,24911,69,0.05,16,37,74,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1926976,Rajiv Chuni,IND,24808,55,0.04,17,37,74,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1926977,Shazad Shabnam,IND,24808,54,0.04,18,37,74,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1926978,Bahadur,IND,24808,51,0.04,19,37,74,JK,Bahadur,IND,,,,,False,37,2019,GE
+1926979,Gursagar Singh,NRCP,24910,49,0.04,20,37,74,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926980,Ajay Kumar,IND,24808,43,0.03,21,37,74,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1926981,Syed Aqib Hussain,INDPP,24912,40,0.03,22,37,74,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1926982,Syed Zeshan Haider,IND,24808,39,0.03,23,37,74,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1926983,Mohd Younis,JKPPAP,24888,38,0.03,24,37,74,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1926984,Sakander Ahmad Nourani,IND,24808,33,0.02,25,37,74,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1926985,Jugal Kishore,BJP,24826,41773,67.3,1,37,75,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1926986,Raman Bhalla,INC,24825,17034,27.44,2,37,75,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1926987,Badri Nath,BSP,24827,1051,1.69,3,37,75,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1926988,Prof. Bhim Singh,JKNPP,24867,249,0.4,4,37,75,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1926989,Satish Poonchi,IND,24808,169,0.27,5,37,75,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1926990,Nota,NOTA,24835,169,0.27,5,37,75,JK,Nota,NOTA,,,,,False,37,2019,GE
+1926991,Tarseem Lal Khullar,IND,24808,165,0.27,7,37,75,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1926992,Lal Singh,DSSP,24909,162,0.26,8,37,75,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1926993,Subash Chander,IND,24808,151,0.24,9,37,75,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1926994,Er. Ghulam Mustafa Chowdhary,IND,24808,148,0.24,10,37,75,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1926996,Perseen Singh,IND,24808,127,0.2,11,37,75,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1926995,Balwan Singh,IND,24808,127,0.2,11,37,75,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1926997,Javaid Ahmed,AIFB,24823,114,0.18,13,37,75,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1926998,Gursagar Singh,NRCP,24910,88,0.14,14,37,75,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1926999,Rajiv Chuni,IND,24808,80,0.13,15,37,75,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927001,Sushil Kumar,HND,24911,62,0.05,16,37,75,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927000,Manish Sahni,SHS,24907,62,0.05,16,37,75,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927002,Anil Singh,IND,24808,58,0.05,18,37,75,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927003,Bahadur,IND,24808,56,0.05,19,37,75,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927004,Ajay Kumar,IND,24808,55,0.05,20,37,75,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927005,Syed Aqib Hussain,INDPP,24912,44,0.04,21,37,75,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927006,Sakander Ahmad Nourani,IND,24808,37,0.03,22,37,75,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927007,Shazad Shabnam,IND,24808,37,0.03,22,37,75,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927008,Mohd Younis,JKPPAP,24888,30,0.02,24,37,75,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927009,Syed Zeshan Haider,IND,24808,20,0.02,25,37,75,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927010,Jugal Kishore,BJP,24826,38988,76.69,1,37,76,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927011,Raman Bhalla,INC,24825,9835,19.35,2,37,76,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927012,Badri Nath,BSP,24827,305,0.6,3,37,76,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927013,Lal Singh,DSSP,24909,273,0.54,4,37,76,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927014,Subash Chander,IND,24808,225,0.44,5,37,76,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927015,Prof. Bhim Singh,JKNPP,24867,139,0.27,6,37,76,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927016,Balwan Singh,IND,24808,129,0.25,7,37,76,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927017,Satish Poonchi,IND,24808,105,0.21,8,37,76,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927018,Er. Ghulam Mustafa Chowdhary,IND,24808,101,0.2,9,37,76,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927019,Tarseem Lal Khullar,IND,24808,97,0.19,10,37,76,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927020,Perseen Singh,IND,24808,89,0.18,11,37,76,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927021,Nota,NOTA,24835,89,0.18,11,37,76,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927022,Javaid Ahmed,AIFB,24823,75,0.15,13,37,76,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927023,Bahadur,IND,24808,52,0.05,14,37,76,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927024,Anil Singh,IND,24808,41,0.04,15,37,76,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927025,Rajiv Chuni,IND,24808,40,0.04,16,37,76,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927026,Gursagar Singh,NRCP,24910,39,0.04,17,37,76,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927027,Sushil Kumar,HND,24911,37,0.04,18,37,76,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927028,Syed Aqib Hussain,INDPP,24912,35,0.04,19,37,76,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927029,Ajay Kumar,IND,24808,33,0.03,20,37,76,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927030,Mohd Younis,JKPPAP,24888,26,0.03,21,37,76,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927031,Manish Sahni,SHS,24907,25,0.03,22,37,76,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927032,Syed Zeshan Haider,IND,24808,22,0.02,23,37,76,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927033,Shazad Shabnam,IND,24808,21,0.02,24,37,76,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927034,Sakander Ahmad Nourani,IND,24808,18,0.02,25,37,76,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927035,Jugal Kishore,BJP,24826,50911,79.83,1,37,77,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927036,Raman Bhalla,INC,24825,9641,15.12,2,37,77,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927037,Badri Nath,BSP,24827,811,1.27,3,37,77,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927038,Subash Chander,IND,24808,321,0.5,4,37,77,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927040,Prof. Bhim Singh,JKNPP,24867,209,0.33,5,37,77,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927039,Er. Ghulam Mustafa Chowdhary,IND,24808,209,0.33,5,37,77,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927041,Satish Poonchi,IND,24808,173,0.27,7,37,77,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927042,Lal Singh,DSSP,24909,160,0.25,8,37,77,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927043,Balwan Singh,IND,24808,159,0.25,9,37,77,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927044,Perseen Singh,IND,24808,129,0.2,10,37,77,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927045,Tarseem Lal Khullar,IND,24808,116,0.18,11,37,77,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927046,Nota,NOTA,24835,111,0.17,12,37,77,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927047,Javaid Ahmed,AIFB,24823,107,0.17,13,37,77,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927048,Anil Singh,IND,24808,93,0.15,14,37,77,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927049,Bahadur,IND,24808,68,0.06,15,37,77,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927051,Rajiv Chuni,IND,24808,65,0.05,16,37,77,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927050,Manish Sahni,SHS,24907,65,0.05,16,37,77,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927052,Syed Zeshan Haider,IND,24808,63,0.05,18,37,77,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927053,Shazad Shabnam,IND,24808,58,0.05,19,37,77,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927054,Sushil Kumar,HND,24911,58,0.05,19,37,77,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927055,Gursagar Singh,NRCP,24910,54,0.05,21,37,77,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927056,Sakander Ahmad Nourani,IND,24808,52,0.04,22,37,77,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927057,Ajay Kumar,IND,24808,48,0.04,23,37,77,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927058,Syed Aqib Hussain,INDPP,24912,48,0.04,23,37,77,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927059,Mohd Younis,JKPPAP,24888,43,0.04,25,37,77,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927060,Jugal Kishore,BJP,24826,64973,80.51,1,37,78,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927061,Raman Bhalla,INC,24825,11771,14.59,2,37,78,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927062,Badri Nath,BSP,24827,1104,1.37,3,37,78,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927063,Anil Singh,IND,24808,552,0.68,4,37,78,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927064,Lal Singh,DSSP,24909,373,0.46,5,37,78,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927065,Prof. Bhim Singh,JKNPP,24867,212,0.26,6,37,78,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927066,Subash Chander,IND,24808,185,0.23,7,37,78,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927067,Er. Ghulam Mustafa Chowdhary,IND,24808,150,0.19,8,37,78,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927068,Nota,NOTA,24835,149,0.18,9,37,78,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927069,Satish Poonchi,IND,24808,145,0.18,10,37,78,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927070,Tarseem Lal Khullar,IND,24808,143,0.18,11,37,78,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927071,Javaid Ahmed,AIFB,24823,139,0.17,12,37,78,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927072,Perseen Singh,IND,24808,135,0.17,13,37,78,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927073,Bahadur,IND,24808,102,0.13,14,37,78,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927074,Manish Sahni,SHS,24907,101,0.13,15,37,78,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927075,Balwan Singh,IND,24808,93,0.12,16,37,78,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927076,Rajiv Chuni,IND,24808,55,0.04,17,37,78,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927077,Ajay Kumar,IND,24808,54,0.04,18,37,78,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927078,Sushil Kumar,HND,24911,51,0.03,19,37,78,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927079,Gursagar Singh,NRCP,24910,49,0.03,20,37,78,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927080,Shazad Shabnam,IND,24808,46,0.03,21,37,78,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927081,Syed Aqib Hussain,INDPP,24912,41,0.03,22,37,78,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927082,Mohd Younis,JKPPAP,24888,33,0.02,23,37,78,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927083,Sakander Ahmad Nourani,IND,24808,28,0.02,24,37,78,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927084,Syed Zeshan Haider,IND,24808,21,0.01,25,37,78,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927085,Jugal Kishore,BJP,24826,68641,84.61,1,37,79,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927086,Raman Bhalla,INC,24825,8900,10.97,2,37,79,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927087,Badri Nath,BSP,24827,838,1.03,3,37,79,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927088,Subash Chander,IND,24808,373,0.46,4,37,79,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927089,Lal Singh,DSSP,24909,282,0.35,5,37,79,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927090,Er. Ghulam Mustafa Chowdhary,IND,24808,229,0.28,6,37,79,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927091,Balwan Singh,IND,24808,192,0.24,7,37,79,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927092,Satish Poonchi,IND,24808,176,0.22,8,37,79,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927093,Prof. Bhim Singh,JKNPP,24867,174,0.21,9,37,79,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927094,Nota,NOTA,24835,160,0.2,10,37,79,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927095,Javaid Ahmed,AIFB,24823,151,0.19,11,37,79,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927096,Perseen Singh,IND,24808,144,0.18,12,37,79,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927097,Anil Singh,IND,24808,125,0.15,13,37,79,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927098,Bahadur,IND,24808,97,0.12,14,37,79,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927099,Tarseem Lal Khullar,IND,24808,85,0.06,15,37,79,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927100,Sushil Kumar,HND,24911,73,0.05,16,37,79,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927101,Rajiv Chuni,IND,24808,70,0.05,17,37,79,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927102,Gursagar Singh,NRCP,24910,67,0.04,18,37,79,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927103,Manish Sahni,SHS,24907,60,0.04,19,37,79,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927104,Shazad Shabnam,IND,24808,60,0.04,19,37,79,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927105,Ajay Kumar,IND,24808,57,0.04,21,37,79,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927106,Sakander Ahmad Nourani,IND,24808,52,0.03,22,37,79,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927107,Syed Aqib Hussain,INDPP,24912,47,0.03,23,37,79,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927108,Syed Zeshan Haider,IND,24808,40,0.03,24,37,79,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927109,Mohd Younis,JKPPAP,24888,37,0.02,25,37,79,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927110,Jugal Kishore,BJP,24826,48190,76.32,1,37,80,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927111,Raman Bhalla,INC,24825,12780,20.24,2,37,80,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927112,Lal Singh,DSSP,24909,316,0.5,3,37,80,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927113,Badri Nath,BSP,24827,290,0.46,4,37,80,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927114,Subash Chander,IND,24808,256,0.41,5,37,80,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927115,Prof. Bhim Singh,JKNPP,24867,154,0.24,6,37,80,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927116,Balwan Singh,IND,24808,120,0.19,7,37,80,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927117,Satish Poonchi,IND,24808,115,0.18,8,37,80,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927118,Javaid Ahmed,AIFB,24823,112,0.18,9,37,80,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927119,Er. Ghulam Mustafa Chowdhary,IND,24808,104,0.16,10,37,80,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927120,Nota,NOTA,24835,99,0.16,11,37,80,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927121,Anil Singh,IND,24808,88,0.14,12,37,80,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927122,Perseen Singh,IND,24808,85,0.13,13,37,80,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927123,Tarseem Lal Khullar,IND,24808,76,0.12,14,37,80,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927124,Bahadur,IND,24808,41,0.03,15,37,80,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927125,Ajay Kumar,IND,24808,37,0.03,16,37,80,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927126,Gursagar Singh,NRCP,24910,37,0.03,16,37,80,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927127,Manish Sahni,SHS,24907,35,0.03,18,37,80,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927128,Shazad Shabnam,IND,24808,33,0.03,19,37,80,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927130,Syed Aqib Hussain,INDPP,24912,32,0.03,20,37,80,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927129,Rajiv Chuni,IND,24808,32,0.03,20,37,80,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927131,Sushil Kumar,HND,24911,31,0.03,22,37,80,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927132,Mohd Younis,JKPPAP,24888,28,0.02,23,37,80,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927133,Sakander Ahmad Nourani,IND,24808,27,0.02,24,37,80,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927134,Syed Zeshan Haider,IND,24808,23,0.02,25,37,80,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927135,Jugal Kishore,BJP,24826,59413,77.16,1,37,81,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927136,Raman Bhalla,INC,24825,14786,19.2,2,37,81,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927137,Badri Nath,BSP,24827,511,0.66,3,37,81,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927138,Subash Chander,IND,24808,264,0.34,4,37,81,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927139,Javaid Ahmed,AIFB,24823,191,0.25,5,37,81,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927140,Prof. Bhim Singh,JKNPP,24867,185,0.24,6,37,81,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927141,Perseen Singh,IND,24808,164,0.21,7,37,81,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927142,Satish Poonchi,IND,24808,162,0.21,8,37,81,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927143,Sushil Kumar,HND,24911,162,0.21,8,37,81,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927144,Balwan Singh,IND,24808,150,0.19,10,37,81,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927145,Er. Ghulam Mustafa Chowdhary,IND,24808,148,0.19,11,37,81,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927146,Lal Singh,DSSP,24909,128,0.17,12,37,81,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927147,Rajiv Chuni,IND,24808,105,0.14,13,37,81,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927148,Tarseem Lal Khullar,IND,24808,95,0.07,14,37,81,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927149,Nota,NOTA,24835,94,0.07,15,37,81,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927150,Anil Singh,IND,24808,75,0.05,16,37,81,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927151,Syed Aqib Hussain,INDPP,24912,61,0.04,17,37,81,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927152,Bahadur,IND,24808,59,0.04,18,37,81,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927153,Manish Sahni,SHS,24907,48,0.03,19,37,81,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927154,Gursagar Singh,NRCP,24910,46,0.03,20,37,81,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927155,Shazad Shabnam,IND,24808,39,0.03,21,37,81,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927156,Ajay Kumar,IND,24808,38,0.03,22,37,81,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927157,Syed Zeshan Haider,IND,24808,27,0.02,23,37,81,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927158,Mohd Younis,JKPPAP,24888,25,0.02,24,37,81,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927159,Sakander Ahmad Nourani,IND,24808,24,0.02,25,37,81,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927160,Raman Bhalla,INC,24825,54319,80.88,1,37,82,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927161,Jugal Kishore,BJP,24826,10360,15.43,2,37,82,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927162,Javaid Ahmed,AIFB,24823,350,0.52,3,37,82,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927163,Lal Singh,DSSP,24909,243,0.36,4,37,82,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927164,Satish Poonchi,IND,24808,232,0.35,5,37,82,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927165,Perseen Singh,IND,24808,206,0.31,6,37,82,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927166,Badri Nath,BSP,24827,179,0.27,7,37,82,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927167,Anil Singh,IND,24808,145,0.22,8,37,82,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927168,Subash Chander,IND,24808,104,0.15,9,37,82,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927169,Prof. Bhim Singh,JKNPP,24867,91,0.14,10,37,82,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927170,Sushil Kumar,HND,24911,87,0.13,11,37,82,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927171,Manish Sahni,SHS,24907,80,0.12,12,37,82,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927172,Er. Ghulam Mustafa Chowdhary,IND,24808,77,0.06,13,37,82,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927173,Bahadur,IND,24808,74,0.06,14,37,82,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927174,Tarseem Lal Khullar,IND,24808,73,0.06,15,37,82,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927175,Balwan Singh,IND,24808,71,0.06,16,37,82,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927176,Gursagar Singh,NRCP,24910,66,0.05,17,37,82,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927177,Syed Zeshan Haider,IND,24808,64,0.05,18,37,82,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927178,Ajay Kumar,IND,24808,62,0.05,19,37,82,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927179,Nota,NOTA,24835,60,0.05,20,37,82,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927180,Syed Aqib Hussain,INDPP,24912,53,0.04,21,37,82,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927181,Sakander Ahmad Nourani,IND,24808,48,0.04,22,37,82,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927182,Mohd Younis,JKPPAP,24888,45,0.04,23,37,82,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927183,Rajiv Chuni,IND,24808,37,0.03,24,37,82,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927184,Shazad Shabnam,IND,24808,35,0.03,25,37,82,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927185,Raman Bhalla,INC,24825,65641,77.81,1,37,83,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927186,Jugal Kishore,BJP,24826,15976,18.94,2,37,83,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927187,Er. Ghulam Mustafa Chowdhary,IND,24808,532,0.63,3,37,83,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927188,Javaid Ahmed,AIFB,24823,345,0.41,4,37,83,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927189,Badri Nath,BSP,24827,234,0.28,5,37,83,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927190,Satish Poonchi,IND,24808,224,0.27,6,37,83,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927192,Prof. Bhim Singh,JKNPP,24867,148,0.18,7,37,83,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927191,Perseen Singh,IND,24808,148,0.18,7,37,83,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927193,Anil Singh,IND,24808,134,0.16,9,37,83,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927194,Subash Chander,IND,24808,101,0.07,10,37,83,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927195,Nota,NOTA,24835,92,0.06,11,37,83,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927196,Sushil Kumar,HND,24911,75,0.05,12,37,83,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927197,Lal Singh,DSSP,24909,74,0.05,13,37,83,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927198,Syed Aqib Hussain,INDPP,24912,73,0.05,14,37,83,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927199,Balwan Singh,IND,24808,69,0.05,15,37,83,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927200,Ajay Kumar,IND,24808,68,0.05,16,37,83,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927203,Tarseem Lal Khullar,IND,24808,57,0.04,17,37,83,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927202,Syed Zeshan Haider,IND,24808,57,0.04,17,37,83,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927201,Gursagar Singh,NRCP,24910,57,0.04,17,37,83,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927204,Sakander Ahmad Nourani,IND,24808,51,0.03,20,37,83,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927205,Bahadur,IND,24808,50,0.03,21,37,83,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927206,Manish Sahni,SHS,24907,43,0.03,22,37,83,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927207,Shazad Shabnam,IND,24808,39,0.03,23,37,83,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927208,Mohd Younis,JKPPAP,24888,38,0.03,24,37,83,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927209,Rajiv Chuni,IND,24808,36,0.02,25,37,83,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927210,Jugal Kishore,BJP,24826,29195,48.73,1,37,84,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927211,Raman Bhalla,INC,24825,27927,46.61,2,37,84,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927212,Javaid Ahmed,AIFB,24823,342,0.57,3,37,84,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927213,Perseen Singh,IND,24808,276,0.46,4,37,84,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927214,Badri Nath,BSP,24827,210,0.35,5,37,84,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927215,Syed Aqib Hussain,INDPP,24912,179,0.3,6,37,84,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927216,Subash Chander,IND,24808,175,0.29,7,37,84,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927217,Satish Poonchi,IND,24808,152,0.25,8,37,84,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927218,Er. Ghulam Mustafa Chowdhary,IND,24808,142,0.24,9,37,84,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927219,Prof. Bhim Singh,JKNPP,24867,141,0.24,10,37,84,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927220,Anil Singh,IND,24808,109,0.18,11,37,84,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927222,Nota,NOTA,24835,104,0.17,12,37,84,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927221,Sushil Kumar,HND,24911,104,0.17,12,37,84,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927223,Lal Singh,DSSP,24909,100,0.17,14,37,84,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927224,Balwan Singh,IND,24808,97,0.16,15,37,84,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927225,Bahadur,IND,24808,88,0.15,16,37,84,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927226,Rajiv Chuni,IND,24808,78,0.13,17,37,84,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927227,Manish Sahni,SHS,24907,73,0.07,18,37,84,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927228,Sakander Ahmad Nourani,IND,24808,71,0.12,19,37,84,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927229,Ajay Kumar,IND,24808,70,0.12,20,37,84,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927230,Tarseem Lal Khullar,IND,24808,69,0.12,21,37,84,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927231,Gursagar Singh,NRCP,24910,67,0.06,22,37,84,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927232,Syed Zeshan Haider,IND,24808,55,0.05,23,37,84,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927233,Mohd Younis,JKPPAP,24888,49,0.04,24,37,84,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927234,Shazad Shabnam,IND,24808,41,0.04,25,37,84,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927235,Raman Bhalla,INC,24825,70529,93.96,1,37,85,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927236,Jugal Kishore,BJP,24826,1914,2.55,2,37,85,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927237,Syed Aqib Hussain,INDPP,24912,622,0.83,3,37,85,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927238,Sakander Ahmad Nourani,IND,24808,569,0.76,4,37,85,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927239,Javaid Ahmed,AIFB,24823,421,0.56,5,37,85,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927240,Syed Zeshan Haider,IND,24808,262,0.35,6,37,85,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927241,Prof. Bhim Singh,JKNPP,24867,203,0.27,7,37,85,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927242,Mohd Younis,JKPPAP,24888,92,0.08,8,37,85,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927243,Satish Poonchi,IND,24808,67,0.05,9,37,85,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927244,Lal Singh,DSSP,24909,49,0.04,10,37,85,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927245,Badri Nath,BSP,24827,42,0.03,11,37,85,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927246,Sushil Kumar,HND,24911,42,0.03,11,37,85,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927247,Subash Chander,IND,24808,33,0.03,13,37,85,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927248,Shazad Shabnam,IND,24808,31,0.03,14,37,85,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927249,Perseen Singh,IND,24808,29,0.02,15,37,85,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927250,Anil Singh,IND,24808,23,0.02,16,37,85,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927251,Balwan Singh,IND,24808,22,0.02,17,37,85,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927253,Nota,NOTA,24835,21,0.02,18,37,85,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927252,Tarseem Lal Khullar,IND,24808,21,0.02,18,37,85,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927255,Bahadur,IND,24808,14,0.01,20,37,85,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927254,Ajay Kumar,IND,24808,14,0.01,20,37,85,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927256,Er. Ghulam Mustafa Chowdhary,IND,24808,12,0.01,22,37,85,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927258,Rajiv Chuni,IND,24808,11,0.01,23,37,85,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927257,Gursagar Singh,NRCP,24910,11,0.01,23,37,85,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927259,Manish Sahni,SHS,24907,8,0.01,25,37,85,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927260,Raman Bhalla,INC,24825,69351,92.95,1,37,86,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927261,Jugal Kishore,BJP,24826,3157,4.23,2,37,86,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927262,Lal Singh,DSSP,24909,1273,1.71,3,37,86,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927263,Javaid Ahmed,AIFB,24823,204,0.27,4,37,86,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927264,Syed Zeshan Haider,IND,24808,96,0.08,5,37,86,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927265,Satish Poonchi,IND,24808,88,0.07,6,37,86,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927266,Syed Aqib Hussain,INDPP,24912,69,0.05,7,37,86,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927267,Mohd Younis,JKPPAP,24888,55,0.04,8,37,86,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927268,Prof. Bhim Singh,JKNPP,24867,48,0.04,9,37,86,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927269,Badri Nath,BSP,24827,42,0.03,10,37,86,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927270,Perseen Singh,IND,24808,34,0.03,11,37,86,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927271,Subash Chander,IND,24808,32,0.03,12,37,86,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927272,Anil Singh,IND,24808,25,0.02,13,37,86,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927273,Sushil Kumar,HND,24911,24,0.02,14,37,86,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927274,Sakander Ahmad Nourani,IND,24808,20,0.02,15,37,86,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927275,Tarseem Lal Khullar,IND,24808,13,0.01,16,37,86,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927276,Gursagar Singh,NRCP,24910,12,0.01,17,37,86,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927279,Shazad Shabnam,IND,24808,11,0.01,18,37,86,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927278,Bahadur,IND,24808,11,0.01,18,37,86,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927277,Ajay Kumar,IND,24808,11,0.01,18,37,86,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927280,Balwan Singh,IND,24808,10,0.01,21,37,86,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927281,Nota,NOTA,24835,9,0.01,22,37,86,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927282,Er. Ghulam Mustafa Chowdhary,IND,24808,8,0.01,23,37,86,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927283,Manish Sahni,SHS,24907,6,0.0,24,37,86,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927284,Rajiv Chuni,IND,24808,3,0.0,25,37,86,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927285,Raman Bhalla,INC,24825,62915,77.22,1,37,87,JK,Raman Bhalla,INC,,,,,False,37,2019,GE
+1927286,Jugal Kishore,BJP,24826,14638,17.97,2,37,87,JK,Jugal Kishore,BJP,,,,,True,37,2019,GE
+1927287,Mohd Younis,JKPPAP,24888,841,1.03,3,37,87,JK,Mohd Younis,JKPPAP,,,,,False,37,2019,GE
+1927288,Syed Zeshan Haider,IND,24808,602,0.74,4,37,87,JK,Syed Zeshan Haider,IND,,,,,False,37,2019,GE
+1927289,Javaid Ahmed,AIFB,24823,406,0.5,5,37,87,JK,Javaid Ahmed,AIFB,,,,,False,37,2019,GE
+1927290,Shazad Shabnam,IND,24808,306,0.38,6,37,87,JK,Shazad Shabnam,IND,,,,,False,37,2019,GE
+1927291,Satish Poonchi,IND,24808,191,0.23,7,37,87,JK,Satish Poonchi,IND,,,,,False,37,2019,GE
+1927292,Perseen Singh,IND,24808,171,0.21,8,37,87,JK,Perseen Singh,IND,,,,,False,37,2019,GE
+1927293,Sakander Ahmad Nourani,IND,24808,157,0.19,9,37,87,JK,Sakander Ahmad Nourani,IND,,,,,False,37,2019,GE
+1927294,Syed Aqib Hussain,INDPP,24912,127,0.16,10,37,87,JK,Syed Aqib Hussain,INDPP,,,,,False,37,2019,GE
+1927295,Prof. Bhim Singh,JKNPP,24867,120,0.15,11,37,87,JK,Prof. Bhim Singh,JKNPP,,,,,False,37,2019,GE
+1927296,Badri Nath,BSP,24827,114,0.14,12,37,87,JK,Badri Nath,BSP,,,,,False,37,2019,GE
+1927297,Subash Chander,IND,24808,111,0.14,13,37,87,JK,Subash Chander,IND,,,,,False,37,2019,GE
+1927298,Anil Singh,IND,24808,97,0.07,14,37,87,JK,Anil Singh,IND,,,,,False,37,2019,GE
+1927299,Balwan Singh,IND,24808,96,0.07,15,37,87,JK,Balwan Singh,IND,,,,,False,37,2019,GE
+1927300,Gursagar Singh,NRCP,24910,90,0.06,16,37,87,JK,Gursagar Singh,NRCP,,,,,False,37,2019,GE
+1927301,Sushil Kumar,HND,24911,78,0.05,17,37,87,JK,Sushil Kumar,HND,,,,,False,37,2019,GE
+1927302,Tarseem Lal Khullar,IND,24808,71,0.05,18,37,87,JK,Tarseem Lal Khullar,IND,,,,,False,37,2019,GE
+1927303,Lal Singh,DSSP,24909,65,0.04,19,37,87,JK,Lal Singh,DSSP,,,,,False,37,2019,GE
+1927304,Nota,NOTA,24835,61,0.04,20,37,87,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927305,Ajay Kumar,IND,24808,54,0.04,21,37,87,JK,Ajay Kumar,IND,,,,,False,37,2019,GE
+1927306,Manish Sahni,SHS,24907,51,0.04,22,37,87,JK,Manish Sahni,SHS,,,,,False,37,2019,GE
+1927307,Er. Ghulam Mustafa Chowdhary,IND,24808,48,0.03,23,37,87,JK,Er. Ghulam Mustafa Chowdhary,IND,,,,,False,37,2019,GE
+1927308,Bahadur,IND,24808,34,0.02,24,37,87,JK,Bahadur,IND,,,,,False,37,2019,GE
+1927309,Rajiv Chuni,IND,24808,33,0.02,25,37,87,JK,Rajiv Chuni,IND,,,,,False,37,2019,GE
+1927310,Mohd Maqbool War,BJP,24826,1813,62.76,1,37,88,JK,Mohd Maqbool War,BJP,,,,,False,37,2019,GE
+1927311,Raja Aijaz Ali,JPC,24831,575,19.9,2,37,88,JK,Raja Aijaz Ali,JPC,,,,,False,37,2019,GE
+1927312,Nota,NOTA,24835,372,12.88,3,37,88,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927313,Mohammad Akbar Lone,JKN,24830,50,1.73,4,37,88,JK,Mohammad Akbar Lone,JKN,,,,,False,37,2019,GE
+1927314,Haji Farooq Ahmad Mir,INC,24825,47,1.63,5,37,88,JK,Haji Farooq Ahmad Mir,INC,,,,,False,37,2019,GE
+1927315,Engineer Rashid,IND,24808,10,0.35,6,37,88,JK,Engineer Rashid,IND,,,,,False,37,2019,GE
+1927316,Abdul Qayoom Wani,JKPDP,24832,7,0.24,7,37,88,JK,Abdul Qayoom Wani,JKPDP,,,,,False,37,2019,GE
+1927318,Javid Ahmad Qureshi,IND,24808,6,0.21,8,37,88,JK,Javid Ahmad Qureshi,IND,,,,,False,37,2019,GE
+1927317,Jahangir Khan,JKNPP,24867,6,0.21,8,37,88,JK,Jahangir Khan,JKNPP,,,,,False,37,2019,GE
+1927319,Syed Najeeb Shah Naqvi,IND,24808,3,0.05,10,37,88,JK,Syed Najeeb Shah Naqvi,IND,,,,,False,37,2019,GE
+1927320,Sheikh Khalid Jehangir,BJP,24826,2584,87.36,1,37,89,JK,Sheikh Khalid Jehangir,BJP,,,,,False,37,2019,GE
+1927321,Farooq Abdullah,JKN,24830,140,4.73,2,37,89,JK,Farooq Abdullah,JKN,,,,,False,37,2019,GE
+1927322,Nota,NOTA,24835,132,4.46,3,37,89,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927323,Irfan Raza Ansari,JPC,24831,77,2.6,4,37,89,JK,Irfan Raza Ansari,JPC,,,,,False,37,2019,GE
+1927324,Aga Syed Mohsin,PDP,24811,11,0.37,5,37,89,JK,Aga Syed Mohsin,PDP,,,,,False,37,2019,GE
+1927325,Abdual Rashid Ganie,JKNPP,24867,6,0.2,6,37,89,JK,Abdual Rashid Ganie,JKNPP,,,,,False,37,2019,GE
+1927328,Nazir Ahmad Sofi,MaNPa,24906,2,0.04,7,37,89,JK,Nazir Ahmad Sofi,MaNPa,,,,,False,37,2019,GE
+1927326,Abdul Khaliq Bhat,SHS,24907,2,0.04,7,37,89,JK,Abdul Khaliq Bhat,SHS,,,,,False,37,2019,GE
+1927327,Bilal Sultan,IND,24808,2,0.04,7,37,89,JK,Bilal Sultan,IND,,,,,False,37,2019,GE
+1927329,Abdul Rashid Banday,IND,24808,1,0.02,10,37,89,JK,Abdul Rashid Banday,IND,,,,,False,37,2019,GE
+1927330,Showkat Hussain Khan,JD(U),24846,1,0.02,10,37,89,JK,Showkat Hussain Khan,JD(U),,,,,False,37,2019,GE
+1927332,Sajjad Ahmad Dar,IND,24808,0,0.0,12,37,89,JK,Sajjad Ahmad Dar,IND,,,,,False,37,2019,GE
+1927331,Nazir Ahmad Lone,RaJPa,24813,0,0.0,12,37,89,JK,Nazir Ahmad Lone,RaJPa,,,,,False,37,2019,GE
+1927333,Sofi Yousuf,BJP,24826,7251,87.37,1,37,90,JK,Sofi Yousuf,BJP,,,,,False,37,2019,GE
+1927334,Ghulam Ahmad Mir,INC,24825,345,4.16,2,37,90,JK,Ghulam Ahmad Mir,INC,,,,,False,37,2019,GE
+1927335,Mehbooba Mufti,JKPDP,24832,155,1.87,3,37,90,JK,Mehbooba Mufti,JKPDP,,,,,False,37,2019,GE
+1927336,Nota,NOTA,24835,146,1.76,4,37,90,JK,Nota,NOTA,,,,,False,37,2019,GE
+1927337,Hasnain Masoodi,JKN,24830,134,1.61,5,37,90,JK,Hasnain Masoodi,JKN,,,,,False,37,2019,GE
+1927338,Sanjay Kumar Dhar,MaNPa,24906,90,1.08,6,37,90,JK,Sanjay Kumar Dhar,MaNPa,,,,,False,37,2019,GE
+1927339,Ch. Zaffar Ali,JPC,24831,74,0.89,7,37,90,JK,Ch. Zaffar Ali,JPC,,,,,False,37,2019,GE
+1927340,Nisar Ahmad Wani,JKNPP,24867,26,0.31,8,37,90,JK,Nisar Ahmad Wani,JKNPP,,,,,False,37,2019,GE
+1927341,Ridwana Sanam,IND,24808,19,0.23,9,37,90,JK,Ridwana Sanam,IND,,,,,False,37,2019,GE
+1927342,Gh. Mohd. Wani,IND,24808,15,0.18,10,37,90,JK,Gh. Mohd. Wani,IND,,,,,False,37,2019,GE
+1927343,Surinder Singh,PSPL,24908,12,0.1,11,37,90,JK,Surinder Singh,PSPL,,,,,False,37,2019,GE
+1927344,Kyasir Ahmad Sheikh,IND,24808,9,0.07,12,37,90,JK,Kyasir Ahmad Sheikh,IND,,,,,False,37,2019,GE
+1927345,Ali Mohammad Wani,IND,24808,6,0.05,13,37,90,JK,Ali Mohammad Wani,IND,,,,,False,37,2019,GE
+1927346,Manzoor Ahmad Khan,IND,24808,6,0.05,13,37,90,JK,Manzoor Ahmad Khan,IND,,,,,False,37,2019,GE
+1927347,Riyaz Ahmad Bhat,IND,24808,4,0.03,15,37,90,JK,Riyaz Ahmad Bhat,IND,,,,,False,37,2019,GE
+1927348,Zubair Masoodi,IND,24808,3,0.02,16,37,90,JK,Zubair Masoodi,IND,,,,,False,37,2019,GE
+1927349,Imtiyaz Ahmad Rather,IND,24808,2,0.02,17,37,90,JK,Imtiyaz Ahmad Rather,IND,,,,,False,37,2019,GE
+1927350,Mirza Sajad Hussain Beigh,IND,24808,2,0.02,17,37,90,JK,Mirza Sajad Hussain Beigh,IND,,,,,False,37,2019,GE
+1927351,Shams Khwaja,IND,24808,0,0.0,19,37,90,JK,Shams Khwaja,IND,,,,,False,37,2019,GE

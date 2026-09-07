@@ -1,0 +1,179 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1765593,Tshering Thendup Bhutia,SKM,22694,8271,60.8,1,51,1,SK,Tshering Thendup Bhutia,SKM,,,,,False,51,2024,AE
+1765594,Meewang Gyatso Bhutia,SDF,22687,3459,25.43,2,51,1,SK,Meewang Gyatso Bhutia,SDF,,,,,False,51,2024,AE
+1765595,Jigmey Bhutia,CAPS,22703,1024,7.53,3,51,1,SK,Jigmey Bhutia,CAPS,,,,,False,51,2024,AE
+1765596,Kunzang Sherab Bhutia,BJP,22690,318,2.34,4,51,1,SK,Kunzang Sherab Bhutia,BJP,,,,,False,51,2024,AE
+1765597,Kamal Lepcha,INC,22688,170,1.25,5,51,1,SK,Kamal Lepcha,INC,,,,,False,51,2024,AE
+1765598,Nota,NOTA,22695,159,1.17,6,51,1,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765599,Palden Lepcha,IND,22691,109,0.8,7,51,1,SK,Palden Lepcha,IND,,,,,False,51,2024,AE
+1765600,Sonam Palzor Bhutia,IND,22691,94,0.69,8,51,1,SK,Sonam Palzor Bhutia,IND,,,,,False,51,2024,AE
+1765601,Bhim Hang Limboo,SKM,22694,6621,54.61,1,51,2,SK,Bhim Hang Limboo,SKM,,,,,True,51,2024,AE
+1765602,Kesham Limboo,SDF,22687,4065,33.53,2,51,2,SK,Kesham Limboo,SDF,,,,,False,51,2024,AE
+1765603,Phip Dhoj Limboo,CAPS,22703,551,4.54,3,51,2,SK,Phip Dhoj Limboo,CAPS,,,,,False,51,2024,AE
+1765604,Pravin Sharma,IND,22691,536,4.42,4,51,2,SK,Pravin Sharma,IND,,,,,False,51,2024,AE
+1765605,Sancha Man Limboo,BJP,22690,185,1.53,5,51,2,SK,Sancha Man Limboo,BJP,,,,,False,51,2024,AE
+1765606,Nota,NOTA,22695,85,0.7,6,51,2,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765607,Mangal Subba (Limboo),INC,22688,81,0.67,7,51,2,SK,Mangal Subba (Limboo),INC,,,,,True,51,2024,AE
+1765608,Sudesh Kumar Subba,SKM,22694,8553,60.16,1,51,3,SK,Sudesh Kumar Subba,SKM,,,,,False,51,2024,AE
+1765609,Tika Ram Chettri,SDF,22687,2514,17.68,2,51,3,SK,Tika Ram Chettri,SDF,,,,,False,51,2024,AE
+1765610,Narendra Kumar Subba,BJP,22690,1924,13.53,3,51,3,SK,Narendra Kumar Subba,BJP,,,,,False,51,2024,AE
+1765611,Prakash Sharma,CAPS,22703,840,5.91,4,51,3,SK,Prakash Sharma,CAPS,,,,,False,51,2024,AE
+1765612,Nota,NOTA,22695,145,1.02,5,51,3,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765613,Dipendra Gurung,IND,22691,122,0.86,6,51,3,SK,Dipendra Gurung,IND,,,,,False,51,2024,AE
+1765614,Nar Bahadur Gurung,INC,22688,118,0.83,7,51,3,SK,Nar Bahadur Gurung,INC,,,,,False,51,2024,AE
+1765615,Lok Nath Sharma,SKM,22694,5612,48.1,1,51,4,SK,Lok Nath Sharma,SKM,,,,,True,51,2024,AE
+1765616,Khusandra Prasad Sharma,IND,22691,4649,39.85,2,51,4,SK,Khusandra Prasad Sharma,IND,,,,,False,51,2024,AE
+1765617,Tika Prasad Sharma,SDF,22687,829,7.11,3,51,4,SK,Tika Prasad Sharma,SDF,,,,,False,51,2024,AE
+1765618,Pujan Kharka,CAPS,22703,317,2.72,4,51,4,SK,Pujan Kharka,CAPS,,,,,False,51,2024,AE
+1765619,Bharat Kumar Sharma,BJP,22690,155,1.33,5,51,4,SK,Bharat Kumar Sharma,BJP,,,,,False,51,2024,AE
+1765620,Nota,NOTA,22695,105,0.9,6,51,4,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765621,Erung Tenzing Lepcha,SKM,22694,9624,68.91,1,51,5,SK,Erung Tenzing Lepcha,SKM,,,,,False,51,2024,AE
+1765622,Norden Bhutia,SDF,22687,3224,23.08,2,51,5,SK,Norden Bhutia,SDF,,,,,False,51,2024,AE
+1765623,Dawa Ongdi Lepcha,CAPS,22703,552,3.95,3,51,5,SK,Dawa Ongdi Lepcha,CAPS,,,,,False,51,2024,AE
+1765624,Sancho Lepcha,BJP,22690,328,2.35,4,51,5,SK,Sancho Lepcha,BJP,,,,,True,51,2024,AE
+1765625,Nota,NOTA,22695,239,1.71,5,51,5,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765626,Mingma Norbu Sherpa,SKM,22694,9404,67.75,1,51,6,SK,Mingma Norbu Sherpa,SKM,,,,,True,51,2024,AE
+1765627,Pem Norbu Sherpa,SDF,22687,3429,24.7,2,51,6,SK,Pem Norbu Sherpa,SDF,,,,,True,51,2024,AE
+1765628,Pem Dorjee Sherpa,CAPS,22703,472,3.4,3,51,6,SK,Pem Dorjee Sherpa,CAPS,,,,,False,51,2024,AE
+1765629,Phurba Dorjee Sherpa,BJP,22690,351,2.53,4,51,6,SK,Phurba Dorjee Sherpa,BJP,,,,,False,51,2024,AE
+1765630,Nota,NOTA,22695,224,1.61,5,51,6,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765631,P S Tamang,SKM,22694,10480,72.18,1,51,7,SK,P S Tamang,SKM,,,,,False,51,2024,AE
+1765632,Dr. A D Subba,SDF,22687,3084,21.24,2,51,7,SK,Dr. A D Subba,SDF,,,,,False,51,2024,AE
+1765633,Pobin Hang Subba,CAPS,22703,498,3.43,3,51,7,SK,Pobin Hang Subba,CAPS,,,,,False,51,2024,AE
+1765634,Purna Singh Subba,BJP,22690,330,2.27,4,51,7,SK,Purna Singh Subba,BJP,,,,,False,51,2024,AE
+1765635,Nota,NOTA,22695,128,0.88,5,51,7,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765636,Madan Cintury,SKM,22694,5678,58.69,1,51,8,SK,Madan Cintury,SKM,,,,,False,51,2024,AE
+1765637,Janga Bir Darnal,SDF,22687,2966,30.66,2,51,8,SK,Janga Bir Darnal,SDF,,,,,False,51,2024,AE
+1765638,Pahal Man Kami,BJP,22690,555,5.74,3,51,8,SK,Pahal Man Kami,BJP,,,,,False,51,2024,AE
+1765639,Kaushal Lohagan,CAPS,22703,400,4.13,4,51,8,SK,Kaushal Lohagan,CAPS,,,,,False,51,2024,AE
+1765640,Nota,NOTA,22695,75,0.78,5,51,8,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765641,Rikshal Dorjee Bhutia,SKM,22694,8358,61.86,1,51,9,SK,Rikshal Dorjee Bhutia,SKM,,,,,False,51,2024,AE
+1765642,Bhaichung Bhutia,SDF,22687,4012,29.69,2,51,9,SK,Bhaichung Bhutia,SDF,,,,,False,51,2024,AE
+1765643,Dadul Lepcha,CAPS,22703,656,4.85,3,51,9,SK,Dadul Lepcha,CAPS,,,,,False,51,2024,AE
+1765644,Tashi Dadul Bhutia,BJP,22690,298,2.21,4,51,9,SK,Tashi Dadul Bhutia,BJP,,,,,False,51,2024,AE
+1765645,Nota,NOTA,22695,188,1.39,5,51,9,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765646,Bhoj Raj Rai,SKM,22694,8037,54.99,1,51,10,SK,Bhoj Raj Rai,SKM,,,,,False,51,2024,AE
+1765647,Pawan Kumar Chamling,SDF,22687,4974,34.03,2,51,10,SK,Pawan Kumar Chamling,SDF,,,,,False,51,2024,AE
+1765648,Arjun Rai,BJP,22690,739,5.06,3,51,10,SK,Arjun Rai,BJP,,,,,False,51,2024,AE
+1765649,Sanju Rai,CAPS,22703,691,4.73,4,51,10,SK,Sanju Rai,CAPS,,,,,False,51,2024,AE
+1765650,Nota,NOTA,22695,175,1.2,5,51,10,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765651,Krishna Kumari Rai,SKM,22694,7907,71.6,1,51,11,SK,Krishna Kumari Rai,SKM,,,,,False,51,2024,AE
+1765652,Bimal Rai,SDF,22687,2605,23.59,2,51,11,SK,Bimal Rai,SDF,,,,,False,51,2024,AE
+1765653,Mahesh Rai,CAPS,22703,236,2.14,3,51,11,SK,Mahesh Rai,CAPS,,,,,False,51,2024,AE
+1765654,Aruna Manger,BJP,22690,233,2.11,4,51,11,SK,Aruna Manger,BJP,,,,,False,51,2024,AE
+1765655,Nota,NOTA,22695,62,0.56,5,51,11,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765656,Nar Bahadur Pradhan,SKM,22694,7904,57.96,1,51,12,SK,Nar Bahadur Pradhan,SKM,,,,,False,51,2024,AE
+1765657,Ganesh Kumar Rai,CAPS,22703,3621,26.55,2,51,12,SK,Ganesh Kumar Rai,CAPS,,,,,False,51,2024,AE
+1765658,Nirmal Kumar Pradhan,SDF,22687,1321,9.69,3,51,12,SK,Nirmal Kumar Pradhan,SDF,,,,,False,51,2024,AE
+1765659,Yogen Rai,BJP,22690,582,4.27,4,51,12,SK,Yogen Rai,BJP,,,,,False,51,2024,AE
+1765660,Rupen Karki,IND,22691,109,0.8,5,51,12,SK,Rupen Karki,IND,,,,,False,51,2024,AE
+1765661,Nota,NOTA,22695,99,0.73,6,51,12,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765662,Sanjeet Kharel,SKM,22694,8949,63.46,1,51,13,SK,Sanjeet Kharel,SKM,,,,,True,51,2024,AE
+1765663,Suman Pradhan,SDF,22687,3344,23.71,2,51,13,SK,Suman Pradhan,SDF,,,,,False,51,2024,AE
+1765664,Hari Chandra Chettri,CAPS,22703,1300,9.22,3,51,13,SK,Hari Chandra Chettri,CAPS,,,,,False,51,2024,AE
+1765665,Janak Kumar Gurung,BJP,22690,344,2.44,4,51,13,SK,Janak Kumar Gurung,BJP,,,,,False,51,2024,AE
+1765666,Nota,NOTA,22695,164,1.16,5,51,13,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765667,Bedu Singh Panth,SKM,22694,6759,51.84,1,51,14,SK,Bedu Singh Panth,SKM,,,,,True,51,2024,AE
+1765668,Suman Kumar Tewari,SDF,22687,3201,24.55,2,51,14,SK,Suman Kumar Tewari,SDF,,,,,False,51,2024,AE
+1765669,Bikash Sharma,CAPS,22703,2616,20.06,3,51,14,SK,Bikash Sharma,CAPS,,,,,False,51,2024,AE
+1765670,Bhupendra Giri,BJP,22690,303,2.32,4,51,14,SK,Bhupendra Giri,BJP,,,,,False,51,2024,AE
+1765671,Nota,NOTA,22695,159,1.22,5,51,14,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765672,Raj Kumari Thapa,SKM,22694,6514,50.74,1,51,15,SK,Raj Kumari Thapa,SKM,,,,,False,51,2024,AE
+1765673,Mani Kumar Subba,SDF,22687,5313,41.38,2,51,15,SK,Mani Kumar Subba,SDF,,,,,False,51,2024,AE
+1765674,Anil Kumar Nepal,CAPS,22703,662,5.16,3,51,15,SK,Anil Kumar Nepal,CAPS,,,,,False,51,2024,AE
+1765675,Gopi Das Sharma (Pokhrel),BJP,22690,256,1.99,4,51,15,SK,Gopi Das Sharma (Pokhrel),BJP,,,,,False,51,2024,AE
+1765676,Nota,NOTA,22695,94,0.73,5,51,15,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765677,Samdup Tshering Bhutia,SKM,22694,8265,58.07,1,51,16,SK,Samdup Tshering Bhutia,SKM,,,,,True,51,2024,AE
+1765678,Norzong Lepcha,SDF,22687,4177,29.35,2,51,16,SK,Norzong Lepcha,SDF,,,,,False,51,2024,AE
+1765679,Pema Gyalpu Bhutia,CAPS,22703,885,6.22,3,51,16,SK,Pema Gyalpu Bhutia,CAPS,,,,,False,51,2024,AE
+1765680,Passang Gyali Sherpa,BJP,22690,593,4.17,4,51,16,SK,Passang Gyali Sherpa,BJP,,,,,False,51,2024,AE
+1765681,Samdup Lepcha,INC,22688,197,1.38,5,51,16,SK,Samdup Lepcha,INC,,,,,False,51,2024,AE
+1765682,Nota,NOTA,22695,115,0.81,6,51,16,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765683,Nar Bahadur Dahal,SKM,22694,5882,52.87,1,51,17,SK,Nar Bahadur Dahal,SKM,,,,,False,51,2024,AE
+1765684,Mani Kumar Sharma,SDF,22687,4143,37.24,2,51,17,SK,Mani Kumar Sharma,SDF,,,,,False,51,2024,AE
+1765685,Chetan Sapkota,BJP,22690,506,4.55,3,51,17,SK,Chetan Sapkota,BJP,,,,,False,51,2024,AE
+1765686,Sumati Chettri,CAPS,22703,450,4.04,4,51,17,SK,Sumati Chettri,CAPS,,,,,False,51,2024,AE
+1765687,Nota,NOTA,22695,75,0.67,5,51,17,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765688,Tanka Nath Adhikari,INC,22688,70,0.63,6,51,17,SK,Tanka Nath Adhikari,INC,,,,,False,51,2024,AE
+1765689,Lall Bahadur Das,SKM,22694,6237,48.28,1,51,18,SK,Lall Bahadur Das,SKM,,,,,False,51,2024,AE
+1765690,Anup Thatal,SDF,22687,4285,33.17,2,51,18,SK,Anup Thatal,SDF,,,,,False,51,2024,AE
+1765691,Bhupal Baraily,BJP,22690,959,7.42,3,51,18,SK,Bhupal Baraily,BJP,,,,,False,51,2024,AE
+1765692,Jagdish Cintury,IND,22691,731,5.66,4,51,18,SK,Jagdish Cintury,IND,,,,,False,51,2024,AE
+1765693,Madan Kumar Shiva Shanker,CAPS,22703,580,4.49,5,51,18,SK,Madan Kumar Shiva Shanker,CAPS,,,,,False,51,2024,AE
+1765694,Nota,NOTA,22695,126,0.98,6,51,18,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765695,P S Tamang,SKM,22694,10094,64.54,1,51,19,SK,P S Tamang,SKM,,,,,False,51,2024,AE
+1765696,Som Nath Poudyal,SDF,22687,3050,19.5,2,51,19,SK,Som Nath Poudyal,SDF,,,,,False,51,2024,AE
+1765697,Tika Ram Sharma,CAPS,22703,1171,7.49,3,51,19,SK,Tika Ram Sharma,CAPS,,,,,False,51,2024,AE
+1765698,Prem Chhetri,BJP,22690,852,5.45,4,51,19,SK,Prem Chhetri,BJP,,,,,False,51,2024,AE
+1765699,Laxmi Sharma,SRP,22708,170,1.09,5,51,19,SK,Laxmi Sharma,SRP,,,,,False,51,2024,AE
+1765700,Nota,NOTA,22695,162,1.04,6,51,19,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765701,Kapil Prasad Sapkota,INC,22688,141,0.9,7,51,19,SK,Kapil Prasad Sapkota,INC,,,,,False,51,2024,AE
+1765702,Puran Kr. Gurung,SKM,22694,8199,55.66,1,51,20,SK,Puran Kr. Gurung,SKM,,,,,False,51,2024,AE
+1765703,Mani Kumar Gurung,SDF,22687,4865,33.03,2,51,20,SK,Mani Kumar Gurung,SDF,,,,,False,51,2024,AE
+1765704,Ganesh Kumar Rai,CAPS,22703,1077,7.31,3,51,20,SK,Ganesh Kumar Rai,CAPS,,,,,False,51,2024,AE
+1765705,Duk Nath Nepal,BJP,22690,464,3.15,4,51,20,SK,Duk Nath Nepal,BJP,,,,,False,51,2024,AE
+1765706,Nota,NOTA,22695,126,0.86,5,51,20,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765707,Pamin Lepcha,SKM,22694,6676,61.58,1,51,21,SK,Pamin Lepcha,SKM,,,,,False,51,2024,AE
+1765708,Tshering Wangdi Lepcha,SDF,22687,2869,26.46,2,51,21,SK,Tshering Wangdi Lepcha,SDF,,,,,False,51,2024,AE
+1765709,Sangay Gyatso Bhutia,BJP,22690,602,5.55,3,51,21,SK,Sangay Gyatso Bhutia,BJP,,,,,False,51,2024,AE
+1765710,Phuri Sherpa,CAPS,22703,531,4.9,4,51,21,SK,Phuri Sherpa,CAPS,,,,,False,51,2024,AE
+1765711,Nota,NOTA,22695,94,0.87,5,51,21,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765712,Tshering Pema Bhutia,INC,22688,69,0.64,6,51,21,SK,Tshering Pema Bhutia,INC,,,,,False,51,2024,AE
+1765713,Raju Basnet,SKM,22694,7195,53.42,1,51,22,SK,Raju Basnet,SKM,,,,,False,51,2024,AE
+1765714,Pawan Kumar Chamling,SDF,22687,4939,36.67,2,51,22,SK,Pawan Kumar Chamling,SDF,,,,,False,51,2024,AE
+1765715,Severine Rai,CAPS,22703,814,6.04,3,51,22,SK,Severine Rai,CAPS,,,,,False,51,2024,AE
+1765716,Pooja Sharma,BJP,22690,374,2.78,4,51,22,SK,Pooja Sharma,BJP,,,,,False,51,2024,AE
+1765717,Nota,NOTA,22695,147,1.09,5,51,22,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765718,Tenzing Norbu Lamtha,SDF,22687,6633,51.84,1,51,23,SK,Tenzing Norbu Lamtha,SDF,,,,,False,51,2024,AE
+1765719,Kunga Nima Lepcha,SKM,22694,5319,41.57,2,51,23,SK,Kunga Nima Lepcha,SKM,,,,,True,51,2024,AE
+1765720,Pempo Dorjee Lepcha,BJP,22690,403,3.15,3,51,23,SK,Pempo Dorjee Lepcha,BJP,,,,,False,51,2024,AE
+1765721,Sonam Tshering Lepcha,CAPS,22703,268,2.09,4,51,23,SK,Sonam Tshering Lepcha,CAPS,,,,,False,51,2024,AE
+1765722,Nota,NOTA,22695,93,0.73,5,51,23,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765723,Karma Tashi Bhutia,INC,22688,80,0.63,6,51,23,SK,Karma Tashi Bhutia,INC,,,,,False,51,2024,AE
+1765724,Sonam Tsh. Venchungpa,SKM,22694,8070,54.01,1,51,24,SK,Sonam Tsh. Venchungpa,SKM,,,,,False,51,2024,AE
+1765725,Mechung Bhutia,SDF,22687,5308,35.53,2,51,24,SK,Mechung Bhutia,SDF,,,,,False,51,2024,AE
+1765726,Chewang Dadul Bhutia,BJP,22690,705,4.72,3,51,24,SK,Chewang Dadul Bhutia,BJP,,,,,False,51,2024,AE
+1765727,Karma Tshering Bhutia,CAPS,22703,637,4.26,4,51,24,SK,Karma Tshering Bhutia,CAPS,,,,,False,51,2024,AE
+1765728,Nota,NOTA,22695,132,0.88,5,51,24,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765729,Ganga Lepcha,INC,22688,89,0.6,6,51,24,SK,Ganga Lepcha,INC,,,,,False,51,2024,AE
+1765730,G.T. Dhungel,SKM,22694,6209,68.46,1,51,25,SK,G.T. Dhungel,SKM,,,,,False,51,2024,AE
+1765731,Dr. Chandra Bahadur Chettri,SDF,22687,2120,23.38,2,51,25,SK,Dr. Chandra Bahadur Chettri,SDF,,,,,False,51,2024,AE
+1765732,Niren Bhandari,BJP,22690,280,3.09,3,51,25,SK,Niren Bhandari,BJP,,,,,False,51,2024,AE
+1765733,Ravi Gurung,CAPS,22703,245,2.7,4,51,25,SK,Ravi Gurung,CAPS,,,,,False,51,2024,AE
+1765734,Kailash Chandra Pradhan,IND,22691,158,1.74,5,51,25,SK,Kailash Chandra Pradhan,IND,,,,,False,51,2024,AE
+1765735,Nota,NOTA,22695,57,0.63,6,51,25,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765736,Arun Kumar Upreti,SKM,22694,5356,61.48,1,51,26,SK,Arun Kumar Upreti,SKM,,,,,True,51,2024,AE
+1765737,Ashis Rai,SDF,22687,2627,30.15,2,51,26,SK,Ashis Rai,SDF,,,,,False,51,2024,AE
+1765738,Udai Gurung,BJP,22690,541,6.21,3,51,26,SK,Udai Gurung,BJP,,,,,False,51,2024,AE
+1765739,Rikesh Pradhan,CAPS,22703,93,1.07,4,51,26,SK,Rikesh Pradhan,CAPS,,,,,False,51,2024,AE
+1765740,Nota,NOTA,22695,49,0.56,5,51,26,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765741,Sumitra Rai,INC,22688,46,0.53,6,51,26,SK,Sumitra Rai,INC,,,,,True,51,2024,AE
+1765742,Delay Namgyal Barfungpa,SKM,22694,4440,57.44,1,51,27,SK,Delay Namgyal Barfungpa,SKM,,,,,False,51,2024,AE
+1765743,Pintso Chopel Lepcha,SDF,22687,1748,22.61,2,51,27,SK,Pintso Chopel Lepcha,SDF,,,,,False,51,2024,AE
+1765744,Pema Wangyal Rinzing,BJP,22690,1230,15.91,3,51,27,SK,Pema Wangyal Rinzing,BJP,,,,,False,51,2024,AE
+1765745,Dawcho Lepcha,CAPS,22703,206,2.66,4,51,27,SK,Dawcho Lepcha,CAPS,,,,,False,51,2024,AE
+1765746,Nota,NOTA,22695,62,0.8,5,51,27,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765747,Snumit Targain,INC,22688,44,0.57,6,51,27,SK,Snumit Targain,INC,,,,,False,51,2024,AE
+1765748,Kala Rai,SKM,22694,6323,50.54,1,51,28,SK,Kala Rai,SKM,,,,,False,51,2024,AE
+1765749,Dilli Ram Thapa,BJP,22690,3755,30.01,2,51,28,SK,Dilli Ram Thapa,BJP,,,,,False,51,2024,AE
+1765750,Dil Bahadur Thapa,SDF,22687,1623,12.97,3,51,28,SK,Dil Bahadur Thapa,SDF,,,,,False,51,2024,AE
+1765751,Bhim Kumar Tamang,CAPS,22703,581,4.64,4,51,28,SK,Bhim Kumar Tamang,CAPS,,,,,False,51,2024,AE
+1765752,Aita Tamang,INC,22688,123,0.98,5,51,28,SK,Aita Tamang,INC,,,,,True,51,2024,AE
+1765753,Nota,NOTA,22695,107,0.86,6,51,28,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765754,Thenlay Tshering Bhutia,SKM,22694,5882,54.18,1,51,29,SK,Thenlay Tshering Bhutia,SKM,,,,,False,51,2024,AE
+1765755,Gnawo Chopel Lepcha,SDF,22687,4189,38.59,2,51,29,SK,Gnawo Chopel Lepcha,SDF,,,,,False,51,2024,AE
+1765756,Ugen Nedup Bhutia,BJP,22690,589,5.43,3,51,29,SK,Ugen Nedup Bhutia,BJP,,,,,False,51,2024,AE
+1765757,Nota,NOTA,22695,196,1.81,4,51,29,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765758,Pintso Namgyal Lepcha,SKM,22694,6402,69.56,1,51,30,SK,Pintso Namgyal Lepcha,SKM,,,,,False,51,2024,AE
+1765759,Sonam Gyatso Lepcha,SDF,22687,1395,15.16,2,51,30,SK,Sonam Gyatso Lepcha,SDF,,,,,False,51,2024,AE
+1765760,Jorbu Tshering Lepcha,CAPS,22703,1190,12.93,3,51,30,SK,Jorbu Tshering Lepcha,CAPS,,,,,False,51,2024,AE
+1765761,Penzong Lepcha,BJP,22690,148,1.61,4,51,30,SK,Penzong Lepcha,BJP,,,,,False,51,2024,AE
+1765762,Nota,NOTA,22695,68,0.74,5,51,30,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765763,Samdup Lepcha,SKM,22694,3929,55.37,1,51,31,SK,Samdup Lepcha,SKM,,,,,True,51,2024,AE
+1765764,Hishey Lachungpa,SDF,22687,3078,43.38,2,51,31,SK,Hishey Lachungpa,SDF,,,,,False,51,2024,AE
+1765765,Nota,NOTA,22695,89,1.25,3,51,31,SK,Nota,NOTA,,,,,True,51,2024,AE
+1765766,Sonam Lama,SKM,22694,1919,60.01,1,51,32,SK,Sonam Lama,SKM,,,,,True,51,2024,AE
+1765767,Tseten Tashi Bhutia,BJP,22690,1054,32.96,2,51,32,SK,Tseten Tashi Bhutia,BJP,,,,,False,51,2024,AE
+1765768,Tshering Lama,SDF,22687,114,3.56,3,51,32,SK,Tshering Lama,SDF,,,,,True,51,2024,AE
+1765769,Norcho Lepcha,CAPS,22703,97,3.03,4,51,32,SK,Norcho Lepcha,CAPS,,,,,False,51,2024,AE
+1765770,Nota,NOTA,22695,14,0.44,5,51,32,SK,Nota,NOTA,,,,,True,51,2024,AE

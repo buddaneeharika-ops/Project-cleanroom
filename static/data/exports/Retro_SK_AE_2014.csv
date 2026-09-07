@@ -1,0 +1,154 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1765232,Sonam Dadul Bhutia,SDF,22687,6777,68.33,1,19,1,SK,Sonam Dadul Bhutia,SDF,,,,,False,19,2014,AE
+1765233,Thutop Bhutia,SKM,22694,2559,25.8,2,19,1,SK,Thutop Bhutia,SKM,,,,,False,19,2014,AE
+1765234,Pema Rinzing Bhutia,INC,22688,363,3.66,3,19,1,SK,Pema Rinzing Bhutia,INC,,,,,False,19,2014,AE
+1765235,Nota,NOTA,22695,219,2.21,4,19,1,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765236,Chandra Maya Limboo (Subba),SDF,22687,5211,56.0,1,19,2,SK,Chandra Maya Limboo (Subba),SDF,,,,,False,19,2014,AE
+1765237,Kharka Bdr. Subba,SKM,22694,3572,38.39,2,19,2,SK,Kharka Bdr. Subba,SKM,,,,,False,19,2014,AE
+1765238,Lall Man Subba,INC,22688,223,2.4,3,19,2,SK,Lall Man Subba,INC,,,,,False,19,2014,AE
+1765239,Nota,NOTA,22695,159,1.71,4,19,2,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765240,Ashis Gurung,BJP,22690,140,1.5,5,19,2,SK,Ashis Gurung,BJP,,,,,False,19,2014,AE
+1765241,Narendra Kumar Subba,SDF,22687,7737,72.43,1,19,3,SK,Narendra Kumar Subba,SDF,,,,,False,19,2014,AE
+1765242,Birbal Tamling,SKM,22694,2519,23.58,2,19,3,SK,Birbal Tamling,SKM,,,,,False,19,2014,AE
+1765243,Nota,NOTA,22695,156,1.46,3,19,3,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765244,Keshar Man Gurung,BJP,22690,140,1.31,4,19,3,SK,Keshar Man Gurung,BJP,,,,,False,19,2014,AE
+1765245,Man Maya Limbu,INC,22688,130,1.22,5,19,3,SK,Man Maya Limbu,INC,,,,,False,19,2014,AE
+1765246,Sher Bahadur Subedi,SDF,22687,4529,50.86,1,19,4,SK,Sher Bahadur Subedi,SDF,,,,,False,19,2014,AE
+1765247,Lok Nath Sharma,SKM,22694,3890,43.68,2,19,4,SK,Lok Nath Sharma,SKM,,,,,False,19,2014,AE
+1765248,Nota,NOTA,22695,148,1.66,3,19,4,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765249,Mandhoj Thapa,BJP,22690,135,1.52,4,19,4,SK,Mandhoj Thapa,BJP,,,,,False,19,2014,AE
+1765250,Dal Bahadur Karki,INC,22688,107,1.2,5,19,4,SK,Dal Bahadur Karki,INC,,,,,False,19,2014,AE
+1765251,Hari Chandra Sharma,AITC,22697,96,1.08,6,19,4,SK,Hari Chandra Sharma,AITC,,,,,False,19,2014,AE
+1765252,Karma Sonam Lepcha,SDF,22687,7347,68.37,1,19,5,SK,Karma Sonam Lepcha,SDF,,,,,False,19,2014,AE
+1765253,Pema Kinzang Bhutia,SKM,22694,2891,26.9,2,19,5,SK,Pema Kinzang Bhutia,SKM,,,,,False,19,2014,AE
+1765254,Laten Tshering Sherpa,BJP,22690,186,1.73,3,19,5,SK,Laten Tshering Sherpa,BJP,,,,,False,19,2014,AE
+1765255,Karsang Sherpa,INC,22688,132,1.23,4,19,5,SK,Karsang Sherpa,INC,,,,,False,19,2014,AE
+1765256,Nota,NOTA,22695,97,0.9,5,19,5,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765257,Phur Tshering Lepcha,AITC,22697,93,0.87,6,19,5,SK,Phur Tshering Lepcha,AITC,,,,,False,19,2014,AE
+1765258,Danorbu Sherpa,SDF,22687,6250,54.89,1,19,6,SK,Danorbu Sherpa,SDF,,,,,False,19,2014,AE
+1765259,Mingma Norbu Sherpa,SKM,22694,4646,40.8,2,19,6,SK,Mingma Norbu Sherpa,SKM,,,,,False,19,2014,AE
+1765260,Laden Lepcha,INC,22688,306,2.69,3,19,6,SK,Laden Lepcha,INC,,,,,False,19,2014,AE
+1765261,Nota,NOTA,22695,185,1.62,4,19,6,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765262,Ram Bahadur Limboo (Subba),SDF,22687,6596,55.4,1,19,7,SK,Ram Bahadur Limboo (Subba),SDF,,,,,False,19,2014,AE
+1765263,Bharati Sharma,SKM,22694,4667,39.2,2,19,7,SK,Bharati Sharma,SKM,,,,,False,19,2014,AE
+1765264,Nota,NOTA,22695,234,1.97,3,19,7,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765265,Pushker Limbu,INC,22688,212,1.78,4,19,7,SK,Pushker Limbu,INC,,,,,False,19,2014,AE
+1765266,Sher Bahadur Karki,BJP,22690,197,1.65,5,19,7,SK,Sher Bahadur Karki,BJP,,,,,False,19,2014,AE
+1765267,Arjun Kumar Ghatani,SDF,22687,4250,26.31,1,19,8,SK,Arjun Kumar Ghatani,SDF,,,,,False,19,2014,AE
+1765269,Bhanu Pratap Rasaily,SKM,22694,3471,21.49,2,19,8,SK,Bhanu Pratap Rasaily,SKM,,,,,False,19,2014,AE
+1765271,Ranjit Kami,BJP,22690,162,1.0,3,19,8,SK,Ranjit Kami,BJP,,,,,False,19,2014,AE
+1765273,Nota,NOTA,22695,129,0.8,4,19,8,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765275,Kharka Bahadur Thatal,INC,22688,64,0.4,5,19,8,SK,Kharka Bahadur Thatal,INC,,,,,False,19,2014,AE
+1765277,Dorjee Dazom Bhutia,SDF,22687,6639,63.79,1,19,9,SK,Dorjee Dazom Bhutia,SDF,,,,,False,19,2014,AE
+1765278,Pema Wangyal Bhutia,SKM,22694,3460,33.24,2,19,9,SK,Pema Wangyal Bhutia,SKM,,,,,False,19,2014,AE
+1765279,Nota,NOTA,22695,197,1.89,3,19,9,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765280,Dadul Lepcha,INC,22688,112,1.08,4,19,9,SK,Dadul Lepcha,INC,,,,,False,19,2014,AE
+1765281,Kedar Nath Rai,SDF,22687,7996,68.85,1,19,10,SK,Kedar Nath Rai,SDF,,,,,False,19,2014,AE
+1765282,Bhoj Raj Rai,SKM,22694,3325,28.63,2,19,10,SK,Bhoj Raj Rai,SKM,,,,,False,19,2014,AE
+1765283,Nota,NOTA,22695,178,1.53,3,19,10,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765284,Ishwar Prasad Rai,INC,22688,115,0.99,4,19,10,SK,Ishwar Prasad Rai,INC,,,,,False,19,2014,AE
+1765285,Pawan Chamling,SDF,22687,4774,55.08,1,19,11,SK,Pawan Chamling,SDF,,,,,True,19,2014,AE
+1765286,Milan Rai,SKM,22694,3690,42.57,2,19,11,SK,Milan Rai,SKM,,,,,False,19,2014,AE
+1765287,Nota,NOTA,22695,112,1.29,3,19,11,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765288,Khush Bdr. Rai,INC,22688,92,1.06,4,19,11,SK,Khush Bdr. Rai,INC,,,,,False,19,2014,AE
+1765289,Tulshi Devi Rai,SDF,22687,7655,67.32,1,19,12,SK,Tulshi Devi Rai,SDF,,,,,True,19,2014,AE
+1765290,Prem Bahadur Karki,SKM,22694,3406,29.95,2,19,12,SK,Prem Bahadur Karki,SKM,,,,,False,19,2014,AE
+1765291,Nota,NOTA,22695,178,1.57,3,19,12,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765292,Man Bahadur Rai,INC,22688,132,1.16,4,19,12,SK,Man Bahadur Rai,INC,,,,,False,19,2014,AE
+1765293,Tilu Gurung,SDF,22687,5947,53.84,1,19,13,SK,Tilu Gurung,SDF,,,,,True,19,2014,AE
+1765294,Prem Singh Tamang,SKM,22694,4792,43.38,2,19,13,SK,Prem Singh Tamang,SKM,,,,,False,19,2014,AE
+1765295,Nota,NOTA,22695,109,0.99,3,19,13,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765296,Dik Maya Basnet,INC,22688,107,0.97,4,19,13,SK,Dik Maya Basnet,INC,,,,,False,19,2014,AE
+1765297,Yasodha Barakoti,AITC,22697,91,0.82,5,19,13,SK,Yasodha Barakoti,AITC,,,,,False,19,2014,AE
+1765298,Garjaman Gurung,SDF,22687,5657,55.38,1,19,14,SK,Garjaman Gurung,SDF,,,,,False,19,2014,AE
+1765299,Lalit Sharma,SKM,22694,4268,41.78,2,19,14,SK,Lalit Sharma,SKM,,,,,False,19,2014,AE
+1765300,Nota,NOTA,22695,180,1.76,3,19,14,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765301,Deepak Bhandari,INC,22688,110,1.08,4,19,14,SK,Deepak Bhandari,INC,,,,,False,19,2014,AE
+1765302,Pawan Chamling,SDF,22687,6343,63.84,1,19,15,SK,Pawan Chamling,SDF,,,,,False,19,2014,AE
+1765303,Bikash Basnet,SKM,22694,3201,32.22,2,19,15,SK,Bikash Basnet,SKM,,,,,False,19,2014,AE
+1765304,Om Prakash Bista,INC,22688,206,2.07,3,19,15,SK,Om Prakash Bista,INC,,,,,False,19,2014,AE
+1765305,Nota,NOTA,22695,186,1.87,4,19,15,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765306,Ugen T. Gyatso Bhutia,SDF,22687,7191,31.13,1,19,16,SK,Ugen T. Gyatso Bhutia,SDF,,,,,False,19,2014,AE
+1765308,Nidup Tshering Lepcha,SKM,22694,3999,17.31,2,19,16,SK,Nidup Tshering Lepcha,SKM,,,,,False,19,2014,AE
+1765310,Pandup Lepcha,INC,22688,151,0.65,3,19,16,SK,Pandup Lepcha,INC,,,,,False,19,2014,AE
+1765312,Nota,NOTA,22695,105,0.45,4,19,16,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765314,Prem Tshering Lepcha,AITC,22697,104,0.45,5,19,16,SK,Prem Tshering Lepcha,AITC,,,,,False,19,2014,AE
+1765316,Som Nath Poudyal,SDF,22687,4718,49.13,1,19,17,SK,Som Nath Poudyal,SDF,,,,,False,19,2014,AE
+1765317,Mani Kumar Sharma,SKM,22694,4448,46.31,2,19,17,SK,Mani Kumar Sharma,SKM,,,,,False,19,2014,AE
+1765318,Madan Kumar Sharma,BJP,22690,191,1.99,3,19,17,SK,Madan Kumar Sharma,BJP,,,,,False,19,2014,AE
+1765319,Nota,NOTA,22695,160,1.67,4,19,17,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765320,Punya Prasad Koirala,INC,22688,87,0.91,5,19,17,SK,Punya Prasad Koirala,INC,,,,,False,19,2014,AE
+1765321,Gopal Baraily,SKM,22694,5382,52.45,1,19,18,SK,Gopal Baraily,SKM,,,,,False,19,2014,AE
+1765322,K. K. Thatal,SDF,22687,4462,43.49,2,19,18,SK,K. K. Thatal,SDF,,,,,False,19,2014,AE
+1765323,Amar Lohar,BJP,22690,157,1.53,3,19,18,SK,Amar Lohar,BJP,,,,,False,19,2014,AE
+1765324,Nota,NOTA,22695,113,1.1,4,19,18,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765325,Ranjeet Gazmer,INC,22688,74,0.72,5,19,18,SK,Ranjeet Gazmer,INC,,,,,False,19,2014,AE
+1765326,Mohan Lall Thatal(Darjee),AITC,22697,73,0.71,6,19,18,SK,Mohan Lall Thatal(Darjee),AITC,,,,,False,19,2014,AE
+1765327,Hemendra Adhikari,SKM,22694,6415,50.05,1,19,19,SK,Hemendra Adhikari,SKM,,,,,False,19,2014,AE
+1765328,Bhim Prasad Dhungel,SDF,22687,5461,42.6,2,19,19,SK,Bhim Prasad Dhungel,SDF,,,,,True,19,2014,AE
+1765329,Tilak Kumar Pradhan,IND,22691,474,3.7,3,19,19,SK,Tilak Kumar Pradhan,IND,,,,,False,19,2014,AE
+1765330,Nota,NOTA,22695,139,1.08,4,19,19,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765331,Padam Bdr. Chettri,INC,22688,138,1.08,5,19,19,SK,Padam Bdr. Chettri,INC,,,,,False,19,2014,AE
+1765332,Om Prakash Bhandari,IND,22691,99,0.77,6,19,19,SK,Om Prakash Bhandari,IND,,,,,False,19,2014,AE
+1765333,Nawraj Chettri,AITC,22697,92,0.72,7,19,19,SK,Nawraj Chettri,AITC,,,,,False,19,2014,AE
+1765334,Bikram Pradhan,SDF,22687,7836,60.98,1,19,20,SK,Bikram Pradhan,SDF,,,,,False,19,2014,AE
+1765335,Kharga Bahadur Gurung,SKM,22694,4425,34.44,2,19,20,SK,Kharga Bahadur Gurung,SKM,,,,,False,19,2014,AE
+1765336,Gajendra Rizal,BJP,22690,248,1.93,3,19,20,SK,Gajendra Rizal,BJP,,,,,False,19,2014,AE
+1765337,Nota,NOTA,22695,179,1.39,4,19,20,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765338,Rudra Narsing Sakya,INC,22688,162,1.26,5,19,20,SK,Rudra Narsing Sakya,INC,,,,,False,19,2014,AE
+1765339,Dorjee Tsh. Lepcha,SDF,22687,5017,58.21,1,19,21,SK,Dorjee Tsh. Lepcha,SDF,,,,,False,19,2014,AE
+1765340,Sonam Dorjee,SKM,22694,3101,35.98,2,19,21,SK,Sonam Dorjee,SKM,,,,,False,19,2014,AE
+1765341,Pempa Tshering Bhutia,IND,22691,325,3.77,3,19,21,SK,Pempa Tshering Bhutia,IND,,,,,False,19,2014,AE
+1765342,Dorjee Ongden Bhutia,INC,22688,107,1.24,4,19,21,SK,Dorjee Ongden Bhutia,INC,,,,,False,19,2014,AE
+1765343,Nota,NOTA,22695,69,0.8,5,19,21,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765344,Bek Bahadur Rai,SDF,22687,5577,50.72,1,19,22,SK,Bek Bahadur Rai,SDF,,,,,False,19,2014,AE
+1765345,Dilip Rai,SKM,22694,4955,45.07,2,19,22,SK,Dilip Rai,SKM,,,,,False,19,2014,AE
+1765346,Tashi Rai,BJP,22690,167,1.52,3,19,22,SK,Tashi Rai,BJP,,,,,False,19,2014,AE
+1765347,Nota,NOTA,22695,157,1.43,4,19,22,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765348,Manoj Rai,INC,22688,139,1.26,5,19,22,SK,Manoj Rai,INC,,,,,False,19,2014,AE
+1765349,Kunga Nima Lepcha,SKM,22694,5324,52.23,1,19,23,SK,Kunga Nima Lepcha,SKM,,,,,False,19,2014,AE
+1765350,Karma Tempo Namgyal Gyaltsen,SDF,22687,4588,45.01,2,19,23,SK,Karma Tempo Namgyal Gyaltsen,SDF,,,,,True,19,2014,AE
+1765351,Samdup Dorjee Lama,INC,22688,142,1.39,3,19,23,SK,Samdup Dorjee Lama,INC,,,,,False,19,2014,AE
+1765352,Nota,NOTA,22695,140,1.37,4,19,23,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765353,Mechung Bhutia,SKM,22694,6055,50.24,1,19,24,SK,Mechung Bhutia,SKM,,,,,False,19,2014,AE
+1765354,Menlom Lepcha,SDF,22687,5576,46.26,2,19,24,SK,Menlom Lepcha,SDF,,,,,True,19,2014,AE
+1765355,Nota,NOTA,22695,239,1.98,3,19,24,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765356,Sonam Tshering Bhutia,INC,22688,183,1.52,4,19,24,SK,Sonam Tshering Bhutia,INC,,,,,False,19,2014,AE
+1765357,Timothy William Basnett,SKM,22694,3333,48.61,1,19,25,SK,Timothy William Basnett,SKM,,,,,False,19,2014,AE
+1765358,Bhasker Basnett,SDF,22687,3211,46.83,2,19,25,SK,Bhasker Basnett,SDF,,,,,False,19,2014,AE
+1765359,Eli Pal,BJP,22690,155,2.26,3,19,25,SK,Eli Pal,BJP,,,,,False,19,2014,AE
+1765361,Tara Kumar Pradhan,INC,22688,79,1.15,4,19,25,SK,Tara Kumar Pradhan,INC,,,,,False,19,2014,AE
+1765360,Nota,NOTA,22695,79,1.15,4,19,25,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765362,Shyam Pradhan,SKM,22694,4026,57.92,1,19,26,SK,Shyam Pradhan,SKM,,,,,False,19,2014,AE
+1765363,Udai Lama,SDF,22687,2420,34.82,2,19,26,SK,Udai Lama,SDF,,,,,False,19,2014,AE
+1765364,Sherap Dorjee Bhutia,IND,22691,253,3.64,3,19,26,SK,Sherap Dorjee Bhutia,IND,,,,,False,19,2014,AE
+1765365,Gyalpo Tamang,INC,22688,105,1.51,4,19,26,SK,Gyalpo Tamang,INC,,,,,False,19,2014,AE
+1765366,Rajeney Gurung,IND,22691,76,1.09,5,19,26,SK,Rajeney Gurung,IND,,,,,False,19,2014,AE
+1765367,Nota,NOTA,22695,71,1.02,6,19,26,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765368,Pintso Chopel,SKM,22694,4208,61.28,1,19,27,SK,Pintso Chopel,SKM,,,,,False,19,2014,AE
+1765369,Hishey Lachungpa,SDF,22687,2317,33.74,2,19,27,SK,Hishey Lachungpa,SDF,,,,,False,19,2014,AE
+1765370,Norden Gyalpo Dorji,BJP,22690,171,2.49,3,19,27,SK,Norden Gyalpo Dorji,BJP,,,,,False,19,2014,AE
+1765371,Tshering Gyatso Kaleon,INC,22688,72,1.05,4,19,27,SK,Tshering Gyatso Kaleon,INC,,,,,True,19,2014,AE
+1765372,Nota,NOTA,22695,62,0.9,5,19,27,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765373,Tshering Wangchuk Lepcha,AITC,22697,37,0.54,6,19,27,SK,Tshering Wangchuk Lepcha,AITC,,,,,False,19,2014,AE
+1765374,Prem Singh Tamang,SKM,22694,5272,50.73,1,19,28,SK,Prem Singh Tamang,SKM,,,,,False,19,2014,AE
+1765375,D. R. Thapa,SDF,22687,4699,45.21,2,19,28,SK,D. R. Thapa,SDF,,,,,False,19,2014,AE
+1765376,Ugen Tamang,BJP,22690,159,1.53,3,19,28,SK,Ugen Tamang,BJP,,,,,False,19,2014,AE
+1765377,Nota,NOTA,22695,139,1.34,4,19,28,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765378,Santa Bir Gurung,INC,22688,124,1.19,5,19,28,SK,Santa Bir Gurung,INC,,,,,False,19,2014,AE
+1765379,Ugen Nedup Bhutia,SKM,22694,4615,24.59,1,19,29,SK,Ugen Nedup Bhutia,SKM,,,,,False,19,2014,AE
+1765381,Thenlay Tshering Bhutia,SDF,22687,4489,23.92,2,19,29,SK,Thenlay Tshering Bhutia,SDF,,,,,True,19,2014,AE
+1765383,Nota,NOTA,22695,152,0.81,3,19,29,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765385,Karma Tashi Bhutia,INC,22688,127,0.68,4,19,29,SK,Karma Tashi Bhutia,INC,,,,,False,19,2014,AE
+1765387,Sonam Gyatso Lepcha,SDF,22687,4618,63.67,1,19,30,SK,Sonam Gyatso Lepcha,SDF,,,,,True,19,2014,AE
+1765388,Dawa Tshering Lepcha,SKM,22694,2443,33.68,2,19,30,SK,Dawa Tshering Lepcha,SKM,,,,,False,19,2014,AE
+1765389,Penzong Lepcha,INC,22688,105,1.45,3,19,30,SK,Penzong Lepcha,INC,,,,,False,19,2014,AE
+1765390,Nota,NOTA,22695,87,1.2,4,19,30,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765391,Tshering Wangdi Lepcha,SDF,22687,3127,53.43,1,19,31,SK,Tshering Wangdi Lepcha,SDF,,,,,True,19,2014,AE
+1765392,Samdup Lepcha,SKM,22694,2570,43.92,2,19,31,SK,Samdup Lepcha,SKM,,,,,False,19,2014,AE
+1765393,Nota,NOTA,22695,79,1.35,3,19,31,SK,Nota,NOTA,,,,,False,19,2014,AE
+1765394,Topden Lepcha,INC,22688,76,1.3,4,19,31,SK,Topden Lepcha,INC,,,,,False,19,2014,AE
+1765395,Sonam Lama,SKM,22694,1096,12.47,1,19,32,SK,Sonam Lama,SKM,,,,,False,19,2014,AE
+1765399,Palden Lachungpa,SDF,22687,971,11.04,2,19,32,SK,Palden Lachungpa,SDF,,,,,False,19,2014,AE
+1765403,Tshering Lama,INC,22688,108,1.23,3,19,32,SK,Tshering Lama,INC,,,,,True,19,2014,AE
+1765407,Nota,NOTA,22695,23,0.26,4,19,32,SK,Nota,NOTA,,,,,False,19,2014,AE

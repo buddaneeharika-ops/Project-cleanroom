@@ -1,0 +1,481 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1945334,Hans Raj,BJP,16533,32095,51.49,1,45,1,HP,Hans Raj,BJP,,,,,False,45,2022,AE
+1945335,Yashwant Singh,INC,16534,29453,47.26,2,45,1,HP,Yashwant Singh,INC,,,,,False,45,2022,AE
+1945336,Nota,NOTA,16540,394,0.63,3,45,1,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945337,Nand Kumar Jaryal,AAAP,16541,385,0.62,4,45,1,HP,Nand Kumar Jaryal,AAAP,,,,,False,45,2022,AE
+1945338,Dr. Janak Raj,BJP,16533,30336,53.68,1,45,2,HP,Dr. Janak Raj,BJP,,,,,False,45,2022,AE
+1945339,Thakur Singh Bharmouri,INC,16534,25164,44.53,2,45,2,HP,Thakur Singh Bharmouri,INC,,,,,False,45,2022,AE
+1945340,Nota,NOTA,16540,343,0.61,3,45,2,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945341,Puja,HIMJKP,16546,242,0.43,4,45,2,HP,Puja,HIMJKP,,,,,False,45,2022,AE
+1945342,Parkash Chand,AAAP,16541,237,0.42,5,45,2,HP,Parkash Chand,AAAP,,,,,False,45,2022,AE
+1945343,Rasila Ram,HCHLJP,16551,187,0.33,6,45,2,HP,Rasila Ram,HCHLJP,,,,,False,45,2022,AE
+1945344,Neeraj Nayar,INC,16534,32783,53.28,1,45,3,HP,Neeraj Nayar,INC,,,,,False,45,2022,AE
+1945345,Neelam Nayyar,BJP,16533,25001,40.63,2,45,3,HP,Neelam Nayyar,BJP,,,,,False,45,2022,AE
+1945346,Indira Kapoor,IND,16536,2443,3.97,3,45,3,HP,Indira Kapoor,IND,,,,,False,45,2022,AE
+1945347,Nota,NOTA,16540,539,0.88,4,45,3,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945348,Shasi Kant,AAAP,16541,356,0.58,5,45,3,HP,Shasi Kant,AAAP,,,,,False,45,2022,AE
+1945349,Paras Ram,BSP,16537,247,0.4,6,45,3,HP,Paras Ram,BSP,,,,,False,45,2022,AE
+1945350,Uttam Chand,BVD,26428,159,0.26,7,45,3,HP,Uttam Chand,BVD,,,,,False,45,2022,AE
+1945351,D. S. Thakur,BJP,16533,33488,57.49,1,45,4,HP,D. S. Thakur,BJP,,,,,False,45,2022,AE
+1945352,Asha Kumari,INC,16534,23570,40.47,2,45,4,HP,Asha Kumari,INC,,,,,False,45,2022,AE
+1945353,Nota,NOTA,16540,382,0.66,3,45,4,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945354,Ashok Bakaria,RTRYDVBHMP,16549,358,0.61,4,45,4,HP,Ashok Bakaria,RTRYDVBHMP,,,,,False,45,2022,AE
+1945355,Rinku,IND,16536,241,0.41,5,45,4,HP,Rinku,IND,,,,,False,45,2022,AE
+1945356,Manish Sareen,AAAP,16541,207,0.36,6,45,4,HP,Manish Sareen,AAAP,,,,,False,45,2022,AE
+1945357,Kuldeep Singh Pathania,INC,16534,25989,43.73,1,45,5,HP,Kuldeep Singh Pathania,INC,,,,,False,45,2022,AE
+1945358,Bikram Singh Jaryal,BJP,16533,24422,41.1,2,45,5,HP,Bikram Singh Jaryal,BJP,,,,,False,45,2022,AE
+1945359,Nirmal Singh Pandey,IND,16536,7741,13.03,3,45,5,HP,Nirmal Singh Pandey,IND,,,,,False,45,2022,AE
+1945360,Amrita Chaudhry,HSP,26430,607,1.02,4,45,5,HP,Amrita Chaudhry,HSP,,,,,False,45,2022,AE
+1945361,Nota,NOTA,16540,468,0.79,5,45,5,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945362,Naresh Kumar,AAAP,16541,197,0.33,6,45,5,HP,Naresh Kumar,AAAP,,,,,False,45,2022,AE
+1945363,Ranbir Singh (nikka),BJP,16533,44132,62.45,1,45,6,HP,Ranbir Singh (nikka),BJP,,,,,False,45,2022,AE
+1945364,Ajay Mahajan,INC,16534,25380,35.92,2,45,6,HP,Ajay Mahajan,INC,,,,,False,45,2022,AE
+1945365,Sali Ram,BSP,16537,325,0.46,3,45,6,HP,Sali Ram,BSP,,,,,False,45,2022,AE
+1945366,Nota,NOTA,16540,302,0.43,4,45,6,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945367,Manisha Kumari,AAAP,16541,286,0.4,5,45,6,HP,Manisha Kumari,AAAP,,,,,False,45,2022,AE
+1945368,Subhash Singh Dhadwal,IND,16536,239,0.34,6,45,6,HP,Subhash Singh Dhadwal,IND,,,,,False,45,2022,AE
+1945369,Malender Rajan,INC,16534,30797,45.55,1,45,7,HP,Malender Rajan,INC,,,,,False,45,2022,AE
+1945370,Reeta Devi,BJP,16533,28547,42.22,2,45,7,HP,Reeta Devi,BJP,,,,,False,45,2022,AE
+1945371,Manohar Lal,IND,16536,4442,6.57,3,45,7,HP,Manohar Lal,IND,,,,,False,45,2022,AE
+1945372,Jagdish Singh,AAAP,16541,1474,2.18,4,45,7,HP,Jagdish Singh,AAAP,,,,,False,45,2022,AE
+1945373,Nirmal Parshad,IND,16536,1470,2.17,5,45,7,HP,Nirmal Parshad,IND,,,,,False,45,2022,AE
+1945374,Nota,NOTA,16540,482,0.71,6,45,7,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945375,Hans Raj,BSP,16537,261,0.39,7,45,7,HP,Hans Raj,BSP,,,,,False,45,2022,AE
+1945376,Laxman Dass,HSP,26430,145,0.21,8,45,7,HP,Laxman Dass,HSP,,,,,False,45,2022,AE
+1945377,Bhawani Singh Pathania,INC,16534,33238,51.83,1,45,8,HP,Bhawani Singh Pathania,INC,,,,,False,45,2022,AE
+1945378,Rakesh Pathania,BJP,16533,25884,40.36,2,45,8,HP,Rakesh Pathania,BJP,,,,,False,45,2022,AE
+1945379,Kripal Singh Parmar,IND,16536,2811,4.38,3,45,8,HP,Kripal Singh Parmar,IND,,,,,False,45,2022,AE
+1945380,Dr. Rajan Sushant,AAAP,16541,1302,2.03,4,45,8,HP,Dr. Rajan Sushant,AAAP,,,,,False,45,2022,AE
+1945381,Tilak Raj,BSP,16537,298,0.46,5,45,8,HP,Tilak Raj,BSP,,,,,False,45,2022,AE
+1945382,Nota,NOTA,16540,185,0.29,6,45,8,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945383,Dr. Ashok Kumar Somal,IND,16536,156,0.24,7,45,8,HP,Dr. Ashok Kumar Somal,IND,,,,,False,45,2022,AE
+1945384,Adv. Sanjay Sharma,IND,16536,141,0.22,8,45,8,HP,Adv. Sanjay Sharma,IND,,,,,False,45,2022,AE
+1945385,Vijay Koundal,IND,16536,118,0.18,9,45,8,HP,Vijay Koundal,IND,,,,,False,45,2022,AE
+1945386,Chander Kumar,INC,16534,38243,51.22,1,45,9,HP,Chander Kumar,INC,,,,,False,45,2022,AE
+1945387,Sanjay Guleria,BJP,16533,35212,47.16,2,45,9,HP,Sanjay Guleria,BJP,,,,,False,45,2022,AE
+1945388,Nota,NOTA,16540,373,0.5,3,45,9,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945389,Arun Kumar,HIMJKP,16546,306,0.41,4,45,9,HP,Arun Kumar,HIMJKP,,,,,False,45,2022,AE
+1945390,Baldev Raj,AAAP,16541,277,0.37,5,45,9,HP,Baldev Raj,AAAP,,,,,False,45,2022,AE
+1945391,Bir Singh,BSP,16537,258,0.35,6,45,9,HP,Bir Singh,BSP,,,,,False,45,2022,AE
+1945392,Hoshyar Singh,IND,16536,22997,37.96,1,45,10,HP,Hoshyar Singh,IND,,,,,False,45,2022,AE
+1945393,Dr. Rajesh Sharma,INC,16534,19120,31.56,2,45,10,HP,Dr. Rajesh Sharma,INC,,,,,False,45,2022,AE
+1945394,Ramesh Chand,BJP,16533,16730,27.62,3,45,10,HP,Ramesh Chand,BJP,,,,,False,45,2022,AE
+1945395,Varun Kumar,IND,16536,560,0.92,4,45,10,HP,Varun Kumar,IND,,,,,False,45,2022,AE
+1945396,Manish Kumar,AAAP,16541,483,0.8,5,45,10,HP,Manish Kumar,AAAP,,,,,False,45,2022,AE
+1945397,Nota,NOTA,16540,472,0.78,6,45,10,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945398,Harbans Singh,BSP,16537,213,0.35,7,45,10,HP,Harbans Singh,BSP,,,,,False,45,2022,AE
+1945399,Bikram Singh,BJP,16533,22658,38.27,1,45,11,HP,Bikram Singh,BJP,,,,,False,45,2022,AE
+1945400,Surinder Singh Mankotia,INC,16534,20869,35.25,2,45,11,HP,Surinder Singh Mankotia,INC,,,,,False,45,2022,AE
+1945401,Sanjay Prashar,IND,16536,13405,22.64,3,45,11,HP,Sanjay Prashar,IND,,,,,False,45,2022,AE
+1945402,Mukesh Kumar,IND,16536,1658,2.8,4,45,11,HP,Mukesh Kumar,IND,,,,,False,45,2022,AE
+1945403,Nota,NOTA,16540,259,0.44,5,45,11,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945404,Prem Chand,BSP,16537,189,0.32,6,45,11,HP,Prem Chand,BSP,,,,,False,45,2022,AE
+1945405,Sahil Chouhan,AAAP,16541,163,0.28,7,45,11,HP,Sahil Chouhan,AAAP,,,,,False,45,2022,AE
+1945406,Sanjay Rattan,INC,16534,27827,46.48,1,45,12,HP,Sanjay Rattan,INC,,,,,False,45,2022,AE
+1945407,Ravinder Singh,BJP,16533,21423,35.78,2,45,12,HP,Ravinder Singh,BJP,,,,,False,45,2022,AE
+1945408,Atul Kaushal,IND,16536,9511,15.89,3,45,12,HP,Atul Kaushal,IND,,,,,False,45,2022,AE
+1945409,Hoshiar Singh,AAAP,16541,616,1.03,4,45,12,HP,Hoshiar Singh,AAAP,,,,,False,45,2022,AE
+1945411,Sushil Kumar,BSP,16537,201,0.34,5,45,12,HP,Sushil Kumar,BSP,,,,,False,45,2022,AE
+1945410,Nota,NOTA,16540,201,0.34,5,45,12,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945412,Sunil Kumar,IND,16536,93,0.16,7,45,12,HP,Sunil Kumar,IND,,,,,False,45,2022,AE
+1945413,Yadvinder Goma,INC,16534,28058,50.43,1,45,13,HP,Yadvinder Goma,INC,,,,,False,45,2022,AE
+1945414,Ravinder Kumar Dhiman,BJP,16533,25362,45.58,2,45,13,HP,Ravinder Kumar Dhiman,BJP,,,,,False,45,2022,AE
+1945415,Sushil Kumar,RTRYDVBHMP,16549,943,1.69,3,45,13,HP,Sushil Kumar,RTRYDVBHMP,,,,,False,45,2022,AE
+1945416,Santosh Kumar,AAAP,16541,697,1.25,4,45,13,HP,Santosh Kumar,AAAP,,,,,False,45,2022,AE
+1945417,Nota,NOTA,16540,298,0.54,5,45,13,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945418,Surender Singh,IND,16536,155,0.28,6,45,13,HP,Surender Singh,IND,,,,,False,45,2022,AE
+1945419,Dr. Kehar Singh,IND,16536,124,0.22,7,45,13,HP,Dr. Kehar Singh,IND,,,,,False,45,2022,AE
+1945420,Vipin Singh Parmar,BJP,16533,36670,48.35,1,45,14,HP,Vipin Singh Parmar,BJP,,,,,False,45,2022,AE
+1945421,Jagjiwan Paul,IND,16536,29558,38.97,2,45,14,HP,Jagjiwan Paul,IND,,,,,False,45,2022,AE
+1945422,Jagdish Chand Sapehia,INC,16534,6828,9.0,3,45,14,HP,Jagdish Chand Sapehia,INC,,,,,False,45,2022,AE
+1945423,Ravinder Singh,AAAP,16541,963,1.27,4,45,14,HP,Ravinder Singh,AAAP,,,,,False,45,2022,AE
+1945424,Chander Bhan,IND,16536,760,1.0,5,45,14,HP,Chander Bhan,IND,,,,,False,45,2022,AE
+1945425,Nota,NOTA,16540,394,0.52,6,45,14,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945426,Suman Kumar,IND,16536,232,0.31,7,45,14,HP,Suman Kumar,IND,,,,,False,45,2022,AE
+1945427,Rekha Rani,IND,16536,211,0.28,8,45,14,HP,Rekha Rani,IND,,,,,False,45,2022,AE
+1945428,Suresh Kumar,BSP,16537,165,0.22,9,45,14,HP,Suresh Kumar,BSP,,,,,False,45,2022,AE
+1945429,Dr. Swaroop Singh Rana,IND,16536,64,0.08,10,45,14,HP,Dr. Swaroop Singh Rana,IND,,,,,False,45,2022,AE
+1945430,R.s. Bali,INC,16534,42079,59.88,1,45,15,HP,R.s. Bali,INC,,,,,False,45,2022,AE
+1945431,Arun Kumar (kuka),BJP,16533,26187,37.26,2,45,15,HP,Arun Kumar (kuka),BJP,,,,,False,45,2022,AE
+1945432,Uma Kant,AAAP,16541,1332,1.9,3,45,15,HP,Uma Kant,AAAP,,,,,False,45,2022,AE
+1945433,Nota,NOTA,16540,385,0.55,4,45,15,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945434,Sikander Kumar,IND,16536,292,0.42,5,45,15,HP,Sikander Kumar,IND,,,,,False,45,2022,AE
+1945435,Pawan Kumar Kajal,BJP,16533,35239,55.64,1,45,16,HP,Pawan Kumar Kajal,BJP,,,,,False,45,2022,AE
+1945436,Choudhary Surinder Kaku,INC,16534,15405,24.32,2,45,16,HP,Choudhary Surinder Kaku,INC,,,,,False,45,2022,AE
+1945437,Kulbhash Chand,IND,16536,7994,12.62,3,45,16,HP,Kulbhash Chand,IND,,,,,False,45,2022,AE
+1945438,Amit Verma,IND,16536,3033,4.79,4,45,16,HP,Amit Verma,IND,,,,,False,45,2022,AE
+1945439,Raj Kumar,AAAP,16541,866,1.37,5,45,16,HP,Raj Kumar,AAAP,,,,,False,45,2022,AE
+1945440,Nota,NOTA,16540,464,0.73,6,45,16,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945441,Vijay Kumar,BSP,16537,338,0.53,7,45,16,HP,Vijay Kumar,BSP,,,,,False,45,2022,AE
+1945442,Kewal Singh,INC,16534,36603,55.39,1,45,17,HP,Kewal Singh,INC,,,,,False,45,2022,AE
+1945443,Sarveen Choudhary,BJP,16533,24360,36.86,2,45,17,HP,Sarveen Choudhary,BJP,,,,,False,45,2022,AE
+1945444,Joginder Singh (panku Kangdia),IND,16536,2298,3.48,3,45,17,HP,Joginder Singh (panku Kangdia),IND,,,,,False,45,2022,AE
+1945445,Abhishek Singh,AAAP,16541,1576,2.38,4,45,17,HP,Abhishek Singh,AAAP,,,,,False,45,2022,AE
+1945446,Nota,NOTA,16540,519,0.79,5,45,17,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945447,Ramesh Gautam,IND,16536,330,0.5,6,45,17,HP,Ramesh Gautam,IND,,,,,False,45,2022,AE
+1945448,Banarshi Dass Dogra,BSP,16537,306,0.46,7,45,17,HP,Banarshi Dass Dogra,BSP,,,,,False,45,2022,AE
+1945449,Ashish Sharma,HSP,26430,96,0.15,8,45,17,HP,Ashish Sharma,HSP,,,,,False,45,2022,AE
+1945450,Sudhir Sharma,INC,16534,27323,45.53,1,45,18,HP,Sudhir Sharma,INC,,,,,False,45,2022,AE
+1945451,Rakesh Choudhary,BJP,16533,24038,40.06,2,45,18,HP,Rakesh Choudhary,BJP,,,,,False,45,2022,AE
+1945452,Vipan Nehria,IND,16536,7416,12.36,3,45,18,HP,Vipan Nehria,IND,,,,,False,45,2022,AE
+1945453,Kulwant Singh Rana,AAAP,16541,527,0.88,4,45,18,HP,Kulwant Singh Rana,AAAP,,,,,False,45,2022,AE
+1945454,Nota,NOTA,16540,438,0.73,5,45,18,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945455,Subhash Chand Shukla,IND,16536,170,0.28,6,45,18,HP,Subhash Chand Shukla,IND,,,,,False,45,2022,AE
+1945456,Dr. Abhay Kumar Ashok,IND,16536,98,0.16,7,45,18,HP,Dr. Abhay Kumar Ashok,IND,,,,,False,45,2022,AE
+1945457,Ashish Butail,INC,16534,30874,53.72,1,45,19,HP,Ashish Butail,INC,,,,,False,45,2022,AE
+1945458,Trilok Kapoor,BJP,16533,25546,44.45,2,45,19,HP,Trilok Kapoor,BJP,,,,,False,45,2022,AE
+1945459,Sanjay Bhardwaj,AAAP,16541,430,0.75,3,45,19,HP,Sanjay Bhardwaj,AAAP,,,,,False,45,2022,AE
+1945460,Nota,NOTA,16540,382,0.66,4,45,19,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945461,Suresh Kumar,BSP,16537,244,0.42,5,45,19,HP,Suresh Kumar,BSP,,,,,False,45,2022,AE
+1945462,Kishori Lal,INC,16534,29338,50.32,1,45,20,HP,Kishori Lal,INC,,,,,False,45,2022,AE
+1945463,Mulkh Raj Premi,BJP,16533,25892,44.41,2,45,20,HP,Mulkh Raj Premi,BJP,,,,,False,45,2022,AE
+1945464,Parmodh Chand,AAAP,16541,1109,1.9,3,45,20,HP,Parmodh Chand,AAAP,,,,,False,45,2022,AE
+1945465,Nota,NOTA,16540,669,1.15,4,45,20,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945466,Ajay Kumar,BSP,16537,536,0.92,5,45,20,HP,Ajay Kumar,BSP,,,,,False,45,2022,AE
+1945467,Gurdas Ram,IND,16536,531,0.91,6,45,20,HP,Gurdas Ram,IND,,,,,False,45,2022,AE
+1945468,Vishesh Verma,SWAP,16547,226,0.39,7,45,20,HP,Vishesh Verma,SWAP,,,,,False,45,2022,AE
+1945469,Ravi Thakur,INC,16534,9948,52.91,1,45,21,HP,Ravi Thakur,INC,,,,,False,45,2022,AE
+1945470,Dr.ram Lal Markanda,BJP,16533,8332,44.32,2,45,21,HP,Dr.ram Lal Markanda,BJP,,,,,False,45,2022,AE
+1945471,Sudarshan Jaspa,AAAP,16541,454,2.41,3,45,21,HP,Sudarshan Jaspa,AAAP,,,,,False,45,2022,AE
+1945472,Nota,NOTA,16540,67,0.36,4,45,21,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945473,Bhuvneshwar Gaur,INC,16534,29892,49.46,1,45,22,HP,Bhuvneshwar Gaur,INC,,,,,False,45,2022,AE
+1945474,Govind Singh Thakur,BJP,16533,26935,44.57,2,45,22,HP,Govind Singh Thakur,BJP,,,,,False,45,2022,AE
+1945475,Mahinder Singh,IND,16536,1345,2.23,3,45,22,HP,Mahinder Singh,IND,,,,,False,45,2022,AE
+1945476,Amar Chand,RTRYDVBHMP,16549,997,1.65,4,45,22,HP,Amar Chand,RTRYDVBHMP,,,,,False,45,2022,AE
+1945477,Anurag Prarthi,AAAP,16541,730,1.21,5,45,22,HP,Anurag Prarthi,AAAP,,,,,False,45,2022,AE
+1945478,Tara Chand,BSP,16537,300,0.5,6,45,22,HP,Tara Chand,BSP,,,,,False,45,2022,AE
+1945479,Nota,NOTA,16540,238,0.39,7,45,22,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945480,Sunder Singh Thakur,INC,16534,30286,42.56,1,45,23,HP,Sunder Singh Thakur,INC,,,,,False,45,2022,AE
+1945481,Narotam Singh,BJP,16533,26183,36.79,2,45,23,HP,Narotam Singh,BJP,,,,,False,45,2022,AE
+1945482,Ram Singh,IND,16536,11937,16.77,3,45,23,HP,Ram Singh,IND,,,,,False,45,2022,AE
+1945483,Sher Singh,AAAP,16541,1119,1.57,4,45,23,HP,Sher Singh,AAAP,,,,,False,45,2022,AE
+1945484,Hotam Singh,CPI(M),26432,1102,1.55,5,45,23,HP,Hotam Singh,CPI(M),,,,,False,45,2022,AE
+1945485,Nota,NOTA,16540,346,0.49,6,45,23,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945486,Lot Rama Thakur,IND,16536,192,0.27,7,45,23,HP,Lot Rama Thakur,IND,,,,,False,45,2022,AE
+1945487,Surender Shourie,BJP,16533,25038,40.44,1,45,24,HP,Surender Shourie,BJP,,,,,False,45,2022,AE
+1945488,Khimi Ram,INC,16534,20704,33.44,2,45,24,HP,Khimi Ram,INC,,,,,False,45,2022,AE
+1945489,Hiteshwar Singh,IND,16536,14932,24.12,3,45,24,HP,Hiteshwar Singh,IND,,,,,False,45,2022,AE
+1945490,Nota,NOTA,16540,492,0.79,4,45,24,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945491,Neeraj Saini,AAAP,16541,267,0.43,5,45,24,HP,Neeraj Saini,AAAP,,,,,False,45,2022,AE
+1945492,Jhabe Ram Kaushal,BSP,16537,263,0.42,6,45,24,HP,Jhabe Ram Kaushal,BSP,,,,,False,45,2022,AE
+1945493,Chet Ram,HIMJKP,16546,212,0.34,7,45,24,HP,Chet Ram,HIMJKP,,,,,False,45,2022,AE
+1945494,Lokender Kumar,BJP,16533,24133,35.77,1,45,25,HP,Lokender Kumar,BJP,,,,,False,45,2022,AE
+1945495,Paras Ram,IND,16536,17355,25.72,2,45,25,HP,Paras Ram,IND,,,,,False,45,2022,AE
+1945496,Bansi Lal,INC,16534,14224,21.08,3,45,25,HP,Bansi Lal,INC,,,,,False,45,2022,AE
+1945497,Kishori Lal,IND,16536,6893,10.22,4,45,25,HP,Kishori Lal,IND,,,,,False,45,2022,AE
+1945498,Devki Nand,CPI(M),26432,3574,5.3,5,45,25,HP,Devki Nand,CPI(M),,,,,False,45,2022,AE
+1945499,Inder Pal,AAAP,16541,769,1.14,6,45,25,HP,Inder Pal,AAAP,,,,,False,45,2022,AE
+1945500,Nota,NOTA,16540,520,0.77,7,45,25,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945501,Deep Raj,BJP,16533,34512,57.36,1,45,26,HP,Deep Raj,BJP,,,,,False,45,2022,AE
+1945502,Mahesh Raj,INC,16534,23978,39.85,2,45,26,HP,Mahesh Raj,INC,,,,,False,45,2022,AE
+1945503,Kishori Lal,CPI(M),26432,480,0.8,3,45,26,HP,Kishori Lal,CPI(M),,,,,False,45,2022,AE
+1945504,Bhagwant Singh,AAAP,16541,471,0.78,4,45,26,HP,Bhagwant Singh,AAAP,,,,,False,45,2022,AE
+1945505,Nota,NOTA,16540,363,0.6,5,45,26,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945506,Chaman Lal,BSP,16537,209,0.35,6,45,26,HP,Chaman Lal,BSP,,,,,False,45,2022,AE
+1945507,Ghanshyam Azad,IND,16536,156,0.26,7,45,26,HP,Ghanshyam Azad,IND,,,,,False,45,2022,AE
+1945508,Rakesh Jamwal,BJP,16533,29432,44.16,1,45,27,HP,Rakesh Jamwal,BJP,,,,,False,45,2022,AE
+1945509,Sohan Lal,INC,16534,21307,31.97,2,45,27,HP,Sohan Lal,INC,,,,,False,45,2022,AE
+1945510,Abhishek Thakur,IND,16536,14704,22.06,3,45,27,HP,Abhishek Thakur,IND,,,,,False,45,2022,AE
+1945511,Narayan Singh,BSP,16537,275,0.41,4,45,27,HP,Narayan Singh,BSP,,,,,False,45,2022,AE
+1945512,Nota,NOTA,16540,211,0.32,5,45,27,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945513,Thakur Singh,SaSP,26433,195,0.29,6,45,27,HP,Thakur Singh,SaSP,,,,,False,45,2022,AE
+1945514,Tek Chand,IND,16536,149,0.22,7,45,27,HP,Tek Chand,IND,,,,,False,45,2022,AE
+1945515,Advocate Pooja Thakur,AAAP,16541,148,0.22,8,45,27,HP,Advocate Pooja Thakur,AAAP,,,,,False,45,2022,AE
+1945516,Het Ram,IND,16536,140,0.21,9,45,27,HP,Het Ram,IND,,,,,False,45,2022,AE
+1945517,Ran Vijay Singh,RTRYDVBHMP,16549,90,0.14,10,45,27,HP,Ran Vijay Singh,RTRYDVBHMP,,,,,False,45,2022,AE
+1945518,Vinod Kumar,BJP,16533,33200,46.4,1,45,28,HP,Vinod Kumar,BJP,,,,,False,45,2022,AE
+1945519,Naresh Kumar,INC,16534,24244,33.88,2,45,28,HP,Naresh Kumar,INC,,,,,False,45,2022,AE
+1945520,Gian Chand,IND,16536,10133,14.16,3,45,28,HP,Gian Chand,IND,,,,,False,45,2022,AE
+1945521,Jasveer Singh,IND,16536,2691,3.76,4,45,28,HP,Jasveer Singh,IND,,,,,False,45,2022,AE
+1945522,Nota,NOTA,16540,456,0.64,5,45,28,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945523,Nand Lal,BSP,16537,319,0.45,6,45,28,HP,Nand Lal,BSP,,,,,False,45,2022,AE
+1945524,Jabna Kumari,AAAP,16541,290,0.41,7,45,28,HP,Jabna Kumari,AAAP,,,,,False,45,2022,AE
+1945525,Saunu Ram,IND,16536,226,0.32,8,45,28,HP,Saunu Ram,IND,,,,,False,45,2022,AE
+1945526,Jai Ram Thakur,BJP,16533,53562,75.7,1,45,29,HP,Jai Ram Thakur,BJP,,,,,False,45,2022,AE
+1945527,Chet Ram,INC,16534,15379,21.74,2,45,29,HP,Chet Ram,INC,,,,,False,45,2022,AE
+1945528,Mahender Rana,CPI(M),26432,818,1.16,3,45,29,HP,Mahender Rana,CPI(M),,,,,False,45,2022,AE
+1945529,Gita Nand,AAAP,16541,339,0.48,4,45,29,HP,Gita Nand,AAAP,,,,,False,45,2022,AE
+1945530,Nota,NOTA,16540,292,0.41,5,45,29,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945531,Indra Devi,BSP,16537,264,0.37,6,45,29,HP,Indra Devi,BSP,,,,,False,45,2022,AE
+1945532,Narender Kumar,IND,16536,98,0.14,7,45,29,HP,Narender Kumar,IND,,,,,False,45,2022,AE
+1945533,Puran Chand Thakur,BJP,16533,36572,49.76,1,45,30,HP,Puran Chand Thakur,BJP,,,,,False,45,2022,AE
+1945534,Kaul Singh,INC,16534,35954,48.92,2,45,30,HP,Kaul Singh,INC,,,,,False,45,2022,AE
+1945535,Nota,NOTA,16540,579,0.79,3,45,30,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945536,Ramesh Kumar,BSP,16537,385,0.52,4,45,30,HP,Ramesh Kumar,BSP,,,,,False,45,2022,AE
+1945537,Prakash Rana,BJP,16533,33782,47.87,1,45,31,HP,Prakash Rana,BJP,,,,,False,45,2022,AE
+1945538,Thakur Surender Paul,INC,16534,29443,41.73,2,45,31,HP,Thakur Surender Paul,INC,,,,,False,45,2022,AE
+1945539,Kushal Bhardwaj,CPI(M),26432,3137,4.45,3,45,31,HP,Kushal Bhardwaj,CPI(M),,,,,False,45,2022,AE
+1945540,Sanjeev Bhandari,IND,16536,2494,3.53,4,45,31,HP,Sanjeev Bhandari,IND,,,,,False,45,2022,AE
+1945541,Ravinder Pal Singh,AAAP,16541,383,0.54,5,45,31,HP,Ravinder Pal Singh,AAAP,,,,,False,45,2022,AE
+1945542,Nota,NOTA,16540,377,0.53,6,45,31,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945543,Kamal Kant,RTRYDVBHMP,16549,259,0.37,7,45,31,HP,Kamal Kant,RTRYDVBHMP,,,,,False,45,2022,AE
+1945544,Narender Kumar,BSP,16537,244,0.35,8,45,31,HP,Narender Kumar,BSP,,,,,False,45,2022,AE
+1945545,Thakur Surender Singh Advocate,IND,16536,206,0.29,9,45,31,HP,Thakur Surender Singh Advocate,IND,,,,,False,45,2022,AE
+1945546,Baba Lal Giri,IND,16536,99,0.14,10,45,31,HP,Baba Lal Giri,IND,,,,,False,45,2022,AE
+1945547,Kulbhushan Thakur,IND,16536,82,0.12,11,45,31,HP,Kulbhushan Thakur,IND,,,,,False,45,2022,AE
+1945548,Mehar Chand,RSHTLKNTP,26434,57,0.08,12,45,31,HP,Mehar Chand,RSHTLKNTP,,,,,False,45,2022,AE
+1945549,Chander Shekhar,INC,16534,31063,51.9,1,45,32,HP,Chander Shekhar,INC,,,,,False,45,2022,AE
+1945550,Rajat Thakur,BJP,16533,28037,46.84,2,45,32,HP,Rajat Thakur,BJP,,,,,False,45,2022,AE
+1945551,Rakesh Mandhotra,AAAP,16541,230,0.38,3,45,32,HP,Rakesh Mandhotra,AAAP,,,,,False,45,2022,AE
+1945552,Nota,NOTA,16540,216,0.36,4,45,32,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945553,Prakash Chand Bhardwaj,BSP,16537,170,0.28,5,45,32,HP,Prakash Chand Bhardwaj,BSP,,,,,False,45,2022,AE
+1945554,Chander Shekhar,IND,16536,141,0.24,6,45,32,HP,Chander Shekhar,IND,,,,,False,45,2022,AE
+1945555,Anil Sharma,BJP,16533,31303,53.37,1,45,33,HP,Anil Sharma,BJP,,,,,False,45,2022,AE
+1945556,Champa Thakur,INC,16534,21297,36.31,2,45,33,HP,Champa Thakur,INC,,,,,False,45,2022,AE
+1945557,"Praveen Sharma ""pinnu""",IND,16536,4106,7.0,3,45,33,HP,"Praveen Sharma ""pinnu""",IND,,,,,False,45,2022,AE
+1945558,Shyam Lal,AAAP,16541,559,0.95,4,45,33,HP,Shyam Lal,AAAP,,,,,False,45,2022,AE
+1945559,Nota,NOTA,16540,448,0.76,5,45,33,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945560,Chet Ram,BSP,16537,272,0.46,6,45,33,HP,Chet Ram,BSP,,,,,False,45,2022,AE
+1945561,Rajeev Kumar,IND,16536,251,0.43,7,45,33,HP,Rajeev Kumar,IND,,,,,False,45,2022,AE
+1945562,Major Khem Singh Thakur,IND,16536,157,0.27,8,45,33,HP,Major Khem Singh Thakur,IND,,,,,False,45,2022,AE
+1945563,Laxmender Singh,IND,16536,148,0.25,9,45,33,HP,Laxmender Singh,IND,,,,,False,45,2022,AE
+1945564,Sanjay Kumar,RTRYDVBHMP,16549,109,0.19,10,45,33,HP,Sanjay Kumar,RTRYDVBHMP,,,,,False,45,2022,AE
+1945565,Inder Singh,BJP,16533,31792,49.12,1,45,34,HP,Inder Singh,BJP,,,,,False,45,2022,AE
+1945566,Prakash Chaudhary,INC,16534,30485,47.1,2,45,34,HP,Prakash Chaudhary,INC,,,,,False,45,2022,AE
+1945567,Tara Chand,AAAP,16541,1406,2.17,3,45,34,HP,Tara Chand,AAAP,,,,,False,45,2022,AE
+1945568,Nota,NOTA,16540,498,0.77,4,45,34,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945569,Prof. Prem Kumar Hawal,BSP,16537,300,0.46,5,45,34,HP,Prof. Prem Kumar Hawal,BSP,,,,,False,45,2022,AE
+1945570,Jiwan Ram,RTRYDVBHMP,16549,245,0.38,6,45,34,HP,Jiwan Ram,RTRYDVBHMP,,,,,False,45,2022,AE
+1945571,Dalip Thakur,BJP,16533,27346,42.89,1,45,35,HP,Dalip Thakur,BJP,,,,,False,45,2022,AE
+1945572,Pawan Kumar,INC,16534,25539,40.05,2,45,35,HP,Pawan Kumar,INC,,,,,False,45,2022,AE
+1945573,Munish Sharma,IND,16536,9860,15.46,3,45,35,HP,Munish Sharma,IND,,,,,False,45,2022,AE
+1945574,Nota,NOTA,16540,342,0.54,4,45,35,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945575,Kailash Chand,RTRYDVBHMP,16549,262,0.41,5,45,35,HP,Kailash Chand,RTRYDVBHMP,,,,,False,45,2022,AE
+1945576,Dhameshwar Ram,AAAP,16541,210,0.33,6,45,35,HP,Dhameshwar Ram,AAAP,,,,,False,45,2022,AE
+1945577,Ramesh Chand,BSP,16537,202,0.32,7,45,35,HP,Ramesh Chand,BSP,,,,,False,45,2022,AE
+1945578,Suresh Kumar,INC,16534,24779,43.16,1,45,36,HP,Suresh Kumar,INC,,,,,False,45,2022,AE
+1945579,Dr. Anil Dhiman,BJP,16533,24719,43.05,2,45,36,HP,Dr. Anil Dhiman,BJP,,,,,False,45,2022,AE
+1945580,Pawan Kumar,IND,16536,6861,11.95,3,45,36,HP,Pawan Kumar,IND,,,,,False,45,2022,AE
+1945581,Rajni Kaushal,AAAP,16541,463,0.81,4,45,36,HP,Rajni Kaushal,AAAP,,,,,False,45,2022,AE
+1945582,Jarnail Singh,BSP,16537,302,0.53,5,45,36,HP,Jarnail Singh,BSP,,,,,False,45,2022,AE
+1945583,Nota,NOTA,16540,293,0.51,6,45,36,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945584,Rajinder Rana,INC,16534,27679,49.79,1,45,37,HP,Rajinder Rana,INC,,,,,False,45,2022,AE
+1945585,Ranjit Singh Rana,BJP,16533,27280,49.07,2,45,37,HP,Ranjit Singh Rana,BJP,,,,,False,45,2022,AE
+1945586,Nota,NOTA,16540,237,0.43,3,45,37,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945587,Anil Rana,AAAP,16541,212,0.38,4,45,37,HP,Anil Rana,AAAP,,,,,False,45,2022,AE
+1945588,Gian Chand,BSP,16537,103,0.19,5,45,37,HP,Gian Chand,BSP,,,,,False,45,2022,AE
+1945589,Rajesh Kumar,IND,16536,86,0.15,6,45,37,HP,Rajesh Kumar,IND,,,,,False,45,2022,AE
+1945590,Ashish Sharma,IND,16536,25916,47.09,1,45,38,HP,Ashish Sharma,IND,,,,,False,45,2022,AE
+1945591,Dr. Pushpinder Verma,INC,16534,13017,23.65,2,45,38,HP,Dr. Pushpinder Verma,INC,,,,,False,45,2022,AE
+1945592,Narinder Thakur,BJP,16533,12794,23.25,3,45,38,HP,Narinder Thakur,BJP,,,,,False,45,2022,AE
+1945593,Naresh Kumar Darji,IND,16536,1217,2.21,4,45,38,HP,Naresh Kumar Darji,IND,,,,,False,45,2022,AE
+1945594,Dr. Kashmir Singh Thakur,CPI(M),26432,627,1.14,5,45,38,HP,Dr. Kashmir Singh Thakur,CPI(M),,,,,False,45,2022,AE
+1945595,Ashish Kumar,IND,16536,557,1.01,6,45,38,HP,Ashish Kumar,IND,,,,,False,45,2022,AE
+1945596,Sushil Kumar Surroch,AAAP,16541,298,0.54,7,45,38,HP,Sushil Kumar Surroch,AAAP,,,,,False,45,2022,AE
+1945597,Nota,NOTA,16540,246,0.45,8,45,38,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945598,Abhinay Bhardwaj,RTRYDVBHMP,16549,231,0.42,9,45,38,HP,Abhinay Bhardwaj,RTRYDVBHMP,,,,,False,45,2022,AE
+1945599,Praveen Kumar Kaushal,BSP,16537,136,0.25,10,45,38,HP,Praveen Kumar Kaushal,BSP,,,,,False,45,2022,AE
+1945600,Inder Dutt Lakhanpal,INC,16534,30293,48.16,1,45,39,HP,Inder Dutt Lakhanpal,INC,,,,,False,45,2022,AE
+1945601,Maya Sharma,BJP,16533,16501,26.23,2,45,39,HP,Maya Sharma,BJP,,,,,False,45,2022,AE
+1945602,Sanjeev Kumar,IND,16536,15252,24.25,3,45,39,HP,Sanjeev Kumar,IND,,,,,False,45,2022,AE
+1945603,Nota,NOTA,16540,297,0.47,4,45,39,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945604,Rattan Chand Katoch,BSP,16537,208,0.33,5,45,39,HP,Rattan Chand Katoch,BSP,,,,,False,45,2022,AE
+1945605,Gulshan Soni,AAAP,16541,158,0.25,6,45,39,HP,Gulshan Soni,AAAP,,,,,False,45,2022,AE
+1945606,Paramjit Dhatwalia,HIMJKP,16546,132,0.21,7,45,39,HP,Paramjit Dhatwalia,HIMJKP,,,,,False,45,2022,AE
+1945607,Naresh Kumar,RTRYDVBHMP,16549,66,0.1,8,45,39,HP,Naresh Kumar,RTRYDVBHMP,,,,,False,45,2022,AE
+1945608,Sukhvinder Singh Sukhu,INC,16534,36142,50.88,1,45,40,HP,Sukhvinder Singh Sukhu,INC,,,,,False,45,2022,AE
+1945609,Vijay Agnihotri,BJP,16533,32779,46.14,2,45,40,HP,Vijay Agnihotri,BJP,,,,,False,45,2022,AE
+1945610,Shankey Thukral,AAAP,16541,1487,2.09,3,45,40,HP,Shankey Thukral,AAAP,,,,,False,45,2022,AE
+1945611,Desh Raj Daroch,BSP,16537,225,0.32,4,45,40,HP,Desh Raj Daroch,BSP,,,,,False,45,2022,AE
+1945612,Nota,NOTA,16540,192,0.27,5,45,40,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945613,Ranjit Singh Jeetu,IND,16536,116,0.16,6,45,40,HP,Ranjit Singh Jeetu,IND,,,,,False,45,2022,AE
+1945614,Surender Kumar Gautam,IND,16536,98,0.14,7,45,40,HP,Surender Kumar Gautam,IND,,,,,False,45,2022,AE
+1945615,Sudarshan Singh Babloo,INC,16534,32712,52.7,1,45,41,HP,Sudarshan Singh Babloo,INC,,,,,False,45,2022,AE
+1945616,Balbir Singh,BJP,16533,27854,44.87,2,45,41,HP,Balbir Singh,BJP,,,,,False,45,2022,AE
+1945617,Ram Paul,AAAP,16541,767,1.24,3,45,41,HP,Ram Paul,AAAP,,,,,False,45,2022,AE
+1945618,Nota,NOTA,16540,355,0.57,4,45,41,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945619,Virender Kumar,BSP,16537,226,0.36,5,45,41,HP,Virender Kumar,BSP,,,,,False,45,2022,AE
+1945620,Kewal Kumar,IND,16536,158,0.25,6,45,41,HP,Kewal Kumar,IND,,,,,False,45,2022,AE
+1945621,Chaitanya Sharma,INC,16534,40767,61.15,1,45,42,HP,Chaitanya Sharma,INC,,,,,False,45,2022,AE
+1945622,Rajesh Thakur,BJP,16533,25082,37.62,2,45,42,HP,Rajesh Thakur,BJP,,,,,False,45,2022,AE
+1945623,Nota,NOTA,16540,404,0.61,3,45,42,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945624,Manohar Lal Dadwal,AAAP,16541,145,0.22,4,45,42,HP,Manohar Lal Dadwal,AAAP,,,,,False,45,2022,AE
+1945625,Vinod Dadwal (pintu),RTRYDVBHMP,16549,125,0.19,5,45,42,HP,Vinod Dadwal (pintu),RTRYDVBHMP,,,,,False,45,2022,AE
+1945626,Lekh Raj Katnoria,BSP,16537,97,0.15,6,45,42,HP,Lekh Raj Katnoria,BSP,,,,,False,45,2022,AE
+1945627,Raghubir Singh,HIMJKP,16546,45,0.07,7,45,42,HP,Raghubir Singh,HIMJKP,,,,,False,45,2022,AE
+1945628,Mukesh Agnihotri,INC,16534,38652,55.33,1,45,43,HP,Mukesh Agnihotri,INC,,,,,False,45,2022,AE
+1945629,Ram Kumar,BJP,16533,29504,42.23,2,45,43,HP,Ram Kumar,BJP,,,,,False,45,2022,AE
+1945630,Naresh Kumar,BSP,16537,636,0.91,3,45,43,HP,Naresh Kumar,BSP,,,,,False,45,2022,AE
+1945631,Ravinder Mann,AAAP,16541,601,0.86,4,45,43,HP,Ravinder Mann,AAAP,,,,,False,45,2022,AE
+1945632,Ashhwani Kumar Rana,RTRYDVBHMP,16549,290,0.42,5,45,43,HP,Ashhwani Kumar Rana,RTRYDVBHMP,,,,,False,45,2022,AE
+1945633,Nota,NOTA,16540,175,0.25,6,45,43,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945634,Satpal Singh Satti,BJP,16533,33974,50.05,1,45,44,HP,Satpal Singh Satti,BJP,,,,,False,45,2022,AE
+1945635,Satpal Singh Raizada,INC,16534,32238,47.49,2,45,44,HP,Satpal Singh Raizada,INC,,,,,False,45,2022,AE
+1945636,Rajiv Gautam,AAAP,16541,737,1.09,3,45,44,HP,Rajiv Gautam,AAAP,,,,,False,45,2022,AE
+1945637,Ramesh Chand,BSP,16537,341,0.5,4,45,44,HP,Ramesh Chand,BSP,,,,,False,45,2022,AE
+1945638,Nota,NOTA,16540,240,0.35,5,45,44,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945639,Chander Mohan,IND,16536,185,0.27,6,45,44,HP,Chander Mohan,IND,,,,,False,45,2022,AE
+1945640,Kamal Kumar,IND,16536,162,0.24,7,45,44,HP,Kamal Kumar,IND,,,,,False,45,2022,AE
+1945641,Davinder Kumar Bhutto,INC,16534,36636,54.84,1,45,45,HP,Davinder Kumar Bhutto,INC,,,,,False,45,2022,AE
+1945642,Virender Kanwar,BJP,16533,29057,43.49,2,45,45,HP,Virender Kanwar,BJP,,,,,False,45,2022,AE
+1945643,Anil Mankotia,AAAP,16541,596,0.89,3,45,45,HP,Anil Mankotia,AAAP,,,,,False,45,2022,AE
+1945644,Nota,NOTA,16540,378,0.57,4,45,45,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945645,Capt. Jaidyal Singh Pal,IND,16536,141,0.21,5,45,45,HP,Capt. Jaidyal Singh Pal,IND,,,,,False,45,2022,AE
+1945646,Jeet Ram Katwal,BJP,16533,28268,46.72,1,45,46,HP,Jeet Ram Katwal,BJP,,,,,False,45,2022,AE
+1945647,Vivek Kumar,INC,16534,22469,37.14,2,45,46,HP,Vivek Kumar,INC,,,,,False,45,2022,AE
+1945648,Raj Kumar Kaundal,IND,16536,8358,13.81,3,45,46,HP,Raj Kumar Kaundal,IND,,,,,False,45,2022,AE
+1945649,Sudhir Kumar Suman,AAAP,16541,427,0.71,4,45,46,HP,Sudhir Kumar Suman,AAAP,,,,,False,45,2022,AE
+1945650,Manoj Kumar,RTRYDVBHMP,16549,282,0.47,5,45,46,HP,Manoj Kumar,RTRYDVBHMP,,,,,False,45,2022,AE
+1945651,Nota,NOTA,16540,246,0.41,6,45,46,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945652,Amar Nath,BSP,16537,245,0.4,7,45,46,HP,Amar Nath,BSP,,,,,False,45,2022,AE
+1945653,Jitender Pal,IND,16536,206,0.34,8,45,46,HP,Jitender Pal,IND,,,,,False,45,2022,AE
+1945654,Rajesh Dharmani,INC,16534,35378,51.96,1,45,47,HP,Rajesh Dharmani,INC,,,,,False,45,2022,AE
+1945655,Rajinder Garg,BJP,16533,29767,43.72,2,45,47,HP,Rajinder Garg,BJP,,,,,False,45,2022,AE
+1945656,Rakesh Kumar Chopra,AAAP,16541,1633,2.4,3,45,47,HP,Rakesh Kumar Chopra,AAAP,,,,,False,45,2022,AE
+1945657,Yogesh Thakur,RTRYDVBHMP,16549,467,0.69,4,45,47,HP,Yogesh Thakur,RTRYDVBHMP,,,,,False,45,2022,AE
+1945658,Prem Lal Banga,BSP,16537,319,0.47,5,45,47,HP,Prem Lal Banga,BSP,,,,,False,45,2022,AE
+1945659,Nota,NOTA,16540,242,0.36,6,45,47,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945660,Manohar Lal,IND,16536,128,0.19,7,45,47,HP,Manohar Lal,IND,,,,,False,45,2022,AE
+1945661,Varun Kumar Thakur,IND,16536,89,0.13,8,45,47,HP,Varun Kumar Thakur,IND,,,,,False,45,2022,AE
+1945662,Nand Lal,IND,16536,69,0.1,9,45,47,HP,Nand Lal,IND,,,,,False,45,2022,AE
+1945663,Trilok Jamwal,BJP,16533,30988,47.76,1,45,48,HP,Trilok Jamwal,BJP,,,,,False,45,2022,AE
+1945664,Bumber Thakur,INC,16534,30712,47.34,2,45,48,HP,Bumber Thakur,INC,,,,,False,45,2022,AE
+1945665,Subhash Sharma,IND,16536,1499,2.31,3,45,48,HP,Subhash Sharma,IND,,,,,False,45,2022,AE
+1945666,Amar Singh,AAAP,16541,388,0.6,4,45,48,HP,Amar Singh,AAAP,,,,,False,45,2022,AE
+1945667,Puja Pal,RTRYDVBHMP,16549,367,0.57,5,45,48,HP,Puja Pal,RTRYDVBHMP,,,,,False,45,2022,AE
+1945668,Amar Nath,BSP,16537,306,0.47,6,45,48,HP,Amar Nath,BSP,,,,,False,45,2022,AE
+1945669,Nota,NOTA,16540,270,0.42,7,45,48,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945670,Bal Ram,SWAP,16547,154,0.24,8,45,48,HP,Bal Ram,SWAP,,,,,False,45,2022,AE
+1945671,Lata Chandel,IND,16536,110,0.17,9,45,48,HP,Lata Chandel,IND,,,,,False,45,2022,AE
+1945672,Piyush Kanga,IND,16536,83,0.13,10,45,48,HP,Piyush Kanga,IND,,,,,False,45,2022,AE
+1945673,Randhir Sharma,BJP,16533,29403,47.23,1,45,49,HP,Randhir Sharma,BJP,,,,,False,45,2022,AE
+1945674,Ram Lal Thakur,INC,16534,29232,46.96,2,45,49,HP,Ram Lal Thakur,INC,,,,,False,45,2022,AE
+1945675,Deepak Kumar,RTRYDVBHMP,16549,2114,3.4,3,45,49,HP,Deepak Kumar,RTRYDVBHMP,,,,,False,45,2022,AE
+1945676,Narinder Singh,AAAP,16541,653,1.05,4,45,49,HP,Narinder Singh,AAAP,,,,,False,45,2022,AE
+1945677,Bhag Singh,CPI,16560,627,1.01,5,45,49,HP,Bhag Singh,CPI,,,,,False,45,2022,AE
+1945678,Nota,NOTA,16540,225,0.36,6,45,49,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945679,Sanjay,INC,16534,30897,42.02,1,45,50,HP,Sanjay,INC,,,,,False,45,2022,AE
+1945680,Rajender,IND,16536,26075,35.46,2,45,50,HP,Rajender,IND,,,,,False,45,2022,AE
+1945681,Govind Ram,BJP,16533,13444,18.28,3,45,50,HP,Govind Ram,BJP,,,,,False,45,2022,AE
+1945682,Jai Dev Singh,RTRYDVBHMP,16549,1747,2.38,4,45,50,HP,Jai Dev Singh,RTRYDVBHMP,,,,,False,45,2022,AE
+1945683,Nota,NOTA,16540,466,0.63,5,45,50,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945684,Jeet Ram,AAAP,16541,316,0.43,6,45,50,HP,Jeet Ram,AAAP,,,,,False,45,2022,AE
+1945685,Kamlesh,BSP,16537,306,0.42,7,45,50,HP,Kamlesh,BSP,,,,,False,45,2022,AE
+1945686,Sanjay Kumar,IND,16536,285,0.39,8,45,50,HP,Sanjay Kumar,IND,,,,,False,45,2022,AE
+1945687,K. L. Thakur,IND,16536,33427,44.51,1,45,51,HP,K. L. Thakur,IND,,,,,False,45,2022,AE
+1945688,Hardeep Singh Bawa,INC,16534,20163,26.85,2,45,51,HP,Hardeep Singh Bawa,INC,,,,,False,45,2022,AE
+1945689,Lakhwinder Singh Rana,BJP,16533,17273,23.0,3,45,51,HP,Lakhwinder Singh Rana,BJP,,,,,False,45,2022,AE
+1945690,Jagdish Chand,RTRYDVBHMP,16549,1146,1.53,4,45,51,HP,Jagdish Chand,RTRYDVBHMP,,,,,False,45,2022,AE
+1945691,Dharam Pal,AAAP,16541,1108,1.48,5,45,51,HP,Dharam Pal,AAAP,,,,,False,45,2022,AE
+1945692,Nota,NOTA,16540,590,0.79,6,45,51,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945693,Paras Bains,BSP,16537,555,0.74,7,45,51,HP,Paras Bains,BSP,,,,,False,45,2022,AE
+1945694,Jagpal Singh Rana,IND,16536,534,0.71,8,45,51,HP,Jagpal Singh Rana,IND,,,,,False,45,2022,AE
+1945695,Kishori Lal,SWAP,16547,305,0.41,9,45,51,HP,Kishori Lal,SWAP,,,,,False,45,2022,AE
+1945696,Ram Kumar,INC,16534,32038,51.89,1,45,52,HP,Ram Kumar,INC,,,,,False,45,2022,AE
+1945697,Paramjeet Singh Pammi,BJP,16533,25227,40.86,2,45,52,HP,Paramjeet Singh Pammi,BJP,,,,,False,45,2022,AE
+1945698,Des Raj Chauhan,IND,16536,1895,3.07,3,45,52,HP,Des Raj Chauhan,IND,,,,,False,45,2022,AE
+1945699,Balwant Singh,RTRYDVBHMP,16549,1425,2.31,4,45,52,HP,Balwant Singh,RTRYDVBHMP,,,,,False,45,2022,AE
+1945700,Swarn Singh Saini,AAAP,16541,659,1.07,5,45,52,HP,Swarn Singh Saini,AAAP,,,,,False,45,2022,AE
+1945701,Nagender Chand,BSP,16537,276,0.45,6,45,52,HP,Nagender Chand,BSP,,,,,False,45,2022,AE
+1945702,Nota,NOTA,16540,224,0.36,7,45,52,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945703,Dhani Ram Shandil,INC,16534,30089,51.54,1,45,53,HP,Dhani Ram Shandil,INC,,,,,False,45,2022,AE
+1945704,Rajesh Kashyap,BJP,16533,26231,44.93,2,45,53,HP,Rajesh Kashyap,BJP,,,,,False,45,2022,AE
+1945705,Anju,AAAP,16541,1108,1.9,3,45,53,HP,Anju,AAAP,,,,,False,45,2022,AE
+1945706,Nota,NOTA,16540,634,1.09,4,45,53,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945707,Rajinder,BSP,16537,323,0.55,5,45,53,HP,Rajinder,BSP,,,,,False,45,2022,AE
+1945708,Vinod Sultanpuri,INC,16534,28200,52.1,1,45,54,HP,Vinod Sultanpuri,INC,,,,,False,45,2022,AE
+1945709,Rajiv Saizal,BJP,16533,21432,39.6,2,45,54,HP,Rajiv Saizal,BJP,,,,,False,45,2022,AE
+1945710,Harmel Singh,AAAP,16541,1809,3.34,3,45,54,HP,Harmel Singh,AAAP,,,,,False,45,2022,AE
+1945711,Rajeev Kumar Kaundel,RTRYDVBHMP,16549,1677,3.1,4,45,54,HP,Rajeev Kumar Kaundel,RTRYDVBHMP,,,,,False,45,2022,AE
+1945712,Nota,NOTA,16540,348,0.64,5,45,54,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945713,Om Prakash,IND,16536,331,0.61,6,45,54,HP,Om Prakash,IND,,,,,False,45,2022,AE
+1945714,Rajinder,HIMJKP,16546,211,0.39,7,45,54,HP,Rajinder,HIMJKP,,,,,False,45,2022,AE
+1945715,Ram Rattan,BSP,16537,117,0.22,8,45,54,HP,Ram Rattan,BSP,,,,,False,45,2022,AE
+1945716,Reena,BJP,16533,21215,34.52,1,45,55,HP,Reena,BJP,,,,,False,45,2022,AE
+1945717,Dayal Pyari,INC,16534,17358,28.25,2,45,55,HP,Dayal Pyari,INC,,,,,False,45,2022,AE
+1945718,Gangu Ram Musafir,IND,16536,13187,21.46,3,45,55,HP,Gangu Ram Musafir,IND,,,,,False,45,2022,AE
+1945719,Susheel Kumar Bhrigu,RTRYDVBHMP,16549,8113,13.2,4,45,55,HP,Susheel Kumar Bhrigu,RTRYDVBHMP,,,,,False,45,2022,AE
+1945720,Ajay Singh,AAAP,16541,568,0.92,5,45,55,HP,Ajay Singh,AAAP,,,,,False,45,2022,AE
+1945721,Ashish Kumar,CPI(M),26432,543,0.88,6,45,55,HP,Ashish Kumar,CPI(M),,,,,False,45,2022,AE
+1945722,Nota,NOTA,16540,466,0.76,7,45,55,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945723,Ajay Solanki,INC,16534,35291,50.08,1,45,56,HP,Ajay Solanki,INC,,,,,False,45,2022,AE
+1945724,Dr. Rajeev Bindal,BJP,16533,33652,47.75,2,45,56,HP,Dr. Rajeev Bindal,BJP,,,,,False,45,2022,AE
+1945725,Nota,NOTA,16540,470,0.67,3,45,56,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945726,Sunil Sharma,AAAP,16541,387,0.55,4,45,56,HP,Sunil Sharma,AAAP,,,,,False,45,2022,AE
+1945727,Salender Singh,RTRYDVBHMP,16549,297,0.42,5,45,56,HP,Salender Singh,RTRYDVBHMP,,,,,False,45,2022,AE
+1945728,Ayodhya Prasad Verma,BSP,16537,260,0.37,6,45,56,HP,Ayodhya Prasad Verma,BSP,,,,,False,45,2022,AE
+1945729,Ramjan,IND,16536,118,0.17,7,45,56,HP,Ramjan,IND,,,,,False,45,2022,AE
+1945730,Vinay Kumar,INC,16534,28642,47.99,1,45,57,HP,Vinay Kumar,INC,,,,,False,45,2022,AE
+1945731,Narain Singh,BJP,16533,27782,46.55,2,45,57,HP,Narain Singh,BJP,,,,,False,45,2022,AE
+1945732,Jagmohan Singh,RTRYDVBHMP,16549,2092,3.5,3,45,57,HP,Jagmohan Singh,RTRYDVBHMP,,,,,False,45,2022,AE
+1945733,Ram Kishan,AAAP,16541,686,1.15,4,45,57,HP,Ram Kishan,AAAP,,,,,False,45,2022,AE
+1945734,Nota,NOTA,16540,485,0.81,5,45,57,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945735,Sukh Ram Chaudhary,BJP,16533,31008,46.93,1,45,58,HP,Sukh Ram Chaudhary,BJP,,,,,False,45,2022,AE
+1945736,Kirnesh Jung,INC,16534,22412,33.92,2,45,58,HP,Kirnesh Jung,INC,,,,,False,45,2022,AE
+1945737,Manish Thakur,AAAP,16541,5090,7.7,3,45,58,HP,Manish Thakur,AAAP,,,,,False,45,2022,AE
+1945738,Manish Tomar,IND,16536,3417,5.17,4,45,58,HP,Manish Tomar,IND,,,,,False,45,2022,AE
+1945739,Roshan Lal Chaudhary,IND,16536,1872,2.83,5,45,58,HP,Roshan Lal Chaudhary,IND,,,,,False,45,2022,AE
+1945740,Suneel Chaudhary,IND,16536,896,1.36,6,45,58,HP,Suneel Chaudhary,IND,,,,,False,45,2022,AE
+1945741,Nota,NOTA,16540,495,0.75,7,45,58,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945742,Ashwani Verma,RTRYDVBHMP,16549,367,0.56,8,45,58,HP,Ashwani Verma,RTRYDVBHMP,,,,,False,45,2022,AE
+1945743,Rameshwar Sharma,IND,16536,315,0.48,9,45,58,HP,Rameshwar Sharma,IND,,,,,False,45,2022,AE
+1945744,Seema,BSP,16537,203,0.31,10,45,58,HP,Seema,BSP,,,,,False,45,2022,AE
+1945745,Harshwardhan Chauhan,INC,16534,32093,49.17,1,45,59,HP,Harshwardhan Chauhan,INC,,,,,False,45,2022,AE
+1945746,Baldev Singh,BJP,16533,31711,48.58,2,45,59,HP,Baldev Singh,BJP,,,,,False,45,2022,AE
+1945747,Nota,NOTA,16540,525,0.8,3,45,59,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945748,Naathu Ram Chauhan,AAAP,16541,488,0.75,4,45,59,HP,Naathu Ram Chauhan,AAAP,,,,,False,45,2022,AE
+1945749,Suresh Kumar,RTRYDVBHMP,16549,454,0.7,5,45,59,HP,Suresh Kumar,RTRYDVBHMP,,,,,False,45,2022,AE
+1945750,Sh. Balbir Singh Verma,BJP,16533,25873,41.58,1,45,60,HP,Sh. Balbir Singh Verma,BJP,,,,,False,45,2022,AE
+1945751,Sh. Rajneesh Kimta,INC,16534,20840,33.49,2,45,60,HP,Sh. Rajneesh Kimta,INC,,,,,False,45,2022,AE
+1945752,Dr.subhash Chand Manglate,IND,16536,13706,22.03,3,45,60,HP,Dr.subhash Chand Manglate,IND,,,,,False,45,2022,AE
+1945753,Nota,NOTA,16540,550,0.88,4,45,60,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945754,Sh. Ashok Kumar,IND,16536,463,0.74,5,45,60,HP,Sh. Ashok Kumar,IND,,,,,False,45,2022,AE
+1945755,Sh.uday Singhta,AAAP,16541,413,0.66,6,45,60,HP,Sh.uday Singhta,AAAP,,,,,False,45,2022,AE
+1945756,Bhagat Lal,BSP,16537,382,0.61,7,45,60,HP,Bhagat Lal,BSP,,,,,False,45,2022,AE
+1945757,Kuldeep Singh Rathore,INC,16534,19447,29.47,1,45,61,HP,Kuldeep Singh Rathore,INC,,,,,False,45,2022,AE
+1945758,Ajay Shyam,BJP,16533,14178,21.49,2,45,61,HP,Ajay Shyam,BJP,,,,,False,45,2022,AE
+1945759,Indu Varma,IND,16536,13848,20.99,3,45,61,HP,Indu Varma,IND,,,,,False,45,2022,AE
+1945760,Rakesh Singha,CPI(M),26432,12210,18.51,4,45,61,HP,Rakesh Singha,CPI(M),,,,,False,45,2022,AE
+1945761,Vijay Pal Khachi,IND,16536,4576,6.94,5,45,61,HP,Vijay Pal Khachi,IND,,,,,False,45,2022,AE
+1945762,Amit Mehta,IND,16536,581,0.88,6,45,61,HP,Amit Mehta,IND,,,,,False,45,2022,AE
+1945763,Attar Singh Chandel,AAAP,16541,487,0.74,7,45,61,HP,Attar Singh Chandel,AAAP,,,,,False,45,2022,AE
+1945764,Nota,NOTA,16540,349,0.53,8,45,61,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945765,Jia Lal Sadhak,BSP,16537,304,0.46,9,45,61,HP,Jia Lal Sadhak,BSP,,,,,False,45,2022,AE
+1945766,Anirudh Singh,INC,16534,25759,55.43,1,45,62,HP,Anirudh Singh,INC,,,,,False,45,2022,AE
+1945767,Suresh Bhardwaj,BJP,16533,17104,36.81,2,45,62,HP,Suresh Bhardwaj,BJP,,,,,False,45,2022,AE
+1945768,Kuldip Singh Tanwar,CPI(M),26432,2670,5.75,3,45,62,HP,Kuldip Singh Tanwar,CPI(M),,,,,False,45,2022,AE
+1945769,Nota,NOTA,16540,335,0.72,4,45,62,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945770,Dr. Rajesh Chanana,AAAP,16541,307,0.66,5,45,62,HP,Dr. Rajesh Chanana,AAAP,,,,,False,45,2022,AE
+1945771,Kameshwar,BSP,16537,159,0.34,6,45,62,HP,Kameshwar,BSP,,,,,False,45,2022,AE
+1945772,Ram Prakash,RTRYDVBHMP,16549,136,0.29,7,45,62,HP,Ram Prakash,RTRYDVBHMP,,,,,False,45,2022,AE
+1945773,Harish Janartha,INC,16534,15803,51.35,1,45,63,HP,Harish Janartha,INC,,,,,False,45,2022,AE
+1945774,Sanjay Sood,BJP,16533,12766,41.48,2,45,63,HP,Sanjay Sood,BJP,,,,,False,45,2022,AE
+1945775,Tikender Singh Panwar,CPI(M),26432,1400,4.55,3,45,63,HP,Tikender Singh Panwar,CPI(M),,,,,False,45,2022,AE
+1945776,Chaman Rakesh Azta,AAAP,16541,328,1.07,4,45,63,HP,Chaman Rakesh Azta,AAAP,,,,,False,45,2022,AE
+1945777,Nota,NOTA,16540,237,0.77,5,45,63,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945778,Abhishek Barowalia,IND,16536,120,0.39,6,45,63,HP,Abhishek Barowalia,IND,,,,,False,45,2022,AE
+1945779,Kalyan Singh,RTRYDVBHMP,16549,78,0.25,7,45,63,HP,Kalyan Singh,RTRYDVBHMP,,,,,False,45,2022,AE
+1945780,Rajesh Kumar Gill,BSP,16537,46,0.15,8,45,63,HP,Rajesh Kumar Gill,BSP,,,,,False,45,2022,AE
+1945781,Vikramaditya Singh,INC,16534,35269,60.19,1,45,64,HP,Vikramaditya Singh,INC,,,,,False,45,2022,AE
+1945782,Ravi Kumar Mehta,BJP,16533,21409,36.54,2,45,64,HP,Ravi Kumar Mehta,BJP,,,,,False,45,2022,AE
+1945783,Puran Dutt,RTRYDVBHMP,16549,915,1.56,3,45,64,HP,Puran Dutt,RTRYDVBHMP,,,,,False,45,2022,AE
+1945784,Nota,NOTA,16540,293,0.5,4,45,64,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945785,Balvinder Kumar Singh,BSP,16537,271,0.46,5,45,64,HP,Balvinder Kumar Singh,BSP,,,,,False,45,2022,AE
+1945786,Prem Kumar,AAAP,16541,244,0.42,6,45,64,HP,Prem Kumar,AAAP,,,,,False,45,2022,AE
+1945787,Praveen Kumar,IND,16536,196,0.33,7,45,64,HP,Praveen Kumar,IND,,,,,False,45,2022,AE
+1945788,Rohit Thakur,INC,16534,31393,52.65,1,45,65,HP,Rohit Thakur,INC,,,,,False,45,2022,AE
+1945789,Chetan Singh Bragta,BJP,16533,26324,44.15,2,45,65,HP,Chetan Singh Bragta,BJP,,,,,False,45,2022,AE
+1945790,Vishal Shankta,CPI(M),26432,1256,2.11,3,45,65,HP,Vishal Shankta,CPI(M),,,,,False,45,2022,AE
+1945791,Ram Pal,BSP,16537,239,0.4,4,45,65,HP,Ram Pal,BSP,,,,,False,45,2022,AE
+1945792,Nota,NOTA,16540,187,0.31,5,45,65,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945793,Shrikant Chauhan,AAAP,16541,163,0.27,6,45,65,HP,Shrikant Chauhan,AAAP,,,,,False,45,2022,AE
+1945794,Suman Kadam,IND,16536,65,0.11,7,45,65,HP,Suman Kadam,IND,,,,,False,45,2022,AE
+1945795,Nand Lal,INC,16534,28397,49.07,1,45,66,HP,Nand Lal,INC,,,,,False,45,2022,AE
+1945796,Kaul Singh,BJP,16533,27830,48.09,2,45,66,HP,Kaul Singh,BJP,,,,,False,45,2022,AE
+1945797,Uday Singh,AAAP,16541,706,1.22,3,45,66,HP,Uday Singh,AAAP,,,,,False,45,2022,AE
+1945798,Desh Raj,BSP,16537,444,0.77,4,45,66,HP,Desh Raj,BSP,,,,,False,45,2022,AE
+1945799,Nota,NOTA,16540,377,0.65,5,45,66,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945800,Pritam Dev,IND,16536,117,0.2,6,45,66,HP,Pritam Dev,IND,,,,,False,45,2022,AE
+1945801,Mohan Lal Brakta,INC,16534,34327,61.9,1,45,67,HP,Mohan Lal Brakta,INC,,,,,False,45,2022,AE
+1945802,Shashi Bala,BJP,16533,14988,27.03,2,45,67,HP,Shashi Bala,BJP,,,,,False,45,2022,AE
+1945803,Rajender Singh,IND,16536,3597,6.49,3,45,67,HP,Rajender Singh,IND,,,,,False,45,2022,AE
+1945804,Ashwani Kumar,AAAP,16541,1400,2.52,4,45,67,HP,Ashwani Kumar,AAAP,,,,,False,45,2022,AE
+1945805,Prakash Andta,BSP,16537,520,0.94,5,45,67,HP,Prakash Andta,BSP,,,,,False,45,2022,AE
+1945806,Nota,NOTA,16540,413,0.74,6,45,67,HP,Nota,NOTA,,,,,False,45,2022,AE
+1945807,Narender Singh,RTRYDVBHMP,16549,209,0.38,7,45,67,HP,Narender Singh,RTRYDVBHMP,,,,,False,45,2022,AE
+1945808,Jagat Singh Negi,INC,16534,20696,46.95,1,45,68,HP,Jagat Singh Negi,INC,,,,,False,45,2022,AE
+1945809,Surat Negi,BJP,16533,13732,31.15,2,45,68,HP,Surat Negi,BJP,,,,,False,45,2022,AE
+1945810,Tejwant Singh Negi,IND,16536,8574,19.45,3,45,68,HP,Tejwant Singh Negi,IND,,,,,False,45,2022,AE
+1945811,Tersem Singh,AAAP,16541,580,1.32,4,45,68,HP,Tersem Singh,AAAP,,,,,False,45,2022,AE
+1945812,Anil Kapoor,BSP,16537,280,0.64,5,45,68,HP,Anil Kapoor,BSP,,,,,False,45,2022,AE
+1945813,Nota,NOTA,16540,223,0.51,6,45,68,HP,Nota,NOTA,,,,,False,45,2022,AE

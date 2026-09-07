@@ -1,0 +1,314 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1784551,Pranab Debbarma,CPM,22930,14439,54.86,1,1,1,TR,Pranab Debbarma,CPM,,,,,False,1,2008,AE
+1784552,Rabindra Debbarma,INPT,22931,11108,42.2,2,1,1,TR,Rabindra Debbarma,INPT,,,,,False,1,2008,AE
+1784553,Rabindra Kishore Debbarma,IND,22919,517,1.96,3,1,1,TR,Rabindra Kishore Debbarma,IND,,,,,False,1,2008,AE
+1784554,Rita Rani Debbarma,AITC,22928,257,0.98,4,1,1,TR,Rita Rani Debbarma,AITC,,,,,False,1,2008,AE
+1784555,Ratan Lal Nath,INC,22917,14349,50.74,1,1,2,TR,Ratan Lal Nath,INC,,,,,False,1,2008,AE
+1784556,Subhas Chandra Debnath,CPM,22930,12993,45.95,2,1,2,TR,Subhas Chandra Debnath,CPM,,,,,False,1,2008,AE
+1784557,Dhirendra Debnath,BJP,22916,478,1.69,3,1,2,TR,Dhirendra Debnath,BJP,,,,,False,1,2008,AE
+1784558,Joy Kumar Deb,AMB,22929,458,1.62,4,1,2,TR,Joy Kumar Deb,AMB,,,,,False,1,2008,AE
+1784559,Haricharan Sarkar,CPM,22930,17324,52.07,1,1,3,TR,Haricharan Sarkar,CPM,,,,,False,1,2008,AE
+1784560,Prakash Chandra Das,INC,22917,14944,44.91,2,1,3,TR,Prakash Chandra Das,INC,,,,,False,1,2008,AE
+1784561,Samir Biswas,BJP,22916,367,1.1,3,1,3,TR,Samir Biswas,BJP,,,,,False,1,2008,AE
+1784562,Brajendra Das,AMB,22929,366,1.1,4,1,3,TR,Brajendra Das,AMB,,,,,False,1,2008,AE
+1784563,Papri Podder(Biswas),AITC,22928,271,0.81,5,1,3,TR,Papri Podder(Biswas),AITC,,,,,False,1,2008,AE
+1784564,Sankar Prasad Datta,CPM,22930,24853,48.93,1,1,4,TR,Sankar Prasad Datta,CPM,,,,,False,1,2008,AE
+1784565,Dipak Kumar Roy,INC,22917,24255,47.76,2,1,4,TR,Dipak Kumar Roy,INC,,,,,False,1,2008,AE
+1784566,Pulak Kumar Debnath,BJP,22916,697,1.37,3,1,4,TR,Pulak Kumar Debnath,BJP,,,,,False,1,2008,AE
+1784567,Pradip Chakraborty,AITC,22928,371,0.73,4,1,4,TR,Pradip Chakraborty,AITC,,,,,False,1,2008,AE
+1784568,Sanjib Dey,NCP,22943,356,0.7,5,1,4,TR,Sanjib Dey,NCP,,,,,False,1,2008,AE
+1784569,Jayanta Kumar Datta,AIFB,22932,257,0.51,6,1,4,TR,Jayanta Kumar Datta,AIFB,,,,,False,1,2008,AE
+1784570,Pabitra Kar,CPM,22930,18833,49.67,1,1,5,TR,Pabitra Kar,CPM,,,,,False,1,2008,AE
+1784571,Ratan Chakraborti,INC,22917,17832,47.03,2,1,5,TR,Ratan Chakraborti,INC,,,,,False,1,2008,AE
+1784572,Pranjit Banik,BJP,22916,639,1.69,3,1,5,TR,Pranjit Banik,BJP,,,,,False,1,2008,AE
+1784573,Putul Ghosh,AITC,22928,615,1.62,4,1,5,TR,Putul Ghosh,AITC,,,,,False,1,2008,AE
+1784574,Sudip Roy Barman,INC,22917,21019,50.82,1,1,6,TR,Sudip Roy Barman,INC,,,,,False,1,2008,AE
+1784575,Bikash Roy,CPM,22930,19194,46.41,2,1,6,TR,Bikash Roy,CPM,,,,,False,1,2008,AE
+1784576,Milan Chakraborty,BJP,22916,528,1.28,3,1,6,TR,Milan Chakraborty,BJP,,,,,False,1,2008,AE
+1784577,Shibani Bhowmik,IND,22919,389,0.94,4,1,6,TR,Shibani Bhowmik,IND,,,,,False,1,2008,AE
+1784578,Lalit Mohan Goswami,AITC,22928,231,0.56,5,1,6,TR,Lalit Mohan Goswami,AITC,,,,,False,1,2008,AE
+1784579,Surajit Datta,INC,22917,16569,52.22,1,1,7,TR,Surajit Datta,INC,,,,,False,1,2008,AE
+1784580,Ratan Das,CPM,22930,14198,44.74,2,1,7,TR,Ratan Das,CPM,,,,,False,1,2008,AE
+1784581,Nilima Ghosh,BJP,22916,595,1.88,3,1,7,TR,Nilima Ghosh,BJP,,,,,False,1,2008,AE
+1784582,Dulal Deb,AIFB,22932,370,1.17,4,1,7,TR,Dulal Deb,AIFB,,,,,False,1,2008,AE
+1784583,Sudhir Ranjan Majumder,INC,22917,14190,54.43,1,1,8,TR,Sudhir Ranjan Majumder,INC,,,,,False,1,2008,AE
+1784584,Dr. Sudhir Chandra Majumder,CPM,22930,10965,42.06,2,1,8,TR,Dr. Sudhir Chandra Majumder,CPM,,,,,False,1,2008,AE
+1784585,Rakhal Chakraborty,BJP,22916,384,1.47,3,1,8,TR,Rakhal Chakraborty,BJP,,,,,False,1,2008,AE
+1784586,Maya Saha,AIFB,22932,344,1.32,4,1,8,TR,Maya Saha,AIFB,,,,,False,1,2008,AE
+1784587,Papri Haldar,LJP,22949,187,0.72,5,1,8,TR,Papri Haldar,LJP,,,,,False,1,2008,AE
+1784588,Gopal Chandra Roy,INC,22917,12354,54.68,1,1,9,TR,Gopal Chandra Roy,INC,,,,,False,1,2008,AE
+1784589,Prasanta Kapali,CPI,22937,9546,42.25,2,1,9,TR,Prasanta Kapali,CPI,,,,,False,1,2008,AE
+1784590,Sudhindra Chandra Dasgupta,BJP,22916,365,1.62,3,1,9,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,1,2008,AE
+1784591,Nishith Das,IND,22919,206,0.91,4,1,9,TR,Nishith Das,IND,,,,,False,1,2008,AE
+1784592,Rakhal Raj Datta,AMB,22929,88,0.39,5,1,9,TR,Rakhal Raj Datta,AMB,,,,,False,1,2008,AE
+1784593,Basanti Sinha,AITC,22928,36,0.16,6,1,9,TR,Basanti Sinha,AITC,,,,,False,1,2008,AE
+1784594,Manik Dey,CPM,22930,17745,50.88,1,1,10,TR,Manik Dey,CPM,,,,,False,1,2008,AE
+1784595,Dipak Nag,INC,22917,16497,47.3,2,1,10,TR,Dipak Nag,INC,,,,,False,1,2008,AE
+1784596,Paresh Chandra Saha,BJP,22916,632,1.81,3,1,10,TR,Paresh Chandra Saha,BJP,,,,,False,1,2008,AE
+1784597,Monoranjan Debbarma,CPM,22930,16605,49.44,1,1,11,TR,Monoranjan Debbarma,CPM,,,,,False,1,2008,AE
+1784598,Jagadish Debbarma,INPT,22931,15638,46.56,2,1,11,TR,Jagadish Debbarma,INPT,,,,,False,1,2008,AE
+1784599,Budhu Kumar Debbarma,IND,22919,650,1.94,3,1,11,TR,Budhu Kumar Debbarma,IND,,,,,False,1,2008,AE
+1784600,Narendra Debbarma,LJP,22949,392,1.17,4,1,11,TR,Narendra Debbarma,LJP,,,,,False,1,2008,AE
+1784601,Satish Debbarma,AITC,22928,301,0.9,5,1,11,TR,Satish Debbarma,AITC,,,,,False,1,2008,AE
+1784602,Niranjan Debbarma,CPM,22930,12470,50.9,1,1,12,TR,Niranjan Debbarma,CPM,,,,,False,1,2008,AE
+1784603,Rajeshwar Debbarma,INPT,22931,11008,44.93,2,1,12,TR,Rajeshwar Debbarma,INPT,,,,,False,1,2008,AE
+1784604,Sukumar Debbarma,IND,22919,419,1.71,3,1,12,TR,Sukumar Debbarma,IND,,,,,False,1,2008,AE
+1784605,Sanjit Debbarma,AITC,22928,255,1.04,4,1,12,TR,Sanjit Debbarma,AITC,,,,,False,1,2008,AE
+1784606,Biswamani Debbarma,IND,22919,194,0.79,5,1,12,TR,Biswamani Debbarma,IND,,,,,False,1,2008,AE
+1784607,Subiram Debbarma,LJP,22949,154,0.63,6,1,12,TR,Subiram Debbarma,LJP,,,,,False,1,2008,AE
+1784608,Anil Sarkar,CPM,22930,32105,53.79,1,1,13,TR,Anil Sarkar,CPM,,,,,False,1,2008,AE
+1784609,Bimal Chandra Barman,INC,22917,25055,41.97,2,1,13,TR,Bimal Chandra Barman,INC,,,,,False,1,2008,AE
+1784610,Arjun Ch. Das,BJP,22916,1026,1.72,3,1,13,TR,Arjun Ch. Das,BJP,,,,,False,1,2008,AE
+1784611,Putul Rani Mitra,LJP,22949,880,1.47,4,1,13,TR,Putul Rani Mitra,LJP,,,,,False,1,2008,AE
+1784612,Nandalal Das,CPI(ML)(L),22936,625,1.05,5,1,13,TR,Nandalal Das,CPI(ML)(L),,,,,False,1,2008,AE
+1784613,Dilip Sarkar,INC,22917,29724,48.43,1,1,14,TR,Dilip Sarkar,INC,,,,,False,1,2008,AE
+1784614,Subrata Chakraborty,CPM,22930,29349,47.82,2,1,14,TR,Subrata Chakraborty,CPM,,,,,False,1,2008,AE
+1784615,Rama Prasad Paul,BJP,22916,731,1.19,3,1,14,TR,Rama Prasad Paul,BJP,,,,,False,1,2008,AE
+1784616,Subrata Chakraborty,IND,22919,689,1.12,4,1,14,TR,Subrata Chakraborty,IND,,,,,False,1,2008,AE
+1784617,Dilip Dutta,AIFB,22932,380,0.62,5,1,14,TR,Dilip Dutta,AIFB,,,,,False,1,2008,AE
+1784618,Dwijendra Sahaji,NCP,22943,310,0.51,6,1,14,TR,Dwijendra Sahaji,NCP,,,,,False,1,2008,AE
+1784619,Debasish Datta,AITC,22928,188,0.31,7,1,14,TR,Debasish Datta,AITC,,,,,False,1,2008,AE
+1784620,Narayan Chandra Choudhuri,CPM,22930,17042,52.52,1,1,15,TR,Narayan Chandra Choudhuri,CPM,,,,,False,1,2008,AE
+1784621,Matilal Saha,INC,22917,14209,43.79,2,1,15,TR,Matilal Saha,INC,,,,,False,1,2008,AE
+1784622,Tulsi Banik,BJP,22916,405,1.25,3,1,15,TR,Tulsi Banik,BJP,,,,,False,1,2008,AE
+1784623,Babul Sarkar,IND,22919,324,1.0,4,1,15,TR,Babul Sarkar,IND,,,,,False,1,2008,AE
+1784624,Chitta Ranjan Das,AITC,22928,262,0.81,5,1,15,TR,Chitta Ranjan Das,AITC,,,,,False,1,2008,AE
+1784625,Subal Sarkar,AMB,22929,208,0.64,6,1,15,TR,Subal Sarkar,AMB,,,,,False,1,2008,AE
+1784626,Bhanulal Saha,CPM,22930,15457,50.5,1,1,16,TR,Bhanulal Saha,CPM,,,,,False,1,2008,AE
+1784627,Samir Ranjan Barman,INC,22917,14543,47.51,2,1,16,TR,Samir Ranjan Barman,INC,,,,,False,1,2008,AE
+1784628,Subrata Sarkar,BJP,22916,320,1.05,3,1,16,TR,Subrata Sarkar,BJP,,,,,False,1,2008,AE
+1784629,Subrata Bhowmik,IND,22919,289,0.94,4,1,16,TR,Subrata Bhowmik,IND,,,,,False,1,2008,AE
+1784630,Kesab Debbarma,CPM,22930,13990,54.04,1,1,17,TR,Kesab Debbarma,CPM,,,,,False,1,2008,AE
+1784631,Ashok Debbarma,INC,22917,11003,42.51,2,1,17,TR,Ashok Debbarma,INC,,,,,False,1,2008,AE
+1784632,Santi Kumar Debbarma,IND,22919,356,1.38,3,1,17,TR,Santi Kumar Debbarma,IND,,,,,False,1,2008,AE
+1784633,Suchitra Debbarma,AITC,22928,315,1.22,4,1,17,TR,Suchitra Debbarma,AITC,,,,,False,1,2008,AE
+1784634,Kartik Kanya Debbarma,IND,22919,222,0.86,5,1,17,TR,Kartik Kanya Debbarma,IND,,,,,False,1,2008,AE
+1784635,Narayan Rupini,CPM,22930,14216,49.44,1,1,18,TR,Narayan Rupini,CPM,,,,,False,1,2008,AE
+1784636,Narendra Chandra Debbarma,INPT,22931,13729,47.75,2,1,18,TR,Narendra Chandra Debbarma,INPT,,,,,False,1,2008,AE
+1784637,Harendra Debbarma,IND,22919,466,1.62,3,1,18,TR,Harendra Debbarma,IND,,,,,False,1,2008,AE
+1784638,Bidhyasagar Debbarma,IND,22919,343,1.19,4,1,18,TR,Bidhyasagar Debbarma,IND,,,,,False,1,2008,AE
+1784639,Sahid Choudhuri,CPM,22930,13791,49.55,1,1,19,TR,Sahid Choudhuri,CPM,,,,,False,1,2008,AE
+1784640,Billal Mia,INC,22917,13099,47.06,2,1,19,TR,Billal Mia,INC,,,,,False,1,2008,AE
+1784641,Gopal Chandra Das,BJP,22916,330,1.19,3,1,19,TR,Gopal Chandra Das,BJP,,,,,False,1,2008,AE
+1784642,Chale Ahammed,CPI(ML)(L),22936,309,1.11,4,1,19,TR,Chale Ahammed,CPI(ML)(L),,,,,False,1,2008,AE
+1784643,Bahar Mia Khandakar,IND,22919,303,1.09,5,1,19,TR,Bahar Mia Khandakar,IND,,,,,False,1,2008,AE
+1784644,Sukumar Barman,CPM,22930,14748,52.4,1,1,20,TR,Sukumar Barman,CPM,,,,,False,1,2008,AE
+1784645,Sukla Das,INC,22917,12216,43.4,2,1,20,TR,Sukla Das,INC,,,,,False,1,2008,AE
+1784646,Sujit Das,BJP,22916,511,1.82,3,1,20,TR,Sujit Das,BJP,,,,,False,1,2008,AE
+1784647,Purabi Barman,IND,22919,465,1.65,4,1,20,TR,Purabi Barman,IND,,,,,False,1,2008,AE
+1784648,Ashutosh Das,AMB,22929,207,0.74,5,1,20,TR,Ashutosh Das,AMB,,,,,False,1,2008,AE
+1784649,Subal Bhowmik,INC,22917,14837,50.24,1,1,21,TR,Subal Bhowmik,INC,,,,,False,1,2008,AE
+1784650,Subal Rudra,CPM,22930,14008,47.43,2,1,21,TR,Subal Rudra,CPM,,,,,False,1,2008,AE
+1784651,Swapan Chandra Saha,BJP,22916,370,1.25,3,1,21,TR,Swapan Chandra Saha,BJP,,,,,False,1,2008,AE
+1784652,Julfu Mia,CPI(ML)(L),22936,319,1.08,4,1,21,TR,Julfu Mia,CPI(ML)(L),,,,,False,1,2008,AE
+1784653,Manik Sarkar,CPM,22930,17992,52.91,1,1,22,TR,Manik Sarkar,CPM,,,,,False,1,2008,AE
+1784654,Shah Alam,INC,22917,15074,44.32,2,1,22,TR,Shah Alam,INC,,,,,False,1,2008,AE
+1784655,Naidar Basi Tripura,IND,22919,525,1.54,3,1,22,TR,Naidar Basi Tripura,IND,,,,,False,1,2008,AE
+1784656,Ashish Chakraborty,AITC,22928,417,1.23,4,1,22,TR,Ashish Chakraborty,AITC,,,,,False,1,2008,AE
+1784657,Padma Kumar Debbarma,CPM,22930,11611,59.22,1,1,23,TR,Padma Kumar Debbarma,CPM,,,,,False,1,2008,AE
+1784658,Animesh Debbarma,IND,22919,5108,26.05,2,1,23,TR,Animesh Debbarma,IND,,,,,False,1,2008,AE
+1784659,Ananta Debbarma,INPT,22931,2248,11.47,3,1,23,TR,Ananta Debbarma,INPT,,,,,False,1,2008,AE
+1784660,Nihar Debbarma,IND,22919,258,1.32,4,1,23,TR,Nihar Debbarma,IND,,,,,False,1,2008,AE
+1784661,Renu Debbarma,AITC,22928,185,0.94,5,1,23,TR,Renu Debbarma,AITC,,,,,False,1,2008,AE
+1784662,Chira Kumar Debbarma,IND,22919,108,0.55,6,1,23,TR,Chira Kumar Debbarma,IND,,,,,False,1,2008,AE
+1784663,Alak Debbarma,IND,22919,89,0.45,7,1,23,TR,Alak Debbarma,IND,,,,,False,1,2008,AE
+1784664,Samir Deb Sarkar,CPM,22930,15385,54.33,1,1,24,TR,Samir Deb Sarkar,CPM,,,,,False,1,2008,AE
+1784665,Arun Kumar Kar,INC,22917,12062,42.59,2,1,24,TR,Arun Kumar Kar,INC,,,,,False,1,2008,AE
+1784666,Sailen Roy,AMB,22929,310,1.09,3,1,24,TR,Sailen Roy,AMB,,,,,False,1,2008,AE
+1784667,Dhananjoy Debnath,BJP,22916,241,0.85,4,1,24,TR,Dhananjoy Debnath,BJP,,,,,False,1,2008,AE
+1784668,Gayatri Debnath,IND,22919,167,0.59,5,1,24,TR,Gayatri Debnath,IND,,,,,False,1,2008,AE
+1784669,Adhir Sarkar,IND,22919,155,0.55,6,1,24,TR,Adhir Sarkar,IND,,,,,False,1,2008,AE
+1784670,Sachindra Debbarma,CPM,22930,13765,56.78,1,1,25,TR,Sachindra Debbarma,CPM,,,,,False,1,2008,AE
+1784671,Amiya Kumar Debbarma,INPT,22931,9234,38.09,2,1,25,TR,Amiya Kumar Debbarma,INPT,,,,,False,1,2008,AE
+1784672,Prafulla Debbarma,IND,22919,441,1.82,3,1,25,TR,Prafulla Debbarma,IND,,,,,False,1,2008,AE
+1784673,Dhanbhakti Jamatia,BJP,22916,419,1.73,4,1,25,TR,Dhanbhakti Jamatia,BJP,,,,,False,1,2008,AE
+1784674,Ashit Debbarma,IND,22919,383,1.58,5,1,25,TR,Ashit Debbarma,IND,,,,,False,1,2008,AE
+1784675,Aghore Debbarma,CPM,22930,14972,54.0,1,1,26,TR,Aghore Debbarma,CPM,,,,,False,1,2008,AE
+1784676,Animesh Debbarma,IND,22919,10153,36.62,2,1,26,TR,Animesh Debbarma,IND,,,,,False,1,2008,AE
+1784677,Bidyut Debbarma,INPT,22931,1028,3.71,3,1,26,TR,Bidyut Debbarma,INPT,,,,,False,1,2008,AE
+1784678,Ganesh Kalai,IND,22919,684,2.47,4,1,26,TR,Ganesh Kalai,IND,,,,,False,1,2008,AE
+1784679,Biswajit Debbarma,IND,22919,316,1.14,5,1,26,TR,Biswajit Debbarma,IND,,,,,False,1,2008,AE
+1784680,Jyotish Debbarma,IND,22919,293,1.06,6,1,26,TR,Jyotish Debbarma,IND,,,,,False,1,2008,AE
+1784681,Shila Debbarma(Bhowmik),AMB,22929,280,1.01,7,1,26,TR,Shila Debbarma(Bhowmik),AMB,,,,,False,1,2008,AE
+1784682,Manindra Chandra Das,CPM,22930,12653,50.13,1,1,27,TR,Manindra Chandra Das,CPM,,,,,False,1,2008,AE
+1784683,Kajal Chandra Das,INC,22917,11791,46.72,2,1,27,TR,Kajal Chandra Das,INC,,,,,False,1,2008,AE
+1784684,Harishankar Paul,BJP,22916,311,1.23,3,1,27,TR,Harishankar Paul,BJP,,,,,False,1,2008,AE
+1784685,Manindra Das,IND,22919,243,0.96,4,1,27,TR,Manindra Das,IND,,,,,False,1,2008,AE
+1784686,Subal Deb,AMB,22929,240,0.95,5,1,27,TR,Subal Deb,AMB,,,,,False,1,2008,AE
+1784687,Khagendra Jamatia,CPM,22930,13325,51.57,1,1,28,TR,Khagendra Jamatia,CPM,,,,,False,1,2008,AE
+1784688,Sabda Kumar Jamatia,INC,22917,11508,44.54,2,1,28,TR,Sabda Kumar Jamatia,INC,,,,,False,1,2008,AE
+1784689,Mania Debbarma,BJP,22916,1006,3.89,3,1,28,TR,Mania Debbarma,BJP,,,,,False,1,2008,AE
+1784690,Gouri Das,CPM,22930,14816,50.1,1,1,29,TR,Gouri Das,CPM,,,,,False,1,2008,AE
+1784691,Ashok Kumar Baidya,INC,22917,13647,46.15,2,1,29,TR,Ashok Kumar Baidya,INC,,,,,False,1,2008,AE
+1784692,Gouranga Rudrapaul,AMB,22929,595,2.01,3,1,29,TR,Gouranga Rudrapaul,AMB,,,,,False,1,2008,AE
+1784693,Laxmi Kanta Sarkar,BJP,22916,512,1.73,4,1,29,TR,Laxmi Kanta Sarkar,BJP,,,,,False,1,2008,AE
+1784694,Naresh Chandra Jamatia,CPM,22930,14979,52.05,1,1,30,TR,Naresh Chandra Jamatia,CPM,,,,,False,1,2008,AE
+1784695,Rati Mohan Jamatia,INC,22917,13064,45.39,2,1,30,TR,Rati Mohan Jamatia,INC,,,,,False,1,2008,AE
+1784696,Raj Kumar Jamatia,BJP,22916,736,2.56,3,1,30,TR,Raj Kumar Jamatia,BJP,,,,,False,1,2008,AE
+1784697,Partha Das,RSP,22935,17235,55.6,1,1,31,TR,Partha Das,RSP,,,,,False,1,2008,AE
+1784698,Mira Das,INC,22917,12284,39.63,2,1,31,TR,Mira Das,INC,,,,,False,1,2008,AE
+1784699,Sukhen Chandra Sarkar,CPI(ML)(L),22936,626,2.02,3,1,31,TR,Sukhen Chandra Sarkar,CPI(ML)(L),,,,,False,1,2008,AE
+1784700,Rabindra Kumar Das,BJP,22916,530,1.71,4,1,31,TR,Rabindra Kumar Das,BJP,,,,,False,1,2008,AE
+1784701,Uttam Das,NCP,22943,322,1.04,5,1,31,TR,Uttam Das,NCP,,,,,False,1,2008,AE
+1784702,Joygobinda Deb Roy,RSP,22935,14482,49.39,1,1,32,TR,Joygobinda Deb Roy,RSP,,,,,False,1,2008,AE
+1784703,Pranajit Singha Roy,INC,22917,14015,47.8,2,1,32,TR,Pranajit Singha Roy,INC,,,,,False,1,2008,AE
+1784704,Swapan Adhikari,BJP,22916,301,1.03,3,1,32,TR,Swapan Adhikari,BJP,,,,,False,1,2008,AE
+1784705,Bibhu Lal Dey,IND,22919,265,0.9,4,1,32,TR,Bibhu Lal Dey,IND,,,,,False,1,2008,AE
+1784706,Mujammel Ahammed Sarkar,CPI(ML)(L),22936,258,0.88,5,1,32,TR,Mujammel Ahammed Sarkar,CPI(ML)(L),,,,,False,1,2008,AE
+1784707,Madhab Chandra Saha,CPM,22930,15601,50.18,1,1,33,TR,Madhab Chandra Saha,CPM,,,,,False,1,2008,AE
+1784708,Bibhu Kumari Devi,INC,22917,14381,46.26,2,1,33,TR,Bibhu Kumari Devi,INC,,,,,False,1,2008,AE
+1784709,Gopal Roy,CPI(ML)(L),22936,601,1.93,3,1,33,TR,Gopal Roy,CPI(ML)(L),,,,,False,1,2008,AE
+1784710,Madhu Sudhan Bhattacharjee,BJP,22916,505,1.62,4,1,33,TR,Madhu Sudhan Bhattacharjee,BJP,,,,,False,1,2008,AE
+1784711,Keshab Majumder,CPM,22930,16659,58.87,1,1,34,TR,Keshab Majumder,CPM,,,,,False,1,2008,AE
+1784712,Rajib Samaddar,INC,22917,10638,37.6,2,1,34,TR,Rajib Samaddar,INC,,,,,False,1,2008,AE
+1784713,Uttam Deb,IND,22919,521,1.84,3,1,34,TR,Uttam Deb,IND,,,,,False,1,2008,AE
+1784714,Basana Adhikari,BJP,22916,478,1.69,4,1,34,TR,Basana Adhikari,BJP,,,,,False,1,2008,AE
+1784715,Sudhan Das,CPM,22930,22111,56.58,1,1,35,TR,Sudhan Das,CPM,,,,,False,1,2008,AE
+1784716,Bikash Chandra Das,INC,22917,14843,37.98,2,1,35,TR,Bikash Chandra Das,INC,,,,,False,1,2008,AE
+1784717,Sunil Chandra Das,AITC,22928,624,1.6,3,1,35,TR,Sunil Chandra Das,AITC,,,,,False,1,2008,AE
+1784718,Radha Rani Das (Bhowmik),BJP,22916,580,1.48,4,1,35,TR,Radha Rani Das (Bhowmik),BJP,,,,,False,1,2008,AE
+1784719,Kiriti Das,AMB,22929,521,1.33,5,1,35,TR,Kiriti Das,AMB,,,,,False,1,2008,AE
+1784720,Tarani Kumar Das,CPI(ML)(L),22936,398,1.02,6,1,35,TR,Tarani Kumar Das,CPI(ML)(L),,,,,False,1,2008,AE
+1784721,Basu Dev Majumder,CPM,22930,15971,50.47,1,1,36,TR,Basu Dev Majumder,CPM,,,,,False,1,2008,AE
+1784722,Amal Mallik,INC,22917,14652,46.3,2,1,36,TR,Amal Mallik,INC,,,,,False,1,2008,AE
+1784723,Babul Chandra Pal,CPI(ML)(L),22936,333,1.05,3,1,36,TR,Babul Chandra Pal,CPI(ML)(L),,,,,False,1,2008,AE
+1784724,Sudeb Sen Choudhury,AITC,22928,294,0.93,4,1,36,TR,Sudeb Sen Choudhury,AITC,,,,,False,1,2008,AE
+1784725,Keshab Chandra Sarkar,BJP,22916,293,0.93,5,1,36,TR,Keshab Chandra Sarkar,BJP,,,,,False,1,2008,AE
+1784726,Ratan Roy,AMB,22929,102,0.32,6,1,36,TR,Ratan Roy,AMB,,,,,False,1,2008,AE
+1784727,Manindra Reang,CPI,22937,18345,52.81,1,1,37,TR,Manindra Reang,CPI,,,,,False,1,2008,AE
+1784728,Gouri Sankar Reang,INC,22917,15562,44.8,2,1,37,TR,Gouri Sankar Reang,INC,,,,,False,1,2008,AE
+1784729,Parikshit Debbarma,BJP,22916,831,2.39,3,1,37,TR,Parikshit Debbarma,BJP,,,,,False,1,2008,AE
+1784730,Badal Choudhury,CPM,22930,19610,60.16,1,1,38,TR,Badal Choudhury,CPM,,,,,False,1,2008,AE
+1784731,Dilip Choudhury,INC,22917,11849,36.35,2,1,38,TR,Dilip Choudhury,INC,,,,,False,1,2008,AE
+1784732,Sudharshan Majumder,BJP,22916,630,1.93,3,1,38,TR,Sudharshan Majumder,BJP,,,,,False,1,2008,AE
+1784733,Rajendra Mahajan,AITC,22928,505,1.55,4,1,38,TR,Rajendra Mahajan,AITC,,,,,False,1,2008,AE
+1784734,Jashabir Tripura,CPM,22930,13864,59.44,1,1,39,TR,Jashabir Tripura,CPM,,,,,False,1,2008,AE
+1784735,Brajendra Mog Chaudhuri,INC,22917,8356,35.82,2,1,39,TR,Brajendra Mog Chaudhuri,INC,,,,,False,1,2008,AE
+1784736,Purna Chandra Tripura,IND,22919,473,2.03,3,1,39,TR,Purna Chandra Tripura,IND,,,,,False,1,2008,AE
+1784737,Madhu Sudan Tripura,AITC,22928,396,1.7,4,1,39,TR,Madhu Sudan Tripura,AITC,,,,,False,1,2008,AE
+1784738,Kejari Mog Chowdhury,IND,22919,237,1.02,5,1,39,TR,Kejari Mog Chowdhury,IND,,,,,False,1,2008,AE
+1784739,Jitendra Choudhury,CPM,22930,21100,56.07,1,1,40,TR,Jitendra Choudhury,CPM,,,,,False,1,2008,AE
+1784740,Thaikhai Mog,INC,22917,14940,39.7,2,1,40,TR,Thaikhai Mog,INC,,,,,False,1,2008,AE
+1784741,Kirat Bahan Tripura,IND,22919,800,2.13,3,1,40,TR,Kirat Bahan Tripura,IND,,,,,False,1,2008,AE
+1784742,Mrathaiong Mog,BJP,22916,789,2.1,4,1,40,TR,Mrathaiong Mog,BJP,,,,,False,1,2008,AE
+1784743,Rita Kar (Majumder),CPM,22930,19181,57.05,1,1,41,TR,Rita Kar (Majumder),CPM,,,,,False,1,2008,AE
+1784744,Premtosh Nath,IND,22919,10874,32.34,2,1,41,TR,Premtosh Nath,IND,,,,,False,1,2008,AE
+1784745,Bibhash Basak,PDS,22950,2062,6.13,3,1,41,TR,Bibhash Basak,PDS,,,,,False,1,2008,AE
+1784746,Ranjit Roy Chowdhury,BJP,22916,611,1.82,4,1,41,TR,Ranjit Roy Chowdhury,BJP,,,,,False,1,2008,AE
+1784747,Phani Bhusan Tripura,IND,22919,600,1.78,5,1,41,TR,Phani Bhusan Tripura,IND,,,,,False,1,2008,AE
+1784748,Sunil Chandra Nath,AITC,22928,294,0.87,6,1,41,TR,Sunil Chandra Nath,AITC,,,,,False,1,2008,AE
+1784749,Daniel Jamatia,CPM,22930,14284,53.26,1,1,42,TR,Daniel Jamatia,CPM,,,,,False,1,2008,AE
+1784750,Nagendra Jamatia,INPT,22931,11340,42.28,2,1,42,TR,Nagendra Jamatia,INPT,,,,,False,1,2008,AE
+1784751,Sindu Chandra Jamatia,IND,22919,462,1.72,3,1,42,TR,Sindu Chandra Jamatia,IND,,,,,False,1,2008,AE
+1784752,Nagendra Kalai,AITC,22928,269,1.0,4,1,42,TR,Nagendra Kalai,AITC,,,,,False,1,2008,AE
+1784753,Krishna Joy Reang,IND,22919,241,0.9,5,1,42,TR,Krishna Joy Reang,IND,,,,,False,1,2008,AE
+1784754,Silendra Reang,LJP,22949,225,0.84,6,1,42,TR,Silendra Reang,LJP,,,,,False,1,2008,AE
+1784755,Manoranjan Acharjee,CPM,22930,18262,52.05,1,1,43,TR,Manoranjan Acharjee,CPM,,,,,False,1,2008,AE
+1784756,Jawhar Saha,INC,22917,15607,44.48,2,1,43,TR,Jawhar Saha,INC,,,,,False,1,2008,AE
+1784757,Hemanto Uchoi,IND,22919,514,1.46,3,1,43,TR,Hemanto Uchoi,IND,,,,,False,1,2008,AE
+1784758,Haradhan Saha,BJP,22916,420,1.2,4,1,43,TR,Haradhan Saha,BJP,,,,,False,1,2008,AE
+1784759,Rajjab Ali,CPI(ML)(L),22936,283,0.81,5,1,43,TR,Rajjab Ali,CPI(ML)(L),,,,,False,1,2008,AE
+1784760,Lalit Mohan Tripura,CPM,22930,19120,52.58,1,1,44,TR,Lalit Mohan Tripura,CPM,,,,,False,1,2008,AE
+1784761,Rabindra Debbarma,INPT,22931,15256,41.95,2,1,44,TR,Rabindra Debbarma,INPT,,,,,False,1,2008,AE
+1784762,Sindhu Mani Tripura,IND,22919,649,1.78,3,1,44,TR,Sindhu Mani Tripura,IND,,,,,False,1,2008,AE
+1784763,Nalini Bhagya Chakma,NCP,22943,474,1.3,4,1,44,TR,Nalini Bhagya Chakma,NCP,,,,,False,1,2008,AE
+1784764,Achai Khasrang Jamatia,LJP,22949,362,1.0,5,1,44,TR,Achai Khasrang Jamatia,LJP,,,,,False,1,2008,AE
+1784765,Falguni Tripura,CPI(ML)(L),22936,273,0.75,6,1,44,TR,Falguni Tripura,CPI(ML)(L),,,,,False,1,2008,AE
+1784766,Prabir Kumar Kalai,IND,22919,233,0.64,7,1,44,TR,Prabir Kumar Kalai,IND,,,,,False,1,2008,AE
+1784767,Manoj Kanti Deb,INC,22917,11839,48.2,1,1,45,TR,Manoj Kanti Deb,INC,,,,,False,1,2008,AE
+1784768,Bijoy Lakshmi Singha,CPM,22930,11704,47.65,2,1,45,TR,Bijoy Lakshmi Singha,CPM,,,,,False,1,2008,AE
+1784769,Uma Kanta Debnath,BJP,22916,350,1.43,3,1,45,TR,Uma Kanta Debnath,BJP,,,,,False,1,2008,AE
+1784770,Bir Kumar Sinha,AIFB,22932,225,0.92,4,1,45,TR,Bir Kumar Sinha,AIFB,,,,,False,1,2008,AE
+1784771,Sushil Malakar,IND,22919,222,0.9,5,1,45,TR,Sushil Malakar,IND,,,,,False,1,2008,AE
+1784772,Md. Gunu Mia,IND,22919,221,0.9,6,1,45,TR,Md. Gunu Mia,IND,,,,,False,1,2008,AE
+1784773,Sudir Das,CPM,22930,14359,51.88,1,1,46,TR,Sudir Das,CPM,,,,,False,1,2008,AE
+1784774,Sukha Ranjan Das,INC,22917,11711,42.31,2,1,46,TR,Sukha Ranjan Das,INC,,,,,False,1,2008,AE
+1784775,Nishi Kanta Sarkar,BJP,22916,626,2.26,3,1,46,TR,Nishi Kanta Sarkar,BJP,,,,,False,1,2008,AE
+1784776,Hiralal Das,IND,22919,312,1.13,4,1,46,TR,Hiralal Das,IND,,,,,False,1,2008,AE
+1784777,Pradip Malakar,IND,22919,237,0.86,5,1,46,TR,Pradip Malakar,IND,,,,,False,1,2008,AE
+1784778,Biswanath Rabidas,AMB,22929,235,0.85,6,1,46,TR,Biswanath Rabidas,AMB,,,,,False,1,2008,AE
+1784779,Sunil Chandra Das,AIFB,22932,199,0.72,7,1,46,TR,Sunil Chandra Das,AIFB,,,,,False,1,2008,AE
+1784780,Prasanta Debbarma,CPM,22930,14354,54.17,1,1,47,TR,Prasanta Debbarma,CPM,,,,,False,1,2008,AE
+1784781,Jadu Mohan Tripura,INC,22917,10559,39.85,2,1,47,TR,Jadu Mohan Tripura,INC,,,,,False,1,2008,AE
+1784782,Mahendra Debbarma,BJP,22916,605,2.28,3,1,47,TR,Mahendra Debbarma,BJP,,,,,False,1,2008,AE
+1784783,Radha Charan Debbarma,IND,22919,595,2.25,4,1,47,TR,Radha Charan Debbarma,IND,,,,,False,1,2008,AE
+1784784,Bipul Debbarma,AIFB,22932,222,0.84,5,1,47,TR,Bipul Debbarma,AIFB,,,,,False,1,2008,AE
+1784785,Bishu Debbarma,LJP,22949,164,0.62,6,1,47,TR,Bishu Debbarma,LJP,,,,,False,1,2008,AE
+1784786,Bijoy Kumar Harngkhawl,INPT,22931,14944,46.87,1,1,48,TR,Bijoy Kumar Harngkhawl,INPT,,,,,False,1,2008,AE
+1784787,Sabitri Debbarma,CPM,22930,14829,46.51,2,1,48,TR,Sabitri Debbarma,CPM,,,,,False,1,2008,AE
+1784788,Kalpa Mohan Tripura,BJP,22916,877,2.75,3,1,48,TR,Kalpa Mohan Tripura,BJP,,,,,False,1,2008,AE
+1784789,Rajyaram Tripura,IND,22919,761,2.39,4,1,48,TR,Rajyaram Tripura,IND,,,,,False,1,2008,AE
+1784790,Padhya Kumar Debbarma,LJP,22949,472,1.48,5,1,48,TR,Padhya Kumar Debbarma,LJP,,,,,False,1,2008,AE
+1784791,Nirajoy Tripura,CPM,22930,12329,48.17,1,1,49,TR,Nirajoy Tripura,CPM,,,,,False,1,2008,AE
+1784792,Shyama Charan Tripura,INPT,22931,11228,43.86,2,1,49,TR,Shyama Charan Tripura,INPT,,,,,False,1,2008,AE
+1784793,Bihari Baishnab (Tripura),IND,22919,1034,4.04,3,1,49,TR,Bihari Baishnab (Tripura),IND,,,,,False,1,2008,AE
+1784794,Jagat Jyoti Chakma,BJP,22916,586,2.29,4,1,49,TR,Jagat Jyoti Chakma,BJP,,,,,False,1,2008,AE
+1784795,Khanna Marak,NCP,22943,420,1.64,5,1,49,TR,Khanna Marak,NCP,,,,,False,1,2008,AE
+1784796,Bidhu Bhusan Malakar,CPM,22930,17354,51.1,1,1,50,TR,Bidhu Bhusan Malakar,CPM,,,,,False,1,2008,AE
+1784797,Phanindra Das,INC,22917,14888,43.84,2,1,50,TR,Phanindra Das,INC,,,,,False,1,2008,AE
+1784798,Bhagaban Das,BJP,22916,781,2.3,3,1,50,TR,Bhagaban Das,BJP,,,,,False,1,2008,AE
+1784799,Sukumari Malakar,IND,22919,648,1.91,4,1,50,TR,Sukumari Malakar,IND,,,,,False,1,2008,AE
+1784800,Uttam Das,AMB,22929,290,0.85,5,1,50,TR,Uttam Das,AMB,,,,,False,1,2008,AE
+1784801,Bijoy Roy,CPM,22930,14457,51.04,1,1,51,TR,Bijoy Roy,CPM,,,,,False,1,2008,AE
+1784802,Sunil Chandra Das,INC,22917,12144,42.88,2,1,51,TR,Sunil Chandra Das,INC,,,,,False,1,2008,AE
+1784803,Bireswar Singha,BJP,22916,617,2.18,3,1,51,TR,Bireswar Singha,BJP,,,,,False,1,2008,AE
+1784804,Rathindra Debnath,IND,22919,572,2.02,4,1,51,TR,Rathindra Debnath,IND,,,,,False,1,2008,AE
+1784805,Basudeb Ghosh,CPI(ML)(L),22936,188,0.66,5,1,51,TR,Basudeb Ghosh,CPI(ML)(L),,,,,False,1,2008,AE
+1784806,Jyotirmoy Deb,AITC,22928,144,0.51,6,1,51,TR,Jyotirmoy Deb,AITC,,,,,False,1,2008,AE
+1784807,Pranay Bhusan Basak,AMB,22929,107,0.38,7,1,51,TR,Pranay Bhusan Basak,AMB,,,,,False,1,2008,AE
+1784808,Pratik Sen,AIFB,22932,94,0.33,8,1,51,TR,Pratik Sen,AIFB,,,,,False,1,2008,AE
+1784809,Tapan Chakraborty,CPM,22930,17565,56.44,1,1,52,TR,Tapan Chakraborty,CPM,,,,,False,1,2008,AE
+1784810,Rudrendu Bhattacharjee,INC,22917,11531,37.05,2,1,52,TR,Rudrendu Bhattacharjee,INC,,,,,False,1,2008,AE
+1784811,Kaberi Sinha,BJP,22916,834,2.68,3,1,52,TR,Kaberi Sinha,BJP,,,,,False,1,2008,AE
+1784812,Rudra Kanta Sinha,IND,22919,514,1.65,4,1,52,TR,Rudra Kanta Sinha,IND,,,,,False,1,2008,AE
+1784813,Chiranjib Bhattacharjee,CPI(ML)(L),22936,451,1.45,5,1,52,TR,Chiranjib Bhattacharjee,CPI(ML)(L),,,,,False,1,2008,AE
+1784814,Subhendu Das,AITC,22928,226,0.73,6,1,52,TR,Subhendu Das,AITC,,,,,False,1,2008,AE
+1784815,Birajit Sinha,INC,22917,17019,49.86,1,1,53,TR,Birajit Sinha,INC,,,,,False,1,2008,AE
+1784816,Jayanta Chakraborty,CPM,22930,16088,47.13,2,1,53,TR,Jayanta Chakraborty,CPM,,,,,False,1,2008,AE
+1784817,Santosh Debroy,BJP,22916,446,1.31,3,1,53,TR,Santosh Debroy,BJP,,,,,False,1,2008,AE
+1784818,Samsar Ali,IND,22919,343,1.0,4,1,53,TR,Samsar Ali,IND,,,,,False,1,2008,AE
+1784819,Kanai Lal Roy,AMB,22929,144,0.42,5,1,53,TR,Kanai Lal Roy,AMB,,,,,False,1,2008,AE
+1784820,Abdul Matin,JD(U),22944,96,0.28,6,1,53,TR,Abdul Matin,JD(U),,,,,False,1,2008,AE
+1784821,Fayzur Rahman,CPM,22930,14337,49.79,1,1,54,TR,Fayzur Rahman,CPM,,,,,False,1,2008,AE
+1784822,Abdul Matin Choudhury,IND,22919,11109,38.58,2,1,54,TR,Abdul Matin Choudhury,IND,,,,,False,1,2008,AE
+1784823,Nurul Haque,INC,22917,1796,6.24,3,1,54,TR,Nurul Haque,INC,,,,,False,1,2008,AE
+1784824,Md. Abdul Rob,IND,22919,544,1.89,4,1,54,TR,Md. Abdul Rob,IND,,,,,False,1,2008,AE
+1784825,Sankar Kodal,BJP,22916,527,1.83,5,1,54,TR,Sankar Kodal,BJP,,,,,False,1,2008,AE
+1784826,Nikhil Roy,CPI(ML)(L),22936,318,1.1,6,1,54,TR,Nikhil Roy,CPI(ML)(L),,,,,False,1,2008,AE
+1784827,Md. Farman Ali,AITC,22928,164,0.57,7,1,54,TR,Md. Farman Ali,AITC,,,,,False,1,2008,AE
+1784828,Bijita Nath,CPM,22930,12656,45.16,1,1,55,TR,Bijita Nath,CPM,,,,,False,1,2008,AE
+1784829,Jyotirmoy Nath,INC,22917,12528,44.7,2,1,55,TR,Jyotirmoy Nath,INC,,,,,False,1,2008,AE
+1784830,Sukanta Nath,BJP,22916,1044,3.72,3,1,55,TR,Sukanta Nath,BJP,,,,,False,1,2008,AE
+1784831,Abdul Hachib,JD(U),22944,985,3.51,4,1,55,TR,Abdul Hachib,JD(U),,,,,False,1,2008,AE
+1784832,Apurba Nath,IND,22919,322,1.15,5,1,55,TR,Apurba Nath,IND,,,,,False,1,2008,AE
+1784833,Fazlur Rahaman,LJP,22949,264,0.94,6,1,55,TR,Fazlur Rahaman,LJP,,,,,False,1,2008,AE
+1784834,Mozir Uddin,AIFB,22932,228,0.81,7,1,55,TR,Mozir Uddin,AIFB,,,,,False,1,2008,AE
+1784835,Biswa Bandhu Sen,INC,22917,15987,51.65,1,1,56,TR,Biswa Bandhu Sen,INC,,,,,False,1,2008,AE
+1784836,Amitabha Datta,CPM,22930,13577,43.86,2,1,56,TR,Amitabha Datta,CPM,,,,,False,1,2008,AE
+1784837,Tamal Kanti Deb,BJP,22916,805,2.6,3,1,56,TR,Tamal Kanti Deb,BJP,,,,,False,1,2008,AE
+1784838,Sanjay Chaudhury,IND,22919,213,0.69,4,1,56,TR,Sanjay Chaudhury,IND,,,,,False,1,2008,AE
+1784839,Anamika Roy(Saha),AIFB,22932,143,0.46,5,1,56,TR,Anamika Roy(Saha),AIFB,,,,,False,1,2008,AE
+1784840,Anjan Sukla Baidya,IND,22919,117,0.38,6,1,56,TR,Anjan Sukla Baidya,IND,,,,,False,1,2008,AE
+1784841,Gopal Krishna Deb,AMB,22929,110,0.36,7,1,56,TR,Gopal Krishna Deb,AMB,,,,,False,1,2008,AE
+1784842,Ramendra Chandra Debnath,CPM,22930,14710,51.22,1,1,57,TR,Ramendra Chandra Debnath,CPM,,,,,False,1,2008,AE
+1784843,Biva Rani Nath,INC,22917,13094,45.59,2,1,57,TR,Biva Rani Nath,INC,,,,,False,1,2008,AE
+1784844,Pijush Nath,BJP,22916,500,1.74,3,1,57,TR,Pijush Nath,BJP,,,,,False,1,2008,AE
+1784845,Ramesh Chandra Debnath,AMB,22929,415,1.45,4,1,57,TR,Ramesh Chandra Debnath,AMB,,,,,False,1,2008,AE
+1784846,Arun Kumar Chakma,CPM,22930,17210,50.54,1,1,58,TR,Arun Kumar Chakma,CPM,,,,,False,1,2008,AE
+1784847,Sushil Kumar Chakma,INC,22917,14460,42.47,2,1,58,TR,Sushil Kumar Chakma,INC,,,,,False,1,2008,AE
+1784848,Binoy Reang,IND,22919,804,2.36,3,1,58,TR,Binoy Reang,IND,,,,,False,1,2008,AE
+1784849,Manishankar Chakma,BJP,22916,566,1.66,4,1,58,TR,Manishankar Chakma,BJP,,,,,False,1,2008,AE
+1784850,Karnadhan Chakma,AMB,22929,402,1.18,5,1,58,TR,Karnadhan Chakma,AMB,,,,,False,1,2008,AE
+1784851,Jainaham Reang,AIFB,22932,328,0.96,6,1,58,TR,Jainaham Reang,AIFB,,,,,False,1,2008,AE
+1784852,Basirun Reang,CPI(ML)(L),22936,279,0.82,7,1,58,TR,Basirun Reang,CPI(ML)(L),,,,,False,1,2008,AE
+1784853,Subodh Das,CPM,22930,13942,49.8,1,1,59,TR,Subodh Das,CPM,,,,,False,1,2008,AE
+1784854,Radhika Ranjan Das,INC,22917,12234,43.7,2,1,59,TR,Radhika Ranjan Das,INC,,,,,False,1,2008,AE
+1784855,Dhananjay Debnath,BJP,22916,824,2.94,3,1,59,TR,Dhananjay Debnath,BJP,,,,,False,1,2008,AE
+1784856,Pijush Kanti Debnath,IND,22919,532,1.9,4,1,59,TR,Pijush Kanti Debnath,IND,,,,,False,1,2008,AE
+1784857,Narayan Malakar,AMB,22929,292,1.04,5,1,59,TR,Narayan Malakar,AMB,,,,,False,1,2008,AE
+1784858,Noor Islam,AIFB,22932,171,0.61,6,1,59,TR,Noor Islam,AIFB,,,,,False,1,2008,AE
+1784859,Rajendra Reang,CPM,22930,13952,48.06,1,1,60,TR,Rajendra Reang,CPM,,,,,False,1,2008,AE
+1784860,Sanjit Kumar Reang,INC,22917,13449,46.33,2,1,60,TR,Sanjit Kumar Reang,INC,,,,,False,1,2008,AE
+1784861,Binoy Reang,IND,22919,689,2.37,3,1,60,TR,Binoy Reang,IND,,,,,False,1,2008,AE
+1784862,Upendra Reang,BJP,22916,543,1.87,4,1,60,TR,Upendra Reang,BJP,,,,,False,1,2008,AE
+1784863,Karnadhan Chakma,AMB,22929,397,1.37,5,1,60,TR,Karnadhan Chakma,AMB,,,,,False,1,2008,AE

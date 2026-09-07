@@ -1,0 +1,281 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1492842,Shripad Yesso Naik,BJP,16167,17296,62.1621621621621,1,37,1,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1492843,Girish Raya Chodankar,INC,16168,8371,30.0855376653248,2,37,1,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1492844,Dattatraya Padgaonkar,AAAP,16169,611,2.19594594594594,3,37,1,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1492845,Bhagawant Sadanand Kamat,IND,16173,474,1.70356526739505,4,37,1,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1492846,None Of The Above,NOTA,16204,469,1.68559516963772,5,37,1,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1492847,Amit Atmaram Korgaonkar,RPI(KM),16177,437,1.57058654399079,6,37,1,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1492848,Aishwarya Arjun Salgaonkar,IND,16173,166,0.596607245543415,7,37,1,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1492897,Shripad Yesso Naik,BJP,16167,17219,69.3531496697277,1,37,2,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1492898,Girish Raya Chodankar,INC,16168,6460,26.0190107942645,2,37,2,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1492899,None Of The Above,NOTA,16204,465,1.87288545190913,3,37,2,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1492900,Amit Atmaram Korgaonkar,RPI(KM),16177,246,0.990816819719671,4,37,2,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1492901,Aishwarya Arjun Salgaonkar,IND,16173,152,0.612212018688577,5,37,2,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1492902,Dattatraya Padgaonkar,AAAP,16169,146,0.588045754792975,6,37,2,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1492903,Bhagawant Sadanand Kamat,IND,16173,140,0.563879490897373,7,37,2,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1492956,Shripad Yesso Naik,BJP,16167,14522,66.0601373788836,1,37,3,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1492957,Girish Raya Chodankar,INC,16168,6436,29.2771687212846,2,37,3,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1492958,None Of The Above,NOTA,16204,390,1.77409816676522,3,37,3,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1492959,Amit Atmaram Korgaonkar,RPI(KM),16177,222,1.00987126415866,4,37,3,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1492960,Dattatraya Padgaonkar,AAAP,16169,166,0.755128963289814,5,37,3,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1492961,Bhagawant Sadanand Kamat,IND,16173,132,0.600463994905153,6,37,3,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1492962,Aishwarya Arjun Salgaonkar,IND,16173,115,0.523131510712823,7,37,3,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493003,Shripad Yesso Naik,BJP,16167,11403,53.999147606194,1,37,4,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493004,Girish Raya Chodankar,INC,16168,8978,42.5155088317469,2,37,4,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493005,None Of The Above,NOTA,16204,308,1.45854051238338,3,37,4,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493006,Dattatraya Padgaonkar,AAAP,16169,191,0.904484538523464,4,37,4,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493007,Amit Atmaram Korgaonkar,RPI(KM),16177,96,0.454610029833783,5,37,4,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493008,Aishwarya Arjun Salgaonkar,IND,16173,78,0.369370649239948,6,37,4,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493009,Bhagawant Sadanand Kamat,IND,16173,63,0.29833783207842,7,37,4,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493052,Shripad Yesso Naik,BJP,16167,12704,55.8761435608726,1,37,5,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493053,Girish Raya Chodankar,INC,16168,9263,40.7415552427867,2,37,5,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493054,None Of The Above,NOTA,16204,295,1.29750175932441,3,37,5,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493055,Dattatraya Padgaonkar,AAAP,16169,233,1.02480647431386,4,37,5,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493056,Amit Atmaram Korgaonkar,RPI(KM),16177,100,0.439831104855735,5,37,5,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493057,Bhagawant Sadanand Kamat,IND,16173,71,0.312280084447572,6,37,5,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493058,Aishwarya Arjun Salgaonkar,IND,16173,70,0.307881773399014,7,37,5,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493104,Shripad Yesso Naik,BJP,16167,10580,49.1772799107557,1,37,6,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493105,Girish Raya Chodankar,INC,16168,9982,46.3976945244956,2,37,6,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493106,Dattatraya Padgaonkar,AAAP,16169,324,1.50599609556567,3,37,6,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493107,None Of The Above,NOTA,16204,286,1.32936692386353,4,37,6,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493108,Aishwarya Arjun Salgaonkar,IND,16173,155,0.720461095100864,5,37,6,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493109,Amit Atmaram Korgaonkar,RPI(KM),16177,102,0.474109881937343,6,37,6,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493110,Bhagawant Sadanand Kamat,IND,16173,85,0.395091568281119,7,37,6,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493164,Shripad Yesso Naik,BJP,16167,10777,54.2020821807574,1,37,7,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493165,Girish Raya Chodankar,INC,16168,8293,41.7089976361716,2,37,7,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493166,Dattatraya Padgaonkar,AAAP,16169,348,1.75023889755067,3,37,7,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493167,None Of The Above,NOTA,16204,239,1.20203188653623,4,37,7,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493168,Amit Atmaram Korgaonkar,RPI(KM),16177,84,0.422471458029472,5,37,7,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493169,Aishwarya Arjun Salgaonkar,IND,16173,81,0.407383191671276,6,37,7,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493170,Bhagawant Sadanand Kamat,IND,16173,61,0.306794749283307,7,37,7,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493219,Girish Raya Chodankar,INC,16168,10151,54.5782031292004,1,37,8,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493220,Shripad Yesso Naik,BJP,16167,7693,41.3624388407978,2,37,8,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493221,Dattatraya Padgaonkar,AAAP,16169,349,1.87644497015968,3,37,8,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493222,None Of The Above,NOTA,16204,227,1.22049572557664,4,37,8,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493223,Aishwarya Arjun Salgaonkar,IND,16173,67,0.360234421205441,5,37,8,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493224,Amit Atmaram Korgaonkar,RPI(KM),16177,64,0.344104521748481,6,37,8,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493225,Bhagawant Sadanand Kamat,IND,16173,48,0.25807839131136,7,37,8,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493266,Shripad Yesso Naik,BJP,16167,10919,58.5186773138967,1,37,9,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493267,Girish Raya Chodankar,INC,16168,6993,37.4778927059327,2,37,9,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493268,None Of The Above,NOTA,16204,286,1.53277238865962,3,37,9,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493269,Dattatraya Padgaonkar,AAAP,16169,257,1.37735141218714,4,37,9,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493270,Bhagawant Sadanand Kamat,IND,16173,77,0.412669489254515,5,37,9,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493271,Amit Atmaram Korgaonkar,RPI(KM),16177,75,0.40195080122193,6,37,9,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493272,Aishwarya Arjun Salgaonkar,IND,16173,52,0.278685888847205,7,37,9,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493315,Shripad Yesso Naik,BJP,16167,10008,49.3491124260355,1,37,10,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493316,Girish Raya Chodankar,INC,16168,9471,46.7011834319526,2,37,10,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493317,Dattatraya Padgaonkar,AAAP,16169,299,1.47435897435897,3,37,10,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493318,None Of The Above,NOTA,16204,258,1.27218934911242,4,37,10,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493319,Amit Atmaram Korgaonkar,RPI(KM),16177,102,0.502958579881656,5,37,10,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493320,Aishwarya Arjun Salgaonkar,IND,16173,72,0.355029585798816,6,37,10,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493321,Bhagawant Sadanand Kamat,IND,16173,70,0.34516765285996,7,37,10,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493365,Shripad Yesso Naik,BJP,16167,8910,55.3484904957137,1,37,11,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493366,Girish Raya Chodankar,INC,16168,6626,41.1603925953534,2,37,11,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493367,None Of The Above,NOTA,16204,269,1.67101503292334,3,37,11,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493368,Dattatraya Padgaonkar,AAAP,16169,179,1.11193937135047,4,37,11,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493369,Amit Atmaram Korgaonkar,RPI(KM),16177,41,0.254690023605416,5,37,11,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493370,Bhagawant Sadanand Kamat,IND,16173,38,0.236054168219654,6,37,11,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493371,Aishwarya Arjun Salgaonkar,IND,16173,35,0.217418312833892,7,37,11,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493417,Girish Raya Chodankar,INC,16168,10906,51.721521388599,1,37,12,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493418,Shripad Yesso Naik,BJP,16167,9258,43.9059091340225,2,37,12,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493419,None Of The Above,NOTA,16204,367,1.7404913212558,3,37,12,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493420,Dattatraya Padgaonkar,AAAP,16169,298,1.41325998292706,4,37,12,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493421,Aishwarya Arjun Salgaonkar,IND,16173,109,0.516930664896139,5,37,12,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493422,Amit Atmaram Korgaonkar,RPI(KM),16177,81,0.384141136298966,6,37,12,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493423,Bhagawant Sadanand Kamat,IND,16173,67,0.317746372000379,7,37,12,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493468,Girish Raya Chodankar,INC,16168,11478,54.9002726359592,1,37,13,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493469,Shripad Yesso Naik,BJP,16167,8612,41.1919452814846,2,37,13,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493470,None Of The Above,NOTA,16204,323,1.54493710240589,3,37,13,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493471,Dattatraya Padgaonkar,AAAP,16169,222,1.06184531496627,4,37,13,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493472,Aishwarya Arjun Salgaonkar,IND,16173,100,0.47830870043526,5,37,13,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493473,Amit Atmaram Korgaonkar,RPI(KM),16177,88,0.420911656383029,6,37,13,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493474,Bhagawant Sadanand Kamat,IND,16173,84,0.401779308365619,7,37,13,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493523,Girish Raya Chodankar,INC,16168,7500,50.4133897963299,1,37,14,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493524,Shripad Yesso Naik,BJP,16167,6653,44.7200376419977,2,37,14,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493525,Dattatraya Padgaonkar,AAAP,16169,243,1.63339382940108,3,37,14,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493526,None Of The Above,NOTA,16204,223,1.49895812327754,4,37,14,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493527,Bhagawant Sadanand Kamat,IND,16173,96,0.645291389393022,5,37,14,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493528,Aishwarya Arjun Salgaonkar,IND,16173,82,0.55118639510654,6,37,14,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493529,Amit Atmaram Korgaonkar,RPI(KM),16177,80,0.537742824494185,7,37,14,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493577,Shripad Yesso Naik,BJP,16167,9845,52.241973998408,1,37,15,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493578,Girish Raya Chodankar,INC,16168,8258,43.8206420801273,2,37,15,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493579,None Of The Above,NOTA,16204,297,1.57601485805253,3,37,15,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493580,Dattatraya Padgaonkar,AAAP,16169,196,1.040063677368,4,37,15,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493581,Aishwarya Arjun Salgaonkar,IND,16173,91,0.482886707349429,5,37,15,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493582,Amit Atmaram Korgaonkar,RPI(KM),16177,81,0.429822234014327,6,37,15,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493583,Bhagawant Sadanand Kamat,IND,16173,77,0.408596444680286,7,37,15,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493627,Shripad Yesso Naik,BJP,16167,15123,67.5707072963674,1,37,16,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493628,Girish Raya Chodankar,INC,16168,6182,27.6216433582056,2,37,16,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493629,None Of The Above,NOTA,16204,468,2.09105938072472,3,37,16,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493630,Amit Atmaram Korgaonkar,RPI(KM),16177,164,0.73276439837362,4,37,16,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493631,Dattatraya Padgaonkar,AAAP,16169,164,0.73276439837362,4,37,16,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493632,Bhagawant Sadanand Kamat,IND,16173,163,0.728296322773781,6,37,16,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493633,Aishwarya Arjun Salgaonkar,IND,16173,117,0.52276484518118,7,37,16,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493682,Shripad Yesso Naik,BJP,16167,14654,63.8741173393775,1,37,17,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493683,Girish Raya Chodankar,INC,16168,7573,33.0093278702815,2,37,17,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493684,None Of The Above,NOTA,16204,360,1.5691744398919,3,37,17,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493685,Bhagawant Sadanand Kamat,IND,16173,116,0.505622875076279,4,37,17,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493686,Amit Atmaram Korgaonkar,RPI(KM),16177,94,0.409728881527329,5,37,17,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493687,Dattatraya Padgaonkar,AAAP,16169,74,0.322552523755557,6,37,17,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493688,Aishwarya Arjun Salgaonkar,IND,16173,71,0.309476070089791,7,37,17,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493736,Shripad Yesso Naik,BJP,16167,16580,64.3358814170967,1,37,18,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493737,Girish Raya Chodankar,INC,16168,7561,29.3391796981102,2,37,18,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493738,None Of The Above,NOTA,16204,636,2.46789026425051,3,37,18,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493739,Bhagawant Sadanand Kamat,IND,16173,280,1.08649256916689,4,37,18,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493740,Amit Atmaram Korgaonkar,RPI(KM),16177,276,1.07097124675022,5,37,18,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493741,Aishwarya Arjun Salgaonkar,IND,16173,253,0.981723642854371,6,37,18,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493742,Dattatraya Padgaonkar,AAAP,16169,185,0.717861161770982,7,37,18,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493783,Shripad Yesso Naik,BJP,16167,15334,65.0434782608695,1,37,19,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493784,Girish Raya Chodankar,INC,16168,7149,30.3244962884411,2,37,19,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493785,None Of The Above,NOTA,16204,415,1.76033934252386,3,37,19,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493786,Amit Atmaram Korgaonkar,RPI(KM),16177,218,0.924708377518557,4,37,19,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493787,Bhagawant Sadanand Kamat,IND,16173,176,0.746553552492046,5,37,19,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493788,Aishwarya Arjun Salgaonkar,IND,16173,144,0.610816542948038,6,37,19,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493789,Dattatraya Padgaonkar,AAAP,16169,139,0.589607635206786,7,37,19,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493833,Shripad Yesso Naik,BJP,16167,15944,67.3055004432436,1,37,20,GA,Shripad Yesso Naik,BJP,,,,,True,37,2019,GE
+1493834,Girish Raya Chodankar,INC,16168,6776,28.603993414665,2,37,20,GA,Girish Raya Chodankar,INC,,,,,False,37,2019,GE
+1493835,None Of The Above,NOTA,16204,466,1.96715775254337,3,37,20,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493836,Amit Atmaram Korgaonkar,RPI(KM),16177,153,0.645869390856515,4,37,20,GA,Amit Atmaram Korgaonkar,RPI(KM),,,,,False,37,2019,GE
+1493837,Dattatraya Padgaonkar,AAAP,16169,124,0.523449702393515,5,37,20,GA,Dattatraya Padgaonkar,AAAP,,,,,False,37,2019,GE
+1493838,Aishwarya Arjun Salgaonkar,IND,16173,114,0.481236016716619,6,37,20,GA,Aishwarya Arjun Salgaonkar,IND,,,,,False,37,2019,GE
+1493839,Bhagawant Sadanand Kamat,IND,16173,112,0.47279327958124,7,37,20,GA,Bhagawant Sadanand Kamat,IND,,,,,False,37,2019,GE
+1493892,Adv. Narendra Keshav Sawaikar,BJP,16167,13135,56.419397792191,1,37,21,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1493893,Cosme Francisco Caitano Sardinha,INC,16168,9330,40.0755981272282,2,37,21,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1493894,None Of The Above,NOTA,16204,341,1.4647137150466,3,37,21,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493895,Elvis Gomes,AAAP,16169,297,1.27571839697607,4,37,21,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1493896,Rakhi Amit Naik,SHS,16176,86,0.369399939865126,5,37,21,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1493897,Mayur Khanconkar,IND,16173,57,0.244834843864095,6,37,21,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1493898,Dr. Kalidas Prakash Vaingankar,IND,16173,35,0.15033718482883,7,37,21,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1493953,Adv. Narendra Keshav Sawaikar,BJP,16167,14545,59.525271127481,1,37,22,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1493954,Cosme Francisco Caitano Sardinha,INC,16168,8233,33.6934724780028,2,37,22,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1493955,Elvis Gomes,AAAP,16169,717,2.93431553100061,3,37,22,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1493956,None Of The Above,NOTA,16204,356,1.45692653979946,4,37,22,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1493957,Dr. Kalidas Prakash Vaingankar,IND,16173,307,1.25639451606302,5,37,22,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1493958,Rakhi Amit Naik,SHS,16176,152,0.622058522611008,6,37,22,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1493959,Mayur Khanconkar,IND,16173,125,0.511561285041948,7,37,22,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494014,Adv. Narendra Keshav Sawaikar,BJP,16167,10681,50.5179019060682,1,37,23,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494015,Cosme Francisco Caitano Sardinha,INC,16168,9448,44.686184552807,2,37,23,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494016,None Of The Above,NOTA,16204,444,2.09998581090668,3,37,23,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494017,Elvis Gomes,AAAP,16169,308,1.4567469138722,4,37,23,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494018,Mayur Khanconkar,IND,16173,103,0.487158870548171,5,37,23,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494019,Rakhi Amit Naik,SHS,16176,89,0.420943101735799,6,37,23,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494020,Dr. Kalidas Prakash Vaingankar,IND,16173,70,0.331078844061864,7,37,23,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494071,Adv. Narendra Keshav Sawaikar,BJP,16167,9236,59.629414423139,1,37,24,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494072,Cosme Francisco Caitano Sardinha,INC,16168,5798,37.4330169797921,2,37,24,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494073,None Of The Above,NOTA,16204,169,1.09109690748272,3,37,24,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494074,Elvis Gomes,AAAP,16169,168,1.08464071276389,4,37,24,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494075,Mayur Khanconkar,IND,16173,45,0.290528762347472,5,37,24,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494076,Rakhi Amit Naik,SHS,16176,42,0.271160178190974,6,37,24,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494077,Dr. Kalidas Prakash Vaingankar,IND,16173,31,0.200142036283814,7,37,24,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494134,Adv. Narendra Keshav Sawaikar,BJP,16167,12494,53.899913718723,1,37,25,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494135,Cosme Francisco Caitano Sardinha,INC,16168,9470,40.8541846419327,2,37,25,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494136,Elvis Gomes,AAAP,16169,676,2.91630716134598,3,37,25,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494137,None Of The Above,NOTA,16204,308,1.32873166522864,4,37,25,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494138,Dr. Kalidas Prakash Vaingankar,IND,16173,83,0.358067299396031,5,37,25,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494139,Mayur Khanconkar,IND,16173,77,0.332182916307161,6,37,25,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494140,Rakhi Amit Naik,SHS,16176,72,0.310612597066436,7,37,25,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494204,Adv. Narendra Keshav Sawaikar,BJP,16167,9782,57.8850819575122,1,37,26,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494205,Cosme Francisco Caitano Sardinha,INC,16168,6003,35.5228120007101,2,37,26,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494206,Elvis Gomes,AAAP,16169,729,4.31386472572341,3,37,26,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494207,None Of The Above,NOTA,16204,255,1.50896502751642,4,37,26,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494209,Rakhi Amit Naik,SHS,16176,46,0.272205455944138,5,37,26,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494208,Mayur Khanconkar,IND,16173,46,0.272205455944138,5,37,26,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494210,Dr. Kalidas Prakash Vaingankar,IND,16173,38,0.224865376649505,7,37,26,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494266,Cosme Francisco Caitano Sardinha,INC,16168,9875,46.32018387354,1,37,27,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494267,Adv. Narendra Keshav Sawaikar,BJP,16167,9791,45.9261691448942,2,37,27,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494268,Elvis Gomes,AAAP,16169,1082,5.07528495708053,3,37,27,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494269,None Of The Above,NOTA,16204,276,1.29461982269337,4,37,27,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494270,Dr. Kalidas Prakash Vaingankar,IND,16173,114,0.53473427459074,5,37,27,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494271,Mayur Khanconkar,IND,16173,95,0.44561189549228297,6,37,27,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494272,Rakhi Amit Naik,SHS,16176,86,0.403396031708804,7,37,27,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494332,Cosme Francisco Caitano Sardinha,INC,16168,14640,74.9385749385749,1,37,28,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494333,Adv. Narendra Keshav Sawaikar,BJP,16167,2525,12.9248566748566,2,37,28,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494334,Elvis Gomes,AAAP,16169,2020,10.3398853398853,3,37,28,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494335,None Of The Above,NOTA,16204,195,0.998157248157248,4,37,28,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494336,Mayur Khanconkar,IND,16173,69,0.353194103194103,5,37,28,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494337,Rakhi Amit Naik,SHS,16176,49,0.250819000819,6,37,28,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494338,Dr. Kalidas Prakash Vaingankar,IND,16173,38,0.194512694512694,7,37,28,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494392,Cosme Francisco Caitano Sardinha,INC,16168,13591,66.2232617063782,1,37,29,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494393,Adv. Narendra Keshav Sawaikar,BJP,16167,5245,25.5566924913511,2,37,29,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494394,Elvis Gomes,AAAP,16169,1368,6.66569215027042,3,37,29,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494395,None Of The Above,NOTA,16204,181,0.881937338595721,4,37,29,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494396,Rakhi Amit Naik,SHS,16176,53,0.258246845003167,5,37,29,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494397,Dr. Kalidas Prakash Vaingankar,IND,16173,44,0.21439360717244,6,37,29,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494398,Mayur Khanconkar,IND,16173,41,0.199775861228865,7,37,29,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494452,Cosme Francisco Caitano Sardinha,INC,16168,10696,48.2279736675985,1,37,30,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494453,Adv. Narendra Keshav Sawaikar,BJP,16167,10058,45.3512489854811,2,37,30,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494454,Elvis Gomes,AAAP,16169,1038,4.68031382451077,3,37,30,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494455,None Of The Above,NOTA,16204,262,1.18135088826765,4,37,30,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494456,Rakhi Amit Naik,SHS,16176,54,0.243484534223103,5,37,30,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494457,Mayur Khanconkar,IND,16173,39,0.175849941383352,6,37,30,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494458,Dr. Kalidas Prakash Vaingankar,IND,16173,31,0.139778158535485,7,37,30,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494514,Cosme Francisco Caitano Sardinha,INC,16168,11082,52.4219489120151,1,37,31,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494515,Adv. Narendra Keshav Sawaikar,BJP,16167,9046,42.7909176915799,2,37,31,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494516,Elvis Gomes,AAAP,16169,713,3.37275307473982,3,37,31,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494517,None Of The Above,NOTA,16204,207,0.979186376537369,4,37,31,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494518,Mayur Khanconkar,IND,16173,42,0.198675496688741,5,37,31,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494519,Rakhi Amit Naik,SHS,16176,30,0.141911069063386,6,37,31,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494520,Dr. Kalidas Prakash Vaingankar,IND,16173,20,0.0946073793755912,7,37,31,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494570,Cosme Francisco Caitano Sardinha,INC,16168,13120,70.2618754351202,1,37,32,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494571,Elvis Gomes,AAAP,16169,2859,15.3108766668451,2,37,32,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494572,Adv. Narendra Keshav Sawaikar,BJP,16167,2414,12.9277566539923,3,37,32,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494573,None Of The Above,NOTA,16204,137,0.733679644406362,4,37,32,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494574,Mayur Khanconkar,IND,16173,54,0.289187597065281,5,37,32,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494575,Rakhi Amit Naik,SHS,16176,47,0.251700315964226,6,37,32,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494576,Dr. Kalidas Prakash Vaingankar,IND,16173,42,0.224923686606329,7,37,32,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494631,Cosme Francisco Caitano Sardinha,INC,16168,11353,57.8821250127459,1,37,33,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494632,Adv. Narendra Keshav Sawaikar,BJP,16167,6754,34.4345875395125,2,37,33,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494633,Elvis Gomes,AAAP,16169,1175,5.99061894565106,3,37,33,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494634,None Of The Above,NOTA,16204,192,0.978892627714897,4,37,33,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494635,Mayur Khanconkar,IND,16173,58,0.295707147955541,5,37,33,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494636,Rakhi Amit Naik,SHS,16176,52,0.265116753339451,6,37,33,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494637,Dr. Kalidas Prakash Vaingankar,IND,16173,30,0.152951973080452,7,37,33,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494693,Cosme Francisco Caitano Sardinha,INC,16168,10058,49.8587220542309,1,37,34,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494694,Adv. Narendra Keshav Sawaikar,BJP,16167,7439,36.8760224061864,2,37,34,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494695,Elvis Gomes,AAAP,16169,2276,11.282407177911,3,37,34,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494696,None Of The Above,NOTA,16204,185,0.917067367273087,4,37,34,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494697,Mayur Khanconkar,IND,16173,87,0.43126951866356,5,37,34,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494698,Dr. Kalidas Prakash Vaingankar,IND,16173,65,0.322212858771625,6,37,34,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494699,Rakhi Amit Naik,SHS,16176,63,0.312298616963267,7,37,34,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494760,Cosme Francisco Caitano Sardinha,INC,16168,14413,67.090257412838,1,37,35,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494761,Adv. Narendra Keshav Sawaikar,BJP,16167,4153,19.3315644928548,2,37,35,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494762,Elvis Gomes,AAAP,16169,2491,11.5952148210212,3,37,35,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494763,None Of The Above,NOTA,16204,219,1.01941069683005,4,37,35,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494764,Dr. Kalidas Prakash Vaingankar,IND,16173,72,0.335148722245496,5,37,35,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494765,Mayur Khanconkar,IND,16173,70,0.325839035516454,6,37,35,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494766,Rakhi Amit Naik,SHS,16176,65,0.30256481869385,7,37,35,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494824,Cosme Francisco Caitano Sardinha,INC,16168,12424,49.1981150754365,1,37,36,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494825,Adv. Narendra Keshav Sawaikar,BJP,16167,11338,44.8976359244446,2,37,36,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494826,Elvis Gomes,AAAP,16169,753,2.98182394170989,3,37,36,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494827,None Of The Above,NOTA,16204,392,1.55229081693264,4,37,36,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494828,Mayur Khanconkar,IND,16173,145,0.574189205242941,5,37,36,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494829,Rakhi Amit Naik,SHS,16176,113,0.447471587534154,6,37,36,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494830,Dr. Kalidas Prakash Vaingankar,IND,16173,88,0.348473448699164,7,37,36,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494883,Adv. Narendra Keshav Sawaikar,BJP,16167,11367,55.2466585662211,1,37,37,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494884,Cosme Francisco Caitano Sardinha,INC,16168,7948,38.6294046172539,2,37,37,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494885,Elvis Gomes,AAAP,16169,804,3.90765492102065,3,37,37,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494886,None Of The Above,NOTA,16204,260,1.2636695018226,4,37,37,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494887,Rakhi Amit Naik,SHS,16176,76,0.369380315917375,5,37,37,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494888,Mayur Khanconkar,IND,16173,75,0.364520048602673,6,37,37,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494889,Dr. Kalidas Prakash Vaingankar,IND,16173,45,0.218712029161603,7,37,37,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494937,Adv. Narendra Keshav Sawaikar,BJP,16167,15166,65.9190681097057,1,37,38,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494938,Cosme Francisco Caitano Sardinha,INC,16168,6594,28.6608423523275,2,37,38,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494939,Elvis Gomes,AAAP,16169,420,1.82553136002086,3,37,38,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494940,None Of The Above,NOTA,16204,373,1.62124570782805,4,37,38,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494941,Rakhi Amit Naik,SHS,16176,184,0.799756595818663,5,37,38,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1494942,Mayur Khanconkar,IND,16173,172,0.747598556960924,6,37,38,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1494943,Dr. Kalidas Prakash Vaingankar,IND,16173,98,0.425957317338201,7,37,38,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1494995,Adv. Narendra Keshav Sawaikar,BJP,16167,11273,54.960752766808,1,37,39,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1494996,Cosme Francisco Caitano Sardinha,INC,16168,7926,38.6426795378089,2,37,39,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1494997,Elvis Gomes,AAAP,16169,455,2.2183218760665,3,37,39,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1494998,None Of The Above,NOTA,16204,350,1.70640144312807,4,37,39,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1494999,Rakhi Amit Naik,SHS,16176,287,1.39924918336502,5,37,39,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1495000,Mayur Khanconkar,IND,16173,140,0.682560577251231,6,37,39,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1495001,Dr. Kalidas Prakash Vaingankar,IND,16173,80,0.390034615572132,7,37,39,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE
+1495060,Adv. Narendra Keshav Sawaikar,BJP,16167,14763,58.4789067142008,1,37,40,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,True,37,2019,GE
+1495061,Cosme Francisco Caitano Sardinha,INC,16168,9277,36.7478708655179,2,37,40,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,37,2019,GE
+1495062,Elvis Gomes,AAAP,16169,527,2.08754208754208,3,37,40,GA,Elvis Gomes,AAAP,,,,,False,37,2019,GE
+1495063,None Of The Above,NOTA,16204,317,1.25569419687066,4,37,40,GA,None Of The Above,NOTA,,,,,False,37,2019,GE
+1495064,Mayur Khanconkar,IND,16173,165,0.65359477124183,5,37,40,GA,Mayur Khanconkar,IND,,,,,False,37,2019,GE
+1495065,Rakhi Amit Naik,SHS,16176,115,0.455535749653396,6,37,40,GA,Rakhi Amit Naik,SHS,,,,,False,37,2019,GE
+1495066,Dr. Kalidas Prakash Vaingankar,IND,16173,81,0.320855614973262,7,37,40,GA,Dr. Kalidas Prakash Vaingankar,IND,,,,,False,37,2019,GE

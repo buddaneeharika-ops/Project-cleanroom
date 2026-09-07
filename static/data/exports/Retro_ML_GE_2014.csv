@@ -1,0 +1,397 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1714454,Prechard B. M. Basaiawmoit,IND,19816,7696,41.44,1,21,1,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714455,Vincent H. Pala,INC,19815,5666,30.51,2,21,1,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714456,Paul Lyngdoh,UDP,19817,2001,10.77,3,21,1,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714457,Shibun Lyngdoh,BJP,19820,1914,10.31,4,21,1,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714458,Nota,NOTA,19818,464,2.5,5,21,1,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714459,Armerington Kharshiing,AAAP,19822,273,1.47,6,21,1,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714460,Richard D. Shabong,CPI,19830,218,1.17,7,21,1,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714461,Ivoryna Shylla,IND,19816,196,1.06,8,21,1,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714462,Denis Siangshai,IND,19816,144,0.78,9,21,1,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714463,Vincent H. Pala,INC,19815,7942,41.01,1,21,2,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714464,Paul Lyngdoh,UDP,19817,3969,20.49,2,21,2,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714465,Prechard B. M. Basaiawmoit,IND,19816,3449,17.81,3,21,2,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714466,Shibun Lyngdoh,BJP,19820,3314,17.11,4,21,2,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714467,Nota,NOTA,19818,212,1.09,5,21,2,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714468,Richard D. Shabong,CPI,19830,162,0.84,6,21,2,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714469,Ivoryna Shylla,IND,19816,122,0.63,7,21,2,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714470,Armerington Kharshiing,AAAP,19822,118,0.61,8,21,2,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714471,Denis Siangshai,IND,19816,79,0.41,9,21,2,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714472,Shibun Lyngdoh,BJP,19820,7097,38.38,1,21,3,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714473,Vincent H. Pala,INC,19815,5490,29.69,2,21,3,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714474,Prechard B. M. Basaiawmoit,IND,19816,3261,17.64,3,21,3,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714475,Paul Lyngdoh,UDP,19817,1541,8.33,4,21,3,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714476,Richard D. Shabong,CPI,19830,370,2.0,5,21,3,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714477,Denis Siangshai,IND,19816,270,1.46,6,21,3,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714478,Ivoryna Shylla,IND,19816,178,0.96,7,21,3,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714479,Nota,NOTA,19818,145,0.78,8,21,3,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714480,Armerington Kharshiing,AAAP,19822,138,0.75,9,21,3,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714481,Vincent H. Pala,INC,19815,6243,37.31,1,21,4,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714482,Prechard B. M. Basaiawmoit,IND,19816,4267,25.5,2,21,4,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714483,Shibun Lyngdoh,BJP,19820,2944,17.59,3,21,4,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714484,Paul Lyngdoh,UDP,19817,2399,14.34,4,21,4,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714485,Richard D. Shabong,CPI,19830,260,1.55,5,21,4,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714486,Denis Siangshai,IND,19816,213,1.27,6,21,4,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714487,Nota,NOTA,19818,148,0.88,7,21,4,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714488,Armerington Kharshiing,AAAP,19822,138,0.82,8,21,4,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714489,Ivoryna Shylla,IND,19816,121,0.72,9,21,4,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714490,Vincent H. Pala,INC,19815,9173,36.64,1,21,5,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714491,Prechard B. M. Basaiawmoit,IND,19816,7794,31.13,2,21,5,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714492,Shibun Lyngdoh,BJP,19820,5537,22.12,3,21,5,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714493,Paul Lyngdoh,UDP,19817,1137,4.54,4,21,5,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714494,Armerington Kharshiing,AAAP,19822,386,1.54,5,21,5,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714495,Nota,NOTA,19818,337,1.35,6,21,5,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714496,Richard D. Shabong,CPI,19830,318,1.27,7,21,5,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714497,Denis Siangshai,IND,19816,178,0.71,8,21,5,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714498,Ivoryna Shylla,IND,19816,174,0.7,9,21,5,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714499,Vincent H. Pala,INC,19815,9875,36.0,1,21,6,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714500,Shibun Lyngdoh,BJP,19820,9541,34.78,2,21,6,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714501,Prechard B. M. Basaiawmoit,IND,19816,5556,20.25,3,21,6,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714502,Paul Lyngdoh,UDP,19817,1045,3.81,4,21,6,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714503,Denis Siangshai,IND,19816,508,1.85,5,21,6,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714504,Richard D. Shabong,CPI,19830,309,1.13,6,21,6,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714505,Armerington Kharshiing,AAAP,19822,284,1.04,7,21,6,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714506,Nota,NOTA,19818,173,0.63,8,21,6,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714507,Ivoryna Shylla,IND,19816,141,0.51,9,21,6,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714508,Vincent H. Pala,INC,19815,7315,37.26,1,21,7,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714509,Prechard B. M. Basaiawmoit,IND,19816,5853,29.81,2,21,7,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714510,Paul Lyngdoh,UDP,19817,3630,18.49,3,21,7,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714511,Shibun Lyngdoh,BJP,19820,1628,8.29,4,21,7,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714512,Armerington Kharshiing,AAAP,19822,415,2.11,5,21,7,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714513,Ivoryna Shylla,IND,19816,243,1.24,6,21,7,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714514,Richard D. Shabong,CPI,19830,208,1.06,7,21,7,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714515,Nota,NOTA,19818,201,1.02,8,21,7,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714516,Denis Siangshai,IND,19816,141,0.72,9,21,7,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714517,Vincent H. Pala,INC,19815,5683,35.67,1,21,8,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714518,Paul Lyngdoh,UDP,19817,4546,28.53,2,21,8,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714519,Prechard B. M. Basaiawmoit,IND,19816,4075,25.58,3,21,8,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714520,Shibun Lyngdoh,BJP,19820,396,2.49,4,21,8,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714521,Ivoryna Shylla,IND,19816,370,2.32,5,21,8,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714522,Armerington Kharshiing,AAAP,19822,286,1.8,6,21,8,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714523,Nota,NOTA,19818,207,1.3,7,21,8,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714524,Denis Siangshai,IND,19816,190,1.19,8,21,8,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714525,Richard D. Shabong,CPI,19830,179,1.12,9,21,8,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714526,Vincent H. Pala,INC,19815,7493,44.97,1,21,9,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714527,Paul Lyngdoh,UDP,19817,4411,26.48,2,21,9,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714528,Prechard B. M. Basaiawmoit,IND,19816,2528,15.17,3,21,9,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714529,Shibun Lyngdoh,BJP,19820,1136,6.82,4,21,9,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714530,Ivoryna Shylla,IND,19816,308,1.85,5,21,9,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714531,Nota,NOTA,19818,233,1.4,6,21,9,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714532,Armerington Kharshiing,AAAP,19822,226,1.36,7,21,9,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714534,Richard D. Shabong,CPI,19830,163,0.98,8,21,9,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714533,Denis Siangshai,IND,19816,163,0.98,8,21,9,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714535,Prechard B. M. Basaiawmoit,IND,19816,9826,47.36,1,21,10,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714536,Vincent H. Pala,INC,19815,6876,33.14,2,21,10,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714537,Shibun Lyngdoh,BJP,19820,1694,8.17,3,21,10,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714538,Paul Lyngdoh,UDP,19817,811,3.91,4,21,10,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714539,Nota,NOTA,19818,565,2.72,5,21,10,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714540,Armerington Kharshiing,AAAP,19822,332,1.6,6,21,10,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714541,Ivoryna Shylla,IND,19816,269,1.3,7,21,10,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714542,Denis Siangshai,IND,19816,189,0.91,8,21,10,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714543,Richard D. Shabong,CPI,19830,185,0.89,9,21,10,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714544,Vincent H. Pala,INC,19815,6030,38.37,1,21,11,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714545,Prechard B. M. Basaiawmoit,IND,19816,3986,25.36,2,21,11,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714546,Paul Lyngdoh,UDP,19817,3855,24.53,3,21,11,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714547,Shibun Lyngdoh,BJP,19820,896,5.7,4,21,11,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714548,Armerington Kharshiing,AAAP,19822,236,1.5,5,21,11,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714549,Ivoryna Shylla,IND,19816,223,1.42,6,21,11,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714550,Nota,NOTA,19818,202,1.29,7,21,11,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714551,Richard D. Shabong,CPI,19830,161,1.02,8,21,11,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714552,Denis Siangshai,IND,19816,128,0.81,9,21,11,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714553,Prechard B. M. Basaiawmoit,IND,19816,5640,43.96,1,21,12,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714554,Vincent H. Pala,INC,19815,3071,23.94,2,21,12,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714555,Paul Lyngdoh,UDP,19817,2569,20.02,3,21,12,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714556,Shibun Lyngdoh,BJP,19820,869,6.77,4,21,12,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714557,Nota,NOTA,19818,212,1.65,5,21,12,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714558,Richard D. Shabong,CPI,19830,154,1.2,6,21,12,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714559,Armerington Kharshiing,AAAP,19822,141,1.1,7,21,12,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714560,Ivoryna Shylla,IND,19816,111,0.87,8,21,12,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714561,Denis Siangshai,IND,19816,62,0.48,9,21,12,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714562,Prechard B. M. Basaiawmoit,IND,19816,7012,40.72,1,21,13,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714563,Vincent H. Pala,INC,19815,6051,35.14,2,21,13,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714564,Paul Lyngdoh,UDP,19817,2336,13.56,3,21,13,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714565,Shibun Lyngdoh,BJP,19820,780,4.53,4,21,13,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714566,Nota,NOTA,19818,344,2.0,5,21,13,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714567,Armerington Kharshiing,AAAP,19822,228,1.32,6,21,13,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714568,Richard D. Shabong,CPI,19830,186,1.08,7,21,13,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714569,Ivoryna Shylla,IND,19816,157,0.91,8,21,13,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714570,Denis Siangshai,IND,19816,128,0.74,9,21,13,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714571,Shibun Lyngdoh,BJP,19820,6984,39.51,1,21,14,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714572,Vincent H. Pala,INC,19815,4183,23.66,2,21,14,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714573,Prechard B. M. Basaiawmoit,IND,19816,3814,21.57,3,21,14,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714574,Paul Lyngdoh,UDP,19817,1537,8.69,4,21,14,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714575,Nota,NOTA,19818,474,2.68,5,21,14,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714576,Armerington Kharshiing,AAAP,19822,322,1.82,6,21,14,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714577,Richard D. Shabong,CPI,19830,173,0.98,7,21,14,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714578,Ivoryna Shylla,IND,19816,101,0.57,8,21,14,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714579,Denis Siangshai,IND,19816,90,0.51,9,21,14,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714580,Prechard B. M. Basaiawmoit,IND,19816,7071,37.03,1,21,15,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714581,Vincent H. Pala,INC,19815,5996,31.4,2,21,15,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714582,Paul Lyngdoh,UDP,19817,3697,19.36,3,21,15,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714583,Shibun Lyngdoh,BJP,19820,981,5.14,4,21,15,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714584,Nota,NOTA,19818,593,3.11,5,21,15,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714585,Armerington Kharshiing,AAAP,19822,296,1.55,6,21,15,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714586,Richard D. Shabong,CPI,19830,216,1.13,7,21,15,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714587,Ivoryna Shylla,IND,19816,145,0.76,8,21,15,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714588,Denis Siangshai,IND,19816,99,0.52,9,21,15,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714589,Vincent H. Pala,INC,19815,5293,37.55,1,21,16,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714590,Shibun Lyngdoh,BJP,19820,4361,30.94,2,21,16,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714591,Paul Lyngdoh,UDP,19817,1650,11.71,3,21,16,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714592,Prechard B. M. Basaiawmoit,IND,19816,1543,10.95,4,21,16,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714593,Nota,NOTA,19818,748,5.31,5,21,16,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714594,Armerington Kharshiing,AAAP,19822,251,1.78,6,21,16,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714595,Richard D. Shabong,CPI,19830,113,0.8,7,21,16,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714596,Ivoryna Shylla,IND,19816,73,0.52,8,21,16,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714597,Denis Siangshai,IND,19816,64,0.45,9,21,16,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714598,Shibun Lyngdoh,BJP,19820,5165,33.43,1,21,17,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714599,Vincent H. Pala,INC,19815,4233,27.4,2,21,17,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714600,Prechard B. M. Basaiawmoit,IND,19816,2994,19.38,3,21,17,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714601,Paul Lyngdoh,UDP,19817,1955,12.65,4,21,17,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714602,Nota,NOTA,19818,558,3.61,5,21,17,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714603,Armerington Kharshiing,AAAP,19822,280,1.81,6,21,17,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714604,Richard D. Shabong,CPI,19830,145,0.94,7,21,17,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714605,Denis Siangshai,IND,19816,70,0.45,8,21,17,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714606,Ivoryna Shylla,IND,19816,50,0.32,9,21,17,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714607,Shibun Lyngdoh,BJP,19820,6591,40.3,1,21,18,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714608,Paul Lyngdoh,UDP,19817,3921,23.98,2,21,18,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714609,Vincent H. Pala,INC,19815,3407,20.83,3,21,18,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714610,Prechard B. M. Basaiawmoit,IND,19816,1475,9.02,4,21,18,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714611,Nota,NOTA,19818,420,2.57,5,21,18,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714612,Armerington Kharshiing,AAAP,19822,248,1.52,6,21,18,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714613,Richard D. Shabong,CPI,19830,121,0.74,7,21,18,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714614,Ivoryna Shylla,IND,19816,102,0.62,8,21,18,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714615,Denis Siangshai,IND,19816,69,0.42,9,21,18,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714616,Shibun Lyngdoh,BJP,19820,10534,55.29,1,21,19,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714617,Vincent H. Pala,INC,19815,4645,24.38,2,21,19,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714618,Prechard B. M. Basaiawmoit,IND,19816,1509,7.92,3,21,19,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714619,Paul Lyngdoh,UDP,19817,1092,5.73,4,21,19,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714620,Nota,NOTA,19818,578,3.03,5,21,19,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714621,Armerington Kharshiing,AAAP,19822,353,1.85,6,21,19,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714622,Richard D. Shabong,CPI,19830,166,0.87,7,21,19,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714623,Ivoryna Shylla,IND,19816,97,0.51,8,21,19,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714624,Denis Siangshai,IND,19816,78,0.41,9,21,19,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714625,Vincent H. Pala,INC,19815,4929,32.25,1,21,20,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714626,Prechard B. M. Basaiawmoit,IND,19816,4687,30.66,2,21,20,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714627,Paul Lyngdoh,UDP,19817,3225,21.1,3,21,20,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714628,Shibun Lyngdoh,BJP,19820,1375,9.0,4,21,20,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714629,Nota,NOTA,19818,417,2.73,5,21,20,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714630,Armerington Kharshiing,AAAP,19822,257,1.68,6,21,20,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714631,Richard D. Shabong,CPI,19830,169,1.11,7,21,20,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714632,Ivoryna Shylla,IND,19816,140,0.92,8,21,20,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714633,Denis Siangshai,IND,19816,87,0.57,9,21,20,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714634,Vincent H. Pala,INC,19815,5956,33.26,1,21,21,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714635,Shibun Lyngdoh,BJP,19820,4576,25.55,2,21,21,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714636,Paul Lyngdoh,UDP,19817,2874,16.05,3,21,21,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714637,Prechard B. M. Basaiawmoit,IND,19816,2818,15.74,4,21,21,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714638,Nota,NOTA,19818,915,5.11,5,21,21,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714639,Armerington Kharshiing,AAAP,19822,379,2.12,6,21,21,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714640,Richard D. Shabong,CPI,19830,154,0.86,7,21,21,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714641,Ivoryna Shylla,IND,19816,143,0.8,8,21,21,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714642,Denis Siangshai,IND,19816,94,0.52,9,21,21,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714643,Vincent H. Pala,INC,19815,6187,38.12,1,21,22,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714644,Prechard B. M. Basaiawmoit,IND,19816,5976,36.82,2,21,22,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714645,Paul Lyngdoh,UDP,19817,1855,11.43,3,21,22,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714646,Shibun Lyngdoh,BJP,19820,1327,8.18,4,21,22,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714647,Nota,NOTA,19818,350,2.16,5,21,22,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714648,Armerington Kharshiing,AAAP,19822,230,1.42,6,21,22,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714649,Richard D. Shabong,CPI,19830,139,0.86,7,21,22,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714650,Ivoryna Shylla,IND,19816,97,0.6,8,21,22,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714651,Denis Siangshai,IND,19816,69,0.43,9,21,22,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714652,Vincent H. Pala,INC,19815,6365,44.16,1,21,23,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714653,Prechard B. M. Basaiawmoit,IND,19816,3717,25.79,2,21,23,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714654,Paul Lyngdoh,UDP,19817,3173,22.01,3,21,23,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714655,Shibun Lyngdoh,BJP,19820,499,3.46,4,21,23,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714656,Armerington Kharshiing,AAAP,19822,168,1.17,5,21,23,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714657,Richard D. Shabong,CPI,19830,156,1.08,6,21,23,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714658,Ivoryna Shylla,IND,19816,134,0.93,7,21,23,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714659,Nota,NOTA,19818,117,0.81,8,21,23,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714660,Denis Siangshai,IND,19816,86,0.6,9,21,23,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714661,Vincent H. Pala,INC,19815,5110,34.0,1,21,24,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714662,Prechard B. M. Basaiawmoit,IND,19816,4590,30.54,2,21,24,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714663,Paul Lyngdoh,UDP,19817,2917,19.41,3,21,24,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714664,Shibun Lyngdoh,BJP,19820,1647,10.96,4,21,24,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714665,Armerington Kharshiing,AAAP,19822,186,1.24,5,21,24,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714666,Richard D. Shabong,CPI,19830,177,1.18,6,21,24,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714667,Nota,NOTA,19818,146,0.97,7,21,24,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714668,Denis Siangshai,IND,19816,132,0.88,8,21,24,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714669,Ivoryna Shylla,IND,19816,123,0.82,9,21,24,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714670,Vincent H. Pala,INC,19815,5883,32.69,1,21,25,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714671,Prechard B. M. Basaiawmoit,IND,19816,5720,31.78,2,21,25,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714672,Shibun Lyngdoh,BJP,19820,3355,18.64,3,21,25,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714673,Paul Lyngdoh,UDP,19817,1633,9.07,4,21,25,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714674,Richard D. Shabong,CPI,19830,383,2.13,5,21,25,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714675,Ivoryna Shylla,IND,19816,279,1.55,6,21,25,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714676,Armerington Kharshiing,AAAP,19822,269,1.49,7,21,25,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714677,Nota,NOTA,19818,242,1.34,8,21,25,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714678,Denis Siangshai,IND,19816,233,1.29,9,21,25,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714679,Paul Lyngdoh,UDP,19817,3610,31.05,1,21,26,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714680,Prechard B. M. Basaiawmoit,IND,19816,3319,28.55,2,21,26,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714681,Vincent H. Pala,INC,19815,3271,28.13,3,21,26,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714682,Shibun Lyngdoh,BJP,19820,860,7.4,4,21,26,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714683,Armerington Kharshiing,AAAP,19822,151,1.3,5,21,26,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714684,Nota,NOTA,19818,138,1.19,6,21,26,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714685,Richard D. Shabong,CPI,19830,110,0.95,7,21,26,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714686,Ivoryna Shylla,IND,19816,88,0.76,8,21,26,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714687,Denis Siangshai,IND,19816,80,0.69,9,21,26,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714688,Vincent H. Pala,INC,19815,6232,40.31,1,21,27,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714689,Paul Lyngdoh,UDP,19817,3212,20.77,2,21,27,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714690,Prechard B. M. Basaiawmoit,IND,19816,2907,18.8,3,21,27,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714691,Shibun Lyngdoh,BJP,19820,2386,15.43,4,21,27,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714692,Richard D. Shabong,CPI,19830,202,1.31,5,21,27,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714693,Armerington Kharshiing,AAAP,19822,165,1.07,6,21,27,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714694,Ivoryna Shylla,IND,19816,143,0.92,7,21,27,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714695,Nota,NOTA,19818,120,0.78,8,21,27,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714696,Denis Siangshai,IND,19816,94,0.61,9,21,27,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714697,Paul Lyngdoh,UDP,19817,4425,37.15,1,21,28,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714698,Vincent H. Pala,INC,19815,3266,27.42,2,21,28,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714699,Prechard B. M. Basaiawmoit,IND,19816,2417,20.29,3,21,28,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714700,Shibun Lyngdoh,BJP,19820,1180,9.91,4,21,28,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714701,Richard D. Shabong,CPI,19830,240,2.01,5,21,28,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714702,Ivoryna Shylla,IND,19816,125,1.05,6,21,28,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714703,Nota,NOTA,19818,107,0.9,7,21,28,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714704,Armerington Kharshiing,AAAP,19822,78,0.65,8,21,28,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714705,Denis Siangshai,IND,19816,73,0.61,9,21,28,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714706,Prechard B. M. Basaiawmoit,IND,19816,7315,44.83,1,21,29,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714707,Vincent H. Pala,INC,19815,5752,35.25,2,21,29,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714708,Paul Lyngdoh,UDP,19817,1742,10.67,3,21,29,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714709,Shibun Lyngdoh,BJP,19820,535,3.28,4,21,29,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714710,Armerington Kharshiing,AAAP,19822,248,1.52,5,21,29,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714711,Richard D. Shabong,CPI,19830,247,1.51,6,21,29,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714712,Nota,NOTA,19818,225,1.38,7,21,29,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714713,Ivoryna Shylla,IND,19816,176,1.08,8,21,29,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714714,Denis Siangshai,IND,19816,79,0.48,9,21,29,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714715,Paul Lyngdoh,UDP,19817,8412,47.06,1,21,30,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714716,Vincent H. Pala,INC,19815,6652,37.22,2,21,30,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714717,Prechard B. M. Basaiawmoit,IND,19816,1639,9.17,3,21,30,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714718,Shibun Lyngdoh,BJP,19820,386,2.16,4,21,30,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714719,Ivoryna Shylla,IND,19816,305,1.71,5,21,30,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714720,Denis Siangshai,IND,19816,163,0.91,6,21,30,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714721,Richard D. Shabong,CPI,19830,123,0.69,7,21,30,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714722,Nota,NOTA,19818,105,0.59,8,21,30,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714723,Armerington Kharshiing,AAAP,19822,89,0.5,9,21,30,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714724,Paul Lyngdoh,UDP,19817,5933,33.28,1,21,31,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714725,Vincent H. Pala,INC,19815,5377,30.16,2,21,31,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714726,Prechard B. M. Basaiawmoit,IND,19816,5205,29.2,3,21,31,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714727,Shibun Lyngdoh,BJP,19820,502,2.82,4,21,31,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714728,Ivoryna Shylla,IND,19816,227,1.27,5,21,31,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714729,Richard D. Shabong,CPI,19830,182,1.02,6,21,31,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714730,Nota,NOTA,19818,147,0.82,7,21,31,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714731,Armerington Kharshiing,AAAP,19822,133,0.75,8,21,31,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714732,Denis Siangshai,IND,19816,122,0.68,9,21,31,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714733,Prechard B. M. Basaiawmoit,IND,19816,8867,46.67,1,21,32,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714734,Vincent H. Pala,INC,19815,6526,34.35,2,21,32,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714735,Paul Lyngdoh,UDP,19817,2087,10.98,3,21,32,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714736,Shibun Lyngdoh,BJP,19820,434,2.28,4,21,32,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714737,Armerington Kharshiing,AAAP,19822,272,1.43,5,21,32,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714738,Nota,NOTA,19818,259,1.36,6,21,32,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714739,Richard D. Shabong,CPI,19830,257,1.35,7,21,32,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714740,Ivoryna Shylla,IND,19816,193,1.02,8,21,32,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714741,Denis Siangshai,IND,19816,106,0.56,9,21,32,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714742,Prechard B. M. Basaiawmoit,IND,19816,5900,38.28,1,21,33,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714743,Vincent H. Pala,INC,19815,5547,35.99,2,21,33,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714744,Paul Lyngdoh,UDP,19817,2105,13.66,3,21,33,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714745,Armerington Kharshiing,AAAP,19822,430,2.79,4,21,33,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714746,Shibun Lyngdoh,BJP,19820,409,2.65,5,21,33,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714747,Ivoryna Shylla,IND,19816,361,2.34,6,21,33,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714748,Richard D. Shabong,CPI,19830,278,1.8,7,21,33,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714749,Nota,NOTA,19818,224,1.45,8,21,33,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714750,Denis Siangshai,IND,19816,158,1.03,9,21,33,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714751,Prechard B. M. Basaiawmoit,IND,19816,5542,36.7,1,21,34,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714752,Vincent H. Pala,INC,19815,3707,24.55,2,21,34,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714753,Paul Lyngdoh,UDP,19817,2375,15.73,3,21,34,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714754,Shibun Lyngdoh,BJP,19820,1714,11.35,4,21,34,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714755,Ivoryna Shylla,IND,19816,438,2.9,5,21,34,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714756,Richard D. Shabong,CPI,19830,408,2.7,6,21,34,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714757,Armerington Kharshiing,AAAP,19822,345,2.28,7,21,34,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714758,Nota,NOTA,19818,318,2.11,8,21,34,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714759,Denis Siangshai,IND,19816,252,1.67,9,21,34,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714760,Vincent H. Pala,INC,19815,9334,48.59,1,21,35,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714761,Paul Lyngdoh,UDP,19817,3364,17.51,2,21,35,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714762,Prechard B. M. Basaiawmoit,IND,19816,3279,17.07,3,21,35,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714763,Shibun Lyngdoh,BJP,19820,2035,10.59,4,21,35,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714764,Armerington Kharshiing,AAAP,19822,300,1.56,5,21,35,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714765,Ivoryna Shylla,IND,19816,274,1.43,6,21,35,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714766,Richard D. Shabong,CPI,19830,235,1.22,7,21,35,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714767,Nota,NOTA,19818,200,1.04,8,21,35,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714768,Denis Siangshai,IND,19816,188,0.98,9,21,35,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714769,Paul Lyngdoh,UDP,19817,5762,33.57,1,21,36,ML,Paul Lyngdoh,UDP,,,,,False,21,2014,GE
+1714770,Prechard B. M. Basaiawmoit,IND,19816,5693,33.16,2,21,36,ML,Prechard B. M. Basaiawmoit,IND,,,,,False,21,2014,GE
+1714771,Vincent H. Pala,INC,19815,4529,26.38,3,21,36,ML,Vincent H. Pala,INC,,,,,True,21,2014,GE
+1714772,Shibun Lyngdoh,BJP,19820,377,2.2,4,21,36,ML,Shibun Lyngdoh,BJP,,,,,False,21,2014,GE
+1714773,Denis Siangshai,IND,19816,213,1.24,5,21,36,ML,Denis Siangshai,IND,,,,,False,21,2014,GE
+1714774,Ivoryna Shylla,IND,19816,175,1.02,6,21,36,ML,Ivoryna Shylla,IND,,,,,False,21,2014,GE
+1714775,Armerington Kharshiing,AAAP,19822,161,0.94,7,21,36,ML,Armerington Kharshiing,AAAP,,,,,False,21,2014,GE
+1714776,Richard D. Shabong,CPI,19830,151,0.88,8,21,36,ML,Richard D. Shabong,CPI,,,,,False,21,2014,GE
+1714777,Nota,NOTA,19818,105,0.61,9,21,36,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714778,Purno Agitok Sangma,NPEP,19814,12806,55.47,1,21,37,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714779,Daryl William Ch Momin,INC,19815,9348,40.49,2,21,37,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714780,Nota,NOTA,19818,931,4.03,3,21,37,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714781,Purno Agitok Sangma,NPEP,19814,8232,51.61,1,21,38,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714782,Daryl William Ch Momin,INC,19815,7205,45.18,2,21,38,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714783,Nota,NOTA,19818,512,3.21,3,21,38,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714784,Purno Agitok Sangma,NPEP,19814,8627,52.13,1,21,39,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714785,Daryl William Ch Momin,INC,19815,7382,44.61,2,21,39,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714786,Nota,NOTA,19818,540,3.26,3,21,39,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714787,Purno Agitok Sangma,NPEP,19814,8823,50.32,1,21,40,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714788,Daryl William Ch Momin,INC,19815,7949,45.33,2,21,40,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714789,Nota,NOTA,19818,763,4.35,3,21,40,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714790,Purno Agitok Sangma,NPEP,19814,9372,54.36,1,21,41,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714791,Daryl William Ch Momin,INC,19815,6889,39.96,2,21,41,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714792,Nota,NOTA,19818,979,5.68,3,21,41,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714793,Purno Agitok Sangma,NPEP,19814,12329,69.62,1,21,42,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714794,Daryl William Ch Momin,INC,19815,4431,25.02,2,21,42,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714795,Nota,NOTA,19818,949,5.36,3,21,42,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714796,Purno Agitok Sangma,NPEP,19814,11961,62.12,1,21,43,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714797,Daryl William Ch Momin,INC,19815,6540,33.97,2,21,43,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714798,Nota,NOTA,19818,753,3.91,3,21,43,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714799,Purno Agitok Sangma,NPEP,19814,10694,58.84,1,21,44,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714800,Daryl William Ch Momin,INC,19815,6556,36.07,2,21,44,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714801,Nota,NOTA,19818,924,5.08,3,21,44,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714802,Daryl William Ch Momin,INC,19815,11175,54.5,1,21,45,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714803,Purno Agitok Sangma,NPEP,19814,8429,41.11,2,21,45,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714804,Nota,NOTA,19818,901,4.39,3,21,45,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714805,Purno Agitok Sangma,NPEP,19814,9273,49.39,1,21,46,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714806,Daryl William Ch Momin,INC,19815,8734,46.52,2,21,46,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714807,Nota,NOTA,19818,769,4.1,3,21,46,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714808,Daryl William Ch Momin,INC,19815,14441,63.71,1,21,47,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714809,Purno Agitok Sangma,NPEP,19814,7554,33.33,2,21,47,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714810,Nota,NOTA,19818,672,2.96,3,21,47,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714811,Daryl William Ch Momin,INC,19815,11926,53.05,1,21,48,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714812,Purno Agitok Sangma,NPEP,19814,9782,43.51,2,21,48,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714813,Nota,NOTA,19818,773,3.44,3,21,48,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714814,Purno Agitok Sangma,NPEP,19814,11077,55.97,1,21,49,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714815,Daryl William Ch Momin,INC,19815,7813,39.48,2,21,49,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714816,Nota,NOTA,19818,902,4.56,3,21,49,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714817,Purno Agitok Sangma,NPEP,19814,12045,61.7,1,21,50,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714818,Daryl William Ch Momin,INC,19815,6506,33.32,2,21,50,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714819,Nota,NOTA,19818,972,4.98,3,21,50,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714820,Purno Agitok Sangma,NPEP,19814,12430,64.54,1,21,51,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714821,Daryl William Ch Momin,INC,19815,5895,30.61,2,21,51,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714822,Nota,NOTA,19818,935,4.85,3,21,51,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714823,Daryl William Ch Momin,INC,19815,10723,48.28,1,21,52,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714824,Purno Agitok Sangma,NPEP,19814,10672,48.05,2,21,52,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714825,Nota,NOTA,19818,815,3.67,3,21,52,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714826,Daryl William Ch Momin,INC,19815,14445,68.33,1,21,53,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714827,Purno Agitok Sangma,NPEP,19814,6126,28.98,2,21,53,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714828,Nota,NOTA,19818,570,2.7,3,21,53,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714829,Daryl William Ch Momin,INC,19815,14793,64.44,1,21,54,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714830,Purno Agitok Sangma,NPEP,19814,7633,33.25,2,21,54,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714831,Nota,NOTA,19818,531,2.31,3,21,54,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714832,Purno Agitok Sangma,NPEP,19814,9782,52.4,1,21,55,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714833,Daryl William Ch Momin,INC,19815,8083,43.3,2,21,55,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714834,Nota,NOTA,19818,804,4.31,3,21,55,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714835,Purno Agitok Sangma,NPEP,19814,12041,68.29,1,21,56,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714836,Daryl William Ch Momin,INC,19815,4656,26.41,2,21,56,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714837,Nota,NOTA,19818,936,5.31,3,21,56,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714838,Purno Agitok Sangma,NPEP,19814,8028,60.23,1,21,57,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714839,Daryl William Ch Momin,INC,19815,4593,34.46,2,21,57,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714840,Nota,NOTA,19818,708,5.31,3,21,57,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714841,Purno Agitok Sangma,NPEP,19814,10695,59.54,1,21,58,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714842,Daryl William Ch Momin,INC,19815,6439,35.85,2,21,58,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714843,Nota,NOTA,19818,829,4.62,3,21,58,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714844,Purno Agitok Sangma,NPEP,19814,10759,61.66,1,21,59,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714845,Daryl William Ch Momin,INC,19815,5766,33.05,2,21,59,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714846,Nota,NOTA,19818,923,5.29,3,21,59,ML,Nota,NOTA,,,,,False,21,2014,GE
+1714847,Purno Agitok Sangma,NPEP,19814,10069,55.51,1,21,60,ML,Purno Agitok Sangma,NPEP,,,,,False,21,2014,GE
+1714848,Daryl William Ch Momin,INC,19815,7280,40.13,2,21,60,ML,Daryl William Ch Momin,INC,,,,,False,21,2014,GE
+1714849,Nota,NOTA,19818,791,4.36,3,21,60,ML,Nota,NOTA,,,,,False,21,2014,GE

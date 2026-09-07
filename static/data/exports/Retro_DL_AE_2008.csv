@@ -1,0 +1,876 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1495454,Jaswant Singh,INC,16205,34662,31.66,1,1,1,DL,Jaswant Singh,INC,,,,,False,1,2008,AE
+1495455,Sharad Kumar,BSP,16206,33830,30.9,2,1,1,DL,Sharad Kumar,BSP,,,,,False,1,2008,AE
+1495456,Ajit Singh,BJP,16207,29754,27.17,3,1,1,DL,Ajit Singh,BJP,,,,,False,1,2008,AE
+1495457,Raj Singh Khatri,IND,16208,5041,4.6,4,1,1,DL,Raj Singh Khatri,IND,,,,,False,1,2008,AE
+1495458,Amit Kumar,LJP,16209,1704,1.56,5,1,1,DL,Amit Kumar,LJP,,,,,False,1,2008,AE
+1495459,Kuldeep,RJD,16210,1078,0.98,6,1,1,DL,Kuldeep,RJD,,,,,False,1,2008,AE
+1495460,Risha,IND,16208,925,0.84,7,1,1,DL,Risha,IND,,,,,False,1,2008,AE
+1495461,Shyam Lal,CPI(ML)(L),16211,882,0.81,8,1,1,DL,Shyam Lal,CPI(ML)(L),,,,,False,1,2008,AE
+1495462,Hariom Sharma,SP,16212,484,0.44,9,1,1,DL,Hariom Sharma,SP,,,,,False,1,2008,AE
+1495463,Vishal,RWS,16213,437,0.4,10,1,1,DL,Vishal,RWS,,,,,False,1,2008,AE
+1495464,Anil Kumar,IND,16208,377,0.34,11,1,1,DL,Anil Kumar,IND,,,,,False,1,2008,AE
+1495465,Raghbir Singh,IND,16208,320,0.29,12,1,1,DL,Raghbir Singh,IND,,,,,False,1,2008,AE
+1495466,Shri Krishan,BJP,16207,32006,30.1,1,1,2,DL,Shri Krishan,BJP,,,,,False,1,2008,AE
+1495467,Deepak Tyagi,INC,16205,27016,25.4,2,1,2,DL,Deepak Tyagi,INC,,,,,False,1,2008,AE
+1495468,Vinod Nagar,LJP,16209,17777,16.72,3,1,2,DL,Vinod Nagar,LJP,,,,,False,1,2008,AE
+1495469,Anand Mohan Joshi,BSP,16206,12753,11.99,4,1,2,DL,Anand Mohan Joshi,BSP,,,,,False,1,2008,AE
+1495470,Ram Kishore Tyagi,NCP,16214,4695,4.41,5,1,2,DL,Ram Kishore Tyagi,NCP,,,,,False,1,2008,AE
+1495471,Manoj Kumar,RJD,16210,2583,2.43,6,1,2,DL,Manoj Kumar,RJD,,,,,False,1,2008,AE
+1495472,Inder Singh,JD(U),16215,1397,1.31,7,1,2,DL,Inder Singh,JD(U),,,,,False,1,2008,AE
+1495473,Sandeep Kumar,IND,16208,1020,0.96,8,1,2,DL,Sandeep Kumar,IND,,,,,False,1,2008,AE
+1495474,Dharmender Singhal,IND,16208,889,0.84,9,1,2,DL,Dharmender Singhal,IND,,,,,False,1,2008,AE
+1495475,Ganesh Pal,BSKP,16216,771,0.72,10,1,2,DL,Ganesh Pal,BSKP,,,,,False,1,2008,AE
+1495476,Munna Rawat,IJP,16217,716,0.67,11,1,2,DL,Munna Rawat,IJP,,,,,False,1,2008,AE
+1495477,Kamla Rani,IND,16208,579,0.54,12,1,2,DL,Kamla Rani,IND,,,,,False,1,2008,AE
+1495478,Sadhna Sharma,IND,16208,519,0.49,13,1,2,DL,Sadhna Sharma,IND,,,,,False,1,2008,AE
+1495479,Bhagwan Singh,RWS,16213,441,0.41,14,1,2,DL,Bhagwan Singh,RWS,,,,,False,1,2008,AE
+1495480,Ragini Sharma,IND,16208,437,0.41,15,1,2,DL,Ragini Sharma,IND,,,,,False,1,2008,AE
+1495482,Lal Bahadur Singh,RMEP,16219,414,0.39,16,1,2,DL,Lal Bahadur Singh,RMEP,,,,,False,1,2008,AE
+1495481,Deen Dayal Singh,ABHM,16218,414,0.39,16,1,2,DL,Deen Dayal Singh,ABHM,,,,,False,1,2008,AE
+1495483,Babli,SHS,16220,367,0.35,18,1,2,DL,Babli,SHS,,,,,False,1,2008,AE
+1495484,Hari Kishan,NLHP,16221,324,0.3,19,1,2,DL,Hari Kishan,NLHP,,,,,False,1,2008,AE
+1495485,Jai Ram Maurya,IND,16208,318,0.3,20,1,2,DL,Jai Ram Maurya,IND,,,,,False,1,2008,AE
+1495486,Nafe Singh,IND,16208,272,0.26,21,1,2,DL,Nafe Singh,IND,,,,,False,1,2008,AE
+1495487,Suraj Pal Singh,SP,16212,266,0.25,22,1,2,DL,Suraj Pal Singh,SP,,,,,False,1,2008,AE
+1495488,Shivji Shah,IND,16208,221,0.21,23,1,2,DL,Shivji Shah,IND,,,,,False,1,2008,AE
+1495489,Rakesh Kumar,IND,16208,151,0.14,24,1,2,DL,Rakesh Kumar,IND,,,,,False,1,2008,AE
+1495490,Surinder Pal Singh,INC,16205,39997,44.14,1,1,3,DL,Surinder Pal Singh,INC,,,,,False,1,2008,AE
+1495491,Surya Prakash Khatri,BJP,16207,37584,41.48,2,1,3,DL,Surya Prakash Khatri,BJP,,,,,False,1,2008,AE
+1495492,Sanjeev Kumar,BSP,16206,9491,10.47,3,1,3,DL,Sanjeev Kumar,BSP,,,,,False,1,2008,AE
+1495493,Apramay Mishra,SP,16212,775,0.86,4,1,3,DL,Apramay Mishra,SP,,,,,False,1,2008,AE
+1495494,Shyam Gopal,ABHM,16218,706,0.78,5,1,3,DL,Shyam Gopal,ABHM,,,,,False,1,2008,AE
+1495495,Mohd Kamil,IND,16208,343,0.38,6,1,3,DL,Mohd Kamil,IND,,,,,False,1,2008,AE
+1495496,Raju Gupta,IND,16208,293,0.32,7,1,3,DL,Raju Gupta,IND,,,,,False,1,2008,AE
+1495497,Ranjit Singh,IND,16208,245,0.27,8,1,3,DL,Ranjit Singh,IND,,,,,False,1,2008,AE
+1495498,Mahfooz Ali,NCP,16214,240,0.26,9,1,3,DL,Mahfooz Ali,NCP,,,,,False,1,2008,AE
+1495499,Rajesh Kumar,IND,16208,205,0.23,10,1,3,DL,Rajesh Kumar,IND,,,,,False,1,2008,AE
+1495500,Mohd Raziur Rehman,LJP,16209,165,0.18,11,1,3,DL,Mohd Raziur Rehman,LJP,,,,,False,1,2008,AE
+1495501,Rajesh Singh,IND,16208,154,0.17,12,1,3,DL,Rajesh Singh,IND,,,,,False,1,2008,AE
+1495502,Kripal Singh Bittoo,IND,16208,132,0.15,13,1,3,DL,Kripal Singh Bittoo,IND,,,,,False,1,2008,AE
+1495503,Mohd Yameen,IND,16208,128,0.14,14,1,3,DL,Mohd Yameen,IND,,,,,False,1,2008,AE
+1495504,Dropti,RVNP,16222,88,0.1,15,1,3,DL,Dropti,RVNP,,,,,False,1,2008,AE
+1495505,Ajay Singh,IND,16208,67,0.07,16,1,3,DL,Ajay Singh,IND,,,,,False,1,2008,AE
+1495506,Mangat Ram,INC,16205,36445,44.84,1,1,4,DL,Mangat Ram,INC,,,,,False,1,2008,AE
+1495507,Ravinder Singh (Khurana),BJP,16207,31933,39.29,2,1,4,DL,Ravinder Singh (Khurana),BJP,,,,,False,1,2008,AE
+1495508,Sanjay Nagpal,BSP,16206,9990,12.29,3,1,4,DL,Sanjay Nagpal,BSP,,,,,False,1,2008,AE
+1495509,Sudhir Pathak,IND,16208,753,0.93,4,1,4,DL,Sudhir Pathak,IND,,,,,False,1,2008,AE
+1495510,Ram Saran Ram,CPI,16223,654,0.8,5,1,4,DL,Ram Saran Ram,CPI,,,,,False,1,2008,AE
+1495511,Vijay Singh Sisodia,LJP,16209,520,0.64,6,1,4,DL,Vijay Singh Sisodia,LJP,,,,,False,1,2008,AE
+1495512,Shekh Zahid,IND,16208,259,0.32,7,1,4,DL,Shekh Zahid,IND,,,,,False,1,2008,AE
+1495513,Lal Singh,IND,16208,223,0.27,8,1,4,DL,Lal Singh,IND,,,,,False,1,2008,AE
+1495514,Vinod Kumar,IND,16208,118,0.15,9,1,4,DL,Vinod Kumar,IND,,,,,False,1,2008,AE
+1495515,Ajay Kumar,IND,16208,112,0.14,10,1,4,DL,Ajay Kumar,IND,,,,,False,1,2008,AE
+1495516,Vijender Kumar,IND,16208,96,0.12,11,1,4,DL,Vijender Kumar,IND,,,,,False,1,2008,AE
+1495517,Rajeev,IND,16208,93,0.11,12,1,4,DL,Rajeev,IND,,,,,False,1,2008,AE
+1495518,Sunil Kumar Gupta,MBP,16224,79,0.1,13,1,4,DL,Sunil Kumar Gupta,MBP,,,,,False,1,2008,AE
+1495519,Devender Yadav,INC,16205,39215,39.86,1,1,5,DL,Devender Yadav,INC,,,,,False,1,2008,AE
+1495520,Ajesh Yadav,BSP,16206,25611,26.03,2,1,5,DL,Ajesh Yadav,BSP,,,,,False,1,2008,AE
+1495521,Rajesh Yadav,BJP,16207,18745,19.05,3,1,5,DL,Rajesh Yadav,BJP,,,,,False,1,2008,AE
+1495522,Jitender Kumar,NCP,16214,11242,11.43,4,1,5,DL,Jitender Kumar,NCP,,,,,False,1,2008,AE
+1495523,Parwinder Singh,RJD,16210,1165,1.18,5,1,5,DL,Parwinder Singh,RJD,,,,,False,1,2008,AE
+1495524,Sunder Singh,IND,16208,840,0.85,6,1,5,DL,Sunder Singh,IND,,,,,False,1,2008,AE
+1495525,Paras Yadav,IND,16208,299,0.3,7,1,5,DL,Paras Yadav,IND,,,,,False,1,2008,AE
+1495526,Suresh Tomar,SP,16212,248,0.25,8,1,5,DL,Suresh Tomar,SP,,,,,False,1,2008,AE
+1495527,Kapil Dev Singh,LD,16225,229,0.23,9,1,5,DL,Kapil Dev Singh,LD,,,,,False,1,2008,AE
+1495528,Sat Pal,IND,16208,227,0.23,10,1,5,DL,Sat Pal,IND,,,,,False,1,2008,AE
+1495529,Devender Yadav,IND,16208,205,0.21,11,1,5,DL,Devender Yadav,IND,,,,,False,1,2008,AE
+1495530,Pankaj Sharma,IND,16208,159,0.16,12,1,5,DL,Pankaj Sharma,IND,,,,,False,1,2008,AE
+1495531,Zahid Hussain,IND,16208,109,0.11,13,1,5,DL,Zahid Hussain,IND,,,,,False,1,2008,AE
+1495532,Sushil Kumar Kashyap,MKUP,16226,87,0.09,14,1,5,DL,Sushil Kumar Kashyap,MKUP,,,,,False,1,2008,AE
+1495533,Kulwant Rana,BJP,16207,64474,55.56,1,1,6,DL,Kulwant Rana,BJP,,,,,False,1,2008,AE
+1495534,Shambhu Dayal Sharma,INC,16205,38128,32.86,2,1,6,DL,Shambhu Dayal Sharma,INC,,,,,False,1,2008,AE
+1495535,Ranbir Singh Saroha,BSP,16206,11203,9.65,3,1,6,DL,Ranbir Singh Saroha,BSP,,,,,False,1,2008,AE
+1495536,Vidya Patti,IND,16208,697,0.6,4,1,6,DL,Vidya Patti,IND,,,,,False,1,2008,AE
+1495537,Rajesh Kumar,LJP,16209,365,0.31,5,1,6,DL,Rajesh Kumar,LJP,,,,,False,1,2008,AE
+1495538,Om Prakash,ABHM,16218,347,0.3,6,1,6,DL,Om Prakash,ABHM,,,,,False,1,2008,AE
+1495539,Narender Pal Kashyap,IND,16208,180,0.16,7,1,6,DL,Narender Pal Kashyap,IND,,,,,False,1,2008,AE
+1495540,Dharambir,IND,16208,167,0.14,8,1,6,DL,Dharambir,IND,,,,,False,1,2008,AE
+1495541,Bharat Nath,JD(U),16215,120,0.1,9,1,6,DL,Bharat Nath,JD(U),,,,,False,1,2008,AE
+1495542,Kamlesh Goswami,IND,16208,101,0.09,10,1,6,DL,Kamlesh Goswami,IND,,,,,False,1,2008,AE
+1495543,Ashok Matta,IND,16208,100,0.09,11,1,6,DL,Ashok Matta,IND,,,,,False,1,2008,AE
+1495544,Abdul Rahim Saifi,IND,16208,88,0.08,12,1,6,DL,Abdul Rahim Saifi,IND,,,,,False,1,2008,AE
+1495545,Rajhans Bansal,IJP,16217,74,0.06,13,1,6,DL,Rajhans Bansal,IJP,,,,,False,1,2008,AE
+1495546,Surender Kumar,INC,16205,60544,48.33,1,1,7,DL,Surender Kumar,INC,,,,,False,1,2008,AE
+1495547,Chand Ram,BJP,16207,43402,34.65,2,1,7,DL,Chand Ram,BJP,,,,,False,1,2008,AE
+1495548,Ramchander,BSP,16206,17848,14.25,3,1,7,DL,Ramchander,BSP,,,,,False,1,2008,AE
+1495549,Phool Kumar,LJP,16209,1597,1.27,4,1,7,DL,Phool Kumar,LJP,,,,,False,1,2008,AE
+1495550,Harbir Singh,IND,16208,1363,1.09,5,1,7,DL,Harbir Singh,IND,,,,,False,1,2008,AE
+1495551,Rekha Devi,BPC,16227,516,0.41,6,1,7,DL,Rekha Devi,BPC,,,,,False,1,2008,AE
+1495552,Manoj Kumar,BJP,16207,47355,45.83,1,1,8,DL,Manoj Kumar,BJP,,,,,False,1,2008,AE
+1495553,Prem Chander Kaushik,INC,16205,32458,31.41,2,1,8,DL,Prem Chander Kaushik,INC,,,,,False,1,2008,AE
+1495554,Jasbir,BSP,16206,12382,11.98,3,1,8,DL,Jasbir,BSP,,,,,False,1,2008,AE
+1495555,Chandi Ram,NCP,16214,6909,6.69,4,1,8,DL,Chandi Ram,NCP,,,,,False,1,2008,AE
+1495556,Bhagwan Singh,IND,16208,858,0.83,5,1,8,DL,Bhagwan Singh,IND,,,,,False,1,2008,AE
+1495557,Sharafat Ali,ABSP,16228,768,0.74,6,1,8,DL,Sharafat Ali,ABSP,,,,,False,1,2008,AE
+1495558,Vijay Kumar,IND,16208,555,0.54,7,1,8,DL,Vijay Kumar,IND,,,,,False,1,2008,AE
+1495559,Jaideep Singh,MKUP,16226,350,0.34,8,1,8,DL,Jaideep Singh,MKUP,,,,,False,1,2008,AE
+1495560,Nagendra Sharma,RAM,16229,297,0.29,9,1,8,DL,Nagendra Sharma,RAM,,,,,False,1,2008,AE
+1495561,Md. Yasin Khan,IND,16208,251,0.24,10,1,8,DL,Md. Yasin Khan,IND,,,,,False,1,2008,AE
+1495562,Prem Narayan,IND,16208,209,0.2,11,1,8,DL,Prem Narayan,IND,,,,,False,1,2008,AE
+1495563,Lal Chand,LPSP,16230,198,0.19,12,1,8,DL,Lal Chand,LPSP,,,,,False,1,2008,AE
+1495564,Raj Kumar Parihar,IND,16208,192,0.19,13,1,8,DL,Raj Kumar Parihar,IND,,,,,False,1,2008,AE
+1495565,Mahavir,AIFB,16231,190,0.18,14,1,8,DL,Mahavir,AIFB,,,,,False,1,2008,AE
+1495566,Vikrant Kapoor,SHS,16220,179,0.17,15,1,8,DL,Vikrant Kapoor,SHS,,,,,False,1,2008,AE
+1495567,Md. Mehraj,UPUDF,16232,178,0.17,16,1,8,DL,Md. Mehraj,UPUDF,,,,,False,1,2008,AE
+1495568,Anil Jha,BJP,16207,30005,32.73,1,1,9,DL,Anil Jha,BJP,,,,,False,1,2008,AE
+1495569,Pushpraj,NCP,16214,20481,22.34,2,1,9,DL,Pushpraj,NCP,,,,,False,1,2008,AE
+1495570,Shabnam,INC,16205,15472,16.88,3,1,9,DL,Shabnam,INC,,,,,False,1,2008,AE
+1495571,Ram Pal Singh,BSP,16206,10633,11.6,4,1,9,DL,Ram Pal Singh,BSP,,,,,False,1,2008,AE
+1495572,Raj Pal,IND,16208,4981,5.43,5,1,9,DL,Raj Pal,IND,,,,,False,1,2008,AE
+1495573,Shrikant Singh Yadav,RJD,16210,2092,2.28,6,1,9,DL,Shrikant Singh Yadav,RJD,,,,,False,1,2008,AE
+1495574,Jugbir Singh,IND,16208,1907,2.08,7,1,9,DL,Jugbir Singh,IND,,,,,False,1,2008,AE
+1495575,Vijay Kumar,LPSP,16230,813,0.89,8,1,9,DL,Vijay Kumar,LPSP,,,,,False,1,2008,AE
+1495576,Kaptan Singh,RSMD,16233,674,0.74,9,1,9,DL,Kaptan Singh,RSMD,,,,,False,1,2008,AE
+1495577,Shubh Karan,SP,16212,589,0.64,10,1,9,DL,Shubh Karan,SP,,,,,False,1,2008,AE
+1495578,Hoti Lal,IND,16208,563,0.61,11,1,9,DL,Hoti Lal,IND,,,,,False,1,2008,AE
+1495579,Rakesh Kumar Pandey,LJP,16209,510,0.56,12,1,9,DL,Rakesh Kumar Pandey,LJP,,,,,False,1,2008,AE
+1495580,Jasim,ASP,16234,495,0.54,13,1,9,DL,Jasim,ASP,,,,,False,1,2008,AE
+1495581,Maharaj Singh,BVP,16235,417,0.45,14,1,9,DL,Maharaj Singh,BVP,,,,,False,1,2008,AE
+1495582,Meera Gautam,BSKP,16216,296,0.32,15,1,9,DL,Meera Gautam,BSKP,,,,,False,1,2008,AE
+1495583,Md Rahamat,UPUDF,16232,272,0.3,16,1,9,DL,Md Rahamat,UPUDF,,,,,False,1,2008,AE
+1495584,Awdesh Singh,AIFB,16231,259,0.28,17,1,9,DL,Awdesh Singh,AIFB,,,,,False,1,2008,AE
+1495585,Naushad Ansari,RVNP,16222,253,0.28,18,1,9,DL,Naushad Ansari,RVNP,,,,,False,1,2008,AE
+1495586,Sujat Hussain,JD(U),16215,251,0.27,19,1,9,DL,Sujat Hussain,JD(U),,,,,False,1,2008,AE
+1495587,Shiva Kant,IND,16208,239,0.26,20,1,9,DL,Shiva Kant,IND,,,,,False,1,2008,AE
+1495588,Sharwan Singh,JKNPP,16236,210,0.23,21,1,9,DL,Sharwan Singh,JKNPP,,,,,False,1,2008,AE
+1495589,Dharamvir,UNLP,16237,147,0.16,22,1,9,DL,Dharamvir,UNLP,,,,,False,1,2008,AE
+1495590,Mahabir Sah,RPI(A),16238,110,0.12,23,1,9,DL,Mahabir Sah,RPI(A),,,,,False,1,2008,AE
+1495591,Jai Kishan,INC,16205,39542,48.19,1,1,10,DL,Jai Kishan,INC,,,,,False,1,2008,AE
+1495592,Nand Ram Bagri,BJP,16207,20867,25.43,2,1,10,DL,Nand Ram Bagri,BJP,,,,,False,1,2008,AE
+1495593,Satya Pal Singh,BSP,16206,18559,22.62,3,1,10,DL,Satya Pal Singh,BSP,,,,,False,1,2008,AE
+1495594,Mehar Singh,ABSP,16228,737,0.9,4,1,10,DL,Mehar Singh,ABSP,,,,,False,1,2008,AE
+1495595,Sonu,IND,16208,729,0.89,5,1,10,DL,Sonu,IND,,,,,False,1,2008,AE
+1495596,Rajesh,ASP,16234,494,0.6,6,1,10,DL,Rajesh,ASP,,,,,False,1,2008,AE
+1495598,Anil Kumar,IND,16208,256,0.31,7,1,10,DL,Anil Kumar,IND,,,,,False,1,2008,AE
+1495597,Geeta,RPI(A),16238,256,0.31,7,1,10,DL,Geeta,RPI(A),,,,,False,1,2008,AE
+1495599,Zile Singh Ranga,SP,16212,253,0.31,9,1,10,DL,Zile Singh Ranga,SP,,,,,False,1,2008,AE
+1495600,Pappu Sagar,IND,16208,223,0.27,10,1,10,DL,Pappu Sagar,IND,,,,,False,1,2008,AE
+1495601,Rajender Khatik,IJP,16217,131,0.16,11,1,10,DL,Rajender Khatik,IJP,,,,,False,1,2008,AE
+1495602,Bijender Singh,INC,16205,48009,50.65,1,1,11,DL,Bijender Singh,INC,,,,,False,1,2008,AE
+1495603,Raj Singh,BJP,16207,30449,32.12,2,1,11,DL,Raj Singh,BJP,,,,,False,1,2008,AE
+1495604,Naresh Goel,BSP,16206,13568,14.31,3,1,11,DL,Naresh Goel,BSP,,,,,False,1,2008,AE
+1495605,Sunil Kumar,IND,16208,657,0.69,4,1,11,DL,Sunil Kumar,IND,,,,,False,1,2008,AE
+1495606,Uday Veer Singh,LJP,16209,608,0.64,5,1,11,DL,Uday Veer Singh,LJP,,,,,False,1,2008,AE
+1495607,Kuldeep Singh Yadav,IND,16208,445,0.47,6,1,11,DL,Kuldeep Singh Yadav,IND,,,,,False,1,2008,AE
+1495608,Chhater Pal Rathore,SP,16212,284,0.3,7,1,11,DL,Chhater Pal Rathore,SP,,,,,False,1,2008,AE
+1495609,Manish Gupta,SHS,16220,235,0.25,8,1,11,DL,Manish Gupta,SHS,,,,,False,1,2008,AE
+1495610,Kamal Singh,IND,16208,187,0.2,9,1,11,DL,Kamal Singh,IND,,,,,False,1,2008,AE
+1495611,Anuj,IND,16208,172,0.18,10,1,11,DL,Anuj,IND,,,,,False,1,2008,AE
+1495612,Om Krishan,JKNPP,16236,170,0.18,11,1,11,DL,Om Krishan,JKNPP,,,,,False,1,2008,AE
+1495613,Raj Kumar Chauhan,INC,16205,50448,54.41,1,1,12,DL,Raj Kumar Chauhan,INC,,,,,False,1,2008,AE
+1495614,Yogesh Aatray,BJP,16207,20585,22.2,2,1,12,DL,Yogesh Aatray,BJP,,,,,False,1,2008,AE
+1495615,Mukesh Kumar Ahlawat,BSP,16206,19971,21.54,3,1,12,DL,Mukesh Kumar Ahlawat,BSP,,,,,False,1,2008,AE
+1495616,Sanjay Bharti,IND,16208,818,0.88,4,1,12,DL,Sanjay Bharti,IND,,,,,False,1,2008,AE
+1495617,Nand Kumar Paswan,IND,16208,622,0.67,5,1,12,DL,Nand Kumar Paswan,IND,,,,,False,1,2008,AE
+1495618,Sheesh Pal,IND,16208,268,0.29,6,1,12,DL,Sheesh Pal,IND,,,,,False,1,2008,AE
+1495619,Jai Bhagwan Aggarwal,BJP,16207,55793,62.56,1,1,13,DL,Jai Bhagwan Aggarwal,BJP,,,,,False,1,2008,AE
+1495620,Vijender Jindal,INC,16205,30019,33.66,2,1,13,DL,Vijender Jindal,INC,,,,,False,1,2008,AE
+1495621,O.P.Malhotra,BSP,16206,2293,2.57,3,1,13,DL,O.P.Malhotra,BSP,,,,,False,1,2008,AE
+1495622,Labhu Ram Garg,IND,16208,402,0.45,4,1,13,DL,Labhu Ram Garg,IND,,,,,False,1,2008,AE
+1495623,Jhankar Priye,SHS,16220,332,0.37,5,1,13,DL,Jhankar Priye,SHS,,,,,False,1,2008,AE
+1495624,Sanjay Singh,BJSH,16239,243,0.27,6,1,13,DL,Sanjay Singh,BJSH,,,,,False,1,2008,AE
+1495625,Naresh Kumar Goyal,IND,16208,107,0.12,7,1,13,DL,Naresh Kumar Goyal,IND,,,,,False,1,2008,AE
+1495626,Ravinder Nath Bansal,BJP,16207,49976,57.63,1,1,14,DL,Ravinder Nath Bansal,BJP,,,,,False,1,2008,AE
+1495627,Ram Kailash Gupta,INC,16205,30044,34.65,2,1,14,DL,Ram Kailash Gupta,INC,,,,,False,1,2008,AE
+1495628,Mukesh Rajore,BSP,16206,5102,5.88,3,1,14,DL,Mukesh Rajore,BSP,,,,,False,1,2008,AE
+1495629,Savita,IND,16208,456,0.53,4,1,14,DL,Savita,IND,,,,,False,1,2008,AE
+1495630,Vinod Dukhiya,ABHM,16218,309,0.36,5,1,14,DL,Vinod Dukhiya,ABHM,,,,,False,1,2008,AE
+1495631,Vinod Kumar,IND,16208,211,0.24,6,1,14,DL,Vinod Kumar,IND,,,,,False,1,2008,AE
+1495632,Jagbir Singh Bhalla,IND,16208,173,0.2,7,1,14,DL,Jagbir Singh Bhalla,IND,,,,,False,1,2008,AE
+1495633,Ved Prakash Singhal,RWS,16213,167,0.19,8,1,14,DL,Ved Prakash Singhal,RWS,,,,,False,1,2008,AE
+1495634,Basant Saini,IND,16208,163,0.19,9,1,14,DL,Basant Saini,IND,,,,,False,1,2008,AE
+1495635,Pancham,IND,16208,118,0.14,10,1,14,DL,Pancham,IND,,,,,False,1,2008,AE
+1495636,Shyam Lal Garg,BJP,16207,40444,50.2,1,1,15,DL,Shyam Lal Garg,BJP,,,,,False,1,2008,AE
+1495637,S. C. Vats,INC,16205,36444,45.23,2,1,15,DL,S. C. Vats,INC,,,,,False,1,2008,AE
+1495638,Jaideep Dass Gupta,BSP,16206,2683,3.33,3,1,15,DL,Jaideep Dass Gupta,BSP,,,,,False,1,2008,AE
+1495639,Smarti Goel,IND,16208,497,0.62,4,1,15,DL,Smarti Goel,IND,,,,,False,1,2008,AE
+1495640,Sansar Chand,IND,16208,275,0.34,5,1,15,DL,Sansar Chand,IND,,,,,False,1,2008,AE
+1495641,Sushil Jain,IND,16208,224,0.28,6,1,15,DL,Sushil Jain,IND,,,,,False,1,2008,AE
+1495642,Anil Bhardwaj,INC,16205,41891,46.26,1,1,16,DL,Anil Bhardwaj,INC,,,,,False,1,2008,AE
+1495643,Nand Kishore Garg,BJP,16207,39922,44.09,2,1,16,DL,Nand Kishore Garg,BJP,,,,,False,1,2008,AE
+1495644,Puran Mal Goel,BSP,16206,5075,5.6,3,1,16,DL,Puran Mal Goel,BSP,,,,,False,1,2008,AE
+1495645,Lalit Kumar Sharma,SP,16212,1547,1.71,4,1,16,DL,Lalit Kumar Sharma,SP,,,,,False,1,2008,AE
+1495646,Sunder Singh Khari,BJSH,16239,461,0.51,5,1,16,DL,Sunder Singh Khari,BJSH,,,,,False,1,2008,AE
+1495647,Sanjay Kumar Gautam,IND,16208,299,0.33,6,1,16,DL,Sanjay Kumar Gautam,IND,,,,,False,1,2008,AE
+1495648,Jai Bhagwan,IND,16208,291,0.32,7,1,16,DL,Jai Bhagwan,IND,,,,,False,1,2008,AE
+1495649,Raj Kumar,NCP,16214,254,0.28,8,1,16,DL,Raj Kumar,NCP,,,,,False,1,2008,AE
+1495650,Sheela Devi,IND,16208,239,0.26,9,1,16,DL,Sheela Devi,IND,,,,,False,1,2008,AE
+1495651,Anuj Kumar Singh,LJP,16209,235,0.26,10,1,16,DL,Anuj Kumar Singh,LJP,,,,,False,1,2008,AE
+1495652,Babu Lal,IND,16208,138,0.15,11,1,16,DL,Babu Lal,IND,,,,,False,1,2008,AE
+1495653,Anil Kumar,IND,16208,78,0.09,12,1,16,DL,Anil Kumar,IND,,,,,False,1,2008,AE
+1495654,Anil Kumar,IND,16208,71,0.08,13,1,16,DL,Anil Kumar,IND,,,,,False,1,2008,AE
+1495655,Om Parkash,IND,16208,46,0.05,14,1,16,DL,Om Parkash,IND,,,,,False,1,2008,AE
+1495656,Hari Shanker Gupta,INC,16205,39977,45.07,1,1,17,DL,Hari Shanker Gupta,INC,,,,,False,1,2008,AE
+1495657,Mange Ram Garg,BJP,16207,36837,41.53,2,1,17,DL,Mange Ram Garg,BJP,,,,,False,1,2008,AE
+1495658,Janesh Kumar Bhadana,BSP,16206,9199,10.37,3,1,17,DL,Janesh Kumar Bhadana,BSP,,,,,False,1,2008,AE
+1495659,Inderjeet Yadav,RJD,16210,860,0.97,4,1,17,DL,Inderjeet Yadav,RJD,,,,,False,1,2008,AE
+1495660,Sunil Kumar,IND,16208,668,0.75,5,1,17,DL,Sunil Kumar,IND,,,,,False,1,2008,AE
+1495661,Ram Avadh,IND,16208,437,0.49,6,1,17,DL,Ram Avadh,IND,,,,,False,1,2008,AE
+1495662,Yogesh,IND,16208,183,0.21,7,1,17,DL,Yogesh,IND,,,,,False,1,2008,AE
+1495663,Yoginder,IND,16208,170,0.19,8,1,17,DL,Yoginder,IND,,,,,False,1,2008,AE
+1495664,Ravi Jain,IND,16208,151,0.17,9,1,17,DL,Ravi Jain,IND,,,,,False,1,2008,AE
+1495665,Munna Ram,IND,16208,130,0.15,10,1,17,DL,Munna Ram,IND,,,,,False,1,2008,AE
+1495666,Dharam Pal,IND,16208,95,0.11,11,1,17,DL,Dharam Pal,IND,,,,,False,1,2008,AE
+1495667,Kanwar Karan Singh,INC,16205,39935,46.87,1,1,18,DL,Kanwar Karan Singh,INC,,,,,False,1,2008,AE
+1495668,Bhola Nath Vij,BJP,16207,36938,43.36,2,1,18,DL,Bhola Nath Vij,BJP,,,,,False,1,2008,AE
+1495669,Solomon George,BSP,16206,6388,7.5,3,1,18,DL,Solomon George,BSP,,,,,False,1,2008,AE
+1495670,Sahansar Pal,IND,16208,586,0.69,4,1,18,DL,Sahansar Pal,IND,,,,,False,1,2008,AE
+1495671,Satya Narayain Yadav,SP,16212,333,0.39,5,1,18,DL,Satya Narayain Yadav,SP,,,,,False,1,2008,AE
+1495672,Javed Aalam Khan,LJP,16209,223,0.26,6,1,18,DL,Javed Aalam Khan,LJP,,,,,False,1,2008,AE
+1495674,Sunil Tiwari,MBP,16224,222,0.26,7,1,18,DL,Sunil Tiwari,MBP,,,,,False,1,2008,AE
+1495673,Jai Veer,RALP,16240,222,0.26,7,1,18,DL,Jai Veer,RALP,,,,,False,1,2008,AE
+1495675,Vinod Kumar,IND,16208,201,0.24,9,1,18,DL,Vinod Kumar,IND,,,,,False,1,2008,AE
+1495676,Manoj Kaushik,IND,16208,75,0.09,10,1,18,DL,Manoj Kaushik,IND,,,,,False,1,2008,AE
+1495677,Baij Nath Singh,IND,16208,74,0.09,11,1,18,DL,Baij Nath Singh,IND,,,,,False,1,2008,AE
+1495678,Rajesh Jain,INC,16205,47508,53.44,1,1,19,DL,Rajesh Jain,INC,,,,,False,1,2008,AE
+1495679,Jai Prakash,BJP,16207,33419,37.59,2,1,19,DL,Jai Prakash,BJP,,,,,False,1,2008,AE
+1495680,Rajendra Kumar Prajapti,BSP,16206,5004,5.63,3,1,19,DL,Rajendra Kumar Prajapti,BSP,,,,,False,1,2008,AE
+1495681,Ganga Singh,SP,16212,776,0.87,4,1,19,DL,Ganga Singh,SP,,,,,False,1,2008,AE
+1495682,Raj Kumar,NCP,16214,454,0.51,5,1,19,DL,Raj Kumar,NCP,,,,,False,1,2008,AE
+1495683,Shakil Ahmed,IND,16208,446,0.5,6,1,19,DL,Shakil Ahmed,IND,,,,,False,1,2008,AE
+1495684,Prahlad,IND,16208,295,0.33,7,1,19,DL,Prahlad,IND,,,,,False,1,2008,AE
+1495685,Mohd.Gulab,LJP,16209,278,0.31,8,1,19,DL,Mohd.Gulab,LJP,,,,,False,1,2008,AE
+1495686,Ramesh Kumar,JKNPP,16236,162,0.18,9,1,19,DL,Ramesh Kumar,JKNPP,,,,,False,1,2008,AE
+1495687,Asif Ali,IND,16208,120,0.13,10,1,19,DL,Asif Ali,IND,,,,,False,1,2008,AE
+1495688,Vipin Sharma,IND,16208,99,0.11,11,1,19,DL,Vipin Sharma,IND,,,,,False,1,2008,AE
+1495689,Brij Mohan,IND,16208,95,0.11,12,1,19,DL,Brij Mohan,IND,,,,,False,1,2008,AE
+1495690,Avinash Puri,IND,16208,83,0.09,13,1,19,DL,Avinash Puri,IND,,,,,False,1,2008,AE
+1495691,Kamal Singh,IND,16208,80,0.09,14,1,19,DL,Kamal Singh,IND,,,,,False,1,2008,AE
+1495692,Naveen Kumar Jain,IJP,16217,76,0.09,15,1,19,DL,Naveen Kumar Jain,IJP,,,,,False,1,2008,AE
+1495693,Parlad Singh Sawhney,INC,16205,28207,45.61,1,1,20,DL,Parlad Singh Sawhney,INC,,,,,False,1,2008,AE
+1495694,Praveen Khandelwal,BJP,16207,20188,32.64,2,1,20,DL,Praveen Khandelwal,BJP,,,,,False,1,2008,AE
+1495695,Khurrum Iqbal,LJP,16209,9966,16.12,3,1,20,DL,Khurrum Iqbal,LJP,,,,,False,1,2008,AE
+1495696,Mohd Mushtaq Khan,BSP,16206,2054,3.32,4,1,20,DL,Mohd Mushtaq Khan,BSP,,,,,False,1,2008,AE
+1495697,Sunil Kumar,IND,16208,211,0.34,5,1,20,DL,Sunil Kumar,IND,,,,,False,1,2008,AE
+1495698,Abdul Rais,RPI(A),16238,210,0.34,6,1,20,DL,Abdul Rais,RPI(A),,,,,False,1,2008,AE
+1495699,Chetan Taank,ABHM,16218,184,0.3,7,1,20,DL,Chetan Taank,ABHM,,,,,False,1,2008,AE
+1495700,Harjeet Singh Lamba,SP,16212,139,0.22,8,1,20,DL,Harjeet Singh Lamba,SP,,,,,False,1,2008,AE
+1495701,Balram Bari,IND,16208,133,0.22,9,1,20,DL,Balram Bari,IND,,,,,False,1,2008,AE
+1495702,Ajay Mittal,IND,16208,120,0.19,10,1,20,DL,Ajay Mittal,IND,,,,,False,1,2008,AE
+1495703,Salim Sahraji,IND,16208,101,0.16,11,1,20,DL,Salim Sahraji,IND,,,,,False,1,2008,AE
+1495704,Dev Raj,IND,16208,83,0.13,12,1,20,DL,Dev Raj,IND,,,,,False,1,2008,AE
+1495705,Nasreen Isaq Malik,AIMF,16241,82,0.13,13,1,20,DL,Nasreen Isaq Malik,AIMF,,,,,False,1,2008,AE
+1495706,Mohd Sami,IND,16208,68,0.11,14,1,20,DL,Mohd Sami,IND,,,,,False,1,2008,AE
+1495707,Khurshed Bano Khan,IND,16208,58,0.09,15,1,20,DL,Khurshed Bano Khan,IND,,,,,False,1,2008,AE
+1495708,Anil Anand,IND,16208,39,0.06,16,1,20,DL,Anil Anand,IND,,,,,False,1,2008,AE
+1495709,Shoaib Iqbal,LJP,16209,25474,39.56,1,1,21,DL,Shoaib Iqbal,LJP,,,,,False,1,2008,AE
+1495710,Mehmood Zia,INC,16205,17870,27.75,2,1,21,DL,Mehmood Zia,INC,,,,,False,1,2008,AE
+1495711,Abhey Singh Yadav,BSP,16206,11714,18.19,3,1,21,DL,Abhey Singh Yadav,BSP,,,,,False,1,2008,AE
+1495712,Talat Sultana,BJP,16207,6015,9.34,4,1,21,DL,Talat Sultana,BJP,,,,,False,1,2008,AE
+1495713,Mohd. Shafiq,IND,16208,814,1.26,5,1,21,DL,Mohd. Shafiq,IND,,,,,False,1,2008,AE
+1495714,Puran Chand,NCP,16214,436,0.68,6,1,21,DL,Puran Chand,NCP,,,,,False,1,2008,AE
+1495715,Nasiruddin,RPI(A),16238,334,0.52,7,1,21,DL,Nasiruddin,RPI(A),,,,,False,1,2008,AE
+1495716,Rukhsana,AIMF,16241,322,0.5,8,1,21,DL,Rukhsana,AIMF,,,,,False,1,2008,AE
+1495717,Ikramuddin,JD(U),16215,273,0.42,9,1,21,DL,Ikramuddin,JD(U),,,,,False,1,2008,AE
+1495718,Smt. Chander Kanta,IND,16208,267,0.41,10,1,21,DL,Smt. Chander Kanta,IND,,,,,False,1,2008,AE
+1495719,Satish Kumar Dhawan,IND,16208,137,0.21,11,1,21,DL,Satish Kumar Dhawan,IND,,,,,False,1,2008,AE
+1495720,Jaini Prasad,IND,16208,132,0.21,12,1,21,DL,Jaini Prasad,IND,,,,,False,1,2008,AE
+1495721,Hafizul Haque,IND,16208,121,0.19,13,1,21,DL,Hafizul Haque,IND,,,,,False,1,2008,AE
+1495722,Sibghat Ullah,IND,16208,117,0.18,14,1,21,DL,Sibghat Ullah,IND,,,,,False,1,2008,AE
+1495723,Tariq Mirza,JKNPP,16236,88,0.14,15,1,21,DL,Tariq Mirza,JKNPP,,,,,False,1,2008,AE
+1495724,Ganga Ram,IJP,16217,76,0.12,16,1,21,DL,Ganga Ram,IJP,,,,,False,1,2008,AE
+1495725,Mahendra,RHC,16242,73,0.11,17,1,21,DL,Mahendra,RHC,,,,,False,1,2008,AE
+1495726,Gurdeep Singh Chawla,SP,16212,69,0.11,18,1,21,DL,Gurdeep Singh Chawla,SP,,,,,False,1,2008,AE
+1495727,Vikram Singh,IND,16208,57,0.09,19,1,21,DL,Vikram Singh,IND,,,,,False,1,2008,AE
+1495728,Haroon Yasuf,INC,16205,34660,42.08,1,1,22,DL,Haroon Yasuf,INC,,,,,False,1,2008,AE
+1495729,Moti Lal Sodhi,BJP,16207,28423,34.51,2,1,22,DL,Moti Lal Sodhi,BJP,,,,,False,1,2008,AE
+1495730,Mushrafin,BSP,16206,10331,12.54,3,1,22,DL,Mushrafin,BSP,,,,,False,1,2008,AE
+1495731,Ubead Iqbal,LJP,16209,6490,7.88,4,1,22,DL,Ubead Iqbal,LJP,,,,,False,1,2008,AE
+1495732,Md.Sabauddin,RJD,16210,810,0.98,5,1,22,DL,Md.Sabauddin,RJD,,,,,False,1,2008,AE
+1495733,Waseem Qureshi,IND,16208,408,0.5,6,1,22,DL,Waseem Qureshi,IND,,,,,False,1,2008,AE
+1495734,Ajay Kumar,ABHM,16218,373,0.45,7,1,22,DL,Ajay Kumar,ABHM,,,,,False,1,2008,AE
+1495735,Noor Jahan,AIMF,16241,159,0.19,8,1,22,DL,Noor Jahan,AIMF,,,,,False,1,2008,AE
+1495736,Rajender Kumar,SP,16212,156,0.19,9,1,22,DL,Rajender Kumar,SP,,,,,False,1,2008,AE
+1495737,Rakesh Kumar,IND,16208,150,0.18,10,1,22,DL,Rakesh Kumar,IND,,,,,False,1,2008,AE
+1495738,Mohd. Abdullah,IND,16208,140,0.17,11,1,22,DL,Mohd. Abdullah,IND,,,,,False,1,2008,AE
+1495739,Shafiq Khan,MBP,16224,138,0.17,12,1,22,DL,Shafiq Khan,MBP,,,,,False,1,2008,AE
+1495740,Faiemuddin,IJP,16217,126,0.15,13,1,22,DL,Faiemuddin,IJP,,,,,False,1,2008,AE
+1495741,Surender Pal Ratawal,BJP,16207,38746,45.71,1,1,23,DL,Surender Pal Ratawal,BJP,,,,,False,1,2008,AE
+1495742,Madan Khorwal,INC,16205,35338,41.69,2,1,23,DL,Madan Khorwal,INC,,,,,False,1,2008,AE
+1495743,Veena Singh,BSP,16206,7555,8.91,3,1,23,DL,Veena Singh,BSP,,,,,False,1,2008,AE
+1495744,Nathu Prasad,CPM,16243,1496,1.77,4,1,23,DL,Nathu Prasad,CPM,,,,,False,1,2008,AE
+1495745,Ram Babu,IND,16208,429,0.51,5,1,23,DL,Ram Babu,IND,,,,,False,1,2008,AE
+1495746,Rajesh Kumar Gihara,NCP,16214,375,0.44,6,1,23,DL,Rajesh Kumar Gihara,NCP,,,,,False,1,2008,AE
+1495747,Gyan Chand,LJP,16209,312,0.37,7,1,23,DL,Gyan Chand,LJP,,,,,False,1,2008,AE
+1495748,Vijay Kumar,AIMF,16241,208,0.25,8,1,23,DL,Vijay Kumar,AIMF,,,,,False,1,2008,AE
+1495749,Yogesh,IND,16208,167,0.2,9,1,23,DL,Yogesh,IND,,,,,False,1,2008,AE
+1495750,Madan Lal Suryawanshi,IND,16208,130,0.15,10,1,23,DL,Madan Lal Suryawanshi,IND,,,,,False,1,2008,AE
+1495751,Rajesh Lilothia,INC,16205,44022,50.43,1,1,24,DL,Rajesh Lilothia,INC,,,,,False,1,2008,AE
+1495752,Anita Arya,BJP,16207,34516,39.54,2,1,24,DL,Anita Arya,BJP,,,,,False,1,2008,AE
+1495753,Madan Lal,BSP,16206,6846,7.84,3,1,24,DL,Madan Lal,BSP,,,,,False,1,2008,AE
+1495754,Sunil Pawar,IND,16208,665,0.76,4,1,24,DL,Sunil Pawar,IND,,,,,False,1,2008,AE
+1495755,Ghanshyam Morwal,DBP,16244,487,0.56,5,1,24,DL,Ghanshyam Morwal,DBP,,,,,False,1,2008,AE
+1495756,Dr.Banarsi Dass,IND,16208,186,0.21,6,1,24,DL,Dr.Banarsi Dass,IND,,,,,False,1,2008,AE
+1495757,Madan Lal,IND,16208,166,0.19,7,1,24,DL,Madan Lal,IND,,,,,False,1,2008,AE
+1495758,Rita,IND,16208,130,0.15,8,1,24,DL,Rita,IND,,,,,False,1,2008,AE
+1495759,Puran Chand Gautam,IND,16208,97,0.11,9,1,24,DL,Puran Chand Gautam,IND,,,,,False,1,2008,AE
+1495760,Dayanand,IJP,16217,91,0.1,10,1,24,DL,Dayanand,IJP,,,,,False,1,2008,AE
+1495761,Kiran Kumar,IND,16208,84,0.1,11,1,24,DL,Kiran Kumar,IND,,,,,False,1,2008,AE
+1495762,Subhash Sachdeva,BJP,16207,46616,54.49,1,1,25,DL,Subhash Sachdeva,BJP,,,,,False,1,2008,AE
+1495763,Anjali Rai,INC,16205,31619,36.96,2,1,25,DL,Anjali Rai,INC,,,,,False,1,2008,AE
+1495764,Virender Kumar Mahajan,BSP,16206,4823,5.64,3,1,25,DL,Virender Kumar Mahajan,BSP,,,,,False,1,2008,AE
+1495765,Lal Babu Pandey,SP,16212,512,0.6,4,1,25,DL,Lal Babu Pandey,SP,,,,,False,1,2008,AE
+1495766,Abdul Waheed,LJP,16209,460,0.54,5,1,25,DL,Abdul Waheed,LJP,,,,,False,1,2008,AE
+1495767,Sanjeev Gupta,IND,16208,381,0.45,6,1,25,DL,Sanjeev Gupta,IND,,,,,False,1,2008,AE
+1495768,Mathuresh Lal,IND,16208,223,0.26,7,1,25,DL,Mathuresh Lal,IND,,,,,False,1,2008,AE
+1495769,Manish Kumar Sharma,IND,16208,203,0.24,8,1,25,DL,Manish Kumar Sharma,IND,,,,,False,1,2008,AE
+1495770,Sunita Devi,IND,16208,181,0.21,9,1,25,DL,Sunita Devi,IND,,,,,False,1,2008,AE
+1495771,Mumtaj,IND,16208,170,0.2,10,1,25,DL,Mumtaj,IND,,,,,False,1,2008,AE
+1495772,Feku Ram,RSMD,16233,112,0.13,11,1,25,DL,Feku Ram,RSMD,,,,,False,1,2008,AE
+1495773,Rakesh Sharma,IND,16208,110,0.13,12,1,25,DL,Rakesh Sharma,IND,,,,,False,1,2008,AE
+1495774,Charanjeev Mehta,IND,16208,77,0.09,13,1,25,DL,Charanjeev Mehta,IND,,,,,False,1,2008,AE
+1495775,Amit Dutt,IND,16208,59,0.07,14,1,25,DL,Amit Dutt,IND,,,,,False,1,2008,AE
+1495776,Mala Ram Gangwal,INC,16205,40698,48.75,1,1,26,DL,Mala Ram Gangwal,INC,,,,,False,1,2008,AE
+1495777,Kailash Sankla,BJP,16207,32166,38.53,2,1,26,DL,Kailash Sankla,BJP,,,,,False,1,2008,AE
+1495778,Mohan Lal,BSP,16206,9337,11.18,3,1,26,DL,Mohan Lal,BSP,,,,,False,1,2008,AE
+1495779,Mala Ram,IND,16208,649,0.78,4,1,26,DL,Mala Ram,IND,,,,,False,1,2008,AE
+1495780,Nirmala,IND,16208,392,0.47,5,1,26,DL,Nirmala,IND,,,,,False,1,2008,AE
+1495781,Deepak Kumar,IND,16208,241,0.29,6,1,26,DL,Deepak Kumar,IND,,,,,False,1,2008,AE
+1495782,A Daya Nand Chandela A,INC,16205,31130,37.58,1,1,27,DL,A Daya Nand Chandela A,INC,,,,,False,1,2008,AE
+1495783,Avtar Singh Hit,SAD(M),16245,31084,37.53,2,1,27,DL,Avtar Singh Hit,SAD(M),,,,,False,1,2008,AE
+1495784,Duli Chand,NCP,16214,15434,18.63,3,1,27,DL,Duli Chand,NCP,,,,,False,1,2008,AE
+1495785,Shamsher Singh Mehendi,BSP,16206,1563,1.89,4,1,27,DL,Shamsher Singh Mehendi,BSP,,,,,False,1,2008,AE
+1495786,Vinod Sharma,IND,16208,1469,1.77,5,1,27,DL,Vinod Sharma,IND,,,,,False,1,2008,AE
+1495787,Balbir Singh Bir,IND,16208,240,0.29,6,1,27,DL,Balbir Singh Bir,IND,,,,,False,1,2008,AE
+1495788,Nawab Singh,IND,16208,227,0.27,7,1,27,DL,Nawab Singh,IND,,,,,False,1,2008,AE
+1495789,Bahar Miya,RAM,16229,220,0.27,8,1,27,DL,Bahar Miya,RAM,,,,,False,1,2008,AE
+1495790,Rajindar Kumar,IND,16208,205,0.25,9,1,27,DL,Rajindar Kumar,IND,,,,,False,1,2008,AE
+1495791,Sarabjeet Singh,IND,16208,203,0.25,10,1,27,DL,Sarabjeet Singh,IND,,,,,False,1,2008,AE
+1495792,Amarjeet Kaur,BPC,16227,169,0.2,11,1,27,DL,Amarjeet Kaur,BPC,,,,,False,1,2008,AE
+1495793,Amit Chandela,IND,16208,124,0.15,12,1,27,DL,Amit Chandela,IND,,,,,False,1,2008,AE
+1495794,Daljeet Singh,IND,16208,115,0.14,13,1,27,DL,Daljeet Singh,IND,,,,,False,1,2008,AE
+1495795,Kuldeep Singh Anand,IND,16208,107,0.13,14,1,27,DL,Kuldeep Singh Anand,IND,,,,,False,1,2008,AE
+1495796,Bhagwan Dass,HRS,16246,98,0.12,15,1,27,DL,Bhagwan Dass,HRS,,,,,False,1,2008,AE
+1495797,Avtar Singh Diwan,IND,16208,86,0.1,16,1,27,DL,Avtar Singh Diwan,IND,,,,,False,1,2008,AE
+1495798,Jai Prakash Dhiman,IND,16208,80,0.1,17,1,27,DL,Jai Prakash Dhiman,IND,,,,,False,1,2008,AE
+1495799,Jai Prakash Lohia,IND,16208,69,0.08,18,1,27,DL,Jai Prakash Lohia,IND,,,,,False,1,2008,AE
+1495800,Gajendra Yadav,IND,16208,61,0.07,19,1,27,DL,Gajendra Yadav,IND,,,,,False,1,2008,AE
+1495801,Om Prakash,IND,16208,54,0.07,20,1,27,DL,Om Prakash,IND,,,,,False,1,2008,AE
+1495802,Vijender,IND,16208,50,0.06,21,1,27,DL,Vijender,IND,,,,,False,1,2008,AE
+1495803,Rasid Khan,IND,16208,45,0.05,22,1,27,DL,Rasid Khan,IND,,,,,False,1,2008,AE
+1495804,Harsharan Singh Balli,BJP,16207,51364,62.67,1,1,28,DL,Harsharan Singh Balli,BJP,,,,,False,1,2008,AE
+1495805,Ramesh Lamba,INC,16205,22606,27.58,2,1,28,DL,Ramesh Lamba,INC,,,,,False,1,2008,AE
+1495806,Prem Sharma,BSP,16206,6464,7.89,3,1,28,DL,Prem Sharma,BSP,,,,,False,1,2008,AE
+1495807,Sumit Chugh,IND,16208,401,0.49,4,1,28,DL,Sumit Chugh,IND,,,,,False,1,2008,AE
+1495808,Feroz Khan,JD(U),16215,287,0.35,5,1,28,DL,Feroz Khan,JD(U),,,,,False,1,2008,AE
+1495809,Rajinder Singh,IND,16208,212,0.26,6,1,28,DL,Rajinder Singh,IND,,,,,False,1,2008,AE
+1495810,Jasvinder Singh,IND,16208,198,0.24,7,1,28,DL,Jasvinder Singh,IND,,,,,False,1,2008,AE
+1495811,Satish Kapoor,IND,16208,175,0.21,8,1,28,DL,Satish Kapoor,IND,,,,,False,1,2008,AE
+1495812,Gurpreet Singh,IND,16208,133,0.16,9,1,28,DL,Gurpreet Singh,IND,,,,,False,1,2008,AE
+1495813,Chandra Prakash,IND,16208,114,0.14,10,1,28,DL,Chandra Prakash,IND,,,,,False,1,2008,AE
+1495814,O P Babbar,BJP,16207,38320,52.33,1,1,29,DL,O P Babbar,BJP,,,,,False,1,2008,AE
+1495815,Dr. Anita Babbar,INC,16205,26202,35.78,2,1,29,DL,Dr. Anita Babbar,INC,,,,,False,1,2008,AE
+1495816,Ajit Singh Chadha,IND,16208,4031,5.5,3,1,29,DL,Ajit Singh Chadha,IND,,,,,False,1,2008,AE
+1495817,Arvinder Singh Maken,BSP,16206,2580,3.52,4,1,29,DL,Arvinder Singh Maken,BSP,,,,,False,1,2008,AE
+1495818,Herry Gulati,IND,16208,486,0.66,5,1,29,DL,Herry Gulati,IND,,,,,False,1,2008,AE
+1495819,Surender Yadav,IND,16208,380,0.52,6,1,29,DL,Surender Yadav,IND,,,,,False,1,2008,AE
+1495820,Jai Bhagwan,MBP,16224,274,0.37,7,1,29,DL,Jai Bhagwan,MBP,,,,,False,1,2008,AE
+1495821,Anita Babbar,IND,16208,206,0.28,8,1,29,DL,Anita Babbar,IND,,,,,False,1,2008,AE
+1495822,Shiv Kumar Tyagi,IND,16208,196,0.27,9,1,29,DL,Shiv Kumar Tyagi,IND,,,,,False,1,2008,AE
+1495823,Sudha Popli,IND,16208,155,0.21,10,1,29,DL,Sudha Popli,IND,,,,,False,1,2008,AE
+1495824,Dinesh Jain,IND,16208,148,0.2,11,1,29,DL,Dinesh Jain,IND,,,,,False,1,2008,AE
+1495825,Kuldeep Singh Anand,IND,16208,114,0.16,12,1,29,DL,Kuldeep Singh Anand,IND,,,,,False,1,2008,AE
+1495826,Gurvinder Kaur,IND,16208,79,0.11,13,1,29,DL,Gurvinder Kaur,IND,,,,,False,1,2008,AE
+1495827,Deepak Gupta,IND,16208,61,0.08,14,1,29,DL,Deepak Gupta,IND,,,,,False,1,2008,AE
+1495828,Prof Jagdish Mukhi,BJP,16207,50655,57.15,1,1,30,DL,Prof Jagdish Mukhi,BJP,,,,,False,1,2008,AE
+1495829,Deepak Arora,INC,16205,33203,37.46,2,1,30,DL,Deepak Arora,INC,,,,,False,1,2008,AE
+1495830,Prem Chand Deswal,BSP,16206,2857,3.22,3,1,30,DL,Prem Chand Deswal,BSP,,,,,False,1,2008,AE
+1495831,Shiv Kumar,IND,16208,522,0.59,4,1,30,DL,Shiv Kumar,IND,,,,,False,1,2008,AE
+1495832,Bharat Prasad,IND,16208,454,0.51,5,1,30,DL,Bharat Prasad,IND,,,,,False,1,2008,AE
+1495833,Aamir Anjum,SP,16212,441,0.5,6,1,30,DL,Aamir Anjum,SP,,,,,False,1,2008,AE
+1495834,Baljit Singh,IND,16208,163,0.18,7,1,30,DL,Baljit Singh,IND,,,,,False,1,2008,AE
+1495835,Deepak Arora,IND,16208,141,0.16,8,1,30,DL,Deepak Arora,IND,,,,,False,1,2008,AE
+1495836,Harish Chandra Joshi,ABHM,16218,106,0.12,9,1,30,DL,Harish Chandra Joshi,ABHM,,,,,False,1,2008,AE
+1495837,Sirajuddin Khan,LJP,16209,99,0.11,10,1,30,DL,Sirajuddin Khan,LJP,,,,,False,1,2008,AE
+1495838,Nand Kishore,INC,16205,47819,34.96,1,1,31,DL,Nand Kishore,INC,,,,,False,1,2008,AE
+1495839,Krishan Gahlot,BJP,16207,46876,34.27,2,1,31,DL,Krishan Gahlot,BJP,,,,,False,1,2008,AE
+1495840,Ashok Kumar Lakra,BSP,16206,16765,12.26,3,1,31,DL,Ashok Kumar Lakra,BSP,,,,,False,1,2008,AE
+1495841,Sanjay Singh,IND,16208,9634,7.04,4,1,31,DL,Sanjay Singh,IND,,,,,False,1,2008,AE
+1495842,Ravinder Singh,IND,16208,7158,5.23,5,1,31,DL,Ravinder Singh,IND,,,,,False,1,2008,AE
+1495843,Brij Bhushan,NCP,16214,2687,1.96,6,1,31,DL,Brij Bhushan,NCP,,,,,False,1,2008,AE
+1495844,Shiv Prasad,IND,16208,1045,0.76,7,1,31,DL,Shiv Prasad,IND,,,,,False,1,2008,AE
+1495845,Itwari,SP,16212,1035,0.76,8,1,31,DL,Itwari,SP,,,,,False,1,2008,AE
+1495846,Sunil Kumar,IND,16208,780,0.57,9,1,31,DL,Sunil Kumar,IND,,,,,False,1,2008,AE
+1495847,Prem Verma,IND,16208,537,0.39,10,1,31,DL,Prem Verma,IND,,,,,False,1,2008,AE
+1495848,Shushil Kumar Sharma,IND,16208,385,0.28,11,1,31,DL,Shushil Kumar Sharma,IND,,,,,False,1,2008,AE
+1495849,Virender Kumar,IND,16208,383,0.28,12,1,31,DL,Virender Kumar,IND,,,,,False,1,2008,AE
+1495850,Satish Kumar,IND,16208,291,0.21,13,1,31,DL,Satish Kumar,IND,,,,,False,1,2008,AE
+1495851,Vinod Kumar,IND,16208,271,0.2,14,1,31,DL,Vinod Kumar,IND,,,,,False,1,2008,AE
+1495852,Bishan Singh,IND,16208,238,0.17,15,1,31,DL,Bishan Singh,IND,,,,,False,1,2008,AE
+1495853,Mahender Kumar,BJSH,16239,205,0.15,16,1,31,DL,Mahender Kumar,BJSH,,,,,False,1,2008,AE
+1495854,Dilbag Singh,IND,16208,186,0.14,17,1,31,DL,Dilbag Singh,IND,,,,,False,1,2008,AE
+1495855,Inderjeet Verma,IND,16208,184,0.13,18,1,31,DL,Inderjeet Verma,IND,,,,,False,1,2008,AE
+1495856,Bhopal Singh,ABHM,16218,148,0.11,19,1,31,DL,Bhopal Singh,ABHM,,,,,False,1,2008,AE
+1495857,Jitender Singh,RSMD,16233,147,0.11,20,1,31,DL,Jitender Singh,RSMD,,,,,False,1,2008,AE
+1495858,Mukesh Sharma,INC,16205,46765,46.03,1,1,32,DL,Mukesh Sharma,INC,,,,,False,1,2008,AE
+1495859,Pawan Sharma,BJP,16207,39582,38.96,2,1,32,DL,Pawan Sharma,BJP,,,,,False,1,2008,AE
+1495860,Rajender Bhardwaj,NCP,16214,8064,7.94,3,1,32,DL,Rajender Bhardwaj,NCP,,,,,False,1,2008,AE
+1495861,Om Prakash Jain,BSP,16206,5071,4.99,4,1,32,DL,Om Prakash Jain,BSP,,,,,False,1,2008,AE
+1495862,Raj Bala,IND,16208,524,0.52,5,1,32,DL,Raj Bala,IND,,,,,False,1,2008,AE
+1495863,Ramesh Kumar Jain,IND,16208,386,0.38,6,1,32,DL,Ramesh Kumar Jain,IND,,,,,False,1,2008,AE
+1495864,Naveen Kumar,IND,16208,243,0.24,7,1,32,DL,Naveen Kumar,IND,,,,,False,1,2008,AE
+1495865,M R Sharma,SP,16212,205,0.2,8,1,32,DL,M R Sharma,SP,,,,,False,1,2008,AE
+1495866,Prem Chand Prajapati,IJP,16217,194,0.19,9,1,32,DL,Prem Chand Prajapati,IJP,,,,,False,1,2008,AE
+1495867,Ziley Singh,IND,16208,145,0.14,10,1,32,DL,Ziley Singh,IND,,,,,False,1,2008,AE
+1495868,Kishan Lal Verma,RTKP,16247,142,0.14,11,1,32,DL,Kishan Lal Verma,RTKP,,,,,False,1,2008,AE
+1495869,Sita Sharma,LJP,16209,109,0.11,12,1,32,DL,Sita Sharma,LJP,,,,,False,1,2008,AE
+1495870,Om Bir,IND,16208,94,0.09,13,1,32,DL,Om Bir,IND,,,,,False,1,2008,AE
+1495871,Shobha Kaushik,BPC,16227,78,0.08,14,1,32,DL,Shobha Kaushik,BPC,,,,,False,1,2008,AE
+1495872,Mahabal Mishra,INC,16205,43608,52.33,1,1,33,DL,Mahabal Mishra,INC,,,,,False,1,2008,AE
+1495873,Parduymn Rajput,BJP,16207,29627,35.56,2,1,33,DL,Parduymn Rajput,BJP,,,,,False,1,2008,AE
+1495874,Babu Ram,BSP,16206,7806,9.37,3,1,33,DL,Babu Ram,BSP,,,,,False,1,2008,AE
+1495875,Mukesh Kumar,CPM,16243,553,0.66,4,1,33,DL,Mukesh Kumar,CPM,,,,,False,1,2008,AE
+1495876,Subhash Kumar,IND,16208,400,0.48,5,1,33,DL,Subhash Kumar,IND,,,,,False,1,2008,AE
+1495877,Jogendra Singh,RJD,16210,350,0.42,6,1,33,DL,Jogendra Singh,RJD,,,,,False,1,2008,AE
+1495878,Kapil Kumar,SP,16212,225,0.27,7,1,33,DL,Kapil Kumar,SP,,,,,False,1,2008,AE
+1495879,Rajesh Sinha,IND,16208,159,0.19,8,1,33,DL,Rajesh Sinha,IND,,,,,False,1,2008,AE
+1495880,Mukesh Kumar,IND,16208,150,0.18,9,1,33,DL,Mukesh Kumar,IND,,,,,False,1,2008,AE
+1495881,Om Prakash Indora,IND,16208,125,0.15,10,1,33,DL,Om Prakash Indora,IND,,,,,False,1,2008,AE
+1495882,Ramesh Kumar Hotla,IND,16208,120,0.14,11,1,33,DL,Ramesh Kumar Hotla,IND,,,,,False,1,2008,AE
+1495883,Bishnu Pathak,LJP,16209,76,0.09,12,1,33,DL,Bishnu Pathak,LJP,,,,,False,1,2008,AE
+1495884,Mukesh Kumar,IND,16208,69,0.08,13,1,33,DL,Mukesh Kumar,IND,,,,,False,1,2008,AE
+1495885,Anil Kumar Singh,IND,16208,57,0.07,14,1,33,DL,Anil Kumar Singh,IND,,,,,False,1,2008,AE
+1495886,Sumesh,INC,16205,52411,40.14,1,1,34,DL,Sumesh,INC,,,,,False,1,2008,AE
+1495887,Kamal Jeet,BJP,16207,45782,35.06,2,1,34,DL,Kamal Jeet,BJP,,,,,False,1,2008,AE
+1495888,Manoj Bhardwaj,BSP,16206,19442,14.89,3,1,34,DL,Manoj Bhardwaj,BSP,,,,,False,1,2008,AE
+1495889,Rao Satvir Singh,IND,16208,8883,6.8,4,1,34,DL,Rao Satvir Singh,IND,,,,,False,1,2008,AE
+1495890,Nidhi Mahajan,BRSP,16248,1224,0.94,5,1,34,DL,Nidhi Mahajan,BRSP,,,,,False,1,2008,AE
+1495891,Anita,SP,16212,911,0.7,6,1,34,DL,Anita,SP,,,,,False,1,2008,AE
+1495892,Ranjeet Singh,LJP,16209,350,0.27,7,1,34,DL,Ranjeet Singh,LJP,,,,,False,1,2008,AE
+1495893,Rao Ramanand,IND,16208,270,0.21,8,1,34,DL,Rao Ramanand,IND,,,,,False,1,2008,AE
+1495894,Randhir Singh,IND,16208,269,0.21,9,1,34,DL,Randhir Singh,IND,,,,,False,1,2008,AE
+1495895,O P Sharma,IND,16208,236,0.18,10,1,34,DL,O P Sharma,IND,,,,,False,1,2008,AE
+1495896,Mohamad Manjoor,IND,16208,236,0.18,10,1,34,DL,Mohamad Manjoor,IND,,,,,False,1,2008,AE
+1495897,Rajesh Kumar Dubey,VAJP,16249,171,0.13,12,1,34,DL,Rajesh Kumar Dubey,VAJP,,,,,False,1,2008,AE
+1495898,Anil Jindal,IND,16208,148,0.11,13,1,34,DL,Anil Jindal,IND,,,,,False,1,2008,AE
+1495899,Mans Raj Tyagi,IND,16208,129,0.1,14,1,34,DL,Mans Raj Tyagi,IND,,,,,False,1,2008,AE
+1495900,Pooran Singh,IND,16208,107,0.08,15,1,34,DL,Pooran Singh,IND,,,,,False,1,2008,AE
+1495901,Bharat Singh,IND,16208,34028,33.25,1,1,35,DL,Bharat Singh,IND,,,,,False,1,2008,AE
+1495902,Kanwal Singh Yadav,INC,16205,22575,22.06,2,1,35,DL,Kanwal Singh Yadav,INC,,,,,False,1,2008,AE
+1495903,Bijander Dutt,BSP,16206,18164,17.75,3,1,35,DL,Bijander Dutt,BSP,,,,,False,1,2008,AE
+1495904,Rajesh Sharma,BJP,16207,13576,13.27,4,1,35,DL,Rajesh Sharma,BJP,,,,,False,1,2008,AE
+1495905,Ranbir Singh Kharb,IND,16208,11620,11.36,5,1,35,DL,Ranbir Singh Kharb,IND,,,,,False,1,2008,AE
+1495906,Shyam Kumar,IND,16208,585,0.57,6,1,35,DL,Shyam Kumar,IND,,,,,False,1,2008,AE
+1495907,Ramphal Shaokin,IND,16208,541,0.53,7,1,35,DL,Ramphal Shaokin,IND,,,,,False,1,2008,AE
+1495908,Dinesh Kumar,IND,16208,255,0.25,8,1,35,DL,Dinesh Kumar,IND,,,,,False,1,2008,AE
+1495909,Raghunandan Sharma,IND,16208,252,0.25,9,1,35,DL,Raghunandan Sharma,IND,,,,,False,1,2008,AE
+1495910,Om Prakash Singh,SP,16212,215,0.21,10,1,35,DL,Om Prakash Singh,SP,,,,,False,1,2008,AE
+1495911,Vedpal Singh,IND,16208,210,0.21,11,1,35,DL,Vedpal Singh,IND,,,,,False,1,2008,AE
+1495912,Raj Kumar,IND,16208,137,0.13,12,1,35,DL,Raj Kumar,IND,,,,,False,1,2008,AE
+1495913,Krishan Kumar,ABSP,16228,105,0.1,13,1,35,DL,Krishan Kumar,ABSP,,,,,False,1,2008,AE
+1495914,Jitender Kumar,IND,16208,65,0.06,14,1,35,DL,Jitender Kumar,IND,,,,,False,1,2008,AE
+1495915,Sat Prakash Rana,BJP,16207,27427,41.33,1,1,36,DL,Sat Prakash Rana,BJP,,,,,False,1,2008,AE
+1495916,Vijay Singh Lochav,INC,16205,25422,38.31,2,1,36,DL,Vijay Singh Lochav,INC,,,,,False,1,2008,AE
+1495917,Vinod Kumar Yadav,BSP,16206,12506,18.84,3,1,36,DL,Vinod Kumar Yadav,BSP,,,,,False,1,2008,AE
+1495918,Harvinder Rana,IND,16208,642,0.97,4,1,36,DL,Harvinder Rana,IND,,,,,False,1,2008,AE
+1495919,Suresh Chand,LJP,16209,370,0.56,5,1,36,DL,Suresh Chand,LJP,,,,,False,1,2008,AE
+1495920,Dharam Dev Solanki,BJP,16207,40712,44.12,1,1,37,DL,Dharam Dev Solanki,BJP,,,,,False,1,2008,AE
+1495921,Mahender Yadav,INC,16205,28119,30.47,2,1,37,DL,Mahender Yadav,INC,,,,,False,1,2008,AE
+1495922,Madan Mohan,BSP,16206,21014,22.77,3,1,37,DL,Madan Mohan,BSP,,,,,False,1,2008,AE
+1495923,Bhairav Dutt Dhyani,CPI,16223,659,0.71,4,1,37,DL,Bhairav Dutt Dhyani,CPI,,,,,False,1,2008,AE
+1495924,Mahesh Kumar,IND,16208,600,0.65,5,1,37,DL,Mahesh Kumar,IND,,,,,False,1,2008,AE
+1495925,Chanchal Sharma,SAP,16250,349,0.38,6,1,37,DL,Chanchal Sharma,SAP,,,,,False,1,2008,AE
+1495926,Mohar Pal Sankhla,LJP,16209,307,0.33,7,1,37,DL,Mohar Pal Sankhla,LJP,,,,,False,1,2008,AE
+1495927,Pawan Kumar,IND,16208,259,0.28,8,1,37,DL,Pawan Kumar,IND,,,,,False,1,2008,AE
+1495928,Deepak Kumar,RJAP,16251,258,0.28,9,1,37,DL,Deepak Kumar,RJAP,,,,,False,1,2008,AE
+1495929,Karan Singh Tanwar,BJP,16207,23696,55.58,1,1,38,DL,Karan Singh Tanwar,BJP,,,,,False,1,2008,AE
+1495930,Ashok Ahuja,INC,16205,16435,38.55,2,1,38,DL,Ashok Ahuja,INC,,,,,False,1,2008,AE
+1495931,Shrichand Chauhan,BSP,16206,1492,3.5,3,1,38,DL,Shrichand Chauhan,BSP,,,,,False,1,2008,AE
+1495932,Sandeep,IND,16208,278,0.65,4,1,38,DL,Sandeep,IND,,,,,False,1,2008,AE
+1495933,Sanjay Mangal,IND,16208,136,0.32,5,1,38,DL,Sanjay Mangal,IND,,,,,False,1,2008,AE
+1495934,Bal Kumar Singh,IJP,16217,113,0.27,6,1,38,DL,Bal Kumar Singh,IJP,,,,,False,1,2008,AE
+1495935,Ishwar Singh Jakhar,RRD,16252,91,0.21,7,1,38,DL,Ishwar Singh Jakhar,RRD,,,,,False,1,2008,AE
+1495936,Vinod Kumar,IND,16208,73,0.17,8,1,38,DL,Vinod Kumar,IND,,,,,False,1,2008,AE
+1495937,Anita Raj Sharma,NSCP,16253,69,0.16,9,1,38,DL,Anita Raj Sharma,NSCP,,,,,False,1,2008,AE
+1495938,Prem Ravi,IND,16208,61,0.14,10,1,38,DL,Prem Ravi,IND,,,,,False,1,2008,AE
+1495939,Ramesh Lohia,IND,16208,42,0.1,11,1,38,DL,Ramesh Lohia,IND,,,,,False,1,2008,AE
+1495940,Naresh Kumar,IND,16208,37,0.09,12,1,38,DL,Naresh Kumar,IND,,,,,False,1,2008,AE
+1495941,Ravinder Kumar Tanwar,IND,16208,35,0.08,13,1,38,DL,Ravinder Kumar Tanwar,IND,,,,,False,1,2008,AE
+1495942,Bhupender Rohila,IND,16208,31,0.07,14,1,38,DL,Bhupender Rohila,IND,,,,,False,1,2008,AE
+1495943,Yoginder Singh,IND,16208,24,0.06,15,1,38,DL,Yoginder Singh,IND,,,,,False,1,2008,AE
+1495944,Tanvir Singh Dhama,IND,16208,20,0.05,16,1,38,DL,Tanvir Singh Dhama,IND,,,,,False,1,2008,AE
+1495945,Rama Kant Goswami,INC,16205,29394,40.78,1,1,39,DL,Rama Kant Goswami,INC,,,,,False,1,2008,AE
+1495946,Asha Yogi,BJP,16207,23988,33.28,2,1,39,DL,Asha Yogi,BJP,,,,,False,1,2008,AE
+1495947,Trilok Chand Sharma,BSP,16206,15871,22.02,3,1,39,DL,Trilok Chand Sharma,BSP,,,,,False,1,2008,AE
+1495948,Bhagwan Das,NCP,16214,1344,1.86,4,1,39,DL,Bhagwan Das,NCP,,,,,False,1,2008,AE
+1495949,Sanjay Sehrawat,IND,16208,540,0.75,5,1,39,DL,Sanjay Sehrawat,IND,,,,,False,1,2008,AE
+1495950,Chhote Lal,RSBP,16254,261,0.36,6,1,39,DL,Chhote Lal,RSBP,,,,,False,1,2008,AE
+1495951,Mahender Ram,IND,16208,215,0.3,7,1,39,DL,Mahender Ram,IND,,,,,False,1,2008,AE
+1495952,Sanjeev Kumar,IDP,16255,130,0.18,8,1,39,DL,Sanjeev Kumar,IDP,,,,,False,1,2008,AE
+1495953,Sanjay Kumar,SP,16212,123,0.17,9,1,39,DL,Sanjay Kumar,SP,,,,,False,1,2008,AE
+1495954,August Dagar,IND,16208,91,0.13,10,1,39,DL,August Dagar,IND,,,,,False,1,2008,AE
+1495955,Bhoj Kumar,JKNPP,16236,68,0.09,11,1,39,DL,Bhoj Kumar,JKNPP,,,,,False,1,2008,AE
+1495956,Jitender Singh,ABHM,16218,52,0.07,12,1,39,DL,Jitender Singh,ABHM,,,,,False,1,2008,AE
+1495957,Sheila Dikshit,INC,16205,39778,52.2,1,1,40,DL,Sheila Dikshit,INC,,,,,False,1,2008,AE
+1495958,Vijay Jolly,BJP,16207,25796,33.85,2,1,40,DL,Vijay Jolly,BJP,,,,,False,1,2008,AE
+1495959,Rajiv Singh,BSP,16206,6179,8.11,3,1,40,DL,Rajiv Singh,BSP,,,,,False,1,2008,AE
+1495960,Brij Mohan Upreti,IND,16208,879,1.15,4,1,40,DL,Brij Mohan Upreti,IND,,,,,False,1,2008,AE
+1495961,Ramanand Madhwal,IND,16208,666,0.87,5,1,40,DL,Ramanand Madhwal,IND,,,,,False,1,2008,AE
+1495962,Om Prakash,SP,16212,498,0.65,6,1,40,DL,Om Prakash,SP,,,,,False,1,2008,AE
+1495963,Harsh Malhotra,JKNPP,16236,355,0.47,7,1,40,DL,Harsh Malhotra,JKNPP,,,,,False,1,2008,AE
+1495964,Anita Singh,RKJP,16256,298,0.39,8,1,40,DL,Anita Singh,RKJP,,,,,False,1,2008,AE
+1495965,Prithvi Chandra Baitha,IND,16208,188,0.25,9,1,40,DL,Prithvi Chandra Baitha,IND,,,,,False,1,2008,AE
+1495966,Hariom Sharma,IND,16208,179,0.23,10,1,40,DL,Hariom Sharma,IND,,,,,False,1,2008,AE
+1495967,Nirupma Sharma,IND,16208,178,0.23,11,1,40,DL,Nirupma Sharma,IND,,,,,False,1,2008,AE
+1495968,Mukesh Kumar Saxena,ABHM,16218,174,0.23,12,1,40,DL,Mukesh Kumar Saxena,ABHM,,,,,False,1,2008,AE
+1495969,Kusum Bahl,IND,16208,133,0.17,13,1,40,DL,Kusum Bahl,IND,,,,,False,1,2008,AE
+1495970,Pradeep Kumar Singh,LJP,16209,122,0.16,14,1,40,DL,Pradeep Kumar Singh,LJP,,,,,False,1,2008,AE
+1495971,Ved Pal Shastri,IND,16208,98,0.13,15,1,40,DL,Ved Pal Shastri,IND,,,,,False,1,2008,AE
+1495972,Lila Devi,JD(U),16215,95,0.12,16,1,40,DL,Lila Devi,JD(U),,,,,False,1,2008,AE
+1495973,Shakeel Ahmed,RBCP,16257,89,0.12,17,1,40,DL,Shakeel Ahmed,RBCP,,,,,False,1,2008,AE
+1495974,Abhishek Kumar Rao,LKPT,16258,77,0.1,18,1,40,DL,Abhishek Kumar Rao,LKPT,,,,,False,1,2008,AE
+1495975,Mohamad Tahir,AIMF,16241,76,0.1,19,1,40,DL,Mohamad Tahir,AIMF,,,,,False,1,2008,AE
+1495976,Niraja Jha,RVNP,16222,67,0.09,20,1,40,DL,Niraja Jha,RVNP,,,,,False,1,2008,AE
+1495977,Priti Vadera,IND,16208,63,0.08,21,1,40,DL,Priti Vadera,IND,,,,,False,1,2008,AE
+1495978,Lakshmi Bhardwaj,IND,16208,60,0.08,22,1,40,DL,Lakshmi Bhardwaj,IND,,,,,False,1,2008,AE
+1495979,Kalpana Gupta,RPI(A),16238,57,0.07,23,1,40,DL,Kalpana Gupta,RPI(A),,,,,False,1,2008,AE
+1495980,Karam Chand Lathwal,BPC,16227,53,0.07,24,1,40,DL,Karam Chand Lathwal,BPC,,,,,False,1,2008,AE
+1495981,Nimmi Sayyed,NJD,16259,45,0.06,25,1,40,DL,Nimmi Sayyed,NJD,,,,,False,1,2008,AE
+1495982,Tarvinder Singh Marwah,INC,16205,37261,57.0,1,1,41,DL,Tarvinder Singh Marwah,INC,,,,,False,1,2008,AE
+1495983,Manjinder Singh Sirsa,BJP,16207,23310,35.66,2,1,41,DL,Manjinder Singh Sirsa,BJP,,,,,False,1,2008,AE
+1495984,Gaje Singh,BSP,16206,3192,4.88,3,1,41,DL,Gaje Singh,BSP,,,,,False,1,2008,AE
+1495985,Haseen Ahmed Siddiqi,LJP,16209,559,0.86,4,1,41,DL,Haseen Ahmed Siddiqi,LJP,,,,,False,1,2008,AE
+1495986,Praveen Kumar Jain,IND,16208,394,0.6,5,1,41,DL,Praveen Kumar Jain,IND,,,,,False,1,2008,AE
+1495987,Vijay Kumar Sharma,BPD,16260,162,0.25,6,1,41,DL,Vijay Kumar Sharma,BPD,,,,,False,1,2008,AE
+1495988,Md.Kaleem,RPI(A),16238,157,0.24,7,1,41,DL,Md.Kaleem,RPI(A),,,,,False,1,2008,AE
+1495989,Laxmi,UWF,16261,124,0.19,8,1,41,DL,Laxmi,UWF,,,,,False,1,2008,AE
+1495990,Pushpa Devi,LPSP,16230,114,0.17,9,1,41,DL,Pushpa Devi,LPSP,,,,,False,1,2008,AE
+1495991,Suresh Gupta,IJP,16217,101,0.15,10,1,41,DL,Suresh Gupta,IJP,,,,,False,1,2008,AE
+1495992,Neeraj Basoya,INC,16205,33807,44.4,1,1,42,DL,Neeraj Basoya,INC,,,,,False,1,2008,AE
+1495993,Sushil Choudhary,BJP,16207,31323,41.13,2,1,42,DL,Sushil Choudhary,BJP,,,,,False,1,2008,AE
+1495994,Satish Basoya,BSP,16206,9775,12.84,3,1,42,DL,Satish Basoya,BSP,,,,,False,1,2008,AE
+1495995,Prem Babbar,SP,16212,339,0.45,4,1,42,DL,Prem Babbar,SP,,,,,False,1,2008,AE
+1495996,Suresh,IND,16208,337,0.44,5,1,42,DL,Suresh,IND,,,,,False,1,2008,AE
+1495997,Jameel Ahmad,IND,16208,197,0.26,6,1,42,DL,Jameel Ahmad,IND,,,,,False,1,2008,AE
+1495998,Manish Kathuria,IND,16208,151,0.2,7,1,42,DL,Manish Kathuria,IND,,,,,False,1,2008,AE
+1495999,Amit Mishra,IND,16208,115,0.15,8,1,42,DL,Amit Mishra,IND,,,,,False,1,2008,AE
+1496000,Dinesh Kumar,IND,16208,105,0.14,9,1,42,DL,Dinesh Kumar,IND,,,,,False,1,2008,AE
+1496001,Kiran Walia,INC,16205,31283,46.55,1,1,43,DL,Kiran Walia,INC,,,,,False,1,2008,AE
+1496002,Ram Bhaj,BJP,16207,27551,41.0,2,1,43,DL,Ram Bhaj,BJP,,,,,False,1,2008,AE
+1496003,Shri Pal Saini,BSP,16206,6832,10.17,3,1,43,DL,Shri Pal Saini,BSP,,,,,False,1,2008,AE
+1496004,Javed Farooqui,LJP,16209,352,0.52,4,1,43,DL,Javed Farooqui,LJP,,,,,False,1,2008,AE
+1496005,Rafik,IND,16208,309,0.46,5,1,43,DL,Rafik,IND,,,,,False,1,2008,AE
+1496006,Rajiv Malhotra,IND,16208,244,0.36,6,1,43,DL,Rajiv Malhotra,IND,,,,,False,1,2008,AE
+1496007,Ajit John,IND,16208,231,0.34,7,1,43,DL,Ajit John,IND,,,,,False,1,2008,AE
+1496008,Hanif Mohammad Khan,NJD,16259,218,0.32,8,1,43,DL,Hanif Mohammad Khan,NJD,,,,,False,1,2008,AE
+1496009,Rajeev Khosla,JKNPP,16236,106,0.16,9,1,43,DL,Rajeev Khosla,JKNPP,,,,,False,1,2008,AE
+1496010,Tulsi Prasad Yadav,NSCP,16253,75,0.11,10,1,43,DL,Tulsi Prasad Yadav,NSCP,,,,,False,1,2008,AE
+1496011,Barkha Singh,INC,16205,35878,53.5,1,1,44,DL,Barkha Singh,INC,,,,,False,1,2008,AE
+1496012,Radhey Shyam Sharma,BJP,16207,26561,39.6,2,1,44,DL,Radhey Shyam Sharma,BJP,,,,,False,1,2008,AE
+1496013,Kulbir Singh,BSP,16206,3298,4.92,3,1,44,DL,Kulbir Singh,BSP,,,,,False,1,2008,AE
+1496014,Raja Ram,LJP,16209,364,0.54,4,1,44,DL,Raja Ram,LJP,,,,,False,1,2008,AE
+1496015,G Sivasankaran,IND,16208,334,0.5,5,1,44,DL,G Sivasankaran,IND,,,,,False,1,2008,AE
+1496016,Satish,IND,16208,292,0.44,6,1,44,DL,Satish,IND,,,,,False,1,2008,AE
+1496017,Yamuna Chand,IND,16208,162,0.24,7,1,44,DL,Yamuna Chand,IND,,,,,False,1,2008,AE
+1496018,Suraj Bhan,RJAP,16251,113,0.17,8,1,44,DL,Suraj Bhan,RJAP,,,,,False,1,2008,AE
+1496019,Jaswant Rai Nim,IND,16208,64,0.1,9,1,44,DL,Jaswant Rai Nim,IND,,,,,False,1,2008,AE
+1496020,Dr. Yoganand Shastri,INC,16205,21740,32.83,1,1,45,DL,Dr. Yoganand Shastri,INC,,,,,False,1,2008,AE
+1496021,Sher Singh Dagar,BJP,16207,20632,31.15,2,1,45,DL,Sher Singh Dagar,BJP,,,,,False,1,2008,AE
+1496022,Satbir Singh,IND,16208,14954,22.58,3,1,45,DL,Satbir Singh,IND,,,,,False,1,2008,AE
+1496023,Ved Parkash,BSP,16206,5697,8.6,4,1,45,DL,Ved Parkash,BSP,,,,,False,1,2008,AE
+1496024,Jagdish Singh Lohia,NCP,16214,1892,2.86,5,1,45,DL,Jagdish Singh Lohia,NCP,,,,,False,1,2008,AE
+1496025,Arvind Gupta,RKJP,16256,355,0.54,6,1,45,DL,Arvind Gupta,RKJP,,,,,False,1,2008,AE
+1496026,Abdul Saleem,IND,16208,253,0.38,7,1,45,DL,Abdul Saleem,IND,,,,,False,1,2008,AE
+1496027,Sandeep Pnawar,IND,16208,167,0.25,8,1,45,DL,Sandeep Pnawar,IND,,,,,False,1,2008,AE
+1496028,Kunwar Pal Singh,NJD,16259,120,0.18,9,1,45,DL,Kunwar Pal Singh,NJD,,,,,False,1,2008,AE
+1496029,Raghunath Chauhan,RJAP,16251,119,0.18,10,1,45,DL,Raghunath Chauhan,RJAP,,,,,False,1,2008,AE
+1496030,Anju Singh,IND,16208,106,0.16,11,1,45,DL,Anju Singh,IND,,,,,False,1,2008,AE
+1496031,Shaheeda Parwin,LJP,16209,102,0.15,12,1,45,DL,Shaheeda Parwin,LJP,,,,,False,1,2008,AE
+1496032,Tribhuvan Singh,IND,16208,87,0.13,13,1,45,DL,Tribhuvan Singh,IND,,,,,False,1,2008,AE
+1496033,Balram Tanwar,INC,16205,32406,37.22,1,1,46,DL,Balram Tanwar,INC,,,,,False,1,2008,AE
+1496034,Brahm Singh Tanwar,BJP,16207,27376,31.44,2,1,46,DL,Brahm Singh Tanwar,BJP,,,,,False,1,2008,AE
+1496035,Kanwar Singh Tanwar,BSP,16206,25492,29.28,3,1,46,DL,Kanwar Singh Tanwar,BSP,,,,,False,1,2008,AE
+1496036,Hira Lal Singh,IND,16208,481,0.55,4,1,46,DL,Hira Lal Singh,IND,,,,,False,1,2008,AE
+1496037,Prem Raj,RLD,16262,440,0.51,5,1,46,DL,Prem Raj,RLD,,,,,False,1,2008,AE
+1496038,Kiran Singh,SHS,16220,241,0.28,6,1,46,DL,Kiran Singh,SHS,,,,,False,1,2008,AE
+1496039,Rafik Ahmad,IND,16208,203,0.23,7,1,46,DL,Rafik Ahmad,IND,,,,,False,1,2008,AE
+1496040,Bir Singh,IND,16208,124,0.14,8,1,46,DL,Bir Singh,IND,,,,,False,1,2008,AE
+1496041,Ch.Partap Singh Tanwar,LJP,16209,118,0.14,9,1,46,DL,Ch.Partap Singh Tanwar,LJP,,,,,False,1,2008,AE
+1496042,Ram Sirjan Bhagat,LPSP,16230,110,0.13,10,1,46,DL,Ram Sirjan Bhagat,LPSP,,,,,False,1,2008,AE
+1496043,Sanjay Singh,NJD,16259,86,0.1,11,1,46,DL,Sanjay Singh,NJD,,,,,False,1,2008,AE
+1496044,Arvinder Singh,INC,16205,41497,43.41,1,1,47,DL,Arvinder Singh,INC,,,,,False,1,2008,AE
+1496045,Shri Lal,BSP,16206,24869,26.02,2,1,47,DL,Shri Lal,BSP,,,,,False,1,2008,AE
+1496046,Bhim Singh,BJP,16207,22661,23.71,3,1,47,DL,Bhim Singh,BJP,,,,,False,1,2008,AE
+1496047,Dal Chand Kapil,LJP,16209,4758,4.98,4,1,47,DL,Dal Chand Kapil,LJP,,,,,False,1,2008,AE
+1496048,Rakesh Kumar,IND,16208,1244,1.3,5,1,47,DL,Rakesh Kumar,IND,,,,,False,1,2008,AE
+1496049,Chinki Devi,RBCP,16257,558,0.58,6,1,47,DL,Chinki Devi,RBCP,,,,,False,1,2008,AE
+1496050,Ch.Prem Singh,INC,16205,30467,43.19,1,1,48,DL,Ch.Prem Singh,INC,,,,,False,1,2008,AE
+1496051,Suresh Chand,BJP,16207,25630,36.34,2,1,48,DL,Suresh Chand,BJP,,,,,False,1,2008,AE
+1496052,Prahlad Kumar Malviya,BSP,16206,12362,17.53,3,1,48,DL,Prahlad Kumar Malviya,BSP,,,,,False,1,2008,AE
+1496053,Dalip Valmiki,LJP,16209,1264,1.79,4,1,48,DL,Dalip Valmiki,LJP,,,,,False,1,2008,AE
+1496054,Trilok,IND,16208,515,0.73,5,1,48,DL,Trilok,IND,,,,,False,1,2008,AE
+1496055,Praveen Parcha,RJAP,16251,300,0.43,6,1,48,DL,Praveen Parcha,RJAP,,,,,False,1,2008,AE
+1496056,Dr. S.C.L.Gupta,BJP,16207,20332,27.37,1,1,49,DL,Dr. S.C.L.Gupta,BJP,,,,,False,1,2008,AE
+1496057,Amod Kumar Kanth,INC,16205,16743,22.54,2,1,49,DL,Amod Kumar Kanth,INC,,,,,False,1,2008,AE
+1496058,Ranjit Singh,BSP,16206,11687,15.73,3,1,49,DL,Ranjit Singh,BSP,,,,,False,1,2008,AE
+1496059,Vir Singh,NCP,16214,10577,14.24,4,1,49,DL,Vir Singh,NCP,,,,,False,1,2008,AE
+1496060,A.K.Gupta,SP,16212,9665,13.01,5,1,49,DL,A.K.Gupta,SP,,,,,False,1,2008,AE
+1496061,Suresh Choudhary,LJP,16209,2975,4.01,6,1,49,DL,Suresh Choudhary,LJP,,,,,False,1,2008,AE
+1496062,Vijay Dua,IND,16208,424,0.57,7,1,49,DL,Vijay Dua,IND,,,,,False,1,2008,AE
+1496063,Rekha,IND,16208,360,0.48,8,1,49,DL,Rekha,IND,,,,,False,1,2008,AE
+1496064,Karan Singh Kadam,RBCP,16257,269,0.36,9,1,49,DL,Karan Singh Kadam,RBCP,,,,,False,1,2008,AE
+1496065,Md.Nasir Khan,NLHP,16221,219,0.29,10,1,49,DL,Md.Nasir Khan,NLHP,,,,,False,1,2008,AE
+1496066,Kailash Giri,IND,16208,219,0.29,10,1,49,DL,Kailash Giri,IND,,,,,False,1,2008,AE
+1496067,Mohd.Anwar Alam,IND,16208,211,0.28,12,1,49,DL,Mohd.Anwar Alam,IND,,,,,False,1,2008,AE
+1496068,Jag Prasad,IND,16208,191,0.26,13,1,49,DL,Jag Prasad,IND,,,,,False,1,2008,AE
+1496069,Bimal Gupta,IND,16208,153,0.21,14,1,49,DL,Bimal Gupta,IND,,,,,False,1,2008,AE
+1496070,Brahm Pal Singh,IJP,16217,152,0.2,15,1,49,DL,Brahm Pal Singh,IJP,,,,,False,1,2008,AE
+1496071,Mahesh Chandra Singh,JD(U),16215,104,0.14,16,1,49,DL,Mahesh Chandra Singh,JD(U),,,,,False,1,2008,AE
+1496072,Vijay Kumar Malhotra,BJP,16207,42206,52.94,1,1,50,DL,Vijay Kumar Malhotra,BJP,,,,,False,1,2008,AE
+1496073,Jitender Kumar Kocher,INC,16205,30987,38.87,2,1,50,DL,Jitender Kumar Kocher,INC,,,,,False,1,2008,AE
+1496074,Rajendra Kumar Gupta,BSP,16206,4486,5.63,3,1,50,DL,Rajendra Kumar Gupta,BSP,,,,,False,1,2008,AE
+1496075,Raju,SHS,16220,676,0.85,4,1,50,DL,Raju,SHS,,,,,False,1,2008,AE
+1496076,Jitendar Kumar Gupta,BPC,16227,322,0.4,5,1,50,DL,Jitendar Kumar Gupta,BPC,,,,,False,1,2008,AE
+1496077,Harish Bhardwaj,IND,16208,317,0.4,6,1,50,DL,Harish Bhardwaj,IND,,,,,False,1,2008,AE
+1496078,Neelam Saxena,SP,16212,219,0.27,7,1,50,DL,Neelam Saxena,SP,,,,,False,1,2008,AE
+1496079,Surya Prakash Loonker,BPD,16260,180,0.23,8,1,50,DL,Surya Prakash Loonker,BPD,,,,,False,1,2008,AE
+1496080,Chander Kala,IND,16208,173,0.22,9,1,50,DL,Chander Kala,IND,,,,,False,1,2008,AE
+1496081,Rai Anoop Prasad,NSCP,16253,80,0.1,10,1,50,DL,Rai Anoop Prasad,NSCP,,,,,False,1,2008,AE
+1496082,Sunita Chaudhary,JKNPP,16236,76,0.1,11,1,50,DL,Sunita Chaudhary,JKNPP,,,,,False,1,2008,AE
+1496083,Subhash Chopra,INC,16205,38360,51.91,1,1,51,DL,Subhash Chopra,INC,,,,,False,1,2008,AE
+1496084,Jai Gopal Abrol,BJP,16207,24971,33.79,2,1,51,DL,Jai Gopal Abrol,BJP,,,,,False,1,2008,AE
+1496085,Avinash Kaur,BSP,16206,9455,12.79,3,1,51,DL,Avinash Kaur,BSP,,,,,False,1,2008,AE
+1496086,Sushil Kumar Agarwal,IND,16208,432,0.58,4,1,51,DL,Sushil Kumar Agarwal,IND,,,,,False,1,2008,AE
+1496087,Om Prakash Abrol,IND,16208,353,0.48,5,1,51,DL,Om Prakash Abrol,IND,,,,,False,1,2008,AE
+1496088,Lavesh Kumar Gautam,IND,16208,172,0.23,6,1,51,DL,Lavesh Kumar Gautam,IND,,,,,False,1,2008,AE
+1496089,Mohd. Alam,IND,16208,161,0.22,7,1,51,DL,Mohd. Alam,IND,,,,,False,1,2008,AE
+1496090,Ramesh Bidhuri,BJP,16207,32633,40.99,1,1,52,DL,Ramesh Bidhuri,BJP,,,,,False,1,2008,AE
+1496091,Sahi Ram,BSP,16206,24399,30.65,2,1,52,DL,Sahi Ram,BSP,,,,,False,1,2008,AE
+1496092,Shish Pal Singh,INC,16205,20692,25.99,3,1,52,DL,Shish Pal Singh,INC,,,,,False,1,2008,AE
+1496093,Hans Raj Nagar,IND,16208,519,0.65,4,1,52,DL,Hans Raj Nagar,IND,,,,,False,1,2008,AE
+1496094,Munna,RBCP,16257,265,0.33,5,1,52,DL,Munna,RBCP,,,,,False,1,2008,AE
+1496095,Birju Nayak,IND,16208,228,0.29,6,1,52,DL,Birju Nayak,IND,,,,,False,1,2008,AE
+1496096,Rajeshwari Meena,IND,16208,191,0.24,7,1,52,DL,Rajeshwari Meena,IND,,,,,False,1,2008,AE
+1496097,Rekha Singh,IND,16208,154,0.19,8,1,52,DL,Rekha Singh,IND,,,,,False,1,2008,AE
+1496098,Amit Bidhuri,IND,16208,146,0.18,9,1,52,DL,Amit Bidhuri,IND,,,,,False,1,2008,AE
+1496099,Sudesh,LJP,16209,120,0.15,10,1,52,DL,Sudesh,LJP,,,,,False,1,2008,AE
+1496100,Naresh Jain,IND,16208,112,0.14,11,1,52,DL,Naresh Jain,IND,,,,,False,1,2008,AE
+1496101,Atibal Singh,IND,16208,84,0.11,12,1,52,DL,Atibal Singh,IND,,,,,False,1,2008,AE
+1496102,Prakash Chand,IND,16208,62,0.08,13,1,52,DL,Prakash Chand,IND,,,,,False,1,2008,AE
+1496103,Ram Singh Netaji,BSP,16206,53416,47.3,1,1,53,DL,Ram Singh Netaji,BSP,,,,,False,1,2008,AE
+1496104,Rambir Singh Bidhuri,INC,16205,40111,35.52,2,1,53,DL,Rambir Singh Bidhuri,INC,,,,,False,1,2008,AE
+1496105,Khem Chand,BJP,16207,15621,13.83,3,1,53,DL,Khem Chand,BJP,,,,,False,1,2008,AE
+1496106,Binod Raj Jha,LJP,16209,1262,1.12,4,1,53,DL,Binod Raj Jha,LJP,,,,,False,1,2008,AE
+1496107,Om Prakash Gupta,IND,16208,1050,0.93,5,1,53,DL,Om Prakash Gupta,IND,,,,,False,1,2008,AE
+1496108,M.S.Khan,SP,16212,744,0.66,6,1,53,DL,M.S.Khan,SP,,,,,False,1,2008,AE
+1496109,Ram Nath Sharma,RBCP,16257,478,0.42,7,1,53,DL,Ram Nath Sharma,RBCP,,,,,False,1,2008,AE
+1496110,Virender Singh,JD(U),16215,247,0.22,8,1,53,DL,Virender Singh,JD(U),,,,,False,1,2008,AE
+1496111,Parvez Hashmi,INC,16205,29303,28.53,1,1,54,DL,Parvez Hashmi,INC,,,,,False,1,2008,AE
+1496112,Asif Mohd.Khan,RJD,16210,28762,28.0,2,1,54,DL,Asif Mohd.Khan,RJD,,,,,False,1,2008,AE
+1496113,Braham Singh,BSP,16206,22064,21.48,3,1,54,DL,Braham Singh,BSP,,,,,False,1,2008,AE
+1496114,Surender Kumar,BJP,16207,14049,13.68,4,1,54,DL,Surender Kumar,BJP,,,,,False,1,2008,AE
+1496115,Wasim Ahmed Ghazi,SP,16212,4499,4.38,5,1,54,DL,Wasim Ahmed Ghazi,SP,,,,,False,1,2008,AE
+1496116,Amanat Ullah Khan,LJP,16209,699,0.68,6,1,54,DL,Amanat Ullah Khan,LJP,,,,,False,1,2008,AE
+1496117,Mohd.Kamran Siddiqui,NLHP,16221,696,0.68,7,1,54,DL,Mohd.Kamran Siddiqui,NLHP,,,,,False,1,2008,AE
+1496118,Raza Haider,CPM,16243,525,0.51,8,1,54,DL,Raza Haider,CPM,,,,,False,1,2008,AE
+1496119,Amiruddin,CPI,16223,477,0.46,9,1,54,DL,Amiruddin,CPI,,,,,False,1,2008,AE
+1496120,Chander Pal,IND,16208,364,0.35,10,1,54,DL,Chander Pal,IND,,,,,False,1,2008,AE
+1496121,Santosh Kumar,IND,16208,323,0.31,11,1,54,DL,Santosh Kumar,IND,,,,,False,1,2008,AE
+1496122,Mohammad Ayub,IND,16208,178,0.17,12,1,54,DL,Mohammad Ayub,IND,,,,,False,1,2008,AE
+1496123,Anand,IND,16208,177,0.17,13,1,54,DL,Anand,IND,,,,,False,1,2008,AE
+1496124,Syed Mohammad Mohsin,NADP,16263,156,0.15,14,1,54,DL,Syed Mohammad Mohsin,NADP,,,,,False,1,2008,AE
+1496125,M R Islam,AIMF,16241,108,0.11,15,1,54,DL,M R Islam,AIMF,,,,,False,1,2008,AE
+1496126,Mohd.Shahid,JD(U),16215,108,0.11,15,1,54,DL,Mohd.Shahid,JD(U),,,,,False,1,2008,AE
+1496127,Jamaluddin,IND,16208,97,0.09,17,1,54,DL,Jamaluddin,IND,,,,,False,1,2008,AE
+1496128,Fakhar Alam,RPI(A),16238,72,0.07,18,1,54,DL,Fakhar Alam,RPI(A),,,,,False,1,2008,AE
+1496129,Aleem,IND,16208,69,0.07,19,1,54,DL,Aleem,IND,,,,,False,1,2008,AE
+1496130,Sunil Kumar,BJP,16207,30781,37.28,1,1,55,DL,Sunil Kumar,BJP,,,,,False,1,2008,AE
+1496131,Anjana,INC,16205,30147,36.51,2,1,55,DL,Anjana,INC,,,,,False,1,2008,AE
+1496132,Ganga Ram,BSP,16206,19417,23.52,3,1,55,DL,Ganga Ram,BSP,,,,,False,1,2008,AE
+1496133,Lovekush Sagar,RPI(A),16238,665,0.81,4,1,55,DL,Lovekush Sagar,RPI(A),,,,,False,1,2008,AE
+1496134,Ajay,IND,16208,435,0.53,5,1,55,DL,Ajay,IND,,,,,False,1,2008,AE
+1496135,Prem Chand,IND,16208,393,0.48,6,1,55,DL,Prem Chand,IND,,,,,False,1,2008,AE
+1496136,Charan Dass,IND,16208,390,0.47,7,1,55,DL,Charan Dass,IND,,,,,False,1,2008,AE
+1496137,Fateh Singh,IND,16208,334,0.4,8,1,55,DL,Fateh Singh,IND,,,,,False,1,2008,AE
+1496138,Amrish Singh Gautam,INC,16205,36580,45.26,1,1,56,DL,Amrish Singh Gautam,INC,,,,,False,1,2008,AE
+1496139,Dushyant Gautam,BJP,16207,21594,26.72,2,1,56,DL,Dushyant Gautam,BJP,,,,,False,1,2008,AE
+1496140,Chander Pal Singh,BSP,16206,19903,24.63,3,1,56,DL,Chander Pal Singh,BSP,,,,,False,1,2008,AE
+1496141,Shiv Dutt,IND,16208,916,1.13,4,1,56,DL,Shiv Dutt,IND,,,,,False,1,2008,AE
+1496142,Madan Pal Singh,LJP,16209,475,0.59,5,1,56,DL,Madan Pal Singh,LJP,,,,,False,1,2008,AE
+1496143,Rajan,IND,16208,311,0.38,6,1,56,DL,Rajan,IND,,,,,False,1,2008,AE
+1496144,Kanta,JKNPP,16236,268,0.33,7,1,56,DL,Kanta,JKNPP,,,,,False,1,2008,AE
+1496145,Vijay Kumar,IND,16208,224,0.28,8,1,56,DL,Vijay Kumar,IND,,,,,False,1,2008,AE
+1496146,Madan Lal,IJP,16217,149,0.18,9,1,56,DL,Madan Lal,IJP,,,,,False,1,2008,AE
+1496147,Narender Kumar,IND,16208,143,0.18,10,1,56,DL,Narender Kumar,IND,,,,,False,1,2008,AE
+1496148,Parveen Kumar Kaim,IND,16208,136,0.17,11,1,56,DL,Parveen Kumar Kaim,IND,,,,,False,1,2008,AE
+1496149,Rajender Kumar,RPI(A),16238,117,0.14,12,1,56,DL,Rajender Kumar,RPI(A),,,,,False,1,2008,AE
+1496150,Anil Kumar,INC,16205,36999,42.4,1,1,57,DL,Anil Kumar,INC,,,,,False,1,2008,AE
+1496151,Nakul Bhardwaj,BJP,16207,36336,41.64,2,1,57,DL,Nakul Bhardwaj,BJP,,,,,False,1,2008,AE
+1496152,Madan Singh,BSP,16206,12032,13.79,3,1,57,DL,Madan Singh,BSP,,,,,False,1,2008,AE
+1496153,Shashi Kumar,CPI,16223,613,0.7,4,1,57,DL,Shashi Kumar,CPI,,,,,False,1,2008,AE
+1496154,Parmod,IND,16208,462,0.53,5,1,57,DL,Parmod,IND,,,,,False,1,2008,AE
+1496155,Krishan Kamal,NCP,16214,310,0.36,6,1,57,DL,Krishan Kamal,NCP,,,,,False,1,2008,AE
+1496156,Jaiveer Chaudhary,SP,16212,248,0.28,7,1,57,DL,Jaiveer Chaudhary,SP,,,,,False,1,2008,AE
+1496157,Shyamji Rai,ABHM,16218,101,0.12,8,1,57,DL,Shyamji Rai,ABHM,,,,,False,1,2008,AE
+1496158,Gopal Lal Sharma,IND,16208,92,0.11,9,1,57,DL,Gopal Lal Sharma,IND,,,,,False,1,2008,AE
+1496159,Sher Mohammed,JD(U),16215,74,0.08,10,1,57,DL,Sher Mohammed,JD(U),,,,,False,1,2008,AE
+1496160,Dr. Ashok Kumar Walia,INC,16205,54252,59.58,1,1,58,DL,Dr. Ashok Kumar Walia,INC,,,,,False,1,2008,AE
+1496161,Murari Singh Panwar,BJP,16207,31855,34.99,2,1,58,DL,Murari Singh Panwar,BJP,,,,,False,1,2008,AE
+1496162,Avinash Sharma,BSP,16206,3527,3.87,3,1,58,DL,Avinash Sharma,BSP,,,,,False,1,2008,AE
+1496163,Yashoda Rani,IND,16208,374,0.41,4,1,58,DL,Yashoda Rani,IND,,,,,False,1,2008,AE
+1496164,Omvir Singh Yadav,SP,16212,305,0.33,5,1,58,DL,Omvir Singh Yadav,SP,,,,,False,1,2008,AE
+1496165,Raju Prasad Gupta,RLD,16262,257,0.28,6,1,58,DL,Raju Prasad Gupta,RLD,,,,,False,1,2008,AE
+1496166,Gulzar Ahmad,IND,16208,168,0.18,7,1,58,DL,Gulzar Ahmad,IND,,,,,False,1,2008,AE
+1496167,Kanta,UPUDF,16232,125,0.14,8,1,58,DL,Kanta,UPUDF,,,,,False,1,2008,AE
+1496168,Om Prakash Singh,IND,16208,97,0.11,9,1,58,DL,Om Prakash Singh,IND,,,,,False,1,2008,AE
+1496169,Vinay Kumar Sharma,JD(U),16215,91,0.1,10,1,58,DL,Vinay Kumar Sharma,JD(U),,,,,False,1,2008,AE
+1496170,Naseeb Singh,INC,16205,48805,51.09,1,1,59,DL,Naseeb Singh,INC,,,,,False,1,2008,AE
+1496171,Om Prakash Sharma,BJP,16207,39176,41.01,2,1,59,DL,Om Prakash Sharma,BJP,,,,,False,1,2008,AE
+1496172,Narendra Kumar Pandey,BSP,16206,5823,6.1,3,1,59,DL,Narendra Kumar Pandey,BSP,,,,,False,1,2008,AE
+1496173,Deepak Gupta,DBP,16244,528,0.55,4,1,59,DL,Deepak Gupta,DBP,,,,,False,1,2008,AE
+1496174,Sudesh Kumar Jain,IND,16208,350,0.37,5,1,59,DL,Sudesh Kumar Jain,IND,,,,,False,1,2008,AE
+1496175,Ram Kumar,IND,16208,172,0.18,6,1,59,DL,Ram Kumar,IND,,,,,False,1,2008,AE
+1496176,Kamar Ahmad,IND,16208,144,0.15,7,1,59,DL,Kamar Ahmad,IND,,,,,False,1,2008,AE
+1496177,Ram Singh,IND,16208,143,0.15,8,1,59,DL,Ram Singh,IND,,,,,False,1,2008,AE
+1496178,Mohd Shah,IND,16208,92,0.1,9,1,59,DL,Mohd Shah,IND,,,,,False,1,2008,AE
+1496179,Sanjay Sharma,RSSHP,16264,89,0.09,10,1,59,DL,Sanjay Sharma,RSSHP,,,,,False,1,2008,AE
+1496180,Mahender Kumar,SHS,16220,86,0.09,11,1,59,DL,Mahender Kumar,SHS,,,,,False,1,2008,AE
+1496181,Brahmjit,IND,16208,68,0.07,12,1,59,DL,Brahmjit,IND,,,,,False,1,2008,AE
+1496182,Girjesh Bahadur Singh,IND,16208,51,0.05,13,1,59,DL,Girjesh Bahadur Singh,IND,,,,,False,1,2008,AE
+1496183,Harsh Vardhan,BJP,16207,47852,45.5,1,1,60,DL,Harsh Vardhan,BJP,,,,,False,1,2008,AE
+1496184,Deepika Khullar,INC,16205,44648,42.45,2,1,60,DL,Deepika Khullar,INC,,,,,False,1,2008,AE
+1496185,Kamruddin,BSP,16206,10018,9.53,3,1,60,DL,Kamruddin,BSP,,,,,False,1,2008,AE
+1496186,Chandan Lal Premi,CPI,16223,703,0.67,4,1,60,DL,Chandan Lal Premi,CPI,,,,,False,1,2008,AE
+1496187,Radha Yadav Advocate,BJSH,16239,359,0.34,5,1,60,DL,Radha Yadav Advocate,BJSH,,,,,False,1,2008,AE
+1496188,Monika Mahajan,IND,16208,337,0.32,6,1,60,DL,Monika Mahajan,IND,,,,,False,1,2008,AE
+1496189,Sanjay Kumar Gupta,IND,16208,294,0.28,7,1,60,DL,Sanjay Kumar Gupta,IND,,,,,False,1,2008,AE
+1496190,Suraj Prakash,IND,16208,215,0.2,8,1,60,DL,Suraj Prakash,IND,,,,,False,1,2008,AE
+1496191,Ved Prakash Gupta,RWS,16213,121,0.12,9,1,60,DL,Ved Prakash Gupta,RWS,,,,,False,1,2008,AE
+1496192,Balwant Singh Parwana,IND,16208,103,0.1,10,1,60,DL,Balwant Singh Parwana,IND,,,,,False,1,2008,AE
+1496193,Prafulla Chander Mohan,IND,16208,101,0.1,11,1,60,DL,Prafulla Chander Mohan,IND,,,,,False,1,2008,AE
+1496194,Mahender Kumar Jain,IND,16208,89,0.08,12,1,60,DL,Mahender Kumar Jain,IND,,,,,False,1,2008,AE
+1496195,Prithvi Pal Singh,IND,16208,81,0.08,13,1,60,DL,Prithvi Pal Singh,IND,,,,,False,1,2008,AE
+1496196,Shiv Prakash Tiwari,RSSHP,16264,80,0.08,14,1,60,DL,Shiv Prakash Tiwari,RSSHP,,,,,False,1,2008,AE
+1496197,Kunjesh Passi,IND,16208,52,0.05,15,1,60,DL,Kunjesh Passi,IND,,,,,False,1,2008,AE
+1496198,Irshad,IND,16208,48,0.05,16,1,60,DL,Irshad,IND,,,,,False,1,2008,AE
+1496199,Govind Sahni,IND,16208,40,0.04,17,1,60,DL,Govind Sahni,IND,,,,,False,1,2008,AE
+1496200,Mohd Islam,IND,16208,34,0.03,18,1,60,DL,Mohd Islam,IND,,,,,False,1,2008,AE
+1496201,Arvinder Singh Lovely,INC,16205,59795,64.25,1,1,61,DL,Arvinder Singh Lovely,INC,,,,,False,1,2008,AE
+1496202,Kamal Kumar Jain,BJP,16207,27870,29.94,2,1,61,DL,Kamal Kumar Jain,BJP,,,,,False,1,2008,AE
+1496203,Sanjay Gaur,BSP,16206,4024,4.32,3,1,61,DL,Sanjay Gaur,BSP,,,,,False,1,2008,AE
+1496204,Sunil Kumar,IND,16208,555,0.6,4,1,61,DL,Sunil Kumar,IND,,,,,False,1,2008,AE
+1496205,Lekh Raj,BJSH,16239,205,0.22,5,1,61,DL,Lekh Raj,BJSH,,,,,False,1,2008,AE
+1496206,Sapan Kumar Arora,LJP,16209,188,0.2,6,1,61,DL,Sapan Kumar Arora,LJP,,,,,False,1,2008,AE
+1496207,Ajay Tomar,IND,16208,166,0.18,7,1,61,DL,Ajay Tomar,IND,,,,,False,1,2008,AE
+1496208,Anjum Bharti,BSP(K),16265,135,0.15,8,1,61,DL,Anjum Bharti,BSP(K),,,,,False,1,2008,AE
+1496209,Abdul Qadir,LPI(V),16266,135,0.15,8,1,61,DL,Abdul Qadir,LPI(V),,,,,False,1,2008,AE
+1496210,Dr. Narender Nath,INC,16205,39194,44.89,1,1,62,DL,Dr. Narender Nath,INC,,,,,False,1,2008,AE
+1496211,Jitender Singh Shunty,BJP,16207,37658,43.13,2,1,62,DL,Jitender Singh Shunty,BJP,,,,,False,1,2008,AE
+1496212,Vijay Pal,BSP,16206,8104,9.28,3,1,62,DL,Vijay Pal,BSP,,,,,False,1,2008,AE
+1496213,Neelam Kumari,RJD,16210,669,0.77,4,1,62,DL,Neelam Kumari,RJD,,,,,False,1,2008,AE
+1496214,Suresh Kumar,IND,16208,427,0.49,5,1,62,DL,Suresh Kumar,IND,,,,,False,1,2008,AE
+1496215,Tahira Mirza,IND,16208,207,0.24,6,1,62,DL,Tahira Mirza,IND,,,,,False,1,2008,AE
+1496216,Mahandra Manchanda,SHS,16220,192,0.22,7,1,62,DL,Mahandra Manchanda,SHS,,,,,False,1,2008,AE
+1496217,Subhash Gahlot,VAJP,16249,176,0.2,8,1,62,DL,Subhash Gahlot,VAJP,,,,,False,1,2008,AE
+1496218,Sanjay Lohia,IND,16208,153,0.18,9,1,62,DL,Sanjay Lohia,IND,,,,,False,1,2008,AE
+1496219,Subhash Mishra,SP,16212,141,0.16,10,1,62,DL,Subhash Mishra,SP,,,,,False,1,2008,AE
+1496220,Naveen Parkash Goyal,IND,16208,125,0.14,11,1,62,DL,Naveen Parkash Goyal,IND,,,,,False,1,2008,AE
+1496221,Rangi Lal Yadav,IND,16208,117,0.13,12,1,62,DL,Rangi Lal Yadav,IND,,,,,False,1,2008,AE
+1496222,Manish Gupta,IND,16208,90,0.1,13,1,62,DL,Manish Gupta,IND,,,,,False,1,2008,AE
+1496223,Asgar Malik,IND,16208,64,0.07,14,1,62,DL,Asgar Malik,IND,,,,,False,1,2008,AE
+1496224,Veer Singh Dhingan,INC,16205,43864,49.13,1,1,63,DL,Veer Singh Dhingan,INC,,,,,False,1,2008,AE
+1496225,Chandra Pal Singh,BJP,16207,24604,27.56,2,1,63,DL,Chandra Pal Singh,BJP,,,,,False,1,2008,AE
+1496226,Lallan Prasad,BSP,16206,14823,16.6,3,1,63,DL,Lallan Prasad,BSP,,,,,False,1,2008,AE
+1496227,Raj Dulari,NLHP,16221,1714,1.92,4,1,63,DL,Raj Dulari,NLHP,,,,,False,1,2008,AE
+1496228,Mange Ram,IND,16208,979,1.1,5,1,63,DL,Mange Ram,IND,,,,,False,1,2008,AE
+1496229,Santosh Kumar,LJP,16209,940,1.05,6,1,63,DL,Santosh Kumar,LJP,,,,,False,1,2008,AE
+1496230,Devender Kumar,IDP,16255,686,0.77,7,1,63,DL,Devender Kumar,IDP,,,,,False,1,2008,AE
+1496231,Sukkan Lal,RWS,16213,675,0.76,8,1,63,DL,Sukkan Lal,RWS,,,,,False,1,2008,AE
+1496232,Dhani Ram,UNLP,16237,436,0.49,9,1,63,DL,Dhani Ram,UNLP,,,,,False,1,2008,AE
+1496233,Amardeep,IND,16208,217,0.24,10,1,63,DL,Amardeep,IND,,,,,False,1,2008,AE
+1496234,Bhagwan Sahai,IJP,16217,202,0.23,11,1,63,DL,Bhagwan Sahai,IJP,,,,,False,1,2008,AE
+1496235,Vijay Kumar,VAJP,16249,141,0.16,12,1,63,DL,Vijay Kumar,VAJP,,,,,False,1,2008,AE
+1496236,Ram Babu Sharma,INC,16205,45802,46.42,1,1,64,DL,Ram Babu Sharma,INC,,,,,False,1,2008,AE
+1496237,Alok Kumar,BJP,16207,32559,32.99,2,1,64,DL,Alok Kumar,BJP,,,,,False,1,2008,AE
+1496238,Lokesh Dixit,BSP,16206,16823,17.05,3,1,64,DL,Lokesh Dixit,BSP,,,,,False,1,2008,AE
+1496239,Laxman Dass,IND,16208,1651,1.67,4,1,64,DL,Laxman Dass,IND,,,,,False,1,2008,AE
+1496240,Jitendra Panchal,SP,16212,482,0.49,5,1,64,DL,Jitendra Panchal,SP,,,,,False,1,2008,AE
+1496241,Raju Soni,IND,16208,365,0.37,6,1,64,DL,Raju Soni,IND,,,,,False,1,2008,AE
+1496242,Gulshan Kumar Ratra,RWS,16213,266,0.27,7,1,64,DL,Gulshan Kumar Ratra,RWS,,,,,False,1,2008,AE
+1496243,R. L. Verma,RKAP,16267,209,0.21,8,1,64,DL,R. L. Verma,RKAP,,,,,False,1,2008,AE
+1496244,Rajeev Kumar,SHS,16220,151,0.15,9,1,64,DL,Rajeev Kumar,SHS,,,,,False,1,2008,AE
+1496245,Dhayan Pal Singh,AGRJP,16268,137,0.14,10,1,64,DL,Dhayan Pal Singh,AGRJP,,,,,False,1,2008,AE
+1496246,Parveen Kumar,RLD,16262,118,0.12,11,1,64,DL,Parveen Kumar,RLD,,,,,False,1,2008,AE
+1496247,Pardeep Jain,LJP,16209,116,0.12,12,1,64,DL,Pardeep Jain,LJP,,,,,False,1,2008,AE
+1496248,Chaudhary Mateen Ahmad,INC,16205,47820,54.65,1,1,65,DL,Chaudhary Mateen Ahmad,INC,,,,,False,1,2008,AE
+1496249,Sita Ram Gupta,BJP,16207,21546,24.62,2,1,65,DL,Sita Ram Gupta,BJP,,,,,False,1,2008,AE
+1496250,Hazi Afzzal,BSP,16206,13445,15.37,3,1,65,DL,Hazi Afzzal,BSP,,,,,False,1,2008,AE
+1496251,Masood Ali Khan,SP,16212,1062,1.21,4,1,65,DL,Masood Ali Khan,SP,,,,,False,1,2008,AE
+1496252,Mohd. Badrul Haq,RJD,16210,904,1.03,5,1,65,DL,Mohd. Badrul Haq,RJD,,,,,False,1,2008,AE
+1496253,Mohd. Yusuf,JD(S),16269,777,0.89,6,1,65,DL,Mohd. Yusuf,JD(S),,,,,False,1,2008,AE
+1496254,Hafiz Ahmed,IND,16208,467,0.53,7,1,65,DL,Hafiz Ahmed,IND,,,,,False,1,2008,AE
+1496255,Ayyub Ali,IND,16208,314,0.36,8,1,65,DL,Ayyub Ali,IND,,,,,False,1,2008,AE
+1496256,Saleem Khan,RPI(A),16238,226,0.26,9,1,65,DL,Saleem Khan,RPI(A),,,,,False,1,2008,AE
+1496257,Md. Sabir Siddiqi,IND,16208,209,0.24,10,1,65,DL,Md. Sabir Siddiqi,IND,,,,,False,1,2008,AE
+1496258,Aftab Ahmad,IND,16208,198,0.23,11,1,65,DL,Aftab Ahmad,IND,,,,,False,1,2008,AE
+1496259,Nasim Ahmad Hashmi,BSP(K),16265,192,0.22,12,1,65,DL,Nasim Ahmad Hashmi,BSP(K),,,,,False,1,2008,AE
+1496260,Shakir Husain,LJP,16209,169,0.19,13,1,65,DL,Shakir Husain,LJP,,,,,False,1,2008,AE
+1496261,Viqar Ahmad Khan,IND,16208,87,0.1,14,1,65,DL,Viqar Ahmad Khan,IND,,,,,False,1,2008,AE
+1496262,Shakila Begum,IND,16208,83,0.09,15,1,65,DL,Shakila Begum,IND,,,,,False,1,2008,AE
+1496263,Sahab Singh Chauhan,BJP,16207,35226,38.46,1,1,66,DL,Sahab Singh Chauhan,BJP,,,,,False,1,2008,AE
+1496264,Bheeshma Sharma,INC,16205,34646,37.82,2,1,66,DL,Bheeshma Sharma,INC,,,,,False,1,2008,AE
+1496265,Rohtash Kumar,BSP,16206,21724,23.72,3,1,66,DL,Rohtash Kumar,BSP,,,,,False,1,2008,AE
+1496266,Naresh Gaur,BJP,16207,31954,35.1,1,1,67,DL,Naresh Gaur,BJP,,,,,False,1,2008,AE
+1496267,Hazi Dilshad Ali,BSP,16206,28128,30.9,2,1,67,DL,Hazi Dilshad Ali,BSP,,,,,False,1,2008,AE
+1496268,Anil Kuamr Vashishth,INC,16205,21632,23.76,3,1,67,DL,Anil Kuamr Vashishth,INC,,,,,False,1,2008,AE
+1496269,Kailash Chand Jain,IND,16208,7247,7.96,4,1,67,DL,Kailash Chand Jain,IND,,,,,False,1,2008,AE
+1496270,Mohd. Sher Nabi Chaman,IND,16208,534,0.59,5,1,67,DL,Mohd. Sher Nabi Chaman,IND,,,,,False,1,2008,AE
+1496271,Mohd Ahmed,SP,16212,324,0.36,6,1,67,DL,Mohd Ahmed,SP,,,,,False,1,2008,AE
+1496272,A K Aggarwal,AGRJP,16268,274,0.3,7,1,67,DL,A K Aggarwal,AGRJP,,,,,False,1,2008,AE
+1496273,Raj Kumar Bhati,LJP,16209,272,0.3,8,1,67,DL,Raj Kumar Bhati,LJP,,,,,False,1,2008,AE
+1496274,S. A. Betab,IND,16208,244,0.27,9,1,67,DL,S. A. Betab,IND,,,,,False,1,2008,AE
+1496275,Mohd Irfan,IND,16208,161,0.18,10,1,67,DL,Mohd Irfan,IND,,,,,False,1,2008,AE
+1496276,Abid Khan,IND,16208,98,0.11,11,1,67,DL,Abid Khan,IND,,,,,False,1,2008,AE
+1496277,Inamuddin,IND,16208,88,0.1,12,1,67,DL,Inamuddin,IND,,,,,False,1,2008,AE
+1496278,Viqar Hashmi,UNLP,16237,76,0.08,13,1,67,DL,Viqar Hashmi,UNLP,,,,,False,1,2008,AE
+1496279,Surendra Kumar,BSP,16206,27499,28.89,1,1,68,DL,Surendra Kumar,BSP,,,,,False,1,2008,AE
+1496280,Balzor Singh,INC,16205,24442,25.68,2,1,68,DL,Balzor Singh,INC,,,,,False,1,2008,AE
+1496281,Ranjeet Singh,BJP,16207,23364,24.55,3,1,68,DL,Ranjeet Singh,BJP,,,,,False,1,2008,AE
+1496282,Ch. Fateh Singh,IND,16208,10262,10.78,4,1,68,DL,Ch. Fateh Singh,IND,,,,,False,1,2008,AE
+1496283,Choudhary Balraj,IND,16208,4920,5.17,5,1,68,DL,Choudhary Balraj,IND,,,,,False,1,2008,AE
+1496284,Roop Chand,RLD,16262,2095,2.2,6,1,68,DL,Roop Chand,RLD,,,,,False,1,2008,AE
+1496285,Rup Kishor,IND,16208,972,1.02,7,1,68,DL,Rup Kishor,IND,,,,,False,1,2008,AE
+1496286,Hari Babu,IJP,16217,589,0.62,8,1,68,DL,Hari Babu,IJP,,,,,False,1,2008,AE
+1496287,Surander Singh,BSKP,16216,548,0.58,9,1,68,DL,Surander Singh,BSKP,,,,,False,1,2008,AE
+1496288,Jai Pal Singh,SP,16212,482,0.51,10,1,68,DL,Jai Pal Singh,SP,,,,,False,1,2008,AE
+1496289,Hasan Ahmed,INC,16205,39838,40.7,1,1,69,DL,Hasan Ahmed,INC,,,,,False,1,2008,AE
+1496290,Yogender Kumar Sharma,BJP,16207,38859,39.69,2,1,69,DL,Yogender Kumar Sharma,BJP,,,,,False,1,2008,AE
+1496291,Sher Khan Malik,BSP,16206,14108,14.41,3,1,69,DL,Sher Khan Malik,BSP,,,,,False,1,2008,AE
+1496292,Md. Rahis,IND,16208,989,1.01,4,1,69,DL,Md. Rahis,IND,,,,,False,1,2008,AE
+1496293,Sunil Dhyani,IND,16208,778,0.79,5,1,69,DL,Sunil Dhyani,IND,,,,,False,1,2008,AE
+1496294,Sageer Ahmed,IND,16208,616,0.63,6,1,69,DL,Sageer Ahmed,IND,,,,,False,1,2008,AE
+1496295,Lakshman Singh,IJP,16217,581,0.59,7,1,69,DL,Lakshman Singh,IJP,,,,,False,1,2008,AE
+1496296,Rajesh Kumar Sharma,IND,16208,470,0.48,8,1,69,DL,Rajesh Kumar Sharma,IND,,,,,False,1,2008,AE
+1496297,Ahmad Saeed,UNLP,16237,454,0.46,9,1,69,DL,Ahmad Saeed,UNLP,,,,,False,1,2008,AE
+1496298,Krishan Pal,BSKP,16216,347,0.35,10,1,69,DL,Krishan Pal,BSKP,,,,,False,1,2008,AE
+1496299,Sharafat Ali,SP,16212,161,0.16,11,1,69,DL,Sharafat Ali,SP,,,,,False,1,2008,AE
+1496300,Meena Begum,IND,16208,158,0.16,12,1,69,DL,Meena Begum,IND,,,,,False,1,2008,AE
+1496301,Krishan Pal,BJSSP,16270,132,0.13,13,1,69,DL,Krishan Pal,BJSSP,,,,,False,1,2008,AE
+1496302,Salimuddin,JD(S),16269,114,0.12,14,1,69,DL,Salimuddin,JD(S),,,,,False,1,2008,AE
+1496303,Umesh Kapoor,IND,16208,113,0.12,15,1,69,DL,Umesh Kapoor,IND,,,,,False,1,2008,AE
+1496304,Prem Pal,JKNPP,16236,97,0.1,16,1,69,DL,Prem Pal,JKNPP,,,,,False,1,2008,AE
+1496305,Mehmood Hasan,NLHP,16221,79,0.08,17,1,69,DL,Mehmood Hasan,NLHP,,,,,False,1,2008,AE
+1496306,Mohan Singh Bisht,BJP,16207,43980,42.8,1,1,70,DL,Mohan Singh Bisht,BJP,,,,,False,1,2008,AE
+1496307,Satan Pal Dayma,IND,16208,22852,22.24,2,1,70,DL,Satan Pal Dayma,IND,,,,,False,1,2008,AE
+1496308,Diwan Singh Nayal,INC,16205,15182,14.78,3,1,70,DL,Diwan Singh Nayal,INC,,,,,False,1,2008,AE
+1496309,Harender Kumar Sharma,BSP,16206,9233,8.99,4,1,70,DL,Harender Kumar Sharma,BSP,,,,,False,1,2008,AE
+1496310,Anmol Choudhari,CPM,16243,2198,2.14,5,1,70,DL,Anmol Choudhari,CPM,,,,,False,1,2008,AE
+1496311,Haseeb,SP,16212,1318,1.28,6,1,70,DL,Haseeb,SP,,,,,False,1,2008,AE
+1496312,Jugal Kishor,IJP,16217,1022,0.99,7,1,70,DL,Jugal Kishor,IJP,,,,,False,1,2008,AE
+1496313,Sanjay Sharma,SAP,16250,977,0.95,8,1,70,DL,Sanjay Sharma,SAP,,,,,False,1,2008,AE
+1496314,Desh Raj,IND,16208,808,0.79,9,1,70,DL,Desh Raj,IND,,,,,False,1,2008,AE
+1496315,Mohd Nafis,NBNP,16271,687,0.67,10,1,70,DL,Mohd Nafis,NBNP,,,,,False,1,2008,AE
+1496316,Shiv Kumar Sahu,PSJP,16272,555,0.54,11,1,70,DL,Shiv Kumar Sahu,PSJP,,,,,False,1,2008,AE
+1496317,Harish Tyagi,IND,16208,514,0.5,12,1,70,DL,Harish Tyagi,IND,,,,,False,1,2008,AE
+1496318,Parvez,JD(S),16269,456,0.44,13,1,70,DL,Parvez,JD(S),,,,,False,1,2008,AE
+1496319,Afzal Ahmed,RJD,16210,440,0.43,14,1,70,DL,Afzal Ahmed,RJD,,,,,False,1,2008,AE
+1496320,Lata Sharma,IND,16208,429,0.42,15,1,70,DL,Lata Sharma,IND,,,,,False,1,2008,AE
+1496321,Kavita Tyagi,IND,16208,422,0.41,16,1,70,DL,Kavita Tyagi,IND,,,,,False,1,2008,AE
+1496322,Sabir Khan,IND,16208,339,0.33,17,1,70,DL,Sabir Khan,IND,,,,,False,1,2008,AE
+1496323,Mohd. Abrar,LJP,16209,334,0.33,18,1,70,DL,Mohd. Abrar,LJP,,,,,False,1,2008,AE
+1496324,R. C. Ragav,IND,16208,315,0.31,19,1,70,DL,R. C. Ragav,IND,,,,,False,1,2008,AE
+1496325,Vipin Sandilya,LSWP,16273,208,0.2,20,1,70,DL,Vipin Sandilya,LSWP,,,,,False,1,2008,AE
+1496326,Sandhya Agarwal,UNLP,16237,175,0.17,21,1,70,DL,Sandhya Agarwal,UNLP,,,,,False,1,2008,AE
+1496327,Kamla Devi,IND,16208,171,0.17,22,1,70,DL,Kamla Devi,IND,,,,,False,1,2008,AE
+1496328,Neelam Saifi,IND,16208,133,0.13,23,1,70,DL,Neelam Saifi,IND,,,,,False,1,2008,AE

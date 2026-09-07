@@ -1,0 +1,349 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1715195,Vincent H Pala,INC,19815,9007,58.03,1,6,1,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715196,P. B. M. Basaiawmoit,HSPDP,19825,3745,24.13,2,6,1,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715197,John Filmore Kharshiing,UDP,19817,2102,13.54,3,6,1,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715198,Martle N.Mukhim,MDP,19834,309,1.99,4,6,1,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715199,Denis Siangshai,IND,19816,195,1.26,5,6,1,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715200,Dalington Dympep,CPI,19830,101,0.65,6,6,1,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715201,Tierod Passah,IND,19816,63,0.41,7,6,1,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715202,Vincent H Pala,INC,19815,8538,58.19,1,6,2,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715203,John Filmore Kharshiing,UDP,19817,3526,24.03,2,6,2,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715204,P. B. M. Basaiawmoit,HSPDP,19825,2272,15.49,3,6,2,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715205,Denis Siangshai,IND,19816,158,1.08,4,6,2,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715206,Tierod Passah,IND,19816,87,0.59,5,6,2,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715207,Dalington Dympep,CPI,19830,48,0.33,6,6,2,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715208,Martle N.Mukhim,MDP,19834,43,0.29,7,6,2,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715209,Vincent H Pala,INC,19815,6718,52.79,1,6,3,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715210,John Filmore Kharshiing,UDP,19817,3126,24.56,2,6,3,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715211,P. B. M. Basaiawmoit,HSPDP,19825,2265,17.8,3,6,3,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715212,Denis Siangshai,IND,19816,361,2.84,4,6,3,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715213,Tierod Passah,IND,19816,114,0.9,5,6,3,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715214,Dalington Dympep,CPI,19830,88,0.69,6,6,3,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715215,Martle N.Mukhim,MDP,19834,54,0.42,7,6,3,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715216,Vincent H Pala,INC,19815,7594,57.57,1,6,4,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715217,John Filmore Kharshiing,UDP,19817,3181,24.12,2,6,4,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715218,P. B. M. Basaiawmoit,HSPDP,19825,2020,15.31,3,6,4,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715219,Denis Siangshai,IND,19816,215,1.63,4,6,4,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715220,Dalington Dympep,CPI,19830,95,0.72,5,6,4,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715221,Tierod Passah,IND,19816,58,0.44,6,6,4,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715222,Martle N.Mukhim,MDP,19834,27,0.2,7,6,4,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715223,Vincent H Pala,INC,19815,11687,65.17,1,6,5,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715224,John Filmore Kharshiing,UDP,19817,2847,15.88,2,6,5,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715225,P. B. M. Basaiawmoit,HSPDP,19825,2828,15.77,3,6,5,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715226,Denis Siangshai,IND,19816,231,1.29,4,6,5,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715227,Martle N.Mukhim,MDP,19834,151,0.84,5,6,5,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715228,Dalington Dympep,CPI,19830,101,0.56,6,6,5,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715229,Tierod Passah,IND,19816,87,0.49,7,6,5,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715230,Vincent H Pala,INC,19815,11098,66.73,1,6,6,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715231,P. B. M. Basaiawmoit,HSPDP,19825,3174,19.08,2,6,6,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715232,John Filmore Kharshiing,UDP,19817,1674,10.06,3,6,6,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715233,Denis Siangshai,IND,19816,414,2.49,4,6,6,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715234,Dalington Dympep,CPI,19830,121,0.73,5,6,6,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715235,Tierod Passah,IND,19816,86,0.52,6,6,6,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715236,Martle N.Mukhim,MDP,19834,65,0.39,7,6,6,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715237,Vincent H Pala,INC,19815,7397,48.63,1,6,7,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715238,John Filmore Kharshiing,UDP,19817,4675,30.74,2,6,7,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715239,P. B. M. Basaiawmoit,HSPDP,19825,2639,17.35,3,6,7,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715240,Denis Siangshai,IND,19816,197,1.3,4,6,7,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715241,Martle N.Mukhim,MDP,19834,147,0.97,5,6,7,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715242,Dalington Dympep,CPI,19830,87,0.57,6,6,7,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715243,Tierod Passah,IND,19816,68,0.45,7,6,7,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715244,John Filmore Kharshiing,UDP,19817,5559,48.24,1,6,8,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715245,Vincent H Pala,INC,19815,4092,35.51,2,6,8,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715246,P. B. M. Basaiawmoit,HSPDP,19825,1217,10.56,3,6,8,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715247,Denis Siangshai,IND,19816,277,2.4,4,6,8,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715248,Martle N.Mukhim,MDP,19834,217,1.88,5,6,8,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715249,Dalington Dympep,CPI,19830,98,0.85,6,6,8,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715250,Tierod Passah,IND,19816,63,0.55,7,6,8,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715251,Vincent H Pala,INC,19815,6647,54.26,1,6,9,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715252,John Filmore Kharshiing,UDP,19817,4181,34.13,2,6,9,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715253,P. B. M. Basaiawmoit,HSPDP,19825,797,6.51,3,6,9,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715254,Denis Siangshai,IND,19816,215,1.75,4,6,9,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715255,Tierod Passah,IND,19816,165,1.35,5,6,9,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715256,Dalington Dympep,CPI,19830,154,1.26,6,6,9,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715257,Martle N.Mukhim,MDP,19834,92,0.75,7,6,9,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715258,Vincent H Pala,INC,19815,6102,45.06,1,6,10,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715259,John Filmore Kharshiing,UDP,19817,4880,36.04,2,6,10,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715260,P. B. M. Basaiawmoit,HSPDP,19825,1394,10.29,3,6,10,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715261,Denis Siangshai,IND,19816,308,2.27,4,6,10,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715262,Martle N.Mukhim,MDP,19834,305,2.25,5,6,10,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715263,Dalington Dympep,CPI,19830,286,2.11,6,6,10,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715264,Tierod Passah,IND,19816,266,1.96,7,6,10,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715265,Vincent H Pala,INC,19815,6375,50.54,1,6,11,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715266,John Filmore Kharshiing,UDP,19817,4144,32.85,2,6,11,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715267,P. B. M. Basaiawmoit,HSPDP,19825,1470,11.65,3,6,11,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715268,Martle N.Mukhim,MDP,19834,217,1.72,4,6,11,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715269,Denis Siangshai,IND,19816,193,1.53,5,6,11,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715270,Dalington Dympep,CPI,19830,138,1.09,6,6,11,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715271,Tierod Passah,IND,19816,78,0.62,7,6,11,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715272,Vincent H Pala,INC,19815,4712,48.97,1,6,12,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715273,John Filmore Kharshiing,UDP,19817,3295,34.24,2,6,12,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715274,P. B. M. Basaiawmoit,HSPDP,19825,1175,12.21,3,6,12,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715275,Martle N.Mukhim,MDP,19834,188,1.95,4,6,12,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715276,Denis Siangshai,IND,19816,112,1.16,5,6,12,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715277,Dalington Dympep,CPI,19830,96,1.0,6,6,12,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715278,Tierod Passah,IND,19816,44,0.46,7,6,12,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715279,Vincent H Pala,INC,19815,5284,44.96,1,6,13,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715280,John Filmore Kharshiing,UDP,19817,3385,28.8,2,6,13,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715281,P. B. M. Basaiawmoit,HSPDP,19825,2582,21.97,3,6,13,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715282,Martle N.Mukhim,MDP,19834,200,1.7,4,6,13,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715283,Denis Siangshai,IND,19816,163,1.39,5,6,13,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715284,Dalington Dympep,CPI,19830,89,0.76,6,6,13,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715285,Tierod Passah,IND,19816,50,0.43,7,6,13,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715286,Vincent H Pala,INC,19815,5895,47.35,1,6,14,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715287,John Filmore Kharshiing,UDP,19817,3047,24.47,2,6,14,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715288,P. B. M. Basaiawmoit,HSPDP,19825,2593,20.83,3,6,14,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715289,Dalington Dympep,CPI,19830,439,3.53,4,6,14,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715290,Denis Siangshai,IND,19816,174,1.4,5,6,14,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715291,Martle N.Mukhim,MDP,19834,171,1.37,6,6,14,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715292,Tierod Passah,IND,19816,131,1.05,7,6,14,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715293,Vincent H Pala,INC,19815,6967,44.46,1,6,15,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715294,P. B. M. Basaiawmoit,HSPDP,19825,4412,28.16,2,6,15,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715295,John Filmore Kharshiing,UDP,19817,3698,23.6,3,6,15,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715296,Martle N.Mukhim,MDP,19834,290,1.85,4,6,15,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715297,Dalington Dympep,CPI,19830,140,0.89,5,6,15,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715298,Denis Siangshai,IND,19816,112,0.71,6,6,15,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715299,Tierod Passah,IND,19816,50,0.32,7,6,15,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715300,Vincent H Pala,INC,19815,6763,60.57,1,6,16,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715301,John Filmore Kharshiing,UDP,19817,2426,21.73,2,6,16,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715302,P. B. M. Basaiawmoit,HSPDP,19825,1231,11.03,3,6,16,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715303,Dalington Dympep,CPI,19830,303,2.71,4,6,16,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715304,Martle N.Mukhim,MDP,19834,261,2.34,5,6,16,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715305,Denis Siangshai,IND,19816,101,0.9,6,6,16,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715306,Tierod Passah,IND,19816,80,0.72,7,6,16,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715307,Vincent H Pala,INC,19815,7093,52.9,1,6,17,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715308,John Filmore Kharshiing,UDP,19817,3005,22.41,2,6,17,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715309,P. B. M. Basaiawmoit,HSPDP,19825,2518,18.78,3,6,17,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715310,Dalington Dympep,CPI,19830,469,3.5,4,6,17,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715311,Denis Siangshai,IND,19816,120,0.89,5,6,17,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715312,Martle N.Mukhim,MDP,19834,119,0.89,6,6,17,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715313,Tierod Passah,IND,19816,85,0.63,7,6,17,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715314,Vincent H Pala,INC,19815,6911,52.53,1,6,18,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715315,John Filmore Kharshiing,UDP,19817,3494,26.56,2,6,18,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715316,P. B. M. Basaiawmoit,HSPDP,19825,1807,13.74,3,6,18,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715317,Dalington Dympep,CPI,19830,489,3.72,4,6,18,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715318,Denis Siangshai,IND,19816,192,1.46,5,6,18,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715319,Martle N.Mukhim,MDP,19834,132,1.0,6,6,18,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715320,Tierod Passah,IND,19816,131,1.0,7,6,18,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715321,Vincent H Pala,INC,19815,8000,54.08,1,6,19,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715322,John Filmore Kharshiing,UDP,19817,4072,27.53,2,6,19,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715323,P. B. M. Basaiawmoit,HSPDP,19825,1257,8.5,3,6,19,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715324,Dalington Dympep,CPI,19830,842,5.69,4,6,19,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715325,Martle N.Mukhim,MDP,19834,219,1.48,5,6,19,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715326,Denis Siangshai,IND,19816,207,1.4,6,6,19,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715327,Tierod Passah,IND,19816,195,1.32,7,6,19,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715328,Vincent H Pala,INC,19815,5729,47.82,1,6,20,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715329,John Filmore Kharshiing,UDP,19817,3260,27.21,2,6,20,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715330,P. B. M. Basaiawmoit,HSPDP,19825,2602,21.72,3,6,20,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715331,Dalington Dympep,CPI,19830,141,1.18,4,6,20,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715332,Denis Siangshai,IND,19816,132,1.1,5,6,20,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715333,Martle N.Mukhim,MDP,19834,71,0.59,6,6,20,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715334,Tierod Passah,IND,19816,45,0.38,7,6,20,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715335,Vincent H Pala,INC,19815,7325,52.51,1,6,21,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715336,John Filmore Kharshiing,UDP,19817,3649,26.16,2,6,21,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715337,P. B. M. Basaiawmoit,HSPDP,19825,2177,15.6,3,6,21,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715338,Dalington Dympep,CPI,19830,364,2.61,4,6,21,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715339,Denis Siangshai,IND,19816,159,1.14,5,6,21,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715340,Martle N.Mukhim,MDP,19834,156,1.12,6,6,21,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715341,Tierod Passah,IND,19816,121,0.87,7,6,21,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715342,Vincent H Pala,INC,19815,8016,61.08,1,6,22,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715343,John Filmore Kharshiing,UDP,19817,2791,21.27,2,6,22,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715344,P. B. M. Basaiawmoit,HSPDP,19825,1846,14.07,3,6,22,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715345,Martle N.Mukhim,MDP,19834,150,1.14,4,6,22,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715346,Dalington Dympep,CPI,19830,140,1.07,5,6,22,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715347,Denis Siangshai,IND,19816,123,0.94,6,6,22,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715348,Tierod Passah,IND,19816,57,0.43,7,6,22,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715349,Vincent H Pala,INC,19815,5448,48.66,1,6,23,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715350,John Filmore Kharshiing,UDP,19817,3001,26.8,2,6,23,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715351,P. B. M. Basaiawmoit,HSPDP,19825,2357,21.05,3,6,23,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715352,Denis Siangshai,IND,19816,200,1.79,4,6,23,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715353,Dalington Dympep,CPI,19830,108,0.96,5,6,23,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715354,Martle N.Mukhim,MDP,19834,48,0.43,6,6,23,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715355,Tierod Passah,IND,19816,35,0.31,7,6,23,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715356,Vincent H Pala,INC,19815,5890,47.7,1,6,24,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715357,P. B. M. Basaiawmoit,HSPDP,19825,3231,26.16,2,6,24,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715358,John Filmore Kharshiing,UDP,19817,2904,23.52,3,6,24,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715359,Denis Siangshai,IND,19816,154,1.25,4,6,24,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715360,Dalington Dympep,CPI,19830,92,0.74,5,6,24,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715361,Martle N.Mukhim,MDP,19834,45,0.36,6,6,24,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715362,Tierod Passah,IND,19816,33,0.27,7,6,24,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715363,Vincent H Pala,INC,19815,5303,35.6,1,6,25,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715364,John Filmore Kharshiing,UDP,19817,4659,31.27,2,6,25,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715365,P. B. M. Basaiawmoit,HSPDP,19825,3646,24.47,3,6,25,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715366,Martle N.Mukhim,MDP,19834,378,2.54,4,6,25,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715367,Dalington Dympep,CPI,19830,374,2.51,5,6,25,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715368,Denis Siangshai,IND,19816,320,2.15,6,6,25,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715369,Tierod Passah,IND,19816,217,1.46,7,6,25,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715370,Vincent H Pala,INC,19815,3778,36.13,1,6,26,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715371,John Filmore Kharshiing,UDP,19817,3702,35.4,2,6,26,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715372,P. B. M. Basaiawmoit,HSPDP,19825,2738,26.18,3,6,26,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715373,Denis Siangshai,IND,19816,107,1.02,4,6,26,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715374,Dalington Dympep,CPI,19830,59,0.56,5,6,26,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715375,Martle N.Mukhim,MDP,19834,39,0.37,6,6,26,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715376,Tierod Passah,IND,19816,34,0.33,7,6,26,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715377,John Filmore Kharshiing,UDP,19817,6124,41.63,1,6,27,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715378,Vincent H Pala,INC,19815,6002,40.8,2,6,27,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715379,P. B. M. Basaiawmoit,HSPDP,19825,1922,13.07,3,6,27,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715380,Martle N.Mukhim,MDP,19834,261,1.77,4,6,27,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715381,Dalington Dympep,CPI,19830,190,1.29,5,6,27,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715382,Denis Siangshai,IND,19816,163,1.11,6,6,27,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715383,Tierod Passah,IND,19816,48,0.33,7,6,27,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715384,Vincent H Pala,INC,19815,4410,43.39,1,6,28,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715385,John Filmore Kharshiing,UDP,19817,3947,38.84,2,6,28,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715386,P. B. M. Basaiawmoit,HSPDP,19825,1476,14.52,3,6,28,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715387,Denis Siangshai,IND,19816,145,1.43,4,6,28,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715388,Dalington Dympep,CPI,19830,89,0.88,5,6,28,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715389,Martle N.Mukhim,MDP,19834,57,0.56,6,6,28,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715390,Tierod Passah,IND,19816,39,0.38,7,6,28,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715391,Vincent H Pala,INC,19815,6127,41.27,1,6,29,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715392,John Filmore Kharshiing,UDP,19817,3837,25.85,2,6,29,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715393,Martle N.Mukhim,MDP,19834,3416,23.01,3,6,29,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715394,P. B. M. Basaiawmoit,HSPDP,19825,1045,7.04,4,6,29,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715395,Denis Siangshai,IND,19816,182,1.23,5,6,29,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715396,Dalington Dympep,CPI,19830,174,1.17,6,6,29,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715397,Tierod Passah,IND,19816,64,0.43,7,6,29,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715398,Vincent H Pala,INC,19815,5727,39.83,1,6,30,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715399,John Filmore Kharshiing,UDP,19817,5327,37.04,2,6,30,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715400,P. B. M. Basaiawmoit,HSPDP,19825,2604,18.11,3,6,30,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715401,Denis Siangshai,IND,19816,443,3.08,4,6,30,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715402,Dalington Dympep,CPI,19830,106,0.74,5,6,30,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715403,Martle N.Mukhim,MDP,19834,97,0.67,6,6,30,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715404,Tierod Passah,IND,19816,76,0.53,7,6,30,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715405,Vincent H Pala,INC,19815,6670,45.57,1,6,31,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715406,P. B. M. Basaiawmoit,HSPDP,19825,4813,32.88,2,6,31,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715407,John Filmore Kharshiing,UDP,19817,2642,18.05,3,6,31,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715408,Denis Siangshai,IND,19816,211,1.44,4,6,31,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715409,Martle N.Mukhim,MDP,19834,138,0.94,5,6,31,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715410,Dalington Dympep,CPI,19830,109,0.74,6,6,31,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715411,Tierod Passah,IND,19816,54,0.37,7,6,31,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715412,P. B. M. Basaiawmoit,HSPDP,19825,7409,56.48,1,6,32,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715413,Vincent H Pala,INC,19815,4231,32.26,2,6,32,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715414,John Filmore Kharshiing,UDP,19817,1214,9.26,3,6,32,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715415,Martle N.Mukhim,MDP,19834,109,0.83,4,6,32,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715416,Denis Siangshai,IND,19816,63,0.48,5,6,32,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715417,Dalington Dympep,CPI,19830,60,0.46,6,6,32,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715418,Tierod Passah,IND,19816,31,0.24,7,6,32,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715419,P. B. M. Basaiawmoit,HSPDP,19825,4679,43.13,1,6,33,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715420,Vincent H Pala,INC,19815,3932,36.25,2,6,33,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715421,John Filmore Kharshiing,UDP,19817,1699,15.66,3,6,33,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715422,Martle N.Mukhim,MDP,19834,192,1.77,4,6,33,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715423,Tierod Passah,IND,19816,121,1.12,5,6,33,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715424,Denis Siangshai,IND,19816,119,1.1,6,6,33,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715425,Dalington Dympep,CPI,19830,106,0.98,7,6,33,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715426,P. B. M. Basaiawmoit,HSPDP,19825,4192,37.58,1,6,34,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715427,Vincent H Pala,INC,19815,3218,28.85,2,6,34,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715428,John Filmore Kharshiing,UDP,19817,3083,27.64,3,6,34,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715429,Martle N.Mukhim,MDP,19834,204,1.83,4,6,34,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715430,Denis Siangshai,IND,19816,178,1.6,5,6,34,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715431,Tierod Passah,IND,19816,167,1.5,6,6,34,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715432,Dalington Dympep,CPI,19830,113,1.01,7,6,34,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715433,Vincent H Pala,INC,19815,7734,48.46,1,6,35,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715434,John Filmore Kharshiing,UDP,19817,3870,24.25,2,6,35,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715435,P. B. M. Basaiawmoit,HSPDP,19825,3262,20.44,3,6,35,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715436,Dalington Dympep,CPI,19830,318,1.99,4,6,35,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715437,Martle N.Mukhim,MDP,19834,309,1.94,5,6,35,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715438,Denis Siangshai,IND,19816,261,1.64,6,6,35,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715439,Tierod Passah,IND,19816,204,1.28,7,6,35,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715440,P. B. M. Basaiawmoit,HSPDP,19825,6196,42.17,1,6,36,ML,P. B. M. Basaiawmoit,HSPDP,,,,,False,6,2009,GE
+1715441,Vincent H Pala,INC,19815,5802,39.49,2,6,36,ML,Vincent H Pala,INC,,,,,False,6,2009,GE
+1715442,John Filmore Kharshiing,UDP,19817,2364,16.09,3,6,36,ML,John Filmore Kharshiing,UDP,,,,,False,6,2009,GE
+1715443,Denis Siangshai,IND,19816,124,0.84,4,6,36,ML,Denis Siangshai,IND,,,,,False,6,2009,GE
+1715444,Dalington Dympep,CPI,19830,74,0.5,5,6,36,ML,Dalington Dympep,CPI,,,,,False,6,2009,GE
+1715445,Martle N.Mukhim,MDP,19834,67,0.46,6,6,36,ML,Martle N.Mukhim,MDP,,,,,False,6,2009,GE
+1715446,Tierod Passah,IND,19816,66,0.45,7,6,36,ML,Tierod Passah,IND,,,,,False,6,2009,GE
+1715447,Agatha K. Sangma,NCP,19823,8954,56.63,1,6,37,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715448,Debora C. Marak,INC,19815,4334,27.41,2,6,37,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715449,Boston Marak,ACNC,19836,2016,12.75,3,6,37,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715450,Arlene N. Sangma,IND,19816,508,3.21,4,6,37,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715451,Debora C. Marak,INC,19815,5498,48.44,1,6,38,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715452,Agatha K. Sangma,NCP,19823,4728,41.65,2,6,38,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715453,Boston Marak,ACNC,19836,787,6.93,3,6,38,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715454,Arlene N. Sangma,IND,19816,338,2.98,4,6,38,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715455,Agatha K. Sangma,NCP,19823,6953,55.99,1,6,39,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715456,Debora C. Marak,INC,19815,4622,37.22,2,6,39,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715457,Boston Marak,ACNC,19836,559,4.5,3,6,39,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715458,Arlene N. Sangma,IND,19816,285,2.29,4,6,39,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715459,Agatha K. Sangma,NCP,19823,6773,53.43,1,6,40,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715460,Debora C. Marak,INC,19815,4607,36.34,2,6,40,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715461,Boston Marak,ACNC,19836,936,7.38,3,6,40,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715462,Arlene N. Sangma,IND,19816,361,2.85,4,6,40,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715463,Agatha K. Sangma,NCP,19823,6568,52.06,1,6,41,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715464,Debora C. Marak,INC,19815,4457,35.33,2,6,41,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715465,Boston Marak,ACNC,19836,1364,10.81,3,6,41,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715466,Arlene N. Sangma,IND,19816,228,1.81,4,6,41,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715467,Agatha K. Sangma,NCP,19823,6865,52.41,1,6,42,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715468,Boston Marak,ACNC,19836,2905,22.18,2,6,42,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715469,Debora C. Marak,INC,19815,2605,19.89,3,6,42,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715470,Arlene N. Sangma,IND,19816,723,5.52,4,6,42,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715471,Agatha K. Sangma,NCP,19823,8377,57.01,1,6,43,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715472,Debora C. Marak,INC,19815,5464,37.19,2,6,43,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715473,Boston Marak,ACNC,19836,559,3.8,3,6,43,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715474,Arlene N. Sangma,IND,19816,293,1.99,4,6,43,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715475,Agatha K. Sangma,NCP,19823,6502,50.81,1,6,44,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715476,Debora C. Marak,INC,19815,5018,39.22,2,6,44,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715477,Boston Marak,ACNC,19836,973,7.6,3,6,44,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715478,Arlene N. Sangma,IND,19816,303,2.37,4,6,44,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715479,Debora C. Marak,INC,19815,8464,54.68,1,6,45,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715480,Agatha K. Sangma,NCP,19823,5434,35.11,2,6,45,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715481,Boston Marak,ACNC,19836,1160,7.49,3,6,45,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715482,Arlene N. Sangma,IND,19816,421,2.72,4,6,45,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715483,Debora C. Marak,INC,19815,7335,56.48,1,6,46,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715484,Agatha K. Sangma,NCP,19823,4201,32.35,2,6,46,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715485,Boston Marak,ACNC,19836,1066,8.21,3,6,46,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715486,Arlene N. Sangma,IND,19816,384,2.96,4,6,46,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715487,Debora C. Marak,INC,19815,10474,61.2,1,6,47,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715488,Agatha K. Sangma,NCP,19823,4721,27.59,2,6,47,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715489,Boston Marak,ACNC,19836,1613,9.43,3,6,47,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715490,Arlene N. Sangma,IND,19816,306,1.79,4,6,47,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715491,Agatha K. Sangma,NCP,19823,8195,47.51,1,6,48,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715492,Debora C. Marak,INC,19815,6663,38.63,2,6,48,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715493,Boston Marak,ACNC,19836,2121,12.3,3,6,48,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715494,Arlene N. Sangma,IND,19816,269,1.56,4,6,48,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715495,Agatha K. Sangma,NCP,19823,7184,48.15,1,6,49,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715496,Debora C. Marak,INC,19815,5157,34.57,2,6,49,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715497,Boston Marak,ACNC,19836,2127,14.26,3,6,49,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715498,Arlene N. Sangma,IND,19816,451,3.02,4,6,49,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715499,Agatha K. Sangma,NCP,19823,7201,51.23,1,6,50,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715500,Debora C. Marak,INC,19815,4236,30.13,2,6,50,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715501,Boston Marak,ACNC,19836,1729,12.3,3,6,50,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715502,Arlene N. Sangma,IND,19816,891,6.34,4,6,50,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715503,Agatha K. Sangma,NCP,19823,6379,43.86,1,6,51,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715504,Debora C. Marak,INC,19815,4639,31.89,2,6,51,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715505,Boston Marak,ACNC,19836,2533,17.41,3,6,51,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715506,Arlene N. Sangma,IND,19816,994,6.83,4,6,51,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715507,Agatha K. Sangma,NCP,19823,7811,45.29,1,6,52,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715508,Debora C. Marak,INC,19815,7179,41.63,2,6,52,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715509,Boston Marak,ACNC,19836,1743,10.11,3,6,52,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715510,Arlene N. Sangma,IND,19816,513,2.97,4,6,52,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715511,Debora C. Marak,INC,19815,9123,54.35,1,6,53,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715512,Agatha K. Sangma,NCP,19823,6877,40.97,2,6,53,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715513,Boston Marak,ACNC,19836,537,3.2,3,6,53,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715514,Arlene N. Sangma,IND,19816,250,1.49,4,6,53,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715515,Debora C. Marak,INC,19815,8245,46.92,1,6,54,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715516,Agatha K. Sangma,NCP,19823,5826,33.16,2,6,54,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715517,Boston Marak,ACNC,19836,3007,17.11,3,6,54,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715518,Arlene N. Sangma,IND,19816,494,2.81,4,6,54,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715519,Debora C. Marak,INC,19815,4906,36.17,1,6,55,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715520,Agatha K. Sangma,NCP,19823,4240,31.26,2,6,55,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715521,Boston Marak,ACNC,19836,3994,29.44,3,6,55,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715522,Arlene N. Sangma,IND,19816,425,3.13,4,6,55,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715523,Agatha K. Sangma,NCP,19823,6428,46.77,1,6,56,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715524,Debora C. Marak,INC,19815,4584,33.36,2,6,56,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715525,Boston Marak,ACNC,19836,2422,17.62,3,6,56,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715526,Arlene N. Sangma,IND,19816,309,2.25,4,6,56,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715527,Agatha K. Sangma,NCP,19823,4736,47.4,1,6,57,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715528,Debora C. Marak,INC,19815,3029,30.31,2,6,57,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715529,Boston Marak,ACNC,19836,1845,18.46,3,6,57,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715530,Arlene N. Sangma,IND,19816,382,3.82,4,6,57,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715531,Agatha K. Sangma,NCP,19823,7203,52.0,1,6,58,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715532,Debora C. Marak,INC,19815,5260,37.97,2,6,58,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715533,Boston Marak,ACNC,19836,1009,7.28,3,6,58,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715534,Arlene N. Sangma,IND,19816,380,2.74,4,6,58,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715535,Agatha K. Sangma,NCP,19823,6306,47.31,1,6,59,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715536,Debora C. Marak,INC,19815,4270,32.04,2,6,59,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715537,Boston Marak,ACNC,19836,1984,14.89,3,6,59,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715538,Arlene N. Sangma,IND,19816,768,5.76,4,6,59,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE
+1715539,Debora C. Marak,INC,19815,6354,44.53,1,6,60,ML,Debora C. Marak,INC,,,,,False,6,2009,GE
+1715540,Agatha K. Sangma,NCP,19823,6000,42.05,2,6,60,ML,Agatha K. Sangma,NCP,,,,,False,6,2009,GE
+1715541,Boston Marak,ACNC,19836,1215,8.51,3,6,60,ML,Boston Marak,ACNC,,,,,False,6,2009,GE
+1715542,Arlene N. Sangma,IND,19816,700,4.91,4,6,60,ML,Arlene N. Sangma,IND,,,,,False,6,2009,GE

@@ -1,0 +1,744 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1500379,Sharad Kumar,AAAP,16293,96143,59.97,1,23,1,DL,Sharad Kumar,AAAP,,,,,False,23,2015,AE
+1500380,Neel Daman Khatri,BJP,16207,55851,34.84,2,23,1,DL,Neel Daman Khatri,BJP,,,,,True,23,2015,AE
+1500381,Praveen Kumar Bhugra,INC,16205,4643,2.9,3,23,1,DL,Praveen Kumar Bhugra,INC,,,,,False,23,2015,AE
+1500382,Roopesh Bhardwaj,BSP,16206,1662,1.04,4,23,1,DL,Roopesh Bhardwaj,BSP,,,,,False,23,2015,AE
+1500383,None Of The Above,NOTA,16294,767,0.48,5,23,1,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500384,Brij Mohan,SHS,16220,478,0.3,6,23,1,DL,Brij Mohan,SHS,,,,,False,23,2015,AE
+1500385,Surender,CPI(ML)(L),16211,363,0.23,7,23,1,DL,Surender,CPI(ML)(L),,,,,False,23,2015,AE
+1500386,Manoj Kumar,IND,16208,218,0.14,8,23,1,DL,Manoj Kumar,IND,,,,,False,23,2015,AE
+1500387,Ajay Mudgil,IND,16208,191,0.12,9,23,1,DL,Ajay Mudgil,IND,,,,,True,23,2015,AE
+1500388,Sanjeev Jha,AAAP,16293,124724,63.82,1,23,2,DL,Sanjeev Jha,AAAP,,,,,True,23,2015,AE
+1500389,Gopal Jha,BJP,16207,56774,29.05,2,23,2,DL,Gopal Jha,BJP,,,,,False,23,2015,AE
+1500390,J S Chauhan,INC,16205,6750,3.45,3,23,2,DL,J S Chauhan,INC,,,,,False,23,2015,AE
+1500391,Rambir,BSP,16206,2343,1.2,4,23,2,DL,Rambir,BSP,,,,,False,23,2015,AE
+1500392,Manager Chaurasiya,SUCI,16299,930,0.48,5,23,2,DL,Manager Chaurasiya,SUCI,,,,,True,23,2015,AE
+1500393,Dharam Pal Singh,SHS,16220,561,0.29,6,23,2,DL,Dharam Pal Singh,SHS,,,,,False,23,2015,AE
+1500394,Khadak Lal,IND,16208,540,0.28,7,23,2,DL,Khadak Lal,IND,,,,,False,23,2015,AE
+1500395,Richa Mundra,SASAPT,16353,532,0.27,8,23,2,DL,Richa Mundra,SASAPT,,,,,False,23,2015,AE
+1500396,Nafe Singh Rajput,IND,16208,435,0.22,9,23,2,DL,Nafe Singh Rajput,IND,,,,,True,23,2015,AE
+1500397,None Of The Above,NOTA,16294,413,0.21,10,23,2,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500398,Prem Shankar Sharma,ABSPARTY,16301,382,0.2,11,23,2,DL,Prem Shankar Sharma,ABSPARTY,,,,,True,23,2015,AE
+1500399,Madhu Diwakar,CPM,16243,250,0.13,12,23,2,DL,Madhu Diwakar,CPM,,,,,False,23,2015,AE
+1500400,Ranjan Kumar Singh,BAJD,16354,158,0.08,13,23,2,DL,Ranjan Kumar Singh,BAJD,,,,,False,23,2015,AE
+1500401,Sushil Kumar Mishra,ABHM,16218,130,0.07,14,23,2,DL,Sushil Kumar Mishra,ABHM,,,,,False,23,2015,AE
+1500402,Gulab Singhal,RAJP,16355,110,0.06,15,23,2,DL,Gulab Singhal,RAJP,,,,,False,23,2015,AE
+1500403,Rajbir Singh,IND,16208,109,0.06,16,23,2,DL,Rajbir Singh,IND,,,,,False,23,2015,AE
+1500404,Praven Kumar,GAAP,16356,105,0.05,17,23,2,DL,Praven Kumar,GAAP,,,,,False,23,2015,AE
+1500405,Pankaj Kumar,PPGP,16310,96,0.05,18,23,2,DL,Pankaj Kumar,PPGP,,,,,False,23,2015,AE
+1500406,Kalpana Gupta,RPI(A),16238,85,0.04,19,23,2,DL,Kalpana Gupta,RPI(A),,,,,False,23,2015,AE
+1500407,Pankaj Pushkar,AAAP,16293,64477,51.05,1,23,3,DL,Pankaj Pushkar,AAAP,,,,,False,23,2015,AE
+1500408,Rajni Abbi,BJP,16207,43830,34.7,2,23,3,DL,Rajni Abbi,BJP,,,,,True,23,2015,AE
+1500409,Surinder Pal Singh,INC,16205,14642,11.59,3,23,3,DL,Surinder Pal Singh,INC,,,,,True,23,2015,AE
+1500410,Manoj,BSP,16206,592,0.47,4,23,3,DL,Manoj,BSP,,,,,False,23,2015,AE
+1500411,Harjinder Singh,IND,16208,581,0.46,5,23,3,DL,Harjinder Singh,IND,,,,,False,23,2015,AE
+1500412,None Of The Above,NOTA,16294,555,0.44,6,23,3,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500413,Sanjeev Kumar Rana,CPI,16223,542,0.43,7,23,3,DL,Sanjeev Kumar Rana,CPI,,,,,False,23,2015,AE
+1500414,Chand Miya,IND,16208,448,0.35,8,23,3,DL,Chand Miya,IND,,,,,True,23,2015,AE
+1500415,Savita Chaudhary,IND,16208,170,0.13,9,23,3,DL,Savita Chaudhary,IND,,,,,False,23,2015,AE
+1500416,Gunjan Kumar,IND,16208,129,0.1,10,23,3,DL,Gunjan Kumar,IND,,,,,False,23,2015,AE
+1500417,Shesh Nath Goswami,ABSPARTY,16301,119,0.09,11,23,3,DL,Shesh Nath Goswami,ABSPARTY,,,,,False,23,2015,AE
+1500418,Ramesh,REP,16340,99,0.08,12,23,3,DL,Ramesh,REP,,,,,False,23,2015,AE
+1500419,Paras Nath Yadav,BJDI,16298,61,0.05,13,23,3,DL,Paras Nath Yadav,BJDI,,,,,False,23,2015,AE
+1500420,Vidya,PSPARTY,16357,52,0.04,14,23,3,DL,Vidya,PSPARTY,,,,,False,23,2015,AE
+1500421,Pawan Kumar Sharma,AAAP,16293,54026,51.36,1,23,4,DL,Pawan Kumar Sharma,AAAP,,,,,False,23,2015,AE
+1500422,Ram Kishan Singhal,BJP,16207,33285,31.64,2,23,4,DL,Ram Kishan Singhal,BJP,,,,,True,23,2015,AE
+1500423,Mukesh Kumar Goel,INC,16205,15341,14.59,3,23,4,DL,Mukesh Kumar Goel,INC,,,,,False,23,2015,AE
+1500424,Vijay Kumar Aggarwal,IND,16208,694,0.66,4,23,4,DL,Vijay Kumar Aggarwal,IND,,,,,False,23,2015,AE
+1500425,Ramniwas,BSP,16206,679,0.65,5,23,4,DL,Ramniwas,BSP,,,,,False,23,2015,AE
+1500426,None Of The Above,NOTA,16294,459,0.44,6,23,4,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500427,Lal Singh,IND,16208,263,0.25,7,23,4,DL,Lal Singh,IND,,,,,False,23,2015,AE
+1500428,Sunil,IND,16208,194,0.18,8,23,4,DL,Sunil,IND,,,,,False,23,2015,AE
+1500429,Naresh Kumar Choubey,BJKD,16358,108,0.1,9,23,4,DL,Naresh Kumar Choubey,BJKD,,,,,False,23,2015,AE
+1500430,Suman,RPI(A),16238,73,0.07,10,23,4,DL,Suman,RPI(A),,,,,False,23,2015,AE
+1500431,Krishna Kumar Singh,BJDI,16298,61,0.06,11,23,4,DL,Krishna Kumar Singh,BJDI,,,,,False,23,2015,AE
+1500432,Ajesh Yadav,AAAP,16293,72795,51.14,1,23,5,DL,Ajesh Yadav,AAAP,,,,,False,23,2015,AE
+1500433,Devender Yadav,INC,16205,37419,26.29,2,23,5,DL,Devender Yadav,INC,,,,,True,23,2015,AE
+1500434,Rajesh Yadav,BJP,16207,28238,19.84,3,23,5,DL,Rajesh Yadav,BJP,,,,,False,23,2015,AE
+1500435,Rakesh Kumar,SUCI,16299,947,0.67,4,23,5,DL,Rakesh Kumar,SUCI,,,,,False,23,2015,AE
+1500436,Anand Prakash Rana,IND,16208,729,0.51,5,23,5,DL,Anand Prakash Rana,IND,,,,,False,23,2015,AE
+1500437,None Of The Above,NOTA,16294,713,0.5,6,23,5,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500438,Dr. Md. Jawed Habib,BSP,16206,685,0.48,7,23,5,DL,Dr. Md. Jawed Habib,BSP,,,,,False,23,2015,AE
+1500439,Jai Pal,IND,16208,293,0.21,8,23,5,DL,Jai Pal,IND,,,,,True,23,2015,AE
+1500440,Hari Om,IND,16208,202,0.14,9,23,5,DL,Hari Om,IND,,,,,False,23,2015,AE
+1500441,Anil Sharma,NCP,16214,169,0.12,10,23,5,DL,Anil Sharma,NCP,,,,,False,23,2015,AE
+1500442,Devender Yadav,IND,16208,160,0.11,11,23,5,DL,Devender Yadav,IND,,,,,False,23,2015,AE
+1500443,Mohinder Goyal,AAAP,16293,93470,56.63,1,23,6,DL,Mohinder Goyal,AAAP,,,,,False,23,2015,AE
+1500444,Kulwant Rana,BJP,16207,64219,38.91,2,23,6,DL,Kulwant Rana,BJP,,,,,True,23,2015,AE
+1500445,Jagdish Yadav,INC,16205,5367,3.25,3,23,6,DL,Jagdish Yadav,INC,,,,,False,23,2015,AE
+1500446,None Of The Above,NOTA,16294,705,0.43,4,23,6,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500447,Pawan Kaushik,BSP,16206,542,0.33,5,23,6,DL,Pawan Kaushik,BSP,,,,,False,23,2015,AE
+1500448,Anurag Mishra,RBHP,16314,266,0.16,6,23,6,DL,Anurag Mishra,RBHP,,,,,False,23,2015,AE
+1500449,Sumeet Kumar Sinha,SASAPT,16353,156,0.09,7,23,6,DL,Sumeet Kumar Sinha,SASAPT,,,,,False,23,2015,AE
+1500450,Sunjeet,DJP,16306,127,0.08,8,23,6,DL,Sunjeet,DJP,,,,,False,23,2015,AE
+1500451,Virender Jha,PBI,16321,126,0.08,9,23,6,DL,Virender Jha,PBI,,,,,False,23,2015,AE
+1500452,Jitender Singh,ASSP,16359,88,0.05,10,23,6,DL,Jitender Singh,ASSP,,,,,False,23,2015,AE
+1500453,Ved Parkash,AAAP,16293,108928,58.14,1,23,7,DL,Ved Parkash,AAAP,,,,,False,23,2015,AE
+1500454,Gugan Singh,BJP,16207,58371,31.16,2,23,7,DL,Gugan Singh,BJP,,,,,True,23,2015,AE
+1500455,Surender Kumar,INC,16205,14749,7.87,3,23,7,DL,Surender Kumar,INC,,,,,True,23,2015,AE
+1500456,Gajanand,BSP,16206,3641,1.94,4,23,7,DL,Gajanand,BSP,,,,,False,23,2015,AE
+1500457,None Of The Above,NOTA,16294,866,0.46,5,23,7,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500458,Amod Paswan,BJDI,16298,425,0.23,6,23,7,DL,Amod Paswan,BJDI,,,,,True,23,2015,AE
+1500459,Ram Babu,RBHP,16314,364,0.19,7,23,7,DL,Ram Babu,RBHP,,,,,False,23,2015,AE
+1500460,Sukhvir Singh,AAAP,16293,94206,57.22,1,23,8,DL,Sukhvir Singh,AAAP,,,,,False,23,2015,AE
+1500461,Azad Singh,BJP,16207,53380,32.42,2,23,8,DL,Azad Singh,BJP,,,,,True,23,2015,AE
+1500462,Reeta,INC,16205,13446,8.17,3,23,8,DL,Reeta,INC,,,,,False,23,2015,AE
+1500463,Om Parkash,BSP,16206,778,0.47,4,23,8,DL,Om Parkash,BSP,,,,,False,23,2015,AE
+1500464,None Of The Above,NOTA,16294,576,0.35,5,23,8,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500465,Ravi Swaroop,RBHP,16314,550,0.33,6,23,8,DL,Ravi Swaroop,RBHP,,,,,False,23,2015,AE
+1500466,Udey Vir,SASAPT,16353,361,0.22,7,23,8,DL,Udey Vir,SASAPT,,,,,False,23,2015,AE
+1500467,Virander Singh,IND,16208,341,0.21,8,23,8,DL,Virander Singh,IND,,,,,False,23,2015,AE
+1500468,Rambali Shah,IND,16208,240,0.15,9,23,8,DL,Rambali Shah,IND,,,,,False,23,2015,AE
+1500469,Anil Kumar,IND,16208,179,0.11,10,23,8,DL,Anil Kumar,IND,,,,,False,23,2015,AE
+1500470,Vijay Kumar Garg,DJP,16306,157,0.1,11,23,8,DL,Vijay Kumar Garg,DJP,,,,,True,23,2015,AE
+1500471,Jasmer Singh,GAAP,16356,117,0.07,12,23,8,DL,Jasmer Singh,GAAP,,,,,False,23,2015,AE
+1500472,Raj Kumar Parihar,NCP,16214,110,0.07,13,23,8,DL,Raj Kumar Parihar,NCP,,,,,False,23,2015,AE
+1500473,Laxmi,RPI,16360,78,0.05,14,23,8,DL,Laxmi,RPI,,,,,False,23,2015,AE
+1500474,Karam Chand Lathwal,BPC,16227,61,0.04,15,23,8,DL,Karam Chand Lathwal,BPC,,,,,True,23,2015,AE
+1500475,Rakesh Kumar Sharma,AIFB,16231,52,0.03,16,23,8,DL,Rakesh Kumar Sharma,AIFB,,,,,False,23,2015,AE
+1500476,Rituraj Govind,AAAP,16293,97727,61.66,1,23,9,DL,Rituraj Govind,AAAP,,,,,False,23,2015,AE
+1500477,Anil Jha,BJP,16207,52555,33.16,2,23,9,DL,Anil Jha,BJP,,,,,True,23,2015,AE
+1500478,Pratyush Kanth,INC,16205,2086,1.32,3,23,9,DL,Pratyush Kanth,INC,,,,,False,23,2015,AE
+1500479,D.N. Bhagat Kushwaha,BSP,16206,2021,1.28,4,23,9,DL,D.N. Bhagat Kushwaha,BSP,,,,,False,23,2015,AE
+1500480,Amresh Sharma,DNP,16361,1499,0.95,5,23,9,DL,Amresh Sharma,DNP,,,,,False,23,2015,AE
+1500481,None Of The Above,NOTA,16294,840,0.53,6,23,9,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500482,Puspraj Singh,IND,16208,763,0.48,7,23,9,DL,Puspraj Singh,IND,,,,,False,23,2015,AE
+1500483,Banshidhar Mishra,HCP,16362,339,0.21,8,23,9,DL,Banshidhar Mishra,HCP,,,,,False,23,2015,AE
+1500484,Rasat Garg,PHRC,16304,258,0.16,9,23,9,DL,Rasat Garg,PHRC,,,,,False,23,2015,AE
+1500485,Abinav Sanjay Prajapati,NCP,16214,224,0.14,10,23,9,DL,Abinav Sanjay Prajapati,NCP,,,,,False,23,2015,AE
+1500486,Rajinder Kumar,SHS,16220,173,0.11,11,23,9,DL,Rajinder Kumar,SHS,,,,,False,23,2015,AE
+1500487,Sandeep Kumar,AAAP,16293,80269,69.5,1,23,10,DL,Sandeep Kumar,AAAP,,,,,True,23,2015,AE
+1500488,Parbhu Dayal,BJP,16207,15830,13.71,2,23,10,DL,Parbhu Dayal,BJP,,,,,False,23,2015,AE
+1500489,Jai Kishan,INC,16205,15036,13.02,3,23,10,DL,Jai Kishan,INC,,,,,True,23,2015,AE
+1500490,Nathu Ram,BSP,16206,2838,2.46,4,23,10,DL,Nathu Ram,BSP,,,,,False,23,2015,AE
+1500491,Gurdayal Singh,SHS,16220,549,0.48,5,23,10,DL,Gurdayal Singh,SHS,,,,,False,23,2015,AE
+1500492,None Of The Above,NOTA,16294,521,0.45,6,23,10,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500493,Sonu,BMUP,16351,309,0.27,7,23,10,DL,Sonu,BMUP,,,,,False,23,2015,AE
+1500494,Ramesh Kumar,IND,16208,148,0.13,8,23,10,DL,Ramesh Kumar,IND,,,,,False,23,2015,AE
+1500495,Raghuvinder Shokeen,AAAP,16293,83259,54.64,1,23,11,DL,Raghuvinder Shokeen,AAAP,,,,,False,23,2015,AE
+1500496,Manoj Kumar Shokeen,BJP,16207,46235,30.34,2,23,11,DL,Manoj Kumar Shokeen,BJP,,,,,True,23,2015,AE
+1500497,Dr. Bijender Singh,INC,16205,15756,10.34,3,23,11,DL,Dr. Bijender Singh,INC,,,,,True,23,2015,AE
+1500498,Narender Bindal,IND,16208,3323,2.18,4,23,11,DL,Narender Bindal,IND,,,,,False,23,2015,AE
+1500499,Kulwant Rai Bansal,BSP,16206,1173,0.77,5,23,11,DL,Kulwant Rai Bansal,BSP,,,,,False,23,2015,AE
+1500500,Sandeep Khatik,JD(U),16215,538,0.35,6,23,11,DL,Sandeep Khatik,JD(U),,,,,False,23,2015,AE
+1500501,None Of The Above,NOTA,16294,517,0.34,7,23,11,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500502,Raghvender Singh,IND,16208,410,0.27,8,23,11,DL,Raghvender Singh,IND,,,,,False,23,2015,AE
+1500503,Mahesh Kumar,IND,16208,289,0.19,9,23,11,DL,Mahesh Kumar,IND,,,,,False,23,2015,AE
+1500504,Adarsh Sharma,PMPT,16363,280,0.18,10,23,11,DL,Adarsh Sharma,PMPT,,,,,False,23,2015,AE
+1500505,Anil,IND,16208,139,0.09,11,23,11,DL,Anil,IND,,,,,False,23,2015,AE
+1500506,Hari Shankar Sharma,AIFB,16231,131,0.09,12,23,11,DL,Hari Shankar Sharma,AIFB,,,,,False,23,2015,AE
+1500507,Dharam Pal Bhilwara,HCP,16362,103,0.07,13,23,11,DL,Dharam Pal Bhilwara,HCP,,,,,False,23,2015,AE
+1500508,Rohtash Singh,SAAFP,16364,102,0.07,14,23,11,DL,Rohtash Singh,SAAFP,,,,,False,23,2015,AE
+1500509,Dr. Tarun Kumar,VSP,16312,62,0.04,15,23,11,DL,Dr. Tarun Kumar,VSP,,,,,True,23,2015,AE
+1500510,Ratan Lal Gupta,DJP,16306,58,0.04,16,23,11,DL,Ratan Lal Gupta,DJP,,,,,False,23,2015,AE
+1500511,Rakhi Birla,AAAP,16293,60534,46.94,1,23,12,DL,Rakhi Birla,AAAP,,,,,True,23,2015,AE
+1500512,Raj Kumar Chauhan,INC,16205,37835,29.34,2,23,12,DL,Raj Kumar Chauhan,INC,,,,,True,23,2015,AE
+1500513,Surjeet Kumar,BJP,16207,27889,21.63,3,23,12,DL,Surjeet Kumar,BJP,,,,,False,23,2015,AE
+1500514,Devender Kumar,BSP,16206,1659,1.29,4,23,12,DL,Devender Kumar,BSP,,,,,False,23,2015,AE
+1500515,None Of The Above,NOTA,16294,534,0.41,5,23,12,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500516,Raju,SHS,16220,330,0.26,6,23,12,DL,Raju,SHS,,,,,False,23,2015,AE
+1500517,Vijay Maharoliya,IND,16208,179,0.14,7,23,12,DL,Vijay Maharoliya,IND,,,,,False,23,2015,AE
+1500518,Vijender Gupta,BJP,16207,59866,49.83,1,23,13,DL,Vijender Gupta,BJP,,,,,False,23,2015,AE
+1500519,C.L. Gupta Advocate,AAAP,16293,54499,45.36,2,23,13,DL,C.L. Gupta Advocate,AAAP,,,,,False,23,2015,AE
+1500520,Sukhbir Sharma,INC,16205,3399,2.83,3,23,13,DL,Sukhbir Sharma,INC,,,,,False,23,2015,AE
+1500521,Raju,DMKP,16365,1406,1.17,4,23,13,DL,Raju,DMKP,,,,,False,23,2015,AE
+1500522,None Of The Above,NOTA,16294,557,0.46,5,23,13,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500523,Deepak Kumar,BSP,16206,349,0.29,6,23,13,DL,Deepak Kumar,BSP,,,,,False,23,2015,AE
+1500524,Sarabjit Singh,IND,16208,66,0.05,7,23,13,DL,Sarabjit Singh,IND,,,,,False,23,2015,AE
+1500525,Bandana Kumari,AAAP,16293,62656,52.14,1,23,14,DL,Bandana Kumari,AAAP,,,,,True,23,2015,AE
+1500526,Rekha Gupta,BJP,16207,51678,43.01,2,23,14,DL,Rekha Gupta,BJP,,,,,False,23,2015,AE
+1500527,Sulekh Aggarwal,INC,16205,3200,2.66,3,23,14,DL,Sulekh Aggarwal,INC,,,,,False,23,2015,AE
+1500528,Lalit Kumar Gautam,BSP,16206,892,0.74,4,23,14,DL,Lalit Kumar Gautam,BSP,,,,,False,23,2015,AE
+1500529,None Of The Above,NOTA,16294,627,0.52,5,23,14,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500530,Avinash Kumar Jha,IND,16208,430,0.36,6,23,14,DL,Avinash Kumar Jha,IND,,,,,False,23,2015,AE
+1500531,Harish Chander Tiwari,IND,16208,286,0.24,7,23,14,DL,Harish Chander Tiwari,IND,,,,,False,23,2015,AE
+1500532,Ashok Kumar,IND,16208,219,0.18,8,23,14,DL,Ashok Kumar,IND,,,,,False,23,2015,AE
+1500533,Wajid Ali,IND,16208,90,0.07,9,23,14,DL,Wajid Ali,IND,,,,,False,23,2015,AE
+1500534,Ca Satish Singal,IND,16208,86,0.07,10,23,14,DL,Ca Satish Singal,IND,,,,,False,23,2015,AE
+1500535,Satyendar Jain,AAAP,16293,51530,48.67,1,23,15,DL,Satyendar Jain,AAAP,,,,,False,23,2015,AE
+1500536,S C Vats,BJP,16207,48397,45.71,2,23,15,DL,S C Vats,BJP,,,,,False,23,2015,AE
+1500537,Chaman Lal Sharma,INC,16205,4812,4.54,3,23,15,DL,Chaman Lal Sharma,INC,,,,,False,23,2015,AE
+1500538,None Of The Above,NOTA,16294,438,0.41,4,23,15,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500539,Dr. Amar Nath Yadav,KAJP,16334,234,0.22,5,23,15,DL,Dr. Amar Nath Yadav,KAJP,,,,,False,23,2015,AE
+1500540,Laxman,BSP,16206,233,0.22,6,23,15,DL,Laxman,BSP,,,,,False,23,2015,AE
+1500541,Sapna Sharma,NADP,16263,103,0.1,7,23,15,DL,Sapna Sharma,NADP,,,,,False,23,2015,AE
+1500542,Jugal Kishor,IND,16208,87,0.08,8,23,15,DL,Jugal Kishor,IND,,,,,False,23,2015,AE
+1500543,Sunita Sachdeva,DJP,16306,53,0.05,9,23,15,DL,Sunita Sachdeva,DJP,,,,,False,23,2015,AE
+1500544,Jitender Singh Tomar,AAAP,16293,63012,55.7,1,23,16,DL,Jitender Singh Tomar,AAAP,,,,,True,23,2015,AE
+1500545,Nand Kishore Garg,BJP,16207,40701,35.98,2,23,16,DL,Nand Kishore Garg,BJP,,,,,True,23,2015,AE
+1500546,Anil Bhardwaj,INC,16205,7939,7.02,3,23,16,DL,Anil Bhardwaj,INC,,,,,True,23,2015,AE
+1500547,None Of The Above,NOTA,16294,407,0.36,4,23,16,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500548,Nitya Nand Singh,BSP,16206,317,0.28,5,23,16,DL,Nitya Nand Singh,BSP,,,,,False,23,2015,AE
+1500549,Lalita Agarwal,IND,16208,275,0.24,6,23,16,DL,Lalita Agarwal,IND,,,,,False,23,2015,AE
+1500550,Khalid Ali,IND,16208,139,0.12,7,23,16,DL,Khalid Ali,IND,,,,,False,23,2015,AE
+1500551,Mohammad Saleem,NCP,16214,101,0.09,8,23,16,DL,Mohammad Saleem,NCP,,,,,False,23,2015,AE
+1500552,Neelam Nigam,JD(U),16215,80,0.07,9,23,16,DL,Neelam Nigam,JD(U),,,,,False,23,2015,AE
+1500553,Nandkishor Prasad,IND,16208,61,0.05,10,23,16,DL,Nandkishor Prasad,IND,,,,,False,23,2015,AE
+1500554,Amit Kumar,IND,16208,33,0.03,11,23,16,DL,Amit Kumar,IND,,,,,False,23,2015,AE
+1500555,Sandeep Kansal,SHS,16220,28,0.02,12,23,16,DL,Sandeep Kansal,SHS,,,,,False,23,2015,AE
+1500556,Manish Kukreja,SASAPT,16353,18,0.02,13,23,16,DL,Manish Kukreja,SASAPT,,,,,False,23,2015,AE
+1500557,Bashiruddin,AIMF,16241,7,0.01,14,23,16,DL,Bashiruddin,AIMF,,,,,False,23,2015,AE
+1500558,Rajesh Gupta,AAAP,16293,61208,54.85,1,23,17,DL,Rajesh Gupta,AAAP,,,,,False,23,2015,AE
+1500559,Dr. Mahander Nagpal,BJP,16207,39164,35.1,2,23,17,DL,Dr. Mahander Nagpal,BJP,,,,,False,23,2015,AE
+1500560,Hari Shanker Gupta,INC,16205,8371,7.5,3,23,17,DL,Hari Shanker Gupta,INC,,,,,True,23,2015,AE
+1500561,Ram Dhani,BSP,16206,1185,1.06,4,23,17,DL,Ram Dhani,BSP,,,,,False,23,2015,AE
+1500562,Rajesh Kumar,IND,16208,547,0.49,5,23,17,DL,Rajesh Kumar,IND,,,,,False,23,2015,AE
+1500563,None Of The Above,NOTA,16294,468,0.42,6,23,17,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500564,H.D. Ansari,IND,16208,231,0.21,7,23,17,DL,H.D. Ansari,IND,,,,,False,23,2015,AE
+1500565,Ajay Kumar Singh,CPI(ML)(L),16211,183,0.16,8,23,17,DL,Ajay Kumar Singh,CPI(ML)(L),,,,,False,23,2015,AE
+1500566,Sunil Kumar,ASSP,16359,70,0.06,9,23,17,DL,Sunil Kumar,ASSP,,,,,False,23,2015,AE
+1500567,Munshi Lal Parjapati,LPSP,16230,62,0.06,10,23,17,DL,Munshi Lal Parjapati,LPSP,,,,,False,23,2015,AE
+1500568,Indarjeet Yadav,SASAPT,16353,53,0.05,11,23,17,DL,Indarjeet Yadav,SASAPT,,,,,False,23,2015,AE
+1500569,Ramesh Chandra,PSPARTY,16357,43,0.04,12,23,17,DL,Ramesh Chandra,PSPARTY,,,,,False,23,2015,AE
+1500570,Akhilesh Pati Tripathi,AAAP,16293,54628,52.38,1,23,18,DL,Akhilesh Pati Tripathi,AAAP,,,,,True,23,2015,AE
+1500571,Vivek Garg,BJP,16207,37922,36.36,2,23,18,DL,Vivek Garg,BJP,,,,,False,23,2015,AE
+1500572,Kanwar Karan Singh,INC,16205,8992,8.62,3,23,18,DL,Kanwar Karan Singh,INC,,,,,True,23,2015,AE
+1500573,Gautam,IND,16208,1176,1.13,4,23,18,DL,Gautam,IND,,,,,False,23,2015,AE
+1500574,None Of The Above,NOTA,16294,690,0.66,5,23,18,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500575,Jeetender,BSP,16206,601,0.58,6,23,18,DL,Jeetender,BSP,,,,,False,23,2015,AE
+1500576,Vinod K. Jain,IND,16208,146,0.14,7,23,18,DL,Vinod K. Jain,IND,,,,,False,23,2015,AE
+1500577,Sachin Jha,IND,16208,129,0.12,8,23,18,DL,Sachin Jha,IND,,,,,False,23,2015,AE
+1500578,Som Dutt,AAAP,16293,67507,56.6,1,23,19,DL,Som Dutt,AAAP,,,,,True,23,2015,AE
+1500579,Parveen Kumar Jain,BJP,16207,33192,27.83,2,23,19,DL,Parveen Kumar Jain,BJP,,,,,False,23,2015,AE
+1500580,Ajay Makan,INC,16205,16331,13.69,3,23,19,DL,Ajay Makan,INC,,,,,False,23,2015,AE
+1500581,Mirza Ali Raza,BSP,16206,748,0.63,4,23,19,DL,Mirza Ali Raza,BSP,,,,,True,23,2015,AE
+1500582,None Of The Above,NOTA,16294,412,0.35,5,23,19,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500583,Man Mohan,SHS,16220,257,0.22,6,23,19,DL,Man Mohan,SHS,,,,,False,23,2015,AE
+1500584,Ghanshyam Dass,IND,16208,189,0.16,7,23,19,DL,Ghanshyam Dass,IND,,,,,False,23,2015,AE
+1500585,Prashant Yadav,IND,16208,172,0.14,8,23,19,DL,Prashant Yadav,IND,,,,,False,23,2015,AE
+1500586,Ritu Kaushik,SUCI,16299,130,0.11,9,23,19,DL,Ritu Kaushik,SUCI,,,,,False,23,2015,AE
+1500587,Ajay,IND,16208,119,0.1,10,23,19,DL,Ajay,IND,,,,,False,23,2015,AE
+1500588,Mohd Furqan,HCP,16362,81,0.07,11,23,19,DL,Mohd Furqan,HCP,,,,,False,23,2015,AE
+1500589,Dal Chand,IND,16208,56,0.05,12,23,19,DL,Dal Chand,IND,,,,,False,23,2015,AE
+1500590,Ved Parkash,ASSP,16359,44,0.04,13,23,19,DL,Ved Parkash,ASSP,,,,,False,23,2015,AE
+1500591,Mahender Pratap,RPI(A),16238,38,0.03,14,23,19,DL,Mahender Pratap,RPI(A),,,,,False,23,2015,AE
+1500592,Alka Lamba,AAAP,16293,36756,49.35,1,23,20,DL,Alka Lamba,AAAP,,,,,False,23,2015,AE
+1500593,Suman Kumar Gupta,BJP,16207,18469,24.8,2,23,20,DL,Suman Kumar Gupta,BJP,,,,,True,23,2015,AE
+1500594,Parlad Singh Sawhney,INC,16205,17930,24.07,3,23,20,DL,Parlad Singh Sawhney,INC,,,,,True,23,2015,AE
+1500595,None Of The Above,NOTA,16294,362,0.49,4,23,20,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500596,Mohd. Rehan,BSP,16206,217,0.29,5,23,20,DL,Mohd. Rehan,BSP,,,,,False,23,2015,AE
+1500597,Mohd. Naseem,NCP,16214,212,0.28,6,23,20,DL,Mohd. Naseem,NCP,,,,,False,23,2015,AE
+1500598,Ashok Kumar,ABHM,16218,117,0.16,7,23,20,DL,Ashok Kumar,ABHM,,,,,False,23,2015,AE
+1500599,Tarun,IND,16208,111,0.15,8,23,20,DL,Tarun,IND,,,,,False,23,2015,AE
+1500600,Lakhan Singh,IND,16208,86,0.12,9,23,20,DL,Lakhan Singh,IND,,,,,False,23,2015,AE
+1500601,Adil Mirza,IUML,16330,63,0.08,10,23,20,DL,Adil Mirza,IUML,,,,,False,23,2015,AE
+1500602,Sandeep Sharma,IND,16208,57,0.08,11,23,20,DL,Sandeep Sharma,IND,,,,,False,23,2015,AE
+1500603,Balram Bari,IND,16208,48,0.06,12,23,20,DL,Balram Bari,IND,,,,,True,23,2015,AE
+1500604,Parmeet Singh,IND,16208,25,0.03,13,23,20,DL,Parmeet Singh,IND,,,,,False,23,2015,AE
+1500605,Anil Anand,IND,16208,23,0.03,14,23,20,DL,Anil Anand,IND,,,,,True,23,2015,AE
+1500606,Asim Ahmed Khan,AAAP,16293,47584,59.23,1,23,21,DL,Asim Ahmed Khan,AAAP,,,,,False,23,2015,AE
+1500607,Shoaib Iqbal,INC,16205,21488,26.75,2,23,21,DL,Shoaib Iqbal,INC,,,,,False,23,2015,AE
+1500608,Shakeel Anjum Dehlvi,BJP,16207,9105,11.33,3,23,21,DL,Shakeel Anjum Dehlvi,BJP,,,,,False,23,2015,AE
+1500609,Mohd Sami,IND,16208,430,0.54,4,23,21,DL,Mohd Sami,IND,,,,,False,23,2015,AE
+1500610,Ravi Anand,BSP,16206,396,0.49,5,23,21,DL,Ravi Anand,BSP,,,,,False,23,2015,AE
+1500611,Umar Farooq,IND,16208,215,0.27,6,23,21,DL,Umar Farooq,IND,,,,,False,23,2015,AE
+1500612,None Of The Above,NOTA,16294,203,0.25,7,23,21,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500613,Shafi Dehlvi,BMUP,16351,164,0.2,8,23,21,DL,Shafi Dehlvi,BMUP,,,,,False,23,2015,AE
+1500614,Shoaib Ahmed,IND,16208,161,0.2,9,23,21,DL,Shoaib Ahmed,IND,,,,,False,23,2015,AE
+1500615,Imran Husain,IUML,16330,131,0.16,10,23,21,DL,Imran Husain,IUML,,,,,False,23,2015,AE
+1500616,Shahzaman,IND,16208,122,0.15,11,23,21,DL,Shahzaman,IND,,,,,False,23,2015,AE
+1500617,Mohammad Ahmed Saifi,IND,16208,91,0.11,12,23,21,DL,Mohammad Ahmed Saifi,IND,,,,,True,23,2015,AE
+1500618,Mehfuz Khan,JKNPP,16236,90,0.11,13,23,21,DL,Mehfuz Khan,JKNPP,,,,,False,23,2015,AE
+1500619,C.P. Sunil,GARPA,16366,45,0.06,14,23,21,DL,C.P. Sunil,GARPA,,,,,False,23,2015,AE
+1500620,Shueb Ahmed Khan,IND,16208,43,0.05,15,23,21,DL,Shueb Ahmed Khan,IND,,,,,False,23,2015,AE
+1500621,Prem Nath,IND,16208,29,0.04,16,23,21,DL,Prem Nath,IND,,,,,False,23,2015,AE
+1500622,Moazam Khan,HCP,16362,19,0.02,17,23,21,DL,Moazam Khan,HCP,,,,,False,23,2015,AE
+1500623,Tariq Mirza,RPI(A),16238,19,0.02,17,23,21,DL,Tariq Mirza,RPI(A),,,,,False,23,2015,AE
+1500624,Imran Hussain,AAAP,16293,57118,59.71,1,23,22,DL,Imran Hussain,AAAP,,,,,False,23,2015,AE
+1500625,Shayam Lal Morwal,BJP,16207,23241,24.3,2,23,22,DL,Shayam Lal Morwal,BJP,,,,,False,23,2015,AE
+1500626,Haroon Yusuf,INC,16205,13205,13.8,3,23,22,DL,Haroon Yusuf,INC,,,,,True,23,2015,AE
+1500627,Abdul Jabbar,CPI,16223,644,0.67,4,23,22,DL,Abdul Jabbar,CPI,,,,,False,23,2015,AE
+1500628,Dilip Kumar,BSP,16206,438,0.46,5,23,22,DL,Dilip Kumar,BSP,,,,,False,23,2015,AE
+1500629,None Of The Above,NOTA,16294,304,0.32,6,23,22,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500630,Daulat Ram,IND,16208,142,0.15,7,23,22,DL,Daulat Ram,IND,,,,,False,23,2015,AE
+1500631,Md.Danish,RPI(A),16238,130,0.14,8,23,22,DL,Md.Danish,RPI(A),,,,,False,23,2015,AE
+1500632,Manish Kumar,NACP,16367,120,0.13,9,23,22,DL,Manish Kumar,NACP,,,,,False,23,2015,AE
+1500633,Krishan Kumar,IND,16208,107,0.11,10,23,22,DL,Krishan Kumar,IND,,,,,False,23,2015,AE
+1500634,Aarif Nabi,IND,16208,91,0.1,11,23,22,DL,Aarif Nabi,IND,,,,,False,23,2015,AE
+1500635,Rajesh Kumar,BMUP,16351,61,0.06,12,23,22,DL,Rajesh Kumar,BMUP,,,,,False,23,2015,AE
+1500636,Prem,BJDI,16298,55,0.06,13,23,22,DL,Prem,BJDI,,,,,False,23,2015,AE
+1500637,Vishesh Ravi,AAAP,16293,67429,59.8,1,23,23,DL,Vishesh Ravi,AAAP,,,,,True,23,2015,AE
+1500638,Yogender Chandoliya,BJP,16207,34549,30.64,2,23,23,DL,Yogender Chandoliya,BJP,,,,,False,23,2015,AE
+1500639,Madan Khorwal,INC,16205,9144,8.11,3,23,23,DL,Madan Khorwal,INC,,,,,True,23,2015,AE
+1500640,Yogesh,BSP,16206,559,0.5,4,23,23,DL,Yogesh,BSP,,,,,False,23,2015,AE
+1500641,None Of The Above,NOTA,16294,411,0.36,5,23,23,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500642,Amit,ABHM,16218,182,0.16,6,23,23,DL,Amit,ABHM,,,,,False,23,2015,AE
+1500643,Pardeep Kumar Jatav,IND,16208,175,0.16,7,23,23,DL,Pardeep Kumar Jatav,IND,,,,,False,23,2015,AE
+1500644,Sanjay Kumar Akarnia,IND,16208,99,0.09,8,23,23,DL,Sanjay Kumar Akarnia,IND,,,,,False,23,2015,AE
+1500645,Ranjan Khatumaria,IND,16208,77,0.07,9,23,23,DL,Ranjan Khatumaria,IND,,,,,False,23,2015,AE
+1500646,Deepak Kumar,IND,16208,54,0.05,10,23,23,DL,Deepak Kumar,IND,,,,,False,23,2015,AE
+1500647,Kishore Kumar,SHS,16220,48,0.04,11,23,23,DL,Kishore Kumar,SHS,,,,,False,23,2015,AE
+1500648,Dhan Raj Chauhan,NADP,16263,24,0.02,12,23,23,DL,Dhan Raj Chauhan,NADP,,,,,False,23,2015,AE
+1500649,Hazari Lal Chauhan,AAAP,16293,68868,59.05,1,23,24,DL,Hazari Lal Chauhan,AAAP,,,,,False,23,2015,AE
+1500650,Krishna Tirath,BJP,16207,34230,29.35,2,23,24,DL,Krishna Tirath,BJP,,,,,False,23,2015,AE
+1500651,Rajesh Lilothia,INC,16205,10766,9.23,3,23,24,DL,Rajesh Lilothia,INC,,,,,True,23,2015,AE
+1500652,Veena Anand,IND,16208,1051,0.9,4,23,24,DL,Veena Anand,IND,,,,,False,23,2015,AE
+1500653,Alok Nandan,BSP,16206,772,0.66,5,23,24,DL,Alok Nandan,BSP,,,,,False,23,2015,AE
+1500654,None Of The Above,NOTA,16294,469,0.4,6,23,24,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500655,Suresh Kumar,IND,16208,464,0.4,7,23,24,DL,Suresh Kumar,IND,,,,,False,23,2015,AE
+1500656,Shiv Charan Goel,AAAP,16293,60223,53.13,1,23,25,DL,Shiv Charan Goel,AAAP,,,,,False,23,2015,AE
+1500657,Subhash Sachdeva,BJP,16207,45002,39.7,2,23,25,DL,Subhash Sachdeva,BJP,,,,,True,23,2015,AE
+1500658,Raj Kumar Maggo,INC,16205,6111,5.39,3,23,25,DL,Raj Kumar Maggo,INC,,,,,False,23,2015,AE
+1500659,Avinash Gupta,BSP,16206,666,0.59,4,23,25,DL,Avinash Gupta,BSP,,,,,True,23,2015,AE
+1500660,Sanjeev Diwan,IND,16208,566,0.5,5,23,25,DL,Sanjeev Diwan,IND,,,,,False,23,2015,AE
+1500661,None Of The Above,NOTA,16294,471,0.42,6,23,25,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500662,Sanjeev Gupta,IND,16208,321,0.28,7,23,25,DL,Sanjeev Gupta,IND,,,,,True,23,2015,AE
+1500663,Girish Soni,AAAP,16293,66571,57.24,1,23,26,DL,Girish Soni,AAAP,,,,,True,23,2015,AE
+1500664,Raj Kumar,BJP,16207,37184,31.97,2,23,26,DL,Raj Kumar,BJP,,,,,False,23,2015,AE
+1500665,Mala Ram Gangwal,INC,16205,10350,8.9,3,23,26,DL,Mala Ram Gangwal,INC,,,,,True,23,2015,AE
+1500666,None Of The Above,NOTA,16294,601,0.52,4,23,26,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500667,Lala Ram,BSP,16206,600,0.52,5,23,26,DL,Lala Ram,BSP,,,,,False,23,2015,AE
+1500668,Jitender Kumar,PMPT,16363,512,0.44,6,23,26,DL,Jitender Kumar,PMPT,,,,,False,23,2015,AE
+1500669,Puran Chand,IND,16208,477,0.41,7,23,26,DL,Puran Chand,IND,,,,,False,23,2015,AE
+1500670,Jarnail Singh,AAAP,16293,54916,46.55,1,23,27,DL,Jarnail Singh,AAAP,,,,,False,23,2015,AE
+1500671,Manjinder Singh Sirsa,SAD,16319,44880,38.04,2,23,27,DL,Manjinder Singh Sirsa,SAD,,,,,True,23,2015,AE
+1500672,A Meenakshi Chandela,INC,16205,14167,12.01,3,23,27,DL,A Meenakshi Chandela,INC,,,,,False,23,2015,AE
+1500673,Gurbaksh Singh,SHS,16220,1706,1.45,4,23,27,DL,Gurbaksh Singh,SHS,,,,,False,23,2015,AE
+1500674,None Of The Above,NOTA,16294,649,0.55,5,23,27,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500675,Moin Khan,BSP,16206,384,0.33,6,23,27,DL,Moin Khan,BSP,,,,,False,23,2015,AE
+1500676,Jarnail Singh S/O Ajit,IND,16208,382,0.32,7,23,27,DL,Jarnail Singh S/O Ajit,IND,,,,,False,23,2015,AE
+1500677,Jarnail Singh S/O,IND,16208,280,0.24,8,23,27,DL,Jarnail Singh S/O,IND,,,,,False,23,2015,AE
+1500678,Sumit,IND,16208,240,0.2,9,23,27,DL,Sumit,IND,,,,,False,23,2015,AE
+1500679,Suman Chandila,IND,16208,101,0.09,10,23,27,DL,Suman Chandila,IND,,,,,False,23,2015,AE
+1500680,Lokesh,IND,16208,88,0.07,11,23,27,DL,Lokesh,IND,,,,,False,23,2015,AE
+1500681,Livis Chandela,IND,16208,74,0.06,12,23,27,DL,Livis Chandela,IND,,,,,False,23,2015,AE
+1500682,Praveen Kumar,IND,16208,39,0.03,13,23,27,DL,Praveen Kumar,IND,,,,,False,23,2015,AE
+1500683,Jasvindra Singh,IND,16208,36,0.03,14,23,27,DL,Jasvindra Singh,IND,,,,,False,23,2015,AE
+1500684,Bhagat Singh,IND,16208,29,0.02,15,23,27,DL,Bhagat Singh,IND,,,,,False,23,2015,AE
+1500685,Jagdeep Singh,AAAP,16293,65398,58.51,1,23,28,DL,Jagdeep Singh,AAAP,,,,,True,23,2015,AE
+1500686,Avtar Singh Hit,BJP,16207,38954,34.85,2,23,28,DL,Avtar Singh Hit,BJP,,,,,False,23,2015,AE
+1500687,Chander Parkash,INC,16205,6152,5.5,3,23,28,DL,Chander Parkash,INC,,,,,False,23,2015,AE
+1500688,None Of The Above,NOTA,16294,572,0.51,4,23,28,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500689,Jai Prakash Manav,BSP,16206,555,0.5,5,23,28,DL,Jai Prakash Manav,BSP,,,,,False,23,2015,AE
+1500690,Baljeet Kaur,SHS,16220,150,0.13,6,23,28,DL,Baljeet Kaur,SHS,,,,,False,23,2015,AE
+1500691,Jarnail Singh,AAAP,16293,57180,55.1,1,23,29,DL,Jarnail Singh,AAAP,,,,,True,23,2015,AE
+1500692,Rajiv Babbar,BJP,16207,37290,35.93,2,23,29,DL,Rajiv Babbar,BJP,,,,,True,23,2015,AE
+1500693,Duli Chand Lohia,INC,16205,7303,7.04,3,23,29,DL,Duli Chand Lohia,INC,,,,,False,23,2015,AE
+1500694,Jarnail Singh,IND,16208,570,0.55,4,23,29,DL,Jarnail Singh,IND,,,,,False,23,2015,AE
+1500695,None Of The Above,NOTA,16294,464,0.45,5,23,29,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500696,Rajiv Babbar,RABP,16368,253,0.24,6,23,29,DL,Rajiv Babbar,RABP,,,,,False,23,2015,AE
+1500697,Vijay Bahadur,BSP,16206,250,0.24,7,23,29,DL,Vijay Bahadur,BSP,,,,,False,23,2015,AE
+1500698,Pradeep Kumar Lohia,IND,16208,238,0.23,8,23,29,DL,Pradeep Kumar Lohia,IND,,,,,False,23,2015,AE
+1500699,Vishal Sharma,IND,16208,80,0.08,9,23,29,DL,Vishal Sharma,IND,,,,,True,23,2015,AE
+1500700,Chattar Singh,SHS,16220,68,0.07,10,23,29,DL,Chattar Singh,SHS,,,,,False,23,2015,AE
+1500701,Duli Chand,IND,16208,48,0.05,11,23,29,DL,Duli Chand,IND,,,,,False,23,2015,AE
+1500702,Babu Singh Dukhiya,HCP,16362,37,0.04,12,23,29,DL,Babu Singh Dukhiya,HCP,,,,,False,23,2015,AE
+1500703,Rajesh Rishi,AAAP,16293,71802,57.72,1,23,30,DL,Rajesh Rishi,AAAP,,,,,True,23,2015,AE
+1500704,Prof. Jagdish Mukhi,BJP,16207,46222,37.16,2,23,30,DL,Prof. Jagdish Mukhi,BJP,,,,,True,23,2015,AE
+1500705,Suresh Kumar,INC,16205,4699,3.78,3,23,30,DL,Suresh Kumar,INC,,,,,False,23,2015,AE
+1500706,None Of The Above,NOTA,16294,483,0.39,4,23,30,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500707,Hari Prakash Singh,BSP,16206,471,0.38,5,23,30,DL,Hari Prakash Singh,BSP,,,,,True,23,2015,AE
+1500708,Ravindra Nath Tiwari,IND,16208,223,0.18,6,23,30,DL,Ravindra Nath Tiwari,IND,,,,,False,23,2015,AE
+1500709,Anil Gupta,IND,16208,214,0.17,7,23,30,DL,Anil Gupta,IND,,,,,False,23,2015,AE
+1500710,Rajender Sharma,HCP,16362,162,0.13,8,23,30,DL,Rajender Sharma,HCP,,,,,False,23,2015,AE
+1500711,Charanjit Singh Sodhi,IND,16208,63,0.05,9,23,30,DL,Charanjit Singh Sodhi,IND,,,,,False,23,2015,AE
+1500712,Paramjit Singh Saini,SHS,16220,49,0.04,10,23,30,DL,Paramjit Singh Saini,SHS,,,,,False,23,2015,AE
+1500713,Mahinder Yadav,AAAP,16293,132437,62.53,1,23,31,DL,Mahinder Yadav,AAAP,,,,,True,23,2015,AE
+1500714,Sanjay Singh,BJP,16207,54772,25.86,2,23,31,DL,Sanjay Singh,BJP,,,,,False,23,2015,AE
+1500715,Nand Kishore,INC,16205,19540,9.23,3,23,31,DL,Nand Kishore,INC,,,,,True,23,2015,AE
+1500716,Radhey Shyam,BSP,16206,2139,1.01,4,23,31,DL,Radhey Shyam,BSP,,,,,False,23,2015,AE
+1500717,Bharti Seth,IND,16208,1106,0.52,5,23,31,DL,Bharti Seth,IND,,,,,False,23,2015,AE
+1500718,None Of The Above,NOTA,16294,790,0.37,6,23,31,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500719,Mohd. Naeem,NCP,16214,291,0.14,7,23,31,DL,Mohd. Naeem,NCP,,,,,False,23,2015,AE
+1500720,Sushila Davi,IND,16208,283,0.13,8,23,31,DL,Sushila Davi,IND,,,,,False,23,2015,AE
+1500721,Anshu Kumar,GAAP,16356,252,0.12,9,23,31,DL,Anshu Kumar,GAAP,,,,,False,23,2015,AE
+1500722,Monchi,AMKP,16369,192,0.09,10,23,31,DL,Monchi,AMKP,,,,,False,23,2015,AE
+1500723,Naresh Balyan,AAAP,16293,85881,51.99,1,23,32,DL,Naresh Balyan,AAAP,,,,,False,23,2015,AE
+1500724,Pawan Sharma,BJP,16207,55462,33.58,2,23,32,DL,Pawan Sharma,BJP,,,,,True,23,2015,AE
+1500725,Mukesh Sharma,INC,16205,20703,12.53,3,23,32,DL,Mukesh Sharma,INC,,,,,True,23,2015,AE
+1500726,Abdul Hamid Barshid,BSP,16206,884,0.54,4,23,32,DL,Abdul Hamid Barshid,BSP,,,,,False,23,2015,AE
+1500727,None Of The Above,NOTA,16294,672,0.41,5,23,32,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500728,B. K. Jha,IND,16208,332,0.2,6,23,32,DL,B. K. Jha,IND,,,,,False,23,2015,AE
+1500729,Narender Kumar,IND,16208,295,0.18,7,23,32,DL,Narender Kumar,IND,,,,,False,23,2015,AE
+1500730,Jagpal Singhal,KAJP,16334,259,0.16,8,23,32,DL,Jagpal Singhal,KAJP,,,,,False,23,2015,AE
+1500731,Naresh Kumar,IND,16208,228,0.14,9,23,32,DL,Naresh Kumar,IND,,,,,False,23,2015,AE
+1500732,Sachin Kapoor,IND,16208,226,0.14,10,23,32,DL,Sachin Kapoor,IND,,,,,False,23,2015,AE
+1500733,Faqir Chand Verma,IND,16208,142,0.09,11,23,32,DL,Faqir Chand Verma,IND,,,,,False,23,2015,AE
+1500734,Shyam Bharteey,GAAP,16356,96,0.06,12,23,32,DL,Shyam Bharteey,GAAP,,,,,False,23,2015,AE
+1500735,Adarsh Shastri,AAAP,16293,79729,59.08,1,23,33,DL,Adarsh Shastri,AAAP,,,,,False,23,2015,AE
+1500736,Parduymn Rajput,BJP,16207,40363,29.91,2,23,33,DL,Parduymn Rajput,BJP,,,,,True,23,2015,AE
+1500737,Mahabal Mishra,INC,16205,12532,9.29,3,23,33,DL,Mahabal Mishra,INC,,,,,False,23,2015,AE
+1500738,Amit Chauhan,BSP,16206,608,0.45,4,23,33,DL,Amit Chauhan,BSP,,,,,False,23,2015,AE
+1500739,None Of The Above,NOTA,16294,332,0.25,5,23,33,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500740,Premchand,CPM,16243,264,0.2,6,23,33,DL,Premchand,CPM,,,,,False,23,2015,AE
+1500741,Vivek Kumar Pandey,IND,16208,242,0.18,7,23,33,DL,Vivek Kumar Pandey,IND,,,,,False,23,2015,AE
+1500742,Sushil Bhagat,NYP,16323,219,0.16,8,23,33,DL,Sushil Bhagat,NYP,,,,,False,23,2015,AE
+1500743,Ajay Kumar,BVLP,16348,178,0.13,9,23,33,DL,Ajay Kumar,BVLP,,,,,False,23,2015,AE
+1500744,Ravi Singh,IND,16208,128,0.09,10,23,33,DL,Ravi Singh,IND,,,,,False,23,2015,AE
+1500745,Surender Kumar,RKSP,16279,94,0.07,11,23,33,DL,Surender Kumar,RKSP,,,,,False,23,2015,AE
+1500746,Adarsh Kumar,IND,16208,82,0.06,12,23,33,DL,Adarsh Kumar,IND,,,,,False,23,2015,AE
+1500747,Gautam Kumar,IND,16208,77,0.06,13,23,33,DL,Gautam Kumar,IND,,,,,False,23,2015,AE
+1500748,Mukesh Kumar Tanwar,IND,16208,55,0.04,14,23,33,DL,Mukesh Kumar Tanwar,IND,,,,,True,23,2015,AE
+1500749,Kamleshwari Mistri,PBI,16321,49,0.04,15,23,33,DL,Kamleshwari Mistri,PBI,,,,,False,23,2015,AE
+1500750,Gulab Singh,AAAP,16293,127665,54.91,1,23,34,DL,Gulab Singh,AAAP,,,,,True,23,2015,AE
+1500751,Rajesh Gahlot,BJP,16207,80661,34.7,2,23,34,DL,Rajesh Gahlot,BJP,,,,,True,23,2015,AE
+1500752,Sumesh Shokeen,INC,16205,20284,8.73,3,23,34,DL,Sumesh Shokeen,INC,,,,,True,23,2015,AE
+1500753,None Of The Above,NOTA,16294,1102,0.47,4,23,34,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500754,Suresh Kumar Patel,RBHP,16314,728,0.31,5,23,34,DL,Suresh Kumar Patel,RBHP,,,,,False,23,2015,AE
+1500755,Sanjay Kumar,BSP,16206,723,0.31,6,23,34,DL,Sanjay Kumar,BSP,,,,,False,23,2015,AE
+1500756,Gulab Singh,IND,16208,376,0.16,7,23,34,DL,Gulab Singh,IND,,,,,False,23,2015,AE
+1500757,Ram Bilas Mishra,IND,16208,221,0.1,8,23,34,DL,Ram Bilas Mishra,IND,,,,,False,23,2015,AE
+1500758,Shripal,IND,16208,188,0.08,9,23,34,DL,Shripal,IND,,,,,True,23,2015,AE
+1500759,Virendra Kumar Rai,RJ,16337,155,0.07,10,23,34,DL,Virendra Kumar Rai,RJ,,,,,False,23,2015,AE
+1500760,Renu Poddar,PBI,16321,127,0.05,11,23,34,DL,Renu Poddar,PBI,,,,,True,23,2015,AE
+1500761,Rajesh Kumar Gahlot,IND,16208,125,0.05,12,23,34,DL,Rajesh Kumar Gahlot,IND,,,,,False,23,2015,AE
+1500762,Ram Charan Sahani,SHRP,16370,71,0.03,13,23,34,DL,Ram Charan Sahani,SHRP,,,,,False,23,2015,AE
+1500763,Rajesh,IND,16208,55,0.02,14,23,34,DL,Rajesh,IND,,,,,False,23,2015,AE
+1500764,Kailash Gahlot,AAAP,16293,55598,34.62,1,23,35,DL,Kailash Gahlot,AAAP,,,,,False,23,2015,AE
+1500765,Bharat Singh,INLD,16295,54043,33.65,2,23,35,DL,Bharat Singh,INLD,,,,,True,23,2015,AE
+1500766,Ajeet Singh Kharkhari,BJP,16207,39462,24.57,3,23,35,DL,Ajeet Singh Kharkhari,BJP,,,,,True,23,2015,AE
+1500767,Jai Kishan Sharma,INC,16205,8180,5.09,4,23,35,DL,Jai Kishan Sharma,INC,,,,,False,23,2015,AE
+1500768,Ram Singh,BSP,16206,1108,0.69,5,23,35,DL,Ram Singh,BSP,,,,,False,23,2015,AE
+1500769,None Of The Above,NOTA,16294,535,0.33,6,23,35,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500770,Bharat Singh,IND,16208,391,0.24,7,23,35,DL,Bharat Singh,IND,,,,,False,23,2015,AE
+1500771,Baidyanath Sah,PBI,16321,350,0.22,8,23,35,DL,Baidyanath Sah,PBI,,,,,True,23,2015,AE
+1500772,Inderjeet,IND,16208,295,0.18,9,23,35,DL,Inderjeet,IND,,,,,False,23,2015,AE
+1500773,Lalit Vashist,IND,16208,259,0.16,10,23,35,DL,Lalit Vashist,IND,,,,,False,23,2015,AE
+1500774,Dharambir Singh,IND,16208,132,0.08,11,23,35,DL,Dharambir Singh,IND,,,,,False,23,2015,AE
+1500775,Kailash Chand,IND,16208,85,0.05,12,23,35,DL,Kailash Chand,IND,,,,,False,23,2015,AE
+1500776,Ajit Singh,RBHP,16314,74,0.05,13,23,35,DL,Ajit Singh,RBHP,,,,,False,23,2015,AE
+1500777,Neelam,IND,16208,70,0.04,14,23,35,DL,Neelam,IND,,,,,True,23,2015,AE
+1500778,Col Devinder,AAAP,16293,65006,54.99,1,23,36,DL,Col Devinder,AAAP,,,,,False,23,2015,AE
+1500779,Sat Prakash Rana,BJP,16207,45470,38.46,2,23,36,DL,Sat Prakash Rana,BJP,,,,,True,23,2015,AE
+1500780,Vijay Singh Lochav,INC,16205,5258,4.45,3,23,36,DL,Vijay Singh Lochav,INC,,,,,True,23,2015,AE
+1500781,Imtiaz,IND,16208,926,0.78,4,23,36,DL,Imtiaz,IND,,,,,False,23,2015,AE
+1500782,Yogesh Gaur,BSP,16206,641,0.54,5,23,36,DL,Yogesh Gaur,BSP,,,,,False,23,2015,AE
+1500783,None Of The Above,NOTA,16294,496,0.42,6,23,36,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500784,Pankaj Kumar,INLD,16295,421,0.36,7,23,36,DL,Pankaj Kumar,INLD,,,,,False,23,2015,AE
+1500785,Bhavna Gaur,AAAP,16293,82637,55.96,1,23,37,DL,Bhavna Gaur,AAAP,,,,,False,23,2015,AE
+1500786,Dharm Dev Solanki,BJP,16207,51788,35.07,2,23,37,DL,Dharm Dev Solanki,BJP,,,,,True,23,2015,AE
+1500787,Madan Mohan,INC,16205,10529,7.13,3,23,37,DL,Madan Mohan,INC,,,,,False,23,2015,AE
+1500788,Ranbir Singh Solanki,BSP,16206,900,0.61,4,23,37,DL,Ranbir Singh Solanki,BSP,,,,,False,23,2015,AE
+1500789,Dalip Kumar,CPI,16223,488,0.33,5,23,37,DL,Dalip Kumar,CPI,,,,,False,23,2015,AE
+1500790,None Of The Above,NOTA,16294,474,0.32,6,23,37,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500791,Vinod Kumar Sachan,IND,16208,460,0.31,7,23,37,DL,Vinod Kumar Sachan,IND,,,,,False,23,2015,AE
+1500792,Sanjay Kumar Singh,IND,16208,164,0.11,8,23,37,DL,Sanjay Kumar Singh,IND,,,,,False,23,2015,AE
+1500793,Kashi Nath Sah,IND,16208,155,0.1,9,23,37,DL,Kashi Nath Sah,IND,,,,,False,23,2015,AE
+1500794,Shiv Kumar Saxena,HCP,16362,76,0.05,10,23,37,DL,Shiv Kumar Saxena,HCP,,,,,False,23,2015,AE
+1500795,Surender Singh,AAAP,16293,40133,51.82,1,23,38,DL,Surender Singh,AAAP,,,,,True,23,2015,AE
+1500796,Karan Singh Tanwar,BJP,16207,28935,37.36,2,23,38,DL,Karan Singh Tanwar,BJP,,,,,True,23,2015,AE
+1500797,Sandeep Tanwar,INC,16205,7087,9.15,3,23,38,DL,Sandeep Tanwar,INC,,,,,False,23,2015,AE
+1500798,Gayan Chand,BSP,16206,467,0.6,4,23,38,DL,Gayan Chand,BSP,,,,,False,23,2015,AE
+1500799,None Of The Above,NOTA,16294,326,0.42,5,23,38,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500800,Anil Kumar Tanwar,IND,16208,210,0.27,6,23,38,DL,Anil Kumar Tanwar,IND,,,,,False,23,2015,AE
+1500801,Sandeep,IND,16208,98,0.13,7,23,38,DL,Sandeep,IND,,,,,False,23,2015,AE
+1500802,Heera Lal,IND,16208,93,0.12,8,23,38,DL,Heera Lal,IND,,,,,False,23,2015,AE
+1500803,Naresh Kumar Sharma,HCP,16362,45,0.06,9,23,38,DL,Naresh Kumar Sharma,HCP,,,,,False,23,2015,AE
+1500804,Mahesh Bhardwaj,IND,16208,26,0.03,10,23,38,DL,Mahesh Bhardwaj,IND,,,,,False,23,2015,AE
+1500805,Raj Kumar Saini,IND,16208,24,0.03,11,23,38,DL,Raj Kumar Saini,IND,,,,,False,23,2015,AE
+1500806,Vijender Garg Vijay,AAAP,16293,61354,53.39,1,23,39,DL,Vijender Garg Vijay,AAAP,,,,,True,23,2015,AE
+1500807,R. P. Singh,BJP,16207,41303,35.94,2,23,39,DL,R. P. Singh,BJP,,,,,False,23,2015,AE
+1500808,Brahm Yadav,INC,16205,8971,7.81,3,23,39,DL,Brahm Yadav,INC,,,,,False,23,2015,AE
+1500809,Prem Singh,BSP,16206,1467,1.28,4,23,39,DL,Prem Singh,BSP,,,,,False,23,2015,AE
+1500810,None Of The Above,NOTA,16294,472,0.41,5,23,39,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500811,Shabbir Khan,IND,16208,412,0.36,6,23,39,DL,Shabbir Khan,IND,,,,,False,23,2015,AE
+1500812,Swadesh Ohri,ATBP,16316,278,0.24,7,23,39,DL,Swadesh Ohri,ATBP,,,,,True,23,2015,AE
+1500813,Sunil Kumar,NADP,16263,232,0.2,8,23,39,DL,Sunil Kumar,NADP,,,,,False,23,2015,AE
+1500814,Sarita Kumari,IND,16208,226,0.2,9,23,39,DL,Sarita Kumari,IND,,,,,False,23,2015,AE
+1500815,Aslam Parvez Khan,IND,16208,97,0.08,10,23,39,DL,Aslam Parvez Khan,IND,,,,,False,23,2015,AE
+1500816,Sarfuddin Alam,IND,16208,95,0.08,11,23,39,DL,Sarfuddin Alam,IND,,,,,False,23,2015,AE
+1500817,Arvind Kejriwal,AAAP,16293,57213,64.14,1,23,40,DL,Arvind Kejriwal,AAAP,,,,,True,23,2015,AE
+1500818,Nupur Sharma,BJP,16207,25630,28.73,2,23,40,DL,Nupur Sharma,BJP,,,,,False,23,2015,AE
+1500819,Kiran Walia,INC,16205,4781,5.36,3,23,40,DL,Kiran Walia,INC,,,,,False,23,2015,AE
+1500820,None Of The Above,NOTA,16294,465,0.52,4,23,40,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500821,Swami Om Ji,ABHM,16218,373,0.42,5,23,40,DL,Swami Om Ji,ABHM,,,,,False,23,2015,AE
+1500822,Anil Kumar,IND,16208,192,0.22,6,23,40,DL,Anil Kumar,IND,,,,,False,23,2015,AE
+1500823,Rakesh Kumar,BSP,16206,168,0.19,7,23,40,DL,Rakesh Kumar,BSP,,,,,False,23,2015,AE
+1500824,Ravi Kumar,NCP,16214,100,0.11,8,23,40,DL,Ravi Kumar,NCP,,,,,False,23,2015,AE
+1500825,Sunil Kumar Kandukuri,IND,16208,94,0.11,9,23,40,DL,Sunil Kumar Kandukuri,IND,,,,,False,23,2015,AE
+1500826,Mohd. Siraj Sahil,SASAPT,16353,48,0.05,10,23,40,DL,Mohd. Siraj Sahil,SASAPT,,,,,False,23,2015,AE
+1500827,Sanjeev Chhibber,NADP,16263,45,0.05,11,23,40,DL,Sanjeev Chhibber,NADP,,,,,False,23,2015,AE
+1500829,Ajit,GAAP,16356,34,0.04,12,23,40,DL,Ajit,GAAP,,,,,False,23,2015,AE
+1500828,Sandeep Srivastava,IND,16208,34,0.04,12,23,40,DL,Sandeep Srivastava,IND,,,,,False,23,2015,AE
+1500830,Professor R N Singh,VSP,16312,30,0.03,14,23,40,DL,Professor R N Singh,VSP,,,,,False,23,2015,AE
+1500831,Praveen Kumar,AAAP,16293,43927,48.11,1,23,41,DL,Praveen Kumar,AAAP,,,,,False,23,2015,AE
+1500832,Maninder Singh Dhir,BJP,16207,23477,25.71,2,23,41,DL,Maninder Singh Dhir,BJP,,,,,False,23,2015,AE
+1500833,Tarvinder Singh,INC,16205,22662,24.82,3,23,41,DL,Tarvinder Singh,INC,,,,,True,23,2015,AE
+1500834,Ashok,BSP,16206,382,0.42,4,23,41,DL,Ashok,BSP,,,,,False,23,2015,AE
+1500835,None Of The Above,NOTA,16294,314,0.34,5,23,41,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500836,Anil Kumar,IND,16208,164,0.18,6,23,41,DL,Anil Kumar,IND,,,,,False,23,2015,AE
+1500837,Yogesh Talwar,IND,16208,127,0.14,7,23,41,DL,Yogesh Talwar,IND,,,,,False,23,2015,AE
+1500838,Anil Singh,SHS,16220,118,0.13,8,23,41,DL,Anil Singh,SHS,,,,,False,23,2015,AE
+1500839,Parveen Arora,IND,16208,90,0.1,9,23,41,DL,Parveen Arora,IND,,,,,False,23,2015,AE
+1500840,Vishwanath,NADP,16263,43,0.05,10,23,41,DL,Vishwanath,NADP,,,,,False,23,2015,AE
+1500841,Madan Lal,AAAP,16293,50766,51.55,1,23,42,DL,Madan Lal,AAAP,,,,,True,23,2015,AE
+1500842,Ravinder Choudhry,BJP,16207,34870,35.41,2,23,42,DL,Ravinder Choudhry,BJP,,,,,False,23,2015,AE
+1500843,Neeraj Basoya,INC,16205,11233,11.41,3,23,42,DL,Neeraj Basoya,INC,,,,,True,23,2015,AE
+1500844,None Of The Above,NOTA,16294,423,0.43,4,23,42,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500845,Ramesh Kumari,BSP,16206,317,0.32,5,23,42,DL,Ramesh Kumari,BSP,,,,,False,23,2015,AE
+1500846,Brij Pal,IND,16208,281,0.29,6,23,42,DL,Brij Pal,IND,,,,,False,23,2015,AE
+1500847,Beer Singh Negi,SSGP,16326,276,0.28,7,23,42,DL,Beer Singh Negi,SSGP,,,,,True,23,2015,AE
+1500848,Biswambar Nayak,IND,16208,83,0.08,8,23,42,DL,Biswambar Nayak,IND,,,,,True,23,2015,AE
+1500849,Rekha Wadhwa,IND,16208,73,0.07,9,23,42,DL,Rekha Wadhwa,IND,,,,,False,23,2015,AE
+1500850,Laxmi Devi,BMUP,16351,56,0.06,10,23,42,DL,Laxmi Devi,BMUP,,,,,False,23,2015,AE
+1500851,Wg. Cdr. (Retd.) K. K .Verma,NADP,16263,34,0.03,11,23,42,DL,Wg. Cdr. (Retd.) K. K .Verma,NADP,,,,,False,23,2015,AE
+1500852,Mukesh Kumar Saxena,IND,16208,32,0.03,12,23,42,DL,Mukesh Kumar Saxena,IND,,,,,False,23,2015,AE
+1500853,Subhash Kansal,HCP,16362,26,0.03,13,23,42,DL,Subhash Kansal,HCP,,,,,False,23,2015,AE
+1500854,Somnath Bharti,AAAP,16293,51196,54.99,1,23,43,DL,Somnath Bharti,AAAP,,,,,False,23,2015,AE
+1500855,Dr. Nandani Sharma,BJP,16207,35299,37.91,2,23,43,DL,Dr. Nandani Sharma,BJP,,,,,False,23,2015,AE
+1500856,Dr. Yoganand Shastri,INC,16205,5555,5.97,3,23,43,DL,Dr. Yoganand Shastri,INC,,,,,False,23,2015,AE
+1500857,None Of The Above,NOTA,16294,375,0.4,4,23,43,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500858,Dr. Suman Dharmvir,BSP,16206,293,0.31,5,23,43,DL,Dr. Suman Dharmvir,BSP,,,,,False,23,2015,AE
+1500859,Marknday Sharma,NAVP,16371,184,0.2,6,23,43,DL,Marknday Sharma,NAVP,,,,,False,23,2015,AE
+1500860,Somnath,IND,16208,129,0.14,7,23,43,DL,Somnath,IND,,,,,False,23,2015,AE
+1500861,Rama Kant Sharma,IND,16208,74,0.08,8,23,43,DL,Rama Kant Sharma,IND,,,,,False,23,2015,AE
+1500862,Parmila Tokas,AAAP,16293,54645,56.77,1,23,44,DL,Parmila Tokas,AAAP,,,,,False,23,2015,AE
+1500863,Anil Kumar Sharma,BJP,16207,35577,36.96,2,23,44,DL,Anil Kumar Sharma,BJP,,,,,True,23,2015,AE
+1500864,Lila Dhar Bhatt,INC,16205,4042,4.2,3,23,44,DL,Lila Dhar Bhatt,INC,,,,,False,23,2015,AE
+1500865,Mahipal Singh,BSP,16206,828,0.86,4,23,44,DL,Mahipal Singh,BSP,,,,,False,23,2015,AE
+1500866,None Of The Above,NOTA,16294,462,0.48,5,23,44,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500867,Kushma Devi,IND,16208,234,0.24,6,23,44,DL,Kushma Devi,IND,,,,,False,23,2015,AE
+1500868,Rakesh Kumar,HND,16305,133,0.14,7,23,44,DL,Rakesh Kumar,HND,,,,,False,23,2015,AE
+1500869,Udaibir Singh Tokas,HCP,16362,120,0.12,8,23,44,DL,Udaibir Singh Tokas,HCP,,,,,False,23,2015,AE
+1500870,Rai Singh,RTRSP,16372,59,0.06,9,23,44,DL,Rai Singh,RTRSP,,,,,False,23,2015,AE
+1500871,Kuldeep Singh Ahlawat,IND,16208,54,0.06,10,23,44,DL,Kuldeep Singh Ahlawat,IND,,,,,False,23,2015,AE
+1500872,M G Radhakrishnan,PMPT,16363,43,0.04,11,23,44,DL,M G Radhakrishnan,PMPT,,,,,False,23,2015,AE
+1500873,K Jeevan Rita Murthy,RPI(A),16238,38,0.04,12,23,44,DL,K Jeevan Rita Murthy,RPI(A),,,,,False,23,2015,AE
+1500874,Asif Khan,IND,16208,21,0.02,13,23,44,DL,Asif Khan,IND,,,,,False,23,2015,AE
+1500875,Naresh Yadav,AAAP,16293,58125,51.06,1,23,45,DL,Naresh Yadav,AAAP,,,,,False,23,2015,AE
+1500876,Sarita Chaudhary,BJP,16207,41174,36.17,2,23,45,DL,Sarita Chaudhary,BJP,,,,,False,23,2015,AE
+1500877,Satbir Singh,INC,16205,12065,10.6,3,23,45,DL,Satbir Singh,INC,,,,,False,23,2015,AE
+1500878,D.K.Chopra,IND,16208,1220,1.07,4,23,45,DL,D.K.Chopra,IND,,,,,False,23,2015,AE
+1500879,None Of The Above,NOTA,16294,553,0.49,5,23,45,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500880,Saroj Verma,BSP,16206,550,0.48,6,23,45,DL,Saroj Verma,BSP,,,,,False,23,2015,AE
+1500881,Vichitra Gupta,IND,16208,143,0.13,7,23,45,DL,Vichitra Gupta,IND,,,,,False,23,2015,AE
+1500882,Kartar Singh Tanwar,AAAP,16293,67645,54.29,1,23,46,DL,Kartar Singh Tanwar,AAAP,,,,,False,23,2015,AE
+1500883,Brahm Singh Tanwar,BJP,16207,45405,36.44,2,23,46,DL,Brahm Singh Tanwar,BJP,,,,,True,23,2015,AE
+1500884,Balram Tanwar,INC,16205,9339,7.5,3,23,46,DL,Balram Tanwar,INC,,,,,True,23,2015,AE
+1500885,Amit Vaid,RLD,16262,627,0.5,4,23,46,DL,Amit Vaid,RLD,,,,,False,23,2015,AE
+1500886,None Of The Above,NOTA,16294,547,0.44,5,23,46,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500887,Bijender,BSP,16206,503,0.4,6,23,46,DL,Bijender,BSP,,,,,False,23,2015,AE
+1500888,Sanjay Kumar Singh,IND,16208,267,0.21,7,23,46,DL,Sanjay Kumar Singh,IND,,,,,False,23,2015,AE
+1500889,Dinesh Tanwar,IND,16208,171,0.14,8,23,46,DL,Dinesh Tanwar,IND,,,,,False,23,2015,AE
+1500890,Archana Yadav,SHS,16220,98,0.08,9,23,46,DL,Archana Yadav,SHS,,,,,False,23,2015,AE
+1500891,Prakash,AAAP,16293,96530,70.61,1,23,47,DL,Prakash,AAAP,,,,,True,23,2015,AE
+1500892,Arvind Kumar,BJP,16207,32593,23.84,2,23,47,DL,Arvind Kumar,BJP,,,,,False,23,2015,AE
+1500893,Rajesh Chauhan,INC,16205,4968,3.63,3,23,47,DL,Rajesh Chauhan,INC,,,,,False,23,2015,AE
+1500894,Dalchand Kapil,BSP,16206,1569,1.15,4,23,47,DL,Dalchand Kapil,BSP,,,,,False,23,2015,AE
+1500895,None Of The Above,NOTA,16294,502,0.37,5,23,47,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500896,Padma Rani,HCP,16362,318,0.23,6,23,47,DL,Padma Rani,HCP,,,,,False,23,2015,AE
+1500897,Siyaram Rajora,SASAPT,16353,223,0.16,7,23,47,DL,Siyaram Rajora,SASAPT,,,,,False,23,2015,AE
+1500898,Ajay Dutt,AAAP,16293,66632,68.39,1,23,48,DL,Ajay Dutt,AAAP,,,,,False,23,2015,AE
+1500899,Ashok Kumar,BJP,16207,24172,24.81,2,23,48,DL,Ashok Kumar,BJP,,,,,False,23,2015,AE
+1500900,Ch. Prem Singh,INC,16205,5336,5.48,3,23,48,DL,Ch. Prem Singh,INC,,,,,True,23,2015,AE
+1500901,Rajbir,BSP,16206,815,0.84,4,23,48,DL,Rajbir,BSP,,,,,False,23,2015,AE
+1500902,None Of The Above,NOTA,16294,481,0.49,5,23,48,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500903,Dinesh Mohaniya,AAAP,16293,72131,65.96,1,23,49,DL,Dinesh Mohaniya,AAAP,,,,,True,23,2015,AE
+1500904,Shiv Charan Lal Gupta,BJP,16207,28143,25.73,2,23,49,DL,Shiv Charan Lal Gupta,BJP,,,,,True,23,2015,AE
+1500905,Vishan Swaroop,INC,16205,3423,3.13,3,23,49,DL,Vishan Swaroop,INC,,,,,False,23,2015,AE
+1500906,Shish Pal Singh,BSP,16206,3146,2.88,4,23,49,DL,Shish Pal Singh,BSP,,,,,False,23,2015,AE
+1500907,Shahid,IND,16208,503,0.46,5,23,49,DL,Shahid,IND,,,,,False,23,2015,AE
+1500908,None Of The Above,NOTA,16294,467,0.43,6,23,49,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500909,Dinesh Prasad Jaiswal,SASAPT,16353,323,0.3,7,23,49,DL,Dinesh Prasad Jaiswal,SASAPT,,,,,False,23,2015,AE
+1500910,Sandeep Kumar,IND,16208,287,0.26,8,23,49,DL,Sandeep Kumar,IND,,,,,False,23,2015,AE
+1500911,Sukhvir Singh,IND,16208,241,0.22,9,23,49,DL,Sukhvir Singh,IND,,,,,False,23,2015,AE
+1500912,Pradeep Chand,SAAFP,16364,179,0.16,10,23,49,DL,Pradeep Chand,SAAFP,,,,,False,23,2015,AE
+1500913,Ramawati,IND,16208,146,0.13,11,23,49,DL,Ramawati,IND,,,,,False,23,2015,AE
+1500914,Praween Prakash,PMPT,16363,113,0.1,12,23,49,DL,Praween Prakash,PMPT,,,,,False,23,2015,AE
+1500915,Pradeep,HCP,16362,90,0.08,13,23,49,DL,Pradeep,HCP,,,,,False,23,2015,AE
+1500916,Nazukar Khan,IND,16208,70,0.06,14,23,49,DL,Nazukar Khan,IND,,,,,False,23,2015,AE
+1500917,Pradeep Kumar,RBCP,16257,60,0.05,15,23,49,DL,Pradeep Kumar,RBCP,,,,,False,23,2015,AE
+1500918,Ramaasare Yadav,NADP,16263,36,0.03,16,23,49,DL,Ramaasare Yadav,NADP,,,,,False,23,2015,AE
+1500919,Saurabh Bharadwaj,AAAP,16293,57589,53.3,1,23,50,DL,Saurabh Bharadwaj,AAAP,,,,,True,23,2015,AE
+1500920,Rakesh Kumar Gullaiya,BJP,16207,43006,39.81,2,23,50,DL,Rakesh Kumar Gullaiya,BJP,,,,,False,23,2015,AE
+1500921,Sharmistha Mukherjee,INC,16205,6102,5.65,3,23,50,DL,Sharmistha Mukherjee,INC,,,,,False,23,2015,AE
+1500922,None Of The Above,NOTA,16294,443,0.41,4,23,50,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500923,Aditya,BSP,16206,239,0.22,5,23,50,DL,Aditya,BSP,,,,,False,23,2015,AE
+1500924,Ashok Kumar,SAPP,16373,238,0.22,6,23,50,DL,Ashok Kumar,SAPP,,,,,False,23,2015,AE
+1500925,Sanjay Khatri,IND,16208,228,0.21,7,23,50,DL,Sanjay Khatri,IND,,,,,False,23,2015,AE
+1500926,Rohit Tyagi,NCP,16214,116,0.11,8,23,50,DL,Rohit Tyagi,NCP,,,,,False,23,2015,AE
+1500927,Ashok Kumar Sharma,SHS,16220,76,0.07,9,23,50,DL,Ashok Kumar Sharma,SHS,,,,,False,23,2015,AE
+1500928,Avtar Singh Kalkaji,AAAP,16293,55104,51.72,1,23,51,DL,Avtar Singh Kalkaji,AAAP,,,,,False,23,2015,AE
+1500929,Harmeet Singh Kalka,BJP,16207,35335,33.16,2,23,51,DL,Harmeet Singh Kalka,BJP,,,,,False,23,2015,AE
+1500930,Subhash Chopra,INC,16205,13552,12.72,3,23,51,DL,Subhash Chopra,INC,,,,,True,23,2015,AE
+1500931,Avtar Singh,IND,16208,666,0.63,4,23,51,DL,Avtar Singh,IND,,,,,False,23,2015,AE
+1500932,None Of The Above,NOTA,16294,528,0.5,5,23,51,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500933,Shashi Pratap,BSP,16206,491,0.46,6,23,51,DL,Shashi Pratap,BSP,,,,,False,23,2015,AE
+1500934,Sanjay Agarwal,IND,16208,301,0.28,7,23,51,DL,Sanjay Agarwal,IND,,,,,False,23,2015,AE
+1500935,R. Singh Choudhary,IND,16208,205,0.19,8,23,51,DL,R. Singh Choudhary,IND,,,,,False,23,2015,AE
+1500936,Dr. Anil Kumar,SASAPT,16353,181,0.17,9,23,51,DL,Dr. Anil Kumar,SASAPT,,,,,False,23,2015,AE
+1500937,Gurdeep Singh,IND,16208,118,0.11,10,23,51,DL,Gurdeep Singh,IND,,,,,False,23,2015,AE
+1500938,Dr. Kailash Shanker Trivedi,IND,16208,63,0.06,11,23,51,DL,Dr. Kailash Shanker Trivedi,IND,,,,,False,23,2015,AE
+1500939,Sahi Ram,AAAP,16293,64311,62.4,1,23,52,DL,Sahi Ram,AAAP,,,,,False,23,2015,AE
+1500940,Vikram Bidhuri,BJP,16207,30610,29.7,2,23,52,DL,Vikram Bidhuri,BJP,,,,,False,23,2015,AE
+1500941,Sachin,INC,16205,4269,4.14,3,23,52,DL,Sachin,INC,,,,,False,23,2015,AE
+1500942,Girraj Singh,BSP,16206,2015,1.96,4,23,52,DL,Girraj Singh,BSP,,,,,False,23,2015,AE
+1500943,Manoj Kumar Ray,IND,16208,549,0.53,5,23,52,DL,Manoj Kumar Ray,IND,,,,,False,23,2015,AE
+1500944,None Of The Above,NOTA,16294,383,0.37,6,23,52,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500945,Abdul Basit,RJD,16210,236,0.23,7,23,52,DL,Abdul Basit,RJD,,,,,False,23,2015,AE
+1500946,Sachin Kumar,IND,16208,223,0.22,8,23,52,DL,Sachin Kumar,IND,,,,,False,23,2015,AE
+1500947,Shalini,RBCP,16257,177,0.17,9,23,52,DL,Shalini,RBCP,,,,,False,23,2015,AE
+1500948,Tejpal Singh,IND,16208,173,0.17,10,23,52,DL,Tejpal Singh,IND,,,,,False,23,2015,AE
+1500949,Rekha Singh,IND,16208,111,0.11,11,23,52,DL,Rekha Singh,IND,,,,,True,23,2015,AE
+1500950,Narayan Dutt Sharma,AAAP,16293,94242,55.31,1,23,53,DL,Narayan Dutt Sharma,AAAP,,,,,True,23,2015,AE
+1500951,Ramvir Singh Bidhuri,BJP,16207,46659,27.38,2,23,53,DL,Ramvir Singh Bidhuri,BJP,,,,,False,23,2015,AE
+1500952,Ram Singh Netaji,INC,16205,18930,11.11,3,23,53,DL,Ram Singh Netaji,INC,,,,,True,23,2015,AE
+1500953,Nar Singh Shah,BSP,16206,8082,4.74,4,23,53,DL,Nar Singh Shah,BSP,,,,,True,23,2015,AE
+1500954,Prakash Singh Rawat,IND,16208,1088,0.64,5,23,53,DL,Prakash Singh Rawat,IND,,,,,False,23,2015,AE
+1500955,None Of The Above,NOTA,16294,562,0.33,6,23,53,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500956,Phul Kumar Jha,SASAPT,16353,350,0.21,7,23,53,DL,Phul Kumar Jha,SASAPT,,,,,False,23,2015,AE
+1500957,Pramod Kumar,IND,16208,267,0.16,8,23,53,DL,Pramod Kumar,IND,,,,,False,23,2015,AE
+1500958,Om Prakash Gupta,IND,16208,221,0.13,9,23,53,DL,Om Prakash Gupta,IND,,,,,True,23,2015,AE
+1500959,Amanatullah Khan,AAAP,16293,104271,62.57,1,23,54,DL,Amanatullah Khan,AAAP,,,,,False,23,2015,AE
+1500960,Braham Singh,BJP,16207,39739,23.84,2,23,54,DL,Braham Singh,BJP,,,,,False,23,2015,AE
+1500961,Asif Mohd. Khan,INC,16205,20135,12.08,3,23,54,DL,Asif Mohd. Khan,INC,,,,,False,23,2015,AE
+1500962,Anzarul Haque,INL,16374,853,0.51,4,23,54,DL,Anzarul Haque,INL,,,,,False,23,2015,AE
+1500963,Ashraf Kamal,BSP,16206,696,0.42,5,23,54,DL,Ashraf Kamal,BSP,,,,,False,23,2015,AE
+1500964,None Of The Above,NOTA,16294,519,0.31,6,23,54,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500965,Mohd. Aslam,IND,16208,153,0.09,7,23,54,DL,Mohd. Aslam,IND,,,,,False,23,2015,AE
+1500966,Burhanuddin,IND,16208,102,0.06,8,23,54,DL,Burhanuddin,IND,,,,,False,23,2015,AE
+1500967,Huma Kausar,IND,16208,98,0.06,9,23,54,DL,Huma Kausar,IND,,,,,False,23,2015,AE
+1500968,Mohd. Nizamuddin,SASAPT,16353,92,0.06,10,23,54,DL,Mohd. Nizamuddin,SASAPT,,,,,False,23,2015,AE
+1500969,Raju Dhingan,AAAP,16293,74907,58.62,1,23,55,DL,Raju Dhingan,AAAP,,,,,False,23,2015,AE
+1500970,Kiran Vaidya,BJP,16207,45153,35.34,2,23,55,DL,Kiran Vaidya,BJP,,,,,False,23,2015,AE
+1500971,Brahm Pal,INC,16205,4149,3.25,3,23,55,DL,Brahm Pal,INC,,,,,False,23,2015,AE
+1500972,Dr.Girish,BSP,16206,2217,1.74,4,23,55,DL,Dr.Girish,BSP,,,,,False,23,2015,AE
+1500973,None Of The Above,NOTA,16294,467,0.37,5,23,55,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500974,Khubi Ram,CPI,16223,380,0.3,6,23,55,DL,Khubi Ram,CPI,,,,,True,23,2015,AE
+1500975,Padam Chand,BMUP,16351,271,0.21,7,23,55,DL,Padam Chand,BMUP,,,,,False,23,2015,AE
+1500976,Rakesh,GAAP,16356,134,0.1,8,23,55,DL,Rakesh,GAAP,,,,,False,23,2015,AE
+1500977,Mahinder Singh,SASAPT,16353,100,0.08,9,23,55,DL,Mahinder Singh,SASAPT,,,,,False,23,2015,AE
+1500978,Manoj Kumar,AAAP,16293,63185,50.66,1,23,56,DL,Manoj Kumar,AAAP,,,,,True,23,2015,AE
+1500979,Hukam Singh,BJP,16207,38426,30.81,2,23,56,DL,Hukam Singh,BJP,,,,,False,23,2015,AE
+1500980,Amrish Singh Gautam,INC,16205,13562,10.87,3,23,56,DL,Amrish Singh Gautam,INC,,,,,True,23,2015,AE
+1500981,Chaman Kumar,BSP,16206,8533,6.84,4,23,56,DL,Chaman Kumar,BSP,,,,,True,23,2015,AE
+1500982,None Of The Above,NOTA,16294,458,0.37,5,23,56,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500983,Mala Devi,CPI(ML)(L),16211,230,0.18,6,23,56,DL,Mala Devi,CPI(ML)(L),,,,,False,23,2015,AE
+1500984,Rakesh,IND,16208,193,0.15,7,23,56,DL,Rakesh,IND,,,,,False,23,2015,AE
+1500985,Sunil Babu,IND,16208,132,0.11,8,23,56,DL,Sunil Babu,IND,,,,,False,23,2015,AE
+1500986,Manish Sisodia,AAAP,16293,75243,53.64,1,23,57,DL,Manish Sisodia,AAAP,,,,,True,23,2015,AE
+1500987,Vinod Kumar Binny,BJP,16207,46452,33.12,2,23,57,DL,Vinod Kumar Binny,BJP,,,,,False,23,2015,AE
+1500988,Anil Kumar,INC,16205,16177,11.53,3,23,57,DL,Anil Kumar,INC,,,,,True,23,2015,AE
+1500989,Nem Singh Premi,BSP,16206,1191,0.85,4,23,57,DL,Nem Singh Premi,BSP,,,,,False,23,2015,AE
+1500990,None Of The Above,NOTA,16294,530,0.38,5,23,57,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500991,Chhavi Prakash Gupta,SHS,16220,293,0.21,6,23,57,DL,Chhavi Prakash Gupta,SHS,,,,,False,23,2015,AE
+1500992,Mahesh Prakash,SASAPT,16353,283,0.2,7,23,57,DL,Mahesh Prakash,SASAPT,,,,,False,23,2015,AE
+1500993,Bhupendra Kumar Rai,IND,16208,98,0.07,8,23,57,DL,Bhupendra Kumar Rai,IND,,,,,False,23,2015,AE
+1500994,Nitin Tyagi,AAAP,16293,58229,42.55,1,23,58,DL,Nitin Tyagi,AAAP,,,,,False,23,2015,AE
+1500995,B. B. Tyagi,BJP,16207,53383,39.01,2,23,58,DL,B. B. Tyagi,BJP,,,,,False,23,2015,AE
+1500996,Dr. Ashok Kumar Walia,INC,16205,23627,17.27,3,23,58,DL,Dr. Ashok Kumar Walia,INC,,,,,False,23,2015,AE
+1500997,Kavita Narain,BSP,16206,687,0.5,4,23,58,DL,Kavita Narain,BSP,,,,,False,23,2015,AE
+1500998,None Of The Above,NOTA,16294,420,0.31,5,23,58,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1500999,Vimal Kumar Saxena,IND,16208,270,0.2,6,23,58,DL,Vimal Kumar Saxena,IND,,,,,False,23,2015,AE
+1501000,Sarvendra Singh Pal,NCP,16214,165,0.12,7,23,58,DL,Sarvendra Singh Pal,NCP,,,,,False,23,2015,AE
+1501001,Zaheer Abbasi,RPI,16360,68,0.05,8,23,58,DL,Zaheer Abbasi,RPI,,,,,False,23,2015,AE
+1501002,Om Prakash Sharma,BJP,16207,58124,45.16,1,23,59,DL,Om Prakash Sharma,BJP,,,,,True,23,2015,AE
+1501003,Dr. Atul Gupta,AAAP,16293,47966,37.26,2,23,59,DL,Dr. Atul Gupta,AAAP,,,,,True,23,2015,AE
+1501004,Naseeb Singh,INC,16205,20634,16.03,3,23,59,DL,Naseeb Singh,INC,,,,,True,23,2015,AE
+1501005,Girish Choudhary,BSP,16206,854,0.66,4,23,59,DL,Girish Choudhary,BSP,,,,,False,23,2015,AE
+1501006,None Of The Above,NOTA,16294,499,0.39,5,23,59,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501007,Jagdish,GARPA,16366,270,0.21,6,23,59,DL,Jagdish,GARPA,,,,,False,23,2015,AE
+1501008,Shokat Ali,HCP,16362,140,0.11,7,23,59,DL,Shokat Ali,HCP,,,,,False,23,2015,AE
+1501009,Vijay Kumar Jha,SASAPT,16353,138,0.11,8,23,59,DL,Vijay Kumar Jha,SASAPT,,,,,False,23,2015,AE
+1501010,Praveen Kumar Bharat,BJM,16352,95,0.07,9,23,59,DL,Praveen Kumar Bharat,BJM,,,,,False,23,2015,AE
+1501011,S K Bagga Advocate,AAAP,16293,65919,47.99,1,23,60,DL,S K Bagga Advocate,AAAP,,,,,False,23,2015,AE
+1501012,Kiran Bedi,BJP,16207,63642,46.33,2,23,60,DL,Kiran Bedi,BJP,,,,,False,23,2015,AE
+1501013,Bansi Lal,INC,16205,6189,4.51,3,23,60,DL,Bansi Lal,INC,,,,,False,23,2015,AE
+1501014,Yogesh Kumar,BSP,16206,501,0.36,4,23,60,DL,Yogesh Kumar,BSP,,,,,False,23,2015,AE
+1501015,None Of The Above,NOTA,16294,358,0.26,5,23,60,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501016,Chandan Lal Premi,CPI,16223,339,0.25,6,23,60,DL,Chandan Lal Premi,CPI,,,,,False,23,2015,AE
+1501017,Purnima John,SPP,16350,169,0.12,7,23,60,DL,Purnima John,SPP,,,,,False,23,2015,AE
+1501018,Virendr Pradhan,IND,16208,90,0.07,8,23,60,DL,Virendr Pradhan,IND,,,,,False,23,2015,AE
+1501019,Sahrur,HCP,16362,73,0.05,9,23,60,DL,Sahrur,HCP,,,,,False,23,2015,AE
+1501020,Advocate Manjeet,IND,16208,53,0.04,10,23,60,DL,Advocate Manjeet,IND,,,,,False,23,2015,AE
+1501021,Jagbir Singh,RAJP,16355,32,0.02,11,23,60,DL,Jagbir Singh,RAJP,,,,,False,23,2015,AE
+1501022,Anil Kumar Bajpai,AAAP,16293,50946,45.24,1,23,61,DL,Anil Kumar Bajpai,AAAP,,,,,True,23,2015,AE
+1501023,Jitender,BJP,16207,43464,38.6,2,23,61,DL,Jitender,BJP,,,,,False,23,2015,AE
+1501024,Surender Prakash,INC,16205,16228,14.41,3,23,61,DL,Surender Prakash,INC,,,,,False,23,2015,AE
+1501025,Md. Haroon,IND,16208,660,0.59,4,23,61,DL,Md. Haroon,IND,,,,,False,23,2015,AE
+1501026,None Of The Above,NOTA,16294,492,0.44,5,23,61,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501027,Dharmendr Kumar,BSP,16206,456,0.4,6,23,61,DL,Dharmendr Kumar,BSP,,,,,False,23,2015,AE
+1501028,Vijay Singh,SHS,16220,165,0.15,7,23,61,DL,Vijay Singh,SHS,,,,,True,23,2015,AE
+1501029,Shaina,IND,16208,80,0.07,8,23,61,DL,Shaina,IND,,,,,False,23,2015,AE
+1501030,Jabbar Ali,IND,16208,65,0.06,9,23,61,DL,Jabbar Ali,IND,,,,,False,23,2015,AE
+1501031,Rajesh Kumar,IND,16208,47,0.04,10,23,61,DL,Rajesh Kumar,IND,,,,,True,23,2015,AE
+1501032,Ram Niwas Goel,AAAP,16293,58523,49.49,1,23,62,DL,Ram Niwas Goel,AAAP,,,,,False,23,2015,AE
+1501033,Jitender Singh Shunty,BJP,16207,46792,39.57,2,23,62,DL,Jitender Singh Shunty,BJP,,,,,True,23,2015,AE
+1501034,Narender Nath,INC,16205,9423,7.97,3,23,62,DL,Narender Nath,INC,,,,,True,23,2015,AE
+1501035,Behen Preeti,IND,16208,1289,1.09,4,23,62,DL,Behen Preeti,IND,,,,,False,23,2015,AE
+1501036,Rajpal Singh,BSP,16206,1276,1.08,5,23,62,DL,Rajpal Singh,BSP,,,,,False,23,2015,AE
+1501037,None Of The Above,NOTA,16294,368,0.31,6,23,62,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501038,Harpal Singh Kundaliya,GARPA,16366,235,0.2,7,23,62,DL,Harpal Singh Kundaliya,GARPA,,,,,False,23,2015,AE
+1501039,Manish Gupta,IND,16208,167,0.14,8,23,62,DL,Manish Gupta,IND,,,,,False,23,2015,AE
+1501040,Preeti,IND,16208,86,0.07,9,23,62,DL,Preeti,IND,,,,,False,23,2015,AE
+1501041,Preeti,IND,16208,56,0.05,10,23,62,DL,Preeti,IND,,,,,False,23,2015,AE
+1501042,Achal Sharma,IND,16208,41,0.03,11,23,62,DL,Achal Sharma,IND,,,,,True,23,2015,AE
+1501043,Rajendra Pal Gautam,AAAP,16293,79777,63.04,1,23,63,DL,Rajendra Pal Gautam,AAAP,,,,,False,23,2015,AE
+1501044,Karamvir,BJP,16207,30956,24.46,2,23,63,DL,Karamvir,BJP,,,,,False,23,2015,AE
+1501045,Veer Singh Dhingan,INC,16205,10674,8.44,3,23,63,DL,Veer Singh Dhingan,INC,,,,,True,23,2015,AE
+1501046,Jai Shree,BSP,16206,4103,3.24,4,23,63,DL,Jai Shree,BSP,,,,,False,23,2015,AE
+1501047,None Of The Above,NOTA,16294,499,0.39,5,23,63,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501048,Aarti,GARPA,16366,304,0.24,6,23,63,DL,Aarti,GARPA,,,,,False,23,2015,AE
+1501049,Ravinder Kumar,IND,16208,228,0.18,7,23,63,DL,Ravinder Kumar,IND,,,,,False,23,2015,AE
+1501050,Sarita Singh,AAAP,16293,62209,45.96,1,23,64,DL,Sarita Singh,AAAP,,,,,False,23,2015,AE
+1501051,Jitender Mahajan,BJP,16207,54335,40.14,2,23,64,DL,Jitender Mahajan,BJP,,,,,False,23,2015,AE
+1501052,Vipin Sharma,INC,16205,15548,11.49,3,23,64,DL,Vipin Sharma,INC,,,,,True,23,2015,AE
+1501053,Praveen Bansal,BSP,16206,2115,1.56,4,23,64,DL,Praveen Bansal,BSP,,,,,False,23,2015,AE
+1501054,None Of The Above,NOTA,16294,409,0.3,5,23,64,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501055,Atul Kumar,GARPA,16366,243,0.18,6,23,64,DL,Atul Kumar,GARPA,,,,,False,23,2015,AE
+1501056,Raisuddin,IND,16208,191,0.14,7,23,64,DL,Raisuddin,IND,,,,,False,23,2015,AE
+1501057,Pawan Kumar,JKNPP,16236,87,0.06,8,23,64,DL,Pawan Kumar,JKNPP,,,,,False,23,2015,AE
+1501058,Rajendra Kumar,RBCP,16257,85,0.06,9,23,64,DL,Rajendra Kumar,RBCP,,,,,False,23,2015,AE
+1501059,Naresh Kumar,IND,16208,67,0.05,10,23,64,DL,Naresh Kumar,IND,,,,,False,23,2015,AE
+1501060,Rajeev Sohi,SHS,16220,65,0.05,11,23,64,DL,Rajeev Sohi,SHS,,,,,False,23,2015,AE
+1501061,Mohd. Ishraque,AAAP,16293,57302,51.26,1,23,65,DL,Mohd. Ishraque,AAAP,,,,,False,23,2015,AE
+1501062,Sanjay Jain,BJP,16207,29415,26.31,2,23,65,DL,Sanjay Jain,BJP,,,,,False,23,2015,AE
+1501063,Chaudhary Mateen,INC,16205,23791,21.28,3,23,65,DL,Chaudhary Mateen,INC,,,,,True,23,2015,AE
+1501064,Sandeep Chodhary,BSP,16206,629,0.56,4,23,65,DL,Sandeep Chodhary,BSP,,,,,False,23,2015,AE
+1501065,None Of The Above,NOTA,16294,329,0.29,5,23,65,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501066,Manoj Kumar,IND,16208,146,0.13,6,23,65,DL,Manoj Kumar,IND,,,,,False,23,2015,AE
+1501067,Sarfaraj,IND,16208,114,0.1,7,23,65,DL,Sarfaraj,IND,,,,,True,23,2015,AE
+1501068,Akbar Malik,IND,16208,71,0.06,8,23,65,DL,Akbar Malik,IND,,,,,False,23,2015,AE
+1501069,Shri Dutt Sharma,AAAP,16293,60906,44.96,1,23,66,DL,Shri Dutt Sharma,AAAP,,,,,False,23,2015,AE
+1501070,Sahab Singh Chauhan,BJP,16207,52813,38.98,2,23,66,DL,Sahab Singh Chauhan,BJP,,,,,True,23,2015,AE
+1501071,Bhisham Sharma,INC,16205,18892,13.95,3,23,66,DL,Bhisham Sharma,INC,,,,,True,23,2015,AE
+1501072,Ranjeet Singh,BSP,16206,1314,0.97,4,23,66,DL,Ranjeet Singh,BSP,,,,,False,23,2015,AE
+1501073,Altaf Husain,JD(U),16215,770,0.57,5,23,66,DL,Altaf Husain,JD(U),,,,,False,23,2015,AE
+1501074,None Of The Above,NOTA,16294,500,0.37,6,23,66,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501075,Rajiv Kumar,SASAPT,16353,150,0.11,7,23,66,DL,Rajiv Kumar,SASAPT,,,,,False,23,2015,AE
+1501076,Naveen Tiwari,SHS,16220,129,0.1,8,23,66,DL,Naveen Tiwari,SHS,,,,,False,23,2015,AE
+1501077,Gopal Rai,AAAP,16293,76179,59.14,1,23,67,DL,Gopal Rai,AAAP,,,,,True,23,2015,AE
+1501078,Naresh Gaur,BJP,16207,40908,31.76,2,23,67,DL,Naresh Gaur,BJP,,,,,True,23,2015,AE
+1501079,Zakir Khan,INC,16205,9952,7.73,3,23,67,DL,Zakir Khan,INC,,,,,True,23,2015,AE
+1501080,Mohd Abdul Haq,BSP,16206,765,0.59,4,23,67,DL,Mohd Abdul Haq,BSP,,,,,False,23,2015,AE
+1501081,None Of The Above,NOTA,16294,290,0.23,5,23,67,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501082,Mohd Shahin,IND,16208,149,0.12,6,23,67,DL,Mohd Shahin,IND,,,,,False,23,2015,AE
+1501083,Anil Kumar Sharma,RBCP,16257,142,0.11,7,23,67,DL,Anil Kumar Sharma,RBCP,,,,,False,23,2015,AE
+1501084,Kesar,PECP,16297,96,0.07,8,23,67,DL,Kesar,PECP,,,,,False,23,2015,AE
+1501085,Pradeep Jain,IND,16208,89,0.07,9,23,67,DL,Pradeep Jain,IND,,,,,False,23,2015,AE
+1501086,Arun Thakur,SPP,16350,62,0.05,10,23,67,DL,Arun Thakur,SPP,,,,,False,23,2015,AE
+1501087,Nadeem Ahmad,IND,16208,52,0.04,11,23,67,DL,Nadeem Ahmad,IND,,,,,False,23,2015,AE
+1501088,Mohd Nazir,AASAP,16375,51,0.04,12,23,67,DL,Mohd Nazir,AASAP,,,,,False,23,2015,AE
+1501089,Mohd Arif,IND,16208,44,0.03,13,23,67,DL,Mohd Arif,IND,,,,,False,23,2015,AE
+1501090,Fazul Rahman,IND,16208,43,0.03,14,23,67,DL,Fazul Rahman,IND,,,,,False,23,2015,AE
+1501091,Fateh Singh,AAAP,16293,71240,48.71,1,23,68,DL,Fateh Singh,AAAP,,,,,False,23,2015,AE
+1501092,Ranjeet Singh,BJP,16207,39272,26.85,2,23,68,DL,Ranjeet Singh,BJP,,,,,True,23,2015,AE
+1501093,Surendra Kumar,BSP,16206,30080,20.57,3,23,68,DL,Surendra Kumar,BSP,,,,,False,23,2015,AE
+1501094,Ku. Rinku,INC,16205,3344,2.29,4,23,68,DL,Ku. Rinku,INC,,,,,False,23,2015,AE
+1501095,Mange Ram,BASAPA,16376,1241,0.85,5,23,68,DL,Mange Ram,BASAPA,,,,,False,23,2015,AE
+1501096,None Of The Above,NOTA,16294,526,0.36,6,23,68,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501097,Manoj Kumar,GARPA,16366,384,0.26,7,23,68,DL,Manoj Kumar,GARPA,,,,,False,23,2015,AE
+1501098,Veer Pal Singh,IND,16208,153,0.1,8,23,68,DL,Veer Pal Singh,IND,,,,,False,23,2015,AE
+1501099,Jagdish Pradhan,BJP,16207,58388,35.33,1,23,69,DL,Jagdish Pradhan,BJP,,,,,True,23,2015,AE
+1501100,Hasan Ahmed,INC,16205,52357,31.68,2,23,69,DL,Hasan Ahmed,INC,,,,,True,23,2015,AE
+1501101,Mohd Yunus,AAAP,16293,49791,30.13,3,23,69,DL,Mohd Yunus,AAAP,,,,,False,23,2015,AE
+1501102,Neeru Chaudhary,BSP,16206,2893,1.75,4,23,69,DL,Neeru Chaudhary,BSP,,,,,False,23,2015,AE
+1501103,None Of The Above,NOTA,16294,587,0.36,5,23,69,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501104,Ali Abbas,HCP,16362,418,0.25,6,23,69,DL,Ali Abbas,HCP,,,,,False,23,2015,AE
+1501105,Sher Kha Malik,IND,16208,399,0.24,7,23,69,DL,Sher Kha Malik,IND,,,,,False,23,2015,AE
+1501106,Jai Singh Chaudhary,IND,16208,169,0.1,8,23,69,DL,Jai Singh Chaudhary,IND,,,,,False,23,2015,AE
+1501107,Sarfuddin,GAAP,16356,138,0.08,9,23,69,DL,Sarfuddin,GAAP,,,,,False,23,2015,AE
+1501108,Kali Charan,IND,16208,129,0.08,10,23,69,DL,Kali Charan,IND,,,,,False,23,2015,AE
+1501109,Kapil Mishra,AAAP,16293,101865,59.85,1,23,70,DL,Kapil Mishra,AAAP,,,,,True,23,2015,AE
+1501110,Mohan Singh Bisht,BJP,16207,57434,33.74,2,23,70,DL,Mohan Singh Bisht,BJP,,,,,True,23,2015,AE
+1501111,Satan Pal Dayma,INC,16205,5362,3.15,3,23,70,DL,Satan Pal Dayma,INC,,,,,False,23,2015,AE
+1501112,Dharmendra Singh,BSP,16206,2202,1.29,4,23,70,DL,Dharmendra Singh,BSP,,,,,False,23,2015,AE
+1501113,None Of The Above,NOTA,16294,888,0.52,5,23,70,DL,None Of The Above,NOTA,,,,,True,23,2015,AE
+1501114,Ranjit Tiwari,CPM,16243,712,0.42,6,23,70,DL,Ranjit Tiwari,CPM,,,,,False,23,2015,AE
+1501115,Sunder Singh Dedha,IND,16208,696,0.41,7,23,70,DL,Sunder Singh Dedha,IND,,,,,False,23,2015,AE
+1501116,Dharm Dass,RBHP,16314,279,0.16,8,23,70,DL,Dharm Dass,RBHP,,,,,False,23,2015,AE
+1501117,Joginder Singh,IND,16208,211,0.12,9,23,70,DL,Joginder Singh,IND,,,,,False,23,2015,AE
+1501118,Shyam Pal Singh,NAPT,16377,151,0.09,10,23,70,DL,Shyam Pal Singh,NAPT,,,,,False,23,2015,AE
+1501119,Saryug Naryan,SASAPT,16353,146,0.09,11,23,70,DL,Saryug Naryan,SASAPT,,,,,False,23,2015,AE
+1501120,Anil Kumar,ASSP,16359,144,0.08,12,23,70,DL,Anil Kumar,ASSP,,,,,False,23,2015,AE
+1501121,Prahlad Kumar Gupta,HND,16305,115,0.07,13,23,70,DL,Prahlad Kumar Gupta,HND,,,,,False,23,2015,AE

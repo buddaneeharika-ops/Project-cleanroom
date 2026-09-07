@@ -1,0 +1,327 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1712653,Thokchom Lokeshwar Singh,INC,19777,12849,56.12,1,29,1,MN,Thokchom Lokeshwar Singh,INC,,,,,True,29,2017,AE
+1712654,Thangjam Mohendro Singh,BJP,19780,9790,42.76,2,29,1,MN,Thangjam Mohendro Singh,BJP,,,,,False,29,2017,AE
+1712655,Yumlembam Jogendro,CPM,19803,129,0.56,3,29,1,MN,Yumlembam Jogendro,CPM,,,,,False,29,2017,AE
+1712656,Nota,NOTA,19789,92,0.4,4,29,1,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712657,Lairenlakpam Lala Singh,NPEP,19797,36,0.16,5,29,1,MN,Lairenlakpam Lala Singh,NPEP,,,,,False,29,2017,AE
+1712658,Nongthombam Biren Singh,BJP,19780,10439,38.11,1,29,2,MN,Nongthombam Biren Singh,BJP,,,,,False,29,2017,AE
+1712659,Pangeijam Saratchandra Singh,AITC,19787,9233,33.7,2,29,2,MN,Pangeijam Saratchandra Singh,AITC,,,,,False,29,2017,AE
+1712660,Naoroibam Ratan Meetei (Kapu),INC,19777,7329,26.75,3,29,2,MN,Naoroibam Ratan Meetei (Kapu),INC,,,,,False,29,2017,AE
+1712661,Nota,NOTA,19789,130,0.47,4,29,2,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712662,Dr. Gurumayum Tonsana Sharma,MDPF,19788,113,0.41,5,29,2,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,29,2017,AE
+1712663,Thokchom Romeo Singh,IND,19781,91,0.33,6,29,2,MN,Thokchom Romeo Singh,IND,,,,,False,29,2017,AE
+1712664,Yengkokpam Priyokumar Singh,MPEP,19795,59,0.22,7,29,2,MN,Yengkokpam Priyokumar Singh,MPEP,,,,,False,29,2017,AE
+1712665,Leishangthem Susindro Meitei,BJP,19780,15005,51.41,1,29,3,MN,Leishangthem Susindro Meitei,BJP,,,,,False,29,2017,AE
+1712666,Dr. Ngairangbam Bijoy Singh,INC,19777,13061,44.75,2,29,3,MN,Dr. Ngairangbam Bijoy Singh,INC,,,,,False,29,2017,AE
+1712667,R.K.Amusana,CPI,19778,800,2.74,3,29,3,MN,R.K.Amusana,CPI,,,,,False,29,2017,AE
+1712668,Nota,NOTA,19789,322,1.1,4,29,3,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712669,Nahakpam Indrajit Singh,BJP,19780,10411,34.36,1,29,4,MN,Nahakpam Indrajit Singh,BJP,,,,,False,29,2017,AE
+1712670,Md. Amin Shah,INC,19777,10031,33.1,2,29,4,MN,Md. Amin Shah,INC,,,,,True,29,2017,AE
+1712671,Th. Nandakishor Singh,MNDF,19806,9190,30.33,3,29,4,MN,Th. Nandakishor Singh,MNDF,,,,,False,29,2017,AE
+1712672,Vivekraj Wangkhem,NPEP,19797,281,0.93,4,29,4,MN,Vivekraj Wangkhem,NPEP,,,,,False,29,2017,AE
+1712673,Nota,NOTA,19789,174,0.57,5,29,4,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712674,Md. Azizul Hague Khan,MPEP,19795,80,0.26,6,29,4,MN,Md. Azizul Hague Khan,MPEP,,,,,False,29,2017,AE
+1712675,Md. Abir Khan,AIFB,19807,69,0.23,7,29,4,MN,Md. Abir Khan,AIFB,,,,,False,29,2017,AE
+1712676,Md. Zameer Ahmed,AITC,19787,67,0.22,8,29,4,MN,Md. Zameer Ahmed,AITC,,,,,False,29,2017,AE
+1712677,Thongam Biswajit Singh,BJP,19780,16809,62.61,1,29,5,MN,Thongam Biswajit Singh,BJP,,,,,False,29,2017,AE
+1712678,Thokchom Ajit Singh,INC,19777,9508,35.42,2,29,5,MN,Thokchom Ajit Singh,INC,,,,,False,29,2017,AE
+1712679,Nota,NOTA,19789,398,1.48,3,29,5,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712680,L. Geetaranjan Sharma,AITC,19787,131,0.49,4,29,5,MN,L. Geetaranjan Sharma,AITC,,,,,False,29,2017,AE
+1712681,Lourembam Rameshwor Meetei,BJP,19780,5959,22.81,1,29,6,MN,Lourembam Rameshwor Meetei,BJP,,,,,False,29,2017,AE
+1712682,Md. Nasiruddin Khan,IND,19781,5421,20.75,2,29,6,MN,Md. Nasiruddin Khan,IND,,,,,False,29,2017,AE
+1712683,Karam Thamarjit Singh,INC,19777,4715,18.04,3,29,6,MN,Karam Thamarjit Singh,INC,,,,,False,29,2017,AE
+1712684,Thongram Gopen,NEINDP,19794,4477,17.13,4,29,6,MN,Thongram Gopen,NEINDP,,,,,False,29,2017,AE
+1712685,Md. Islamuddin Khan,NCP,19783,3241,12.4,5,29,6,MN,Md. Islamuddin Khan,NCP,,,,,False,29,2017,AE
+1712686,Takhellambam Samananda Singh,LJP,19786,1446,5.53,6,29,6,MN,Takhellambam Samananda Singh,LJP,,,,,False,29,2017,AE
+1712687,Ningthoujam Itomba Meetei,MNDF,19806,685,2.62,7,29,6,MN,Ningthoujam Itomba Meetei,MNDF,,,,,False,29,2017,AE
+1712688,Md. Wahidur Rahman,IND,19781,106,0.41,8,29,6,MN,Md. Wahidur Rahman,IND,,,,,False,29,2017,AE
+1712689,Nota,NOTA,19789,80,0.31,9,29,6,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712690,Thounaojam Shyamkumar,INC,19777,18948,63.06,1,29,7,MN,Thounaojam Shyamkumar,INC,,,,,False,29,2017,AE
+1712691,Dr. Nimaichand Luwang,BJP,19780,10787,35.9,2,29,7,MN,Dr. Nimaichand Luwang,BJP,,,,,False,29,2017,AE
+1712692,Keisham Ningthemjao Singh,MNDF,19806,162,0.54,3,29,7,MN,Keisham Ningthemjao Singh,MNDF,,,,,False,29,2017,AE
+1712693,Nota,NOTA,19789,152,0.51,4,29,7,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712694,Ksh. Biren Singh,INC,19777,12339,48.02,1,29,8,MN,Ksh. Biren Singh,INC,,,,,False,29,2017,AE
+1712695,Khongbantabam Ibomcha,BJP,19780,11487,44.7,2,29,8,MN,Khongbantabam Ibomcha,BJP,,,,,False,29,2017,AE
+1712696,Huirem Bimol,CPI,19778,1712,6.66,3,29,8,MN,Huirem Bimol,CPI,,,,,False,29,2017,AE
+1712697,Nota,NOTA,19789,158,0.61,4,29,8,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712698,Khumukcham Joykisan Singh,INC,19777,11596,48.84,1,29,9,MN,Khumukcham Joykisan Singh,INC,,,,,False,29,2017,AE
+1712699,Jyotin Waikhom,BJP,19780,11439,48.17,2,29,9,MN,Jyotin Waikhom,BJP,,,,,False,29,2017,AE
+1712700,Erendro Leichombam,PRJA,19808,573,2.41,3,29,9,MN,Erendro Leichombam,PRJA,,,,,False,29,2017,AE
+1712701,Nota,NOTA,19789,137,0.58,4,29,9,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712702,Yumnam Joykumar Singh,NPEP,19797,6469,32.03,1,29,10,MN,Yumnam Joykumar Singh,NPEP,,,,,False,29,2017,AE
+1712703,Laishram Nandakumar Singh,INC,19777,6124,30.32,2,29,10,MN,Laishram Nandakumar Singh,INC,,,,,False,29,2017,AE
+1712704,Dr. Nameirakpam Dwijamani Singh,BJP,19780,5986,29.64,3,29,10,MN,Dr. Nameirakpam Dwijamani Singh,BJP,,,,,False,29,2017,AE
+1712705,Nameirakpam Santosh Singh,LJP,19786,1332,6.6,4,29,10,MN,Nameirakpam Santosh Singh,LJP,,,,,False,29,2017,AE
+1712706,Nota,NOTA,19789,284,1.41,5,29,10,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712707,Rajkumar Imo Singh,INC,19777,9211,47.07,1,29,11,MN,Rajkumar Imo Singh,INC,,,,,False,29,2017,AE
+1712708,Dr. Khwairakpam Loken Singh,BJP,19780,9192,46.98,2,29,11,MN,Dr. Khwairakpam Loken Singh,BJP,,,,,False,29,2017,AE
+1712709,G. Satyabati Devi,NPEP,19797,982,5.02,3,29,11,MN,G. Satyabati Devi,NPEP,,,,,False,29,2017,AE
+1712710,Nota,NOTA,19789,151,0.77,4,29,11,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712711,Laishram Gyaneshwar,IND,19781,31,0.16,5,29,11,MN,Laishram Gyaneshwar,IND,,,,,True,29,2017,AE
+1712712,Langpoklakpam Jayantakumar Singh,NPEP,19797,10000,43.28,1,29,12,MN,Langpoklakpam Jayantakumar Singh,NPEP,,,,,False,29,2017,AE
+1712713,Laisom Ibomcha Singh,INC,19777,6739,29.16,2,29,12,MN,Laisom Ibomcha Singh,INC,,,,,False,29,2017,AE
+1712714,Rajkumar Shivachandra Singh,BJP,19780,5003,21.65,3,29,12,MN,Rajkumar Shivachandra Singh,BJP,,,,,False,29,2017,AE
+1712715,Potsangbam Dhanakumar Singh,NEINDP,19794,611,2.64,4,29,12,MN,Potsangbam Dhanakumar Singh,NEINDP,,,,,False,29,2017,AE
+1712716,Nota,NOTA,19789,206,0.89,5,29,12,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712717,Khaba Paonam,MPEP,19795,204,0.88,6,29,12,MN,Khaba Paonam,MPEP,,,,,False,29,2017,AE
+1712718,Heishnam Lokeshwar Singh,LJP,19786,171,0.74,7,29,12,MN,Heishnam Lokeshwar Singh,LJP,,,,,False,29,2017,AE
+1712719,Yumnam Romola Devi,MNDF,19806,96,0.42,8,29,12,MN,Yumnam Romola Devi,MNDF,,,,,False,29,2017,AE
+1712720,Changamayum Ganeshlal Singh,AIFB,19807,77,0.33,9,29,12,MN,Changamayum Ganeshlal Singh,AIFB,,,,,False,29,2017,AE
+1712721,Yumnam Khemchand Singh,BJP,19780,9459,53.84,1,29,13,MN,Yumnam Khemchand Singh,BJP,,,,,False,29,2017,AE
+1712722,Irengbam Hemochandra Singh,INC,19777,7625,43.4,2,29,13,MN,Irengbam Hemochandra Singh,INC,,,,,True,29,2017,AE
+1712723,Nota,NOTA,19789,206,1.17,3,29,13,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712724,Heigrujam Nabashyam,AITC,19787,176,1.0,4,29,13,MN,Heigrujam Nabashyam,AITC,,,,,False,29,2017,AE
+1712725,Thokchom Sarchil Singh,MPEP,19795,104,0.59,5,29,13,MN,Thokchom Sarchil Singh,MPEP,,,,,False,29,2017,AE
+1712726,Thokchom Satyabrata Singh,BJP,19780,8014,36.6,1,29,14,MN,Thokchom Satyabrata Singh,BJP,,,,,False,29,2017,AE
+1712727,Elangbam Chand Singh,INC,19777,7444,34.0,2,29,14,MN,Elangbam Chand Singh,INC,,,,,True,29,2017,AE
+1712728,N. Helendro Singh,IND,19781,5621,25.67,3,29,14,MN,N. Helendro Singh,IND,,,,,False,29,2017,AE
+1712729,Athokpam Keshor Singh,LJP,19786,397,1.81,4,29,14,MN,Athokpam Keshor Singh,LJP,,,,,False,29,2017,AE
+1712730,Nota,NOTA,19789,278,1.27,5,29,14,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712731,Yumlembam Nogen,CPI,19778,143,0.65,6,29,14,MN,Yumlembam Nogen,CPI,,,,,False,29,2017,AE
+1712732,Okram Henry Singh,INC,19777,16753,56.48,1,29,15,MN,Okram Henry Singh,INC,,,,,False,29,2017,AE
+1712733,Yumkham Erabot Singh,BJP,19780,12417,41.86,2,29,15,MN,Yumkham Erabot Singh,BJP,,,,,False,29,2017,AE
+1712734,Nota,NOTA,19789,341,1.15,3,29,15,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712735,Rajkumar Priyobarta Singh,AITC,19787,149,0.5,4,29,15,MN,Rajkumar Priyobarta Singh,AITC,,,,,False,29,2017,AE
+1712736,Heikham Dingo Singh,BJP,19780,13163,54.82,1,29,16,MN,Heikham Dingo Singh,BJP,,,,,False,29,2017,AE
+1712737,Khwairakpam Devendro Singh,INC,19777,10631,44.27,2,29,16,MN,Khwairakpam Devendro Singh,INC,,,,,True,29,2017,AE
+1712738,Nota,NOTA,19789,219,0.91,3,29,16,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712739,Sorokhaibam Rajen Singh,BJP,19780,12593,44.93,1,29,17,MN,Sorokhaibam Rajen Singh,BJP,,,,,False,29,2017,AE
+1712740,Wangkheimayum Brajabidhu Singh,INC,19777,11313,40.36,2,29,17,MN,Wangkheimayum Brajabidhu Singh,INC,,,,,True,29,2017,AE
+1712741,Phijam Pakchao Singh,NEINDP,19794,3956,14.11,3,29,17,MN,Phijam Pakchao Singh,NEINDP,,,,,False,29,2017,AE
+1712742,Nota,NOTA,19789,166,0.59,4,29,17,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712743,Dr. Sapam Ranjan Singh,BJP,19780,14313,54.99,1,29,18,MN,Dr. Sapam Ranjan Singh,BJP,,,,,False,29,2017,AE
+1712744,Konthoujam Sharat Singh,INC,19777,11541,44.34,2,29,18,MN,Konthoujam Sharat Singh,INC,,,,,False,29,2017,AE
+1712745,Nota,NOTA,19789,92,0.35,3,29,18,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712746,Nongmaithem Santa Singh,IND,19781,83,0.32,4,29,18,MN,Nongmaithem Santa Singh,IND,,,,,False,29,2017,AE
+1712747,Km. Ak. Mirabai Devi,INC,19777,13405,42.61,1,29,19,MN,Km. Ak. Mirabai Devi,INC,,,,,False,29,2017,AE
+1712748,Sapam Kunjakeswor (Keba) Singh,NEINDP,19794,13291,42.25,2,29,19,MN,Sapam Kunjakeswor (Keba) Singh,NEINDP,,,,,False,29,2017,AE
+1712749,S. Premananda Sharma,BJP,19780,3173,10.09,3,29,19,MN,S. Premananda Sharma,BJP,,,,,False,29,2017,AE
+1712750,Chungkham Thoiba (Bijoy) Singh,NPEP,19797,1236,3.93,4,29,19,MN,Chungkham Thoiba (Bijoy) Singh,NPEP,,,,,False,29,2017,AE
+1712751,Nota,NOTA,19789,270,0.86,5,29,19,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712752,Thounaojam Sharat Singh,CPM,19803,85,0.27,6,29,19,MN,Thounaojam Sharat Singh,CPM,,,,,False,29,2017,AE
+1712753,Karam Shyam,LJP,19786,9625,39.0,1,29,20,MN,Karam Shyam,LJP,,,,,True,29,2017,AE
+1712754,O. Joy Singh,BJP,19780,7294,29.55,2,29,20,MN,O. Joy Singh,BJP,,,,,False,29,2017,AE
+1712755,Ningombam Nilakumar Singh,NEINDP,19794,2806,11.37,3,29,20,MN,Ningombam Nilakumar Singh,NEINDP,,,,,False,29,2017,AE
+1712756,Mutum Dinesh Singh,MNDF,19806,2035,8.25,4,29,20,MN,Mutum Dinesh Singh,MNDF,,,,,False,29,2017,AE
+1712757,Nongthombam Singhajit,CPI,19778,1819,7.37,5,29,20,MN,Nongthombam Singhajit,CPI,,,,,True,29,2017,AE
+1712758,Loitongbam Tilotama Devi,INC,19777,983,3.98,6,29,20,MN,Loitongbam Tilotama Devi,INC,,,,,False,29,2017,AE
+1712759,Nota,NOTA,19789,119,0.48,7,29,20,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712760,Soibam Subhaschandra Singh,BJP,19780,8609,28.38,1,29,21,MN,Soibam Subhaschandra Singh,BJP,,,,,False,29,2017,AE
+1712761,R.K. Anand,INC,19777,6994,23.06,2,29,21,MN,R.K. Anand,INC,,,,,True,29,2017,AE
+1712762,Soraisham Manaoton Singh,AITC,19787,6121,20.18,3,29,21,MN,Soraisham Manaoton Singh,AITC,,,,,False,29,2017,AE
+1712763,Konthoujam Manoranjan Singh,LJP,19786,4777,15.75,4,29,21,MN,Konthoujam Manoranjan Singh,LJP,,,,,False,29,2017,AE
+1712764,Oinam Malesh Singh,NEINDP,19794,3610,11.9,5,29,21,MN,Oinam Malesh Singh,NEINDP,,,,,False,29,2017,AE
+1712765,Nota,NOTA,19789,153,0.5,6,29,21,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712766,Thokchom Dhanabir Singh,NCP,19783,70,0.23,7,29,21,MN,Thokchom Dhanabir Singh,NCP,,,,,False,29,2017,AE
+1712767,Oinam Lukhoi Singh,INC,19777,7443,28.38,1,29,22,MN,Oinam Lukhoi Singh,INC,,,,,False,29,2017,AE
+1712768,Khuraijam Loken Singh,NPEP,19797,7407,28.24,2,29,22,MN,Khuraijam Loken Singh,NPEP,,,,,False,29,2017,AE
+1712769,Salam Joy Singh,BJP,19780,6590,25.13,3,29,22,MN,Salam Joy Singh,BJP,,,,,False,29,2017,AE
+1712770,Sagolsem Achouba Singh,MNDF,19806,3983,15.19,4,29,22,MN,Sagolsem Achouba Singh,MNDF,,,,,False,29,2017,AE
+1712771,Moirangmayum Thoiba Singh,LJP,19786,719,2.74,5,29,22,MN,Moirangmayum Thoiba Singh,LJP,,,,,False,29,2017,AE
+1712772,Nota,NOTA,19789,83,0.32,6,29,22,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712773,Kongkham Robindro Singh,BJP,19780,15221,55.4,1,29,23,MN,Kongkham Robindro Singh,BJP,,,,,False,29,2017,AE
+1712774,Dr. Khumujam Ratankumar Singh,INC,19777,12127,44.14,2,29,23,MN,Dr. Khumujam Ratankumar Singh,INC,,,,,False,29,2017,AE
+1712775,Nota,NOTA,19789,125,0.45,3,29,23,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712776,Nameirakpam Loken Singh,INC,19777,14736,50.28,1,29,24,MN,Nameirakpam Loken Singh,INC,,,,,False,29,2017,AE
+1712777,Thounaojam Chaoba,BJP,19780,14456,49.33,2,29,24,MN,Thounaojam Chaoba,BJP,,,,,False,29,2017,AE
+1712778,Nota,NOTA,19789,115,0.39,3,29,24,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712779,Laishram Radhakishore Singh,BJP,19780,12029,49.07,1,29,25,MN,Laishram Radhakishore Singh,BJP,,,,,False,29,2017,AE
+1712780,Dr. Irengbam Ibohalbi Singh,INC,19777,11186,45.63,2,29,25,MN,Dr. Irengbam Ibohalbi Singh,INC,,,,,False,29,2017,AE
+1712781,Khundrakpam Romio,NCP,19783,1030,4.2,3,29,25,MN,Khundrakpam Romio,NCP,,,,,False,29,2017,AE
+1712782,Laitonjam Thoiba Singh,MNDF,19806,190,0.78,4,29,25,MN,Laitonjam Thoiba Singh,MNDF,,,,,False,29,2017,AE
+1712783,Nota,NOTA,19789,81,0.33,5,29,25,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712784,Konthoujam Govindas,INC,19777,14150,53.11,1,29,26,MN,Konthoujam Govindas,INC,,,,,True,29,2017,AE
+1712785,Konthoujam Krishna Kumar Singh,BJP,19780,8872,33.3,2,29,26,MN,Konthoujam Krishna Kumar Singh,BJP,,,,,False,29,2017,AE
+1712786,Khundrakpam Bhabeshwor Singh,LJP,19786,3333,12.51,3,29,26,MN,Khundrakpam Bhabeshwor Singh,LJP,,,,,False,29,2017,AE
+1712787,Nota,NOTA,19789,181,0.68,4,29,26,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712788,Thokchom Bindasakhi Devi,AITC,19787,105,0.39,5,29,26,MN,Thokchom Bindasakhi Devi,AITC,,,,,False,29,2017,AE
+1712789,Pukhrem Sharatchandra Singh,BJP,19780,11708,37.04,1,29,27,MN,Pukhrem Sharatchandra Singh,BJP,,,,,False,29,2017,AE
+1712790,Mairembam Prithviraj Singh,INC,19777,11333,35.85,2,29,27,MN,Mairembam Prithviraj Singh,INC,,,,,True,29,2017,AE
+1712791,Thongam Shanti Singh,IND,19781,8369,26.47,3,29,27,MN,Thongam Shanti Singh,IND,,,,,False,29,2017,AE
+1712792,Nota,NOTA,19789,203,0.64,4,29,27,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712793,Tongbram Robindro Singh,AITC,19787,6462,33.06,1,29,28,MN,Tongbram Robindro Singh,AITC,,,,,True,29,2017,AE
+1712794,Moirangthem Asnikumar Singh,BJP,19780,5457,27.92,2,29,28,MN,Moirangthem Asnikumar Singh,BJP,,,,,False,29,2017,AE
+1712795,Tongbram Mangibabu Singh,INC,19777,5070,25.94,3,29,28,MN,Tongbram Mangibabu Singh,INC,,,,,False,29,2017,AE
+1712796,Heisnam Kulachandra Singh,NCP,19783,2461,12.59,4,29,28,MN,Heisnam Kulachandra Singh,NCP,,,,,False,29,2017,AE
+1712797,Nota,NOTA,19789,97,0.5,5,29,28,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712798,Sanasam Bira Singh,INC,19777,11881,49.91,1,29,29,MN,Sanasam Bira Singh,INC,,,,,True,29,2017,AE
+1712799,Ningthoujam Mangi,BJP,19780,10570,44.4,2,29,29,MN,Ningthoujam Mangi,BJP,,,,,False,29,2017,AE
+1712800,Ningombam Ibohal Meitei,LJP,19786,1057,4.44,3,29,29,MN,Ningombam Ibohal Meitei,LJP,,,,,False,29,2017,AE
+1712801,Wahengbam Bobbyjames Singh,MNDF,19806,180,0.76,4,29,29,MN,Wahengbam Bobbyjames Singh,MNDF,,,,,False,29,2017,AE
+1712802,Nota,NOTA,19789,117,0.49,5,29,29,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712803,Muhammad Abdul Nasir,INC,19777,10765,36.69,1,29,30,MN,Muhammad Abdul Nasir,INC,,,,,False,29,2017,AE
+1712804,Y. Antas Khan,IND,19781,9497,32.37,2,29,30,MN,Y. Antas Khan,IND,,,,,False,29,2017,AE
+1712805,Md. Anwar Hussain,BJP,19780,8456,28.82,3,29,30,MN,Md. Anwar Hussain,BJP,,,,,False,29,2017,AE
+1712806,Sheikh Kheiruddin,NEINDP,19794,369,1.26,4,29,30,MN,Sheikh Kheiruddin,NEINDP,,,,,False,29,2017,AE
+1712807,Nota,NOTA,19789,100,0.34,5,29,30,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712808,Md. Abdul Zabar,MNDF,19806,83,0.28,6,29,30,MN,Md. Abdul Zabar,MNDF,,,,,False,29,2017,AE
+1712809,Nasir Ahmad Sheikh,IND,19781,67,0.23,7,29,30,MN,Nasir Ahmad Sheikh,IND,,,,,False,29,2017,AE
+1712810,Okram Ibobi Singh,INC,19777,18649,68.38,1,29,31,MN,Okram Ibobi Singh,INC,,,,,True,29,2017,AE
+1712811,Leitanthem Basanta Singh,BJP,19780,8179,29.99,2,29,31,MN,Leitanthem Basanta Singh,BJP,,,,,False,29,2017,AE
+1712812,Leishangthem Suresh Singh,AITC,19787,144,0.53,3,29,31,MN,Leishangthem Suresh Singh,AITC,,,,,False,29,2017,AE
+1712813,Nota,NOTA,19789,143,0.52,4,29,31,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712814,Irom Sharmila Chanu,PRJA,19808,90,0.33,5,29,31,MN,Irom Sharmila Chanu,PRJA,,,,,False,29,2017,AE
+1712815,Dr. Akoijam Manglemjao Singh,IND,19781,66,0.24,6,29,31,MN,Dr. Akoijam Manglemjao Singh,IND,,,,,False,29,2017,AE
+1712816,Keisham Meghachandra Singh,INC,19777,11293,39.52,1,29,32,MN,Keisham Meghachandra Singh,INC,,,,,True,29,2017,AE
+1712817,Yumnam Nabachandra Singh,NEINDP,19794,8413,29.44,2,29,32,MN,Yumnam Nabachandra Singh,NEINDP,,,,,False,29,2017,AE
+1712818,Oinam Haridas Singh,BJP,19780,4573,16.0,3,29,32,MN,Oinam Haridas Singh,BJP,,,,,False,29,2017,AE
+1712819,Kangabam Jadu Singh,LJP,19786,3986,13.95,4,29,32,MN,Kangabam Jadu Singh,LJP,,,,,False,29,2017,AE
+1712820,Nota,NOTA,19789,177,0.62,5,29,32,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712821,Laishram Thanil Meitei,NPEP,19797,136,0.48,6,29,32,MN,Laishram Thanil Meitei,NPEP,,,,,False,29,2017,AE
+1712822,Thokchom Radheshyam Singh,BJP,19780,13389,46.63,1,29,33,MN,Thokchom Radheshyam Singh,BJP,,,,,False,29,2017,AE
+1712823,Moirangthem Okendro,INC,19777,11742,40.89,2,29,33,MN,Moirangthem Okendro,INC,,,,,True,29,2017,AE
+1712824,Ningthoujam Diten,NCP,19783,3321,11.57,3,29,33,MN,Ningthoujam Diten,NCP,,,,,False,29,2017,AE
+1712825,Nota,NOTA,19789,94,0.33,4,29,33,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712826,Moirangthem Totomsana,AITC,19787,85,0.3,5,29,33,MN,Moirangthem Totomsana,AITC,,,,,False,29,2017,AE
+1712827,Nongmeikapam Sovakiran Singh,MPEP,19795,84,0.29,6,29,33,MN,Nongmeikapam Sovakiran Singh,MPEP,,,,,False,29,2017,AE
+1712828,Paonam Brojen Singh,INC,19777,12830,43.37,1,29,34,MN,Paonam Brojen Singh,INC,,,,,False,29,2017,AE
+1712829,Moirangthem Hemanta,BJP,19780,10967,37.07,2,29,34,MN,Moirangthem Hemanta,BJP,,,,,False,29,2017,AE
+1712830,Haobam Robindro Singh,CPI,19778,5562,18.8,3,29,34,MN,Haobam Robindro Singh,CPI,,,,,False,29,2017,AE
+1712831,Sagolsem Ibochoubi Singh,MNDF,19806,121,0.41,4,29,34,MN,Sagolsem Ibochoubi Singh,MNDF,,,,,False,29,2017,AE
+1712832,Nota,NOTA,19789,105,0.35,5,29,34,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712833,Surjakumar Okram,INC,19777,20781,64.22,1,29,35,MN,Surjakumar Okram,INC,,,,,False,29,2017,AE
+1712834,Thokchom Jadumani Singh,BJP,19780,11329,35.01,2,29,35,MN,Thokchom Jadumani Singh,BJP,,,,,False,29,2017,AE
+1712835,Nota,NOTA,19789,133,0.41,3,29,35,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712836,Haji Asraf Ali,NPEP,19797,116,0.36,4,29,35,MN,Haji Asraf Ali,NPEP,,,,,False,29,2017,AE
+1712837,Md. Fajur Rahim,INC,19777,12474,45.16,1,29,36,MN,Md. Fajur Rahim,INC,,,,,True,29,2017,AE
+1712838,Dr. Usham Deben Singh,BJP,19780,7713,27.92,2,29,36,MN,Dr. Usham Deben Singh,BJP,,,,,False,29,2017,AE
+1712839,Mayengbam Ranjit Singh,NEINDP,19794,5264,19.06,3,29,36,MN,Mayengbam Ranjit Singh,NEINDP,,,,,False,29,2017,AE
+1712840,Md. Abdul Samad,MNDF,19806,1695,6.14,4,29,36,MN,Md. Abdul Samad,MNDF,,,,,False,29,2017,AE
+1712841,Mohammad Habibur Rahman,NPEP,19797,326,1.18,5,29,36,MN,Mohammad Habibur Rahman,NPEP,,,,,False,29,2017,AE
+1712842,Nota,NOTA,19789,117,0.42,6,29,36,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712843,Najima Bibi,PRJA,19808,33,0.12,7,29,36,MN,Najima Bibi,PRJA,,,,,False,29,2017,AE
+1712844,Yengkhom Surchandra Singh,INC,19777,11133,46.2,1,29,37,MN,Yengkhom Surchandra Singh,INC,,,,,True,29,2017,AE
+1712845,M. Rameshwar Singh (Ramay),BJP,19780,10503,43.58,2,29,37,MN,M. Rameshwar Singh (Ramay),BJP,,,,,False,29,2017,AE
+1712846,Naorem Achouba,CPI,19778,2215,9.19,3,29,37,MN,Naorem Achouba,CPI,,,,,True,29,2017,AE
+1712847,Nota,NOTA,19789,249,1.03,4,29,37,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712848,Dr. Radheshyam Yumnam,BJP,19780,13394,53.17,1,29,38,MN,Dr. Radheshyam Yumnam,BJP,,,,,False,29,2017,AE
+1712849,Elangbam Dwijamani Singh,INC,19777,11669,46.32,2,29,38,MN,Elangbam Dwijamani Singh,INC,,,,,True,29,2017,AE
+1712850,Nota,NOTA,19789,127,0.5,3,29,38,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712851,Kangujam Ranjit Singh,INC,19777,13331,56.19,1,29,39,MN,Kangujam Ranjit Singh,INC,,,,,True,29,2017,AE
+1712852,Yumnam Jiban Singh,BJP,19780,10198,42.98,2,29,39,MN,Yumnam Jiban Singh,BJP,,,,,False,29,2017,AE
+1712853,Nota,NOTA,19789,196,0.83,3,29,39,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712854,Ashab Uddin,IND,19781,8189,35.7,1,29,40,MN,Ashab Uddin,IND,,,,,False,29,2017,AE
+1712855,Thoudam Debendra Singh,INC,19777,6539,28.5,2,29,40,MN,Thoudam Debendra Singh,INC,,,,,True,29,2017,AE
+1712856,Thounaojam Ranabir Singh,BJP,19780,3199,13.95,3,29,40,MN,Thounaojam Ranabir Singh,BJP,,,,,False,29,2017,AE
+1712857,A. Biren Singh,NEINDP,19794,2812,12.26,4,29,40,MN,A. Biren Singh,NEINDP,,,,,False,29,2017,AE
+1712858,Mathiudin Kamei,NPF,19792,1163,5.07,5,29,40,MN,Mathiudin Kamei,NPF,,,,,False,29,2017,AE
+1712859,Habib Ali,NPEP,19797,649,2.83,6,29,40,MN,Habib Ali,NPEP,,,,,False,29,2017,AE
+1712860,Nota,NOTA,19789,389,1.7,7,29,40,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712861,Letpao Haokip,NPEP,19797,14216,33.58,1,29,41,MN,Letpao Haokip,NPEP,,,,,False,29,2017,AE
+1712862,Ts Warngam,IND,19781,12091,28.56,2,29,41,MN,Ts Warngam,IND,,,,,False,29,2017,AE
+1712863,S.S. Olish,BJP,19780,9842,23.25,3,29,41,MN,S.S. Olish,BJP,,,,,False,29,2017,AE
+1712864,Bd. Behring Anal,PDA,19784,3044,7.19,4,29,41,MN,Bd. Behring Anal,PDA,,,,,False,29,2017,AE
+1712865,St. Victor Nunghlung,NPF,19792,1574,3.72,5,29,41,MN,St. Victor Nunghlung,NPF,,,,,False,29,2017,AE
+1712866,Chungjalen Haokip,INC,19777,1185,2.8,6,29,41,MN,Chungjalen Haokip,INC,,,,,False,29,2017,AE
+1712867,Thangkholun Haokip,AITC,19787,221,0.52,7,29,41,MN,Thangkholun Haokip,AITC,,,,,False,29,2017,AE
+1712868,Nota,NOTA,19789,163,0.39,8,29,41,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712869,D. Korungthang,INC,19777,16940,40.63,1,29,42,MN,D. Korungthang,INC,,,,,True,29,2017,AE
+1712870,Yangkholet Haokip,BJP,19780,12284,29.47,2,29,42,MN,Yangkholet Haokip,BJP,,,,,False,29,2017,AE
+1712871,Khulpuwa Armstrong Charang,NPF,19792,11015,26.42,3,29,42,MN,Khulpuwa Armstrong Charang,NPF,,,,,False,29,2017,AE
+1712872,Kh David Maring,NPEP,19797,1300,3.12,4,29,42,MN,Kh David Maring,NPEP,,,,,False,29,2017,AE
+1712873,Nota,NOTA,19789,150,0.36,5,29,42,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712874,K. Leishiyo,NPF,19792,11900,47.68,1,29,43,MN,K. Leishiyo,NPF,,,,,False,29,2017,AE
+1712875,Somi Awungshi,BJP,19780,7122,28.54,2,29,43,MN,Somi Awungshi,BJP,,,,,False,29,2017,AE
+1712876,Victor Keishing,INC,19777,5313,21.29,3,29,43,MN,Victor Keishing,INC,,,,,True,29,2017,AE
+1712877,A.S. Hopingson,IND,19781,452,1.81,4,29,43,MN,A.S. Hopingson,IND,,,,,False,29,2017,AE
+1712878,M.K. Phungreiyo,AITC,19787,97,0.39,5,29,43,MN,M.K. Phungreiyo,AITC,,,,,False,29,2017,AE
+1712879,Nota,NOTA,19789,72,0.29,6,29,43,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712880,Alfred Kanngam Arthur,INC,19777,11510,35.88,1,29,44,MN,Alfred Kanngam Arthur,INC,,,,,False,29,2017,AE
+1712881,Somatai Shaiza,BJP,19780,11214,34.96,2,29,44,MN,Somatai Shaiza,BJP,,,,,False,29,2017,AE
+1712882,Samuel Risom,NPF,19792,8883,27.69,3,29,44,MN,Samuel Risom,NPF,,,,,True,29,2017,AE
+1712883,Worthington Mahung,LJP,19786,310,0.97,4,29,44,MN,Worthington Mahung,LJP,,,,,False,29,2017,AE
+1712884,Letsei Haokip,AITC,19787,115,0.36,5,29,44,MN,Letsei Haokip,AITC,,,,,False,29,2017,AE
+1712885,Nota,NOTA,19789,46,0.14,6,29,44,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712886,Khashim Vashum,NPF,19792,16582,51.7,1,29,45,MN,Khashim Vashum,NPF,,,,,False,29,2017,AE
+1712887,Sword Vashum,BJP,19780,8932,27.85,2,29,45,MN,Sword Vashum,BJP,,,,,False,29,2017,AE
+1712888,Preshow M.K Shimray,INC,19777,6370,19.86,3,29,45,MN,Preshow M.K Shimray,INC,,,,,False,29,2017,AE
+1712889,N.K. Shimray,NEINDP,19794,157,0.49,4,29,45,MN,N.K. Shimray,NEINDP,,,,,False,29,2017,AE
+1712890,Nota,NOTA,19789,30,0.09,5,29,45,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712891,Yamthong Haokip,INC,19777,8677,29.59,1,29,46,MN,Yamthong Haokip,INC,,,,,True,29,2017,AE
+1712892,Chungkhokai Doungel,NCP,19783,5416,18.47,2,29,46,MN,Chungkhokai Doungel,NCP,,,,,False,29,2017,AE
+1712893,Paojalet Touthang,BJP,19780,4439,15.14,3,29,46,MN,Paojalet Touthang,BJP,,,,,False,29,2017,AE
+1712894,Doukhomang Khongsai,NEINDP,19794,4008,13.67,4,29,46,MN,Doukhomang Khongsai,NEINDP,,,,,False,29,2017,AE
+1712895,Ch. Ajang Khongsai,NPEP,19797,2993,10.21,5,29,46,MN,Ch. Ajang Khongsai,NPEP,,,,,False,29,2017,AE
+1712896,Thangjamang Haokip,LJP,19786,2803,9.56,6,29,46,MN,Thangjamang Haokip,LJP,,,,,False,29,2017,AE
+1712897,L. Samuel Kom,RPI(A),19809,464,1.58,7,29,46,MN,L. Samuel Kom,RPI(A),,,,,False,29,2017,AE
+1712898,Mangvung Thangboi Haokip,NPF,19792,304,1.04,8,29,46,MN,Mangvung Thangboi Haokip,NPF,,,,,False,29,2017,AE
+1712899,Letjam Singson,MNDF,19806,67,0.23,9,29,46,MN,Letjam Singson,MNDF,,,,,False,29,2017,AE
+1712900,Horngam Keishing,AITC,19787,61,0.21,10,29,46,MN,Horngam Keishing,AITC,,,,,False,29,2017,AE
+1712902,Nota,NOTA,19789,45,0.15,11,29,46,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712901,Kenn Raikhan,IND,19781,45,0.15,11,29,46,MN,Kenn Raikhan,IND,,,,,False,29,2017,AE
+1712903,D.D. Thaisii,INC,19777,14038,31.84,1,29,47,MN,D.D. Thaisii,INC,,,,,False,29,2017,AE
+1712904,R. Yuh Jonathan Tao,BJP,19780,9745,22.1,2,29,47,MN,R. Yuh Jonathan Tao,BJP,,,,,False,29,2017,AE
+1712905,Thaiba Sanii,IND,19781,7322,16.6,3,29,47,MN,Thaiba Sanii,IND,,,,,False,29,2017,AE
+1712906,Solomon Vieno,IND,19781,6553,14.86,4,29,47,MN,Solomon Vieno,IND,,,,,False,29,2017,AE
+1712907,Dr. V. Alexander Pao,NPF,19792,5342,12.11,5,29,47,MN,Dr. V. Alexander Pao,NPF,,,,,True,29,2017,AE
+1712908,T.K. Savanai,LJP,19786,951,2.16,6,29,47,MN,T.K. Savanai,LJP,,,,,False,29,2017,AE
+1712909,Nota,NOTA,19789,145,0.33,7,29,47,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712910,Losii Dikho,NPF,19792,25933,52.69,1,29,48,MN,Losii Dikho,NPF,,,,,False,29,2017,AE
+1712911,Woba Joram,BJP,19780,10519,21.37,2,29,48,MN,Woba Joram,BJP,,,,,False,29,2017,AE
+1712912,P.T. Arhai,INC,19777,7604,15.45,3,29,48,MN,P.T. Arhai,INC,,,,,False,29,2017,AE
+1712913,R. Haba Pao,IND,19781,5101,10.36,4,29,48,MN,R. Haba Pao,IND,,,,,False,29,2017,AE
+1712914,Nota,NOTA,19789,59,0.12,5,29,48,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712915,N. Kayisii,NPEP,19797,17115,41.99,1,29,49,MN,N. Kayisii,NPEP,,,,,False,29,2017,AE
+1712916,M. Francis Ngajokpa,BJP,19780,15816,38.81,2,29,49,MN,M. Francis Ngajokpa,BJP,,,,,False,29,2017,AE
+1712917,K. Raina,NPF,19792,6614,16.23,3,29,49,MN,K. Raina,NPF,,,,,True,29,2017,AE
+1712918,Dilungheing,LJP,19786,354,0.87,4,29,49,MN,Dilungheing,LJP,,,,,False,29,2017,AE
+1712919,L. Hingba Thomas,MNDF,19806,330,0.81,5,29,49,MN,L. Hingba Thomas,MNDF,,,,,False,29,2017,AE
+1712920,R.S. Henry Hiilii,INC,19777,305,0.75,6,29,49,MN,R.S. Henry Hiilii,INC,,,,,False,29,2017,AE
+1712921,Nota,NOTA,19789,223,0.55,7,29,49,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712922,Nemcha Kipgen,BJP,19780,13485,51.74,1,29,50,MN,Nemcha Kipgen,BJP,,,,,False,29,2017,AE
+1712923,Kharga Tamang,IND,19781,11188,42.92,2,29,50,MN,Kharga Tamang,IND,,,,,False,29,2017,AE
+1712924,Athikho Solomon Enah,NPF,19792,875,3.36,3,29,50,MN,Athikho Solomon Enah,NPF,,,,,False,29,2017,AE
+1712925,Nota,NOTA,19789,289,1.11,4,29,50,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712926,Soshim Keishing,NCP,19783,228,0.87,5,29,50,MN,Soshim Keishing,NCP,,,,,False,29,2017,AE
+1712927,Ngamthang Haokip,INC,19777,19467,53.49,1,29,51,MN,Ngamthang Haokip,INC,,,,,True,29,2017,AE
+1712928,Haokholet Kipgen,BJP,19780,15650,43.0,2,29,51,MN,Haokholet Kipgen,BJP,,,,,False,29,2017,AE
+1712929,Sehpu Haokip,NPF,19792,1166,3.2,3,29,51,MN,Sehpu Haokip,NPF,,,,,False,29,2017,AE
+1712930,Nota,NOTA,19789,110,0.3,4,29,51,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712931,Awangbow Newmai,NPF,19792,15933,49.34,1,29,52,MN,Awangbow Newmai,NPF,,,,,False,29,2017,AE
+1712932,Z. Kikhonbou Newmai,BJP,19780,15186,47.02,2,29,52,MN,Z. Kikhonbou Newmai,BJP,,,,,False,29,2017,AE
+1712933,G.N. Kumuiteung (Dr. Aku),INC,19777,1136,3.52,3,29,52,MN,G.N. Kumuiteung (Dr. Aku),INC,,,,,False,29,2017,AE
+1712934,Nota,NOTA,19789,40,0.12,4,29,52,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712935,Samuel Jendai Kamei,BJP,19780,13023,53.44,1,29,53,MN,Samuel Jendai Kamei,BJP,,,,,False,29,2017,AE
+1712936,Janghemlung Panmei,NPF,19792,11019,45.21,2,29,53,MN,Janghemlung Panmei,NPF,,,,,False,29,2017,AE
+1712937,Jangamlung Panmei,INC,19777,215,0.88,3,29,53,MN,Jangamlung Panmei,INC,,,,,False,29,2017,AE
+1712938,Nota,NOTA,19789,114,0.47,4,29,53,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712939,Gaikhangam,INC,19777,10255,52.16,1,29,54,MN,Gaikhangam,INC,,,,,True,29,2017,AE
+1712940,Adim Pamei,BJP,19780,5108,25.98,2,29,54,MN,Adim Pamei,BJP,,,,,False,29,2017,AE
+1712941,Pou Mathiupuang Gonmei,LJP,19786,4111,20.91,3,29,54,MN,Pou Mathiupuang Gonmei,LJP,,,,,False,29,2017,AE
+1712942,Kamei William Kabui,AITC,19787,110,0.56,4,29,54,MN,Kamei William Kabui,AITC,,,,,False,29,2017,AE
+1712943,Nota,NOTA,19789,75,0.38,5,29,54,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712944,Dr. Chaltonlien Amo,INC,19777,4997,42.35,1,29,55,MN,Dr. Chaltonlien Amo,INC,,,,,False,29,2017,AE
+1712945,Dr. Lallukhum Fimate,BJP,19780,4371,37.05,2,29,55,MN,Dr. Lallukhum Fimate,BJP,,,,,False,29,2017,AE
+1712946,Ngursanglur Sanate,NPEP,19797,2167,18.37,3,29,55,MN,Ngursanglur Sanate,NPEP,,,,,False,29,2017,AE
+1712947,Ngurrivung,IND,19781,132,1.12,4,29,55,MN,Ngurrivung,IND,,,,,True,29,2017,AE
+1712948,Thangthatling Sinate,IND,19781,106,0.9,5,29,55,MN,Thangthatling Sinate,IND,,,,,False,29,2017,AE
+1712949,Nota,NOTA,19789,25,0.21,6,29,55,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712950,Vungzagin Valte,BJP,19780,9752,71.25,1,29,56,MN,Vungzagin Valte,BJP,,,,,False,29,2017,AE
+1712951,Chinkholal Thangsing,INC,19777,2583,18.87,2,29,56,MN,Chinkholal Thangsing,INC,,,,,False,29,2017,AE
+1712952,Thangkhangin,LJP,19786,795,5.81,3,29,56,MN,Thangkhangin,LJP,,,,,False,29,2017,AE
+1712953,T. Nengzakham Tombing,NPEP,19797,413,3.02,4,29,56,MN,T. Nengzakham Tombing,NPEP,,,,,False,29,2017,AE
+1712954,P. Khamsanglian,IND,19781,107,0.78,5,29,56,MN,P. Khamsanglian,IND,,,,,False,29,2017,AE
+1712955,Nota,NOTA,19789,37,0.27,6,29,56,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712956,T. Thangzalam Haokip,BJP,19780,8438,35.48,1,29,57,MN,T. Thangzalam Haokip,BJP,,,,,False,29,2017,AE
+1712957,T. Manga Vaiphei,INC,19777,8170,34.35,2,29,57,MN,T. Manga Vaiphei,INC,,,,,False,29,2017,AE
+1712958,Letzamang Haokip,NPEP,19797,5146,21.64,3,29,57,MN,Letzamang Haokip,NPEP,,,,,False,29,2017,AE
+1712959,Mangcha Gangte,MNDF,19806,1303,5.48,4,29,57,MN,Mangcha Gangte,MNDF,,,,,False,29,2017,AE
+1712960,Thongzamlien,NPF,19792,547,2.3,5,29,57,MN,Thongzamlien,NPF,,,,,False,29,2017,AE
+1712961,Dr. Jainson Haokip,AITC,19787,107,0.45,6,29,57,MN,Dr. Jainson Haokip,AITC,,,,,False,29,2017,AE
+1712962,Nota,NOTA,19789,71,0.3,7,29,57,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712963,V. Hangkhanlian,BJP,19780,10246,30.28,1,29,58,MN,V. Hangkhanlian,BJP,,,,,False,29,2017,AE
+1712964,Phungzathang Tonsing,NPEP,19797,9632,28.46,2,29,58,MN,Phungzathang Tonsing,NPEP,,,,,False,29,2017,AE
+1712965,Paukhansuan Khuptong,NEINDP,19794,6411,18.95,3,29,58,MN,Paukhansuan Khuptong,NEINDP,,,,,False,29,2017,AE
+1712966,Thangbiaklian Hangzo,RPI(A),19809,3712,10.97,4,29,58,MN,Thangbiaklian Hangzo,RPI(A),,,,,False,29,2017,AE
+1712967,Chintwahlian C.T. Lian Guite,IND,19781,3040,8.98,5,29,58,MN,Chintwahlian C.T. Lian Guite,IND,,,,,False,29,2017,AE
+1712968,Haukhanthang,INC,19777,535,1.58,6,29,58,MN,Haukhanthang,INC,,,,,False,29,2017,AE
+1712969,Dr. D.K. Mang,IND,19781,156,0.46,7,29,58,MN,Dr. D.K. Mang,IND,,,,,False,29,2017,AE
+1712970,Nota,NOTA,19789,108,0.32,8,29,58,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712971,T. N. Haokip,INC,19777,16354,48.25,1,29,59,MN,T. N. Haokip,INC,,,,,False,29,2017,AE
+1712972,Paokholal Haokip,BJP,19780,11253,33.2,2,29,59,MN,Paokholal Haokip,BJP,,,,,False,29,2017,AE
+1712973,Holkholun Lhungdim,LJP,19786,6096,17.99,3,29,59,MN,Holkholun Lhungdim,LJP,,,,,False,29,2017,AE
+1712974,Nota,NOTA,19789,189,0.56,4,29,59,MN,Nota,NOTA,,,,,False,29,2017,AE
+1712975,Ginsuanhau,INC,19777,8131,44.35,1,29,60,MN,Ginsuanhau,INC,,,,,True,29,2017,AE
+1712976,Chinlunthang,BJP,19780,6969,38.01,2,29,60,MN,Chinlunthang,BJP,,,,,False,29,2017,AE
+1712977,Henlianthang Thanglet,NPEP,19797,3124,17.04,3,29,60,MN,Henlianthang Thanglet,NPEP,,,,,False,29,2017,AE
+1712978,Nota,NOTA,19789,111,0.61,4,29,60,MN,Nota,NOTA,,,,,False,29,2017,AE

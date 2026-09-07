@@ -1,0 +1,571 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1783662,Khagen Das,CPM,22930,16134,63.25,1,6,1,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783663,Sudip Roy Barman,INC,22917,7304,28.63,2,6,1,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783664,Nilmani Deb,BJP,22916,650,2.55,3,6,1,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783665,Binay Debbarma,IND,22919,425,1.67,4,6,1,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783666,Subrata Bhowmik,IND,22919,415,1.63,5,6,1,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783667,Arun Chandra Bhaumik,AITC,22928,186,0.73,6,6,1,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783668,Partha Karmakar,CPI(ML)(L),22936,126,0.49,7,6,1,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783669,Rakhal Raj Datta,AMB,22929,101,0.4,8,6,1,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783670,Sanjib Dey,NCP,22943,97,0.38,9,6,1,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783671,Titu Saha,RDMP,22945,71,0.28,10,6,1,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783672,Khagen Das,CPM,22930,15790,50.54,1,6,2,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783673,Sudip Roy Barman,INC,22917,13251,42.41,2,6,2,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783674,Nilmani Deb,BJP,22916,876,2.8,3,6,2,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783675,Binay Debbarma,IND,22919,373,1.19,4,6,2,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783676,Subrata Bhowmik,IND,22919,301,0.96,5,6,2,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783677,Arun Chandra Bhaumik,AITC,22928,203,0.65,6,6,2,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783678,Rakhal Raj Datta,AMB,22929,196,0.63,7,6,2,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783679,Partha Karmakar,CPI(ML)(L),22936,115,0.37,8,6,2,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783680,Sanjib Dey,NCP,22943,74,0.24,9,6,2,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783681,Titu Saha,RDMP,22945,64,0.2,10,6,2,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783682,Khagen Das,CPM,22930,17791,58.13,1,6,3,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783683,Sudip Roy Barman,INC,22917,11005,35.96,2,6,3,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783684,Nilmani Deb,BJP,22916,821,2.68,3,6,3,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783685,Subrata Bhowmik,IND,22919,272,0.89,4,6,3,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783686,Arun Chandra Bhaumik,AITC,22928,177,0.58,5,6,3,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783687,Sanjib Dey,NCP,22943,132,0.43,6,6,3,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783688,Binay Debbarma,IND,22919,124,0.41,7,6,3,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783689,Partha Karmakar,CPI(ML)(L),22936,114,0.37,8,6,3,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783690,Rakhal Raj Datta,AMB,22929,99,0.32,9,6,3,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783691,Titu Saha,RDMP,22945,69,0.23,10,6,3,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783692,Khagen Das,CPM,22930,16103,55.29,1,6,4,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783693,Sudip Roy Barman,INC,22917,10940,37.56,2,6,4,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783694,Nilmani Deb,BJP,22916,1179,4.05,3,6,4,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783695,Subrata Bhowmik,IND,22919,261,0.9,4,6,4,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783696,Arun Chandra Bhaumik,AITC,22928,177,0.61,5,6,4,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783697,Binay Debbarma,IND,22919,114,0.39,6,6,4,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783698,Partha Karmakar,CPI(ML)(L),22936,112,0.38,7,6,4,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783699,Sanjib Dey,NCP,22943,96,0.33,8,6,4,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783700,Rakhal Raj Datta,AMB,22929,91,0.31,9,6,4,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783701,Titu Saha,RDMP,22945,50,0.17,10,6,4,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783702,Khagen Das,CPM,22930,20928,62.55,1,6,5,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783703,Sudip Roy Barman,INC,22917,10646,31.82,2,6,5,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783704,Nilmani Deb,BJP,22916,845,2.53,3,6,5,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783705,Subrata Bhowmik,IND,22919,382,1.14,4,6,5,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783706,Arun Chandra Bhaumik,AITC,22928,139,0.42,5,6,5,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783707,Binay Debbarma,IND,22919,127,0.38,6,6,5,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783708,Partha Karmakar,CPI(ML)(L),22936,114,0.34,7,6,5,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783709,Rakhal Raj Datta,AMB,22929,112,0.33,8,6,5,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783710,Sanjib Dey,NCP,22943,98,0.29,9,6,5,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783711,Titu Saha,RDMP,22945,68,0.2,10,6,5,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783712,Khagen Das,CPM,22930,17746,51.86,1,6,6,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783713,Sudip Roy Barman,INC,22917,14388,42.05,2,6,6,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783714,Nilmani Deb,BJP,22916,1092,3.19,3,6,6,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783715,Subrata Bhowmik,IND,22919,274,0.8,4,6,6,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783716,Arun Chandra Bhaumik,AITC,22928,227,0.66,5,6,6,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783717,Binay Debbarma,IND,22919,116,0.34,6,6,6,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783718,Partha Karmakar,CPI(ML)(L),22936,110,0.32,7,6,6,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783719,Sanjib Dey,NCP,22943,107,0.31,8,6,6,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783720,Titu Saha,RDMP,22945,83,0.24,9,6,6,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783721,Rakhal Raj Datta,AMB,22929,76,0.22,10,6,6,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783722,Khagen Das,CPM,22930,16348,57.02,1,6,7,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783723,Sudip Roy Barman,INC,22917,10662,37.19,2,6,7,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783724,Nilmani Deb,BJP,22916,922,3.22,3,6,7,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783725,Arun Chandra Bhaumik,AITC,22928,201,0.7,4,6,7,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783726,Subrata Bhowmik,IND,22919,145,0.51,5,6,7,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783727,Binay Debbarma,IND,22919,107,0.37,6,6,7,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783728,Rakhal Raj Datta,AMB,22929,85,0.3,7,6,7,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783729,Sanjib Dey,NCP,22943,81,0.28,8,6,7,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783730,Partha Karmakar,CPI(ML)(L),22936,78,0.27,9,6,7,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783731,Titu Saha,RDMP,22945,43,0.15,10,6,7,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783732,Khagen Das,CPM,22930,15444,48.64,1,6,8,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783733,Sudip Roy Barman,INC,22917,14460,45.54,2,6,8,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783734,Nilmani Deb,BJP,22916,1144,3.6,3,6,8,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783735,Arun Chandra Bhaumik,AITC,22928,222,0.7,4,6,8,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783736,Subrata Bhowmik,IND,22919,134,0.42,5,6,8,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783737,Partha Karmakar,CPI(ML)(L),22936,88,0.28,6,6,8,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783738,Rakhal Raj Datta,AMB,22929,86,0.27,7,6,8,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783739,Sanjib Dey,NCP,22943,74,0.23,8,6,8,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783740,Binay Debbarma,IND,22919,69,0.22,9,6,8,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783741,Titu Saha,RDMP,22945,33,0.1,10,6,8,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783742,Khagen Das,CPM,22930,13271,47.79,1,6,9,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783743,Sudip Roy Barman,INC,22917,12782,46.03,2,6,9,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783744,Nilmani Deb,BJP,22916,1063,3.83,3,6,9,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783745,Arun Chandra Bhaumik,AITC,22928,189,0.68,4,6,9,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783746,Subrata Bhowmik,IND,22919,168,0.6,5,6,9,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783747,Rakhal Raj Datta,AMB,22929,74,0.27,6,6,9,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783748,Binay Debbarma,IND,22919,66,0.24,7,6,9,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783749,Sanjib Dey,NCP,22943,60,0.22,8,6,9,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783750,Partha Karmakar,CPI(ML)(L),22936,59,0.21,9,6,9,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783751,Titu Saha,RDMP,22945,39,0.14,10,6,9,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783752,Khagen Das,CPM,22930,20941,62.75,1,6,10,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783753,Sudip Roy Barman,INC,22917,10681,32.0,2,6,10,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783754,Nilmani Deb,BJP,22916,793,2.38,3,6,10,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783755,Subrata Bhowmik,IND,22919,355,1.06,4,6,10,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783756,Arun Chandra Bhaumik,AITC,22928,128,0.38,5,6,10,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783757,Sanjib Dey,NCP,22943,110,0.33,6,6,10,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783758,Binay Debbarma,IND,22919,109,0.33,7,6,10,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783759,Partha Karmakar,CPI(ML)(L),22936,94,0.28,8,6,10,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783760,Rakhal Raj Datta,AMB,22929,88,0.26,9,6,10,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783761,Titu Saha,RDMP,22945,75,0.22,10,6,10,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783762,Khagen Das,CPM,22930,19340,64.01,1,6,11,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783763,Sudip Roy Barman,INC,22917,8545,28.28,2,6,11,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783764,Nilmani Deb,BJP,22916,888,2.94,3,6,11,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783765,Subrata Bhowmik,IND,22919,468,1.55,4,6,11,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783766,Binay Debbarma,IND,22919,215,0.71,5,6,11,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783767,Arun Chandra Bhaumik,AITC,22928,204,0.68,6,6,11,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783768,Rakhal Raj Datta,AMB,22929,153,0.51,7,6,11,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783769,Partha Karmakar,CPI(ML)(L),22936,152,0.5,8,6,11,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783770,Sanjib Dey,NCP,22943,151,0.5,9,6,11,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783771,Titu Saha,RDMP,22945,100,0.33,10,6,11,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783772,Khagen Das,CPM,22930,16480,62.3,1,6,12,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783773,Sudip Roy Barman,INC,22917,7888,29.82,2,6,12,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783774,Nilmani Deb,BJP,22916,607,2.29,3,6,12,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783775,Subrata Bhowmik,IND,22919,469,1.77,4,6,12,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783776,Arun Chandra Bhaumik,AITC,22928,237,0.9,5,6,12,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783777,Binay Debbarma,IND,22919,236,0.89,6,6,12,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783778,Partha Karmakar,CPI(ML)(L),22936,174,0.66,7,6,12,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783779,Sanjib Dey,NCP,22943,144,0.54,8,6,12,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783780,Rakhal Raj Datta,AMB,22929,129,0.49,9,6,12,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783781,Titu Saha,RDMP,22945,88,0.33,10,6,12,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783782,Khagen Das,CPM,22930,22524,59.2,1,6,13,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783783,Sudip Roy Barman,INC,22917,12970,34.09,2,6,13,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783784,Nilmani Deb,BJP,22916,1228,3.23,3,6,13,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783785,Subrata Bhowmik,IND,22919,437,1.15,4,6,13,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783786,Partha Karmakar,CPI(ML)(L),22936,182,0.48,5,6,13,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783787,Arun Chandra Bhaumik,AITC,22928,179,0.47,6,6,13,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783788,Rakhal Raj Datta,AMB,22929,160,0.42,7,6,13,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783789,Binay Debbarma,IND,22919,157,0.41,8,6,13,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783790,Sanjib Dey,NCP,22943,136,0.36,9,6,13,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783791,Titu Saha,RDMP,22945,77,0.2,10,6,13,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783792,Khagen Das,CPM,22930,22295,55.86,1,6,14,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783793,Sudip Roy Barman,INC,22917,15417,38.63,2,6,14,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783794,Nilmani Deb,BJP,22916,1148,2.88,3,6,14,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783795,Subrata Bhowmik,IND,22919,317,0.79,4,6,14,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783796,Arun Chandra Bhaumik,AITC,22928,186,0.47,5,6,14,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783797,Partha Karmakar,CPI(ML)(L),22936,159,0.4,6,6,14,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783798,Binay Debbarma,IND,22919,128,0.32,7,6,14,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783799,Rakhal Raj Datta,AMB,22929,99,0.25,8,6,14,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783800,Sanjib Dey,NCP,22943,98,0.25,9,6,14,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783801,Titu Saha,RDMP,22945,62,0.16,10,6,14,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783802,Khagen Das,CPM,22930,17353,60.13,1,6,15,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783803,Sudip Roy Barman,INC,22917,9662,33.48,2,6,15,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783804,Nilmani Deb,BJP,22916,726,2.52,3,6,15,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783805,Subrata Bhowmik,IND,22919,372,1.29,4,6,15,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783806,Arun Chandra Bhaumik,AITC,22928,184,0.64,5,6,15,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783807,Rakhal Raj Datta,AMB,22929,153,0.53,6,6,15,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783808,Partha Karmakar,CPI(ML)(L),22936,125,0.43,7,6,15,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783809,Binay Debbarma,IND,22919,120,0.42,8,6,15,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783810,Sanjib Dey,NCP,22943,88,0.3,9,6,15,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783811,Titu Saha,RDMP,22945,76,0.26,10,6,15,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783812,Khagen Das,CPM,22930,19265,58.43,1,6,16,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783813,Sudip Roy Barman,INC,22917,11722,35.55,2,6,16,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783814,Nilmani Deb,BJP,22916,977,2.96,3,6,16,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783815,Subrata Bhowmik,IND,22919,342,1.04,4,6,16,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783816,Arun Chandra Bhaumik,AITC,22928,182,0.55,5,6,16,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783817,Binay Debbarma,IND,22919,113,0.34,6,6,16,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783818,Partha Karmakar,CPI(ML)(L),22936,108,0.33,7,6,16,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783819,Rakhal Raj Datta,AMB,22929,102,0.31,8,6,16,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783820,Sanjib Dey,NCP,22943,98,0.3,9,6,16,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783821,Titu Saha,RDMP,22945,63,0.19,10,6,16,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783822,Khagen Das,CPM,22930,17094,63.51,1,6,17,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783823,Sudip Roy Barman,INC,22917,7983,29.66,2,6,17,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783824,Nilmani Deb,BJP,22916,680,2.53,3,6,17,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783825,Subrata Bhowmik,IND,22919,428,1.59,4,6,17,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783826,Binay Debbarma,IND,22919,164,0.61,5,6,17,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783827,Arun Chandra Bhaumik,AITC,22928,150,0.56,6,6,17,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783828,Rakhal Raj Datta,AMB,22929,124,0.46,7,6,17,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783829,Partha Karmakar,CPI(ML)(L),22936,110,0.41,8,6,17,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783830,Sanjib Dey,NCP,22943,104,0.39,9,6,17,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783831,Titu Saha,RDMP,22945,80,0.3,10,6,17,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783832,Khagen Das,CPM,22930,20250,58.53,1,6,18,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783833,Sudip Roy Barman,INC,22917,12212,35.3,2,6,18,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783834,Nilmani Deb,BJP,22916,1097,3.17,3,6,18,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783835,Subrata Bhowmik,IND,22919,347,1.0,4,6,18,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783836,Arun Chandra Bhaumik,AITC,22928,155,0.45,5,6,18,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783837,Binay Debbarma,IND,22919,135,0.39,6,6,18,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783838,Partha Karmakar,CPI(ML)(L),22936,131,0.38,7,6,18,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783839,Rakhal Raj Datta,AMB,22929,107,0.31,8,6,18,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783840,Sanjib Dey,NCP,22943,98,0.28,9,6,18,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783841,Titu Saha,RDMP,22945,67,0.19,10,6,18,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783842,Khagen Das,CPM,22930,15442,63.51,1,6,19,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783843,Sudip Roy Barman,INC,22917,7265,29.88,2,6,19,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783844,Nilmani Deb,BJP,22916,653,2.69,3,6,19,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783845,Subrata Bhowmik,IND,22919,290,1.19,4,6,19,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783846,Arun Chandra Bhaumik,AITC,22928,150,0.62,5,6,19,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783847,Binay Debbarma,IND,22919,144,0.59,6,6,19,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783848,Partha Karmakar,CPI(ML)(L),22936,114,0.47,7,6,19,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783849,Rakhal Raj Datta,AMB,22929,96,0.39,8,6,19,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783850,Sanjib Dey,NCP,22943,88,0.36,9,6,19,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783851,Titu Saha,RDMP,22945,74,0.3,10,6,19,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783852,Khagen Das,CPM,22930,15702,60.8,1,6,20,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783853,Sudip Roy Barman,INC,22917,8768,33.95,2,6,20,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783854,Nilmani Deb,BJP,22916,418,1.62,3,6,20,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783855,Subrata Bhowmik,IND,22919,292,1.13,4,6,20,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783856,Arun Chandra Bhaumik,AITC,22928,149,0.58,5,6,20,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783857,Partha Karmakar,CPI(ML)(L),22936,115,0.45,6,6,20,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783858,Binay Debbarma,IND,22919,106,0.41,7,6,20,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783859,Rakhal Raj Datta,AMB,22929,102,0.39,8,6,20,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783860,Sanjib Dey,NCP,22943,90,0.35,9,6,20,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783861,Titu Saha,RDMP,22945,83,0.32,10,6,20,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783862,Khagen Das,CPM,22930,19577,65.12,1,6,21,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783863,Sudip Roy Barman,INC,22917,8736,29.06,2,6,21,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783864,Nilmani Deb,BJP,22916,870,2.89,3,6,21,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783865,Subrata Bhowmik,IND,22919,262,0.87,4,6,21,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783866,Arun Chandra Bhaumik,AITC,22928,145,0.48,5,6,21,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783867,Binay Debbarma,IND,22919,119,0.4,6,6,21,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783868,Rakhal Raj Datta,AMB,22929,110,0.37,7,6,21,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783869,Partha Karmakar,CPI(ML)(L),22936,98,0.33,8,6,21,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783870,Sanjib Dey,NCP,22943,80,0.27,9,6,21,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783871,Titu Saha,RDMP,22945,68,0.23,10,6,21,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783872,Khagen Das,CPM,22930,16923,59.88,1,6,22,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783873,Sudip Roy Barman,INC,22917,10056,35.58,2,6,22,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783874,Nilmani Deb,BJP,22916,535,1.89,3,6,22,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783875,Subrata Bhowmik,IND,22919,264,0.93,4,6,22,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783876,Arun Chandra Bhaumik,AITC,22928,127,0.45,5,6,22,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783877,Partha Karmakar,CPI(ML)(L),22936,82,0.29,6,6,22,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783878,Binay Debbarma,IND,22919,81,0.29,7,6,22,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783880,Sanjib Dey,NCP,22943,68,0.24,8,6,22,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783879,Rakhal Raj Datta,AMB,22929,68,0.24,8,6,22,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783881,Titu Saha,RDMP,22945,56,0.2,10,6,22,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783882,Khagen Das,CPM,22930,19522,65.49,1,6,23,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783883,Sudip Roy Barman,INC,22917,8362,28.05,2,6,23,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783884,Nilmani Deb,BJP,22916,694,2.33,3,6,23,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783885,Subrata Bhowmik,IND,22919,513,1.72,4,6,23,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783886,Binay Debbarma,IND,22919,164,0.55,5,6,23,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783887,Arun Chandra Bhaumik,AITC,22928,163,0.55,6,6,23,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783888,Partha Karmakar,CPI(ML)(L),22936,108,0.36,7,6,23,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783889,Sanjib Dey,NCP,22943,106,0.36,8,6,23,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783890,Rakhal Raj Datta,AMB,22929,95,0.32,9,6,23,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783891,Titu Saha,RDMP,22945,83,0.28,10,6,23,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783892,Baju Ban Riyan,CPM,22930,18522,70.69,1,6,24,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1783893,Diba Chandra Hrangkhawl,INC,22917,3468,13.24,2,6,24,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1783894,Pulin Behari Dewan,BJP,22916,2721,10.38,3,6,24,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1783895,Rajesh Debbarma,IND,22919,408,1.56,4,6,24,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1783896,Karna Dhan Chakma,AMB,22929,407,1.55,5,6,24,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1783897,Mevar Kumar Jamatia,IND,22919,201,0.77,6,6,24,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1783898,Rita Rani Debbarma,AITC,22928,165,0.63,7,6,24,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1783899,Binoy Reang,IND,22919,163,0.62,8,6,24,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1783900,Falguni Tripura,CPI(ML)(L),22936,148,0.56,9,6,24,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1783901,Baju Ban Riyan,CPM,22930,22398,71.7,1,6,25,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1783902,Diba Chandra Hrangkhawl,INC,22917,7303,23.38,2,6,25,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1783903,Pulin Behari Dewan,BJP,22916,540,1.73,3,6,25,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1783904,Karna Dhan Chakma,AMB,22929,419,1.34,4,6,25,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1783905,Rajesh Debbarma,IND,22919,187,0.6,5,6,25,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1783906,Binoy Reang,IND,22919,138,0.44,6,6,25,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1783907,Mevar Kumar Jamatia,IND,22919,89,0.28,7,6,25,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1783908,Falguni Tripura,CPI(ML)(L),22936,88,0.28,8,6,25,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1783909,Rita Rani Debbarma,AITC,22928,75,0.24,9,6,25,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1783910,Baju Ban Riyan,CPM,22930,17013,72.06,1,6,26,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1783911,Diba Chandra Hrangkhawl,INC,22917,3203,13.57,2,6,26,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1783912,Pulin Behari Dewan,BJP,22916,1770,7.5,3,6,26,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1783913,Rajesh Debbarma,IND,22919,454,1.92,4,6,26,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1783914,Karna Dhan Chakma,AMB,22929,381,1.61,5,6,26,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1783915,Rita Rani Debbarma,AITC,22928,217,0.92,6,6,26,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1783916,Binoy Reang,IND,22919,205,0.87,7,6,26,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1783917,Mevar Kumar Jamatia,IND,22919,191,0.81,8,6,26,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1783918,Falguni Tripura,CPI(ML)(L),22936,176,0.75,9,6,26,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1783919,Baju Ban Riyan,CPM,22930,18289,62.38,1,6,27,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1783920,Diba Chandra Hrangkhawl,INC,22917,8832,30.13,2,6,27,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1783921,Pulin Behari Dewan,BJP,22916,1049,3.58,3,6,27,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1783922,Karna Dhan Chakma,AMB,22929,427,1.46,4,6,27,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1783923,Rajesh Debbarma,IND,22919,243,0.83,5,6,27,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1783924,Falguni Tripura,CPI(ML)(L),22936,127,0.43,6,6,27,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1783925,Binoy Reang,IND,22919,125,0.43,7,6,27,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1783926,Mevar Kumar Jamatia,IND,22919,118,0.4,8,6,27,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1783927,Rita Rani Debbarma,AITC,22928,107,0.36,9,6,27,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1783928,Baju Ban Riyan,CPM,22930,16666,58.38,1,6,28,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1783929,Diba Chandra Hrangkhawl,INC,22917,9605,33.65,2,6,28,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1783930,Pulin Behari Dewan,BJP,22916,994,3.48,3,6,28,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1783931,Karna Dhan Chakma,AMB,22929,504,1.77,4,6,28,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1783932,Rajesh Debbarma,IND,22919,293,1.03,5,6,28,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1783933,Mevar Kumar Jamatia,IND,22919,155,0.54,6,6,28,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1783934,Falguni Tripura,CPI(ML)(L),22936,126,0.44,7,6,28,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1783935,Binoy Reang,IND,22919,105,0.37,8,6,28,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1783936,Rita Rani Debbarma,AITC,22928,99,0.35,9,6,28,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1783937,Baju Ban Riyan,CPM,22930,15080,65.82,1,6,29,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1783938,Diba Chandra Hrangkhawl,INC,22917,5534,24.15,2,6,29,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1783939,Pulin Behari Dewan,BJP,22916,1005,4.39,3,6,29,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1783940,Karna Dhan Chakma,AMB,22929,374,1.63,4,6,29,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1783941,Rajesh Debbarma,IND,22919,333,1.45,5,6,29,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1783942,Mevar Kumar Jamatia,IND,22919,188,0.82,6,6,29,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1783943,Binoy Reang,IND,22919,159,0.69,7,6,29,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1783944,Falguni Tripura,CPI(ML)(L),22936,137,0.6,8,6,29,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1783945,Rita Rani Debbarma,AITC,22928,102,0.45,9,6,29,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1783946,Khagen Das,CPM,22930,21109,61.02,1,6,30,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783947,Sudip Roy Barman,INC,22917,11079,32.02,2,6,30,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783948,Nilmani Deb,BJP,22916,874,2.53,3,6,30,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783949,Subrata Bhowmik,IND,22919,471,1.36,4,6,30,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783950,Binay Debbarma,IND,22919,284,0.82,5,6,30,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783951,Partha Karmakar,CPI(ML)(L),22936,222,0.64,6,6,30,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783952,Arun Chandra Bhaumik,AITC,22928,201,0.58,7,6,30,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783953,Sanjib Dey,NCP,22943,129,0.37,8,6,30,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783954,Rakhal Raj Datta,AMB,22929,118,0.34,9,6,30,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783955,Titu Saha,RDMP,22945,108,0.31,10,6,30,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783956,Khagen Das,CPM,22930,18865,58.89,1,6,31,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783957,Sudip Roy Barman,INC,22917,11352,35.44,2,6,31,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783958,Nilmani Deb,BJP,22916,788,2.46,3,6,31,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783959,Partha Karmakar,CPI(ML)(L),22936,283,0.88,4,6,31,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783960,Subrata Bhowmik,IND,22919,281,0.88,5,6,31,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783961,Arun Chandra Bhaumik,AITC,22928,139,0.43,6,6,31,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783962,Binay Debbarma,IND,22919,100,0.31,7,6,31,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783963,Sanjib Dey,NCP,22943,92,0.29,8,6,31,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783964,Rakhal Raj Datta,AMB,22929,79,0.25,9,6,31,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783965,Titu Saha,RDMP,22945,56,0.17,10,6,31,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783966,Khagen Das,CPM,22930,21860,62.33,1,6,32,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783967,Sudip Roy Barman,INC,22917,11115,31.69,2,6,32,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783968,Nilmani Deb,BJP,22916,908,2.59,3,6,32,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783969,Subrata Bhowmik,IND,22919,358,1.02,4,6,32,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783970,Partha Karmakar,CPI(ML)(L),22936,253,0.72,5,6,32,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783971,Arun Chandra Bhaumik,AITC,22928,159,0.45,6,6,32,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783972,Binay Debbarma,IND,22919,126,0.36,7,6,32,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783973,Sanjib Dey,NCP,22943,107,0.31,8,6,32,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783974,Rakhal Raj Datta,AMB,22929,106,0.3,9,6,32,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783975,Titu Saha,RDMP,22945,78,0.22,10,6,32,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783976,Khagen Das,CPM,22930,24377,68.65,1,6,33,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783977,Sudip Roy Barman,INC,22917,9201,25.91,2,6,33,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783978,Nilmani Deb,BJP,22916,727,2.05,3,6,33,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783979,Subrata Bhowmik,IND,22919,401,1.13,4,6,33,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783980,Partha Karmakar,CPI(ML)(L),22936,212,0.6,5,6,33,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783981,Binay Debbarma,IND,22919,149,0.42,6,6,33,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783982,Arun Chandra Bhaumik,AITC,22928,146,0.41,7,6,33,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783983,Sanjib Dey,NCP,22943,119,0.34,8,6,33,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783984,Rakhal Raj Datta,AMB,22929,108,0.3,9,6,33,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783985,Titu Saha,RDMP,22945,67,0.19,10,6,33,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783986,Khagen Das,CPM,22930,22160,71.65,1,6,34,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783987,Sudip Roy Barman,INC,22917,6599,21.34,2,6,34,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783988,Nilmani Deb,BJP,22916,830,2.68,3,6,34,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783989,Subrata Bhowmik,IND,22919,390,1.26,4,6,34,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1783990,Arun Chandra Bhaumik,AITC,22928,272,0.88,5,6,34,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1783991,Partha Karmakar,CPI(ML)(L),22936,202,0.65,6,6,34,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1783992,Binay Debbarma,IND,22919,145,0.47,7,6,34,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1783993,Rakhal Raj Datta,AMB,22929,124,0.4,8,6,34,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1783994,Sanjib Dey,NCP,22943,124,0.4,8,6,34,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1783995,Titu Saha,RDMP,22945,81,0.26,10,6,34,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1783996,Khagen Das,CPM,22930,19442,63.78,1,6,35,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1783997,Sudip Roy Barman,INC,22917,9268,30.41,2,6,35,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1783998,Nilmani Deb,BJP,22916,599,1.97,3,6,35,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1783999,Subrata Bhowmik,IND,22919,340,1.12,4,6,35,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1784000,Arun Chandra Bhaumik,AITC,22928,320,1.05,5,6,35,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1784001,Partha Karmakar,CPI(ML)(L),22936,129,0.42,6,6,35,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1784002,Rakhal Raj Datta,AMB,22929,111,0.36,7,6,35,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1784003,Binay Debbarma,IND,22919,104,0.34,8,6,35,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1784004,Sanjib Dey,NCP,22943,97,0.32,9,6,35,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1784005,Titu Saha,RDMP,22945,71,0.23,10,6,35,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1784006,Khagen Das,CPM,22930,20361,64.2,1,6,36,TR,Khagen Das,CPM,,,,,False,6,2009,GE
+1784007,Sudip Roy Barman,INC,22917,9220,29.07,2,6,36,TR,Sudip Roy Barman,INC,,,,,False,6,2009,GE
+1784008,Nilmani Deb,BJP,22916,773,2.44,3,6,36,TR,Nilmani Deb,BJP,,,,,False,6,2009,GE
+1784009,Subrata Bhowmik,IND,22919,456,1.44,4,6,36,TR,Subrata Bhowmik,IND,,,,,False,6,2009,GE
+1784010,Arun Chandra Bhaumik,AITC,22928,203,0.64,5,6,36,TR,Arun Chandra Bhaumik,AITC,,,,,False,6,2009,GE
+1784011,Binay Debbarma,IND,22919,193,0.61,6,6,36,TR,Binay Debbarma,IND,,,,,False,6,2009,GE
+1784012,Partha Karmakar,CPI(ML)(L),22936,157,0.5,7,6,36,TR,Partha Karmakar,CPI(ML)(L),,,,,False,6,2009,GE
+1784013,Sanjib Dey,NCP,22943,136,0.43,8,6,36,TR,Sanjib Dey,NCP,,,,,False,6,2009,GE
+1784014,Rakhal Raj Datta,AMB,22929,121,0.38,9,6,36,TR,Rakhal Raj Datta,AMB,,,,,False,6,2009,GE
+1784015,Titu Saha,RDMP,22945,94,0.3,10,6,36,TR,Titu Saha,RDMP,,,,,False,6,2009,GE
+1784016,Baju Ban Riyan,CPM,22930,23271,73.97,1,6,37,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784017,Diba Chandra Hrangkhawl,INC,22917,6335,20.14,2,6,37,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784018,Pulin Behari Dewan,BJP,22916,619,1.97,3,6,37,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784019,Rajesh Debbarma,IND,22919,341,1.08,4,6,37,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784020,Karna Dhan Chakma,AMB,22929,317,1.01,5,6,37,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784021,Rita Rani Debbarma,AITC,22928,165,0.52,6,6,37,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784022,Mevar Kumar Jamatia,IND,22919,139,0.44,7,6,37,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784023,Falguni Tripura,CPI(ML)(L),22936,137,0.44,8,6,37,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784024,Binoy Reang,IND,22919,135,0.43,9,6,37,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784025,Baju Ban Riyan,CPM,22930,23467,72.82,1,6,38,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784026,Diba Chandra Hrangkhawl,INC,22917,6457,20.04,2,6,38,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784027,Pulin Behari Dewan,BJP,22916,752,2.33,3,6,38,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784028,Rajesh Debbarma,IND,22919,425,1.32,4,6,38,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784029,Karna Dhan Chakma,AMB,22929,423,1.31,5,6,38,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784030,Mevar Kumar Jamatia,IND,22919,202,0.63,6,6,38,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784031,Binoy Reang,IND,22919,198,0.61,7,6,38,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784032,Rita Rani Debbarma,AITC,22928,154,0.48,8,6,38,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784033,Falguni Tripura,CPI(ML)(L),22936,150,0.47,9,6,38,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784034,Baju Ban Riyan,CPM,22930,18890,64.91,1,6,39,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784035,Diba Chandra Hrangkhawl,INC,22917,7917,27.2,2,6,39,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784036,Pulin Behari Dewan,BJP,22916,604,2.08,3,6,39,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784037,Rajesh Debbarma,IND,22919,535,1.84,4,6,39,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784038,Karna Dhan Chakma,AMB,22929,469,1.61,5,6,39,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784039,Binoy Reang,IND,22919,190,0.65,6,6,39,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784040,Mevar Kumar Jamatia,IND,22919,181,0.62,7,6,39,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784041,Falguni Tripura,CPI(ML)(L),22936,171,0.59,8,6,39,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784042,Rita Rani Debbarma,AITC,22928,146,0.5,9,6,39,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784043,Baju Ban Riyan,CPM,22930,20619,66.7,1,6,40,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784044,Diba Chandra Hrangkhawl,INC,22917,8088,26.16,2,6,40,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784045,Pulin Behari Dewan,BJP,22916,594,1.92,3,6,40,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784046,Karna Dhan Chakma,AMB,22929,502,1.62,4,6,40,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784047,Rajesh Debbarma,IND,22919,419,1.36,5,6,40,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784048,Rita Rani Debbarma,AITC,22928,190,0.61,6,6,40,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784049,Falguni Tripura,CPI(ML)(L),22936,169,0.55,7,6,40,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784050,Binoy Reang,IND,22919,168,0.54,8,6,40,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784051,Mevar Kumar Jamatia,IND,22919,165,0.53,9,6,40,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784052,Baju Ban Riyan,CPM,22930,14478,63.56,1,6,41,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784053,Diba Chandra Hrangkhawl,INC,22917,6090,26.73,2,6,41,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784054,Pulin Behari Dewan,BJP,22916,753,3.31,3,6,41,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784055,Mevar Kumar Jamatia,IND,22919,343,1.51,4,6,41,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784056,Rajesh Debbarma,IND,22919,342,1.5,5,6,41,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784057,Karna Dhan Chakma,AMB,22929,329,1.44,6,6,41,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784058,Binoy Reang,IND,22919,185,0.81,7,6,41,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784059,Falguni Tripura,CPI(ML)(L),22936,136,0.6,8,6,41,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784060,Rita Rani Debbarma,AITC,22928,124,0.54,9,6,41,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784061,Baju Ban Riyan,CPM,22930,17338,63.57,1,6,42,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784062,Diba Chandra Hrangkhawl,INC,22917,8297,30.42,2,6,42,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784063,Pulin Behari Dewan,BJP,22916,519,1.9,3,6,42,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784064,Karna Dhan Chakma,AMB,22929,273,1.0,4,6,42,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784065,Rajesh Debbarma,IND,22919,250,0.92,5,6,42,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784066,Binoy Reang,IND,22919,228,0.84,6,6,42,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784067,Mevar Kumar Jamatia,IND,22919,157,0.58,7,6,42,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784068,Falguni Tripura,CPI(ML)(L),22936,133,0.49,8,6,42,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784069,Rita Rani Debbarma,AITC,22928,78,0.29,9,6,42,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784070,Baju Ban Riyan,CPM,22930,14954,64.47,1,6,43,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784071,Diba Chandra Hrangkhawl,INC,22917,6341,27.34,2,6,43,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784072,Pulin Behari Dewan,BJP,22916,408,1.76,3,6,43,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784073,Rajesh Debbarma,IND,22919,396,1.71,4,6,43,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784074,Karna Dhan Chakma,AMB,22929,348,1.5,5,6,43,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784075,Binoy Reang,IND,22919,256,1.1,6,6,43,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784076,Falguni Tripura,CPI(ML)(L),22936,185,0.8,7,6,43,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784077,Mevar Kumar Jamatia,IND,22919,179,0.77,8,6,43,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784078,Rita Rani Debbarma,AITC,22928,130,0.56,9,6,43,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784079,Baju Ban Riyan,CPM,22930,18014,64.8,1,6,44,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784080,Diba Chandra Hrangkhawl,INC,22917,7351,26.44,2,6,44,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784081,Pulin Behari Dewan,BJP,22916,598,2.15,3,6,44,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784082,Rajesh Debbarma,IND,22919,426,1.53,4,6,44,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784083,Karna Dhan Chakma,AMB,22929,421,1.51,5,6,44,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784084,Binoy Reang,IND,22919,360,1.3,6,6,44,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784085,Mevar Kumar Jamatia,IND,22919,221,0.79,7,6,44,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784086,Falguni Tripura,CPI(ML)(L),22936,217,0.78,8,6,44,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784087,Rita Rani Debbarma,AITC,22928,191,0.69,9,6,44,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784088,Baju Ban Riyan,CPM,22930,19225,63.46,1,6,45,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784089,Diba Chandra Hrangkhawl,INC,22917,8919,29.44,2,6,45,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784090,Pulin Behari Dewan,BJP,22916,1119,3.69,3,6,45,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784091,Rajesh Debbarma,IND,22919,258,0.85,4,6,45,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784092,Karna Dhan Chakma,AMB,22929,248,0.82,5,6,45,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784093,Binoy Reang,IND,22919,167,0.55,6,6,45,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784094,Falguni Tripura,CPI(ML)(L),22936,139,0.46,7,6,45,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784095,Mevar Kumar Jamatia,IND,22919,123,0.41,8,6,45,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784096,Rita Rani Debbarma,AITC,22928,97,0.32,9,6,45,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784097,Baju Ban Riyan,CPM,22930,19409,64.23,1,6,46,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784098,Diba Chandra Hrangkhawl,INC,22917,7993,26.45,2,6,46,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784099,Pulin Behari Dewan,BJP,22916,1526,5.05,3,6,46,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784100,Rajesh Debbarma,IND,22919,327,1.08,4,6,46,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784101,Karna Dhan Chakma,AMB,22929,255,0.84,5,6,46,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784102,Binoy Reang,IND,22919,245,0.81,6,6,46,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784103,Mevar Kumar Jamatia,IND,22919,169,0.56,7,6,46,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784104,Falguni Tripura,CPI(ML)(L),22936,167,0.55,8,6,46,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784105,Rita Rani Debbarma,AITC,22928,128,0.42,9,6,46,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784106,Baju Ban Riyan,CPM,22930,18599,61.96,1,6,47,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784107,Diba Chandra Hrangkhawl,INC,22917,8671,28.89,2,6,47,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784108,Pulin Behari Dewan,BJP,22916,1048,3.49,3,6,47,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784109,Karna Dhan Chakma,AMB,22929,419,1.4,4,6,47,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784110,Binoy Reang,IND,22919,376,1.25,5,6,47,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784111,Rajesh Debbarma,IND,22919,335,1.12,6,6,47,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784112,Falguni Tripura,CPI(ML)(L),22936,214,0.71,7,6,47,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784113,Mevar Kumar Jamatia,IND,22919,181,0.6,8,6,47,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784114,Rita Rani Debbarma,AITC,22928,176,0.59,9,6,47,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784115,Baju Ban Riyan,CPM,22930,14177,57.57,1,6,48,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784116,Diba Chandra Hrangkhawl,INC,22917,8121,32.98,2,6,48,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784117,Pulin Behari Dewan,BJP,22916,792,3.22,3,6,48,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784118,Rajesh Debbarma,IND,22919,382,1.55,4,6,48,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784119,Karna Dhan Chakma,AMB,22929,316,1.28,5,6,48,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784120,Binoy Reang,IND,22919,249,1.01,6,6,48,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784121,Falguni Tripura,CPI(ML)(L),22936,222,0.9,7,6,48,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784122,Mevar Kumar Jamatia,IND,22919,207,0.84,8,6,48,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784123,Rita Rani Debbarma,AITC,22928,159,0.65,9,6,48,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784124,Baju Ban Riyan,CPM,22930,14713,61.47,1,6,49,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784125,Diba Chandra Hrangkhawl,INC,22917,6501,27.16,2,6,49,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784126,Pulin Behari Dewan,BJP,22916,650,2.72,3,6,49,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784127,Rajesh Debbarma,IND,22919,557,2.33,4,6,49,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784128,Karna Dhan Chakma,AMB,22929,519,2.17,5,6,49,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784129,Binoy Reang,IND,22919,280,1.17,6,6,49,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784130,Mevar Kumar Jamatia,IND,22919,270,1.13,7,6,49,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784131,Falguni Tripura,CPI(ML)(L),22936,231,0.97,8,6,49,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784132,Rita Rani Debbarma,AITC,22928,213,0.89,9,6,49,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784133,Baju Ban Riyan,CPM,22930,18274,62.4,1,6,50,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784134,Diba Chandra Hrangkhawl,INC,22917,8545,29.18,2,6,50,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784135,Pulin Behari Dewan,BJP,22916,1252,4.28,3,6,50,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784136,Karna Dhan Chakma,AMB,22929,370,1.26,4,6,50,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784137,Rajesh Debbarma,IND,22919,308,1.05,5,6,50,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784138,Binoy Reang,IND,22919,169,0.58,6,6,50,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784139,Falguni Tripura,CPI(ML)(L),22936,159,0.54,7,6,50,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784140,Mevar Kumar Jamatia,IND,22919,106,0.36,8,6,50,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784141,Rita Rani Debbarma,AITC,22928,101,0.34,9,6,50,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784142,Baju Ban Riyan,CPM,22930,16912,62.18,1,6,51,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784143,Diba Chandra Hrangkhawl,INC,22917,7819,28.75,2,6,51,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784144,Pulin Behari Dewan,BJP,22916,1036,3.81,3,6,51,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784145,Binoy Reang,IND,22919,559,2.06,4,6,51,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784146,Karna Dhan Chakma,AMB,22929,245,0.9,5,6,51,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784147,Rajesh Debbarma,IND,22919,234,0.86,6,6,51,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784148,Falguni Tripura,CPI(ML)(L),22936,182,0.67,7,6,51,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784149,Rita Rani Debbarma,AITC,22928,116,0.43,8,6,51,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784150,Mevar Kumar Jamatia,IND,22919,96,0.35,9,6,51,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784151,Baju Ban Riyan,CPM,22930,17955,62.27,1,6,52,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784152,Diba Chandra Hrangkhawl,INC,22917,8419,29.2,2,6,52,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784153,Pulin Behari Dewan,BJP,22916,1030,3.57,3,6,52,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784154,Rajesh Debbarma,IND,22919,364,1.26,4,6,52,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784155,Falguni Tripura,CPI(ML)(L),22936,346,1.2,5,6,52,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784156,Karna Dhan Chakma,AMB,22929,275,0.95,6,6,52,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784157,Binoy Reang,IND,22919,172,0.6,7,6,52,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784158,Mevar Kumar Jamatia,IND,22919,144,0.5,8,6,52,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784159,Rita Rani Debbarma,AITC,22928,127,0.44,9,6,52,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784160,Baju Ban Riyan,CPM,22930,15167,53.87,1,6,53,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784161,Diba Chandra Hrangkhawl,INC,22917,11168,39.67,2,6,53,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784162,Pulin Behari Dewan,BJP,22916,1058,3.76,3,6,53,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784163,Binoy Reang,IND,22919,198,0.7,4,6,53,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784164,Karna Dhan Chakma,AMB,22929,178,0.63,5,6,53,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784165,Rajesh Debbarma,IND,22919,173,0.61,6,6,53,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784166,Falguni Tripura,CPI(ML)(L),22936,80,0.28,7,6,53,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784167,Mevar Kumar Jamatia,IND,22919,69,0.25,8,6,53,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784168,Rita Rani Debbarma,AITC,22928,63,0.22,9,6,53,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784169,Baju Ban Riyan,CPM,22930,13877,55.59,1,6,54,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784170,Diba Chandra Hrangkhawl,INC,22917,8143,32.62,2,6,54,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784171,Pulin Behari Dewan,BJP,22916,1701,6.81,3,6,54,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784172,Rita Rani Debbarma,AITC,22928,365,1.46,4,6,54,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784173,Rajesh Debbarma,IND,22919,275,1.1,5,6,54,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784174,Karna Dhan Chakma,AMB,22929,230,0.92,6,6,54,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784175,Falguni Tripura,CPI(ML)(L),22936,132,0.53,7,6,54,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784176,Binoy Reang,IND,22919,128,0.51,8,6,54,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784177,Mevar Kumar Jamatia,IND,22919,110,0.44,9,6,54,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784178,Baju Ban Riyan,CPM,22930,15089,56.93,1,6,55,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784179,Diba Chandra Hrangkhawl,INC,22917,7537,28.44,2,6,55,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784180,Pulin Behari Dewan,BJP,22916,2581,9.74,3,6,55,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784181,Falguni Tripura,CPI(ML)(L),22936,333,1.26,4,6,55,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784182,Rajesh Debbarma,IND,22919,298,1.12,5,6,55,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784183,Karna Dhan Chakma,AMB,22929,252,0.95,6,6,55,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784184,Rita Rani Debbarma,AITC,22928,191,0.72,7,6,55,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784185,Binoy Reang,IND,22919,130,0.49,8,6,55,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784186,Mevar Kumar Jamatia,IND,22919,94,0.35,9,6,55,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784187,Baju Ban Riyan,CPM,22930,13968,50.99,1,6,56,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784188,Diba Chandra Hrangkhawl,INC,22917,10035,36.63,2,6,56,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784189,Pulin Behari Dewan,BJP,22916,2658,9.7,3,6,56,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784190,Rajesh Debbarma,IND,22919,207,0.76,4,6,56,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784191,Karna Dhan Chakma,AMB,22929,196,0.72,5,6,56,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784192,Rita Rani Debbarma,AITC,22928,99,0.36,6,6,56,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784193,Binoy Reang,IND,22919,86,0.31,7,6,56,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784194,Falguni Tripura,CPI(ML)(L),22936,85,0.31,8,6,56,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784195,Mevar Kumar Jamatia,IND,22919,59,0.22,9,6,56,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784196,Baju Ban Riyan,CPM,22930,17364,64.95,1,6,57,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784197,Diba Chandra Hrangkhawl,INC,22917,6935,25.94,2,6,57,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784198,Pulin Behari Dewan,BJP,22916,1489,5.57,3,6,57,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784199,Karna Dhan Chakma,AMB,22929,290,1.08,4,6,57,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784200,Rajesh Debbarma,IND,22919,261,0.98,5,6,57,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784201,Binoy Reang,IND,22919,114,0.43,6,6,57,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784202,Falguni Tripura,CPI(ML)(L),22936,110,0.41,7,6,57,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784203,Rita Rani Debbarma,AITC,22928,100,0.37,8,6,57,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784204,Mevar Kumar Jamatia,IND,22919,71,0.27,9,6,57,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784205,Baju Ban Riyan,CPM,22930,14875,64.89,1,6,58,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784206,Diba Chandra Hrangkhawl,INC,22917,5640,24.6,2,6,58,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784207,Pulin Behari Dewan,BJP,22916,1319,5.75,3,6,58,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784208,Karna Dhan Chakma,AMB,22929,286,1.25,4,6,58,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784209,Rajesh Debbarma,IND,22919,262,1.14,5,6,58,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784210,Binoy Reang,IND,22919,226,0.99,6,6,58,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784211,Mevar Kumar Jamatia,IND,22919,124,0.54,7,6,58,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784212,Rita Rani Debbarma,AITC,22928,98,0.43,8,6,58,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784213,Falguni Tripura,CPI(ML)(L),22936,95,0.41,9,6,58,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784214,Baju Ban Riyan,CPM,22930,15094,60.89,1,6,59,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784215,Diba Chandra Hrangkhawl,INC,22917,7616,30.72,2,6,59,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784216,Pulin Behari Dewan,BJP,22916,793,3.2,3,6,59,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784217,Karna Dhan Chakma,AMB,22929,401,1.62,4,6,59,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784218,Rajesh Debbarma,IND,22919,326,1.32,5,6,59,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784219,Binoy Reang,IND,22919,156,0.63,6,6,59,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784220,Falguni Tripura,CPI(ML)(L),22936,152,0.61,7,6,59,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784221,Mevar Kumar Jamatia,IND,22919,146,0.59,8,6,59,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784222,Rita Rani Debbarma,AITC,22928,106,0.43,9,6,59,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE
+1784223,Baju Ban Riyan,CPM,22930,14493,59.13,1,6,60,TR,Baju Ban Riyan,CPM,,,,,False,6,2009,GE
+1784224,Diba Chandra Hrangkhawl,INC,22917,7607,31.04,2,6,60,TR,Diba Chandra Hrangkhawl,INC,,,,,False,6,2009,GE
+1784225,Pulin Behari Dewan,BJP,22916,948,3.87,3,6,60,TR,Pulin Behari Dewan,BJP,,,,,False,6,2009,GE
+1784226,Karna Dhan Chakma,AMB,22929,385,1.57,4,6,60,TR,Karna Dhan Chakma,AMB,,,,,False,6,2009,GE
+1784227,Binoy Reang,IND,22919,378,1.54,5,6,60,TR,Binoy Reang,IND,,,,,False,6,2009,GE
+1784228,Rajesh Debbarma,IND,22919,332,1.35,6,6,60,TR,Rajesh Debbarma,IND,,,,,False,6,2009,GE
+1784229,Mevar Kumar Jamatia,IND,22919,141,0.58,7,6,60,TR,Mevar Kumar Jamatia,IND,,,,,False,6,2009,GE
+1784230,Falguni Tripura,CPI(ML)(L),22936,128,0.52,8,6,60,TR,Falguni Tripura,CPI(ML)(L),,,,,False,6,2009,GE
+1784231,Rita Rani Debbarma,AITC,22928,97,0.4,9,6,60,TR,Rita Rani Debbarma,AITC,,,,,False,6,2009,GE

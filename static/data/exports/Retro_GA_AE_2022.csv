@@ -1,0 +1,342 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1492863,Jit Vinayak Arolkar,MAG,16175,10387,35.0403130587322,1,45,1,GA,Jit Vinayak Arolkar,MAG,,,,,False,45,2022,AE
+1492864,Dayanand Raghunath Sopte,BJP,16167,9672,32.6282764902337,2,45,1,GA,Dayanand Raghunath Sopte,BJP,,,,,False,45,2022,AE
+1492865,Laxmikant Parsekar,IND,16173,5811,19.603279020342,3,45,1,GA,Laxmikant Parsekar,IND,,,,,False,45,2022,AE
+1492866,Deepak Bhalchandra Kalangutkar,GFP,16181,1676,5.65394865566912,4,45,1,GA,Deepak Bhalchandra Kalangutkar,GFP,,,,,False,45,2022,AE
+1492867,Sunayana Rajanikant Gawde,RVLTGONP,16182,1219,4.11,5,45,1,GA,Sunayana Rajanikant Gawde,RVLTGONP,,,,,False,45,2022,AE
+1492868,Prasad K. Shahapurkar,AAAP,16169,268,0.904092028472151,6,45,1,GA,Prasad K. Shahapurkar,AAAP,,,,,False,45,2022,AE
+1492869,None Of The Above,NOTA,16204,261,0.880477684444894,7,45,1,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1492870,Satish Sitaram Shetgaonkar,IND,16173,184,0.620719900145059,8,45,1,GA,Satish Sitaram Shetgaonkar,IND,,,,,False,45,2022,AE
+1492871,Babli Bhaskar Naik,SHS,16176,119,0.40144384846338,9,45,1,GA,Babli Bhaskar Naik,SHS,,,,,False,45,2022,AE
+1492872,D'Costa Maria,SBBGP,16183,46,0.16,10,45,1,GA,D'Costa Maria,SBBGP,,,,,False,45,2022,AE
+1492922,Pravin Prabhakar Arlekar,BJP,16167,13063,44.7317056466801,1,45,2,GA,Pravin Prabhakar Arlekar,BJP,,,,,False,45,2022,AE
+1492923,Rajan Babuso Korgaonkar,MAG,16175,9645,33.0274286888333,2,45,2,GA,Rajan Babuso Korgaonkar,MAG,,,,,False,45,2022,AE
+1492924,Sujay D. Mhapsekar,RVLTGONP,16182,2755,9.43,3,45,2,GA,Sujay D. Mhapsekar,RVLTGONP,,,,,False,45,2022,AE
+1492925,Jitendra Yeshwant Gaonkar,INC,16168,1827,6.25620655412115,4,45,2,GA,Jitendra Yeshwant Gaonkar,INC,,,,,False,45,2022,AE
+1492926,Vishnudas Korgaonkar,IND,16173,862,2.95175153237681,5,45,2,GA,Vishnudas Korgaonkar,IND,,,,,False,45,2022,AE
+1492927,None Of The Above,NOTA,16204,363,1.24302297709139,6,45,2,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1492928,Pundalik Dhargalkar,AAAP,16169,273,0.934835462110057,7,45,2,GA,Pundalik Dhargalkar,AAAP,,,,,False,45,2022,AE
+1492929,Subhash Barkelo Kerkar,SHS,16176,223,0.763620176009314,8,45,2,GA,Subhash Barkelo Kerkar,SHS,,,,,False,45,2022,AE
+1492930,Kamlakar Shankar Gadkar,IND,16173,129,0.441735438139917,9,45,2,GA,Kamlakar Shankar Gadkar,IND,,,,,False,45,2022,AE
+1492931,Gurudas Virnodkar,IND,16173,63,0.215731260486936,10,45,2,GA,Gurudas Virnodkar,IND,,,,,False,45,2022,AE
+1492973,Dr. Chandrakant Shetye,IND,16173,9608,37.1165881171289,1,45,3,GA,Dr. Chandrakant Shetye,IND,,,,,False,45,2022,AE
+1492974,Naresh Rajaram Sawal,MAG,16175,9290,35.888124855134,2,45,3,GA,Naresh Rajaram Sawal,MAG,,,,,True,45,2022,AE
+1492975,Rajesh T. Patnekar,BJP,16167,5141,19.8601560689175,3,45,3,GA,Rajesh T. Patnekar,BJP,,,,,True,45,2022,AE
+1492976,Meghashyam Vaman Raut,INC,16168,913,3.52700301321177,4,45,3,GA,Meghashyam Vaman Raut,INC,,,,,False,45,2022,AE
+1492977,Anish Avinash Naik,RVLTGONP,16182,593,2.29,5,45,3,GA,Anish Avinash Naik,RVLTGONP,,,,,False,45,2022,AE
+1492978,None Of The Above,NOTA,16204,341,1.31731437842849,6,45,3,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493020,Nilkanth Ramnath Halarnkar,BJP,16167,9414,39.3413849304191,1,45,4,GA,Nilkanth Ramnath Halarnkar,BJP,,,,,False,45,2022,AE
+1493021,Kavita Kandolkar,AITC,16178,7363,30.7701951606836,2,45,4,GA,Kavita Kandolkar,AITC,,,,,False,45,2022,AE
+1493022,Tukaram Bharat Parab,RVLTGONP,16182,5051,21.11,3,45,4,GA,Tukaram Bharat Parab,RVLTGONP,,,,,False,45,2022,AE
+1493023,Aman Lotlikar,INC,16168,1262,5.27393539220193,4,45,4,GA,Aman Lotlikar,INC,,,,,False,45,2022,AE
+1493024,Udai Salkar,AAAP,16169,421,1.75937147394375,5,45,4,GA,Udai Salkar,AAAP,,,,,False,45,2022,AE
+1493025,None Of The Above,NOTA,16204,202,0.844163985122654,6,45,4,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493026,Swapnesh Bhanudas Sherlekar,GSB,16189,143,0.6,7,45,4,GA,Swapnesh Bhanudas Sherlekar,GSB,,,,,False,45,2022,AE
+1493027,Godfrey D' Lima,NCP,16174,73,0.305069162940365,8,45,4,GA,Godfrey D' Lima,NCP,,,,,False,45,2022,AE
+1493071,Joshua Peter De Souza,BJP,16167,10195,44.0617166565822,1,45,5,GA,Joshua Peter De Souza,BJP,,,,,False,45,2022,AE
+1493072,Sudhir Rama Kandolkar,INC,16168,8548,36.9435560549745,2,45,5,GA,Sudhir Rama Kandolkar,INC,,,,,False,45,2022,AE
+1493073,Rahul Mhambre,AAAP,16169,1511,6.53038291987207,3,45,5,GA,Rahul Mhambre,AAAP,,,,,False,45,2022,AE
+1493074,Tarak Arolkar,AITC,16178,1366,5.90370818566859,4,45,5,GA,Tarak Arolkar,AITC,,,,,False,45,2022,AE
+1493075,Rohan Salgaonkar,RVLTGONP,16182,996,4.3,5,45,5,GA,Rohan Salgaonkar,RVLTGONP,,,,,False,45,2022,AE
+1493076,None Of The Above,NOTA,16204,296,1.27928083671881,6,45,5,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493077,Jitesh Jivaji Kamat,SHS,16176,126,0.544558734549226,7,45,5,GA,Jitesh Jivaji Kamat,SHS,,,,,False,45,2022,AE
+1493078,Neeta Paresh Khanvilkar,IND,16173,60,0.259313683118679,8,45,5,GA,Neeta Paresh Khanvilkar,IND,,,,,False,45,2022,AE
+1493079,Sudesh Digamber Hasotikar,IND,16173,40,0.172875788745786,9,45,5,GA,Sudesh Digamber Hasotikar,IND,,,,,False,45,2022,AE
+1493126,Delilah Michael Lobo,INC,16168,9699,38.8893344025661,1,45,6,GA,Delilah Michael Lobo,INC,,,,,False,45,2022,AE
+1493127,Dayanand Mandrekar,BJP,16167,7972,31.9647153167602,2,45,6,GA,Dayanand Mandrekar,BJP,,,,,True,45,2022,AE
+1493128,Gauresh Mandrekar,RVLTGONP,16182,3188,12.78,3,45,6,GA,Gauresh Mandrekar,RVLTGONP,,,,,False,45,2022,AE
+1493129,Patrick Savio Almeida,IND,16173,1482,5.94226142742582,4,45,6,GA,Patrick Savio Almeida,IND,,,,,True,45,2022,AE
+1493130,Vishnu Naik,AAAP,16169,893,3.58059342421812,5,45,6,GA,Vishnu Naik,AAAP,,,,,False,45,2022,AE
+1493131,Dattaram Pednekar,IND,16173,464,1.86046511627906,6,45,6,GA,Dattaram Pednekar,IND,,,,,False,45,2022,AE
+1493132,Vinod Dattaram Palyekar,IND,16173,409,1.63993584603047,7,45,6,GA,Vinod Dattaram Palyekar,IND,,,,,False,45,2022,AE
+1493133,Leao F. P. Dias,AITC,16178,219,0.878107457898957,8,45,6,GA,Leao F. P. Dias,AITC,,,,,False,45,2022,AE
+1493134,None Of The Above,NOTA,16204,206,0.82598235765838,9,45,6,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493135,Charisma Fernandes,SHS,16176,167,0.669607056936647,10,45,6,GA,Charisma Fernandes,SHS,,,,,False,45,2022,AE
+1493136,Pallavi Pradeep Dabholkar,IND,16173,113,0.45308740978348,11,45,6,GA,Pallavi Pradeep Dabholkar,IND,,,,,False,45,2022,AE
+1493137,Anil Vaman Kerkar,IND,16173,50,0.200481154771451,12,45,6,GA,Anil Vaman Kerkar,IND,,,,,False,45,2022,AE
+1493138,Diana Fernandes,SBBGP,16183,43,0.17,13,45,6,GA,Diana Fernandes,SBBGP,,,,,False,45,2022,AE
+1493139,Jaganath Gaonkar,JMBP,16191,35,0.14,14,45,6,GA,Jaganath Gaonkar,JMBP,,,,,False,45,2022,AE
+1493188,Kedar Jayprakash Naik,INC,16168,10045,44.9742556525632,1,45,7,GA,Kedar Jayprakash Naik,INC,,,,,False,45,2022,AE
+1493189,Jayesh Vidyadhar Salgaonkar,BJP,16167,8146,36.4719050817103,2,45,7,GA,Jayesh Vidyadhar Salgaonkar,BJP,,,,,False,45,2022,AE
+1493190,Rohan Kalangutkar,RVLTGONP,16182,1928,8.63,3,45,7,GA,Rohan Kalangutkar,RVLTGONP,,,,,False,45,2022,AE
+1493191,Mario Venancio Cordeiro,AAAP,16169,847,3.79225430937989,4,45,7,GA,Mario Venancio Cordeiro,AAAP,,,,,False,45,2022,AE
+1493192,Rupesh Damodar Naik,IND,16173,805,3.60420864114618,5,45,7,GA,Rupesh Damodar Naik,IND,,,,,False,45,2022,AE
+1493193,Bholanath Ghadi Sakhalkar,AITC,16178,352,1.57600179091112,6,45,7,GA,Bholanath Ghadi Sakhalkar,AITC,,,,,False,45,2022,AE
+1493194,None Of The Above,NOTA,16204,212,0.949182896798746,7,45,7,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493234,Michael Vincent Lobo,INC,16168,9285,45.0947061680427,1,45,8,GA,Michael Vincent Lobo,INC,,,,,False,45,2022,AE
+1493235,Joseph Robert Sequeira,BJP,16167,4306,20.9130645944633,2,45,8,GA,Joseph Robert Sequeira,BJP,,,,,False,45,2022,AE
+1493236,Marcelino Francisco Gonsalves,RVLTGONP,16182,2538,12.33,3,45,8,GA,Marcelino Francisco Gonsalves,RVLTGONP,,,,,False,45,2022,AE
+1493237,Sudesh Suresh Mayekar,AAAP,16169,1769,8.59154929577464,4,45,8,GA,Sudesh Suresh Mayekar,AAAP,,,,,False,45,2022,AE
+1493238,Anthony Menezes,AITC,16178,1690,8.20786789703739,5,45,8,GA,Anthony Menezes,AITC,,,,,False,45,2022,AE
+1493239,Roshan Luke Mathias,GSB,16189,561,2.72,6,45,8,GA,Roshan Luke Mathias,GSB,,,,,False,45,2022,AE
+1493240,Ricardo D'Souza,IND,16173,268,1.30160271976687,7,45,8,GA,Ricardo D'Souza,IND,,,,,False,45,2022,AE
+1493241,None Of The Above,NOTA,16204,173,0.840213695968916,8,45,8,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493285,Rohan Khaunte,BJP,16167,11714,55.1584498752177,1,45,9,GA,Rohan Khaunte,BJP,,,,,False,45,2022,AE
+1493286,Sandeep Vazarkar,AITC,16178,3764,17.7237839619531,2,45,9,GA,Sandeep Vazarkar,AITC,,,,,False,45,2022,AE
+1493287,Vikas Ramchandra Prabhudesai,INC,16168,3595,16.9280030136083,3,45,9,GA,Vikas Ramchandra Prabhudesai,INC,,,,,False,45,2022,AE
+1493288,Ritesh Chodankar,AAAP,16169,1535,7.22795121721523,4,45,9,GA,Ritesh Chodankar,AAAP,,,,,False,45,2022,AE
+1493289,None Of The Above,NOTA,16204,473,2.22724490276404,5,45,9,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493290,Shankar Phadte,NCP,16174,156,0.734567029241418,6,45,9,GA,Shankar Phadte,NCP,,,,,False,45,2022,AE
+1493334,Carlos Alvares Ferreira,INC,16168,9320,41.429587482219,1,45,10,GA,Carlos Alvares Ferreira,INC,,,,,False,45,2022,AE
+1493335,Glenn John Vijay Ambrose E Souza Ticlo,BJP,16167,7497,33.3259246088193,2,45,10,GA,Glenn John Vijay Ambrose E Souza Ticlo,BJP,,,,,False,45,2022,AE
+1493336,Kiran Mohan Kandolkar,AITC,16178,3647,16.2117709815078,3,45,10,GA,Kiran Mohan Kandolkar,AITC,,,,,False,45,2022,AE
+1493337,Mahesh Vithu Satelkar,AAAP,16169,1306,5.80547652916073,4,45,10,GA,Mahesh Vithu Satelkar,AAAP,,,,,False,45,2022,AE
+1493338,Govind Govenkar,SHS,16176,350,1.55583214793741,5,45,10,GA,Govind Govenkar,SHS,,,,,False,45,2022,AE
+1493339,None Of The Above,NOTA,16204,260,1.15576102418207,6,45,10,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493340,Pooja Mayekar,IND,16173,116,0.515647226173541,7,45,10,GA,Pooja Mayekar,IND,,,,,False,45,2022,AE
+1493385,Atanasio J. Monserrate,BJP,16167,6787,38.9632011022446,1,45,11,GA,Atanasio J. Monserrate,BJP,,,,,False,45,2022,AE
+1493386,Utpal Manohar Parrikar,IND,16173,6071,34.8527470004018,2,45,11,GA,Utpal Manohar Parrikar,IND,,,,,False,45,2022,AE
+1493387,Elvis Gomes,INC,16168,3175,18.2272231471381,3,45,11,GA,Elvis Gomes,INC,,,,,False,45,2022,AE
+1493388,Valmiki Datta Naik,AAAP,16169,777,4.46064642057523,4,45,11,GA,Valmiki Datta Naik,AAAP,,,,,False,45,2022,AE
+1493389,Rajesh Vinayak Redkar,RVLTGONP,16182,359,2.06,5,45,11,GA,Rajesh Vinayak Redkar,RVLTGONP,,,,,False,45,2022,AE
+1493390,None Of The Above,NOTA,16204,173,0.993168379355875,6,45,11,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493391,Devendra Sundaram,IND,16173,40,0.22963430736552,7,45,11,GA,Devendra Sundaram,IND,,,,,False,45,2022,AE
+1493392,Yeshwant Madar,IND,16173,37,0.212411734313106,8,45,11,GA,Yeshwant Madar,IND,,,,,False,45,2022,AE
+1493435,Jennifer A. Monserrate,BJP,16167,10167,43.3838276082782,1,45,12,GA,Jennifer A. Monserrate,BJP,,,,,False,45,2022,AE
+1493436,Tony Alfredo Rodrigues,INC,16168,8126,34.6746319607424,2,45,12,GA,Tony Alfredo Rodrigues,INC,,,,,False,45,2022,AE
+1493437,Cecille Rodrigues,AAAP,16169,2607,11.1243866012374,3,45,12,GA,Cecille Rodrigues,AAAP,,,,,True,45,2022,AE
+1493438,Joseph Licio Roncon,RVLTGONP,16182,1651,7.05,4,45,12,GA,Joseph Licio Roncon,RVLTGONP,,,,,False,45,2022,AE
+1493439,None Of The Above,NOTA,16204,421,1.79645828888414,5,45,12,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493440,Adv. Pundalik Namdeo Raiker,IND,16173,289,1.23319820780883,6,45,12,GA,Adv. Pundalik Namdeo Raiker,IND,,,,,False,45,2022,AE
+1493441,Shubhangi Deu Sawant,MAG,16175,123,0.524855984638361,7,45,12,GA,Shubhangi Deu Sawant,MAG,,,,,False,45,2022,AE
+1493442,Shivanand Harijan,IND,16173,26,0.110945167484531,8,45,12,GA,Shivanand Harijan,IND,,,,,False,45,2022,AE
+1493443,Dilip Ghadi,IND,16173,25,0.106678045658203,9,45,12,GA,Dilip Ghadi,IND,,,,,False,45,2022,AE
+1493493,Rodolfo Louis Fernandes,INC,16168,8841,38.9728895746087,1,45,13,GA,Rodolfo Louis Fernandes,INC,,,,,False,45,2022,AE
+1493494,Antonio Caetano Fernandes,BJP,16167,6377,28.1110866211152,2,45,13,GA,Antonio Caetano Fernandes,BJP,,,,,False,45,2022,AE
+1493495,Amit Palekar,AAAP,16169,4098,18.0648005289839,3,45,13,GA,Amit Palekar,AAAP,,,,,False,45,2022,AE
+1493496,Ajay Tipu Kholkar,RVLTGONP,16182,2497,11.01,4,45,13,GA,Ajay Tipu Kholkar,RVLTGONP,,,,,False,45,2022,AE
+1493497,Victor Benjamin Gonsalves,AITC,16178,523,2.305488208067,5,45,13,GA,Victor Benjamin Gonsalves,AITC,,,,,False,45,2022,AE
+1493498,None Of The Above,NOTA,16204,349,1.53846153846153,6,45,13,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493545,Viresh Mukesh Borkar,RVLTGONP,16182,5395,33.14,1,45,14,GA,Viresh Mukesh Borkar,RVLTGONP,,,,,False,45,2022,AE
+1493546,Francisco Silveira,BJP,16167,5319,32.6739971742736,2,45,14,GA,Francisco Silveira,BJP,,,,,False,45,2022,AE
+1493547,Anthony Lino Fernandes,INC,16168,2695,16.555070950304,3,45,14,GA,Anthony Lino Fernandes,INC,,,,,False,45,2022,AE
+1493548,Jagdish Umakant Bhobe,AITC,16178,1261,7.74617605504023,4,45,14,GA,Jagdish Umakant Bhobe,AITC,,,,,False,45,2022,AE
+1493549,Ramrao Surya Naik Wagh,AAAP,16169,1122,6.89231525277965,5,45,14,GA,Ramrao Surya Naik Wagh,AAAP,,,,,False,45,2022,AE
+1493550,Rama Gurudas Kankonkar,IND,16173,219,1.34529147982062,6,45,14,GA,Rama Gurudas Kankonkar,IND,,,,,False,45,2022,AE
+1493551,None Of The Above,NOTA,16204,137,0.841575035321579,7,45,14,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493552,Estevan Elvis D'Souza,NCP,16174,131,0.804717734504576,8,45,14,GA,Estevan Elvis D'Souza,NCP,,,,,False,45,2022,AE
+1493595,Rajesh Faldessai,INC,16168,6776,31.4431554524361,1,45,15,GA,Rajesh Faldessai,INC,,,,,False,45,2022,AE
+1493596,Janita Pandurang Madkaikar,BJP,16167,3949,18.3248259860788,2,45,15,GA,Janita Pandurang Madkaikar,BJP,,,,,False,45,2022,AE
+1493597,Rohan Ranganath Harmalkar,IND,16173,3870,17.9582366589327,3,45,15,GA,Rohan Ranganath Harmalkar,IND,,,,,False,45,2022,AE
+1493598,Samil Audumber Volvaiker,AITC,16178,3072,14.2552204176334,4,45,15,GA,Samil Audumber Volvaiker,AITC,,,,,False,45,2022,AE
+1493599,Chhagan Narayan Naik,RVLTGONP,16182,2442,11.33,5,45,15,GA,Chhagan Narayan Naik,RVLTGONP,,,,,False,45,2022,AE
+1493600,Gorakhanath Suresh Kerkar,AAAP,16169,1022,4.74245939675174,6,45,15,GA,Gorakhanath Suresh Kerkar,AAAP,,,,,False,45,2022,AE
+1493601,None Of The Above,NOTA,16204,328,1.52204176334106,7,45,15,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493602,Maria Christina Varela,GSB,16189,91,0.42,8,45,15,GA,Maria Christina Varela,GSB,,,,,False,45,2022,AE
+1493648,Premendra Vishnu Shet,BJP,16167,7874,30.8929692404268,1,45,16,GA,Premendra Vishnu Shet,BJP,,,,,False,45,2022,AE
+1493649,Santosh Kumar Sawant,GFP,16181,4738,18.589139987445,2,45,16,GA,Santosh Kumar Sawant,GFP,,,,,False,45,2022,AE
+1493650,Shrikrishna Ravindra Parab,RVLTGONP,16182,3974,15.59,3,45,16,GA,Shrikrishna Ravindra Parab,RVLTGONP,,,,,False,45,2022,AE
+1493651,Pravin Zantye,MAG,16175,3424,13.4337727558066,4,45,16,GA,Pravin Zantye,MAG,,,,,False,45,2022,AE
+1493652,Milind Tulshidas Pilgaonkar,IND,16173,2316,9.08662900188323,5,45,16,GA,Milind Tulshidas Pilgaonkar,IND,,,,,False,45,2022,AE
+1493653,Rajesh Tulshidas Kalangutkar,AAAP,16169,2084,8.17639673571876,6,45,16,GA,Rajesh Tulshidas Kalangutkar,AAAP,,,,,False,45,2022,AE
+1493654,Rohan Vaman Sawaikar,IND,16173,465,1.8243879472693,7,45,16,GA,Rohan Vaman Sawaikar,IND,,,,,False,45,2022,AE
+1493655,None Of The Above,NOTA,16204,332,1.30257376020087,8,45,16,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493656,Sheela Sandeep Ghatwal,IND,16173,192,0.753295668549905,9,45,16,GA,Sheela Sandeep Ghatwal,IND,,,,,False,45,2022,AE
+1493657,Deepkumar Mapari,IND,16173,89,0.349183929692404,10,45,16,GA,Deepkumar Mapari,IND,,,,,True,45,2022,AE
+1493699,Pramod Sawant,BJP,16167,12250,47.7285124288942,1,45,17,GA,Pramod Sawant,BJP,,,,,True,45,2022,AE
+1493700,Dharmesh Saglani,INC,16168,11584,45.1336398348009,2,45,17,GA,Dharmesh Saglani,INC,,,,,True,45,2022,AE
+1493701,Sujay Gauns,RVLTGONP,16182,742,2.89,3,45,17,GA,Sujay Gauns,RVLTGONP,,,,,False,45,2022,AE
+1493702,Mahadev Yeshwant Khandekar,MAG,16175,370,1.44159588560741,4,45,17,GA,Mahadev Yeshwant Khandekar,MAG,,,,,False,45,2022,AE
+1493703,None Of The Above,NOTA,16204,286,1.11431465752357,5,45,17,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493704,Manojkumar Ghadi,AAAP,16169,109,0.424686355489752,6,45,17,GA,Manojkumar Ghadi,AAAP,,,,,False,45,2022,AE
+1493705,Sagar Dhargalkar,SHS,16176,99,0.38572430452739,7,45,17,GA,Sagar Dhargalkar,SHS,,,,,False,45,2022,AE
+1493706,Sunil Datta Satodkar,IND,16173,98,0.381828099431154,8,45,17,GA,Sunil Datta Satodkar,IND,,,,,False,45,2022,AE
+1493707,Daudkhan Pathan,IND,16173,32,0.12467856307956,9,45,17,GA,Daudkhan Pathan,IND,,,,,False,45,2022,AE
+1493708,Mahesh Shantaram Parab,IND,16173,30,0.116886152887087,10,45,17,GA,Mahesh Shantaram Parab,IND,,,,,True,45,2022,AE
+1493709,Sunil Suresh Fulari,IND,16173,27,0.105197537598379,11,45,17,GA,Sunil Suresh Fulari,IND,,,,,False,45,2022,AE
+1493710,Lavu Gurunath Petkar,IND,16173,25,0.0974051274059066,12,45,17,GA,Lavu Gurunath Petkar,IND,,,,,False,45,2022,AE
+1493711,Navanath Ramkrishna Mulvi,JMBP,16191,14,0.05,13,45,17,GA,Navanath Ramkrishna Mulvi,JMBP,,,,,False,45,2022,AE
+1493751,Deviya Vishwajit Rane,BJP,16167,17816,60.9198153530518,1,45,18,GA,Deviya Vishwajit Rane,BJP,,,,,False,45,2022,AE
+1493752,Vishwajit Rane,AAAP,16169,3873,13.2432894511882,2,45,18,GA,Vishwajit Rane,AAAP,,,,,False,45,2022,AE
+1493753,Sameer Satarkar,RVLTGONP,16182,3513,12.01,3,45,18,GA,Sameer Satarkar,RVLTGONP,,,,,False,45,2022,AE
+1493754,Ganpat Gaonkar,AITC,16178,1500,5.12908189434091,4,45,18,GA,Ganpat Gaonkar,AITC,,,,,False,45,2022,AE
+1493755,Ranjit Jayasingrao Rane,INC,16168,1488,5.08804923918618,5,45,18,GA,Ranjit Jayasingrao Rane,INC,,,,,False,45,2022,AE
+1493756,None Of The Above,NOTA,16204,542,1.85330825782184,6,45,18,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493757,Gurudas Gaonkar,SHS,16176,267,0.912976577192682,7,45,18,GA,Gurudas Gaonkar,SHS,,,,,False,45,2022,AE
+1493758,Jayeshwar Gawde,JMBP,16191,246,0.84,8,45,18,GA,Jayeshwar Gawde,JMBP,,,,,False,45,2022,AE
+1493800,Vishwajit Pratapsingh Rane,BJP,16167,14462,53.6225435669262,1,45,19,GA,Vishwajit Pratapsingh Rane,BJP,,,,,False,45,2022,AE
+1493801,Tukaram Bharat Parab,RVLTGONP,16182,6377,23.64,2,45,19,GA,Tukaram Bharat Parab,RVLTGONP,,,,,False,45,2022,AE
+1493802,Satyavijay Subrai Naik,AAAP,16169,2599,9.63663329625509,3,45,19,GA,Satyavijay Subrai Naik,AAAP,,,,,False,45,2022,AE
+1493803,Manisha Shenvi Usgaonkar,INC,16168,2101,7.79013718946978,4,45,19,GA,Manisha Shenvi Usgaonkar,INC,,,,,False,45,2022,AE
+1493804,None Of The Above,NOTA,16204,411,1.52391546162402,5,45,19,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493805,Sudesh Madhukar Parab,JMBP,16191,354,1.31,6,45,19,GA,Sudesh Madhukar Parab,JMBP,,,,,False,45,2022,AE
+1493806,Vishvesh Prabhu,MAG,16175,346,1.28290693362995,7,45,19,GA,Vishvesh Prabhu,MAG,,,,,False,45,2022,AE
+1493807,Devidas Gaonkar,SHS,16176,183,0.678531701890989,8,45,19,GA,Devidas Gaonkar,SHS,,,,,False,45,2022,AE
+1493808,Rohidas Sada Gaonkar,IND,16173,137,0.507971820541342,9,45,19,GA,Rohidas Sada Gaonkar,IND,,,,,False,45,2022,AE
+1493850,Govind Shepu Gaude,BJP,16167,11019,39.2624265098877,1,45,20,GA,Govind Shepu Gaude,BJP,,,,,False,45,2022,AE
+1493851,Pandurang Alias Deepak Dhavalikar,MAG,16175,10806,38.5034740780331,2,45,20,GA,Pandurang Alias Deepak Dhavalikar,MAG,,,,,True,45,2022,AE
+1493852,Sandeep Nigalye,IND,16173,2697,9.60983431320149,3,45,20,GA,Sandeep Nigalye,IND,,,,,False,45,2022,AE
+1493853,Vishvesh Naik,RVLTGONP,16182,2517,8.97,4,45,20,GA,Vishvesh Naik,RVLTGONP,,,,,False,45,2022,AE
+1493854,Dinesh Shiva Zalmi,INC,16168,303,1.07963655799037,5,45,20,GA,Dinesh Shiva Zalmi,INC,,,,,False,45,2022,AE
+1493855,Nonu Chandrakant Naik,AAAP,16169,245,0.872973454480669,6,45,20,GA,Nonu Chandrakant Naik,AAAP,,,,,False,45,2022,AE
+1493856,None Of The Above,NOTA,16204,244,0.869410297523605,7,45,20,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493857,Digvijay Madhu Velingkar,NCP,16174,149,0.530910386602529,8,45,20,GA,Digvijay Madhu Velingkar,NCP,,,,,False,45,2022,AE
+1493858,Dattaram Tukaram Shetkar,IND,16173,85,0.302868341350436,9,45,20,GA,Dattaram Tukaram Shetkar,IND,,,,,False,45,2022,AE
+1493912,Ravi Naik,BJP,16167,7514,29.1229022130925,1,45,21,GA,Ravi Naik,BJP,,,,,False,45,2022,AE
+1493913,Ketan Kirtikumar Prabhu Bhatikar,MAG,16175,7437,28.8244641680555,2,45,21,GA,Ketan Kirtikumar Prabhu Bhatikar,MAG,,,,,False,45,2022,AE
+1493914,Rajesh Verekar,INC,16168,6839,26.5067245455602,3,45,21,GA,Rajesh Verekar,INC,,,,,False,45,2022,AE
+1493915,Sanish Tilve,RVLTGONP,16182,1770,6.86,4,45,21,GA,Sanish Tilve,RVLTGONP,,,,,False,45,2022,AE
+1493916,Sandeep Sinai Khandeparkar,IND,16173,1237,4.79438781442579,5,45,21,GA,Sandeep Sinai Khandeparkar,IND,,,,,False,45,2022,AE
+1493917,Surel Datta Tilve,AAAP,16169,620,2.40300763536297,6,45,21,GA,Surel Datta Tilve,AAAP,,,,,False,45,2022,AE
+1493918,None Of The Above,NOTA,16204,292,1.13173907988062,7,45,21,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493919,Naresh Padwalkar,IND,16173,92,0.356575326537731,8,45,21,GA,Naresh Padwalkar,IND,,,,,False,45,2022,AE
+1493972,Subhash Ankush Shirodkar,BJP,16167,8307,33.1828712950387,1,45,22,GA,Subhash Ankush Shirodkar,BJP,,,,,False,45,2022,AE
+1493973,Mahadev Narayan Naik,AAAP,16169,6133,24.4986817927618,2,45,22,GA,Mahadev Narayan Naik,AAAP,,,,,False,45,2022,AE
+1493974,Shailesh Naik,RVLTGONP,16182,5063,20.22,3,45,22,GA,Shailesh Naik,RVLTGONP,,,,,False,45,2022,AE
+1493975,Sanket Naik Mule,MAG,16175,2397,9.57497802987936,4,45,22,GA,Sanket Naik Mule,MAG,,,,,False,45,2022,AE
+1493976,Tukaram Borkar,INC,16168,1953,7.80139010945114,5,45,22,GA,Tukaram Borkar,INC,,,,,False,45,2022,AE
+1493977,Subhash Prabhudesai,NCP,16174,576,2.30087081569066,6,45,22,GA,Subhash Prabhudesai,NCP,,,,,False,45,2022,AE
+1493978,None Of The Above,NOTA,16204,235,0.938723336262682,7,45,22,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1493979,Snehalo Gracias,IND,16173,186,0.742989534233442,8,45,22,GA,Snehalo Gracias,IND,,,,,False,45,2022,AE
+1493980,Mukesh Naik,SBBGP,16183,184,0.74,9,45,22,GA,Mukesh Naik,SBBGP,,,,,False,45,2022,AE
+1494029,Ramkrishna Alias Sudin Dhavalikar,MAG,16175,13963,58.8609729365146,1,45,23,GA,Ramkrishna Alias Sudin Dhavalikar,MAG,,,,,True,45,2022,AE
+1494030,Sudesh Bhingi,BJP,16167,4000,16.8619846555939,2,45,23,GA,Sudesh Bhingi,BJP,,,,,False,45,2022,AE
+1494031,Premanand Gaude,RVLTGONP,16182,3488,14.7,3,45,23,GA,Premanand Gaude,RVLTGONP,,,,,False,45,2022,AE
+1494032,Lavoo Mamledar,INC,16168,1090,4.59489081864935,4,45,23,GA,Lavoo Mamledar,INC,,,,,False,45,2022,AE
+1494033,Umesh Tendolkar,AAAP,16169,419,1.76629289267346,5,45,23,GA,Umesh Tendolkar,AAAP,,,,,False,45,2022,AE
+1494034,None Of The Above,NOTA,16204,373,1.57238006913413,6,45,23,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494035,Santosh Tari,GSB,16189,190,0.8,7,45,23,GA,Santosh Tari,GSB,,,,,False,45,2022,AE
+1494036,Ravindra Talaulikar,NCP,16174,140,0.590169462945788,8,45,23,GA,Ravindra Talaulikar,NCP,,,,,False,45,2022,AE
+1494037,Harishchandra Naik,JMBP,16191,59,0.25,9,45,23,GA,Harishchandra Naik,JMBP,,,,,False,45,2022,AE
+1494092,Sankalp Padmanabh Amonkar,INC,16168,9067,53.6762964717025,1,45,24,GA,Sankalp Padmanabh Amonkar,INC,,,,,True,45,2022,AE
+1494093,Milind Sagun Naik,BJP,16167,7126,42.1856500118399,2,45,24,GA,Milind Sagun Naik,BJP,,,,,True,45,2022,AE
+1494094,Parashuram Umaji Sonurlekar,AAAP,16169,159,0.941273975846554,3,45,24,GA,Parashuram Umaji Sonurlekar,AAAP,,,,,False,45,2022,AE
+1494095,Paresh Sitaram Toraskar,RVLTGONP,16182,130,0.77,4,45,24,GA,Paresh Sitaram Toraskar,RVLTGONP,,,,,False,45,2022,AE
+1494096,Jayesh Kashinath Shetgaonkar,AITC,16178,123,0.728155339805825,5,45,24,GA,Jayesh Kashinath Shetgaonkar,AITC,,,,,False,45,2022,AE
+1494097,None Of The Above,NOTA,16204,107,0.633435946009945,6,45,24,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494098,Nilesh Mahadev Navelkar,IND,16173,94,0.556476438550793,7,45,24,GA,Nilesh Mahadev Navelkar,IND,,,,,False,45,2022,AE
+1494099,Xeque Mahamod Acbar,NCP,16174,58,0.343357802510063,8,45,24,GA,Xeque Mahamod Acbar,NCP,,,,,False,45,2022,AE
+1494100,Enayatulla Khan,IND,16173,28,0.165758939142789,9,45,24,GA,Enayatulla Khan,IND,,,,,False,45,2022,AE
+1494161,Krishna (Daji) V Salkar,BJP,16167,13118,51.4310358347055,1,45,25,GA,Krishna (Daji) V Salkar,BJP,,,,,False,45,2022,AE
+1494162,Jose Luis Carlos Almeida,INC,16168,9461,37.0932329647925,2,45,25,GA,Jose Luis Carlos Almeida,INC,,,,,False,45,2022,AE
+1494163,Saifula Khan,AITC,16178,860,3.37175566533364,3,45,25,GA,Saifula Khan,AITC,,,,,False,45,2022,AE
+1494164,Andre Sebastiao Viegas,RVLTGONP,16182,851,3.34,4,45,25,GA,Andre Sebastiao Viegas,RVLTGONP,,,,,False,45,2022,AE
+1494165,Sunil Loran,AAAP,16169,784,3.07378656002509,5,45,25,GA,Sunil Loran,AAAP,,,,,False,45,2022,AE
+1494166,None Of The Above,NOTA,16204,244,0.95663765388536,6,45,25,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494167,Maruti Shirgaonkar,SHS,16176,71,0.278365874696149,7,45,25,GA,Maruti Shirgaonkar,SHS,,,,,False,45,2022,AE
+1494168,Chandrashekher Vast,IND,16173,55,0.215635536736454,8,45,25,GA,Chandrashekher Vast,IND,,,,,False,45,2022,AE
+1494169,Andrew D’Cunha,IND,16173,42,0.164667137144201,9,45,25,GA,Andrew D’Cunha,IND,,,,,False,45,2022,AE
+1494170,Sandeep Bhagwan Shetye,JMBP,16191,20,0.08,10,45,25,GA,Sandeep Bhagwan Shetye,JMBP,,,,,False,45,2022,AE
+1494225,Mauvin Heliodoro Godinho,BJP,16167,7594,40.5121365697519,1,45,26,GA,Mauvin Heliodoro Godinho,BJP,,,,,True,45,2022,AE
+1494226,Captain Viriato Hipolito Mendonca Fernandes,INC,16168,6024,32.1365697519338,2,45,26,GA,Captain Viriato Hipolito Mendonca Fernandes,INC,,,,,False,45,2022,AE
+1494227,Premanand Nanoskar,AAAP,16169,2533,13.5129367831421,3,45,26,GA,Premanand Nanoskar,AAAP,,,,,False,45,2022,AE
+1494228,Gajanan Borkar,RVLTGONP,16182,1129,6.02,4,45,26,GA,Gajanan Borkar,RVLTGONP,,,,,False,45,2022,AE
+1494229,Jose Filepe D'Souza,NCP,16174,1037,5.53214190450786,5,45,26,GA,Jose Filepe D'Souza,NCP,,,,,False,45,2022,AE
+1494230,None Of The Above,NOTA,16204,198,1.05628167511336,6,45,26,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494231,Mahesh Bhandari,AITC,16178,159,0.84822619365164,7,45,26,GA,Mahesh Bhandari,AITC,,,,,False,45,2022,AE
+1494232,Tara Govind Kerkar,IND,16173,71,0.378767671379034,8,45,26,GA,Tara Govind Kerkar,IND,,,,,True,45,2022,AE
+1494289,Antonio Vas,IND,16173,5522,23.0814245109513,1,45,27,GA,Antonio Vas,IND,,,,,True,45,2022,AE
+1494290,Olencio Simoes,INC,16168,4344,18.157498746029,2,45,27,GA,Olencio Simoes,INC,,,,,False,45,2022,AE
+1494291,Girish Pillai,IND,16173,4251,17.7687677645878,3,45,27,GA,Girish Pillai,IND,,,,,False,45,2022,AE
+1494292,Gilbert Mariano Rodrigues,AITC,16178,3246,13.5679652232068,4,45,27,GA,Gilbert Mariano Rodrigues,AITC,,,,,False,45,2022,AE
+1494293,Teotonio Inacio Santana Costa,RVLTGONP,16182,2480,10.37,5,45,27,GA,Teotonio Inacio Santana Costa,RVLTGONP,,,,,False,45,2022,AE
+1494294,Narayan Naik,BJP,16167,2392,9.9983280387895,6,45,27,GA,Narayan Naik,BJP,,,,,False,45,2022,AE
+1494295,Alina Saldanha,AAAP,16169,1355,5.66376860056846,7,45,27,GA,Alina Saldanha,AAAP,,,,,False,45,2022,AE
+1494296,None Of The Above,NOTA,16204,213,0.890319344591205,8,45,27,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494297,Vishal Gajanan Naik,IND,16173,66,0.275873599732486,9,45,27,GA,Vishal Gajanan Naik,IND,,,,,False,45,2022,AE
+1494298,Bhakti Bhalchandra Khadapkar,SHS,16176,55,0.229894666443738,10,45,27,GA,Bhakti Bhalchandra Khadapkar,SHS,,,,,False,45,2022,AE
+1494351,Aleixo Sequeira,INC,16168,8745,40.0944477557195,1,45,28,GA,Aleixo Sequeira,INC,,,,,False,45,2022,AE
+1494352,Arvind D'Costa,RVLTGONP,16182,4348,19.93,2,45,28,GA,Arvind D'Costa,RVLTGONP,,,,,False,45,2022,AE
+1494353,Wilfred D'Sa,IND,16173,2961,13.5757186740635,3,45,28,GA,Wilfred D'Sa,IND,,,,,False,45,2022,AE
+1494354,Francisco Xavier Pacheco (Mickky),NCP,16174,2073,9.50437852459768,4,45,28,GA,Francisco Xavier Pacheco (Mickky),NCP,,,,,False,45,2022,AE
+1494355,Jose R Cabral (Raju),AITC,16178,1718,7.87675943331346,5,45,28,GA,Jose R Cabral (Raju),AITC,,,,,False,45,2022,AE
+1494356,Mariano Godinho,AAAP,16169,1222,5.60267754802622,6,45,28,GA,Mariano Godinho,AAAP,,,,,True,45,2022,AE
+1494357,Datta Borkar,BJP,16167,569,2.6087753885654,7,45,28,GA,Datta Borkar,BJP,,,,,False,45,2022,AE
+1494358,None Of The Above,NOTA,16204,175,0.802347439365457,8,45,28,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494410,Aleixo Reginaldo Lourenco,IND,16173,8960,40.1200017910715,1,45,29,GA,Aleixo Reginaldo Lourenco,IND,,,,,False,45,2022,AE
+1494411,Moreno Rebelo,INC,16168,3905,17.4853356020239,2,45,29,GA,Moreno Rebelo,INC,,,,,False,45,2022,AE
+1494412,Rubert Pereira,RVLTGONP,16182,3479,15.58,3,45,29,GA,Rubert Pereira,RVLTGONP,,,,,False,45,2022,AE
+1494413,Domingo Gaunkar (Domnic),AAAP,16169,2793,12.5061568083105,4,45,29,GA,Domingo Gaunkar (Domnic),AAAP,,,,,False,45,2022,AE
+1494414,Anthony Barbosa,BJP,16167,2385,10.6792638696099,5,45,29,GA,Anthony Barbosa,BJP,,,,,False,45,2022,AE
+1494415,Anthony Alberto Peixoto,AITC,16178,353,1.5806206062777,6,45,29,GA,Anthony Alberto Peixoto,AITC,,,,,False,45,2022,AE
+1494416,None Of The Above,NOTA,16204,232,1.03882147494738,7,45,29,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494417,Cedric Isidorio D'Costa,IND,16173,117,0.523888416245018,8,45,29,GA,Cedric Isidorio D'Costa,IND,,,,,False,45,2022,AE
+1494418,Conceicao Santano Dias,IND,16173,109,0.488066986074419,9,45,29,GA,Conceicao Santano Dias,IND,,,,,False,45,2022,AE
+1494474,Vijai Sardesai,GFP,16181,11063,45.8095238095238,1,45,30,GA,Vijai Sardesai,GFP,,,,,True,45,2022,AE
+1494475,Damodar (Damu) G. Naik,BJP,16167,9536,39.4865424430641,2,45,30,GA,Damodar (Damu) G. Naik,BJP,,,,,True,45,2022,AE
+1494476,Adv. Valerie Fernandes,RVLTGONP,16182,1556,6.44,3,45,30,GA,Adv. Valerie Fernandes,RVLTGONP,,,,,False,45,2022,AE
+1494477,Sandesh Telekar,AAAP,16169,1050,4.34782608695652,4,45,30,GA,Sandesh Telekar,AAAP,,,,,False,45,2022,AE
+1494478,Seoula Vas,AITC,16178,635,2.62939958592132,5,45,30,GA,Seoula Vas,AITC,,,,,False,45,2022,AE
+1494479,None Of The Above,NOTA,16204,254,1.05175983436853,6,45,30,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494480,Michael Ferns,IND,16173,56,0.231884057971014,7,45,30,GA,Michael Ferns,IND,,,,,False,45,2022,AE
+1494531,Digambar Kamat,INC,16168,13674,60.4162064242477,1,45,31,GA,Digambar Kamat,INC,,,,,True,45,2022,AE
+1494532,Manohar Trimbak Ajgaoankar,BJP,16167,5880,25.9797640613263,2,45,31,GA,Manohar Trimbak Ajgaoankar,BJP,,,,,False,45,2022,AE
+1494533,Lincoln Anthony Vaz,AAAP,16169,1173,5.18269783060133,3,45,31,GA,Lincoln Anthony Vaz,AAAP,,,,,False,45,2022,AE
+1494534,Mahesh Amonkar,AITC,16178,923,4.07811602527283,4,45,31,GA,Mahesh Amonkar,AITC,,,,,False,45,2022,AE
+1494535,Shashiraj Subha Naik Shirodkar,RVLTGONP,16182,722,3.19,5,45,31,GA,Shashiraj Subha Naik Shirodkar,RVLTGONP,,,,,False,45,2022,AE
+1494536,None Of The Above,NOTA,16204,261,1.15318340476295,6,45,31,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494592,Venzy Viegas,AAAP,16169,6411,30.363739698778,1,45,32,GA,Venzy Viegas,AAAP,,,,,False,45,2022,AE
+1494593,Churchill Alemao,AITC,16178,5140,24.3440371317609,2,45,32,GA,Churchill Alemao,AITC,,,,,False,45,2022,AE
+1494594,Antonio Feliciano Dias (Tony),INC,16168,4697,22.2459031921947,3,45,32,GA,Antonio Feliciano Dias (Tony),INC,,,,,False,45,2022,AE
+1494595,Desmond Fernandes,RVLTGONP,16182,3854,18.25,4,45,32,GA,Desmond Fernandes,RVLTGONP,,,,,False,45,2022,AE
+1494596,Damodar (Samir) Bandodkar,BJP,16167,851,4.03050108932461,5,45,32,GA,Damodar (Samir) Bandodkar,BJP,,,,,False,45,2022,AE
+1494597,None Of The Above,NOTA,16204,161,0.762527233115468,6,45,32,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494650,Ulhas Tuenkar,BJP,16167,5168,24.2265141571348,1,45,33,GA,Ulhas Tuenkar,BJP,,,,,False,45,2022,AE
+1494651,Valanka Alemao,AITC,16178,4738,22.2107631726982,2,45,33,GA,Valanka Alemao,AITC,,,,,False,45,2022,AE
+1494652,Avertano Furtado,INC,16168,3806,17.8417401087567,3,45,33,GA,Avertano Furtado,INC,,,,,False,45,2022,AE
+1494653,Mohammad Rehan Mujawar,NCP,16174,2622,12.2913932120757,4,45,33,GA,Mohammad Rehan Mujawar,NCP,,,,,False,45,2022,AE
+1494654,Pratima Betsy Coutinho,AAAP,16169,2327,10.9084942808925,5,45,33,GA,Pratima Betsy Coutinho,AAAP,,,,,False,45,2022,AE
+1494655,Bento Da Silva,RVLTGONP,16182,2086,9.78,6,45,33,GA,Bento Da Silva,RVLTGONP,,,,,False,45,2022,AE
+1494656,Digvijit Chavan,IND,16173,187,0.876617288580536,7,45,33,GA,Digvijit Chavan,IND,,,,,False,45,2022,AE
+1494657,None Of The Above,NOTA,16204,168,0.787549221826364,8,45,33,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494658,Antonio Alvares,IND,16173,161,0.754734670916932,9,45,33,GA,Antonio Alvares,IND,,,,,False,45,2022,AE
+1494659,Francisco Andre Colaco,IND,16173,69,0.323457716107256,10,45,33,GA,Francisco Andre Colaco,IND,,,,,False,45,2022,AE
+1494716,Alemao Yuri,INC,16168,9866,42.7044106825953,1,45,34,GA,Alemao Yuri,INC,,,,,False,45,2022,AE
+1494717,Clafasio Dias,BJP,16167,6632,28.7062286283166,2,45,34,GA,Clafasio Dias,BJP,,,,,False,45,2022,AE
+1494718,Wilson Peter Cardozo,RVLTGONP,16182,2430,10.52,3,45,34,GA,Wilson Peter Cardozo,RVLTGONP,,,,,False,45,2022,AE
+1494719,Santosh S. Fal Dessai,IND,16173,1326,5.73951434878587,4,45,34,GA,Santosh S. Fal Dessai,IND,,,,,False,45,2022,AE
+1494720,Jorson Piedade Fernandes,AITC,16178,1282,5.54906289226507,5,45,34,GA,Jorson Piedade Fernandes,AITC,,,,,False,45,2022,AE
+1494721,Prashant Naik,AAAP,16169,906,3.92156862745098,6,45,34,GA,Prashant Naik,AAAP,,,,,False,45,2022,AE
+1494722,Sudesh Vinayak Bhise,IND,16173,312,1.3504739644202,7,45,34,GA,Sudesh Vinayak Bhise,IND,,,,,False,45,2022,AE
+1494723,None Of The Above,NOTA,16204,186,0.805090248019737,8,45,34,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494724,Milagres Gonsalves,IND,16173,80,0.34627537549236,9,45,34,GA,Milagres Gonsalves,IND,,,,,False,45,2022,AE
+1494725,Derick Dias,IND,16173,50,0.216422109682725,10,45,34,GA,Derick Dias,IND,,,,,True,45,2022,AE
+1494726,Raymond D'Cruz,IND,16173,33,0.142838592390598,11,45,34,GA,Raymond D'Cruz,IND,,,,,False,45,2022,AE
+1494784,Cruz Silva,AAAP,16169,5390,23.0440359127832,1,45,35,GA,Cruz Silva,AAAP,,,,,True,45,2022,AE
+1494785,D'Silva Savio,INC,16168,5221,22.321504916631,2,45,35,GA,D'Silva Savio,INC,,,,,False,45,2022,AE
+1494786,Benjamin Silva,AITC,16178,4134,17.6742197520307,3,45,35,GA,Benjamin Silva,AITC,,,,,False,45,2022,AE
+1494787,Dagley Fernandes,RVLTGONP,16182,3653,15.62,4,45,35,GA,Dagley Fernandes,RVLTGONP,,,,,False,45,2022,AE
+1494788,Filipe Nery Rodrigues,NCP,16174,3420,14.6216331765711,5,45,35,GA,Filipe Nery Rodrigues,NCP,,,,,False,45,2022,AE
+1494789,Savio Oliver Rodrigues,BJP,16167,1331,5.69046601111586,6,45,35,GA,Savio Oliver Rodrigues,BJP,,,,,False,45,2022,AE
+1494790,None Of The Above,NOTA,16204,241,1.03035485250106,7,45,35,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494842,Altone D'Costa,INC,16168,14994,52.5073539711444,1,45,36,GA,Altone D'Costa,INC,,,,,False,45,2022,AE
+1494843,Chandrakant Kavalekar,BJP,16167,11393,39.8970444039781,2,45,36,GA,Chandrakant Kavalekar,BJP,,,,,False,45,2022,AE
+1494844,Vishal Gauns Dessai,RVLTGONP,16182,1144,4.01,3,45,36,GA,Vishal Gauns Dessai,RVLTGONP,,,,,False,45,2022,AE
+1494845,Raul Pereira,AAAP,16169,315,1.10309567166269,4,45,36,GA,Raul Pereira,AAAP,,,,,False,45,2022,AE
+1494846,None Of The Above,NOTA,16204,246,0.861465191203249,5,45,36,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494847,Aloysious D'Silva,NCP,16174,237,0.829948172012886,6,45,36,GA,Aloysious D'Silva,NCP,,,,,False,45,2022,AE
+1494848,Kanta Gaude,AITC,16178,161,0.563804454405378,7,45,36,GA,Kanta Gaude,AITC,,,,,False,45,2022,AE
+1494849,Alexy Fernandes,SHS,16176,66,0.231124807395993,8,45,36,GA,Alexy Fernandes,SHS,,,,,False,45,2022,AE
+1494897,Nilesh Cabral,BJP,16167,9973,43.7661824724623,1,45,37,GA,Nilesh Cabral,BJP,,,,,True,45,2022,AE
+1494898,Amit Patkar,INC,16168,9301,40.8171325755913,2,45,37,GA,Amit Patkar,INC,,,,,False,45,2022,AE
+1494899,Aditya Raut Dessai,RVLTGONP,16182,2103,9.23,3,45,37,GA,Aditya Raut Dessai,RVLTGONP,,,,,False,45,2022,AE
+1494900,Gabriel Fernandes,AAAP,16169,830,3.64242770000438,4,45,37,GA,Gabriel Fernandes,AAAP,,,,,False,45,2022,AE
+1494901,Vithoba Prabhu Dessai,MAG,16175,313,1.37359020494141,5,45,37,GA,Vithoba Prabhu Dessai,MAG,,,,,False,45,2022,AE
+1494902,None Of The Above,NOTA,16204,216,0.947908895422828,6,45,37,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1494903,Ajay Boyer,IND,16173,51,0.22381182253039,7,45,37,GA,Ajay Boyer,IND,,,,,False,45,2022,AE
+1494954,Ganesh Chandru Gaonkar,BJP,16167,11877,44.7681869581605,1,45,38,GA,Ganesh Chandru Gaonkar,BJP,,,,,True,45,2022,AE
+1494955,Ramnath Alias Deepak Prabhu,IND,16173,6687,25.205427817565,2,45,38,GA,Ramnath Alias Deepak Prabhu,IND,,,,,False,45,2022,AE
+1494956,Vinayak Gawas,MAG,16175,3768,14.2027892951375,3,45,38,GA,Vinayak Gawas,MAG,,,,,False,45,2022,AE
+1494957,Vipin Naik,RVLTGONP,16182,2135,8.05,4,45,38,GA,Vipin Naik,RVLTGONP,,,,,False,45,2022,AE
+1494958,Anil Gaonkar,AAAP,16169,846,3.18884281944967,5,45,38,GA,Anil Gaonkar,AAAP,,,,,False,45,2022,AE
+1494959,Gangaram Lambor,IND,16173,554,2.08820203543158,6,45,38,GA,Gangaram Lambor,IND,,,,,False,45,2022,AE
+1494960,Khemalo Sawant,INC,16168,383,1.44364869958537,7,45,38,GA,Khemalo Sawant,INC,,,,,False,45,2022,AE
+1494961,None Of The Above,NOTA,16204,280,1.05540897097625,8,45,38,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1495018,Subhash Uttam Phal Dessai,BJP,16167,8724,36.731085006947,1,45,39,GA,Subhash Uttam Phal Dessai,BJP,,,,,False,45,2022,AE
+1495019,Savitri Kavlekar,IND,16173,7295,30.7144962317376,2,45,39,GA,Savitri Kavlekar,IND,,,,,False,45,2022,AE
+1495020,Prasad Shashikant Gaonkar,INC,16168,4644,19.5528609321712,3,45,39,GA,Prasad Shashikant Gaonkar,INC,,,,,False,45,2022,AE
+1495021,Sunil Bombi Gaonkar,RVLTGONP,16182,1500,6.32,4,45,39,GA,Sunil Bombi Gaonkar,RVLTGONP,,,,,False,45,2022,AE
+1495022,Abhijit Dessai,AAAP,16169,894,3.7640520399141,5,45,39,GA,Abhijit Dessai,AAAP,,,,,False,45,2022,AE
+1495023,None Of The Above,NOTA,16204,241,1.01469411814239,6,45,39,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1495024,Rakhi Amit Naik,AITC,16178,185,0.77891457201802,7,45,39,GA,Rakhi Amit Naik,AITC,,,,,False,45,2022,AE
+1495025,Domacio Barreto,NCP,16174,174,0.732600732600732,8,45,39,GA,Domacio Barreto,NCP,,,,,False,45,2022,AE
+1495026,Ramesh Gopal Velingkar,IND,16173,94,0.395772809565913,9,45,39,GA,Ramesh Gopal Velingkar,IND,,,,,False,45,2022,AE
+1495076,Ramesh Bombo Tawadkar,BJP,16167,9063,31.110119456268,1,45,40,GA,Ramesh Bombo Tawadkar,BJP,,,,,False,45,2022,AE
+1495077,Isidore Aleixinho Fernandes,IND,16173,6012,20.6371000961142,2,45,40,GA,Isidore Aleixinho Fernandes,IND,,,,,False,45,2022,AE
+1495078,Janardhan Bhandari,INC,16168,5351,18.3681175339832,3,45,40,GA,Janardhan Bhandari,INC,,,,,False,45,2022,AE
+1495079,Vijay Pai Khot,IND,16173,4791,16.4458327612247,4,45,40,GA,Vijay Pai Khot,IND,,,,,False,45,2022,AE
+1495080,Prashant Suresh Pagi,RVLTGONP,16182,1599,5.49,5,45,40,GA,Prashant Suresh Pagi,RVLTGONP,,,,,False,45,2022,AE
+1495081,Mahadev Dessai,AITC,16178,1066,3.65920637100096,6,45,40,GA,Mahadev Dessai,AITC,,,,,False,45,2022,AE
+1495082,Anoop Balkrishna Kudtarkar,AAAP,16169,835,2.86626390223808,7,45,40,GA,Anoop Balkrishna Kudtarkar,AAAP,,,,,False,45,2022,AE
+1495083,None Of The Above,NOTA,16204,296,1.01606480845805,8,45,40,GA,None Of The Above,NOTA,,,,,True,45,2022,AE
+1495084,Kanay Pagi,IND,16173,119,0.408485514211176,9,45,40,GA,Kanay Pagi,IND,,,,,False,45,2022,AE

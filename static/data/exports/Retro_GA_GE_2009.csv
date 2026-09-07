@@ -1,0 +1,361 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1492835,Shripad Yesso Naik,BJP,16167,8759,48.1952239462969,1,6,1,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1492836,Jitendra Raghuraj Deshprabhu,NCP,16174,7454,41.0146362936062,2,6,1,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1492837,Raut Pandurang Dattaram,MAG,16175,898,4.94112468361395,3,6,1,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1492838,Christopher Fonseca,CPI,16170,492,2.70716408055463,4,6,1,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1492839,Upendra Chandru Gaonkar,SHS,16176,253,1.39209860239903,5,6,1,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1492840,Martha D' Souza,IND,16173,204,1.12248266754704,6,6,1,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1492841,Narcinva Surya Salgaonkar,IND,16173,114,0.627269725982172,7,6,1,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1492890,Jitendra Raghuraj Deshprabhu,NCP,16174,9219,48.5491600400231,1,6,2,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1492891,Shripad Yesso Naik,BJP,16167,8308,43.7516456896097,2,6,2,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1492892,Christopher Fonseca,CPI,16170,539,2.83848543893833,3,6,2,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1492893,Raut Pandurang Dattaram,MAG,16175,355,1.86950339670335,4,6,2,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1492894,Martha D' Souza,IND,16173,250,1.31655168781926,5,6,2,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1492895,Upendra Chandru Gaonkar,SHS,16176,164,0.863657907209437,6,6,2,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1492896,Narcinva Surya Salgaonkar,IND,16173,154,0.810995839696666,7,6,2,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1492949,Shripad Yesso Naik,BJP,16167,8782,55.1044738658467,1,6,3,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1492950,Jitendra Raghuraj Deshprabhu,NCP,16174,5055,31.7186421534793,2,6,3,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1492951,Raut Pandurang Dattaram,MAG,16175,1198,7.51709857564158,3,6,3,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1492952,Christopher Fonseca,CPI,16170,420,2.63537679613478,4,6,3,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1492953,Upendra Chandru Gaonkar,SHS,16176,197,1.23611721152036,5,6,3,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1492954,Martha D' Souza,IND,16173,176,1.10434837171362,6,6,3,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1492955,Narcinva Surya Salgaonkar,IND,16173,109,0.68394302566355,7,6,3,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1492996,Jitendra Raghuraj Deshprabhu,NCP,16174,6792,47.566356187408,1,6,4,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1492997,Shripad Yesso Naik,BJP,16167,6634,46.4598361229777,2,6,4,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1492998,Christopher Fonseca,CPI,16170,326,2.28307304433083,3,6,4,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1492999,Raut Pandurang Dattaram,MAG,16175,185,1.29560893620001,4,6,4,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493000,Upendra Chandru Gaonkar,SHS,16176,157,1.09951677288325,5,6,4,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493001,Martha D' Souza,IND,16173,125,0.875411443378387,6,6,4,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493002,Narcinva Surya Salgaonkar,IND,16173,60,0.420197492821626,7,6,4,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493045,Shripad Yesso Naik,BJP,16167,8537,59.3960898907674,1,6,5,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493046,Jitendra Raghuraj Deshprabhu,NCP,16174,4766,33.1593960898907,2,6,5,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493047,Raut Pandurang Dattaram,MAG,16175,396,2.75516593613024,3,6,5,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493048,Christopher Fonseca,CPI,16170,393,2.73429346691713,4,6,5,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493049,Martha D' Souza,IND,16173,119,0.827941278786613,5,6,5,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493050,Upendra Chandru Gaonkar,SHS,16176,108,0.751408891671884,6,6,5,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493051,Narcinva Surya Salgaonkar,IND,16173,54,0.375704445835942,7,6,5,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493097,Shripad Yesso Naik,BJP,16167,7763,52.9066993798132,1,6,6,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493098,Jitendra Raghuraj Deshprabhu,NCP,16174,5855,39.9032236079874,2,6,6,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493099,Christopher Fonseca,CPI,16170,425,2.89647652150207,3,6,6,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493100,Raut Pandurang Dattaram,MAG,16175,295,2.01049546786614,4,6,6,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493101,Martha D' Souza,IND,16173,151,1.0291010699925,5,6,6,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493102,Upendra Chandru Gaonkar,SHS,16176,127,0.865535337013562,6,6,6,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493103,Narcinva Surya Salgaonkar,IND,16173,57,0.388468615824984,7,6,6,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493157,Shripad Yesso Naik,BJP,16167,7288,53.9532129108676,1,6,7,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493158,Jitendra Raghuraj Deshprabhu,NCP,16174,5371,39.7616227420787,2,6,7,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493159,Christopher Fonseca,CPI,16170,381,2.82055078472016,3,6,7,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493160,Raut Pandurang Dattaram,MAG,16175,198,1.4657980456026,4,6,7,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493161,Martha D' Souza,IND,16173,124,0.917974533609712,5,6,7,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493162,Upendra Chandru Gaonkar,SHS,16176,98,0.725496002368966,6,6,7,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493163,Narcinva Surya Salgaonkar,IND,16173,48,0.355344980752146,7,6,7,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493212,Jitendra Raghuraj Deshprabhu,NCP,16174,7803,58.7398373983739,1,6,8,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493213,Shripad Yesso Naik,BJP,16167,4578,34.4625112917795,2,6,8,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493214,Christopher Fonseca,CPI,16170,441,3.31978319783197,3,6,8,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493215,Raut Pandurang Dattaram,MAG,16175,163,1.22704004817825,4,6,8,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493216,Martha D' Souza,IND,16173,160,1.20445648900933,5,6,8,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493217,Upendra Chandru Gaonkar,SHS,16176,89,0.669978922011442,6,6,8,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493218,Narcinva Surya Salgaonkar,IND,16173,50,0.376392652815417,7,6,8,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493259,Shripad Yesso Naik,BJP,16167,6651,56.5128728014274,1,6,9,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493260,Jitendra Raghuraj Deshprabhu,NCP,16174,4303,36.562154813493,2,6,9,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493261,Christopher Fonseca,CPI,16170,370,3.14385249383974,3,6,9,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493262,Raut Pandurang Dattaram,MAG,16175,166,1.41048517291188,4,6,9,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493263,Upendra Chandru Gaonkar,SHS,16176,112,0.951652646783923,5,6,9,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493264,Martha D' Souza,IND,16173,109,0.926161950887925,6,6,9,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493265,Narcinva Surya Salgaonkar,IND,16173,58,0.49282012065596,7,6,9,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493308,Jitendra Raghuraj Deshprabhu,NCP,16174,7021,49.329024098925,1,6,10,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493309,Shripad Yesso Naik,BJP,16167,6232,43.7855687486826,2,6,10,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493310,Christopher Fonseca,CPI,16170,428,3.00709618492236,3,6,10,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493311,Raut Pandurang Dattaram,MAG,16175,238,1.67217030843813,4,6,10,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493312,Martha D' Souza,IND,16173,146,1.02578514719314,5,6,10,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493313,Upendra Chandru Gaonkar,SHS,16176,107,0.75177404623059,6,6,10,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493314,Narcinva Surya Salgaonkar,IND,16173,61,0.428581465608093,7,6,10,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493358,Shripad Yesso Naik,BJP,16167,7996,62.3761603869256,1,6,11,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493359,Jitendra Raghuraj Deshprabhu,NCP,16174,4212,32.8574771823075,2,6,11,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493360,Christopher Fonseca,CPI,16170,274,2.13745221936188,3,6,11,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493361,Raut Pandurang Dattaram,MAG,16175,139,1.08432795069818,4,6,11,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493362,Martha D' Souza,IND,16173,112,0.873703096965441,5,6,11,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493363,Upendra Chandru Gaonkar,SHS,16176,63,0.491457992043061,6,6,11,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493364,Narcinva Surya Salgaonkar,IND,16173,23,0.17942117169826,7,6,11,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493410,Jitendra Raghuraj Deshprabhu,NCP,16174,7793,56.0929964730439,1,6,12,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493411,Shripad Yesso Naik,BJP,16167,5260,37.8607932052112,2,6,12,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493412,Christopher Fonseca,CPI,16170,374,2.69200316706254,3,6,12,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493413,Raut Pandurang Dattaram,MAG,16175,172,1.23803354207154,4,6,12,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493414,Martha D' Souza,IND,16173,130,0.935723025984308,5,6,12,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493415,Upendra Chandru Gaonkar,SHS,16176,120,0.863744331677823,6,6,12,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493416,Narcinva Surya Salgaonkar,IND,16173,44,0.316706254948535,7,6,12,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493461,Jitendra Raghuraj Deshprabhu,NCP,16174,6959,51.3655152051963,1,6,13,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493462,Shripad Yesso Naik,BJP,16167,5578,41.1721287274874,2,6,13,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493463,Christopher Fonseca,CPI,16170,533,3.93416002361972,3,6,13,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493464,Martha D' Souza,IND,16173,149,1.0997933274284,4,6,13,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493465,Raut Pandurang Dattaram,MAG,16175,144,1.06288751107174,5,6,13,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493466,Upendra Chandru Gaonkar,SHS,16176,132,0.974313551815766,6,6,13,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493467,Narcinva Surya Salgaonkar,IND,16173,53,0.391201653380572,7,6,13,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493516,Jitendra Raghuraj Deshprabhu,NCP,16174,7072,57.1290088052346,1,6,14,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493517,Shripad Yesso Naik,BJP,16167,4580,36.9981420147023,2,6,14,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493518,Christopher Fonseca,CPI,16170,329,2.65772679537927,3,6,14,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493519,Martha D' Souza,IND,16173,122,0.985540027465869,4,6,14,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493520,Raut Pandurang Dattaram,MAG,16175,117,0.945149042733661,5,6,14,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493521,Upendra Chandru Gaonkar,SHS,16176,105,0.848210679376363,6,6,14,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493522,Narcinva Surya Salgaonkar,IND,16173,54,0.436222635107843,7,6,14,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493570,Jitendra Raghuraj Deshprabhu,NCP,16174,5963,47.1793654561278,1,6,15,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493571,Shripad Yesso Naik,BJP,16167,5811,45.9767386660337,2,6,15,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493572,Christopher Fonseca,CPI,16170,399,3.15689532399715,3,6,15,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493573,Raut Pandurang Dattaram,MAG,16175,183,1.44789935912651,4,6,15,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493574,Upendra Chandru Gaonkar,SHS,16176,127,1.00482633119708,5,6,15,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493575,Martha D' Souza,IND,16173,99,0.783289817232375,6,6,15,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493576,Narcinva Surya Salgaonkar,IND,16173,57,0.450985046285307,7,6,15,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493620,Shripad Yesso Naik,BJP,16167,8214,55.0499296293814,1,6,16,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493621,Jitendra Raghuraj Deshprabhu,NCP,16174,5008,33.5634340861872,2,6,16,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493622,Raut Pandurang Dattaram,MAG,16175,508,3.40459754708129,3,6,16,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493623,Upendra Chandru Gaonkar,SHS,16176,496,3.32417398297701,4,6,16,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493624,Christopher Fonseca,CPI,16170,421,2.82152670732524,5,6,16,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493625,Martha D' Souza,IND,16173,198,1.32698880772066,6,6,16,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493626,Narcinva Surya Salgaonkar,IND,16173,76,0.509349239327122,7,6,16,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493675,Shripad Yesso Naik,BJP,16167,7627,55.8182084309133,1,6,17,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493676,Jitendra Raghuraj Deshprabhu,NCP,16174,4960,36.2997658079625,2,6,17,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493677,Christopher Fonseca,CPI,16170,512,3.74707259953161,3,6,17,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493678,Raut Pandurang Dattaram,MAG,16175,249,1.82230679156908,4,6,17,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493679,Upendra Chandru Gaonkar,SHS,16176,166,1.21487119437939,5,6,17,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493680,Martha D' Souza,IND,16173,91,0.665983606557377,6,6,17,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493681,Narcinva Surya Salgaonkar,IND,16173,59,0.431791569086651,7,6,17,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493729,Jitendra Raghuraj Deshprabhu,NCP,16174,11504,63.8295511291128,1,6,18,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493730,Shripad Yesso Naik,BJP,16167,4987,27.6701991899239,2,6,18,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493731,Christopher Fonseca,CPI,16170,518,2.87410530988181,3,6,18,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493732,Martha D' Souza,IND,16173,320,1.77550907174166,4,6,18,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493733,Raut Pandurang Dattaram,MAG,16175,296,1.64234589136103,5,6,18,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493734,Upendra Chandru Gaonkar,SHS,16176,207,1.14853243078288,6,6,18,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493735,Narcinva Surya Salgaonkar,IND,16173,191,1.0597569771958,7,6,18,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493776,Jitendra Raghuraj Deshprabhu,NCP,16174,9933,61.5923606374403,1,6,19,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493777,Shripad Yesso Naik,BJP,16167,4928,30.55745023873,2,6,19,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493778,Christopher Fonseca,CPI,16170,460,2.85235939728405,3,6,19,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493779,Martha D' Souza,IND,16173,266,1.64940782538599,4,6,19,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493780,Raut Pandurang Dattaram,MAG,16175,239,1.48198673032802,5,6,19,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493781,Upendra Chandru Gaonkar,SHS,16176,165,1.02312891424319,6,6,19,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493782,Narcinva Surya Salgaonkar,IND,16173,136,0.84330625658833,7,6,19,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493826,Shripad Yesso Naik,BJP,16167,9073,61.175915312521,1,6,20,GA,Shripad Yesso Naik,BJP,,,,,False,6,2009,GE
+1493827,Jitendra Raghuraj Deshprabhu,NCP,16174,4224,28.4808846335378,2,6,20,GA,Jitendra Raghuraj Deshprabhu,NCP,,,,,False,6,2009,GE
+1493828,Christopher Fonseca,CPI,16170,610,4.11300654035466,3,6,20,GA,Christopher Fonseca,CPI,,,,,False,6,2009,GE
+1493829,Raut Pandurang Dattaram,MAG,16175,496,3.34434630166543,4,6,20,GA,Raut Pandurang Dattaram,MAG,,,,,False,6,2009,GE
+1493830,Upendra Chandru Gaonkar,SHS,16176,192,1.29458566516081,5,6,20,GA,Upendra Chandru Gaonkar,SHS,,,,,False,6,2009,GE
+1493831,Martha D' Souza,IND,16173,166,1.11927718967028,6,6,20,GA,Martha D' Souza,IND,,,,,False,6,2009,GE
+1493832,Narcinva Surya Salgaonkar,IND,16173,70,0.471984357089879,7,6,20,GA,Narcinva Surya Salgaonkar,IND,,,,,False,6,2009,GE
+1493881,Adv. Narendra Keshav Sawaikar,BJP,16167,8278,54.0480543222773,1,6,21,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1493882,Cosme Francisco Caitano Sardinha,INC,16168,6241,40.7482371376338,2,6,21,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1493883,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,262,1.71062940715591,3,6,21,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1493884,Matanhy Saldanha,UGDP,16187,164,1.0707756594411,4,6,21,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1493885,Mulla Salim,IND,16173,132,0.861843823452598,5,6,21,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1493886,Hamza Khan,IND,16173,82,0.535387829720553,6,6,21,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1493887,Salunke Smita Praveen,IND,16173,56,0.36563071297989,7,6,21,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1493888,Rohidas Harichandra Borkar,SGF,16200,43,0.280752154609558,8,6,21,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1493889,Francisco Antonio Joao De,IND,16173,26,0.169757116740663,9,6,21,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1493890,Dias Jawahar,IND,16173,18,0.117524157743536,10,6,21,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1493891,Derick Dias,IND,16173,14,0.0914076782449725,11,6,21,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1493942,Cosme Francisco Caitano Sardinha,INC,16168,7701,47.6311232063334,1,6,22,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1493943,Adv. Narendra Keshav Sawaikar,BJP,16167,7597,46.987877288471,2,6,22,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1493944,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,285,1.76274121721919,3,6,22,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1493945,Hamza Khan,IND,16173,167,1.03290450272142,4,6,22,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1493946,Matanhy Saldanha,UGDP,16187,156,0.964868876793666,5,6,22,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1493947,Salunke Smita Praveen,IND,16173,98,0.606135576447303,6,6,22,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1493948,Rohidas Harichandra Borkar,SGF,16200,52,0.321622958931222,7,6,22,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1493949,Mulla Salim,IND,16173,35,0.216476991588322,8,6,22,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1493950,Dias Jawahar,IND,16173,31,0.191736763978228,9,6,22,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1493951,Derick Dias,IND,16173,24,0.148441365660564,10,6,22,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1493952,Francisco Antonio Joao De,IND,16173,22,0.136071251855517,11,6,22,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494003,Adv. Narendra Keshav Sawaikar,BJP,16167,9157,70.5144001232096,1,6,23,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494004,Cosme Francisco Caitano Sardinha,INC,16168,2911,22.4164484829816,2,6,23,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494005,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,381,2.93392884645002,3,6,23,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494006,Hamza Khan,IND,16173,147,1.13198829508701,4,6,23,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494007,Matanhy Saldanha,UGDP,16187,113,0.870167873094101,5,6,23,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494008,Salunke Smita Praveen,IND,16173,102,0.785461265978746,6,6,23,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494009,Mulla Salim,IND,16173,49,0.377329431695672,7,6,23,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494010,Rohidas Harichandra Borkar,SGF,16200,42,0.323425227167719,8,6,23,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494011,Francisco Antonio Joao De,IND,16173,32,0.246419220699214,9,6,23,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494012,Derick Dias,IND,16173,30,0.231018019405513,10,6,23,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494013,Dias Jawahar,IND,16173,22,0.169413214230709,11,6,23,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494060,Adv. Narendra Keshav Sawaikar,BJP,16167,5400,51.7439632042928,1,6,24,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494061,Cosme Francisco Caitano Sardinha,INC,16168,4374,41.9126101954771,2,6,24,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494062,Matanhy Saldanha,UGDP,16187,241,2.30931391337677,3,6,24,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494063,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,163,1.56190111153698,4,6,24,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494064,Hamza Khan,IND,16173,81,0.776159448064392,5,6,24,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494065,Salunke Smita Praveen,IND,16173,49,0.469528555001916,6,6,24,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494066,Rohidas Harichandra Borkar,SGF,16200,30,0.287466462246071,7,6,24,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494067,Dias Jawahar,IND,16173,29,0.277884246837868,8,6,24,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494068,Mulla Salim,IND,16173,26,0.249137600613261,9,6,24,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494069,Derick Dias,IND,16173,24,0.229973169796857,10,6,24,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494070,Francisco Antonio Joao De,IND,16173,19,0.182062092755845,11,6,24,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494123,Adv. Narendra Keshav Sawaikar,BJP,16167,6349,47.1974427594409,1,6,25,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494124,Cosme Francisco Caitano Sardinha,INC,16168,6329,47.0487659827534,2,6,25,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494125,Matanhy Saldanha,UGDP,16187,248,1.84359203092476,3,6,25,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494126,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,205,1.52393696104668,4,6,25,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494127,Hamza Khan,IND,16173,110,0.817722271781147,5,6,25,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494128,Salunke Smita Praveen,IND,16173,60,0.446030330062444,6,6,25,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494129,Rohidas Harichandra Borkar,SGF,16200,37,0.27505203687184,7,6,25,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494130,Mulla Salim,IND,16173,33,0.245316681534344,8,6,25,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494131,Dias Jawahar,IND,16173,31,0.230449003865596,9,6,25,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494132,Derick Dias,IND,16173,29,0.215581326196848,10,6,25,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494133,Francisco Antonio Joao De,IND,16173,21,0.156110615521855,11,6,25,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494193,Cosme Francisco Caitano Sardinha,INC,16168,4659,47.3427497205568,1,6,26,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494194,Adv. Narendra Keshav Sawaikar,BJP,16167,4345,44.1520170714358,2,6,26,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494195,Matanhy Saldanha,UGDP,16187,485,4.92836093892897,3,6,26,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494196,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,142,1.44294279036683,4,6,26,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494197,Hamza Khan,IND,16173,78,0.792602377807133,5,6,26,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494198,Salunke Smita Praveen,IND,16173,40,0.406462757849812,6,6,26,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494199,Mulla Salim,IND,16173,26,0.264200792602377,7,6,26,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494200,Rohidas Harichandra Borkar,SGF,16200,25,0.254039223656132,8,6,26,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494201,Derick Dias,IND,16173,17,0.17274667208617,9,6,26,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494202,Francisco Antonio Joao De,IND,16173,14,0.142261965247434,10,6,26,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494203,Dias Jawahar,IND,16173,10,0.101615689462453,11,6,26,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494255,Cosme Francisco Caitano Sardinha,INC,16168,6584,45.6651407962269,1,6,27,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494256,Adv. Narendra Keshav Sawaikar,BJP,16167,4016,27.8540712997641,2,6,27,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494257,Matanhy Saldanha,UGDP,16187,2860,19.8363157164655,3,6,27,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494258,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,507,3.5164377861007,4,6,27,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494259,Hamza Khan,IND,16173,148,1.02649465945346,5,6,27,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494260,Rohidas Harichandra Borkar,SGF,16200,80,0.554861978082951,6,6,27,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494261,Mulla Salim,IND,16173,55,0.381467609932029,7,6,27,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494262,Salunke Smita Praveen,IND,16173,54,0.374531835205992,8,6,27,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494263,Dias Jawahar,IND,16173,41,0.284366763767512,9,6,27,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494264,Derick Dias,IND,16173,38,0.263559439589402,10,6,27,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494265,Francisco Antonio Joao De,IND,16173,35,0.242752115411291,11,6,27,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494321,Cosme Francisco Caitano Sardinha,INC,16168,8956,70.1770882306848,1,6,28,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494322,Matanhy Saldanha,UGDP,16187,1745,13.6734054223475,2,6,28,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494323,Adv. Narendra Keshav Sawaikar,BJP,16167,1524,11.9417019275975,3,6,28,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494324,Hamza Khan,IND,16173,149,1.16752860053283,4,6,28,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494325,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,132,1.03432063939821,5,6,28,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494326,Salunke Smita Praveen,IND,16173,68,0.532831844538473,6,6,28,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494327,Rohidas Harichandra Borkar,SGF,16200,67,0.52499608211879,7,6,28,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494328,Francisco Antonio Joao De,IND,16173,34,0.266415922269236,8,6,28,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494329,Mulla Salim,IND,16173,31,0.242908635010186,9,6,28,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494330,Dias Jawahar,IND,16173,28,0.219401347751136,10,6,28,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494331,Derick Dias,IND,16173,28,0.219401347751136,10,6,28,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494381,Cosme Francisco Caitano Sardinha,INC,16168,7978,58.3443030568962,1,6,29,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494382,Adv. Narendra Keshav Sawaikar,BJP,16167,4169,30.488518356004,2,6,29,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494383,Matanhy Saldanha,UGDP,16187,924,6.75734971478718,3,6,29,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494384,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,148,1.08234605821266,4,6,29,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494385,Rohidas Harichandra Borkar,SGF,16200,135,0.987275120666959,5,6,29,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494386,Hamza Khan,IND,16173,94,0.687436009945882,6,6,29,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494387,Salunke Smita Praveen,IND,16173,85,0.621617668568085,7,6,29,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494388,Dias Jawahar,IND,16173,52,0.380283750182828,8,6,29,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494389,Mulla Salim,IND,16173,38,0.277899663595144,9,6,29,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494390,Derick Dias,IND,16173,26,0.190141875091414,10,6,29,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494391,Francisco Antonio Joao De,IND,16173,25,0.182828726049436,11,6,29,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494441,Cosme Francisco Caitano Sardinha,INC,16168,6109,47.184675986715,1,6,30,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494442,Adv. Narendra Keshav Sawaikar,BJP,16167,5736,44.3036996987719,2,6,30,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494443,Matanhy Saldanha,UGDP,16187,746,5.7619525758863,3,6,30,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494444,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,144,1.11222677068046,4,6,30,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494445,Salunke Smita Praveen,IND,16173,72,0.556113385340233,5,6,30,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494446,Hamza Khan,IND,16173,42,0.324399474781802,6,6,30,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494447,Rohidas Harichandra Borkar,SGF,16200,29,0.223990113539816,7,6,30,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494448,Derick Dias,IND,16173,19,0.146752143353672,8,6,30,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494449,Dias Jawahar,IND,16173,18,0.139028346335058,9,6,30,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494450,Mulla Salim,IND,16173,18,0.139028346335058,9,6,30,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494451,Francisco Antonio Joao De,IND,16173,14,0.1081331582606,11,6,30,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494503,Cosme Francisco Caitano Sardinha,INC,16168,8247,51.303265940902,1,6,31,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494504,Adv. Narendra Keshav Sawaikar,BJP,16167,6790,42.2395023328149,2,6,31,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494505,Matanhy Saldanha,UGDP,16187,560,3.48367029548989,3,6,31,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494506,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,121,0.752721617418351,4,6,31,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494507,Hamza Khan,IND,16173,117,0.727838258164852,5,6,31,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494508,Salunke Smita Praveen,IND,16173,97,0.603421461897356,6,6,31,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494509,Dias Jawahar,IND,16173,47,0.292379471228615,7,6,31,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494510,Mulla Salim,IND,16173,27,0.167962674961119,8,6,31,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494511,Rohidas Harichandra Borkar,SGF,16200,25,0.15552099533437,9,6,31,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494513,Francisco Antonio Joao De,IND,16173,22,0.136858475894245,10,6,31,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494512,Derick Dias,IND,16173,22,0.136858475894245,10,6,31,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494559,Cosme Francisco Caitano Sardinha,INC,16168,6291,56.7267808836789,1,6,32,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494560,Matanhy Saldanha,UGDP,16187,2678,24.1478809738503,2,6,32,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494561,Adv. Narendra Keshav Sawaikar,BJP,16167,1720,15.5094679891794,3,6,32,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494562,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,114,1.02795311091073,4,6,32,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494563,Hamza Khan,IND,16173,64,0.577096483318304,5,6,32,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494564,Rohidas Harichandra Borkar,SGF,16200,61,0.550045085662759,6,6,32,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494565,Salunke Smita Praveen,IND,16173,51,0.459873760144274,7,6,32,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494566,Dias Jawahar,IND,16173,38,0.342651036970243,8,6,32,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494567,Derick Dias,IND,16173,37,0.333633904418394,9,6,32,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494568,Francisco Antonio Joao De,IND,16173,18,0.162308385933273,10,6,32,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494569,Mulla Salim,IND,16173,18,0.162308385933273,10,6,32,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494620,Cosme Francisco Caitano Sardinha,INC,16168,4909,44.3450767841011,1,6,33,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494621,Adv. Narendra Keshav Sawaikar,BJP,16167,4816,43.5049683830171,2,6,33,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494622,Matanhy Saldanha,UGDP,16187,928,8.38301716350496,3,6,33,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494623,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,106,0.95754290876242,4,6,33,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494624,Salunke Smita Praveen,IND,16173,79,0.71364046973803,5,6,33,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494625,Hamza Khan,IND,16173,67,0.60523938572719,6,6,33,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494626,Dias Jawahar,IND,16173,54,0.48780487804878,7,6,33,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494627,Rohidas Harichandra Borkar,SGF,16200,49,0.44263775971093,8,6,33,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494628,Mulla Salim,IND,16173,29,0.26196928635953,9,6,33,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494629,Derick Dias,IND,16173,20,0.1806684733514,10,6,33,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494630,Francisco Antonio Joao De,IND,16173,13,0.11743450767841,11,6,33,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494682,Cosme Francisco Caitano Sardinha,INC,16168,7018,54.2852722772277,1,6,34,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494683,Adv. Narendra Keshav Sawaikar,BJP,16167,4030,31.1726485148514,2,6,34,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494684,Matanhy Saldanha,UGDP,16187,1298,10.0402227722772,3,6,34,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494685,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,144,1.11386138613861,4,6,34,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494686,Hamza Khan,IND,16173,112,0.866336633663366,5,6,34,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494687,Salunke Smita Praveen,IND,16173,104,0.804455445544554,6,6,34,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494688,Derick Dias,IND,16173,76,0.587871287128712,7,6,34,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494689,Rohidas Harichandra Borkar,SGF,16200,43,0.332611386138613,8,6,34,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494690,Dias Jawahar,IND,16173,41,0.31714108910891,9,6,34,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494691,Francisco Antonio Joao De,IND,16173,37,0.286200495049504,10,6,34,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494692,Mulla Salim,IND,16173,25,0.193378712871287,11,6,34,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494749,Cosme Francisco Caitano Sardinha,INC,16168,9601,65.8143679736769,1,6,35,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494750,Adv. Narendra Keshav Sawaikar,BJP,16167,2850,19.5366054291198,2,6,35,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494751,Matanhy Saldanha,UGDP,16187,1415,9.69975322182615,3,6,35,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494752,Hamza Khan,IND,16173,159,1.08993693446668,4,6,35,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494753,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,158,1.0830819851933,5,6,35,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494754,Salunke Smita Praveen,IND,16173,137,0.939128050452426,6,6,35,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494755,Rohidas Harichandra Borkar,SGF,16200,81,0.555250891143405,7,6,35,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494756,Derick Dias,IND,16173,57,0.390732108582396,8,6,35,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494757,Dias Jawahar,IND,16173,50,0.342747463668768,9,6,35,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494758,Mulla Salim,IND,16173,46,0.315327666575267,10,6,35,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494759,Francisco Antonio Joao De,IND,16173,34,0.233068275294762,11,6,35,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494813,Cosme Francisco Caitano Sardinha,INC,16168,7712,47.8441590669396,1,6,36,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494814,Adv. Narendra Keshav Sawaikar,BJP,16167,6348,39.3820956635026,2,6,36,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494815,Matanhy Saldanha,UGDP,16187,944,5.85644270736398,3,6,36,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494816,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,300,1.86115764005211,4,6,36,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494817,Hamza Khan,IND,16173,290,1.79911905205037,5,6,36,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494818,Salunke Smita Praveen,IND,16173,162,1.00502512562814,6,6,36,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494819,Rohidas Harichandra Borkar,SGF,16200,94,0.583162727216328,7,6,36,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494820,Mulla Salim,IND,16173,75,0.465289410013028,8,6,36,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494821,Derick Dias,IND,16173,70,0.434270116012159,9,6,36,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494822,Dias Jawahar,IND,16173,69,0.428066257211985,10,6,36,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494823,Francisco Antonio Joao De,IND,16173,55,0.341212234009553,11,6,36,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494872,Adv. Narendra Keshav Sawaikar,BJP,16167,6916,55.1691129546904,1,6,37,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494873,Cosme Francisco Caitano Sardinha,INC,16168,4891,39.0156349712827,2,6,37,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494874,Matanhy Saldanha,UGDP,16187,304,2.42501595405232,3,6,37,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494875,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,164,1.30823229100191,4,6,37,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494876,Salunke Smita Praveen,IND,16173,76,0.606253988513082,5,6,37,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494877,Hamza Khan,IND,16173,67,0.534460753031269,6,6,37,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494878,Rohidas Harichandra Borkar,SGF,16200,35,0.279195915762603,7,6,37,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494881,Francisco Antonio Joao De,IND,16173,21,0.167517549457562,8,6,37,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494879,Dias Jawahar,IND,16173,21,0.167517549457562,8,6,37,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494880,Derick Dias,IND,16173,21,0.167517549457562,8,6,37,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494882,Mulla Salim,IND,16173,20,0.159540523292916,11,6,37,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494926,Adv. Narendra Keshav Sawaikar,BJP,16167,8317,62.2716382150344,1,6,38,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494927,Cosme Francisco Caitano Sardinha,INC,16168,4014,30.0539083557951,2,6,38,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494928,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,457,3.42168313866427,3,6,38,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494929,Hamza Khan,IND,16173,163,1.22042527702905,4,6,38,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494930,Salunke Smita Praveen,IND,16173,114,0.853548966756513,5,6,38,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494931,Matanhy Saldanha,UGDP,16187,78,0.584007187780772,6,6,38,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494932,Rohidas Harichandra Borkar,SGF,16200,72,0.539083557951482,7,6,38,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494933,Mulla Salim,IND,16173,44,0.329439952081461,8,6,38,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494934,Francisco Antonio Joao De,IND,16173,36,0.269541778975741,9,6,38,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1494935,Derick Dias,IND,16173,35,0.262054507337526,10,6,38,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494936,Dias Jawahar,IND,16173,26,0.19466906259359,11,6,38,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494984,Adv. Narendra Keshav Sawaikar,BJP,16167,7813,55.7553700135588,1,6,39,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1494985,Cosme Francisco Caitano Sardinha,INC,16168,5083,36.2734603582387,2,6,39,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1494986,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,308,2.1979590380361,3,6,39,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1494987,Matanhy Saldanha,UGDP,16187,242,1.7269678155998,4,6,39,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1494988,Hamza Khan,IND,16173,207,1.47719974309569,5,6,39,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1494989,Salunke Smita Praveen,IND,16173,143,1.02048098194533,6,6,39,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1494990,Mulla Salim,IND,16173,65,0.463854991793334,7,6,39,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1494991,Rohidas Harichandra Borkar,SGF,16200,55,0.39249268536359,8,6,39,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1494992,Derick Dias,IND,16173,41,0.292585456361949,9,6,39,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1494993,Dias Jawahar,IND,16173,32,0.22835938057518,10,6,39,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1494994,Francisco Antonio Joao De,IND,16173,24,0.171269535431385,11,6,39,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE
+1495049,Adv. Narendra Keshav Sawaikar,BJP,16167,8645,48.236803928133,1,6,40,GA,Adv. Narendra Keshav Sawaikar,BJP,,,,,False,6,2009,GE
+1495050,Cosme Francisco Caitano Sardinha,INC,16168,7793,43.4828702153777,2,6,40,GA,Cosme Francisco Caitano Sardinha,INC,,,,,False,6,2009,GE
+1495051,Matanhy Saldanha,UGDP,16187,593,3.3087825019529,3,6,40,GA,Matanhy Saldanha,UGDP,,,,,False,6,2009,GE
+1495052,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,16170,321,1.79109474389019,4,6,40,GA,Adv. Raju Mangeshkar Alias Rajendra Naik,CPI,,,,,False,6,2009,GE
+1495053,Hamza Khan,IND,16173,192,1.07130900569132,5,6,40,GA,Hamza Khan,IND,,,,,False,6,2009,GE
+1495054,Salunke Smita Praveen,IND,16173,124,0.69188706617565,6,6,40,GA,Salunke Smita Praveen,IND,,,,,False,6,2009,GE
+1495055,Rohidas Harichandra Borkar,SGF,16200,61,0.340363798683182,7,6,40,GA,Rohidas Harichandra Borkar,SGF,,,,,False,6,2009,GE
+1495056,Derick Dias,IND,16173,51,0.284566454636759,8,6,40,GA,Derick Dias,IND,,,,,False,6,2009,GE
+1495057,Mulla Salim,IND,16173,49,0.273406985827474,9,6,40,GA,Mulla Salim,IND,,,,,False,6,2009,GE
+1495058,Dias Jawahar,IND,16173,48,0.267827251422832,10,6,40,GA,Dias Jawahar,IND,,,,,False,6,2009,GE
+1495059,Francisco Antonio Joao De,IND,16173,45,0.251088048208905,11,6,40,GA,Francisco Antonio Joao De,IND,,,,,False,6,2009,GE

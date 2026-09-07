@@ -1,0 +1,751 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1781496,Subal Bhowmik,INC,22917,10664,37.26,1,37,1,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781497,Brishaketu Debbarma,IPFT,22923,6210,21.7,2,37,1,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781498,Pratima Bhoumik,BJP,22916,4801,16.77,3,37,1,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781499,Sankar Prasad Datta,CPIM,22924,4787,16.73,4,37,1,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781500,Arun Kumar Bhaumik,SUCI(C),22925,431,1.51,5,37,1,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781501,Nota,NOTA,22918,352,1.23,6,37,1,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781502,Kabrabam Dhirendra Singha,TRIPP,22926,272,0.95,7,37,1,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781503,Jayki Murasing,APoI,22927,269,0.94,8,37,1,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781504,Maman Khan,AITC,22928,192,0.67,9,37,1,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781505,Subal Sarkar,IND,22919,181,0.63,10,37,1,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781506,Brajalal Debnath,IND,22919,126,0.44,11,37,1,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781507,Pradip Chakraborty,IND,22919,126,0.44,11,37,1,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781508,Narayan Chandra Dey,IND,22919,124,0.43,13,37,1,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781509,Prabir Debnath,AMB,22929,85,0.3,14,37,1,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781510,Pratima Bhoumik,BJP,22916,19479,54.09,1,37,2,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781511,Subal Bhowmik,INC,22917,9420,26.16,2,37,2,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781512,Sankar Prasad Datta,CPIM,22924,4211,11.69,3,37,2,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781513,Brishaketu Debbarma,IPFT,22923,1213,3.37,4,37,2,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781514,Jayki Murasing,APoI,22927,353,0.98,5,37,2,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781515,Nota,NOTA,22918,316,0.88,6,37,2,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781516,Maman Khan,AITC,22928,241,0.67,7,37,2,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781517,Prabir Debnath,AMB,22929,166,0.46,8,37,2,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781518,Arun Kumar Bhaumik,SUCI(C),22925,132,0.37,9,37,2,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781519,Pradip Chakraborty,IND,22919,119,0.33,10,37,2,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781520,Subal Sarkar,IND,22919,107,0.3,11,37,2,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781521,Brajalal Debnath,IND,22919,102,0.28,12,37,2,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781522,Narayan Chandra Dey,IND,22919,79,0.22,13,37,2,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781523,Kabrabam Dhirendra Singha,TRIPP,22926,75,0.21,14,37,2,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781524,Pratima Bhoumik,BJP,22916,17872,48.36,1,37,3,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781525,Subal Bhowmik,INC,22917,9245,25.02,2,37,3,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781526,Sankar Prasad Datta,CPIM,22924,7623,20.63,3,37,3,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781527,Brishaketu Debbarma,IPFT,22923,418,1.13,4,37,3,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781528,Nota,NOTA,22918,409,1.11,5,37,3,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781529,Maman Khan,AITC,22928,292,0.79,6,37,3,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781530,Jayki Murasing,APoI,22927,244,0.66,7,37,3,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781531,Pradip Chakraborty,IND,22919,169,0.46,8,37,3,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781532,Subal Sarkar,IND,22919,168,0.45,9,37,3,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781533,Prabir Debnath,AMB,22929,139,0.38,10,37,3,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781534,Brajalal Debnath,IND,22919,124,0.34,11,37,3,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781535,Arun Kumar Bhaumik,SUCI(C),22925,112,0.3,12,37,3,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781536,Kabrabam Dhirendra Singha,TRIPP,22926,71,0.19,13,37,3,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781537,Narayan Chandra Dey,IND,22919,69,0.19,14,37,3,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781538,Pratima Bhoumik,BJP,22916,19516,54.1,1,37,4,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781539,Subal Bhowmik,INC,22917,8025,22.24,2,37,4,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781540,Sankar Prasad Datta,CPIM,22924,6756,18.73,3,37,4,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781541,Nota,NOTA,22918,354,0.98,4,37,4,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781542,Maman Khan,AITC,22928,332,0.92,5,37,4,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781543,Brishaketu Debbarma,IPFT,22923,228,0.63,6,37,4,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781544,Pradip Chakraborty,IND,22919,206,0.57,7,37,4,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781545,Jayki Murasing,APoI,22927,205,0.57,8,37,4,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781546,Subal Sarkar,IND,22919,118,0.33,9,37,4,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781547,Brajalal Debnath,IND,22919,87,0.24,10,37,4,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781548,Prabir Debnath,AMB,22929,78,0.22,11,37,4,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781549,Arun Kumar Bhaumik,SUCI(C),22925,77,0.21,12,37,4,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781550,Kabrabam Dhirendra Singha,TRIPP,22926,51,0.14,13,37,4,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781551,Narayan Chandra Dey,IND,22919,44,0.12,14,37,4,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781552,Pratima Bhoumik,BJP,22916,22976,62.68,1,37,5,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781553,Subal Bhowmik,INC,22917,6648,18.14,2,37,5,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781554,Sankar Prasad Datta,CPIM,22924,4384,11.96,3,37,5,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781555,Brishaketu Debbarma,IPFT,22923,1205,3.29,4,37,5,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781556,Nota,NOTA,22918,404,1.1,5,37,5,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781557,Maman Khan,AITC,22928,247,0.67,6,37,5,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781558,Jayki Murasing,APoI,22927,190,0.52,7,37,5,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781559,Subal Sarkar,IND,22919,151,0.41,8,37,5,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781560,Brajalal Debnath,IND,22919,112,0.31,9,37,5,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781561,Arun Kumar Bhaumik,SUCI(C),22925,109,0.3,10,37,5,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781562,Pradip Chakraborty,IND,22919,93,0.25,11,37,5,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781563,Narayan Chandra Dey,IND,22919,53,0.14,12,37,5,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781564,Prabir Debnath,AMB,22929,50,0.14,13,37,5,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781565,Kabrabam Dhirendra Singha,TRIPP,22926,36,0.1,14,37,5,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781566,Pratima Bhoumik,BJP,22916,18783,45.89,1,37,6,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781567,Subal Bhowmik,INC,22917,10955,26.76,2,37,6,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781568,Sankar Prasad Datta,CPIM,22924,9355,22.85,3,37,6,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781569,Nota,NOTA,22918,418,1.02,4,37,6,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781570,Maman Khan,AITC,22928,342,0.84,5,37,6,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781571,Brishaketu Debbarma,IPFT,22923,270,0.66,6,37,6,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781572,Jayki Murasing,APoI,22927,168,0.41,7,37,6,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781573,Subal Sarkar,IND,22919,128,0.31,8,37,6,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781574,Pradip Chakraborty,IND,22919,107,0.26,9,37,6,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781575,Brajalal Debnath,IND,22919,92,0.22,10,37,6,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781576,Prabir Debnath,AMB,22929,91,0.22,11,37,6,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781577,Kabrabam Dhirendra Singha,TRIPP,22926,89,0.22,12,37,6,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781578,Arun Kumar Bhaumik,SUCI(C),22925,85,0.21,13,37,6,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781579,Narayan Chandra Dey,IND,22919,49,0.12,14,37,6,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781580,Pratima Bhoumik,BJP,22916,17096,51.99,1,37,7,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781581,Subal Bhowmik,INC,22917,8222,25.0,2,37,7,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781582,Sankar Prasad Datta,CPIM,22924,6055,18.41,3,37,7,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781583,Nota,NOTA,22918,394,1.2,4,37,7,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781584,Maman Khan,AITC,22928,279,0.85,5,37,7,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781585,Brishaketu Debbarma,IPFT,22923,250,0.76,6,37,7,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781586,Jayki Murasing,APoI,22927,127,0.39,7,37,7,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781587,Pradip Chakraborty,IND,22919,94,0.29,8,37,7,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781588,Subal Sarkar,IND,22919,86,0.26,9,37,7,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781589,Arun Kumar Bhaumik,SUCI(C),22925,64,0.19,10,37,7,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781590,Prabir Debnath,AMB,22929,64,0.19,10,37,7,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781591,Brajalal Debnath,IND,22919,63,0.19,12,37,7,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781592,Narayan Chandra Dey,IND,22919,54,0.16,13,37,7,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781593,Kabrabam Dhirendra Singha,TRIPP,22926,37,0.11,14,37,7,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781594,Pratima Bhoumik,BJP,22916,18406,52.55,1,37,8,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781595,Subal Bhowmik,INC,22917,8675,24.77,2,37,8,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781596,Sankar Prasad Datta,CPIM,22924,6785,19.37,3,37,8,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781597,Nota,NOTA,22918,420,1.2,4,37,8,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781598,Maman Khan,AITC,22928,214,0.61,5,37,8,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781599,Brishaketu Debbarma,IPFT,22923,126,0.36,6,37,8,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781600,Pradip Chakraborty,IND,22919,70,0.2,7,37,8,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781601,Arun Kumar Bhaumik,SUCI(C),22925,66,0.19,8,37,8,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781602,Prabir Debnath,AMB,22929,55,0.16,9,37,8,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781604,Subal Sarkar,IND,22919,54,0.15,10,37,8,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781603,Jayki Murasing,APoI,22927,54,0.15,10,37,8,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781605,Brajalal Debnath,IND,22919,43,0.12,12,37,8,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781606,Kabrabam Dhirendra Singha,TRIPP,22926,38,0.11,13,37,8,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781607,Narayan Chandra Dey,IND,22919,20,0.06,14,37,8,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781608,Pratima Bhoumik,BJP,22916,16632,51.71,1,37,9,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781609,Subal Bhowmik,INC,22917,8333,25.91,2,37,9,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781610,Sankar Prasad Datta,CPIM,22924,6091,18.94,3,37,9,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781611,Nota,NOTA,22918,381,1.18,4,37,9,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781612,Maman Khan,AITC,22928,179,0.56,5,37,9,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781613,Brishaketu Debbarma,IPFT,22923,135,0.42,6,37,9,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781614,Arun Kumar Bhaumik,SUCI(C),22925,75,0.23,7,37,9,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781615,Prabir Debnath,AMB,22929,70,0.22,8,37,9,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781616,Subal Sarkar,IND,22919,69,0.21,9,37,9,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781617,Brajalal Debnath,IND,22919,55,0.17,10,37,9,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781618,Pradip Chakraborty,IND,22919,52,0.16,11,37,9,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781619,Jayki Murasing,APoI,22927,34,0.11,12,37,9,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781620,Kabrabam Dhirendra Singha,TRIPP,22926,33,0.1,13,37,9,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781621,Narayan Chandra Dey,IND,22919,28,0.09,14,37,9,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781622,Pratima Bhoumik,BJP,22916,21862,58.87,1,37,10,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781623,Subal Bhowmik,INC,22917,7525,20.26,2,37,10,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781624,Sankar Prasad Datta,CPIM,22924,5115,13.77,3,37,10,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781625,Brishaketu Debbarma,IPFT,22923,1269,3.42,4,37,10,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781626,Nota,NOTA,22918,355,0.96,5,37,10,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781627,Maman Khan,AITC,22928,264,0.71,6,37,10,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781628,Jayki Murasing,APoI,22927,202,0.54,7,37,10,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781629,Subal Sarkar,IND,22919,118,0.32,8,37,10,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781630,Arun Kumar Bhaumik,SUCI(C),22925,102,0.27,9,37,10,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781631,Brajalal Debnath,IND,22919,95,0.26,10,37,10,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781632,Pradip Chakraborty,IND,22919,81,0.22,11,37,10,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781633,Prabir Debnath,AMB,22929,56,0.15,12,37,10,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781634,Narayan Chandra Dey,IND,22919,48,0.13,13,37,10,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781635,Kabrabam Dhirendra Singha,TRIPP,22926,41,0.11,14,37,10,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781636,Subal Bhowmik,INC,22917,15213,45.59,1,37,11,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781637,Pratima Bhoumik,BJP,22916,6180,18.52,2,37,11,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781638,Brishaketu Debbarma,IPFT,22923,5336,15.99,3,37,11,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781639,Sankar Prasad Datta,CPIM,22924,4560,13.67,4,37,11,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781640,Arun Kumar Bhaumik,SUCI(C),22925,394,1.18,5,37,11,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781641,Nota,NOTA,22918,342,1.02,6,37,11,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781642,Jayki Murasing,APoI,22927,299,0.9,7,37,11,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781643,Maman Khan,AITC,22928,221,0.66,8,37,11,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781644,Subal Sarkar,IND,22919,176,0.53,9,37,11,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781645,Pradip Chakraborty,IND,22919,149,0.45,10,37,11,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781646,Brajalal Debnath,IND,22919,142,0.43,11,37,11,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781647,Narayan Chandra Dey,IND,22919,138,0.41,12,37,11,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781648,Prabir Debnath,AMB,22929,110,0.33,13,37,11,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781649,Kabrabam Dhirendra Singha,TRIPP,22926,106,0.32,14,37,11,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781650,Subal Bhowmik,INC,22917,14111,46.9,1,37,12,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781651,Brishaketu Debbarma,IPFT,22923,8332,27.69,2,37,12,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781652,Sankar Prasad Datta,CPIM,22924,3072,10.21,3,37,12,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781653,Pratima Bhoumik,BJP,22916,2155,7.16,4,37,12,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781654,Arun Kumar Bhaumik,SUCI(C),22925,562,1.87,5,37,12,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781655,Jayki Murasing,APoI,22927,353,1.17,6,37,12,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781656,Nota,NOTA,22918,344,1.14,7,37,12,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781657,Subal Sarkar,IND,22919,197,0.65,8,37,12,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781658,Maman Khan,AITC,22928,196,0.65,9,37,12,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781659,Brajalal Debnath,IND,22919,180,0.6,10,37,12,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781660,Narayan Chandra Dey,IND,22919,160,0.53,11,37,12,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781661,Kabrabam Dhirendra Singha,TRIPP,22926,145,0.48,12,37,12,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781662,Prabir Debnath,AMB,22929,143,0.48,13,37,12,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781663,Pradip Chakraborty,IND,22919,137,0.46,14,37,12,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781664,Pratima Bhoumik,BJP,22916,25848,55.22,1,37,13,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781665,Sankar Prasad Datta,CPIM,22924,10196,21.78,2,37,13,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781666,Subal Bhowmik,INC,22917,8451,18.06,3,37,13,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781667,Nota,NOTA,22918,534,1.14,4,37,13,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781668,Maman Khan,AITC,22928,388,0.83,5,37,13,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781669,Brishaketu Debbarma,IPFT,22923,343,0.73,6,37,13,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781670,Jayki Murasing,APoI,22927,219,0.47,7,37,13,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781671,Subal Sarkar,IND,22919,212,0.45,8,37,13,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781672,Brajalal Debnath,IND,22919,160,0.34,9,37,13,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781673,Pradip Chakraborty,IND,22919,149,0.32,10,37,13,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781674,Prabir Debnath,AMB,22929,92,0.2,11,37,13,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781675,Narayan Chandra Dey,IND,22919,78,0.17,12,37,13,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781676,Arun Kumar Bhaumik,SUCI(C),22925,72,0.15,13,37,13,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781677,Kabrabam Dhirendra Singha,TRIPP,22926,64,0.14,14,37,13,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781678,Pratima Bhoumik,BJP,22916,28140,58.05,1,37,14,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781679,Sankar Prasad Datta,CPIM,22924,9733,20.08,2,37,14,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781680,Subal Bhowmik,INC,22917,8499,17.53,3,37,14,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781681,Nota,NOTA,22918,526,1.09,4,37,14,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781682,Brishaketu Debbarma,IPFT,22923,302,0.62,5,37,14,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781683,Maman Khan,AITC,22928,281,0.58,6,37,14,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781684,Jayki Murasing,APoI,22927,207,0.43,7,37,14,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781685,Subal Sarkar,IND,22919,157,0.32,8,37,14,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781686,Pradip Chakraborty,IND,22919,152,0.31,9,37,14,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781687,Arun Kumar Bhaumik,SUCI(C),22925,128,0.26,10,37,14,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781688,Brajalal Debnath,IND,22919,123,0.25,11,37,14,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781689,Prabir Debnath,AMB,22929,87,0.18,12,37,14,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781690,Kabrabam Dhirendra Singha,TRIPP,22926,71,0.15,13,37,14,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781691,Narayan Chandra Dey,IND,22919,70,0.14,14,37,14,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781692,Pratima Bhoumik,BJP,22916,20069,59.65,1,37,15,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781693,Subal Bhowmik,INC,22917,6711,19.95,2,37,15,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781694,Sankar Prasad Datta,CPIM,22924,5009,14.89,3,37,15,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781695,Nota,NOTA,22918,329,0.98,4,37,15,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781696,Maman Khan,AITC,22928,311,0.92,5,37,15,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781697,Jayki Murasing,APoI,22927,257,0.76,6,37,15,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781698,Brishaketu Debbarma,IPFT,22923,251,0.75,7,37,15,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781699,Subal Sarkar,IND,22919,167,0.5,8,37,15,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781700,Pradip Chakraborty,IND,22919,130,0.39,9,37,15,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781701,Brajalal Debnath,IND,22919,126,0.37,10,37,15,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781702,Prabir Debnath,AMB,22929,106,0.32,11,37,15,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781703,Arun Kumar Bhaumik,SUCI(C),22925,71,0.21,12,37,15,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781704,Narayan Chandra Dey,IND,22919,58,0.17,13,37,15,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781705,Kabrabam Dhirendra Singha,TRIPP,22926,47,0.14,14,37,15,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781706,Pratima Bhoumik,BJP,22916,24875,64.99,1,37,16,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781707,Subal Bhowmik,INC,22917,8705,22.74,2,37,16,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781708,Sankar Prasad Datta,CPIM,22924,2929,7.65,3,37,16,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781709,Brishaketu Debbarma,IPFT,22923,409,1.07,4,37,16,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781710,Nota,NOTA,22918,344,0.9,5,37,16,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781711,Maman Khan,AITC,22928,279,0.73,6,37,16,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781712,Jayki Murasing,APoI,22927,213,0.56,7,37,16,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781713,Subal Sarkar,IND,22919,123,0.32,8,37,16,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781714,Pradip Chakraborty,IND,22919,96,0.25,9,37,16,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781715,Brajalal Debnath,IND,22919,90,0.24,10,37,16,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781716,Prabir Debnath,AMB,22929,73,0.19,11,37,16,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781717,Arun Kumar Bhaumik,SUCI(C),22925,61,0.16,12,37,16,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781718,Narayan Chandra Dey,IND,22919,46,0.12,13,37,16,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781719,Kabrabam Dhirendra Singha,TRIPP,22926,34,0.09,14,37,16,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781720,Pratima Bhoumik,BJP,22916,11721,36.68,1,37,17,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781721,Subal Bhowmik,INC,22917,9689,30.32,2,37,17,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781722,Brishaketu Debbarma,IPFT,22923,4696,14.69,3,37,17,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781723,Sankar Prasad Datta,CPIM,22924,3888,12.17,4,37,17,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781724,Arun Kumar Bhaumik,SUCI(C),22925,338,1.06,5,37,17,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781725,Jayki Murasing,APoI,22927,319,1.0,6,37,17,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781726,Nota,NOTA,22918,293,0.92,7,37,17,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781727,Maman Khan,AITC,22928,237,0.74,8,37,17,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781728,Subal Sarkar,IND,22919,178,0.56,9,37,17,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781729,Pradip Chakraborty,IND,22919,138,0.43,10,37,17,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781730,Brajalal Debnath,IND,22919,133,0.42,11,37,17,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781731,Prabir Debnath,AMB,22929,124,0.39,12,37,17,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781732,Narayan Chandra Dey,IND,22919,110,0.34,13,37,17,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781733,Kabrabam Dhirendra Singha,TRIPP,22926,94,0.29,14,37,17,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781734,Pratima Bhoumik,BJP,22916,25889,60.81,1,37,18,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781735,Sankar Prasad Datta,CPIM,22924,7177,16.86,2,37,18,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781736,Subal Bhowmik,INC,22917,7123,16.73,3,37,18,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781737,Nota,NOTA,22918,489,1.15,4,37,18,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781738,Brishaketu Debbarma,IPFT,22923,432,1.01,5,37,18,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781739,Maman Khan,AITC,22928,369,0.87,6,37,18,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781740,Jayki Murasing,APoI,22927,272,0.64,7,37,18,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781741,Subal Sarkar,IND,22919,163,0.38,8,37,18,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781742,Pradip Chakraborty,IND,22919,158,0.37,9,37,18,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781743,Brajalal Debnath,IND,22919,134,0.31,10,37,18,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781744,Prabir Debnath,AMB,22929,112,0.26,11,37,18,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781745,Arun Kumar Bhaumik,SUCI(C),22925,101,0.24,12,37,18,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781746,Narayan Chandra Dey,IND,22919,80,0.19,13,37,18,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781747,Kabrabam Dhirendra Singha,TRIPP,22926,77,0.18,14,37,18,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781748,Pratima Bhoumik,BJP,22916,15165,50.85,1,37,19,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781749,Subal Bhowmik,INC,22917,8239,27.62,2,37,19,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781750,Brishaketu Debbarma,IPFT,22923,2939,9.85,3,37,19,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781751,Sankar Prasad Datta,CPIM,22924,1666,5.59,4,37,19,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781752,Nota,NOTA,22918,346,1.16,5,37,19,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781753,Arun Kumar Bhaumik,SUCI(C),22925,321,1.08,6,37,19,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781754,Maman Khan,AITC,22928,241,0.81,7,37,19,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781755,Jayki Murasing,APoI,22927,237,0.79,8,37,19,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781756,Subal Sarkar,IND,22919,172,0.58,9,37,19,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781757,Prabir Debnath,AMB,22929,124,0.42,10,37,19,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781758,Pradip Chakraborty,IND,22919,117,0.39,11,37,19,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781759,Brajalal Debnath,IND,22919,110,0.37,12,37,19,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781760,Kabrabam Dhirendra Singha,TRIPP,22926,82,0.27,13,37,19,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781761,Narayan Chandra Dey,IND,22919,66,0.22,14,37,19,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781762,Subal Bhowmik,INC,22917,14890,45.5,1,37,20,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781763,Pratima Bhoumik,BJP,22916,11899,36.36,2,37,20,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781764,Sankar Prasad Datta,CPIM,22924,3908,11.94,3,37,20,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781765,Brishaketu Debbarma,IPFT,22923,496,1.52,4,37,20,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781766,Jayki Murasing,APoI,22927,306,0.94,5,37,20,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781767,Nota,NOTA,22918,284,0.87,6,37,20,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781768,Maman Khan,AITC,22928,260,0.79,7,37,20,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781769,Arun Kumar Bhaumik,SUCI(C),22925,143,0.44,8,37,20,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781770,Subal Sarkar,IND,22919,132,0.4,9,37,20,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781771,Brajalal Debnath,IND,22919,111,0.34,10,37,20,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781772,Prabir Debnath,AMB,22929,110,0.34,11,37,20,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781773,Pradip Chakraborty,IND,22919,76,0.23,12,37,20,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781774,Narayan Chandra Dey,IND,22919,56,0.17,13,37,20,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781775,Kabrabam Dhirendra Singha,TRIPP,22926,55,0.17,14,37,20,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781776,Pratima Bhoumik,BJP,22916,21237,58.26,1,37,21,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781777,Subal Bhowmik,INC,22917,7490,20.55,2,37,21,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781778,Sankar Prasad Datta,CPIM,22924,5459,14.98,3,37,21,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781779,Brishaketu Debbarma,IPFT,22923,661,1.81,4,37,21,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781780,Nota,NOTA,22918,352,0.97,5,37,21,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781781,Maman Khan,AITC,22928,316,0.87,6,37,21,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781782,Jayki Murasing,APoI,22927,255,0.7,7,37,21,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781783,Subal Sarkar,IND,22919,151,0.41,8,37,21,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781784,Brajalal Debnath,IND,22919,112,0.31,9,37,21,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781785,Arun Kumar Bhaumik,SUCI(C),22925,109,0.3,10,37,21,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781786,Pradip Chakraborty,IND,22919,108,0.3,11,37,21,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781787,Prabir Debnath,AMB,22929,102,0.28,12,37,21,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781788,Narayan Chandra Dey,IND,22919,53,0.15,13,37,21,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781789,Kabrabam Dhirendra Singha,TRIPP,22926,49,0.13,14,37,21,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781790,Pratima Bhoumik,BJP,22916,17927,50.68,1,37,22,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781791,Subal Bhowmik,INC,22917,11816,33.4,2,37,22,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781792,Sankar Prasad Datta,CPIM,22924,4063,11.49,3,37,22,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781793,Nota,NOTA,22918,332,0.94,4,37,22,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781794,Jayki Murasing,APoI,22927,271,0.77,5,37,22,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781795,Maman Khan,AITC,22928,255,0.72,6,37,22,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781796,Brishaketu Debbarma,IPFT,22923,164,0.46,7,37,22,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781797,Subal Sarkar,IND,22919,104,0.29,8,37,22,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781798,Pradip Chakraborty,IND,22919,100,0.28,9,37,22,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781799,Prabir Debnath,AMB,22929,94,0.27,10,37,22,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781800,Brajalal Debnath,IND,22919,80,0.23,11,37,22,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781801,Arun Kumar Bhaumik,SUCI(C),22925,74,0.21,12,37,22,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781802,Narayan Chandra Dey,IND,22919,54,0.15,13,37,22,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781803,Kabrabam Dhirendra Singha,TRIPP,22926,41,0.12,14,37,22,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781804,Pratima Bhoumik,BJP,22916,20090,51.85,1,37,23,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781805,Subal Bhowmik,INC,22917,11010,28.41,2,37,23,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781806,Sankar Prasad Datta,CPIM,22924,4687,12.1,3,37,23,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781807,Brishaketu Debbarma,IPFT,22923,1197,3.09,4,37,23,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781808,Nota,NOTA,22918,383,0.99,5,37,23,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781809,Jayki Murasing,APoI,22927,312,0.81,6,37,23,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781810,Maman Khan,AITC,22928,283,0.73,7,37,23,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781811,Arun Kumar Bhaumik,SUCI(C),22925,157,0.41,8,37,23,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781812,Subal Sarkar,IND,22919,155,0.4,9,37,23,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781813,Brajalal Debnath,IND,22919,132,0.34,10,37,23,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781814,Pradip Chakraborty,IND,22919,123,0.32,11,37,23,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781815,Prabir Debnath,AMB,22929,107,0.28,12,37,23,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781816,Narayan Chandra Dey,IND,22919,60,0.15,13,37,23,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781817,Kabrabam Dhirendra Singha,TRIPP,22926,54,0.14,14,37,23,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781818,Maharaj Kumari Pragya Debburman,INC,22917,17577,53.36,1,37,24,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781819,Rebati Tripura,BJP,22916,7976,24.21,2,37,24,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781820,Narendra Chandra Debbarma,IPFT,22923,3169,9.62,3,37,24,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781821,Jitendra Chaudhury,CPIM,22924,2784,8.45,4,37,24,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781822,Nota,NOTA,22918,322,0.98,5,37,24,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781823,Karnadhan Chakma,AMB,22929,263,0.8,6,37,24,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1781824,Bijoy Debbarma,IND,22919,205,0.62,7,37,24,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781825,Subir Kumar Jamatia,IND,22919,182,0.55,8,37,24,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1781826,Amar Debbarma,IND,22919,179,0.54,9,37,24,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1781827,Dipti Halam,IND,22919,163,0.49,10,37,24,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1781828,Chitta Ranjan Debbarma,IND,22919,122,0.37,11,37,24,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1781829,Rebati Tripura,BJP,22916,21509,57.96,1,37,25,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781830,Maharaj Kumari Pragya Debburman,INC,22917,7774,20.95,2,37,25,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781831,Jitendra Chaudhury,CPIM,22924,6636,17.88,3,37,25,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781832,Karnadhan Chakma,AMB,22929,314,0.85,4,37,25,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1781833,Nota,NOTA,22918,243,0.65,5,37,25,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781834,Dipti Halam,IND,22919,164,0.44,6,37,25,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1781835,Narendra Chandra Debbarma,IPFT,22923,114,0.31,7,37,25,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781836,Bijoy Debbarma,IND,22919,109,0.29,8,37,25,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781837,Subir Kumar Jamatia,IND,22919,90,0.24,9,37,25,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1781838,Chitta Ranjan Debbarma,IND,22919,82,0.22,10,37,25,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1781839,Amar Debbarma,IND,22919,77,0.21,11,37,25,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1781840,Maharaj Kumari Pragya Debburman,INC,22917,14887,48.46,1,37,26,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781841,Narendra Chandra Debbarma,IPFT,22923,5971,19.44,2,37,26,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781842,Rebati Tripura,BJP,22916,4957,16.14,3,37,26,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781843,Jitendra Chaudhury,CPIM,22924,2874,9.36,4,37,26,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781844,Nota,NOTA,22918,441,1.44,5,37,26,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781845,Karnadhan Chakma,AMB,22929,340,1.11,6,37,26,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1781846,Amar Debbarma,IND,22919,321,1.04,7,37,26,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1781847,Bijoy Debbarma,IND,22919,281,0.91,8,37,26,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781848,Subir Kumar Jamatia,IND,22919,246,0.8,9,37,26,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1781849,Chitta Ranjan Debbarma,IND,22919,218,0.71,10,37,26,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1781850,Dipti Halam,IND,22919,184,0.6,11,37,26,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1781851,Rebati Tripura,BJP,22916,16680,47.08,1,37,27,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781852,Maharaj Kumari Pragya Debburman,INC,22917,12439,35.11,2,37,27,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781853,Jitendra Chaudhury,CPIM,22924,3776,10.66,3,37,27,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781854,Narendra Chandra Debbarma,IPFT,22923,1230,3.47,4,37,27,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781855,Karnadhan Chakma,AMB,22929,341,0.96,5,37,27,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1781856,Nota,NOTA,22918,298,0.84,6,37,27,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781857,Bijoy Debbarma,IND,22919,161,0.45,7,37,27,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781858,Chitta Ranjan Debbarma,IND,22919,147,0.41,8,37,27,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1781859,Subir Kumar Jamatia,IND,22919,136,0.38,9,37,27,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1781860,Dipti Halam,IND,22919,124,0.35,10,37,27,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1781861,Amar Debbarma,IND,22919,94,0.27,11,37,27,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1781862,Rebati Tripura,BJP,22916,16284,47.95,1,37,28,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781863,Maharaj Kumari Pragya Debburman,INC,22917,10542,31.04,2,37,28,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781864,Jitendra Chaudhury,CPIM,22924,5207,15.33,3,37,28,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781865,Narendra Chandra Debbarma,IPFT,22923,490,1.44,4,37,28,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781866,Karnadhan Chakma,AMB,22929,373,1.1,5,37,28,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1781867,Nota,NOTA,22918,342,1.01,6,37,28,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781868,Chitta Ranjan Debbarma,IND,22919,236,0.69,7,37,28,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1781869,Bijoy Debbarma,IND,22919,159,0.47,8,37,28,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781870,Subir Kumar Jamatia,IND,22919,137,0.4,9,37,28,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1781871,Dipti Halam,IND,22919,115,0.34,10,37,28,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1781872,Amar Debbarma,IND,22919,78,0.23,11,37,28,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1781873,Rebati Tripura,BJP,22916,13559,47.27,1,37,29,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781874,Maharaj Kumari Pragya Debburman,INC,22917,8334,29.06,2,37,29,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781875,Jitendra Chaudhury,CPIM,22924,4568,15.93,3,37,29,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781876,Narendra Chandra Debbarma,IPFT,22923,1088,3.79,4,37,29,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781877,Nota,NOTA,22918,360,1.26,5,37,29,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781878,Karnadhan Chakma,AMB,22929,179,0.62,6,37,29,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1781879,Subir Kumar Jamatia,IND,22919,158,0.55,7,37,29,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1781880,Bijoy Debbarma,IND,22919,156,0.54,8,37,29,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781881,Dipti Halam,IND,22919,117,0.41,9,37,29,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1781882,Amar Debbarma,IND,22919,87,0.3,10,37,29,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1781883,Chitta Ranjan Debbarma,IND,22919,77,0.27,11,37,29,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1781884,Pratima Bhoumik,BJP,22916,19806,51.98,1,37,30,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781885,Subal Bhowmik,INC,22917,7293,19.14,2,37,30,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781886,Sankar Prasad Datta,CPIM,22924,6166,16.18,3,37,30,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781887,Brishaketu Debbarma,IPFT,22923,2930,7.69,4,37,30,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781888,Nota,NOTA,22918,441,1.16,5,37,30,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781889,Jayki Murasing,APoI,22927,315,0.83,6,37,30,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781890,Maman Khan,AITC,22928,313,0.82,7,37,30,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781891,Arun Kumar Bhaumik,SUCI(C),22925,209,0.55,8,37,30,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781892,Subal Sarkar,IND,22919,175,0.46,9,37,30,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781893,Brajalal Debnath,IND,22919,136,0.36,10,37,30,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781894,Pradip Chakraborty,IND,22919,104,0.27,11,37,30,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781895,Prabir Debnath,AMB,22929,76,0.2,12,37,30,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781897,Narayan Chandra Dey,IND,22919,70,0.18,13,37,30,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781896,Kabrabam Dhirendra Singha,TRIPP,22926,70,0.18,13,37,30,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781898,Pratima Bhoumik,BJP,22916,24334,63.66,1,37,31,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781899,Subal Bhowmik,INC,22917,7148,18.7,2,37,31,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781900,Sankar Prasad Datta,CPIM,22924,5427,14.2,3,37,31,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781901,Nota,NOTA,22918,426,1.11,4,37,31,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781902,Maman Khan,AITC,22928,229,0.6,5,37,31,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781903,Brishaketu Debbarma,IPFT,22923,183,0.48,6,37,31,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781904,Jayki Murasing,APoI,22927,116,0.3,7,37,31,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781905,Subal Sarkar,IND,22919,99,0.26,8,37,31,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781906,Pradip Chakraborty,IND,22919,66,0.17,9,37,31,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781907,Brajalal Debnath,IND,22919,49,0.13,10,37,31,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781908,Prabir Debnath,AMB,22929,43,0.11,11,37,31,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781909,Arun Kumar Bhaumik,SUCI(C),22925,42,0.11,12,37,31,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781910,Narayan Chandra Dey,IND,22919,33,0.09,13,37,31,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781911,Kabrabam Dhirendra Singha,TRIPP,22926,28,0.07,14,37,31,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781912,Pratima Bhoumik,BJP,22916,24524,59.7,1,37,32,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781913,Subal Bhowmik,INC,22917,7642,18.6,2,37,32,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781914,Sankar Prasad Datta,CPIM,22924,5558,13.53,3,37,32,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781915,Brishaketu Debbarma,IPFT,22923,1569,3.82,4,37,32,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781916,Nota,NOTA,22918,439,1.07,5,37,32,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781917,Maman Khan,AITC,22928,314,0.76,6,37,32,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781918,Jayki Murasing,APoI,22927,273,0.66,7,37,32,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781919,Subal Sarkar,IND,22919,166,0.4,8,37,32,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781920,Arun Kumar Bhaumik,SUCI(C),22925,127,0.31,9,37,32,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781921,Brajalal Debnath,IND,22919,125,0.3,10,37,32,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781922,Pradip Chakraborty,IND,22919,121,0.29,11,37,32,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781923,Prabir Debnath,AMB,22929,87,0.21,12,37,32,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781924,Kabrabam Dhirendra Singha,TRIPP,22926,69,0.17,13,37,32,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781925,Narayan Chandra Dey,IND,22919,62,0.15,14,37,32,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781926,Pratima Bhoumik,BJP,22916,27179,63.93,1,37,33,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781927,Subal Bhowmik,INC,22917,7984,18.78,2,37,33,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781928,Sankar Prasad Datta,CPIM,22924,5056,11.89,3,37,33,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781929,Brishaketu Debbarma,IPFT,22923,629,1.48,4,37,33,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781930,Nota,NOTA,22918,534,1.26,5,37,33,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781931,Maman Khan,AITC,22928,302,0.71,6,37,33,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781932,Jayki Murasing,APoI,22927,223,0.52,7,37,33,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781933,Subal Sarkar,IND,22919,153,0.36,8,37,33,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781934,Pradip Chakraborty,IND,22919,111,0.26,9,37,33,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781935,Arun Kumar Bhaumik,SUCI(C),22925,94,0.22,10,37,33,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781936,Brajalal Debnath,IND,22919,89,0.21,11,37,33,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781937,Prabir Debnath,AMB,22929,70,0.16,12,37,33,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781938,Narayan Chandra Dey,IND,22919,48,0.11,13,37,33,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781939,Kabrabam Dhirendra Singha,TRIPP,22926,41,0.1,14,37,33,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781940,Pratima Bhoumik,BJP,22916,22167,60.4,1,37,34,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781941,Sankar Prasad Datta,CPIM,22924,7354,20.04,2,37,34,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781942,Subal Bhowmik,INC,22917,4811,13.11,3,37,34,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781943,Nota,NOTA,22918,501,1.37,4,37,34,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781944,Maman Khan,AITC,22928,420,1.14,5,37,34,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781945,Brishaketu Debbarma,IPFT,22923,337,0.92,6,37,34,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781946,Jayki Murasing,APoI,22927,330,0.9,7,37,34,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781947,Subal Sarkar,IND,22919,187,0.51,8,37,34,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781948,Pradip Chakraborty,IND,22919,144,0.39,9,37,34,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781949,Brajalal Debnath,IND,22919,132,0.36,10,37,34,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781950,Kabrabam Dhirendra Singha,TRIPP,22926,87,0.24,11,37,34,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781951,Arun Kumar Bhaumik,SUCI(C),22925,82,0.22,12,37,34,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781952,Prabir Debnath,AMB,22929,76,0.21,13,37,34,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781953,Narayan Chandra Dey,IND,22919,73,0.2,14,37,34,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781954,Pratima Bhoumik,BJP,22916,21449,60.25,1,37,35,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781955,Sankar Prasad Datta,CPIM,22924,7556,21.23,2,37,35,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781956,Subal Bhowmik,INC,22917,4709,13.23,3,37,35,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781957,Nota,NOTA,22918,442,1.24,4,37,35,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781958,Maman Khan,AITC,22928,425,1.19,5,37,35,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781959,Brishaketu Debbarma,IPFT,22923,230,0.65,6,37,35,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781960,Jayki Murasing,APoI,22927,177,0.5,7,37,35,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781961,Subal Sarkar,IND,22919,164,0.46,8,37,35,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781962,Brajalal Debnath,IND,22919,101,0.28,9,37,35,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781963,Pradip Chakraborty,IND,22919,98,0.28,10,37,35,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781964,Prabir Debnath,AMB,22929,78,0.22,11,37,35,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781965,Arun Kumar Bhaumik,SUCI(C),22925,75,0.21,12,37,35,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781966,Kabrabam Dhirendra Singha,TRIPP,22926,51,0.14,13,37,35,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781967,Narayan Chandra Dey,IND,22919,44,0.12,14,37,35,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781968,Pratima Bhoumik,BJP,22916,21944,57.2,1,37,36,TR,Pratima Bhoumik,BJP,,,,,False,37,2019,GE
+1781969,Subal Bhowmik,INC,22917,7029,18.32,2,37,36,TR,Subal Bhowmik,INC,,,,,False,37,2019,GE
+1781970,Sankar Prasad Datta,CPIM,22924,6549,17.07,3,37,36,TR,Sankar Prasad Datta,CPIM,,,,,False,37,2019,GE
+1781971,Brishaketu Debbarma,IPFT,22923,1004,2.62,4,37,36,TR,Brishaketu Debbarma,IPFT,,,,,False,37,2019,GE
+1781972,Nota,NOTA,22918,421,1.1,5,37,36,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781973,Maman Khan,AITC,22928,330,0.86,6,37,36,TR,Maman Khan,AITC,,,,,False,37,2019,GE
+1781974,Jayki Murasing,APoI,22927,321,0.84,7,37,36,TR,Jayki Murasing,APoI,,,,,False,37,2019,GE
+1781975,Subal Sarkar,IND,22919,152,0.4,8,37,36,TR,Subal Sarkar,IND,,,,,False,37,2019,GE
+1781976,Brajalal Debnath,IND,22919,151,0.39,9,37,36,TR,Brajalal Debnath,IND,,,,,False,37,2019,GE
+1781977,Pradip Chakraborty,IND,22919,132,0.34,10,37,36,TR,Pradip Chakraborty,IND,,,,,False,37,2019,GE
+1781978,Arun Kumar Bhaumik,SUCI(C),22925,104,0.27,11,37,36,TR,Arun Kumar Bhaumik,SUCI(C),,,,,False,37,2019,GE
+1781979,Narayan Chandra Dey,IND,22919,92,0.24,12,37,36,TR,Narayan Chandra Dey,IND,,,,,False,37,2019,GE
+1781980,Prabir Debnath,AMB,22929,81,0.21,13,37,36,TR,Prabir Debnath,AMB,,,,,False,37,2019,GE
+1781981,Kabrabam Dhirendra Singha,TRIPP,22926,52,0.14,14,37,36,TR,Kabrabam Dhirendra Singha,TRIPP,,,,,False,37,2019,GE
+1781982,Rebati Tripura,BJP,22916,20859,55.03,1,37,37,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781983,Jitendra Chaudhury,CPIM,22924,9547,25.19,2,37,37,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781984,Maharaj Kumari Pragya Debburman,INC,22917,5432,14.33,3,37,37,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781985,Narendra Chandra Debbarma,IPFT,22923,592,1.56,4,37,37,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781986,Nota,NOTA,22918,499,1.32,5,37,37,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781987,Bijoy Debbarma,IND,22919,231,0.61,6,37,37,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781988,Karnadhan Chakma,AMB,22929,202,0.53,7,37,37,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1781989,Subir Kumar Jamatia,IND,22919,172,0.45,8,37,37,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1781990,Dipti Halam,IND,22919,165,0.44,9,37,37,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1781991,Chitta Ranjan Debbarma,IND,22919,127,0.34,10,37,37,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1781992,Amar Debbarma,IND,22919,81,0.21,11,37,37,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1781993,Rebati Tripura,BJP,22916,21373,54.46,1,37,38,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1781994,Jitendra Chaudhury,CPIM,22924,8126,20.71,2,37,38,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1781995,Maharaj Kumari Pragya Debburman,INC,22917,6656,16.96,3,37,38,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1781996,Narendra Chandra Debbarma,IPFT,22923,1376,3.51,4,37,38,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1781997,Nota,NOTA,22918,545,1.39,5,37,38,TR,Nota,NOTA,,,,,False,37,2019,GE
+1781998,Bijoy Debbarma,IND,22919,231,0.59,6,37,38,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1781999,Subir Kumar Jamatia,IND,22919,231,0.59,6,37,38,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782000,Dipti Halam,IND,22919,217,0.55,8,37,38,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782001,Karnadhan Chakma,AMB,22929,187,0.48,9,37,38,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782002,Amar Debbarma,IND,22919,154,0.39,10,37,38,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782003,Chitta Ranjan Debbarma,IND,22919,147,0.37,11,37,38,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782004,Rebati Tripura,BJP,22916,14687,38.03,1,37,39,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782005,Jitendra Chaudhury,CPIM,22924,11458,29.67,2,37,39,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782006,Maharaj Kumari Pragya Debburman,INC,22917,10212,26.44,3,37,39,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782007,Narendra Chandra Debbarma,IPFT,22923,859,2.22,4,37,39,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782008,Nota,NOTA,22918,442,1.14,5,37,39,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782009,Bijoy Debbarma,IND,22919,196,0.51,6,37,39,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782010,Karnadhan Chakma,AMB,22929,182,0.47,7,37,39,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782011,Dipti Halam,IND,22919,176,0.46,8,37,39,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782012,Subir Kumar Jamatia,IND,22919,166,0.43,9,37,39,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782013,Chitta Ranjan Debbarma,IND,22919,139,0.36,10,37,39,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782014,Amar Debbarma,IND,22919,99,0.26,11,37,39,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782015,Rebati Tripura,BJP,22916,20303,51.88,1,37,40,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782016,Jitendra Chaudhury,CPIM,22924,10744,27.46,2,37,40,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782017,Maharaj Kumari Pragya Debburman,INC,22917,6009,15.36,3,37,40,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782018,Nota,NOTA,22918,519,1.33,4,37,40,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782019,Narendra Chandra Debbarma,IPFT,22923,483,1.23,5,37,40,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782020,Bijoy Debbarma,IND,22919,254,0.65,6,37,40,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782021,Subir Kumar Jamatia,IND,22919,233,0.6,7,37,40,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782022,Karnadhan Chakma,AMB,22929,201,0.51,8,37,40,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782023,Dipti Halam,IND,22919,189,0.48,9,37,40,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782024,Chitta Ranjan Debbarma,IND,22919,122,0.31,10,37,40,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782025,Amar Debbarma,IND,22919,76,0.19,11,37,40,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782026,Maharaj Kumari Pragya Debburman,INC,22917,8422,29.74,1,37,41,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782027,Rebati Tripura,BJP,22916,7405,26.15,2,37,41,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782028,Narendra Chandra Debbarma,IPFT,22923,7028,24.81,3,37,41,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782029,Jitendra Chaudhury,CPIM,22924,3861,13.63,4,37,41,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782030,Amar Debbarma,IND,22919,344,1.21,5,37,41,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782031,Nota,NOTA,22918,344,1.21,5,37,41,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782032,Subir Kumar Jamatia,IND,22919,219,0.77,7,37,41,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782033,Bijoy Debbarma,IND,22919,207,0.73,8,37,41,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782034,Karnadhan Chakma,AMB,22929,179,0.63,9,37,41,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782035,Chitta Ranjan Debbarma,IND,22919,174,0.61,10,37,41,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782036,Dipti Halam,IND,22919,139,0.49,11,37,41,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782037,Rebati Tripura,BJP,22916,18859,55.07,1,37,42,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782038,Maharaj Kumari Pragya Debburman,INC,22917,8160,23.83,2,37,42,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782039,Jitendra Chaudhury,CPIM,22924,5351,15.63,3,37,42,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782040,Narendra Chandra Debbarma,IPFT,22923,815,2.38,4,37,42,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782041,Nota,NOTA,22918,339,0.99,5,37,42,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782042,Karnadhan Chakma,AMB,22929,178,0.52,6,37,42,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782043,Bijoy Debbarma,IND,22919,136,0.4,7,37,42,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782044,Subir Kumar Jamatia,IND,22919,116,0.34,8,37,42,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782045,Dipti Halam,IND,22919,114,0.33,9,37,42,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782046,Chitta Ranjan Debbarma,IND,22919,103,0.3,10,37,42,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782047,Amar Debbarma,IND,22919,75,0.22,11,37,42,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782048,Rebati Tripura,BJP,22916,11169,37.45,1,37,43,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782049,Jitendra Chaudhury,CPIM,22924,7529,25.24,2,37,43,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782050,Maharaj Kumari Pragya Debburman,INC,22917,7246,24.29,3,37,43,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782051,Narendra Chandra Debbarma,IPFT,22923,2456,8.23,4,37,43,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782052,Nota,NOTA,22918,453,1.52,5,37,43,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782053,Karnadhan Chakma,AMB,22929,182,0.61,6,37,43,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782054,Chitta Ranjan Debbarma,IND,22919,181,0.61,7,37,43,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782055,Bijoy Debbarma,IND,22919,179,0.6,8,37,43,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782056,Subir Kumar Jamatia,IND,22919,174,0.58,9,37,43,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782057,Amar Debbarma,IND,22919,130,0.44,10,37,43,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782058,Dipti Halam,IND,22919,128,0.43,11,37,43,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782059,Rebati Tripura,BJP,22916,13222,36.45,1,37,44,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782060,Maharaj Kumari Pragya Debburman,INC,22917,8488,23.4,2,37,44,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782061,Jitendra Chaudhury,CPIM,22924,7035,19.39,3,37,44,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782062,Narendra Chandra Debbarma,IPFT,22923,5921,16.32,4,37,44,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782063,Nota,NOTA,22918,397,1.09,5,37,44,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782064,Amar Debbarma,IND,22919,335,0.92,6,37,44,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782065,Chitta Ranjan Debbarma,IND,22919,199,0.55,7,37,44,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782066,Karnadhan Chakma,AMB,22929,199,0.55,7,37,44,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782067,Bijoy Debbarma,IND,22919,186,0.51,9,37,44,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782068,Subir Kumar Jamatia,IND,22919,161,0.44,10,37,44,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782069,Dipti Halam,IND,22919,136,0.37,11,37,44,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782070,Rebati Tripura,BJP,22916,18788,52.21,1,37,45,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782071,Maharaj Kumari Pragya Debburman,INC,22917,9876,27.45,2,37,45,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782072,Jitendra Chaudhury,CPIM,22924,5399,15.0,3,37,45,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782073,Narendra Chandra Debbarma,IPFT,22923,563,1.56,4,37,45,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782074,Nota,NOTA,22918,387,1.08,5,37,45,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782075,Bijoy Debbarma,IND,22919,211,0.59,6,37,45,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782076,Karnadhan Chakma,AMB,22929,208,0.58,7,37,45,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782077,Subir Kumar Jamatia,IND,22919,196,0.54,8,37,45,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782078,Dipti Halam,IND,22919,149,0.41,9,37,45,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782079,Chitta Ranjan Debbarma,IND,22919,103,0.29,10,37,45,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782080,Amar Debbarma,IND,22919,102,0.28,11,37,45,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782081,Rebati Tripura,BJP,22916,17755,47.95,1,37,46,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782082,Maharaj Kumari Pragya Debburman,INC,22917,11448,30.92,2,37,46,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782083,Jitendra Chaudhury,CPIM,22924,6030,16.29,3,37,46,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782084,Narendra Chandra Debbarma,IPFT,22923,545,1.47,4,37,46,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782085,Nota,NOTA,22918,341,0.92,5,37,46,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782086,Karnadhan Chakma,AMB,22929,266,0.72,6,37,46,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782087,Bijoy Debbarma,IND,22919,198,0.53,7,37,46,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782088,Subir Kumar Jamatia,IND,22919,155,0.42,8,37,46,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782089,Dipti Halam,IND,22919,130,0.35,9,37,46,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782090,Amar Debbarma,IND,22919,81,0.22,10,37,46,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782091,Chitta Ranjan Debbarma,IND,22919,76,0.21,11,37,46,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782092,Rebati Tripura,BJP,22916,15591,39.86,1,37,47,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782093,Maharaj Kumari Pragya Debburman,INC,22917,13027,33.3,2,37,47,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782094,Jitendra Chaudhury,CPIM,22924,8339,21.32,3,37,47,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782095,Narendra Chandra Debbarma,IPFT,22923,659,1.68,4,37,47,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782096,Nota,NOTA,22918,343,0.88,5,37,47,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782097,Karnadhan Chakma,AMB,22929,297,0.76,6,37,47,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782098,Bijoy Debbarma,IND,22919,203,0.52,7,37,47,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782099,Subir Kumar Jamatia,IND,22919,187,0.48,8,37,47,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782100,Amar Debbarma,IND,22919,180,0.46,9,37,47,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782101,Dipti Halam,IND,22919,173,0.44,10,37,47,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782102,Chitta Ranjan Debbarma,IND,22919,117,0.3,11,37,47,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782103,Maharaj Kumari Pragya Debburman,INC,22917,14490,44.69,1,37,48,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782104,Rebati Tripura,BJP,22916,9600,29.61,2,37,48,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782105,Jitendra Chaudhury,CPIM,22924,5722,17.65,3,37,48,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782106,Narendra Chandra Debbarma,IPFT,22923,1328,4.1,4,37,48,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782107,Nota,NOTA,22918,377,1.16,5,37,48,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782108,Bijoy Debbarma,IND,22919,179,0.55,6,37,48,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782109,Karnadhan Chakma,AMB,22929,173,0.53,7,37,48,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782110,Amar Debbarma,IND,22919,172,0.53,8,37,48,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782111,Subir Kumar Jamatia,IND,22919,142,0.44,9,37,48,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782112,Dipti Halam,IND,22919,131,0.4,10,37,48,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782113,Chitta Ranjan Debbarma,IND,22919,106,0.33,11,37,48,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782114,Rebati Tripura,BJP,22916,14632,45.28,1,37,49,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782115,Maharaj Kumari Pragya Debburman,INC,22917,9884,30.58,2,37,49,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782116,Jitendra Chaudhury,CPIM,22924,5858,18.13,3,37,49,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782117,Nota,NOTA,22918,487,1.51,4,37,49,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782118,Narendra Chandra Debbarma,IPFT,22923,484,1.5,5,37,49,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782120,Subir Kumar Jamatia,IND,22919,200,0.62,6,37,49,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782119,Bijoy Debbarma,IND,22919,200,0.62,6,37,49,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782121,Karnadhan Chakma,AMB,22929,196,0.61,8,37,49,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782122,Chitta Ranjan Debbarma,IND,22919,145,0.45,9,37,49,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782123,Dipti Halam,IND,22919,128,0.4,10,37,49,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782124,Amar Debbarma,IND,22919,104,0.32,11,37,49,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782125,Rebati Tripura,BJP,22916,20871,53.73,1,37,50,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782126,Maharaj Kumari Pragya Debburman,INC,22917,8433,21.71,2,37,50,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782127,Jitendra Chaudhury,CPIM,22924,7678,19.77,3,37,50,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782128,Karnadhan Chakma,AMB,22929,482,1.24,4,37,50,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782129,Nota,NOTA,22918,435,1.12,5,37,50,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782130,Narendra Chandra Debbarma,IPFT,22923,321,0.83,6,37,50,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782131,Bijoy Debbarma,IND,22919,191,0.49,7,37,50,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782132,Subir Kumar Jamatia,IND,22919,140,0.36,8,37,50,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782133,Dipti Halam,IND,22919,120,0.31,9,37,50,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782134,Chitta Ranjan Debbarma,IND,22919,91,0.23,10,37,50,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782135,Amar Debbarma,IND,22919,80,0.21,11,37,50,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782136,Rebati Tripura,BJP,22916,19766,57.45,1,37,51,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782137,Maharaj Kumari Pragya Debburman,INC,22917,7365,21.41,2,37,51,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782138,Jitendra Chaudhury,CPIM,22924,5618,16.33,3,37,51,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782139,Narendra Chandra Debbarma,IPFT,22923,626,1.82,4,37,51,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782140,Nota,NOTA,22918,293,0.85,5,37,51,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782141,Karnadhan Chakma,AMB,22929,169,0.49,6,37,51,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782142,Amar Debbarma,IND,22919,157,0.46,7,37,51,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782143,Bijoy Debbarma,IND,22919,131,0.38,8,37,51,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782144,Subir Kumar Jamatia,IND,22919,118,0.34,9,37,51,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782145,Dipti Halam,IND,22919,90,0.26,10,37,51,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782146,Chitta Ranjan Debbarma,IND,22919,72,0.21,11,37,51,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782147,Rebati Tripura,BJP,22916,19194,53.87,1,37,52,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782148,Maharaj Kumari Pragya Debburman,INC,22917,7891,22.15,2,37,52,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782149,Jitendra Chaudhury,CPIM,22924,6636,18.62,3,37,52,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782150,Narendra Chandra Debbarma,IPFT,22923,717,2.01,4,37,52,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782151,Nota,NOTA,22918,406,1.14,5,37,52,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782152,Karnadhan Chakma,AMB,22929,183,0.51,6,37,52,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782153,Bijoy Debbarma,IND,22919,170,0.48,7,37,52,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782154,Dipti Halam,IND,22919,147,0.41,8,37,52,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782155,Subir Kumar Jamatia,IND,22919,129,0.36,9,37,52,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782156,Chitta Ranjan Debbarma,IND,22919,96,0.27,10,37,52,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782157,Amar Debbarma,IND,22919,63,0.18,11,37,52,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782158,Maharaj Kumari Pragya Debburman,INC,22917,15369,41.21,1,37,53,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782159,Rebati Tripura,BJP,22916,13576,36.4,2,37,53,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782160,Jitendra Chaudhury,CPIM,22924,7125,19.1,3,37,53,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782161,Narendra Chandra Debbarma,IPFT,22923,444,1.19,4,37,53,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782162,Nota,NOTA,22918,291,0.78,5,37,53,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782163,Bijoy Debbarma,IND,22919,121,0.32,6,37,53,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782164,Karnadhan Chakma,AMB,22929,106,0.28,7,37,53,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782165,Subir Kumar Jamatia,IND,22919,85,0.23,8,37,53,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782166,Dipti Halam,IND,22919,67,0.18,9,37,53,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782167,Chitta Ranjan Debbarma,IND,22919,56,0.15,10,37,53,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782168,Amar Debbarma,IND,22919,55,0.15,11,37,53,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782169,Rebati Tripura,BJP,22916,15668,45.73,1,37,54,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782170,Maharaj Kumari Pragya Debburman,INC,22917,9367,27.34,2,37,54,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782171,Jitendra Chaudhury,CPIM,22924,8125,23.71,3,37,54,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782172,Nota,NOTA,22918,316,0.92,4,37,54,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782173,Narendra Chandra Debbarma,IPFT,22923,193,0.56,5,37,54,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782174,Bijoy Debbarma,IND,22919,161,0.47,6,37,54,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782175,Subir Kumar Jamatia,IND,22919,122,0.36,7,37,54,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782176,Karnadhan Chakma,AMB,22929,114,0.33,8,37,54,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782177,Dipti Halam,IND,22919,81,0.24,9,37,54,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782178,Chitta Ranjan Debbarma,IND,22919,77,0.22,10,37,54,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782179,Amar Debbarma,IND,22919,39,0.11,11,37,54,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782180,Rebati Tripura,BJP,22916,18996,54.76,1,37,55,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782181,Jitendra Chaudhury,CPIM,22924,7624,21.98,2,37,55,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782182,Maharaj Kumari Pragya Debburman,INC,22917,7089,20.43,3,37,55,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782183,Nota,NOTA,22918,290,0.84,4,37,55,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782184,Bijoy Debbarma,IND,22919,133,0.38,5,37,55,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782185,Narendra Chandra Debbarma,IPFT,22923,127,0.37,6,37,55,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782186,Subir Kumar Jamatia,IND,22919,126,0.36,7,37,55,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782187,Karnadhan Chakma,AMB,22929,114,0.33,8,37,55,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782188,Dipti Halam,IND,22919,87,0.25,9,37,55,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782189,Chitta Ranjan Debbarma,IND,22919,63,0.18,10,37,55,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782190,Amar Debbarma,IND,22919,42,0.12,11,37,55,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782191,Rebati Tripura,BJP,22916,21252,62.4,1,37,56,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782192,Jitendra Chaudhury,CPIM,22924,6022,17.68,2,37,56,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782193,Maharaj Kumari Pragya Debburman,INC,22917,5883,17.27,3,37,56,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782194,Nota,NOTA,22918,361,1.06,4,37,56,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782195,Karnadhan Chakma,AMB,22929,129,0.38,5,37,56,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782196,Narendra Chandra Debbarma,IPFT,22923,108,0.32,6,37,56,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782197,Bijoy Debbarma,IND,22919,98,0.29,7,37,56,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782198,Subir Kumar Jamatia,IND,22919,68,0.2,8,37,56,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782199,Dipti Halam,IND,22919,58,0.17,9,37,56,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782200,Chitta Ranjan Debbarma,IND,22919,48,0.14,10,37,56,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782201,Amar Debbarma,IND,22919,33,0.1,11,37,56,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782202,Rebati Tripura,BJP,22916,21090,60.43,1,37,57,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782203,Jitendra Chaudhury,CPIM,22924,6601,18.91,2,37,57,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782204,Maharaj Kumari Pragya Debburman,INC,22917,6140,17.59,3,37,57,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782205,Nota,NOTA,22918,277,0.79,4,37,57,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782206,Karnadhan Chakma,AMB,22929,178,0.51,5,37,57,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782207,Narendra Chandra Debbarma,IPFT,22923,169,0.48,6,37,57,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782208,Bijoy Debbarma,IND,22919,136,0.39,7,37,57,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782209,Subir Kumar Jamatia,IND,22919,110,0.32,8,37,57,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782210,Dipti Halam,IND,22919,76,0.22,9,37,57,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782211,Amar Debbarma,IND,22919,63,0.18,10,37,57,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782212,Chitta Ranjan Debbarma,IND,22919,59,0.17,11,37,57,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782213,Rebati Tripura,BJP,22916,15559,50.78,1,37,58,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782214,Jitendra Chaudhury,CPIM,22924,7225,23.58,2,37,58,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782215,Maharaj Kumari Pragya Debburman,INC,22917,6390,20.85,3,37,58,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782216,Narendra Chandra Debbarma,IPFT,22923,599,1.95,4,37,58,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782217,Nota,NOTA,22918,286,0.93,5,37,58,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782218,Karnadhan Chakma,AMB,22929,176,0.57,6,37,58,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782219,Bijoy Debbarma,IND,22919,127,0.41,7,37,58,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782220,Dipti Halam,IND,22919,79,0.26,8,37,58,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782221,Subir Kumar Jamatia,IND,22919,78,0.25,9,37,58,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782222,Chitta Ranjan Debbarma,IND,22919,65,0.21,10,37,58,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782223,Amar Debbarma,IND,22919,58,0.19,11,37,58,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782224,Rebati Tripura,BJP,22916,15682,46.66,1,37,59,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782225,Jitendra Chaudhury,CPIM,22924,7814,23.25,2,37,59,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782226,Maharaj Kumari Pragya Debburman,INC,22917,6735,20.04,3,37,59,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782227,Narendra Chandra Debbarma,IPFT,22923,1825,5.43,4,37,59,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782228,Karnadhan Chakma,AMB,22929,448,1.33,5,37,59,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782229,Nota,NOTA,22918,382,1.14,6,37,59,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782230,Chitta Ranjan Debbarma,IND,22919,177,0.53,7,37,59,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782231,Bijoy Debbarma,IND,22919,176,0.52,8,37,59,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782232,Subir Kumar Jamatia,IND,22919,160,0.48,9,37,59,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782233,Amar Debbarma,IND,22919,116,0.35,10,37,59,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782234,Dipti Halam,IND,22919,95,0.28,11,37,59,TR,Dipti Halam,IND,,,,,False,37,2019,GE
+1782235,Rebati Tripura,BJP,22916,12772,38.36,1,37,60,TR,Rebati Tripura,BJP,,,,,False,37,2019,GE
+1782236,Jitendra Chaudhury,CPIM,22924,9185,27.59,2,37,60,TR,Jitendra Chaudhury,CPIM,,,,,False,37,2019,GE
+1782237,Maharaj Kumari Pragya Debburman,INC,22917,4952,14.87,3,37,60,TR,Maharaj Kumari Pragya Debburman,INC,,,,,False,37,2019,GE
+1782238,Narendra Chandra Debbarma,IPFT,22923,4853,14.58,4,37,60,TR,Narendra Chandra Debbarma,IPFT,,,,,False,37,2019,GE
+1782239,Nota,NOTA,22918,381,1.14,5,37,60,TR,Nota,NOTA,,,,,False,37,2019,GE
+1782240,Karnadhan Chakma,AMB,22929,361,1.08,6,37,60,TR,Karnadhan Chakma,AMB,,,,,False,37,2019,GE
+1782241,Amar Debbarma,IND,22919,223,0.67,7,37,60,TR,Amar Debbarma,IND,,,,,False,37,2019,GE
+1782242,Chitta Ranjan Debbarma,IND,22919,195,0.59,8,37,60,TR,Chitta Ranjan Debbarma,IND,,,,,False,37,2019,GE
+1782243,Bijoy Debbarma,IND,22919,147,0.44,9,37,60,TR,Bijoy Debbarma,IND,,,,,False,37,2019,GE
+1782244,Subir Kumar Jamatia,IND,22919,134,0.4,10,37,60,TR,Subir Kumar Jamatia,IND,,,,,False,37,2019,GE
+1782245,Dipti Halam,IND,22919,91,0.27,11,37,60,TR,Dipti Halam,IND,,,,,False,37,2019,GE

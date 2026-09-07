@@ -1,0 +1,38 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1880337,Kirron Kher,BJP,24396,230967,50.63,1,37,1,CG,Kirron Kher,BJP,,,,,True,37,2019,GE
+1880338,Pawan Kumar Bansal,INC,24395,184117,40.36,2,37,1,CG,Pawan Kumar Bansal,INC,,,,,False,37,2019,GE
+1880339,Harmohan Dhawan,AAAP,24404,13767,3.02,3,37,1,CG,Harmohan Dhawan,AAAP,,,,,False,37,2019,GE
+1880340,Parveen Kumar,BSP,24397,7391,1.62,4,37,1,CG,Parveen Kumar,BSP,,,,,False,37,2019,GE
+1880341,Nota,NOTA,24398,4321,0.95,5,37,1,CG,Nota,NOTA,,,,,False,37,2019,GE
+1880342,Avinash Singh Sharma,CHKAP,24405,3182,0.7,6,37,1,CG,Avinash Singh Sharma,CHKAP,,,,,False,37,2019,GE
+1880343,Satybir Singh,BMFP,24406,1578,0.35,7,37,1,CG,Satybir Singh,BMFP,,,,,False,37,2019,GE
+1880344,Manjeet Singh Bohat,IND,24399,1062,0.23,8,37,1,CG,Manjeet Singh Bohat,IND,,,,,False,37,2019,GE
+1880345,Sandeep Bidla,BMUP,24407,919,0.2,9,37,1,CG,Sandeep Bidla,BMUP,,,,,False,37,2019,GE
+1880346,Yogesh Dhingra,IND,24399,731,0.16,10,37,1,CG,Yogesh Dhingra,IND,,,,,False,37,2019,GE
+1880347,Shambhu,SAKAP,24408,658,0.14,11,37,1,CG,Shambhu,SAKAP,,,,,False,37,2019,GE
+1880348,Nidhi Kansal,IND,24399,569,0.12,12,37,1,CG,Nidhi Kansal,IND,,,,,False,37,2019,GE
+1880349,Sharmila Johari,BHAPRAP,24409,531,0.12,13,37,1,CG,Sharmila Johari,BHAPRAP,,,,,False,37,2019,GE
+1880350,Satish Kumar,JanSP,24410,486,0.11,14,37,1,CG,Satish Kumar,JanSP,,,,,False,37,2019,GE
+1880351,Sarabjeet Singh Sohal,BhaRP,24411,461,0.1,15,37,1,CG,Sarabjeet Singh Sohal,BhaRP,,,,,False,37,2019,GE
+1880352,Sanjay Balaan,BJSAP,24412,452,0.1,16,37,1,CG,Sanjay Balaan,BJSAP,,,,,False,37,2019,GE
+1880353,Devi Sirohi,IND,24399,428,0.09,17,37,1,CG,Devi Sirohi,IND,,,,,False,37,2019,GE
+1880354,Boota Singh,IND,24399,392,0.09,18,37,1,CG,Boota Singh,IND,,,,,False,37,2019,GE
+1880355,Lashkar Singh,CPI(M),24413,377,0.08,19,37,1,CG,Lashkar Singh,CPI(M),,,,,False,37,2019,GE
+1880356,Jagdish Kumar Nidan,HSS,24414,365,0.08,20,37,1,CG,Jagdish Kumar Nidan,HSS,,,,,False,37,2019,GE
+1880357,Tejinder Singh Walia,IND,24399,319,0.07,21,37,1,CG,Tejinder Singh Walia,IND,,,,,False,37,2019,GE
+1880358,Subhash Tamoli,BSP(A),24415,312,0.07,22,37,1,CG,Subhash Tamoli,BSP(A),,,,,False,37,2019,GE
+1880359,Raj Kamal Singh,IND,24399,289,0.06,23,37,1,CG,Raj Kamal Singh,IND,,,,,False,37,2019,GE
+1880360,Ramneet,BKNP,24416,285,0.06,24,37,1,CG,Ramneet,BKNP,,,,,False,37,2019,GE
+1880361,Mukesh Pachara,ANC,24417,245,0.05,25,37,1,CG,Mukesh Pachara,ANC,,,,,False,37,2019,GE
+1880362,Prem Lata,IND,24399,212,0.05,26,37,1,CG,Prem Lata,IND,,,,,False,37,2019,GE
+1880363,Subhash Chander Goyal,RPI(A),24418,212,0.05,26,37,1,CG,Subhash Chander Goyal,RPI(A),,,,,False,37,2019,GE
+1880364,Jyoti,AKBHAD,24419,209,0.05,28,37,1,CG,Jyoti,AKBHAD,,,,,False,37,2019,GE
+1880365,Akhlesh Kumar,IND,24399,206,0.05,29,37,1,CG,Akhlesh Kumar,IND,,,,,False,37,2019,GE
+1880366,Yograj Sahota,RaJPa,24420,194,0.04,30,37,1,CG,Yograj Sahota,RaJPa,,,,,False,37,2019,GE
+1880367,Gurmail Singh,AIFB,24421,164,0.04,31,37,1,CG,Gurmail Singh,AIFB,,,,,False,37,2019,GE
+1880368,Nawab Ali,RasLP,24422,158,0.03,32,37,1,CG,Nawab Ali,RasLP,,,,,False,37,2019,GE
+1880369,Uday Raj,IND,24399,156,0.03,33,37,1,CG,Uday Raj,IND,,,,,False,37,2019,GE
+1880370,Bhupinder Kaur,SVJSP,24423,143,0.03,34,37,1,CG,Bhupinder Kaur,SVJSP,,,,,False,37,2019,GE
+1880371,Karan Vasudeva,IND,24399,136,0.03,35,37,1,CG,Karan Vasudeva,IND,,,,,False,37,2019,GE
+1880372,Sunita,IND,24399,112,0.02,36,37,1,CG,Sunita,IND,,,,,False,37,2019,GE
+1880373,Ram Kumar,IND,24399,101,0.02,37,37,1,CG,Ram Kumar,IND,,,,,False,37,2019,GE

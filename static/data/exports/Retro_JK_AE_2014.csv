@@ -1,0 +1,919 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1932891,Raja Manzoor Ahmad,JKPDP,24832,12371,47.75,1,19,1,JK,Raja Manzoor Ahmad,JKPDP,,,,,False,19,2014,AE
+1932892,Kifil Ur Rehman Khan,JKN,24830,6596,25.46,2,19,1,JK,Kifil Ur Rehman Khan,JKN,,,,,False,19,2014,AE
+1932893,Ali Asgar Khan,INC,24825,2894,11.17,3,19,1,JK,Ali Asgar Khan,INC,,,,,False,19,2014,AE
+1932894,Mohammad Saleem Mir,JPC,24831,2359,9.1,4,19,1,JK,Mohammad Saleem Mir,JPC,,,,,False,19,2014,AE
+1932895,Ishfaq Ur Rehman,BJP,24826,654,2.52,5,19,1,JK,Ishfaq Ur Rehman,BJP,,,,,False,19,2014,AE
+1932896,Jahangir Khan,JKNPP,24867,453,1.75,6,19,1,JK,Jahangir Khan,JKNPP,,,,,False,19,2014,AE
+1932897,Aijaz Ahmad Badana,AJKMP,24868,339,1.31,7,19,1,JK,Aijaz Ahmad Badana,AJKMP,,,,,False,19,2014,AE
+1932898,Nota,NOTA,24835,244,0.94,8,19,1,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932899,Bashir Ahmad Dar,JPC,24831,24754,34.47,1,19,2,JK,Bashir Ahmad Dar,JPC,,,,,False,19,2014,AE
+1932900,Mir Mohd Fayaz,JKPDP,24832,24603,34.26,2,19,2,JK,Mir Mohd Fayaz,JKPDP,,,,,False,19,2014,AE
+1932901,Mir Saifullah,JKN,24830,17390,24.21,3,19,2,JK,Mir Saifullah,JKN,,,,,False,19,2014,AE
+1932902,Ab Rehman Lone,BJP,24826,790,1.1,4,19,2,JK,Ab Rehman Lone,BJP,,,,,False,19,2014,AE
+1932903,Wali Mohd Khan,JKNPP,24867,672,0.94,5,19,2,JK,Wali Mohd Khan,JKNPP,,,,,False,19,2014,AE
+1932904,Nota,NOTA,24835,664,0.92,6,19,2,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932905,Gh Hassan Sheikh,AJKMP,24868,598,0.83,7,19,2,JK,Gh Hassan Sheikh,AJKMP,,,,,False,19,2014,AE
+1932906,Adv. Mohd Amin Peer,IND,24808,582,0.81,8,19,2,JK,Adv. Mohd Amin Peer,IND,,,,,False,19,2014,AE
+1932907,Gh Rasool Malik,INC,24825,561,0.78,9,19,2,JK,Gh Rasool Malik,INC,,,,,False,19,2014,AE
+1932908,Javid Ahmad Wani,IND,24808,412,0.57,10,19,2,JK,Javid Ahmad Wani,IND,,,,,False,19,2014,AE
+1932909,Mushtaq Ahmad Shiekh,IND,24808,352,0.49,11,19,2,JK,Mushtaq Ahmad Shiekh,IND,,,,,False,19,2014,AE
+1932910,Sardar Khan,BSP,24827,283,0.39,12,19,2,JK,Sardar Khan,BSP,,,,,False,19,2014,AE
+1932911,Saifullah Khan,NCP,24837,157,0.22,13,19,2,JK,Saifullah Khan,NCP,,,,,False,19,2014,AE
+1932912,Abdul Haq Khan,JKPDP,24832,29408,41.06,1,19,3,JK,Abdul Haq Khan,JKPDP,,,,,False,19,2014,AE
+1932913,Qaiser Jamsheed Lone,JKN,24830,26538,37.06,2,19,3,JK,Qaiser Jamsheed Lone,JKN,,,,,False,19,2014,AE
+1932914,Haji Farooq Ahmad Mir,INC,24825,7629,10.65,3,19,3,JK,Haji Farooq Ahmad Mir,INC,,,,,False,19,2014,AE
+1932915,Abdul Rehman Wani,JPC,24831,3981,5.56,4,19,3,JK,Abdul Rehman Wani,JPC,,,,,False,19,2014,AE
+1932916,Nota,NOTA,24835,1222,1.71,5,19,3,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932917,Ab Rashid Zargar,BJP,24826,1092,1.52,6,19,3,JK,Ab Rashid Zargar,BJP,,,,,False,19,2014,AE
+1932918,Suriaya Bano,RPI,24869,765,1.07,7,19,3,JK,Suriaya Bano,RPI,,,,,False,19,2014,AE
+1932919,Mohammad Sultan Magray,AJKMP,24868,458,0.64,8,19,3,JK,Mohammad Sultan Magray,AJKMP,,,,,False,19,2014,AE
+1932920,Ghulam Ahmad Malik,JKNPP,24867,268,0.37,9,19,3,JK,Ghulam Ahmad Malik,JKNPP,,,,,False,19,2014,AE
+1932921,Gh Nabi Shah,BSP,24827,256,0.36,10,19,3,JK,Gh Nabi Shah,BSP,,,,,False,19,2014,AE
+1932922,Sajad Gani Lone,JPC,24831,29355,43.19,1,19,4,JK,Sajad Gani Lone,JPC,,,,,False,19,2014,AE
+1932923,Chowdry Mohamad Ramzan,JKN,24830,23932,35.21,2,19,4,JK,Chowdry Mohamad Ramzan,JKN,,,,,False,19,2014,AE
+1932924,Ghulam Mohi-Ui-Din Sofi,JKPDP,24832,9849,14.49,3,19,4,JK,Ghulam Mohi-Ui-Din Sofi,JKPDP,,,,,False,19,2014,AE
+1932925,Mohd Yaseen Bhat,INC,24825,1119,1.65,4,19,4,JK,Mohd Yaseen Bhat,INC,,,,,False,19,2014,AE
+1932926,Nota,NOTA,24835,776,1.14,5,19,4,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932927,Abdul Rahman Tantry,IND,24808,747,1.1,6,19,4,JK,Abdul Rahman Tantry,IND,,,,,False,19,2014,AE
+1932928,Sajad Ahmad Pir,BSP,24827,492,0.72,7,19,4,JK,Sajad Ahmad Pir,BSP,,,,,False,19,2014,AE
+1932929,Ajaz Ahmad Sofi,IND,24808,397,0.58,8,19,4,JK,Ajaz Ahmad Sofi,IND,,,,,False,19,2014,AE
+1932930,Gh. Qadir Mircha,AJKMP,24868,390,0.57,9,19,4,JK,Gh. Qadir Mircha,AJKMP,,,,,False,19,2014,AE
+1932931,Anaytullah Lohar,IND,24808,302,0.44,10,19,4,JK,Anaytullah Lohar,IND,,,,,False,19,2014,AE
+1932932,Hilal Ahmad Tantry,IND,24808,228,0.34,11,19,4,JK,Hilal Ahmad Tantry,IND,,,,,False,19,2014,AE
+1932933,Haneefa Begum,IND,24808,198,0.29,12,19,4,JK,Haneefa Begum,IND,,,,,False,19,2014,AE
+1932934,Mohd Abdullah Bhat,JKNPP,24867,189,0.28,13,19,4,JK,Mohd Abdullah Bhat,JKNPP,,,,,False,19,2014,AE
+1932935,Abdul Rashid Sheikh,IND,24808,18172,35.49,1,19,5,JK,Abdul Rashid Sheikh,IND,,,,,False,19,2014,AE
+1932936,Ghulam Nabi Ganai,JKPDP,24832,15667,30.6,2,19,5,JK,Ghulam Nabi Ganai,JKPDP,,,,,False,19,2014,AE
+1932937,Mohd Abdullah Mir,JPC,24831,10015,19.56,3,19,5,JK,Mohd Abdullah Mir,JPC,,,,,False,19,2014,AE
+1932938,Irshad Hussain Ganaie,IND,24808,1819,3.55,4,19,5,JK,Irshad Hussain Ganaie,IND,,,,,False,19,2014,AE
+1932939,Wali Mohd Bhat,JKN,24830,1645,3.21,5,19,5,JK,Wali Mohd Bhat,JKN,,,,,False,19,2014,AE
+1932940,Bashir Ahmad Wani,INC,24825,983,1.92,6,19,5,JK,Bashir Ahmad Wani,INC,,,,,False,19,2014,AE
+1932941,Mohd Akbar Ganie,IND,24808,632,1.23,7,19,5,JK,Mohd Akbar Ganie,IND,,,,,False,19,2014,AE
+1932942,Mohd Ramzan Malla,IND,24808,607,1.19,8,19,5,JK,Mohd Ramzan Malla,IND,,,,,False,19,2014,AE
+1932943,Nota,NOTA,24835,532,1.04,9,19,5,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932944,Mohammad Maqbool War,BJP,24826,523,1.02,10,19,5,JK,Mohammad Maqbool War,BJP,,,,,False,19,2014,AE
+1932945,Mudasir Ahmad Tantry,IND,24808,390,0.76,11,19,5,JK,Mudasir Ahmad Tantry,IND,,,,,False,19,2014,AE
+1932946,Javid Ahmad Najar,JKNPP,24867,211,0.41,12,19,5,JK,Javid Ahmad Najar,JKNPP,,,,,False,19,2014,AE
+1932947,Mohammad Shafi,JKN,24830,24359,39.25,1,19,6,JK,Mohammad Shafi,JKN,,,,,False,19,2014,AE
+1932948,Aijaz Ali Khan,JKPDP,24832,18567,29.92,2,19,6,JK,Aijaz Ali Khan,JKPDP,,,,,False,19,2014,AE
+1932949,Taj Mohi-Ud-Din,INC,24825,16588,26.73,3,19,6,JK,Taj Mohi-Ud-Din,INC,,,,,False,19,2014,AE
+1932950,Mushtaq Ahmad Mir,BJP,24826,1269,2.04,4,19,6,JK,Mushtaq Ahmad Mir,BJP,,,,,False,19,2014,AE
+1932951,Nota,NOTA,24835,729,1.17,5,19,6,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932952,Waseem Raja,AJKMP,24868,549,0.88,6,19,6,JK,Waseem Raja,AJKMP,,,,,False,19,2014,AE
+1932953,Yawar Ahmad Mir,JKPDP,24832,17918,32.31,1,19,7,JK,Yawar Ahmad Mir,JKPDP,,,,,False,19,2014,AE
+1932954,Abdul Gani Vakil,INC,24825,15584,28.1,2,19,7,JK,Abdul Gani Vakil,INC,,,,,False,19,2014,AE
+1932955,Javed Ahmad Dar,JKN,24830,14980,27.01,3,19,7,JK,Javed Ahmad Dar,JKN,,,,,False,19,2014,AE
+1932956,Khursheed Ahmad Khan,JPC,24831,3080,5.55,4,19,7,JK,Khursheed Ahmad Khan,JPC,,,,,False,19,2014,AE
+1932957,Fayaz Ahmad Malik,IND,24808,776,1.4,5,19,7,JK,Fayaz Ahmad Malik,IND,,,,,False,19,2014,AE
+1932958,Desh Kumar Nehru,BJP,24826,634,1.14,6,19,7,JK,Desh Kumar Nehru,BJP,,,,,False,19,2014,AE
+1932959,Nota,NOTA,24835,556,1.0,7,19,7,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932960,Ab Majeed Dar,JKNPP,24867,483,0.87,8,19,7,JK,Ab Majeed Dar,JKNPP,,,,,False,19,2014,AE
+1932961,Mohd Maqbool Mir,IND,24808,331,0.6,9,19,7,JK,Mohd Maqbool Mir,IND,,,,,False,19,2014,AE
+1932962,Gh Mohu Din Ahanger,IND,24808,318,0.57,10,19,7,JK,Gh Mohu Din Ahanger,IND,,,,,False,19,2014,AE
+1932963,Mudasir Rasool Bhat,IND,24808,288,0.52,11,19,7,JK,Mudasir Rasool Bhat,IND,,,,,False,19,2014,AE
+1932964,Gh Nabi Paray,IND,24808,283,0.51,12,19,7,JK,Gh Nabi Paray,IND,,,,,False,19,2014,AE
+1932965,Mohd Maqbool Dar,IND,24808,220,0.4,13,19,7,JK,Mohd Maqbool Dar,IND,,,,,False,19,2014,AE
+1932966,Abdul Rashid Dar,INC,24825,8429,26.38,1,19,8,JK,Abdul Rashid Dar,INC,,,,,False,19,2014,AE
+1932967,Nazir Ahmad Naikoo,JKPDP,24832,5674,17.76,2,19,8,JK,Nazir Ahmad Naikoo,JKPDP,,,,,False,19,2014,AE
+1932968,Irshad Rasool Kar,IND,24808,5324,16.66,3,19,8,JK,Irshad Rasool Kar,IND,,,,,False,19,2014,AE
+1932969,Mohd. Ashraf Ganie,JKN,24830,4079,12.77,4,19,8,JK,Mohd. Ashraf Ganie,JKN,,,,,False,19,2014,AE
+1932970,Mohmmad Ramzan Baba,JPC,24831,1567,4.9,5,19,8,JK,Mohmmad Ramzan Baba,JPC,,,,,False,19,2014,AE
+1932971,Shahzad Aasim,IND,24808,1394,4.36,6,19,8,JK,Shahzad Aasim,IND,,,,,False,19,2014,AE
+1932972,Mohamad Abdullah Dar,IND,24808,1208,3.78,7,19,8,JK,Mohamad Abdullah Dar,IND,,,,,False,19,2014,AE
+1932973,Gh. Mohmad War,IND,24808,1182,3.7,8,19,8,JK,Gh. Mohmad War,IND,,,,,False,19,2014,AE
+1932974,Zahid Gani Mircha,IND,24808,1022,3.2,9,19,8,JK,Zahid Gani Mircha,IND,,,,,False,19,2014,AE
+1932975,Sajad Mohi Ud Din Sheikh,IND,24808,545,1.71,10,19,8,JK,Sajad Mohi Ud Din Sheikh,IND,,,,,False,19,2014,AE
+1932976,Gh. Rasool Dar,IND,24808,511,1.6,11,19,8,JK,Gh. Rasool Dar,IND,,,,,False,19,2014,AE
+1932977,Nota,NOTA,24835,333,1.04,12,19,8,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932978,Muzafar Ahmad Lone,JKNPP,24867,204,0.64,13,19,8,JK,Muzafar Ahmad Lone,JKNPP,,,,,False,19,2014,AE
+1932979,Bashir Ahmad Azad,IND,24808,182,0.57,14,19,8,JK,Bashir Ahmad Azad,IND,,,,,False,19,2014,AE
+1932980,Syed Iqbal Nazki,IND,24808,178,0.56,15,19,8,JK,Syed Iqbal Nazki,IND,,,,,False,19,2014,AE
+1932981,Ulfat Sabba Ahmad Khawaja,IND,24808,120,0.38,16,19,8,JK,Ulfat Sabba Ahmad Khawaja,IND,,,,,False,19,2014,AE
+1932982,Nazir Ahmad Khan,JKN,24830,6664,48.29,1,19,9,JK,Nazir Ahmad Khan,JKN,,,,,False,19,2014,AE
+1932983,Faqir Mohmad Khan,INC,24825,6523,47.26,2,19,9,JK,Faqir Mohmad Khan,INC,,,,,False,19,2014,AE
+1932984,Mohd. Ismail Lone,JKPDP,24832,448,3.25,3,19,9,JK,Mohd. Ismail Lone,JKPDP,,,,,False,19,2014,AE
+1932985,Gh. Rasool Bhat,IND,24808,100,0.72,4,19,9,JK,Gh. Rasool Bhat,IND,,,,,False,19,2014,AE
+1932986,Nota,NOTA,24835,66,0.48,5,19,9,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932987,Usman Abdul Majid,INC,24825,25084,37.69,1,19,10,JK,Usman Abdul Majid,INC,,,,,False,19,2014,AE
+1932988,Nizam-U-Din Bhat,JKPDP,24832,21341,32.06,2,19,10,JK,Nizam-U-Din Bhat,JKPDP,,,,,False,19,2014,AE
+1932989,Abdullah Wani,JKN,24830,6754,10.15,3,19,10,JK,Abdullah Wani,JKN,,,,,False,19,2014,AE
+1932990,Nazir Ahmad Malik,IND,24808,4200,6.31,4,19,10,JK,Nazir Ahmad Malik,IND,,,,,False,19,2014,AE
+1932991,Nota,NOTA,24835,1641,2.47,5,19,10,JK,Nota,NOTA,,,,,False,19,2014,AE
+1932992,Mohammad Ismail Bhat,JPC,24831,1580,2.37,6,19,10,JK,Mohammad Ismail Bhat,JPC,,,,,False,19,2014,AE
+1932993,Mohd Shafi Khan,IND,24808,1137,1.71,7,19,10,JK,Mohd Shafi Khan,IND,,,,,False,19,2014,AE
+1932994,Mohd. Shafi Mir,IND,24808,1123,1.69,8,19,10,JK,Mohd. Shafi Mir,IND,,,,,False,19,2014,AE
+1932995,Javid Ahmad Shah,BSP,24827,816,1.23,9,19,10,JK,Javid Ahmad Shah,BSP,,,,,False,19,2014,AE
+1932996,Sheikh Waseem Bari,IND,24808,796,1.2,10,19,10,JK,Sheikh Waseem Bari,IND,,,,,False,19,2014,AE
+1932997,Gh Ahmad Bhat,IND,24808,691,1.04,11,19,10,JK,Gh Ahmad Bhat,IND,,,,,False,19,2014,AE
+1932998,Abdul Rehman,BJP,24826,565,0.85,12,19,10,JK,Abdul Rehman,BJP,,,,,False,19,2014,AE
+1932999,Mohmmad Iqbal Zargar,AIFB,24823,492,0.74,13,19,10,JK,Mohmmad Iqbal Zargar,AIFB,,,,,False,19,2014,AE
+1933000,Manzoor Ahmad Baba,AJKMP,24868,340,0.51,14,19,10,JK,Manzoor Ahmad Baba,AJKMP,,,,,False,19,2014,AE
+1933001,Mohammad Akbar Lone,JKN,24830,32567,40.53,1,19,11,JK,Mohammad Akbar Lone,JKN,,,,,False,19,2014,AE
+1933002,Yasir Reshi,JKPDP,24832,32161,40.02,2,19,11,JK,Yasir Reshi,JKPDP,,,,,False,19,2014,AE
+1933003,Imtiyaz Ahmad Parray,INC,24825,12065,15.01,3,19,11,JK,Imtiyaz Ahmad Parray,INC,,,,,False,19,2014,AE
+1933004,Qawamudin Sheikh,JPC,24831,1174,1.46,4,19,11,JK,Qawamudin Sheikh,JPC,,,,,False,19,2014,AE
+1933005,Nota,NOTA,24835,1075,1.34,5,19,11,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933006,Gh Mohammad Parray,IND,24808,529,0.66,6,19,11,JK,Gh Mohammad Parray,IND,,,,,False,19,2014,AE
+1933007,Nazir Ahmad Wani,IND,24808,475,0.59,7,19,11,JK,Nazir Ahmad Wani,IND,,,,,False,19,2014,AE
+1933008,Gh Rasool Malik,JKNPP,24867,313,0.39,8,19,11,JK,Gh Rasool Malik,JKNPP,,,,,False,19,2014,AE
+1933009,Syed Basharat Ahmed Bukhari,JKPDP,24832,12146,31.37,1,19,12,JK,Syed Basharat Ahmed Bukhari,JKPDP,,,,,False,19,2014,AE
+1933010,Shuib Nabi Lone,INC,24825,10392,26.84,2,19,12,JK,Shuib Nabi Lone,INC,,,,,False,19,2014,AE
+1933011,Khwaja Mohammad Yaqoob Wani,JKN,24830,6696,17.29,3,19,12,JK,Khwaja Mohammad Yaqoob Wani,JKN,,,,,False,19,2014,AE
+1933012,Irfan Hafiz Lone,IND,24808,3829,9.89,4,19,12,JK,Irfan Hafiz Lone,IND,,,,,False,19,2014,AE
+1933013,Fazal Mahmood Baig,IND,24808,1970,5.09,5,19,12,JK,Fazal Mahmood Baig,IND,,,,,False,19,2014,AE
+1933014,Gh. Mohi-Ud-Din Bhat,JPC,24831,856,2.21,6,19,12,JK,Gh. Mohi-Ud-Din Bhat,JPC,,,,,False,19,2014,AE
+1933015,Farooq Ahmad Bhat,JKNPP,24867,850,2.2,7,19,12,JK,Farooq Ahmad Bhat,JKNPP,,,,,False,19,2014,AE
+1933016,Hilal Ahmad Bhat,IND,24808,796,2.06,8,19,12,JK,Hilal Ahmad Bhat,IND,,,,,False,19,2014,AE
+1933017,Gh. Mohi-Ud-Din Sofi,IND,24808,575,1.48,9,19,12,JK,Gh. Mohi-Ud-Din Sofi,IND,,,,,False,19,2014,AE
+1933018,Nota,NOTA,24835,456,1.18,10,19,12,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933019,Nisar Ahmad Shah,AJKMP,24868,156,0.4,11,19,12,JK,Nisar Ahmad Shah,AJKMP,,,,,False,19,2014,AE
+1933020,Javid Hassan Baig,JKPDP,24832,14418,43.75,1,19,13,JK,Javid Hassan Baig,JKPDP,,,,,False,19,2014,AE
+1933021,Gh. Hassan Rahi,JKN,24830,7401,22.46,2,19,13,JK,Gh. Hassan Rahi,JKN,,,,,False,19,2014,AE
+1933022,Salman Anees Soz,INC,24825,6805,20.65,3,19,13,JK,Salman Anees Soz,INC,,,,,False,19,2014,AE
+1933023,Mohd. Yousf Dar,JPC,24831,1164,3.53,4,19,13,JK,Mohd. Yousf Dar,JPC,,,,,False,19,2014,AE
+1933024,Gulam Ud Din Gulshan,IND,24808,850,2.58,5,19,13,JK,Gulam Ud Din Gulshan,IND,,,,,False,19,2014,AE
+1933025,Nota,NOTA,24835,758,2.3,6,19,13,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933026,Mohd. Maqbool Mir,IND,24808,570,1.73,7,19,13,JK,Mohd. Maqbool Mir,IND,,,,,False,19,2014,AE
+1933027,Mohd. Aslam Deedar,IND,24808,381,1.16,8,19,13,JK,Mohd. Aslam Deedar,IND,,,,,False,19,2014,AE
+1933028,Altaf Jameel Lone,IND,24808,209,0.63,9,19,13,JK,Altaf Jameel Lone,IND,,,,,False,19,2014,AE
+1933029,Gulshan Sanhotra,JKNPP,24867,176,0.53,10,19,13,JK,Gulshan Sanhotra,JKNPP,,,,,False,19,2014,AE
+1933030,Ashiq Hussian Ganaie,IND,24808,134,0.41,11,19,13,JK,Ashiq Hussian Ganaie,IND,,,,,False,19,2014,AE
+1933031,Mohd Afsar Khan,AJKMP,24868,88,0.27,12,19,13,JK,Mohd Afsar Khan,AJKMP,,,,,False,19,2014,AE
+1933032,Mohd. Abass Wani,JKPDP,24832,22957,33.81,1,19,14,JK,Mohd. Abass Wani,JKPDP,,,,,False,19,2014,AE
+1933033,Ghulam Hassan Mir,JKDPN,24870,20146,29.67,2,19,14,JK,Ghulam Hassan Mir,JKDPN,,,,,False,19,2014,AE
+1933034,Shabir Ahmad Mir,IND,24808,11083,16.32,3,19,14,JK,Shabir Ahmad Mir,IND,,,,,False,19,2014,AE
+1933035,Sheikh Mustafa Kamal,JKN,24830,9275,13.66,4,19,14,JK,Sheikh Mustafa Kamal,JKN,,,,,False,19,2014,AE
+1933036,Tejinder Singh,IND,24808,1939,2.86,5,19,14,JK,Tejinder Singh,IND,,,,,False,19,2014,AE
+1933037,Nota,NOTA,24835,917,1.35,6,19,14,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933038,Ab Ahad Sheikh,AJKMP,24868,645,0.95,7,19,14,JK,Ab Ahad Sheikh,AJKMP,,,,,False,19,2014,AE
+1933039,Mohd. Akram Mir,IND,24808,547,0.81,8,19,14,JK,Mohd. Akram Mir,IND,,,,,False,19,2014,AE
+1933040,Gh. Mohi Ud Din Malla,JKNPP,24867,396,0.58,9,19,14,JK,Gh. Mohi Ud Din Malla,JKNPP,,,,,False,19,2014,AE
+1933041,Imran Raza Ansari,JKPDP,24832,21218,40.41,1,19,15,JK,Imran Raza Ansari,JKPDP,,,,,False,19,2014,AE
+1933042,Aga Syed Mehmood Al Mosavi,JKN,24830,11884,22.63,2,19,15,JK,Aga Syed Mehmood Al Mosavi,JKN,,,,,False,19,2014,AE
+1933043,Reyaz Ahmad,INC,24825,6629,12.62,3,19,15,JK,Reyaz Ahmad,INC,,,,,False,19,2014,AE
+1933044,Basharat Hussain Najar,JKDPN,24870,4666,8.89,4,19,15,JK,Basharat Hussain Najar,JKDPN,,,,,False,19,2014,AE
+1933045,Ab. Rashid Shaheen,IND,24808,2466,4.7,5,19,15,JK,Ab. Rashid Shaheen,IND,,,,,False,19,2014,AE
+1933046,Abdul Ahad Yatoo,IND,24808,2280,4.34,6,19,15,JK,Abdul Ahad Yatoo,IND,,,,,False,19,2014,AE
+1933047,Farooq Ahmad Ganie,IND,24808,1567,2.98,7,19,15,JK,Farooq Ahmad Ganie,IND,,,,,False,19,2014,AE
+1933048,Nota,NOTA,24835,567,1.08,8,19,15,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933049,Ashiq Hussain Lone,BSP,24827,481,0.92,9,19,15,JK,Ashiq Hussain Lone,BSP,,,,,False,19,2014,AE
+1933050,Bashir Ahmad Ganai,IND,24808,239,0.46,10,19,15,JK,Bashir Ahmad Ganai,IND,,,,,False,19,2014,AE
+1933051,Ashiq Ahmad Dar,IND,24808,215,0.41,11,19,15,JK,Ashiq Ahmad Dar,IND,,,,,False,19,2014,AE
+1933052,Tariq Ahmad Parry,IND,24808,151,0.29,12,19,15,JK,Tariq Ahmad Parry,IND,,,,,False,19,2014,AE
+1933053,Wali Mohamad Wani,AJKMP,24868,144,0.27,13,19,15,JK,Wali Mohamad Wani,AJKMP,,,,,False,19,2014,AE
+1933054,Altaf Ahmad,JKN,24830,25812,47.12,1,19,16,JK,Altaf Ahmad,JKN,,,,,False,19,2014,AE
+1933055,Bashir Ahmad Mir,JKPDP,24832,24380,44.5,2,19,16,JK,Bashir Ahmad Mir,JKPDP,,,,,False,19,2014,AE
+1933056,Ajaz Ahmad Sheikh,INC,24825,889,1.62,3,19,16,JK,Ajaz Ahmad Sheikh,INC,,,,,False,19,2014,AE
+1933057,Nota,NOTA,24835,731,1.33,4,19,16,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933058,Showkat Hussain Khan,IND,24808,691,1.26,5,19,16,JK,Showkat Hussain Khan,IND,,,,,False,19,2014,AE
+1933059,Ghulam Hassan Rather,IND,24808,608,1.11,6,19,16,JK,Ghulam Hassan Rather,IND,,,,,False,19,2014,AE
+1933060,Nazir Ahmad Raina,BJP,24826,583,1.06,7,19,16,JK,Nazir Ahmad Raina,BJP,,,,,False,19,2014,AE
+1933061,Abdul Rashid Ganaie,JKNPP,24867,481,0.88,8,19,16,JK,Abdul Rashid Ganaie,JKNPP,,,,,False,19,2014,AE
+1933062,Mushtaq Ahmad Shah,JPC,24831,373,0.68,9,19,16,JK,Mushtaq Ahmad Shah,JPC,,,,,False,19,2014,AE
+1933063,Shabir Ahmad Mir,AJKMP,24868,139,0.25,10,19,16,JK,Shabir Ahmad Mir,AJKMP,,,,,False,19,2014,AE
+1933064,Mohd Sultan Lone,BSP,24827,97,0.18,11,19,16,JK,Mohd Sultan Lone,BSP,,,,,False,19,2014,AE
+1933065,Ishfaq Ahmad Sheikh,JKN,24830,19478,36.38,1,19,17,JK,Ishfaq Ahmad Sheikh,JKN,,,,,False,19,2014,AE
+1933066,Qazi Mohammad Afzal,JKPDP,24832,18881,35.27,2,19,17,JK,Qazi Mohammad Afzal,JKPDP,,,,,False,19,2014,AE
+1933067,Sheikh Ghulam Ahmad,IND,24808,6009,11.22,3,19,17,JK,Sheikh Ghulam Ahmad,IND,,,,,False,19,2014,AE
+1933068,Mohammad Yousuf Bhat,INC,24825,3190,5.96,4,19,17,JK,Mohammad Yousuf Bhat,INC,,,,,False,19,2014,AE
+1933069,Gh Rasool Mir,IND,24808,1236,2.31,5,19,17,JK,Gh Rasool Mir,IND,,,,,False,19,2014,AE
+1933070,Bilal Ahmad Khanday,IND,24808,1057,1.97,6,19,17,JK,Bilal Ahmad Khanday,IND,,,,,False,19,2014,AE
+1933071,Nota,NOTA,24835,800,1.49,7,19,17,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933072,Sheikh Abdul Rasheed,BJP,24826,671,1.25,8,19,17,JK,Sheikh Abdul Rasheed,BJP,,,,,False,19,2014,AE
+1933073,Javed Ahmad Khan,IND,24808,660,1.23,9,19,17,JK,Javed Ahmad Khan,IND,,,,,False,19,2014,AE
+1933074,Hilal Ahmad Dar,IND,24808,489,0.91,10,19,17,JK,Hilal Ahmad Dar,IND,,,,,False,19,2014,AE
+1933075,Abdul Majeed Dhobi,JPC,24831,321,0.6,11,19,17,JK,Abdul Majeed Dhobi,JPC,,,,,False,19,2014,AE
+1933076,Syed Ali Mohammad Shah,IND,24808,289,0.54,12,19,17,JK,Syed Ali Mohammad Shah,IND,,,,,False,19,2014,AE
+1933077,Nazir Ahmad Lone,IND,24808,230,0.43,13,19,17,JK,Nazir Ahmad Lone,IND,,,,,False,19,2014,AE
+1933078,Ali Mohammad Baba,JKNPP,24867,228,0.43,14,19,17,JK,Ali Mohammad Baba,JKNPP,,,,,False,19,2014,AE
+1933079,Asiea,JKPDP,24832,13234,44.87,1,19,18,JK,Asiea,JKPDP,,,,,False,19,2014,AE
+1933080,Mohammad Syed Akhoon,JKN,24830,9834,33.34,2,19,18,JK,Mohammad Syed Akhoon,JKN,,,,,False,19,2014,AE
+1933081,Masood Ul Hassan,BJP,24826,2635,8.93,3,19,18,JK,Masood Ul Hassan,BJP,,,,,False,19,2014,AE
+1933082,Altaf Hussain Dar,IND,24808,1089,3.69,4,19,18,JK,Altaf Hussain Dar,IND,,,,,False,19,2014,AE
+1933083,Syed Ahmad,INC,24825,921,3.12,5,19,18,JK,Syed Ahmad,INC,,,,,False,19,2014,AE
+1933084,Nota,NOTA,24835,422,1.43,6,19,18,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933085,Ghulam Nabi Dar,IND,24808,348,1.18,7,19,18,JK,Ghulam Nabi Dar,IND,,,,,False,19,2014,AE
+1933086,Mirza Sajad Hussain,RAJPA,24871,272,0.92,8,19,18,JK,Mirza Sajad Hussain,RAJPA,,,,,False,19,2014,AE
+1933087,Javeed Ahmad Tota,IND,24808,226,0.77,9,19,18,JK,Javeed Ahmad Tota,IND,,,,,False,19,2014,AE
+1933088,Adil Mustafa Khan,JKNPP,24867,179,0.61,10,19,18,JK,Adil Mustafa Khan,JKNPP,,,,,False,19,2014,AE
+1933089,Ghulam Ahmad Shalla,ABHM,24872,137,0.46,11,19,18,JK,Ghulam Ahmad Shalla,ABHM,,,,,False,19,2014,AE
+1933090,Khalid Tufail,IND,24808,127,0.43,12,19,18,JK,Khalid Tufail,IND,,,,,False,19,2014,AE
+1933091,Mushtaq Ahmad Sofi,AJKMP,24868,73,0.25,13,19,18,JK,Mushtaq Ahmad Sofi,AJKMP,,,,,False,19,2014,AE
+1933092,Abid Hussain Ansari,JKPDP,24832,7852,42.66,1,19,19,JK,Abid Hussain Ansari,JKPDP,,,,,False,19,2014,AE
+1933093,Peer Afaq Ahmad,JKN,24830,4849,26.35,2,19,19,JK,Peer Afaq Ahmad,JKN,,,,,False,19,2014,AE
+1933094,Shahid Ali Kachroo,IND,24808,1329,7.22,3,19,19,JK,Shahid Ali Kachroo,IND,,,,,False,19,2014,AE
+1933095,Nazir Ud Din Ahmad,IND,24808,1063,5.78,4,19,19,JK,Nazir Ud Din Ahmad,IND,,,,,False,19,2014,AE
+1933096,Shameema Raina,INC,24825,922,5.01,5,19,19,JK,Shameema Raina,INC,,,,,False,19,2014,AE
+1933097,Mohd Ashraf Dar,JPC,24831,630,3.42,6,19,19,JK,Mohd Ashraf Dar,JPC,,,,,False,19,2014,AE
+1933098,Arshid Hussain,IND,24808,468,2.54,7,19,19,JK,Arshid Hussain,IND,,,,,False,19,2014,AE
+1933099,Neelam Gaash,BJP,24826,360,1.96,8,19,19,JK,Neelam Gaash,BJP,,,,,False,19,2014,AE
+1933100,Saleem Akhtar Malik,IND,24808,242,1.31,9,19,19,JK,Saleem Akhtar Malik,IND,,,,,False,19,2014,AE
+1933101,Syed Owais Qadri,IND,24808,241,1.31,10,19,19,JK,Syed Owais Qadri,IND,,,,,False,19,2014,AE
+1933102,Nota,NOTA,24835,138,0.75,11,19,19,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933103,Nisar Ahmad Ahangar,IND,24808,133,0.72,12,19,19,JK,Nisar Ahmad Ahangar,IND,,,,,False,19,2014,AE
+1933104,Hakim Mohammad Afzal,RAJPA,24871,93,0.51,13,19,19,JK,Hakim Mohammad Afzal,RAJPA,,,,,False,19,2014,AE
+1933105,Syed Maqsood Hussain,IND,24808,84,0.46,14,19,19,JK,Syed Maqsood Hussain,IND,,,,,False,19,2014,AE
+1933106,Mubarik Ahmad Gul,JKN,24830,6766,41.38,1,19,20,JK,Mubarik Ahmad Gul,JKN,,,,,False,19,2014,AE
+1933107,Ali Mohammad Wani,JKPDP,24832,6158,37.66,2,19,20,JK,Ali Mohammad Wani,JKPDP,,,,,False,19,2014,AE
+1933108,Imtiyaz Ahmad Khan,INC,24825,1274,7.79,3,19,20,JK,Imtiyaz Ahmad Khan,INC,,,,,False,19,2014,AE
+1933109,Fayaz Ahmad Bhat,IND,24808,1238,7.57,4,19,20,JK,Fayaz Ahmad Bhat,IND,,,,,False,19,2014,AE
+1933110,Irfan Ahmad Mattoo,JPC,24831,385,2.35,5,19,20,JK,Irfan Ahmad Mattoo,JPC,,,,,False,19,2014,AE
+1933111,Mehraj Ud Din Bhat,IND,24808,213,1.3,6,19,20,JK,Mehraj Ud Din Bhat,IND,,,,,False,19,2014,AE
+1933112,Nota,NOTA,24835,177,1.08,7,19,20,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933113,Ghulam Mohammad Rather,IND,24808,97,0.59,8,19,20,JK,Ghulam Mohammad Rather,IND,,,,,False,19,2014,AE
+1933114,Mohammad Ashraf Khan,AJKMP,24868,44,0.27,9,19,20,JK,Mohammad Ashraf Khan,AJKMP,,,,,False,19,2014,AE
+1933115,Ali Mohd Sagar,JKN,24830,6505,48.76,1,19,21,JK,Ali Mohd Sagar,JKN,,,,,False,19,2014,AE
+1933116,Muhammad Khurshid Alam,JKPDP,24832,5338,40.01,2,19,21,JK,Muhammad Khurshid Alam,JKPDP,,,,,False,19,2014,AE
+1933117,Firdous Ahmad Shiekh,IND,24808,552,4.14,3,19,21,JK,Firdous Ahmad Shiekh,IND,,,,,False,19,2014,AE
+1933118,Ashok Kumar Bhat,BJP,24826,550,4.12,4,19,21,JK,Ashok Kumar Bhat,BJP,,,,,False,19,2014,AE
+1933119,Bilal Ahmed Wani,IND,24808,154,1.15,5,19,21,JK,Bilal Ahmed Wani,IND,,,,,False,19,2014,AE
+1933120,Mohammed Yaqub Vakil,INC,24825,141,1.06,6,19,21,JK,Mohammed Yaqub Vakil,INC,,,,,False,19,2014,AE
+1933121,Nota,NOTA,24835,102,0.76,7,19,21,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933122,Shamim Firdous,JKN,24830,4955,42.4,1,19,22,JK,Shamim Firdous,JKN,,,,,False,19,2014,AE
+1933123,Moti Koul,BJP,24826,2596,22.21,2,19,22,JK,Moti Koul,BJP,,,,,False,19,2014,AE
+1933124,Zafar Meraj,JKPDP,24832,992,8.49,3,19,22,JK,Zafar Meraj,JKPDP,,,,,False,19,2014,AE
+1933125,Raman Mattoo,INC,24825,973,8.33,4,19,22,JK,Raman Mattoo,INC,,,,,False,19,2014,AE
+1933126,Sanjay Saraf,LJP,24873,830,7.1,5,19,22,JK,Sanjay Saraf,LJP,,,,,False,19,2014,AE
+1933127,Waseem Ahmed Shalla,IND,24808,508,4.35,6,19,22,JK,Waseem Ahmed Shalla,IND,,,,,False,19,2014,AE
+1933128,Nazir Ahmad Gilkar,IND,24808,261,2.23,7,19,22,JK,Nazir Ahmad Gilkar,IND,,,,,False,19,2014,AE
+1933129,Bilal Ahmad Parra,IND,24808,211,1.81,8,19,22,JK,Bilal Ahmad Parra,IND,,,,,False,19,2014,AE
+1933130,Mohd Muneeb Bhat,IND,24808,158,1.35,9,19,22,JK,Mohd Muneeb Bhat,IND,,,,,False,19,2014,AE
+1933131,Nota,NOTA,24835,118,1.01,10,19,22,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933132,Parviaz Ah Bhat,IND,24808,48,0.41,11,19,22,JK,Parviaz Ah Bhat,IND,,,,,False,19,2014,AE
+1933133,Zahid Bashir,NCP,24837,36,0.31,12,19,22,JK,Zahid Bashir,NCP,,,,,False,19,2014,AE
+1933134,Syed Mohammad Altaf Bukhari,JKPDP,24832,11726,54.57,1,19,23,JK,Syed Mohammad Altaf Bukhari,JKPDP,,,,,False,19,2014,AE
+1933135,Nasir Aslam Wani,JKN,24830,6385,29.71,2,19,23,JK,Nasir Aslam Wani,JKN,,,,,False,19,2014,AE
+1933136,Heena Shafi Bhat,BJP,24826,1359,6.32,3,19,23,JK,Heena Shafi Bhat,BJP,,,,,False,19,2014,AE
+1933137,Bikram Singh,IND,24808,478,2.22,4,19,23,JK,Bikram Singh,IND,,,,,False,19,2014,AE
+1933138,Sheikh Aamir Rasool,INC,24825,318,1.48,5,19,23,JK,Sheikh Aamir Rasool,INC,,,,,False,19,2014,AE
+1933139,Nota,NOTA,24835,208,0.97,6,19,23,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933140,Younis Qawam,IND,24808,188,0.87,7,19,23,JK,Younis Qawam,IND,,,,,False,19,2014,AE
+1933141,Ghulam Hassan Dar,IND,24808,186,0.87,8,19,23,JK,Ghulam Hassan Dar,IND,,,,,False,19,2014,AE
+1933142,Farooq Ahmad Khan,IND,24808,161,0.75,9,19,23,JK,Farooq Ahmad Khan,IND,,,,,False,19,2014,AE
+1933143,Zeeshan Pandith,IND,24808,145,0.67,10,19,23,JK,Zeeshan Pandith,IND,,,,,False,19,2014,AE
+1933144,Shafat Ahmad Siddiqi,JPC,24831,121,0.56,11,19,23,JK,Shafat Ahmad Siddiqi,JPC,,,,,False,19,2014,AE
+1933145,Syed Masood Ahmad Andrabi,JKNPP,24867,79,0.37,12,19,23,JK,Syed Masood Ahmad Andrabi,JKNPP,,,,,False,19,2014,AE
+1933146,Shakeel Ahmad Wani,IND,24808,56,0.26,13,19,23,JK,Shakeel Ahmad Wani,IND,,,,,False,19,2014,AE
+1933147,Sushant Bakhshi,IND,24808,53,0.25,14,19,23,JK,Sushant Bakhshi,IND,,,,,False,19,2014,AE
+1933148,Azad Abdul Samad Mandu,IND,24808,25,0.12,15,19,23,JK,Azad Abdul Samad Mandu,IND,,,,,False,19,2014,AE
+1933149,Mohammad Ashraf Mir,JKPDP,24832,14283,41.88,1,19,24,JK,Mohammad Ashraf Mir,JKPDP,,,,,False,19,2014,AE
+1933150,Omar Abdullah,JKN,24830,9500,27.85,2,19,24,JK,Omar Abdullah,JKN,,,,,False,19,2014,AE
+1933151,Peer Bilal Ahmad,IND,24808,4394,12.88,3,19,24,JK,Peer Bilal Ahmad,IND,,,,,False,19,2014,AE
+1933152,Laldin Mir,JPC,24831,1996,5.85,4,19,24,JK,Laldin Mir,JPC,,,,,False,19,2014,AE
+1933153,Darakhshan Andrabi,BJP,24826,1100,3.23,5,19,24,JK,Darakhshan Andrabi,BJP,,,,,False,19,2014,AE
+1933154,Khem Lata Wakhlu,INC,24825,808,2.37,6,19,24,JK,Khem Lata Wakhlu,INC,,,,,False,19,2014,AE
+1933155,Parvez Jamal,IND,24808,458,1.34,7,19,24,JK,Parvez Jamal,IND,,,,,False,19,2014,AE
+1933156,Mohammad Younus Najar,RAJPA,24871,410,1.2,8,19,24,JK,Mohammad Younus Najar,RAJPA,,,,,False,19,2014,AE
+1933157,Nota,NOTA,24835,305,0.89,9,19,24,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933158,Malik Noor Ul Amin,IND,24808,226,0.66,10,19,24,JK,Malik Noor Ul Amin,IND,,,,,False,19,2014,AE
+1933159,Gowhar Ahmad Malik,IND,24808,179,0.52,11,19,24,JK,Gowhar Ahmad Malik,IND,,,,,False,19,2014,AE
+1933160,Farooq Ahmad Dar,JKNPP,24867,161,0.47,12,19,24,JK,Farooq Ahmad Dar,JKNPP,,,,,False,19,2014,AE
+1933161,Amjad Ali Buhroo,AIFB,24823,141,0.41,13,19,24,JK,Amjad Ali Buhroo,AIFB,,,,,False,19,2014,AE
+1933162,Abdul Rashid Lone,RPI(A),24844,89,0.26,14,19,24,JK,Abdul Rashid Lone,RPI(A),,,,,False,19,2014,AE
+1933163,Riyaz Ahmad Wani,AJKMP,24868,57,0.17,15,19,24,JK,Riyaz Ahmad Wani,AJKMP,,,,,False,19,2014,AE
+1933164,Noor Mohd Sheikh,JKPDP,24832,12542,42.56,1,19,25,JK,Noor Mohd Sheikh,JKPDP,,,,,False,19,2014,AE
+1933165,Mohd Irfan Shah,JKN,24830,8215,27.88,2,19,25,JK,Mohd Irfan Shah,JKN,,,,,False,19,2014,AE
+1933166,Abdul Qayoom Bhat,JKDPN,24870,1409,4.78,3,19,25,JK,Abdul Qayoom Bhat,JKDPN,,,,,False,19,2014,AE
+1933167,Mohd Maqbool Shiekh,IND,24808,1399,4.75,4,19,25,JK,Mohd Maqbool Shiekh,IND,,,,,False,19,2014,AE
+1933168,Zubair Nazir Wani,BJP,24826,1304,4.43,5,19,25,JK,Zubair Nazir Wani,BJP,,,,,False,19,2014,AE
+1933169,Abdul Hamid Rather,INC,24825,1204,4.09,6,19,25,JK,Abdul Hamid Rather,INC,,,,,False,19,2014,AE
+1933170,Muzzaffar Ahmad Gazi,JPC,24831,942,3.2,7,19,25,JK,Muzzaffar Ahmad Gazi,JPC,,,,,False,19,2014,AE
+1933171,Reyaz Ahmad Mir,IND,24808,764,2.59,8,19,25,JK,Reyaz Ahmad Mir,IND,,,,,False,19,2014,AE
+1933172,Gulzar Ahmad Bangroo,SP,24834,458,1.55,9,19,25,JK,Gulzar Ahmad Bangroo,SP,,,,,False,19,2014,AE
+1933173,Mohd Maqbool Rather,BSP,24827,252,0.86,10,19,25,JK,Mohd Maqbool Rather,BSP,,,,,False,19,2014,AE
+1933174,Javaid Ahmad Dandru,IND,24808,209,0.71,11,19,25,JK,Javaid Ahmad Dandru,IND,,,,,False,19,2014,AE
+1933175,Sajad Ah Reshi,JKPPS,24874,190,0.64,12,19,25,JK,Sajad Ah Reshi,JKPPS,,,,,False,19,2014,AE
+1933176,Mohd Adil Hussain Dar,IND,24808,164,0.56,13,19,25,JK,Mohd Adil Hussain Dar,IND,,,,,False,19,2014,AE
+1933177,Mehbooba Shadab,IND,24808,134,0.45,14,19,25,JK,Mehbooba Shadab,IND,,,,,False,19,2014,AE
+1933178,Bashir Ahmad Wani,JKNPP,24867,115,0.39,15,19,25,JK,Bashir Ahmad Wani,JKNPP,,,,,False,19,2014,AE
+1933179,Nota,NOTA,24835,86,0.29,16,19,25,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933180,Showkat Ahmad Bhat,AJKMP,24868,79,0.27,17,19,25,JK,Showkat Ahmad Bhat,AJKMP,,,,,False,19,2014,AE
+1933181,Javaid Mustafa Mir,JKPDP,24832,25770,48.26,1,19,26,JK,Javaid Mustafa Mir,JKPDP,,,,,False,19,2014,AE
+1933182,Ali Mohammad Dar,JKN,24830,24077,45.09,2,19,26,JK,Ali Mohammad Dar,JKN,,,,,False,19,2014,AE
+1933183,Gulam Mohamad Bhat,IND,24808,1261,2.36,3,19,26,JK,Gulam Mohamad Bhat,IND,,,,,False,19,2014,AE
+1933184,Bilal Ahmad Mir,IND,24808,665,1.25,4,19,26,JK,Bilal Ahmad Mir,IND,,,,,False,19,2014,AE
+1933185,Nota,NOTA,24835,526,0.98,5,19,26,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933186,Mohammad Maqbool Malla,INC,24825,384,0.72,6,19,26,JK,Mohammad Maqbool Malla,INC,,,,,False,19,2014,AE
+1933187,Gh Mohd Paul,NCP,24837,376,0.7,7,19,26,JK,Gh Mohd Paul,NCP,,,,,False,19,2014,AE
+1933188,Riyaz Ahmad Rather,JKNPP,24867,344,0.64,8,19,26,JK,Riyaz Ahmad Rather,JKNPP,,,,,False,19,2014,AE
+1933189,Aga Syed Ruhullah Mehdi,JKN,24830,30090,43.76,1,19,27,JK,Aga Syed Ruhullah Mehdi,JKN,,,,,False,19,2014,AE
+1933190,Gh Mohi-Ud-Din Bhat (Muntazir),JKPDP,24832,27303,39.71,2,19,27,JK,Gh Mohi-Ud-Din Bhat (Muntazir),JKPDP,,,,,False,19,2014,AE
+1933191,Fayaz Ahmad Dar,JKPDF,24875,6387,9.29,3,19,27,JK,Fayaz Ahmad Dar,JKPDF,,,,,False,19,2014,AE
+1933192,Mohammad Kamal Malik,JPC,24831,2342,3.41,4,19,27,JK,Mohammad Kamal Malik,JPC,,,,,False,19,2014,AE
+1933193,Mir Fayaz Rahat,BJP,24826,880,1.28,5,19,27,JK,Mir Fayaz Rahat,BJP,,,,,False,19,2014,AE
+1933194,Rafiq Ahmad Dar,IND,24808,872,1.27,6,19,27,JK,Rafiq Ahmad Dar,IND,,,,,False,19,2014,AE
+1933195,Ghulam Hussain Geelani,INC,24825,520,0.76,7,19,27,JK,Ghulam Hussain Geelani,INC,,,,,False,19,2014,AE
+1933196,Nota,NOTA,24835,364,0.53,8,19,27,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933197,Omar Abdullah,JKN,24830,23717,34.18,1,19,28,JK,Omar Abdullah,JKN,,,,,False,19,2014,AE
+1933198,Nazir Ahmad Khan,INC,24825,22807,32.86,2,19,28,JK,Nazir Ahmad Khan,INC,,,,,False,19,2014,AE
+1933199,Shafi Ahmad Wani,JKPDP,24832,17554,25.3,3,19,28,JK,Shafi Ahmad Wani,JKPDP,,,,,False,19,2014,AE
+1933200,Dawood Khan Lodhi,JPC,24831,3103,4.47,4,19,28,JK,Dawood Khan Lodhi,JPC,,,,,False,19,2014,AE
+1933201,Abdul Rashid Banday,BJP,24826,1142,1.65,5,19,28,JK,Abdul Rashid Banday,BJP,,,,,False,19,2014,AE
+1933202,Nota,NOTA,24835,710,1.02,6,19,28,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933203,Aijaz Ahmad Lone,IND,24808,364,0.52,7,19,28,JK,Aijaz Ahmad Lone,IND,,,,,False,19,2014,AE
+1933204,Hakeem Mohammad Yaseen Shah,JKPDF,24875,26649,38.16,1,19,29,JK,Hakeem Mohammad Yaseen Shah,JKPDF,,,,,False,19,2014,AE
+1933205,Saif-U-Din Bhat,JKPDP,24832,25540,36.58,2,19,29,JK,Saif-U-Din Bhat,JKPDP,,,,,False,19,2014,AE
+1933206,Manzoor Ahmad Wani,JKN,24830,15397,22.05,3,19,29,JK,Manzoor Ahmad Wani,JKN,,,,,False,19,2014,AE
+1933207,Bashir Ahmad Khan,IND,24808,697,1.0,4,19,29,JK,Bashir Ahmad Khan,IND,,,,,False,19,2014,AE
+1933208,Abdul Gani Naseem,INC,24825,648,0.93,5,19,29,JK,Abdul Gani Naseem,INC,,,,,False,19,2014,AE
+1933209,Nota,NOTA,24835,585,0.84,6,19,29,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933210,Mohammad Anwar Lone,IND,24808,312,0.45,7,19,29,JK,Mohammad Anwar Lone,IND,,,,,False,19,2014,AE
+1933211,Ghulam Nabi Lone,JKPDP,24832,32849,50.85,1,19,30,JK,Ghulam Nabi Lone,JKPDP,,,,,False,19,2014,AE
+1933212,Abdul Rahim Rather,JKN,24830,27682,42.85,2,19,30,JK,Abdul Rahim Rather,JKN,,,,,False,19,2014,AE
+1933213,Zahid Hussain,INC,24825,922,1.43,3,19,30,JK,Zahid Hussain,INC,,,,,False,19,2014,AE
+1933214,Ghulam Mohamad Chopan,BJP,24826,845,1.31,4,19,30,JK,Ghulam Mohamad Chopan,BJP,,,,,False,19,2014,AE
+1933215,Mohammad Lateef Lone,JPC,24831,727,1.13,5,19,30,JK,Mohammad Lateef Lone,JPC,,,,,False,19,2014,AE
+1933216,Showkat Ahmad Raina,IND,24808,579,0.9,6,19,30,JK,Showkat Ahmad Raina,IND,,,,,False,19,2014,AE
+1933217,Nota,NOTA,24835,363,0.56,7,19,30,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933218,Nazir Ahmad Rather,IND,24808,362,0.56,8,19,30,JK,Nazir Ahmad Rather,IND,,,,,False,19,2014,AE
+1933219,Mushtaq Ahmad Baba,AJKMP,24868,271,0.42,9,19,30,JK,Mushtaq Ahmad Baba,AJKMP,,,,,False,19,2014,AE
+1933220,Mushtaq Ahmad Shah,JKPDP,24832,12415,38.56,1,19,31,JK,Mushtaq Ahmad Shah,JKPDP,,,,,False,19,2014,AE
+1933221,Mohd Ashraf Bhat,JKN,24830,8305,25.8,2,19,31,JK,Mohd Ashraf Bhat,JKN,,,,,False,19,2014,AE
+1933222,Gh Mohd Mir,INC,24825,3649,11.33,3,19,31,JK,Gh Mohd Mir,INC,,,,,False,19,2014,AE
+1933223,Avtar Singh,BJP,24826,2945,9.15,4,19,31,JK,Avtar Singh,BJP,,,,,False,19,2014,AE
+1933224,Ab Rashid Dar,IND,24808,2222,6.9,5,19,31,JK,Ab Rashid Dar,IND,,,,,False,19,2014,AE
+1933225,Sheikh Ab Rashid,IND,24808,1649,5.12,6,19,31,JK,Sheikh Ab Rashid,IND,,,,,False,19,2014,AE
+1933226,Nota,NOTA,24835,717,2.23,7,19,31,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933227,Krishan Singh,JKNPP,24867,291,0.9,8,19,31,JK,Krishan Singh,JKNPP,,,,,False,19,2014,AE
+1933228,Zahoor Ahmad Mir,JKPDP,24832,16239,44.38,1,19,32,JK,Zahoor Ahmad Mir,JKPDP,,,,,False,19,2014,AE
+1933229,Yawar Ali Abass Masoodi,JKN,24830,12741,34.82,2,19,32,JK,Yawar Ali Abass Masoodi,JKN,,,,,False,19,2014,AE
+1933230,Mohammad Anwar Bhat,INC,24825,4063,11.1,3,19,32,JK,Mohammad Anwar Bhat,INC,,,,,False,19,2014,AE
+1933231,Ali Mohammad Wagay,BJP,24826,2019,5.52,4,19,32,JK,Ali Mohammad Wagay,BJP,,,,,False,19,2014,AE
+1933232,Nota,NOTA,24835,625,1.71,5,19,32,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933233,Ghulam Mohd Yatoo,IND,24808,540,1.48,6,19,32,JK,Ghulam Mohd Yatoo,IND,,,,,False,19,2014,AE
+1933234,Mohd Iqbal Sofi,IND,24808,365,1.0,7,19,32,JK,Mohd Iqbal Sofi,IND,,,,,False,19,2014,AE
+1933235,Mohd. Khalil Band,JKPDP,24832,11631,38.55,1,19,33,JK,Mohd. Khalil Band,JKPDP,,,,,False,19,2014,AE
+1933236,Ghulam Nabi Wani,JKN,24830,10599,35.13,2,19,33,JK,Ghulam Nabi Wani,JKN,,,,,False,19,2014,AE
+1933237,Ab. Quyoom Mir,JKPDF,24875,1850,6.13,3,19,33,JK,Ab. Quyoom Mir,JKPDF,,,,,False,19,2014,AE
+1933238,Sana Ullah Dar,IND,24808,1760,5.83,4,19,33,JK,Sana Ullah Dar,IND,,,,,False,19,2014,AE
+1933239,Bashir Ahmad Magrey,INC,24825,1558,5.16,5,19,33,JK,Bashir Ahmad Magrey,INC,,,,,False,19,2014,AE
+1933240,Riyaz Ahmad Mir,BJP,24826,672,2.23,6,19,33,JK,Riyaz Ahmad Mir,BJP,,,,,False,19,2014,AE
+1933241,Bashir Ahmad Malik,IND,24808,669,2.22,7,19,33,JK,Bashir Ahmad Malik,IND,,,,,False,19,2014,AE
+1933242,Farooq Ahmad Mir,JPC,24831,661,2.19,8,19,33,JK,Farooq Ahmad Mir,JPC,,,,,False,19,2014,AE
+1933243,Nota,NOTA,24835,289,0.96,9,19,33,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933244,Masuod Hussain Wani,IND,24808,260,0.86,10,19,33,JK,Masuod Hussain Wani,IND,,,,,False,19,2014,AE
+1933245,Abdul Gani Shah,IND,24808,219,0.73,11,19,33,JK,Abdul Gani Shah,IND,,,,,False,19,2014,AE
+1933246,Haseeb A Drabu,JKPDP,24832,18103,36.95,1,19,34,JK,Haseeb A Drabu,JKPDP,,,,,False,19,2014,AE
+1933247,Gh. Mohi-Ud-Din Mir,JKN,24830,13830,28.23,2,19,34,JK,Gh. Mohi-Ud-Din Mir,JKN,,,,,False,19,2014,AE
+1933248,Gh. Nabi Wani,IND,24808,6477,13.22,3,19,34,JK,Gh. Nabi Wani,IND,,,,,False,19,2014,AE
+1933249,Peerzada Syed Bashir Ahmad,IND,24808,5133,10.48,4,19,34,JK,Peerzada Syed Bashir Ahmad,IND,,,,,False,19,2014,AE
+1933250,Fayaz Ahmad Dar,INC,24825,1923,3.92,5,19,34,JK,Fayaz Ahmad Dar,INC,,,,,False,19,2014,AE
+1933251,Sayed Riyaz Ahmad Riyaz Khawar,IND,24808,1565,3.19,6,19,34,JK,Sayed Riyaz Ahmad Riyaz Khawar,IND,,,,,False,19,2014,AE
+1933252,Nota,NOTA,24835,840,1.71,7,19,34,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933253,Mohd Abdullah Dar,RPI(A),24844,571,1.17,8,19,34,JK,Mohd Abdullah Dar,RPI(A),,,,,False,19,2014,AE
+1933254,Lateef Ahmad Dederd,IND,24808,555,1.13,9,19,34,JK,Lateef Ahmad Dederd,IND,,,,,False,19,2014,AE
+1933255,Aijaz Ahmad Mir,JKPDP,24832,15610,42.47,1,19,35,JK,Aijaz Ahmad Mir,JKPDP,,,,,False,19,2014,AE
+1933256,Showkat Hussain Ganie,JKN,24830,13805,37.56,2,19,35,JK,Showkat Hussain Ganie,JKN,,,,,False,19,2014,AE
+1933257,Zahoor Ahmad Rather,CPM,24876,2779,7.56,3,19,35,JK,Zahoor Ahmad Rather,CPM,,,,,False,19,2014,AE
+1933258,Tariq Ahmad Mir,BJP,24826,1047,2.85,4,19,35,JK,Tariq Ahmad Mir,BJP,,,,,False,19,2014,AE
+1933259,Maroof Ahmad Wani,INC,24825,920,2.5,5,19,35,JK,Maroof Ahmad Wani,INC,,,,,False,19,2014,AE
+1933260,Nota,NOTA,24835,623,1.7,6,19,35,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933261,Ahsan Ul Haq,JPC,24831,553,1.5,7,19,35,JK,Ahsan Ul Haq,JPC,,,,,False,19,2014,AE
+1933262,Mohd Khalil Naik,IND,24808,473,1.29,8,19,35,JK,Mohd Khalil Naik,IND,,,,,False,19,2014,AE
+1933263,Kulbushan Kaw,IND,24808,421,1.15,9,19,35,JK,Kulbushan Kaw,IND,,,,,False,19,2014,AE
+1933264,Mohd Yaqoob Malik,AKAKRP,24877,355,0.97,10,19,35,JK,Mohd Yaqoob Malik,AKAKRP,,,,,False,19,2014,AE
+1933265,Mohd Yousuf Mir,JKNPP,24867,167,0.45,11,19,35,JK,Mohd Yousuf Mir,JKNPP,,,,,False,19,2014,AE
+1933266,Mohd Yousuf Bhat,JKPDP,24832,14262,34.2,1,19,36,JK,Mohd Yousuf Bhat,JKPDP,,,,,False,19,2014,AE
+1933267,Shabir Ahmad Kullay,IND,24808,11896,28.52,2,19,36,JK,Shabir Ahmad Kullay,IND,,,,,False,19,2014,AE
+1933268,Sheikh Mohd Rafi,JKN,24830,5280,12.66,3,19,36,JK,Sheikh Mohd Rafi,JKN,,,,,False,19,2014,AE
+1933269,Javid Ahmad Qadri,BJP,24826,3384,8.11,4,19,36,JK,Javid Ahmad Qadri,BJP,,,,,False,19,2014,AE
+1933270,Mushtaq Ahmad Khanday,INC,24825,2642,6.33,5,19,36,JK,Mushtaq Ahmad Khanday,INC,,,,,False,19,2014,AE
+1933271,Tariq Ahmad Ahanger,IND,24808,894,2.14,6,19,36,JK,Tariq Ahmad Ahanger,IND,,,,,False,19,2014,AE
+1933272,Ab Rashid Pandit,CPI,24878,849,2.04,7,19,36,JK,Ab Rashid Pandit,CPI,,,,,False,19,2014,AE
+1933273,Nota,NOTA,24835,819,1.96,8,19,36,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933274,Mohd Yaqoob Rather,AKAKRP,24877,648,1.55,9,19,36,JK,Mohd Yaqoob Rather,AKAKRP,,,,,False,19,2014,AE
+1933275,Mohd Yousuf Haji,IND,24808,533,1.28,10,19,36,JK,Mohd Yousuf Haji,IND,,,,,False,19,2014,AE
+1933276,Shah Fayaz Ahmad,JKNPP,24867,499,1.2,11,19,36,JK,Shah Fayaz Ahmad,JKNPP,,,,,False,19,2014,AE
+1933277,Abdul Majid Padder,JKPDP,24832,28698,48.36,1,19,37,JK,Abdul Majid Padder,JKPDP,,,,,False,19,2014,AE
+1933278,Sakina Itoo,JKN,24830,24990,42.11,2,19,37,JK,Sakina Itoo,JKN,,,,,False,19,2014,AE
+1933279,Manzoor Ahmad Zargar,INC,24825,1410,2.38,3,19,37,JK,Manzoor Ahmad Zargar,INC,,,,,False,19,2014,AE
+1933280,Nota,NOTA,24835,750,1.26,4,19,37,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933281,Mushtaq Ahmad Doie,IND,24808,725,1.22,5,19,37,JK,Mushtaq Ahmad Doie,IND,,,,,False,19,2014,AE
+1933282,Mushtaq Ahmad Malik,BJP,24826,648,1.09,6,19,37,JK,Mushtaq Ahmad Malik,BJP,,,,,False,19,2014,AE
+1933283,Abdur Rahman Magrey,BSP,24827,474,0.8,7,19,37,JK,Abdur Rahman Magrey,BSP,,,,,False,19,2014,AE
+1933284,Mushtaq Ahmad,JKNPP,24867,337,0.57,8,19,37,JK,Mushtaq Ahmad,JKNPP,,,,,False,19,2014,AE
+1933285,Mohd Amin Telli,IND,24808,307,0.52,9,19,37,JK,Mohd Amin Telli,IND,,,,,False,19,2014,AE
+1933286,Tawseef Ahmad Dar,IND,24808,264,0.44,10,19,37,JK,Tawseef Ahmad Dar,IND,,,,,False,19,2014,AE
+1933287,Mehraj-Ud-Din Dar,IND,24808,160,0.27,11,19,37,JK,Mehraj-Ud-Din Dar,IND,,,,,False,19,2014,AE
+1933288,Gulzar Ahmad Mir,IND,24808,146,0.25,12,19,37,JK,Gulzar Ahmad Mir,IND,,,,,False,19,2014,AE
+1933289,Ab.Rashid Bhat,IND,24808,121,0.2,13,19,37,JK,Ab.Rashid Bhat,IND,,,,,False,19,2014,AE
+1933290,Bashir Ahmad Bhat,IND,24808,113,0.19,14,19,37,JK,Bashir Ahmad Bhat,IND,,,,,False,19,2014,AE
+1933291,Akhter Hussain Shah,IND,24808,104,0.18,15,19,37,JK,Akhter Hussain Shah,IND,,,,,False,19,2014,AE
+1933292,Bilal Ahmad Bhat,IND,24808,92,0.16,16,19,37,JK,Bilal Ahmad Bhat,IND,,,,,False,19,2014,AE
+1933293,Mohamad Yousuf Tarigami,CPM,24876,20574,38.69,1,19,38,JK,Mohamad Yousuf Tarigami,CPM,,,,,False,19,2014,AE
+1933294,Nazir Ahmad Laway,JKPDP,24832,20240,38.06,2,19,38,JK,Nazir Ahmad Laway,JKPDP,,,,,False,19,2014,AE
+1933295,Imran Nabi Dar,JKN,24830,8273,15.56,3,19,38,JK,Imran Nabi Dar,JKN,,,,,False,19,2014,AE
+1933296,Ghulam Hassan Zargar,BJP,24826,1944,3.66,4,19,38,JK,Ghulam Hassan Zargar,BJP,,,,,False,19,2014,AE
+1933297,Nota,NOTA,24835,674,1.27,5,19,38,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933298,Peer Nazim-Ud-Din,INC,24825,519,0.98,6,19,38,JK,Peer Nazim-Ud-Din,INC,,,,,False,19,2014,AE
+1933299,Towseef Ahmad Shah,IND,24808,483,0.91,7,19,38,JK,Towseef Ahmad Shah,IND,,,,,False,19,2014,AE
+1933300,Rashida Mir,IND,24808,350,0.66,8,19,38,JK,Rashida Mir,IND,,,,,False,19,2014,AE
+1933301,Riyaz Ahmad Shah,BSP,24827,121,0.23,9,19,38,JK,Riyaz Ahmad Shah,BSP,,,,,False,19,2014,AE
+1933302,Ab. Majeed,JKN,24830,11406,40.0,1,19,39,JK,Ab. Majeed,JKN,,,,,False,19,2014,AE
+1933303,Abdul Gaffar Sofi,JKPDP,24832,10137,35.55,2,19,39,JK,Abdul Gaffar Sofi,JKPDP,,,,,False,19,2014,AE
+1933304,Anayatulla Rather,INC,24825,3822,13.4,3,19,39,JK,Anayatulla Rather,INC,,,,,False,19,2014,AE
+1933305,Gulam Nabi Dar,BJP,24826,1527,5.35,4,19,39,JK,Gulam Nabi Dar,BJP,,,,,False,19,2014,AE
+1933306,Abdul Bary Naik,IND,24808,702,2.46,5,19,39,JK,Abdul Bary Naik,IND,,,,,False,19,2014,AE
+1933307,Mohd Amin Bhat,SP,24834,305,1.07,6,19,39,JK,Mohd Amin Bhat,SP,,,,,False,19,2014,AE
+1933308,Bashir Ahmad Bhat,BSP,24827,246,0.86,7,19,39,JK,Bashir Ahmad Bhat,BSP,,,,,False,19,2014,AE
+1933309,Nota,NOTA,24835,233,0.82,8,19,39,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933310,Mohd Ayoub Sheikh,JKNPP,24867,140,0.49,9,19,39,JK,Mohd Ayoub Sheikh,JKNPP,,,,,False,19,2014,AE
+1933311,Mufti Mohd Sayeed,JKPDP,24832,16983,51.2,1,19,40,JK,Mufti Mohd Sayeed,JKPDP,,,,,False,19,2014,AE
+1933312,Hilal Ahmad Shah,INC,24825,10955,33.03,2,19,40,JK,Hilal Ahmad Shah,INC,,,,,False,19,2014,AE
+1933313,Iftikhar Hussain Misger,JKN,24830,2403,7.24,3,19,40,JK,Iftikhar Hussain Misger,JKN,,,,,False,19,2014,AE
+1933314,Mohd Rafiq Wani,BJP,24826,1275,3.84,4,19,40,JK,Mohd Rafiq Wani,BJP,,,,,False,19,2014,AE
+1933315,Nasir Ali Kochak,IND,24808,428,1.29,5,19,40,JK,Nasir Ali Kochak,IND,,,,,False,19,2014,AE
+1933316,Mohd Shafi Mir,AKAKRP,24877,399,1.2,6,19,40,JK,Mohd Shafi Mir,AKAKRP,,,,,False,19,2014,AE
+1933317,Nota,NOTA,24835,308,0.93,7,19,40,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933318,Ghulam Rasool Dar,IND,24808,306,0.92,8,19,40,JK,Ghulam Rasool Dar,IND,,,,,False,19,2014,AE
+1933319,Farooq Ahmad Mir,BSP,24827,114,0.34,9,19,40,JK,Farooq Ahmad Mir,BSP,,,,,False,19,2014,AE
+1933320,Mohammad Amin Bhat,INC,24825,20162,35.08,1,19,41,JK,Mohammad Amin Bhat,INC,,,,,False,19,2014,AE
+1933321,Mohammad Sartaj Madni,JKPDP,24832,18651,32.45,2,19,41,JK,Mohammad Sartaj Madni,JKPDP,,,,,False,19,2014,AE
+1933322,Peerzada Gh. Ahmad,JKN,24830,11585,20.16,3,19,41,JK,Peerzada Gh. Ahmad,JKN,,,,,False,19,2014,AE
+1933323,Fayaz Ahmad Bhat,BJP,24826,3892,6.77,4,19,41,JK,Fayaz Ahmad Bhat,BJP,,,,,False,19,2014,AE
+1933324,Mudasir Rashid Mir,IND,24808,933,1.62,5,19,41,JK,Mudasir Rashid Mir,IND,,,,,False,19,2014,AE
+1933325,Nota,NOTA,24835,822,1.43,6,19,41,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933326,Nisar Ahmad Hajam,IND,24808,614,1.07,7,19,41,JK,Nisar Ahmad Hajam,IND,,,,,False,19,2014,AE
+1933327,Mushtaq Ahmad Bhat,BSP,24827,514,0.89,8,19,41,JK,Mushtaq Ahmad Bhat,BSP,,,,,False,19,2014,AE
+1933328,Asif Jeelani,AIFB,24823,299,0.52,9,19,41,JK,Asif Jeelani,AIFB,,,,,False,19,2014,AE
+1933329,Syed Farooq Ahmad Andrabi,JKPDP,24832,18150,37.58,1,19,42,JK,Syed Farooq Ahmad Andrabi,JKPDP,,,,,False,19,2014,AE
+1933330,Ghulam Ahmad Mir,INC,24825,17989,37.24,2,19,42,JK,Ghulam Ahmad Mir,INC,,,,,False,19,2014,AE
+1933331,Farooq Ahmad Ganai,JKN,24830,8251,17.08,3,19,42,JK,Farooq Ahmad Ganai,JKN,,,,,False,19,2014,AE
+1933332,Gull Mohammad Mir,BJP,24826,1030,2.13,4,19,42,JK,Gull Mohammad Mir,BJP,,,,,False,19,2014,AE
+1933333,Nota,NOTA,24835,997,2.06,5,19,42,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933334,Syed Shariq Hussain,IND,24808,734,1.52,6,19,42,JK,Syed Shariq Hussain,IND,,,,,False,19,2014,AE
+1933335,Suhail Malik,JPC,24831,500,1.04,7,19,42,JK,Suhail Malik,JPC,,,,,False,19,2014,AE
+1933336,Syed Rasheed Ahmad,IND,24808,329,0.68,8,19,42,JK,Syed Rasheed Ahmad,IND,,,,,False,19,2014,AE
+1933337,Farooq Ahmad Gashroo,HJP,24879,164,0.34,9,19,42,JK,Farooq Ahmad Gashroo,HJP,,,,,False,19,2014,AE
+1933338,Mohd Yousuf Ganai,JKNPP,24867,86,0.18,10,19,42,JK,Mohd Yousuf Ganai,JKNPP,,,,,False,19,2014,AE
+1933339,Abdul Ahad Mir,IPCP,24880,73,0.15,11,19,42,JK,Abdul Ahad Mir,IPCP,,,,,False,19,2014,AE
+1933340,Abdul Rahim Rather,JKPDP,24832,24284,42.3,1,19,43,JK,Abdul Rahim Rather,JKPDP,,,,,False,19,2014,AE
+1933341,Peerzada Mohammad Syed,INC,24825,19713,34.33,2,19,43,JK,Peerzada Mohammad Syed,INC,,,,,False,19,2014,AE
+1933342,Ghulam Nabi Bhat,JKN,24830,8248,14.37,3,19,43,JK,Ghulam Nabi Bhat,JKN,,,,,False,19,2014,AE
+1933343,Khurshid Ahmad Malik,BJP,24826,1842,3.21,4,19,43,JK,Khurshid Ahmad Malik,BJP,,,,,False,19,2014,AE
+1933344,Ghulam Hassan Khanday,IND,24808,1131,1.97,5,19,43,JK,Ghulam Hassan Khanday,IND,,,,,False,19,2014,AE
+1933345,Nota,NOTA,24835,956,1.67,6,19,43,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933346,Mohammad Yousuf Ganie,JKNPP,24867,790,1.38,7,19,43,JK,Mohammad Yousuf Ganie,JKNPP,,,,,False,19,2014,AE
+1933347,Javaid Ahmad Rather,AKAKRP,24877,451,0.79,8,19,43,JK,Javaid Ahmad Rather,AKAKRP,,,,,False,19,2014,AE
+1933348,Gulzar Ahmad Wani,INC,24825,21085,37.08,1,19,44,JK,Gulzar Ahmad Wani,INC,,,,,False,19,2014,AE
+1933349,Peerzada Mansoor Hussain,JKPDP,24832,18896,33.23,2,19,44,JK,Peerzada Mansoor Hussain,JKPDP,,,,,False,19,2014,AE
+1933350,Reyaz Ahmad Khan,JKN,24830,10892,19.15,3,19,44,JK,Reyaz Ahmad Khan,JKN,,,,,False,19,2014,AE
+1933351,Khalid Muzaffar Maqbool Dar,BJP,24826,2275,4.0,4,19,44,JK,Khalid Muzaffar Maqbool Dar,BJP,,,,,False,19,2014,AE
+1933352,Tanveer Hussain Khan,IND,24808,1240,2.18,5,19,44,JK,Tanveer Hussain Khan,IND,,,,,False,19,2014,AE
+1933353,Nota,NOTA,24835,591,1.04,6,19,44,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933354,Mohammad Yousuf Ganie,IND,24808,563,0.99,7,19,44,JK,Mohammad Yousuf Ganie,IND,,,,,False,19,2014,AE
+1933355,Mushtaq Ahmad Bhat,RPI(A),24844,561,0.99,8,19,44,JK,Mushtaq Ahmad Bhat,RPI(A),,,,,False,19,2014,AE
+1933356,Bashir Ahmad Wani,IND,24808,435,0.76,9,19,44,JK,Bashir Ahmad Wani,IND,,,,,False,19,2014,AE
+1933357,Ishfaq Ahmad Shah,JKNPP,24867,328,0.58,10,19,44,JK,Ishfaq Ahmad Shah,JKNPP,,,,,False,19,2014,AE
+1933358,Abdul Rehman Bhat,JKPDP,24832,23581,48.79,1,19,45,JK,Abdul Rehman Bhat,JKPDP,,,,,False,19,2014,AE
+1933359,Bashir Ahmad Shah,JKN,24830,20713,42.85,2,19,45,JK,Bashir Ahmad Shah,JKN,,,,,False,19,2014,AE
+1933360,Pushkar Nath Pandita,BJP,24826,1591,3.29,3,19,45,JK,Pushkar Nath Pandita,BJP,,,,,False,19,2014,AE
+1933361,Manzoor Ahmad Ganie,INC,24825,1294,2.68,4,19,45,JK,Manzoor Ahmad Ganie,INC,,,,,False,19,2014,AE
+1933362,Mushtaq Ahmad Sheikh,BSP,24827,580,1.2,5,19,45,JK,Mushtaq Ahmad Sheikh,BSP,,,,,False,19,2014,AE
+1933363,Nota,NOTA,24835,575,1.19,6,19,45,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933364,Altaf Ahmad Wani,JKN,24830,25232,44.67,1,19,46,JK,Altaf Ahmad Wani,JKN,,,,,False,19,2014,AE
+1933365,Rafi Ahmad Mir,JKPDP,24832,24328,43.07,2,19,46,JK,Rafi Ahmad Mir,JKPDP,,,,,False,19,2014,AE
+1933366,Irfan Abid,INC,24825,2148,3.8,3,19,46,JK,Irfan Abid,INC,,,,,False,19,2014,AE
+1933367,Sofi Yousuf,BJP,24826,1943,3.44,4,19,46,JK,Sofi Yousuf,BJP,,,,,False,19,2014,AE
+1933368,Nota,NOTA,24835,1056,1.87,5,19,46,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933369,Farooq Ahmad Rather,IND,24808,788,1.39,6,19,46,JK,Farooq Ahmad Rather,IND,,,,,False,19,2014,AE
+1933370,Shabir Ahmad Shah,BSP,24827,503,0.89,7,19,46,JK,Shabir Ahmad Shah,BSP,,,,,False,19,2014,AE
+1933371,Anwar Jan,JPC,24831,492,0.87,8,19,46,JK,Anwar Jan,JPC,,,,,False,19,2014,AE
+1933372,Deldan Namgail,INC,24825,3936,38.0,1,19,47,JK,Deldan Namgail,INC,,,,,False,19,2014,AE
+1933373,Tsetan Namgyal,JKN,24830,2318,22.38,2,19,47,JK,Tsetan Namgyal,JKN,,,,,False,19,2014,AE
+1933374,Stanzin Delik,BJP,24826,1947,18.8,3,19,47,JK,Stanzin Delik,BJP,,,,,False,19,2014,AE
+1933375,Tashi Gyalson,JKPDP,24832,1415,13.66,4,19,47,JK,Tashi Gyalson,JKPDP,,,,,False,19,2014,AE
+1933376,Tsewang Rigzin,IND,24808,534,5.16,5,19,47,JK,Tsewang Rigzin,IND,,,,,False,19,2014,AE
+1933377,Nisar Hussain,IND,24808,159,1.54,6,19,47,JK,Nisar Hussain,IND,,,,,False,19,2014,AE
+1933378,Nota,NOTA,24835,49,0.47,7,19,47,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933379,Nawang Rigzin,INC,24825,27585,57.28,1,19,48,JK,Nawang Rigzin,INC,,,,,False,19,2014,AE
+1933380,Chering Dorjay,BJP,24826,19909,41.34,2,19,48,JK,Chering Dorjay,BJP,,,,,False,19,2014,AE
+1933381,Nota,NOTA,24835,662,1.37,3,19,48,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933382,Asgar Ali Karbalaie,INC,24825,22911,50.51,1,19,49,JK,Asgar Ali Karbalaie,INC,,,,,False,19,2014,AE
+1933383,Anayat Ali,JKPDP,24832,12406,27.35,2,19,49,JK,Anayat Ali,JKPDP,,,,,False,19,2014,AE
+1933384,Kacho Mohammad Hussain,JKN,24830,7363,16.23,3,19,49,JK,Kacho Mohammad Hussain,JKN,,,,,False,19,2014,AE
+1933385,Abdul Aziz,BJP,24826,2317,5.11,4,19,49,JK,Abdul Aziz,BJP,,,,,False,19,2014,AE
+1933386,Nota,NOTA,24835,360,0.79,5,19,49,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933387,Syed Mohammad Baqir Rizvi,IND,24808,6763,43.19,1,19,50,JK,Syed Mohammad Baqir Rizvi,IND,,,,,False,19,2014,AE
+1933388,Ghulam Raza,INC,24825,6197,39.58,2,19,50,JK,Ghulam Raza,INC,,,,,False,19,2014,AE
+1933389,Stanzin Lakpa,BJP,24826,2292,14.64,3,19,50,JK,Stanzin Lakpa,BJP,,,,,False,19,2014,AE
+1933390,Ghulam Mohammad,JKPDP,24832,248,1.58,4,19,50,JK,Ghulam Mohammad,JKPDP,,,,,False,19,2014,AE
+1933391,Nota,NOTA,24835,157,1.0,5,19,50,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933392,Sunil Kumar Sharma,BJP,24826,28054,45.37,1,19,51,JK,Sunil Kumar Sharma,BJP,,,,,False,19,2014,AE
+1933393,Sajjad Ahmed Kichloo,JKN,24830,25202,40.76,2,19,51,JK,Sajjad Ahmed Kichloo,JKN,,,,,False,19,2014,AE
+1933394,Firdous Ahmed Tak,JKPDP,24832,6432,10.4,3,19,51,JK,Firdous Ahmed Tak,JKPDP,,,,,False,19,2014,AE
+1933395,Nek Ram,INC,24825,782,1.26,4,19,51,JK,Nek Ram,INC,,,,,False,19,2014,AE
+1933396,Nota,NOTA,24835,279,0.45,5,19,51,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933397,Jaswant Singh,IND,24808,215,0.35,6,19,51,JK,Jaswant Singh,IND,,,,,False,19,2014,AE
+1933398,Aijaz Hussain,NCP,24837,202,0.33,7,19,51,JK,Aijaz Hussain,NCP,,,,,False,19,2014,AE
+1933399,Farooq Ahmed,IND,24808,190,0.31,8,19,51,JK,Farooq Ahmed,IND,,,,,False,19,2014,AE
+1933400,Gulzar Ahmad,IND,24808,163,0.26,9,19,51,JK,Gulzar Ahmad,IND,,,,,False,19,2014,AE
+1933401,Mohd Amin Bhat,JD(S),24881,162,0.26,10,19,51,JK,Mohd Amin Bhat,JD(S),,,,,False,19,2014,AE
+1933402,Des Raj,BSP,24827,151,0.24,11,19,51,JK,Des Raj,BSP,,,,,False,19,2014,AE
+1933403,Ghulam Mohd Saroori,INC,24825,29754,46.93,1,19,52,JK,Ghulam Mohd Saroori,INC,,,,,False,19,2014,AE
+1933404,Tariq Hussain Keen,BJP,24826,17384,27.42,2,19,52,JK,Tariq Hussain Keen,BJP,,,,,False,19,2014,AE
+1933405,Abdul Majeed Batt,JKPDP,24832,12570,19.83,3,19,52,JK,Abdul Majeed Batt,JKPDP,,,,,False,19,2014,AE
+1933406,Tanveer Hussain,RKSP,24882,881,1.39,4,19,52,JK,Tanveer Hussain,RKSP,,,,,False,19,2014,AE
+1933407,Shanawaz Ahmed,IND,24808,559,0.88,5,19,52,JK,Shanawaz Ahmed,IND,,,,,False,19,2014,AE
+1933408,Abdul Majeed Ganai,IND,24808,547,0.86,6,19,52,JK,Abdul Majeed Ganai,IND,,,,,False,19,2014,AE
+1933409,Nota,NOTA,24835,435,0.69,7,19,52,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933410,Salam Din,JKN,24830,267,0.42,8,19,52,JK,Salam Din,JKN,,,,,False,19,2014,AE
+1933411,Farooq Ahmed Keen,IND,24808,259,0.41,9,19,52,JK,Farooq Ahmed Keen,IND,,,,,False,19,2014,AE
+1933412,Ashaq Hussain,IND,24808,255,0.4,10,19,52,JK,Ashaq Hussain,IND,,,,,False,19,2014,AE
+1933413,Jaber Singh,IND,24808,211,0.33,11,19,52,JK,Jaber Singh,IND,,,,,False,19,2014,AE
+1933414,Imtiaz Ahmad,JKNPP,24867,186,0.29,12,19,52,JK,Imtiaz Ahmad,JKNPP,,,,,False,19,2014,AE
+1933415,Jyoti Prakash,BSP,24827,88,0.14,13,19,52,JK,Jyoti Prakash,BSP,,,,,False,19,2014,AE
+1933416,Shakti Raj,BJP,24826,24572,36.63,1,19,53,JK,Shakti Raj,BJP,,,,,False,19,2014,AE
+1933417,Abdul Majid Wani,INC,24825,20532,30.61,2,19,53,JK,Abdul Majid Wani,INC,,,,,False,19,2014,AE
+1933418,Khalid Najib Suharwardy,JKN,24830,16416,24.47,3,19,53,JK,Khalid Najib Suharwardy,JKN,,,,,False,19,2014,AE
+1933419,Shahab Ul Haq,JKPDP,24832,2201,3.28,4,19,53,JK,Shahab Ul Haq,JKPDP,,,,,False,19,2014,AE
+1933420,Nuzhat Iqbal Zargar,IND,24808,803,1.2,5,19,53,JK,Nuzhat Iqbal Zargar,IND,,,,,False,19,2014,AE
+1933421,Nota,NOTA,24835,735,1.1,6,19,53,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933422,Daya Krishan,IND,24808,410,0.61,7,19,53,JK,Daya Krishan,IND,,,,,False,19,2014,AE
+1933423,Mohd Yousaf,IND,24808,347,0.52,8,19,53,JK,Mohd Yousaf,IND,,,,,False,19,2014,AE
+1933424,Farooq Ahmed Dar,IND,24808,316,0.47,9,19,53,JK,Farooq Ahmed Dar,IND,,,,,False,19,2014,AE
+1933425,Chunni Lal,BSP,24827,301,0.45,10,19,53,JK,Chunni Lal,BSP,,,,,False,19,2014,AE
+1933426,Rajinder Singh,IND,24808,235,0.35,11,19,53,JK,Rajinder Singh,IND,,,,,False,19,2014,AE
+1933427,Mohd Ali Shokeen,IND,24808,216,0.32,12,19,53,JK,Mohd Ali Shokeen,IND,,,,,False,19,2014,AE
+1933428,Daleep Singh,BJP,24826,25953,35.33,1,19,54,JK,Daleep Singh,BJP,,,,,False,19,2014,AE
+1933429,Mohd Sharief Niaz,INC,24825,24457,33.29,2,19,54,JK,Mohd Sharief Niaz,INC,,,,,False,19,2014,AE
+1933430,Sheikh Mehboob Iqbal,JKPDP,24832,16673,22.7,3,19,54,JK,Sheikh Mehboob Iqbal,JKPDP,,,,,False,19,2014,AE
+1933431,Reyaz Ahmed Zarger,IND,24808,1310,1.78,4,19,54,JK,Reyaz Ahmed Zarger,IND,,,,,False,19,2014,AE
+1933432,Narinder Kant,CPI,24878,891,1.21,5,19,54,JK,Narinder Kant,CPI,,,,,False,19,2014,AE
+1933433,Riaz Anayat Ullah,JKN,24830,880,1.2,6,19,54,JK,Riaz Anayat Ullah,JKN,,,,,False,19,2014,AE
+1933434,Shiekh Mohammad Shafi,SP,24834,828,1.13,7,19,54,JK,Shiekh Mohammad Shafi,SP,,,,,False,19,2014,AE
+1933435,Dr. Kuldeep Singh Charak,IND,24808,605,0.82,8,19,54,JK,Dr. Kuldeep Singh Charak,IND,,,,,False,19,2014,AE
+1933436,Sanjay Kumar,BSP,24827,374,0.51,9,19,54,JK,Sanjay Kumar,BSP,,,,,False,19,2014,AE
+1933437,Mehraj Din,IND,24808,365,0.5,10,19,54,JK,Mehraj Din,IND,,,,,False,19,2014,AE
+1933438,Nota,NOTA,24835,339,0.46,11,19,54,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933439,Bhoori Singh,NCP,24837,326,0.44,12,19,54,JK,Bhoori Singh,NCP,,,,,False,19,2014,AE
+1933440,Nirej Singh Manhas,JKNPP,24867,249,0.34,13,19,54,JK,Nirej Singh Manhas,JKNPP,,,,,False,19,2014,AE
+1933441,Er Om Parkash,IND,24808,213,0.29,14,19,54,JK,Er Om Parkash,IND,,,,,False,19,2014,AE
+1933442,Neelam Kumar Langeh,BJP,24826,25349,42.3,1,19,55,JK,Neelam Kumar Langeh,BJP,,,,,False,19,2014,AE
+1933443,Dr. Chaman Lal,JKN,24830,19985,33.35,2,19,55,JK,Dr. Chaman Lal,JKN,,,,,False,19,2014,AE
+1933444,Ashok Kumar,INC,24825,5643,9.42,3,19,55,JK,Ashok Kumar,INC,,,,,False,19,2014,AE
+1933445,Swami Raj,JKPDP,24832,4672,7.8,4,19,55,JK,Swami Raj,JKPDP,,,,,False,19,2014,AE
+1933446,Amrit Barsha,SP,24834,1156,1.93,5,19,55,JK,Amrit Barsha,SP,,,,,False,19,2014,AE
+1933447,Suraish Kumar,JKNPP,24867,1123,1.87,6,19,55,JK,Suraish Kumar,JKNPP,,,,,False,19,2014,AE
+1933448,Nota,NOTA,24835,1047,1.75,7,19,55,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933449,Prithvi Raj,BSP,24827,530,0.88,8,19,55,JK,Prithvi Raj,BSP,,,,,False,19,2014,AE
+1933450,Girdhari Lal,IND,24808,423,0.71,9,19,55,JK,Girdhari Lal,IND,,,,,False,19,2014,AE
+1933451,Vikar Rasool Wani,INC,24825,17671,30.65,1,19,56,JK,Vikar Rasool Wani,INC,,,,,False,19,2014,AE
+1933452,Bashir Ahmed Runyal,JKPDP,24832,13322,23.1,2,19,56,JK,Bashir Ahmed Runyal,JKPDP,,,,,False,19,2014,AE
+1933453,Sajad Shaheen,JKN,24830,13002,22.55,3,19,56,JK,Sajad Shaheen,JKN,,,,,False,19,2014,AE
+1933454,Showket Javeed Daing,BJP,24826,9874,17.12,4,19,56,JK,Showket Javeed Daing,BJP,,,,,False,19,2014,AE
+1933455,Nota,NOTA,24835,2405,4.17,5,19,56,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933456,Sewa Singh Bali,JKNPP,24867,733,1.27,6,19,56,JK,Sewa Singh Bali,JKNPP,,,,,False,19,2014,AE
+1933457,Mohd Ali,BSP,24827,656,1.14,7,19,56,JK,Mohd Ali,BSP,,,,,False,19,2014,AE
+1933458,Mumtaz Ahmed,INC,24825,17964,32.0,1,19,57,JK,Mumtaz Ahmed,INC,,,,,False,19,2014,AE
+1933459,Abdul Gani Malik,JKN,24830,16148,28.77,2,19,57,JK,Abdul Gani Malik,JKN,,,,,False,19,2014,AE
+1933460,Shafiq Ur Rehman,JKPDP,24832,11202,19.96,3,19,57,JK,Shafiq Ur Rehman,JKPDP,,,,,False,19,2014,AE
+1933461,Pardeep Singh,BJP,24826,8767,15.62,4,19,57,JK,Pardeep Singh,BJP,,,,,False,19,2014,AE
+1933462,Shaber Ahmed,HJP,24879,741,1.32,5,19,57,JK,Shaber Ahmed,HJP,,,,,False,19,2014,AE
+1933463,Nota,NOTA,24835,539,0.96,6,19,57,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933464,Jawahar Singh,BSP,24827,425,0.76,7,19,57,JK,Jawahar Singh,BSP,,,,,False,19,2014,AE
+1933465,Bashir Ud Din,JKNPP,24867,346,0.62,8,19,57,JK,Bashir Ud Din,JKNPP,,,,,False,19,2014,AE
+1933466,Ajay Nanda,BJP,24826,22017,25.26,1,19,58,JK,Ajay Nanda,BJP,,,,,False,19,2014,AE
+1933467,Saraf Singh,IND,24808,20130,23.09,2,19,58,JK,Saraf Singh,IND,,,,,False,19,2014,AE
+1933468,Jugal Kishore,INC,24825,18929,21.71,3,19,58,JK,Jugal Kishore,INC,,,,,False,19,2014,AE
+1933469,Karnail Singh,IND,24808,10256,11.77,4,19,58,JK,Karnail Singh,IND,,,,,False,19,2014,AE
+1933470,Jagjiwan Lal,JKN,24830,9457,10.85,5,19,58,JK,Jagjiwan Lal,JKN,,,,,False,19,2014,AE
+1933471,Baldev Raj Sharma,IND,24808,2061,2.36,6,19,58,JK,Baldev Raj Sharma,IND,,,,,False,19,2014,AE
+1933472,Karan Singh,BSP,24827,1048,1.2,7,19,58,JK,Karan Singh,BSP,,,,,False,19,2014,AE
+1933473,Om Parkash,CPM,24876,664,0.76,8,19,58,JK,Om Parkash,CPM,,,,,False,19,2014,AE
+1933474,Nota,NOTA,24835,597,0.68,9,19,58,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933475,Rano Devi,IND,24808,379,0.43,10,19,58,JK,Rano Devi,IND,,,,,False,19,2014,AE
+1933476,Balwan Singh,JKNPP,24867,372,0.43,11,19,58,JK,Balwan Singh,JKNPP,,,,,False,19,2014,AE
+1933477,Meenakshi Sharma,IND,24808,359,0.41,12,19,58,JK,Meenakshi Sharma,IND,,,,,False,19,2014,AE
+1933478,Bansi Lal,IND,24808,340,0.39,13,19,58,JK,Bansi Lal,IND,,,,,False,19,2014,AE
+1933479,Kuldeep Singh,IND,24808,296,0.34,14,19,58,JK,Kuldeep Singh,IND,,,,,False,19,2014,AE
+1933480,Anil Kumar,IND,24808,266,0.31,15,19,58,JK,Anil Kumar,IND,,,,,False,19,2014,AE
+1933481,Ajaz Ahmed Khan,INC,24825,22966,45.24,1,19,59,JK,Ajaz Ahmed Khan,INC,,,,,False,19,2014,AE
+1933482,Kuldeep Raj Dubey,BJP,24826,16088,31.69,2,19,59,JK,Kuldeep Raj Dubey,BJP,,,,,False,19,2014,AE
+1933483,Imtiyaz Ahmed Shan,JKPDP,24832,7132,14.05,3,19,59,JK,Imtiyaz Ahmed Shan,JKPDP,,,,,False,19,2014,AE
+1933484,Shamshad Bano,JKN,24830,2203,4.34,4,19,59,JK,Shamshad Bano,JKN,,,,,False,19,2014,AE
+1933485,Nota,NOTA,24835,627,1.24,5,19,59,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933486,Gulzar Ahmed Wani,IND,24808,452,0.89,6,19,59,JK,Gulzar Ahmed Wani,IND,,,,,False,19,2014,AE
+1933487,Abdul Rehman,IND,24808,412,0.81,7,19,59,JK,Abdul Rehman,IND,,,,,False,19,2014,AE
+1933488,Arjun Singh,IND,24808,393,0.77,8,19,59,JK,Arjun Singh,IND,,,,,False,19,2014,AE
+1933489,Shiban,BSP,24827,210,0.41,9,19,59,JK,Shiban,BSP,,,,,False,19,2014,AE
+1933490,Shakeel Ahmed,JKNPP,24867,145,0.29,10,19,59,JK,Shakeel Ahmed,JKNPP,,,,,False,19,2014,AE
+1933491,Romail Singh,IND,24808,138,0.27,11,19,59,JK,Romail Singh,IND,,,,,False,19,2014,AE
+1933492,Pawan Kumar Gupta,IND,24808,36226,42.57,1,19,60,JK,Pawan Kumar Gupta,IND,,,,,False,19,2014,AE
+1933493,Balwant Singh Mankotia,JKNPP,24867,21576,25.36,2,19,60,JK,Balwant Singh Mankotia,JKNPP,,,,,False,19,2014,AE
+1933494,Pawan Khajuria,BJP,24826,20174,23.71,3,19,60,JK,Pawan Khajuria,BJP,,,,,False,19,2014,AE
+1933495,Sunil Verma,JKN,24830,1440,1.69,4,19,60,JK,Sunil Verma,JKN,,,,,False,19,2014,AE
+1933496,Ashok Kumar Gupta,INC,24825,1249,1.47,5,19,60,JK,Ashok Kumar Gupta,INC,,,,,False,19,2014,AE
+1933497,Sukhdev Sharma,JKPDP,24832,1149,1.35,6,19,60,JK,Sukhdev Sharma,JKPDP,,,,,False,19,2014,AE
+1933498,Soma,IND,24808,1088,1.28,7,19,60,JK,Soma,IND,,,,,False,19,2014,AE
+1933499,Ranjit Singh,BSP,24827,882,1.04,8,19,60,JK,Ranjit Singh,BSP,,,,,False,19,2014,AE
+1933500,Nota,NOTA,24835,653,0.77,9,19,60,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933501,Anil Khajuria,IND,24808,407,0.48,10,19,60,JK,Anil Khajuria,IND,,,,,False,19,2014,AE
+1933502,Dharam Paul,HJP,24879,247,0.29,11,19,60,JK,Dharam Paul,HJP,,,,,False,19,2014,AE
+1933503,Dina Nath,BJP,24826,33047,50.17,1,19,61,JK,Dina Nath,BJP,,,,,False,19,2014,AE
+1933504,Krishan Chander,INC,24825,12715,19.3,2,19,61,JK,Krishan Chander,INC,,,,,False,19,2014,AE
+1933505,Dhani Ram Atri,JKNPP,24867,11992,18.2,3,19,61,JK,Dhani Ram Atri,JKNPP,,,,,False,19,2014,AE
+1933506,Hans Raj,JKPDP,24832,2929,4.45,4,19,61,JK,Hans Raj,JKPDP,,,,,False,19,2014,AE
+1933507,Pushpa Devi,SP,24834,1830,2.78,5,19,61,JK,Pushpa Devi,SP,,,,,False,19,2014,AE
+1933508,Sansar Chand,JKN,24830,1198,1.82,6,19,61,JK,Sansar Chand,JKN,,,,,False,19,2014,AE
+1933509,Nota,NOTA,24835,1185,1.8,7,19,61,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933510,Mohinder Kumar,BSP,24827,980,1.49,8,19,61,JK,Mohinder Kumar,BSP,,,,,False,19,2014,AE
+1933511,Ranbir Singh Pathania,BJP,24826,45891,55.71,1,19,62,JK,Ranbir Singh Pathania,BJP,,,,,False,19,2014,AE
+1933512,Harsh Dev Singh,JKNPP,24867,28471,34.56,2,19,62,JK,Harsh Dev Singh,JKNPP,,,,,False,19,2014,AE
+1933513,Raj Kapoor,JKN,24830,3073,3.73,3,19,62,JK,Raj Kapoor,JKN,,,,,False,19,2014,AE
+1933514,Sukham Chand,BSP,24827,1424,1.73,4,19,62,JK,Sukham Chand,BSP,,,,,False,19,2014,AE
+1933515,Vinod Kumar Sharma,INC,24825,1384,1.68,5,19,62,JK,Vinod Kumar Sharma,INC,,,,,False,19,2014,AE
+1933516,Sanju Kumar,IND,24808,1086,1.32,6,19,62,JK,Sanju Kumar,IND,,,,,False,19,2014,AE
+1933517,Nota,NOTA,24835,1048,1.27,7,19,62,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933518,Jewan Lal,BJP,24826,12841,39.14,1,19,63,JK,Jewan Lal,BJP,,,,,False,19,2014,AE
+1933519,Ghulam Hyder Malik,JKN,24830,8429,25.69,2,19,63,JK,Ghulam Hyder Malik,JKN,,,,,False,19,2014,AE
+1933520,Lal Chand,IND,24808,5012,15.28,3,19,63,JK,Lal Chand,IND,,,,,False,19,2014,AE
+1933521,Pawan Dev Singh,JKNPP,24867,2916,8.89,4,19,63,JK,Pawan Dev Singh,JKNPP,,,,,False,19,2014,AE
+1933522,Rajnish Sharma,INC,24825,1379,4.2,5,19,63,JK,Rajnish Sharma,INC,,,,,False,19,2014,AE
+1933523,Mohd Salim Lone,JKPDP,24832,1087,3.31,6,19,63,JK,Mohd Salim Lone,JKPDP,,,,,False,19,2014,AE
+1933524,Madan Lal,IND,24808,310,0.94,7,19,63,JK,Madan Lal,IND,,,,,False,19,2014,AE
+1933525,Nota,NOTA,24835,302,0.92,8,19,63,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933526,Mohd Rafiq,IND,24808,258,0.79,9,19,63,JK,Mohd Rafiq,IND,,,,,False,19,2014,AE
+1933527,Ramzan Hussian,BSP,24827,115,0.35,10,19,63,JK,Ramzan Hussian,BSP,,,,,False,19,2014,AE
+1933528,Deep Kumar,IND,24808,80,0.24,11,19,63,JK,Deep Kumar,IND,,,,,False,19,2014,AE
+1933529,Pishori Lal,IND,24808,79,0.24,12,19,63,JK,Pishori Lal,IND,,,,,False,19,2014,AE
+1933530,Lal Singh,BJP,24826,29808,53.07,1,19,64,JK,Lal Singh,BJP,,,,,False,19,2014,AE
+1933531,Davinder Singh,JKN,24830,12007,21.38,2,19,64,JK,Davinder Singh,JKN,,,,,False,19,2014,AE
+1933532,Jagdish Raj Spolia,INC,24825,8809,15.68,3,19,64,JK,Jagdish Raj Spolia,INC,,,,,False,19,2014,AE
+1933533,Rajinder Singh,IND,24808,2550,4.54,4,19,64,JK,Rajinder Singh,IND,,,,,False,19,2014,AE
+1933534,Darshan Kumar,IND,24808,508,0.9,5,19,64,JK,Darshan Kumar,IND,,,,,False,19,2014,AE
+1933535,Rangil Singh,JKPDP,24832,502,0.89,6,19,64,JK,Rangil Singh,JKPDP,,,,,False,19,2014,AE
+1933536,Nota,NOTA,24835,462,0.82,7,19,64,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933537,Romesh Chander Gupta,JKNPP,24867,431,0.77,8,19,64,JK,Romesh Chander Gupta,JKNPP,,,,,False,19,2014,AE
+1933538,Parvez Ahmed Reza,IND,24808,360,0.64,9,19,64,JK,Parvez Ahmed Reza,IND,,,,,False,19,2014,AE
+1933539,Khadam Hussain,BSP,24827,261,0.46,10,19,64,JK,Khadam Hussain,BSP,,,,,False,19,2014,AE
+1933540,Shams Deen,IND,24808,206,0.37,11,19,64,JK,Shams Deen,IND,,,,,False,19,2014,AE
+1933541,Jagdish Chander,IND,24808,159,0.28,12,19,64,JK,Jagdish Chander,IND,,,,,False,19,2014,AE
+1933542,Charan Dass,IND,24808,100,0.18,13,19,64,JK,Charan Dass,IND,,,,,False,19,2014,AE
+1933543,Rajiv Jasrotia,BJP,24826,35670,39.11,1,19,65,JK,Rajiv Jasrotia,BJP,,,,,False,19,2014,AE
+1933544,Som Raj Majotra,BSP,24827,28864,31.65,2,19,65,JK,Som Raj Majotra,BSP,,,,,False,19,2014,AE
+1933545,Charanjit Singh,IND,24808,13242,14.52,3,19,65,JK,Charanjit Singh,IND,,,,,False,19,2014,AE
+1933546,Jatinder Singh Alias Babu Singh,INC,24825,7195,7.89,4,19,65,JK,Jatinder Singh Alias Babu Singh,INC,,,,,False,19,2014,AE
+1933547,Subash Chander,JKPDP,24832,1305,1.43,5,19,65,JK,Subash Chander,JKPDP,,,,,False,19,2014,AE
+1933548,Robin Ramkrishan Alias Robin Sharma,IND,24808,1088,1.19,6,19,65,JK,Robin Ramkrishan Alias Robin Sharma,IND,,,,,False,19,2014,AE
+1933549,Manoj Kumar,CPI,24878,760,0.83,7,19,65,JK,Manoj Kumar,CPI,,,,,False,19,2014,AE
+1933550,Kishor Kumar,JKN,24830,702,0.77,8,19,65,JK,Kishor Kumar,JKN,,,,,False,19,2014,AE
+1933551,Balbir Singh,JKNPP,24867,505,0.55,9,19,65,JK,Balbir Singh,JKNPP,,,,,False,19,2014,AE
+1933552,S. Jamit Singh,IND,24808,411,0.45,10,19,65,JK,S. Jamit Singh,IND,,,,,False,19,2014,AE
+1933553,Naresh Kumar Sharma,IND,24808,386,0.42,11,19,65,JK,Naresh Kumar Sharma,IND,,,,,False,19,2014,AE
+1933554,Nota,NOTA,24835,272,0.3,12,19,65,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933555,Gurnam Singh,AJKMP,24868,227,0.25,13,19,65,JK,Gurnam Singh,AJKMP,,,,,False,19,2014,AE
+1933556,Kasturi Lal,BMUP,24883,212,0.23,14,19,65,JK,Kasturi Lal,BMUP,,,,,False,19,2014,AE
+1933557,Sudesh Kumar,IND,24808,201,0.22,15,19,65,JK,Sudesh Kumar,IND,,,,,False,19,2014,AE
+1933558,Harish Chander Sharma,IND,24808,165,0.18,16,19,65,JK,Harish Chander Sharma,IND,,,,,False,19,2014,AE
+1933559,Dr. Nirmal Kumar Singh,BJP,24826,43447,58.3,1,19,66,JK,Dr. Nirmal Kumar Singh,BJP,,,,,False,19,2014,AE
+1933560,Dr. Manohar Lal Sharma,INC,24825,25472,34.18,2,19,66,JK,Dr. Manohar Lal Sharma,INC,,,,,False,19,2014,AE
+1933561,Sanjeev Khajuria,JKN,24830,3084,4.14,3,19,66,JK,Sanjeev Khajuria,JKN,,,,,False,19,2014,AE
+1933562,Naresh Kumar,BSP,24827,834,1.12,4,19,66,JK,Naresh Kumar,BSP,,,,,False,19,2014,AE
+1933563,Nota,NOTA,24835,414,0.56,5,19,66,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933564,Mahmood Hussain,IND,24808,388,0.52,6,19,66,JK,Mahmood Hussain,IND,,,,,False,19,2014,AE
+1933565,Ravinder Singh,JKNPP,24867,352,0.47,7,19,66,JK,Ravinder Singh,JKNPP,,,,,False,19,2014,AE
+1933566,Jatinder Singh,JKPDP,24832,344,0.46,8,19,66,JK,Jatinder Singh,JKPDP,,,,,False,19,2014,AE
+1933567,Sham Lal Gupta,IND,24808,192,0.26,9,19,66,JK,Sham Lal Gupta,IND,,,,,False,19,2014,AE
+1933568,Kuldeep Raj,BJP,24826,55399,69.15,1,19,67,JK,Kuldeep Raj,BJP,,,,,False,19,2014,AE
+1933569,Girdhari Lal Chalotra,INC,24825,16115,20.11,2,19,67,JK,Girdhari Lal Chalotra,INC,,,,,False,19,2014,AE
+1933570,Bansi Lal Kandley,IND,24808,3158,3.94,3,19,67,JK,Bansi Lal Kandley,IND,,,,,False,19,2014,AE
+1933571,Puran Chand,BSP,24827,1917,2.39,4,19,67,JK,Puran Chand,BSP,,,,,False,19,2014,AE
+1933572,Chandu Ram,JKN,24830,1057,1.32,5,19,67,JK,Chandu Ram,JKN,,,,,False,19,2014,AE
+1933573,Suraj Parkash,JKPDP,24832,992,1.24,6,19,67,JK,Suraj Parkash,JKPDP,,,,,False,19,2014,AE
+1933574,Ravail Singh,IND,24808,639,0.8,7,19,67,JK,Ravail Singh,IND,,,,,False,19,2014,AE
+1933575,Nota,NOTA,24835,434,0.54,8,19,67,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933576,Jagdish Raj,JKNPP,24867,407,0.51,9,19,67,JK,Jagdish Raj,JKNPP,,,,,False,19,2014,AE
+1933577,Devinder Kumar Manyal,BJP,24826,34075,53.08,1,19,68,JK,Devinder Kumar Manyal,BJP,,,,,False,19,2014,AE
+1933578,Yash Paul Kundal,JKNPP,24867,11957,18.63,2,19,68,JK,Yash Paul Kundal,JKNPP,,,,,False,19,2014,AE
+1933579,Subhash Chander,INC,24825,9063,14.12,3,19,68,JK,Subhash Chander,INC,,,,,False,19,2014,AE
+1933580,Sunny Sangral,JKPDP,24832,2971,4.63,4,19,68,JK,Sunny Sangral,JKPDP,,,,,False,19,2014,AE
+1933581,Som Nath,BSP,24827,2779,4.33,5,19,68,JK,Som Nath,BSP,,,,,False,19,2014,AE
+1933582,Satwant Kaur,JKN,24830,2220,3.46,6,19,68,JK,Satwant Kaur,JKN,,,,,False,19,2014,AE
+1933583,Nota,NOTA,24835,524,0.82,7,19,68,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933584,Vijay Kumar Atri,NCP,24837,310,0.48,8,19,68,JK,Vijay Kumar Atri,NCP,,,,,False,19,2014,AE
+1933585,Darshan Kumar,BMUP,24883,296,0.46,9,19,68,JK,Darshan Kumar,BMUP,,,,,False,19,2014,AE
+1933586,Chander Parkash,BJP,24826,38607,43.45,1,19,69,JK,Chander Parkash,BJP,,,,,False,19,2014,AE
+1933587,Surjit Singh Slathia,JKN,24830,26435,29.75,2,19,69,JK,Surjit Singh Slathia,JKN,,,,,False,19,2014,AE
+1933588,Manjit Singh,INC,24825,15761,17.74,3,19,69,JK,Manjit Singh,INC,,,,,False,19,2014,AE
+1933589,Harmesh Singh Slathia,JKPDP,24832,3480,3.92,4,19,69,JK,Harmesh Singh Slathia,JKPDP,,,,,False,19,2014,AE
+1933590,Raj Singh,IND,24808,1108,1.25,5,19,69,JK,Raj Singh,IND,,,,,False,19,2014,AE
+1933591,Jagdish Raj,BSP,24827,629,0.71,6,19,69,JK,Jagdish Raj,BSP,,,,,False,19,2014,AE
+1933592,Rajan Jamwal,IND,24808,543,0.61,7,19,69,JK,Rajan Jamwal,IND,,,,,False,19,2014,AE
+1933593,Rajesh Kumar Pargotra,JKNPP,24867,513,0.58,8,19,69,JK,Rajesh Kumar Pargotra,JKNPP,,,,,False,19,2014,AE
+1933594,Ajad Hussain,IND,24808,512,0.58,9,19,69,JK,Ajad Hussain,IND,,,,,False,19,2014,AE
+1933595,Sanjeev Kumar,IND,24808,347,0.39,10,19,69,JK,Sanjeev Kumar,IND,,,,,False,19,2014,AE
+1933596,Kuldeep Kumar,IND,24808,310,0.35,11,19,69,JK,Kuldeep Kumar,IND,,,,,False,19,2014,AE
+1933597,Nota,NOTA,24835,263,0.3,12,19,69,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933598,Bahadur Singh Chowdhary,IND,24808,176,0.2,13,19,69,JK,Bahadur Singh Chowdhary,IND,,,,,False,19,2014,AE
+1933599,Jeet Ram,BMUP,24883,104,0.12,14,19,69,JK,Jeet Ram,BMUP,,,,,False,19,2014,AE
+1933600,Kamal Kishore,HJP,24879,69,0.08,15,19,69,JK,Kamal Kishore,HJP,,,,,False,19,2014,AE
+1933601,Devender Singh Rana,JKN,24830,23678,39.03,1,19,70,JK,Devender Singh Rana,JKN,,,,,False,19,2014,AE
+1933602,Nand Kishore,BJP,24826,19630,32.35,2,19,70,JK,Nand Kishore,BJP,,,,,False,19,2014,AE
+1933603,Rakesh Wazir,BSP,24827,6422,10.58,3,19,70,JK,Rakesh Wazir,BSP,,,,,False,19,2014,AE
+1933604,Shiv Dev Singh,INC,24825,4853,8.0,4,19,70,JK,Shiv Dev Singh,INC,,,,,False,19,2014,AE
+1933605,Ch Hussain Ali Waffa,JKPDP,24832,4049,6.67,5,19,70,JK,Ch Hussain Ali Waffa,JKPDP,,,,,False,19,2014,AE
+1933606,Nazakat Ali Khatana,IND,24808,616,1.02,6,19,70,JK,Nazakat Ali Khatana,IND,,,,,False,19,2014,AE
+1933607,Nota,NOTA,24835,594,0.98,7,19,70,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933608,Vilakshana Singh,JKNPP,24867,286,0.47,8,19,70,JK,Vilakshana Singh,JKNPP,,,,,False,19,2014,AE
+1933609,Kamal Kumar,IND,24808,179,0.3,9,19,70,JK,Kamal Kumar,IND,,,,,False,19,2014,AE
+1933610,Riaz Ahmed,JPC,24831,151,0.25,10,19,70,JK,Riaz Ahmed,JPC,,,,,False,19,2014,AE
+1933611,Abdul Gani,JSM(P),24884,118,0.19,11,19,70,JK,Abdul Gani,JSM(P),,,,,False,19,2014,AE
+1933612,Bansi Lal,AJKMP,24868,95,0.16,12,19,70,JK,Bansi Lal,AJKMP,,,,,False,19,2014,AE
+1933613,Kavinder Gupta,BJP,24826,56679,51.17,1,19,71,JK,Kavinder Gupta,BJP,,,,,False,19,2014,AE
+1933614,Raman Bhalla,INC,24825,39902,36.02,2,19,71,JK,Raman Bhalla,INC,,,,,False,19,2014,AE
+1933615,Amrik Singh,JKPDP,24832,9815,8.86,3,19,71,JK,Amrik Singh,JKPDP,,,,,False,19,2014,AE
+1933616,Surinder Singh Bunty,JKN,24830,1099,0.99,4,19,71,JK,Surinder Singh Bunty,JKN,,,,,False,19,2014,AE
+1933617,Ravinder Singh Pappu,BSP,24827,1080,0.98,5,19,71,JK,Ravinder Singh Pappu,BSP,,,,,False,19,2014,AE
+1933618,Kuldeep Singh,IND,24808,526,0.47,6,19,71,JK,Kuldeep Singh,IND,,,,,False,19,2014,AE
+1933619,Nota,NOTA,24835,523,0.47,7,19,71,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933620,Gourav Kapoor,NCP,24837,414,0.37,8,19,71,JK,Gourav Kapoor,NCP,,,,,False,19,2014,AE
+1933621,Madhu Bala,IND,24808,277,0.25,9,19,71,JK,Madhu Bala,IND,,,,,False,19,2014,AE
+1933622,Anita Kumari,JKNPP,24867,180,0.16,10,19,71,JK,Anita Kumari,JKNPP,,,,,False,19,2014,AE
+1933623,Prabodh Chander Sharma,IND,24808,143,0.13,11,19,71,JK,Prabodh Chander Sharma,IND,,,,,False,19,2014,AE
+1933624,Kanchan Sharma,BHBP,24885,124,0.11,12,19,71,JK,Kanchan Sharma,BHBP,,,,,False,19,2014,AE
+1933625,Rajesh Gupta,BJP,24826,21776,61.69,1,19,72,JK,Rajesh Gupta,BJP,,,,,False,19,2014,AE
+1933626,Vikram Malhotra,INC,24825,9082,25.73,2,19,72,JK,Vikram Malhotra,INC,,,,,False,19,2014,AE
+1933627,Bharat Chowdhary,JKPDP,24832,3072,8.7,3,19,72,JK,Bharat Chowdhary,JKPDP,,,,,False,19,2014,AE
+1933628,Sanjeev Gupta,IND,24808,430,1.22,4,19,72,JK,Sanjeev Gupta,IND,,,,,False,19,2014,AE
+1933629,Bimla Luthra,JKN,24830,261,0.74,5,19,72,JK,Bimla Luthra,JKN,,,,,False,19,2014,AE
+1933630,Kasturi Lal Gupta,IND,24808,240,0.68,6,19,72,JK,Kasturi Lal Gupta,IND,,,,,False,19,2014,AE
+1933631,Rajesh Gondhi,JKNPP,24867,136,0.39,7,19,72,JK,Rajesh Gondhi,JKNPP,,,,,False,19,2014,AE
+1933632,Nota,NOTA,24835,129,0.37,8,19,72,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933633,Ajay Jagotra,IND,24808,112,0.32,9,19,72,JK,Ajay Jagotra,IND,,,,,False,19,2014,AE
+1933634,Mahesh Chander Padha,IND,24808,60,0.17,10,19,72,JK,Mahesh Chander Padha,IND,,,,,False,19,2014,AE
+1933635,Sat Paul Sharma,BJP,24826,69626,70.63,1,19,73,JK,Sat Paul Sharma,BJP,,,,,False,19,2014,AE
+1933636,Surinder Singh Shingari,INC,24825,18997,19.27,2,19,73,JK,Surinder Singh Shingari,INC,,,,,False,19,2014,AE
+1933637,Dharamveer Singh,JKN,24830,4733,4.8,3,19,73,JK,Dharamveer Singh,JKN,,,,,False,19,2014,AE
+1933638,Sarv Daman Bhasin,JKPDP,24832,2419,2.45,4,19,73,JK,Sarv Daman Bhasin,JKPDP,,,,,False,19,2014,AE
+1933639,Mohinder Kumar,BSP,24827,523,0.53,5,19,73,JK,Mohinder Kumar,BSP,,,,,False,19,2014,AE
+1933640,Dr. Anil Kumar Dhar,IND,24808,446,0.45,6,19,73,JK,Dr. Anil Kumar Dhar,IND,,,,,False,19,2014,AE
+1933641,Sanjay Gupta,IND,24808,378,0.38,7,19,73,JK,Sanjay Gupta,IND,,,,,False,19,2014,AE
+1933642,Nota,NOTA,24835,359,0.36,8,19,73,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933643,Rajinder Singh Bloria,NCP,24837,254,0.26,9,19,73,JK,Rajinder Singh Bloria,NCP,,,,,False,19,2014,AE
+1933644,Kanwarjeet,IND,24808,220,0.22,10,19,73,JK,Kanwarjeet,IND,,,,,False,19,2014,AE
+1933645,Ghani Sham,RKSP,24882,158,0.16,11,19,73,JK,Ghani Sham,RKSP,,,,,False,19,2014,AE
+1933646,Sawtanter Bharat Bakshi,IND,24808,113,0.11,12,19,73,JK,Sawtanter Bharat Bakshi,IND,,,,,False,19,2014,AE
+1933647,Neeraj Gupta,JKNPP,24867,110,0.11,13,19,73,JK,Neeraj Gupta,JKNPP,,,,,False,19,2014,AE
+1933648,Arun Kumar Sawhney,IND,24808,87,0.09,14,19,73,JK,Arun Kumar Sawhney,IND,,,,,False,19,2014,AE
+1933649,Vijay Kumar Verma,IND,24808,78,0.08,15,19,73,JK,Vijay Kumar Verma,IND,,,,,False,19,2014,AE
+1933650,Uday Chand,DGPP,24886,73,0.07,16,19,73,JK,Uday Chand,DGPP,,,,,False,19,2014,AE
+1933651,Kamal Verma,JKN,24830,29380,41.62,1,19,74,JK,Kamal Verma,JKN,,,,,False,19,2014,AE
+1933652,Ashwani Kumar Sharma,BJP,24826,26394,37.39,2,19,74,JK,Ashwani Kumar Sharma,BJP,,,,,False,19,2014,AE
+1933653,Faqir Chand,JKPDP,24832,8112,11.49,3,19,74,JK,Faqir Chand,JKPDP,,,,,False,19,2014,AE
+1933654,Gulchain Singh Charak,INC,24825,3272,4.64,4,19,74,JK,Gulchain Singh Charak,INC,,,,,False,19,2014,AE
+1933655,Bharat Bushan,BSP,24827,1668,2.36,5,19,74,JK,Bharat Bushan,BSP,,,,,False,19,2014,AE
+1933656,Nota,NOTA,24835,490,0.69,6,19,74,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933657,Ghansham Sharma,JKNPP,24867,473,0.67,7,19,74,JK,Ghansham Sharma,JKNPP,,,,,False,19,2014,AE
+1933658,Vicky Kumar Dogra,BMUP,24883,248,0.35,8,19,74,JK,Vicky Kumar Dogra,BMUP,,,,,False,19,2014,AE
+1933659,Krishan Kumar Digra,NCP,24837,223,0.32,9,19,74,JK,Krishan Kumar Digra,NCP,,,,,False,19,2014,AE
+1933660,Ram Pal Khajuria,IND,24808,185,0.26,10,19,74,JK,Ram Pal Khajuria,IND,,,,,False,19,2014,AE
+1933661,Bimla Devi Mottan,SP,24834,142,0.2,11,19,74,JK,Bimla Devi Mottan,SP,,,,,False,19,2014,AE
+1933662,Dr. Gagan Bhagat,BJP,24826,25696,41.65,1,19,75,JK,Dr. Gagan Bhagat,BJP,,,,,False,19,2014,AE
+1933663,Bushan Lal,JKPDP,24832,12086,19.59,2,19,75,JK,Bushan Lal,JKPDP,,,,,False,19,2014,AE
+1933664,B.R Kundal,IND,24808,11140,18.06,3,19,75,JK,B.R Kundal,IND,,,,,False,19,2014,AE
+1933665,Romesh Lal Mottan,JKN,24830,5852,9.49,4,19,75,JK,Romesh Lal Mottan,JKN,,,,,False,19,2014,AE
+1933666,Suman Lata Bhagat,INC,24825,3665,5.94,5,19,75,JK,Suman Lata Bhagat,INC,,,,,False,19,2014,AE
+1933667,Ajaib Singh Motan,BSP,24827,966,1.57,6,19,75,JK,Ajaib Singh Motan,BSP,,,,,False,19,2014,AE
+1933668,Devinder Singh,IND,24808,594,0.96,7,19,75,JK,Devinder Singh,IND,,,,,False,19,2014,AE
+1933669,Kuldeep Raj,IND,24808,421,0.68,8,19,75,JK,Kuldeep Raj,IND,,,,,False,19,2014,AE
+1933670,Kesar Parveen,JKNPP,24867,418,0.68,9,19,75,JK,Kesar Parveen,JKNPP,,,,,False,19,2014,AE
+1933671,Nota,NOTA,24835,336,0.54,10,19,75,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933672,Sham Lal,SP,24834,266,0.43,11,19,75,JK,Sham Lal,SP,,,,,False,19,2014,AE
+1933673,Pargat Singh,IND,24808,254,0.41,12,19,75,JK,Pargat Singh,IND,,,,,False,19,2014,AE
+1933674,Sham Lal Choudhary,BJP,24826,19971,38.82,1,19,76,JK,Sham Lal Choudhary,BJP,,,,,False,19,2014,AE
+1933675,Taranjit Singh Toni,JKN,24830,10554,20.51,2,19,76,JK,Taranjit Singh Toni,JKN,,,,,False,19,2014,AE
+1933676,Rajinder Singh Chib,INC,24825,9684,18.82,3,19,76,JK,Rajinder Singh Chib,INC,,,,,False,19,2014,AE
+1933677,Tarlok Singh Bajwa,JKPDP,24832,8578,16.67,4,19,76,JK,Tarlok Singh Bajwa,JKPDP,,,,,False,19,2014,AE
+1933678,Bhupinder Singh,IND,24808,628,1.22,5,19,76,JK,Bhupinder Singh,IND,,,,,False,19,2014,AE
+1933679,Harjeet Kumar,BSP,24827,520,1.01,6,19,76,JK,Harjeet Kumar,BSP,,,,,False,19,2014,AE
+1933680,Rajinder Singh Toofani,IND,24808,353,0.69,7,19,76,JK,Rajinder Singh Toofani,IND,,,,,False,19,2014,AE
+1933681,Ranjeet Singh,IND,24808,234,0.45,8,19,76,JK,Ranjeet Singh,IND,,,,,False,19,2014,AE
+1933682,Nota,NOTA,24835,217,0.42,9,19,76,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933683,Ashok Kumar Randhawa,JKNPP,24867,190,0.37,10,19,76,JK,Ashok Kumar Randhawa,JKNPP,,,,,False,19,2014,AE
+1933684,Jeet Raj,BMUP,24883,181,0.35,11,19,76,JK,Jeet Raj,BMUP,,,,,False,19,2014,AE
+1933685,Bachan Lal Chowdhary,IND,24808,174,0.34,12,19,76,JK,Bachan Lal Chowdhary,IND,,,,,False,19,2014,AE
+1933686,Ch. Dev Raj,NCP,24837,167,0.32,13,19,76,JK,Ch. Dev Raj,NCP,,,,,False,19,2014,AE
+1933687,Sukhnandan Kumar,BJP,24826,25396,42.35,1,19,77,JK,Sukhnandan Kumar,BJP,,,,,False,19,2014,AE
+1933688,Ajay Kumar Sadhotra,JKN,24830,13784,22.99,2,19,77,JK,Ajay Kumar Sadhotra,JKN,,,,,False,19,2014,AE
+1933689,Balwan Singh,INC,24825,11255,18.77,3,19,77,JK,Balwan Singh,INC,,,,,False,19,2014,AE
+1933690,Suram Singh,JKPDP,24832,4886,8.15,4,19,77,JK,Suram Singh,JKPDP,,,,,False,19,2014,AE
+1933691,Ashok Kumar,BSP,24827,2972,4.96,5,19,77,JK,Ashok Kumar,BSP,,,,,False,19,2014,AE
+1933692,Nota,NOTA,24835,514,0.86,6,19,77,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933693,Sandeep Singh,NCP,24837,448,0.75,7,19,77,JK,Sandeep Singh,NCP,,,,,False,19,2014,AE
+1933694,Vijay Kumar,AJKMP,24868,272,0.45,8,19,77,JK,Vijay Kumar,AJKMP,,,,,False,19,2014,AE
+1933695,Darshan Lal,IND,24808,236,0.39,9,19,77,JK,Darshan Lal,IND,,,,,False,19,2014,AE
+1933696,Shanker Singh,JKNPP,24867,202,0.34,10,19,77,JK,Shanker Singh,JKNPP,,,,,False,19,2014,AE
+1933697,Bali Bhagat,BJP,24826,49134,66.99,1,19,78,JK,Bali Bhagat,BJP,,,,,False,19,2014,AE
+1933698,Mula Ram,INC,24825,16991,23.17,2,19,78,JK,Mula Ram,INC,,,,,False,19,2014,AE
+1933699,Sat Paul,JKN,24830,2767,3.77,3,19,78,JK,Sat Paul,JKN,,,,,False,19,2014,AE
+1933700,Chaman Lal,JKPDP,24832,1384,1.89,4,19,78,JK,Chaman Lal,JKPDP,,,,,False,19,2014,AE
+1933701,Behari Lal Digra,BSP,24827,1189,1.62,5,19,78,JK,Behari Lal Digra,BSP,,,,,False,19,2014,AE
+1933702,Nota,NOTA,24835,559,0.76,6,19,78,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933703,Nirmal Kishore,JKNPP,24867,337,0.46,7,19,78,JK,Nirmal Kishore,JKNPP,,,,,False,19,2014,AE
+1933704,Naresh Salgotra,IND,24808,286,0.39,8,19,78,JK,Naresh Salgotra,IND,,,,,False,19,2014,AE
+1933705,Harbans Lal Bhagat,AAAP,24854,215,0.29,9,19,78,JK,Harbans Lal Bhagat,AAAP,,,,,False,19,2014,AE
+1933706,Anil Kumar,IND,24808,196,0.27,10,19,78,JK,Anil Kumar,IND,,,,,False,19,2014,AE
+1933707,Raj Kumar,IND,24808,155,0.21,11,19,78,JK,Raj Kumar,IND,,,,,False,19,2014,AE
+1933708,Surjit Kumar,BHBP,24885,129,0.18,12,19,78,JK,Surjit Kumar,BHBP,,,,,False,19,2014,AE
+1933709,Rajeev Sharma,BJP,24826,41901,53.19,1,19,79,JK,Rajeev Sharma,BJP,,,,,False,19,2014,AE
+1933710,Sham Lal Sharma,INC,24825,32521,41.29,2,19,79,JK,Sham Lal Sharma,INC,,,,,False,19,2014,AE
+1933711,Dev Raj,JKPDP,24832,1291,1.64,3,19,79,JK,Dev Raj,JKPDP,,,,,False,19,2014,AE
+1933712,Raj Kumar,BSP,24827,1003,1.27,4,19,79,JK,Raj Kumar,BSP,,,,,False,19,2014,AE
+1933713,Dr. Gafur Ahmed,JKN,24830,859,1.09,5,19,79,JK,Dr. Gafur Ahmed,JKN,,,,,False,19,2014,AE
+1933714,Nota,NOTA,24835,436,0.55,6,19,79,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933715,Pardeep Kumar,IND,24808,304,0.39,7,19,79,JK,Pardeep Kumar,IND,,,,,False,19,2014,AE
+1933716,Tej Ram,IND,24808,266,0.34,8,19,79,JK,Tej Ram,IND,,,,,False,19,2014,AE
+1933717,Pushvinder Singh,JKNPP,24867,190,0.24,9,19,79,JK,Pushvinder Singh,JKNPP,,,,,False,19,2014,AE
+1933718,Dr. Kirshan Lal,BJP,24826,36033,60.53,1,19,80,JK,Dr. Kirshan Lal,BJP,,,,,False,19,2014,AE
+1933719,Tara Chand,INC,24825,21243,35.69,2,19,80,JK,Tara Chand,INC,,,,,False,19,2014,AE
+1933720,Madan Lal,JKPDP,24832,653,1.1,3,19,80,JK,Madan Lal,JKPDP,,,,,False,19,2014,AE
+1933721,Manoj Kumar,BSP,24827,238,0.4,4,19,80,JK,Manoj Kumar,BSP,,,,,False,19,2014,AE
+1933722,Shakti Bala,JKN,24830,236,0.4,5,19,80,JK,Shakti Bala,JKN,,,,,False,19,2014,AE
+1933723,Janak Raj,JKNPP,24867,226,0.38,6,19,80,JK,Janak Raj,JKNPP,,,,,False,19,2014,AE
+1933724,Nota,NOTA,24835,223,0.37,7,19,80,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933725,Bhajan Lal,NCP,24837,215,0.36,8,19,80,JK,Bhajan Lal,NCP,,,,,False,19,2014,AE
+1933726,Mohinder Lal,IND,24808,199,0.33,9,19,80,JK,Mohinder Lal,IND,,,,,False,19,2014,AE
+1933727,Biru Mal,IND,24808,139,0.23,10,19,80,JK,Biru Mal,IND,,,,,False,19,2014,AE
+1933728,Subash Chander,AJKMP,24868,123,0.21,11,19,80,JK,Subash Chander,AJKMP,,,,,False,19,2014,AE
+1933729,Ravinder Raina,BJP,24826,37374,49.51,1,19,81,JK,Ravinder Raina,BJP,,,,,False,19,2014,AE
+1933730,Surinder Choudhary,JKPDP,24832,27871,36.92,2,19,81,JK,Surinder Choudhary,JKPDP,,,,,False,19,2014,AE
+1933731,Ravinder Kumar Sharma,INC,24825,5342,7.08,3,19,81,JK,Ravinder Kumar Sharma,INC,,,,,False,19,2014,AE
+1933732,Rajinder Kumar,IND,24808,1208,1.6,4,19,81,JK,Rajinder Kumar,IND,,,,,False,19,2014,AE
+1933733,Radhay Sham Sharma,JKN,24830,1099,1.46,5,19,81,JK,Radhay Sham Sharma,JKN,,,,,False,19,2014,AE
+1933734,Yash Pal,JKNPP,24867,697,0.92,6,19,81,JK,Yash Pal,JKNPP,,,,,False,19,2014,AE
+1933735,Ashwani Kumar Sharma,IND,24808,484,0.64,7,19,81,JK,Ashwani Kumar Sharma,IND,,,,,False,19,2014,AE
+1933736,Nota,NOTA,24835,423,0.56,8,19,81,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933737,Pankaj Kumar Raina,IND,24808,328,0.43,9,19,81,JK,Pankaj Kumar Raina,IND,,,,,False,19,2014,AE
+1933738,Haq Nawaz,BSP,24827,311,0.41,10,19,81,JK,Haq Nawaz,BSP,,,,,False,19,2014,AE
+1933739,Vijay Kumar Bali,HJP,24879,192,0.25,11,19,81,JK,Vijay Kumar Bali,HJP,,,,,False,19,2014,AE
+1933740,Surinder Kumar Choudhary,IND,24808,152,0.2,12,19,81,JK,Surinder Kumar Choudhary,IND,,,,,False,19,2014,AE
+1933741,Chowdhary Zulfkar Ali,JKPDP,24832,24381,31.58,1,19,82,JK,Chowdhary Zulfkar Ali,JKPDP,,,,,False,19,2014,AE
+1933742,Choudhary Liaqat Ali,JKN,24830,19313,25.01,2,19,82,JK,Choudhary Liaqat Ali,JKN,,,,,False,19,2014,AE
+1933743,Mohd Iqbal Malik,INC,24825,18605,24.1,3,19,82,JK,Mohd Iqbal Malik,INC,,,,,False,19,2014,AE
+1933744,Thakur Puran Singh,BJP,24826,11940,15.46,4,19,82,JK,Thakur Puran Singh,BJP,,,,,False,19,2014,AE
+1933745,Nazir Hussain,IND,24808,656,0.85,5,19,82,JK,Nazir Hussain,IND,,,,,False,19,2014,AE
+1933746,Manir Hussain,IND,24808,645,0.84,6,19,82,JK,Manir Hussain,IND,,,,,False,19,2014,AE
+1933747,Nota,NOTA,24835,475,0.62,7,19,82,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933748,Sheraz Begum,BSP,24827,421,0.55,8,19,82,JK,Sheraz Begum,BSP,,,,,False,19,2014,AE
+1933749,Mohd Rakiz,JKNPP,24867,366,0.47,9,19,82,JK,Mohd Rakiz,JKNPP,,,,,False,19,2014,AE
+1933750,Rafaqat Ajaz Choudhary,HKRD,24887,167,0.22,10,19,82,JK,Rafaqat Ajaz Choudhary,HKRD,,,,,False,19,2014,AE
+1933751,Ghulam Header Atish,IND,24808,136,0.18,11,19,82,JK,Ghulam Header Atish,IND,,,,,False,19,2014,AE
+1933752,Abdul Manaf,IND,24808,108,0.14,12,19,82,JK,Abdul Manaf,IND,,,,,False,19,2014,AE
+1933753,Qamar Hussain,JKPDP,24832,26954,30.63,1,19,83,JK,Qamar Hussain,JKPDP,,,,,False,19,2014,AE
+1933754,Chowdhary Talib Hussain,BJP,24826,24464,27.8,2,19,83,JK,Chowdhary Talib Hussain,BJP,,,,,False,19,2014,AE
+1933755,Shabir Ahmed Khan,INC,24825,24296,27.61,3,19,83,JK,Shabir Ahmed Khan,INC,,,,,False,19,2014,AE
+1933756,Mirza Abdul Rashid,JKN,24830,4888,5.56,4,19,83,JK,Mirza Abdul Rashid,JKN,,,,,False,19,2014,AE
+1933757,Yog Raj,IND,24808,1744,1.98,5,19,83,JK,Yog Raj,IND,,,,,False,19,2014,AE
+1933758,Mohd Farooq,IND,24808,1733,1.97,6,19,83,JK,Mohd Farooq,IND,,,,,False,19,2014,AE
+1933759,Nota,NOTA,24835,864,0.98,7,19,83,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933761,Ghulam Mustafa,IND,24808,587,0.67,8,19,83,JK,Ghulam Mustafa,IND,,,,,False,19,2014,AE
+1933760,Istkhar Ali Ahmed,IND,24808,587,0.67,8,19,83,JK,Istkhar Ali Ahmed,IND,,,,,False,19,2014,AE
+1933762,Sharafat Ali,BSP,24827,438,0.5,10,19,83,JK,Sharafat Ali,BSP,,,,,False,19,2014,AE
+1933763,Zaheer Ahmed,IND,24808,370,0.42,11,19,83,JK,Zaheer Ahmed,IND,,,,,False,19,2014,AE
+1933764,Ghulam Rasool,IND,24808,361,0.41,12,19,83,JK,Ghulam Rasool,IND,,,,,False,19,2014,AE
+1933765,Ghulam Mustafa,JKNPP,24867,358,0.41,13,19,83,JK,Ghulam Mustafa,JKNPP,,,,,False,19,2014,AE
+1933766,Liyaqat Ali,IND,24808,348,0.4,14,19,83,JK,Liyaqat Ali,IND,,,,,False,19,2014,AE
+1933767,Abdul Ghani Kohli,BJP,24826,25225,38.13,1,19,84,JK,Abdul Ghani Kohli,BJP,,,,,False,19,2014,AE
+1933768,Rachhpal Singh,JKN,24830,19047,28.79,2,19,84,JK,Rachhpal Singh,JKN,,,,,False,19,2014,AE
+1933769,Ashok Kumar Sharma,INC,24825,10520,15.9,3,19,84,JK,Ashok Kumar Sharma,INC,,,,,False,19,2014,AE
+1933770,Asad Bari Shah,JKPDP,24832,8325,12.58,4,19,84,JK,Asad Bari Shah,JKPDP,,,,,False,19,2014,AE
+1933771,Mohd Rafiq,BSP,24827,1472,2.22,5,19,84,JK,Mohd Rafiq,BSP,,,,,False,19,2014,AE
+1933772,Nota,NOTA,24835,766,1.16,6,19,84,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933773,Ashok Kumar,IND,24808,526,0.8,7,19,84,JK,Ashok Kumar,IND,,,,,False,19,2014,AE
+1933774,Mahesh Kumar Sharma,IND,24808,281,0.42,8,19,84,JK,Mahesh Kumar Sharma,IND,,,,,False,19,2014,AE
+1933775,Ch Mohd Akram,INC,24825,30584,46.45,1,19,85,JK,Ch Mohd Akram,INC,,,,,False,19,2014,AE
+1933776,Mushtaq Ahmed Shah,JKN,24830,22520,34.2,2,19,85,JK,Mushtaq Ahmed Shah,JKN,,,,,False,19,2014,AE
+1933777,Iqbal Hussain Shah,JKPDP,24832,8290,12.59,3,19,85,JK,Iqbal Hussain Shah,JKPDP,,,,,False,19,2014,AE
+1933778,Mohd Taj Khan,BJP,24826,2123,3.22,4,19,85,JK,Mohd Taj Khan,BJP,,,,,False,19,2014,AE
+1933779,Ashfaq Rana,JKNPP,24867,429,0.65,5,19,85,JK,Ashfaq Rana,JKNPP,,,,,False,19,2014,AE
+1933780,Nota,NOTA,24835,375,0.57,6,19,85,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933781,Ayaz Ahmed Mughal,IND,24808,371,0.56,7,19,85,JK,Ayaz Ahmed Mughal,IND,,,,,False,19,2014,AE
+1933782,Naseer-Ul-Islam Ahmed,BSP,24827,327,0.5,8,19,85,JK,Naseer-Ul-Islam Ahmed,BSP,,,,,False,19,2014,AE
+1933783,Mohd Sadiq Qureshi,IND,24808,322,0.49,9,19,85,JK,Mohd Sadiq Qureshi,IND,,,,,False,19,2014,AE
+1933784,Javaid Ahmed,AIFB,24823,312,0.47,10,19,85,JK,Javaid Ahmed,AIFB,,,,,False,19,2014,AE
+1933785,Mohd Shah,IND,24808,192,0.29,11,19,85,JK,Mohd Shah,IND,,,,,False,19,2014,AE
+1933786,Javed Ahmed Rana,JKN,24830,31186,47.75,1,19,86,JK,Javed Ahmed Rana,JKN,,,,,False,19,2014,AE
+1933787,Mohd Mahroof Khan,JKPDP,24832,22161,33.93,2,19,86,JK,Mohd Mahroof Khan,JKPDP,,,,,False,19,2014,AE
+1933788,Murtaza Ahmed Khan,INC,24825,7255,11.11,3,19,86,JK,Murtaza Ahmed Khan,INC,,,,,False,19,2014,AE
+1933789,Zulfqar Hussain Khan,BJP,24826,1472,2.25,4,19,86,JK,Zulfqar Hussain Khan,BJP,,,,,False,19,2014,AE
+1933790,Mohd Sharief Khan,IND,24808,830,1.27,5,19,86,JK,Mohd Sharief Khan,IND,,,,,False,19,2014,AE
+1933791,Nisar Ahmed Khan,IND,24808,534,0.82,6,19,86,JK,Nisar Ahmed Khan,IND,,,,,False,19,2014,AE
+1933792,Nisar Hussain Shah,IND,24808,495,0.76,7,19,86,JK,Nisar Hussain Shah,IND,,,,,False,19,2014,AE
+1933793,Nota,NOTA,24835,351,0.54,8,19,86,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933794,Mushtaq Ahmed,JKPPAP,24888,345,0.53,9,19,86,JK,Mushtaq Ahmed,JKPPAP,,,,,False,19,2014,AE
+1933795,Abdul Majeed Chowan,IND,24808,343,0.53,10,19,86,JK,Abdul Majeed Chowan,IND,,,,,False,19,2014,AE
+1933796,Mohd Tariq Khan,JKNPP,24867,212,0.32,11,19,86,JK,Mohd Tariq Khan,JKNPP,,,,,False,19,2014,AE
+1933797,Mohd Shafeeq Khan,BSP,24827,133,0.2,12,19,86,JK,Mohd Shafeeq Khan,BSP,,,,,False,19,2014,AE
+1933798,Shah Mohd Tantray,JKPDP,24832,19488,25.57,1,19,87,JK,Shah Mohd Tantray,JKPDP,,,,,False,19,2014,AE
+1933799,Ajaz Ahmed Jan,JKN,24830,15976,20.96,2,19,87,JK,Ajaz Ahmed Jan,JKN,,,,,False,19,2014,AE
+1933800,Chaudhary Abdul Ghani,IND,24808,15110,19.83,3,19,87,JK,Chaudhary Abdul Ghani,IND,,,,,False,19,2014,AE
+1933801,Pardeep Sharma,BJP,24826,11292,14.82,4,19,87,JK,Pardeep Sharma,BJP,,,,,False,19,2014,AE
+1933802,Ch Bashir Ahmed Naaz,INC,24825,10289,13.5,5,19,87,JK,Ch Bashir Ahmed Naaz,INC,,,,,False,19,2014,AE
+1933803,Mohd Younis,JKPPAP,24888,1351,1.77,6,19,87,JK,Mohd Younis,JKPPAP,,,,,False,19,2014,AE
+1933804,Mohd Kabir Qureshi,IND,24808,682,0.89,7,19,87,JK,Mohd Kabir Qureshi,IND,,,,,False,19,2014,AE
+1933805,Nota,NOTA,24835,661,0.87,8,19,87,JK,Nota,NOTA,,,,,False,19,2014,AE
+1933806,Javid Iqbal Reshi,IND,24808,543,0.71,9,19,87,JK,Javid Iqbal Reshi,IND,,,,,False,19,2014,AE
+1933807,Mohd Rashid,JKNPP,24867,417,0.55,10,19,87,JK,Mohd Rashid,JKNPP,,,,,False,19,2014,AE
+1933808,Ashfaq Ahmed,BSP,24827,406,0.53,11,19,87,JK,Ashfaq Ahmed,BSP,,,,,False,19,2014,AE

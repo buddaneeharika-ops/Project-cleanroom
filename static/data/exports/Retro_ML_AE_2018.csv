@@ -1,0 +1,421 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1714024,Sniawbhalang Dhar,NPEP,19814,16604,49.16,1,32,1,ML,Sniawbhalang Dhar,NPEP,,,,,False,32,2018,AE
+1714025,Jopthiaw Lyngdoh,INC,19815,14506,42.95,2,32,1,ML,Jopthiaw Lyngdoh,INC,,,,,False,32,2018,AE
+1714026,Draison Kharshiing,BJP,19820,2168,6.42,3,32,1,ML,Draison Kharshiing,BJP,,,,,False,32,2018,AE
+1714027,Innocent Shadap,KHNAM,19821,254,0.75,4,32,1,ML,Innocent Shadap,KHNAM,,,,,False,32,2018,AE
+1714028,Couple Stone Shylla,IND,19816,131,0.39,5,32,1,ML,Couple Stone Shylla,IND,,,,,False,32,2018,AE
+1714029,Nota,NOTA,19818,115,0.34,6,32,1,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714030,Wailadmiki Shylla,NPEP,19814,10657,34.59,1,32,2,ML,Wailadmiki Shylla,NPEP,,,,,False,32,2018,AE
+1714031,Moonlight Pariat,UDP,19817,9354,30.36,2,32,2,ML,Moonlight Pariat,UDP,,,,,False,32,2018,AE
+1714032,Awhai Andrew Shullai,INC,19815,8863,28.77,3,32,2,ML,Awhai Andrew Shullai,INC,,,,,False,32,2018,AE
+1714033,Marki Mulieh,BJP,19820,1702,5.52,4,32,2,ML,Marki Mulieh,BJP,,,,,False,32,2018,AE
+1714034,Nota,NOTA,19818,141,0.46,5,32,2,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714035,Banrilang Jungai,AAAP,19822,89,0.29,6,32,2,ML,Banrilang Jungai,AAAP,,,,,False,32,2018,AE
+1714036,Comingone Ymbon,NPEP,19814,12129,40.45,1,32,3,ML,Comingone Ymbon,NPEP,,,,,False,32,2018,AE
+1714037,Lakhon Biam,BJP,19820,8879,29.61,2,32,3,ML,Lakhon Biam,BJP,,,,,False,32,2018,AE
+1714038,Richard Singh Lyngdoh,IND,19816,5202,17.35,3,32,3,ML,Richard Singh Lyngdoh,IND,,,,,False,32,2018,AE
+1714039,Konstan Sungoh,UDP,19817,3065,10.22,4,32,3,ML,Konstan Sungoh,UDP,,,,,False,32,2018,AE
+1714040,Nota,NOTA,19818,363,1.21,5,32,3,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714041,Wanjop Susngi,INC,19815,345,1.15,6,32,3,ML,Wanjop Susngi,INC,,,,,False,32,2018,AE
+1714042,Nujorki Sungoh,UDP,19817,6691,22.89,1,32,4,ML,Nujorki Sungoh,UDP,,,,,False,32,2018,AE
+1714043,Gilbert Sten,NPEP,19814,6431,22.0,2,32,4,ML,Gilbert Sten,NPEP,,,,,False,32,2018,AE
+1714044,Nehemayah Tyngkan,INC,19815,6342,21.69,3,32,4,ML,Nehemayah Tyngkan,INC,,,,,False,32,2018,AE
+1714045,Robinus Syngkon,BJP,19820,5751,19.67,4,32,4,ML,Robinus Syngkon,BJP,,,,,False,32,2018,AE
+1714046,E.C Boniface Bamon,NCP,19823,2120,7.25,5,32,4,ML,E.C Boniface Bamon,NCP,,,,,False,32,2018,AE
+1714047,Heipormi Laloo,PDF,19824,1714,5.86,6,32,4,ML,Heipormi Laloo,PDF,,,,,False,32,2018,AE
+1714048,Nota,NOTA,19818,188,0.64,7,32,4,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714049,Shitlang Pale,INC,19815,12257,36.18,1,32,5,ML,Shitlang Pale,INC,,,,,False,32,2018,AE
+1714050,Hopeful Bamon,NPEP,19814,10673,31.5,2,32,5,ML,Hopeful Bamon,NPEP,,,,,False,32,2018,AE
+1714051,Hambertus Nongtdu,BJP,19820,7423,21.91,3,32,5,ML,Hambertus Nongtdu,BJP,,,,,False,32,2018,AE
+1714052,Defender Pakem,HSPDP,19825,2800,8.26,4,32,5,ML,Defender Pakem,HSPDP,,,,,False,32,2018,AE
+1714053,Skindro Dkhar,IND,19816,534,1.58,5,32,5,ML,Skindro Dkhar,IND,,,,,False,32,2018,AE
+1714054,Nota,NOTA,19818,192,0.57,6,32,5,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714055,Kyrmen Shylla,UDP,19817,20285,58.82,1,32,6,ML,Kyrmen Shylla,UDP,,,,,False,32,2018,AE
+1714056,Justine Dkhar,BJP,19820,12104,35.1,2,32,6,ML,Justine Dkhar,BJP,,,,,False,32,2018,AE
+1714057,Violet Lyngdoh,NPEP,19814,1707,4.95,3,32,6,ML,Violet Lyngdoh,NPEP,,,,,False,32,2018,AE
+1714058,T S Diolinda Dkhar,INC,19815,150,0.43,4,32,6,ML,T S Diolinda Dkhar,INC,,,,,False,32,2018,AE
+1714059,First Bornson Nongtdu,IND,19816,123,0.36,5,32,6,ML,First Bornson Nongtdu,IND,,,,,False,32,2018,AE
+1714060,Nota,NOTA,19818,120,0.35,6,32,6,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714061,Lahkmen Rymbui,UDP,19817,14766,50.1,1,32,7,ML,Lahkmen Rymbui,UDP,,,,,False,32,2018,AE
+1714062,Stephanson Mukhim,NPEP,19814,12135,41.17,2,32,7,ML,Stephanson Mukhim,NPEP,,,,,False,32,2018,AE
+1714063,Holando Lamin,INC,19815,1238,4.2,3,32,7,ML,Holando Lamin,INC,,,,,False,32,2018,AE
+1714064,Riang Lenon Tariang,BJP,19820,867,2.94,4,32,7,ML,Riang Lenon Tariang,BJP,,,,,False,32,2018,AE
+1714065,Nota,NOTA,19818,469,1.59,5,32,7,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714066,Dasakhiatbha Lamare,NPEP,19814,6365,22.46,1,32,8,ML,Dasakhiatbha Lamare,NPEP,,,,,False,32,2018,AE
+1714067,Julias Kitbok Dorphang,IND,19816,6161,21.74,2,32,8,ML,Julias Kitbok Dorphang,IND,,,,,False,32,2018,AE
+1714068,James Sylliang,PDF,19824,4314,15.23,3,32,8,ML,James Sylliang,PDF,,,,,False,32,2018,AE
+1714069,Charles Marngar,INC,19815,3675,12.97,4,32,8,ML,Charles Marngar,INC,,,,,False,32,2018,AE
+1714070,Donbok Khymdeit,UDP,19817,3367,11.88,5,32,8,ML,Donbok Khymdeit,UDP,,,,,False,32,2018,AE
+1714071,Evalyni Kharbani,IND,19816,2231,7.87,6,32,8,ML,Evalyni Kharbani,IND,,,,,False,32,2018,AE
+1714072,Banbuhaiing Makdoh,BJP,19820,980,3.46,7,32,8,ML,Banbuhaiing Makdoh,BJP,,,,,False,32,2018,AE
+1714073,Zachary Shadap,KHNAM,19821,805,2.84,8,32,8,ML,Zachary Shadap,KHNAM,,,,,False,32,2018,AE
+1714074,Nota,NOTA,19818,316,1.12,9,32,8,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714075,Tyngshainlang Lapang,NCP,19823,119,0.42,10,32,8,ML,Tyngshainlang Lapang,NCP,,,,,False,32,2018,AE
+1714076,Mayralborn Syiem,INC,19815,11119,40.7,1,32,9,ML,Mayralborn Syiem,INC,,,,,False,32,2018,AE
+1714077,Rona Khymdeit,UDP,19817,7795,28.54,2,32,9,ML,Rona Khymdeit,UDP,,,,,False,32,2018,AE
+1714078,Cleophas B. Syiem,NPEP,19814,5144,18.83,3,32,9,ML,Cleophas B. Syiem,NPEP,,,,,False,32,2018,AE
+1714079,Manin Raja,IND,19816,1085,3.97,4,32,9,ML,Manin Raja,IND,,,,,False,32,2018,AE
+1714080,Patboone Syngkli,PDF,19824,800,2.93,5,32,9,ML,Patboone Syngkli,PDF,,,,,False,32,2018,AE
+1714081,Marian Maring,BJP,19820,755,2.76,6,32,9,ML,Marian Maring,BJP,,,,,False,32,2018,AE
+1714082,Dedrict Binong,AAAP,19822,311,1.14,7,32,9,ML,Dedrict Binong,AAAP,,,,,False,32,2018,AE
+1714083,Nota,NOTA,19818,308,1.13,8,32,9,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714084,Sosthenes Sohtun,NPEP,19814,9437,31.26,1,32,10,ML,Sosthenes Sohtun,NPEP,,,,,False,32,2018,AE
+1714085,Witness Day Sancley,INC,19815,9217,30.53,2,32,10,ML,Witness Day Sancley,INC,,,,,False,32,2018,AE
+1714086,Lamboklang Mylliem,PDF,19824,6351,21.03,3,32,10,ML,Lamboklang Mylliem,PDF,,,,,False,32,2018,AE
+1714087,Badhok Nongmalieh,BJP,19820,4152,13.75,4,32,10,ML,Badhok Nongmalieh,BJP,,,,,False,32,2018,AE
+1714088,Nota,NOTA,19818,475,1.57,5,32,10,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714089,Comfort Doloi,IND,19816,346,1.15,6,32,10,ML,Comfort Doloi,IND,,,,,False,32,2018,AE
+1714090,Bity Jyrwa,NCP,19823,215,0.71,7,32,10,ML,Bity Jyrwa,NCP,,,,,False,32,2018,AE
+1714091,Jason Sawkmie Mawlong,PDF,19824,9238,33.14,1,32,11,ML,Jason Sawkmie Mawlong,PDF,,,,,False,32,2018,AE
+1714092,Celestine Lyngdoh,INC,19815,9168,32.89,2,32,11,ML,Celestine Lyngdoh,INC,,,,,False,32,2018,AE
+1714093,Donkupar Sumer,UDP,19817,7420,26.62,3,32,11,ML,Donkupar Sumer,UDP,,,,,False,32,2018,AE
+1714094,Lapynshngain Dame Michael Kharsyntiew,BJP,19820,1064,3.82,4,32,11,ML,Lapynshngain Dame Michael Kharsyntiew,BJP,,,,,False,32,2018,AE
+1714095,Thomas Roy Mallai,NPEP,19814,565,2.03,5,32,11,ML,Thomas Roy Mallai,NPEP,,,,,False,32,2018,AE
+1714096,Wonderlyne Lapang,AAAP,19822,258,0.93,6,32,11,ML,Wonderlyne Lapang,AAAP,,,,,False,32,2018,AE
+1714097,Nota,NOTA,19818,163,0.58,7,32,11,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714098,George Bankyntiewlang Lyngdoh,INC,19815,10405,45.03,1,32,12,ML,George Bankyntiewlang Lyngdoh,INC,,,,,False,32,2018,AE
+1714099,Ngaitlang Dhar,NPEP,19814,9387,40.62,2,32,12,ML,Ngaitlang Dhar,NPEP,,,,,False,32,2018,AE
+1714100,Mangkara Pathaw,UDP,19817,2255,9.76,3,32,12,ML,Mangkara Pathaw,UDP,,,,,False,32,2018,AE
+1714101,Arbinus Lyngdoh,PDF,19824,647,2.8,4,32,12,ML,Arbinus Lyngdoh,PDF,,,,,False,32,2018,AE
+1714102,Field Marshal Mawphniang,BJP,19820,271,1.17,5,32,12,ML,Field Marshal Mawphniang,BJP,,,,,False,32,2018,AE
+1714103,Nota,NOTA,19818,144,0.62,6,32,12,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714104,David A Nongrum,INC,19815,10336,37.56,1,32,13,ML,David A Nongrum,INC,,,,,False,32,2018,AE
+1714105,Highlander Kharmalki,PDF,19824,6573,23.88,2,32,13,ML,Highlander Kharmalki,PDF,,,,,False,32,2018,AE
+1714106,Pyniaid Sing Syiem,NPEP,19814,5969,21.69,3,32,13,ML,Pyniaid Sing Syiem,NPEP,,,,,False,32,2018,AE
+1714107,Pynehborlang Mukhim,UDP,19817,3011,10.94,4,32,13,ML,Pynehborlang Mukhim,UDP,,,,,False,32,2018,AE
+1714108,Moses Kharbithai,KHNAM,19821,1037,3.77,5,32,13,ML,Moses Kharbithai,KHNAM,,,,,False,32,2018,AE
+1714109,Torry Teison Kharsati,BJP,19820,411,1.49,6,32,13,ML,Torry Teison Kharsati,BJP,,,,,False,32,2018,AE
+1714110,Nota,NOTA,19818,184,0.67,7,32,13,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714111,Alexander Laloo Hek,BJP,19820,10166,42.06,1,32,14,ML,Alexander Laloo Hek,BJP,,,,,False,32,2018,AE
+1714112,James Ban Basaiawmoit,PDF,19824,8748,36.2,2,32,14,ML,James Ban Basaiawmoit,PDF,,,,,False,32,2018,AE
+1714113,Banpynshngainlang Rumnong,INC,19815,2964,12.26,3,32,14,ML,Banpynshngainlang Rumnong,INC,,,,,False,32,2018,AE
+1714114,Predecessor Rumnong,NCP,19823,914,3.78,4,32,14,ML,Predecessor Rumnong,NCP,,,,,False,32,2018,AE
+1714115,Probety Nongpluh,NPEP,19814,851,3.52,5,32,14,ML,Probety Nongpluh,NPEP,,,,,False,32,2018,AE
+1714116,Nota,NOTA,19818,287,1.19,6,32,14,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714117,Aneeta Synrem,IND,19816,238,0.98,7,32,14,ML,Aneeta Synrem,IND,,,,,False,32,2018,AE
+1714118,Process T. Sawkmie,INC,19815,9253,26.53,1,32,15,ML,Process T. Sawkmie,INC,,,,,False,32,2018,AE
+1714119,Teiborlang Pathaw,IND,19816,7679,22.02,2,32,15,ML,Teiborlang Pathaw,IND,,,,,False,32,2018,AE
+1714120,Embhahlang Syiemlieh,UDP,19817,7599,21.79,3,32,15,ML,Embhahlang Syiemlieh,UDP,,,,,False,32,2018,AE
+1714121,Sarita Lyngdoh,PDF,19824,6336,18.17,4,32,15,ML,Sarita Lyngdoh,PDF,,,,,False,32,2018,AE
+1714122,Bankyrshanborlang Lyngdoh Nongbri,KHNAM,19821,2247,6.44,5,32,15,ML,Bankyrshanborlang Lyngdoh Nongbri,KHNAM,,,,,False,32,2018,AE
+1714123,Silvester Kurbah,IND,19816,901,2.58,6,32,15,ML,Silvester Kurbah,IND,,,,,False,32,2018,AE
+1714124,Peter Aiborlang Dohkrut,AAAP,19822,391,1.12,7,32,15,ML,Peter Aiborlang Dohkrut,AAAP,,,,,False,32,2018,AE
+1714125,Nota,NOTA,19818,361,1.04,8,32,15,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714126,Donlang Nongbri,LJP,19826,104,0.3,9,32,15,ML,Donlang Nongbri,LJP,,,,,False,32,2018,AE
+1714127,Mazel Ampareen Lyngdoh,INC,19815,10368,60.3,1,32,16,ML,Mazel Ampareen Lyngdoh,INC,,,,,False,32,2018,AE
+1714128,Neil Antonio War,BJP,19820,4294,24.97,2,32,16,ML,Neil Antonio War,BJP,,,,,False,32,2018,AE
+1714129,B. M. Lanong,UDP,19817,2009,11.68,3,32,16,ML,B. M. Lanong,UDP,,,,,False,32,2018,AE
+1714130,Nota,NOTA,19818,302,1.76,4,32,16,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714131,Romeo Phira Rani,IND,19816,221,1.29,5,32,16,ML,Romeo Phira Rani,IND,,,,,False,32,2018,AE
+1714132,Adelbert Nongrum,KHNAM,19821,5572,30.0,1,32,17,ML,Adelbert Nongrum,KHNAM,,,,,False,32,2018,AE
+1714133,J. Antonius Lyngdoh,BJP,19820,5166,27.81,2,32,17,ML,J. Antonius Lyngdoh,BJP,,,,,False,32,2018,AE
+1714134,W. Humphrey D. Syngkon,INC,19815,5124,27.58,3,32,17,ML,W. Humphrey D. Syngkon,INC,,,,,False,32,2018,AE
+1714135,Alester Neville Diengdoh,HSPDP,19825,968,5.21,4,32,17,ML,Alester Neville Diengdoh,HSPDP,,,,,False,32,2018,AE
+1714136,Joebrenson Marwein,UDP,19817,785,4.23,5,32,17,ML,Joebrenson Marwein,UDP,,,,,False,32,2018,AE
+1714137,Erwin K. Syiem Sutnga,NPEP,19814,441,2.37,6,32,17,ML,Erwin K. Syiem Sutnga,NPEP,,,,,False,32,2018,AE
+1714138,Tony Fass Marbaniang,NEINDP,19827,327,1.76,7,32,17,ML,Tony Fass Marbaniang,NEINDP,,,,,False,32,2018,AE
+1714139,Nota,NOTA,19818,193,1.04,8,32,17,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714140,Mohendro Rapsang,INC,19815,10288,53.68,1,32,18,ML,Mohendro Rapsang,INC,,,,,False,32,2018,AE
+1714141,Paul Lyngdoh,UDP,19817,8304,43.33,2,32,18,ML,Paul Lyngdoh,UDP,,,,,False,32,2018,AE
+1714142,Nota,NOTA,19818,201,1.05,3,32,18,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714143,Donaldson Shanpru,IND,19816,189,0.99,4,32,18,ML,Donaldson Shanpru,IND,,,,,False,32,2018,AE
+1714144,Havergail Edwina Bareh,NPEP,19814,182,0.95,5,32,18,ML,Havergail Edwina Bareh,NPEP,,,,,False,32,2018,AE
+1714145,Sanbor Shullai,BJP,19820,11204,49.71,1,32,19,ML,Sanbor Shullai,BJP,,,,,False,32,2018,AE
+1714146,Manas Chaudhuri,INC,19815,6107,27.09,2,32,19,ML,Manas Chaudhuri,INC,,,,,False,32,2018,AE
+1714147,Sounder Strong Cajee,NPEP,19814,3604,15.99,3,32,19,ML,Sounder Strong Cajee,NPEP,,,,,False,32,2018,AE
+1714148,Vikash Gupta,NCP,19823,1085,4.81,4,32,19,ML,Vikash Gupta,NCP,,,,,False,32,2018,AE
+1714149,Nota,NOTA,19818,393,1.74,5,32,19,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714150,Moon Lyngdoh,IND,19816,147,0.65,6,32,19,ML,Moon Lyngdoh,IND,,,,,False,32,2018,AE
+1714151,Hamletson Dohling,PDF,19824,8493,32.66,1,32,20,ML,Hamletson Dohling,PDF,,,,,False,32,2018,AE
+1714152,Ronnie V Lyngdoh,INC,19815,8028,30.87,2,32,20,ML,Ronnie V Lyngdoh,INC,,,,,False,32,2018,AE
+1714153,Telinia S. Thangkhiew,HSPDP,19825,6629,25.49,3,32,20,ML,Telinia S. Thangkhiew,HSPDP,,,,,False,32,2018,AE
+1714154,Ricky Shullai,IND,19816,1951,7.5,4,32,20,ML,Ricky Shullai,IND,,,,,False,32,2018,AE
+1714155,Banshailang Majaw,KHNAM,19821,272,1.05,5,32,20,ML,Banshailang Majaw,KHNAM,,,,,False,32,2018,AE
+1714156,Nota,NOTA,19818,265,1.02,6,32,20,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714157,Campbell Manick Syiem,IND,19816,138,0.53,7,32,20,ML,Campbell Manick Syiem,IND,,,,,False,32,2018,AE
+1714158,Bomber Singh Hynniewta,IND,19816,137,0.53,8,32,20,ML,Bomber Singh Hynniewta,IND,,,,,False,32,2018,AE
+1714159,Samuel Hashah,NCP,19823,89,0.34,9,32,20,ML,Samuel Hashah,NCP,,,,,False,32,2018,AE
+1714160,Charles Pyngrope,INC,19815,10225,42.35,1,32,21,ML,Charles Pyngrope,INC,,,,,False,32,2018,AE
+1714161,Dr. Jemino Mawthoh,UDP,19817,9268,38.39,2,32,21,ML,Dr. Jemino Mawthoh,UDP,,,,,False,32,2018,AE
+1714162,Ernest Mawrie,BJP,19820,3065,12.7,3,32,21,ML,Ernest Mawrie,BJP,,,,,False,32,2018,AE
+1714163,Latiplang Kharkongor,PDF,19824,655,2.71,4,32,21,ML,Latiplang Kharkongor,PDF,,,,,False,32,2018,AE
+1714164,Ehkupar Nongrum,NPEP,19814,352,1.46,5,32,21,ML,Ehkupar Nongrum,NPEP,,,,,False,32,2018,AE
+1714165,Ronaldson Dkhar,NCP,19823,292,1.21,6,32,21,ML,Ronaldson Dkhar,NCP,,,,,False,32,2018,AE
+1714166,Nota,NOTA,19818,285,1.18,7,32,21,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714167,Lambor Malngiang,IND,19816,8274,30.42,1,32,22,ML,Lambor Malngiang,IND,,,,,False,32,2018,AE
+1714168,Ardent Miller Basaiawmoit,HSPDP,19825,8198,30.14,2,32,22,ML,Ardent Miller Basaiawmoit,HSPDP,,,,,False,32,2018,AE
+1714169,Hilarius Pohchen,PDF,19824,4487,16.5,3,32,22,ML,Hilarius Pohchen,PDF,,,,,False,32,2018,AE
+1714170,Hispreachering Son Shylla,NPEP,19814,2956,10.87,4,32,22,ML,Hispreachering Son Shylla,NPEP,,,,,False,32,2018,AE
+1714171,John Filmore Kharshiing,INC,19815,2207,8.12,5,32,22,ML,John Filmore Kharshiing,INC,,,,,False,32,2018,AE
+1714172,Egenstar Kurkalang,BJP,19820,713,2.62,6,32,22,ML,Egenstar Kurkalang,BJP,,,,,False,32,2018,AE
+1714173,Masterson Kharbyngar,IND,19816,204,0.75,7,32,22,ML,Masterson Kharbyngar,IND,,,,,False,32,2018,AE
+1714174,Nota,NOTA,19818,157,0.58,8,32,22,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714175,Samlin Malngiang,HSPDP,19825,11960,45.75,1,32,23,ML,Samlin Malngiang,HSPDP,,,,,False,32,2018,AE
+1714176,H. Donkupar R. Lyngdoh,INC,19815,11338,43.37,2,32,23,ML,H. Donkupar R. Lyngdoh,INC,,,,,False,32,2018,AE
+1714177,Judah Justine Macdonald Wahlang,PDF,19824,2670,10.21,3,32,23,ML,Judah Justine Macdonald Wahlang,PDF,,,,,False,32,2018,AE
+1714178,Nota,NOTA,19818,175,0.67,4,32,23,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714179,Syntar Klas Sunn,IND,19816,11162,42.67,1,32,24,ML,Syntar Klas Sunn,IND,,,,,False,32,2018,AE
+1714180,Kennedy Cornelius Khyriem,INC,19815,10444,39.93,2,32,24,ML,Kennedy Cornelius Khyriem,INC,,,,,False,32,2018,AE
+1714181,Pynshai Manik Syiem,HSPDP,19825,3940,15.06,3,32,24,ML,Pynshai Manik Syiem,HSPDP,,,,,False,32,2018,AE
+1714182,Dr. Donkupar Lyngdoh,PDF,19824,391,1.49,4,32,24,ML,Dr. Donkupar Lyngdoh,PDF,,,,,False,32,2018,AE
+1714183,Nota,NOTA,19818,219,0.84,5,32,24,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714184,Himalaya Muktan Shangpliang,INC,19815,8984,31.45,1,32,25,ML,Himalaya Muktan Shangpliang,INC,,,,,False,32,2018,AE
+1714185,Pynshngainlang Syiem,PDF,19824,8190,28.67,2,32,25,ML,Pynshngainlang Syiem,PDF,,,,,False,32,2018,AE
+1714186,Ollan Singh Suin,UDP,19817,5348,18.72,3,32,25,ML,Ollan Singh Suin,UDP,,,,,False,32,2018,AE
+1714187,Khrawkupar Jyrwa,BJP,19820,4098,14.35,4,32,25,ML,Khrawkupar Jyrwa,BJP,,,,,False,32,2018,AE
+1714188,Laplu Sangma,NPEP,19814,1057,3.7,5,32,25,ML,Laplu Sangma,NPEP,,,,,False,32,2018,AE
+1714189,Silvestar Marwein,IND,19816,634,2.22,6,32,25,ML,Silvestar Marwein,IND,,,,,False,32,2018,AE
+1714190,Nota,NOTA,19818,164,0.57,7,32,25,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714191,Starfing Jove Langpen Pdahkasiej,NCP,19823,87,0.3,8,32,25,ML,Starfing Jove Langpen Pdahkasiej,NCP,,,,,False,32,2018,AE
+1714192,Donkupar Roy,UDP,19817,8280,33.06,1,32,26,ML,Donkupar Roy,UDP,,,,,False,32,2018,AE
+1714193,Leston Wanswett,PDF,19824,7910,31.58,2,32,26,ML,Leston Wanswett,PDF,,,,,False,32,2018,AE
+1714194,Batyngshain Laitmon Ryngnga,INC,19815,4332,17.3,3,32,26,ML,Batyngshain Laitmon Ryngnga,INC,,,,,False,32,2018,AE
+1714195,Jrop Singh Nongkhlaw,BJP,19820,3390,13.53,4,32,26,ML,Jrop Singh Nongkhlaw,BJP,,,,,False,32,2018,AE
+1714196,Sainkupar Riahtam,NPEP,19814,484,1.93,5,32,26,ML,Sainkupar Riahtam,NPEP,,,,,False,32,2018,AE
+1714197,Wellborn Bynnud,IND,19816,456,1.82,6,32,26,ML,Wellborn Bynnud,IND,,,,,False,32,2018,AE
+1714198,Nota,NOTA,19818,195,0.78,7,32,26,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714199,Prestone Tynsong,NPEP,19814,12807,42.35,1,32,27,ML,Prestone Tynsong,NPEP,,,,,False,32,2018,AE
+1714200,Nehru Suting,UDP,19817,10233,33.84,2,32,27,ML,Nehru Suting,UDP,,,,,False,32,2018,AE
+1714201,Grace Mary Kharpuri,PDF,19824,5295,17.51,3,32,27,ML,Grace Mary Kharpuri,PDF,,,,,False,32,2018,AE
+1714202,Dr. Jelington Ryngdong,INC,19815,1141,3.77,4,32,27,ML,Dr. Jelington Ryngdong,INC,,,,,False,32,2018,AE
+1714203,Banteilang Singh Rumnong,BJP,19820,355,1.17,5,32,27,ML,Banteilang Singh Rumnong,BJP,,,,,False,32,2018,AE
+1714204,Nota,NOTA,19818,208,0.69,6,32,27,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714205,Denis Tynsiar,AAAP,19822,199,0.66,7,32,27,ML,Denis Tynsiar,AAAP,,,,,False,32,2018,AE
+1714206,Gavin Miguel Mylliem,PDF,19824,8625,37.98,1,32,28,ML,Gavin Miguel Mylliem,PDF,,,,,False,32,2018,AE
+1714207,Titosstar Well Chyne,UDP,19817,6601,29.07,2,32,28,ML,Titosstar Well Chyne,UDP,,,,,False,32,2018,AE
+1714208,Donevan Wanlang,INC,19815,4092,18.02,3,32,28,ML,Donevan Wanlang,INC,,,,,False,32,2018,AE
+1714209,Phlour W.Khongjee,BJP,19820,1838,8.09,4,32,28,ML,Phlour W.Khongjee,BJP,,,,,False,32,2018,AE
+1714210,Droistar Khongsti,HSPDP,19825,1329,5.85,5,32,28,ML,Droistar Khongsti,HSPDP,,,,,False,32,2018,AE
+1714211,Mattsing Nongrum,IND,19816,121,0.53,6,32,28,ML,Mattsing Nongrum,IND,,,,,False,32,2018,AE
+1714212,Nota,NOTA,19818,104,0.46,7,32,28,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714213,Banteidor Lyngdoh,PDF,19824,8519,31.91,1,32,29,ML,Banteidor Lyngdoh,PDF,,,,,False,32,2018,AE
+1714214,Martle N Mukhim,HSPDP,19825,8010,30.0,2,32,29,ML,Martle N Mukhim,HSPDP,,,,,False,32,2018,AE
+1714215,Remington Pyngrope,NPEP,19814,5508,20.63,3,32,29,ML,Remington Pyngrope,NPEP,,,,,False,32,2018,AE
+1714216,Olet Kharsohnoh,INC,19815,3945,14.78,4,32,29,ML,Olet Kharsohnoh,INC,,,,,False,32,2018,AE
+1714217,Lamborskhem Kharpuri,KHNAM,19821,364,1.36,5,32,29,ML,Lamborskhem Kharpuri,KHNAM,,,,,False,32,2018,AE
+1714218,Dwin Singh Lynshiang,IND,19816,221,0.83,6,32,29,ML,Dwin Singh Lynshiang,IND,,,,,False,32,2018,AE
+1714219,Nota,NOTA,19818,130,0.49,7,32,29,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714220,Metbah Lyngdoh,UDP,19817,10710,33.56,1,32,30,ML,Metbah Lyngdoh,UDP,,,,,False,32,2018,AE
+1714221,Councellor Singh Wahlang,PDF,19824,7796,24.43,2,32,30,ML,Councellor Singh Wahlang,PDF,,,,,False,32,2018,AE
+1714222,Eureka F.P. Lyngdoh,INC,19815,6170,19.33,3,32,30,ML,Eureka F.P. Lyngdoh,INC,,,,,False,32,2018,AE
+1714223,Lawanpynshngain K. War,NPEP,19814,4530,14.19,4,32,30,ML,Lawanpynshngain K. War,NPEP,,,,,False,32,2018,AE
+1714224,Kestonbel Manik Syiemlieh,BJP,19820,2390,7.49,5,32,30,ML,Kestonbel Manik Syiemlieh,BJP,,,,,False,32,2018,AE
+1714225,Nota,NOTA,19818,320,1.0,6,32,30,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714226,Brolding Nongsiej,UDP,19817,13520,41.69,1,32,31,ML,Brolding Nongsiej,UDP,,,,,False,32,2018,AE
+1714227,Biolinda L.Nonglait,HSPDP,19825,11691,36.05,2,32,31,ML,Biolinda L.Nonglait,HSPDP,,,,,False,32,2018,AE
+1714228,Pios Kurbah,INC,19815,3573,11.02,3,32,31,ML,Pios Kurbah,INC,,,,,False,32,2018,AE
+1714229,Blandingstar Warjri,PDF,19824,3486,10.75,4,32,31,ML,Blandingstar Warjri,PDF,,,,,False,32,2018,AE
+1714230,Nota,NOTA,19818,160,0.49,5,32,31,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714231,Macmillan Byrsat,NPEP,19814,9284,29.36,1,32,32,ML,Macmillan Byrsat,NPEP,,,,,False,32,2018,AE
+1714232,Gabriel Wahlang,INC,19815,9224,29.17,2,32,32,ML,Gabriel Wahlang,INC,,,,,False,32,2018,AE
+1714233,Diosstarness Jyndiang,HSPDP,19825,7261,22.97,3,32,32,ML,Diosstarness Jyndiang,HSPDP,,,,,False,32,2018,AE
+1714234,Goodleaderson Nongsiej,PDF,19824,5224,16.52,4,32,32,ML,Goodleaderson Nongsiej,PDF,,,,,False,32,2018,AE
+1714235,Arphul Kharbani,BJP,19820,393,1.24,5,32,32,ML,Arphul Kharbani,BJP,,,,,False,32,2018,AE
+1714236,Nota,NOTA,19818,231,0.73,6,32,32,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714237,Kimfa Sidney Marbaniang,INC,19815,12135,43.71,1,32,33,ML,Kimfa Sidney Marbaniang,INC,,,,,False,32,2018,AE
+1714238,K Phlastingwell Pangniang,HSPDP,19825,8332,30.01,2,32,33,ML,K Phlastingwell Pangniang,HSPDP,,,,,False,32,2018,AE
+1714239,Alfred Kharbani,NPEP,19814,3455,12.44,3,32,33,ML,Alfred Kharbani,NPEP,,,,,False,32,2018,AE
+1714240,Synranlang Nongshlong,PDF,19824,2564,9.23,4,32,33,ML,Synranlang Nongshlong,PDF,,,,,False,32,2018,AE
+1714241,Sillash M Sangma,IND,19816,600,2.16,5,32,33,ML,Sillash M Sangma,IND,,,,,False,32,2018,AE
+1714242,Sumis N Marak,BJP,19820,391,1.41,6,32,33,ML,Sumis N Marak,BJP,,,,,False,32,2018,AE
+1714243,Nota,NOTA,19818,287,1.03,7,32,33,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714244,Gigur Myrthong,NPEP,19814,9540,31.72,1,32,34,ML,Gigur Myrthong,NPEP,,,,,False,32,2018,AE
+1714245,Witting Mawsor,HSPDP,19825,6116,20.33,2,32,34,ML,Witting Mawsor,HSPDP,,,,,False,32,2018,AE
+1714246,Justine G Momin,INC,19815,5843,19.42,3,32,34,ML,Justine G Momin,INC,,,,,False,32,2018,AE
+1714247,Morningstar Mawsor,PDF,19824,3925,13.05,4,32,34,ML,Morningstar Mawsor,PDF,,,,,False,32,2018,AE
+1714248,H Ledishon Nongsiang,IND,19816,2484,8.26,5,32,34,ML,H Ledishon Nongsiang,IND,,,,,False,32,2018,AE
+1714249,Pitosh R Sangma,BJP,19820,895,2.98,6,32,34,ML,Pitosh R Sangma,BJP,,,,,False,32,2018,AE
+1714250,Savio Iawphniaw,UDP,19817,740,2.46,7,32,34,ML,Savio Iawphniaw,UDP,,,,,False,32,2018,AE
+1714251,Nota,NOTA,19818,326,1.08,8,32,34,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714252,Andrew Charles Gare,NCP,19823,211,0.7,9,32,34,ML,Andrew Charles Gare,NCP,,,,,False,32,2018,AE
+1714253,Martin M. Danggo,INC,19815,10952,40.82,1,32,35,ML,Martin M. Danggo,INC,,,,,False,32,2018,AE
+1714254,Pius Marwein,UDP,19817,8950,33.36,2,32,35,ML,Pius Marwein,UDP,,,,,False,32,2018,AE
+1714255,Donkupar Massar,NPEP,19814,3256,12.14,3,32,35,ML,Donkupar Massar,NPEP,,,,,False,32,2018,AE
+1714256,Pelcy Snaitang,BJP,19820,1907,7.11,4,32,35,ML,Pelcy Snaitang,BJP,,,,,False,32,2018,AE
+1714257,Airmarchal Diengngan,PDF,19824,1453,5.42,5,32,35,ML,Airmarchal Diengngan,PDF,,,,,False,32,2018,AE
+1714258,Nota,NOTA,19818,138,0.51,6,32,35,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714259,Martha R. Marak,IND,19816,98,0.37,7,32,35,ML,Martha R. Marak,IND,,,,,False,32,2018,AE
+1714260,John Dandaly Sangma,NCP,19823,76,0.28,8,32,35,ML,John Dandaly Sangma,NCP,,,,,False,32,2018,AE
+1714261,Renikton Lyngdoh Tongkhar,HSPDP,19825,6777,26.0,1,32,36,ML,Renikton Lyngdoh Tongkhar,HSPDP,,,,,False,32,2018,AE
+1714262,Carnes Sohshang,INC,19815,6319,24.24,2,32,36,ML,Carnes Sohshang,INC,,,,,False,32,2018,AE
+1714263,Rowell Lyngdoh,NPEP,19814,4038,15.49,3,32,36,ML,Rowell Lyngdoh,NPEP,,,,,False,32,2018,AE
+1714264,Hadrian Lyngdoh,PDF,19824,4009,15.38,4,32,36,ML,Hadrian Lyngdoh,PDF,,,,,False,32,2018,AE
+1714265,Enbin Kharraswai,KHNAM,19821,3613,13.86,5,32,36,ML,Enbin Kharraswai,KHNAM,,,,,False,32,2018,AE
+1714266,Polanding Sohphoh,BJP,19820,680,2.61,6,32,36,ML,Polanding Sohphoh,BJP,,,,,False,32,2018,AE
+1714267,Dr. Bestondar C. Lyngdoh,IND,19816,470,1.8,7,32,36,ML,Dr. Bestondar C. Lyngdoh,IND,,,,,False,32,2018,AE
+1714268,Nota,NOTA,19818,97,0.37,8,32,36,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714269,Darossing Ramsiej,NCP,19823,66,0.25,9,32,36,ML,Darossing Ramsiej,NCP,,,,,False,32,2018,AE
+1714270,Rupert Momin,NPEP,19814,14654,45.5,1,32,37,ML,Rupert Momin,NPEP,,,,,False,32,2018,AE
+1714271,Cherak Watre Momin,INC,19815,13845,42.99,2,32,37,ML,Cherak Watre Momin,INC,,,,,False,32,2018,AE
+1714272,Synal M. Sangma,BJP,19820,1648,5.12,3,32,37,ML,Synal M. Sangma,BJP,,,,,False,32,2018,AE
+1714273,Priyam Sangma,NCP,19823,1240,3.85,4,32,37,ML,Priyam Sangma,NCP,,,,,False,32,2018,AE
+1714274,Luderburg Ch. Momin,UDP,19817,556,1.73,5,32,37,ML,Luderburg Ch. Momin,UDP,,,,,False,32,2018,AE
+1714275,Nota,NOTA,19818,263,0.82,6,32,37,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714276,Marthon Sangma,INC,19815,9347,41.68,1,32,38,ML,Marthon Sangma,INC,,,,,False,32,2018,AE
+1714277,Frankenstein W. Momin,NPEP,19814,6670,29.74,2,32,38,ML,Frankenstein W. Momin,NPEP,,,,,False,32,2018,AE
+1714278,Comolsing R. Marak,UDP,19817,2855,12.73,3,32,38,ML,Comolsing R. Marak,UDP,,,,,False,32,2018,AE
+1714279,Elbarth Marak,IND,19816,1912,8.53,4,32,38,ML,Elbarth Marak,IND,,,,,False,32,2018,AE
+1714280,Digros D. Shira,BJP,19820,1440,6.42,5,32,38,ML,Digros D. Shira,BJP,,,,,False,32,2018,AE
+1714281,Nota,NOTA,19818,204,0.91,6,32,38,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714282,Timothy Shira,NPEP,19814,6720,29.83,1,32,39,ML,Timothy Shira,NPEP,,,,,False,32,2018,AE
+1714283,Salseng C Marak,INC,19815,4957,22.0,2,32,39,ML,Salseng C Marak,INC,,,,,False,32,2018,AE
+1714284,Braze Adoneza G Momin,IND,19816,3224,14.31,3,32,39,ML,Braze Adoneza G Momin,IND,,,,,False,32,2018,AE
+1714285,Tengrak R. Marak,IND,19816,3059,13.58,4,32,39,ML,Tengrak R. Marak,IND,,,,,False,32,2018,AE
+1714286,Tweel K. Marak,NCP,19823,1512,6.71,5,32,39,ML,Tweel K. Marak,NCP,,,,,False,32,2018,AE
+1714287,Starline Momin,IND,19816,1221,5.42,6,32,39,ML,Starline Momin,IND,,,,,False,32,2018,AE
+1714288,Manosh M Marak,IND,19816,1118,4.96,7,32,39,ML,Manosh M Marak,IND,,,,,False,32,2018,AE
+1714289,Hearsing D. Shira,BJP,19820,561,2.49,8,32,39,ML,Hearsing D. Shira,BJP,,,,,False,32,2018,AE
+1714290,Nota,NOTA,19818,155,0.69,9,32,39,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714291,Pongseng Marak,NPEP,19814,11648,45.97,1,32,40,ML,Pongseng Marak,NPEP,,,,,False,32,2018,AE
+1714292,Brigady Napak Marak,INC,19815,9684,38.22,2,32,40,ML,Brigady Napak Marak,INC,,,,,False,32,2018,AE
+1714293,John Manner Marak,BJP,19820,3435,13.56,3,32,40,ML,John Manner Marak,BJP,,,,,False,32,2018,AE
+1714294,Nota,NOTA,19818,573,2.26,4,32,40,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714295,Dr. Mukul Sangma,INC,19815,10274,42.89,1,32,41,ML,Dr. Mukul Sangma,INC,,,,,False,32,2018,AE
+1714296,Nihim D Shira,NPEP,19814,8444,35.25,2,32,41,ML,Nihim D Shira,NPEP,,,,,False,32,2018,AE
+1714297,Thomas N. Marak,BJP,19820,3077,12.85,3,32,41,ML,Thomas N. Marak,BJP,,,,,False,32,2018,AE
+1714298,Arun N Marak,UDP,19817,800,3.34,4,32,41,ML,Arun N Marak,UDP,,,,,False,32,2018,AE
+1714299,Fardina C. Marak,IND,19816,464,1.94,5,32,41,ML,Fardina C. Marak,IND,,,,,False,32,2018,AE
+1714300,Silman Marak,NCP,19823,405,1.69,6,32,41,ML,Silman Marak,NCP,,,,,False,32,2018,AE
+1714301,Sandhya R. Marak,IND,19816,274,1.14,7,32,41,ML,Sandhya R. Marak,IND,,,,,False,32,2018,AE
+1714302,Nota,NOTA,19818,216,0.9,8,32,41,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714303,Jim M Sangma,NPEP,19814,4846,19.16,1,32,42,ML,Jim M Sangma,NPEP,,,,,False,32,2018,AE
+1714304,Walseng M. Sangma,IND,19816,4296,16.99,2,32,42,ML,Walseng M. Sangma,IND,,,,,False,32,2018,AE
+1714305,Rapiush Ch Sangma,IND,19816,4087,16.16,3,32,42,ML,Rapiush Ch Sangma,IND,,,,,False,32,2018,AE
+1714306,Sengnam Marak,INC,19815,3789,14.98,4,32,42,ML,Sengnam Marak,INC,,,,,False,32,2018,AE
+1714307,Mettrinson G. Momin,IND,19816,2408,9.52,5,32,42,ML,Mettrinson G. Momin,IND,,,,,False,32,2018,AE
+1714308,Janseng R. Marak,IND,19816,2083,8.24,6,32,42,ML,Janseng R. Marak,IND,,,,,False,32,2018,AE
+1714309,Rikman G Momin,BJP,19820,1474,5.83,7,32,42,ML,Rikman G Momin,BJP,,,,,False,32,2018,AE
+1714310,Desang M. Sangma,NCP,19823,779,3.08,8,32,42,ML,Desang M. Sangma,NCP,,,,,False,32,2018,AE
+1714311,Bartush M. Marak,UDP,19817,587,2.32,9,32,42,ML,Bartush M. Marak,UDP,,,,,False,32,2018,AE
+1714312,Nota,NOTA,19818,377,1.49,10,32,42,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714313,Olpiash N. Arengh,IND,19816,284,1.12,11,32,42,ML,Olpiash N. Arengh,IND,,,,,False,32,2018,AE
+1714314,Sujit Sangma,IND,19816,277,1.1,12,32,42,ML,Sujit Sangma,IND,,,,,False,32,2018,AE
+1714325,Benedic R. Marak,NPEP,19814,9104,37.93,1,32,44,ML,Benedic R. Marak,NPEP,,,,,False,32,2018,AE
+1714326,Limison D. Sangma,INC,19815,8480,35.33,2,32,44,ML,Limison D. Sangma,INC,,,,,False,32,2018,AE
+1714327,Edmund K. Sangma,IND,19816,2909,12.12,3,32,44,ML,Edmund K. Sangma,IND,,,,,False,32,2018,AE
+1714328,Janatan Rabha,BJP,19820,2679,11.16,4,32,44,ML,Janatan Rabha,BJP,,,,,False,32,2018,AE
+1714329,Pillarson G. Momin,UDP,19817,449,1.87,5,32,44,ML,Pillarson G. Momin,UDP,,,,,False,32,2018,AE
+1714330,Nota,NOTA,19818,383,1.6,6,32,44,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714331,Jimmy D. Sangma,INC,19815,7167,26.06,1,32,45,ML,Jimmy D. Sangma,INC,,,,,False,32,2018,AE
+1714332,Rahinath Barchung,IND,19816,5760,20.94,2,32,45,ML,Rahinath Barchung,IND,,,,,False,32,2018,AE
+1714333,Sayeedullah Nongrum,IND,19816,5371,19.53,3,32,45,ML,Sayeedullah Nongrum,IND,,,,,False,32,2018,AE
+1714334,Dr. Kapin Ch. Boro,BJP,19820,3615,13.14,4,32,45,ML,Dr. Kapin Ch. Boro,BJP,,,,,False,32,2018,AE
+1714335,Michael T. Sangma,IND,19816,2318,8.43,5,32,45,ML,Michael T. Sangma,IND,,,,,False,32,2018,AE
+1714336,Nilkamal D. Sangma,NCP,19823,1110,4.04,6,32,45,ML,Nilkamal D. Sangma,NCP,,,,,False,32,2018,AE
+1714337,Augustine D. Marak,NPEP,19814,833,3.03,7,32,45,ML,Augustine D. Marak,NPEP,,,,,False,32,2018,AE
+1714338,Walseng Sangma,AITC,19819,724,2.63,8,32,45,ML,Walseng Sangma,AITC,,,,,False,32,2018,AE
+1714339,Nota,NOTA,19818,258,0.94,9,32,45,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714340,Luchina R. Marak,IND,19816,176,0.64,10,32,45,ML,Luchina R. Marak,IND,,,,,False,32,2018,AE
+1714341,Sontush Sangma,UDP,19817,174,0.63,11,32,45,ML,Sontush Sangma,UDP,,,,,False,32,2018,AE
+1714342,S. G. Esmatur Mominin,NPEP,19814,7716,31.03,1,32,46,ML,S. G. Esmatur Mominin,NPEP,,,,,False,32,2018,AE
+1714343,Abu Taher Mondal,INC,19815,6582,26.47,2,32,46,ML,Abu Taher Mondal,INC,,,,,False,32,2018,AE
+1714344,Mark Goera B. Marak,IND,19816,5527,22.23,3,32,46,ML,Mark Goera B. Marak,IND,,,,,False,32,2018,AE
+1714345,Binoy Kumar Ghosh,BJP,19820,4570,18.38,4,32,46,ML,Binoy Kumar Ghosh,BJP,,,,,False,32,2018,AE
+1714346,Nota,NOTA,19818,470,1.89,5,32,46,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714347,Dr. Azad Zaman,INC,19815,7420,27.11,1,32,47,ML,Dr. Azad Zaman,INC,,,,,False,32,2018,AE
+1714348,Ashahel D. Shira,IND,19816,6482,23.68,2,32,47,ML,Ashahel D. Shira,IND,,,,,False,32,2018,AE
+1714349,Abdus Saleh,IND,19816,5891,21.52,3,32,47,ML,Abdus Saleh,IND,,,,,False,32,2018,AE
+1714350,Dr. Mizanur Rahman Kazi,NPEP,19814,5178,18.92,4,32,47,ML,Dr. Mizanur Rahman Kazi,NPEP,,,,,False,32,2018,AE
+1714351,Zinbaward N. Sangma,IND,19816,1115,4.07,5,32,47,ML,Zinbaward N. Sangma,IND,,,,,False,32,2018,AE
+1714352,Sofior Rahman,BJP,19820,1102,4.03,6,32,47,ML,Sofior Rahman,BJP,,,,,False,32,2018,AE
+1714353,Nota,NOTA,19818,182,0.66,7,32,47,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714354,Clement Marak,INC,19815,12619,44.92,1,32,48,ML,Clement Marak,INC,,,,,False,32,2018,AE
+1714355,Ferlin C. A. Sangma,NPEP,19814,9022,32.11,2,32,48,ML,Ferlin C. A. Sangma,NPEP,,,,,False,32,2018,AE
+1714356,Dilliram G. Marak,IND,19816,3296,11.73,3,32,48,ML,Dilliram G. Marak,IND,,,,,False,32,2018,AE
+1714357,Promod Koch,BJP,19820,2367,8.43,4,32,48,ML,Promod Koch,BJP,,,,,False,32,2018,AE
+1714358,Biplab A. Marak,AITC,19819,276,0.98,5,32,48,ML,Biplab A. Marak,AITC,,,,,False,32,2018,AE
+1714359,Droming Ch. Marak,IND,19816,276,0.98,5,32,48,ML,Droming Ch. Marak,IND,,,,,False,32,2018,AE
+1714360,Chris Kabul A. Sangma,UDP,19817,124,0.44,7,32,48,ML,Chris Kabul A. Sangma,UDP,,,,,False,32,2018,AE
+1714361,Nota,NOTA,19818,113,0.4,8,32,48,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714362,James Pangsang Kongkal Sangma,NPEP,19814,7239,26.26,1,32,49,ML,James Pangsang Kongkal Sangma,NPEP,,,,,False,32,2018,AE
+1714363,Rupa M. Marak,IND,19816,4454,16.16,2,32,49,ML,Rupa M. Marak,IND,,,,,False,32,2018,AE
+1714364,June Eliana R. Marak,IND,19816,4242,15.39,3,32,49,ML,June Eliana R. Marak,IND,,,,,False,32,2018,AE
+1714365,Ismail R. Marak,INC,19815,3953,14.34,4,32,49,ML,Ismail R. Marak,INC,,,,,False,32,2018,AE
+1714366,Levastone T. Sangma,IND,19816,3576,12.97,5,32,49,ML,Levastone T. Sangma,IND,,,,,False,32,2018,AE
+1714367,Bredar Bolwari Marak,AITC,19819,1510,5.48,6,32,49,ML,Bredar Bolwari Marak,AITC,,,,,False,32,2018,AE
+1714368,Labenn Ch. Marak,IND,19816,1436,5.21,7,32,49,ML,Labenn Ch. Marak,IND,,,,,False,32,2018,AE
+1714369,Dillash M. Marak,BJP,19820,690,2.5,8,32,49,ML,Dillash M. Marak,BJP,,,,,False,32,2018,AE
+1714370,Nota,NOTA,19818,465,1.69,9,32,49,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714371,Thomas A. Sangma,NPEP,19814,6487,27.48,1,32,50,ML,Thomas A. Sangma,NPEP,,,,,False,32,2018,AE
+1714372,Noverfield R. Marak,INC,19815,4391,18.6,2,32,50,ML,Noverfield R. Marak,INC,,,,,False,32,2018,AE
+1714373,Adamkid M. Sangma,IND,19816,3886,16.46,3,32,50,ML,Adamkid M. Sangma,IND,,,,,False,32,2018,AE
+1714374,Rupert M. Sangma,IND,19816,2874,12.18,4,32,50,ML,Rupert M. Sangma,IND,,,,,False,32,2018,AE
+1714375,Roger Benny A. Sangma,IND,19816,1953,8.27,5,32,50,ML,Roger Benny A. Sangma,IND,,,,,False,32,2018,AE
+1714376,Sengman R. Marak,IND,19816,1376,5.83,6,32,50,ML,Sengman R. Marak,IND,,,,,False,32,2018,AE
+1714377,Utpal Arengh,UDP,19817,1277,5.41,7,32,50,ML,Utpal Arengh,UDP,,,,,False,32,2018,AE
+1714378,Chiang D. Shira,IND,19816,802,3.4,8,32,50,ML,Chiang D. Shira,IND,,,,,False,32,2018,AE
+1714379,Nota,NOTA,19818,226,0.96,9,32,50,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714380,Marbindruth Ch. Momin,RPI(A),19828,169,0.72,10,32,50,ML,Marbindruth Ch. Momin,RPI(A),,,,,False,32,2018,AE
+1714381,Shalnangh C. Marak,AAAP,19822,162,0.69,11,32,50,ML,Shalnangh C. Marak,AAAP,,,,,False,32,2018,AE
+1714382,Agatha K. Sangma,NPEP,19814,6499,28.51,1,32,51,ML,Agatha K. Sangma,NPEP,,,,,False,32,2018,AE
+1714383,Billykid A. Sangma,BJP,19820,4896,21.48,2,32,51,ML,Billykid A. Sangma,BJP,,,,,False,32,2018,AE
+1714384,Grithalson N. Arengh,INC,19815,3597,15.78,3,32,51,ML,Grithalson N. Arengh,INC,,,,,False,32,2018,AE
+1714385,John Leslee K. Sangma,NCP,19823,3314,14.54,4,32,51,ML,John Leslee K. Sangma,NCP,,,,,False,32,2018,AE
+1714386,Jingjang M. Marak,IND,19816,2028,8.9,5,32,51,ML,Jingjang M. Marak,IND,,,,,False,32,2018,AE
+1714387,Bernard N. Marak,AITC,19819,1560,6.84,6,32,51,ML,Bernard N. Marak,AITC,,,,,False,32,2018,AE
+1714388,Brinbal Sangma,IND,19816,307,1.35,7,32,51,ML,Brinbal Sangma,IND,,,,,False,32,2018,AE
+1714389,Aanamika Jessirella G. Momin,IND,19816,260,1.14,8,32,51,ML,Aanamika Jessirella G. Momin,IND,,,,,False,32,2018,AE
+1714390,Nota,NOTA,19818,171,0.75,9,32,51,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714391,Pallab D. Arengh,IND,19816,165,0.72,10,32,51,ML,Pallab D. Arengh,IND,,,,,False,32,2018,AE
+1714392,Zenith M. Sangma,INC,19815,13981,50.28,1,32,52,ML,Zenith M. Sangma,INC,,,,,False,32,2018,AE
+1714393,Subir M. Marak,NPEP,19814,12019,43.22,2,32,52,ML,Subir M. Marak,NPEP,,,,,False,32,2018,AE
+1714394,Dr. Pilne A. Sangma,IND,19816,567,2.04,3,32,52,ML,Dr. Pilne A. Sangma,IND,,,,,False,32,2018,AE
+1714395,Eldred Ch. Marak,IND,19816,451,1.62,4,32,52,ML,Eldred Ch. Marak,IND,,,,,False,32,2018,AE
+1714396,Kredithson Marak,AITC,19819,372,1.34,5,32,52,ML,Kredithson Marak,AITC,,,,,False,32,2018,AE
+1714397,Mody M. Sangma,IND,19816,249,0.9,6,32,52,ML,Mody M. Sangma,IND,,,,,False,32,2018,AE
+1714398,Nota,NOTA,19818,169,0.61,7,32,52,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714399,Dr. Mukul Sangma,INC,19815,16721,64.08,1,32,53,ML,Dr. Mukul Sangma,INC,,,,,False,32,2018,AE
+1714400,Bakul Ch. Hajong,BJP,19820,8617,33.03,2,32,53,ML,Bakul Ch. Hajong,BJP,,,,,False,32,2018,AE
+1714401,Joyanto K Marak,IND,19816,546,2.09,3,32,53,ML,Joyanto K Marak,IND,,,,,False,32,2018,AE
+1714402,Nota,NOTA,19818,208,0.8,4,32,53,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714403,Dikkanchi D. Shira,INC,19815,14292,50.3,1,32,54,ML,Dikkanchi D. Shira,INC,,,,,False,32,2018,AE
+1714404,Premananda Koch,BJP,19820,6207,21.85,2,32,54,ML,Premananda Koch,BJP,,,,,False,32,2018,AE
+1714405,Sanjay A Sangma,NPEP,19814,4899,17.24,3,32,54,ML,Sanjay A Sangma,NPEP,,,,,False,32,2018,AE
+1714406,Nidhu Ram Hajong,UDP,19817,1572,5.53,4,32,54,ML,Nidhu Ram Hajong,UDP,,,,,False,32,2018,AE
+1714407,Roberth S Sangma,IND,19816,991,3.49,5,32,54,ML,Roberth S Sangma,IND,,,,,False,32,2018,AE
+1714408,Mafiara T Sangma,GNC,19829,168,0.59,6,32,54,ML,Mafiara T Sangma,GNC,,,,,False,32,2018,AE
+1714409,Nota,NOTA,19818,155,0.55,7,32,54,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714410,Dhabal Ch Barman,IND,19816,127,0.45,8,32,54,ML,Dhabal Ch Barman,IND,,,,,False,32,2018,AE
+1714411,Winnerson D. Sangma,INC,19815,6613,27.34,1,32,55,ML,Winnerson D. Sangma,INC,,,,,False,32,2018,AE
+1714412,Ian Botham K. Sangma,NPEP,19814,4698,19.42,2,32,55,ML,Ian Botham K. Sangma,NPEP,,,,,False,32,2018,AE
+1714413,Bhupendra B. Hajong,BJP,19820,4140,17.12,3,32,55,ML,Bhupendra B. Hajong,BJP,,,,,False,32,2018,AE
+1714414,Boston Marak,GNC,19829,3627,15.0,4,32,55,ML,Boston Marak,GNC,,,,,False,32,2018,AE
+1714415,Rightious N Sangma,NCP,19823,2646,10.94,5,32,55,ML,Rightious N Sangma,NCP,,,,,False,32,2018,AE
+1714416,Nimarson Momin,UDP,19817,1392,5.76,6,32,55,ML,Nimarson Momin,UDP,,,,,False,32,2018,AE
+1714417,Ronald Rikman Sangma,IND,19816,714,2.95,7,32,55,ML,Ronald Rikman Sangma,IND,,,,,False,32,2018,AE
+1714418,Thereng M Marak,IND,19816,187,0.77,8,32,55,ML,Thereng M Marak,IND,,,,,False,32,2018,AE
+1714419,Nota,NOTA,19818,170,0.7,9,32,55,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714420,Saleng A. Sangma,NCP,19823,7291,30.65,1,32,56,ML,Saleng A. Sangma,NCP,,,,,False,32,2018,AE
+1714421,Sadhiarani M. Sangma,INC,19815,7155,30.07,2,32,56,ML,Sadhiarani M. Sangma,INC,,,,,False,32,2018,AE
+1714422,Phillipole D. Marak,NPEP,19814,3134,13.17,3,32,56,ML,Phillipole D. Marak,NPEP,,,,,False,32,2018,AE
+1714423,Jinberth R. Marak,GNC,19829,2891,12.15,4,32,56,ML,Jinberth R. Marak,GNC,,,,,False,32,2018,AE
+1714424,Nehru D. Sangma,IND,19816,2727,11.46,5,32,56,ML,Nehru D. Sangma,IND,,,,,False,32,2018,AE
+1714425,Nengrin Sangma,AITC,19819,311,1.31,6,32,56,ML,Nengrin Sangma,AITC,,,,,False,32,2018,AE
+1714426,Nota,NOTA,19818,282,1.19,7,32,56,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714427,Brening A. Sangma,NPEP,19814,4092,25.11,1,32,57,ML,Brening A. Sangma,NPEP,,,,,False,32,2018,AE
+1714428,Kenethson Sangma,INC,19815,3308,20.3,2,32,57,ML,Kenethson Sangma,INC,,,,,False,32,2018,AE
+1714429,Kurosh M. Marak,BJP,19820,3302,20.27,3,32,57,ML,Kurosh M. Marak,BJP,,,,,False,32,2018,AE
+1714430,Sengkal A. Sangma,UDP,19817,2352,14.43,4,32,57,ML,Sengkal A. Sangma,UDP,,,,,False,32,2018,AE
+1714431,Dorendro M. Sangma,NCP,19823,1676,10.29,5,32,57,ML,Dorendro M. Sangma,NCP,,,,,False,32,2018,AE
+1714432,Moromi K. Marak,IND,19816,1007,6.18,6,32,57,ML,Moromi K. Marak,IND,,,,,False,32,2018,AE
+1714433,Silgra N. Marak,IND,19816,419,2.57,7,32,57,ML,Silgra N. Marak,IND,,,,,False,32,2018,AE
+1714434,Nota,NOTA,19818,138,0.85,8,32,57,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714435,Rakkam A. Sangma,NPEP,19814,8108,31.89,1,32,58,ML,Rakkam A. Sangma,NPEP,,,,,False,32,2018,AE
+1714436,Rophul S. Marak,IND,19816,7000,27.53,2,32,58,ML,Rophul S. Marak,IND,,,,,False,32,2018,AE
+1714437,Francis Pondit R. Sangma,INC,19815,6073,23.88,3,32,58,ML,Francis Pondit R. Sangma,INC,,,,,False,32,2018,AE
+1714438,Augustine R. Marak,GNC,19829,3387,13.32,4,32,58,ML,Augustine R. Marak,GNC,,,,,False,32,2018,AE
+1714439,Rangrick R. Sangma,AITC,19819,440,1.73,5,32,58,ML,Rangrick R. Sangma,AITC,,,,,False,32,2018,AE
+1714440,Nota,NOTA,19818,418,1.64,6,32,58,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714441,Lazarus Sangma,INC,19815,8410,34.51,1,32,59,ML,Lazarus Sangma,INC,,,,,False,32,2018,AE
+1714442,Secondson A. Sangma,NPEP,19814,6359,26.1,2,32,59,ML,Secondson A. Sangma,NPEP,,,,,False,32,2018,AE
+1714443,Kalpana D. Sangma,GNC,19829,6287,25.8,3,32,59,ML,Kalpana D. Sangma,GNC,,,,,False,32,2018,AE
+1714444,Leoberth R. Sangma,IND,19816,1972,8.09,4,32,59,ML,Leoberth R. Sangma,IND,,,,,False,32,2018,AE
+1714445,Bluebell R. Sangma,IND,19816,1064,4.37,5,32,59,ML,Bluebell R. Sangma,IND,,,,,False,32,2018,AE
+1714446,Nota,NOTA,19818,275,1.13,6,32,59,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714447,Samuel M. Sangma,IND,19816,8070,31.96,1,32,60,ML,Samuel M. Sangma,IND,,,,,False,32,2018,AE
+1714448,Sengnal N. Sangma,NPEP,19814,5828,23.08,2,32,60,ML,Sengnal N. Sangma,NPEP,,,,,False,32,2018,AE
+1714449,Nikman Ch. Marak,GNC,19829,5322,21.08,3,32,60,ML,Nikman Ch. Marak,GNC,,,,,False,32,2018,AE
+1714450,Sirgan A. Sangma,INC,19815,4435,17.57,4,32,60,ML,Sirgan A. Sangma,INC,,,,,False,32,2018,AE
+1714451,Dr Saljagringrang R. Marak,IND,19816,853,3.38,5,32,60,ML,Dr Saljagringrang R. Marak,IND,,,,,False,32,2018,AE
+1714452,Nota,NOTA,19818,388,1.54,6,32,60,ML,Nota,NOTA,,,,,False,32,2018,AE
+1714453,Mondil G. Momin,AITC,19819,351,1.39,7,32,60,ML,Mondil G. Momin,AITC,,,,,False,32,2018,AE

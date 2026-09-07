@@ -1,0 +1,377 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1715543,Sniawbhalang Dhar,NPEP,19814,16969,42.01,1,48,1,ML,Sniawbhalang Dhar,NPEP,,,,,True,48,2023,AE
+1715544,Emlang Laloo,INC,19815,14846,36.36,2,48,1,ML,Emlang Laloo,INC,,,,,False,48,2023,AE
+1715545,Generous Paslein,IND,19816,7404,18.14,3,48,1,ML,Generous Paslein,IND,,,,,False,48,2023,AE
+1715546,Dawan Lyngdoh,UDP,19817,893,2.21,4,48,1,ML,Dawan Lyngdoh,UDP,,,,,False,48,2023,AE
+1715548,Rimiki Sari,BJP,19820,282,0.69,5,48,1,ML,Rimiki Sari,BJP,,,,,False,48,2023,AE
+1715549,Wailadmiki Shylla,NPEP,19814,14079,38.79,1,48,2,ML,Wailadmiki Shylla,NPEP,,,,,True,48,2023,AE
+1715550,Awhai Andrew Shullai,AITC,19819,11412,31.08,2,48,2,ML,Awhai Andrew Shullai,AITC,,,,,False,48,2023,AE
+1715551,Moonlight Pariat,UDP,19817,10260,28.27,3,48,2,ML,Moonlight Pariat,UDP,,,,,True,48,2023,AE
+1715553,Allan Keith Suchiang,BJP,19820,326,0.89,4,48,2,ML,Allan Keith Suchiang,BJP,,,,,False,48,2023,AE
+1715554,Daniel Dann,INC,19815,216,0.59,5,48,2,ML,Daniel Dann,INC,,,,,False,48,2023,AE
+1715555,Coming One Ymbon,NPEP,19814,13626,38.82,1,48,3,ML,Coming One Ymbon,NPEP,,,,,False,48,2023,AE
+1715556,Lakhon Biam,BJP,19820,8289,23.37,2,48,3,ML,Lakhon Biam,BJP,,,,,True,48,2023,AE
+1715557,J Treilang Suchiang,UDP,19817,5250,14.96,3,48,3,ML,J Treilang Suchiang,UDP,,,,,False,48,2023,AE
+1715558,Richard Singh Lyngdoh,INC,19815,4154,11.71,4,48,3,ML,Richard Singh Lyngdoh,INC,,,,,False,48,2023,AE
+1715559,Shemhok Garod,PDF,19824,2513,7.16,5,48,3,ML,Shemhok Garod,PDF,,,,,False,48,2023,AE
+1715560,Robinus Syngkon,AITC,19819,1269,3.58,6,48,3,ML,Robinus Syngkon,AITC,,,,,False,48,2023,AE
+1715562,Nujorki Sungoh,UDP,19817,14508,39.87,1,48,4,ML,Nujorki Sungoh,UDP,,,,,True,48,2023,AE
+1715563,Habahun Dkhar,NPEP,19814,10607,29.15,2,48,4,ML,Habahun Dkhar,NPEP,,,,,False,48,2023,AE
+1715564,Nehemayah Tyngkan,INC,19815,10290,28.0,3,48,4,ML,Nehemayah Tyngkan,INC,,,,,True,48,2023,AE
+1715565,Lasting Suchiang,AITC,19819,872,2.37,4,48,4,ML,Lasting Suchiang,AITC,,,,,False,48,2023,AE
+1715567,Currentis Rabon,BJP,19820,110,0.3,5,48,4,ML,Currentis Rabon,BJP,,,,,False,48,2023,AE
+1715568,Santa Mary Shylla,NPEP,19814,16974,39.48,1,48,5,ML,Santa Mary Shylla,NPEP,,,,,False,48,2023,AE
+1715569,Vincent .H. Pala,INC,19815,15146,34.89,2,48,5,ML,Vincent .H. Pala,INC,,,,,False,48,2023,AE
+1715570,Shitlang Pale,UDP,19817,10453,24.31,3,48,5,ML,Shitlang Pale,UDP,,,,,False,48,2023,AE
+1715571,Krison Langstang,BJP,19820,424,0.98,4,48,5,ML,Krison Langstang,BJP,,,,,False,48,2023,AE
+1715573,Kyrmen Shylla,UDP,19817,23514,55.09,1,48,6,ML,Kyrmen Shylla,UDP,,,,,True,48,2023,AE
+1715574,Nehlang Lyngdoh,NPEP,19814,17908,41.96,2,48,6,ML,Nehlang Lyngdoh,NPEP,,,,,False,48,2023,AE
+1715575,Damewanhi L Rymbai,VOTPP,19813,861,2.02,3,48,6,ML,Damewanhi L Rymbai,VOTPP,,,,,False,48,2023,AE
+1715576,Bhayes Chyrmang,BJP,19820,174,0.41,4,48,6,ML,Bhayes Chyrmang,BJP,,,,,False,48,2023,AE
+1715578,Jhanika Siangshai,INC,19815,114,0.27,5,48,6,ML,Jhanika Siangshai,INC,,,,,False,48,2023,AE
+1715579,Sunida Bareh,AITC,19819,109,0.25,6,48,6,ML,Sunida Bareh,AITC,,,,,False,48,2023,AE
+1715580,Lahkmen Rymbui,UDP,19817,17803,49.6,1,48,7,ML,Lahkmen Rymbui,UDP,,,,,True,48,2023,AE
+1715581,Stephanson Mukhim,NPEP,19814,17746,49.44,2,48,7,ML,Stephanson Mukhim,NPEP,,,,,True,48,2023,AE
+1715583,Arbiangkam Kharsohmat,INC,19815,138,0.38,3,48,7,ML,Arbiangkam Kharsohmat,INC,,,,,False,48,2023,AE
+1715584,Firstborn Manner,BJP,19820,108,0.3,4,48,7,ML,Firstborn Manner,BJP,,,,,False,48,2023,AE
+1715585,Alban K. Gashnga,AITC,19819,100,0.28,5,48,7,ML,Alban K. Gashnga,AITC,,,,,False,48,2023,AE
+1715586,Charles Marngar,INC,19815,13273,37.38,1,48,8,ML,Charles Marngar,INC,,,,,True,48,2023,AE
+1715587,Shemphang Lyngdoh,NPEP,19814,8029,22.73,2,48,8,ML,Shemphang Lyngdoh,NPEP,,,,,False,48,2023,AE
+1715588,Baiahunlang Makdoh,UDP,19817,6556,18.56,3,48,8,ML,Baiahunlang Makdoh,UDP,,,,,False,48,2023,AE
+1715589,Evalyni Kharbani,HSPDP,19825,4590,13.0,4,48,8,ML,Evalyni Kharbani,HSPDP,,,,,False,48,2023,AE
+1715590,Dr. Evarist Myrsing,BJP,19820,1376,3.87,5,48,8,ML,Dr. Evarist Myrsing,BJP,,,,,False,48,2023,AE
+1715591,Dr. Saralin Dorphang,AITC,19819,729,2.05,6,48,8,ML,Dr. Saralin Dorphang,AITC,,,,,False,48,2023,AE
+1715592,Roswel Shadap,PDF,19824,560,1.59,7,48,8,ML,Roswel Shadap,PDF,,,,,False,48,2023,AE
+1715593,Osbert B. Rynjah,IND,19816,208,0.59,8,48,8,ML,Osbert B. Rynjah,IND,,,,,False,48,2023,AE
+1715595,Mayralborn Syiem,UDP,19817,14940,45.86,1,48,9,ML,Mayralborn Syiem,UDP,,,,,False,48,2023,AE
+1715596,Rona Khymdeit,INC,19815,8254,25.11,2,48,9,ML,Rona Khymdeit,INC,,,,,False,48,2023,AE
+1715597,Macdalyn Sawkmie Mawlong,NPEP,19814,7446,22.86,3,48,9,ML,Macdalyn Sawkmie Mawlong,NPEP,,,,,False,48,2023,AE
+1715598,Marian Maring,BJP,19820,1079,3.28,4,48,9,ML,Marian Maring,BJP,,,,,True,48,2023,AE
+1715599,Long Singh Bey,AITC,19819,661,2.01,5,48,9,ML,Long Singh Bey,AITC,,,,,False,48,2023,AE
+1715601,Bismo Ingtih,IND,19816,195,0.59,6,48,9,ML,Bismo Ingtih,IND,,,,,False,48,2023,AE
+1715602,Sosthenes Sohtun,NPEP,19814,12690,36.74,1,48,10,ML,Sosthenes Sohtun,NPEP,,,,,True,48,2023,AE
+1715603,Adrian Lambert Mylliem,INC,19815,11067,31.76,2,48,10,ML,Adrian Lambert Mylliem,INC,,,,,False,48,2023,AE
+1715604,Badhok Nongmalieh,UDP,19817,4107,11.89,3,48,10,ML,Badhok Nongmalieh,UDP,,,,,False,48,2023,AE
+1715605,Sunmoon D. Marak,AITC,19819,3928,11.27,4,48,10,ML,Sunmoon D. Marak,AITC,,,,,False,48,2023,AE
+1715606,Riya Sangma,BJP,19820,2075,5.95,5,48,10,ML,Riya Sangma,BJP,,,,,False,48,2023,AE
+1715608,Forcaster Nongrang,IND,19816,268,0.77,6,48,10,ML,Forcaster Nongrang,IND,,,,,False,48,2023,AE
+1715609,Lee Trevor Bareh,IND,19816,226,0.65,7,48,10,ML,Lee Trevor Bareh,IND,,,,,False,48,2023,AE
+1715610,Serimina D. Marak,RPI(A),19828,175,0.51,8,48,10,ML,Serimina D. Marak,RPI(A),,,,,False,48,2023,AE
+1715611,Dr. Celestine Lyngdoh,INC,19815,9907,29.31,1,48,11,ML,Dr. Celestine Lyngdoh,INC,,,,,False,48,2023,AE
+1715612,Sunshine Makri,UDP,19817,8743,26.01,2,48,11,ML,Sunshine Makri,UDP,,,,,False,48,2023,AE
+1715613,Jason Sawkmie Mawlong,NPEP,19814,7945,23.64,3,48,11,ML,Jason Sawkmie Mawlong,NPEP,,,,,False,48,2023,AE
+1715614,Dr. Ricky A. J. Syngkon,VOTPP,19813,5456,16.23,4,48,11,ML,Dr. Ricky A. J. Syngkon,VOTPP,,,,,False,48,2023,AE
+1715615,Donlang Sohkhlet,PDF,19824,585,1.74,5,48,11,ML,Donlang Sohkhlet,PDF,,,,,False,48,2023,AE
+1715616,Primson Makdoh,HSPDP,19825,353,1.05,6,48,11,ML,Primson Makdoh,HSPDP,,,,,False,48,2023,AE
+1715617,Duruth Majaw,BJP,19820,324,0.96,7,48,11,ML,Duruth Majaw,BJP,,,,,False,48,2023,AE
+1715618,Gilbert Nongrum,AITC,19819,296,0.88,8,48,11,ML,Gilbert Nongrum,AITC,,,,,False,48,2023,AE
+1715620,Damanbait Lamare,NPEP,19814,14213,50.15,1,48,12,ML,Damanbait Lamare,NPEP,,,,,False,48,2023,AE
+1715621,George B. Lyngdoh,AITC,19819,12527,43.89,2,48,12,ML,George B. Lyngdoh,AITC,,,,,False,48,2023,AE
+1715622,Stanlywiss Rymbai,INC,19815,1081,3.79,3,48,12,ML,Stanlywiss Rymbai,INC,,,,,False,48,2023,AE
+1715623,Shanbor Ramde,BJP,19820,404,1.42,4,48,12,ML,Shanbor Ramde,BJP,,,,,False,48,2023,AE
+1715625,Baiateilang Lapang,PDF,19824,118,0.42,5,48,12,ML,Baiateilang Lapang,PDF,,,,,False,48,2023,AE
+1715626,Heaving Stone Kharpran,VOTPP,19813,11424,33.36,1,48,13,ML,Heaving Stone Kharpran,VOTPP,,,,,False,48,2023,AE
+1715627,Osaphi Smithson Jyrwa,UDP,19817,10182,29.73,2,48,13,ML,Osaphi Smithson Jyrwa,UDP,,,,,False,48,2023,AE
+1715628,Pyniaid Sing Syiem,NPEP,19814,9541,27.86,3,48,13,ML,Pyniaid Sing Syiem,NPEP,,,,,True,48,2023,AE
+1715629,Banshanlang Lawai,AITC,19819,1559,4.52,4,48,13,ML,Banshanlang Lawai,AITC,,,,,False,48,2023,AE
+1715630,Highlander Kharmalki,BJP,19820,968,2.8,5,48,13,ML,Highlander Kharmalki,BJP,,,,,False,48,2023,AE
+1715631,Esron Marwein,INC,19815,433,1.25,6,48,13,ML,Esron Marwein,INC,,,,,False,48,2023,AE
+1715633,Wyraiwan Sohtun,HSPDP,19825,136,0.4,7,48,13,ML,Wyraiwan Sohtun,HSPDP,,,,,False,48,2023,AE
+1715634,Alexander Laloo Hek,BJP,19820,9321,35.7,1,48,14,ML,Alexander Laloo Hek,BJP,,,,,True,48,2023,AE
+1715635,Pynshngainlang Syiem,INC,19815,6783,25.98,2,48,14,ML,Pynshngainlang Syiem,INC,,,,,False,48,2023,AE
+1715636,Mayborn Grace Lyngdoh,VOTPP,19813,5720,22.2,3,48,14,ML,Mayborn Grace Lyngdoh,VOTPP,,,,,False,48,2023,AE
+1715637,Rocky Hek,NPEP,19814,3356,13.02,4,48,14,ML,Rocky Hek,NPEP,,,,,False,48,2023,AE
+1715639,Raymond Basaiawmoit,AITC,19819,247,0.95,5,48,14,ML,Raymond Basaiawmoit,AITC,,,,,False,48,2023,AE
+1715640,Samborlang Diengdoh,IND,19816,168,0.64,6,48,14,ML,Samborlang Diengdoh,IND,,,,,False,48,2023,AE
+1715641,Jubanlang Kharbihkhiew,IND,19816,102,0.39,7,48,14,ML,Jubanlang Kharbihkhiew,IND,,,,,False,48,2023,AE
+1715642,Rup Pariat,IND,19816,74,0.28,8,48,14,ML,Rup Pariat,IND,,,,,False,48,2023,AE
+1715643,Brightstarwell Marbaniang,VOTPP,19813,24262,59.92,1,48,15,ML,Brightstarwell Marbaniang,VOTPP,,,,,False,48,2023,AE
+1715644,Teiborlang Pathaw,NPEP,19814,8614,21.27,2,48,15,ML,Teiborlang Pathaw,NPEP,,,,,False,48,2023,AE
+1715645,Process T. Sawkmie,UDP,19817,5142,12.7,3,48,15,ML,Process T. Sawkmie,UDP,,,,,False,48,2023,AE
+1715646,Marbud Dkhar,INC,19815,1506,3.7,4,48,15,ML,Marbud Dkhar,INC,,,,,False,48,2023,AE
+1715647,Wandonbok Jyrwa,BJP,19820,450,1.1,5,48,15,ML,Wandonbok Jyrwa,BJP,,,,,False,48,2023,AE
+1715648,Tarcisious Mawlot,IND,19816,264,0.65,6,48,15,ML,Tarcisious Mawlot,IND,,,,,False,48,2023,AE
+1715649,Stepbournekupar Ryndem,AITC,19819,255,0.63,7,48,15,ML,Stepbournekupar Ryndem,AITC,,,,,False,48,2023,AE
+1715651,Dr. Mazel Ampareen Lyngdoh,NPEP,19814,6637,39.56,1,48,16,ML,Dr. Mazel Ampareen Lyngdoh,NPEP,,,,,False,48,2023,AE
+1715652,Manuel Badwar,INC,19815,4926,28.92,2,48,16,ML,Manuel Badwar,INC,,,,,False,48,2023,AE
+1715653,Wankitbok Pohshna,BJP,19820,2643,15.51,3,48,16,ML,Wankitbok Pohshna,BJP,,,,,False,48,2023,AE
+1715654,Avner Medon Pariat,VOTPP,19813,1974,11.77,4,48,16,ML,Avner Medon Pariat,VOTPP,,,,,False,48,2023,AE
+1715655,Ajoy Nongrum,AITC,19819,264,1.55,5,48,16,ML,Ajoy Nongrum,AITC,,,,,False,48,2023,AE
+1715657,Wanpynhun Kharsyntiew,IND,19816,243,1.43,6,48,16,ML,Wanpynhun Kharsyntiew,IND,,,,,False,48,2023,AE
+1715658,Romeo Phira Rani,PDF,19824,90,0.54,7,48,16,ML,Romeo Phira Rani,PDF,,,,,False,48,2023,AE
+1715659,Adelbert Nongrum,VOTPP,19813,5583,29.75,1,48,17,ML,Adelbert Nongrum,VOTPP,,,,,False,48,2023,AE
+1715660,Mariahom Kharkrang,BJP,19820,4550,24.0,2,48,17,ML,Mariahom Kharkrang,BJP,,,,,False,48,2023,AE
+1715661,Dr. Aman Warr,UDP,19817,3791,20.2,3,48,17,ML,Dr. Aman Warr,UDP,,,,,False,48,2023,AE
+1715662,Ransom Sutnga,NPEP,19814,1975,10.52,4,48,17,ML,Ransom Sutnga,NPEP,,,,,False,48,2023,AE
+1715663,J. Antonius Lyngdoh,INC,19815,1555,8.2,5,48,17,ML,J. Antonius Lyngdoh,INC,,,,,False,48,2023,AE
+1715664,Elgiva Gwyneth Rynjah,AITC,19819,816,4.3,6,48,17,ML,Elgiva Gwyneth Rynjah,AITC,,,,,False,48,2023,AE
+1715665,L. Michael Kharsyntiew,IND,19816,385,2.03,7,48,17,ML,L. Michael Kharsyntiew,IND,,,,,False,48,2023,AE
+1715667,Kyrsoibor Pyrtuh,IND,19816,111,0.59,8,48,17,ML,Kyrsoibor Pyrtuh,IND,,,,,False,48,2023,AE
+1715668,Paul Lyngdoh,UDP,19817,7917,42.6,1,48,18,ML,Paul Lyngdoh,UDP,,,,,True,48,2023,AE
+1715669,Mohendro Rapsang,NPEP,19814,4432,23.85,2,48,18,ML,Mohendro Rapsang,NPEP,,,,,False,48,2023,AE
+1715670,Ernest Mawrie,BJP,19820,3771,20.07,3,48,18,ML,Ernest Mawrie,BJP,,,,,False,48,2023,AE
+1715671,Raja Jyrwa,VOTPP,19813,1859,10.0,4,48,18,ML,Raja Jyrwa,VOTPP,,,,,False,48,2023,AE
+1715672,Bethleen Dkhar,INC,19815,417,2.22,5,48,18,ML,Bethleen Dkhar,INC,,,,,False,48,2023,AE
+1715674,Iwan Maria,AITC,19819,187,1.0,6,48,18,ML,Iwan Maria,AITC,,,,,False,48,2023,AE
+1715675,Sanbor Shullai,BJP,19820,14213,65.74,1,48,19,ML,Sanbor Shullai,BJP,,,,,True,48,2023,AE
+1715676,Danny Langstieh,VOTPP,19813,2604,12.3,2,48,19,ML,Danny Langstieh,VOTPP,,,,,False,48,2023,AE
+1715677,Angela G. Rangad,IND,19816,1714,7.93,3,48,19,ML,Angela G. Rangad,IND,,,,,False,48,2023,AE
+1715678,Ian Andrew Lyngdoh Nongkynrih,AITC,19819,1560,7.22,4,48,19,ML,Ian Andrew Lyngdoh Nongkynrih,AITC,,,,,False,48,2023,AE
+1715679,Venetia Pearl Mawlong,INC,19815,1086,5.02,5,48,19,ML,Venetia Pearl Mawlong,INC,,,,,False,48,2023,AE
+1715681,Ronnie V. Lyngdoh,INC,19815,8904,28.69,1,48,20,ML,Ronnie V. Lyngdoh,INC,,,,,False,48,2023,AE
+1715682,Aibandaplin F. Lyngdoh,VOTPP,19813,8866,28.79,2,48,20,ML,Aibandaplin F. Lyngdoh,VOTPP,,,,,False,48,2023,AE
+1715683,Hamletson Dohling,NPEP,19814,8712,28.29,3,48,20,ML,Hamletson Dohling,NPEP,,,,,False,48,2023,AE
+1715684,Mitchel Wankhar,UDP,19817,2619,8.51,4,48,20,ML,Mitchel Wankhar,UDP,,,,,False,48,2023,AE
+1715685,Pynshai Manik Syiem,IND,19816,614,1.98,5,48,20,ML,Pynshai Manik Syiem,IND,,,,,False,48,2023,AE
+1715686,Gilbert Guidingstar Laloo,AITC,19819,566,1.82,6,48,20,ML,Gilbert Guidingstar Laloo,AITC,,,,,False,48,2023,AE
+1715687,Samuel Hashah,BJP,19820,435,1.4,7,48,20,ML,Samuel Hashah,BJP,,,,,False,48,2023,AE
+1715689,Richard Nongbsap,IND,19816,75,0.24,8,48,20,ML,Richard Nongbsap,IND,,,,,False,48,2023,AE
+1715690,Charles Pyngrope,AITC,19819,7452,29.78,1,48,21,ML,Charles Pyngrope,AITC,,,,,False,48,2023,AE
+1715691,Jemino Mawthoh,UDP,19817,6253,25.36,2,48,21,ML,Jemino Mawthoh,UDP,,,,,False,48,2023,AE
+1715692,Winston Tony Lyngdoh,VOTPP,19813,4473,18.14,3,48,21,ML,Winston Tony Lyngdoh,VOTPP,,,,,False,48,2023,AE
+1715693,David Kharsati,BJP,19820,3274,13.08,4,48,21,ML,David Kharsati,BJP,,,,,False,48,2023,AE
+1715694,Jasmine Mary Lyngdoh,NPEP,19814,2054,8.33,5,48,21,ML,Jasmine Mary Lyngdoh,NPEP,,,,,False,48,2023,AE
+1715695,Banida Shisha Kharkongor,INC,19815,1045,4.18,6,48,21,ML,Banida Shisha Kharkongor,INC,,,,,False,48,2023,AE
+1715697,Wankit Kupar Kharumnuid,IND,19816,108,0.43,7,48,21,ML,Wankit Kupar Kharumnuid,IND,,,,,False,48,2023,AE
+1715698,Ardent Miller Basaiawmoit,VOTPP,19813,13286,41.02,1,48,22,ML,Ardent Miller Basaiawmoit,VOTPP,,,,,False,48,2023,AE
+1715699,Lambor Malngiang,UDP,19817,9099,28.09,2,48,22,ML,Lambor Malngiang,UDP,,,,,False,48,2023,AE
+1715700,Dasakhiatbha Lamare,NPEP,19814,7491,23.13,3,48,22,ML,Dasakhiatbha Lamare,NPEP,,,,,False,48,2023,AE
+1715701,Egenstar Kurkalang,PDF,19824,1375,4.25,4,48,22,ML,Egenstar Kurkalang,PDF,,,,,False,48,2023,AE
+1715702,David T. Kharkongor,BJP,19820,531,1.63,5,48,22,ML,David T. Kharkongor,BJP,,,,,False,48,2023,AE
+1715703,Sardonik Nongkhlaw,INC,19815,293,0.9,6,48,22,ML,Sardonik Nongkhlaw,INC,,,,,False,48,2023,AE
+1715705,Joannes J.T.L. Lamare,AITC,19819,176,0.54,7,48,22,ML,Joannes J.T.L. Lamare,AITC,,,,,False,48,2023,AE
+1715706,B. M. Lanong,IND,19816,138,0.42,8,48,22,ML,B. M. Lanong,IND,,,,,False,48,2023,AE
+2001058,SYNSHAR KUPAR ROY LYNGDOH THABAH,UDP,19817,16679,51.86,1,48,23,ML,SYNSHAR KUPAR ROY LYNGDOH THABAH,UDP,,,,,,48,2023,AE
+2001059,SAMLIN MALNGIANG,NPEP,19814,13257,41.22,2,48,23,ML,SAMLIN MALNGIANG,NPEP,,,,,,48,2023,AE
+2001060,S. OSBORNE KHARJANA,INC,19815,1762,5.48,3,48,23,ML,S. OSBORNE KHARJANA,INC,,,,,,48,2023,AE
+2001061,NOTA,NOTA,19818,272,0.85,4,48,23,ML,NOTA,NOTA,,,,,,48,2023,AE
+2001062,STODINGSTAR THABAH,AITC,19819,89,0.28,5,48,23,ML,STODINGSTAR THABAH,AITC,,,,,,48,2023,AE
+2001063,SANDONDOR RYNTATHIANG,HSPDP,19825,62,0.19,6,48,23,ML,SANDONDOR RYNTATHIANG,HSPDP,,,,,,48,2023,AE
+2001064,SERAPH ERIC KHARBUKI,BJP,19820,40,0.12,7,48,23,ML,SERAPH ERIC KHARBUKI,BJP,,,,,,48,2023,AE
+1715707,Matthew Beyondstar Kurbah,UDP,19817,6690,21.5,1,48,24,ML,Matthew Beyondstar Kurbah,UDP,,,,,False,48,2023,AE
+1715708,Auspicious Lyngdoh Mawphlang,PDF,19824,6586,21.17,2,48,24,ML,Auspicious Lyngdoh Mawphlang,PDF,,,,,False,48,2023,AE
+1715709,Dannyson Kurbah,INC,19815,5594,17.9,3,48,24,ML,Dannyson Kurbah,INC,,,,,False,48,2023,AE
+1715710,Doristar Marbaniang,VOTPP,19813,4811,15.46,4,48,24,ML,Doristar Marbaniang,VOTPP,,,,,False,48,2023,AE
+1715711,Kennedy Cornelius Khyriem,NPEP,19814,4733,15.21,5,48,24,ML,Kennedy Cornelius Khyriem,NPEP,,,,,False,48,2023,AE
+1715712,Mawkordor Rynjah,AITC,19819,1507,4.82,6,48,24,ML,Mawkordor Rynjah,AITC,,,,,False,48,2023,AE
+1715713,Wossarroi Rani,BJP,19820,1196,3.83,7,48,24,ML,Wossarroi Rani,BJP,,,,,False,48,2023,AE
+1715715,Ollan Singh Suin,UDP,19817,10987,33.42,1,48,25,ML,Ollan Singh Suin,UDP,,,,,True,48,2023,AE
+1715716,Himalaya Muktan Shangpliang,BJP,19820,10032,30.34,2,48,25,ML,Himalaya Muktan Shangpliang,BJP,,,,,False,48,2023,AE
+1715717,Alvin Khyriem Sawkmie,NPEP,19814,10002,30.43,3,48,25,ML,Alvin Khyriem Sawkmie,NPEP,,,,,False,48,2023,AE
+1715718,Gopal Stone Hynniewta,INC,19815,1056,3.19,4,48,25,ML,Gopal Stone Hynniewta,INC,,,,,False,48,2023,AE
+1715719,Vincent T Sangma,AITC,19819,689,2.08,5,48,25,ML,Vincent T Sangma,AITC,,,,,False,48,2023,AE
+1715721,Starfing Jove Langpen Pdahkasiej,HSPDP,19825,105,0.32,6,48,25,ML,Starfing Jove Langpen Pdahkasiej,HSPDP,,,,,False,48,2023,AE
+1715722,Balajied Kupar Synrem,UDP,19817,13274,43.87,1,48,26,ML,Balajied Kupar Synrem,UDP,,,,,False,48,2023,AE
+1715723,Grace Mary Kharpuri,NPEP,19814,12840,42.44,2,48,26,ML,Grace Mary Kharpuri,NPEP,,,,,False,48,2023,AE
+1715724,Arena Hynniewta,BJP,19820,2670,8.72,3,48,26,ML,Arena Hynniewta,BJP,,,,,False,48,2023,AE
+1715725,Playness Khiewtam,AITC,19819,882,2.88,4,48,26,ML,Playness Khiewtam,AITC,,,,,False,48,2023,AE
+1715726,Wellborn Bynnud,INC,19815,592,1.93,5,48,26,ML,Wellborn Bynnud,INC,,,,,False,48,2023,AE
+1715728,Prestone Tynsong,NPEP,19814,13745,39.7,1,48,27,ML,Prestone Tynsong,NPEP,,,,,True,48,2023,AE
+1715729,Nehru Suting,INC,19815,5605,16.12,2,48,27,ML,Nehru Suting,INC,,,,,False,48,2023,AE
+1715730,Anthony Justine Kongwang,UDP,19817,5377,15.53,3,48,27,ML,Anthony Justine Kongwang,UDP,,,,,False,48,2023,AE
+1715731,Don Kupar Massar,IND,19816,4828,13.89,4,48,27,ML,Don Kupar Massar,IND,,,,,False,48,2023,AE
+1715732,Manbhalang Thabah,VOTPP,19813,3482,10.06,5,48,27,ML,Manbhalang Thabah,VOTPP,,,,,False,48,2023,AE
+1715733,Edmund Khongngai,AITC,19819,1204,3.46,6,48,27,ML,Edmund Khongngai,AITC,,,,,False,48,2023,AE
+1715734,Rowelly Khongsni,BJP,19820,377,1.08,7,48,27,ML,Rowelly Khongsni,BJP,,,,,False,48,2023,AE
+1715736,Gavin Miguel Mylliem,PDF,19824,11358,42.5,1,48,28,ML,Gavin Miguel Mylliem,PDF,,,,,True,48,2023,AE
+1715737,Titosstar Well Chyne,UDP,19817,11343,42.45,2,48,28,ML,Titosstar Well Chyne,UDP,,,,,True,48,2023,AE
+1715738,Alan West Kharkongor,NPEP,19814,1598,5.98,3,48,28,ML,Alan West Kharkongor,NPEP,,,,,False,48,2023,AE
+1715739,Harold Firming Khongsit,AITC,19819,1137,4.24,4,48,28,ML,Harold Firming Khongsit,AITC,,,,,False,48,2023,AE
+1715740,G.Phaiyolin Nongrum,VOTPP,19813,916,3.43,5,48,28,ML,G.Phaiyolin Nongrum,VOTPP,,,,,False,48,2023,AE
+1715741,Lakyntiew Sohkhlet,INC,19815,229,0.85,6,48,28,ML,Lakyntiew Sohkhlet,INC,,,,,False,48,2023,AE
+1715742,Michael Ronnie Kshiar,BJP,19820,142,0.53,7,48,28,ML,Michael Ronnie Kshiar,BJP,,,,,False,48,2023,AE
+1715744,Banteidor Lyngdoh,PDF,19824,11789,35.5,1,48,29,ML,Banteidor Lyngdoh,PDF,,,,,True,48,2023,AE
+1715745,Martle N. Mukhim,HSPDP,19825,7652,23.04,2,48,29,ML,Martle N. Mukhim,HSPDP,,,,,False,48,2023,AE
+1715746,Kansing Lyngshiang,NPEP,19814,7360,22.16,3,48,29,ML,Kansing Lyngshiang,NPEP,,,,,False,48,2023,AE
+1715747,Remington Pyngrope,UDP,19817,5385,16.22,4,48,29,ML,Remington Pyngrope,UDP,,,,,False,48,2023,AE
+1715748,Pynhunlang Nongrum,INC,19815,465,1.39,5,48,29,ML,Pynhunlang Nongrum,INC,,,,,False,48,2023,AE
+1715749,Dondor Marbaniang,AITC,19819,463,1.38,6,48,29,ML,Dondor Marbaniang,AITC,,,,,False,48,2023,AE
+1715751,Counsellor Mukhim,BJP,19820,93,0.28,7,48,29,ML,Counsellor Mukhim,BJP,,,,,False,48,2023,AE
+1715752,Metbah Lyngdoh,UDP,19817,19066,48.68,1,48,30,ML,Metbah Lyngdoh,UDP,,,,,True,48,2023,AE
+1715753,Batskhem Ryntathiang,INC,19815,18911,48.14,2,48,30,ML,Batskhem Ryntathiang,INC,,,,,False,48,2023,AE
+1715754,Shanlang Warjri,VOTPP,19813,944,2.41,3,48,30,ML,Shanlang Warjri,VOTPP,,,,,False,48,2023,AE
+1715755,Mark Rinaldy Sawkmie,BJP,19820,245,0.62,4,48,30,ML,Mark Rinaldy Sawkmie,BJP,,,,,False,48,2023,AE
+1715757,Shakliar Warjri,HSPDP,19825,17366,42.96,1,48,31,ML,Shakliar Warjri,HSPDP,,,,,False,48,2023,AE
+1715758,Brolding Nongsiej,UDP,19817,15013,37.14,2,48,31,ML,Brolding Nongsiej,UDP,,,,,True,48,2023,AE
+1715759,Biolinda L.Nonglait,NPEP,19814,7658,18.95,3,48,31,ML,Biolinda L.Nonglait,NPEP,,,,,False,48,2023,AE
+1715761,Fourteenson Lyngkhoi,INC,19815,260,0.64,4,48,31,ML,Fourteenson Lyngkhoi,INC,,,,,False,48,2023,AE
+1715762,Darikmen L.Marshillong,BJP,19820,123,0.3,5,48,31,ML,Darikmen L.Marshillong,BJP,,,,,False,48,2023,AE
+1715763,Gabriel Wahlang,INC,19815,13847,35.17,1,48,32,ML,Gabriel Wahlang,INC,,,,,True,48,2023,AE
+1715764,Macmillan Byrsat,NPEP,19814,11223,28.58,2,48,32,ML,Macmillan Byrsat,NPEP,,,,,True,48,2023,AE
+1715765,Polestar Nongsiej,UDP,19817,7505,19.11,3,48,32,ML,Polestar Nongsiej,UDP,,,,,False,48,2023,AE
+1715766,Bobby Boldrick Kharchandy,VOTPP,19813,3755,9.56,4,48,32,ML,Bobby Boldrick Kharchandy,VOTPP,,,,,False,48,2023,AE
+1715767,Sanjied Kynsai Shangrit,HSPDP,19825,1390,3.54,5,48,32,ML,Sanjied Kynsai Shangrit,HSPDP,,,,,False,48,2023,AE
+1715768,Macmillan Kharbani,AITC,19819,1091,2.77,6,48,32,ML,Macmillan Kharbani,AITC,,,,,False,48,2023,AE
+1715769,Diosstarness Jyndiang,BJP,19820,253,0.64,7,48,32,ML,Diosstarness Jyndiang,BJP,,,,,False,48,2023,AE
+1715770,Stainbinel Wanniang,IND,19816,209,0.53,8,48,32,ML,Stainbinel Wanniang,IND,,,,,False,48,2023,AE
+1715772,Remington Gabil Momin,IND,19816,9057,26.6,1,48,33,ML,Remington Gabil Momin,IND,,,,,False,48,2023,AE
+1715773,K. Phlastingwel Pangniang,HSPDP,19825,8947,26.43,2,48,33,ML,K. Phlastingwel Pangniang,HSPDP,,,,,False,48,2023,AE
+1715774,Kimfa Sidney Marbaniang,NPEP,19814,7272,21.48,3,48,33,ML,Kimfa Sidney Marbaniang,NPEP,,,,,False,48,2023,AE
+1715775,A Goldenstar Nonglong,INC,19815,5805,17.05,4,48,33,ML,A Goldenstar Nonglong,INC,,,,,False,48,2023,AE
+1715776,Fernandez S. Dkhar,AITC,19819,1554,4.56,5,48,33,ML,Fernandez S. Dkhar,AITC,,,,,False,48,2023,AE
+1715777,Spasterlin Nongrem,BJP,19820,689,2.02,6,48,33,ML,Spasterlin Nongrem,BJP,,,,,False,48,2023,AE
+1715778,Francis Pondit R. Sangma,IND,19816,373,1.1,7,48,33,ML,Francis Pondit R. Sangma,IND,,,,,False,48,2023,AE
+1715780,Sillash M. Sangma,IND,19816,159,0.47,8,48,33,ML,Sillash M. Sangma,IND,,,,,False,48,2023,AE
+1715781,Methodius Dkhar,HSPDP,19825,19368,52.96,1,48,34,ML,Methodius Dkhar,HSPDP,,,,,False,48,2023,AE
+1715782,Gigur Myrthong,NPEP,19814,14181,38.78,2,48,34,ML,Gigur Myrthong,NPEP,,,,,True,48,2023,AE
+1715783,Justine G. Momin,AITC,19819,2515,6.82,3,48,34,ML,Justine G. Momin,AITC,,,,,False,48,2023,AE
+1715785,Beejoy Kynter,BJP,19820,286,0.78,4,48,34,ML,Beejoy Kynter,BJP,,,,,False,48,2023,AE
+1715786,Andrew Charles Gare,INC,19815,220,0.6,5,48,34,ML,Andrew Charles Gare,INC,,,,,False,48,2023,AE
+1715787,Pius Marwein,UDP,19817,16502,50.94,1,48,35,ML,Pius Marwein,UDP,,,,,True,48,2023,AE
+1715788,Martin M. Danggo,BJP,19820,10853,33.37,2,48,35,ML,Martin M. Danggo,BJP,,,,,False,48,2023,AE
+1715789,Mighter Marwein,IND,19816,3035,9.33,3,48,35,ML,Mighter Marwein,IND,,,,,False,48,2023,AE
+1715790,Overlin Imiong,VOTPP,19813,988,3.05,4,48,35,ML,Overlin Imiong,VOTPP,,,,,False,48,2023,AE
+1715791,Victorealness Syiemlieh,INC,19815,494,1.52,5,48,35,ML,Victorealness Syiemlieh,INC,,,,,False,48,2023,AE
+1715792,Tengsim G. Momin,AITC,19819,152,0.47,6,48,35,ML,Tengsim G. Momin,AITC,,,,,False,48,2023,AE
+1715793,Krenath N. Marak,IND,19816,142,0.44,7,48,35,ML,Krenath N. Marak,IND,,,,,False,48,2023,AE
+1715795,Savio Phrangsngi Dkhar,IND,19816,115,0.35,8,48,35,ML,Savio Phrangsngi Dkhar,IND,,,,,False,48,2023,AE
+1715796,Bichitro Hajong,IND,19816,114,0.35,9,48,35,ML,Bichitro Hajong,IND,,,,,False,48,2023,AE
+1715797,Renikton Lyngdoh Tongkhar,UDP,19817,10678,31.25,1,48,36,ML,Renikton Lyngdoh Tongkhar,UDP,,,,,False,48,2023,AE
+1715798,Carnes Sohshang,INC,19815,9406,27.42,2,48,36,ML,Carnes Sohshang,INC,,,,,True,48,2023,AE
+1715799,Medalsing Lyngdoh,HSPDP,19825,6082,17.8,3,48,36,ML,Medalsing Lyngdoh,HSPDP,,,,,False,48,2023,AE
+1715800,Sounder Strong Cajee,AITC,19819,4579,13.35,4,48,36,ML,Sounder Strong Cajee,AITC,,,,,False,48,2023,AE
+1715801,H. Stalyne Diengdoh,NPEP,19814,3207,9.39,5,48,36,ML,H. Stalyne Diengdoh,NPEP,,,,,False,48,2023,AE
+1715802,Bity Jyrwa,BJP,19820,151,0.44,6,48,36,ML,Bity Jyrwa,BJP,,,,,False,48,2023,AE
+1715804,Banpynskhemlang Wahlang,IND,19816,67,0.2,7,48,36,ML,Banpynskhemlang Wahlang,IND,,,,,False,48,2023,AE
+1715805,Rupert Momin,NPEP,19814,17426,47.71,1,48,37,ML,Rupert Momin,NPEP,,,,,True,48,2023,AE
+1715806,Cherak Watre Momin,AITC,19819,15896,42.9,2,48,37,ML,Cherak Watre Momin,AITC,,,,,False,48,2023,AE
+1715807,Chireng Peter R. Marak,INC,19815,1746,4.71,3,48,37,ML,Chireng Peter R. Marak,INC,,,,,False,48,2023,AE
+1715808,Elstone D. Marak,BJP,19820,932,2.52,4,48,37,ML,Elstone D. Marak,BJP,,,,,False,48,2023,AE
+1715810,Luderberg Ch. Momin,UDP,19817,525,1.44,5,48,37,ML,Luderberg Ch. Momin,UDP,,,,,False,48,2023,AE
+1715811,Marthon J Sangma,NPEP,19814,9363,37.85,1,48,38,ML,Marthon J Sangma,NPEP,,,,,False,48,2023,AE
+1715812,Timjim K. Momin,INC,19815,5538,22.21,2,48,38,ML,Timjim K. Momin,INC,,,,,False,48,2023,AE
+1715813,Sengnab Momin,BJP,19820,4132,16.57,3,48,38,ML,Sengnab Momin,BJP,,,,,False,48,2023,AE
+1715814,Pardinand D. Shira,AITC,19819,3312,13.28,4,48,38,ML,Pardinand D. Shira,AITC,,,,,False,48,2023,AE
+1715815,Elbarth Marak,GSP,19837,1375,5.56,5,48,38,ML,Elbarth Marak,GSP,,,,,False,48,2023,AE
+1715816,Subrotho G Marak,UDP,19817,1017,4.11,6,48,38,ML,Subrotho G Marak,UDP,,,,,False,48,2023,AE
+1715818,Timothy D. Shira,NPEP,19814,10948,41.55,1,48,39,ML,Timothy D. Shira,NPEP,,,,,False,48,2023,AE
+1715819,Rinaldo K. Sangma,AITC,19819,7483,28.23,2,48,39,ML,Rinaldo K. Sangma,AITC,,,,,False,48,2023,AE
+1715820,Tweel K. Marak,INC,19815,5064,19.1,3,48,39,ML,Tweel K. Marak,INC,,,,,False,48,2023,AE
+1715821,Sukharam K. Sangma,BJP,19820,1957,7.38,4,48,39,ML,Sukharam K. Sangma,BJP,,,,,False,48,2023,AE
+1715822,Starline Momin,IND,19816,602,2.27,5,48,39,ML,Starline Momin,IND,,,,,True,48,2023,AE
+1715823,Taposh D. Marak,UDP,19817,292,1.11,6,48,39,ML,Taposh D. Marak,UDP,,,,,False,48,2023,AE
+1715825,Pongseng Marak,NPEP,19814,9900,34.52,1,48,40,ML,Pongseng Marak,NPEP,,,,,True,48,2023,AE
+1715826,Brigady Napak Marak,INC,19815,7584,26.22,2,48,40,ML,Brigady Napak Marak,INC,,,,,True,48,2023,AE
+1715827,Tengrak R. Marak,AITC,19819,7431,25.69,3,48,40,ML,Tengrak R. Marak,AITC,,,,,False,48,2023,AE
+1715828,Chadambe Tengkam B Marak,IND,19816,1996,6.9,4,48,40,ML,Chadambe Tengkam B Marak,IND,,,,,False,48,2023,AE
+1715829,Rocky R Marak,IND,19816,744,2.57,5,48,40,ML,Rocky R Marak,IND,,,,,False,48,2023,AE
+1715830,Henendra A. Sangma,BJP,19820,537,1.86,6,48,40,ML,Henendra A. Sangma,BJP,,,,,False,48,2023,AE
+1715831,Rakman Ch Marak,UDP,19817,491,1.71,7,48,40,ML,Rakman Ch Marak,UDP,,,,,False,48,2023,AE
+1715833,Dr. Mukul Sangma,AITC,19819,12689,44.51,1,48,41,ML,Dr. Mukul Sangma,AITC,,,,,False,48,2023,AE
+1715834,Nihim D Shira,NPEP,19814,12317,43.51,2,48,41,ML,Nihim D Shira,NPEP,,,,,True,48,2023,AE
+1715835,Champion R. Sangma,INC,19815,2232,7.83,3,48,41,ML,Champion R. Sangma,INC,,,,,False,48,2023,AE
+1715836,Thomas Marak,BJP,19820,776,2.72,4,48,41,ML,Thomas Marak,BJP,,,,,False,48,2023,AE
+1715837,Sarenni Marak,RPI(A),19828,296,1.05,5,48,41,ML,Sarenni Marak,RPI(A),,,,,False,48,2023,AE
+1715839,Jim M Sangma,NPEP,19814,8836,29.77,1,48,42,ML,Jim M Sangma,NPEP,,,,,True,48,2023,AE
+1715840,Walseng M. Sangma,IND,19816,8708,28.89,2,48,42,ML,Walseng M. Sangma,IND,,,,,True,48,2023,AE
+1715841,Sengnam M. Marak,AITC,19819,4400,14.6,3,48,42,ML,Sengnam M. Marak,AITC,,,,,False,48,2023,AE
+1715842,Rapiush Ch. Sangma,BJP,19820,3302,10.96,4,48,42,ML,Rapiush Ch. Sangma,BJP,,,,,False,48,2023,AE
+1715843,Jebing G Momin,INC,19815,3131,10.39,5,48,42,ML,Jebing G Momin,INC,,,,,False,48,2023,AE
+1715844,Andreash G. Momin,UDP,19817,1306,4.4,6,48,42,ML,Andreash G. Momin,UDP,,,,,False,48,2023,AE
+1715846,Marcuise N Marak,NPEP,19814,10976,37.35,1,48,43,ML,Marcuise N Marak,NPEP,,,,,False,48,2023,AE
+1715847,Deborah C. Marak,INC,19815,7133,23.98,2,48,43,ML,Deborah C. Marak,INC,,,,,False,48,2023,AE
+1715848,Rudreswar Ch. Momin,IND,19816,5137,17.27,3,48,43,ML,Rudreswar Ch. Momin,IND,,,,,False,48,2023,AE
+1715849,Alphonsush R. Marak,AITC,19819,4809,16.17,4,48,43,ML,Alphonsush R. Marak,AITC,,,,,False,48,2023,AE
+1715850,Robinus T Sangma,JD(U),19838,733,2.49,5,48,43,ML,Robinus T Sangma,JD(U),,,,,False,48,2023,AE
+1715851,Raknang Ch. Momin,BJP,19820,457,1.54,6,48,43,ML,Raknang Ch. Momin,BJP,,,,,False,48,2023,AE
+1715853,Ballensing Ch Marak,RPI(A),19828,138,0.47,7,48,43,ML,Ballensing Ch Marak,RPI(A),,,,,False,48,2023,AE
+1715854,Limison D. Sangma,NPEP,19814,12184,44.36,1,48,44,ML,Limison D. Sangma,NPEP,,,,,False,48,2023,AE
+1715855,Benedic R. Marak,BJP,19820,9366,33.87,2,48,44,ML,Benedic R. Marak,BJP,,,,,False,48,2023,AE
+1715856,Dr. Prabir D. Sangma,AITC,19819,4075,14.74,3,48,44,ML,Dr. Prabir D. Sangma,AITC,,,,,False,48,2023,AE
+1715857,Frederick D. Sangma,INC,19815,1413,5.11,4,48,44,ML,Frederick D. Sangma,INC,,,,,False,48,2023,AE
+1715858,Sushil Gayary,UDP,19817,261,0.95,5,48,44,ML,Sushil Gayary,UDP,,,,,False,48,2023,AE
+1715860,Thosengcheba A. Sangma,RPI(A),19828,168,0.61,6,48,44,ML,Thosengcheba A. Sangma,RPI(A),,,,,False,48,2023,AE
+1715861,Jimmy D. Sangma,NPEP,19814,13218,41.81,1,48,45,ML,Jimmy D. Sangma,NPEP,,,,,False,48,2023,AE
+1715862,Dr. Mukul Sangma,AITC,19819,7905,24.77,2,48,45,ML,Dr. Mukul Sangma,AITC,,,,,False,48,2023,AE
+1715863,Rahinath Barchung,BJP,19820,7849,24.59,3,48,45,ML,Rahinath Barchung,BJP,,,,,False,48,2023,AE
+1715864,Dr. Kapin Ch. Boro,INC,19815,1233,3.86,4,48,45,ML,Dr. Kapin Ch. Boro,INC,,,,,False,48,2023,AE
+1715865,Noor Nongrum,IND,19816,1098,3.44,5,48,45,ML,Noor Nongrum,IND,,,,,False,48,2023,AE
+1715866,Julius T. Sangma,UDP,19817,313,0.99,6,48,45,ML,Julius T. Sangma,UDP,,,,,False,48,2023,AE
+1715868,Abu Taher Mondal,NPEP,19814,14969,51.02,1,48,46,ML,Abu Taher Mondal,NPEP,,,,,False,48,2023,AE
+1715869,S G Esmatur Mominin,AITC,19819,11729,39.68,2,48,46,ML,S G Esmatur Mominin,AITC,,,,,False,48,2023,AE
+1715870,Edmund K. Sangma,BJP,19820,1856,6.28,3,48,46,ML,Edmund K. Sangma,BJP,,,,,False,48,2023,AE
+1715871,Zinbaward N. Sangma,UDP,19817,400,1.36,4,48,46,ML,Zinbaward N. Sangma,UDP,,,,,False,48,2023,AE
+1715872,Sailendra R. Sangma,INC,19815,318,1.08,5,48,46,ML,Sailendra R. Sangma,INC,,,,,False,48,2023,AE
+1715874,Ful Boksha Sheikh,JD(U),19838,68,0.23,6,48,46,ML,Ful Boksha Sheikh,JD(U),,,,,False,48,2023,AE
+1715875,Dr. Mizanur Rahman Kazi,AITC,19819,12628,37.89,1,48,47,ML,Dr. Mizanur Rahman Kazi,AITC,,,,,False,48,2023,AE
+1715876,Md Abdus Saleh,NPEP,19814,12618,38.04,2,48,47,ML,Md Abdus Saleh,NPEP,,,,,False,48,2023,AE
+1715877,Ashahel D. Shira,UDP,19817,6870,20.71,3,48,47,ML,Ashahel D. Shira,UDP,,,,,False,48,2023,AE
+1715878,Bakul Chandra Hajong,BJP,19820,439,1.32,4,48,47,ML,Bakul Chandra Hajong,BJP,,,,,False,48,2023,AE
+1715879,Nijum Sangma,IND,19816,419,1.26,5,48,47,ML,Nijum Sangma,IND,,,,,False,48,2023,AE
+1715880,Carla R. Sangma,INC,19815,193,0.58,6,48,47,ML,Carla R. Sangma,INC,,,,,False,48,2023,AE
+1715882,Arbinstone B Marak,NPEP,19814,16595,50.13,1,48,48,ML,Arbinstone B Marak,NPEP,,,,,False,48,2023,AE
+1715883,Agassi R. Marak,AITC,19819,7854,23.6,2,48,48,ML,Agassi R. Marak,AITC,,,,,False,48,2023,AE
+1715884,Ferlin C.A. Sangma,BJP,19820,6954,20.89,3,48,48,ML,Ferlin C.A. Sangma,BJP,,,,,False,48,2023,AE
+1715885,Reynold M Sangma,INC,19815,1184,3.56,4,48,48,ML,Reynold M Sangma,INC,,,,,False,48,2023,AE
+1715886,Tengsrang Marak,IND,19816,206,0.62,5,48,48,ML,Tengsrang Marak,IND,,,,,False,48,2023,AE
+1715887,Pollop R Marak,IND,19816,185,0.56,6,48,48,ML,Pollop R Marak,IND,,,,,False,48,2023,AE
+1715889,Subhankar Koch,UDP,19817,128,0.39,7,48,48,ML,Subhankar Koch,UDP,,,,,False,48,2023,AE
+1715890,Rupa M. Marak,AITC,19819,15702,47.7,1,48,49,ML,Rupa M. Marak,AITC,,,,,False,48,2023,AE
+1715891,James Pangsang Kongkal Sangma,NPEP,19814,15684,48.12,2,48,49,ML,James Pangsang Kongkal Sangma,NPEP,,,,,True,48,2023,AE
+1715892,Braining R. Marak,BJP,19820,481,1.46,3,48,49,ML,Braining R. Marak,BJP,,,,,False,48,2023,AE
+1715893,Chesterfield Sangma,INC,19815,367,1.11,4,48,49,ML,Chesterfield Sangma,INC,,,,,False,48,2023,AE
+1715894,Witjeng N. Sangma,RPI(A),19828,359,1.1,5,48,49,ML,Witjeng N. Sangma,RPI(A),,,,,False,48,2023,AE
+1715896,Thomas A. Sangma,NPEP,19814,11386,42.75,1,48,50,ML,Thomas A. Sangma,NPEP,,,,,True,48,2023,AE
+1715897,Adam Kid M. Sangma,BJP,19820,7501,28.17,2,48,50,ML,Adam Kid M. Sangma,BJP,,,,,False,48,2023,AE
+1715898,Rupert M. Sangma,AITC,19819,4743,17.64,3,48,50,ML,Rupert M. Sangma,AITC,,,,,False,48,2023,AE
+1715899,Billykid A. Sangma,INC,19815,2113,7.93,4,48,50,ML,Billykid A. Sangma,INC,,,,,False,48,2023,AE
+1715900,Dr. Pilne A. Sangma,UDP,19817,665,2.5,5,48,50,ML,Dr. Pilne A. Sangma,UDP,,,,,False,48,2023,AE
+1715902,Bina Rosaline A. Sangma,JD(U),19838,224,0.84,6,48,50,ML,Bina Rosaline A. Sangma,JD(U),,,,,False,48,2023,AE
+1715903,Conrad Kongkal Sangma,NPEP,19814,13342,52.68,1,48,51,ML,Conrad Kongkal Sangma,NPEP,,,,,False,48,2023,AE
+1715904,Bernard N. Marak,BJP,19820,8326,32.48,2,48,51,ML,Bernard N. Marak,BJP,,,,,False,48,2023,AE
+1715905,Richard M Marak,AITC,19819,2312,9.02,3,48,51,ML,Richard M Marak,AITC,,,,,False,48,2023,AE
+1715906,John Leslee K. Sangma,UDP,19817,776,3.06,4,48,51,ML,John Leslee K. Sangma,UDP,,,,,False,48,2023,AE
+1715907,Brenzield Ch Marak,INC,19815,572,2.23,5,48,51,ML,Brenzield Ch Marak,INC,,,,,False,48,2023,AE
+1715909,Subir Marak,NPEP,19814,13605,41.96,1,48,52,ML,Subir Marak,NPEP,,,,,False,48,2023,AE
+1715910,Zenith .M. Sangma,AITC,19819,12817,39.3,2,48,52,ML,Zenith .M. Sangma,AITC,,,,,False,48,2023,AE
+1715911,Dipul R. Marak,BJP,19820,4571,14.01,3,48,52,ML,Dipul R. Marak,BJP,,,,,False,48,2023,AE
+1715912,Edmund S Sangma,INC,19815,820,2.51,4,48,52,ML,Edmund S Sangma,INC,,,,,False,48,2023,AE
+1715913,Indrash M. Marak,RPI(A),19828,353,1.09,5,48,52,ML,Indrash M. Marak,RPI(A),,,,,False,48,2023,AE
+1715914,Bipul Ch. Sangma,UDP,19817,255,0.79,6,48,52,ML,Bipul Ch. Sangma,UDP,,,,,False,48,2023,AE
+1715916,Miani D. Shira,AITC,19819,13446,44.69,1,48,53,ML,Miani D. Shira,AITC,,,,,False,48,2023,AE
+1715917,Stevie M. Marak,NPEP,19814,11169,37.41,2,48,53,ML,Stevie M. Marak,NPEP,,,,,False,48,2023,AE
+1715918,Premananda Koch,BJP,19820,4762,15.83,3,48,53,ML,Premananda Koch,BJP,,,,,False,48,2023,AE
+1715919,Uttora Guri Sangma,INC,19815,476,1.58,4,48,53,ML,Uttora Guri Sangma,INC,,,,,False,48,2023,AE
+1715921,Sanjay A. Sangma,NPEP,19814,13560,41.47,1,48,54,ML,Sanjay A. Sangma,NPEP,,,,,False,48,2023,AE
+1715922,Dikkanchi D Shira,AITC,19819,11842,36.03,2,48,54,ML,Dikkanchi D Shira,AITC,,,,,False,48,2023,AE
+1715923,Tingku N Marak,BJP,19820,6701,20.39,3,48,54,ML,Tingku N Marak,BJP,,,,,False,48,2023,AE
+1715924,Sayeedullah Nongrum,INC,19815,331,1.01,4,48,54,ML,Sayeedullah Nongrum,INC,,,,,False,48,2023,AE
+1715926,Aditya Hajong,IND,19816,163,0.5,5,48,54,ML,Aditya Hajong,IND,,,,,False,48,2023,AE
+1715927,Serazul H Kharkongor,IND,19816,100,0.3,6,48,54,ML,Serazul H Kharkongor,IND,,,,,False,48,2023,AE
+1715928,Ian Botham K. Sangma,NPEP,19814,11352,42.26,1,48,55,ML,Ian Botham K. Sangma,NPEP,,,,,True,48,2023,AE
+1715929,Winnerson D. Sangma,AITC,19819,6114,22.54,2,48,55,ML,Winnerson D. Sangma,AITC,,,,,False,48,2023,AE
+1715930,Boston Marak,BJP,19820,5600,20.64,3,48,55,ML,Boston Marak,BJP,,,,,False,48,2023,AE
+1715931,Ronald Rikman Sangma,UDP,19817,2766,10.3,4,48,55,ML,Ronald Rikman Sangma,UDP,,,,,False,48,2023,AE
+1715932,Sinbath Ch Marak,INC,19815,1029,3.79,5,48,55,ML,Sinbath Ch Marak,INC,,,,,False,48,2023,AE
+1715934,Saleng A. Sangma,INC,19815,11252,39.57,1,48,56,ML,Saleng A. Sangma,INC,,,,,False,48,2023,AE
+1715935,Sadhiarani M. Sangma,AITC,19819,8381,29.48,2,48,56,ML,Sadhiarani M. Sangma,AITC,,,,,False,48,2023,AE
+1715936,Rakesh Sangma,NPEP,19814,7628,26.95,3,48,56,ML,Rakesh Sangma,NPEP,,,,,False,48,2023,AE
+1715937,Jhim Carter .M. Sangma,RPI(A),19828,367,1.3,4,48,56,ML,Jhim Carter .M. Sangma,RPI(A),,,,,False,48,2023,AE
+1715938,Daniel M Sangma,BJP,19820,315,1.11,5,48,56,ML,Daniel M Sangma,BJP,,,,,False,48,2023,AE
+1715939,Sairill D. Marak,GNC,19829,198,0.7,6,48,56,ML,Sairill D. Marak,GNC,,,,,False,48,2023,AE
+1715940,Sukberline S. Sangma,IND,19816,161,0.57,7,48,56,ML,Sukberline S. Sangma,IND,,,,,False,48,2023,AE
+1715942,Brening A. Sangma,NPEP,19814,5834,31.07,1,48,57,ML,Brening A. Sangma,NPEP,,,,,True,48,2023,AE
+1715943,Akki A Sangma,BJP,19820,5307,28.02,2,48,57,ML,Akki A Sangma,BJP,,,,,False,48,2023,AE
+1715944,Sengkal A Sangma,AITC,19819,3104,16.39,3,48,57,ML,Sengkal A Sangma,AITC,,,,,False,48,2023,AE
+1715945,Sarbha R. Marak,IND,19816,2069,10.92,4,48,57,ML,Sarbha R. Marak,IND,,,,,False,48,2023,AE
+1715946,Promod S. Koch,IND,19816,694,3.66,5,48,57,ML,Promod S. Koch,IND,,,,,False,48,2023,AE
+1715947,Kenethson Sangma,UDP,19817,635,3.38,6,48,57,ML,Kenethson Sangma,UDP,,,,,False,48,2023,AE
+1715948,Panseng R. Marak,RPI(A),19828,447,2.38,7,48,57,ML,Panseng R. Marak,RPI(A),,,,,False,48,2023,AE
+1715949,Diraj D. Marak,IND,19816,355,1.87,8,48,57,ML,Diraj D. Marak,IND,,,,,False,48,2023,AE
+1715950,Roger Benny A Sangma,INC,19815,333,1.76,9,48,57,ML,Roger Benny A Sangma,INC,,,,,False,48,2023,AE
+1715952,Rakkam A. Sangma,NPEP,19814,11569,39.49,1,48,58,ML,Rakkam A. Sangma,NPEP,,,,,True,48,2023,AE
+1715953,Rophul S Marak,INC,19815,8311,28.24,2,48,58,ML,Rophul S Marak,INC,,,,,False,48,2023,AE
+1715954,Dr Rajesh M Marak,AITC,19819,7938,26.97,3,48,58,ML,Dr Rajesh M Marak,AITC,,,,,False,48,2023,AE
+1715955,Calis G Momin,BJP,19820,1279,4.35,4,48,58,ML,Calis G Momin,BJP,,,,,False,48,2023,AE
+1715956,Teseng A Sangma,UDP,19817,197,0.67,5,48,58,ML,Teseng A Sangma,UDP,,,,,False,48,2023,AE
+1715958,Sengchim N. Sangma,NPEP,19814,9503,33.72,1,48,59,ML,Sengchim N. Sangma,NPEP,,,,,False,48,2023,AE
+1715959,Nikman Ch. Marak,GNC,19829,9150,32.47,2,48,59,ML,Nikman Ch. Marak,GNC,,,,,False,48,2023,AE
+1715960,Lazarus M Sangma,AITC,19819,5615,19.69,3,48,59,ML,Lazarus M Sangma,AITC,,,,,False,48,2023,AE
+1715961,Karak R. Sangma,INC,19815,3293,11.55,4,48,59,ML,Karak R. Sangma,INC,,,,,False,48,2023,AE
+1715962,Novembirth Ch. Marak,BJP,19820,618,2.17,5,48,59,ML,Novembirth Ch. Marak,BJP,,,,,False,48,2023,AE
+1715964,Kartush R. Marak,IND,19816,9013,30.9,1,48,60,ML,Kartush R. Marak,IND,,,,,False,48,2023,AE
+1715965,Samuel M Sangma,BJP,19820,6788,23.27,2,48,60,ML,Samuel M Sangma,BJP,,,,,False,48,2023,AE
+1715966,Satto R. Marak,NPEP,19814,5493,18.96,3,48,60,ML,Satto R. Marak,NPEP,,,,,False,48,2023,AE
+1715967,Nathawal S. Marak,IND,19816,4658,15.97,4,48,60,ML,Nathawal S. Marak,IND,,,,,False,48,2023,AE
+1715968,Dr. Saljagringrang R. Marak,AITC,19819,2759,9.46,5,48,60,ML,Dr. Saljagringrang R. Marak,AITC,,,,,False,48,2023,AE
+1715969,Alphonse Ch. Sangma,INC,19815,257,0.88,6,48,60,ML,Alphonse Ch. Sangma,INC,,,,,False,48,2023,AE

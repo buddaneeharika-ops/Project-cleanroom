@@ -1,0 +1,637 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1711374,Oinam Nabakishore Singh,INC,19777,8739,41.4,1,37,1,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711375,Dr Rajkumar Ranjan Singh,BJP,19780,7195,34.08,2,37,1,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711376,Rajkumar Somendro Singh (Kaiku),IND,19781,2260,10.71,3,37,1,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711377,Moirangthem Nara Singh,CPI,19778,1721,8.15,4,37,1,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711378,R.K. Anand,NEINDP,19794,968,4.59,5,37,1,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711379,Nota,NOTA,19789,78,0.37,6,37,1,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711380,Wahengbam Pabitra Singh,IND,19781,37,0.18,7,37,1,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711381,Oinam Jugindro Singh,MPEP,19795,34,0.16,8,37,1,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711382,M. Totomshana Nongshaba,IND,19781,30,0.14,9,37,1,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711383,Senjam Nandeshwore Singh,RJSNP,19796,22,0.1,10,37,1,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711384,Md. Iliyash Khan,IND,19781,20,0.09,11,37,1,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711385,Dr. G. Tonsana Sharma,MDPF,19788,7,0.03,12,37,1,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711386,Dr Rajkumar Ranjan Singh,BJP,19780,20176,71.62,1,37,2,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711387,Oinam Nabakishore Singh,INC,19777,4526,16.07,2,37,2,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711388,Moirangthem Nara Singh,CPI,19778,1858,6.6,3,37,2,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711389,Rajkumar Somendro Singh (Kaiku),IND,19781,1165,4.14,4,37,2,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711390,R.K. Anand,NEINDP,19794,199,0.71,5,37,2,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711391,Dr. G. Tonsana Sharma,MDPF,19788,86,0.31,6,37,2,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711392,Nota,NOTA,19789,68,0.24,7,37,2,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711393,Wahengbam Pabitra Singh,IND,19781,34,0.12,8,37,2,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711394,M. Totomshana Nongshaba,IND,19781,23,0.08,9,37,2,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711395,Oinam Jugindro Singh,MPEP,19795,17,0.06,10,37,2,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711396,Senjam Nandeshwore Singh,RJSNP,19796,11,0.04,11,37,2,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711397,Md. Iliyash Khan,IND,19781,6,0.02,12,37,2,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711398,Dr Rajkumar Ranjan Singh,BJP,19780,8632,32.59,1,37,3,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711399,Oinam Nabakishore Singh,INC,19777,6446,24.34,2,37,3,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711400,Moirangthem Nara Singh,CPI,19778,5321,20.09,3,37,3,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711401,Rajkumar Somendro Singh (Kaiku),IND,19781,4500,16.99,4,37,3,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711402,R.K. Anand,NEINDP,19794,1228,4.64,5,37,3,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711403,Nota,NOTA,19789,120,0.45,6,37,3,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711404,Wahengbam Pabitra Singh,IND,19781,57,0.22,7,37,3,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711405,M. Totomshana Nongshaba,IND,19781,53,0.2,8,37,3,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711406,Oinam Jugindro Singh,MPEP,19795,47,0.18,9,37,3,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711407,Dr. G. Tonsana Sharma,MDPF,19788,32,0.12,10,37,3,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711408,Senjam Nandeshwore Singh,RJSNP,19796,31,0.12,11,37,3,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711409,Md. Iliyash Khan,IND,19781,16,0.06,12,37,3,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711410,Oinam Nabakishore Singh,INC,19777,9180,33.3,1,37,4,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711411,Moirangthem Nara Singh,CPI,19778,7598,27.56,2,37,4,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711412,Dr Rajkumar Ranjan Singh,BJP,19780,6875,24.94,3,37,4,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711413,Rajkumar Somendro Singh (Kaiku),IND,19781,3282,11.91,4,37,4,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711414,R.K. Anand,NEINDP,19794,315,1.14,5,37,4,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711415,Nota,NOTA,19789,74,0.27,6,37,4,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711416,Wahengbam Pabitra Singh,IND,19781,72,0.26,7,37,4,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711417,Oinam Jugindro Singh,MPEP,19795,71,0.26,8,37,4,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711418,Dr. G. Tonsana Sharma,MDPF,19788,32,0.12,9,37,4,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711419,M. Totomshana Nongshaba,IND,19781,30,0.11,10,37,4,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711420,Md. Iliyash Khan,IND,19781,20,0.07,11,37,4,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711421,Senjam Nandeshwore Singh,RJSNP,19796,16,0.06,12,37,4,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711422,Dr Rajkumar Ranjan Singh,BJP,19780,13764,51.41,1,37,5,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711423,Moirangthem Nara Singh,CPI,19778,4764,17.8,2,37,5,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711424,Oinam Nabakishore Singh,INC,19777,4534,16.94,3,37,5,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711425,Rajkumar Somendro Singh (Kaiku),IND,19781,3019,11.28,4,37,5,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711426,R.K. Anand,NEINDP,19794,462,1.73,5,37,5,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711427,Nota,NOTA,19789,84,0.31,6,37,5,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711428,Oinam Jugindro Singh,MPEP,19795,39,0.15,7,37,5,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711429,Wahengbam Pabitra Singh,IND,19781,32,0.12,8,37,5,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711430,M. Totomshana Nongshaba,IND,19781,28,0.1,9,37,5,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711431,Dr. G. Tonsana Sharma,MDPF,19788,23,0.09,10,37,5,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711432,Senjam Nandeshwore Singh,RJSNP,19796,12,0.04,11,37,5,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711433,Md. Iliyash Khan,IND,19781,10,0.04,12,37,5,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711434,Oinam Nabakishore Singh,INC,19777,10240,41.97,1,37,6,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711435,Dr Rajkumar Ranjan Singh,BJP,19780,9258,37.94,2,37,6,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711436,Moirangthem Nara Singh,CPI,19778,2460,10.08,3,37,6,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711437,Rajkumar Somendro Singh (Kaiku),IND,19781,1805,7.4,4,37,6,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711438,R.K. Anand,NEINDP,19794,363,1.49,5,37,6,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711439,Nota,NOTA,19789,67,0.27,6,37,6,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711440,Oinam Jugindro Singh,MPEP,19795,49,0.2,7,37,6,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711441,Dr. G. Tonsana Sharma,MDPF,19788,46,0.19,8,37,6,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711442,Wahengbam Pabitra Singh,IND,19781,42,0.17,9,37,6,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711443,M. Totomshana Nongshaba,IND,19781,37,0.15,10,37,6,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711444,Senjam Nandeshwore Singh,RJSNP,19796,19,0.08,11,37,6,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711445,Md. Iliyash Khan,IND,19781,15,0.06,12,37,6,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711446,Dr Rajkumar Ranjan Singh,BJP,19780,16509,55.59,1,37,7,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711447,Oinam Nabakishore Singh,INC,19777,9835,33.12,2,37,7,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711448,Moirangthem Nara Singh,CPI,19778,1779,5.99,3,37,7,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711449,Rajkumar Somendro Singh (Kaiku),IND,19781,1188,4.0,4,37,7,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711450,R.K. Anand,NEINDP,19794,109,0.37,5,37,7,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711451,Nota,NOTA,19789,88,0.3,6,37,7,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711452,Wahengbam Pabitra Singh,IND,19781,62,0.21,7,37,7,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711453,M. Totomshana Nongshaba,IND,19781,38,0.13,8,37,7,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711454,Senjam Nandeshwore Singh,RJSNP,19796,31,0.1,9,37,7,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711455,Dr. G. Tonsana Sharma,MDPF,19788,25,0.08,10,37,7,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711456,Md. Iliyash Khan,IND,19781,18,0.06,11,37,7,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711457,Oinam Jugindro Singh,MPEP,19795,14,0.05,12,37,7,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711458,Moirangthem Nara Singh,CPI,19778,6775,29.82,1,37,8,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711459,Dr Rajkumar Ranjan Singh,BJP,19780,6334,27.88,2,37,8,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711460,Oinam Nabakishore Singh,INC,19777,5185,22.82,3,37,8,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711461,Rajkumar Somendro Singh (Kaiku),IND,19781,3711,16.33,4,37,8,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711462,R.K. Anand,NEINDP,19794,348,1.53,5,37,8,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711463,Wahengbam Pabitra Singh,IND,19781,82,0.36,6,37,8,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711464,Nota,NOTA,19789,81,0.36,7,37,8,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711465,Senjam Nandeshwore Singh,RJSNP,19796,71,0.31,8,37,8,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711466,Dr. G. Tonsana Sharma,MDPF,19788,44,0.19,9,37,8,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711467,M. Totomshana Nongshaba,IND,19781,43,0.19,10,37,8,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711468,Oinam Jugindro Singh,MPEP,19795,36,0.16,11,37,8,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711469,Md. Iliyash Khan,IND,19781,9,0.04,12,37,8,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711470,Dr Rajkumar Ranjan Singh,BJP,19780,6161,30.71,1,37,9,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711471,Oinam Nabakishore Singh,INC,19777,5232,26.08,2,37,9,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711472,Moirangthem Nara Singh,CPI,19778,4224,21.05,3,37,9,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711473,Rajkumar Somendro Singh (Kaiku),IND,19781,3844,19.16,4,37,9,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711474,R.K. Anand,NEINDP,19794,375,1.87,5,37,9,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711475,Nota,NOTA,19789,76,0.38,6,37,9,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711476,Senjam Nandeshwore Singh,RJSNP,19796,48,0.24,7,37,9,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711477,Wahengbam Pabitra Singh,IND,19781,33,0.16,8,37,9,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711478,M. Totomshana Nongshaba,IND,19781,24,0.12,9,37,9,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711479,Oinam Jugindro Singh,MPEP,19795,22,0.11,10,37,9,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711480,Dr. G. Tonsana Sharma,MDPF,19788,20,0.1,11,37,9,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711481,Md. Iliyash Khan,IND,19781,5,0.02,12,37,9,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711482,Moirangthem Nara Singh,CPI,19778,7032,40.99,1,37,10,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711483,Dr Rajkumar Ranjan Singh,BJP,19780,3583,20.88,2,37,10,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711484,Oinam Nabakishore Singh,INC,19777,3335,19.44,3,37,10,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711485,Rajkumar Somendro Singh (Kaiku),IND,19781,2349,13.69,4,37,10,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711486,R.K. Anand,NEINDP,19794,640,3.73,5,37,10,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711487,Nota,NOTA,19789,69,0.4,6,37,10,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711488,Dr. G. Tonsana Sharma,MDPF,19788,44,0.26,7,37,10,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711489,Wahengbam Pabitra Singh,IND,19781,37,0.22,8,37,10,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711490,M. Totomshana Nongshaba,IND,19781,27,0.16,9,37,10,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711491,Oinam Jugindro Singh,MPEP,19795,25,0.15,10,37,10,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711492,Senjam Nandeshwore Singh,RJSNP,19796,10,0.06,11,37,10,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711493,Md. Iliyash Khan,IND,19781,5,0.03,12,37,10,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711494,Dr Rajkumar Ranjan Singh,BJP,19780,5358,32.44,1,37,11,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711495,Moirangthem Nara Singh,CPI,19778,4994,30.24,2,37,11,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711496,Oinam Nabakishore Singh,INC,19777,3586,21.71,3,37,11,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711497,Rajkumar Somendro Singh (Kaiku),IND,19781,1769,10.71,4,37,11,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711498,R.K. Anand,NEINDP,19794,640,3.88,5,37,11,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711499,Nota,NOTA,19789,80,0.48,6,37,11,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711500,Oinam Jugindro Singh,MPEP,19795,24,0.15,7,37,11,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711501,Wahengbam Pabitra Singh,IND,19781,20,0.12,8,37,11,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711502,M. Totomshana Nongshaba,IND,19781,17,0.1,9,37,11,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711503,Senjam Nandeshwore Singh,RJSNP,19796,13,0.08,10,37,11,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711504,Dr. G. Tonsana Sharma,MDPF,19788,11,0.07,11,37,11,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711505,Md. Iliyash Khan,IND,19781,4,0.02,12,37,11,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711506,Moirangthem Nara Singh,CPI,19778,7693,37.18,1,37,12,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711507,Oinam Nabakishore Singh,INC,19777,5230,25.28,2,37,12,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711508,Dr Rajkumar Ranjan Singh,BJP,19780,4299,20.78,3,37,12,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711509,Rajkumar Somendro Singh (Kaiku),IND,19781,2636,12.74,4,37,12,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711510,R.K. Anand,NEINDP,19794,628,3.04,5,37,12,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711511,Nota,NOTA,19789,89,0.43,6,37,12,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711512,Oinam Jugindro Singh,MPEP,19795,42,0.2,7,37,12,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711513,Wahengbam Pabitra Singh,IND,19781,27,0.13,8,37,12,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711514,M. Totomshana Nongshaba,IND,19781,21,0.1,9,37,12,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711515,Dr. G. Tonsana Sharma,MDPF,19788,13,0.06,10,37,12,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711516,Senjam Nandeshwore Singh,RJSNP,19796,10,0.05,11,37,12,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711517,Md. Iliyash Khan,IND,19781,2,0.01,12,37,12,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711518,Dr Rajkumar Ranjan Singh,BJP,19780,6161,37.54,1,37,13,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711519,Moirangthem Nara Singh,CPI,19778,5989,36.49,2,37,13,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711520,Oinam Nabakishore Singh,INC,19777,2843,17.32,3,37,13,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711521,Rajkumar Somendro Singh (Kaiku),IND,19781,1079,6.57,4,37,13,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711522,R.K. Anand,NEINDP,19794,229,1.4,5,37,13,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711523,Nota,NOTA,19789,49,0.3,6,37,13,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711524,Oinam Jugindro Singh,MPEP,19795,20,0.12,7,37,13,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711525,Wahengbam Pabitra Singh,IND,19781,16,0.1,8,37,13,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711526,M. Totomshana Nongshaba,IND,19781,10,0.06,9,37,13,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711527,Senjam Nandeshwore Singh,RJSNP,19796,9,0.05,10,37,13,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711528,Dr. G. Tonsana Sharma,MDPF,19788,7,0.04,11,37,13,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711529,Md. Iliyash Khan,IND,19781,2,0.01,12,37,13,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711530,Dr Rajkumar Ranjan Singh,BJP,19780,7025,35.34,1,37,14,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711531,Moirangthem Nara Singh,CPI,19778,5529,27.81,2,37,14,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711532,Oinam Nabakishore Singh,INC,19777,4581,23.04,3,37,14,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711533,Rajkumar Somendro Singh (Kaiku),IND,19781,1968,9.9,4,37,14,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711534,R.K. Anand,NEINDP,19794,563,2.83,5,37,14,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711535,Nota,NOTA,19789,105,0.53,6,37,14,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711536,Wahengbam Pabitra Singh,IND,19781,40,0.2,7,37,14,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711537,Oinam Jugindro Singh,MPEP,19795,23,0.12,8,37,14,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711538,Dr. G. Tonsana Sharma,MDPF,19788,17,0.09,9,37,14,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711539,M. Totomshana Nongshaba,IND,19781,13,0.07,10,37,14,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711540,Md. Iliyash Khan,IND,19781,8,0.04,11,37,14,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711541,Senjam Nandeshwore Singh,RJSNP,19796,7,0.04,12,37,14,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711542,Oinam Nabakishore Singh,INC,19777,10773,41.02,1,37,15,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711543,Dr Rajkumar Ranjan Singh,BJP,19780,7952,30.28,2,37,15,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711544,Moirangthem Nara Singh,CPI,19778,4656,17.73,3,37,15,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711545,Rajkumar Somendro Singh (Kaiku),IND,19781,2372,9.03,4,37,15,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711546,R.K. Anand,NEINDP,19794,280,1.07,5,37,15,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711547,Nota,NOTA,19789,88,0.34,6,37,15,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711548,Wahengbam Pabitra Singh,IND,19781,45,0.17,7,37,15,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711549,M. Totomshana Nongshaba,IND,19781,26,0.1,8,37,15,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711550,Oinam Jugindro Singh,MPEP,19795,25,0.1,9,37,15,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711551,Md. Iliyash Khan,IND,19781,20,0.08,10,37,15,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711552,Senjam Nandeshwore Singh,RJSNP,19796,18,0.07,11,37,15,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711553,Dr. G. Tonsana Sharma,MDPF,19788,8,0.03,12,37,15,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711554,Dr Rajkumar Ranjan Singh,BJP,19780,9139,43.82,1,37,16,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711555,Oinam Nabakishore Singh,INC,19777,4805,23.04,2,37,16,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711556,Rajkumar Somendro Singh (Kaiku),IND,19781,3103,14.88,3,37,16,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711557,Moirangthem Nara Singh,CPI,19778,2759,13.23,4,37,16,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711558,R.K. Anand,NEINDP,19794,542,2.6,5,37,16,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711559,Dr. G. Tonsana Sharma,MDPF,19788,134,0.64,6,37,16,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711560,Nota,NOTA,19789,119,0.57,7,37,16,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711561,Wahengbam Pabitra Singh,IND,19781,86,0.41,8,37,16,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711562,M. Totomshana Nongshaba,IND,19781,58,0.28,9,37,16,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711563,Oinam Jugindro Singh,MPEP,19795,47,0.23,10,37,16,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711564,Senjam Nandeshwore Singh,RJSNP,19796,40,0.19,11,37,16,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711565,Md. Iliyash Khan,IND,19781,26,0.12,12,37,16,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711566,Dr Rajkumar Ranjan Singh,BJP,19780,11026,41.87,1,37,17,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711567,Oinam Nabakishore Singh,INC,19777,7629,28.97,2,37,17,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711568,Moirangthem Nara Singh,CPI,19778,3686,14.0,3,37,17,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711569,Rajkumar Somendro Singh (Kaiku),IND,19781,3306,12.55,4,37,17,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711570,R.K. Anand,NEINDP,19794,314,1.19,5,37,17,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711571,Dr. G. Tonsana Sharma,MDPF,19788,127,0.48,6,37,17,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711572,Nota,NOTA,19789,97,0.37,7,37,17,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711573,Wahengbam Pabitra Singh,IND,19781,50,0.19,8,37,17,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711574,M. Totomshana Nongshaba,IND,19781,37,0.14,9,37,17,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711575,Senjam Nandeshwore Singh,RJSNP,19796,28,0.11,10,37,17,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711576,Oinam Jugindro Singh,MPEP,19795,24,0.09,11,37,17,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711577,Md. Iliyash Khan,IND,19781,11,0.04,12,37,17,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711578,Dr Rajkumar Ranjan Singh,BJP,19780,11322,47.9,1,37,18,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711579,Moirangthem Nara Singh,CPI,19778,3561,15.06,2,37,18,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711580,Oinam Nabakishore Singh,INC,19777,3194,13.51,3,37,18,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711581,R.K. Anand,NEINDP,19794,2762,11.68,4,37,18,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711582,Rajkumar Somendro Singh (Kaiku),IND,19781,2478,10.48,5,37,18,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711583,Nota,NOTA,19789,86,0.36,6,37,18,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711584,Dr. G. Tonsana Sharma,MDPF,19788,74,0.31,7,37,18,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711585,Wahengbam Pabitra Singh,IND,19781,48,0.2,8,37,18,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711586,M. Totomshana Nongshaba,IND,19781,41,0.17,9,37,18,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711587,Oinam Jugindro Singh,MPEP,19795,37,0.16,10,37,18,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711588,Senjam Nandeshwore Singh,RJSNP,19796,26,0.11,11,37,18,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711589,Md. Iliyash Khan,IND,19781,9,0.04,12,37,18,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711590,Oinam Nabakishore Singh,INC,19777,9235,33.21,1,37,19,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711591,Moirangthem Nara Singh,CPI,19778,6937,24.94,2,37,19,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711592,Rajkumar Somendro Singh (Kaiku),IND,19781,4286,15.41,3,37,19,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711593,Dr Rajkumar Ranjan Singh,BJP,19780,4110,14.78,4,37,19,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711594,R.K. Anand,NEINDP,19794,2904,10.44,5,37,19,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711595,Nota,NOTA,19789,135,0.49,6,37,19,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711596,Wahengbam Pabitra Singh,IND,19781,59,0.21,7,37,19,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711597,Oinam Jugindro Singh,MPEP,19795,50,0.18,8,37,19,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711598,Dr. G. Tonsana Sharma,MDPF,19788,41,0.15,9,37,19,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711599,M. Totomshana Nongshaba,IND,19781,33,0.12,10,37,19,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711600,Senjam Nandeshwore Singh,RJSNP,19796,15,0.05,11,37,19,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711601,Md. Iliyash Khan,IND,19781,5,0.02,12,37,19,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711602,Dr Rajkumar Ranjan Singh,BJP,19780,8930,39.26,1,37,20,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711603,Oinam Nabakishore Singh,INC,19777,5705,25.08,2,37,20,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711604,Moirangthem Nara Singh,CPI,19778,5233,23.01,3,37,20,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711605,Rajkumar Somendro Singh (Kaiku),IND,19781,2334,10.26,4,37,20,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711606,R.K. Anand,NEINDP,19794,302,1.33,5,37,20,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711607,Nota,NOTA,19789,92,0.4,6,37,20,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711608,Oinam Jugindro Singh,MPEP,19795,53,0.23,7,37,20,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711609,Wahengbam Pabitra Singh,IND,19781,35,0.15,8,37,20,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711610,M. Totomshana Nongshaba,IND,19781,18,0.08,9,37,20,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711611,Senjam Nandeshwore Singh,RJSNP,19796,16,0.07,10,37,20,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711612,Dr. G. Tonsana Sharma,MDPF,19788,15,0.07,11,37,20,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711613,Md. Iliyash Khan,IND,19781,11,0.05,12,37,20,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711614,Dr Rajkumar Ranjan Singh,BJP,19780,9352,33.46,1,37,21,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711615,Oinam Nabakishore Singh,INC,19777,7009,25.08,2,37,21,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711616,Moirangthem Nara Singh,CPI,19778,4884,17.47,3,37,21,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711617,Rajkumar Somendro Singh (Kaiku),IND,19781,3633,13.0,4,37,21,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711618,R.K. Anand,NEINDP,19794,2730,9.77,5,37,21,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711619,Nota,NOTA,19789,87,0.31,6,37,21,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711620,Dr. G. Tonsana Sharma,MDPF,19788,64,0.23,7,37,21,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711621,Oinam Jugindro Singh,MPEP,19795,62,0.22,8,37,21,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711622,Wahengbam Pabitra Singh,IND,19781,50,0.18,9,37,21,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711623,M. Totomshana Nongshaba,IND,19781,40,0.14,10,37,21,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711624,Senjam Nandeshwore Singh,RJSNP,19796,24,0.09,11,37,21,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711625,Md. Iliyash Khan,IND,19781,15,0.05,12,37,21,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711626,Dr Rajkumar Ranjan Singh,BJP,19780,8662,36.74,1,37,22,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711627,Oinam Nabakishore Singh,INC,19777,7874,33.4,2,37,22,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711628,Moirangthem Nara Singh,CPI,19778,2980,12.64,3,37,22,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711629,Rajkumar Somendro Singh (Kaiku),IND,19781,2805,11.9,4,37,22,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711630,R.K. Anand,NEINDP,19794,594,2.52,5,37,22,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711631,Oinam Jugindro Singh,MPEP,19795,416,1.76,6,37,22,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711632,Nota,NOTA,19789,63,0.27,7,37,22,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711633,Wahengbam Pabitra Singh,IND,19781,54,0.23,8,37,22,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711634,Md. Iliyash Khan,IND,19781,44,0.19,9,37,22,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711635,Senjam Nandeshwore Singh,RJSNP,19796,33,0.14,10,37,22,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711636,M. Totomshana Nongshaba,IND,19781,27,0.11,11,37,22,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711637,Dr. G. Tonsana Sharma,MDPF,19788,25,0.11,12,37,22,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711638,Oinam Nabakishore Singh,INC,19777,10947,45.58,1,37,23,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711639,Dr Rajkumar Ranjan Singh,BJP,19780,8516,35.46,2,37,23,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711640,Moirangthem Nara Singh,CPI,19778,2362,9.84,3,37,23,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711641,Rajkumar Somendro Singh (Kaiku),IND,19781,1482,6.17,4,37,23,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711642,R.K. Anand,NEINDP,19794,420,1.75,5,37,23,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711643,Nota,NOTA,19789,75,0.31,6,37,23,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711644,Oinam Jugindro Singh,MPEP,19795,65,0.27,7,37,23,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711645,Dr. G. Tonsana Sharma,MDPF,19788,42,0.17,8,37,23,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711646,Wahengbam Pabitra Singh,IND,19781,37,0.15,9,37,23,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711647,M. Totomshana Nongshaba,IND,19781,30,0.12,10,37,23,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711648,Md. Iliyash Khan,IND,19781,22,0.09,11,37,23,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711649,Senjam Nandeshwore Singh,RJSNP,19796,17,0.07,12,37,23,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711650,Oinam Nabakishore Singh,INC,19777,12444,46.13,1,37,24,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711651,Dr Rajkumar Ranjan Singh,BJP,19780,10950,40.59,2,37,24,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711652,Moirangthem Nara Singh,CPI,19778,1756,6.51,3,37,24,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711653,Rajkumar Somendro Singh (Kaiku),IND,19781,1482,5.49,4,37,24,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711654,R.K. Anand,NEINDP,19794,155,0.57,5,37,24,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711655,Nota,NOTA,19789,61,0.23,6,37,24,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711656,Dr. G. Tonsana Sharma,MDPF,19788,48,0.18,7,37,24,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711657,Oinam Jugindro Singh,MPEP,19795,31,0.11,8,37,24,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711658,Wahengbam Pabitra Singh,IND,19781,21,0.08,9,37,24,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711659,M. Totomshana Nongshaba,IND,19781,15,0.06,10,37,24,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711660,Senjam Nandeshwore Singh,RJSNP,19796,8,0.03,11,37,24,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711661,Md. Iliyash Khan,IND,19781,6,0.02,12,37,24,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711662,Dr Rajkumar Ranjan Singh,BJP,19780,7384,35.0,1,37,25,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711663,R.K. Anand,NEINDP,19794,3766,17.85,2,37,25,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711664,Oinam Nabakishore Singh,INC,19777,3519,16.68,3,37,25,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711665,Rajkumar Somendro Singh (Kaiku),IND,19781,3204,15.19,4,37,25,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711666,Moirangthem Nara Singh,CPI,19778,2909,13.79,5,37,25,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711667,Oinam Jugindro Singh,MPEP,19795,98,0.46,6,37,25,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711668,Dr. G. Tonsana Sharma,MDPF,19788,79,0.37,7,37,25,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711669,Nota,NOTA,19789,46,0.22,8,37,25,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711670,Wahengbam Pabitra Singh,IND,19781,37,0.18,9,37,25,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711671,Senjam Nandeshwore Singh,RJSNP,19796,27,0.13,10,37,25,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711672,M. Totomshana Nongshaba,IND,19781,19,0.09,11,37,25,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711673,Md. Iliyash Khan,IND,19781,9,0.04,12,37,25,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711674,Oinam Nabakishore Singh,INC,19777,9033,37.83,1,37,26,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711675,Dr Rajkumar Ranjan Singh,BJP,19780,8360,35.02,2,37,26,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711676,Rajkumar Somendro Singh (Kaiku),IND,19781,3725,15.6,3,37,26,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711677,Moirangthem Nara Singh,CPI,19778,1964,8.23,4,37,26,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711678,R.K. Anand,NEINDP,19794,546,2.29,5,37,26,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711679,Nota,NOTA,19789,96,0.4,6,37,26,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711680,Wahengbam Pabitra Singh,IND,19781,46,0.19,7,37,26,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711681,M. Totomshana Nongshaba,IND,19781,34,0.14,8,37,26,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711682,Oinam Jugindro Singh,MPEP,19795,24,0.1,9,37,26,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711683,Senjam Nandeshwore Singh,RJSNP,19796,17,0.07,10,37,26,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711684,Md. Iliyash Khan,IND,19781,16,0.07,11,37,26,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711685,Dr. G. Tonsana Sharma,MDPF,19788,14,0.06,12,37,26,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711686,Oinam Nabakishore Singh,INC,19777,12450,44.84,1,37,27,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711687,Dr Rajkumar Ranjan Singh,BJP,19780,7526,27.11,2,37,27,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711688,Moirangthem Nara Singh,CPI,19778,5311,19.13,3,37,27,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711689,Rajkumar Somendro Singh (Kaiku),IND,19781,1891,6.81,4,37,27,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711690,R.K. Anand,NEINDP,19794,346,1.25,5,37,27,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711691,Nota,NOTA,19789,72,0.26,6,37,27,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711692,Wahengbam Pabitra Singh,IND,19781,70,0.25,7,37,27,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711693,M. Totomshana Nongshaba,IND,19781,29,0.1,8,37,27,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711694,Senjam Nandeshwore Singh,RJSNP,19796,25,0.09,9,37,27,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711695,Oinam Jugindro Singh,MPEP,19795,19,0.07,10,37,27,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711696,Md. Iliyash Khan,IND,19781,14,0.05,11,37,27,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711697,Dr. G. Tonsana Sharma,MDPF,19788,13,0.05,12,37,27,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711698,Dr Rajkumar Ranjan Singh,BJP,19780,7246,48.13,1,37,28,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711699,Oinam Nabakishore Singh,INC,19777,3684,24.47,2,37,28,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711700,Rajkumar Somendro Singh (Kaiku),IND,19781,2007,13.33,3,37,28,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711701,Moirangthem Nara Singh,CPI,19778,1214,8.06,4,37,28,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711702,R.K. Anand,NEINDP,19794,648,4.3,5,37,28,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711703,Oinam Jugindro Singh,MPEP,19795,89,0.59,6,37,28,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711704,Nota,NOTA,19789,50,0.33,7,37,28,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711705,M. Totomshana Nongshaba,IND,19781,34,0.23,8,37,28,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711706,Dr. G. Tonsana Sharma,MDPF,19788,33,0.22,9,37,28,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711707,Wahengbam Pabitra Singh,IND,19781,26,0.17,10,37,28,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711708,Senjam Nandeshwore Singh,RJSNP,19796,16,0.11,11,37,28,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711709,Md. Iliyash Khan,IND,19781,9,0.06,12,37,28,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711710,Oinam Nabakishore Singh,INC,19777,7243,36.25,1,37,29,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711711,Dr Rajkumar Ranjan Singh,BJP,19780,5328,26.67,2,37,29,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711712,Rajkumar Somendro Singh (Kaiku),IND,19781,3870,19.37,3,37,29,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711713,Moirangthem Nara Singh,CPI,19778,2154,10.78,4,37,29,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711714,R.K. Anand,NEINDP,19794,1047,5.24,5,37,29,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711715,Dr. G. Tonsana Sharma,MDPF,19788,84,0.42,6,37,29,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711716,Oinam Jugindro Singh,MPEP,19795,58,0.29,7,37,29,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711717,Wahengbam Pabitra Singh,IND,19781,51,0.26,8,37,29,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711718,M. Totomshana Nongshaba,IND,19781,48,0.24,9,37,29,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711719,Nota,NOTA,19789,42,0.21,10,37,29,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711720,Senjam Nandeshwore Singh,RJSNP,19796,33,0.17,11,37,29,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711721,Md. Iliyash Khan,IND,19781,23,0.12,12,37,29,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711722,Oinam Nabakishore Singh,INC,19777,16333,59.79,1,37,30,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711723,Dr Rajkumar Ranjan Singh,BJP,19780,5838,21.37,2,37,30,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711724,Moirangthem Nara Singh,CPI,19778,3250,11.9,3,37,30,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711725,Rajkumar Somendro Singh (Kaiku),IND,19781,1318,4.82,4,37,30,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711726,R.K. Anand,NEINDP,19794,154,0.56,5,37,30,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711727,Oinam Jugindro Singh,MPEP,19795,130,0.48,6,37,30,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711728,Nota,NOTA,19789,79,0.29,7,37,30,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711729,Md. Iliyash Khan,IND,19781,68,0.25,8,37,30,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711730,Wahengbam Pabitra Singh,IND,19781,61,0.22,9,37,30,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711731,Senjam Nandeshwore Singh,RJSNP,19796,48,0.18,10,37,30,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711732,M. Totomshana Nongshaba,IND,19781,31,0.11,11,37,30,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711733,Dr. G. Tonsana Sharma,MDPF,19788,7,0.03,12,37,30,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711734,Oinam Nabakishore Singh,INC,19777,16124,63.05,1,37,31,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711735,Dr Rajkumar Ranjan Singh,BJP,19780,4493,17.57,2,37,31,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711736,Moirangthem Nara Singh,CPI,19778,4027,15.75,3,37,31,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711737,Rajkumar Somendro Singh (Kaiku),IND,19781,687,2.69,4,37,31,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711738,Nota,NOTA,19789,86,0.34,5,37,31,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711739,R.K. Anand,NEINDP,19794,41,0.16,6,37,31,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711740,Wahengbam Pabitra Singh,IND,19781,34,0.13,7,37,31,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711741,Oinam Jugindro Singh,MPEP,19795,30,0.12,8,37,31,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711742,Senjam Nandeshwore Singh,RJSNP,19796,19,0.07,9,37,31,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711743,Md. Iliyash Khan,IND,19781,13,0.05,10,37,31,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711744,M. Totomshana Nongshaba,IND,19781,13,0.05,10,37,31,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711745,Dr. G. Tonsana Sharma,MDPF,19788,8,0.03,12,37,31,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711746,Oinam Nabakishore Singh,INC,19777,13479,51.63,1,37,32,MN,Oinam Nabakishore Singh,INC,,,,,True,37,2019,GE
+1711747,Moirangthem Nara Singh,CPI,19778,5713,21.88,2,37,32,MN,Moirangthem Nara Singh,CPI,,,,,False,37,2019,GE
+1711748,Dr Rajkumar Ranjan Singh,BJP,19780,4338,16.62,3,37,32,MN,Dr Rajkumar Ranjan Singh,BJP,,,,,False,37,2019,GE
+1711749,Rajkumar Somendro Singh (Kaiku),IND,19781,2008,7.69,4,37,32,MN,Rajkumar Somendro Singh (Kaiku),IND,,,,,False,37,2019,GE
+1711750,R.K. Anand,NEINDP,19794,320,1.23,5,37,32,MN,R.K. Anand,NEINDP,,,,,False,37,2019,GE
+1711751,Nota,NOTA,19789,68,0.26,6,37,32,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711752,Wahengbam Pabitra Singh,IND,19781,64,0.25,7,37,32,MN,Wahengbam Pabitra Singh,IND,,,,,False,37,2019,GE
+1711753,Oinam Jugindro Singh,MPEP,19795,34,0.13,8,37,32,MN,Oinam Jugindro Singh,MPEP,,,,,False,37,2019,GE
+1711754,M. Totomshana Nongshaba,IND,19781,33,0.13,9,37,32,MN,M. Totomshana Nongshaba,IND,,,,,False,37,2019,GE
+1711755,Dr. G. Tonsana Sharma,MDPF,19788,22,0.08,10,37,32,MN,Dr. G. Tonsana Sharma,MDPF,,,,,False,37,2019,GE
+1711756,Senjam Nandeshwore Singh,RJSNP,19796,19,0.07,11,37,32,MN,Senjam Nandeshwore Singh,RJSNP,,,,,False,37,2019,GE
+1711757,Md. Iliyash Khan,IND,19781,7,0.03,12,37,32,MN,Md. Iliyash Khan,IND,,,,,False,37,2019,GE
+1711758,Houlim Shokhopao Mate,BJP,19780,10328,39.63,1,37,33,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711759,K. James,INC,19777,9994,38.35,2,37,33,MN,K. James,INC,,,,,True,37,2019,GE
+1711760,Ashang Kasar,NEINDP,19794,4573,17.55,3,37,33,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711761,Thangminlien Kipgen,NPEP,19797,447,1.72,4,37,33,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711762,Lorho S. Pfoze,NPF,19792,402,1.54,5,37,33,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711763,Nota,NOTA,19789,173,0.66,6,37,33,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711764,Angam Karung Kom,NCP,19783,54,0.21,7,37,33,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711765,Leikhan Kaipu,IND,19781,47,0.18,8,37,33,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711766,Hangkhanpau Taithul,JD(U),19793,42,0.16,9,37,33,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711767,K. James,INC,19777,11947,50.09,1,37,34,MN,K. James,INC,,,,,True,37,2019,GE
+1711768,Houlim Shokhopao Mate,BJP,19780,6670,27.97,2,37,34,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711769,Thangminlien Kipgen,NPEP,19797,2608,10.94,3,37,34,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711770,Lorho S. Pfoze,NPF,19792,1467,6.15,4,37,34,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711771,Ashang Kasar,NEINDP,19794,479,2.01,5,37,34,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711772,Nota,NOTA,19789,299,1.25,6,37,34,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711773,Hangkhanpau Taithul,JD(U),19793,241,1.01,7,37,34,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711774,Leikhan Kaipu,IND,19781,75,0.31,8,37,34,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711775,Angam Karung Kom,NCP,19783,63,0.26,9,37,34,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711776,K. James,INC,19777,20279,67.53,1,37,35,MN,K. James,INC,,,,,True,37,2019,GE
+1711777,Houlim Shokhopao Mate,BJP,19780,8449,28.14,2,37,35,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711778,Thangminlien Kipgen,NPEP,19797,426,1.42,3,37,35,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711779,Lorho S. Pfoze,NPF,19792,336,1.12,4,37,35,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711780,Nota,NOTA,19789,207,0.69,5,37,35,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711781,Ashang Kasar,NEINDP,19794,152,0.51,6,37,35,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711782,Angam Karung Kom,NCP,19783,72,0.24,7,37,35,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711783,Hangkhanpau Taithul,JD(U),19793,68,0.23,8,37,35,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711784,Leikhan Kaipu,IND,19781,39,0.13,9,37,35,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711785,K. James,INC,19777,13334,55.16,1,37,36,MN,K. James,INC,,,,,True,37,2019,GE
+1711786,Houlim Shokhopao Mate,BJP,19780,5573,23.06,2,37,36,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711787,Lorho S. Pfoze,NPF,19792,1713,7.09,3,37,36,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711788,Ashang Kasar,NEINDP,19794,1694,7.01,4,37,36,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711789,Thangminlien Kipgen,NPEP,19797,1451,6.0,5,37,36,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711790,Nota,NOTA,19789,200,0.83,6,37,36,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711791,Hangkhanpau Taithul,JD(U),19793,86,0.36,7,37,36,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711792,Angam Karung Kom,NCP,19783,75,0.31,8,37,36,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711793,Leikhan Kaipu,IND,19781,46,0.19,9,37,36,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711794,Houlim Shokhopao Mate,BJP,19780,8433,43.44,1,37,37,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711795,K. James,INC,19777,7803,40.2,2,37,37,MN,K. James,INC,,,,,True,37,2019,GE
+1711796,Thangminlien Kipgen,NPEP,19797,1383,7.12,3,37,37,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711797,Lorho S. Pfoze,NPF,19792,692,3.56,4,37,37,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711798,Ashang Kasar,NEINDP,19794,481,2.48,5,37,37,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711799,Nota,NOTA,19789,429,2.21,6,37,37,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711800,Angam Karung Kom,NCP,19783,72,0.37,7,37,37,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711801,Leikhan Kaipu,IND,19781,72,0.37,7,37,37,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711802,Hangkhanpau Taithul,JD(U),19793,47,0.24,9,37,37,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711803,K. James,INC,19777,7999,40.42,1,37,38,MN,K. James,INC,,,,,True,37,2019,GE
+1711804,Houlim Shokhopao Mate,BJP,19780,7482,37.8,2,37,38,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711805,Thangminlien Kipgen,NPEP,19797,1991,10.06,3,37,38,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711806,Ashang Kasar,NEINDP,19794,1563,7.9,4,37,38,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711807,Lorho S. Pfoze,NPF,19792,382,1.93,5,37,38,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711808,Nota,NOTA,19789,170,0.86,6,37,38,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711809,Hangkhanpau Taithul,JD(U),19793,115,0.58,7,37,38,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711810,Angam Karung Kom,NCP,19783,49,0.25,8,37,38,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711811,Leikhan Kaipu,IND,19781,41,0.21,9,37,38,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711812,K. James,INC,19777,9025,46.0,1,37,39,MN,K. James,INC,,,,,True,37,2019,GE
+1711813,Houlim Shokhopao Mate,BJP,19780,8250,42.05,2,37,39,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711814,Lorho S. Pfoze,NPF,19792,908,4.63,3,37,39,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711815,Thangminlien Kipgen,NPEP,19797,727,3.71,4,37,39,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711816,Ashang Kasar,NEINDP,19794,313,1.6,5,37,39,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711817,Nota,NOTA,19789,198,1.01,6,37,39,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711818,Hangkhanpau Taithul,JD(U),19793,83,0.42,7,37,39,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711819,Leikhan Kaipu,IND,19781,60,0.31,8,37,39,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711820,Angam Karung Kom,NCP,19783,57,0.29,9,37,39,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711821,Houlim Shokhopao Mate,BJP,19780,8070,43.0,1,37,40,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711822,K. James,INC,19777,7545,40.2,2,37,40,MN,K. James,INC,,,,,True,37,2019,GE
+1711823,Thangminlien Kipgen,NPEP,19797,1255,6.69,3,37,40,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711824,Ashang Kasar,NEINDP,19794,752,4.01,4,37,40,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711825,Lorho S. Pfoze,NPF,19792,550,2.93,5,37,40,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711826,Nota,NOTA,19789,242,1.29,6,37,40,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711827,Hangkhanpau Taithul,JD(U),19793,122,0.65,7,37,40,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711828,Leikhan Kaipu,IND,19781,117,0.62,8,37,40,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711829,Angam Karung Kom,NCP,19783,116,0.62,9,37,40,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711830,Lorho S. Pfoze,NPF,19792,20040,47.29,1,37,41,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711831,Houlim Shokhopao Mate,BJP,19780,18470,43.59,2,37,41,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711832,Thangminlien Kipgen,NPEP,19797,2552,6.02,3,37,41,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711833,K. James,INC,19777,813,1.92,4,37,41,MN,K. James,INC,,,,,True,37,2019,GE
+1711834,Hangkhanpau Taithul,JD(U),19793,310,0.73,5,37,41,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711835,Ashang Kasar,NEINDP,19794,82,0.19,6,37,41,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711836,Angam Karung Kom,NCP,19783,62,0.15,7,37,41,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711837,Leikhan Kaipu,IND,19781,25,0.06,8,37,41,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711838,Nota,NOTA,19789,21,0.05,9,37,41,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711839,Lorho S. Pfoze,NPF,19792,20112,48.05,1,37,42,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711840,Houlim Shokhopao Mate,BJP,19780,18012,43.04,2,37,42,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711841,K. James,INC,19777,2469,5.9,3,37,42,MN,K. James,INC,,,,,True,37,2019,GE
+1711842,Thangminlien Kipgen,NPEP,19797,763,1.82,4,37,42,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711843,Ashang Kasar,NEINDP,19794,324,0.77,5,37,42,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711844,Angam Karung Kom,NCP,19783,54,0.13,6,37,42,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711845,Nota,NOTA,19789,51,0.12,7,37,42,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711846,Leikhan Kaipu,IND,19781,38,0.09,8,37,42,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711847,Hangkhanpau Taithul,JD(U),19793,31,0.07,9,37,42,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711848,Lorho S. Pfoze,NPF,19792,24793,87.69,1,37,43,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711849,K. James,INC,19777,2074,7.34,2,37,43,MN,K. James,INC,,,,,True,37,2019,GE
+1711850,Houlim Shokhopao Mate,BJP,19780,887,3.14,3,37,43,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711851,Ashang Kasar,NEINDP,19794,352,1.25,4,37,43,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711852,Thangminlien Kipgen,NPEP,19797,128,0.45,5,37,43,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711853,Angam Karung Kom,NCP,19783,12,0.04,6,37,43,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711854,Hangkhanpau Taithul,JD(U),19793,11,0.04,7,37,43,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711855,Nota,NOTA,19789,11,0.04,7,37,43,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711856,Leikhan Kaipu,IND,19781,5,0.02,9,37,43,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711857,Lorho S. Pfoze,NPF,19792,33897,87.3,1,37,44,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711858,Houlim Shokhopao Mate,BJP,19780,3297,8.49,2,37,44,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711859,K. James,INC,19777,1448,3.73,3,37,44,MN,K. James,INC,,,,,True,37,2019,GE
+1711860,Ashang Kasar,NEINDP,19794,70,0.18,4,37,44,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711861,Thangminlien Kipgen,NPEP,19797,50,0.13,5,37,44,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711862,Hangkhanpau Taithul,JD(U),19793,22,0.06,6,37,44,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711863,Nota,NOTA,19789,20,0.05,7,37,44,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711864,Angam Karung Kom,NCP,19783,15,0.04,8,37,44,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711865,Leikhan Kaipu,IND,19781,7,0.02,9,37,44,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711866,Lorho S. Pfoze,NPF,19792,38037,97.31,1,37,45,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711867,K. James,INC,19777,770,1.97,2,37,45,MN,K. James,INC,,,,,True,37,2019,GE
+1711868,Houlim Shokhopao Mate,BJP,19780,131,0.34,3,37,45,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711869,Ashang Kasar,NEINDP,19794,53,0.14,4,37,45,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711870,Thangminlien Kipgen,NPEP,19797,44,0.11,5,37,45,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711871,Nota,NOTA,19789,24,0.06,6,37,45,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711872,Angam Karung Kom,NCP,19783,14,0.04,7,37,45,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711873,Leikhan Kaipu,IND,19781,9,0.02,8,37,45,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711874,Hangkhanpau Taithul,JD(U),19793,6,0.02,9,37,45,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711875,Houlim Shokhopao Mate,BJP,19780,21629,66.5,1,37,46,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711876,Lorho S. Pfoze,NPF,19792,6347,19.51,2,37,46,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711877,Thangminlien Kipgen,NPEP,19797,2047,6.29,3,37,46,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711878,K. James,INC,19777,1934,5.95,4,37,46,MN,K. James,INC,,,,,True,37,2019,GE
+1711879,Angam Karung Kom,NCP,19783,253,0.78,5,37,46,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711880,Ashang Kasar,NEINDP,19794,141,0.43,6,37,46,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711881,Hangkhanpau Taithul,JD(U),19793,121,0.37,7,37,46,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711882,Nota,NOTA,19789,32,0.1,8,37,46,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711883,Leikhan Kaipu,IND,19781,20,0.06,9,37,46,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711884,Lorho S. Pfoze,NPF,19792,46088,92.66,1,37,47,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711885,Houlim Shokhopao Mate,BJP,19780,2482,4.99,2,37,47,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711886,K. James,INC,19777,1102,2.22,3,37,47,MN,K. James,INC,,,,,True,37,2019,GE
+1711887,Ashang Kasar,NEINDP,19794,27,0.05,4,37,47,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711888,Thangminlien Kipgen,NPEP,19797,20,0.04,5,37,47,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711889,Angam Karung Kom,NCP,19783,6,0.01,6,37,47,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711890,Hangkhanpau Taithul,JD(U),19793,5,0.01,7,37,47,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711891,Leikhan Kaipu,IND,19781,5,0.01,7,37,47,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711892,Nota,NOTA,19789,4,0.01,9,37,47,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711893,Lorho S. Pfoze,NPF,19792,50013,98.62,1,37,48,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711894,K. James,INC,19777,453,0.89,2,37,48,MN,K. James,INC,,,,,True,37,2019,GE
+1711895,Houlim Shokhopao Mate,BJP,19780,103,0.2,3,37,48,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711896,Ashang Kasar,NEINDP,19794,54,0.11,4,37,48,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711897,Nota,NOTA,19789,27,0.05,5,37,48,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711898,Thangminlien Kipgen,NPEP,19797,25,0.05,6,37,48,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711899,Leikhan Kaipu,IND,19781,17,0.03,7,37,48,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711900,Angam Karung Kom,NCP,19783,12,0.02,8,37,48,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711901,Hangkhanpau Taithul,JD(U),19793,9,0.02,9,37,48,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711902,Lorho S. Pfoze,NPF,19792,37370,84.17,1,37,49,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711903,Houlim Shokhopao Mate,BJP,19780,6154,13.86,2,37,49,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711904,Thangminlien Kipgen,NPEP,19797,472,1.06,3,37,49,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711905,K. James,INC,19777,237,0.53,4,37,49,MN,K. James,INC,,,,,True,37,2019,GE
+1711906,Ashang Kasar,NEINDP,19794,57,0.13,5,37,49,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711907,Nota,NOTA,19789,51,0.11,6,37,49,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711908,Angam Karung Kom,NCP,19783,25,0.06,7,37,49,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711909,Leikhan Kaipu,IND,19781,18,0.04,8,37,49,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711910,Hangkhanpau Taithul,JD(U),19793,16,0.04,9,37,49,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711911,Houlim Shokhopao Mate,BJP,19780,15378,60.79,1,37,50,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711912,Lorho S. Pfoze,NPF,19792,5768,22.8,2,37,50,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711913,Thangminlien Kipgen,NPEP,19797,3365,13.3,3,37,50,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711914,K. James,INC,19777,357,1.41,4,37,50,MN,K. James,INC,,,,,True,37,2019,GE
+1711915,Ashang Kasar,NEINDP,19794,151,0.6,5,37,50,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711916,Nota,NOTA,19789,98,0.39,6,37,50,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711917,Leikhan Kaipu,IND,19781,65,0.26,7,37,50,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711918,Hangkhanpau Taithul,JD(U),19793,59,0.23,8,37,50,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711919,Angam Karung Kom,NCP,19783,56,0.22,9,37,50,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711920,Houlim Shokhopao Mate,BJP,19780,25337,63.55,1,37,51,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711921,Lorho S. Pfoze,NPF,19792,9717,24.37,2,37,51,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711922,Thangminlien Kipgen,NPEP,19797,2854,7.16,3,37,51,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711923,K. James,INC,19777,1274,3.2,4,37,51,MN,K. James,INC,,,,,True,37,2019,GE
+1711924,Angam Karung Kom,NCP,19783,282,0.71,5,37,51,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711925,Ashang Kasar,NEINDP,19794,190,0.48,6,37,51,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711926,Hangkhanpau Taithul,JD(U),19793,100,0.25,7,37,51,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711927,Nota,NOTA,19789,73,0.18,8,37,51,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711928,Leikhan Kaipu,IND,19781,45,0.11,9,37,51,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711929,Lorho S. Pfoze,NPF,19792,27360,78.47,1,37,52,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711930,Houlim Shokhopao Mate,BJP,19780,4254,12.2,2,37,52,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711931,K. James,INC,19777,2758,7.91,3,37,52,MN,K. James,INC,,,,,True,37,2019,GE
+1711932,Thangminlien Kipgen,NPEP,19797,332,0.95,4,37,52,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711933,Ashang Kasar,NEINDP,19794,89,0.26,5,37,52,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711934,Angam Karung Kom,NCP,19783,32,0.09,6,37,52,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711935,Nota,NOTA,19789,15,0.04,7,37,52,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711936,Hangkhanpau Taithul,JD(U),19793,14,0.04,8,37,52,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711937,Leikhan Kaipu,IND,19781,11,0.03,9,37,52,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711938,Lorho S. Pfoze,NPF,19792,15889,57.28,1,37,53,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711939,Houlim Shokhopao Mate,BJP,19780,8739,31.5,2,37,53,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711940,K. James,INC,19777,2980,10.74,3,37,53,MN,K. James,INC,,,,,True,37,2019,GE
+1711941,Ashang Kasar,NEINDP,19794,58,0.21,4,37,53,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711942,Thangminlien Kipgen,NPEP,19797,23,0.08,5,37,53,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711943,Angam Karung Kom,NCP,19783,21,0.08,6,37,53,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711944,Nota,NOTA,19789,19,0.07,7,37,53,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711945,Hangkhanpau Taithul,JD(U),19793,7,0.03,8,37,53,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711946,Leikhan Kaipu,IND,19781,5,0.02,9,37,53,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711947,Lorho S. Pfoze,NPF,19792,8807,41.0,1,37,54,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711948,K. James,INC,19777,7562,35.2,2,37,54,MN,K. James,INC,,,,,True,37,2019,GE
+1711949,Houlim Shokhopao Mate,BJP,19780,4832,22.49,3,37,54,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711950,Thangminlien Kipgen,NPEP,19797,119,0.55,4,37,54,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711951,Ashang Kasar,NEINDP,19794,74,0.34,5,37,54,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711952,Angam Karung Kom,NCP,19783,44,0.2,6,37,54,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711953,Nota,NOTA,19789,20,0.09,7,37,54,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711954,Hangkhanpau Taithul,JD(U),19793,12,0.06,8,37,54,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711955,Leikhan Kaipu,IND,19781,11,0.05,9,37,54,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711956,K. James,INC,19777,6894,53.68,1,37,55,MN,K. James,INC,,,,,True,37,2019,GE
+1711957,Houlim Shokhopao Mate,BJP,19780,3383,26.34,2,37,55,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711958,Thangminlien Kipgen,NPEP,19797,1839,14.32,3,37,55,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711959,Lorho S. Pfoze,NPF,19792,603,4.7,4,37,55,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711960,Angam Karung Kom,NCP,19783,41,0.32,5,37,55,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711961,Ashang Kasar,NEINDP,19794,28,0.22,6,37,55,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711962,Leikhan Kaipu,IND,19781,25,0.19,7,37,55,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711963,Hangkhanpau Taithul,JD(U),19793,16,0.12,8,37,55,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711964,Nota,NOTA,19789,14,0.11,9,37,55,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711965,Houlim Shokhopao Mate,BJP,19780,12729,80.67,1,37,56,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711966,K. James,INC,19777,2504,15.87,2,37,56,MN,K. James,INC,,,,,True,37,2019,GE
+1711967,Thangminlien Kipgen,NPEP,19797,335,2.12,3,37,56,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711968,Lorho S. Pfoze,NPF,19792,111,0.7,4,37,56,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711969,Hangkhanpau Taithul,JD(U),19793,35,0.22,5,37,56,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711970,Ashang Kasar,NEINDP,19794,34,0.22,6,37,56,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711971,Angam Karung Kom,NCP,19783,13,0.08,7,37,56,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711972,Nota,NOTA,19789,10,0.06,8,37,56,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711973,Leikhan Kaipu,IND,19781,9,0.06,9,37,56,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711974,Houlim Shokhopao Mate,BJP,19780,17743,68.18,1,37,57,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711975,K. James,INC,19777,3373,12.96,2,37,57,MN,K. James,INC,,,,,True,37,2019,GE
+1711976,Lorho S. Pfoze,NPF,19792,3277,12.59,3,37,57,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711977,Thangminlien Kipgen,NPEP,19797,944,3.63,4,37,57,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711978,Angam Karung Kom,NCP,19783,353,1.36,5,37,57,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711979,Hangkhanpau Taithul,JD(U),19793,199,0.76,6,37,57,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711980,Ashang Kasar,NEINDP,19794,65,0.25,7,37,57,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711981,Nota,NOTA,19789,53,0.2,8,37,57,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711982,Leikhan Kaipu,IND,19781,17,0.07,9,37,57,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711983,K. James,INC,19777,12453,41.93,1,37,58,MN,K. James,INC,,,,,True,37,2019,GE
+1711984,Houlim Shokhopao Mate,BJP,19780,8704,29.31,2,37,58,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711985,Lorho S. Pfoze,NPF,19792,6267,21.1,3,37,58,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711986,Thangminlien Kipgen,NPEP,19797,1384,4.66,4,37,58,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711987,Hangkhanpau Taithul,JD(U),19793,445,1.5,5,37,58,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711988,Angam Karung Kom,NCP,19783,157,0.53,6,37,58,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711989,Nota,NOTA,19789,140,0.47,7,37,58,MN,Nota,NOTA,,,,,False,37,2019,GE
+1711990,Ashang Kasar,NEINDP,19794,93,0.31,8,37,58,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711991,Leikhan Kaipu,IND,19781,56,0.19,9,37,58,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1711992,Houlim Shokhopao Mate,BJP,19780,30456,67.67,1,37,59,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1711993,K. James,INC,19777,9926,22.06,2,37,59,MN,K. James,INC,,,,,True,37,2019,GE
+1711994,Thangminlien Kipgen,NPEP,19797,2380,5.29,3,37,59,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1711995,Lorho S. Pfoze,NPF,19792,1541,3.42,4,37,59,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1711996,Hangkhanpau Taithul,JD(U),19793,409,0.91,5,37,59,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1711997,Angam Karung Kom,NCP,19783,123,0.27,6,37,59,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1711998,Ashang Kasar,NEINDP,19794,94,0.21,7,37,59,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1711999,Nota,NOTA,19789,38,0.08,8,37,59,MN,Nota,NOTA,,,,,False,37,2019,GE
+1712000,Leikhan Kaipu,IND,19781,37,0.08,9,37,59,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE
+1712001,Houlim Shokhopao Mate,BJP,19780,21083,88.83,1,37,60,MN,Houlim Shokhopao Mate,BJP,,,,,False,37,2019,GE
+1712002,K. James,INC,19777,1796,7.57,2,37,60,MN,K. James,INC,,,,,True,37,2019,GE
+1712003,Thangminlien Kipgen,NPEP,19797,297,1.25,3,37,60,MN,Thangminlien Kipgen,NPEP,,,,,False,37,2019,GE
+1712004,Hangkhanpau Taithul,JD(U),19793,248,1.04,4,37,60,MN,Hangkhanpau Taithul,JD(U),,,,,False,37,2019,GE
+1712005,Lorho S. Pfoze,NPF,19792,220,0.93,5,37,60,MN,Lorho S. Pfoze,NPF,,,,,False,37,2019,GE
+1712006,Ashang Kasar,NEINDP,19794,38,0.16,6,37,60,MN,Ashang Kasar,NEINDP,,,,,False,37,2019,GE
+1712007,Nota,NOTA,19789,29,0.12,7,37,60,MN,Nota,NOTA,,,,,False,37,2019,GE
+1712008,Angam Karung Kom,NCP,19783,12,0.05,8,37,60,MN,Angam Karung Kom,NCP,,,,,False,37,2019,GE
+1712009,Leikhan Kaipu,IND,19781,11,0.05,9,37,60,MN,Leikhan Kaipu,IND,,,,,False,37,2019,GE

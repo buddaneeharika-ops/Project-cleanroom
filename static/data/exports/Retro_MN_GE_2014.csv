@@ -1,0 +1,597 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1710778,Dr. Thokchom Meinya,INC,19777,11809,63.89,1,21,1,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710779,Moirangthem Nara,CPI,19778,3761,20.35,2,21,1,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710780,R.K. Ranjan Singh,BJP,19780,1618,8.75,3,21,1,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710781,Sarangthem Manaobi,AITC,19787,812,4.39,4,21,1,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710782,Indira Oinam,IND,19781,161,0.87,5,21,1,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710783,Dr. Gurumayum Tonsana Sharma,MDPF,19788,130,0.7,6,21,1,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710784,Nota,NOTA,19789,129,0.7,7,21,1,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710785,Dr. Ibomcha Singh,AAAP,19790,36,0.19,8,21,1,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710786,Oinam Jotin Singh,JMBP,19791,27,0.15,9,21,1,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710787,Dr. Thokchom Meinya,INC,19777,10372,49.1,1,21,2,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710788,R.K. Ranjan Singh,BJP,19780,4764,22.55,2,21,2,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710789,Moirangthem Nara,CPI,19778,4303,20.37,3,21,2,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710790,Sarangthem Manaobi,AITC,19787,749,3.55,4,21,2,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710791,Dr. Gurumayum Tonsana Sharma,MDPF,19788,430,2.04,5,21,2,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710792,Nota,NOTA,19789,197,0.93,6,21,2,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710793,Indira Oinam,IND,19781,191,0.9,7,21,2,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710794,Dr. Ibomcha Singh,AAAP,19790,76,0.36,8,21,2,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710795,Oinam Jotin Singh,JMBP,19791,42,0.2,9,21,2,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710796,Dr. Thokchom Meinya,INC,19777,9863,45.83,1,21,3,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710797,Moirangthem Nara,CPI,19778,5696,26.47,2,21,3,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710798,R.K. Ranjan Singh,BJP,19780,3639,16.91,3,21,3,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710799,Sarangthem Manaobi,AITC,19787,1312,6.1,4,21,3,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710800,Indira Oinam,IND,19781,397,1.84,5,21,3,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710801,Nota,NOTA,19789,269,1.25,6,21,3,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710802,Dr. Gurumayum Tonsana Sharma,MDPF,19788,238,1.11,7,21,3,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710803,Dr. Ibomcha Singh,AAAP,19790,69,0.32,8,21,3,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710804,Oinam Jotin Singh,JMBP,19791,38,0.18,9,21,3,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710805,Dr. Thokchom Meinya,INC,19777,12043,49.85,1,21,4,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710806,Moirangthem Nara,CPI,19778,7168,29.67,2,21,4,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710807,R.K. Ranjan Singh,BJP,19780,2576,10.66,3,21,4,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710808,Sarangthem Manaobi,AITC,19787,1682,6.96,4,21,4,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710809,Indira Oinam,IND,19781,272,1.13,5,21,4,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710810,Nota,NOTA,19789,236,0.98,6,21,4,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710811,Dr. Ibomcha Singh,AAAP,19790,83,0.34,7,21,4,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710812,Dr. Gurumayum Tonsana Sharma,MDPF,19788,73,0.3,8,21,4,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710813,Oinam Jotin Singh,JMBP,19791,27,0.11,9,21,4,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710814,Moirangthem Nara,CPI,19778,8043,39.78,1,21,5,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710815,R.K. Ranjan Singh,BJP,19780,6701,33.14,2,21,5,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710816,Dr. Thokchom Meinya,INC,19777,3884,19.21,3,21,5,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710817,Sarangthem Manaobi,AITC,19787,988,4.89,4,21,5,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710818,Indira Oinam,IND,19781,295,1.46,5,21,5,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710819,Nota,NOTA,19789,184,0.91,6,21,5,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710820,Oinam Jotin Singh,JMBP,19791,63,0.31,7,21,5,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710821,Dr. Gurumayum Tonsana Sharma,MDPF,19788,34,0.17,8,21,5,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710822,Dr. Ibomcha Singh,AAAP,19790,28,0.14,9,21,5,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710823,Dr. Thokchom Meinya,INC,19777,10743,52.71,1,21,6,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710824,Moirangthem Nara,CPI,19778,5479,26.88,2,21,6,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710825,R.K. Ranjan Singh,BJP,19780,2046,10.04,3,21,6,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710826,Sarangthem Manaobi,AITC,19787,1765,8.66,4,21,6,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710827,Indira Oinam,IND,19781,133,0.65,5,21,6,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710828,Nota,NOTA,19789,91,0.45,6,21,6,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710829,Dr. Ibomcha Singh,AAAP,19790,55,0.27,7,21,6,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710830,Oinam Jotin Singh,JMBP,19791,40,0.2,8,21,6,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710831,Dr. Gurumayum Tonsana Sharma,MDPF,19788,31,0.15,9,21,6,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710832,Sarangthem Manaobi,AITC,19787,13297,53.48,1,21,7,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710833,Dr. Thokchom Meinya,INC,19777,5847,23.52,2,21,7,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710834,Moirangthem Nara,CPI,19778,4296,17.28,3,21,7,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710835,R.K. Ranjan Singh,BJP,19780,748,3.01,4,21,7,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710836,Dr. Ibomcha Singh,AAAP,19790,217,0.87,5,21,7,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710837,Indira Oinam,IND,19781,202,0.81,6,21,7,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710838,Nota,NOTA,19789,131,0.53,7,21,7,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710839,Oinam Jotin Singh,JMBP,19791,99,0.4,8,21,7,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710840,Dr. Gurumayum Tonsana Sharma,MDPF,19788,26,0.1,9,21,7,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710841,Dr. Thokchom Meinya,INC,19777,9339,46.28,1,21,8,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710842,Moirangthem Nara,CPI,19778,5433,26.92,2,21,8,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710843,Sarangthem Manaobi,AITC,19787,4080,20.22,3,21,8,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710844,R.K. Ranjan Singh,BJP,19780,891,4.42,4,21,8,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710845,Indira Oinam,IND,19781,145,0.72,5,21,8,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710846,Nota,NOTA,19789,144,0.71,6,21,8,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710847,Dr. Gurumayum Tonsana Sharma,MDPF,19788,77,0.38,7,21,8,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710848,Dr. Ibomcha Singh,AAAP,19790,49,0.24,8,21,8,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710849,Oinam Jotin Singh,JMBP,19791,21,0.1,9,21,8,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710850,R.K. Ranjan Singh,BJP,19780,6582,37.12,1,21,9,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710851,Dr. Thokchom Meinya,INC,19777,6279,35.41,2,21,9,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710852,Moirangthem Nara,CPI,19778,4008,22.6,3,21,9,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710853,Sarangthem Manaobi,AITC,19787,327,1.84,4,21,9,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710854,Nota,NOTA,19789,218,1.23,5,21,9,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710855,Indira Oinam,IND,19781,117,0.66,6,21,9,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710856,Dr. Gurumayum Tonsana Sharma,MDPF,19788,102,0.58,7,21,9,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710857,Dr. Ibomcha Singh,AAAP,19790,59,0.33,8,21,9,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710858,Oinam Jotin Singh,JMBP,19791,42,0.24,9,21,9,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710859,Moirangthem Nara,CPI,19778,6047,42.82,1,21,10,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710860,Dr. Thokchom Meinya,INC,19777,4738,33.55,2,21,10,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710861,R.K. Ranjan Singh,BJP,19780,2218,15.71,3,21,10,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710862,Sarangthem Manaobi,AITC,19787,348,2.46,4,21,10,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710863,Indira Oinam,IND,19781,316,2.24,5,21,10,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710864,Nota,NOTA,19789,251,1.78,6,21,10,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710865,Dr. Ibomcha Singh,AAAP,19790,103,0.73,7,21,10,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710866,Dr. Gurumayum Tonsana Sharma,MDPF,19788,85,0.6,8,21,10,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710867,Oinam Jotin Singh,JMBP,19791,16,0.11,9,21,10,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710868,Moirangthem Nara,CPI,19778,6689,44.85,1,21,11,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710869,Dr. Thokchom Meinya,INC,19777,5308,35.59,2,21,11,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710870,R.K. Ranjan Singh,BJP,19780,2226,14.93,3,21,11,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710871,Sarangthem Manaobi,AITC,19787,224,1.5,4,21,11,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710872,Nota,NOTA,19789,196,1.31,5,21,11,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710873,Indira Oinam,IND,19781,139,0.93,6,21,11,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710874,Dr. Ibomcha Singh,AAAP,19790,56,0.38,7,21,11,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710875,Oinam Jotin Singh,JMBP,19791,42,0.28,8,21,11,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710876,Dr. Gurumayum Tonsana Sharma,MDPF,19788,33,0.22,9,21,11,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710877,Moirangthem Nara,CPI,19778,9421,57.97,1,21,12,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710878,Dr. Thokchom Meinya,INC,19777,3793,23.34,2,21,12,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710879,R.K. Ranjan Singh,BJP,19780,1890,11.63,3,21,12,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710880,Sarangthem Manaobi,AITC,19787,501,3.08,4,21,12,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710881,Nota,NOTA,19789,265,1.63,5,21,12,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710882,Indira Oinam,IND,19781,244,1.5,6,21,12,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710883,Dr. Ibomcha Singh,AAAP,19790,54,0.33,7,21,12,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710884,Oinam Jotin Singh,JMBP,19791,42,0.26,8,21,12,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710885,Dr. Gurumayum Tonsana Sharma,MDPF,19788,41,0.25,9,21,12,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710886,Moirangthem Nara,CPI,19778,6718,52.7,1,21,13,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710887,Dr. Thokchom Meinya,INC,19777,3348,26.26,2,21,13,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710888,R.K. Ranjan Singh,BJP,19780,1835,14.39,3,21,13,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710889,Sarangthem Manaobi,AITC,19787,266,2.09,4,21,13,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710890,Oinam Jotin Singh,JMBP,19791,183,1.44,5,21,13,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710891,Indira Oinam,IND,19781,179,1.4,6,21,13,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710892,Nota,NOTA,19789,175,1.37,7,21,13,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710893,Dr. Ibomcha Singh,AAAP,19790,23,0.18,8,21,13,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710894,Dr. Gurumayum Tonsana Sharma,MDPF,19788,21,0.16,9,21,13,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710895,Dr. Thokchom Meinya,INC,19777,5916,36.58,1,21,14,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710896,Moirangthem Nara,CPI,19778,5572,34.45,2,21,14,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710897,R.K. Ranjan Singh,BJP,19780,3602,22.27,3,21,14,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710898,Sarangthem Manaobi,AITC,19787,417,2.58,4,21,14,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710899,Nota,NOTA,19789,277,1.71,5,21,14,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710900,Indira Oinam,IND,19781,182,1.13,6,21,14,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710901,Dr. Ibomcha Singh,AAAP,19790,93,0.58,7,21,14,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710902,Dr. Gurumayum Tonsana Sharma,MDPF,19788,84,0.52,8,21,14,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710903,Oinam Jotin Singh,JMBP,19791,29,0.18,9,21,14,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710904,Dr. Thokchom Meinya,INC,19777,7497,34.88,1,21,15,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710905,Moirangthem Nara,CPI,19778,7086,32.97,2,21,15,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710906,R.K. Ranjan Singh,BJP,19780,5182,24.11,3,21,15,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710907,Sarangthem Manaobi,AITC,19787,1055,4.91,4,21,15,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710908,Nota,NOTA,19789,245,1.14,5,21,15,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710909,Indira Oinam,IND,19781,203,0.94,6,21,15,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710910,Dr. Ibomcha Singh,AAAP,19790,109,0.51,7,21,15,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710911,Dr. Gurumayum Tonsana Sharma,MDPF,19788,78,0.36,8,21,15,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710912,Oinam Jotin Singh,JMBP,19791,36,0.17,9,21,15,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710913,Dr. Thokchom Meinya,INC,19777,6556,39.06,1,21,16,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710914,R.K. Ranjan Singh,BJP,19780,4218,25.13,2,21,16,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710915,Moirangthem Nara,CPI,19778,3405,20.28,3,21,16,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710916,Sarangthem Manaobi,AITC,19787,1703,10.15,4,21,16,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710917,Indira Oinam,IND,19781,447,2.66,5,21,16,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710918,Nota,NOTA,19789,187,1.11,6,21,16,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710919,Dr. Ibomcha Singh,AAAP,19790,138,0.82,7,21,16,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710920,Dr. Gurumayum Tonsana Sharma,MDPF,19788,75,0.45,8,21,16,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710921,Oinam Jotin Singh,JMBP,19791,57,0.34,9,21,16,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710922,Dr. Thokchom Meinya,INC,19777,9138,44.74,1,21,17,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710923,Moirangthem Nara,CPI,19778,6018,29.47,2,21,17,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710924,R.K. Ranjan Singh,BJP,19780,4093,20.04,3,21,17,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710925,Sarangthem Manaobi,AITC,19787,649,3.18,4,21,17,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710926,Indira Oinam,IND,19781,221,1.08,5,21,17,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710927,Nota,NOTA,19789,172,0.84,6,21,17,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710928,Dr. Ibomcha Singh,AAAP,19790,53,0.26,7,21,17,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710929,Dr. Gurumayum Tonsana Sharma,MDPF,19788,45,0.22,8,21,17,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710930,Oinam Jotin Singh,JMBP,19791,35,0.17,9,21,17,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710931,Moirangthem Nara,CPI,19778,9560,48.58,1,21,18,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710932,Dr. Thokchom Meinya,INC,19777,7720,39.23,2,21,18,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710933,R.K. Ranjan Singh,BJP,19780,1666,8.47,3,21,18,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710934,Sarangthem Manaobi,AITC,19787,255,1.3,4,21,18,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710935,Nota,NOTA,19789,201,1.02,5,21,18,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710936,Dr. Ibomcha Singh,AAAP,19790,121,0.61,6,21,18,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710937,Indira Oinam,IND,19781,120,0.61,7,21,18,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710938,Dr. Gurumayum Tonsana Sharma,MDPF,19788,18,0.09,8,21,18,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710939,Oinam Jotin Singh,JMBP,19791,16,0.08,9,21,18,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710940,Dr. Thokchom Meinya,INC,19777,10963,45.34,1,21,19,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710941,Moirangthem Nara,CPI,19778,7573,31.32,2,21,19,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710942,R.K. Ranjan Singh,BJP,19780,4733,19.58,3,21,19,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710943,Nota,NOTA,19789,314,1.3,4,21,19,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710944,Sarangthem Manaobi,AITC,19787,241,1.0,5,21,19,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710945,Indira Oinam,IND,19781,236,0.98,6,21,19,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710946,Dr. Ibomcha Singh,AAAP,19790,62,0.26,7,21,19,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710947,Oinam Jotin Singh,JMBP,19791,33,0.14,8,21,19,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710948,Dr. Gurumayum Tonsana Sharma,MDPF,19788,22,0.09,9,21,19,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710949,Moirangthem Nara,CPI,19778,9121,47.16,1,21,20,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710950,Dr. Thokchom Meinya,INC,19777,7636,39.48,2,21,20,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710951,R.K. Ranjan Singh,BJP,19780,1437,7.43,3,21,20,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710952,Sarangthem Manaobi,AITC,19787,675,3.49,4,21,20,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710953,Indira Oinam,IND,19781,169,0.87,5,21,20,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710954,Nota,NOTA,19789,140,0.72,6,21,20,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710955,Oinam Jotin Singh,JMBP,19791,91,0.47,7,21,20,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710956,Dr. Gurumayum Tonsana Sharma,MDPF,19788,37,0.19,8,21,20,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710957,Dr. Ibomcha Singh,AAAP,19790,35,0.18,9,21,20,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710958,Moirangthem Nara,CPI,19778,10938,47.75,1,21,21,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710959,Dr. Thokchom Meinya,INC,19777,8167,35.65,2,21,21,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710960,R.K. Ranjan Singh,BJP,19780,2303,10.05,3,21,21,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710961,Sarangthem Manaobi,AITC,19787,487,2.13,4,21,21,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710962,Indira Oinam,IND,19781,437,1.91,5,21,21,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710963,Dr. Ibomcha Singh,AAAP,19790,222,0.97,6,21,21,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710964,Nota,NOTA,19789,206,0.9,7,21,21,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710965,Oinam Jotin Singh,JMBP,19791,124,0.54,8,21,21,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710966,Dr. Gurumayum Tonsana Sharma,MDPF,19788,22,0.1,9,21,21,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710967,Moirangthem Nara,CPI,19778,9318,46.39,1,21,22,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710968,Dr. Thokchom Meinya,INC,19777,6905,34.38,2,21,22,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710969,Sarangthem Manaobi,AITC,19787,2557,12.73,3,21,22,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710970,R.K. Ranjan Singh,BJP,19780,818,4.07,4,21,22,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710971,Indira Oinam,IND,19781,229,1.14,5,21,22,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710972,Nota,NOTA,19789,110,0.55,6,21,22,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710973,Dr. Ibomcha Singh,AAAP,19790,70,0.35,7,21,22,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710974,Oinam Jotin Singh,JMBP,19791,44,0.22,8,21,22,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710975,Dr. Gurumayum Tonsana Sharma,MDPF,19788,34,0.17,9,21,22,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710976,Dr. Thokchom Meinya,INC,19777,13817,63.59,1,21,23,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710977,Moirangthem Nara,CPI,19778,5680,26.14,2,21,23,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710978,R.K. Ranjan Singh,BJP,19780,1358,6.25,3,21,23,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710979,Sarangthem Manaobi,AITC,19787,481,2.21,4,21,23,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710980,Indira Oinam,IND,19781,134,0.62,5,21,23,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710981,Dr. Ibomcha Singh,AAAP,19790,102,0.47,6,21,23,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710982,Nota,NOTA,19789,98,0.45,7,21,23,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710983,Oinam Jotin Singh,JMBP,19791,30,0.14,8,21,23,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710984,Dr. Gurumayum Tonsana Sharma,MDPF,19788,27,0.12,9,21,23,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710985,Dr. Thokchom Meinya,INC,19777,13650,54.25,1,21,24,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710986,R.K. Ranjan Singh,BJP,19780,9177,36.47,2,21,24,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710987,Moirangthem Nara,CPI,19778,1929,7.67,3,21,24,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710988,Sarangthem Manaobi,AITC,19787,138,0.55,4,21,24,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710989,Nota,NOTA,19789,85,0.34,5,21,24,MN,Nota,NOTA,,,,,False,21,2014,GE
+1710990,Indira Oinam,IND,19781,79,0.31,6,21,24,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710991,Dr. Gurumayum Tonsana Sharma,MDPF,19788,54,0.21,7,21,24,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1710992,Dr. Ibomcha Singh,AAAP,19790,33,0.13,8,21,24,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1710993,Oinam Jotin Singh,JMBP,19791,17,0.07,9,21,24,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1710994,Dr. Thokchom Meinya,INC,19777,11329,64.68,1,21,25,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1710995,Moirangthem Nara,CPI,19778,3630,20.72,2,21,25,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1710996,R.K. Ranjan Singh,BJP,19780,1993,11.38,3,21,25,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1710997,Sarangthem Manaobi,AITC,19787,325,1.86,4,21,25,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1710998,Indira Oinam,IND,19781,83,0.47,5,21,25,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1710999,Nota,NOTA,19789,78,0.45,6,21,25,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711000,Dr. Ibomcha Singh,AAAP,19790,38,0.22,7,21,25,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711001,Oinam Jotin Singh,JMBP,19791,22,0.13,8,21,25,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711002,Dr. Gurumayum Tonsana Sharma,MDPF,19788,18,0.1,9,21,25,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711003,Dr. Thokchom Meinya,INC,19777,12992,59.58,1,21,26,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1711004,R.K. Ranjan Singh,BJP,19780,4875,22.36,2,21,26,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1711005,Moirangthem Nara,CPI,19778,3450,15.82,3,21,26,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1711006,Sarangthem Manaobi,AITC,19787,144,0.66,4,21,26,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1711007,Nota,NOTA,19789,130,0.6,5,21,26,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711008,Indira Oinam,IND,19781,86,0.39,6,21,26,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1711009,Dr. Ibomcha Singh,AAAP,19790,82,0.38,7,21,26,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711010,Oinam Jotin Singh,JMBP,19791,26,0.12,8,21,26,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711011,Dr. Gurumayum Tonsana Sharma,MDPF,19788,20,0.09,9,21,26,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711012,Dr. Thokchom Meinya,INC,19777,11041,50.91,1,21,27,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1711013,Moirangthem Nara,CPI,19778,7595,35.02,2,21,27,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1711014,R.K. Ranjan Singh,BJP,19780,1553,7.16,3,21,27,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1711015,Dr. Ibomcha Singh,AAAP,19790,804,3.71,4,21,27,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711016,Indira Oinam,IND,19781,331,1.53,5,21,27,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1711017,Sarangthem Manaobi,AITC,19787,188,0.87,6,21,27,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1711018,Nota,NOTA,19789,115,0.53,7,21,27,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711019,Dr. Gurumayum Tonsana Sharma,MDPF,19788,31,0.14,8,21,27,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711020,Oinam Jotin Singh,JMBP,19791,30,0.14,9,21,27,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711021,R.K. Ranjan Singh,BJP,19780,4372,32.19,1,21,28,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1711022,Dr. Thokchom Meinya,INC,19777,4115,30.3,2,21,28,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1711023,Sarangthem Manaobi,AITC,19787,2631,19.37,3,21,28,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1711024,Moirangthem Nara,CPI,19778,2006,14.77,4,21,28,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1711025,Indira Oinam,IND,19781,228,1.68,5,21,28,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1711026,Dr. Ibomcha Singh,AAAP,19790,130,0.96,6,21,28,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711027,Nota,NOTA,19789,51,0.38,7,21,28,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711028,Oinam Jotin Singh,JMBP,19791,25,0.18,8,21,28,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711029,Dr. Gurumayum Tonsana Sharma,MDPF,19788,22,0.16,9,21,28,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711030,Dr. Thokchom Meinya,INC,19777,10319,57.74,1,21,29,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1711031,Moirangthem Nara,CPI,19778,4892,27.37,2,21,29,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1711032,R.K. Ranjan Singh,BJP,19780,1609,9.0,3,21,29,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1711033,Sarangthem Manaobi,AITC,19787,647,3.62,4,21,29,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1711034,Indira Oinam,IND,19781,179,1.0,5,21,29,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1711035,Nota,NOTA,19789,82,0.46,6,21,29,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711036,Dr. Ibomcha Singh,AAAP,19790,76,0.43,7,21,29,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711037,Dr. Gurumayum Tonsana Sharma,MDPF,19788,45,0.25,8,21,29,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711038,Oinam Jotin Singh,JMBP,19791,22,0.12,9,21,29,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711039,Dr. Thokchom Meinya,INC,19777,14420,58.35,1,21,30,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1711040,Moirangthem Nara,CPI,19778,9335,37.78,2,21,30,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1711041,Sarangthem Manaobi,AITC,19787,291,1.18,3,21,30,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1711042,Indira Oinam,IND,19781,289,1.17,4,21,30,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1711043,R.K. Ranjan Singh,BJP,19780,208,0.84,5,21,30,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1711044,Nota,NOTA,19789,74,0.3,6,21,30,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711045,Dr. Ibomcha Singh,AAAP,19790,47,0.19,7,21,30,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711046,Oinam Jotin Singh,JMBP,19791,34,0.14,8,21,30,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711047,Dr. Gurumayum Tonsana Sharma,MDPF,19788,13,0.05,9,21,30,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711048,Dr. Thokchom Meinya,INC,19777,18014,71.0,1,21,31,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1711049,Moirangthem Nara,CPI,19778,6269,24.71,2,21,31,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1711050,Indira Oinam,IND,19781,384,1.51,3,21,31,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1711051,R.K. Ranjan Singh,BJP,19780,382,1.51,4,21,31,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1711052,Nota,NOTA,19789,135,0.53,5,21,31,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711053,Sarangthem Manaobi,AITC,19787,124,0.49,6,21,31,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1711055,Oinam Jotin Singh,JMBP,19791,22,0.09,7,21,31,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711054,Dr. Ibomcha Singh,AAAP,19790,22,0.09,7,21,31,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711056,Dr. Gurumayum Tonsana Sharma,MDPF,19788,20,0.08,9,21,31,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711057,Dr. Thokchom Meinya,INC,19777,14524,61.45,1,21,32,MN,Dr. Thokchom Meinya,INC,,,,,True,21,2014,GE
+1711058,Moirangthem Nara,CPI,19778,6981,29.54,2,21,32,MN,Moirangthem Nara,CPI,,,,,False,21,2014,GE
+1711059,R.K. Ranjan Singh,BJP,19780,1118,4.73,3,21,32,MN,R.K. Ranjan Singh,BJP,,,,,False,21,2014,GE
+1711060,Sarangthem Manaobi,AITC,19787,544,2.3,4,21,32,MN,Sarangthem Manaobi,AITC,,,,,False,21,2014,GE
+1711061,Indira Oinam,IND,19781,185,0.78,5,21,32,MN,Indira Oinam,IND,,,,,False,21,2014,GE
+1711062,Dr. Ibomcha Singh,AAAP,19790,126,0.53,6,21,32,MN,Dr. Ibomcha Singh,AAAP,,,,,False,21,2014,GE
+1711063,Nota,NOTA,19789,112,0.47,7,21,32,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711064,Oinam Jotin Singh,JMBP,19791,28,0.12,8,21,32,MN,Oinam Jotin Singh,JMBP,,,,,False,21,2014,GE
+1711065,Dr. Gurumayum Tonsana Sharma,MDPF,19788,18,0.08,9,21,32,MN,Dr. Gurumayum Tonsana Sharma,MDPF,,,,,False,21,2014,GE
+1711066,Thangso Baite,INC,19777,16826,69.83,1,21,33,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711067,Gangmumei Kamei,BJP,19780,3264,13.55,2,21,33,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711068,Chungkhokai Doungel,NCP,19783,2020,8.38,3,21,33,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711069,Soso Lorho,NPF,19792,987,4.1,4,21,33,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711070,Mani Charenamei,IND,19781,538,2.23,5,21,33,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711071,Nota,NOTA,19789,196,0.81,6,21,33,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711072,Kim Gangte,AITC,19787,143,0.59,7,21,33,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711073,Lamlalmoi Momoi Gangte,IND,19781,38,0.16,8,21,33,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711074,Lamminlien Lien Gangte,JD(U),19793,38,0.16,8,21,33,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711075,M. Khamchinpau K. Zou,AAAP,19790,30,0.12,10,21,33,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711076,Amarson Sankhil,IND,19781,16,0.07,11,21,33,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711077,Thangso Baite,INC,19777,13251,58.11,1,21,34,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711078,Gangmumei Kamei,BJP,19780,4525,19.84,2,21,34,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711079,Chungkhokai Doungel,NCP,19783,2021,8.86,3,21,34,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711080,Mani Charenamei,IND,19781,1229,5.39,4,21,34,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711081,Soso Lorho,NPF,19792,1208,5.3,5,21,34,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711082,Nota,NOTA,19789,261,1.14,6,21,34,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711083,Kim Gangte,AITC,19787,219,0.96,7,21,34,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711084,M. Khamchinpau K. Zou,AAAP,19790,38,0.17,8,21,34,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711085,Lamlalmoi Momoi Gangte,IND,19781,29,0.13,9,21,34,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711087,Lamminlien Lien Gangte,JD(U),19793,12,0.05,10,21,34,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711086,Amarson Sankhil,IND,19781,12,0.05,10,21,34,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711088,Thangso Baite,INC,19777,18914,67.0,1,21,35,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711089,Gangmumei Kamei,BJP,19780,7980,28.27,2,21,35,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711090,Soso Lorho,NPF,19792,396,1.4,3,21,35,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711091,Chungkhokai Doungel,NCP,19783,384,1.36,4,21,35,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711092,Nota,NOTA,19789,194,0.69,5,21,35,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711093,Mani Charenamei,IND,19781,165,0.58,6,21,35,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711094,Kim Gangte,AITC,19787,115,0.41,7,21,35,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711095,M. Khamchinpau K. Zou,AAAP,19790,33,0.12,8,21,35,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711097,Lamlalmoi Momoi Gangte,IND,19781,16,0.06,9,21,35,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711096,Amarson Sankhil,IND,19781,16,0.06,9,21,35,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711098,Lamminlien Lien Gangte,JD(U),19793,15,0.05,11,21,35,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711099,Thangso Baite,INC,19777,14675,65.25,1,21,36,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711100,Gangmumei Kamei,BJP,19780,3754,16.69,2,21,36,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711101,Chungkhokai Doungel,NCP,19783,2531,11.25,3,21,36,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711102,Soso Lorho,NPF,19792,620,2.76,4,21,36,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711103,Kim Gangte,AITC,19787,542,2.41,5,21,36,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711104,Mani Charenamei,IND,19781,173,0.77,6,21,36,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711105,Nota,NOTA,19789,135,0.6,7,21,36,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711106,M. Khamchinpau K. Zou,AAAP,19790,41,0.18,8,21,36,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711107,Amarson Sankhil,IND,19781,6,0.03,9,21,36,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711109,Lamminlien Lien Gangte,JD(U),19793,6,0.03,9,21,36,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711108,Lamlalmoi Momoi Gangte,IND,19781,6,0.03,9,21,36,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711110,Thangso Baite,INC,19777,10338,56.28,1,21,37,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711111,Gangmumei Kamei,BJP,19780,5146,28.01,2,21,37,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711112,Chungkhokai Doungel,NCP,19783,1539,8.38,3,21,37,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711113,Soso Lorho,NPF,19792,568,3.09,4,21,37,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711114,Mani Charenamei,IND,19781,259,1.41,5,21,37,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711115,Nota,NOTA,19789,209,1.14,6,21,37,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711116,Kim Gangte,AITC,19787,206,1.12,7,21,37,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711117,M. Khamchinpau K. Zou,AAAP,19790,52,0.28,8,21,37,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711118,Lamlalmoi Momoi Gangte,IND,19781,23,0.13,9,21,37,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711119,Amarson Sankhil,IND,19781,19,0.1,10,21,37,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711120,Lamminlien Lien Gangte,JD(U),19793,10,0.05,11,21,37,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711121,Thangso Baite,INC,19777,9270,54.63,1,21,38,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711122,Gangmumei Kamei,BJP,19780,3414,20.12,2,21,38,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711123,Chungkhokai Doungel,NCP,19783,2212,13.04,3,21,38,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711124,Soso Lorho,NPF,19792,704,4.15,4,21,38,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711125,Mani Charenamei,IND,19781,633,3.73,5,21,38,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711126,Kim Gangte,AITC,19787,460,2.71,6,21,38,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711127,Nota,NOTA,19789,138,0.81,7,21,38,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711128,Lamminlien Lien Gangte,JD(U),19793,63,0.37,8,21,38,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711129,M. Khamchinpau K. Zou,AAAP,19790,36,0.21,9,21,38,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711130,Lamlalmoi Momoi Gangte,IND,19781,22,0.13,10,21,38,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711131,Amarson Sankhil,IND,19781,16,0.09,11,21,38,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711132,Thangso Baite,INC,19777,12626,65.98,1,21,39,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711133,Gangmumei Kamei,BJP,19780,3829,20.01,2,21,39,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711134,Chungkhokai Doungel,NCP,19783,1158,6.05,3,21,39,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711135,Mani Charenamei,IND,19781,630,3.29,4,21,39,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711136,Soso Lorho,NPF,19792,503,2.63,5,21,39,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711137,Kim Gangte,AITC,19787,167,0.87,6,21,39,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711138,Nota,NOTA,19789,154,0.8,7,21,39,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711139,M. Khamchinpau K. Zou,AAAP,19790,25,0.13,8,21,39,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711140,Amarson Sankhil,IND,19781,17,0.09,9,21,39,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711141,Lamlalmoi Momoi Gangte,IND,19781,13,0.07,10,21,39,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711142,Lamminlien Lien Gangte,JD(U),19793,13,0.07,10,21,39,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711143,Thangso Baite,INC,19777,10220,64.37,1,21,40,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711144,Gangmumei Kamei,BJP,19780,3579,22.54,2,21,40,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711145,Chungkhokai Doungel,NCP,19783,781,4.92,3,21,40,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711146,Soso Lorho,NPF,19792,372,2.34,4,21,40,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711147,Kim Gangte,AITC,19787,285,1.8,5,21,40,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711148,Nota,NOTA,19789,251,1.58,6,21,40,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711149,Mani Charenamei,IND,19781,148,0.93,7,21,40,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711150,M. Khamchinpau K. Zou,AAAP,19790,77,0.48,8,21,40,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711151,Lamlalmoi Momoi Gangte,IND,19781,69,0.43,9,21,40,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711152,Amarson Sankhil,IND,19781,59,0.37,10,21,40,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711153,Lamminlien Lien Gangte,JD(U),19793,36,0.23,11,21,40,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711154,Soso Lorho,NPF,19792,18205,46.89,1,21,41,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711155,Thangso Baite,INC,19777,8718,22.45,2,21,41,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711156,Chungkhokai Doungel,NCP,19783,6424,16.54,3,21,41,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711157,Gangmumei Kamei,BJP,19780,3281,8.45,4,21,41,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711158,Mani Charenamei,IND,19781,852,2.19,5,21,41,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711159,Kim Gangte,AITC,19787,682,1.76,6,21,41,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711160,M. Khamchinpau K. Zou,AAAP,19790,488,1.26,7,21,41,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711161,Lamminlien Lien Gangte,JD(U),19793,137,0.35,8,21,41,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711162,Nota,NOTA,19789,19,0.05,9,21,41,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711163,Amarson Sankhil,IND,19781,13,0.03,10,21,41,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711164,Lamlalmoi Momoi Gangte,IND,19781,9,0.02,11,21,41,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711165,Soso Lorho,NPF,19792,20590,51.83,1,21,42,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711166,Thangso Baite,INC,19777,15705,39.53,2,21,42,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711167,Gangmumei Kamei,BJP,19780,1457,3.67,3,21,42,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711168,Chungkhokai Doungel,NCP,19783,1038,2.61,4,21,42,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711169,Kim Gangte,AITC,19787,345,0.87,5,21,42,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711170,Mani Charenamei,IND,19781,334,0.84,6,21,42,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711171,Lamminlien Lien Gangte,JD(U),19793,131,0.33,7,21,42,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711172,M. Khamchinpau K. Zou,AAAP,19790,68,0.17,8,21,42,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711173,Nota,NOTA,19789,35,0.09,9,21,42,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711174,Lamlalmoi Momoi Gangte,IND,19781,13,0.03,10,21,42,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711175,Amarson Sankhil,IND,19781,9,0.02,11,21,42,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711176,Soso Lorho,NPF,19792,17336,76.47,1,21,43,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711177,Thangso Baite,INC,19777,3747,16.53,2,21,43,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711178,Gangmumei Kamei,BJP,19780,540,2.38,3,21,43,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711179,Mani Charenamei,IND,19781,515,2.27,4,21,43,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711180,Chungkhokai Doungel,NCP,19783,244,1.08,5,21,43,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711181,Kim Gangte,AITC,19787,172,0.76,6,21,43,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711182,M. Khamchinpau K. Zou,AAAP,19790,45,0.2,7,21,43,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711183,Lamminlien Lien Gangte,JD(U),19793,30,0.13,8,21,43,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711184,Nota,NOTA,19789,26,0.11,9,21,43,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711185,Amarson Sankhil,IND,19781,9,0.04,10,21,43,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711186,Lamlalmoi Momoi Gangte,IND,19781,7,0.03,11,21,43,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711187,Soso Lorho,NPF,19792,21031,67.85,1,21,44,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711188,Thangso Baite,INC,19777,5041,16.26,2,21,44,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711189,Gangmumei Kamei,BJP,19780,2205,7.11,3,21,44,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711190,Mani Charenamei,IND,19781,1654,5.34,4,21,44,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711191,Chungkhokai Doungel,NCP,19783,808,2.61,5,21,44,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711192,Kim Gangte,AITC,19787,157,0.51,6,21,44,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711193,M. Khamchinpau K. Zou,AAAP,19790,41,0.13,7,21,44,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711194,Nota,NOTA,19789,28,0.09,8,21,44,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711195,Lamlalmoi Momoi Gangte,IND,19781,18,0.06,9,21,44,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711196,Lamminlien Lien Gangte,JD(U),19793,11,0.04,10,21,44,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711197,Amarson Sankhil,IND,19781,4,0.01,11,21,44,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711198,Soso Lorho,NPF,19792,30891,92.72,1,21,45,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711199,Thangso Baite,INC,19777,1885,5.66,2,21,45,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711200,Gangmumei Kamei,BJP,19780,287,0.86,3,21,45,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711201,Mani Charenamei,IND,19781,145,0.44,4,21,45,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711202,Nota,NOTA,19789,42,0.13,5,21,45,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711203,M. Khamchinpau K. Zou,AAAP,19790,35,0.11,6,21,45,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711205,Kim Gangte,AITC,19787,10,0.03,7,21,45,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711204,Amarson Sankhil,IND,19781,10,0.03,7,21,45,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711206,Chungkhokai Doungel,NCP,19783,7,0.02,9,21,45,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711207,Lamlalmoi Momoi Gangte,IND,19781,4,0.01,10,21,45,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711208,Lamminlien Lien Gangte,JD(U),19793,1,0.0,11,21,45,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711209,Thangso Baite,INC,19777,15706,53.67,1,21,46,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711210,Chungkhokai Doungel,NCP,19783,7086,24.21,2,21,46,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711211,Soso Lorho,NPF,19792,4284,14.64,3,21,46,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711212,Gangmumei Kamei,BJP,19780,897,3.07,4,21,46,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711213,Kim Gangte,AITC,19787,777,2.66,5,21,46,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711214,Mani Charenamei,IND,19781,401,1.37,6,21,46,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711215,Lamminlien Lien Gangte,JD(U),19793,43,0.15,7,21,46,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711216,Nota,NOTA,19789,38,0.13,8,21,46,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711217,Lamlalmoi Momoi Gangte,IND,19781,14,0.05,9,21,46,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711218,M. Khamchinpau K. Zou,AAAP,19790,12,0.04,10,21,46,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711219,Amarson Sankhil,IND,19781,6,0.02,11,21,46,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711220,Soso Lorho,NPF,19792,46504,94.49,1,21,47,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711221,Thangso Baite,INC,19777,1275,2.59,2,21,47,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711222,Chungkhokai Doungel,NCP,19783,938,1.91,3,21,47,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711223,Gangmumei Kamei,BJP,19780,253,0.51,4,21,47,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711224,Mani Charenamei,IND,19781,171,0.35,5,21,47,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711225,Kim Gangte,AITC,19787,36,0.07,6,21,47,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711226,M. Khamchinpau K. Zou,AAAP,19790,22,0.04,7,21,47,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711228,Nota,NOTA,19789,6,0.01,8,21,47,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711227,Lamlalmoi Momoi Gangte,IND,19781,6,0.01,8,21,47,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711229,Lamminlien Lien Gangte,JD(U),19793,3,0.01,10,21,47,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711230,Amarson Sankhil,IND,19781,1,0.0,11,21,47,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711231,Soso Lorho,NPF,19792,46605,95.54,1,21,48,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711232,Thangso Baite,INC,19777,1662,3.41,2,21,48,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711233,Gangmumei Kamei,BJP,19780,291,0.6,3,21,48,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711234,Mani Charenamei,IND,19781,154,0.32,4,21,48,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711236,M. Khamchinpau K. Zou,AAAP,19790,24,0.05,5,21,48,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711235,Kim Gangte,AITC,19787,24,0.05,5,21,48,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711237,Chungkhokai Doungel,NCP,19783,9,0.02,7,21,48,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711238,Lamlalmoi Momoi Gangte,IND,19781,6,0.01,8,21,48,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711239,Nota,NOTA,19789,5,0.01,9,21,48,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711241,Lamminlien Lien Gangte,JD(U),19793,1,0.0,10,21,48,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711240,Amarson Sankhil,IND,19781,1,0.0,10,21,48,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711242,Soso Lorho,NPF,19792,23767,58.87,1,21,49,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711243,Thangso Baite,INC,19777,11831,29.3,2,21,49,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711244,Mani Charenamei,IND,19781,1890,4.68,3,21,49,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711245,Chungkhokai Doungel,NCP,19783,1348,3.34,4,21,49,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711246,Gangmumei Kamei,BJP,19780,1051,2.6,5,21,49,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711247,Kim Gangte,AITC,19787,338,0.84,6,21,49,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711248,Nota,NOTA,19789,57,0.14,7,21,49,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711249,M. Khamchinpau K. Zou,AAAP,19790,38,0.09,8,21,49,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711250,Lamlalmoi Momoi Gangte,IND,19781,24,0.06,9,21,49,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711251,Amarson Sankhil,IND,19781,19,0.05,10,21,49,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711252,Lamminlien Lien Gangte,JD(U),19793,9,0.02,11,21,49,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711253,Thangso Baite,INC,19777,8194,35.78,1,21,50,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711254,Mani Charenamei,IND,19781,4933,21.54,2,21,50,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711255,Soso Lorho,NPF,19792,2895,12.64,3,21,50,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711256,Chungkhokai Doungel,NCP,19783,2685,11.72,4,21,50,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711257,Gangmumei Kamei,BJP,19780,2682,11.71,5,21,50,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711258,Kim Gangte,AITC,19787,1236,5.4,6,21,50,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711259,Lamlalmoi Momoi Gangte,IND,19781,71,0.31,7,21,50,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711260,Nota,NOTA,19789,68,0.3,8,21,50,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711261,M. Khamchinpau K. Zou,AAAP,19790,61,0.27,9,21,50,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711262,Amarson Sankhil,IND,19781,40,0.17,10,21,50,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711263,Lamminlien Lien Gangte,JD(U),19793,36,0.16,11,21,50,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711264,Thangso Baite,INC,19777,17807,53.45,1,21,51,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711265,Soso Lorho,NPF,19792,5070,15.22,2,21,51,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711266,Chungkhokai Doungel,NCP,19783,4277,12.84,3,21,51,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711267,Gangmumei Kamei,BJP,19780,2584,7.76,4,21,51,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711268,Mani Charenamei,IND,19781,2322,6.97,5,21,51,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711269,Kim Gangte,AITC,19787,1022,3.07,6,21,51,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711270,Lamminlien Lien Gangte,JD(U),19793,116,0.35,7,21,51,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711271,Nota,NOTA,19789,38,0.11,8,21,51,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711272,M. Khamchinpau K. Zou,AAAP,19790,31,0.09,9,21,51,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711273,Lamlalmoi Momoi Gangte,IND,19781,30,0.09,10,21,51,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711274,Amarson Sankhil,IND,19781,16,0.05,11,21,51,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711275,Soso Lorho,NPF,19792,12708,44.72,1,21,52,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711276,Mani Charenamei,IND,19781,5615,19.76,2,21,52,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711277,Thangso Baite,INC,19777,5496,19.34,3,21,52,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711278,Gangmumei Kamei,BJP,19780,3611,12.71,4,21,52,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711279,Chungkhokai Doungel,NCP,19783,667,2.35,5,21,52,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711280,Kim Gangte,AITC,19787,235,0.83,6,21,52,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711281,Lamlalmoi Momoi Gangte,IND,19781,19,0.07,7,21,52,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711282,Lamminlien Lien Gangte,JD(U),19793,19,0.07,7,21,52,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711283,M. Khamchinpau K. Zou,AAAP,19790,19,0.07,7,21,52,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711284,Nota,NOTA,19789,18,0.06,10,21,52,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711285,Amarson Sankhil,IND,19781,12,0.04,11,21,52,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711286,Gangmumei Kamei,BJP,19780,8190,34.1,1,21,53,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711287,Soso Lorho,NPF,19792,6056,25.22,2,21,53,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711288,Thangso Baite,INC,19777,4835,20.13,3,21,53,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711289,Mani Charenamei,IND,19781,4700,19.57,4,21,53,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711290,Kim Gangte,AITC,19787,136,0.57,5,21,53,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711291,Chungkhokai Doungel,NCP,19783,37,0.15,6,21,53,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711292,Nota,NOTA,19789,19,0.08,7,21,53,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711293,M. Khamchinpau K. Zou,AAAP,19790,17,0.07,8,21,53,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711294,Lamlalmoi Momoi Gangte,IND,19781,16,0.07,9,21,53,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711295,Amarson Sankhil,IND,19781,6,0.02,10,21,53,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711296,Lamminlien Lien Gangte,JD(U),19793,3,0.01,11,21,53,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711297,Thangso Baite,INC,19777,9512,47.52,1,21,54,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711298,Gangmumei Kamei,BJP,19780,7322,36.58,2,21,54,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711299,Soso Lorho,NPF,19792,2162,10.8,3,21,54,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711300,Mani Charenamei,IND,19781,542,2.71,4,21,54,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711301,Chungkhokai Doungel,NCP,19783,275,1.37,5,21,54,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711302,Kim Gangte,AITC,19787,153,0.76,6,21,54,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711303,M. Khamchinpau K. Zou,AAAP,19790,22,0.11,7,21,54,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711304,Lamlalmoi Momoi Gangte,IND,19781,11,0.05,8,21,54,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711305,Nota,NOTA,19789,10,0.05,9,21,54,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711306,Lamminlien Lien Gangte,JD(U),19793,4,0.02,10,21,54,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711307,Amarson Sankhil,IND,19781,3,0.01,11,21,54,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711308,Thangso Baite,INC,19777,10637,81.06,1,21,55,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711309,Gangmumei Kamei,BJP,19780,728,5.55,2,21,55,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711310,Chungkhokai Doungel,NCP,19783,548,4.18,3,21,55,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711311,Soso Lorho,NPF,19792,514,3.92,4,21,55,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711312,Mani Charenamei,IND,19781,395,3.01,5,21,55,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711313,Kim Gangte,AITC,19787,208,1.59,6,21,55,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711314,M. Khamchinpau K. Zou,AAAP,19790,31,0.24,7,21,55,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711315,Lamminlien Lien Gangte,JD(U),19793,23,0.18,8,21,55,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711316,Lamlalmoi Momoi Gangte,IND,19781,16,0.12,9,21,55,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711317,Amarson Sankhil,IND,19781,13,0.1,10,21,55,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711318,Nota,NOTA,19789,10,0.08,11,21,55,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711319,Thangso Baite,INC,19777,12263,79.84,1,21,56,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711320,Soso Lorho,NPF,19792,2134,13.89,2,21,56,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711321,Chungkhokai Doungel,NCP,19783,760,4.95,3,21,56,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711322,Kim Gangte,AITC,19787,74,0.48,4,21,56,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711323,Mani Charenamei,IND,19781,46,0.3,5,21,56,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711324,M. Khamchinpau K. Zou,AAAP,19790,24,0.16,6,21,56,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711325,Gangmumei Kamei,BJP,19780,16,0.1,7,21,56,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711326,Lamminlien Lien Gangte,JD(U),19793,15,0.1,8,21,56,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711327,Lamlalmoi Momoi Gangte,IND,19781,13,0.08,9,21,56,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711328,Nota,NOTA,19789,9,0.06,10,21,56,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711329,Amarson Sankhil,IND,19781,6,0.04,11,21,56,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711330,Thangso Baite,INC,19777,10747,48.4,1,21,57,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711331,Chungkhokai Doungel,NCP,19783,4965,22.36,2,21,57,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711332,Gangmumei Kamei,BJP,19780,2297,10.34,3,21,57,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711333,Kim Gangte,AITC,19787,2111,9.51,4,21,57,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711334,Soso Lorho,NPF,19792,1595,7.18,5,21,57,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711335,Mani Charenamei,IND,19781,234,1.05,6,21,57,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711336,Lamminlien Lien Gangte,JD(U),19793,126,0.57,7,21,57,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711337,M. Khamchinpau K. Zou,AAAP,19790,60,0.27,8,21,57,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711338,Nota,NOTA,19789,36,0.16,9,21,57,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711339,Lamlalmoi Momoi Gangte,IND,19781,27,0.12,10,21,57,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711340,Amarson Sankhil,IND,19781,6,0.03,11,21,57,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711341,Thangso Baite,INC,19777,14501,43.32,1,21,58,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711342,Soso Lorho,NPF,19792,7959,23.77,2,21,58,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711343,Mani Charenamei,IND,19781,4467,13.34,3,21,58,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711344,Chungkhokai Doungel,NCP,19783,2991,8.93,4,21,58,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711345,M. Khamchinpau K. Zou,AAAP,19790,1320,3.94,5,21,58,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711346,Gangmumei Kamei,BJP,19780,1191,3.56,6,21,58,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711347,Kim Gangte,AITC,19787,799,2.39,7,21,58,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711348,Nota,NOTA,19789,99,0.3,8,21,58,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711349,Lamminlien Lien Gangte,JD(U),19793,66,0.2,9,21,58,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711350,Lamlalmoi Momoi Gangte,IND,19781,47,0.14,10,21,58,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711351,Amarson Sankhil,IND,19781,38,0.11,11,21,58,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711352,Thangso Baite,INC,19777,17547,46.59,1,21,59,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711353,Chungkhokai Doungel,NCP,19783,11272,29.93,2,21,59,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711354,Soso Lorho,NPF,19792,3082,8.18,3,21,59,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711355,Kim Gangte,AITC,19787,1910,5.07,4,21,59,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711356,Mani Charenamei,IND,19781,1396,3.71,5,21,59,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711357,Gangmumei Kamei,BJP,19780,1330,3.53,6,21,59,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711358,M. Khamchinpau K. Zou,AAAP,19790,908,2.41,7,21,59,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711359,Lamminlien Lien Gangte,JD(U),19793,100,0.27,8,21,59,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711360,Nota,NOTA,19789,78,0.21,9,21,59,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711361,Lamlalmoi Momoi Gangte,IND,19781,22,0.06,10,21,59,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711362,Amarson Sankhil,IND,19781,17,0.05,11,21,59,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE
+1711363,Thangso Baite,INC,19777,13389,67.15,1,21,60,MN,Thangso Baite,INC,,,,,True,21,2014,GE
+1711364,Chungkhokai Doungel,NCP,19783,2630,13.19,2,21,60,MN,Chungkhokai Doungel,NCP,,,,,False,21,2014,GE
+1711365,Soso Lorho,NPF,19792,2375,11.91,3,21,60,MN,Soso Lorho,NPF,,,,,False,21,2014,GE
+1711366,M. Khamchinpau K. Zou,AAAP,19790,730,3.66,4,21,60,MN,M. Khamchinpau K. Zou,AAAP,,,,,False,21,2014,GE
+1711367,Mani Charenamei,IND,19781,454,2.28,5,21,60,MN,Mani Charenamei,IND,,,,,False,21,2014,GE
+1711368,Kim Gangte,AITC,19787,179,0.9,6,21,60,MN,Kim Gangte,AITC,,,,,False,21,2014,GE
+1711369,Gangmumei Kamei,BJP,19780,111,0.56,7,21,60,MN,Gangmumei Kamei,BJP,,,,,False,21,2014,GE
+1711370,Nota,NOTA,19789,27,0.14,8,21,60,MN,Nota,NOTA,,,,,False,21,2014,GE
+1711371,Lamminlien Lien Gangte,JD(U),19793,18,0.09,9,21,60,MN,Lamminlien Lien Gangte,JD(U),,,,,False,21,2014,GE
+1711372,Lamlalmoi Momoi Gangte,IND,19781,14,0.07,10,21,60,MN,Lamlalmoi Momoi Gangte,IND,,,,,False,21,2014,GE
+1711373,Amarson Sankhil,IND,19781,11,0.06,11,21,60,MN,Amarson Sankhil,IND,,,,,False,21,2014,GE

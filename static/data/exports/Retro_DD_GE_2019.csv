@@ -1,0 +1,6 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1939352,Lalubhai Babubhai Patel,BJP,26385,37597,42.98,1,37,1,DD,Lalubhai Babubhai Patel,BJP,,,,,True,37,2019,GE
+1939353,Ketan Dahyabhai Patel,INC,26386,27655,31.62,2,37,1,DD,Ketan Dahyabhai Patel,INC,,,,,False,37,2019,GE
+1939354,Patel Umeshbhai Babubhai,IND,26387,19938,22.79,3,37,1,DD,Patel Umeshbhai Babubhai,IND,,,,,False,37,2019,GE
+1939355,NOTA,NOTA,26388,1487,1.7,4,37,1,DD,NOTA,NOTA,,,,,False,37,2019,GE
+1939356,Sakil Latif Khan,BSP,26389,792,0.91,5,37,1,DD,Sakil Latif Khan,BSP,,,,,False,37,2019,GE

@@ -1,0 +1,358 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1782246,Brishaketu Debbarma,IPFT,22923,15977,48.37,1,32,1,TR,Brishaketu Debbarma,IPFT,,,,,False,32,2018,AE
+1782247,Pranab Debbarma,CPM,22930,14014,42.43,2,32,1,TR,Pranab Debbarma,CPM,,,,,False,32,2018,AE
+1782248,Rabindra Debbarma,INPT,22931,1628,4.93,3,32,1,TR,Rabindra Debbarma,INPT,,,,,False,32,2018,AE
+1782249,Phani Lal Debbarma,INC,22917,495,1.5,4,32,1,TR,Phani Lal Debbarma,INC,,,,,False,32,2018,AE
+1782250,Ananta Urang,TRIPP,22926,388,1.17,5,32,1,TR,Ananta Urang,TRIPP,,,,,False,32,2018,AE
+1782251,Nota,NOTA,22918,382,1.16,6,32,1,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782252,Subodh Debbarma,IND,22919,146,0.44,7,32,1,TR,Subodh Debbarma,IND,,,,,False,32,2018,AE
+1782253,Ratan Lal Nath,BJP,22916,22516,55.11,1,32,2,TR,Ratan Lal Nath,BJP,,,,,False,32,2018,AE
+1782254,Subhas Chandra Debnath,CPM,22930,17340,42.44,2,32,2,TR,Subhas Chandra Debnath,CPM,,,,,False,32,2018,AE
+1782255,Haralal Debnath,AMB,22929,347,0.85,3,32,2,TR,Haralal Debnath,AMB,,,,,False,32,2018,AE
+1782256,Dilip Kumar Ghosh,INC,22917,342,0.84,4,32,2,TR,Dilip Kumar Ghosh,INC,,,,,False,32,2018,AE
+1782257,Nota,NOTA,22918,315,0.77,5,32,2,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782258,Krishnadhan Das,BJP,22916,20014,49.7,1,32,3,TR,Krishnadhan Das,BJP,,,,,False,32,2018,AE
+1782259,Haricharan Sarkar,CPM,22930,19042,47.28,2,32,3,TR,Haricharan Sarkar,CPM,,,,,False,32,2018,AE
+1782260,Swapanananda Das,INC,22917,402,1.0,3,32,3,TR,Swapanananda Das,INC,,,,,False,32,2018,AE
+1782261,Nota,NOTA,22918,348,0.86,4,32,3,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782262,Bimal Das,AMB,22929,276,0.69,5,32,3,TR,Bimal Das,AMB,,,,,False,32,2018,AE
+1782263,Babul Bairagi,IND,22919,189,0.47,6,32,3,TR,Babul Bairagi,IND,,,,,False,32,2018,AE
+1782264,Dilip Kumar Das,BJP,22916,22052,56.19,1,32,4,TR,Dilip Kumar Das,BJP,,,,,False,32,2018,AE
+1782265,Jhumu Sarkar,CPM,22930,15825,40.32,2,32,4,TR,Jhumu Sarkar,CPM,,,,,False,32,2018,AE
+1782266,Dipak Das,INC,22917,650,1.66,3,32,4,TR,Dipak Das,INC,,,,,False,32,2018,AE
+1782267,Utpal Das,AITC,22928,293,0.75,4,32,4,TR,Utpal Das,AITC,,,,,False,32,2018,AE
+1782268,Nota,NOTA,22918,241,0.61,5,32,4,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782269,Sujit Mandal,IND,22919,185,0.47,6,32,4,TR,Sujit Mandal,IND,,,,,False,32,2018,AE
+1782270,Ratan Chakraborty,BJP,22916,25496,56.64,1,32,5,TR,Ratan Chakraborty,BJP,,,,,False,32,2018,AE
+1782271,Pabitra Kar,CPM,22930,18457,41.01,2,32,5,TR,Pabitra Kar,CPM,,,,,False,32,2018,AE
+1782272,Sukhamay Saha,INC,22917,482,1.07,3,32,5,TR,Sukhamay Saha,INC,,,,,False,32,2018,AE
+1782273,Nota,NOTA,22918,336,0.75,4,32,5,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782274,Ashim Sarkar,IND,22919,240,0.53,5,32,5,TR,Ashim Sarkar,IND,,,,,False,32,2018,AE
+1782275,Sudip Roy Barman,BJP,22916,25234,56.59,1,32,6,TR,Sudip Roy Barman,BJP,,,,,False,32,2018,AE
+1782276,Krishna Majumder,CPM,22930,17852,40.03,2,32,6,TR,Krishna Majumder,CPM,,,,,False,32,2018,AE
+1782277,Prashanta Sen Chowdhury,INC,22917,646,1.45,3,32,6,TR,Prashanta Sen Chowdhury,INC,,,,,False,32,2018,AE
+1782278,Nota,NOTA,22918,344,0.77,4,32,6,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782279,Panna Deb,AITC,22928,302,0.68,5,32,6,TR,Panna Deb,AITC,,,,,False,32,2018,AE
+1782280,Prabin Singha,TRIPP,22926,215,0.48,6,32,6,TR,Prabin Singha,TRIPP,,,,,False,32,2018,AE
+1782281,Surajit Datta,BJP,22916,21092,54.67,1,32,7,TR,Surajit Datta,BJP,,,,,False,32,2018,AE
+1782282,Ratan Das,CPM,22930,16237,42.09,2,32,7,TR,Ratan Das,CPM,,,,,False,32,2018,AE
+1782283,Pujan Biswas,INC,22917,648,1.68,3,32,7,TR,Pujan Biswas,INC,,,,,False,32,2018,AE
+1782284,Nota,NOTA,22918,329,0.85,4,32,7,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782285,Soumen Majumder,AITC,22928,274,0.71,5,32,7,TR,Soumen Majumder,AITC,,,,,False,32,2018,AE
+1782286,Asish Kumar Saha,BJP,22916,24293,61.95,1,32,8,TR,Asish Kumar Saha,BJP,,,,,False,32,2018,AE
+1782287,Biswanath Saha,AIFB,22932,13115,33.44,2,32,8,TR,Biswanath Saha,AIFB,,,,,False,32,2018,AE
+1782288,Ratna Datta,INC,22917,1303,3.32,3,32,8,TR,Ratna Datta,INC,,,,,False,32,2018,AE
+1782289,Nota,NOTA,22918,303,0.77,4,32,8,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782290,Shibani Bhowmik,SUCI,22920,202,0.52,5,32,8,TR,Shibani Bhowmik,SUCI,,,,,False,32,2018,AE
+1782291,Biplab Kumar Deb,BJP,22916,21755,61.57,1,32,9,TR,Biplab Kumar Deb,BJP,,,,,False,32,2018,AE
+1782292,Amal Chakraborty,CPM,22930,12206,34.55,2,32,9,TR,Amal Chakraborty,CPM,,,,,False,32,2018,AE
+1782293,Gopal Chandra Roy,INC,22917,832,2.35,3,32,9,TR,Gopal Chandra Roy,INC,,,,,False,32,2018,AE
+1782294,Nota,NOTA,22918,169,0.48,4,32,9,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782295,Kuheli Das (Sinha),AITC,22928,116,0.33,5,32,9,TR,Kuheli Das (Sinha),AITC,,,,,False,32,2018,AE
+1782296,Mita Saha,AMB,22929,80,0.23,6,32,9,TR,Mita Saha,AMB,,,,,False,32,2018,AE
+1782297,Subrata Bhowmik,IND,22919,68,0.19,7,32,9,TR,Subrata Bhowmik,IND,,,,,False,32,2018,AE
+1782298,Shephali Debnath,SUCI,22920,63,0.18,8,32,9,TR,Shephali Debnath,SUCI,,,,,False,32,2018,AE
+1782299,Biren Debnath,IND,22919,43,0.12,9,32,9,TR,Biren Debnath,IND,,,,,False,32,2018,AE
+1782300,Sushanta Chowdhury,BJP,22916,23249,53.4,1,32,10,TR,Sushanta Chowdhury,BJP,,,,,False,32,2018,AE
+1782301,Manik Dey,CPM,22930,19359,44.47,2,32,10,TR,Manik Dey,CPM,,,,,False,32,2018,AE
+1782302,Rajib Gope,INC,22917,509,1.17,3,32,10,TR,Rajib Gope,INC,,,,,False,32,2018,AE
+1782303,Nota,NOTA,22918,417,0.96,4,32,10,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782304,Dhirendra Debbarma,IPFT,22923,21381,52.76,1,32,11,TR,Dhirendra Debbarma,IPFT,,,,,False,32,2018,AE
+1782305,Monoranjan Debbarma,CPM,22930,15517,38.29,2,32,11,TR,Monoranjan Debbarma,CPM,,,,,False,32,2018,AE
+1782306,Jagadish Debbarma,INPT,22931,2215,5.47,3,32,11,TR,Jagadish Debbarma,INPT,,,,,False,32,2018,AE
+1782307,Jiten Debbarma,INC,22917,496,1.22,4,32,11,TR,Jiten Debbarma,INC,,,,,False,32,2018,AE
+1782308,Sona Charan Debbarma,TLSP,22933,466,1.15,5,32,11,TR,Sona Charan Debbarma,TLSP,,,,,False,32,2018,AE
+1782309,Nota,NOTA,22918,453,1.12,6,32,11,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782310,Narendra Chandra Debbarma,IPFT,22923,22056,62.01,1,32,12,TR,Narendra Chandra Debbarma,IPFT,,,,,False,32,2018,AE
+1782311,Ramendra Debbarma,CPM,22930,9404,26.44,2,32,12,TR,Ramendra Debbarma,CPM,,,,,False,32,2018,AE
+1782312,Amiya Kumar Debbarma,INPT,22931,2002,5.63,3,32,12,TR,Amiya Kumar Debbarma,INPT,,,,,False,32,2018,AE
+1782313,Samson Debbarma,INC,22917,786,2.21,4,32,12,TR,Samson Debbarma,INC,,,,,False,32,2018,AE
+1782314,Nota,NOTA,22918,755,2.12,5,32,12,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782315,Chitta Ranjan Debbarma,TLSP,22933,566,1.59,6,32,12,TR,Chitta Ranjan Debbarma,TLSP,,,,,False,32,2018,AE
+1782316,Rebati Mohan Das,BJP,22916,25834,51.53,1,32,13,TR,Rebati Mohan Das,BJP,,,,,False,32,2018,AE
+1782317,Ramu Das,CPM,22930,22686,45.25,2,32,13,TR,Ramu Das,CPM,,,,,False,32,2018,AE
+1782318,Arjun Das,INC,22917,628,1.25,3,32,13,TR,Arjun Das,INC,,,,,False,32,2018,AE
+1782319,Nota,NOTA,22918,374,0.75,4,32,13,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782320,Mithun Das,AITC,22928,322,0.64,5,32,13,TR,Mithun Das,AITC,,,,,False,32,2018,AE
+1782321,Birendra Das,AMB,22929,290,0.58,6,32,13,TR,Birendra Das,AMB,,,,,False,32,2018,AE
+1782322,Dilip Sarkar,BJP,22916,28561,53.85,1,32,14,TR,Dilip Sarkar,BJP,,,,,False,32,2018,AE
+1782323,Jharna Das(Baidya),CPM,22930,23113,43.58,2,32,14,TR,Jharna Das(Baidya),CPM,,,,,False,32,2018,AE
+1782324,Ratan Ch. Das,INC,22917,505,0.95,3,32,14,TR,Ratan Ch. Das,INC,,,,,False,32,2018,AE
+1782325,Nota,NOTA,22918,474,0.89,4,32,14,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782326,Mridul Kanti Sarkar,SUCI,22920,246,0.46,5,32,14,TR,Mridul Kanti Sarkar,SUCI,,,,,False,32,2018,AE
+1782327,Brajendra Das,AMB,22929,141,0.27,6,32,14,TR,Brajendra Das,AMB,,,,,False,32,2018,AE
+1782328,Narayan Chandra Chowdhuri,CPM,22930,18847,50.6,1,32,15,TR,Narayan Chandra Chowdhuri,CPM,,,,,False,32,2018,AE
+1782329,Arun Bhowmik,BJP,22916,16968,45.55,2,32,15,TR,Arun Bhowmik,BJP,,,,,False,32,2018,AE
+1782330,Nota,NOTA,22918,433,1.16,3,32,15,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782331,Biswanath Ghosh,AITC,22928,394,1.06,4,32,15,TR,Biswanath Ghosh,AITC,,,,,False,32,2018,AE
+1782332,Sankar Deb,INC,22917,358,0.96,5,32,15,TR,Sankar Deb,INC,,,,,False,32,2018,AE
+1782333,Subal Sarkar,AMB,22929,248,0.67,6,32,15,TR,Subal Sarkar,AMB,,,,,False,32,2018,AE
+1782334,Bhanulal Saha,CPM,22930,21254,49.32,1,32,16,TR,Bhanulal Saha,CPM,,,,,False,32,2018,AE
+1782335,Nitai Chaudhuri,BJP,22916,20488,47.54,2,32,16,TR,Nitai Chaudhuri,BJP,,,,,False,32,2018,AE
+1782336,Jaydul Hossain,INC,22917,715,1.66,3,32,16,TR,Jaydul Hossain,INC,,,,,False,32,2018,AE
+1782337,Parimal Sarkar,AMB,22929,339,0.79,4,32,16,TR,Parimal Sarkar,AMB,,,,,False,32,2018,AE
+1782338,Nota,NOTA,22918,301,0.7,5,32,16,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782339,Birendra Kishore Debbarma,BJP,22916,19228,52.97,1,32,17,TR,Birendra Kishore Debbarma,BJP,,,,,False,32,2018,AE
+1782340,Keshab Debbarma,CPM,22930,15730,43.33,2,32,17,TR,Keshab Debbarma,CPM,,,,,False,32,2018,AE
+1782341,Nishi Kanta Debbarma,INC,22917,472,1.3,3,32,17,TR,Nishi Kanta Debbarma,INC,,,,,False,32,2018,AE
+1782342,Nota,NOTA,22918,445,1.23,4,32,17,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782343,Manab Debbarma,INPT,22931,426,1.17,5,32,17,TR,Manab Debbarma,INPT,,,,,False,32,2018,AE
+1782344,Ram Prasad Paul,BJP,22916,24874,53.42,1,32,18,TR,Ram Prasad Paul,BJP,,,,,False,32,2018,AE
+1782345,Rajkumar Choudhury,CPM,22930,20307,43.61,2,32,18,TR,Rajkumar Choudhury,CPM,,,,,False,32,2018,AE
+1782346,Prasanta Bhattacharjee,INC,22917,436,0.94,3,32,18,TR,Prasanta Bhattacharjee,INC,,,,,False,32,2018,AE
+1782347,Nota,NOTA,22918,325,0.7,4,32,18,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782348,Jagadish Das,AMB,22929,282,0.61,5,32,18,TR,Jagadish Das,AMB,,,,,False,32,2018,AE
+1782349,Krishna Kanta Debnath,AITC,22928,199,0.43,6,32,18,TR,Krishna Kanta Debnath,AITC,,,,,False,32,2018,AE
+1782350,Raju Das,RPI,22934,140,0.3,7,32,18,TR,Raju Das,RPI,,,,,False,32,2018,AE
+1782351,Jishnu Dev Varma,BJP,22916,26580,89.34,1,32,19,TR,Jishnu Dev Varma,BJP,,,,,False,32,2018,AE
+1782352,Palash Debbarma,CPM,22930,1030,3.46,2,32,19,TR,Palash Debbarma,CPM,,,,,False,32,2018,AE
+1782353,Arjun Debbarma,INC,22917,775,2.6,3,32,19,TR,Arjun Debbarma,INC,,,,,False,32,2018,AE
+1782354,Uma Sankar Debbarma,INPT,22931,685,2.3,4,32,19,TR,Uma Sankar Debbarma,INPT,,,,,False,32,2018,AE
+1782355,Nota,NOTA,22918,485,1.63,5,32,19,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782356,Jyotilal Debbarma,IND,22919,198,0.67,6,32,19,TR,Jyotilal Debbarma,IND,,,,,False,32,2018,AE
+1782357,Sahid Choudhuri,CPM,22930,19862,57.76,1,32,20,TR,Sahid Choudhuri,CPM,,,,,False,32,2018,AE
+1782358,Baharul Islam Majumder,BJP,22916,11847,34.45,2,32,20,TR,Baharul Islam Majumder,BJP,,,,,False,32,2018,AE
+1782359,Billal Mia,INC,22917,1866,5.43,3,32,20,TR,Billal Mia,INC,,,,,False,32,2018,AE
+1782360,Nota,NOTA,22918,453,1.32,4,32,20,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782361,Najir Islam,AITC,22928,359,1.04,5,32,20,TR,Najir Islam,AITC,,,,,False,32,2018,AE
+1782362,Subhash Chandra Das,BJP,22916,19261,49.08,1,32,21,TR,Subhash Chandra Das,BJP,,,,,False,32,2018,AE
+1782363,Tapan Chandra Das,CPM,22930,18810,47.93,2,32,21,TR,Tapan Chandra Das,CPM,,,,,False,32,2018,AE
+1782364,Rakesh Das,INC,22917,594,1.51,3,32,21,TR,Rakesh Das,INC,,,,,False,32,2018,AE
+1782365,Nota,NOTA,22918,347,0.88,4,32,21,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782366,Ashutosh Das,AMB,22929,230,0.59,5,32,21,TR,Ashutosh Das,AMB,,,,,False,32,2018,AE
+1782367,Shyamal Chakraborty,CPM,22930,19275,52.44,1,32,22,TR,Shyamal Chakraborty,CPM,,,,,False,32,2018,AE
+1782368,Subal Bhowmik,BJP,22916,15843,43.11,2,32,22,TR,Subal Bhowmik,BJP,,,,,False,32,2018,AE
+1782369,Majibur Islam Majumdar,INC,22917,684,1.86,3,32,22,TR,Majibur Islam Majumdar,INC,,,,,False,32,2018,AE
+1782370,Jasim Uddin,AITC,22928,420,1.14,4,32,22,TR,Jasim Uddin,AITC,,,,,False,32,2018,AE
+1782371,Nota,NOTA,22918,300,0.82,5,32,22,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782372,Ruhul Amin,TRIPP,22926,231,0.63,6,32,22,TR,Ruhul Amin,TRIPP,,,,,False,32,2018,AE
+1782373,Manik Sarkar,CPM,22930,22176,54.62,1,32,23,TR,Manik Sarkar,CPM,,,,,False,32,2018,AE
+1782374,Pratima Bhoumik,BJP,22916,16735,41.22,2,32,23,TR,Pratima Bhoumik,BJP,,,,,False,32,2018,AE
+1782375,Laxmi Nag ( Barman),INC,22917,832,2.05,3,32,23,TR,Laxmi Nag ( Barman),INC,,,,,False,32,2018,AE
+1782376,Nota,NOTA,22918,465,1.15,4,32,23,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782377,Jahir Uddin,AITC,22928,392,0.97,5,32,23,TR,Jahir Uddin,AITC,,,,,False,32,2018,AE
+1782378,Prasanta Debbarma,IPFT,22923,19439,53.94,1,32,24,TR,Prasanta Debbarma,IPFT,,,,,False,32,2018,AE
+1782379,Padma Kumar Deb Barma,CPM,22930,15204,42.19,2,32,24,TR,Padma Kumar Deb Barma,CPM,,,,,False,32,2018,AE
+1782380,Animesh Debbarma,IND,22919,603,1.67,3,32,24,TR,Animesh Debbarma,IND,,,,,False,32,2018,AE
+1782381,Tarani Debbarma,INC,22917,398,1.1,4,32,24,TR,Tarani Debbarma,INC,,,,,False,32,2018,AE
+1782382,Nota,NOTA,22918,391,1.09,5,32,24,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782383,Nirmal Biswas,CPM,22930,20629,52.61,1,32,25,TR,Nirmal Biswas,CPM,,,,,False,32,2018,AE
+1782384,Amit Rakshit,BJP,22916,17893,45.63,2,32,25,TR,Amit Rakshit,BJP,,,,,False,32,2018,AE
+1782385,Goutam Deb,AMB,22929,330,0.84,3,32,25,TR,Goutam Deb,AMB,,,,,False,32,2018,AE
+1782386,Ajoy Chandra Das,INC,22917,209,0.53,4,32,25,TR,Ajoy Chandra Das,INC,,,,,False,32,2018,AE
+1782387,Nota,NOTA,22918,149,0.38,5,32,25,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782388,Mevar Kr Jamatia,IPFT,22923,19188,57.46,1,32,26,TR,Mevar Kr Jamatia,IPFT,,,,,False,32,2018,AE
+1782389,Aghore Deb Barma,CPM,22930,12201,36.53,2,32,26,TR,Aghore Deb Barma,CPM,,,,,False,32,2018,AE
+1782390,Dilip Kumar Munda,TLSP,22933,501,1.5,3,32,26,TR,Dilip Kumar Munda,TLSP,,,,,False,32,2018,AE
+1782391,Nota,NOTA,22918,499,1.49,4,32,26,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782392,Surendra Deb Barma,INC,22917,435,1.3,5,32,26,TR,Surendra Deb Barma,INC,,,,,False,32,2018,AE
+1782393,Rajesh Kr. Debbarma,IND,22919,290,0.87,6,32,26,TR,Rajesh Kr. Debbarma,IND,,,,,False,32,2018,AE
+1782394,Suchitra Debbarma,AMB,22929,282,0.84,7,32,26,TR,Suchitra Debbarma,AMB,,,,,False,32,2018,AE
+1782395,Pinaki Das Chowdhury,BJP,22916,20293,52.53,1,32,27,TR,Pinaki Das Chowdhury,BJP,,,,,False,32,2018,AE
+1782396,Manindra Chandra Das,CPM,22930,17152,44.4,2,32,27,TR,Manindra Chandra Das,CPM,,,,,False,32,2018,AE
+1782397,Bikram Kishore Sinha,INC,22917,347,0.9,3,32,27,TR,Bikram Kishore Sinha,INC,,,,,False,32,2018,AE
+1782398,Uttam Kumar Das,AMB,22929,345,0.89,4,32,27,TR,Uttam Kumar Das,AMB,,,,,False,32,2018,AE
+1782399,Nota,NOTA,22918,327,0.85,5,32,27,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782400,Mano Ranjan Debbarma,TLSP,22933,169,0.44,6,32,27,TR,Mano Ranjan Debbarma,TLSP,,,,,False,32,2018,AE
+1782401,Kalyani Roy,BJP,22916,22077,57.3,1,32,28,TR,Kalyani Roy,BJP,,,,,False,32,2018,AE
+1782402,Gouri Das,CPM,22930,14898,38.66,2,32,28,TR,Gouri Das,CPM,,,,,False,32,2018,AE
+1782403,Nityagopal Rudra Pal,INC,22917,438,1.14,3,32,28,TR,Nityagopal Rudra Pal,INC,,,,,False,32,2018,AE
+1782404,Chinta Kumar Debbarma,TLSP,22933,432,1.12,4,32,28,TR,Chinta Kumar Debbarma,TLSP,,,,,False,32,2018,AE
+1782405,Nota,NOTA,22918,359,0.93,5,32,28,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782406,Gopal Chandra Sarkar,AMB,22929,328,0.85,6,32,28,TR,Gopal Chandra Sarkar,AMB,,,,,False,32,2018,AE
+1782407,Atul Debbarma,BJP,22916,16730,51.64,1,32,29,TR,Atul Debbarma,BJP,,,,,False,32,2018,AE
+1782408,Khagendra Jamatia,CPM,22930,14735,45.48,2,32,29,TR,Khagendra Jamatia,CPM,,,,,False,32,2018,AE
+1782409,Saratal Jamatia,INC,22917,397,1.23,3,32,29,TR,Saratal Jamatia,INC,,,,,False,32,2018,AE
+1782410,Nota,NOTA,22918,325,1.0,4,32,29,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782411,Kripajay Reang,IND,22919,211,0.65,5,32,29,TR,Kripajay Reang,IND,,,,,False,32,2018,AE
+1782412,Ram Pada Jamatia,BJP,22916,24074,51.38,1,32,30,TR,Ram Pada Jamatia,BJP,,,,,False,32,2018,AE
+1782413,Naresh Chandra Jamatia,CPM,22930,21241,45.33,2,32,30,TR,Naresh Chandra Jamatia,CPM,,,,,False,32,2018,AE
+1782414,Jyotish Jamatia,INPT,22931,695,1.48,3,32,30,TR,Jyotish Jamatia,INPT,,,,,False,32,2018,AE
+1782415,Nota,NOTA,22918,450,0.96,4,32,30,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782416,Anantalal Jamatia,INC,22917,399,0.85,5,32,30,TR,Anantalal Jamatia,INC,,,,,False,32,2018,AE
+1782417,Pranajit Singha Roy,BJP,22916,22414,53.18,1,32,31,TR,Pranajit Singha Roy,BJP,,,,,False,32,2018,AE
+1782418,Srikanta Datta,RSP,22935,17568,41.68,2,32,31,TR,Srikanta Datta,RSP,,,,,False,32,2018,AE
+1782419,Nota,NOTA,22918,899,2.13,3,32,31,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782420,Milan Chandra Kar,INC,22917,843,2.0,4,32,31,TR,Milan Chandra Kar,INC,,,,,False,32,2018,AE
+1782421,Partha Karmakar,CPI(ML)(L),22936,222,0.53,5,32,31,TR,Partha Karmakar,CPI(ML)(L),,,,,False,32,2018,AE
+1782422,Matilal Sil,AITC,22928,201,0.48,6,32,31,TR,Matilal Sil,AITC,,,,,False,32,2018,AE
+1782423,Biplab Kumar Ghosh,BJP,22916,23069,49.83,1,32,32,TR,Biplab Kumar Ghosh,BJP,,,,,False,32,2018,AE
+1782424,Madhab Chandra Saha,CPM,22930,21500,46.44,2,32,32,TR,Madhab Chandra Saha,CPM,,,,,False,32,2018,AE
+1782425,Abhijit Sarkar,INC,22917,497,1.07,3,32,32,TR,Abhijit Sarkar,INC,,,,,False,32,2018,AE
+1782426,Bishwajit Chakraborty,AITC,22928,315,0.68,4,32,32,TR,Bishwajit Chakraborty,AITC,,,,,False,32,2018,AE
+1782427,Gopal Roy,CPI(ML)(L),22936,302,0.65,5,32,32,TR,Gopal Roy,CPI(ML)(L),,,,,False,32,2018,AE
+1782428,Nota,NOTA,22918,301,0.65,6,32,32,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782429,Tarani Sadhan Jamatia,INPT,22931,199,0.43,7,32,32,TR,Tarani Sadhan Jamatia,INPT,,,,,False,32,2018,AE
+1782430,Bibhulal Dey,SUCI,22920,110,0.24,8,32,32,TR,Bibhulal Dey,SUCI,,,,,False,32,2018,AE
+1782431,Ratan Kumar Bhowmik,CPM,22930,24835,53.22,1,32,33,TR,Ratan Kumar Bhowmik,CPM,,,,,False,32,2018,AE
+1782432,Jitendra Majumder,BJP,22916,21068,45.15,2,32,33,TR,Jitendra Majumder,BJP,,,,,False,32,2018,AE
+1782433,Nota,NOTA,22918,762,1.63,3,32,33,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782434,Sudhan Das,CPM,22930,22004,55.36,1,32,34,TR,Sudhan Das,CPM,,,,,False,32,2018,AE
+1782435,Bibhishan Chandra Das,BJP,22916,16291,40.99,2,32,34,TR,Bibhishan Chandra Das,BJP,,,,,False,32,2018,AE
+1782436,Manik Das,INC,22917,459,1.15,3,32,34,TR,Manik Das,INC,,,,,False,32,2018,AE
+1782437,Nota,NOTA,22918,431,1.08,4,32,34,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782438,Uttam Dhupi,CPI(ML)(L),22936,368,0.93,5,32,34,TR,Uttam Dhupi,CPI(ML)(L),,,,,False,32,2018,AE
+1782439,Radha Rani Das (Bhowmik),IND,22919,194,0.49,6,32,34,TR,Radha Rani Das (Bhowmik),IND,,,,,False,32,2018,AE
+1782440,Arun Chandra Bhaumik,BJP,22916,19307,49.2,1,32,35,TR,Arun Chandra Bhaumik,BJP,,,,,False,32,2018,AE
+1782441,Basudev Majumder,CPM,22930,18554,47.28,2,32,35,TR,Basudev Majumder,CPM,,,,,False,32,2018,AE
+1782442,Bhola Nath Dhar,INC,22917,399,1.02,3,32,35,TR,Bhola Nath Dhar,INC,,,,,False,32,2018,AE
+1782443,Nota,NOTA,22918,378,0.96,4,32,35,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782444,Prasanta Sen,AITC,22928,323,0.82,5,32,35,TR,Prasanta Sen,AITC,,,,,False,32,2018,AE
+1782445,Gauri Sankar Nandi,AMB,22929,157,0.4,6,32,35,TR,Gauri Sankar Nandi,AMB,,,,,False,32,2018,AE
+1782446,Amalendu Banik,IND,22919,124,0.32,7,32,35,TR,Amalendu Banik,IND,,,,,False,32,2018,AE
+1782447,Pramod Reang,BJP,22916,21701,51.24,1,32,36,TR,Pramod Reang,BJP,,,,,False,32,2018,AE
+1782448,Manindra Reang,CPI,22937,19352,45.7,2,32,36,TR,Manindra Reang,CPI,,,,,False,32,2018,AE
+1782449,Nota,NOTA,22918,538,1.27,3,32,36,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782450,Baneti Reang,INC,22917,446,1.05,4,32,36,TR,Baneti Reang,INC,,,,,False,32,2018,AE
+1782451,Milan Pada Murasing,IND,22919,313,0.74,5,32,36,TR,Milan Pada Murasing,IND,,,,,False,32,2018,AE
+1782452,Badal Choudhury,CPM,22930,22673,56.2,1,32,37,TR,Badal Choudhury,CPM,,,,,False,32,2018,AE
+1782453,Ashesh Baidya,BJP,22916,16343,40.51,2,32,37,TR,Ashesh Baidya,BJP,,,,,False,32,2018,AE
+1782454,Nota,NOTA,22918,472,1.17,3,32,37,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782455,Dilip Kumar Chowdhury (Muhury),INC,22917,462,1.15,4,32,37,TR,Dilip Kumar Chowdhury (Muhury),INC,,,,,False,32,2018,AE
+1782456,Sudarshan Majumder,IND,22919,391,0.97,5,32,37,TR,Sudarshan Majumder,IND,,,,,False,32,2018,AE
+1782457,Jashabir Tripura,CPM,22930,21160,49.97,1,32,38,TR,Jashabir Tripura,CPM,,,,,False,32,2018,AE
+1782458,Ankya Mog Choudhuri,BJP,22916,19592,46.27,2,32,38,TR,Ankya Mog Choudhuri,BJP,,,,,False,32,2018,AE
+1782459,Nota,NOTA,22918,479,1.13,3,32,38,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782460,Madhu Sudan Tripura,AITC,22928,435,1.03,4,32,38,TR,Madhu Sudan Tripura,AITC,,,,,False,32,2018,AE
+1782461,Braja Mohan Tripura,INC,22917,349,0.82,5,32,38,TR,Braja Mohan Tripura,INC,,,,,False,32,2018,AE
+1782462,Kalyan Reang,IND,22919,330,0.78,6,32,38,TR,Kalyan Reang,IND,,,,,False,32,2018,AE
+1782463,Pravat Chowdhury,CPM,22930,19432,48.03,1,32,39,TR,Pravat Chowdhury,CPM,,,,,False,32,2018,AE
+1782464,Dhananjoy Tripura,IPFT,22923,19239,47.55,2,32,39,TR,Dhananjoy Tripura,IPFT,,,,,False,32,2018,AE
+1782465,Mongla Mog,INC,22917,819,2.02,3,32,39,TR,Mongla Mog,INC,,,,,False,32,2018,AE
+1782466,Nota,NOTA,22918,485,1.2,4,32,39,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782467,Kanchai Mog,IND,22919,483,1.19,5,32,39,TR,Kanchai Mog,IND,,,,,False,32,2018,AE
+1782468,Sankar Roy,BJP,22916,21059,51.15,1,32,40,TR,Sankar Roy,BJP,,,,,False,32,2018,AE
+1782469,Rita Kar Majumder,CPM,22930,18877,45.85,2,32,40,TR,Rita Kar Majumder,CPM,,,,,False,32,2018,AE
+1782470,Manoranjan Datta,INC,22917,470,1.14,3,32,40,TR,Manoranjan Datta,INC,,,,,False,32,2018,AE
+1782471,Nota,NOTA,22918,410,1.0,4,32,40,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782472,Narayan Chandra Dey,IND,22919,353,0.86,5,32,40,TR,Narayan Chandra Dey,IND,,,,,False,32,2018,AE
+1782473,Sindhu Chandra Jamatia,IPFT,22923,18202,53.4,1,32,41,TR,Sindhu Chandra Jamatia,IPFT,,,,,False,32,2018,AE
+1782474,Daniel Jamatia,CPM,22930,13255,38.89,2,32,41,TR,Daniel Jamatia,CPM,,,,,False,32,2018,AE
+1782475,Ram Krishna Jamatia,INPT,22931,1303,3.82,3,32,41,TR,Ram Krishna Jamatia,INPT,,,,,False,32,2018,AE
+1782476,Daniel Kaipeng,INC,22917,672,1.97,4,32,41,TR,Daniel Kaipeng,INC,,,,,False,32,2018,AE
+1782477,Nota,NOTA,22918,651,1.91,5,32,41,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782478,Ranjit Das,BJP,22916,18970,49.68,1,32,42,TR,Ranjit Das,BJP,,,,,False,32,2018,AE
+1782479,Parimal Debnath,CPM,22930,17954,47.02,2,32,42,TR,Parimal Debnath,CPM,,,,,False,32,2018,AE
+1782480,Nota,NOTA,22918,340,0.89,3,32,42,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782481,Biplab Kumar Saha,INC,22917,312,0.82,4,32,42,TR,Biplab Kumar Saha,INC,,,,,False,32,2018,AE
+1782482,Subir Sen Ghosh,AITC,22928,255,0.67,5,32,42,TR,Subir Sen Ghosh,AITC,,,,,False,32,2018,AE
+1782483,Pabitra Mohan Jamatia,TLSP,22933,212,0.56,6,32,42,TR,Pabitra Mohan Jamatia,TLSP,,,,,False,32,2018,AE
+1782484,Bijoy Das,AMB,22929,144,0.38,7,32,42,TR,Bijoy Das,AMB,,,,,False,32,2018,AE
+1782485,Burba Mohan Tripura,BJP,22916,15622,48.86,1,32,43,TR,Burba Mohan Tripura,BJP,,,,,False,32,2018,AE
+1782486,Priyamani Debbarma,CPM,22930,14825,46.37,2,32,43,TR,Priyamani Debbarma,CPM,,,,,False,32,2018,AE
+1782487,Ram Bahadur Reang,INC,22917,461,1.44,3,32,43,TR,Ram Bahadur Reang,INC,,,,,False,32,2018,AE
+1782488,Nota,NOTA,22918,458,1.43,4,32,43,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782489,Janak Mani Tripura,INPT,22931,216,0.68,5,32,43,TR,Janak Mani Tripura,INPT,,,,,False,32,2018,AE
+1782490,Harish Reang,TRIPP,22926,213,0.67,6,32,43,TR,Harish Reang,TRIPP,,,,,False,32,2018,AE
+1782491,Subal Debbarma,NEINDP,22938,177,0.55,7,32,43,TR,Subal Debbarma,NEINDP,,,,,False,32,2018,AE
+1782492,Dhananjoy Tripura,IPFT,22923,18673,47.25,1,32,44,TR,Dhananjoy Tripura,IPFT,,,,,False,32,2018,AE
+1782493,Lalit Mohan Tripura,CPM,22930,16751,42.39,2,32,44,TR,Lalit Mohan Tripura,CPM,,,,,False,32,2018,AE
+1782494,Shib Chandra Debbarma,INPT,22931,1815,4.59,3,32,44,TR,Shib Chandra Debbarma,INPT,,,,,False,32,2018,AE
+1782495,Khagendra Reang,TRIPP,22926,840,2.13,4,32,44,TR,Khagendra Reang,TRIPP,,,,,False,32,2018,AE
+1782496,Nota,NOTA,22918,584,1.48,5,32,44,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782497,Bakul Bikash Chakma,INC,22917,476,1.2,6,32,44,TR,Bakul Bikash Chakma,INC,,,,,False,32,2018,AE
+1782498,Nakendra Chakma,TLSP,22933,377,0.95,7,32,44,TR,Nakendra Chakma,TLSP,,,,,False,32,2018,AE
+1782499,Manoj Kanti Deb,BJP,22916,20165,52.14,1,32,45,TR,Manoj Kanti Deb,BJP,,,,,False,32,2018,AE
+1782500,Bijoy Laxmi Singha,CPM,22930,17206,44.49,2,32,45,TR,Bijoy Laxmi Singha,CPM,,,,,False,32,2018,AE
+1782501,Bijoy Krishna Chatterjee,INC,22917,443,1.15,3,32,45,TR,Bijoy Krishna Chatterjee,INC,,,,,False,32,2018,AE
+1782502,Hasen Choudhury,AITC,22928,360,0.93,4,32,45,TR,Hasen Choudhury,AITC,,,,,False,32,2018,AE
+1782503,Nota,NOTA,22918,256,0.66,5,32,45,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782504,Premtosh Deb,AMB,22929,244,0.63,6,32,45,TR,Premtosh Deb,AMB,,,,,False,32,2018,AE
+1782505,Ashis Das,BJP,22916,20767,51.79,1,32,46,TR,Ashis Das,BJP,,,,,False,32,2018,AE
+1782506,Anjan Das,CPM,22930,18057,45.03,2,32,46,TR,Anjan Das,CPM,,,,,False,32,2018,AE
+1782507,Nota,NOTA,22918,348,0.87,3,32,46,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782508,Tapas Kumar Das,INC,22917,317,0.79,4,32,46,TR,Tapas Kumar Das,INC,,,,,False,32,2018,AE
+1782509,Jay Kumar Keot,AITC,22928,300,0.75,5,32,46,TR,Jay Kumar Keot,AITC,,,,,False,32,2018,AE
+1782510,Sushil Malakar,IND,22919,193,0.48,6,32,46,TR,Sushil Malakar,IND,,,,,False,32,2018,AE
+1782511,Pranesh Das,AMB,22929,117,0.29,7,32,46,TR,Pranesh Das,AMB,,,,,False,32,2018,AE
+1782512,Parimal Debbarma,BJP,22916,20842,49.99,1,32,47,TR,Parimal Debbarma,BJP,,,,,False,32,2018,AE
+1782513,Bharat Reang,CPM,22930,17257,41.39,2,32,47,TR,Bharat Reang,CPM,,,,,False,32,2018,AE
+1782514,Bijoy Kumar Hrangkhawl,INPT,22931,2184,5.24,3,32,47,TR,Bijoy Kumar Hrangkhawl,INPT,,,,,False,32,2018,AE
+1782515,Sachitra Debbarma,INC,22917,629,1.51,4,32,47,TR,Sachitra Debbarma,INC,,,,,False,32,2018,AE
+1782516,Nota,NOTA,22918,465,1.12,5,32,47,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782517,Parkaroy Reang,TRIPP,22926,315,0.76,6,32,47,TR,Parkaroy Reang,TRIPP,,,,,False,32,2018,AE
+1782518,Diba Chandra Hrangkhawl,BJP,22916,19397,55.44,1,32,48,TR,Diba Chandra Hrangkhawl,BJP,,,,,False,32,2018,AE
+1782519,Umakanta Tripura,CPM,22930,12061,34.47,2,32,48,TR,Umakanta Tripura,CPM,,,,,False,32,2018,AE
+1782520,Ratish Tripura,INPT,22931,1864,5.33,3,32,48,TR,Ratish Tripura,INPT,,,,,False,32,2018,AE
+1782521,Ranjanbati Debbarma,INC,22917,739,2.11,4,32,48,TR,Ranjanbati Debbarma,INC,,,,,False,32,2018,AE
+1782522,Nota,NOTA,22918,459,1.31,5,32,48,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782523,Kalpa Mohan Tripura,IND,22919,258,0.74,6,32,48,TR,Kalpa Mohan Tripura,IND,,,,,False,32,2018,AE
+1782524,Chiranjay Reang,TRIPP,22926,208,0.59,7,32,48,TR,Chiranjay Reang,TRIPP,,,,,False,32,2018,AE
+1782525,Sambhu Lal Chakma,BJP,22916,18290,52.32,1,32,49,TR,Sambhu Lal Chakma,BJP,,,,,False,32,2018,AE
+1782526,Nirajoy Tripura,CPM,22930,14535,41.58,2,32,49,TR,Nirajoy Tripura,CPM,,,,,False,32,2018,AE
+1782527,Bihari Baishnab Tripura,INPT,22931,665,1.9,3,32,49,TR,Bihari Baishnab Tripura,INPT,,,,,False,32,2018,AE
+1782528,Nota,NOTA,22918,449,1.28,4,32,49,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782529,Ashok Mitra Karbari,INC,22917,432,1.24,5,32,49,TR,Ashok Mitra Karbari,INC,,,,,False,32,2018,AE
+1782530,Bikash Debbarma,TLSP,22933,343,0.98,6,32,49,TR,Bikash Debbarma,TLSP,,,,,False,32,2018,AE
+1782531,Asit Debbarma,IND,22919,244,0.7,7,32,49,TR,Asit Debbarma,IND,,,,,False,32,2018,AE
+1782532,Bhagaban Das,BJP,22916,22815,55.11,1,32,50,TR,Bhagaban Das,BJP,,,,,False,32,2018,AE
+1782533,Samiran Malakar,CPM,22930,16988,41.03,2,32,50,TR,Samiran Malakar,CPM,,,,,False,32,2018,AE
+1782534,Swagata Das,INC,22917,850,2.05,3,32,50,TR,Swagata Das,INC,,,,,False,32,2018,AE
+1782535,Nota,NOTA,22918,377,0.91,4,32,50,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782536,Subrata Malakar,IND,22919,193,0.47,5,32,50,TR,Subrata Malakar,IND,,,,,False,32,2018,AE
+1782537,Pranesh Das,AMB,22929,176,0.43,6,32,50,TR,Pranesh Das,AMB,,,,,False,32,2018,AE
+1782538,Sudhangshu Das,BJP,22916,19512,51.84,1,32,51,TR,Sudhangshu Das,BJP,,,,,False,32,2018,AE
+1782539,Tunubala Malakar,CPM,22930,16683,44.33,2,32,51,TR,Tunubala Malakar,CPM,,,,,False,32,2018,AE
+1782540,Rakhu Das,INC,22917,730,1.94,3,32,51,TR,Rakhu Das,INC,,,,,False,32,2018,AE
+1782541,Nota,NOTA,22918,312,0.83,4,32,51,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782542,Sajal Das,TRIPP,22926,290,0.77,5,32,51,TR,Sajal Das,TRIPP,,,,,False,32,2018,AE
+1782543,Rajesh Malakar,IND,22919,110,0.29,6,32,51,TR,Rajesh Malakar,IND,,,,,False,32,2018,AE
+1782544,Tapan Chakraborti,CPM,22930,18545,47.87,1,32,52,TR,Tapan Chakraborti,CPM,,,,,False,32,2018,AE
+1782545,Kaberi Singha,BJP,22916,18143,46.84,2,32,52,TR,Kaberi Singha,BJP,,,,,False,32,2018,AE
+1782546,Nirmalendu Deb,INC,22917,1025,2.65,3,32,52,TR,Nirmalendu Deb,INC,,,,,False,32,2018,AE
+1782547,Nota,NOTA,22918,432,1.12,4,32,52,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782548,Dasarath Sarkar,IND,22919,214,0.55,5,32,52,TR,Dasarath Sarkar,IND,,,,,False,32,2018,AE
+1782549,Bidyut Bikash Singha,AITC,22928,189,0.49,6,32,52,TR,Bidyut Bikash Singha,AITC,,,,,False,32,2018,AE
+1782550,Gouranga Debnath,CPI(ML)(L),22936,189,0.49,6,32,52,TR,Gouranga Debnath,CPI(ML)(L),,,,,False,32,2018,AE
+1782551,Moboshar Ali,CPM,22930,18093,45.47,1,32,53,TR,Moboshar Ali,CPM,,,,,False,32,2018,AE
+1782552,Nitish De,BJP,22916,13259,33.32,2,32,53,TR,Nitish De,BJP,,,,,False,32,2018,AE
+1782553,Birajit Sinha,INC,22917,7787,19.57,3,32,53,TR,Birajit Sinha,INC,,,,,False,32,2018,AE
+1782554,Nota,NOTA,22918,430,1.08,4,32,53,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782555,Narasingha Das,AITC,22928,218,0.55,5,32,53,TR,Narasingha Das,AITC,,,,,False,32,2018,AE
+1782556,Islam Uddin,CPM,22930,20721,56.69,1,32,54,TR,Islam Uddin,CPM,,,,,False,32,2018,AE
+1782557,Tinku Roy,BJP,22916,13839,37.86,2,32,54,TR,Tinku Roy,BJP,,,,,False,32,2018,AE
+1782558,Giyas Uddin Chowdhury,INC,22917,936,2.56,3,32,54,TR,Giyas Uddin Chowdhury,INC,,,,,False,32,2018,AE
+1782559,Nota,NOTA,22918,417,1.14,4,32,54,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782560,Rasamay Nath,AITC,22928,363,0.99,5,32,54,TR,Rasamay Nath,AITC,,,,,False,32,2018,AE
+1782561,Gopal Krishna Deb,AMB,22929,139,0.38,6,32,54,TR,Gopal Krishna Deb,AMB,,,,,False,32,2018,AE
+1782562,Rahamat Ali,IND,22919,139,0.38,6,32,54,TR,Rahamat Ali,IND,,,,,False,32,2018,AE
+1782563,Bijita Nath,CPM,22930,18001,48.41,1,32,55,TR,Bijita Nath,CPM,,,,,False,32,2018,AE
+1782564,Pradip Kumar Nath,BJP,22916,17731,47.69,2,32,55,TR,Pradip Kumar Nath,BJP,,,,,False,32,2018,AE
+1782565,Jyotirmoy Nath,INC,22917,552,1.48,3,32,55,TR,Jyotirmoy Nath,INC,,,,,False,32,2018,AE
+1782566,Arabinda Teli,CPI(ML)(L),22936,277,0.74,4,32,55,TR,Arabinda Teli,CPI(ML)(L),,,,,False,32,2018,AE
+1782567,Amarjit Singha,AITC,22928,274,0.74,5,32,55,TR,Amarjit Singha,AITC,,,,,False,32,2018,AE
+1782568,Nota,NOTA,22918,257,0.69,6,32,55,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782569,Martujuddin Choudhury,IND,22919,90,0.24,7,32,55,TR,Martujuddin Choudhury,IND,,,,,False,32,2018,AE
+1782570,Biswabandhu Sen,BJP,22916,21357,58.2,1,32,56,TR,Biswabandhu Sen,BJP,,,,,False,32,2018,AE
+1782571,Abhijit De,CPM,22930,14070,38.34,2,32,56,TR,Abhijit De,CPM,,,,,False,32,2018,AE
+1782572,Kebal Kanti Nandi,INC,22917,642,1.75,3,32,56,TR,Kebal Kanti Nandi,INC,,,,,False,32,2018,AE
+1782573,Nota,NOTA,22918,254,0.69,4,32,56,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782574,Bipul Krishna Das,AITC,22928,161,0.44,5,32,56,TR,Bipul Krishna Das,AITC,,,,,False,32,2018,AE
+1782575,Bibhas Ranjan Das,AMB,22929,124,0.34,6,32,56,TR,Bibhas Ranjan Das,AMB,,,,,False,32,2018,AE
+1782576,Sanjoy Chaudhury,SUCI,22920,90,0.25,7,32,56,TR,Sanjoy Chaudhury,SUCI,,,,,False,32,2018,AE
+1782577,Ramendra Chandra Debnath,CPM,22930,18147,48.9,1,32,57,TR,Ramendra Chandra Debnath,CPM,,,,,False,32,2018,AE
+1782578,Jadab Lal Debnath,BJP,22916,17498,47.15,2,32,57,TR,Jadab Lal Debnath,BJP,,,,,False,32,2018,AE
+1782579,Digbijoy Chakraborty,INC,22917,689,1.86,3,32,57,TR,Digbijoy Chakraborty,INC,,,,,False,32,2018,AE
+1782580,Ratneshbar Debnath,AITC,22928,275,0.74,4,32,57,TR,Ratneshbar Debnath,AITC,,,,,False,32,2018,AE
+1782581,Nota,NOTA,22918,259,0.7,5,32,57,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782582,Ramesh Chandra Debnath,AMB,22929,242,0.65,6,32,57,TR,Ramesh Chandra Debnath,AMB,,,,,False,32,2018,AE
+1782583,Binay Bhushan Das,BJP,22916,15892,48.96,1,32,58,TR,Binay Bhushan Das,BJP,,,,,False,32,2018,AE
+1782584,Ajit Kumar Das,CPM,22930,15331,47.23,2,32,58,TR,Ajit Kumar Das,CPM,,,,,False,32,2018,AE
+1782585,Gouranga Das Talukdar,INC,22917,555,1.71,3,32,58,TR,Gouranga Das Talukdar,INC,,,,,False,32,2018,AE
+1782586,Nota,NOTA,22918,269,0.83,4,32,58,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782587,Rani Singha,AITC,22928,249,0.77,5,32,58,TR,Rani Singha,AITC,,,,,False,32,2018,AE
+1782588,Binod Nath,AMB,22929,162,0.5,6,32,58,TR,Binod Nath,AMB,,,,,False,32,2018,AE
+1782589,Santana Chakma,BJP,22916,17743,49.58,1,32,59,TR,Santana Chakma,BJP,,,,,False,32,2018,AE
+1782590,Anil Chakma,CPM,22930,16370,45.75,2,32,59,TR,Anil Chakma,CPM,,,,,False,32,2018,AE
+1782591,Nandini Chakma,INC,22917,644,1.8,3,32,59,TR,Nandini Chakma,INC,,,,,False,32,2018,AE
+1782592,Nota,NOTA,22918,407,1.14,4,32,59,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782593,Karnadhan Chakma,AMB,22929,223,0.62,5,32,59,TR,Karnadhan Chakma,AMB,,,,,False,32,2018,AE
+1782594,Kripamohan Reang,TLSP,22933,209,0.58,6,32,59,TR,Kripamohan Reang,TLSP,,,,,False,32,2018,AE
+1782595,Daniel Sangma,INPT,22931,187,0.52,7,32,59,TR,Daniel Sangma,INPT,,,,,False,32,2018,AE
+1782596,Prem Kumar Reang,IPFT,22923,19448,52.53,1,32,60,TR,Prem Kumar Reang,IPFT,,,,,False,32,2018,AE
+1782597,Rajendra Reang,CPM,22930,15317,41.37,2,32,60,TR,Rajendra Reang,CPM,,,,,False,32,2018,AE
+1782598,Sindrai Reang,INPT,22931,856,2.31,3,32,60,TR,Sindrai Reang,INPT,,,,,False,32,2018,AE
+1782599,Karnadhan Chakma,AMB,22929,400,1.08,4,32,60,TR,Karnadhan Chakma,AMB,,,,,False,32,2018,AE
+1782600,Ranjit Kumar Reang,INC,22917,386,1.04,5,32,60,TR,Ranjit Kumar Reang,INC,,,,,False,32,2018,AE
+1782601,Nota,NOTA,22918,347,0.94,6,32,60,TR,Nota,NOTA,,,,,False,32,2018,AE
+1782602,Pronendra Reang,TLSP,22933,272,0.73,7,32,60,TR,Pronendra Reang,TLSP,,,,,False,32,2018,AE

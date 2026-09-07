@@ -1,0 +1,1386 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1717700,Joyanta Basumatary,UPPL,19856,35173,38.41,1,53,1,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1717701,Kampa Borgoyari,BOPF,19857,20330,22.2,2,53,1,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1717702,Garjan Mashahary,INC,19858,20021,21.86,3,53,1,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1717703,Gauri Sankar Sarania,AITC,19859,6387,6.98,4,53,1,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1717704,Binita Deka,GNASURKP,19860,3562,3.89,5,53,1,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1717705,Prithviraj Narayan Dev Mech,IND,19861,2403,2.62,6,53,1,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1717706,Lalit Pegu,VPI,19862,869,0.95,7,53,1,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1717707,Nota,NOTA,19863,830,0.91,8,53,1,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717708,Ranjay Kr Brahma,IND,19861,550,0.6,9,53,1,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1717709,Jyotish Kumar Das,IND,19861,434,0.47,10,53,1,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1717710,Pankaj Islary,IND,19861,399,0.44,11,53,1,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1717711,Triptina Rabha,IND,19861,359,0.39,12,53,1,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1717712,Ajoy Narzary,IND,19861,252,0.28,13,53,1,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1717713,Joyanta Basumatary,UPPL,19856,36490,41.38,1,53,2,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1717714,Kampa Borgoyari,BOPF,19857,31933,36.22,2,53,2,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1717715,Garjan Mashahary,INC,19858,6137,6.96,3,53,2,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1717716,Binita Deka,GNASURKP,19860,5255,5.96,4,53,2,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1717717,Prithviraj Narayan Dev Mech,IND,19861,2548,2.89,5,53,2,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1717718,Gauri Sankar Sarania,AITC,19859,2431,2.76,6,53,2,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1717719,Nota,NOTA,19863,924,1.05,7,53,2,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717720,Lalit Pegu,VPI,19862,689,0.78,8,53,2,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1717721,Ranjay Kr Brahma,IND,19861,589,0.67,9,53,2,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1717722,Jyotish Kumar Das,IND,19861,334,0.38,10,53,2,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1717723,Pankaj Islary,IND,19861,322,0.37,11,53,2,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1717724,Triptina Rabha,IND,19861,281,0.32,12,53,2,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1717725,Ajoy Narzary,IND,19861,244,0.28,13,53,2,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1717726,Kampa Borgoyari,BOPF,19857,48207,41.62,1,53,3,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1717727,Joyanta Basumatary,UPPL,19856,46032,39.75,2,53,3,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1717728,Binita Deka,GNASURKP,19860,9094,7.85,3,53,3,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1717729,Garjan Mashahary,INC,19858,3345,2.89,4,53,3,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1717730,Prithviraj Narayan Dev Mech,IND,19861,3017,2.61,5,53,3,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1717731,Gauri Sankar Sarania,AITC,19859,1722,1.49,6,53,3,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1717732,Nota,NOTA,19863,1345,1.16,7,53,3,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717733,Ranjay Kr Brahma,IND,19861,839,0.72,8,53,3,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1717734,Lalit Pegu,VPI,19862,563,0.49,9,53,3,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1717735,Jyotish Kumar Das,IND,19861,480,0.41,10,53,3,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1717736,Ajoy Narzary,IND,19861,409,0.35,11,53,3,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1717737,Pankaj Islary,IND,19861,389,0.34,12,53,3,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1717738,Triptina Rabha,IND,19861,376,0.33,13,53,3,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1717739,Joyanta Basumatary,UPPL,19856,55015,41.21,1,53,4,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1717740,Kampa Borgoyari,BOPF,19857,48660,36.45,2,53,4,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1717741,Garjan Mashahary,INC,19858,12665,9.49,3,53,4,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1717742,Binita Deka,GNASURKP,19860,6067,4.55,4,53,4,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1717743,Prithviraj Narayan Dev Mech,IND,19861,4366,3.27,5,53,4,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1717744,Gauri Sankar Sarania,AITC,19859,1851,1.39,6,53,4,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1717745,Nota,NOTA,19863,1550,1.16,7,53,4,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717746,Ranjay Kr Brahma,IND,19861,1072,0.8,8,53,4,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1717747,Jyotish Kumar Das,IND,19861,568,0.43,9,53,4,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1717748,Pankaj Islary,IND,19861,461,0.35,10,53,4,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1717749,Ajoy Narzary,IND,19861,439,0.33,11,53,4,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1717750,Lalit Pegu,VPI,19862,391,0.29,12,53,4,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1717751,Triptina Rabha,IND,19861,389,0.29,13,53,4,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1717752,Kampa Borgoyari,BOPF,19857,56840,37.67,1,53,5,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1717753,Joyanta Basumatary,UPPL,19856,47302,31.35,2,53,5,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1717754,Garjan Mashahary,INC,19858,34108,22.6,3,53,5,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1717755,Prithviraj Narayan Dev Mech,IND,19861,3589,2.38,4,53,5,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1717756,Gauri Sankar Sarania,AITC,19859,2748,1.82,5,53,5,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1717757,Binita Deka,GNASURKP,19860,1770,1.17,6,53,5,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1717758,Nota,NOTA,19863,1418,0.94,7,53,5,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717759,Ranjay Kr Brahma,IND,19861,894,0.59,8,53,5,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1717760,Lalit Pegu,VPI,19862,505,0.34,9,53,5,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1717761,Pankaj Islary,IND,19861,497,0.33,10,53,5,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1717762,Jyotish Kumar Das,IND,19861,492,0.33,11,53,5,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1717763,Triptina Rabha,IND,19861,391,0.26,12,53,5,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1717764,Ajoy Narzary,IND,19861,355,0.24,13,53,5,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1717765,Zabed Islam,AGP,19864,97833,52.98,1,53,6,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717766,Rakibul Hussain,INC,19858,68808,37.26,2,53,6,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717767,Mohammed Badruddin Ajmal,AIUDF,19865,11402,6.18,3,53,6,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717768,Nota,NOTA,19863,1624,0.88,4,53,6,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717769,Faruk Khan,IND,19861,893,0.48,5,53,6,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717770,Biswajit Ray,IND,19861,805,0.44,6,53,6,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717771,Hafiz Burhanuddin,TNRMPI,19866,783,0.42,7,53,6,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717772,S. M. Jiaul Haque,BGanP,19867,663,0.36,8,53,6,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717773,Radharani Biswas,HSP,19868,543,0.29,9,53,6,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717774,Alakesh Roy,IND,19861,471,0.26,10,53,6,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717775,Shukur Ali,AJM,19869,321,0.17,11,53,6,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717776,Rejaul Karim,RPPRINAT,19870,193,0.11,12,53,6,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717777,Surat Zaman Mondal,SUCI,19871,161,0.09,13,53,6,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717778,Tahidur Rahman,VPI,19862,161,0.09,13,53,6,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717779,Rakibul Hussain,INC,19858,191689,69.07,1,53,7,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717780,Mohammed Badruddin Ajmal,AIUDF,19865,39451,14.22,2,53,7,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717781,Zabed Islam,AGP,19864,37563,13.54,3,53,7,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717782,Nota,NOTA,19863,1718,0.62,4,53,7,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717783,S. M. Jiaul Haque,BGanP,19867,1556,0.56,5,53,7,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717784,Faruk Khan,IND,19861,1422,0.51,6,53,7,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717785,Biswajit Ray,IND,19861,787,0.28,7,53,7,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717786,Alakesh Roy,IND,19861,657,0.24,8,53,7,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717787,Hafiz Burhanuddin,TNRMPI,19866,631,0.23,9,53,7,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717788,Radharani Biswas,HSP,19868,582,0.21,10,53,7,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717789,Shukur Ali,AJM,19869,449,0.16,11,53,7,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717790,Tahidur Rahman,VPI,19862,442,0.16,12,53,7,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717791,Rejaul Karim,RPPRINAT,19870,317,0.11,13,53,7,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717792,Surat Zaman Mondal,SUCI,19871,250,0.09,14,53,7,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717793,Rakibul Hussain,INC,19858,125094,59.52,1,53,8,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717794,Zabed Islam,AGP,19864,43393,20.65,2,53,8,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717795,Mohammed Badruddin Ajmal,AIUDF,19865,35790,17.03,3,53,8,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717796,Nota,NOTA,19863,1377,0.66,4,53,8,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717797,S. M. Jiaul Haque,BGanP,19867,917,0.44,5,53,8,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717798,Faruk Khan,IND,19861,906,0.43,6,53,8,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717799,Biswajit Ray,IND,19861,511,0.24,7,53,8,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717800,Alakesh Roy,IND,19861,426,0.2,8,53,8,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717801,Radharani Biswas,HSP,19868,418,0.2,9,53,8,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717802,Hafiz Burhanuddin,TNRMPI,19866,390,0.19,10,53,8,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717803,Tahidur Rahman,VPI,19862,316,0.15,11,53,8,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717804,Shukur Ali,AJM,19869,287,0.14,12,53,8,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717805,Rejaul Karim,RPPRINAT,19870,176,0.08,13,53,8,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717806,Surat Zaman Mondal,SUCI,19871,171,0.08,14,53,8,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717807,Rakibul Hussain,INC,19858,163211,64.66,1,53,9,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717808,Mohammed Badruddin Ajmal,AIUDF,19865,66305,26.27,2,53,9,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717809,Zabed Islam,AGP,19864,14484,5.74,3,53,9,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717810,Nota,NOTA,19863,1366,0.54,4,53,9,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717811,S. M. Jiaul Haque,BGanP,19867,1237,0.49,5,53,9,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717812,Faruk Khan,IND,19861,1097,0.44,6,53,9,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717813,Surat Zaman Mondal,SUCI,19871,739,0.29,7,53,9,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717814,Biswajit Ray,IND,19861,730,0.29,8,53,9,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717815,Alakesh Roy,IND,19861,713,0.28,9,53,9,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717816,Hafiz Burhanuddin,TNRMPI,19866,665,0.26,10,53,9,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717817,Tahidur Rahman,VPI,19862,639,0.25,11,53,9,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717818,Radharani Biswas,HSP,19868,541,0.21,12,53,9,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717819,Shukur Ali,AJM,19869,389,0.15,13,53,9,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717820,Rejaul Karim,RPPRINAT,19870,309,0.12,14,53,9,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717821,Rakibul Hussain,INC,19858,78371,45.62,1,53,10,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717822,Zabed Islam,AGP,19864,73948,43.04,2,53,10,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717823,Mohammed Badruddin Ajmal,AIUDF,19865,13260,7.72,3,53,10,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717824,Nota,NOTA,19863,1479,0.86,4,53,10,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717825,Faruk Khan,IND,19861,803,0.47,5,53,10,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717826,Biswajit Ray,IND,19861,747,0.44,6,53,10,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717827,S. M. Jiaul Haque,BGanP,19867,676,0.39,7,53,10,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717828,Radharani Biswas,HSP,19868,524,0.31,8,53,10,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717829,Hafiz Burhanuddin,TNRMPI,19866,495,0.29,9,53,10,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717830,Shukur Ali,AJM,19869,421,0.25,10,53,10,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717831,Alakesh Roy,IND,19861,392,0.23,11,53,10,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717832,Rejaul Karim,RPPRINAT,19870,256,0.15,12,53,10,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717833,Tahidur Rahman,VPI,19862,229,0.13,13,53,10,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717834,Surat Zaman Mondal,SUCI,19871,204,0.12,14,53,10,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717835,Rakibul Hussain,INC,19858,163792,59.47,1,53,11,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717836,Zabed Islam,AGP,19864,63960,23.22,2,53,11,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717837,Mohammed Badruddin Ajmal,AIUDF,19865,38446,13.96,3,53,11,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717838,Nota,NOTA,19863,1583,0.58,4,53,11,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717839,Faruk Khan,IND,19861,1232,0.45,5,53,11,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717840,S. M. Jiaul Haque,BGanP,19867,1205,0.44,6,53,11,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717841,Hafiz Burhanuddin,TNRMPI,19866,1051,0.38,7,53,11,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717842,Biswajit Ray,IND,19861,873,0.32,8,53,11,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717843,Surat Zaman Mondal,SUCI,19871,692,0.25,9,53,11,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717844,Alakesh Roy,IND,19861,667,0.24,10,53,11,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717845,Shukur Ali,AJM,19869,540,0.2,11,53,11,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717846,Radharani Biswas,HSP,19868,497,0.18,12,53,11,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717847,Tahidur Rahman,VPI,19862,468,0.17,13,53,11,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717848,Rejaul Karim,RPPRINAT,19870,414,0.15,14,53,11,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717849,Rakibul Hussain,INC,19858,137048,63.24,1,53,12,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717850,Mohammed Badruddin Ajmal,AIUDF,19865,56545,26.09,2,53,12,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717851,Zabed Islam,AGP,19864,14819,6.84,3,53,12,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717852,S. M. Jiaul Haque,BGanP,19867,1229,0.57,4,53,12,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717853,Nota,NOTA,19863,1161,0.54,5,53,12,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717854,Faruk Khan,IND,19861,979,0.45,6,53,12,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717855,Surat Zaman Mondal,SUCI,19871,841,0.39,7,53,12,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717856,Alakesh Roy,IND,19861,788,0.36,8,53,12,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717857,Biswajit Ray,IND,19861,678,0.31,9,53,12,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717858,Tahidur Rahman,VPI,19862,654,0.3,10,53,12,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717859,Hafiz Burhanuddin,TNRMPI,19866,599,0.28,11,53,12,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717860,Radharani Biswas,HSP,19868,572,0.26,12,53,12,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717861,Shukur Ali,AJM,19869,447,0.21,13,53,12,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717862,Rejaul Karim,RPPRINAT,19870,344,0.16,14,53,12,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717863,Bijuli Kalita Medhi,BJP,19872,80825,58.58,1,53,13,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1717864,Mira Borthakur Goswami,INC,19858,52053,37.73,2,53,13,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1717865,Dipak Kr Boro,VPI,19862,1296,0.94,3,53,13,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1717866,Nota,NOTA,19863,1141,0.83,4,53,13,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717867,Colonel Gokul Chandra Singha,IND,19861,664,0.48,5,53,13,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1717868,Amitabh Sarma,ESBD,19873,610,0.44,6,53,13,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1717869,Kazi Nekib Ahmed,IND,19861,549,0.4,7,53,13,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1717870,Shejon Goyary,BAHUMP,19874,422,0.31,8,53,13,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1717871,Samad Choudhury,BGanP,19867,416,0.3,9,53,13,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1717872,Rakibul Hussain,INC,19858,126453,62.44,1,53,14,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717873,Zabed Islam,AGP,19864,41691,20.59,2,53,14,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717874,Mohammed Badruddin Ajmal,AIUDF,19865,25878,12.78,3,53,14,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717875,Nota,NOTA,19863,1468,0.73,4,53,14,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717876,S. M. Jiaul Haque,BGanP,19867,1160,0.57,5,53,14,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717877,Faruk Khan,IND,19861,959,0.47,6,53,14,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717878,Biswajit Ray,IND,19861,763,0.38,7,53,14,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717879,Radharani Biswas,HSP,19868,754,0.37,8,53,14,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717880,Alakesh Roy,IND,19861,750,0.37,9,53,14,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717881,Hafiz Burhanuddin,TNRMPI,19866,719,0.36,10,53,14,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717882,Shukur Ali,AJM,19869,553,0.27,11,53,14,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717883,Rejaul Karim,RPPRINAT,19870,538,0.27,12,53,14,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717884,Tahidur Rahman,VPI,19862,531,0.26,13,53,14,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717885,Surat Zaman Mondal,SUCI,19871,308,0.15,14,53,14,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717886,Bijuli Kalita Medhi,BJP,19872,90502,60.4,1,53,15,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1717887,Mira Borthakur Goswami,INC,19858,52008,34.71,2,53,15,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1717888,Dipak Kr Boro,VPI,19862,2395,1.6,3,53,15,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1717889,Nota,NOTA,19863,1489,0.99,4,53,15,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717890,Colonel Gokul Chandra Singha,IND,19861,833,0.56,5,53,15,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1717891,Kazi Nekib Ahmed,IND,19861,726,0.49,6,53,15,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1717892,Amitabh Sarma,ESBD,19873,724,0.48,7,53,15,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1717893,Samad Choudhury,BGanP,19867,590,0.39,8,53,15,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1717894,Shejon Goyary,BAHUMP,19874,571,0.38,9,53,15,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1717895,Phani Bhusan Choudhury,AGP,19864,98791,63.12,1,53,16,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1717896,Deep Bayan,INC,19858,43682,27.91,2,53,16,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1717897,Manoranjan Talukdar,CPI(M),19875,6639,4.24,3,53,16,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1717898,Abul Kalam Azad,AITC,19859,1487,0.95,4,53,16,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1717899,Dewan Mohibul Islam,IND,19861,1051,0.67,5,53,16,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1717900,Nota,NOTA,19863,1034,0.66,6,53,16,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717901,Jagannath Ray,IND,19861,684,0.44,7,53,16,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1717902,Matiar Rahman,IND,19861,613,0.39,8,53,16,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1717903,Samej Uddin,BOPF,19857,529,0.34,9,53,16,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1717905,Dulu Ahmed,IND,19861,467,0.3,10,53,16,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1717904,Shajahan Ali Khan,VPI,19862,467,0.3,10,53,16,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1717906,Chitralekha Das,SUCI,19871,283,0.18,12,53,16,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1717907,Aynal Haque,IND,19861,270,0.17,13,53,16,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1717908,Amzad Ali,RPPRINAT,19870,258,0.17,14,53,16,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1717909,Abubakkar Siddique,RUC,19876,253,0.16,15,53,16,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1717910,Rakibul Hussain,INC,19858,120369,60.16,1,53,17,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717911,Mohammed Badruddin Ajmal,AIUDF,19865,48602,24.29,2,53,17,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717912,Zabed Islam,AGP,19864,25298,12.64,3,53,17,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717913,Nota,NOTA,19863,947,0.47,4,53,17,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717914,S. M. Jiaul Haque,BGanP,19867,895,0.45,5,53,17,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717915,Faruk Khan,IND,19861,773,0.39,6,53,17,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717916,Alakesh Roy,IND,19861,607,0.3,7,53,17,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717917,Biswajit Ray,IND,19861,531,0.27,8,53,17,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717918,Radharani Biswas,HSP,19868,469,0.23,9,53,17,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717919,Tahidur Rahman,VPI,19862,434,0.22,10,53,17,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717920,Hafiz Burhanuddin,TNRMPI,19866,425,0.21,11,53,17,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717921,Shukur Ali,AJM,19869,350,0.18,12,53,17,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717922,Rejaul Karim,RPPRINAT,19870,226,0.11,13,53,17,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717923,Surat Zaman Mondal,SUCI,19871,165,0.08,14,53,17,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717924,Phani Bhusan Choudhury,AGP,19864,98323,65.51,1,53,18,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1717925,Deep Bayan,INC,19858,38723,25.8,2,53,18,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1717926,Manoranjan Talukdar,CPI(M),19875,4036,2.69,3,53,18,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1717927,Nota,NOTA,19863,1806,1.2,4,53,18,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717928,Abul Kalam Azad,AITC,19859,1647,1.1,5,53,18,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1717929,Samej Uddin,BOPF,19857,958,0.64,6,53,18,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1717930,Dewan Mohibul Islam,IND,19861,938,0.63,7,53,18,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1717931,Matiar Rahman,IND,19861,697,0.46,8,53,18,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1717932,Jagannath Ray,IND,19861,646,0.43,9,53,18,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1717933,Dulu Ahmed,IND,19861,542,0.36,10,53,18,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1717934,Shajahan Ali Khan,VPI,19862,512,0.34,11,53,18,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1717935,Aynal Haque,IND,19861,354,0.24,12,53,18,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1717936,Abubakkar Siddique,RUC,19876,333,0.22,13,53,18,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1717937,Chitralekha Das,SUCI,19871,309,0.21,14,53,18,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1717938,Amzad Ali,RPPRINAT,19870,265,0.18,15,53,18,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1717939,Joyanta Basumatary,UPPL,19856,75317,42.35,1,53,19,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1717940,Kampa Borgoyari,BOPF,19857,67788,38.12,2,53,19,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1717941,Garjan Mashahary,INC,19858,11003,6.19,3,53,19,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1717942,Binita Deka,GNASURKP,19860,8184,4.6,4,53,19,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1717943,Prithviraj Narayan Dev Mech,IND,19861,5424,3.05,5,53,19,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1717944,Nota,NOTA,19863,2269,1.28,6,53,19,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717945,Gauri Sankar Sarania,AITC,19859,2204,1.24,7,53,19,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1717946,Ranjay Kr Brahma,IND,19861,1459,0.82,8,53,19,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1717947,Lalit Pegu,VPI,19862,1280,0.72,9,53,19,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1717948,Triptina Rabha,IND,19861,892,0.5,10,53,19,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1717949,Jyotish Kumar Das,IND,19861,760,0.43,11,53,19,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1717950,Pankaj Islary,IND,19861,717,0.4,12,53,19,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1717951,Ajoy Narzary,IND,19861,535,0.3,13,53,19,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1717952,Joyanta Basumatary,UPPL,19856,62763,40.52,1,53,20,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1717953,Kampa Borgoyari,BOPF,19857,47609,30.74,2,53,20,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1717954,Binita Deka,GNASURKP,19860,21098,13.62,3,53,20,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1717955,Garjan Mashahary,INC,19858,10721,6.92,4,53,20,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1717956,Prithviraj Narayan Dev Mech,IND,19861,4295,2.77,5,53,20,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1717957,Gauri Sankar Sarania,AITC,19859,2215,1.43,6,53,20,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1717958,Nota,NOTA,19863,1681,1.09,7,53,20,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717959,Ranjay Kr Brahma,IND,19861,1134,0.73,8,53,20,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1717960,Lalit Pegu,VPI,19862,795,0.51,9,53,20,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1717961,Jyotish Kumar Das,IND,19861,762,0.49,10,53,20,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1717962,Ajoy Narzary,IND,19861,633,0.41,11,53,20,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1717963,Pankaj Islary,IND,19861,614,0.4,12,53,20,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1717964,Triptina Rabha,IND,19861,581,0.38,13,53,20,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1717965,Phani Bhusan Choudhury,AGP,19864,93927,52.51,1,53,21,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1717966,Deep Bayan,INC,19858,57174,31.96,2,53,21,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1717967,Manoranjan Talukdar,CPI(M),19875,18198,10.17,3,53,21,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1717968,Nota,NOTA,19863,1676,0.94,4,53,21,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717969,Abul Kalam Azad,AITC,19859,1651,0.92,5,53,21,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1717970,Samej Uddin,BOPF,19857,1449,0.81,6,53,21,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1717971,Dewan Mohibul Islam,IND,19861,1212,0.68,7,53,21,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1717972,Dulu Ahmed,IND,19861,721,0.4,8,53,21,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1717973,Matiar Rahman,IND,19861,698,0.39,9,53,21,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1717974,Jagannath Ray,IND,19861,557,0.31,10,53,21,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1717975,Shajahan Ali Khan,VPI,19862,486,0.27,11,53,21,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1717976,Aynal Haque,IND,19861,333,0.19,12,53,21,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1717977,Chitralekha Das,SUCI,19871,292,0.16,13,53,21,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1717978,Amzad Ali,RPPRINAT,19870,262,0.15,14,53,21,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1717979,Abubakkar Siddique,RUC,19876,241,0.14,15,53,21,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1717980,Rakibul Hussain,INC,19858,144773,61.79,1,53,22,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717981,Mohammed Badruddin Ajmal,AIUDF,19865,70152,29.94,2,53,22,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717982,Zabed Islam,AGP,19864,12046,5.14,3,53,22,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717983,S. M. Jiaul Haque,BGanP,19867,1102,0.47,4,53,22,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717984,Nota,NOTA,19863,1036,0.44,5,53,22,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717985,Faruk Khan,IND,19861,913,0.39,6,53,22,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1717986,Tahidur Rahman,VPI,19862,776,0.33,7,53,22,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1717987,Alakesh Roy,IND,19861,747,0.32,8,53,22,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1717988,Radharani Biswas,HSP,19868,626,0.27,9,53,22,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1717989,Hafiz Burhanuddin,TNRMPI,19866,573,0.25,10,53,22,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1717990,Biswajit Ray,IND,19861,569,0.24,11,53,22,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1717991,Shukur Ali,AJM,19869,452,0.19,12,53,22,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1717992,Rejaul Karim,RPPRINAT,19870,319,0.14,13,53,22,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1717993,Surat Zaman Mondal,SUCI,19871,211,0.09,14,53,22,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1717994,Rakibul Hussain,INC,19858,148941,67.68,1,53,23,AS,Rakibul Hussain,INC,,,,,False,53,2024,GE
+1717995,Mohammed Badruddin Ajmal,AIUDF,19865,52371,23.8,2,53,23,AS,Mohammed Badruddin Ajmal,AIUDF,,,,,False,53,2024,GE
+1717996,Zabed Islam,AGP,19864,10787,4.9,3,53,23,AS,Zabed Islam,AGP,,,,,False,53,2024,GE
+1717997,S. M. Jiaul Haque,BGanP,19867,1338,0.61,4,53,23,AS,S. M. Jiaul Haque,BGanP,,,,,False,53,2024,GE
+1717998,Nota,NOTA,19863,1153,0.52,5,53,23,AS,Nota,NOTA,,,,,False,53,2024,GE
+1717999,Faruk Khan,IND,19861,1009,0.46,6,53,23,AS,Faruk Khan,IND,,,,,False,53,2024,GE
+1718000,Tahidur Rahman,VPI,19862,734,0.33,7,53,23,AS,Tahidur Rahman,VPI,,,,,False,53,2024,GE
+1718001,Alakesh Roy,IND,19861,732,0.33,8,53,23,AS,Alakesh Roy,IND,,,,,False,53,2024,GE
+1718002,Biswajit Ray,IND,19861,621,0.28,9,53,23,AS,Biswajit Ray,IND,,,,,False,53,2024,GE
+1718003,Radharani Biswas,HSP,19868,611,0.28,10,53,23,AS,Radharani Biswas,HSP,,,,,False,53,2024,GE
+1718004,Hafiz Burhanuddin,TNRMPI,19866,603,0.27,11,53,23,AS,Hafiz Burhanuddin,TNRMPI,,,,,False,53,2024,GE
+1718005,Shukur Ali,AJM,19869,540,0.25,12,53,23,AS,Shukur Ali,AJM,,,,,False,53,2024,GE
+1718006,Rejaul Karim,RPPRINAT,19870,389,0.18,13,53,23,AS,Rejaul Karim,RPPRINAT,,,,,False,53,2024,GE
+1718007,Surat Zaman Mondal,SUCI,19871,242,0.11,14,53,23,AS,Surat Zaman Mondal,SUCI,,,,,False,53,2024,GE
+1718008,Phani Bhusan Choudhury,AGP,19864,91587,65.28,1,53,24,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1718009,Deep Bayan,INC,19858,34159,24.35,2,53,24,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1718010,Manoranjan Talukdar,CPI(M),19875,8409,5.99,3,53,24,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1718011,Nota,NOTA,19863,1221,0.87,4,53,24,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718012,Abul Kalam Azad,AITC,19859,805,0.57,5,53,24,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1718013,Dewan Mohibul Islam,IND,19861,792,0.56,6,53,24,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1718014,Samej Uddin,BOPF,19857,646,0.46,7,53,24,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1718015,Matiar Rahman,IND,19861,545,0.39,8,53,24,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1718016,Dulu Ahmed,IND,19861,521,0.37,9,53,24,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1718017,Jagannath Ray,IND,19861,439,0.31,10,53,24,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1718018,Shajahan Ali Khan,VPI,19862,406,0.29,11,53,24,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1718019,Chitralekha Das,SUCI,19871,227,0.16,12,53,24,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1718020,Aynal Haque,IND,19861,212,0.15,13,53,24,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1718021,Abubakkar Siddique,RUC,19876,173,0.12,14,53,24,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1718022,Amzad Ali,RPPRINAT,19870,163,0.12,15,53,24,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1718023,Deep Bayan,INC,19858,175341,74.46,1,53,25,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1718024,Phani Bhusan Choudhury,AGP,19864,25355,10.77,2,53,25,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1718025,Manoranjan Talukdar,CPI(M),19875,22157,9.41,3,53,25,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1718026,Abul Kalam Azad,AITC,19859,4442,1.89,4,53,25,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1718027,Nota,NOTA,19863,1648,0.7,5,53,25,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718028,Dulu Ahmed,IND,19861,1165,0.5,6,53,25,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1718029,Samej Uddin,BOPF,19857,967,0.41,7,53,25,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1718030,Matiar Rahman,IND,19861,758,0.32,8,53,25,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1718031,Dewan Mohibul Islam,IND,19861,711,0.3,9,53,25,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1718032,Jagannath Ray,IND,19861,696,0.3,10,53,25,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1718033,Amzad Ali,RPPRINAT,19870,587,0.25,11,53,25,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1718034,Aynal Haque,IND,19861,531,0.23,12,53,25,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1718035,Shajahan Ali Khan,VPI,19862,507,0.22,13,53,25,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1718036,Chitralekha Das,SUCI,19871,316,0.13,14,53,25,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1718037,Abubakkar Siddique,RUC,19876,311,0.13,15,53,25,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1718038,Phani Bhusan Choudhury,AGP,19864,76170,58.7,1,53,26,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1718039,Deep Bayan,INC,19858,34584,26.65,2,53,26,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1718040,Manoranjan Talukdar,CPI(M),19875,10492,8.09,3,53,26,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1718041,Nota,NOTA,19863,1736,1.34,4,53,26,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718042,Samej Uddin,BOPF,19857,1396,1.08,5,53,26,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1718043,Abul Kalam Azad,AITC,19859,1363,1.05,6,53,26,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1718044,Dewan Mohibul Islam,IND,19861,925,0.71,7,53,26,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1718045,Matiar Rahman,IND,19861,680,0.52,8,53,26,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1718046,Dulu Ahmed,IND,19861,515,0.4,9,53,26,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1718047,Jagannath Ray,IND,19861,431,0.33,10,53,26,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1718048,Shajahan Ali Khan,VPI,19862,388,0.3,11,53,26,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1718049,Aynal Haque,IND,19861,337,0.26,12,53,26,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1718050,Chitralekha Das,SUCI,19871,300,0.23,13,53,26,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1718051,Amzad Ali,RPPRINAT,19870,228,0.18,14,53,26,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1718052,Abubakkar Siddique,RUC,19876,219,0.17,15,53,26,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1718053,Mira Borthakur Goswami,INC,19858,181943,86.42,1,53,27,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718054,Bijuli Kalita Medhi,BJP,19872,21674,10.3,2,53,27,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718055,Amitabh Sarma,ESBD,19873,1893,0.9,3,53,27,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718056,Nota,NOTA,19863,1432,0.68,4,53,27,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718057,Colonel Gokul Chandra Singha,IND,19861,909,0.43,5,53,27,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718058,Kazi Nekib Ahmed,IND,19861,815,0.39,6,53,27,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718059,Shejon Goyary,BAHUMP,19874,655,0.31,7,53,27,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718060,Samad Choudhury,BGanP,19867,638,0.3,8,53,27,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718061,Dipak Kr Boro,VPI,19862,572,0.27,9,53,27,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718062,Bijuli Kalita Medhi,BJP,19872,96937,61.2,1,53,28,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718063,Mira Borthakur Goswami,INC,19858,53583,33.83,2,53,28,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718064,Nota,NOTA,19863,1809,1.14,3,53,28,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718065,Dipak Kr Boro,VPI,19862,1450,0.92,4,53,28,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718066,Colonel Gokul Chandra Singha,IND,19861,1122,0.71,5,53,28,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718067,Kazi Nekib Ahmed,IND,19861,1072,0.68,6,53,28,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718068,Samad Choudhury,BGanP,19867,852,0.54,7,53,28,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718069,Amitabh Sarma,ESBD,19873,848,0.54,8,53,28,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718070,Shejon Goyary,BAHUMP,19874,731,0.46,9,53,28,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718071,Bijuli Kalita Medhi,BJP,19872,104347,60.42,1,53,29,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718072,Mira Borthakur Goswami,INC,19858,59998,34.74,2,53,29,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718073,Nota,NOTA,19863,2456,1.42,3,53,29,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718074,Colonel Gokul Chandra Singha,IND,19861,1207,0.7,4,53,29,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718075,Kazi Nekib Ahmed,IND,19861,1100,0.64,5,53,29,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718076,Amitabh Sarma,ESBD,19873,976,0.57,6,53,29,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718077,Dipak Kr Boro,VPI,19862,919,0.53,7,53,29,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718078,Shejon Goyary,BAHUMP,19874,858,0.5,8,53,29,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718079,Samad Choudhury,BGanP,19867,849,0.49,9,53,29,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718080,Phani Bhusan Choudhury,AGP,19864,80230,50.06,1,53,30,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1718081,Deep Bayan,INC,19858,65866,41.09,2,53,30,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1718082,Manoranjan Talukdar,CPI(M),19875,4158,2.59,3,53,30,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1718083,Dulu Ahmed,IND,19861,2956,1.84,4,53,30,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1718084,Nota,NOTA,19863,1705,1.06,5,53,30,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718085,Abul Kalam Azad,AITC,19859,1427,0.89,6,53,30,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1718086,Dewan Mohibul Islam,IND,19861,875,0.55,7,53,30,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1718087,Matiar Rahman,IND,19861,636,0.4,8,53,30,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1718088,Samej Uddin,BOPF,19857,591,0.37,9,53,30,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1718089,Jagannath Ray,IND,19861,426,0.27,10,53,30,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1718090,Shajahan Ali Khan,VPI,19862,406,0.25,11,53,30,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1718091,Abubakkar Siddique,RUC,19876,265,0.17,12,53,30,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1718092,Aynal Haque,IND,19861,260,0.16,13,53,30,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1718093,Amzad Ali,RPPRINAT,19870,241,0.15,14,53,30,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1718094,Chitralekha Das,SUCI,19871,241,0.15,14,53,30,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1718095,Dilip Saikia,BJP,19872,99469,57.93,1,53,31,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718096,Madhab Rajbangshi,INC,19858,59219,34.49,2,53,31,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718097,Durgadas Boro,BOPF,19857,6786,3.95,3,53,31,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718098,Nota,NOTA,19863,2339,1.36,4,53,31,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718099,Aroon Barooa,BHRJWNKP,19877,995,0.58,5,53,31,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718100,Jitendra Chaliha,SUCI,19871,574,0.33,6,53,31,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718101,Daniel Mardi,IND,19861,514,0.3,7,53,31,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718102,Swarna Devi,GNASURKP,19860,506,0.3,8,53,31,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718103,Lalit Pegu,VPI,19862,369,0.22,9,53,31,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718104,Abul Kasem,RPPRINAT,19870,360,0.21,10,53,31,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718105,Biren Basak,BGanP,19867,299,0.17,11,53,31,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718106,Abdul Hamed,RUC,19876,279,0.16,12,53,31,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718107,Dilip Saikia,BJP,19872,98247,64.25,1,53,32,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718108,Madhab Rajbangshi,INC,19858,43282,28.31,2,53,32,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718109,Durgadas Boro,BOPF,19857,6263,4.1,3,53,32,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718110,Nota,NOTA,19863,1989,1.3,4,53,32,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718111,Aroon Barooa,BHRJWNKP,19877,856,0.56,5,53,32,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718112,Swarna Devi,GNASURKP,19860,464,0.3,6,53,32,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718113,Daniel Mardi,IND,19861,424,0.28,7,53,32,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718114,Jitendra Chaliha,SUCI,19871,371,0.24,8,53,32,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718115,Abul Kasem,RPPRINAT,19870,299,0.2,9,53,32,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718116,Lalit Pegu,VPI,19862,266,0.17,10,53,32,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718117,Abdul Hamed,RUC,19876,235,0.15,11,53,32,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718118,Biren Basak,BGanP,19867,215,0.14,12,53,32,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718119,Bijuli Kalita Medhi,BJP,19872,103933,61.53,1,53,33,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718120,Mira Borthakur Goswami,INC,19858,59631,35.3,2,53,33,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718121,Nota,NOTA,19863,2711,1.61,3,53,33,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718122,Colonel Gokul Chandra Singha,IND,19861,663,0.39,4,53,33,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718123,Amitabh Sarma,ESBD,19873,496,0.29,5,53,33,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718124,Kazi Nekib Ahmed,IND,19861,468,0.28,6,53,33,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718125,Dipak Kr Boro,VPI,19862,425,0.25,7,53,33,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718126,Samad Choudhury,BGanP,19867,308,0.18,8,53,33,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718127,Shejon Goyary,BAHUMP,19874,274,0.16,9,53,33,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718128,Bijuli Kalita Medhi,BJP,19872,108983,64.9,1,53,34,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718129,Mira Borthakur Goswami,INC,19858,52496,31.26,2,53,34,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718130,Nota,NOTA,19863,2438,1.45,3,53,34,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718131,Colonel Gokul Chandra Singha,IND,19861,911,0.54,4,53,34,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718132,Kazi Nekib Ahmed,IND,19861,830,0.49,5,53,34,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718133,Amitabh Sarma,ESBD,19873,652,0.39,6,53,34,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718134,Samad Choudhury,BGanP,19867,556,0.33,7,53,34,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718135,Dipak Kr Boro,VPI,19862,551,0.33,8,53,34,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718136,Shejon Goyary,BAHUMP,19874,500,0.3,9,53,34,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718137,Bijuli Kalita Medhi,BJP,19872,78387,59.28,1,53,35,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718138,Mira Borthakur Goswami,INC,19858,49629,37.53,2,53,35,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718139,Nota,NOTA,19863,2380,1.8,3,53,35,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718140,Amitabh Sarma,ESBD,19873,416,0.32,4,53,35,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718141,Colonel Gokul Chandra Singha,IND,19861,397,0.3,5,53,35,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718142,Kazi Nekib Ahmed,IND,19861,351,0.27,6,53,35,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718143,Dipak Kr Boro,VPI,19862,251,0.19,7,53,35,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718144,Samad Choudhury,BGanP,19867,224,0.17,8,53,35,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718145,Shejon Goyary,BAHUMP,19874,208,0.16,9,53,35,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718146,Bijuli Kalita Medhi,BJP,19872,102578,73.25,1,53,36,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718147,Mira Borthakur Goswami,INC,19858,33611,24.0,2,53,36,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718148,Nota,NOTA,19863,1950,1.39,3,53,36,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718149,Colonel Gokul Chandra Singha,IND,19861,390,0.28,4,53,36,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718150,Kazi Nekib Ahmed,IND,19861,384,0.27,5,53,36,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718151,Amitabh Sarma,ESBD,19873,356,0.25,6,53,36,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718152,Samad Choudhury,BGanP,19867,290,0.21,7,53,36,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718153,Dipak Kr Boro,VPI,19862,248,0.18,8,53,36,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718154,Shejon Goyary,BAHUMP,19874,241,0.17,9,53,36,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718155,Bijuli Kalita Medhi,BJP,19872,103735,66.44,1,53,37,AS,Bijuli Kalita Medhi,BJP,,,,,False,53,2024,GE
+1718156,Mira Borthakur Goswami,INC,19858,47401,30.36,2,53,37,AS,Mira Borthakur Goswami,INC,,,,,True,53,2024,GE
+1718157,Nota,NOTA,19863,2333,1.49,3,53,37,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718158,Colonel Gokul Chandra Singha,IND,19861,548,0.35,4,53,37,AS,Colonel Gokul Chandra Singha,IND,,,,,False,53,2024,GE
+1718159,Amitabh Sarma,ESBD,19873,537,0.34,5,53,37,AS,Amitabh Sarma,ESBD,,,,,False,53,2024,GE
+1718160,Kazi Nekib Ahmed,IND,19861,458,0.29,6,53,37,AS,Kazi Nekib Ahmed,IND,,,,,False,53,2024,GE
+1718161,Dipak Kr Boro,VPI,19862,387,0.25,7,53,37,AS,Dipak Kr Boro,VPI,,,,,False,53,2024,GE
+1718162,Shejon Goyary,BAHUMP,19874,366,0.23,8,53,37,AS,Shejon Goyary,BAHUMP,,,,,False,53,2024,GE
+1718163,Samad Choudhury,BGanP,19867,358,0.23,9,53,37,AS,Samad Choudhury,BGanP,,,,,False,53,2024,GE
+1718164,Phani Bhusan Choudhury,AGP,19864,94944,50.0,1,53,38,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1718165,Deep Bayan,INC,19858,81755,43.06,2,53,38,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1718166,Manoranjan Talukdar,CPI(M),19875,4657,2.45,3,53,38,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1718167,Nota,NOTA,19863,1736,0.91,4,53,38,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718168,Abul Kalam Azad,AITC,19859,1102,0.58,5,53,38,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1718169,Matiar Rahman,IND,19861,1101,0.58,6,53,38,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1718170,Dewan Mohibul Islam,IND,19861,1073,0.57,7,53,38,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1718171,Dulu Ahmed,IND,19861,905,0.48,8,53,38,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1718172,Jagannath Ray,IND,19861,603,0.32,9,53,38,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1718173,Samej Uddin,BOPF,19857,515,0.27,10,53,38,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1718174,Shajahan Ali Khan,VPI,19862,436,0.23,11,53,38,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1718175,Aynal Haque,IND,19861,319,0.17,12,53,38,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1718176,Chitralekha Das,SUCI,19871,301,0.16,13,53,38,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1718177,Amzad Ali,RPPRINAT,19870,233,0.12,14,53,38,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1718178,Abubakkar Siddique,RUC,19876,202,0.11,15,53,38,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1718179,Phani Bhusan Choudhury,AGP,19864,104817,61.75,1,53,39,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1718180,Deep Bayan,INC,19858,48515,28.58,2,53,39,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1718181,Manoranjan Talukdar,CPI(M),19875,6560,3.86,3,53,39,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1718182,Nota,NOTA,19863,2374,1.4,4,53,39,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718183,Abul Kalam Azad,AITC,19859,1250,0.74,5,53,39,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1718184,Dewan Mohibul Islam,IND,19861,1175,0.69,6,53,39,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1718185,Samej Uddin,BOPF,19857,1148,0.68,7,53,39,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1718186,Matiar Rahman,IND,19861,1138,0.67,8,53,39,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1718187,Dulu Ahmed,IND,19861,721,0.43,9,53,39,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1718188,Jagannath Ray,IND,19861,510,0.3,10,53,39,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1718189,Shajahan Ali Khan,VPI,19862,445,0.26,11,53,39,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1718190,Chitralekha Das,SUCI,19871,378,0.22,12,53,39,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1718191,Aynal Haque,IND,19861,287,0.17,13,53,39,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1718192,Abubakkar Siddique,RUC,19876,231,0.14,14,53,39,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1718193,Amzad Ali,RPPRINAT,19870,205,0.12,15,53,39,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1718194,Phani Bhusan Choudhury,AGP,19864,89498,54.48,1,53,40,AS,Phani Bhusan Choudhury,AGP,,,,,False,53,2024,GE
+1718195,Deep Bayan,INC,19858,55612,33.85,2,53,40,AS,Deep Bayan,INC,,,,,False,53,2024,GE
+1718196,Manoranjan Talukdar,CPI(M),19875,9714,5.91,3,53,40,AS,Manoranjan Talukdar,CPI(M),,,,,False,53,2024,GE
+1718197,Nota,NOTA,19863,1952,1.19,4,53,40,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718198,Samej Uddin,BOPF,19857,1316,0.8,5,53,40,AS,Samej Uddin,BOPF,,,,,False,53,2024,GE
+1718199,Abul Kalam Azad,AITC,19859,1185,0.72,6,53,40,AS,Abul Kalam Azad,AITC,,,,,False,53,2024,GE
+1718200,Dewan Mohibul Islam,IND,19861,1178,0.72,7,53,40,AS,Dewan Mohibul Islam,IND,,,,,False,53,2024,GE
+1718201,Matiar Rahman,IND,19861,1054,0.64,8,53,40,AS,Matiar Rahman,IND,,,,,False,53,2024,GE
+1718202,Dulu Ahmed,IND,19861,762,0.46,9,53,40,AS,Dulu Ahmed,IND,,,,,False,53,2024,GE
+1718203,Jagannath Ray,IND,19861,482,0.29,10,53,40,AS,Jagannath Ray,IND,,,,,False,53,2024,GE
+1718204,Chitralekha Das,SUCI,19871,413,0.25,11,53,40,AS,Chitralekha Das,SUCI,,,,,False,53,2024,GE
+1718205,Shajahan Ali Khan,VPI,19862,388,0.24,12,53,40,AS,Shajahan Ali Khan,VPI,,,,,False,53,2024,GE
+1718206,Aynal Haque,IND,19861,271,0.17,13,53,40,AS,Aynal Haque,IND,,,,,False,53,2024,GE
+1718207,Abubakkar Siddique,RUC,19876,235,0.14,14,53,40,AS,Abubakkar Siddique,RUC,,,,,False,53,2024,GE
+1718208,Amzad Ali,RPPRINAT,19870,215,0.13,15,53,40,AS,Amzad Ali,RPPRINAT,,,,,False,53,2024,GE
+1718209,Joyanta Basumatary,UPPL,19856,68623,41.87,1,53,41,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1718210,Kampa Borgoyari,BOPF,19857,57927,35.35,2,53,41,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1718211,Binita Deka,GNASURKP,19860,14206,8.67,3,53,41,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1718212,Garjan Mashahary,INC,19858,10143,6.19,4,53,41,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1718213,Prithviraj Narayan Dev Mech,IND,19861,4341,2.65,5,53,41,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1718214,Gauri Sankar Sarania,AITC,19859,2127,1.3,6,53,41,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1718215,Nota,NOTA,19863,1651,1.01,7,53,41,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718216,Lalit Pegu,VPI,19862,1118,0.68,8,53,41,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718217,Ranjay Kr Brahma,IND,19861,1086,0.66,9,53,41,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1718218,Jyotish Kumar Das,IND,19861,916,0.56,10,53,41,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1718219,Triptina Rabha,IND,19861,697,0.43,11,53,41,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1718220,Ajoy Narzary,IND,19861,547,0.33,12,53,41,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1718221,Pankaj Islary,IND,19861,508,0.31,13,53,41,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1718222,Joyanta Basumatary,UPPL,19856,57966,37.9,1,53,42,AS,Joyanta Basumatary,UPPL,,,,,False,53,2024,GE
+1718223,Kampa Borgoyari,BOPF,19857,53474,34.96,2,53,42,AS,Kampa Borgoyari,BOPF,,,,,False,53,2024,GE
+1718224,Binita Deka,GNASURKP,19860,24030,15.71,3,53,42,AS,Binita Deka,GNASURKP,,,,,False,53,2024,GE
+1718225,Garjan Mashahary,INC,19858,4481,2.93,4,53,42,AS,Garjan Mashahary,INC,,,,,False,53,2024,GE
+1718226,Prithviraj Narayan Dev Mech,IND,19861,3653,2.39,5,53,42,AS,Prithviraj Narayan Dev Mech,IND,,,,,False,53,2024,GE
+1718227,Nota,NOTA,19863,1994,1.3,6,53,42,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718228,Lalit Pegu,VPI,19862,1681,1.1,7,53,42,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718229,Gauri Sankar Sarania,AITC,19859,1677,1.1,8,53,42,AS,Gauri Sankar Sarania,AITC,,,,,False,53,2024,GE
+1718230,Jyotish Kumar Das,IND,19861,1198,0.78,9,53,42,AS,Jyotish Kumar Das,IND,,,,,False,53,2024,GE
+1718231,Ranjay Kr Brahma,IND,19861,1159,0.76,10,53,42,AS,Ranjay Kr Brahma,IND,,,,,False,53,2024,GE
+1718232,Ajoy Narzary,IND,19861,618,0.4,11,53,42,AS,Ajoy Narzary,IND,,,,,False,53,2024,GE
+1718233,Pankaj Islary,IND,19861,566,0.37,12,53,42,AS,Pankaj Islary,IND,,,,,False,53,2024,GE
+1718234,Triptina Rabha,IND,19861,459,0.3,13,53,42,AS,Triptina Rabha,IND,,,,,False,53,2024,GE
+1718235,Dilip Saikia,BJP,19872,80412,49.63,1,53,43,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718236,Durgadas Boro,BOPF,19857,52887,32.64,2,53,43,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718237,Madhab Rajbangshi,INC,19858,14609,9.02,3,53,43,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718238,Swarna Devi,GNASURKP,19860,3348,2.07,4,53,43,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718239,Daniel Mardi,IND,19861,2929,1.81,5,53,43,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718240,Nota,NOTA,19863,2549,1.57,6,53,43,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718241,Lalit Pegu,VPI,19862,1714,1.06,7,53,43,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718242,Aroon Barooa,BHRJWNKP,19877,1305,0.81,8,53,43,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718243,Jitendra Chaliha,SUCI,19871,638,0.39,9,53,43,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718244,Abul Kasem,RPPRINAT,19870,556,0.34,10,53,43,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718245,Biren Basak,BGanP,19867,540,0.33,11,53,43,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718246,Abdul Hamed,RUC,19876,532,0.33,12,53,43,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718247,Dilip Saikia,BJP,19872,86494,54.66,1,53,44,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718248,Durgadas Boro,BOPF,19857,37580,23.75,2,53,44,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718249,Madhab Rajbangshi,INC,19858,23677,14.96,3,53,44,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718250,Nota,NOTA,19863,2172,1.37,4,53,44,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718251,Daniel Mardi,IND,19861,2000,1.26,5,53,44,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718252,Swarna Devi,GNASURKP,19860,1448,0.92,6,53,44,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718253,Aroon Barooa,BHRJWNKP,19877,1343,0.85,7,53,44,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718254,Lalit Pegu,VPI,19862,1180,0.75,8,53,44,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718255,Biren Basak,BGanP,19867,721,0.46,9,53,44,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718256,Jitendra Chaliha,SUCI,19871,654,0.41,10,53,44,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718257,Abul Kasem,RPPRINAT,19870,552,0.35,11,53,44,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718258,Abdul Hamed,RUC,19876,412,0.26,12,53,44,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718259,Dilip Saikia,BJP,19872,68980,55.22,1,53,45,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718260,Durgadas Boro,BOPF,19857,34045,27.25,2,53,45,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718261,Madhab Rajbangshi,INC,19858,13204,10.57,3,53,45,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718262,Nota,NOTA,19863,2245,1.8,4,53,45,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718263,Lalit Pegu,VPI,19862,1414,1.13,5,53,45,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718264,Daniel Mardi,IND,19861,1389,1.11,6,53,45,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718265,Aroon Barooa,BHRJWNKP,19877,960,0.77,7,53,45,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718266,Swarna Devi,GNASURKP,19860,895,0.72,8,53,45,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718267,Jitendra Chaliha,SUCI,19871,549,0.44,9,53,45,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718268,Biren Basak,BGanP,19867,471,0.38,10,53,45,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718269,Abul Kasem,RPPRINAT,19870,403,0.32,11,53,45,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718270,Abdul Hamed,RUC,19876,365,0.29,12,53,45,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718271,Durgadas Boro,BOPF,19857,50374,38.56,1,53,46,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718272,Dilip Saikia,BJP,19872,46949,35.94,2,53,46,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718273,Madhab Rajbangshi,INC,19858,23751,18.18,3,53,46,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718274,Daniel Mardi,IND,19861,2431,1.86,4,53,46,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718275,Nota,NOTA,19863,1960,1.5,5,53,46,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718276,Lalit Pegu,VPI,19862,1587,1.22,6,53,46,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718277,Swarna Devi,GNASURKP,19860,948,0.73,7,53,46,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718278,Aroon Barooa,BHRJWNKP,19877,941,0.72,8,53,46,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718279,Jitendra Chaliha,SUCI,19871,522,0.4,9,53,46,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718280,Biren Basak,BGanP,19867,449,0.34,10,53,46,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718281,Abul Kasem,RPPRINAT,19870,387,0.3,11,53,46,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718282,Abdul Hamed,RUC,19876,352,0.27,12,53,46,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718283,Dilip Saikia,BJP,19872,70656,48.25,1,53,47,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718284,Durgadas Boro,BOPF,19857,44383,30.31,2,53,47,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718285,Madhab Rajbangshi,INC,19858,23090,15.77,3,53,47,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718286,Nota,NOTA,19863,2088,1.43,4,53,47,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718287,Daniel Mardi,IND,19861,1608,1.1,5,53,47,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718288,Aroon Barooa,BHRJWNKP,19877,1108,0.76,6,53,47,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718289,Lalit Pegu,VPI,19862,1060,0.72,7,53,47,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718290,Swarna Devi,GNASURKP,19860,829,0.57,8,53,47,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718291,Jitendra Chaliha,SUCI,19871,501,0.34,9,53,47,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718292,Biren Basak,BGanP,19867,431,0.29,10,53,47,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718293,Abul Kasem,RPPRINAT,19870,363,0.25,11,53,47,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718294,Abdul Hamed,RUC,19876,322,0.22,12,53,47,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718295,Dilip Saikia,BJP,19872,74089,53.01,1,53,48,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718296,Durgadas Boro,BOPF,19857,30319,21.69,2,53,48,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718297,Madhab Rajbangshi,INC,19858,27274,19.52,3,53,48,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718298,Nota,NOTA,19863,2295,1.64,4,53,48,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718299,Daniel Mardi,IND,19861,1281,0.92,5,53,48,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718300,Lalit Pegu,VPI,19862,1074,0.77,6,53,48,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718301,Aroon Barooa,BHRJWNKP,19877,1003,0.72,7,53,48,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718302,Swarna Devi,GNASURKP,19860,813,0.58,8,53,48,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718303,Jitendra Chaliha,SUCI,19871,562,0.4,9,53,48,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718304,Biren Basak,BGanP,19867,383,0.27,10,53,48,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718305,Abul Kasem,RPPRINAT,19870,354,0.25,11,53,48,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718306,Abdul Hamed,RUC,19876,313,0.22,12,53,48,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718307,Dilip Saikia,BJP,19872,111781,66.49,1,53,49,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718308,Madhab Rajbangshi,INC,19858,43903,26.11,2,53,49,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718309,Durgadas Boro,BOPF,19857,6495,3.86,3,53,49,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718310,Nota,NOTA,19863,1958,1.17,4,53,49,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718311,Aroon Barooa,BHRJWNKP,19877,975,0.58,5,53,49,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718312,Lalit Pegu,VPI,19862,670,0.4,6,53,49,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718313,Swarna Devi,GNASURKP,19860,530,0.32,7,53,49,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718314,Daniel Mardi,IND,19861,525,0.31,8,53,49,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718315,Jitendra Chaliha,SUCI,19871,453,0.27,9,53,49,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718316,Abul Kasem,RPPRINAT,19870,323,0.19,10,53,49,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718317,Abdul Hamed,RUC,19876,277,0.17,11,53,49,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718318,Biren Basak,BGanP,19867,237,0.14,12,53,49,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718319,Dilip Saikia,BJP,19872,96213,57.85,1,53,50,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718320,Madhab Rajbangshi,INC,19858,58288,35.05,2,53,50,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718321,Durgadas Boro,BOPF,19857,5853,3.52,3,53,50,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718322,Nota,NOTA,19863,1741,1.05,4,53,50,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718323,Aroon Barooa,BHRJWNKP,19877,1007,0.61,5,53,50,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718324,Lalit Pegu,VPI,19862,747,0.45,6,53,50,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718325,Jitendra Chaliha,SUCI,19871,656,0.39,7,53,50,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718326,Swarna Devi,GNASURKP,19860,529,0.32,8,53,50,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718327,Daniel Mardi,IND,19861,449,0.27,9,53,50,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718328,Abul Kasem,RPPRINAT,19870,361,0.22,10,53,50,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718329,Biren Basak,BGanP,19867,287,0.17,11,53,50,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718330,Abdul Hamed,RUC,19876,194,0.12,12,53,50,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718331,Madhab Rajbangshi,INC,19858,207735,73.38,1,53,51,AS,Madhab Rajbangshi,INC,,,,,True,53,2024,GE
+1718332,Durgadas Boro,BOPF,19857,34055,12.03,2,53,51,AS,Durgadas Boro,BOPF,,,,,False,53,2024,GE
+1718333,Dilip Saikia,BJP,19872,31293,11.05,3,53,51,AS,Dilip Saikia,BJP,,,,,False,53,2024,GE
+1718334,Aroon Barooa,BHRJWNKP,19877,2026,0.72,4,53,51,AS,Aroon Barooa,BHRJWNKP,,,,,False,53,2024,GE
+1718335,Jitendra Chaliha,SUCI,19871,1941,0.69,5,53,51,AS,Jitendra Chaliha,SUCI,,,,,False,53,2024,GE
+1718336,Nota,NOTA,19863,1750,0.62,6,53,51,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718337,Abul Kasem,RPPRINAT,19870,998,0.35,7,53,51,AS,Abul Kasem,RPPRINAT,,,,,False,53,2024,GE
+1718338,Lalit Pegu,VPI,19862,806,0.29,8,53,51,AS,Lalit Pegu,VPI,,,,,False,53,2024,GE
+1718339,Swarna Devi,GNASURKP,19860,757,0.27,9,53,51,AS,Swarna Devi,GNASURKP,,,,,False,53,2024,GE
+1718340,Daniel Mardi,IND,19861,727,0.26,10,53,51,AS,Daniel Mardi,IND,,,,,False,53,2024,GE
+1718341,Biren Basak,BGanP,19867,572,0.2,11,53,51,AS,Biren Basak,BGanP,,,,,False,53,2024,GE
+1718342,Abdul Hamed,RUC,19876,440,0.16,12,53,51,AS,Abdul Hamed,RUC,,,,,False,53,2024,GE
+1718343,Suresh Borah,BJP,19872,134665,66.36,1,53,52,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718344,Pradyut Bordoloi,INC,19858,57865,28.52,2,53,52,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718345,Aminul Islam,AIUDF,19865,4035,1.99,3,53,52,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718346,Nota,NOTA,19863,1454,0.72,4,53,52,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718347,Samsul Alam,IND,19861,837,0.41,5,53,52,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718348,Anupam Baruah,JPJD,19878,806,0.4,6,53,52,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718349,Sikha Sarma,IND,19861,770,0.38,7,53,52,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718350,Nikhil Dekaraja,IND,19861,668,0.33,8,53,52,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718351,Bipad Bhanjan Sarkar,IND,19861,611,0.3,9,53,52,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718352,Abu Shama,IND,19861,287,0.14,10,53,52,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718353,Abu Eusuf Md Raihan Uddin,IND,19861,254,0.13,11,53,52,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718354,Santanu Mukherjee,BGanP,19867,236,0.12,12,53,52,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718355,Rabbul Haque,RUC,19876,227,0.11,13,53,52,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718356,Saiful Islam Choudhury,AJM,19869,212,0.1,14,53,52,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718357,Pradyut Bordoloi,INC,19858,172340,67.17,1,53,53,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718358,Suresh Borah,BJP,19872,40803,15.9,2,53,53,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718359,Aminul Islam,AIUDF,19865,36186,14.1,3,53,53,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718360,Nota,NOTA,19863,1415,0.55,4,53,53,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718361,Sikha Sarma,IND,19861,1122,0.44,5,53,53,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718362,Bipad Bhanjan Sarkar,IND,19861,952,0.37,6,53,53,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718363,Samsul Alam,IND,19861,771,0.3,7,53,53,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718364,Anupam Baruah,JPJD,19878,620,0.24,8,53,53,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718365,Nikhil Dekaraja,IND,19861,565,0.22,9,53,53,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718366,Rabbul Haque,RUC,19876,459,0.18,10,53,53,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718367,Abu Shama,IND,19861,355,0.14,11,53,53,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718368,Santanu Mukherjee,BGanP,19867,353,0.14,12,53,53,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718369,Saiful Islam Choudhury,AJM,19869,328,0.13,13,53,53,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718370,Abu Eusuf Md Raihan Uddin,IND,19861,320,0.13,14,53,53,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718371,Suresh Borah,BJP,19872,107984,65.79,1,53,54,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718372,Pradyut Bordoloi,INC,19858,48642,29.64,2,53,54,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718373,Aminul Islam,AIUDF,19865,2110,1.29,3,53,54,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718374,Nota,NOTA,19863,1302,0.79,4,53,54,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718376,Sikha Sarma,IND,19861,750,0.46,5,53,54,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718375,Samsul Alam,IND,19861,750,0.46,5,53,54,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718377,Anupam Baruah,JPJD,19878,601,0.37,7,53,54,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718378,Nikhil Dekaraja,IND,19861,567,0.35,8,53,54,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718379,Bipad Bhanjan Sarkar,IND,19861,475,0.29,9,53,54,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718380,Abu Shama,IND,19861,215,0.13,10,53,54,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718381,Rabbul Haque,RUC,19876,199,0.12,11,53,54,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718382,Saiful Islam Choudhury,AJM,19869,197,0.12,12,53,54,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718383,Santanu Mukherjee,BGanP,19867,176,0.11,13,53,54,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718384,Abu Eusuf Md Raihan Uddin,IND,19861,163,0.1,14,53,54,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718385,Pradyut Bordoloi,INC,19858,128337,65.93,1,53,55,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718386,Aminul Islam,AIUDF,19865,32170,16.53,2,53,55,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718387,Suresh Borah,BJP,19872,28253,14.51,3,53,55,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718388,Nota,NOTA,19863,1167,0.6,4,53,55,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718389,Sikha Sarma,IND,19861,861,0.44,5,53,55,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718390,Bipad Bhanjan Sarkar,IND,19861,676,0.35,6,53,55,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718391,Samsul Alam,IND,19861,570,0.29,7,53,55,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718392,Rabbul Haque,RUC,19876,537,0.28,8,53,55,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718393,Anupam Baruah,JPJD,19878,450,0.23,9,53,55,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718394,Nikhil Dekaraja,IND,19861,385,0.2,10,53,55,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718395,Abu Shama,IND,19861,353,0.18,11,53,55,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718396,Santanu Mukherjee,BGanP,19867,339,0.17,12,53,55,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718397,Abu Eusuf Md Raihan Uddin,IND,19861,299,0.15,13,53,55,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718398,Saiful Islam Choudhury,AJM,19869,265,0.14,14,53,55,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718399,Pradyut Bordoloi,INC,19858,131562,69.08,1,53,56,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718400,Aminul Islam,AIUDF,19865,28938,15.2,2,53,56,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718401,Suresh Borah,BJP,19872,24593,12.91,3,53,56,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718402,Nota,NOTA,19863,969,0.51,4,53,56,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718403,Sikha Sarma,IND,19861,775,0.41,5,53,56,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718404,Bipad Bhanjan Sarkar,IND,19861,660,0.35,6,53,56,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718405,Samsul Alam,IND,19861,581,0.31,7,53,56,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718406,Rabbul Haque,RUC,19876,409,0.22,8,53,56,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718407,Anupam Baruah,JPJD,19878,393,0.21,9,53,56,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718408,Abu Eusuf Md Raihan Uddin,IND,19861,362,0.19,10,53,56,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718409,Abu Shama,IND,19861,350,0.18,11,53,56,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718410,Nikhil Dekaraja,IND,19861,338,0.18,12,53,56,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718411,Santanu Mukherjee,BGanP,19867,280,0.15,13,53,56,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718412,Saiful Islam Choudhury,AJM,19869,232,0.12,14,53,56,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718413,Kamakhya Prasad Tasa,BJP,19872,105247,68.21,1,53,57,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718414,Roselina Tirkey,INC,19858,41126,26.66,2,53,57,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718415,Nota,NOTA,19863,2570,1.67,3,53,57,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718416,Binod Gogoi,IND,19861,931,0.6,4,53,57,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718417,Diluwara Begum Chowdhury,IND,19861,832,0.54,5,53,57,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718418,Anima Deka Gupta,VPI,19862,781,0.51,6,53,57,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718419,Jyotiska Ranjan Goswami,IND,19861,762,0.49,7,53,57,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718420,Tridiv Jyoti Bhuyan,IND,19861,735,0.48,8,53,57,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718422,Abdul Hoque,IND,19861,362,0.23,9,53,57,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718421,Sailen Ch Malakar,BGanP,19867,362,0.24,9,53,57,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718423,Salim Ahmed,AJM,19869,317,0.21,11,53,57,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718424,Saleh Ahmed Mazumdar,RPPRINAT,19870,267,0.17,12,53,57,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718425,Pradyut Bordoloi,INC,19858,128580,67.5,1,53,58,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718426,Suresh Borah,BJP,19872,42017,22.06,2,53,58,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718427,Aminul Islam,AIUDF,19865,14547,7.64,3,53,58,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718428,Nota,NOTA,19863,1088,0.57,4,53,58,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718429,Sikha Sarma,IND,19861,903,0.47,5,53,58,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718430,Bipad Bhanjan Sarkar,IND,19861,719,0.38,6,53,58,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718431,Samsul Alam,IND,19861,643,0.34,7,53,58,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718432,Anupam Baruah,JPJD,19878,423,0.22,8,53,58,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718433,Nikhil Dekaraja,IND,19861,394,0.21,9,53,58,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718434,Rabbul Haque,RUC,19876,268,0.14,10,53,58,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718435,Abu Shama,IND,19861,254,0.13,11,53,58,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718436,Abu Eusuf Md Raihan Uddin,IND,19861,250,0.13,12,53,58,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718437,Santanu Mukherjee,BGanP,19867,225,0.12,13,53,58,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718438,Saiful Islam Choudhury,AJM,19869,180,0.09,14,53,58,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718439,Kamakhya Prasad Tasa,BJP,19872,102625,57.26,1,53,59,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718440,Roselina Tirkey,INC,19858,68686,38.32,2,53,59,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718441,Nota,NOTA,19863,2415,1.35,3,53,59,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718442,Anima Deka Gupta,VPI,19862,992,0.55,4,53,59,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718443,Binod Gogoi,IND,19861,956,0.53,5,53,59,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718444,Diluwara Begum Chowdhury,IND,19861,930,0.52,6,53,59,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718445,Tridiv Jyoti Bhuyan,IND,19861,785,0.44,7,53,59,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718446,Jyotiska Ranjan Goswami,IND,19861,487,0.27,8,53,59,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718447,Sailen Ch Malakar,BGanP,19867,364,0.2,9,53,59,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718448,Abdul Hoque,IND,19861,363,0.2,10,53,59,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718449,Salim Ahmed,AJM,19869,313,0.18,11,53,59,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718450,Saleh Ahmed Mazumdar,RPPRINAT,19870,307,0.17,12,53,59,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718451,Suresh Borah,BJP,19872,90730,58.28,1,53,60,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718452,Pradyut Bordoloi,INC,19858,57540,36.96,2,53,60,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718453,Nota,NOTA,19863,2865,1.84,3,53,60,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718454,Aminul Islam,AIUDF,19865,2026,1.3,4,53,60,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718455,Sikha Sarma,IND,19861,573,0.37,5,53,60,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718456,Anupam Baruah,JPJD,19878,367,0.24,6,53,60,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718457,Samsul Alam,IND,19861,326,0.21,7,53,60,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718458,Bipad Bhanjan Sarkar,IND,19861,304,0.2,8,53,60,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718459,Nikhil Dekaraja,IND,19861,213,0.14,9,53,60,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718460,Saiful Islam Choudhury,AJM,19869,186,0.12,10,53,60,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718461,Santanu Mukherjee,BGanP,19867,166,0.11,11,53,60,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718462,Abu Eusuf Md Raihan Uddin,IND,19861,140,0.09,12,53,60,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718463,Rabbul Haque,RUC,19876,128,0.08,13,53,60,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718464,Abu Shama,IND,19861,126,0.08,14,53,60,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718465,Suresh Borah,BJP,19872,104534,55.25,1,53,61,AS,Suresh Borah,BJP,,,,,True,53,2024,GE
+1718466,Pradyut Bordoloi,INC,19858,61754,32.64,2,53,61,AS,Pradyut Bordoloi,INC,,,,,False,53,2024,GE
+1718467,Aminul Islam,AIUDF,19865,17021,9.0,3,53,61,AS,Aminul Islam,AIUDF,,,,,False,53,2024,GE
+1718468,Nota,NOTA,19863,1650,0.87,4,53,61,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718469,Sikha Sarma,IND,19861,815,0.43,5,53,61,AS,Sikha Sarma,IND,,,,,False,53,2024,GE
+1718470,Anupam Baruah,JPJD,19878,630,0.33,6,53,61,AS,Anupam Baruah,JPJD,,,,,False,53,2024,GE
+1718471,Samsul Alam,IND,19861,570,0.3,7,53,61,AS,Samsul Alam,IND,,,,,False,53,2024,GE
+1718472,Bipad Bhanjan Sarkar,IND,19861,481,0.25,8,53,61,AS,Bipad Bhanjan Sarkar,IND,,,,,False,53,2024,GE
+1718473,Nikhil Dekaraja,IND,19861,471,0.25,9,53,61,AS,Nikhil Dekaraja,IND,,,,,False,53,2024,GE
+1718474,Rabbul Haque,RUC,19876,320,0.17,10,53,61,AS,Rabbul Haque,RUC,,,,,False,53,2024,GE
+1718475,Abu Shama,IND,19861,276,0.15,11,53,61,AS,Abu Shama,IND,,,,,False,53,2024,GE
+1718476,Abu Eusuf Md Raihan Uddin,IND,19861,231,0.12,12,53,61,AS,Abu Eusuf Md Raihan Uddin,IND,,,,,False,53,2024,GE
+1718477,Saiful Islam Choudhury,AJM,19869,223,0.12,13,53,61,AS,Saiful Islam Choudhury,AJM,,,,,False,53,2024,GE
+1718478,Santanu Mukherjee,BGanP,19867,218,0.12,14,53,61,AS,Santanu Mukherjee,BGanP,,,,,False,53,2024,GE
+1718479,Roselina Tirkey,INC,19858,154164,73.93,1,53,62,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718480,Kamakhya Prasad Tasa,BJP,19872,40920,19.62,2,53,62,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718481,Diluwara Begum Chowdhury,IND,19861,3719,1.78,3,53,62,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718482,Abdul Hoque,IND,19861,2250,1.08,4,53,62,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718483,Nota,NOTA,19863,1935,0.93,5,53,62,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718484,Anima Deka Gupta,VPI,19862,1321,0.63,6,53,62,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718485,Tridiv Jyoti Bhuyan,IND,19861,1262,0.61,7,53,62,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718486,Binod Gogoi,IND,19861,1250,0.6,8,53,62,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718487,Saleh Ahmed Mazumdar,RPPRINAT,19870,532,0.26,9,53,62,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718488,Jyotiska Ranjan Goswami,IND,19861,446,0.21,10,53,62,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718489,Sailen Ch Malakar,BGanP,19867,403,0.19,11,53,62,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718490,Salim Ahmed,AJM,19869,335,0.16,12,53,62,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718491,Kamakhya Prasad Tasa,BJP,19872,131715,64.67,1,53,63,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718492,Roselina Tirkey,INC,19858,64473,31.66,2,53,63,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718493,Nota,NOTA,19863,1866,0.92,3,53,63,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718494,Diluwara Begum Chowdhury,IND,19861,950,0.47,4,53,63,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718495,Abdul Hoque,IND,19861,847,0.42,5,53,63,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718496,Anima Deka Gupta,VPI,19862,790,0.39,6,53,63,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718497,Tridiv Jyoti Bhuyan,IND,19861,776,0.38,7,53,63,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718498,Binod Gogoi,IND,19861,728,0.36,8,53,63,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718499,Sailen Ch Malakar,BGanP,19867,563,0.28,9,53,63,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718500,Jyotiska Ranjan Goswami,IND,19861,411,0.2,10,53,63,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718501,Salim Ahmed,AJM,19869,286,0.14,11,53,63,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718502,Saleh Ahmed Mazumdar,RPPRINAT,19870,257,0.13,12,53,63,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718503,Kamakhya Prasad Tasa,BJP,19872,129014,64.99,1,53,64,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718504,Roselina Tirkey,INC,19858,61253,30.86,2,53,64,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718505,Nota,NOTA,19863,2041,1.03,3,53,64,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718506,Diluwara Begum Chowdhury,IND,19861,1082,0.55,4,53,64,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718507,Tridiv Jyoti Bhuyan,IND,19861,930,0.47,5,53,64,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718508,Binod Gogoi,IND,19861,882,0.44,6,53,64,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718510,Abdul Hoque,IND,19861,872,0.44,7,53,64,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718509,Anima Deka Gupta,VPI,19862,872,0.44,7,53,64,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718511,Sailen Ch Malakar,BGanP,19867,490,0.25,9,53,64,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718512,Jyotiska Ranjan Goswami,IND,19861,419,0.21,10,53,64,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718513,Saleh Ahmed Mazumdar,RPPRINAT,19870,342,0.17,11,53,64,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718514,Salim Ahmed,AJM,19869,314,0.16,12,53,64,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718515,Ranjit Dutta,BJP,19872,111235,64.57,1,53,65,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718516,Premlal Ganju,INC,19858,46241,26.84,2,53,65,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718517,Raju Deuri,BOPF,19857,4707,2.73,3,53,65,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718518,Rishiraj Kaundinya,AAAP,19879,3055,1.77,4,53,65,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718519,Nota,NOTA,19863,2483,1.44,5,53,65,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718520,Kameswar Swargiary,VPI,19862,1841,1.07,6,53,65,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718521,Pradip Bhandari,IND,19861,1177,0.68,7,53,65,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718522,Rinku Roy,GNASURKP,19860,901,0.52,8,53,65,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718523,Alam Ali,BAHUMP,19874,638,0.37,9,53,65,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718524,Ranjit Dutta,BJP,19872,84207,57.39,1,53,66,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718525,Premlal Ganju,INC,19858,51100,34.83,2,53,66,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718526,Rishiraj Kaundinya,AAAP,19879,4086,2.79,3,53,66,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718527,Nota,NOTA,19863,2261,1.54,4,53,66,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718528,Raju Deuri,BOPF,19857,1752,1.19,5,53,66,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718529,Pradip Bhandari,IND,19861,1018,0.69,6,53,66,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718530,Kameswar Swargiary,VPI,19862,943,0.64,7,53,66,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718531,Rinku Roy,GNASURKP,19860,802,0.55,8,53,66,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718532,Alam Ali,BAHUMP,19874,558,0.38,9,53,66,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718533,Ranjit Dutta,BJP,19872,78268,57.06,1,53,67,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718534,Premlal Ganju,INC,19858,48168,35.12,2,53,67,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718535,Rishiraj Kaundinya,AAAP,19879,5890,4.29,3,53,67,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718536,Nota,NOTA,19863,2233,1.63,4,53,67,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718537,Raju Deuri,BOPF,19857,784,0.57,5,53,67,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718538,Pradip Bhandari,IND,19861,599,0.44,6,53,67,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718539,Rinku Roy,GNASURKP,19860,518,0.38,7,53,67,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718540,Kameswar Swargiary,VPI,19862,366,0.27,8,53,67,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718541,Alam Ali,BAHUMP,19874,345,0.25,9,53,67,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718542,Ranjit Dutta,BJP,19872,77337,58.07,1,53,68,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718543,Premlal Ganju,INC,19858,45716,34.33,2,53,68,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718544,Rishiraj Kaundinya,AAAP,19879,3324,2.5,3,53,68,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718545,Nota,NOTA,19863,1995,1.5,4,53,68,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718546,Raju Deuri,BOPF,19857,1788,1.34,5,53,68,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718547,Pradip Bhandari,IND,19861,884,0.66,6,53,68,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718548,Rinku Roy,GNASURKP,19860,876,0.66,7,53,68,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718549,Kameswar Swargiary,VPI,19862,795,0.6,8,53,68,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718550,Alam Ali,BAHUMP,19874,466,0.35,9,53,68,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718551,Ranjit Dutta,BJP,19872,98282,62.54,1,53,69,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718552,Premlal Ganju,INC,19858,50063,31.86,2,53,69,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718553,Rishiraj Kaundinya,AAAP,19879,2805,1.79,3,53,69,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718554,Nota,NOTA,19863,1735,1.1,4,53,69,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718555,Raju Deuri,BOPF,19857,1707,1.09,5,53,69,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718556,Kameswar Swargiary,VPI,19862,766,0.49,6,53,69,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718557,Pradip Bhandari,IND,19861,748,0.48,7,53,69,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718558,Rinku Roy,GNASURKP,19860,644,0.41,8,53,69,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718559,Alam Ali,BAHUMP,19874,403,0.26,9,53,69,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718560,Ranjit Dutta,BJP,19872,87267,58.13,1,53,70,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718561,Premlal Ganju,INC,19858,50048,33.34,2,53,70,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718562,Rishiraj Kaundinya,AAAP,19879,4275,2.85,3,53,70,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718563,Nota,NOTA,19863,2480,1.65,4,53,70,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718564,Raju Deuri,BOPF,19857,2391,1.59,5,53,70,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718565,Pradip Bhandari,IND,19861,1275,0.85,6,53,70,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718566,Rinku Roy,GNASURKP,19860,1072,0.71,7,53,70,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718567,Kameswar Swargiary,VPI,19862,778,0.52,8,53,70,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718568,Alam Ali,BAHUMP,19874,538,0.36,9,53,70,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718569,Ranjit Dutta,BJP,19872,70919,56.85,1,53,71,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718570,Premlal Ganju,INC,19858,43595,34.95,2,53,71,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718571,Rishiraj Kaundinya,AAAP,19879,3102,2.49,3,53,71,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718572,Nota,NOTA,19863,2289,1.84,4,53,71,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718573,Raju Deuri,BOPF,19857,1538,1.23,5,53,71,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718574,Pradip Bhandari,IND,19861,1156,0.93,6,53,71,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718575,Rinku Roy,GNASURKP,19860,928,0.74,7,53,71,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718576,Kameswar Swargiary,VPI,19862,671,0.54,8,53,71,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718577,Alam Ali,BAHUMP,19874,544,0.44,9,53,71,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718578,Ranjit Dutta,BJP,19872,92668,68.47,1,53,72,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718579,Premlal Ganju,INC,19858,32841,24.26,2,53,72,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718580,Rishiraj Kaundinya,AAAP,19879,3170,2.34,3,53,72,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718581,Raju Deuri,BOPF,19857,2627,1.94,4,53,72,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718582,Nota,NOTA,19863,1718,1.27,5,53,72,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718583,Pradip Bhandari,IND,19861,731,0.54,6,53,72,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718584,Rinku Roy,GNASURKP,19860,601,0.44,7,53,72,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718585,Kameswar Swargiary,VPI,19862,597,0.44,8,53,72,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718586,Alam Ali,BAHUMP,19874,396,0.29,9,53,72,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718587,Ranjit Dutta,BJP,19872,70835,56.97,1,53,73,AS,Ranjit Dutta,BJP,,,,,True,53,2024,GE
+1718588,Premlal Ganju,INC,19858,44781,36.01,2,53,73,AS,Premlal Ganju,INC,,,,,False,53,2024,GE
+1718589,Rishiraj Kaundinya,AAAP,19879,3064,2.46,3,53,73,AS,Rishiraj Kaundinya,AAAP,,,,,False,53,2024,GE
+1718590,Raju Deuri,BOPF,19857,2481,2.0,4,53,73,AS,Raju Deuri,BOPF,,,,,False,53,2024,GE
+1718591,Nota,NOTA,19863,1341,1.08,5,53,73,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718592,Kameswar Swargiary,VPI,19862,563,0.45,6,53,73,AS,Kameswar Swargiary,VPI,,,,,False,53,2024,GE
+1718593,Pradip Bhandari,IND,19861,548,0.44,7,53,73,AS,Pradip Bhandari,IND,,,,,False,53,2024,GE
+1718594,Rinku Roy,GNASURKP,19860,438,0.35,8,53,73,AS,Rinku Roy,GNASURKP,,,,,False,53,2024,GE
+1718595,Alam Ali,BAHUMP,19874,298,0.24,9,53,73,AS,Alam Ali,BAHUMP,,,,,False,53,2024,GE
+1718596,Pradan Baruah,BJP,19872,71182,49.63,1,53,74,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718597,Uday Shankar Hazarika,INC,19858,63268,44.11,2,53,74,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718598,Dhiren Kachari,CPI,19880,2119,1.48,3,53,74,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718599,Nota,NOTA,19863,1824,1.27,4,53,74,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718600,Gobin Biswakarma,IND,19861,1398,0.98,5,53,74,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718601,Ghana Kanta Chutia,AITC,19859,1038,0.72,6,53,74,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718602,Bikram Ramchiary,IND,19861,807,0.56,7,53,74,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718603,Pallab Pegu,SUCI,19871,668,0.47,8,53,74,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718604,Deba Nath Pait,IND,19861,640,0.45,9,53,74,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718605,Biren Bailung,VPI,19862,477,0.33,10,53,74,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718606,Uday Shankar Hazarika,INC,19858,69066,50.09,1,53,75,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718607,Pradan Baruah,BJP,19872,62014,44.98,2,53,75,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718608,Dhiren Kachari,CPI,19880,2148,1.56,3,53,75,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718609,Nota,NOTA,19863,1297,0.94,4,53,75,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718610,Ghana Kanta Chutia,AITC,19859,952,0.69,5,53,75,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718611,Biren Bailung,VPI,19862,579,0.42,6,53,75,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718612,Bikram Ramchiary,IND,19861,562,0.41,7,53,75,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718613,Pallab Pegu,SUCI,19871,497,0.36,8,53,75,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718614,Deba Nath Pait,IND,19861,426,0.31,9,53,75,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718615,Gobin Biswakarma,IND,19861,335,0.24,10,53,75,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718616,Pradan Baruah,BJP,19872,65030,50.27,1,53,76,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718617,Uday Shankar Hazarika,INC,19858,56548,43.72,2,53,76,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718618,Dhiren Kachari,CPI,19880,1721,1.33,3,53,76,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718619,Nota,NOTA,19863,1637,1.27,4,53,76,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718620,Ghana Kanta Chutia,AITC,19859,1360,1.05,5,53,76,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718621,Gobin Biswakarma,IND,19861,813,0.63,6,53,76,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718622,Bikram Ramchiary,IND,19861,685,0.53,7,53,76,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718623,Pallab Pegu,SUCI,19871,650,0.5,8,53,76,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718624,Biren Bailung,VPI,19862,469,0.36,9,53,76,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718625,Deba Nath Pait,IND,19861,437,0.34,10,53,76,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718626,Pradan Baruah,BJP,19872,67017,54.25,1,53,77,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718627,Uday Shankar Hazarika,INC,19858,49713,40.24,2,53,77,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718628,Dhiren Kachari,CPI,19880,2315,1.87,3,53,77,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718629,Ghana Kanta Chutia,AITC,19859,1252,1.01,4,53,77,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718630,Nota,NOTA,19863,1169,0.95,5,53,77,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718631,Bikram Ramchiary,IND,19861,544,0.44,6,53,77,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718632,Pallab Pegu,SUCI,19871,471,0.38,7,53,77,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718633,Biren Bailung,VPI,19862,408,0.33,8,53,77,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718634,Deba Nath Pait,IND,19861,359,0.29,9,53,77,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718635,Gobin Biswakarma,IND,19861,287,0.23,10,53,77,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718636,Pradan Baruah,BJP,19872,70066,54.68,1,53,78,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718637,Uday Shankar Hazarika,INC,19858,47423,37.01,2,53,78,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718638,Ghana Kanta Chutia,AITC,19859,2871,2.24,3,53,78,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718639,Dhiren Kachari,CPI,19880,2614,2.04,4,53,78,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718640,Nota,NOTA,19863,1370,1.07,5,53,78,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718641,Bikram Ramchiary,IND,19861,897,0.7,6,53,78,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718642,Biren Bailung,VPI,19862,823,0.64,7,53,78,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718643,Pallab Pegu,SUCI,19871,804,0.63,8,53,78,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718644,Gobin Biswakarma,IND,19861,750,0.59,9,53,78,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718645,Deba Nath Pait,IND,19861,522,0.41,10,53,78,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718646,Pradan Baruah,BJP,19872,73053,57.18,1,53,79,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718647,Uday Shankar Hazarika,INC,19858,45332,35.48,2,53,79,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718648,Dhiren Kachari,CPI,19880,2152,1.68,3,53,79,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718649,Ghana Kanta Chutia,AITC,19859,1849,1.45,4,53,79,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718650,Nota,NOTA,19863,1534,1.2,5,53,79,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718651,Bikram Ramchiary,IND,19861,1224,0.96,6,53,79,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718652,Gobin Biswakarma,IND,19861,988,0.77,7,53,79,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718653,Deba Nath Pait,IND,19861,584,0.46,8,53,79,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718654,Pallab Pegu,SUCI,19871,553,0.43,9,53,79,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718655,Biren Bailung,VPI,19862,496,0.39,10,53,79,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718656,Pradan Baruah,BJP,19872,109121,66.99,1,53,80,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718657,Uday Shankar Hazarika,INC,19858,40675,24.97,2,53,80,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718658,Bikram Ramchiary,IND,19861,2653,1.63,3,53,80,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718659,Dhiren Kachari,CPI,19880,2364,1.45,4,53,80,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718660,Ghana Kanta Chutia,AITC,19859,1825,1.12,5,53,80,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718661,Nota,NOTA,19863,1593,0.98,6,53,80,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718662,Deba Nath Pait,IND,19861,1332,0.82,7,53,80,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718663,Gobin Biswakarma,IND,19861,1258,0.77,8,53,80,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718664,Pallab Pegu,SUCI,19871,1150,0.71,9,53,80,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718665,Biren Bailung,VPI,19862,915,0.56,10,53,80,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718666,Pradan Baruah,BJP,19872,78254,55.48,1,53,81,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718667,Uday Shankar Hazarika,INC,19858,51526,36.53,2,53,81,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718668,Nota,NOTA,19863,2758,1.96,3,53,81,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718669,Dhiren Kachari,CPI,19880,2495,1.77,4,53,81,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718670,Ghana Kanta Chutia,AITC,19859,1736,1.23,5,53,81,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718671,Bikram Ramchiary,IND,19861,1226,0.87,6,53,81,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718672,Gobin Biswakarma,IND,19861,888,0.63,7,53,81,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718673,Deba Nath Pait,IND,19861,881,0.63,8,53,81,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718674,Pallab Pegu,SUCI,19871,693,0.49,9,53,81,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718675,Biren Bailung,VPI,19862,606,0.43,10,53,81,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718676,Pradan Baruah,BJP,19872,63570,58.04,1,53,82,AS,Pradan Baruah,BJP,,,,,True,53,2024,GE
+1718677,Uday Shankar Hazarika,INC,19858,35169,32.11,2,53,82,AS,Uday Shankar Hazarika,INC,,,,,False,53,2024,GE
+1718678,Nota,NOTA,19863,3534,3.23,3,53,82,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718679,Dhiren Kachari,CPI,19880,1634,1.49,4,53,82,AS,Dhiren Kachari,CPI,,,,,False,53,2024,GE
+1718680,Bikram Ramchiary,IND,19861,1620,1.48,5,53,82,AS,Bikram Ramchiary,IND,,,,,False,53,2024,GE
+1718681,Ghana Kanta Chutia,AITC,19859,1172,1.07,6,53,82,AS,Ghana Kanta Chutia,AITC,,,,,False,53,2024,GE
+1718682,Deba Nath Pait,IND,19861,962,0.88,7,53,82,AS,Deba Nath Pait,IND,,,,,False,53,2024,GE
+1718683,Gobin Biswakarma,IND,19861,744,0.68,8,53,82,AS,Gobin Biswakarma,IND,,,,,False,53,2024,GE
+1718684,Pallab Pegu,SUCI,19871,565,0.52,9,53,82,AS,Pallab Pegu,SUCI,,,,,False,53,2024,GE
+1718685,Biren Bailung,VPI,19862,556,0.51,10,53,82,AS,Biren Bailung,VPI,,,,,False,53,2024,GE
+1718686,Sarbananda Sonowal,BJP,19872,76537,59.02,1,53,83,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718687,Lurinjyoti Gogoi,ASMJTYP,19881,35904,27.69,2,53,83,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718688,Manoj Dhanowar,AAAP,19879,13979,10.78,3,53,83,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718689,Nota,NOTA,19863,3265,2.52,4,53,83,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718690,Sarbananda Sonowal,BJP,19872,52034,48.45,1,53,84,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718691,Lurinjyoti Gogoi,ASMJTYP,19881,37167,34.61,2,53,84,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718692,Manoj Dhanowar,AAAP,19879,15214,14.17,3,53,84,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718693,Nota,NOTA,19863,2975,2.77,4,53,84,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718694,Sarbananda Sonowal,BJP,19872,61627,51.56,1,53,85,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718695,Lurinjyoti Gogoi,ASMJTYP,19881,36416,30.47,2,53,85,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718696,Manoj Dhanowar,AAAP,19879,17068,14.28,3,53,85,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718697,Nota,NOTA,19863,4411,3.69,4,53,85,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718698,Sarbananda Sonowal,BJP,19872,84563,66.39,1,53,86,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718699,Lurinjyoti Gogoi,ASMJTYP,19881,27650,21.71,2,53,86,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718700,Manoj Dhanowar,AAAP,19879,12094,9.5,3,53,86,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718701,Nota,NOTA,19863,3062,2.4,4,53,86,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718702,Sarbananda Sonowal,BJP,19872,71170,51.67,1,53,87,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718703,Lurinjyoti Gogoi,ASMJTYP,19881,41860,30.39,2,53,87,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718704,Manoj Dhanowar,AAAP,19879,20217,14.68,3,53,87,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718705,Nota,NOTA,19863,4483,3.26,4,53,87,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718706,Sarbananda Sonowal,BJP,19872,89335,60.99,1,53,88,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718707,Lurinjyoti Gogoi,ASMJTYP,19881,42240,28.84,2,53,88,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718708,Manoj Dhanowar,AAAP,19879,12294,8.39,3,53,88,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718709,Nota,NOTA,19863,2608,1.78,4,53,88,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718710,Sarbananda Sonowal,BJP,19872,60624,49.46,1,53,89,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718711,Lurinjyoti Gogoi,ASMJTYP,19881,46851,38.22,2,53,89,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718712,Manoj Dhanowar,AAAP,19879,12173,9.93,3,53,89,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718713,Nota,NOTA,19863,2927,2.39,4,53,89,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718714,Sarbananda Sonowal,BJP,19872,69559,53.57,1,53,90,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718715,Lurinjyoti Gogoi,ASMJTYP,19881,43309,33.35,2,53,90,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718716,Manoj Dhanowar,AAAP,19879,13775,10.61,3,53,90,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718717,Nota,NOTA,19863,3214,2.48,4,53,90,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718718,Sarbananda Sonowal,BJP,19872,68017,50.16,1,53,91,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718719,Lurinjyoti Gogoi,ASMJTYP,19881,50366,37.14,2,53,91,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718720,Manoj Dhanowar,AAAP,19879,14295,10.54,3,53,91,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718721,Nota,NOTA,19863,2930,2.16,4,53,91,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718722,Sarbananda Sonowal,BJP,19872,57687,49.09,1,53,92,AS,Sarbananda Sonowal,BJP,,,,,False,53,2024,GE
+1718723,Lurinjyoti Gogoi,ASMJTYP,19881,51030,43.43,2,53,92,AS,Lurinjyoti Gogoi,ASMJTYP,,,,,False,53,2024,GE
+1718724,Manoj Dhanowar,AAAP,19879,6509,5.54,3,53,92,AS,Manoj Dhanowar,AAAP,,,,,False,53,2024,GE
+1718725,Nota,NOTA,19863,2288,1.95,4,53,92,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718726,Gaurav Gogoi,INC,19858,71603,52.06,1,53,93,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718727,Topon Kumar Gogoi,BJP,19872,61269,44.55,2,53,93,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718728,Nota,NOTA,19863,2142,1.56,3,53,93,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718729,Arun Chandra Handique,ESBD,19873,1311,0.95,4,53,93,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718730,Raj Kumar Duwara,IND,19861,1211,0.88,5,53,93,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718731,Gaurav Gogoi,INC,19858,62680,52.57,1,53,94,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718732,Topon Kumar Gogoi,BJP,19872,53030,44.48,2,53,94,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718733,Nota,NOTA,19863,1599,1.34,3,53,94,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718734,Arun Chandra Handique,ESBD,19873,982,0.82,4,53,94,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718735,Raj Kumar Duwara,IND,19861,943,0.79,5,53,94,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718736,Gaurav Gogoi,INC,19858,77934,54.56,1,53,95,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718737,Topon Kumar Gogoi,BJP,19872,61879,43.32,2,53,95,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718738,Nota,NOTA,19863,1276,0.89,3,53,95,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718739,Raj Kumar Duwara,IND,19861,880,0.62,4,53,95,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718740,Arun Chandra Handique,ESBD,19873,879,0.62,5,53,95,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718741,Gaurav Gogoi,INC,19858,91843,54.87,1,53,96,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718742,Topon Kumar Gogoi,BJP,19872,73095,43.67,2,53,96,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718743,Nota,NOTA,19863,1094,0.65,3,53,96,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718744,Raj Kumar Duwara,IND,19861,728,0.44,4,53,96,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718745,Arun Chandra Handique,ESBD,19873,612,0.37,5,53,96,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718746,Gaurav Gogoi,INC,19858,70727,48.63,1,53,97,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718747,Topon Kumar Gogoi,BJP,19872,70600,48.54,2,53,97,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718748,Nota,NOTA,19863,1769,1.22,3,53,97,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718749,Arun Chandra Handique,ESBD,19873,1230,0.85,4,53,97,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718750,Raj Kumar Duwara,IND,19861,1126,0.77,5,53,97,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718751,Topon Kumar Gogoi,BJP,19872,59276,51.98,1,53,98,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718752,Gaurav Gogoi,INC,19858,52690,46.21,2,53,98,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718753,Nota,NOTA,19863,894,0.78,3,53,98,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718754,Arun Chandra Handique,ESBD,19873,682,0.6,4,53,98,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718755,Raj Kumar Duwara,IND,19861,490,0.43,5,53,98,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718756,Gaurav Gogoi,INC,19858,86712,56.56,1,53,99,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718757,Topon Kumar Gogoi,BJP,19872,63335,41.31,2,53,99,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718758,Nota,NOTA,19863,1509,0.98,3,53,99,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718759,Arun Chandra Handique,ESBD,19873,933,0.61,4,53,99,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718760,Raj Kumar Duwara,IND,19861,830,0.54,5,53,99,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718761,Gaurav Gogoi,INC,19858,60697,54.47,1,53,100,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718762,Topon Kumar Gogoi,BJP,19872,48567,43.58,2,53,100,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718763,Nota,NOTA,19863,1148,1.03,3,53,100,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718764,Arun Chandra Handique,ESBD,19873,523,0.47,4,53,100,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718765,Raj Kumar Duwara,IND,19861,503,0.45,5,53,100,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718766,Gaurav Gogoi,INC,19858,70916,55.41,1,53,101,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718767,Topon Kumar Gogoi,BJP,19872,54131,42.3,2,53,101,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718768,Nota,NOTA,19863,1348,1.05,3,53,101,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718769,Arun Chandra Handique,ESBD,19873,845,0.66,4,53,101,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718770,Raj Kumar Duwara,IND,19861,739,0.58,5,53,101,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718771,Gaurav Gogoi,INC,19858,97392,61.72,1,53,102,AS,Gaurav Gogoi,INC,,,,,True,53,2024,GE
+1718772,Topon Kumar Gogoi,BJP,19872,56837,36.02,2,53,102,AS,Topon Kumar Gogoi,BJP,,,,,False,53,2024,GE
+1718773,Nota,NOTA,19863,1698,1.08,3,53,102,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718774,Arun Chandra Handique,ESBD,19873,1001,0.63,4,53,102,AS,Arun Chandra Handique,ESBD,,,,,False,53,2024,GE
+1718775,Raj Kumar Duwara,IND,19861,865,0.55,5,53,102,AS,Raj Kumar Duwara,IND,,,,,False,53,2024,GE
+1718776,Kamakhya Prasad Tasa,BJP,19872,81932,54.14,1,53,103,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718777,Roselina Tirkey,INC,19858,62367,41.21,2,53,103,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718778,Nota,NOTA,19863,2576,1.7,3,53,103,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718779,Binod Gogoi,IND,19861,989,0.65,4,53,103,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718780,Anima Deka Gupta,VPI,19862,789,0.52,5,53,103,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718781,Diluwara Begum Chowdhury,IND,19861,736,0.49,6,53,103,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718782,Tridiv Jyoti Bhuyan,IND,19861,547,0.36,7,53,103,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718783,Salim Ahmed,AJM,19869,348,0.23,8,53,103,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718784,Jyotiska Ranjan Goswami,IND,19861,336,0.22,9,53,103,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718785,Abdul Hoque,IND,19861,259,0.17,10,53,103,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718786,Saleh Ahmed Mazumdar,RPPRINAT,19870,229,0.15,11,53,103,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718787,Sailen Ch Malakar,BGanP,19867,222,0.15,12,53,103,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718788,Kamakhya Prasad Tasa,BJP,19872,75890,56.11,1,53,104,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718789,Roselina Tirkey,INC,19858,52060,38.49,2,53,104,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718790,Nota,NOTA,19863,2533,1.87,3,53,104,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718791,Binod Gogoi,IND,19861,970,0.72,4,53,104,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718792,Diluwara Begum Chowdhury,IND,19861,808,0.6,5,53,104,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718793,Anima Deka Gupta,VPI,19862,771,0.57,6,53,104,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718794,Tridiv Jyoti Bhuyan,IND,19861,699,0.52,7,53,104,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718795,Jyotiska Ranjan Goswami,IND,19861,373,0.28,8,53,104,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718796,Salim Ahmed,AJM,19869,315,0.23,9,53,104,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718797,Sailen Ch Malakar,BGanP,19867,301,0.22,10,53,104,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718798,Abdul Hoque,IND,19861,275,0.2,11,53,104,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718799,Saleh Ahmed Mazumdar,RPPRINAT,19870,255,0.19,12,53,104,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718800,Kamakhya Prasad Tasa,BJP,19872,73434,60.79,1,53,105,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718801,Roselina Tirkey,INC,19858,38364,31.76,2,53,105,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718802,Nota,NOTA,19863,3335,2.76,3,53,105,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718803,Binod Gogoi,IND,19861,1332,1.1,4,53,105,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718804,Diluwara Begum Chowdhury,IND,19861,985,0.82,5,53,105,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718805,Tridiv Jyoti Bhuyan,IND,19861,811,0.67,6,53,105,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718806,Anima Deka Gupta,VPI,19862,671,0.56,7,53,105,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718807,Jyotiska Ranjan Goswami,IND,19861,454,0.38,8,53,105,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718808,Abdul Hoque,IND,19861,427,0.35,9,53,105,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718809,Salim Ahmed,AJM,19869,333,0.28,10,53,105,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718810,Sailen Ch Malakar,BGanP,19867,330,0.27,11,53,105,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718811,Saleh Ahmed Mazumdar,RPPRINAT,19870,326,0.27,12,53,105,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718812,Kamakhya Prasad Tasa,BJP,19872,71250,54.68,1,53,106,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718813,Roselina Tirkey,INC,19858,50989,39.13,2,53,106,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718814,Nota,NOTA,19863,2749,2.11,3,53,106,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718815,Binod Gogoi,IND,19861,1196,0.92,4,53,106,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718816,Anima Deka Gupta,VPI,19862,837,0.64,5,53,106,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718817,Diluwara Begum Chowdhury,IND,19861,823,0.63,6,53,106,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718818,Tridiv Jyoti Bhuyan,IND,19861,752,0.58,7,53,106,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718819,Jyotiska Ranjan Goswami,IND,19861,417,0.32,8,53,106,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718820,Abdul Hoque,IND,19861,352,0.27,9,53,106,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718821,Salim Ahmed,AJM,19869,340,0.26,10,53,106,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718822,Saleh Ahmed Mazumdar,RPPRINAT,19870,307,0.24,11,53,106,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718823,Sailen Ch Malakar,BGanP,19867,295,0.23,12,53,106,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718824,Kamakhya Prasad Tasa,BJP,19872,80739,57.16,1,53,107,AS,Kamakhya Prasad Tasa,BJP,,,,,True,53,2024,GE
+1718825,Roselina Tirkey,INC,19858,52641,37.27,2,53,107,AS,Roselina Tirkey,INC,,,,,False,53,2024,GE
+1718826,Nota,NOTA,19863,2192,1.55,3,53,107,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718827,Binod Gogoi,IND,19861,1391,0.99,4,53,107,AS,Binod Gogoi,IND,,,,,False,53,2024,GE
+1718828,Diluwara Begum Chowdhury,IND,19861,854,0.61,5,53,107,AS,Diluwara Begum Chowdhury,IND,,,,,False,53,2024,GE
+1718829,Anima Deka Gupta,VPI,19862,817,0.58,6,53,107,AS,Anima Deka Gupta,VPI,,,,,False,53,2024,GE
+1718830,Tridiv Jyoti Bhuyan,IND,19861,794,0.56,7,53,107,AS,Tridiv Jyoti Bhuyan,IND,,,,,False,53,2024,GE
+1718831,Jyotiska Ranjan Goswami,IND,19861,389,0.28,8,53,107,AS,Jyotiska Ranjan Goswami,IND,,,,,False,53,2024,GE
+1718832,Abdul Hoque,IND,19861,388,0.28,9,53,107,AS,Abdul Hoque,IND,,,,,False,53,2024,GE
+1718833,Sailen Ch Malakar,BGanP,19867,368,0.26,10,53,107,AS,Sailen Ch Malakar,BGanP,,,,,False,53,2024,GE
+1718834,Salim Ahmed,AJM,19869,342,0.24,11,53,107,AS,Salim Ahmed,AJM,,,,,False,53,2024,GE
+1718835,Saleh Ahmed Mazumdar,RPPRINAT,19870,338,0.24,12,53,107,AS,Saleh Ahmed Mazumdar,RPPRINAT,,,,,False,53,2024,GE
+1718836,Amarsing Tisso,BJP,19872,52097,44.92,1,53,108,AS,Amarsing Tisso,BJP,,,,,True,53,2024,GE
+1718837,J. I. Kathar,IND,19861,31180,26.88,2,53,108,AS,J. I. Kathar,IND,,,,,False,53,2024,GE
+1718838,Joy Ram Engleng,INC,19858,26461,22.81,3,53,108,AS,Joy Ram Engleng,INC,,,,,False,53,2024,GE
+1718839,Nota,NOTA,19863,3014,2.6,4,53,108,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718840,John Barnard Sangma,GNASURKP,19860,2131,1.84,5,53,108,AS,John Barnard Sangma,GNASURKP,,,,,False,53,2024,GE
+1718841,Jotson Bey,ASDC,19882,1106,0.95,6,53,108,AS,Jotson Bey,ASDC,,,,,False,53,2024,GE
+1718842,Amarsing Tisso,BJP,19872,74427,52.22,1,53,109,AS,Amarsing Tisso,BJP,,,,,True,53,2024,GE
+1718843,J. I. Kathar,IND,19861,37995,26.66,2,53,109,AS,J. I. Kathar,IND,,,,,False,53,2024,GE
+1718844,Joy Ram Engleng,INC,19858,20836,14.62,3,53,109,AS,Joy Ram Engleng,INC,,,,,False,53,2024,GE
+1718845,Nota,NOTA,19863,3967,2.78,4,53,109,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718846,John Barnard Sangma,GNASURKP,19860,2909,2.04,5,53,109,AS,John Barnard Sangma,GNASURKP,,,,,False,53,2024,GE
+1718847,Jotson Bey,ASDC,19882,2385,1.67,6,53,109,AS,Jotson Bey,ASDC,,,,,False,53,2024,GE
+1718848,Amarsing Tisso,BJP,19872,58621,44.18,1,53,110,AS,Amarsing Tisso,BJP,,,,,True,53,2024,GE
+1718849,J. I. Kathar,IND,19861,47247,35.61,2,53,110,AS,J. I. Kathar,IND,,,,,False,53,2024,GE
+1718850,Joy Ram Engleng,INC,19858,18546,13.98,3,53,110,AS,Joy Ram Engleng,INC,,,,,False,53,2024,GE
+1718851,Nota,NOTA,19863,3634,2.74,4,53,110,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718852,John Barnard Sangma,GNASURKP,19860,2627,1.98,5,53,110,AS,John Barnard Sangma,GNASURKP,,,,,False,53,2024,GE
+1718853,Jotson Bey,ASDC,19882,2000,1.51,6,53,110,AS,Jotson Bey,ASDC,,,,,False,53,2024,GE
+1718854,Amarsing Tisso,BJP,19872,57261,57.56,1,53,111,AS,Amarsing Tisso,BJP,,,,,True,53,2024,GE
+1718855,J. I. Kathar,IND,19861,24408,24.54,2,53,111,AS,J. I. Kathar,IND,,,,,False,53,2024,GE
+1718856,Joy Ram Engleng,INC,19858,12616,12.68,3,53,111,AS,Joy Ram Engleng,INC,,,,,False,53,2024,GE
+1718857,Nota,NOTA,19863,2078,2.09,4,53,111,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718858,Jotson Bey,ASDC,19882,1787,1.8,5,53,111,AS,Jotson Bey,ASDC,,,,,False,53,2024,GE
+1718859,John Barnard Sangma,GNASURKP,19860,1329,1.34,6,53,111,AS,John Barnard Sangma,GNASURKP,,,,,False,53,2024,GE
+1718860,Amarsing Tisso,BJP,19872,30413,42.33,1,53,112,AS,Amarsing Tisso,BJP,,,,,True,53,2024,GE
+1718861,J. I. Kathar,IND,19861,27458,38.21,2,53,112,AS,J. I. Kathar,IND,,,,,False,53,2024,GE
+1718862,Joy Ram Engleng,INC,19858,9326,12.98,3,53,112,AS,Joy Ram Engleng,INC,,,,,False,53,2024,GE
+1718863,Nota,NOTA,19863,1920,2.67,4,53,112,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718864,Jotson Bey,ASDC,19882,1643,2.29,5,53,112,AS,Jotson Bey,ASDC,,,,,False,53,2024,GE
+1718865,John Barnard Sangma,GNASURKP,19860,1094,1.52,6,53,112,AS,John Barnard Sangma,GNASURKP,,,,,False,53,2024,GE
+1718866,Amarsing Tisso,BJP,19872,59621,51.5,1,53,113,AS,Amarsing Tisso,BJP,,,,,True,53,2024,GE
+1718867,Joy Ram Engleng,INC,19858,35270,30.47,2,53,113,AS,Joy Ram Engleng,INC,,,,,False,53,2024,GE
+1718868,J. I. Kathar,IND,19861,17576,15.18,3,53,113,AS,J. I. Kathar,IND,,,,,False,53,2024,GE
+1718869,Nota,NOTA,19863,1514,1.31,4,53,113,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718870,John Barnard Sangma,GNASURKP,19860,1151,0.99,5,53,113,AS,John Barnard Sangma,GNASURKP,,,,,False,53,2024,GE
+1718871,Jotson Bey,ASDC,19882,640,0.55,6,53,113,AS,Jotson Bey,ASDC,,,,,False,53,2024,GE
+1718872,Parimal Suklabaidya,BJP,19872,91152,69.29,1,53,114,AS,Parimal Suklabaidya,BJP,,,,,True,53,2024,GE
+1718873,Surya Kanta Sarkar,INC,19858,35381,26.9,2,53,114,AS,Surya Kanta Sarkar,INC,,,,,False,53,2024,GE
+1718874,Nota,NOTA,19863,1686,1.28,3,53,114,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718875,Radheshyam Biswas,AITC,19859,1320,1.0,4,53,114,AS,Radheshyam Biswas,AITC,,,,,False,53,2024,GE
+1718876,Raju Das,IND,19861,575,0.44,5,53,114,AS,Raju Das,IND,,,,,False,53,2024,GE
+1718877,Probash Chandra Sarkar,SUCI,19871,505,0.38,6,53,114,AS,Probash Chandra Sarkar,SUCI,,,,,False,53,2024,GE
+1718878,Ananta Mohan Roy,IND,19861,461,0.35,7,53,114,AS,Ananta Mohan Roy,IND,,,,,False,53,2024,GE
+1718879,Rajib Das,BAHUMP,19874,267,0.2,8,53,114,AS,Rajib Das,BAHUMP,,,,,False,53,2024,GE
+1718880,Barindra Kumar Das,BNGNBNRMS,19883,200,0.15,9,53,114,AS,Barindra Kumar Das,BNGNBNRMS,,,,,False,53,2024,GE
+1718881,Parimal Suklabaidya,BJP,19872,96680,65.99,1,53,115,AS,Parimal Suklabaidya,BJP,,,,,True,53,2024,GE
+1718882,Surya Kanta Sarkar,INC,19858,44517,30.38,2,53,115,AS,Surya Kanta Sarkar,INC,,,,,False,53,2024,GE
+1718883,Nota,NOTA,19863,1881,1.28,3,53,115,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718884,Radheshyam Biswas,AITC,19859,1504,1.03,4,53,115,AS,Radheshyam Biswas,AITC,,,,,False,53,2024,GE
+1718885,Raju Das,IND,19861,561,0.38,5,53,115,AS,Raju Das,IND,,,,,False,53,2024,GE
+1718886,Probash Chandra Sarkar,SUCI,19871,525,0.36,6,53,115,AS,Probash Chandra Sarkar,SUCI,,,,,False,53,2024,GE
+1718887,Ananta Mohan Roy,IND,19861,420,0.29,7,53,115,AS,Ananta Mohan Roy,IND,,,,,False,53,2024,GE
+1718888,Rajib Das,BAHUMP,19874,224,0.15,8,53,115,AS,Rajib Das,BAHUMP,,,,,False,53,2024,GE
+1718889,Barindra Kumar Das,BNGNBNRMS,19883,206,0.14,9,53,115,AS,Barindra Kumar Das,BNGNBNRMS,,,,,False,53,2024,GE
+1718890,Parimal Suklabaidya,BJP,19872,101904,58.16,1,53,116,AS,Parimal Suklabaidya,BJP,,,,,True,53,2024,GE
+1718891,Surya Kanta Sarkar,INC,19858,68409,39.05,2,53,116,AS,Surya Kanta Sarkar,INC,,,,,False,53,2024,GE
+1718892,Nota,NOTA,19863,1531,0.87,3,53,116,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718893,Radheshyam Biswas,AITC,19859,1269,0.72,4,53,116,AS,Radheshyam Biswas,AITC,,,,,False,53,2024,GE
+1718894,Raju Das,IND,19861,691,0.39,5,53,116,AS,Raju Das,IND,,,,,False,53,2024,GE
+1718895,Probash Chandra Sarkar,SUCI,19871,601,0.34,6,53,116,AS,Probash Chandra Sarkar,SUCI,,,,,False,53,2024,GE
+1718896,Ananta Mohan Roy,IND,19861,369,0.21,7,53,116,AS,Ananta Mohan Roy,IND,,,,,False,53,2024,GE
+1718897,Rajib Das,BAHUMP,19874,244,0.14,8,53,116,AS,Rajib Das,BAHUMP,,,,,False,53,2024,GE
+1718898,Barindra Kumar Das,BNGNBNRMS,19883,189,0.11,9,53,116,AS,Barindra Kumar Das,BNGNBNRMS,,,,,False,53,2024,GE
+1718899,Parimal Suklabaidya,BJP,19872,103071,61.99,1,53,117,AS,Parimal Suklabaidya,BJP,,,,,True,53,2024,GE
+1718900,Surya Kanta Sarkar,INC,19858,57596,34.64,2,53,117,AS,Surya Kanta Sarkar,INC,,,,,False,53,2024,GE
+1718901,Nota,NOTA,19863,1681,1.01,3,53,117,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718902,Radheshyam Biswas,AITC,19859,1655,1.0,4,53,117,AS,Radheshyam Biswas,AITC,,,,,False,53,2024,GE
+1718903,Raju Das,IND,19861,698,0.42,5,53,117,AS,Raju Das,IND,,,,,False,53,2024,GE
+1718904,Probash Chandra Sarkar,SUCI,19871,625,0.38,6,53,117,AS,Probash Chandra Sarkar,SUCI,,,,,False,53,2024,GE
+1718905,Ananta Mohan Roy,IND,19861,439,0.26,7,53,117,AS,Ananta Mohan Roy,IND,,,,,False,53,2024,GE
+1718906,Rajib Das,BAHUMP,19874,275,0.17,8,53,117,AS,Rajib Das,BAHUMP,,,,,False,53,2024,GE
+1718907,Barindra Kumar Das,BNGNBNRMS,19883,234,0.14,9,53,117,AS,Barindra Kumar Das,BNGNBNRMS,,,,,False,53,2024,GE
+1718908,Parimal Suklabaidya,BJP,19872,108626,66.84,1,53,118,AS,Parimal Suklabaidya,BJP,,,,,True,53,2024,GE
+1718909,Surya Kanta Sarkar,INC,19858,45248,27.84,2,53,118,AS,Surya Kanta Sarkar,INC,,,,,False,53,2024,GE
+1718910,Radheshyam Biswas,AITC,19859,4540,2.79,3,53,118,AS,Radheshyam Biswas,AITC,,,,,False,53,2024,GE
+1718911,Nota,NOTA,19863,2339,1.44,4,53,118,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718912,Probash Chandra Sarkar,SUCI,19871,637,0.39,5,53,118,AS,Probash Chandra Sarkar,SUCI,,,,,False,53,2024,GE
+1718913,Raju Das,IND,19861,425,0.26,6,53,118,AS,Raju Das,IND,,,,,False,53,2024,GE
+1718914,Ananta Mohan Roy,IND,19861,275,0.17,7,53,118,AS,Ananta Mohan Roy,IND,,,,,False,53,2024,GE
+1718915,Barindra Kumar Das,BNGNBNRMS,19883,237,0.15,8,53,118,AS,Barindra Kumar Das,BNGNBNRMS,,,,,False,53,2024,GE
+1718916,Rajib Das,BAHUMP,19874,196,0.12,9,53,118,AS,Rajib Das,BAHUMP,,,,,False,53,2024,GE
+1718917,Surya Kanta Sarkar,INC,19858,94466,63.48,1,53,119,AS,Surya Kanta Sarkar,INC,,,,,False,53,2024,GE
+1718918,Parimal Suklabaidya,BJP,19872,44241,29.73,2,53,119,AS,Parimal Suklabaidya,BJP,,,,,True,53,2024,GE
+1718919,Radheshyam Biswas,AITC,19859,6325,4.25,3,53,119,AS,Radheshyam Biswas,AITC,,,,,False,53,2024,GE
+1718920,Nota,NOTA,19863,1327,0.89,4,53,119,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718921,Raju Das,IND,19861,765,0.51,5,53,119,AS,Raju Das,IND,,,,,False,53,2024,GE
+1718922,Probash Chandra Sarkar,SUCI,19871,722,0.49,6,53,119,AS,Probash Chandra Sarkar,SUCI,,,,,False,53,2024,GE
+1718923,Ananta Mohan Roy,IND,19861,465,0.31,7,53,119,AS,Ananta Mohan Roy,IND,,,,,False,53,2024,GE
+1718924,Rajib Das,BAHUMP,19874,272,0.18,8,53,119,AS,Rajib Das,BAHUMP,,,,,False,53,2024,GE
+1718925,Barindra Kumar Das,BNGNBNRMS,19883,242,0.16,9,53,119,AS,Barindra Kumar Das,BNGNBNRMS,,,,,False,53,2024,GE
+1718926,Parimal Suklabaidya,BJP,19872,101898,67.16,1,53,120,AS,Parimal Suklabaidya,BJP,,,,,True,53,2024,GE
+1718927,Surya Kanta Sarkar,INC,19858,40836,26.92,2,53,120,AS,Surya Kanta Sarkar,INC,,,,,False,53,2024,GE
+1718928,Radheshyam Biswas,AITC,19859,3771,2.49,3,53,120,AS,Radheshyam Biswas,AITC,,,,,False,53,2024,GE
+1718929,Nota,NOTA,19863,2153,1.42,4,53,120,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718930,Probash Chandra Sarkar,SUCI,19871,879,0.58,5,53,120,AS,Probash Chandra Sarkar,SUCI,,,,,False,53,2024,GE
+1718931,Raju Das,IND,19861,865,0.57,6,53,120,AS,Raju Das,IND,,,,,False,53,2024,GE
+1718932,Ananta Mohan Roy,IND,19861,684,0.45,7,53,120,AS,Ananta Mohan Roy,IND,,,,,False,53,2024,GE
+1718933,Rajib Das,BAHUMP,19874,365,0.24,8,53,120,AS,Rajib Das,BAHUMP,,,,,False,53,2024,GE
+1718934,Barindra Kumar Das,BNGNBNRMS,19883,267,0.18,9,53,120,AS,Barindra Kumar Das,BNGNBNRMS,,,,,False,53,2024,GE
+1718935,Kripanath Mallah,BJP,19872,110083,62.9,1,53,121,AS,Kripanath Mallah,BJP,,,,,True,53,2024,GE
+1718936,Hafiz Rashid Ahmed Choudhury,INC,19858,55556,31.74,2,53,121,AS,Hafiz Rashid Ahmed Choudhury,INC,,,,,False,53,2024,GE
+1718937,Sahabul Islam Choudhury,AIUDF,19865,2076,1.19,3,53,121,AS,Sahabul Islam Choudhury,AIUDF,,,,,False,53,2024,GE
+1718938,Debojyoti Nath,IND,19861,1064,0.61,4,53,121,AS,Debojyoti Nath,IND,,,,,False,53,2024,GE
+1718939,Jibesh Deb,IND,19861,898,0.51,5,53,121,AS,Jibesh Deb,IND,,,,,False,53,2024,GE
+1718940,Binay Krishna Roy,IND,19861,769,0.44,6,53,121,AS,Binay Krishna Roy,IND,,,,,False,53,2024,GE
+1718941,Nota,NOTA,19863,607,0.35,7,53,121,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718942,Rosid Ahmed Laskar,IND,19861,537,0.31,8,53,121,AS,Rosid Ahmed Laskar,IND,,,,,False,53,2024,GE
+1718943,Ahad Uddin,RUC,19876,535,0.31,9,53,121,AS,Ahad Uddin,RUC,,,,,False,53,2024,GE
+1718944,Dilip Kumar,IND,19861,409,0.23,10,53,121,AS,Dilip Kumar,IND,,,,,False,53,2024,GE
+1718945,Gopal Chandra Paul,IND,19861,253,0.15,11,53,121,AS,Gopal Chandra Paul,IND,,,,,False,53,2024,GE
+1718946,Abdul Basit Tapadar,IND,19861,248,0.14,12,53,121,AS,Abdul Basit Tapadar,IND,,,,,False,53,2024,GE
+1718947,Muzakkir Hasan Laskar,IND,19861,236,0.14,13,53,121,AS,Muzakkir Hasan Laskar,IND,,,,,False,53,2024,GE
+1718948,Prajjwal Sudip Deb,SUCI,19871,214,0.12,14,53,121,AS,Prajjwal Sudip Deb,SUCI,,,,,False,53,2024,GE
+1718949,Sahel Ahmed,IND,19861,199,0.11,15,53,121,AS,Sahel Ahmed,IND,,,,,False,53,2024,GE
+1718950,Md. Nazrul Islam Laskar,IND,19861,187,0.11,16,53,121,AS,Md. Nazrul Islam Laskar,IND,,,,,False,53,2024,GE
+1718951,Abdul Goffar Talukdar,IND,19861,171,0.1,17,53,121,AS,Abdul Goffar Talukdar,IND,,,,,False,53,2024,GE
+1718952,Safikur Rahman Hazari,IND,19861,170,0.1,18,53,121,AS,Safikur Rahman Hazari,IND,,,,,False,53,2024,GE
+1718953,Abdul Hameed,IND,19861,149,0.09,19,53,121,AS,Abdul Hameed,IND,,,,,False,53,2024,GE
+1718954,Alim Uddin Mazumder,IND,19861,146,0.08,20,53,121,AS,Alim Uddin Mazumder,IND,,,,,False,53,2024,GE
+1718955,Abdul Kalam Mazumder,IND,19861,143,0.08,21,53,121,AS,Abdul Kalam Mazumder,IND,,,,,False,53,2024,GE
+1718956,Debashish Ghosh,BNGNBNRMS,19883,107,0.06,22,53,121,AS,Debashish Ghosh,BNGNBNRMS,,,,,False,53,2024,GE
+1718957,Rashid Ahmed Choudhury,IND,19861,98,0.06,23,53,121,AS,Rashid Ahmed Choudhury,IND,,,,,False,53,2024,GE
+1718958,Abdus Subhan Tapadar,IND,19861,97,0.06,24,53,121,AS,Abdus Subhan Tapadar,IND,,,,,False,53,2024,GE
+1718959,Rokibul Hussain Choudhury,IND,19861,76,0.04,25,53,121,AS,Rokibul Hussain Choudhury,IND,,,,,False,53,2024,GE
+1718960,Hafiz Rashid Ahmed Choudhury,INC,19858,159994,73.82,1,53,122,AS,Hafiz Rashid Ahmed Choudhury,INC,,,,,False,53,2024,GE
+1718961,Kripanath Mallah,BJP,19872,40757,18.81,2,53,122,AS,Kripanath Mallah,BJP,,,,,True,53,2024,GE
+1718962,Sahabul Islam Choudhury,AIUDF,19865,6498,3.0,3,53,122,AS,Sahabul Islam Choudhury,AIUDF,,,,,False,53,2024,GE
+1718963,Jibesh Deb,IND,19861,1813,0.84,4,53,122,AS,Jibesh Deb,IND,,,,,False,53,2024,GE
+1718964,Ahad Uddin,RUC,19876,1094,0.51,5,53,122,AS,Ahad Uddin,RUC,,,,,False,53,2024,GE
+1718965,Debojyoti Nath,IND,19861,1087,0.5,6,53,122,AS,Debojyoti Nath,IND,,,,,False,53,2024,GE
+1718966,Muzakkir Hasan Laskar,IND,19861,641,0.3,7,53,122,AS,Muzakkir Hasan Laskar,IND,,,,,False,53,2024,GE
+1718967,Dilip Kumar,IND,19861,507,0.23,8,53,122,AS,Dilip Kumar,IND,,,,,False,53,2024,GE
+1718968,Abdul Basit Tapadar,IND,19861,475,0.22,9,53,122,AS,Abdul Basit Tapadar,IND,,,,,False,53,2024,GE
+1718969,Nota,NOTA,19863,440,0.2,10,53,122,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718970,Binay Krishna Roy,IND,19861,421,0.19,11,53,122,AS,Binay Krishna Roy,IND,,,,,False,53,2024,GE
+1718971,Gopal Chandra Paul,IND,19861,407,0.19,12,53,122,AS,Gopal Chandra Paul,IND,,,,,False,53,2024,GE
+1718972,Rosid Ahmed Laskar,IND,19861,407,0.19,12,53,122,AS,Rosid Ahmed Laskar,IND,,,,,False,53,2024,GE
+1718973,Safikur Rahman Hazari,IND,19861,299,0.14,14,53,122,AS,Safikur Rahman Hazari,IND,,,,,False,53,2024,GE
+1718974,Md. Nazrul Islam Laskar,IND,19861,245,0.11,15,53,122,AS,Md. Nazrul Islam Laskar,IND,,,,,False,53,2024,GE
+1718975,Abdul Goffar Talukdar,IND,19861,228,0.11,16,53,122,AS,Abdul Goffar Talukdar,IND,,,,,False,53,2024,GE
+1718976,Sahel Ahmed,IND,19861,223,0.1,17,53,122,AS,Sahel Ahmed,IND,,,,,False,53,2024,GE
+1718977,Abdul Kalam Mazumder,IND,19861,185,0.09,18,53,122,AS,Abdul Kalam Mazumder,IND,,,,,False,53,2024,GE
+1718978,Abdul Hameed,IND,19861,178,0.08,19,53,122,AS,Abdul Hameed,IND,,,,,False,53,2024,GE
+1718979,Alim Uddin Mazumder,IND,19861,174,0.08,20,53,122,AS,Alim Uddin Mazumder,IND,,,,,False,53,2024,GE
+1718980,Prajjwal Sudip Deb,SUCI,19871,154,0.07,21,53,122,AS,Prajjwal Sudip Deb,SUCI,,,,,False,53,2024,GE
+1718981,Rokibul Hussain Choudhury,IND,19861,152,0.07,22,53,122,AS,Rokibul Hussain Choudhury,IND,,,,,False,53,2024,GE
+1718982,Debashish Ghosh,BNGNBNRMS,19883,132,0.06,23,53,122,AS,Debashish Ghosh,BNGNBNRMS,,,,,False,53,2024,GE
+1718983,Rashid Ahmed Choudhury,IND,19861,125,0.06,24,53,122,AS,Rashid Ahmed Choudhury,IND,,,,,False,53,2024,GE
+1718984,Abdus Subhan Tapadar,IND,19861,92,0.04,25,53,122,AS,Abdus Subhan Tapadar,IND,,,,,False,53,2024,GE
+1718985,Kripanath Mallah,BJP,19872,103230,48.39,1,53,123,AS,Kripanath Mallah,BJP,,,,,True,53,2024,GE
+1718986,Hafiz Rashid Ahmed Choudhury,INC,19858,96328,45.15,2,53,123,AS,Hafiz Rashid Ahmed Choudhury,INC,,,,,False,53,2024,GE
+1718987,Sahabul Islam Choudhury,AIUDF,19865,6540,3.07,3,53,123,AS,Sahabul Islam Choudhury,AIUDF,,,,,False,53,2024,GE
+1718988,Jibesh Deb,IND,19861,1099,0.52,4,53,123,AS,Jibesh Deb,IND,,,,,False,53,2024,GE
+1718989,Debojyoti Nath,IND,19861,799,0.38,5,53,123,AS,Debojyoti Nath,IND,,,,,False,53,2024,GE
+1718990,Ahad Uddin,RUC,19876,683,0.32,6,53,123,AS,Ahad Uddin,RUC,,,,,False,53,2024,GE
+1718991,Nota,NOTA,19863,609,0.29,7,53,123,AS,Nota,NOTA,,,,,False,53,2024,GE
+1718992,Binay Krishna Roy,IND,19861,574,0.27,8,53,123,AS,Binay Krishna Roy,IND,,,,,False,53,2024,GE
+1718993,Muzakkir Hasan Laskar,IND,19861,395,0.19,9,53,123,AS,Muzakkir Hasan Laskar,IND,,,,,False,53,2024,GE
+1718994,Dilip Kumar,IND,19861,372,0.17,10,53,123,AS,Dilip Kumar,IND,,,,,False,53,2024,GE
+1718995,Rosid Ahmed Laskar,IND,19861,332,0.16,11,53,123,AS,Rosid Ahmed Laskar,IND,,,,,False,53,2024,GE
+1718996,Abdul Basit Tapadar,IND,19861,288,0.14,12,53,123,AS,Abdul Basit Tapadar,IND,,,,,False,53,2024,GE
+1718997,Abdul Goffar Talukdar,IND,19861,259,0.12,13,53,123,AS,Abdul Goffar Talukdar,IND,,,,,False,53,2024,GE
+1718998,Md. Nazrul Islam Laskar,IND,19861,235,0.11,14,53,123,AS,Md. Nazrul Islam Laskar,IND,,,,,False,53,2024,GE
+1718999,Debashish Ghosh,BNGNBNRMS,19883,233,0.11,15,53,123,AS,Debashish Ghosh,BNGNBNRMS,,,,,False,53,2024,GE
+1719000,Prajjwal Sudip Deb,SUCI,19871,223,0.11,16,53,123,AS,Prajjwal Sudip Deb,SUCI,,,,,False,53,2024,GE
+1719001,Gopal Chandra Paul,IND,19861,214,0.1,17,53,123,AS,Gopal Chandra Paul,IND,,,,,False,53,2024,GE
+1719002,Sahel Ahmed,IND,19861,165,0.08,18,53,123,AS,Sahel Ahmed,IND,,,,,False,53,2024,GE
+1719003,Abdul Kalam Mazumder,IND,19861,132,0.06,19,53,123,AS,Abdul Kalam Mazumder,IND,,,,,False,53,2024,GE
+1719004,Safikur Rahman Hazari,IND,19861,127,0.06,20,53,123,AS,Safikur Rahman Hazari,IND,,,,,False,53,2024,GE
+1719005,Rashid Ahmed Choudhury,IND,19861,123,0.06,21,53,123,AS,Rashid Ahmed Choudhury,IND,,,,,False,53,2024,GE
+1719006,Alim Uddin Mazumder,IND,19861,114,0.05,22,53,123,AS,Alim Uddin Mazumder,IND,,,,,False,53,2024,GE
+1719007,Abdul Hameed,IND,19861,105,0.05,23,53,123,AS,Abdul Hameed,IND,,,,,False,53,2024,GE
+1719008,Abdus Subhan Tapadar,IND,19861,98,0.05,24,53,123,AS,Abdus Subhan Tapadar,IND,,,,,False,53,2024,GE
+1719009,Rokibul Hussain Choudhury,IND,19861,71,0.03,25,53,123,AS,Rokibul Hussain Choudhury,IND,,,,,False,53,2024,GE
+1719010,Hafiz Rashid Ahmed Choudhury,INC,19858,136384,62.79,1,53,124,AS,Hafiz Rashid Ahmed Choudhury,INC,,,,,False,53,2024,GE
+1719011,Kripanath Mallah,BJP,19872,60357,27.79,2,53,124,AS,Kripanath Mallah,BJP,,,,,True,53,2024,GE
+1719012,Sahabul Islam Choudhury,AIUDF,19865,10579,4.87,3,53,124,AS,Sahabul Islam Choudhury,AIUDF,,,,,False,53,2024,GE
+1719013,Jibesh Deb,IND,19861,1840,0.85,4,53,124,AS,Jibesh Deb,IND,,,,,False,53,2024,GE
+1719014,Debojyoti Nath,IND,19861,1115,0.51,5,53,124,AS,Debojyoti Nath,IND,,,,,False,53,2024,GE
+1719015,Ahad Uddin,RUC,19876,1094,0.5,6,53,124,AS,Ahad Uddin,RUC,,,,,False,53,2024,GE
+1719016,Muzakkir Hasan Laskar,IND,19861,664,0.31,7,53,124,AS,Muzakkir Hasan Laskar,IND,,,,,False,53,2024,GE
+1719017,Dilip Kumar,IND,19861,645,0.3,8,53,124,AS,Dilip Kumar,IND,,,,,False,53,2024,GE
+1719018,Abdul Basit Tapadar,IND,19861,576,0.27,9,53,124,AS,Abdul Basit Tapadar,IND,,,,,False,53,2024,GE
+1719019,Binay Krishna Roy,IND,19861,532,0.25,10,53,124,AS,Binay Krishna Roy,IND,,,,,False,53,2024,GE
+1719020,Nota,NOTA,19863,426,0.2,11,53,124,AS,Nota,NOTA,,,,,False,53,2024,GE
+1719021,Rosid Ahmed Laskar,IND,19861,412,0.19,12,53,124,AS,Rosid Ahmed Laskar,IND,,,,,False,53,2024,GE
+1719022,Gopal Chandra Paul,IND,19861,391,0.18,13,53,124,AS,Gopal Chandra Paul,IND,,,,,False,53,2024,GE
+1719023,Md. Nazrul Islam Laskar,IND,19861,298,0.14,14,53,124,AS,Md. Nazrul Islam Laskar,IND,,,,,False,53,2024,GE
+1719024,Sahel Ahmed,IND,19861,214,0.1,15,53,124,AS,Sahel Ahmed,IND,,,,,False,53,2024,GE
+1719025,Abdul Kalam Mazumder,IND,19861,213,0.1,16,53,124,AS,Abdul Kalam Mazumder,IND,,,,,False,53,2024,GE
+1719026,Safikur Rahman Hazari,IND,19861,211,0.1,17,53,124,AS,Safikur Rahman Hazari,IND,,,,,False,53,2024,GE
+1719027,Abdul Goffar Talukdar,IND,19861,199,0.09,18,53,124,AS,Abdul Goffar Talukdar,IND,,,,,False,53,2024,GE
+1719028,Alim Uddin Mazumder,IND,19861,198,0.09,19,53,124,AS,Alim Uddin Mazumder,IND,,,,,False,53,2024,GE
+1719029,Rashid Ahmed Choudhury,IND,19861,193,0.09,20,53,124,AS,Rashid Ahmed Choudhury,IND,,,,,False,53,2024,GE
+1719030,Abdul Hameed,IND,19861,191,0.09,21,53,124,AS,Abdul Hameed,IND,,,,,False,53,2024,GE
+1719031,Prajjwal Sudip Deb,SUCI,19871,156,0.07,22,53,124,AS,Prajjwal Sudip Deb,SUCI,,,,,False,53,2024,GE
+1719032,Debashish Ghosh,BNGNBNRMS,19883,123,0.06,23,53,124,AS,Debashish Ghosh,BNGNBNRMS,,,,,False,53,2024,GE
+1719033,Rokibul Hussain Choudhury,IND,19861,108,0.05,24,53,124,AS,Rokibul Hussain Choudhury,IND,,,,,False,53,2024,GE
+1719034,Abdus Subhan Tapadar,IND,19861,98,0.05,25,53,124,AS,Abdus Subhan Tapadar,IND,,,,,False,53,2024,GE
+1719035,Kripanath Mallah,BJP,19872,109547,74.58,1,53,125,AS,Kripanath Mallah,BJP,,,,,True,53,2024,GE
+1719036,Hafiz Rashid Ahmed Choudhury,INC,19858,30734,20.92,2,53,125,AS,Hafiz Rashid Ahmed Choudhury,INC,,,,,False,53,2024,GE
+1719037,Sahabul Islam Choudhury,AIUDF,19865,1960,1.33,3,53,125,AS,Sahabul Islam Choudhury,AIUDF,,,,,False,53,2024,GE
+1719038,Debojyoti Nath,IND,19861,737,0.5,4,53,125,AS,Debojyoti Nath,IND,,,,,False,53,2024,GE
+1719039,Binay Krishna Roy,IND,19861,595,0.41,5,53,125,AS,Binay Krishna Roy,IND,,,,,False,53,2024,GE
+1719040,Jibesh Deb,IND,19861,550,0.37,6,53,125,AS,Jibesh Deb,IND,,,,,False,53,2024,GE
+1719041,Rosid Ahmed Laskar,IND,19861,384,0.26,7,53,125,AS,Rosid Ahmed Laskar,IND,,,,,False,53,2024,GE
+1719042,Ahad Uddin,RUC,19876,307,0.21,8,53,125,AS,Ahad Uddin,RUC,,,,,False,53,2024,GE
+1719043,Nota,NOTA,19863,287,0.2,9,53,125,AS,Nota,NOTA,,,,,False,53,2024,GE
+1719044,Dilip Kumar,IND,19861,270,0.18,10,53,125,AS,Dilip Kumar,IND,,,,,False,53,2024,GE
+1719045,Md. Nazrul Islam Laskar,IND,19861,180,0.12,11,53,125,AS,Md. Nazrul Islam Laskar,IND,,,,,False,53,2024,GE
+1719047,Muzakkir Hasan Laskar,IND,19861,144,0.1,12,53,125,AS,Muzakkir Hasan Laskar,IND,,,,,False,53,2024,GE
+1719046,Gopal Chandra Paul,IND,19861,144,0.1,12,53,125,AS,Gopal Chandra Paul,IND,,,,,False,53,2024,GE
+1719048,Abdul Basit Tapadar,IND,19861,133,0.09,14,53,125,AS,Abdul Basit Tapadar,IND,,,,,False,53,2024,GE
+1719049,Sahel Ahmed,IND,19861,127,0.09,15,53,125,AS,Sahel Ahmed,IND,,,,,False,53,2024,GE
+1719050,Abdul Kalam Mazumder,IND,19861,102,0.07,16,53,125,AS,Abdul Kalam Mazumder,IND,,,,,False,53,2024,GE
+1719051,Prajjwal Sudip Deb,SUCI,19871,95,0.07,17,53,125,AS,Prajjwal Sudip Deb,SUCI,,,,,False,53,2024,GE
+1719052,Abdul Goffar Talukdar,IND,19861,92,0.06,18,53,125,AS,Abdul Goffar Talukdar,IND,,,,,False,53,2024,GE
+1719053,Alim Uddin Mazumder,IND,19861,91,0.06,19,53,125,AS,Alim Uddin Mazumder,IND,,,,,False,53,2024,GE
+1719054,Abdul Hameed,IND,19861,87,0.06,20,53,125,AS,Abdul Hameed,IND,,,,,False,53,2024,GE
+1719055,Debashish Ghosh,BNGNBNRMS,19883,81,0.06,21,53,125,AS,Debashish Ghosh,BNGNBNRMS,,,,,False,53,2024,GE
+1719056,Safikur Rahman Hazari,IND,19861,74,0.05,22,53,125,AS,Safikur Rahman Hazari,IND,,,,,False,53,2024,GE
+1719057,Abdus Subhan Tapadar,IND,19861,73,0.05,23,53,125,AS,Abdus Subhan Tapadar,IND,,,,,False,53,2024,GE
+1719059,Rashid Ahmed Choudhury,IND,19861,50,0.03,24,53,125,AS,Rashid Ahmed Choudhury,IND,,,,,False,53,2024,GE
+1719058,Rokibul Hussain Choudhury,IND,19861,50,0.03,24,53,125,AS,Rokibul Hussain Choudhury,IND,,,,,False,53,2024,GE
+1719060,Kripanath Mallah,BJP,19872,117246,68.51,1,53,126,AS,Kripanath Mallah,BJP,,,,,True,53,2024,GE
+1719061,Hafiz Rashid Ahmed Choudhury,INC,19858,45394,26.53,2,53,126,AS,Hafiz Rashid Ahmed Choudhury,INC,,,,,False,53,2024,GE
+1719062,Sahabul Islam Choudhury,AIUDF,19865,1417,0.83,3,53,126,AS,Sahabul Islam Choudhury,AIUDF,,,,,False,53,2024,GE
+1719063,Debojyoti Nath,IND,19861,1098,0.64,4,53,126,AS,Debojyoti Nath,IND,,,,,False,53,2024,GE
+1719064,Jibesh Deb,IND,19861,905,0.53,5,53,126,AS,Jibesh Deb,IND,,,,,False,53,2024,GE
+1719065,Binay Krishna Roy,IND,19861,730,0.43,6,53,126,AS,Binay Krishna Roy,IND,,,,,False,53,2024,GE
+1719066,Rosid Ahmed Laskar,IND,19861,528,0.31,7,53,126,AS,Rosid Ahmed Laskar,IND,,,,,False,53,2024,GE
+1719067,Nota,NOTA,19863,482,0.28,8,53,126,AS,Nota,NOTA,,,,,False,53,2024,GE
+1719068,Ahad Uddin,RUC,19876,473,0.28,9,53,126,AS,Ahad Uddin,RUC,,,,,False,53,2024,GE
+1719069,Dilip Kumar,IND,19861,420,0.25,10,53,126,AS,Dilip Kumar,IND,,,,,False,53,2024,GE
+1719070,Gopal Chandra Paul,IND,19861,241,0.14,11,53,126,AS,Gopal Chandra Paul,IND,,,,,False,53,2024,GE
+1719071,Md. Nazrul Islam Laskar,IND,19861,237,0.14,12,53,126,AS,Md. Nazrul Islam Laskar,IND,,,,,False,53,2024,GE
+1719072,Muzakkir Hasan Laskar,IND,19861,207,0.12,13,53,126,AS,Muzakkir Hasan Laskar,IND,,,,,False,53,2024,GE
+1719073,Abdul Kalam Mazumder,IND,19861,200,0.12,14,53,126,AS,Abdul Kalam Mazumder,IND,,,,,False,53,2024,GE
+1719074,Abdul Basit Tapadar,IND,19861,192,0.11,15,53,126,AS,Abdul Basit Tapadar,IND,,,,,False,53,2024,GE
+1719075,Sahel Ahmed,IND,19861,182,0.11,16,53,126,AS,Sahel Ahmed,IND,,,,,False,53,2024,GE
+1719076,Alim Uddin Mazumder,IND,19861,158,0.09,17,53,126,AS,Alim Uddin Mazumder,IND,,,,,False,53,2024,GE
+1719077,Prajjwal Sudip Deb,SUCI,19871,152,0.09,18,53,126,AS,Prajjwal Sudip Deb,SUCI,,,,,False,53,2024,GE
+1719078,Safikur Rahman Hazari,IND,19861,150,0.09,19,53,126,AS,Safikur Rahman Hazari,IND,,,,,False,53,2024,GE
+1719079,Abdul Goffar Talukdar,IND,19861,145,0.09,20,53,126,AS,Abdul Goffar Talukdar,IND,,,,,False,53,2024,GE
+1719080,Abdul Hameed,IND,19861,131,0.08,21,53,126,AS,Abdul Hameed,IND,,,,,False,53,2024,GE
+1719081,Rashid Ahmed Choudhury,IND,19861,130,0.08,22,53,126,AS,Rashid Ahmed Choudhury,IND,,,,,False,53,2024,GE
+1719082,Debashish Ghosh,BNGNBNRMS,19883,124,0.07,23,53,126,AS,Debashish Ghosh,BNGNBNRMS,,,,,False,53,2024,GE
+1719083,Abdus Subhan Tapadar,IND,19861,110,0.06,24,53,126,AS,Abdus Subhan Tapadar,IND,,,,,False,53,2024,GE
+1719084,Rokibul Hussain Choudhury,IND,19861,82,0.05,25,53,126,AS,Rokibul Hussain Choudhury,IND,,,,,False,53,2024,GE

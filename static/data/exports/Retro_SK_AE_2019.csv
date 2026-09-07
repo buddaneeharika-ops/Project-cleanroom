@@ -1,0 +1,183 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1765411,Sangay Lepcha,SKM,22694,5686,48.52,1,35,1,SK,Sangay Lepcha,SKM,,,,,False,35,2019,AE
+1765412,Dichen Wangchuk Bhutia,SDF,22687,5607,47.84,2,35,1,SK,Dichen Wangchuk Bhutia,SDF,,,,,False,35,2019,AE
+1765413,Phurkit Lepcha,HMSKP,22699,158,1.35,3,35,1,SK,Phurkit Lepcha,HMSKP,,,,,False,35,2019,AE
+1765414,Pema Rinzing Bhutia,INC,22688,137,1.17,4,35,1,SK,Pema Rinzing Bhutia,INC,,,,,True,35,2019,AE
+1765415,Nota,NOTA,22695,132,1.13,5,35,1,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765416,Bhim Hang Limboo,SKM,22694,5184,48.47,1,35,2,SK,Bhim Hang Limboo,SKM,,,,,False,35,2019,AE
+1765417,Dal Bdr. Subba,SDF,22687,5137,48.03,2,35,2,SK,Dal Bdr. Subba,SDF,,,,,False,35,2019,AE
+1765418,Dhan Singh Limboo,HMSKP,22699,115,1.08,3,35,2,SK,Dhan Singh Limboo,HMSKP,,,,,False,35,2019,AE
+1765419,Binay Limboo (Tsong),SKPP,22698,93,0.87,4,35,2,SK,Binay Limboo (Tsong),SKPP,,,,,False,35,2019,AE
+1765420,Mangal Subba (Limboo),INC,22688,93,0.87,4,35,2,SK,Mangal Subba (Limboo),INC,,,,,False,35,2019,AE
+1765421,Nota,NOTA,22695,74,0.69,6,35,2,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765422,Narendra Kumar Subba,SDF,22687,7134,55.15,1,35,3,SK,Narendra Kumar Subba,SDF,,,,,True,35,2019,AE
+1765423,Purna Hang Subba,SKM,22694,5630,43.52,2,35,3,SK,Purna Hang Subba,SKM,,,,,False,35,2019,AE
+1765424,Nota,NOTA,22695,172,1.33,3,35,3,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765425,Lok Nath Sharma,SKM,22694,5862,57.06,1,35,4,SK,Lok Nath Sharma,SKM,,,,,True,35,2019,AE
+1765426,Laxuman Sharma,SDF,22687,4048,39.4,2,35,4,SK,Laxuman Sharma,SDF,,,,,False,35,2019,AE
+1765427,Bhanu Bhakta Dahal,BJP,22690,217,2.11,3,35,4,SK,Bhanu Bhakta Dahal,BJP,,,,,False,35,2019,AE
+1765429,Sukuhang Subba,HMSKP,22699,73,0.71,4,35,4,SK,Sukuhang Subba,HMSKP,,,,,False,35,2019,AE
+1765428,Nota,NOTA,22695,73,0.71,4,35,4,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765430,Karma Sonam Lepcha,SDF,22687,6582,52.24,1,35,5,SK,Karma Sonam Lepcha,SDF,,,,,True,35,2019,AE
+1765431,Phurba Tsh. Bhutia,SKM,22694,5513,43.76,2,35,5,SK,Phurba Tsh. Bhutia,SKM,,,,,False,35,2019,AE
+1765432,Sancho Lepcha,BJP,22690,303,2.4,3,35,5,SK,Sancho Lepcha,BJP,,,,,False,35,2019,AE
+1765433,Nota,NOTA,22695,109,0.87,4,35,5,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765434,Phurchung Lepcha,INC,22688,92,0.73,5,35,5,SK,Phurchung Lepcha,INC,,,,,False,35,2019,AE
+1765435,Mingma Norbu Sherpa,SKM,22694,6219,49.08,1,35,6,SK,Mingma Norbu Sherpa,SKM,,,,,True,35,2019,AE
+1765436,Pem Norbu Sherpa,SDF,22687,5883,46.43,2,35,6,SK,Pem Norbu Sherpa,SDF,,,,,False,35,2019,AE
+1765437,Rozer Tasho Lepcha,BJP,22690,317,2.5,3,35,6,SK,Rozer Tasho Lepcha,BJP,,,,,False,35,2019,AE
+1765438,Passang Gyalchen Sherpa,INC,22688,102,0.8,4,35,6,SK,Passang Gyalchen Sherpa,INC,,,,,False,35,2019,AE
+1765439,Nota,NOTA,22695,78,0.62,5,35,6,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765440,Datempa Sherpa,SRMP,22707,43,0.34,6,35,6,SK,Datempa Sherpa,SRMP,,,,,False,35,2019,AE
+1765441,Sonam Gyatso Sherpa,HMSKP,22699,30,0.24,7,35,6,SK,Sonam Gyatso Sherpa,HMSKP,,,,,False,35,2019,AE
+1765442,Aditya Golay (Tamang),SKM,22694,6580,50.08,1,35,7,SK,Aditya Golay (Tamang),SKM,,,,,False,35,2019,AE
+1765443,Sancha Raj Subba,SDF,22687,6372,48.49,2,35,7,SK,Sancha Raj Subba,SDF,,,,,False,35,2019,AE
+1765444,Nota,NOTA,22695,188,1.43,3,35,7,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765445,Sunita Gajmer,SKM,22694,4400,49.27,1,35,8,SK,Sunita Gajmer,SKM,,,,,False,35,2019,AE
+1765446,Dhan Kumari Kami,SDF,22687,4307,48.23,2,35,8,SK,Dhan Kumari Kami,SDF,,,,,False,35,2019,AE
+1765447,Ganga Maya Cintury,INC,22688,119,1.33,3,35,8,SK,Ganga Maya Cintury,INC,,,,,False,35,2019,AE
+1765448,Nota,NOTA,22695,71,0.79,4,35,8,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765449,Pahal Man Kami,HMSKP,22699,34,0.38,5,35,8,SK,Pahal Man Kami,HMSKP,,,,,False,35,2019,AE
+1765450,Tashi Thendup Bhutia,SDF,22687,5936,49.13,1,35,9,SK,Tashi Thendup Bhutia,SDF,,,,,False,35,2019,AE
+1765451,Lobzang Bhutia,SKM,22694,5839,48.32,2,35,9,SK,Lobzang Bhutia,SKM,,,,,False,35,2019,AE
+1765452,Mingma Tshring Sherpa,SKPP,22698,169,1.4,3,35,9,SK,Mingma Tshring Sherpa,SKPP,,,,,False,35,2019,AE
+1765453,Nota,NOTA,22695,139,1.15,4,35,9,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765454,Pawan Chamling,SDF,22687,7731,59.09,1,35,10,SK,Pawan Chamling,SDF,,,,,False,35,2019,AE
+1765455,Kharka Bahadur Rai,SKM,22694,4832,36.93,2,35,10,SK,Kharka Bahadur Rai,SKM,,,,,False,35,2019,AE
+1765456,Yadhu Kumar Rai,SRPP,22704,197,1.51,3,35,10,SK,Yadhu Kumar Rai,SRPP,,,,,False,35,2019,AE
+1765457,Ishwar Prasad Rai,INC,22688,125,0.96,4,35,10,SK,Ishwar Prasad Rai,INC,,,,,True,35,2019,AE
+1765458,Nota,NOTA,22695,108,0.83,5,35,10,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765459,Birkha Bahadur Rai,HMSKP,22699,90,0.69,6,35,10,SK,Birkha Bahadur Rai,HMSKP,,,,,False,35,2019,AE
+1765460,Pawan Chamling,SDF,22687,5054,50.31,1,35,11,SK,Pawan Chamling,SDF,,,,,True,35,2019,AE
+1765461,Ganesh Rai,SKM,22694,4677,46.56,2,35,11,SK,Ganesh Rai,SKM,,,,,False,35,2019,AE
+1765462,Kamala Rai,INC,22688,87,0.87,3,35,11,SK,Kamala Rai,INC,,,,,False,35,2019,AE
+1765463,Kharga Bahadur Rai,SRPP,22704,83,0.83,4,35,11,SK,Kharga Bahadur Rai,SRPP,,,,,False,35,2019,AE
+1765464,Nota,NOTA,22695,75,0.75,5,35,11,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765465,Hukum Chandra Rai,HMSKP,22699,70,0.7,6,35,11,SK,Hukum Chandra Rai,HMSKP,,,,,False,35,2019,AE
+1765466,Farwanti Tamang,SDF,22687,6354,50.25,1,35,12,SK,Farwanti Tamang,SDF,,,,,False,35,2019,AE
+1765467,Tilak Basnet,SKM,22694,5489,43.41,2,35,12,SK,Tilak Basnet,SKM,,,,,False,35,2019,AE
+1765468,Bhola Chawhan,BJP,22690,382,3.02,3,35,12,SK,Bhola Chawhan,BJP,,,,,False,35,2019,AE
+1765469,Nota,NOTA,22695,166,1.31,4,35,12,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765470,Hari Basnett,INC,22688,121,0.96,5,35,12,SK,Hari Basnett,INC,,,,,False,35,2019,AE
+1765471,Bal Bir Tamang,SKPP,22698,70,0.55,6,35,12,SK,Bal Bir Tamang,SKPP,,,,,False,35,2019,AE
+1765472,Lall Bahadur Chettri,HMSKP,22699,63,0.5,7,35,12,SK,Lall Bahadur Chettri,HMSKP,,,,,False,35,2019,AE
+1765473,Sanjeet Kharel,SKM,22694,6848,53.59,1,35,13,SK,Sanjeet Kharel,SKM,,,,,False,35,2019,AE
+1765474,Birjan Tamang,SDF,22687,5543,43.38,2,35,13,SK,Birjan Tamang,SDF,,,,,False,35,2019,AE
+1765475,Sancha Man Chettri,INC,22688,128,1.0,3,35,13,SK,Sancha Man Chettri,INC,,,,,False,35,2019,AE
+1765476,Nota,NOTA,22695,89,0.7,4,35,13,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765477,Ganga Ram Sharma,SKPP,22698,83,0.65,5,35,13,SK,Ganga Ram Sharma,SKPP,,,,,False,35,2019,AE
+1765478,Madan Tamang,HMSKP,22699,47,0.37,6,35,13,SK,Madan Tamang,HMSKP,,,,,False,35,2019,AE
+1765479,Usha Gurung,JMBP,22701,41,0.32,7,35,13,SK,Usha Gurung,JMBP,,,,,False,35,2019,AE
+1765480,Bedu Singh Panth,SKM,22694,6084,51.7,1,35,14,SK,Bedu Singh Panth,SKM,,,,,False,35,2019,AE
+1765481,Garjaman Gurung,SDF,22687,5314,45.16,2,35,14,SK,Garjaman Gurung,SDF,,,,,True,35,2019,AE
+1765482,Deepak Kumar Bhandari,INC,22688,146,1.24,3,35,14,SK,Deepak Kumar Bhandari,INC,,,,,False,35,2019,AE
+1765483,Durga Bahadur Chhetri,HMSKP,22699,142,1.21,4,35,14,SK,Durga Bahadur Chhetri,HMSKP,,,,,False,35,2019,AE
+1765484,Nota,NOTA,22695,82,0.7,5,35,14,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765485,Raj Kumari Thapa,SDF,22687,6146,53.47,1,35,15,SK,Raj Kumari Thapa,SDF,,,,,False,35,2019,AE
+1765486,Raj Kumar Basnet,SKM,22694,4621,40.2,2,35,15,SK,Raj Kumar Basnet,SKM,,,,,False,35,2019,AE
+1765487,Rup Narayan Chamling,SRMP,22707,443,3.85,3,35,15,SK,Rup Narayan Chamling,SRMP,,,,,False,35,2019,AE
+1765488,Tanka Nath Adhikari,INC,22688,105,0.91,4,35,15,SK,Tanka Nath Adhikari,INC,,,,,False,35,2019,AE
+1765489,Nota,NOTA,22695,70,0.61,5,35,15,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765490,Kamala Rai,HMSKP,22699,69,0.6,6,35,15,SK,Kamala Rai,HMSKP,,,,,False,35,2019,AE
+1765491,Mohan Gurung,SRPP,22704,41,0.36,7,35,15,SK,Mohan Gurung,SRPP,,,,,False,35,2019,AE
+1765492,Ugen T. Gyatso Bhutia,SDF,22687,6615,49.89,1,35,16,SK,Ugen T. Gyatso Bhutia,SDF,,,,,True,35,2019,AE
+1765493,Samdup Tshering Bhutia,SKM,22694,6295,47.47,2,35,16,SK,Samdup Tshering Bhutia,SKM,,,,,False,35,2019,AE
+1765494,Bhaichung Bhutia,HMSKP,22699,234,1.76,3,35,16,SK,Bhaichung Bhutia,HMSKP,,,,,False,35,2019,AE
+1765495,Nota,NOTA,22695,116,0.87,4,35,16,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765496,Mani Kumar Sharma,SKM,22694,5347,50.39,1,35,17,SK,Mani Kumar Sharma,SKM,,,,,True,35,2019,AE
+1765497,Garjaman Gurung,SDF,22687,4474,42.16,2,35,17,SK,Garjaman Gurung,SDF,,,,,False,35,2019,AE
+1765498,Sher Bahadur Karki,BJP,22690,558,5.26,3,35,17,SK,Sher Bahadur Karki,BJP,,,,,False,35,2019,AE
+1765499,Tula Ram Guragai,INC,22688,72,0.68,4,35,17,SK,Tula Ram Guragai,INC,,,,,False,35,2019,AE
+1765500,Neeraj Adhikari,HMSKP,22699,67,0.63,5,35,17,SK,Neeraj Adhikari,HMSKP,,,,,False,35,2019,AE
+1765501,Nota,NOTA,22695,62,0.58,6,35,17,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765502,Gopal Khatiwara,IND,22691,31,0.29,7,35,17,SK,Gopal Khatiwara,IND,,,,,False,35,2019,AE
+1765503,L .B Das,SKM,22694,5799,49.64,1,35,18,SK,L .B Das,SKM,,,,,False,35,2019,AE
+1765504,Gopal Baraily,SDF,22687,4901,41.95,2,35,18,SK,Gopal Baraily,SDF,,,,,False,35,2019,AE
+1765505,Birendra Pourali,BJP,22690,597,5.11,3,35,18,SK,Birendra Pourali,BJP,,,,,False,35,2019,AE
+1765506,Binod Darjee,INC,22688,101,0.86,4,35,18,SK,Binod Darjee,INC,,,,,False,35,2019,AE
+1765507,Nota,NOTA,22695,83,0.71,5,35,18,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765508,Santosh Bardewa,IND,22691,64,0.55,6,35,18,SK,Santosh Bardewa,IND,,,,,False,35,2019,AE
+1765509,Indra Kr Suji,HMSKP,22699,60,0.51,7,35,18,SK,Indra Kr Suji,HMSKP,,,,,False,35,2019,AE
+1765510,Bikash Darjee,IND,22691,47,0.4,8,35,18,SK,Bikash Darjee,IND,,,,,False,35,2019,AE
+1765511,Sonam Darjee,SKPP,22698,31,0.27,9,35,18,SK,Sonam Darjee,SKPP,,,,,False,35,2019,AE
+1765512,Bishnu Kumar Sharma,SKM,22694,8039,56.44,1,35,19,SK,Bishnu Kumar Sharma,SKM,,,,,False,35,2019,AE
+1765513,Hemendra Adhikari,SDF,22687,4953,34.77,2,35,19,SK,Hemendra Adhikari,SDF,,,,,False,35,2019,AE
+1765514,Bharat Kumar Sharma,BJP,22690,649,4.56,3,35,19,SK,Bharat Kumar Sharma,BJP,,,,,False,35,2019,AE
+1765515,Deo Kr Pradhan,INC,22688,192,1.35,4,35,19,SK,Deo Kr Pradhan,INC,,,,,False,35,2019,AE
+1765516,Nota,NOTA,22695,142,1.0,5,35,19,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765517,Chakrapani Sharma,SKPP,22698,122,0.86,6,35,19,SK,Chakrapani Sharma,SKPP,,,,,False,35,2019,AE
+1765518,Biraj Adhikari,HMSKP,22699,85,0.6,7,35,19,SK,Biraj Adhikari,HMSKP,,,,,False,35,2019,AE
+1765519,Ramesh Sharma,SUTF,22700,62,0.44,8,35,19,SK,Ramesh Sharma,SUTF,,,,,False,35,2019,AE
+1765520,Krishna Bahadur Rai,SDF,22687,7266,51.12,1,35,20,SK,Krishna Bahadur Rai,SDF,,,,,False,35,2019,AE
+1765521,Damber Kumar Pradhan,SKM,22694,5939,41.79,2,35,20,SK,Damber Kumar Pradhan,SKM,,,,,False,35,2019,AE
+1765522,Mohan Gurung,BJP,22690,514,3.62,3,35,20,SK,Mohan Gurung,BJP,,,,,False,35,2019,AE
+1765523,Gopal Chettri,INC,22688,177,1.25,4,35,20,SK,Gopal Chettri,INC,,,,,False,35,2019,AE
+1765524,Anil Kr Rai,SKPP,22698,107,0.75,5,35,20,SK,Anil Kr Rai,SKPP,,,,,False,35,2019,AE
+1765525,Nota,NOTA,22695,97,0.68,6,35,20,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765526,Rudra Khatiwara,HMSKP,22699,57,0.4,7,35,20,SK,Rudra Khatiwara,HMSKP,,,,,False,35,2019,AE
+1765527,Rudra Narsing Sakya,IND,22691,56,0.39,8,35,20,SK,Rudra Narsing Sakya,IND,,,,,False,35,2019,AE
+1765528,Dorjee Tshering Lepcha,SDF,22687,6380,62.97,1,35,21,SK,Dorjee Tshering Lepcha,SDF,,,,,False,35,2019,AE
+1765529,Tshering Bhutia,SKM,22694,3460,34.15,2,35,21,SK,Tshering Bhutia,SKM,,,,,False,35,2019,AE
+1765530,Dorjee Ongden Bhutia,INC,22688,127,1.25,3,35,21,SK,Dorjee Ongden Bhutia,INC,,,,,True,35,2019,AE
+1765531,Nota,NOTA,22695,86,0.85,4,35,21,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765532,Sangay Chopel Bhutia,HMSKP,22699,79,0.78,5,35,21,SK,Sangay Chopel Bhutia,HMSKP,,,,,False,35,2019,AE
+1765533,Em Prasad Sharma,SDF,22687,6141,49.52,1,35,22,SK,Em Prasad Sharma,SDF,,,,,False,35,2019,AE
+1765534,Denis Rai,SKM,22694,5170,41.69,2,35,22,SK,Denis Rai,SKM,,,,,False,35,2019,AE
+1765535,Devi Basnett,BJP,22690,574,4.63,3,35,22,SK,Devi Basnett,BJP,,,,,False,35,2019,AE
+1765536,Kharga Bahadur Rai,SKPP,22698,162,1.31,4,35,22,SK,Kharga Bahadur Rai,SKPP,,,,,False,35,2019,AE
+1765537,Phipra Hang Subba,SRMP,22707,161,1.3,5,35,22,SK,Phipra Hang Subba,SRMP,,,,,False,35,2019,AE
+1765538,Anush Rai,HMSKP,22699,102,0.82,6,35,22,SK,Anush Rai,HMSKP,,,,,False,35,2019,AE
+1765539,Nota,NOTA,22695,90,0.73,7,35,22,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765540,Kunga Nima Lepcha,SKM,22694,6638,54.31,1,35,23,SK,Kunga Nima Lepcha,SKM,,,,,True,35,2019,AE
+1765541,Karma Wangdi Bhutia,SDF,22687,5282,43.22,2,35,23,SK,Karma Wangdi Bhutia,SDF,,,,,False,35,2019,AE
+1765542,Chewang Dorjee Bhutia,INC,22688,170,1.39,3,35,23,SK,Chewang Dorjee Bhutia,INC,,,,,False,35,2019,AE
+1765543,Nota,NOTA,22695,132,1.08,4,35,23,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765544,Dorjee Tshering Lepcha,SDF,22687,6244,45.4,1,35,24,SK,Dorjee Tshering Lepcha,SDF,,,,,False,35,2019,AE
+1765545,Sonam Tshering Venchungpa,SKM,22694,6171,44.87,2,35,24,SK,Sonam Tshering Venchungpa,SKM,,,,,False,35,2019,AE
+1765546,Jigdal Chewang Bhutia,BJP,22690,804,5.85,3,35,24,SK,Jigdal Chewang Bhutia,BJP,,,,,False,35,2019,AE
+1765547,Nima Lepcha,HMSKP,22699,183,1.33,4,35,24,SK,Nima Lepcha,HMSKP,,,,,False,35,2019,AE
+1765548,Gyaltsen Bhutia,IND,22691,121,0.88,5,35,24,SK,Gyaltsen Bhutia,IND,,,,,False,35,2019,AE
+1765549,Nota,NOTA,22695,118,0.86,6,35,24,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765550,Sonam Tshering Bhutia,INC,22688,112,0.81,7,35,24,SK,Sonam Tshering Bhutia,INC,,,,,True,35,2019,AE
+1765551,Gay Tshering Dhungel,SDF,22687,3844,51.01,1,35,25,SK,Gay Tshering Dhungel,SDF,,,,,False,35,2019,AE
+1765552,Anand Lama,SKM,22694,3428,45.49,2,35,25,SK,Anand Lama,SKM,,,,,False,35,2019,AE
+1765553,Dr. Bina Basnett,HMSKP,22699,123,1.63,3,35,25,SK,Dr. Bina Basnett,HMSKP,,,,,False,35,2019,AE
+1765554,Anita Gurung,INC,22688,69,0.92,4,35,25,SK,Anita Gurung,INC,,,,,False,35,2019,AE
+1765555,Nota,NOTA,22695,56,0.74,5,35,25,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765556,Punam Bhandari,SKPP,22698,16,0.21,6,35,25,SK,Punam Bhandari,SKPP,,,,,False,35,2019,AE
+1765557,Arun Kumar Upreti,SKM,22694,3150,40.02,1,35,26,SK,Arun Kumar Upreti,SKM,,,,,False,35,2019,AE
+1765558,Ashis Rai,IND,22691,2676,33.99,2,35,26,SK,Ashis Rai,IND,,,,,False,35,2019,AE
+1765559,Shyam Pradhan,SDF,22687,1545,19.63,3,35,26,SK,Shyam Pradhan,SDF,,,,,False,35,2019,AE
+1765560,Dal Bahadur Chettri,BJP,22690,393,4.99,4,35,26,SK,Dal Bahadur Chettri,BJP,,,,,False,35,2019,AE
+1765561,Nota,NOTA,22695,66,0.84,5,35,26,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765562,Sumitra Rai,INC,22688,42,0.53,6,35,26,SK,Sumitra Rai,INC,,,,,False,35,2019,AE
+1765563,Kunga Nima Lepcha,SKM,22694,3838,51.68,1,35,27,SK,Kunga Nima Lepcha,SKM,,,,,False,35,2019,AE
+1765564,Pintso Chopel,SDF,22687,2950,39.72,2,35,27,SK,Pintso Chopel,SDF,,,,,False,35,2019,AE
+1765565,Yong Tshering Lepcha,BJP,22690,392,5.28,3,35,27,SK,Yong Tshering Lepcha,BJP,,,,,False,35,2019,AE
+1765566,Delay Namgyal Barfungpa,IND,22691,97,1.31,4,35,27,SK,Delay Namgyal Barfungpa,IND,,,,,False,35,2019,AE
+1765567,Bhaichung Bhutia,HMSKP,22699,70,0.94,5,35,27,SK,Bhaichung Bhutia,HMSKP,,,,,False,35,2019,AE
+1765568,Phurba Sherpa,IND,22691,42,0.57,6,35,27,SK,Phurba Sherpa,IND,,,,,False,35,2019,AE
+1765569,Nota,NOTA,22695,38,0.51,7,35,27,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765570,Dilli Ram Thapa,SDF,22687,6107,51.77,1,35,28,SK,Dilli Ram Thapa,SDF,,,,,False,35,2019,AE
+1765571,Nagendra Bikram Gurung,SKM,22694,5350,45.35,2,35,28,SK,Nagendra Bikram Gurung,SKM,,,,,False,35,2019,AE
+1765572,Aita Tamang,INC,22688,128,1.09,3,35,28,SK,Aita Tamang,INC,,,,,False,35,2019,AE
+1765573,Nota,NOTA,22695,93,0.79,4,35,28,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765574,Dal Bahadur Tamang,SKPP,22698,59,0.5,5,35,28,SK,Dal Bahadur Tamang,SKPP,,,,,False,35,2019,AE
+1765575,Philip Lamichaney,HMSKP,22699,59,0.5,5,35,28,SK,Philip Lamichaney,HMSKP,,,,,False,35,2019,AE
+1765576,Karma Loday Bhutia,SKM,22694,5705,55.07,1,35,29,SK,Karma Loday Bhutia,SKM,,,,,False,35,2019,AE
+1765577,Ugen Nedup Bhutia,SDF,22687,4268,41.2,2,35,29,SK,Ugen Nedup Bhutia,SDF,,,,,False,35,2019,AE
+1765578,Phurden Tshering Lepcha,IND,22691,152,1.47,3,35,29,SK,Phurden Tshering Lepcha,IND,,,,,False,35,2019,AE
+1765579,Gyurmik Yauseel Bhutia,INC,22688,138,1.33,4,35,29,SK,Gyurmik Yauseel Bhutia,INC,,,,,False,35,2019,AE
+1765580,Nota,NOTA,22695,97,0.94,5,35,29,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765581,Pintso Namgyal Lepcha,SDF,22687,5613,66.17,1,35,30,SK,Pintso Namgyal Lepcha,SDF,,,,,False,35,2019,AE
+1765582,Chungkipu Lepcha,SKM,22694,2612,30.79,2,35,30,SK,Chungkipu Lepcha,SKM,,,,,False,35,2019,AE
+1765583,Penzong Lepcha,INC,22688,119,1.4,3,35,30,SK,Penzong Lepcha,INC,,,,,True,35,2019,AE
+1765584,Athup Lepcha,HMSKP,22699,88,1.04,4,35,30,SK,Athup Lepcha,HMSKP,,,,,False,35,2019,AE
+1765585,Nota,NOTA,22695,51,0.6,5,35,30,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765586,Samdup Lepcha,SKM,22694,3615,53.8,1,35,31,SK,Samdup Lepcha,SKM,,,,,True,35,2019,AE
+1765587,Tshering Wangdi Lepcha,SDF,22687,3031,45.11,2,35,31,SK,Tshering Wangdi Lepcha,SDF,,,,,True,35,2019,AE
+1765588,Nota,NOTA,22695,73,1.09,3,35,31,SK,Nota,NOTA,,,,,True,35,2019,AE
+1765589,Sonam Lama,SKM,22694,1488,62.63,1,35,32,SK,Sonam Lama,SKM,,,,,True,35,2019,AE
+1765590,Tshering Lama,SDF,22687,858,36.11,2,35,32,SK,Tshering Lama,SDF,,,,,False,35,2019,AE
+1765591,Karma Tashi Bhutia,INC,22688,17,0.72,3,35,32,SK,Karma Tashi Bhutia,INC,,,,,False,35,2019,AE
+1765592,Nota,NOTA,22695,13,0.55,4,35,32,SK,Nota,NOTA,,,,,True,35,2019,AE

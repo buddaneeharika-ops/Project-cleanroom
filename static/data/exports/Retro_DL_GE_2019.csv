@@ -1,0 +1,1711 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1501122,Hans Raj Hans,BJP,16207,93231,62.11,1,37,1,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501123,Rajesh Lilothia,INC,16205,27995,18.65,2,37,1,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501124,Gugan Singh,AAAP,16293,26371,17.57,3,37,1,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501125,None Of The Above,NOTA,16294,965,0.64,4,37,1,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501126,Charan Singh Babrik,IND,16208,334,0.22,5,37,1,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501127,Ishwar Mansukh Ishu,SatBP,16378,243,0.16,6,37,1,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501128,Naveen,IND,16208,234,0.16,7,37,1,DL,Naveen,IND,,,,,False,37,2019,GE
+1501129,Madan Lal Balmiki,RHSP,16379,229,0.15,8,37,1,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501130,Aditi,IND,16208,185,0.12,9,37,1,DL,Aditi,IND,,,,,False,37,2019,GE
+1501131,Suresh Kumar,SoJP,16380,110,0.07,10,37,1,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501132,Ram Kumar,BPC,16227,103,0.07,11,37,1,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501133,Gaurav Bhatia,MKDVP,16381,97,0.06,12,37,1,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501134,Manoj Tiwari,BJP,16207,131770,64.06,1,37,2,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1501135,Dilip Pandey,AAAP,16293,37626,18.29,2,37,2,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1501136,Sheila Dikshit,INC,16205,28759,13.98,3,37,2,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1501137,Rajveer Singh,BSP,16206,3058,1.49,4,37,2,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1501138,None Of The Above,NOTA,16294,788,0.38,5,37,2,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501139,Sunil Vishvakarma,ANC,16287,490,0.24,6,37,2,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1501140,Mukesh,AAPP,16382,422,0.21,7,37,2,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1501141,Mohd. Irfan,BHAPRAP,16383,357,0.17,8,37,2,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1501142,Manager Chaurasiya,SUCI(C),16384,339,0.16,9,37,2,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1501143,Mohd. Hasan,RPI(A),16238,233,0.11,10,37,2,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1501144,Ajay Bhai,RTORP,16385,217,0.11,11,37,2,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1501145,Pradesh Kumar,SPRP,16386,211,0.1,12,37,2,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1501146,Anil Kumar Yadav,IND,16208,197,0.1,13,37,2,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1501147,Mahender Paswan,MKDVP,16381,133,0.06,14,37,2,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1501148,S N Singh,IND,16208,127,0.06,15,37,2,DL,S N Singh,IND,,,,,False,37,2019,GE
+1501149,Amrender Kumar,IND,16208,126,0.06,16,37,2,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1501150,Dan Bahadur Yadav,bjdi,16346,125,0.06,17,37,2,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1501151,D. Durga Prasad,CHALP,16387,122,0.06,18,37,2,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1501152,Md. Akram,IND,16208,109,0.05,19,37,2,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1501153,Yogesh Swamy,IND,16208,106,0.05,20,37,2,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1501154,Anuruddh Kumar Dube,BLokSP,16388,95,0.05,21,37,2,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1501155,J. K. Jain,JPJD,16389,84,0.04,22,37,2,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1501156,Abhinav Kumar,SANVP,16390,76,0.04,23,37,2,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1501157,Amit Kumar Sharma,SJVP,16391,73,0.04,24,37,2,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1501158,Mahfooz Khan,IND,16208,45,0.02,25,37,2,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1501159,Manoj Tiwari,BJP,16207,63235,53.25,1,37,3,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1501160,Sheila Dikshit,INC,16205,30710,25.86,2,37,3,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1501161,Dilip Pandey,AAAP,16293,21820,18.38,3,37,3,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1501162,Rajveer Singh,BSP,16206,1003,0.84,4,37,3,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1501163,None Of The Above,NOTA,16294,623,0.52,5,37,3,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501164,Sunil Vishvakarma,ANC,16287,153,0.13,6,37,3,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1501165,Mohd. Irfan,BHAPRAP,16383,137,0.12,7,37,3,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1501166,Ajay Bhai,RTORP,16385,129,0.11,8,37,3,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1501167,Anil Kumar Yadav,IND,16208,113,0.1,9,37,3,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1501168,Manager Chaurasiya,SUCI(C),16384,112,0.09,10,37,3,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1501169,Mukesh,AAPP,16382,111,0.09,11,37,3,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1501170,Mohd. Hasan,RPI(A),16238,86,0.07,12,37,3,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1501171,Amrender Kumar,IND,16208,78,0.07,13,37,3,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1501172,S N Singh,IND,16208,71,0.06,14,37,3,DL,S N Singh,IND,,,,,False,37,2019,GE
+1501173,Pradesh Kumar,SPRP,16386,68,0.06,15,37,3,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1501174,D. Durga Prasad,CHALP,16387,44,0.04,16,37,3,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1501175,Mahender Paswan,MKDVP,16381,36,0.03,17,37,3,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1501176,Yogesh Swamy,IND,16208,34,0.03,18,37,3,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1501177,Anuruddh Kumar Dube,BLokSP,16388,33,0.03,19,37,3,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1501178,Md. Akram,IND,16208,31,0.03,20,37,3,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1501179,Dan Bahadur Yadav,bjdi,16346,28,0.02,21,37,3,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1501180,J. K. Jain,JPJD,16389,28,0.02,21,37,3,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1501181,Abhinav Kumar,SANVP,16390,23,0.02,23,37,3,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1501182,Amit Kumar Sharma,SJVP,16391,22,0.02,24,37,3,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1501183,Mahfooz Khan,IND,16208,14,0.01,25,37,3,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1501184,Harsh Vardhan,BJP,16207,60727,61.99,1,37,4,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501185,Jai Prakash Agarwal,INC,16205,20049,20.46,2,37,4,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501186,Pankaj Kumar Gupta,AAAP,16293,14076,14.37,3,37,4,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501187,Shahid Ali,BSP,16206,1186,1.21,4,37,4,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501188,None Of The Above,NOTA,16294,416,0.42,5,37,4,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501189,Anil Kumar,RRP,16392,209,0.21,6,37,4,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501190,Mohd. Irfan Javed Qureshi,ESP,16393,145,0.15,7,37,4,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501191,Sharestha Arora,MKDVP,16381,140,0.14,8,37,4,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501192,Virender Pratap Singh,AAPP,16382,130,0.13,9,37,4,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501193,Satdev Jain,PBI,16321,123,0.13,10,37,4,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501194,Sohan Lal Sharma,RaNP,16394,75,0.08,11,37,4,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501195,Vishal Khanna,ssrd,16395,70,0.07,12,37,4,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501196,Pankaj Gupta,IND,16208,65,0.07,13,37,4,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501197,Munna Lal,IND,16208,60,0.06,14,37,4,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501198,Richa Katiyar Kanaujia,RTORP,16385,55,0.06,15,37,4,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501199,Ravindra,KBD,16396,54,0.06,16,37,4,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501200,Kamal Kishor,PPID,16397,48,0.05,17,37,4,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501201,Sameer Mirza,BHAPRAP,16383,45,0.05,18,37,4,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501203,Ravi Kumar,IND,16208,43,0.04,19,37,4,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501202,Dheer Singh,RJBP,16398,43,0.04,19,37,4,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501204,Deepti Chopra,PRISM,16399,36,0.04,21,37,4,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501205,Ashok Kumar,RPI(A),16238,35,0.04,22,37,4,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501206,Jugal Kishor,IND,16208,30,0.03,23,37,4,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501208,Suman Devi,BLokSP,16388,28,0.03,24,37,4,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501207,Saurabh Ranjan,PPOI,16288,28,0.03,24,37,4,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501209,Farha Deeba,IND,16208,27,0.03,26,37,4,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501210,Inder Sen,RHSP,16379,25,0.03,27,37,4,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501211,Hans Raj Hans,BJP,16207,72589,58.91,1,37,5,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501212,Rajesh Lilothia,INC,16205,27459,22.28,2,37,5,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501213,Gugan Singh,AAAP,16293,21187,17.19,3,37,5,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501214,None Of The Above,NOTA,16294,763,0.62,4,37,5,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501215,Charan Singh Babrik,IND,16208,281,0.23,5,37,5,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501216,Ishwar Mansukh Ishu,SatBP,16378,246,0.2,6,37,5,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501217,Naveen,IND,16208,240,0.19,7,37,5,DL,Naveen,IND,,,,,False,37,2019,GE
+1501218,Aditi,IND,16208,131,0.11,8,37,5,DL,Aditi,IND,,,,,False,37,2019,GE
+1501219,Madan Lal Balmiki,RHSP,16379,99,0.08,9,37,5,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501220,Gaurav Bhatia,MKDVP,16381,87,0.07,10,37,5,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501221,Suresh Kumar,SoJP,16380,72,0.06,11,37,5,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501222,Ram Kumar,BPC,16227,67,0.05,12,37,5,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501223,Hans Raj Hans,BJP,16207,103965,65.47,1,37,6,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501224,Gugan Singh,AAAP,16293,30554,19.24,2,37,6,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501225,Rajesh Lilothia,INC,16205,21904,13.79,3,37,6,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501226,None Of The Above,NOTA,16294,1265,0.8,4,37,6,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501227,Charan Singh Babrik,IND,16208,280,0.18,5,37,6,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501228,Ishwar Mansukh Ishu,SatBP,16378,210,0.13,6,37,6,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501229,Naveen,IND,16208,164,0.1,7,37,6,DL,Naveen,IND,,,,,False,37,2019,GE
+1501230,Aditi,IND,16208,142,0.09,8,37,6,DL,Aditi,IND,,,,,False,37,2019,GE
+1501231,Madan Lal Balmiki,RHSP,16379,103,0.06,9,37,6,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501232,Suresh Kumar,SoJP,16380,81,0.05,10,37,6,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501234,Ram Kumar,BPC,16227,66,0.04,11,37,6,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501233,Gaurav Bhatia,MKDVP,16381,66,0.04,11,37,6,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501235,Hans Raj Hans,BJP,16207,104582,57.95,1,37,7,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501236,Gugan Singh,AAAP,16293,42005,23.28,2,37,7,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501237,Rajesh Lilothia,INC,16205,31173,17.27,3,37,7,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501238,None Of The Above,NOTA,16294,1169,0.65,4,37,7,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501239,Charan Singh Babrik,IND,16208,346,0.19,5,37,7,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501240,Ishwar Mansukh Ishu,SatBP,16378,304,0.17,6,37,7,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501241,Naveen,IND,16208,286,0.16,7,37,7,DL,Naveen,IND,,,,,False,37,2019,GE
+1501242,Aditi,IND,16208,192,0.11,8,37,7,DL,Aditi,IND,,,,,False,37,2019,GE
+1501243,Madan Lal Balmiki,RHSP,16379,118,0.07,9,37,7,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501244,Suresh Kumar,SoJP,16380,107,0.06,10,37,7,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501245,Ram Kumar,BPC,16227,102,0.06,11,37,7,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501246,Gaurav Bhatia,MKDVP,16381,81,0.04,12,37,7,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501247,Hans Raj Hans,BJP,16207,93155,60.52,1,37,8,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501248,Gugan Singh,AAAP,16293,34151,22.19,2,37,8,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501249,Rajesh Lilothia,INC,16205,24253,15.76,3,37,8,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501250,None Of The Above,NOTA,16294,983,0.64,4,37,8,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501251,Charan Singh Babrik,IND,16208,352,0.23,5,37,8,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501252,Ishwar Mansukh Ishu,SatBP,16378,278,0.18,6,37,8,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501253,Naveen,IND,16208,197,0.13,7,37,8,DL,Naveen,IND,,,,,False,37,2019,GE
+1501254,Aditi,IND,16208,157,0.1,8,37,8,DL,Aditi,IND,,,,,False,37,2019,GE
+1501255,Gaurav Bhatia,MKDVP,16381,123,0.08,9,37,8,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501256,Madan Lal Balmiki,RHSP,16379,113,0.07,10,37,8,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501257,Ram Kumar,BPC,16227,82,0.05,11,37,8,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501258,Suresh Kumar,SoJP,16380,80,0.05,12,37,8,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501259,Hans Raj Hans,BJP,16207,92938,60.55,1,37,9,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501260,Gugan Singh,AAAP,16293,38190,24.88,2,37,9,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501261,Rajesh Lilothia,INC,16205,19568,12.75,3,37,9,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501262,None Of The Above,NOTA,16294,1011,0.66,4,37,9,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501263,Charan Singh Babrik,IND,16208,472,0.31,5,37,9,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501264,Naveen,IND,16208,353,0.23,6,37,9,DL,Naveen,IND,,,,,False,37,2019,GE
+1501265,Ishwar Mansukh Ishu,SatBP,16378,309,0.2,7,37,9,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501266,Aditi,IND,16208,204,0.13,8,37,9,DL,Aditi,IND,,,,,False,37,2019,GE
+1501267,Madan Lal Balmiki,RHSP,16379,143,0.09,9,37,9,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501268,Suresh Kumar,SoJP,16380,118,0.08,10,37,9,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501269,Gaurav Bhatia,MKDVP,16381,97,0.06,11,37,9,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501270,Ram Kumar,BPC,16227,77,0.05,12,37,9,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501271,Hans Raj Hans,BJP,16207,50295,47.73,1,37,10,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501272,Gugan Singh,AAAP,16293,33890,32.16,2,37,10,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501273,Rajesh Lilothia,INC,16205,19432,18.44,3,37,10,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501274,None Of The Above,NOTA,16294,591,0.56,4,37,10,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501275,Charan Singh Babrik,IND,16208,273,0.26,5,37,10,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501276,Naveen,IND,16208,220,0.21,6,37,10,DL,Naveen,IND,,,,,False,37,2019,GE
+1501277,Ishwar Mansukh Ishu,SatBP,16378,192,0.18,7,37,10,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501278,Aditi,IND,16208,144,0.14,8,37,10,DL,Aditi,IND,,,,,False,37,2019,GE
+1501279,Madan Lal Balmiki,RHSP,16379,133,0.13,9,37,10,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501280,Gaurav Bhatia,MKDVP,16381,75,0.07,10,37,10,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501281,Ram Kumar,BPC,16227,66,0.06,11,37,10,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501282,Suresh Kumar,SoJP,16380,65,0.06,12,37,10,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501283,Hans Raj Hans,BJP,16207,90117,63.81,1,37,11,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501284,Rajesh Lilothia,INC,16205,27315,19.34,2,37,11,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501285,Gugan Singh,AAAP,16293,21502,15.22,3,37,11,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501286,None Of The Above,NOTA,16294,1093,0.77,4,37,11,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501287,Ishwar Mansukh Ishu,SatBP,16378,281,0.2,5,37,11,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501288,Charan Singh Babrik,IND,16208,256,0.18,6,37,11,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501289,Naveen,IND,16208,185,0.13,7,37,11,DL,Naveen,IND,,,,,False,37,2019,GE
+1501290,Aditi,IND,16208,131,0.09,8,37,11,DL,Aditi,IND,,,,,False,37,2019,GE
+1501291,Gaurav Bhatia,MKDVP,16381,110,0.08,9,37,11,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501292,Madan Lal Balmiki,RHSP,16379,96,0.07,10,37,11,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501293,Ram Kumar,BPC,16227,74,0.05,11,37,11,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501294,Suresh Kumar,SoJP,16380,69,0.05,12,37,11,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501295,Hans Raj Hans,BJP,16207,68430,56.64,1,37,12,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501296,Gugan Singh,AAAP,16293,29720,24.6,2,37,12,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501297,Rajesh Lilothia,INC,16205,20738,17.16,3,37,12,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501298,None Of The Above,NOTA,16294,901,0.75,4,37,12,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501299,Charan Singh Babrik,IND,16208,236,0.2,5,37,12,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501300,Naveen,IND,16208,191,0.16,6,37,12,DL,Naveen,IND,,,,,False,37,2019,GE
+1501301,Ishwar Mansukh Ishu,SatBP,16378,157,0.13,7,37,12,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501302,Madan Lal Balmiki,RHSP,16379,115,0.1,8,37,12,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501303,Aditi,IND,16208,107,0.09,9,37,12,DL,Aditi,IND,,,,,False,37,2019,GE
+1501304,Gaurav Bhatia,MKDVP,16381,89,0.07,10,37,12,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501305,Suresh Kumar,SoJP,16380,74,0.06,11,37,12,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501306,Ram Kumar,BPC,16227,61,0.05,12,37,12,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501307,Hans Raj Hans,BJP,16207,78435,68.54,1,37,13,DL,Hans Raj Hans,BJP,,,,,True,37,2019,GE
+1501308,Gugan Singh,AAAP,16293,17092,14.94,2,37,13,DL,Gugan Singh,AAAP,,,,,False,37,2019,GE
+1501309,Rajesh Lilothia,INC,16205,16966,14.83,3,37,13,DL,Rajesh Lilothia,INC,,,,,False,37,2019,GE
+1501310,None Of The Above,NOTA,16294,1458,1.27,4,37,13,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501311,Ishwar Mansukh Ishu,SatBP,16378,128,0.11,5,37,13,DL,Ishwar Mansukh Ishu,SatBP,,,,,False,37,2019,GE
+1501312,Charan Singh Babrik,IND,16208,85,0.07,6,37,13,DL,Charan Singh Babrik,IND,,,,,False,37,2019,GE
+1501313,Aditi,IND,16208,71,0.06,7,37,13,DL,Aditi,IND,,,,,False,37,2019,GE
+1501314,Naveen,IND,16208,66,0.06,8,37,13,DL,Naveen,IND,,,,,False,37,2019,GE
+1501315,Gaurav Bhatia,MKDVP,16381,49,0.04,9,37,13,DL,Gaurav Bhatia,MKDVP,,,,,False,37,2019,GE
+1501316,Suresh Kumar,SoJP,16380,29,0.03,10,37,13,DL,Suresh Kumar,SoJP,,,,,False,37,2019,GE
+1501317,Madan Lal Balmiki,RHSP,16379,26,0.02,11,37,13,DL,Madan Lal Balmiki,RHSP,,,,,False,37,2019,GE
+1501318,Ram Kumar,BPC,16227,26,0.02,11,37,13,DL,Ram Kumar,BPC,,,,,False,37,2019,GE
+1501319,Harsh Vardhan,BJP,16207,72278,64.11,1,37,14,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501320,Jai Prakash Agarwal,INC,16205,19787,17.55,2,37,14,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501321,Pankaj Kumar Gupta,AAAP,16293,17222,15.28,3,37,14,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501322,Shahid Ali,BSP,16206,1285,1.14,4,37,14,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501323,None Of The Above,NOTA,16294,844,0.75,5,37,14,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501324,Anil Kumar,RRP,16392,176,0.16,6,37,14,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501325,Mohd. Irfan Javed Qureshi,ESP,16393,153,0.14,7,37,14,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501326,Satdev Jain,PBI,16321,118,0.1,8,37,14,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501327,Sharestha Arora,MKDVP,16381,111,0.1,9,37,14,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501328,Virender Pratap Singh,AAPP,16382,100,0.09,10,37,14,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501329,Pankaj Gupta,IND,16208,89,0.08,11,37,14,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501330,Sameer Mirza,BHAPRAP,16383,59,0.05,12,37,14,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501331,Richa Katiyar Kanaujia,RTORP,16385,52,0.05,13,37,14,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501332,Vishal Khanna,ssrd,16395,50,0.04,14,37,14,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501333,Sohan Lal Sharma,RaNP,16394,49,0.04,15,37,14,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501334,Farha Deeba,IND,16208,41,0.04,16,37,14,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501335,Ravi Kumar,IND,16208,40,0.04,17,37,14,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501336,Munna Lal,IND,16208,38,0.03,18,37,14,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501337,Ashok Kumar,RPI(A),16238,34,0.03,19,37,14,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501338,Ravindra,KBD,16396,34,0.03,19,37,14,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501339,Dheer Singh,RJBP,16398,33,0.03,21,37,14,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501340,Suman Devi,BLokSP,16388,30,0.03,22,37,14,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501341,Jugal Kishor,IND,16208,26,0.02,23,37,14,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501342,Kamal Kishor,PPID,16397,26,0.02,23,37,14,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501343,Inder Sen,RHSP,16379,23,0.02,25,37,14,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501344,Deepti Chopra,PRISM,16399,21,0.02,26,37,14,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501345,Saurabh Ranjan,PPOI,16288,19,0.02,27,37,14,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501346,Harsh Vardhan,BJP,16207,61409,62.91,1,37,15,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501347,Pankaj Kumar Gupta,AAAP,16293,17288,17.71,2,37,15,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501348,Jai Prakash Agarwal,INC,16205,16699,17.11,3,37,15,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501349,None Of The Above,NOTA,16294,798,0.82,4,37,15,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501350,Shahid Ali,BSP,16206,484,0.5,5,37,15,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501351,Mohd. Irfan Javed Qureshi,ESP,16393,124,0.13,6,37,15,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501352,Anil Kumar,RRP,16392,112,0.11,7,37,15,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501353,Satdev Jain,PBI,16321,87,0.09,8,37,15,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501354,Pankaj Gupta,IND,16208,72,0.07,9,37,15,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501355,Virender Pratap Singh,AAPP,16382,58,0.06,10,37,15,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501356,Sharestha Arora,MKDVP,16381,53,0.05,11,37,15,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501357,Jugal Kishor,IND,16208,41,0.04,12,37,15,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501358,Munna Lal,IND,16208,37,0.04,13,37,15,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501360,Richa Katiyar Kanaujia,RTORP,16385,36,0.04,14,37,15,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501359,Kamal Kishor,PPID,16397,36,0.04,14,37,15,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501361,Sameer Mirza,BHAPRAP,16383,33,0.03,16,37,15,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501362,Sohan Lal Sharma,RaNP,16394,32,0.03,17,37,15,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501363,Vishal Khanna,ssrd,16395,32,0.03,17,37,15,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501364,Inder Sen,RHSP,16379,29,0.03,19,37,15,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501365,Deepti Chopra,PRISM,16399,27,0.03,20,37,15,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501366,Suman Devi,BLokSP,16388,23,0.02,21,37,15,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501368,Dheer Singh,RJBP,16398,22,0.02,22,37,15,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501367,Ashok Kumar,RPI(A),16238,22,0.02,22,37,15,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501369,Ravindra,KBD,16396,17,0.02,24,37,15,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501370,Farha Deeba,IND,16208,16,0.02,25,37,15,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501371,Saurabh Ranjan,PPOI,16288,15,0.02,26,37,15,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501372,Ravi Kumar,IND,16208,14,0.01,27,37,15,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501373,Harsh Vardhan,BJP,16207,62685,58.06,1,37,16,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501374,Jai Prakash Agarwal,INC,16205,23176,21.47,2,37,16,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501375,Pankaj Kumar Gupta,AAAP,16293,19578,18.13,3,37,16,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501376,None Of The Above,NOTA,16294,653,0.6,4,37,16,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501377,Shahid Ali,BSP,16206,599,0.55,5,37,16,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501378,Mohd. Irfan Javed Qureshi,ESP,16393,177,0.16,6,37,16,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501379,Anil Kumar,RRP,16392,149,0.14,7,37,16,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501380,Satdev Jain,PBI,16321,128,0.12,8,37,16,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501381,Pankaj Gupta,IND,16208,104,0.1,9,37,16,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501382,Sharestha Arora,MKDVP,16381,102,0.09,10,37,16,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501383,Virender Pratap Singh,AAPP,16382,65,0.06,11,37,16,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501384,Vishal Khanna,ssrd,16395,59,0.05,12,37,16,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501385,Sohan Lal Sharma,RaNP,16394,56,0.05,13,37,16,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501386,Sameer Mirza,BHAPRAP,16383,50,0.05,14,37,16,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501387,Munna Lal,IND,16208,49,0.05,15,37,16,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501388,Richa Katiyar Kanaujia,RTORP,16385,44,0.04,16,37,16,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501389,Kamal Kishor,PPID,16397,39,0.04,17,37,16,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501390,Ravi Kumar,IND,16208,33,0.03,18,37,16,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501391,Ravindra,KBD,16396,31,0.03,19,37,16,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501392,Ashok Kumar,RPI(A),16238,28,0.03,20,37,16,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501393,Deepti Chopra,PRISM,16399,27,0.03,21,37,16,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501395,Saurabh Ranjan,PPOI,16288,24,0.02,22,37,16,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501394,Farha Deeba,IND,16208,24,0.02,22,37,16,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501396,Suman Devi,BLokSP,16388,23,0.02,24,37,16,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501397,Dheer Singh,RJBP,16398,22,0.02,25,37,16,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501398,Inder Sen,RHSP,16379,19,0.02,26,37,16,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501399,Jugal Kishor,IND,16208,17,0.02,27,37,16,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501400,Harsh Vardhan,BJP,16207,59782,57.75,1,37,17,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501401,Jai Prakash Agarwal,INC,16205,21720,20.98,2,37,17,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501402,Pankaj Kumar Gupta,AAAP,16293,18033,17.42,3,37,17,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501403,Shahid Ali,BSP,16206,2066,2.0,4,37,17,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501404,None Of The Above,NOTA,16294,595,0.57,5,37,17,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501405,Mohd. Irfan Javed Qureshi,ESP,16393,185,0.18,6,37,17,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501406,Anil Kumar,RRP,16392,173,0.17,7,37,17,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501407,Sharestha Arora,MKDVP,16381,121,0.12,8,37,17,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501408,Satdev Jain,PBI,16321,105,0.1,9,37,17,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501409,Virender Pratap Singh,AAPP,16382,76,0.07,10,37,17,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501410,Pankaj Gupta,IND,16208,70,0.07,11,37,17,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501411,Richa Katiyar Kanaujia,RTORP,16385,64,0.06,12,37,17,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501412,Vishal Khanna,ssrd,16395,61,0.06,13,37,17,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501413,Ravindra,KBD,16396,59,0.06,14,37,17,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501414,Sohan Lal Sharma,RaNP,16394,52,0.05,15,37,17,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501415,Munna Lal,IND,16208,50,0.05,16,37,17,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501416,Kamal Kishor,PPID,16397,48,0.05,17,37,17,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501417,Sameer Mirza,BHAPRAP,16383,44,0.04,18,37,17,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501418,Ravi Kumar,IND,16208,35,0.03,19,37,17,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501419,Ashok Kumar,RPI(A),16238,30,0.03,20,37,17,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501420,Deepti Chopra,PRISM,16399,29,0.03,21,37,17,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501421,Farha Deeba,IND,16208,26,0.03,22,37,17,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501423,Suman Devi,BLokSP,16388,23,0.02,23,37,17,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501422,Dheer Singh,RJBP,16398,23,0.02,23,37,17,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501424,Jugal Kishor,IND,16208,21,0.02,25,37,17,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501425,Saurabh Ranjan,PPOI,16288,16,0.02,26,37,17,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501426,Inder Sen,RHSP,16379,13,0.01,27,37,17,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501427,Harsh Vardhan,BJP,16207,57666,59.72,1,37,18,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501428,Jai Prakash Agarwal,INC,16205,19928,20.64,2,37,18,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501429,Pankaj Kumar Gupta,AAAP,16293,15889,16.46,3,37,18,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501430,Shahid Ali,BSP,16206,971,1.01,4,37,18,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501431,None Of The Above,NOTA,16294,683,0.71,5,37,18,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501432,Mohd. Irfan Javed Qureshi,ESP,16393,169,0.18,6,37,18,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501433,Anil Kumar,RRP,16392,142,0.15,7,37,18,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501434,Virender Pratap Singh,AAPP,16382,132,0.14,8,37,18,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501435,Sharestha Arora,MKDVP,16381,126,0.13,9,37,18,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501436,Satdev Jain,PBI,16321,112,0.12,10,37,18,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501437,Pankaj Gupta,IND,16208,93,0.1,11,37,18,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501438,Vishal Khanna,ssrd,16395,77,0.08,12,37,18,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501439,Sohan Lal Sharma,RaNP,16394,72,0.07,13,37,18,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501440,Richa Katiyar Kanaujia,RTORP,16385,59,0.06,14,37,18,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501441,Munna Lal,IND,16208,58,0.06,15,37,18,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501442,Sameer Mirza,BHAPRAP,16383,52,0.05,16,37,18,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501443,Ravindra,KBD,16396,45,0.05,17,37,18,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501444,Ashok Kumar,RPI(A),16238,35,0.04,18,37,18,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501445,Dheer Singh,RJBP,16398,32,0.03,19,37,18,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501446,Kamal Kishor,PPID,16397,32,0.03,19,37,18,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501448,Ravi Kumar,IND,16208,30,0.03,21,37,18,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501447,Inder Sen,RHSP,16379,30,0.03,21,37,18,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501449,Farha Deeba,IND,16208,27,0.03,23,37,18,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501451,Saurabh Ranjan,PPOI,16288,27,0.03,23,37,18,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501450,Jugal Kishor,IND,16208,27,0.03,23,37,18,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501452,Deepti Chopra,PRISM,16399,25,0.03,26,37,18,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501453,Suman Devi,BLokSP,16388,20,0.02,27,37,18,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501454,Harsh Vardhan,BJP,16207,60691,52.08,1,37,19,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501455,Jai Prakash Agarwal,INC,16205,34185,29.34,2,37,19,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501456,Pankaj Kumar Gupta,AAAP,16293,18116,15.55,3,37,19,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501457,Shahid Ali,BSP,16206,1640,1.41,4,37,19,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501458,None Of The Above,NOTA,16294,495,0.42,5,37,19,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501459,Anil Kumar,RRP,16392,200,0.17,6,37,19,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501460,Satdev Jain,PBI,16321,144,0.12,7,37,19,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501461,Mohd. Irfan Javed Qureshi,ESP,16393,138,0.12,8,37,19,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501462,Sharestha Arora,MKDVP,16381,133,0.11,9,37,19,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501463,Pankaj Gupta,IND,16208,70,0.06,10,37,19,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501464,Ravindra,KBD,16396,66,0.06,11,37,19,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501465,Richa Katiyar Kanaujia,RTORP,16385,62,0.05,12,37,19,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501466,Virender Pratap Singh,AAPP,16382,55,0.05,13,37,19,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501467,Sohan Lal Sharma,RaNP,16394,53,0.05,14,37,19,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501468,Vishal Khanna,ssrd,16395,51,0.04,15,37,19,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501469,Sameer Mirza,BHAPRAP,16383,50,0.04,16,37,19,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501470,Saurabh Ranjan,PPOI,16288,44,0.04,17,37,19,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501471,Munna Lal,IND,16208,43,0.04,18,37,19,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501472,Kamal Kishor,PPID,16397,39,0.03,19,37,19,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501473,Ashok Kumar,RPI(A),16238,37,0.03,20,37,19,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501475,Suman Devi,BLokSP,16388,36,0.03,21,37,19,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501474,Jugal Kishor,IND,16208,36,0.03,21,37,19,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501476,Inder Sen,RHSP,16379,34,0.03,23,37,19,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501477,Ravi Kumar,IND,16208,31,0.03,24,37,19,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501478,Dheer Singh,RJBP,16398,29,0.02,25,37,19,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501479,Farha Deeba,IND,16208,28,0.02,26,37,19,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501480,Deepti Chopra,PRISM,16399,25,0.02,27,37,19,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501481,Jai Prakash Agarwal,INC,16205,33440,46.04,1,37,20,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501482,Harsh Vardhan,BJP,16207,28754,39.58,2,37,20,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501483,Pankaj Kumar Gupta,AAAP,16293,9152,12.6,3,37,20,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501484,None Of The Above,NOTA,16294,260,0.36,4,37,20,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501485,Shahid Ali,BSP,16206,185,0.25,5,37,20,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501486,Sharestha Arora,MKDVP,16381,126,0.17,6,37,20,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501487,Satdev Jain,PBI,16321,121,0.17,7,37,20,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501488,Anil Kumar,RRP,16392,96,0.13,8,37,20,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501489,Mohd. Irfan Javed Qureshi,ESP,16393,51,0.07,9,37,20,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501490,Virender Pratap Singh,AAPP,16382,51,0.07,9,37,20,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501491,Pankaj Gupta,IND,16208,46,0.06,11,37,20,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501492,Richa Katiyar Kanaujia,RTORP,16385,42,0.06,12,37,20,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501493,Sohan Lal Sharma,RaNP,16394,36,0.05,13,37,20,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501494,Sameer Mirza,BHAPRAP,16383,31,0.04,14,37,20,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501495,Vishal Khanna,ssrd,16395,28,0.04,15,37,20,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501496,Jugal Kishor,IND,16208,26,0.04,16,37,20,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501497,Ravindra,KBD,16396,23,0.03,17,37,20,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501498,Munna Lal,IND,16208,22,0.03,18,37,20,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501499,Kamal Kishor,PPID,16397,20,0.03,19,37,20,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501501,Suman Devi,BLokSP,16388,20,0.03,19,37,20,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501500,Ravi Kumar,IND,16208,20,0.03,19,37,20,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501502,Ashok Kumar,RPI(A),16238,18,0.02,22,37,20,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501503,Dheer Singh,RJBP,16398,18,0.02,22,37,20,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501504,Deepti Chopra,PRISM,16399,15,0.02,24,37,20,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501505,Saurabh Ranjan,PPOI,16288,14,0.02,25,37,20,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501506,Farha Deeba,IND,16208,13,0.02,26,37,20,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501507,Inder Sen,RHSP,16379,12,0.02,27,37,20,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501508,Jai Prakash Agarwal,INC,16205,52669,65.17,1,37,21,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501509,Harsh Vardhan,BJP,16207,20224,25.03,2,37,21,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501510,Pankaj Kumar Gupta,AAAP,16293,6787,8.4,3,37,21,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501511,Shahid Ali,BSP,16206,266,0.33,4,37,21,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501512,None Of The Above,NOTA,16294,191,0.24,5,37,21,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501513,Satdev Jain,PBI,16321,123,0.15,6,37,21,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501514,Sharestha Arora,MKDVP,16381,105,0.13,7,37,21,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501515,Mohd. Irfan Javed Qureshi,ESP,16393,49,0.06,8,37,21,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501516,Anil Kumar,RRP,16392,45,0.06,9,37,21,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501517,Virender Pratap Singh,AAPP,16382,35,0.04,10,37,21,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501518,Sameer Mirza,BHAPRAP,16383,33,0.04,11,37,21,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501519,Ravi Kumar,IND,16208,27,0.03,12,37,21,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501521,Saurabh Ranjan,PPOI,16288,26,0.03,13,37,21,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501520,Pankaj Gupta,IND,16208,26,0.03,13,37,21,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501522,Vishal Khanna,ssrd,16395,22,0.03,15,37,21,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501523,Kamal Kishor,PPID,16397,21,0.03,16,37,21,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501524,Jugal Kishor,IND,16208,20,0.02,17,37,21,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501525,Munna Lal,IND,16208,19,0.02,18,37,21,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501526,Farha Deeba,IND,16208,17,0.02,19,37,21,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501527,Ravindra,KBD,16396,16,0.02,20,37,21,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501529,Richa Katiyar Kanaujia,RTORP,16385,15,0.02,21,37,21,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501528,Inder Sen,RHSP,16379,15,0.02,21,37,21,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501530,Sohan Lal Sharma,RaNP,16394,15,0.02,21,37,21,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501531,Suman Devi,BLokSP,16388,14,0.02,24,37,21,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501532,Dheer Singh,RJBP,16398,13,0.02,25,37,21,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501533,Deepti Chopra,PRISM,16399,12,0.01,26,37,21,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501534,Ashok Kumar,RPI(A),16238,9,0.01,27,37,21,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501535,Jai Prakash Agarwal,INC,16205,49036,52.97,1,37,22,DL,Jai Prakash Agarwal,INC,,,,,False,37,2019,GE
+1501536,Harsh Vardhan,BJP,16207,33723,36.43,2,37,22,DL,Harsh Vardhan,BJP,,,,,True,37,2019,GE
+1501537,Pankaj Kumar Gupta,AAAP,16293,8306,8.97,3,37,22,DL,Pankaj Kumar Gupta,AAAP,,,,,False,37,2019,GE
+1501538,Shahid Ali,BSP,16206,331,0.36,4,37,22,DL,Shahid Ali,BSP,,,,,False,37,2019,GE
+1501539,None Of The Above,NOTA,16294,189,0.2,5,37,22,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501540,Satdev Jain,PBI,16321,154,0.17,6,37,22,DL,Satdev Jain,PBI,,,,,False,37,2019,GE
+1501541,Anil Kumar,RRP,16392,134,0.14,7,37,22,DL,Anil Kumar,RRP,,,,,False,37,2019,GE
+1501542,Sharestha Arora,MKDVP,16381,126,0.14,8,37,22,DL,Sharestha Arora,MKDVP,,,,,False,37,2019,GE
+1501543,Mohd. Irfan Javed Qureshi,ESP,16393,79,0.09,9,37,22,DL,Mohd. Irfan Javed Qureshi,ESP,,,,,False,37,2019,GE
+1501544,Sohan Lal Sharma,RaNP,16394,61,0.07,10,37,22,DL,Sohan Lal Sharma,RaNP,,,,,False,37,2019,GE
+1501545,Richa Katiyar Kanaujia,RTORP,16385,45,0.05,11,37,22,DL,Richa Katiyar Kanaujia,RTORP,,,,,False,37,2019,GE
+1501546,Virender Pratap Singh,AAPP,16382,39,0.04,12,37,22,DL,Virender Pratap Singh,AAPP,,,,,False,37,2019,GE
+1501547,Pankaj Gupta,IND,16208,35,0.04,13,37,22,DL,Pankaj Gupta,IND,,,,,False,37,2019,GE
+1501548,Vishal Khanna,ssrd,16395,35,0.04,13,37,22,DL,Vishal Khanna,ssrd,,,,,False,37,2019,GE
+1501549,Saurabh Ranjan,PPOI,16288,30,0.03,15,37,22,DL,Saurabh Ranjan,PPOI,,,,,False,37,2019,GE
+1501551,Sameer Mirza,BHAPRAP,16383,26,0.03,16,37,22,DL,Sameer Mirza,BHAPRAP,,,,,False,37,2019,GE
+1501550,Ravi Kumar,IND,16208,26,0.03,16,37,22,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1501552,Ashok Kumar,RPI(A),16238,25,0.03,18,37,22,DL,Ashok Kumar,RPI(A),,,,,False,37,2019,GE
+1501553,Jugal Kishor,IND,16208,24,0.03,19,37,22,DL,Jugal Kishor,IND,,,,,False,37,2019,GE
+1501554,Ravindra,KBD,16396,24,0.03,19,37,22,DL,Ravindra,KBD,,,,,False,37,2019,GE
+1501556,Kamal Kishor,PPID,16397,22,0.02,21,37,22,DL,Kamal Kishor,PPID,,,,,False,37,2019,GE
+1501555,Farha Deeba,IND,16208,22,0.02,21,37,22,DL,Farha Deeba,IND,,,,,False,37,2019,GE
+1501557,Suman Devi,BLokSP,16388,19,0.02,23,37,22,DL,Suman Devi,BLokSP,,,,,False,37,2019,GE
+1501558,Munna Lal,IND,16208,17,0.02,24,37,22,DL,Munna Lal,IND,,,,,False,37,2019,GE
+1501560,Inder Sen,RHSP,16379,16,0.02,25,37,22,DL,Inder Sen,RHSP,,,,,False,37,2019,GE
+1501559,Deepti Chopra,PRISM,16399,16,0.02,25,37,22,DL,Deepti Chopra,PRISM,,,,,False,37,2019,GE
+1501561,Dheer Singh,RJBP,16398,14,0.02,27,37,22,DL,Dheer Singh,RJBP,,,,,False,37,2019,GE
+1501562,Meenakashi Lekhi,BJP,16207,52933,50.66,1,37,23,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1501563,Ajay Makan,INC,16205,27262,26.09,2,37,23,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1501564,Brijesh Goyal,AAAP,16293,22276,21.32,3,37,23,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1501565,None Of The Above,NOTA,16294,567,0.54,4,37,23,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501566,Sunil,AAPP,16382,160,0.15,5,37,23,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1501567,Sunil Kumar,PPID,16397,146,0.14,6,37,23,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1501568,Upendra,AnAP,16400,142,0.14,7,37,23,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1501569,Swadesh Kumar Ohri,ATBP,16316,102,0.1,8,37,23,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1501570,K Sreekrishna,JKNPP,16236,101,0.1,9,37,23,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1501571,Ajay Kumar Lal,IND,16208,81,0.08,10,37,23,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1501572,Suresh Kumar,IND,16208,76,0.07,11,37,23,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1501573,Harkrishan Das Nijhawan,IND,16208,75,0.07,12,37,23,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1501574,Virendra Singh Bharat,RRP,16392,68,0.07,13,37,23,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1501575,Ravinder Paul Sehgal,PPOI,16288,57,0.05,14,37,23,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1501576,Jitendra Raut,ABMP,16401,56,0.05,15,37,23,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1501577,Naveen Kumar,RHSP,16379,40,0.04,16,37,23,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1501578,Dilip Singh Kothari,IND,16208,38,0.04,17,37,23,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1501580,Rajesh Satiya,ssrd,16395,37,0.04,18,37,23,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1501579,Lal Ji,ARK,16402,37,0.04,18,37,23,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1501581,Umesh Chandra Gaur,RPI(A),16238,37,0.04,18,37,23,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1501582,Sree Nivasan Ramamoorthy,IND,16208,36,0.03,21,37,23,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1501583,Aashish S Saxena,IND,16208,30,0.03,22,37,23,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1501584,Nilanjan Banerjee,BLokSP,16388,27,0.03,23,37,23,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1501585,Ramesh,IND,16208,27,0.03,23,37,23,DL,Ramesh,IND,,,,,False,37,2019,GE
+1501586,Raj Karan,CoAP,16403,25,0.02,25,37,23,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1501587,Priyanka,IND,16208,18,0.02,26,37,23,DL,Priyanka,IND,,,,,False,37,2019,GE
+1501588,Raj Shekhar Gunti,PRISM,16399,14,0.01,27,37,23,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1501589,Kripashankar C Pandey,IND,16208,13,0.01,28,37,23,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1501590,Meenakashi Lekhi,BJP,16207,61279,54.2,1,37,24,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1501591,Ajay Makan,INC,16205,27824,24.61,2,37,24,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1501592,Brijesh Goyal,AAAP,16293,21353,18.89,3,37,24,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1501593,None Of The Above,NOTA,16294,631,0.56,4,37,24,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501594,Sunil Kumar,PPID,16397,219,0.19,5,37,24,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1501595,Suresh Kumar,IND,16208,190,0.17,6,37,24,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1501596,Upendra,AnAP,16400,186,0.16,7,37,24,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1501597,Sunil,AAPP,16382,169,0.15,8,37,24,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1501598,K Sreekrishna,JKNPP,16236,142,0.13,9,37,24,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1501599,Swadesh Kumar Ohri,ATBP,16316,123,0.11,10,37,24,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1501600,Harkrishan Das Nijhawan,IND,16208,122,0.11,11,37,24,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1501601,Ajay Kumar Lal,IND,16208,81,0.07,12,37,24,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1501602,Jitendra Raut,ABMP,16401,79,0.07,13,37,24,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1501603,Naveen Kumar,RHSP,16379,78,0.07,14,37,24,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1501604,Virendra Singh Bharat,RRP,16392,73,0.06,15,37,24,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1501605,Rajesh Satiya,ssrd,16395,56,0.05,16,37,24,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1501606,Ravinder Paul Sehgal,PPOI,16288,52,0.05,17,37,24,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1501607,Lal Ji,ARK,16402,48,0.04,18,37,24,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1501609,Umesh Chandra Gaur,RPI(A),16238,43,0.04,19,37,24,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1501608,Raj Karan,CoAP,16403,43,0.04,19,37,24,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1501610,Priyanka,IND,16208,40,0.04,21,37,24,DL,Priyanka,IND,,,,,False,37,2019,GE
+1501611,Sree Nivasan Ramamoorthy,IND,16208,39,0.03,22,37,24,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1501612,Dilip Singh Kothari,IND,16208,38,0.03,23,37,24,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1501613,Kripashankar C Pandey,IND,16208,35,0.03,24,37,24,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1501614,Aashish S Saxena,IND,16208,33,0.03,25,37,24,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1501615,Ramesh,IND,16208,32,0.03,26,37,24,DL,Ramesh,IND,,,,,False,37,2019,GE
+1501616,Nilanjan Banerjee,BLokSP,16388,28,0.02,27,37,24,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1501617,Raj Shekhar Gunti,PRISM,16399,27,0.02,28,37,24,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1501618,Meenakashi Lekhi,BJP,16207,59952,56.55,1,37,25,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1501619,Ajay Makan,INC,16205,25737,24.28,2,37,25,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1501620,Brijesh Goyal,AAAP,16293,18065,17.04,3,37,25,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1501621,None Of The Above,NOTA,16294,766,0.72,4,37,25,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501622,Upendra,AnAP,16400,157,0.15,5,37,25,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1501623,K Sreekrishna,JKNPP,16236,154,0.15,6,37,25,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1501624,Sunil Kumar,PPID,16397,150,0.14,7,37,25,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1501625,Sunil,AAPP,16382,139,0.13,8,37,25,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1501626,Virendra Singh Bharat,RRP,16392,94,0.09,9,37,25,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1501627,Ajay Kumar Lal,IND,16208,74,0.07,10,37,25,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1501628,Swadesh Kumar Ohri,ATBP,16316,71,0.07,11,37,25,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1501629,Harkrishan Das Nijhawan,IND,16208,68,0.06,12,37,25,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1501630,Suresh Kumar,IND,16208,66,0.06,13,37,25,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1501631,Lal Ji,ARK,16402,54,0.05,14,37,25,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1501632,Jitendra Raut,ABMP,16401,50,0.05,15,37,25,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1501634,Ravinder Paul Sehgal,PPOI,16288,48,0.05,16,37,25,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1501633,Rajesh Satiya,ssrd,16395,48,0.05,16,37,25,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1501636,Umesh Chandra Gaur,RPI(A),16238,40,0.04,18,37,25,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1501635,Ramesh,IND,16208,40,0.04,18,37,25,DL,Ramesh,IND,,,,,False,37,2019,GE
+1501638,Sree Nivasan Ramamoorthy,IND,16208,34,0.03,20,37,25,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1501637,Dilip Singh Kothari,IND,16208,34,0.03,20,37,25,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1501639,Priyanka,IND,16208,31,0.03,22,37,25,DL,Priyanka,IND,,,,,False,37,2019,GE
+1501640,Kripashankar C Pandey,IND,16208,28,0.03,23,37,25,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1501641,Nilanjan Banerjee,BLokSP,16388,26,0.02,24,37,25,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1501643,Raj Shekhar Gunti,PRISM,16399,26,0.02,24,37,25,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1501642,Raj Karan,CoAP,16403,26,0.02,24,37,25,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1501644,Naveen Kumar,RHSP,16379,20,0.02,27,37,25,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1501645,Aashish S Saxena,IND,16208,18,0.02,28,37,25,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1501646,Parvesh Sahib Singh Verma,BJP,16207,62173,56.77,1,37,26,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501647,Mahabal Mishra,INC,16205,24122,22.03,2,37,26,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501648,Balbir Singh Jakhar,AAAP,16293,20617,18.83,3,37,26,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501649,Sita Saran Sen,BSP,16206,783,0.71,4,37,26,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501650,None Of The Above,NOTA,16294,679,0.62,5,37,26,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501651,Iqbal Singh (Sonu),IND,16208,269,0.25,6,37,26,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501652,Navin Chandra Das,IND,16208,112,0.1,7,37,26,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501653,Pravesh Sharma,IND,16208,104,0.09,8,37,26,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501654,Poonam Ujjainwal,PPID,16397,91,0.08,9,37,26,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501655,Balbir Singh,IND,16208,81,0.07,10,37,26,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501656,M. Mishra,IND,16208,54,0.05,11,37,26,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501657,Vikash Kumar Mohal,AAPP,16382,53,0.05,12,37,26,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501658,Harsh Vardhan Shukla,IND,16208,46,0.04,13,37,26,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501659,Shashi Jeet,NYP,16323,41,0.04,14,37,26,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501660,Shish Pal Singh,PRISM,16399,39,0.04,15,37,26,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501661,Kulwinder Singh Mehta,PPOI,16288,38,0.03,16,37,26,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501662,Baidyanath Sah,PBI,16321,33,0.03,17,37,26,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501663,Manmohan Singh,RaNP,16394,32,0.03,18,37,26,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501664,Rajiv Kumar,IND,16208,32,0.03,18,37,26,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501665,Probir Dutta,SatBP,16378,30,0.03,20,37,26,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501666,Dharambir Singh,RJSPS,16404,27,0.02,21,37,26,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501667,Daya Nand Vats,RPI(A),16238,22,0.02,22,37,26,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501668,Ramesh Chand Verma,IND,16208,21,0.02,23,37,26,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501669,Janak Raj Rana,ARK,16402,19,0.02,24,37,26,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501670,Parvesh Sahib Singh Verma,BJP,16207,56263,52.74,1,37,27,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501671,Mahabal Mishra,INC,16205,24618,23.08,2,37,27,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501672,Balbir Singh Jakhar,AAAP,16293,23295,21.84,3,37,27,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501673,None Of The Above,NOTA,16294,785,0.74,4,37,27,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501674,Sita Saran Sen,BSP,16206,542,0.51,5,37,27,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501675,Poonam Ujjainwal,PPID,16397,251,0.24,6,37,27,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501676,Iqbal Singh (Sonu),IND,16208,190,0.18,7,37,27,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501677,Navin Chandra Das,IND,16208,113,0.11,8,37,27,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501678,Pravesh Sharma,IND,16208,95,0.09,9,37,27,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501679,Balbir Singh,IND,16208,67,0.06,10,37,27,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501680,Vikash Kumar Mohal,AAPP,16382,56,0.05,11,37,27,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501681,M. Mishra,IND,16208,49,0.05,12,37,27,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501682,Dharambir Singh,RJSPS,16404,45,0.04,13,37,27,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501683,Kulwinder Singh Mehta,PPOI,16288,44,0.04,14,37,27,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501684,Baidyanath Sah,PBI,16321,42,0.04,15,37,27,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501685,Shashi Jeet,NYP,16323,40,0.04,16,37,27,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501686,Manmohan Singh,RaNP,16394,32,0.03,17,37,27,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501687,Harsh Vardhan Shukla,IND,16208,31,0.03,18,37,27,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501688,Shish Pal Singh,PRISM,16399,25,0.02,19,37,27,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501689,Daya Nand Vats,RPI(A),16238,24,0.02,20,37,27,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501690,Probir Dutta,SatBP,16378,22,0.02,21,37,27,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501691,Janak Raj Rana,ARK,16402,20,0.02,22,37,27,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501692,Rajiv Kumar,IND,16208,20,0.02,22,37,27,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501693,Ramesh Chand Verma,IND,16208,14,0.01,24,37,27,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501694,Parvesh Sahib Singh Verma,BJP,16207,59396,56.34,1,37,28,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501695,Mahabal Mishra,INC,16205,24955,23.67,2,37,28,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501696,Balbir Singh Jakhar,AAAP,16293,18469,17.52,3,37,28,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501697,Sita Saran Sen,BSP,16206,842,0.8,4,37,28,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501698,None Of The Above,NOTA,16294,838,0.79,5,37,28,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501699,Iqbal Singh (Sonu),IND,16208,136,0.13,6,37,28,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501700,Pravesh Sharma,IND,16208,130,0.12,7,37,28,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501701,Navin Chandra Das,IND,16208,116,0.11,8,37,28,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501702,Balbir Singh,IND,16208,76,0.07,9,37,28,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501704,Vikash Kumar Mohal,AAPP,16382,56,0.05,10,37,28,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501703,M. Mishra,IND,16208,56,0.05,10,37,28,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501705,Kulwinder Singh Mehta,PPOI,16288,49,0.05,12,37,28,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501706,Poonam Ujjainwal,PPID,16397,42,0.04,13,37,28,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501707,Shashi Jeet,NYP,16323,35,0.03,14,37,28,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501708,Manmohan Singh,RaNP,16394,29,0.03,15,37,28,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501709,Harsh Vardhan Shukla,IND,16208,27,0.03,16,37,28,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501710,Shish Pal Singh,PRISM,16399,26,0.02,17,37,28,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501711,Daya Nand Vats,RPI(A),16238,23,0.02,18,37,28,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501712,Janak Raj Rana,ARK,16402,21,0.02,19,37,28,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501714,Rajiv Kumar,IND,16208,20,0.02,20,37,28,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501713,Probir Dutta,SatBP,16378,20,0.02,20,37,28,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501715,Baidyanath Sah,PBI,16321,18,0.02,22,37,28,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501716,Dharambir Singh,RJSPS,16404,18,0.02,22,37,28,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501717,Ramesh Chand Verma,IND,16208,18,0.02,22,37,28,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501718,Parvesh Sahib Singh Verma,BJP,16207,50375,52.47,1,37,29,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501719,Balbir Singh Jakhar,AAAP,16293,25499,26.56,2,37,29,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501720,Mahabal Mishra,INC,16205,18314,19.07,3,37,29,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501721,None Of The Above,NOTA,16294,639,0.67,4,37,29,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501722,Sita Saran Sen,BSP,16206,301,0.31,5,37,29,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501723,Iqbal Singh (Sonu),IND,16208,178,0.19,6,37,29,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501724,Pravesh Sharma,IND,16208,97,0.1,7,37,29,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501725,Navin Chandra Das,IND,16208,86,0.09,8,37,29,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501726,Balbir Singh,IND,16208,62,0.06,9,37,29,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501727,Vikash Kumar Mohal,AAPP,16382,57,0.06,10,37,29,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501728,M. Mishra,IND,16208,51,0.05,11,37,29,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501729,Poonam Ujjainwal,PPID,16397,46,0.05,12,37,29,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501730,Harsh Vardhan Shukla,IND,16208,41,0.04,13,37,29,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501731,Kulwinder Singh Mehta,PPOI,16288,39,0.04,14,37,29,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501733,Shish Pal Singh,PRISM,16399,28,0.03,15,37,29,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501732,Baidyanath Sah,PBI,16321,28,0.03,15,37,29,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501735,Shashi Jeet,NYP,16323,27,0.03,17,37,29,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501734,Manmohan Singh,RaNP,16394,27,0.03,17,37,29,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501736,Dharambir Singh,RJSPS,16404,25,0.03,19,37,29,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501737,Janak Raj Rana,ARK,16402,24,0.02,20,37,29,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501738,Daya Nand Vats,RPI(A),16238,21,0.02,21,37,29,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501739,Ramesh Chand Verma,IND,16208,19,0.02,22,37,29,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501740,Rajiv Kumar,IND,16208,18,0.02,23,37,29,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501741,Probir Dutta,SatBP,16378,9,0.01,24,37,29,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501742,Parvesh Sahib Singh Verma,BJP,16207,71225,59.22,1,37,30,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501743,Mahabal Mishra,INC,16205,24509,20.38,2,37,30,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501744,Balbir Singh Jakhar,AAAP,16293,21781,18.11,3,37,30,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501745,None Of The Above,NOTA,16294,846,0.7,4,37,30,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501746,Sita Saran Sen,BSP,16206,736,0.61,5,37,30,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501747,Iqbal Singh (Sonu),IND,16208,165,0.14,6,37,30,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501748,Navin Chandra Das,IND,16208,140,0.12,7,37,30,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501749,Pravesh Sharma,IND,16208,123,0.1,8,37,30,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501750,Balbir Singh,IND,16208,91,0.08,9,37,30,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501751,Vikash Kumar Mohal,AAPP,16382,81,0.07,10,37,30,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501752,M. Mishra,IND,16208,69,0.06,11,37,30,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501753,Shashi Jeet,NYP,16323,57,0.05,12,37,30,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501754,Dharambir Singh,RJSPS,16404,53,0.04,13,37,30,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501755,Harsh Vardhan Shukla,IND,16208,51,0.04,14,37,30,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501756,Kulwinder Singh Mehta,PPOI,16288,51,0.04,14,37,30,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501757,Rajiv Kumar,IND,16208,44,0.04,16,37,30,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501758,Poonam Ujjainwal,PPID,16397,40,0.03,17,37,30,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501759,Shish Pal Singh,PRISM,16399,39,0.03,18,37,30,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501760,Manmohan Singh,RaNP,16394,33,0.03,19,37,30,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501761,Daya Nand Vats,RPI(A),16238,31,0.03,20,37,30,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501762,Baidyanath Sah,PBI,16321,29,0.02,21,37,30,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501763,Janak Raj Rana,ARK,16402,25,0.02,22,37,30,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501764,Ramesh Chand Verma,IND,16208,24,0.02,23,37,30,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501765,Probir Dutta,SatBP,16378,20,0.02,24,37,30,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501766,Parvesh Sahib Singh Verma,BJP,16207,127966,59.88,1,37,31,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501767,Mahabal Mishra,INC,16205,44801,20.97,2,37,31,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501768,Balbir Singh Jakhar,AAAP,16293,34344,16.07,3,37,31,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501769,Sita Saran Sen,BSP,16206,2808,1.31,4,37,31,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501770,None Of The Above,NOTA,16294,1050,0.49,5,37,31,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501771,Iqbal Singh (Sonu),IND,16208,360,0.17,6,37,31,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501772,Navin Chandra Das,IND,16208,310,0.15,7,37,31,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501773,Pravesh Sharma,IND,16208,298,0.14,8,37,31,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501774,Vikash Kumar Mohal,AAPP,16382,187,0.09,9,37,31,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501775,Balbir Singh,IND,16208,179,0.08,10,37,31,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501776,Shashi Jeet,NYP,16323,174,0.08,11,37,31,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501777,Poonam Ujjainwal,PPID,16397,134,0.06,12,37,31,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501778,Baidyanath Sah,PBI,16321,114,0.05,13,37,31,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501779,Shish Pal Singh,PRISM,16399,111,0.05,14,37,31,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501780,Harsh Vardhan Shukla,IND,16208,110,0.05,15,37,31,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501781,M. Mishra,IND,16208,110,0.05,15,37,31,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501782,Dharambir Singh,RJSPS,16404,103,0.05,17,37,31,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501783,Kulwinder Singh Mehta,PPOI,16288,93,0.04,18,37,31,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501784,Daya Nand Vats,RPI(A),16238,87,0.04,19,37,31,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501785,Manmohan Singh,RaNP,16394,84,0.04,20,37,31,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501786,Janak Raj Rana,ARK,16402,80,0.04,21,37,31,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501787,Rajiv Kumar,IND,16208,66,0.03,22,37,31,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501788,Probir Dutta,SatBP,16378,61,0.03,23,37,31,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501789,Ramesh Chand Verma,IND,16208,58,0.03,24,37,31,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501790,Parvesh Sahib Singh Verma,BJP,16207,110705,65.4,1,37,32,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501791,Mahabal Mishra,INC,16205,28599,16.9,2,37,32,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501792,Balbir Singh Jakhar,AAAP,16293,25533,15.08,3,37,32,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501793,Sita Saran Sen,BSP,16206,1711,1.01,4,37,32,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501794,None Of The Above,NOTA,16294,976,0.58,5,37,32,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501795,Iqbal Singh (Sonu),IND,16208,250,0.15,6,37,32,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501796,Navin Chandra Das,IND,16208,236,0.14,7,37,32,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501797,Pravesh Sharma,IND,16208,220,0.13,8,37,32,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501798,Balbir Singh,IND,16208,114,0.07,9,37,32,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501799,Vikash Kumar Mohal,AAPP,16382,98,0.06,10,37,32,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501800,Poonam Ujjainwal,PPID,16397,80,0.05,11,37,32,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501801,Shashi Jeet,NYP,16323,79,0.05,12,37,32,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501802,Harsh Vardhan Shukla,IND,16208,76,0.04,13,37,32,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501803,Shish Pal Singh,PRISM,16399,73,0.04,14,37,32,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501804,M. Mishra,IND,16208,69,0.04,15,37,32,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501805,Manmohan Singh,RaNP,16394,66,0.04,16,37,32,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501806,Dharambir Singh,RJSPS,16404,58,0.03,17,37,32,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501807,Kulwinder Singh Mehta,PPOI,16288,57,0.03,18,37,32,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501808,Daya Nand Vats,RPI(A),16238,48,0.03,19,37,32,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501809,Probir Dutta,SatBP,16378,47,0.03,20,37,32,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501811,Ramesh Chand Verma,IND,16208,46,0.03,21,37,32,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501810,Rajiv Kumar,IND,16208,46,0.03,21,37,32,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501812,Baidyanath Sah,PBI,16321,45,0.03,23,37,32,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501813,Janak Raj Rana,ARK,16402,38,0.02,24,37,32,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501814,Parvesh Sahib Singh Verma,BJP,16207,74753,58.73,1,37,33,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501815,Mahabal Mishra,INC,16205,28877,22.69,2,37,33,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501816,Balbir Singh Jakhar,AAAP,16293,21135,16.61,3,37,33,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501817,Sita Saran Sen,BSP,16206,764,0.6,4,37,33,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501818,None Of The Above,NOTA,16294,627,0.49,5,37,33,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501819,Iqbal Singh (Sonu),IND,16208,150,0.12,6,37,33,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501820,Pravesh Sharma,IND,16208,146,0.11,7,37,33,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501821,Navin Chandra Das,IND,16208,125,0.1,8,37,33,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501822,Balbir Singh,IND,16208,91,0.07,9,37,33,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501823,Vikash Kumar Mohal,AAPP,16382,72,0.06,10,37,33,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501824,Shashi Jeet,NYP,16323,71,0.06,11,37,33,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501825,M. Mishra,IND,16208,58,0.05,12,37,33,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501826,Poonam Ujjainwal,PPID,16397,56,0.04,13,37,33,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501827,Shish Pal Singh,PRISM,16399,46,0.04,14,37,33,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501828,Harsh Vardhan Shukla,IND,16208,44,0.03,15,37,33,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501829,Rajiv Kumar,IND,16208,34,0.03,16,37,33,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501831,Dharambir Singh,RJSPS,16404,33,0.03,17,37,33,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501830,Baidyanath Sah,PBI,16321,33,0.03,17,37,33,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501832,Manmohan Singh,RaNP,16394,31,0.02,19,37,33,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501833,Kulwinder Singh Mehta,PPOI,16288,30,0.02,20,37,33,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501834,Ramesh Chand Verma,IND,16208,29,0.02,21,37,33,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501836,Janak Raj Rana,ARK,16402,26,0.02,22,37,33,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501835,Daya Nand Vats,RPI(A),16238,26,0.02,22,37,33,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501837,Probir Dutta,SatBP,16378,22,0.02,24,37,33,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501838,Parvesh Sahib Singh Verma,BJP,16207,149366,62.64,1,37,34,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501839,Mahabal Mishra,INC,16205,44596,18.7,2,37,34,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501840,Balbir Singh Jakhar,AAAP,16293,38529,16.16,3,37,34,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501841,Sita Saran Sen,BSP,16206,2189,0.92,4,37,34,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501842,None Of The Above,NOTA,16294,1594,0.67,5,37,34,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501843,Iqbal Singh (Sonu),IND,16208,297,0.12,6,37,34,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501844,Pravesh Sharma,IND,16208,290,0.12,7,37,34,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501845,Navin Chandra Das,IND,16208,287,0.12,8,37,34,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501846,Balbir Singh,IND,16208,157,0.07,9,37,34,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501847,Vikash Kumar Mohal,AAPP,16382,130,0.05,10,37,34,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501848,Shashi Jeet,NYP,16323,115,0.05,11,37,34,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501849,Poonam Ujjainwal,PPID,16397,109,0.05,12,37,34,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501850,Shish Pal Singh,PRISM,16399,91,0.04,13,37,34,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501851,Harsh Vardhan Shukla,IND,16208,85,0.04,14,37,34,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501852,Kulwinder Singh Mehta,PPOI,16288,81,0.03,15,37,34,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501853,Dharambir Singh,RJSPS,16404,78,0.03,16,37,34,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501854,M. Mishra,IND,16208,74,0.03,17,37,34,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501855,Manmohan Singh,RaNP,16394,69,0.03,18,37,34,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501856,Baidyanath Sah,PBI,16321,62,0.03,19,37,34,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501857,Probir Dutta,SatBP,16378,56,0.02,20,37,34,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501858,Ramesh Chand Verma,IND,16208,49,0.02,21,37,34,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501859,Janak Raj Rana,ARK,16402,48,0.02,22,37,34,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501860,Rajiv Kumar,IND,16208,47,0.02,23,37,34,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501861,Daya Nand Vats,RPI(A),16238,46,0.02,24,37,34,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501862,Parvesh Sahib Singh Verma,BJP,16207,99836,66.33,1,37,35,DL,Parvesh Sahib Singh Verma,BJP,,,,,True,37,2019,GE
+1501863,Mahabal Mishra,INC,16205,23354,15.52,2,37,35,DL,Mahabal Mishra,INC,,,,,False,37,2019,GE
+1501864,Balbir Singh Jakhar,AAAP,16293,22302,14.82,3,37,35,DL,Balbir Singh Jakhar,AAAP,,,,,False,37,2019,GE
+1501865,Sita Saran Sen,BSP,16206,2526,1.68,4,37,35,DL,Sita Saran Sen,BSP,,,,,False,37,2019,GE
+1501866,None Of The Above,NOTA,16294,849,0.56,5,37,35,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501867,Pravesh Sharma,IND,16208,252,0.17,6,37,35,DL,Pravesh Sharma,IND,,,,,False,37,2019,GE
+1501868,Iqbal Singh (Sonu),IND,16208,186,0.12,7,37,35,DL,Iqbal Singh (Sonu),IND,,,,,False,37,2019,GE
+1501869,Navin Chandra Das,IND,16208,181,0.12,8,37,35,DL,Navin Chandra Das,IND,,,,,False,37,2019,GE
+1501870,Dharambir Singh,RJSPS,16404,111,0.07,9,37,35,DL,Dharambir Singh,RJSPS,,,,,False,37,2019,GE
+1501871,Balbir Singh,IND,16208,106,0.07,10,37,35,DL,Balbir Singh,IND,,,,,False,37,2019,GE
+1501872,Vikash Kumar Mohal,AAPP,16382,104,0.07,11,37,35,DL,Vikash Kumar Mohal,AAPP,,,,,False,37,2019,GE
+1501873,Poonam Ujjainwal,PPID,16397,79,0.05,12,37,35,DL,Poonam Ujjainwal,PPID,,,,,False,37,2019,GE
+1501874,Shashi Jeet,NYP,16323,79,0.05,12,37,35,DL,Shashi Jeet,NYP,,,,,False,37,2019,GE
+1501875,Harsh Vardhan Shukla,IND,16208,71,0.05,14,37,35,DL,Harsh Vardhan Shukla,IND,,,,,False,37,2019,GE
+1501876,Baidyanath Sah,PBI,16321,63,0.04,15,37,35,DL,Baidyanath Sah,PBI,,,,,False,37,2019,GE
+1501877,M. Mishra,IND,16208,62,0.04,16,37,35,DL,M. Mishra,IND,,,,,False,37,2019,GE
+1501878,Kulwinder Singh Mehta,PPOI,16288,60,0.04,17,37,35,DL,Kulwinder Singh Mehta,PPOI,,,,,False,37,2019,GE
+1501879,Shish Pal Singh,PRISM,16399,60,0.04,17,37,35,DL,Shish Pal Singh,PRISM,,,,,False,37,2019,GE
+1501880,Daya Nand Vats,RPI(A),16238,51,0.03,19,37,35,DL,Daya Nand Vats,RPI(A),,,,,False,37,2019,GE
+1501882,Probir Dutta,SatBP,16378,41,0.03,20,37,35,DL,Probir Dutta,SatBP,,,,,False,37,2019,GE
+1501881,Manmohan Singh,RaNP,16394,41,0.03,20,37,35,DL,Manmohan Singh,RaNP,,,,,False,37,2019,GE
+1501883,Rajiv Kumar,IND,16208,38,0.03,22,37,35,DL,Rajiv Kumar,IND,,,,,False,37,2019,GE
+1501884,Ramesh Chand Verma,IND,16208,34,0.02,23,37,35,DL,Ramesh Chand Verma,IND,,,,,False,37,2019,GE
+1501885,Janak Raj Rana,ARK,16402,28,0.02,24,37,35,DL,Janak Raj Rana,ARK,,,,,False,37,2019,GE
+1501886,Ramesh Bidhuri,BJP,16207,76698,66.19,1,37,36,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1501887,Raghav Chadha,AAAP,16293,21042,18.16,2,37,36,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1501888,Vijender,INC,16205,14595,12.6,3,37,36,DL,Vijender,INC,,,,,False,37,2019,GE
+1501889,Siddhant Gautam,BSP,16206,1394,1.2,4,37,36,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1501890,None Of The Above,NOTA,16294,537,0.46,5,37,36,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501891,Ram Khilawan,PBI,16321,235,0.2,6,37,36,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1501892,Aditya Kumar Naveen,HBP,16405,228,0.2,7,37,36,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1501893,Rajendra Prasad Gupta,PSJP,16272,149,0.13,8,37,36,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1501894,Mahender Singh Churiyana,PPID,16397,93,0.08,9,37,36,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1501895,Suman Yadav,JMBP,16347,92,0.08,10,37,36,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1501897,Mathews,BHAIP,16406,90,0.08,11,37,36,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1501896,Deepak Kumar,AAPP,16382,90,0.08,11,37,36,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1501898,Sumedha Bodh,JNSMP,16407,89,0.08,13,37,36,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1501899,K. Roshan Kumar,PPOI,16288,86,0.07,14,37,36,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1501900,Harsh Nath Verma,IND,16208,82,0.07,15,37,36,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1501901,Mohan Kumar Gupta,MKDVP,16381,55,0.05,16,37,36,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1501902,Dilip Kumar,ssrd,16395,49,0.04,17,37,36,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1501903,Roshan Kumar Choudhary,IND,16208,44,0.04,18,37,36,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1501904,Dalbir Singh Malik,VPI,16408,27,0.02,19,37,36,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1501905,D. K. Chopra,AIFB,16231,26,0.02,20,37,36,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1501907,Sobran Singh Chauhan,RRP,16392,25,0.02,21,37,36,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1501908,Sunil Kumar,IND,16208,25,0.02,21,37,36,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1501906,Sandeep Gupta,RAJADP,16409,25,0.02,21,37,36,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1501909,Desh Kumar,ABJS,16410,23,0.02,24,37,36,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1501910,Birju Nayak,IND,16208,21,0.02,25,37,36,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1501911,Navanit,NYP,16323,21,0.02,25,37,36,DL,Navanit,NYP,,,,,False,37,2019,GE
+1501912,Nausha Khan,IND,16208,14,0.01,27,37,36,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1501913,Jitendra Sharma,PRISM,16399,13,0.01,28,37,36,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1501914,Ramesh Bidhuri,BJP,16207,91413,61.53,1,37,37,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1501915,Raghav Chadha,AAAP,16293,36003,24.24,2,37,37,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1501916,Vijender,INC,16205,16746,11.27,3,37,37,DL,Vijender,INC,,,,,False,37,2019,GE
+1501917,Siddhant Gautam,BSP,16206,1198,0.81,4,37,37,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1501918,None Of The Above,NOTA,16294,710,0.48,5,37,37,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501919,Aditya Kumar Naveen,HBP,16405,451,0.3,6,37,37,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1501920,Ram Khilawan,PBI,16321,333,0.22,7,37,37,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1501921,Rajendra Prasad Gupta,PSJP,16272,231,0.16,8,37,37,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1501922,Sumedha Bodh,JNSMP,16407,180,0.12,9,37,37,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1501923,Suman Yadav,JMBP,16347,176,0.12,10,37,37,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1501924,K. Roshan Kumar,PPOI,16288,152,0.1,11,37,37,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1501925,Deepak Kumar,AAPP,16382,114,0.08,12,37,37,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1501926,Mahender Singh Churiyana,PPID,16397,104,0.07,13,37,37,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1501927,Mathews,BHAIP,16406,97,0.07,14,37,37,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1501928,Mohan Kumar Gupta,MKDVP,16381,94,0.06,15,37,37,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1501929,Harsh Nath Verma,IND,16208,93,0.06,16,37,37,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1501930,Roshan Kumar Choudhary,IND,16208,78,0.05,17,37,37,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1501931,Dilip Kumar,ssrd,16395,61,0.04,18,37,37,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1501932,D. K. Chopra,AIFB,16231,42,0.03,19,37,37,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1501933,Desh Kumar,ABJS,16410,42,0.03,19,37,37,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1501934,Dalbir Singh Malik,VPI,16408,36,0.02,21,37,37,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1501935,Sandeep Gupta,RAJADP,16409,36,0.02,21,37,37,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1501936,Sunil Kumar,IND,16208,35,0.02,23,37,37,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1501938,Navanit,NYP,16323,31,0.02,24,37,37,DL,Navanit,NYP,,,,,False,37,2019,GE
+1501937,Birju Nayak,IND,16208,31,0.02,24,37,37,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1501939,Sobran Singh Chauhan,RRP,16392,29,0.02,26,37,37,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1501940,Nausha Khan,IND,16208,24,0.02,27,37,37,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1501941,Jitendra Sharma,PRISM,16399,15,0.01,28,37,37,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1501942,Meenakashi Lekhi,BJP,16207,28380,54.68,1,37,38,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1501943,Ajay Makan,INC,16205,15603,30.06,2,37,38,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1501944,Brijesh Goyal,AAAP,16293,6829,13.16,3,37,38,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1501945,None Of The Above,NOTA,16294,368,0.71,4,37,38,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501946,Sunil,AAPP,16382,97,0.19,5,37,38,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1501947,Upendra,AnAP,16400,87,0.17,6,37,38,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1501948,Sunil Kumar,PPID,16397,80,0.15,7,37,38,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1501949,K Sreekrishna,JKNPP,16236,48,0.09,8,37,38,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1501950,Harkrishan Das Nijhawan,IND,16208,46,0.09,9,37,38,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1501951,Swadesh Kumar Ohri,ATBP,16316,44,0.08,10,37,38,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1501952,Ajay Kumar Lal,IND,16208,40,0.08,11,37,38,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1501953,Suresh Kumar,IND,16208,35,0.07,12,37,38,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1501954,Virendra Singh Bharat,RRP,16392,33,0.06,13,37,38,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1501955,Rajesh Satiya,ssrd,16395,26,0.05,14,37,38,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1501956,Lal Ji,ARK,16402,22,0.04,15,37,38,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1501957,Umesh Chandra Gaur,RPI(A),16238,20,0.04,16,37,38,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1501958,Raj Karan,CoAP,16403,19,0.04,17,37,38,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1501960,Ravinder Paul Sehgal,PPOI,16288,18,0.03,18,37,38,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1501961,Sree Nivasan Ramamoorthy,IND,16208,18,0.03,18,37,38,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1501959,Jitendra Raut,ABMP,16401,18,0.03,18,37,38,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1501962,Raj Shekhar Gunti,PRISM,16399,15,0.03,21,37,38,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1501964,Dilip Singh Kothari,IND,16208,10,0.02,22,37,38,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1501963,Aashish S Saxena,IND,16208,10,0.02,22,37,38,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1501965,Ramesh,IND,16208,10,0.02,22,37,38,DL,Ramesh,IND,,,,,False,37,2019,GE
+1501966,Naveen Kumar,RHSP,16379,8,0.02,25,37,38,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1501967,Priyanka,IND,16208,8,0.02,25,37,38,DL,Priyanka,IND,,,,,False,37,2019,GE
+1501968,Kripashankar C Pandey,IND,16208,7,0.01,27,37,38,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1501969,Nilanjan Banerjee,BLokSP,16388,5,0.01,28,37,38,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1501970,Meenakashi Lekhi,BJP,16207,54004,55.7,1,37,39,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1501971,Ajay Makan,INC,16205,26312,27.14,2,37,39,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1501972,Brijesh Goyal,AAAP,16293,14740,15.2,3,37,39,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1501973,None Of The Above,NOTA,16294,620,0.64,4,37,39,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1501974,Sunil Kumar,PPID,16397,149,0.15,5,37,39,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1501975,Upendra,AnAP,16400,145,0.15,6,37,39,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1501976,Sunil,AAPP,16382,132,0.14,7,37,39,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1501977,K Sreekrishna,JKNPP,16236,120,0.12,8,37,39,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1501978,Ajay Kumar Lal,IND,16208,79,0.08,9,37,39,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1501979,Suresh Kumar,IND,16208,69,0.07,10,37,39,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1501980,Harkrishan Das Nijhawan,IND,16208,66,0.07,11,37,39,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1501981,Swadesh Kumar Ohri,ATBP,16316,63,0.06,12,37,39,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1501982,Jitendra Raut,ABMP,16401,57,0.06,13,37,39,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1501983,Virendra Singh Bharat,RRP,16392,45,0.05,14,37,39,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1501984,Dilip Singh Kothari,IND,16208,36,0.04,15,37,39,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1501985,Rajesh Satiya,ssrd,16395,33,0.03,16,37,39,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1501987,Sree Nivasan Ramamoorthy,IND,16208,31,0.03,17,37,39,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1501986,Raj Karan,CoAP,16403,31,0.03,17,37,39,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1501988,Lal Ji,ARK,16402,28,0.03,19,37,39,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1501989,Priyanka,IND,16208,28,0.03,19,37,39,DL,Priyanka,IND,,,,,False,37,2019,GE
+1501991,Umesh Chandra Gaur,RPI(A),16238,27,0.03,21,37,39,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1501990,Naveen Kumar,RHSP,16379,27,0.03,21,37,39,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1501992,Ravinder Paul Sehgal,PPOI,16288,24,0.02,23,37,39,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1501993,Raj Shekhar Gunti,PRISM,16399,19,0.02,24,37,39,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1501994,Aashish S Saxena,IND,16208,17,0.02,25,37,39,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1501995,Ramesh,IND,16208,16,0.02,26,37,39,DL,Ramesh,IND,,,,,False,37,2019,GE
+1501996,Nilanjan Banerjee,BLokSP,16388,15,0.02,27,37,39,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1501997,Kripashankar C Pandey,IND,16208,14,0.01,28,37,39,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1501998,Meenakashi Lekhi,BJP,16207,37600,49.83,1,37,40,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1501999,Ajay Makan,INC,16205,25719,34.08,2,37,40,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1502000,Brijesh Goyal,AAAP,16293,10657,14.12,3,37,40,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1502001,None Of The Above,NOTA,16294,620,0.82,4,37,40,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502002,Sunil,AAPP,16382,92,0.12,5,37,40,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1502003,Upendra,AnAP,16400,91,0.12,6,37,40,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1502004,Sunil Kumar,PPID,16397,87,0.12,7,37,40,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1502005,K Sreekrishna,JKNPP,16236,74,0.1,8,37,40,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1502006,Suresh Kumar,IND,16208,64,0.08,9,37,40,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1502007,Ajay Kumar Lal,IND,16208,58,0.08,10,37,40,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1502008,Harkrishan Das Nijhawan,IND,16208,44,0.06,11,37,40,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1502009,Swadesh Kumar Ohri,ATBP,16316,40,0.05,12,37,40,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1502010,Virendra Singh Bharat,RRP,16392,29,0.04,13,37,40,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1502011,Lal Ji,ARK,16402,27,0.04,14,37,40,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1502012,Rajesh Satiya,ssrd,16395,27,0.04,14,37,40,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1502013,Priyanka,IND,16208,25,0.03,16,37,40,DL,Priyanka,IND,,,,,False,37,2019,GE
+1502014,Ravinder Paul Sehgal,PPOI,16288,24,0.03,17,37,40,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1502015,Raj Karan,CoAP,16403,23,0.03,18,37,40,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1502016,Jitendra Raut,ABMP,16401,21,0.03,19,37,40,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1502017,Naveen Kumar,RHSP,16379,20,0.03,20,37,40,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1502018,Aashish S Saxena,IND,16208,19,0.03,21,37,40,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1502019,Sree Nivasan Ramamoorthy,IND,16208,19,0.03,21,37,40,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1502020,Kripashankar C Pandey,IND,16208,16,0.02,23,37,40,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1502022,Umesh Chandra Gaur,RPI(A),16238,14,0.02,24,37,40,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1502021,Raj Shekhar Gunti,PRISM,16399,14,0.02,24,37,40,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1502023,Ramesh,IND,16208,13,0.02,26,37,40,DL,Ramesh,IND,,,,,False,37,2019,GE
+1502024,Nilanjan Banerjee,BLokSP,16388,10,0.01,27,37,40,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1502025,Dilip Singh Kothari,IND,16208,9,0.01,28,37,40,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1502026,Gautam Gambhir,BJP,16207,41552,49.13,1,37,41,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502027,Arvinder Singh Lovely,INC,16205,24237,28.65,2,37,41,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502028,Atishi,AAAP,16293,16894,19.97,3,37,41,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502029,Sanjay Kumar,BSP,16206,456,0.54,4,37,41,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502030,None Of The Above,NOTA,16294,403,0.48,5,37,41,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502031,Ajay Chaudhary,AAPP,16382,101,0.12,6,37,41,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502032,Satish Kumar Prajapati,MKDVP,16381,100,0.12,7,37,41,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502033,Surender Gupta,NAPt,16411,95,0.11,8,37,41,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502034,Mukesh Jadly,UtPP,16412,91,0.11,9,37,41,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502035,Hafiz Burhanuddin,TNRMPI,16413,55,0.07,10,37,41,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502036,Manjeet Singh,RaNP,16394,53,0.06,11,37,41,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502037,Ashok Surana,IND,16208,52,0.06,12,37,41,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502038,Manju Chhibber,RPI(A),16238,51,0.06,13,37,41,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502039,Hitesh Kumar,JPJD,16389,50,0.06,14,37,41,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502040,Harbalwinder Singh,IND,16208,44,0.05,15,37,41,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502041,Dr. Krishan Singh Chauhan,PPID,16397,43,0.05,16,37,41,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502042,Manoj Kumar Gupta,IND,16208,42,0.05,17,37,41,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502043,Raj Kumar Dhingiya,IND,16208,39,0.05,18,37,41,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502044,Shiv Kumar,IND,16208,37,0.04,19,37,41,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502045,Amanullah Ahmed,BHAIP,16406,31,0.04,20,37,41,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502046,Ravi Kumar,IND,16208,29,0.03,21,37,41,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502047,D. Durga Prasad,CHALP,16387,27,0.03,22,37,41,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502048,Mohan Lal Sharma,SatBP,16378,24,0.03,23,37,41,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502049,Rahimuddin Shah,IND,16208,24,0.03,23,37,41,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502050,Anupam Tripathi,BKNP,16414,19,0.02,25,37,41,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502051,Deepti Nadella,PPOI,16288,19,0.02,25,37,41,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502052,Neeru Mongia,PRISM,16399,15,0.02,27,37,41,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502053,Meenakashi Lekhi,BJP,16207,54064,60.08,1,37,42,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1502054,Ajay Makan,INC,16205,24218,26.91,2,37,42,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1502055,Brijesh Goyal,AAAP,16293,10136,11.26,3,37,42,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1502056,None Of The Above,NOTA,16294,626,0.7,4,37,42,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502057,Upendra,AnAP,16400,120,0.13,5,37,42,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1502058,Sunil Kumar,PPID,16397,114,0.13,6,37,42,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1502059,Sunil,AAPP,16382,80,0.09,7,37,42,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1502060,Ajay Kumar Lal,IND,16208,67,0.07,8,37,42,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1502061,K Sreekrishna,JKNPP,16236,63,0.07,9,37,42,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1502062,Swadesh Kumar Ohri,ATBP,16316,54,0.06,10,37,42,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1502063,Virendra Singh Bharat,RRP,16392,45,0.05,11,37,42,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1502064,Harkrishan Das Nijhawan,IND,16208,43,0.05,12,37,42,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1502065,Suresh Kumar,IND,16208,42,0.05,13,37,42,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1502066,Priyanka,IND,16208,41,0.05,14,37,42,DL,Priyanka,IND,,,,,False,37,2019,GE
+1502067,Jitendra Raut,ABMP,16401,30,0.03,15,37,42,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1502068,Rajesh Satiya,ssrd,16395,28,0.03,16,37,42,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1502069,Umesh Chandra Gaur,RPI(A),16238,28,0.03,16,37,42,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1502070,Ravinder Paul Sehgal,PPOI,16288,27,0.03,18,37,42,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1502071,Raj Karan,CoAP,16403,22,0.02,19,37,42,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1502073,Nilanjan Banerjee,BLokSP,16388,20,0.02,20,37,42,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1502072,Aashish S Saxena,IND,16208,20,0.02,20,37,42,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1502074,Kripashankar C Pandey,IND,16208,19,0.02,22,37,42,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1502075,Dilip Singh Kothari,IND,16208,18,0.02,23,37,42,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1502076,Lal Ji,ARK,16402,17,0.02,24,37,42,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1502077,Ramesh,IND,16208,17,0.02,24,37,42,DL,Ramesh,IND,,,,,False,37,2019,GE
+1502078,Raj Shekhar Gunti,PRISM,16399,12,0.01,26,37,42,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1502079,Naveen Kumar,RHSP,16379,11,0.01,27,37,42,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1502080,Sree Nivasan Ramamoorthy,IND,16208,10,0.01,28,37,42,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1502081,Meenakashi Lekhi,BJP,16207,47277,53.4,1,37,43,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1502082,Ajay Makan,INC,16205,24071,27.19,2,37,43,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1502083,Brijesh Goyal,AAAP,16293,15586,17.6,3,37,43,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1502084,None Of The Above,NOTA,16294,757,0.86,4,37,43,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502085,Upendra,AnAP,16400,114,0.13,5,37,43,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1502086,Sunil Kumar,PPID,16397,107,0.12,6,37,43,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1502087,Sunil,AAPP,16382,81,0.09,7,37,43,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1502089,K Sreekrishna,JKNPP,16236,55,0.06,8,37,43,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1502088,Harkrishan Das Nijhawan,IND,16208,55,0.06,8,37,43,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1502090,Swadesh Kumar Ohri,ATBP,16316,49,0.06,10,37,43,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1502091,Ajay Kumar Lal,IND,16208,42,0.05,11,37,43,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1502092,Suresh Kumar,IND,16208,40,0.05,12,37,43,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1502093,Priyanka,IND,16208,31,0.04,13,37,43,DL,Priyanka,IND,,,,,False,37,2019,GE
+1502094,Dilip Singh Kothari,IND,16208,27,0.03,14,37,43,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1502095,Ravinder Paul Sehgal,PPOI,16288,26,0.03,15,37,43,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1502096,Umesh Chandra Gaur,RPI(A),16238,24,0.03,16,37,43,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1502097,Rajesh Satiya,ssrd,16395,23,0.03,17,37,43,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1502098,Raj Karan,CoAP,16403,22,0.02,18,37,43,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1502100,Lal Ji,ARK,16402,20,0.02,19,37,43,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1502099,Jitendra Raut,ABMP,16401,20,0.02,19,37,43,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1502101,Virendra Singh Bharat,RRP,16392,18,0.02,21,37,43,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1502102,Ramesh,IND,16208,17,0.02,22,37,43,DL,Ramesh,IND,,,,,False,37,2019,GE
+1502105,Raj Shekhar Gunti,PRISM,16399,15,0.02,23,37,43,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1502103,Naveen Kumar,RHSP,16379,15,0.02,23,37,43,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1502104,Nilanjan Banerjee,BLokSP,16388,15,0.02,23,37,43,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1502107,Sree Nivasan Ramamoorthy,IND,16208,9,0.01,26,37,43,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1502106,Aashish S Saxena,IND,16208,9,0.01,26,37,43,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1502108,Kripashankar C Pandey,IND,16208,7,0.01,28,37,43,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1502109,Meenakashi Lekhi,BJP,16207,45274,52.78,1,37,44,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1502110,Ajay Makan,INC,16205,26373,30.74,2,37,44,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1502111,Brijesh Goyal,AAAP,16293,12260,14.29,3,37,44,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1502112,None Of The Above,NOTA,16294,685,0.8,4,37,44,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502113,Sunil Kumar,PPID,16397,146,0.17,5,37,44,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1502114,Sunil,AAPP,16382,128,0.15,6,37,44,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1502115,Upendra,AnAP,16400,115,0.13,7,37,44,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1502116,Virendra Singh Bharat,RRP,16392,92,0.11,8,37,44,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1502117,Suresh Kumar,IND,16208,90,0.1,9,37,44,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1502118,K Sreekrishna,JKNPP,16236,85,0.1,10,37,44,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1502119,Ajay Kumar Lal,IND,16208,67,0.08,11,37,44,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1502120,Swadesh Kumar Ohri,ATBP,16316,59,0.07,12,37,44,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1502121,Harkrishan Das Nijhawan,IND,16208,40,0.05,13,37,44,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1502122,Raj Karan,CoAP,16403,39,0.05,14,37,44,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1502123,Jitendra Raut,ABMP,16401,35,0.04,15,37,44,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1502124,Lal Ji,ARK,16402,32,0.04,16,37,44,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1502125,Priyanka,IND,16208,30,0.03,17,37,44,DL,Priyanka,IND,,,,,False,37,2019,GE
+1502126,Rajesh Satiya,ssrd,16395,29,0.03,18,37,44,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1502127,Dilip Singh Kothari,IND,16208,27,0.03,19,37,44,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1502128,Umesh Chandra Gaur,RPI(A),16238,26,0.03,20,37,44,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1502129,Aashish S Saxena,IND,16208,21,0.02,21,37,44,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1502130,Kripashankar C Pandey,IND,16208,21,0.02,21,37,44,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1502132,Raj Shekhar Gunti,PRISM,16399,20,0.02,23,37,44,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1502131,Naveen Kumar,RHSP,16379,20,0.02,23,37,44,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1502133,Nilanjan Banerjee,BLokSP,16388,19,0.02,25,37,44,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1502134,Ravinder Paul Sehgal,PPOI,16288,18,0.02,26,37,44,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1502135,Sree Nivasan Ramamoorthy,IND,16208,18,0.02,26,37,44,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1502136,Ramesh,IND,16208,11,0.01,28,37,44,DL,Ramesh,IND,,,,,False,37,2019,GE
+1502137,Ramesh Bidhuri,BJP,16207,61675,55.9,1,37,45,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502138,Raghav Chadha,AAAP,16293,25758,23.35,2,37,45,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502139,Vijender,INC,16205,19920,18.05,3,37,45,DL,Vijender,INC,,,,,False,37,2019,GE
+1502140,None Of The Above,NOTA,16294,647,0.59,4,37,45,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502141,Siddhant Gautam,BSP,16206,625,0.57,5,37,45,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502142,Aditya Kumar Naveen,HBP,16405,281,0.25,6,37,45,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502143,Ram Khilawan,PBI,16321,208,0.19,7,37,45,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502144,Sumedha Bodh,JNSMP,16407,131,0.12,8,37,45,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502145,Rajendra Prasad Gupta,PSJP,16272,130,0.12,9,37,45,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502146,Suman Yadav,JMBP,16347,111,0.1,10,37,45,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502147,K. Roshan Kumar,PPOI,16288,96,0.09,11,37,45,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502148,Harsh Nath Verma,IND,16208,90,0.08,12,37,45,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502149,Mathews,BHAIP,16406,85,0.08,13,37,45,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502150,Sandeep Gupta,RAJADP,16409,81,0.07,14,37,45,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502151,Mahender Singh Churiyana,PPID,16397,71,0.06,15,37,45,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502152,Deepak Kumar,AAPP,16382,66,0.06,16,37,45,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502153,Roshan Kumar Choudhary,IND,16208,60,0.05,17,37,45,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502154,Mohan Kumar Gupta,MKDVP,16381,51,0.05,18,37,45,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502155,Dalbir Singh Malik,VPI,16408,41,0.04,19,37,45,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502156,Dilip Kumar,ssrd,16395,32,0.03,20,37,45,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502157,D. K. Chopra,AIFB,16231,30,0.03,21,37,45,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502158,Sunil Kumar,IND,16208,30,0.03,21,37,45,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502159,Birju Nayak,IND,16208,25,0.02,23,37,45,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502160,Desh Kumar,ABJS,16410,24,0.02,24,37,45,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502161,Nausha Khan,IND,16208,20,0.02,25,37,45,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502162,Navanit,NYP,16323,20,0.02,25,37,45,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502163,Jitendra Sharma,PRISM,16399,15,0.01,27,37,45,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502164,Sobran Singh Chauhan,RRP,16392,13,0.01,28,37,45,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502165,Ramesh Bidhuri,BJP,16207,72684,56.86,1,37,46,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502166,Raghav Chadha,AAAP,16293,34200,26.75,2,37,46,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502167,Vijender,INC,16205,16236,12.7,3,37,46,DL,Vijender,INC,,,,,False,37,2019,GE
+1502168,Siddhant Gautam,BSP,16206,1557,1.22,4,37,46,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502169,None Of The Above,NOTA,16294,558,0.44,5,37,46,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502170,Aditya Kumar Naveen,HBP,16405,460,0.36,6,37,46,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502171,Ram Khilawan,PBI,16321,310,0.24,7,37,46,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502172,Suman Yadav,JMBP,16347,225,0.18,8,37,46,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502173,Sumedha Bodh,JNSMP,16407,216,0.17,9,37,46,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502174,Rajendra Prasad Gupta,PSJP,16272,183,0.14,10,37,46,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502175,K. Roshan Kumar,PPOI,16288,160,0.13,11,37,46,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502176,Mathews,BHAIP,16406,137,0.11,12,37,46,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502177,Harsh Nath Verma,IND,16208,125,0.1,13,37,46,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502178,Mahender Singh Churiyana,PPID,16397,106,0.08,14,37,46,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502179,Mohan Kumar Gupta,MKDVP,16381,103,0.08,15,37,46,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502180,Deepak Kumar,AAPP,16382,83,0.06,16,37,46,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502181,Roshan Kumar Choudhary,IND,16208,76,0.06,17,37,46,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502182,Sunil Kumar,IND,16208,52,0.04,18,37,46,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502183,Dilip Kumar,ssrd,16395,47,0.04,19,37,46,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502184,Navanit,NYP,16323,45,0.04,20,37,46,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502185,Sobran Singh Chauhan,RRP,16392,43,0.03,21,37,46,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502186,D. K. Chopra,AIFB,16231,41,0.03,22,37,46,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502187,Desh Kumar,ABJS,16410,40,0.03,23,37,46,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502188,Sandeep Gupta,RAJADP,16409,39,0.03,24,37,46,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502189,Dalbir Singh Malik,VPI,16408,30,0.02,25,37,46,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502190,Birju Nayak,IND,16208,29,0.02,26,37,46,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502191,Jitendra Sharma,PRISM,16399,23,0.02,27,37,46,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502192,Nausha Khan,IND,16208,21,0.02,28,37,46,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502193,Ramesh Bidhuri,BJP,16207,68601,49.34,1,37,47,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502194,Raghav Chadha,AAAP,16293,44986,32.35,2,37,47,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502195,Vijender,INC,16205,20152,14.49,3,37,47,DL,Vijender,INC,,,,,False,37,2019,GE
+1502196,Siddhant Gautam,BSP,16206,1656,1.19,4,37,47,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502197,Aditya Kumar Naveen,HBP,16405,633,0.46,5,37,47,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502198,None Of The Above,NOTA,16294,482,0.35,6,37,47,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502199,Sumedha Bodh,JNSMP,16407,300,0.22,7,37,47,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502200,Ram Khilawan,PBI,16321,268,0.19,8,37,47,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502201,Rajendra Prasad Gupta,PSJP,16272,238,0.17,9,37,47,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502202,Suman Yadav,JMBP,16347,227,0.16,10,37,47,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502203,K. Roshan Kumar,PPOI,16288,194,0.14,11,37,47,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502204,Mathews,BHAIP,16406,153,0.11,12,37,47,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502205,Harsh Nath Verma,IND,16208,150,0.11,13,37,47,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502206,Deepak Kumar,AAPP,16382,141,0.1,14,37,47,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502207,Mahender Singh Churiyana,PPID,16397,139,0.1,15,37,47,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502208,Mohan Kumar Gupta,MKDVP,16381,125,0.09,16,37,47,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502209,Roshan Kumar Choudhary,IND,16208,110,0.08,17,37,47,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502210,Sunil Kumar,IND,16208,76,0.05,18,37,47,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502211,Desh Kumar,ABJS,16410,60,0.04,19,37,47,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502212,Dilip Kumar,ssrd,16395,51,0.04,20,37,47,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502214,Sandeep Gupta,RAJADP,16409,49,0.04,21,37,47,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502213,D. K. Chopra,AIFB,16231,49,0.04,21,37,47,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502215,Navanit,NYP,16323,41,0.03,23,37,47,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502216,Dalbir Singh Malik,VPI,16408,39,0.03,24,37,47,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502217,Birju Nayak,IND,16208,38,0.03,25,37,47,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502218,Sobran Singh Chauhan,RRP,16392,34,0.02,26,37,47,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502219,Nausha Khan,IND,16208,30,0.02,27,37,47,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502220,Jitendra Sharma,PRISM,16399,22,0.02,28,37,47,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502221,Ramesh Bidhuri,BJP,16207,48143,49.6,1,37,48,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502222,Raghav Chadha,AAAP,16293,30608,31.53,2,37,48,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502223,Vijender,INC,16205,15450,15.92,3,37,48,DL,Vijender,INC,,,,,False,37,2019,GE
+1502224,Siddhant Gautam,BSP,16206,825,0.85,4,37,48,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502225,None Of The Above,NOTA,16294,447,0.46,5,37,48,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502226,Aditya Kumar Naveen,HBP,16405,360,0.37,6,37,48,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502227,Ram Khilawan,PBI,16321,176,0.18,7,37,48,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502228,Sumedha Bodh,JNSMP,16407,123,0.13,8,37,48,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502229,Suman Yadav,JMBP,16347,106,0.11,9,37,48,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502230,Rajendra Prasad Gupta,PSJP,16272,105,0.11,10,37,48,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502231,K. Roshan Kumar,PPOI,16288,94,0.1,11,37,48,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502232,Mahender Singh Churiyana,PPID,16397,82,0.08,12,37,48,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502233,Deepak Kumar,AAPP,16382,64,0.07,13,37,48,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502234,Harsh Nath Verma,IND,16208,64,0.07,13,37,48,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502235,Mathews,BHAIP,16406,62,0.06,15,37,48,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502236,Mohan Kumar Gupta,MKDVP,16381,58,0.06,16,37,48,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502237,Roshan Kumar Choudhary,IND,16208,46,0.05,17,37,48,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502238,Sunil Kumar,IND,16208,36,0.04,18,37,48,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502240,Sandeep Gupta,RAJADP,16409,33,0.03,19,37,48,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502239,Dilip Kumar,ssrd,16395,33,0.03,19,37,48,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502241,Desh Kumar,ABJS,16410,26,0.03,21,37,48,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502242,D. K. Chopra,AIFB,16231,23,0.02,22,37,48,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502243,Navanit,NYP,16323,23,0.02,22,37,48,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502244,Sobran Singh Chauhan,RRP,16392,19,0.02,24,37,48,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502245,Jitendra Sharma,PRISM,16399,16,0.02,25,37,48,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502246,Birju Nayak,IND,16208,15,0.02,26,37,48,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502248,Nausha Khan,IND,16208,14,0.01,27,37,48,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502247,Dalbir Singh Malik,VPI,16408,14,0.01,27,37,48,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502249,Ramesh Bidhuri,BJP,16207,53866,50.04,1,37,49,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502250,Raghav Chadha,AAAP,16293,32948,30.61,2,37,49,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502251,Vijender,INC,16205,17106,15.89,3,37,49,DL,Vijender,INC,,,,,False,37,2019,GE
+1502252,Siddhant Gautam,BSP,16206,1150,1.07,4,37,49,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502253,None Of The Above,NOTA,16294,351,0.33,5,37,49,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502254,Aditya Kumar Naveen,HBP,16405,316,0.29,6,37,49,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502255,Ram Khilawan,PBI,16321,246,0.23,7,37,49,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502256,Rajendra Prasad Gupta,PSJP,16272,213,0.2,8,37,49,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502257,Sumedha Bodh,JNSMP,16407,210,0.2,9,37,49,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502258,Suman Yadav,JMBP,16347,183,0.17,10,37,49,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502259,K. Roshan Kumar,PPOI,16288,137,0.13,11,37,49,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502260,Mathews,BHAIP,16406,125,0.12,12,37,49,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502261,Harsh Nath Verma,IND,16208,99,0.09,13,37,49,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502262,Deepak Kumar,AAPP,16382,93,0.09,14,37,49,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502263,Mohan Kumar Gupta,MKDVP,16381,93,0.09,14,37,49,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502264,Mahender Singh Churiyana,PPID,16397,84,0.08,16,37,49,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502265,Roshan Kumar Choudhary,IND,16208,81,0.08,17,37,49,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502266,Desh Kumar,ABJS,16410,46,0.04,18,37,49,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502267,Birju Nayak,IND,16208,44,0.04,19,37,49,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502268,Dilip Kumar,ssrd,16395,41,0.04,20,37,49,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502269,Navanit,NYP,16323,40,0.04,21,37,49,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502270,Sunil Kumar,IND,16208,33,0.03,22,37,49,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502271,Dalbir Singh Malik,VPI,16408,29,0.03,23,37,49,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502272,Sobran Singh Chauhan,RRP,16392,29,0.03,23,37,49,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502273,D. K. Chopra,AIFB,16231,26,0.02,25,37,49,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502274,Sandeep Gupta,RAJADP,16409,25,0.02,26,37,49,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502275,Nausha Khan,IND,16208,22,0.02,27,37,49,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502276,Jitendra Sharma,PRISM,16399,17,0.02,28,37,49,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502277,Meenakashi Lekhi,BJP,16207,62394,58.37,1,37,50,DL,Meenakashi Lekhi,BJP,,,,,True,37,2019,GE
+1502278,Ajay Makan,INC,16205,24310,22.74,2,37,50,DL,Ajay Makan,INC,,,,,False,37,2019,GE
+1502279,Brijesh Goyal,AAAP,16293,18301,17.12,3,37,50,DL,Brijesh Goyal,AAAP,,,,,False,37,2019,GE
+1502280,None Of The Above,NOTA,16294,945,0.88,4,37,50,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502281,Upendra,AnAP,16400,123,0.12,5,37,50,DL,Upendra,AnAP,,,,,False,37,2019,GE
+1502282,Sunil,AAPP,16382,81,0.08,6,37,50,DL,Sunil,AAPP,,,,,False,37,2019,GE
+1502283,K Sreekrishna,JKNPP,16236,77,0.07,7,37,50,DL,K Sreekrishna,JKNPP,,,,,False,37,2019,GE
+1502284,Sunil Kumar,PPID,16397,74,0.07,8,37,50,DL,Sunil Kumar,PPID,,,,,False,37,2019,GE
+1502285,Ajay Kumar Lal,IND,16208,50,0.05,9,37,50,DL,Ajay Kumar Lal,IND,,,,,False,37,2019,GE
+1502286,Harkrishan Das Nijhawan,IND,16208,50,0.05,9,37,50,DL,Harkrishan Das Nijhawan,IND,,,,,False,37,2019,GE
+1502287,Suresh Kumar,IND,16208,49,0.05,11,37,50,DL,Suresh Kumar,IND,,,,,False,37,2019,GE
+1502288,Jitendra Raut,ABMP,16401,38,0.04,12,37,50,DL,Jitendra Raut,ABMP,,,,,False,37,2019,GE
+1502289,Priyanka,IND,16208,37,0.03,13,37,50,DL,Priyanka,IND,,,,,False,37,2019,GE
+1502290,Swadesh Kumar Ohri,ATBP,16316,36,0.03,14,37,50,DL,Swadesh Kumar Ohri,ATBP,,,,,False,37,2019,GE
+1502291,Virendra Singh Bharat,RRP,16392,33,0.03,15,37,50,DL,Virendra Singh Bharat,RRP,,,,,False,37,2019,GE
+1502292,Ravinder Paul Sehgal,PPOI,16288,29,0.03,16,37,50,DL,Ravinder Paul Sehgal,PPOI,,,,,False,37,2019,GE
+1502293,Nilanjan Banerjee,BLokSP,16388,28,0.03,17,37,50,DL,Nilanjan Banerjee,BLokSP,,,,,False,37,2019,GE
+1502294,Raj Karan,CoAP,16403,25,0.02,18,37,50,DL,Raj Karan,CoAP,,,,,False,37,2019,GE
+1502295,Rajesh Satiya,ssrd,16395,25,0.02,18,37,50,DL,Rajesh Satiya,ssrd,,,,,False,37,2019,GE
+1502296,Umesh Chandra Gaur,RPI(A),16238,25,0.02,18,37,50,DL,Umesh Chandra Gaur,RPI(A),,,,,False,37,2019,GE
+1502297,Kripashankar C Pandey,IND,16208,24,0.02,21,37,50,DL,Kripashankar C Pandey,IND,,,,,False,37,2019,GE
+1502298,Sree Nivasan Ramamoorthy,IND,16208,23,0.02,22,37,50,DL,Sree Nivasan Ramamoorthy,IND,,,,,False,37,2019,GE
+1502299,Lal Ji,ARK,16402,22,0.02,23,37,50,DL,Lal Ji,ARK,,,,,False,37,2019,GE
+1502300,Aashish S Saxena,IND,16208,21,0.02,24,37,50,DL,Aashish S Saxena,IND,,,,,False,37,2019,GE
+1502301,Dilip Singh Kothari,IND,16208,18,0.02,25,37,50,DL,Dilip Singh Kothari,IND,,,,,False,37,2019,GE
+1502302,Naveen Kumar,RHSP,16379,18,0.02,25,37,50,DL,Naveen Kumar,RHSP,,,,,False,37,2019,GE
+1502303,Ramesh,IND,16208,17,0.02,27,37,50,DL,Ramesh,IND,,,,,False,37,2019,GE
+1502304,Raj Shekhar Gunti,PRISM,16399,12,0.01,28,37,50,DL,Raj Shekhar Gunti,PRISM,,,,,False,37,2019,GE
+1502305,Ramesh Bidhuri,BJP,16207,57371,56.47,1,37,51,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502306,Raghav Chadha,AAAP,16293,24612,24.22,2,37,51,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502307,Vijender,INC,16205,16911,16.64,3,37,51,DL,Vijender,INC,,,,,False,37,2019,GE
+1502308,None Of The Above,NOTA,16294,614,0.6,4,37,51,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502309,Siddhant Gautam,BSP,16206,527,0.52,5,37,51,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502310,Aditya Kumar Naveen,HBP,16405,261,0.26,6,37,51,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502311,Ram Khilawan,PBI,16321,184,0.18,7,37,51,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502312,Rajendra Prasad Gupta,PSJP,16272,128,0.13,8,37,51,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502313,Sumedha Bodh,JNSMP,16407,107,0.11,9,37,51,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502314,Suman Yadav,JMBP,16347,105,0.1,10,37,51,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502315,K. Roshan Kumar,PPOI,16288,100,0.1,11,37,51,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502316,Mathews,BHAIP,16406,83,0.08,12,37,51,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502317,Harsh Nath Verma,IND,16208,82,0.08,13,37,51,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502318,Mahender Singh Churiyana,PPID,16397,80,0.08,14,37,51,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502319,Mohan Kumar Gupta,MKDVP,16381,68,0.07,15,37,51,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502320,Deepak Kumar,AAPP,16382,66,0.06,16,37,51,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502321,Roshan Kumar Choudhary,IND,16208,46,0.05,17,37,51,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502322,Dilip Kumar,ssrd,16395,38,0.04,18,37,51,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502323,Birju Nayak,IND,16208,36,0.04,19,37,51,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502324,D. K. Chopra,AIFB,16231,31,0.03,20,37,51,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502325,Desh Kumar,ABJS,16410,27,0.03,21,37,51,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502326,Sandeep Gupta,RAJADP,16409,23,0.02,22,37,51,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502328,Navanit,NYP,16323,22,0.02,23,37,51,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502327,Jitendra Sharma,PRISM,16399,22,0.02,23,37,51,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502329,Sunil Kumar,IND,16208,18,0.02,25,37,51,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502330,Dalbir Singh Malik,VPI,16408,16,0.02,26,37,51,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502331,Sobran Singh Chauhan,RRP,16392,13,0.01,27,37,51,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502332,Nausha Khan,IND,16208,10,0.01,28,37,51,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502333,Ramesh Bidhuri,BJP,16207,49666,51.93,1,37,52,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502334,Raghav Chadha,AAAP,16293,33998,35.55,2,37,52,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502335,Vijender,INC,16205,7405,7.74,3,37,52,DL,Vijender,INC,,,,,False,37,2019,GE
+1502336,Siddhant Gautam,BSP,16206,1911,2.0,4,37,52,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502337,Aditya Kumar Naveen,HBP,16405,366,0.38,5,37,52,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502338,None Of The Above,NOTA,16294,328,0.34,6,37,52,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502339,Ram Khilawan,PBI,16321,273,0.29,7,37,52,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502340,Rajendra Prasad Gupta,PSJP,16272,217,0.23,8,37,52,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502341,K. Roshan Kumar,PPOI,16288,205,0.21,9,37,52,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502342,Sumedha Bodh,JNSMP,16407,172,0.18,10,37,52,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502343,Mohan Kumar Gupta,MKDVP,16381,152,0.16,11,37,52,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502344,Suman Yadav,JMBP,16347,137,0.14,12,37,52,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502345,Mathews,BHAIP,16406,114,0.12,13,37,52,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502346,Harsh Nath Verma,IND,16208,111,0.12,14,37,52,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502347,Roshan Kumar Choudhary,IND,16208,89,0.09,15,37,52,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502348,Deepak Kumar,AAPP,16382,81,0.08,16,37,52,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502349,Birju Nayak,IND,16208,80,0.08,17,37,52,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502350,Mahender Singh Churiyana,PPID,16397,64,0.07,18,37,52,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502351,Sunil Kumar,IND,16208,41,0.04,19,37,52,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502352,Dilip Kumar,ssrd,16395,33,0.03,20,37,52,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502353,Sobran Singh Chauhan,RRP,16392,29,0.03,21,37,52,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502354,Desh Kumar,ABJS,16410,28,0.03,22,37,52,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502355,Navanit,NYP,16323,28,0.03,22,37,52,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502356,D. K. Chopra,AIFB,16231,25,0.03,24,37,52,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502357,Nausha Khan,IND,16208,23,0.02,25,37,52,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502358,Jitendra Sharma,PRISM,16399,22,0.02,26,37,52,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502359,Dalbir Singh Malik,VPI,16408,20,0.02,27,37,52,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502360,Sandeep Gupta,RAJADP,16409,20,0.02,27,37,52,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502361,Ramesh Bidhuri,BJP,16207,105672,62.56,1,37,53,DL,Ramesh Bidhuri,BJP,,,,,True,37,2019,GE
+1502362,Raghav Chadha,AAAP,16293,35615,21.08,2,37,53,DL,Raghav Chadha,AAAP,,,,,False,37,2019,GE
+1502363,Vijender,INC,16205,19873,11.76,3,37,53,DL,Vijender,INC,,,,,False,37,2019,GE
+1502364,Siddhant Gautam,BSP,16206,3878,2.3,4,37,53,DL,Siddhant Gautam,BSP,,,,,False,37,2019,GE
+1502365,None Of The Above,NOTA,16294,573,0.34,5,37,53,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502366,Aditya Kumar Naveen,HBP,16405,536,0.32,6,37,53,DL,Aditya Kumar Naveen,HBP,,,,,False,37,2019,GE
+1502367,Ram Khilawan,PBI,16321,308,0.18,7,37,53,DL,Ram Khilawan,PBI,,,,,False,37,2019,GE
+1502368,Rajendra Prasad Gupta,PSJP,16272,303,0.18,8,37,53,DL,Rajendra Prasad Gupta,PSJP,,,,,False,37,2019,GE
+1502369,Harsh Nath Verma,IND,16208,208,0.12,9,37,53,DL,Harsh Nath Verma,IND,,,,,False,37,2019,GE
+1502370,Mahender Singh Churiyana,PPID,16397,196,0.12,10,37,53,DL,Mahender Singh Churiyana,PPID,,,,,False,37,2019,GE
+1502371,Mathews,BHAIP,16406,193,0.11,11,37,53,DL,Mathews,BHAIP,,,,,False,37,2019,GE
+1502372,Sumedha Bodh,JNSMP,16407,180,0.11,12,37,53,DL,Sumedha Bodh,JNSMP,,,,,False,37,2019,GE
+1502373,K. Roshan Kumar,PPOI,16288,175,0.1,13,37,53,DL,K. Roshan Kumar,PPOI,,,,,False,37,2019,GE
+1502374,Mohan Kumar Gupta,MKDVP,16381,170,0.1,14,37,53,DL,Mohan Kumar Gupta,MKDVP,,,,,False,37,2019,GE
+1502375,Suman Yadav,JMBP,16347,169,0.1,15,37,53,DL,Suman Yadav,JMBP,,,,,False,37,2019,GE
+1502376,Deepak Kumar,AAPP,16382,131,0.08,16,37,53,DL,Deepak Kumar,AAPP,,,,,False,37,2019,GE
+1502377,Roshan Kumar Choudhary,IND,16208,101,0.06,17,37,53,DL,Roshan Kumar Choudhary,IND,,,,,False,37,2019,GE
+1502378,Desh Kumar,ABJS,16410,87,0.05,18,37,53,DL,Desh Kumar,ABJS,,,,,False,37,2019,GE
+1502379,Dilip Kumar,ssrd,16395,87,0.05,18,37,53,DL,Dilip Kumar,ssrd,,,,,False,37,2019,GE
+1502380,D. K. Chopra,AIFB,16231,73,0.04,20,37,53,DL,D. K. Chopra,AIFB,,,,,False,37,2019,GE
+1502381,Birju Nayak,IND,16208,71,0.04,21,37,53,DL,Birju Nayak,IND,,,,,False,37,2019,GE
+1502382,Navanit,NYP,16323,63,0.04,22,37,53,DL,Navanit,NYP,,,,,False,37,2019,GE
+1502383,Dalbir Singh Malik,VPI,16408,62,0.04,23,37,53,DL,Dalbir Singh Malik,VPI,,,,,False,37,2019,GE
+1502385,Sunil Kumar,IND,16208,44,0.03,24,37,53,DL,Sunil Kumar,IND,,,,,False,37,2019,GE
+1502384,Sobran Singh Chauhan,RRP,16392,44,0.03,24,37,53,DL,Sobran Singh Chauhan,RRP,,,,,False,37,2019,GE
+1502386,Sandeep Gupta,RAJADP,16409,39,0.02,26,37,53,DL,Sandeep Gupta,RAJADP,,,,,False,37,2019,GE
+1502387,Nausha Khan,IND,16208,36,0.02,27,37,53,DL,Nausha Khan,IND,,,,,False,37,2019,GE
+1502388,Jitendra Sharma,PRISM,16399,35,0.02,28,37,53,DL,Jitendra Sharma,PRISM,,,,,False,37,2019,GE
+1502389,Arvinder Singh Lovely,INC,16205,60858,37.18,1,37,54,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502390,Gautam Gambhir,BJP,16207,55170,33.7,2,37,54,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502391,Atishi,AAAP,16293,43921,26.83,3,37,54,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502392,Sanjay Kumar,BSP,16206,1472,0.9,4,37,54,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502393,None Of The Above,NOTA,16294,442,0.27,5,37,54,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502394,Satish Kumar Prajapati,MKDVP,16381,221,0.14,6,37,54,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502395,Ajay Chaudhary,AAPP,16382,194,0.12,7,37,54,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502396,Surender Gupta,NAPt,16411,117,0.07,8,37,54,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502397,Amanullah Ahmed,BHAIP,16406,113,0.07,9,37,54,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502398,Mukesh Jadly,UtPP,16412,105,0.06,10,37,54,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502399,Hafiz Burhanuddin,TNRMPI,16413,99,0.06,11,37,54,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502400,Harbalwinder Singh,IND,16208,97,0.06,12,37,54,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502401,Ashok Surana,IND,16208,96,0.06,13,37,54,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502402,Hitesh Kumar,JPJD,16389,90,0.05,14,37,54,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502403,Raj Kumar Dhingiya,IND,16208,79,0.05,15,37,54,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502404,Manoj Kumar Gupta,IND,16208,74,0.05,16,37,54,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502405,Manjeet Singh,RaNP,16394,72,0.04,17,37,54,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502406,Dr. Krishan Singh Chauhan,PPID,16397,67,0.04,18,37,54,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502407,Rahimuddin Shah,IND,16208,66,0.04,19,37,54,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502408,Manju Chhibber,RPI(A),16238,60,0.04,20,37,54,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502409,Shiv Kumar,IND,16208,49,0.03,21,37,54,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502410,Mohan Lal Sharma,SatBP,16378,48,0.03,22,37,54,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502411,Neeru Mongia,PRISM,16399,41,0.03,23,37,54,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502412,D. Durga Prasad,CHALP,16387,40,0.02,24,37,54,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502413,Deepti Nadella,PPOI,16288,35,0.02,25,37,54,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502414,Ravi Kumar,IND,16208,33,0.02,26,37,54,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502415,Anupam Tripathi,BKNP,16414,31,0.02,27,37,54,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502416,Gautam Gambhir,BJP,16207,73885,58.37,1,37,55,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502417,Atishi,AAAP,16293,25113,19.84,2,37,55,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502418,Arvinder Singh Lovely,INC,16205,22712,17.94,3,37,55,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502419,Sanjay Kumar,BSP,16206,2530,2.0,4,37,55,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502420,None Of The Above,NOTA,16294,451,0.36,5,37,55,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502421,Mukesh Jadly,UtPP,16412,180,0.14,6,37,55,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502422,Ajay Chaudhary,AAPP,16382,179,0.14,7,37,55,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502423,Satish Kumar Prajapati,MKDVP,16381,154,0.12,8,37,55,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502424,Surender Gupta,NAPt,16411,124,0.1,9,37,55,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502425,Hitesh Kumar,JPJD,16389,112,0.09,10,37,55,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502427,Raj Kumar Dhingiya,IND,16208,109,0.09,11,37,55,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502426,Ashok Surana,IND,16208,109,0.09,11,37,55,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502428,Manjeet Singh,RaNP,16394,104,0.08,13,37,55,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502429,Dr. Krishan Singh Chauhan,PPID,16397,99,0.08,14,37,55,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502430,Hafiz Burhanuddin,TNRMPI,16413,87,0.07,15,37,55,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502431,Amanullah Ahmed,BHAIP,16406,84,0.07,16,37,55,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502432,Manju Chhibber,RPI(A),16238,71,0.06,17,37,55,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502433,Manoj Kumar Gupta,IND,16208,69,0.05,18,37,55,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502434,Mohan Lal Sharma,SatBP,16378,62,0.05,19,37,55,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502435,Harbalwinder Singh,IND,16208,58,0.05,20,37,55,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502436,Shiv Kumar,IND,16208,53,0.04,21,37,55,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502437,Anupam Tripathi,BKNP,16414,47,0.04,22,37,55,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502438,Deepti Nadella,PPOI,16288,46,0.04,23,37,55,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502439,D. Durga Prasad,CHALP,16387,41,0.03,24,37,55,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502440,Neeru Mongia,PRISM,16399,40,0.03,25,37,55,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502441,Ravi Kumar,IND,16208,36,0.03,26,37,55,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502442,Rahimuddin Shah,IND,16208,32,0.03,27,37,55,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502443,Gautam Gambhir,BJP,16207,66587,55.3,1,37,56,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502444,Atishi,AAAP,16293,26095,21.67,2,37,56,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502445,Arvinder Singh Lovely,INC,16205,18886,15.68,3,37,56,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502446,Sanjay Kumar,BSP,16206,6679,5.55,4,37,56,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502447,None Of The Above,NOTA,16294,455,0.38,5,37,56,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502448,Ajay Chaudhary,AAPP,16382,188,0.16,6,37,56,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502449,Mukesh Jadly,UtPP,16412,126,0.1,7,37,56,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502450,Satish Kumar Prajapati,MKDVP,16381,118,0.1,8,37,56,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502451,Hitesh Kumar,JPJD,16389,111,0.09,9,37,56,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502452,Ashok Surana,IND,16208,106,0.09,10,37,56,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502453,Hafiz Burhanuddin,TNRMPI,16413,105,0.09,11,37,56,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502454,Dr. Krishan Singh Chauhan,PPID,16397,101,0.08,12,37,56,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502455,Raj Kumar Dhingiya,IND,16208,93,0.08,13,37,56,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502456,Surender Gupta,NAPt,16411,90,0.07,14,37,56,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502457,Manoj Kumar Gupta,IND,16208,78,0.06,15,37,56,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502458,Manju Chhibber,RPI(A),16238,75,0.06,16,37,56,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502459,Mohan Lal Sharma,SatBP,16378,66,0.05,17,37,56,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502460,Amanullah Ahmed,BHAIP,16406,65,0.05,18,37,56,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502461,Harbalwinder Singh,IND,16208,61,0.05,19,37,56,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502462,Manjeet Singh,RaNP,16394,55,0.05,20,37,56,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502463,Shiv Kumar,IND,16208,53,0.04,21,37,56,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502464,Deepti Nadella,PPOI,16288,46,0.04,22,37,56,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502465,Ravi Kumar,IND,16208,40,0.03,23,37,56,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502466,Anupam Tripathi,BKNP,16414,39,0.03,24,37,56,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502467,Neeru Mongia,PRISM,16399,34,0.03,25,37,56,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502468,D. Durga Prasad,CHALP,16387,30,0.02,26,37,56,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502469,Rahimuddin Shah,IND,16208,30,0.02,26,37,56,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502470,Gautam Gambhir,BJP,16207,86150,63.71,1,37,57,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502471,Atishi,AAAP,16293,24997,18.49,2,37,57,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502472,Arvinder Singh Lovely,INC,16205,20434,15.11,3,37,57,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502473,Sanjay Kumar,BSP,16206,1721,1.27,4,37,57,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502474,None Of The Above,NOTA,16294,572,0.42,5,37,57,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502475,Satish Kumar Prajapati,MKDVP,16381,116,0.09,6,37,57,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502476,Ajay Chaudhary,AAPP,16382,111,0.08,7,37,57,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502477,Surender Gupta,NAPt,16411,106,0.08,8,37,57,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502478,Mukesh Jadly,UtPP,16412,102,0.08,9,37,57,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502479,Hitesh Kumar,JPJD,16389,91,0.07,10,37,57,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502481,Hafiz Burhanuddin,TNRMPI,16413,75,0.06,11,37,57,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502480,Dr. Krishan Singh Chauhan,PPID,16397,75,0.06,11,37,57,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502482,Raj Kumar Dhingiya,IND,16208,72,0.05,13,37,57,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502483,Manju Chhibber,RPI(A),16238,70,0.05,14,37,57,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502484,Ashok Surana,IND,16208,66,0.05,15,37,57,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502485,Manoj Kumar Gupta,IND,16208,61,0.05,16,37,57,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502486,Manjeet Singh,RaNP,16394,57,0.04,17,37,57,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502487,Harbalwinder Singh,IND,16208,50,0.04,18,37,57,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502488,Shiv Kumar,IND,16208,41,0.03,19,37,57,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502489,Mohan Lal Sharma,SatBP,16378,39,0.03,20,37,57,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502491,Anupam Tripathi,BKNP,16414,37,0.03,21,37,57,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502490,Amanullah Ahmed,BHAIP,16406,37,0.03,21,37,57,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502493,Ravi Kumar,IND,16208,32,0.02,23,37,57,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502492,Rahimuddin Shah,IND,16208,32,0.02,23,37,57,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502494,D. Durga Prasad,CHALP,16387,30,0.02,25,37,57,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502495,Deepti Nadella,PPOI,16288,26,0.02,26,37,57,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502496,Neeru Mongia,PRISM,16399,19,0.01,27,37,57,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502497,Gautam Gambhir,BJP,16207,82650,62.49,1,37,58,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502498,Arvinder Singh Lovely,INC,16205,25666,19.41,2,37,58,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502499,Atishi,AAAP,16293,21200,16.03,3,37,58,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502500,Sanjay Kumar,BSP,16206,1071,0.81,4,37,58,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502501,None Of The Above,NOTA,16294,573,0.43,5,37,58,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502502,Ajay Chaudhary,AAPP,16382,115,0.09,6,37,58,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502503,Hitesh Kumar,JPJD,16389,84,0.06,7,37,58,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502504,Mukesh Jadly,UtPP,16412,82,0.06,8,37,58,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502505,Satish Kumar Prajapati,MKDVP,16381,81,0.06,9,37,58,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502506,Surender Gupta,NAPt,16411,65,0.05,10,37,58,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502507,Dr. Krishan Singh Chauhan,PPID,16397,62,0.05,11,37,58,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502508,Manjeet Singh,RaNP,16394,57,0.04,12,37,58,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502509,Harbalwinder Singh,IND,16208,56,0.04,13,37,58,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502510,Ashok Surana,IND,16208,52,0.04,14,37,58,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502511,Hafiz Burhanuddin,TNRMPI,16413,51,0.04,15,37,58,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502512,Manoj Kumar Gupta,IND,16208,50,0.04,16,37,58,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502513,Amanullah Ahmed,BHAIP,16406,49,0.04,17,37,58,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502514,Raj Kumar Dhingiya,IND,16208,47,0.04,18,37,58,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502515,Ravi Kumar,IND,16208,35,0.03,19,37,58,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502517,Rahimuddin Shah,IND,16208,34,0.03,20,37,58,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502516,Deepti Nadella,PPOI,16288,34,0.03,20,37,58,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502518,Manju Chhibber,RPI(A),16238,33,0.02,22,37,58,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502519,Shiv Kumar,IND,16208,29,0.02,23,37,58,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502520,Anupam Tripathi,BKNP,16414,25,0.02,24,37,58,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502521,Mohan Lal Sharma,SatBP,16378,23,0.02,25,37,58,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502522,Neeru Mongia,PRISM,16399,18,0.01,26,37,58,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502523,D. Durga Prasad,CHALP,16387,16,0.01,27,37,58,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502524,Gautam Gambhir,BJP,16207,79721,64.37,1,37,59,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502525,Arvinder Singh Lovely,INC,16205,25399,20.51,2,37,59,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502526,Atishi,AAAP,16293,15537,12.55,3,37,59,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502527,Sanjay Kumar,BSP,16206,1633,1.32,4,37,59,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502528,None Of The Above,NOTA,16294,702,0.57,5,37,59,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502529,Satish Kumar Prajapati,MKDVP,16381,94,0.08,6,37,59,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502530,Ajay Chaudhary,AAPP,16382,70,0.06,7,37,59,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502531,Surender Gupta,NAPt,16411,69,0.06,8,37,59,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502532,Harbalwinder Singh,IND,16208,61,0.05,9,37,59,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502533,Hitesh Kumar,JPJD,16389,58,0.05,10,37,59,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502534,Manjeet Singh,RaNP,16394,54,0.04,11,37,59,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502535,Hafiz Burhanuddin,TNRMPI,16413,50,0.04,12,37,59,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502536,Dr. Krishan Singh Chauhan,PPID,16397,46,0.04,13,37,59,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502537,Mukesh Jadly,UtPP,16412,46,0.04,13,37,59,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502538,Ashok Surana,IND,16208,33,0.03,15,37,59,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502539,Manju Chhibber,RPI(A),16238,31,0.03,16,37,59,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502540,Shiv Kumar,IND,16208,27,0.02,17,37,59,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502541,Amanullah Ahmed,BHAIP,16406,26,0.02,18,37,59,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502542,Manoj Kumar Gupta,IND,16208,25,0.02,19,37,59,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502543,D. Durga Prasad,CHALP,16387,24,0.02,20,37,59,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502544,Rahimuddin Shah,IND,16208,24,0.02,20,37,59,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502545,Anupam Tripathi,BKNP,16414,23,0.02,22,37,59,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502546,Raj Kumar Dhingiya,IND,16208,23,0.02,22,37,59,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502547,Deepti Nadella,PPOI,16288,21,0.02,24,37,59,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502548,Ravi Kumar,IND,16208,21,0.02,24,37,59,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502549,Mohan Lal Sharma,SatBP,16378,20,0.02,26,37,59,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502550,Neeru Mongia,PRISM,16399,11,0.01,27,37,59,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502551,Gautam Gambhir,BJP,16207,82689,58.79,1,37,60,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502552,Arvinder Singh Lovely,INC,16205,36541,25.98,2,37,60,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502553,Atishi,AAAP,16293,18695,13.29,3,37,60,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502554,Sanjay Kumar,BSP,16206,994,0.71,4,37,60,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502555,None Of The Above,NOTA,16294,543,0.39,5,37,60,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502556,Ajay Chaudhary,AAPP,16382,124,0.09,6,37,60,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502557,Hitesh Kumar,JPJD,16389,109,0.08,7,37,60,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502558,Satish Kumar Prajapati,MKDVP,16381,107,0.08,8,37,60,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502559,Surender Gupta,NAPt,16411,105,0.07,9,37,60,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502560,Harbalwinder Singh,IND,16208,81,0.06,10,37,60,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502561,Mukesh Jadly,UtPP,16412,76,0.05,11,37,60,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502562,Manjeet Singh,RaNP,16394,62,0.04,12,37,60,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502563,Hafiz Burhanuddin,TNRMPI,16413,59,0.04,13,37,60,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502564,Dr. Krishan Singh Chauhan,PPID,16397,56,0.04,14,37,60,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502565,Ravi Kumar,IND,16208,46,0.03,15,37,60,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502566,Amanullah Ahmed,BHAIP,16406,45,0.03,16,37,60,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502567,Raj Kumar Dhingiya,IND,16208,43,0.03,17,37,60,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502568,Manju Chhibber,RPI(A),16238,42,0.03,18,37,60,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502569,Manoj Kumar Gupta,IND,16208,33,0.02,19,37,60,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502570,Ashok Surana,IND,16208,32,0.02,20,37,60,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502571,Deepti Nadella,PPOI,16288,31,0.02,21,37,60,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502572,Neeru Mongia,PRISM,16399,29,0.02,22,37,60,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502573,Shiv Kumar,IND,16208,28,0.02,23,37,60,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502574,Rahimuddin Shah,IND,16208,26,0.02,24,37,60,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502576,D. Durga Prasad,CHALP,16387,22,0.02,25,37,60,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502575,Anupam Tripathi,BKNP,16414,22,0.02,25,37,60,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502577,Mohan Lal Sharma,SatBP,16378,20,0.01,27,37,60,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502578,Gautam Gambhir,BJP,16207,55973,51.29,1,37,61,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502579,Arvinder Singh Lovely,INC,16205,43434,39.8,2,37,61,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502580,Atishi,AAAP,16293,7782,7.13,3,37,61,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502581,Sanjay Kumar,BSP,16206,534,0.49,4,37,61,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502582,None Of The Above,NOTA,16294,290,0.27,5,37,61,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502583,Surender Gupta,NAPt,16411,170,0.16,6,37,61,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502584,Harbalwinder Singh,IND,16208,131,0.12,7,37,61,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502585,Satish Kumar Prajapati,MKDVP,16381,128,0.12,8,37,61,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502586,Hitesh Kumar,JPJD,16389,98,0.09,9,37,61,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502587,Manjeet Singh,RaNP,16394,60,0.05,10,37,61,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502588,Ajay Chaudhary,AAPP,16382,52,0.05,11,37,61,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502589,Hafiz Burhanuddin,TNRMPI,16413,52,0.05,11,37,61,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502590,Shiv Kumar,IND,16208,45,0.04,13,37,61,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502591,Mukesh Jadly,UtPP,16412,44,0.04,14,37,61,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502592,Ashok Surana,IND,16208,41,0.04,15,37,61,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502593,Dr. Krishan Singh Chauhan,PPID,16397,35,0.03,16,37,61,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502594,Deepti Nadella,PPOI,16288,32,0.03,17,37,61,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502595,Raj Kumar Dhingiya,IND,16208,31,0.03,18,37,61,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502596,Ravi Kumar,IND,16208,30,0.03,19,37,61,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502597,D. Durga Prasad,CHALP,16387,25,0.02,20,37,61,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502598,Manoj Kumar Gupta,IND,16208,24,0.02,21,37,61,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502599,Manju Chhibber,RPI(A),16238,23,0.02,22,37,61,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502601,Anupam Tripathi,BKNP,16414,22,0.02,23,37,61,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502600,Amanullah Ahmed,BHAIP,16406,22,0.02,23,37,61,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502603,Neeru Mongia,PRISM,16399,21,0.02,25,37,61,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502602,Mohan Lal Sharma,SatBP,16378,21,0.02,25,37,61,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502604,Rahimuddin Shah,IND,16208,16,0.01,27,37,61,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502605,Gautam Gambhir,BJP,16207,70732,58.98,1,37,62,DL,Gautam Gambhir,BJP,,,,,True,37,2019,GE
+1502606,Arvinder Singh Lovely,INC,16205,26551,22.14,2,37,62,DL,Arvinder Singh Lovely,INC,,,,,False,37,2019,GE
+1502607,Atishi,AAAP,16293,18922,15.78,3,37,62,DL,Atishi,AAAP,,,,,False,37,2019,GE
+1502608,Sanjay Kumar,BSP,16206,1943,1.62,4,37,62,DL,Sanjay Kumar,BSP,,,,,False,37,2019,GE
+1502609,None Of The Above,NOTA,16294,476,0.4,5,37,62,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502610,Ajay Chaudhary,AAPP,16382,148,0.12,6,37,62,DL,Ajay Chaudhary,AAPP,,,,,False,37,2019,GE
+1502611,Hitesh Kumar,JPJD,16389,134,0.11,7,37,62,DL,Hitesh Kumar,JPJD,,,,,False,37,2019,GE
+1502612,Satish Kumar Prajapati,MKDVP,16381,120,0.1,8,37,62,DL,Satish Kumar Prajapati,MKDVP,,,,,False,37,2019,GE
+1502613,Surender Gupta,NAPt,16411,103,0.09,9,37,62,DL,Surender Gupta,NAPt,,,,,False,37,2019,GE
+1502614,Mukesh Jadly,UtPP,16412,91,0.08,10,37,62,DL,Mukesh Jadly,UtPP,,,,,False,37,2019,GE
+1502615,Hafiz Burhanuddin,TNRMPI,16413,66,0.06,11,37,62,DL,Hafiz Burhanuddin,TNRMPI,,,,,False,37,2019,GE
+1502616,Ashok Surana,IND,16208,63,0.05,12,37,62,DL,Ashok Surana,IND,,,,,False,37,2019,GE
+1502617,Manjeet Singh,RaNP,16394,60,0.05,13,37,62,DL,Manjeet Singh,RaNP,,,,,False,37,2019,GE
+1502618,Dr. Krishan Singh Chauhan,PPID,16397,59,0.05,14,37,62,DL,Dr. Krishan Singh Chauhan,PPID,,,,,False,37,2019,GE
+1502619,Raj Kumar Dhingiya,IND,16208,50,0.04,15,37,62,DL,Raj Kumar Dhingiya,IND,,,,,False,37,2019,GE
+1502620,Manju Chhibber,RPI(A),16238,47,0.04,16,37,62,DL,Manju Chhibber,RPI(A),,,,,False,37,2019,GE
+1502621,Shiv Kumar,IND,16208,46,0.04,17,37,62,DL,Shiv Kumar,IND,,,,,False,37,2019,GE
+1502623,Manoj Kumar Gupta,IND,16208,40,0.03,18,37,62,DL,Manoj Kumar Gupta,IND,,,,,False,37,2019,GE
+1502622,Amanullah Ahmed,BHAIP,16406,40,0.03,18,37,62,DL,Amanullah Ahmed,BHAIP,,,,,False,37,2019,GE
+1502624,Harbalwinder Singh,IND,16208,38,0.03,20,37,62,DL,Harbalwinder Singh,IND,,,,,False,37,2019,GE
+1502625,Rahimuddin Shah,IND,16208,34,0.03,21,37,62,DL,Rahimuddin Shah,IND,,,,,False,37,2019,GE
+1502626,Deepti Nadella,PPOI,16288,33,0.03,22,37,62,DL,Deepti Nadella,PPOI,,,,,False,37,2019,GE
+1502627,Mohan Lal Sharma,SatBP,16378,29,0.02,23,37,62,DL,Mohan Lal Sharma,SatBP,,,,,False,37,2019,GE
+1502628,Neeru Mongia,PRISM,16399,27,0.02,24,37,62,DL,Neeru Mongia,PRISM,,,,,False,37,2019,GE
+1502629,Ravi Kumar,IND,16208,26,0.02,25,37,62,DL,Ravi Kumar,IND,,,,,False,37,2019,GE
+1502630,Anupam Tripathi,BKNP,16414,23,0.02,26,37,62,DL,Anupam Tripathi,BKNP,,,,,False,37,2019,GE
+1502631,D. Durga Prasad,CHALP,16387,19,0.02,27,37,62,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502632,Manoj Tiwari,BJP,16207,60140,47.3,1,37,63,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502633,Sheila Dikshit,INC,16205,39982,31.44,2,37,63,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502634,Dilip Pandey,AAAP,16293,21615,17.0,3,37,63,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502635,Rajveer Singh,BSP,16206,3137,2.47,4,37,63,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502636,None Of The Above,NOTA,16294,414,0.33,5,37,63,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502637,Sunil Vishvakarma,ANC,16287,214,0.17,6,37,63,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502638,Ajay Bhai,RTORP,16385,186,0.15,7,37,63,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502639,Manager Chaurasiya,SUCI(C),16384,184,0.14,8,37,63,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502640,Mohd. Irfan,BHAPRAP,16383,172,0.14,9,37,63,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502641,Anil Kumar Yadav,IND,16208,149,0.12,10,37,63,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502642,Mohd. Hasan,RPI(A),16238,130,0.1,11,37,63,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502643,Mukesh,AAPP,16382,130,0.1,11,37,63,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502644,Md. Akram,IND,16208,85,0.07,13,37,63,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502645,Mahender Paswan,MKDVP,16381,81,0.06,14,37,63,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502646,D. Durga Prasad,CHALP,16387,78,0.06,15,37,63,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502647,Pradesh Kumar,SPRP,16386,70,0.06,16,37,63,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502648,S N Singh,IND,16208,58,0.05,17,37,63,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502649,Yogesh Swamy,IND,16208,58,0.05,17,37,63,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502650,J. K. Jain,JPJD,16389,48,0.04,19,37,63,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502651,Amit Kumar Sharma,SJVP,16391,45,0.04,20,37,63,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502652,Mahfooz Khan,IND,16208,43,0.03,21,37,63,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502653,Anuruddh Kumar Dube,BLokSP,16388,39,0.03,22,37,63,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502654,Amrender Kumar,IND,16208,37,0.03,23,37,63,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502655,Dan Bahadur Yadav,bjdi,16346,29,0.02,24,37,63,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502656,Abhinav Kumar,SANVP,16390,28,0.02,25,37,63,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1502657,Manoj Tiwari,BJP,16207,82999,61.3,1,37,64,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502658,Sheila Dikshit,INC,16205,29445,21.75,2,37,64,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502659,Dilip Pandey,AAAP,16293,17851,13.18,3,37,64,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502660,Rajveer Singh,BSP,16206,3343,2.47,4,37,64,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502661,None Of The Above,NOTA,16294,553,0.41,5,37,64,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502662,Sunil Vishvakarma,ANC,16287,161,0.12,6,37,64,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502663,Ajay Bhai,RTORP,16385,117,0.09,7,37,64,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502664,Mohd. Irfan,BHAPRAP,16383,108,0.08,8,37,64,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502665,Mukesh,AAPP,16382,102,0.08,9,37,64,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502666,Manager Chaurasiya,SUCI(C),16384,90,0.07,10,37,64,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502667,Anil Kumar Yadav,IND,16208,78,0.06,11,37,64,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502668,Mohd. Hasan,RPI(A),16238,75,0.06,12,37,64,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502669,Mahender Paswan,MKDVP,16381,59,0.04,13,37,64,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502670,Pradesh Kumar,SPRP,16386,50,0.04,14,37,64,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502671,Md. Akram,IND,16208,48,0.04,15,37,64,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502672,Amit Kumar Sharma,SJVP,16391,45,0.03,16,37,64,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502673,J. K. Jain,JPJD,16389,43,0.03,17,37,64,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502674,S N Singh,IND,16208,40,0.03,18,37,64,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502675,D. Durga Prasad,CHALP,16387,35,0.03,19,37,64,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502676,Yogesh Swamy,IND,16208,31,0.02,20,37,64,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502677,Amrender Kumar,IND,16208,28,0.02,21,37,64,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502678,Anuruddh Kumar Dube,BLokSP,16388,27,0.02,22,37,64,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502679,Dan Bahadur Yadav,bjdi,16346,25,0.02,23,37,64,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502680,Mahfooz Khan,IND,16208,22,0.02,24,37,64,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502681,Abhinav Kumar,SANVP,16390,18,0.01,25,37,64,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1502682,Sheila Dikshit,INC,16205,64382,56.56,1,37,65,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502683,Manoj Tiwari,BJP,16207,36773,32.3,2,37,65,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502684,Dilip Pandey,AAAP,16293,10091,8.86,3,37,65,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502685,Rajveer Singh,BSP,16206,1173,1.03,4,37,65,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502686,None Of The Above,NOTA,16294,198,0.17,5,37,65,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502687,Ajay Bhai,RTORP,16385,197,0.17,6,37,65,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502688,Md. Akram,IND,16208,134,0.12,7,37,65,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502689,Mohd. Irfan,BHAPRAP,16383,122,0.11,8,37,65,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502690,Manager Chaurasiya,SUCI(C),16384,119,0.1,9,37,65,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502691,Anil Kumar Yadav,IND,16208,101,0.09,10,37,65,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502692,Sunil Vishvakarma,ANC,16287,93,0.08,11,37,65,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502693,Mohd. Hasan,RPI(A),16238,67,0.06,12,37,65,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502694,Mahender Paswan,MKDVP,16381,60,0.05,13,37,65,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502695,D. Durga Prasad,CHALP,16387,46,0.04,14,37,65,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502696,S N Singh,IND,16208,43,0.04,15,37,65,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502697,Mukesh,AAPP,16382,42,0.04,16,37,65,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502698,Pradesh Kumar,SPRP,16386,29,0.03,17,37,65,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502699,Anuruddh Kumar Dube,BLokSP,16388,27,0.02,18,37,65,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502700,Amit Kumar Sharma,SJVP,16391,25,0.02,19,37,65,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502701,Yogesh Swamy,IND,16208,24,0.02,20,37,65,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502702,J. K. Jain,JPJD,16389,23,0.02,21,37,65,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502703,Amrender Kumar,IND,16208,22,0.02,22,37,65,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502704,Abhinav Kumar,SANVP,16390,15,0.01,23,37,65,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1502706,Mahfooz Khan,IND,16208,14,0.01,24,37,65,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502705,Dan Bahadur Yadav,bjdi,16346,14,0.01,24,37,65,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502707,Manoj Tiwari,BJP,16207,91808,68.24,1,37,66,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502708,Sheila Dikshit,INC,16205,25175,18.71,2,37,66,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502709,Dilip Pandey,AAAP,16293,13370,9.94,3,37,66,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502710,Rajveer Singh,BSP,16206,2332,1.73,4,37,66,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502711,None Of The Above,NOTA,16294,399,0.3,5,37,66,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502712,Sunil Vishvakarma,ANC,16287,165,0.12,6,37,66,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502713,Mohd. Hasan,RPI(A),16238,148,0.11,7,37,66,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502714,Ajay Bhai,RTORP,16385,147,0.11,8,37,66,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502715,Mohd. Irfan,BHAPRAP,16383,136,0.1,9,37,66,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502716,Manager Chaurasiya,SUCI(C),16384,133,0.1,10,37,66,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502717,Mukesh,AAPP,16382,111,0.08,11,37,66,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502718,Anil Kumar Yadav,IND,16208,88,0.07,12,37,66,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502719,Mahender Paswan,MKDVP,16381,80,0.06,13,37,66,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502720,S N Singh,IND,16208,71,0.05,14,37,66,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502721,D. Durga Prasad,CHALP,16387,45,0.03,15,37,66,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502722,Pradesh Kumar,SPRP,16386,42,0.03,16,37,66,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502723,Md. Akram,IND,16208,41,0.03,17,37,66,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502724,Yogesh Swamy,IND,16208,39,0.03,18,37,66,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502726,Dan Bahadur Yadav,bjdi,16346,34,0.03,19,37,66,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502725,Amrender Kumar,IND,16208,34,0.03,19,37,66,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502727,Amit Kumar Sharma,SJVP,16391,33,0.02,21,37,66,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502728,Anuruddh Kumar Dube,BLokSP,16388,31,0.02,22,37,66,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502729,J. K. Jain,JPJD,16389,30,0.02,23,37,66,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502730,Abhinav Kumar,SANVP,16390,28,0.02,24,37,66,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1502731,Mahfooz Khan,IND,16208,18,0.01,25,37,66,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502732,Manoj Tiwari,BJP,16207,57827,44.43,1,37,67,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502733,Sheila Dikshit,INC,16205,57227,43.96,2,37,67,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502734,Dilip Pandey,AAAP,16293,12564,9.65,3,37,67,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502735,Rajveer Singh,BSP,16206,1151,0.88,4,37,67,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502736,None Of The Above,NOTA,16294,235,0.18,5,37,67,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502737,Ajay Bhai,RTORP,16385,166,0.13,6,37,67,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502738,Manager Chaurasiya,SUCI(C),16384,121,0.09,7,37,67,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502739,Sunil Vishvakarma,ANC,16287,105,0.08,8,37,67,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502740,Mohd. Irfan,BHAPRAP,16383,99,0.08,9,37,67,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502741,Anil Kumar Yadav,IND,16208,91,0.07,10,37,67,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502742,Mohd. Hasan,RPI(A),16238,90,0.07,11,37,67,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502743,Mukesh,AAPP,16382,70,0.05,12,37,67,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502744,D. Durga Prasad,CHALP,16387,66,0.05,13,37,67,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502745,Pradesh Kumar,SPRP,16386,43,0.03,14,37,67,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502746,Mahender Paswan,MKDVP,16381,41,0.03,15,37,67,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502747,S N Singh,IND,16208,40,0.03,16,37,67,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502748,Anuruddh Kumar Dube,BLokSP,16388,34,0.03,17,37,67,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502750,Md. Akram,IND,16208,33,0.03,18,37,67,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502749,Amit Kumar Sharma,SJVP,16391,33,0.03,18,37,67,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502751,J. K. Jain,JPJD,16389,30,0.02,20,37,67,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502752,Yogesh Swamy,IND,16208,23,0.02,21,37,67,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502753,Amrender Kumar,IND,16208,21,0.02,22,37,67,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502754,Abhinav Kumar,SANVP,16390,19,0.01,23,37,67,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1502755,Dan Bahadur Yadav,bjdi,16346,19,0.01,23,37,67,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502756,Mahfooz Khan,IND,16208,17,0.01,25,37,67,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502757,Manoj Tiwari,BJP,16207,81331,53.28,1,37,68,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502758,Sheila Dikshit,INC,16205,31739,20.79,2,37,68,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502759,Dilip Pandey,AAAP,16293,21940,14.37,3,37,68,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502760,Rajveer Singh,BSP,16206,15180,9.94,4,37,68,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502761,None Of The Above,NOTA,16294,453,0.3,5,37,68,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502762,Sunil Vishvakarma,ANC,16287,275,0.18,6,37,68,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502763,Mohd. Irfan,BHAPRAP,16383,196,0.13,7,37,68,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502764,Manager Chaurasiya,SUCI(C),16384,177,0.12,8,37,68,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502765,Mukesh,AAPP,16382,167,0.11,9,37,68,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502766,Ajay Bhai,RTORP,16385,166,0.11,10,37,68,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502767,Mohd. Hasan,RPI(A),16238,148,0.1,11,37,68,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502768,Anil Kumar Yadav,IND,16208,131,0.09,12,37,68,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502769,Mahender Paswan,MKDVP,16381,92,0.06,13,37,68,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502770,Md. Akram,IND,16208,87,0.06,14,37,68,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502771,Pradesh Kumar,SPRP,16386,76,0.05,15,37,68,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502772,D. Durga Prasad,CHALP,16387,75,0.05,16,37,68,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502773,S N Singh,IND,16208,74,0.05,17,37,68,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502774,Yogesh Swamy,IND,16208,57,0.04,18,37,68,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502775,J. K. Jain,JPJD,16389,51,0.03,19,37,68,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502776,Dan Bahadur Yadav,bjdi,16346,47,0.03,20,37,68,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502777,Amit Kumar Sharma,SJVP,16391,43,0.03,21,37,68,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502778,Mahfooz Khan,IND,16208,42,0.03,22,37,68,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502779,Amrender Kumar,IND,16208,40,0.03,23,37,68,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502780,Abhinav Kumar,SANVP,16390,37,0.02,24,37,68,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1502781,Anuruddh Kumar Dube,BLokSP,16388,31,0.02,25,37,68,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502782,Manoj Tiwari,BJP,16207,73501,43.92,1,37,69,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502783,Sheila Dikshit,INC,16205,69803,41.71,2,37,69,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502784,Dilip Pandey,AAAP,16293,17803,10.64,3,37,69,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502785,Rajveer Singh,BSP,16206,3696,2.21,4,37,69,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502786,None Of The Above,NOTA,16294,325,0.19,5,37,69,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502787,Ajay Bhai,RTORP,16385,267,0.16,6,37,69,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502788,Manager Chaurasiya,SUCI(C),16384,236,0.14,7,37,69,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502789,Sunil Vishvakarma,ANC,16287,228,0.14,8,37,69,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502790,Mohd. Irfan,BHAPRAP,16383,194,0.12,9,37,69,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502791,Mukesh,AAPP,16382,165,0.1,10,37,69,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502792,Mohd. Hasan,RPI(A),16238,159,0.1,11,37,69,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502793,Anil Kumar Yadav,IND,16208,139,0.08,12,37,69,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502794,Mahender Paswan,MKDVP,16381,110,0.07,13,37,69,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502795,S N Singh,IND,16208,98,0.06,14,37,69,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502796,Md. Akram,IND,16208,84,0.05,15,37,69,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502797,D. Durga Prasad,CHALP,16387,80,0.05,16,37,69,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502798,Pradesh Kumar,SPRP,16386,75,0.04,17,37,69,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502799,Yogesh Swamy,IND,16208,67,0.04,18,37,69,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502800,Amrender Kumar,IND,16208,57,0.03,19,37,69,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502801,J. K. Jain,JPJD,16389,54,0.03,20,37,69,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502802,Dan Bahadur Yadav,bjdi,16346,53,0.03,21,37,69,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502803,Amit Kumar Sharma,SJVP,16391,51,0.03,22,37,69,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502804,Anuruddh Kumar Dube,BLokSP,16388,45,0.03,23,37,69,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502805,Mahfooz Khan,IND,16208,43,0.03,24,37,69,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502806,Abhinav Kumar,SANVP,16390,30,0.02,25,37,69,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE
+1502807,Manoj Tiwari,BJP,16207,105878,61.37,1,37,70,DL,Manoj Tiwari,BJP,,,,,True,37,2019,GE
+1502808,Sheila Dikshit,INC,16205,44071,25.55,2,37,70,DL,Sheila Dikshit,INC,,,,,False,37,2019,GE
+1502809,Dilip Pandey,AAAP,16293,15906,9.22,3,37,70,DL,Dilip Pandey,AAAP,,,,,False,37,2019,GE
+1502810,Rajveer Singh,BSP,16206,3557,2.06,4,37,70,DL,Rajveer Singh,BSP,,,,,False,37,2019,GE
+1502811,None Of The Above,NOTA,16294,590,0.34,5,37,70,DL,None Of The Above,NOTA,,,,,False,37,2019,GE
+1502812,Sunil Vishvakarma,ANC,16287,263,0.15,6,37,70,DL,Sunil Vishvakarma,ANC,,,,,False,37,2019,GE
+1502813,Manager Chaurasiya,SUCI(C),16384,238,0.14,7,37,70,DL,Manager Chaurasiya,SUCI(C),,,,,False,37,2019,GE
+1502814,Ajay Bhai,RTORP,16385,230,0.13,8,37,70,DL,Ajay Bhai,RTORP,,,,,False,37,2019,GE
+1502815,Mohd. Irfan,BHAPRAP,16383,225,0.13,9,37,70,DL,Mohd. Irfan,BHAPRAP,,,,,False,37,2019,GE
+1502816,Mohd. Hasan,RPI(A),16238,206,0.12,10,37,70,DL,Mohd. Hasan,RPI(A),,,,,False,37,2019,GE
+1502817,Anil Kumar Yadav,IND,16208,155,0.09,11,37,70,DL,Anil Kumar Yadav,IND,,,,,False,37,2019,GE
+1502818,Md. Akram,IND,16208,153,0.09,12,37,70,DL,Md. Akram,IND,,,,,False,37,2019,GE
+1502819,Mukesh,AAPP,16382,152,0.09,13,37,70,DL,Mukesh,AAPP,,,,,False,37,2019,GE
+1502820,S N Singh,IND,16208,120,0.07,14,37,70,DL,S N Singh,IND,,,,,False,37,2019,GE
+1502821,Yogesh Swamy,IND,16208,105,0.06,15,37,70,DL,Yogesh Swamy,IND,,,,,False,37,2019,GE
+1502822,Mahender Paswan,MKDVP,16381,100,0.06,16,37,70,DL,Mahender Paswan,MKDVP,,,,,False,37,2019,GE
+1502823,D. Durga Prasad,CHALP,16387,93,0.05,17,37,70,DL,D. Durga Prasad,CHALP,,,,,False,37,2019,GE
+1502824,Amrender Kumar,IND,16208,88,0.05,18,37,70,DL,Amrender Kumar,IND,,,,,False,37,2019,GE
+1502825,Pradesh Kumar,SPRP,16386,76,0.04,19,37,70,DL,Pradesh Kumar,SPRP,,,,,False,37,2019,GE
+1502826,J. K. Jain,JPJD,16389,65,0.04,20,37,70,DL,J. K. Jain,JPJD,,,,,False,37,2019,GE
+1502827,Dan Bahadur Yadav,bjdi,16346,60,0.03,21,37,70,DL,Dan Bahadur Yadav,bjdi,,,,,False,37,2019,GE
+1502828,Anuruddh Kumar Dube,BLokSP,16388,57,0.03,22,37,70,DL,Anuruddh Kumar Dube,BLokSP,,,,,False,37,2019,GE
+1502829,Amit Kumar Sharma,SJVP,16391,49,0.03,23,37,70,DL,Amit Kumar Sharma,SJVP,,,,,False,37,2019,GE
+1502830,Mahfooz Khan,IND,16208,44,0.03,24,37,70,DL,Mahfooz Khan,IND,,,,,False,37,2019,GE
+1502831,Abhinav Kumar,SANVP,16390,35,0.02,25,37,70,DL,Abhinav Kumar,SANVP,,,,,False,37,2019,GE

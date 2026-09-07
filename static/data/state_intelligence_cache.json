@@ -1,0 +1,341 @@
+{
+  "MZ": {
+    "data_quality": {
+      "retro_timeline": {
+        "AE": [
+          {
+            "year": 2008,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2008,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2013,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2013,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2018,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2018,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2023,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2023,
+            "availability": 100.0,
+            "missing": 0
+          }
+        ],
+        "GE": [
+          {
+            "year": 2009,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2009,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2014,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2014,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2019,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2019,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2024,
+            "availability": 100.0,
+            "missing": 0
+          },
+          {
+            "year": 2024,
+            "availability": 100.0,
+            "missing": 0
+          }
+        ],
+        "AE-BP": [
+          {
+            "year": 2013,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2013,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2014,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2014,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2015,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2015,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2019,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2019,
+            "availability": 2.5,
+            "missing": 39
+          },
+          {
+            "year": 2021,
+            "availability": 5.0,
+            "missing": 38
+          },
+          {
+            "year": 2021,
+            "availability": 5.0,
+            "missing": 38
+          }
+        ]
+      },
+      "total_acs": 40,
+      "missing_acs": [],
+      "bypoll_missing": [
+        {
+          "ac_no": 4,
+          "ac_name": "Tuirial"
+        },
+        {
+          "ac_no": 8,
+          "ac_name": "Chalfilh"
+        },
+        {
+          "ac_no": 12,
+          "ac_name": "Aizawl North - III(ST)"
+        },
+        {
+          "ac_no": 15,
+          "ac_name": "Aizawl West 1"
+        },
+        {
+          "ac_no": 26,
+          "ac_name": "Serchhip (ST)"
+        },
+        {
+          "ac_no": 28,
+          "ac_name": "Hrangturzo"
+        }
+      ],
+      "quality_score": 85.0
+    },
+    "form20": {
+      "timeline": {
+        "AE": [
+          {
+            "year": 2008,
+            "availability": 100.0,
+            "missing_acs": 0,
+            "vote_mismatch": 2.41
+          },
+          {
+            "year": 2013,
+            "availability": 97.5,
+            "missing_acs": 1,
+            "vote_mismatch": 2.41
+          },
+          {
+            "year": 2018,
+            "availability": 100.0,
+            "missing_acs": 0,
+            "vote_mismatch": 2.41
+          },
+          {
+            "year": 2023,
+            "availability": 100.0,
+            "missing_acs": 0,
+            "vote_mismatch": 2.41
+          }
+        ],
+        "GE": [
+          {
+            "year": 2009,
+            "availability": 100.0,
+            "missing_acs": 0,
+            "vote_mismatch": 2.41
+          },
+          {
+            "year": 2014,
+            "availability": 100.0,
+            "missing_acs": 0,
+            "vote_mismatch": 2.41
+          },
+          {
+            "year": 2019,
+            "availability": 100.0,
+            "missing_acs": 0,
+            "vote_mismatch": 2.41
+          }
+        ]
+      },
+      "total_booths": 37127.0
+    },
+    "governance": {
+      "lgd": {
+        "districts": 11,
+        "villages": 886,
+        "wards": 242,
+        "blocks": 30,
+        "panchayats": 492
+      },
+      "secc_units": 599,
+      "ejal_households": 133060
+    },
+    "demographics": {
+      "total_population": 1274640,
+      "people_groups": 124,
+      "muslim_population": 14832,
+      "muslim_percentage": 1.16,
+      "top_districts": [
+        {
+          "district": "Kolasib",
+          "muslim_pct": 5.27,
+          "muslim_pop": 4426
+        },
+        {
+          "district": "Mamit",
+          "muslim_pct": 2.06,
+          "muslim_pop": 1782
+        },
+        {
+          "district": "Aizawl",
+          "muslim_pct": 1.34,
+          "muslim_pop": 5177
+        },
+        {
+          "district": "Saiha",
+          "muslim_pct": 0.91,
+          "muslim_pop": 514
+        },
+        {
+          "district": "Lunglei",
+          "muslim_pct": 0.86,
+          "muslim_pop": 1164
+        },
+        {
+          "district": "Champhai",
+          "muslim_pct": 0.62,
+          "muslim_pop": 438
+        },
+        {
+          "district": "Saitual",
+          "muslim_pct": 0.61,
+          "muslim_pop": 197
+        },
+        {
+          "district": "Serchhip",
+          "muslim_pct": 0.52,
+          "muslim_pop": 335
+        }
+      ],
+      "all_districts": [
+        {
+          "district": "Kolasib",
+          "muslim_pct": 5.27,
+          "muslim_pop": 4426
+        },
+        {
+          "district": "Mamit",
+          "muslim_pct": 2.06,
+          "muslim_pop": 1782
+        },
+        {
+          "district": "Aizawl",
+          "muslim_pct": 1.34,
+          "muslim_pop": 5177
+        },
+        {
+          "district": "Saiha",
+          "muslim_pct": 0.91,
+          "muslim_pop": 514
+        },
+        {
+          "district": "Lunglei",
+          "muslim_pct": 0.86,
+          "muslim_pop": 1164
+        },
+        {
+          "district": "Champhai",
+          "muslim_pct": 0.62,
+          "muslim_pop": 438
+        },
+        {
+          "district": "Saitual",
+          "muslim_pct": 0.61,
+          "muslim_pop": 197
+        },
+        {
+          "district": "Serchhip",
+          "muslim_pct": 0.52,
+          "muslim_pop": 335
+        },
+        {
+          "district": "Hnahthial",
+          "muslim_pct": 0.48,
+          "muslim_pop": 126
+        },
+        {
+          "district": "Lawngtlai",
+          "muslim_pct": 0.44,
+          "muslim_pop": 522
+        },
+        {
+          "district": "Khawzawl",
+          "muslim_pct": 0.42,
+          "muslim_pop": 151
+        }
+      ],
+      "zones": []
+    }
+  }
+}

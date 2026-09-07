@@ -1,0 +1,466 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1764591,Indra Hang Subba,SKM,22694,5934,43.84,1,53,1,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764592,Bharat Basnett,CAPS,22703,2561,18.92,2,53,1,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764593,Prem Das Rai,SDF,22687,2540,18.77,3,53,1,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764594,Laten Tshering Sherpa,IND,22691,1119,8.27,4,53,1,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764595,Kharga Bhadur Rai,SRPP,22704,502,3.71,5,53,1,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764596,Dinesh Chandra Nepal,BJP,22690,288,2.13,6,53,1,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764597,Sambhu Chettri,IND,22691,218,1.61,7,53,1,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764598,Nota,NOTA,22695,110,0.81,8,53,1,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764599,Gopal Chettri,INC,22688,95,0.7,9,53,1,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764601,Shyamal Pal,IND,22691,34,0.25,10,53,1,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764600,Rudra Mani Pradhan,IND,22691,34,0.25,10,53,1,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764602,Ravi Chandra Rai,IND,22691,29,0.21,12,53,1,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764603,Madhukar Dhakal,IND,22691,27,0.2,13,53,1,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764604,Nawin Kiran Pradhan,IND,22691,27,0.2,13,53,1,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764605,Beena Rai,IND,22691,17,0.13,15,53,1,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764606,Indra Hang Subba,SKM,22694,5215,44.43,1,53,2,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764607,Prem Das Rai,SDF,22687,2950,25.13,2,53,2,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764608,Bharat Basnett,CAPS,22703,2097,17.87,3,53,2,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764609,Laten Tshering Sherpa,IND,22691,478,4.07,4,53,2,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764610,Dinesh Chandra Nepal,BJP,22690,338,2.88,5,53,2,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764611,Kharga Bhadur Rai,SRPP,22704,224,1.91,6,53,2,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764612,Sambhu Chettri,IND,22691,197,1.68,7,53,2,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764613,Nota,NOTA,22695,66,0.56,8,53,2,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764614,Gopal Chettri,INC,22688,52,0.44,9,53,2,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764615,Ravi Chandra Rai,IND,22691,28,0.24,10,53,2,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764616,Beena Rai,IND,22691,23,0.2,11,53,2,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764617,Nawin Kiran Pradhan,IND,22691,22,0.19,12,53,2,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764618,Shyamal Pal,IND,22691,21,0.18,13,53,2,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764619,Madhukar Dhakal,IND,22691,15,0.13,14,53,2,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764620,Rudra Mani Pradhan,IND,22691,11,0.09,15,53,2,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764621,Indra Hang Subba,SKM,22694,6014,44.18,1,53,3,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764622,Bharat Basnett,CAPS,22703,2683,19.71,2,53,3,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764623,Prem Das Rai,SDF,22687,1889,13.88,3,53,3,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764624,Laten Tshering Sherpa,IND,22691,1443,10.6,4,53,3,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764625,Dinesh Chandra Nepal,BJP,22690,1086,7.98,5,53,3,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764626,Sambhu Chettri,IND,22691,157,1.15,6,53,3,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764627,Nota,NOTA,22695,77,0.57,7,53,3,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764628,Gopal Chettri,INC,22688,58,0.43,8,53,3,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764629,Kharga Bhadur Rai,SRPP,22704,51,0.37,9,53,3,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764630,Beena Rai,IND,22691,32,0.24,10,53,3,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764631,Shyamal Pal,IND,22691,29,0.21,11,53,3,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764632,Ravi Chandra Rai,IND,22691,27,0.2,12,53,3,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764633,Nawin Kiran Pradhan,IND,22691,25,0.18,13,53,3,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764634,Rudra Mani Pradhan,IND,22691,23,0.17,14,53,3,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764635,Madhukar Dhakal,IND,22691,18,0.13,15,53,3,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764636,Indra Hang Subba,SKM,22694,4380,39.28,1,53,4,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764637,Bharat Basnett,CAPS,22703,3032,27.19,2,53,4,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764638,Prem Das Rai,SDF,22687,1158,10.38,3,53,4,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764639,Laten Tshering Sherpa,IND,22691,848,7.6,4,53,4,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764640,Kharga Bhadur Rai,SRPP,22704,818,7.34,5,53,4,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764641,Dinesh Chandra Nepal,BJP,22690,374,3.35,6,53,4,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764642,Sambhu Chettri,IND,22691,231,2.07,7,53,4,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764643,Nota,NOTA,22695,88,0.79,8,53,4,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764644,Gopal Chettri,INC,22688,53,0.48,9,53,4,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764645,Nawin Kiran Pradhan,IND,22691,47,0.42,10,53,4,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764646,Ravi Chandra Rai,IND,22691,32,0.29,11,53,4,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764647,Shyamal Pal,IND,22691,29,0.26,12,53,4,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764648,Beena Rai,IND,22691,26,0.23,13,53,4,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764649,Rudra Mani Pradhan,IND,22691,19,0.17,14,53,4,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764650,Madhukar Dhakal,IND,22691,17,0.15,15,53,4,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764651,Indra Hang Subba,SKM,22694,6200,45.95,1,53,5,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764652,Prem Das Rai,SDF,22687,2593,19.22,2,53,5,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764653,Laten Tshering Sherpa,IND,22691,2477,18.36,3,53,5,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764654,Bharat Basnett,CAPS,22703,1308,9.69,4,53,5,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764655,Dinesh Chandra Nepal,BJP,22690,337,2.5,5,53,5,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764656,Sambhu Chettri,IND,22691,212,1.57,6,53,5,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764657,Nota,NOTA,22695,104,0.77,7,53,5,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764658,Gopal Chettri,INC,22688,60,0.44,8,53,5,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764659,Kharga Bhadur Rai,SRPP,22704,45,0.33,9,53,5,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764660,Shyamal Pal,IND,22691,40,0.3,10,53,5,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764661,Ravi Chandra Rai,IND,22691,36,0.27,11,53,5,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764662,Rudra Mani Pradhan,IND,22691,26,0.19,12,53,5,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764663,Nawin Kiran Pradhan,IND,22691,24,0.18,13,53,5,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764664,Madhukar Dhakal,IND,22691,16,0.12,14,53,5,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764665,Beena Rai,IND,22691,14,0.1,15,53,5,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764666,Indra Hang Subba,SKM,22694,6157,46.92,1,53,6,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764667,Prem Das Rai,SDF,22687,2533,19.3,2,53,6,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764668,Laten Tshering Sherpa,IND,22691,2051,15.63,3,53,6,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764669,Bharat Basnett,CAPS,22703,1564,11.92,4,53,6,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764670,Dinesh Chandra Nepal,BJP,22690,333,2.54,5,53,6,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764671,Sambhu Chettri,IND,22691,183,1.39,6,53,6,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764672,Nota,NOTA,22695,90,0.69,7,53,6,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764673,Gopal Chettri,INC,22688,66,0.5,8,53,6,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764674,Kharga Bhadur Rai,SRPP,22704,36,0.27,9,53,6,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764675,Shyamal Pal,IND,22691,22,0.17,10,53,6,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764676,Beena Rai,IND,22691,21,0.16,11,53,6,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764677,Ravi Chandra Rai,IND,22691,21,0.16,11,53,6,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764678,Nawin Kiran Pradhan,IND,22691,17,0.13,13,53,6,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764679,Rudra Mani Pradhan,IND,22691,16,0.12,14,53,6,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764680,Madhukar Dhakal,IND,22691,13,0.1,15,53,6,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764681,Indra Hang Subba,SKM,22694,8302,60.33,1,53,7,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764682,Prem Das Rai,SDF,22687,2511,18.25,2,53,7,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764683,Bharat Basnett,CAPS,22703,1596,11.6,3,53,7,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764684,Laten Tshering Sherpa,IND,22691,512,3.72,4,53,7,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764685,Dinesh Chandra Nepal,BJP,22690,286,2.08,5,53,7,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764686,Sambhu Chettri,IND,22691,224,1.63,6,53,7,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764687,Nota,NOTA,22695,98,0.71,7,53,7,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764688,Kharga Bhadur Rai,SRPP,22704,48,0.35,8,53,7,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764689,Gopal Chettri,INC,22688,40,0.29,9,53,7,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764690,Madhukar Dhakal,IND,22691,33,0.24,10,53,7,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764691,Shyamal Pal,IND,22691,31,0.23,11,53,7,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764692,Nawin Kiran Pradhan,IND,22691,24,0.17,12,53,7,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764693,Ravi Chandra Rai,IND,22691,20,0.15,13,53,7,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764694,Beena Rai,IND,22691,18,0.13,14,53,7,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764695,Rudra Mani Pradhan,IND,22691,17,0.12,15,53,7,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764696,Indra Hang Subba,SKM,22694,4562,48.55,1,53,8,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764697,Prem Das Rai,SDF,22687,2530,26.93,2,53,8,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764698,Bharat Basnett,CAPS,22703,959,10.21,3,53,8,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764699,Dinesh Chandra Nepal,BJP,22690,679,7.23,4,53,8,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764700,Laten Tshering Sherpa,IND,22691,270,2.87,5,53,8,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764701,Sambhu Chettri,IND,22691,98,1.04,6,53,8,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764702,Kharga Bhadur Rai,SRPP,22704,77,0.82,7,53,8,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764703,Gopal Chettri,INC,22688,62,0.66,8,53,8,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764704,Nota,NOTA,22695,55,0.59,9,53,8,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764705,Beena Rai,IND,22691,25,0.27,10,53,8,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764706,Ravi Chandra Rai,IND,22691,23,0.24,11,53,8,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764707,Nawin Kiran Pradhan,IND,22691,21,0.22,12,53,8,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764708,Shyamal Pal,IND,22691,15,0.16,13,53,8,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764709,Rudra Mani Pradhan,IND,22691,13,0.14,14,53,8,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764710,Madhukar Dhakal,IND,22691,7,0.07,15,53,8,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764711,Indra Hang Subba,SKM,22694,5625,42.4,1,53,9,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764712,Prem Das Rai,SDF,22687,2810,21.18,2,53,9,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764713,Bharat Basnett,CAPS,22703,2322,17.5,3,53,9,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764714,Laten Tshering Sherpa,IND,22691,1342,10.12,4,53,9,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764715,Dinesh Chandra Nepal,BJP,22690,322,2.43,5,53,9,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764716,Kharga Bhadur Rai,SRPP,22704,289,2.18,6,53,9,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764717,Sambhu Chettri,IND,22691,206,1.55,7,53,9,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764718,Nota,NOTA,22695,96,0.72,8,53,9,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764719,Gopal Chettri,INC,22688,86,0.65,9,53,9,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764720,Ravi Chandra Rai,IND,22691,48,0.36,10,53,9,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764721,Nawin Kiran Pradhan,IND,22691,36,0.27,11,53,9,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764722,Shyamal Pal,IND,22691,32,0.24,12,53,9,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764723,Beena Rai,IND,22691,26,0.2,13,53,9,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764724,Rudra Mani Pradhan,IND,22691,16,0.12,14,53,9,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764725,Madhukar Dhakal,IND,22691,11,0.08,15,53,9,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764726,Indra Hang Subba,SKM,22694,5942,42.46,1,53,10,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764727,Prem Das Rai,SDF,22687,3826,27.34,2,53,10,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764728,Bharat Basnett,CAPS,22703,1890,13.51,3,53,10,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764729,Laten Tshering Sherpa,IND,22691,752,5.37,4,53,10,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764730,Dinesh Chandra Nepal,BJP,22690,550,3.93,5,53,10,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764731,Kharga Bhadur Rai,SRPP,22704,420,3.0,6,53,10,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764732,Ravi Chandra Rai,IND,22691,232,1.66,7,53,10,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764733,Sambhu Chettri,IND,22691,156,1.11,8,53,10,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764734,Nota,NOTA,22695,73,0.52,9,53,10,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764735,Gopal Chettri,INC,22688,59,0.42,10,53,10,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764736,Nawin Kiran Pradhan,IND,22691,29,0.21,11,53,10,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764737,Beena Rai,IND,22691,24,0.17,12,53,10,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764738,Shyamal Pal,IND,22691,18,0.13,13,53,10,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764739,Madhukar Dhakal,IND,22691,12,0.09,14,53,10,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764740,Rudra Mani Pradhan,IND,22691,11,0.08,15,53,10,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764741,Indra Hang Subba,SKM,22694,5857,55.95,1,53,11,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764742,Prem Das Rai,SDF,22687,2123,20.28,2,53,11,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764743,Bharat Basnett,CAPS,22703,1349,12.89,3,53,11,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764744,Laten Tshering Sherpa,IND,22691,330,3.15,4,53,11,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764745,Dinesh Chandra Nepal,BJP,22690,283,2.7,5,53,11,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764746,Kharga Bhadur Rai,SRPP,22704,174,1.66,6,53,11,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764747,Sambhu Chettri,IND,22691,79,0.75,7,53,11,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764748,Gopal Chettri,INC,22688,74,0.71,8,53,11,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764749,Ravi Chandra Rai,IND,22691,70,0.67,9,53,11,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764750,Nota,NOTA,22695,45,0.43,10,53,11,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764751,Nawin Kiran Pradhan,IND,22691,32,0.31,11,53,11,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764752,Beena Rai,IND,22691,25,0.24,12,53,11,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764753,Shyamal Pal,IND,22691,10,0.1,13,53,11,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764754,Madhukar Dhakal,IND,22691,9,0.09,14,53,11,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764755,Rudra Mani Pradhan,IND,22691,8,0.08,15,53,11,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764756,Indra Hang Subba,SKM,22694,5875,45.04,1,53,12,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764757,Bharat Basnett,CAPS,22703,4394,33.69,2,53,12,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764758,Prem Das Rai,SDF,22687,1199,9.19,3,53,12,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764759,Dinesh Chandra Nepal,BJP,22690,602,4.62,4,53,12,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764760,Laten Tshering Sherpa,IND,22691,297,2.28,5,53,12,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764761,Sambhu Chettri,IND,22691,212,1.63,6,53,12,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764762,Kharga Bhadur Rai,SRPP,22704,133,1.02,7,53,12,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764763,Ravi Chandra Rai,IND,22691,91,0.7,8,53,12,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764764,Nota,NOTA,22695,70,0.54,9,53,12,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764765,Gopal Chettri,INC,22688,66,0.51,10,53,12,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764766,Nawin Kiran Pradhan,IND,22691,40,0.31,11,53,12,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764767,Shyamal Pal,IND,22691,23,0.18,12,53,12,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764768,Beena Rai,IND,22691,19,0.15,13,53,12,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764769,Rudra Mani Pradhan,IND,22691,16,0.12,14,53,12,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764770,Madhukar Dhakal,IND,22691,7,0.05,15,53,12,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764771,Indra Hang Subba,SKM,22694,6104,44.93,1,53,13,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764772,Bharat Basnett,CAPS,22703,3115,22.93,2,53,13,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764773,Prem Das Rai,SDF,22687,2457,18.08,3,53,13,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764774,Laten Tshering Sherpa,IND,22691,841,6.19,4,53,13,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764775,Dinesh Chandra Nepal,BJP,22690,314,2.31,5,53,13,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764776,Sambhu Chettri,IND,22691,243,1.79,6,53,13,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764777,Kharga Bhadur Rai,SRPP,22704,113,0.83,7,53,13,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764778,Nota,NOTA,22695,82,0.6,8,53,13,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764779,Nawin Kiran Pradhan,IND,22691,76,0.56,9,53,13,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764780,Gopal Chettri,INC,22688,73,0.54,10,53,13,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764781,Ravi Chandra Rai,IND,22691,70,0.52,11,53,13,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764782,Shyamal Pal,IND,22691,35,0.26,12,53,13,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764783,Rudra Mani Pradhan,IND,22691,25,0.18,13,53,13,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764784,Beena Rai,IND,22691,23,0.17,14,53,13,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764785,Madhukar Dhakal,IND,22691,16,0.12,15,53,13,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764786,Indra Hang Subba,SKM,22694,4416,35.19,1,53,14,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764787,Bharat Basnett,CAPS,22703,3921,31.25,2,53,14,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764788,Prem Das Rai,SDF,22687,2317,18.47,3,53,14,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764789,Laten Tshering Sherpa,IND,22691,914,7.28,4,53,14,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764790,Dinesh Chandra Nepal,BJP,22690,363,2.89,5,53,14,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764791,Sambhu Chettri,IND,22691,188,1.5,6,53,14,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764792,Nawin Kiran Pradhan,IND,22691,100,0.8,7,53,14,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764793,Nota,NOTA,22695,80,0.64,8,53,14,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764794,Gopal Chettri,INC,22688,51,0.41,9,53,14,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764795,Ravi Chandra Rai,IND,22691,51,0.41,9,53,14,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764796,Kharga Bhadur Rai,SRPP,22704,42,0.33,11,53,14,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764797,Shyamal Pal,IND,22691,35,0.28,12,53,14,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764798,Madhukar Dhakal,IND,22691,24,0.19,13,53,14,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764799,Rudra Mani Pradhan,IND,22691,24,0.19,13,53,14,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764800,Beena Rai,IND,22691,22,0.18,15,53,14,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764801,Indra Hang Subba,SKM,22694,4447,35.59,1,53,15,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764802,Prem Das Rai,SDF,22687,3791,30.34,2,53,15,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764803,Bharat Basnett,CAPS,22703,2730,21.85,3,53,15,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764804,Laten Tshering Sherpa,IND,22691,658,5.27,4,53,15,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764805,Dinesh Chandra Nepal,BJP,22690,322,2.58,5,53,15,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764806,Sambhu Chettri,IND,22691,155,1.24,6,53,15,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764807,Kharga Bhadur Rai,SRPP,22704,108,0.86,7,53,15,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764808,Nota,NOTA,22695,60,0.48,8,53,15,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764809,Ravi Chandra Rai,IND,22691,58,0.46,9,53,15,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764810,Gopal Chettri,INC,22688,57,0.46,10,53,15,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764811,Nawin Kiran Pradhan,IND,22691,27,0.22,11,53,15,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764812,Shyamal Pal,IND,22691,25,0.2,12,53,15,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764813,Beena Rai,IND,22691,22,0.18,13,53,15,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764814,Madhukar Dhakal,IND,22691,19,0.15,14,53,15,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764815,Rudra Mani Pradhan,IND,22691,17,0.14,15,53,15,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764816,Indra Hang Subba,SKM,22694,4931,35.31,1,53,16,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764817,Bharat Basnett,CAPS,22703,4827,34.56,2,53,16,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764818,Prem Das Rai,SDF,22687,2543,18.21,3,53,16,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764819,Dinesh Chandra Nepal,BJP,22690,743,5.32,4,53,16,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764820,Laten Tshering Sherpa,IND,22691,370,2.65,5,53,16,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764821,Sambhu Chettri,IND,22691,181,1.3,6,53,16,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764822,Gopal Chettri,INC,22688,97,0.69,7,53,16,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764823,Nota,NOTA,22695,80,0.57,8,53,16,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764824,Kharga Bhadur Rai,SRPP,22704,50,0.36,9,53,16,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764825,Beena Rai,IND,22691,31,0.22,10,53,16,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764826,Nawin Kiran Pradhan,IND,22691,27,0.19,11,53,16,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764827,Rudra Mani Pradhan,IND,22691,27,0.19,11,53,16,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764828,Shyamal Pal,IND,22691,22,0.16,13,53,16,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764829,Ravi Chandra Rai,IND,22691,20,0.14,14,53,16,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764830,Madhukar Dhakal,IND,22691,17,0.12,15,53,16,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764831,Indra Hang Subba,SKM,22694,4178,40.1,1,53,17,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764832,Prem Das Rai,SDF,22687,2692,25.84,2,53,17,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764833,Bharat Basnett,CAPS,22703,2157,20.7,3,53,17,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764834,Dinesh Chandra Nepal,BJP,22690,816,7.83,4,53,17,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764835,Laten Tshering Sherpa,IND,22691,206,1.98,5,53,17,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764836,Sambhu Chettri,IND,22691,87,0.84,6,53,17,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764837,Gopal Chettri,INC,22688,74,0.71,7,53,17,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764838,Nota,NOTA,22695,54,0.52,8,53,17,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764839,Kharga Bhadur Rai,SRPP,22704,36,0.35,9,53,17,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764840,Nawin Kiran Pradhan,IND,22691,32,0.31,10,53,17,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764841,Beena Rai,IND,22691,26,0.25,11,53,17,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764843,Shyamal Pal,IND,22691,17,0.16,12,53,17,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764842,Rudra Mani Pradhan,IND,22691,17,0.16,12,53,17,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764844,Ravi Chandra Rai,IND,22691,14,0.13,14,53,17,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764845,Madhukar Dhakal,IND,22691,13,0.12,15,53,17,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764846,Indra Hang Subba,SKM,22694,4809,37.98,1,53,18,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764847,Prem Das Rai,SDF,22687,3459,27.32,2,53,18,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764848,Bharat Basnett,CAPS,22703,2446,19.32,3,53,18,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764849,Dinesh Chandra Nepal,BJP,22690,959,7.57,4,53,18,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764850,Laten Tshering Sherpa,IND,22691,314,2.48,5,53,18,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764851,Sambhu Chettri,IND,22691,170,1.34,6,53,18,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764852,Kharga Bhadur Rai,SRPP,22704,138,1.09,7,53,18,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764853,Nota,NOTA,22695,97,0.77,8,53,18,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764854,Gopal Chettri,INC,22688,84,0.66,9,53,18,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764855,Nawin Kiran Pradhan,IND,22691,55,0.43,10,53,18,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764856,Madhukar Dhakal,IND,22691,41,0.32,11,53,18,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764857,Beena Rai,IND,22691,26,0.21,12,53,18,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764858,Shyamal Pal,IND,22691,26,0.21,12,53,18,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764859,Rudra Mani Pradhan,IND,22691,23,0.18,14,53,18,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764860,Ravi Chandra Rai,IND,22691,16,0.13,15,53,18,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764861,Indra Hang Subba,SKM,22694,6937,46.63,1,53,19,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764862,Bharat Basnett,CAPS,22703,3684,24.76,2,53,19,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764863,Prem Das Rai,SDF,22687,2178,14.64,3,53,19,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764864,Dinesh Chandra Nepal,BJP,22690,855,5.75,4,53,19,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764865,Laten Tshering Sherpa,IND,22691,340,2.29,5,53,19,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764866,Kharga Bhadur Rai,SRPP,22704,270,1.81,6,53,19,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764867,Sambhu Chettri,IND,22691,243,1.63,7,53,19,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764868,Nota,NOTA,22695,115,0.77,8,53,19,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764869,Gopal Chettri,INC,22688,76,0.51,9,53,19,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764870,Nawin Kiran Pradhan,IND,22691,53,0.36,10,53,19,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764871,Shyamal Pal,IND,22691,33,0.22,11,53,19,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764872,Rudra Mani Pradhan,IND,22691,28,0.19,12,53,19,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764873,Ravi Chandra Rai,IND,22691,27,0.18,13,53,19,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764874,Beena Rai,IND,22691,24,0.16,14,53,19,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764875,Madhukar Dhakal,IND,22691,14,0.09,15,53,19,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764876,Indra Hang Subba,SKM,22694,6262,45.02,1,53,20,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764877,Prem Das Rai,SDF,22687,3288,23.64,2,53,20,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764878,Bharat Basnett,CAPS,22703,2826,20.32,3,53,20,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764879,Dinesh Chandra Nepal,BJP,22690,426,3.06,4,53,20,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764880,Laten Tshering Sherpa,IND,22691,311,2.24,5,53,20,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764881,Sambhu Chettri,IND,22691,236,1.7,6,53,20,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764882,Gopal Chettri,INC,22688,191,1.37,7,53,20,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764883,Kharga Bhadur Rai,SRPP,22704,146,1.05,8,53,20,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764884,Nota,NOTA,22695,71,0.51,9,53,20,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764885,Nawin Kiran Pradhan,IND,22691,38,0.27,10,53,20,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764886,Rudra Mani Pradhan,IND,22691,37,0.27,11,53,20,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764887,Shyamal Pal,IND,22691,29,0.21,12,53,20,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764888,Ravi Chandra Rai,IND,22691,20,0.14,13,53,20,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764889,Beena Rai,IND,22691,19,0.14,14,53,20,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764890,Madhukar Dhakal,IND,22691,10,0.07,15,53,20,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764891,Indra Hang Subba,SKM,22694,3748,36.75,1,53,21,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764892,Bharat Basnett,CAPS,22703,2844,27.88,2,53,21,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764893,Prem Das Rai,SDF,22687,2065,20.25,3,53,21,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764894,Dinesh Chandra Nepal,BJP,22690,602,5.9,4,53,21,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764895,Laten Tshering Sherpa,IND,22691,459,4.5,5,53,21,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764896,Kharga Bhadur Rai,SRPP,22704,137,1.34,6,53,21,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764897,Sambhu Chettri,IND,22691,123,1.21,7,53,21,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764898,Nota,NOTA,22695,61,0.6,8,53,21,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764899,Gopal Chettri,INC,22688,53,0.52,9,53,21,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764900,Beena Rai,IND,22691,34,0.33,10,53,21,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764901,Shyamal Pal,IND,22691,21,0.21,11,53,21,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764902,Nawin Kiran Pradhan,IND,22691,19,0.19,12,53,21,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764903,Rudra Mani Pradhan,IND,22691,13,0.13,13,53,21,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764904,Ravi Chandra Rai,IND,22691,11,0.11,14,53,21,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764905,Madhukar Dhakal,IND,22691,10,0.1,15,53,21,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764906,Indra Hang Subba,SKM,22694,4696,36.28,1,53,22,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764907,Bharat Basnett,CAPS,22703,3406,26.32,2,53,22,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764908,Prem Das Rai,SDF,22687,3406,26.32,2,53,22,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764909,Dinesh Chandra Nepal,BJP,22690,400,3.09,4,53,22,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764910,Laten Tshering Sherpa,IND,22691,381,2.94,5,53,22,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764911,Kharga Bhadur Rai,SRPP,22704,188,1.45,6,53,22,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764912,Sambhu Chettri,IND,22691,150,1.16,7,53,22,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764913,Nota,NOTA,22695,86,0.66,8,53,22,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764914,Beena Rai,IND,22691,61,0.47,9,53,22,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764915,Gopal Chettri,INC,22688,57,0.44,10,53,22,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764916,Nawin Kiran Pradhan,IND,22691,32,0.25,11,53,22,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764917,Shyamal Pal,IND,22691,31,0.24,12,53,22,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764918,Ravi Chandra Rai,IND,22691,30,0.23,13,53,22,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764919,Rudra Mani Pradhan,IND,22691,10,0.08,14,53,22,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764920,Madhukar Dhakal,IND,22691,8,0.06,15,53,22,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764921,Indra Hang Subba,SKM,22694,4401,35.35,1,53,23,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764922,Prem Das Rai,SDF,22687,3890,31.25,2,53,23,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764923,Bharat Basnett,CAPS,22703,2420,19.44,3,53,23,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764924,Laten Tshering Sherpa,IND,22691,549,4.41,4,53,23,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764925,Dinesh Chandra Nepal,BJP,22690,538,4.32,5,53,23,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764926,Beena Rai,IND,22691,202,1.62,6,53,23,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764927,Nota,NOTA,22695,96,0.77,7,53,23,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764928,Gopal Chettri,INC,22688,95,0.76,8,53,23,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764929,Kharga Bhadur Rai,SRPP,22704,90,0.72,9,53,23,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764930,Sambhu Chettri,IND,22691,70,0.56,10,53,23,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764931,Nawin Kiran Pradhan,IND,22691,37,0.3,11,53,23,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764932,Shyamal Pal,IND,22691,22,0.18,12,53,23,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764933,Madhukar Dhakal,IND,22691,21,0.17,13,53,23,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764934,Ravi Chandra Rai,IND,22691,12,0.1,14,53,23,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764935,Rudra Mani Pradhan,IND,22691,6,0.05,15,53,23,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764936,Indra Hang Subba,SKM,22694,5302,36.35,1,53,24,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764937,Bharat Basnett,CAPS,22703,4448,30.5,2,53,24,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764938,Prem Das Rai,SDF,22687,3068,21.04,3,53,24,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764939,Dinesh Chandra Nepal,BJP,22690,687,4.71,4,53,24,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764940,Laten Tshering Sherpa,IND,22691,446,3.06,5,53,24,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764941,Kharga Bhadur Rai,SRPP,22704,171,1.17,6,53,24,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764942,Sambhu Chettri,IND,22691,116,0.8,7,53,24,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764943,Nota,NOTA,22695,94,0.64,8,53,24,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764944,Gopal Chettri,INC,22688,76,0.52,9,53,24,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764945,Nawin Kiran Pradhan,IND,22691,51,0.35,10,53,24,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764946,Shyamal Pal,IND,22691,37,0.25,11,53,24,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764947,Beena Rai,IND,22691,34,0.23,12,53,24,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764948,Ravi Chandra Rai,IND,22691,23,0.16,13,53,24,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764949,Madhukar Dhakal,IND,22691,22,0.15,14,53,24,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764950,Rudra Mani Pradhan,IND,22691,10,0.07,15,53,24,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764951,Indra Hang Subba,SKM,22694,3830,43.68,1,53,25,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764952,Bharat Basnett,CAPS,22703,2229,25.42,2,53,25,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764953,Prem Das Rai,SDF,22687,1479,16.87,3,53,25,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764954,Dinesh Chandra Nepal,BJP,22690,531,6.06,4,53,25,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764955,Laten Tshering Sherpa,IND,22691,231,2.63,5,53,25,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764956,Nota,NOTA,22695,89,1.01,6,53,25,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764957,Beena Rai,IND,22691,75,0.86,7,53,25,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764958,Gopal Chettri,INC,22688,65,0.74,8,53,25,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764959,Sambhu Chettri,IND,22691,64,0.73,9,53,25,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764960,Madhukar Dhakal,IND,22691,57,0.65,10,53,25,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764961,Kharga Bhadur Rai,SRPP,22704,52,0.59,11,53,25,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764962,Nawin Kiran Pradhan,IND,22691,43,0.49,12,53,25,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764963,Shyamal Pal,IND,22691,9,0.1,13,53,25,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764964,Ravi Chandra Rai,IND,22691,8,0.09,14,53,25,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764965,Rudra Mani Pradhan,IND,22691,7,0.08,15,53,25,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764966,Indra Hang Subba,SKM,22694,4260,50.04,1,53,26,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764967,Prem Das Rai,SDF,22687,1835,21.56,2,53,26,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764968,Dinesh Chandra Nepal,BJP,22690,1001,11.76,3,53,26,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764969,Bharat Basnett,CAPS,22703,915,10.75,4,53,26,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764970,Laten Tshering Sherpa,IND,22691,151,1.77,5,53,26,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764971,Nota,NOTA,22695,79,0.93,6,53,26,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764972,Gopal Chettri,INC,22688,75,0.88,7,53,26,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764973,Sambhu Chettri,IND,22691,70,0.82,8,53,26,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764974,Nawin Kiran Pradhan,IND,22691,39,0.46,9,53,26,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764975,Kharga Bhadur Rai,SRPP,22704,34,0.4,10,53,26,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764976,Beena Rai,IND,22691,21,0.25,11,53,26,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764977,Madhukar Dhakal,IND,22691,10,0.12,12,53,26,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764978,Shyamal Pal,IND,22691,9,0.11,13,53,26,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764980,Rudra Mani Pradhan,IND,22691,7,0.08,14,53,26,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764979,Ravi Chandra Rai,IND,22691,7,0.08,14,53,26,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764981,Indra Hang Subba,SKM,22694,3252,43.08,1,53,27,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764982,Dinesh Chandra Nepal,BJP,22690,1362,18.04,2,53,27,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764983,Prem Das Rai,SDF,22687,1337,17.71,3,53,27,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1764984,Bharat Basnett,CAPS,22703,1165,15.43,4,53,27,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764985,Laten Tshering Sherpa,IND,22691,114,1.51,5,53,27,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1764986,Gopal Chettri,INC,22688,72,0.95,6,53,27,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1764987,Nota,NOTA,22695,66,0.87,7,53,27,SK,Nota,NOTA,,,,,False,53,2024,GE
+1764988,Sambhu Chettri,IND,22691,54,0.72,8,53,27,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1764989,Kharga Bhadur Rai,SRPP,22704,34,0.45,9,53,27,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1764990,Beena Rai,IND,22691,31,0.41,10,53,27,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1764991,Nawin Kiran Pradhan,IND,22691,26,0.34,11,53,27,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1764992,Shyamal Pal,IND,22691,19,0.25,12,53,27,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1764993,Madhukar Dhakal,IND,22691,11,0.15,13,53,27,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1764995,Rudra Mani Pradhan,IND,22691,3,0.04,14,53,27,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1764994,Ravi Chandra Rai,IND,22691,3,0.04,14,53,27,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1764996,Indra Hang Subba,SKM,22694,4509,37.56,1,53,28,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1764997,Bharat Basnett,CAPS,22703,2702,22.51,2,53,28,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1764998,Dinesh Chandra Nepal,BJP,22690,2315,19.28,3,53,28,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1764999,Prem Das Rai,SDF,22687,1652,13.76,4,53,28,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1765000,Laten Tshering Sherpa,IND,22691,276,2.3,5,53,28,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1765001,Sambhu Chettri,IND,22691,111,0.92,6,53,28,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1765002,Kharga Bhadur Rai,SRPP,22704,95,0.79,7,53,28,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1765003,Beena Rai,IND,22691,87,0.72,8,53,28,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1765004,Nota,NOTA,22695,80,0.67,9,53,28,SK,Nota,NOTA,,,,,False,53,2024,GE
+1765005,Gopal Chettri,INC,22688,70,0.58,10,53,28,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1765006,Nawin Kiran Pradhan,IND,22691,55,0.46,11,53,28,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1765007,Ravi Chandra Rai,IND,22691,16,0.13,12,53,28,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1765008,Madhukar Dhakal,IND,22691,14,0.12,13,53,28,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1765009,Shyamal Pal,IND,22691,12,0.1,14,53,28,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1765010,Rudra Mani Pradhan,IND,22691,11,0.09,15,53,28,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1765011,Indra Hang Subba,SKM,22694,3477,31.9,1,53,29,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1765012,Bharat Basnett,CAPS,22703,3340,30.65,2,53,29,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1765013,Prem Das Rai,SDF,22687,2216,20.33,3,53,29,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1765014,Laten Tshering Sherpa,IND,22691,905,8.3,4,53,29,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1765015,Dinesh Chandra Nepal,BJP,22690,590,5.41,5,53,29,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1765016,Sambhu Chettri,IND,22691,82,0.75,6,53,29,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1765017,Nota,NOTA,22695,73,0.67,7,53,29,SK,Nota,NOTA,,,,,False,53,2024,GE
+1765018,Gopal Chettri,INC,22688,68,0.62,8,53,29,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1765019,Kharga Bhadur Rai,SRPP,22704,35,0.32,9,53,29,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1765020,Nawin Kiran Pradhan,IND,22691,34,0.31,10,53,29,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1765021,Beena Rai,IND,22691,23,0.21,11,53,29,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1765022,Shyamal Pal,IND,22691,17,0.16,12,53,29,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1765023,Ravi Chandra Rai,IND,22691,14,0.13,13,53,29,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1765024,Rudra Mani Pradhan,IND,22691,13,0.12,14,53,29,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1765025,Madhukar Dhakal,IND,22691,11,0.1,15,53,29,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1765026,Indra Hang Subba,SKM,22694,4445,49.57,1,53,30,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1765027,Bharat Basnett,CAPS,22703,2422,27.01,2,53,30,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1765028,Prem Das Rai,SDF,22687,1184,13.2,3,53,30,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1765029,Laten Tshering Sherpa,IND,22691,421,4.69,4,53,30,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1765030,Dinesh Chandra Nepal,BJP,22690,193,2.15,5,53,30,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1765031,Sambhu Chettri,IND,22691,107,1.19,6,53,30,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1765032,Nota,NOTA,22695,58,0.65,7,53,30,SK,Nota,NOTA,,,,,False,53,2024,GE
+1765033,Gopal Chettri,INC,22688,49,0.55,8,53,30,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1765034,Shyamal Pal,IND,22691,20,0.22,9,53,30,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1765035,Kharga Bhadur Rai,SRPP,22704,16,0.18,10,53,30,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1765036,Ravi Chandra Rai,IND,22691,15,0.17,11,53,30,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE
+1765037,Rudra Mani Pradhan,IND,22691,15,0.17,11,53,30,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1765038,Nawin Kiran Pradhan,IND,22691,12,0.13,13,53,30,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1765039,Beena Rai,IND,22691,8,0.09,14,53,30,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1765040,Madhukar Dhakal,IND,22691,3,0.03,15,53,30,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1765041,Indra Hang Subba,SKM,22694,2769,39.87,1,53,31,SK,Indra Hang Subba,SKM,,,,,True,53,2024,GE
+1765042,Prem Das Rai,SDF,22687,1945,28.01,2,53,31,SK,Prem Das Rai,SDF,,,,,False,53,2024,GE
+1765043,Bharat Basnett,CAPS,22703,1314,18.92,3,53,31,SK,Bharat Basnett,CAPS,,,,,False,53,2024,GE
+1765044,Laten Tshering Sherpa,IND,22691,391,5.63,4,53,31,SK,Laten Tshering Sherpa,IND,,,,,False,53,2024,GE
+1765045,Dinesh Chandra Nepal,BJP,22690,293,4.22,5,53,31,SK,Dinesh Chandra Nepal,BJP,,,,,False,53,2024,GE
+1765046,Sambhu Chettri,IND,22691,59,0.85,6,53,31,SK,Sambhu Chettri,IND,,,,,False,53,2024,GE
+1765047,Nota,NOTA,22695,40,0.58,7,53,31,SK,Nota,NOTA,,,,,False,53,2024,GE
+1765048,Gopal Chettri,INC,22688,36,0.52,8,53,31,SK,Gopal Chettri,INC,,,,,False,53,2024,GE
+1765049,Beena Rai,IND,22691,27,0.39,9,53,31,SK,Beena Rai,IND,,,,,False,53,2024,GE
+1765050,Nawin Kiran Pradhan,IND,22691,21,0.3,10,53,31,SK,Nawin Kiran Pradhan,IND,,,,,False,53,2024,GE
+1765051,Kharga Bhadur Rai,SRPP,22704,19,0.27,11,53,31,SK,Kharga Bhadur Rai,SRPP,,,,,False,53,2024,GE
+1765052,Shyamal Pal,IND,22691,12,0.17,12,53,31,SK,Shyamal Pal,IND,,,,,False,53,2024,GE
+1765053,Rudra Mani Pradhan,IND,22691,9,0.13,13,53,31,SK,Rudra Mani Pradhan,IND,,,,,False,53,2024,GE
+1765054,Madhukar Dhakal,IND,22691,5,0.07,14,53,31,SK,Madhukar Dhakal,IND,,,,,False,53,2024,GE
+1765055,Ravi Chandra Rai,IND,22691,5,0.07,14,53,31,SK,Ravi Chandra Rai,IND,,,,,False,53,2024,GE

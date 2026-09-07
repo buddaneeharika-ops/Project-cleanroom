@@ -24,16 +24,16 @@ def patch_form20_incremental():
     states_to_process = list(cache.keys())
     
     for state in states_to_process:
-        # SKIP ALREADY COMPLETED STATES TO SAVE TIME
-        if "form20" in cache[state] and (cache[state]["form20"].get("matrix_ae") or cache[state]["form20"].get("matrix_ge")):
-            print(f"[{time.strftime('%X')}] Skipping {state} - already completed.")
-            continue
             
         print(f"[{time.strftime('%X')}] Fetching Form20 for {state}...")
         conn = None
         try:
             conn = get_conn()
             cur = conn.cursor()
+            
+            cur.execute("SELECT el_year, el_type, COUNT(DISTINCT ac_no) FROM ac_election_mapping WHERE state_abb = %s AND el_type NOT LIKE '%%BP%%' GROUP BY el_year, el_type", (state,))
+            exp_rows = cur.fetchall()
+            exp_dict = {f"{ty}_{yr}": count for yr, ty, count in exp_rows}
             
             cur.execute("SELECT el_year, el_type, COUNT(DISTINCT ac_no), SUM(number_of_booths) FROM form20_summary_view WHERE state_abb = %s GROUP BY el_year, el_type", (state,))
             form20_rows = cur.fetchall()
@@ -45,8 +45,11 @@ def patch_form20_incremental():
             
             for yr, ty, ac_count, booths in form20_rows:
                 if ty not in f20_timeline: f20_timeline[ty] = []
-                avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
-                missing = total_acs - ac_count if total_acs >= ac_count else 0
+                # Fix: Use historical expected counts
+                exp_c = exp_dict.get(f"{ty}_{yr}", total_acs)
+                avail = round((ac_count / exp_c * 100) if exp_c > 0 else 0, 2)
+                if avail > 100.0: avail = 100.0
+                missing = exp_c - ac_count if exp_c >= ac_count else 0
                 vm = 4.64 if (state == 'BR' and str(yr) == '2020') else 2.41
                 total_booths += (booths or 0)
                 f20_timeline[ty].append({"year": str(yr), "availability": avail, "missing": missing, "vote_mismatch": vm})
@@ -58,7 +61,20 @@ def patch_form20_incremental():
             unavailable_bypolls = [{"el_type": row[0], "count": row[1]} for row in cur.fetchall()]
             
             missing_count = sum([m['missing'] for m in f20_timeline.get("AE", [])]) + sum([m['missing'] for m in f20_timeline.get("GE", [])])
-            avail_pct = f20_timeline.get('GE', [{'availability':0}])[-1]['availability'] if f20_timeline.get('GE') else 0
+            
+            # To perfectly align with Country Data, we must divide the TOTAL available ACs across all elections
+            # by the TOTAL expected ACs across all elections, NOT average the percentages of each election!
+            total_expected_acs = sum(exp_dict.values())
+            
+            # Count the total available ACs from the form20_rows (excluding by-polls)
+            # form20_rows contains (yr, ty, ac_count, booths). We only want non-BP ty.
+            total_available_acs = 0
+            for yr, ty, ac_count, booths in form20_rows:
+                if 'BP' not in ty:
+                    total_available_acs += ac_count
+            
+            avail_pct = round((total_available_acs / total_expected_acs * 100) if total_expected_acs > 0 else 0, 2)
+            if avail_pct > 100: avail_pct = 100.0
             
             if "form20" not in cache[state] or not isinstance(cache[state]["form20"], dict):
                 cache[state]["form20"] = {}

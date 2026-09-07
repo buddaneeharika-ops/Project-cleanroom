@@ -1,0 +1,250 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1783413,Pranab Debbarma,CPM,22930,17063,54.36,1,16,1,TR,Pranab Debbarma,CPM,,,,,True,16,2013,AE
+1783414,Rabindra Debbarma,INPT,22931,13244,42.19,2,16,1,TR,Rabindra Debbarma,INPT,,,,,True,16,2013,AE
+1783415,Subodh Debbarma,IPFT,22923,632,2.01,3,16,1,TR,Subodh Debbarma,IPFT,,,,,False,16,2013,AE
+1783416,Hiramuni Debbarma,BJP,22916,450,1.43,4,16,1,TR,Hiramuni Debbarma,BJP,,,,,False,16,2013,AE
+1783417,Ratan Lal Nath,INC,22917,19143,49.12,1,16,2,TR,Ratan Lal Nath,INC,,,,,True,16,2013,AE
+1783418,Subhas Chandra Debnath,CPM,22930,18368,47.13,2,16,2,TR,Subhas Chandra Debnath,CPM,,,,,True,16,2013,AE
+1783419,Mangalia Debbarma,IPFT,22923,640,1.64,3,16,2,TR,Mangalia Debbarma,IPFT,,,,,False,16,2013,AE
+1783420,Bhupesh Debnath,AMB,22929,417,1.07,4,16,2,TR,Bhupesh Debnath,AMB,,,,,False,16,2013,AE
+1783421,Dhirendra Debnath,BJP,22916,403,1.03,5,16,2,TR,Dhirendra Debnath,BJP,,,,,True,16,2013,AE
+1783422,Haricharan Sarkar,CPM,22930,19744,52.35,1,16,3,TR,Haricharan Sarkar,CPM,,,,,True,16,2013,AE
+1783423,Prakash Chandra Das,INC,22917,16994,45.06,2,16,3,TR,Prakash Chandra Das,INC,,,,,True,16,2013,AE
+1783424,Bikram Bairagi,BJP,22916,493,1.31,3,16,3,TR,Bikram Bairagi,BJP,,,,,False,16,2013,AE
+1783425,Bimal Chandra Das,AMB,22929,481,1.28,4,16,3,TR,Bimal Chandra Das,AMB,,,,,False,16,2013,AE
+1783426,Jitendra Sarkar,INC,22917,17728,49.25,1,16,4,TR,Jitendra Sarkar,INC,,,,,False,16,2013,AE
+1783427,Jitendra Das,CPM,22930,17467,48.52,2,16,4,TR,Jitendra Das,CPM,,,,,False,16,2013,AE
+1783428,Samir Biswas,BJP,22916,511,1.42,3,16,4,TR,Samir Biswas,BJP,,,,,False,16,2013,AE
+1783429,Rahul Das,SP,22942,291,0.81,4,16,4,TR,Rahul Das,SP,,,,,False,16,2013,AE
+1783430,Pabitra Kar,CPM,22930,20972,50.72,1,16,5,TR,Pabitra Kar,CPM,,,,,True,16,2013,AE
+1783431,Baptu Chakraborty,INC,22917,19675,47.59,2,16,5,TR,Baptu Chakraborty,INC,,,,,False,16,2013,AE
+1783432,Nilima Ghosh,BJP,22916,698,1.69,3,16,5,TR,Nilima Ghosh,BJP,,,,,False,16,2013,AE
+1783433,Sudip Roy Barman,INC,22917,22160,52.29,1,16,6,TR,Sudip Roy Barman,INC,,,,,True,16,2013,AE
+1783434,Sankar Prasad Datta,CPM,22930,19398,45.77,2,16,6,TR,Sankar Prasad Datta,CPM,,,,,False,16,2013,AE
+1783435,Sushil Roy,BJP,22916,823,1.94,3,16,6,TR,Sushil Roy,BJP,,,,,False,16,2013,AE
+1783436,Ratan Das,CPM,22930,18060,49.19,1,16,7,TR,Ratan Das,CPM,,,,,True,16,2013,AE
+1783437,Surajit Datta,INC,22917,17995,49.02,2,16,7,TR,Surajit Datta,INC,,,,,True,16,2013,AE
+1783438,Bidyut Ghosh,BJP,22916,657,1.79,3,16,7,TR,Bidyut Ghosh,BJP,,,,,False,16,2013,AE
+1783439,Asish Kumar Saha,INC,22917,22474,57.45,1,16,8,TR,Asish Kumar Saha,INC,,,,,False,16,2013,AE
+1783440,Shyamal Roy,AIFB,22932,15414,39.41,2,16,8,TR,Shyamal Roy,AIFB,,,,,False,16,2013,AE
+1783441,Manoj Kanti Debroy,BJP,22916,498,1.27,3,16,8,TR,Manoj Kanti Debroy,BJP,,,,,False,16,2013,AE
+1783442,Sujit Paul,IND,22919,354,0.91,4,16,8,TR,Sujit Paul,IND,,,,,False,16,2013,AE
+1783443,Debajit Roy,AMB,22929,206,0.53,5,16,8,TR,Debajit Roy,AMB,,,,,False,16,2013,AE
+1783444,Shibani Bhaumik,SUCI,22920,170,0.43,6,16,8,TR,Shibani Bhaumik,SUCI,,,,,False,16,2013,AE
+1783445,Gopal Chandra Roy,INC,22917,19464,57.28,1,16,9,TR,Gopal Chandra Roy,INC,,,,,True,16,2013,AE
+1783446,Yudhisthir Das,CPI,22937,13702,40.32,2,16,9,TR,Yudhisthir Das,CPI,,,,,False,16,2013,AE
+1783447,Gita Roy,BJP,22916,441,1.3,3,16,9,TR,Gita Roy,BJP,,,,,False,16,2013,AE
+1783448,Dulal Chandra Talapatra,AMB,22929,194,0.57,4,16,9,TR,Dulal Chandra Talapatra,AMB,,,,,False,16,2013,AE
+1783449,Subrata Chakraborty,SUCI,22920,180,0.53,5,16,9,TR,Subrata Chakraborty,SUCI,,,,,False,16,2013,AE
+1783450,Manik Dey,CPM,22930,21304,52.43,1,16,10,TR,Manik Dey,CPM,,,,,True,16,2013,AE
+1783451,Bibekananda Choudhuri,INC,22917,18375,45.22,2,16,10,TR,Bibekananda Choudhuri,INC,,,,,False,16,2013,AE
+1783452,Balaram Debbarma,IPFT,22923,520,1.28,3,16,10,TR,Balaram Debbarma,IPFT,,,,,False,16,2013,AE
+1783453,Dhananjoy Bhowmik,BJP,22916,434,1.07,4,16,10,TR,Dhananjoy Bhowmik,BJP,,,,,False,16,2013,AE
+1783454,Monoranjan Debbarma,CPM,22930,19275,50.35,1,16,11,TR,Monoranjan Debbarma,CPM,,,,,True,16,2013,AE
+1783455,Jagadish Debbarma,INPT,22931,17450,45.58,2,16,11,TR,Jagadish Debbarma,INPT,,,,,True,16,2013,AE
+1783456,Basindra Debbarma,IPFT,22923,910,2.38,3,16,11,TR,Basindra Debbarma,IPFT,,,,,False,16,2013,AE
+1783457,Padma Kumar Debbarma,BJP,22916,649,1.7,4,16,11,TR,Padma Kumar Debbarma,BJP,,,,,False,16,2013,AE
+1783458,Niranjan Debbarma,CPM,22930,17315,49.87,1,16,12,TR,Niranjan Debbarma,CPM,,,,,True,16,2013,AE
+1783459,Rajeshwar Debbarma,INPT,22931,16108,46.4,2,16,12,TR,Rajeshwar Debbarma,INPT,,,,,True,16,2013,AE
+1783460,Brajalal Debbarma,IPFT,22923,690,1.99,3,16,12,TR,Brajalal Debbarma,IPFT,,,,,False,16,2013,AE
+1783461,Ganesh Kalai,BJP,22916,605,1.74,4,16,12,TR,Ganesh Kalai,BJP,,,,,False,16,2013,AE
+1783462,Anil Sarkar,CPM,22930,23977,51.38,1,16,13,TR,Anil Sarkar,CPM,,,,,True,16,2013,AE
+1783463,Ranjit Kumar Das,INC,22917,21845,46.81,2,16,13,TR,Ranjit Kumar Das,INC,,,,,False,16,2013,AE
+1783464,Biplab Chandra Sarkar,IND,22919,846,1.81,3,16,13,TR,Biplab Chandra Sarkar,IND,,,,,False,16,2013,AE
+1783465,Dilip Sarkar,INC,22917,24309,49.29,1,16,14,TR,Dilip Sarkar,INC,,,,,True,16,2013,AE
+1783466,Samar Das,RSP,22935,23666,47.98,2,16,14,TR,Samar Das,RSP,,,,,False,16,2013,AE
+1783467,Bidyut Das,BJP,22916,529,1.07,3,16,14,TR,Bidyut Das,BJP,,,,,False,16,2013,AE
+1783468,Subal Sarkar,AMB,22929,510,1.03,4,16,14,TR,Subal Sarkar,AMB,,,,,False,16,2013,AE
+1783469,Asit Das,SUCI,22920,308,0.62,5,16,14,TR,Asit Das,SUCI,,,,,False,16,2013,AE
+1783470,Narayan Chandra Chowdhuri,CPM,22930,19808,56.13,1,16,15,TR,Narayan Chandra Chowdhuri,CPM,,,,,False,16,2013,AE
+1783471,Dipak Kumar Roy,INC,22917,14393,40.79,2,16,15,TR,Dipak Kumar Roy,INC,,,,,False,16,2013,AE
+1783472,Sujit Sarkar,IND,22919,371,1.05,3,16,15,TR,Sujit Sarkar,IND,,,,,False,16,2013,AE
+1783473,Tulsi Banik,BJP,22916,367,1.04,4,16,15,TR,Tulsi Banik,BJP,,,,,True,16,2013,AE
+1783474,Shubhendu Sarkar,AMB,22929,349,0.99,5,16,15,TR,Shubhendu Sarkar,AMB,,,,,False,16,2013,AE
+1783475,Bhanulal Saha,CPM,22930,20987,51.02,1,16,16,TR,Bhanulal Saha,CPM,,,,,True,16,2013,AE
+1783476,Samir Ranjan Barman,INC,22917,19263,46.83,2,16,16,TR,Samir Ranjan Barman,INC,,,,,True,16,2013,AE
+1783477,Ram Narayan Roy,BJP,22916,386,0.94,3,16,16,TR,Ram Narayan Roy,BJP,,,,,False,16,2013,AE
+1783478,Jiban Kumar Bhowmik,IND,22919,313,0.76,4,16,16,TR,Jiban Kumar Bhowmik,IND,,,,,False,16,2013,AE
+1783479,Ashit Ranjan Deb,AMB,22929,188,0.46,5,16,16,TR,Ashit Ranjan Deb,AMB,,,,,False,16,2013,AE
+1783480,Keshab Debbarma,CPM,22930,19181,55.55,1,16,17,TR,Keshab Debbarma,CPM,,,,,False,16,2013,AE
+1783481,Manab Debbarma,INPT,22931,14648,42.42,2,16,17,TR,Manab Debbarma,INPT,,,,,False,16,2013,AE
+1783482,Budhu Kumar Debbarma,IPFT,22923,703,2.04,3,16,17,TR,Budhu Kumar Debbarma,IPFT,,,,,False,16,2013,AE
+1783483,Raj Kumar Chaudhuri,CPM,22930,21613,50.47,1,16,18,TR,Raj Kumar Chaudhuri,CPM,,,,,False,16,2013,AE
+1783484,Avijit Deb,INC,22917,19979,46.66,2,16,18,TR,Avijit Deb,INC,,,,,False,16,2013,AE
+1783485,Tapas Majumder,BJP,22916,575,1.34,3,16,18,TR,Tapas Majumder,BJP,,,,,False,16,2013,AE
+1783486,Nepal Chandra Das,IND,22919,382,0.89,4,16,18,TR,Nepal Chandra Das,IND,,,,,False,16,2013,AE
+1783487,Babul Banik,SUCI,22920,271,0.63,5,16,18,TR,Babul Banik,SUCI,,,,,False,16,2013,AE
+1783488,Ramendra Narayan Debbarma,CPM,22930,16479,50.94,1,16,19,TR,Ramendra Narayan Debbarma,CPM,,,,,False,16,2013,AE
+1783489,Himani Debbarma,INC,22917,15138,46.79,2,16,19,TR,Himani Debbarma,INC,,,,,False,16,2013,AE
+1783490,Rammohan Debbarma,IPFT,22923,733,2.27,3,16,19,TR,Rammohan Debbarma,IPFT,,,,,False,16,2013,AE
+1783491,Sahid Choudhuri,CPM,22930,17100,53.21,1,16,20,TR,Sahid Choudhuri,CPM,,,,,False,16,2013,AE
+1783492,Billal Mia,INC,22917,14579,45.36,2,16,20,TR,Billal Mia,INC,,,,,False,16,2013,AE
+1783493,Mantu Sarkar,BJP,22916,460,1.43,3,16,20,TR,Mantu Sarkar,BJP,,,,,False,16,2013,AE
+1783494,Tapan Chandra Das,CPM,22930,21969,59.96,1,16,21,TR,Tapan Chandra Das,CPM,,,,,False,16,2013,AE
+1783495,Uttam Das,INC,22917,13862,37.83,2,16,21,TR,Uttam Das,INC,,,,,False,16,2013,AE
+1783496,Parimal Barman,BJP,22916,541,1.48,3,16,21,TR,Parimal Barman,BJP,,,,,False,16,2013,AE
+1783497,Chandan Das,SP,22942,270,0.74,4,16,21,TR,Chandan Das,SP,,,,,False,16,2013,AE
+1783498,Shyamal Chakraborty,CPM,22930,18043,52.21,1,16,22,TR,Shyamal Chakraborty,CPM,,,,,False,16,2013,AE
+1783499,Subal Bhowmik,INC,22917,16517,47.79,2,16,22,TR,Subal Bhowmik,INC,,,,,False,16,2013,AE
+1783500,Manik Sarkar,CPM,22930,21286,57.1,1,16,23,TR,Manik Sarkar,CPM,,,,,False,16,2013,AE
+1783501,Shah Alam,INC,22917,15269,40.96,2,16,23,TR,Shah Alam,INC,,,,,False,16,2013,AE
+1783502,Abul Kalam,BJP,22916,721,1.93,3,16,23,TR,Abul Kalam,BJP,,,,,False,16,2013,AE
+1783503,Padma Kumar Debbarma,CPM,22930,19504,59.15,1,16,24,TR,Padma Kumar Debbarma,CPM,,,,,False,16,2013,AE
+1783504,Animesh Debbarma,IND,22919,11613,35.22,2,16,24,TR,Animesh Debbarma,IND,,,,,False,16,2013,AE
+1783505,Ananta Debbarma,INPT,22931,1016,3.08,3,16,24,TR,Ananta Debbarma,INPT,,,,,False,16,2013,AE
+1783506,Shib Chandra Debbarma,IND,22919,842,2.55,4,16,24,TR,Shib Chandra Debbarma,IND,,,,,False,16,2013,AE
+1783507,Samir Debsarkar,CPM,22930,22692,60.82,1,16,25,TR,Samir Debsarkar,CPM,,,,,False,16,2013,AE
+1783508,Dipak Majumder,INC,22917,13859,37.15,2,16,25,TR,Dipak Majumder,INC,,,,,False,16,2013,AE
+1783509,Rupesh Kumar Deb,AMB,22929,310,0.83,3,16,25,TR,Rupesh Kumar Deb,AMB,,,,,False,16,2013,AE
+1783510,Pramod Ranjan Das,BJP,22916,232,0.62,4,16,25,TR,Pramod Ranjan Das,BJP,,,,,False,16,2013,AE
+1783511,Uttam Kumar Ghosh,IND,22919,216,0.58,5,16,25,TR,Uttam Kumar Ghosh,IND,,,,,False,16,2013,AE
+1783512,Aghore Debbarma,CPM,22930,17826,59.55,1,16,26,TR,Aghore Debbarma,CPM,,,,,True,16,2013,AE
+1783513,Amiya Kumar Debbarma,INPT,22931,10609,35.44,2,16,26,TR,Amiya Kumar Debbarma,INPT,,,,,False,16,2013,AE
+1783514,Dhanabhakti Jamatia,BJP,22916,815,2.72,3,16,26,TR,Dhanabhakti Jamatia,BJP,,,,,False,16,2013,AE
+1783515,Dinesh Debbarma,IND,22919,684,2.29,4,16,26,TR,Dinesh Debbarma,IND,,,,,False,16,2013,AE
+1783516,Manindra Chandra Das,CPM,22930,19755,53.78,1,16,27,TR,Manindra Chandra Das,CPM,,,,,True,16,2013,AE
+1783517,Kajal Chandra Das,INC,22917,15975,43.49,2,16,27,TR,Kajal Chandra Das,INC,,,,,True,16,2013,AE
+1783518,Biplab Roy,AMB,22929,609,1.66,3,16,27,TR,Biplab Roy,AMB,,,,,False,16,2013,AE
+1783519,Khokan Chandra Pal,BJP,22916,395,1.08,4,16,27,TR,Khokan Chandra Pal,BJP,,,,,False,16,2013,AE
+1783520,Gouri Das,CPM,22930,18357,50.2,1,16,28,TR,Gouri Das,CPM,,,,,False,16,2013,AE
+1783521,Gourisankar Roy,INC,22917,17044,46.61,2,16,28,TR,Gourisankar Roy,INC,,,,,False,16,2013,AE
+1783522,Patal Kanya Jamatia,IPFT,22923,422,1.15,3,16,28,TR,Patal Kanya Jamatia,IPFT,,,,,False,16,2013,AE
+1783523,Gopal Sarkar,AMB,22929,386,1.06,4,16,28,TR,Gopal Sarkar,AMB,,,,,False,16,2013,AE
+1783524,Biswajit Debroy,BJP,22916,362,0.99,5,16,28,TR,Biswajit Debroy,BJP,,,,,False,16,2013,AE
+1783525,Khagendra Jamatia,CPM,22930,17125,58.32,1,16,29,TR,Khagendra Jamatia,CPM,,,,,False,16,2013,AE
+1783526,Sabda Kumar Jamatia,INC,22917,11083,37.74,2,16,29,TR,Sabda Kumar Jamatia,INC,,,,,False,16,2013,AE
+1783527,Sunadhan Debbarma,IPFT,22923,606,2.06,3,16,29,TR,Sunadhan Debbarma,IPFT,,,,,False,16,2013,AE
+1783528,Mania Debbarma,BJP,22916,549,1.87,4,16,29,TR,Mania Debbarma,BJP,,,,,False,16,2013,AE
+1783529,Naresh Chandra Jamatia,CPM,22930,23600,53.49,1,16,30,TR,Naresh Chandra Jamatia,CPM,,,,,True,16,2013,AE
+1783530,Jyotish Jamatia,INPT,22931,19525,44.25,2,16,30,TR,Jyotish Jamatia,INPT,,,,,False,16,2013,AE
+1783531,Subodh Jamatia,IPFT,22923,995,2.26,3,16,30,TR,Subodh Jamatia,IPFT,,,,,False,16,2013,AE
+1783532,Pranajit Singha Roy,INC,22917,20140,50.23,1,16,31,TR,Pranajit Singha Roy,INC,,,,,False,16,2013,AE
+1783533,Joy Gobinda Deb Roy,RSP,22935,19303,48.15,2,16,31,TR,Joy Gobinda Deb Roy,RSP,,,,,False,16,2013,AE
+1783534,Lokman Husen,CPI(ML)(L),22936,260,0.65,3,16,31,TR,Lokman Husen,CPI(ML)(L),,,,,False,16,2013,AE
+1783535,Swapan Adhikari,BJP,22916,239,0.6,4,16,31,TR,Swapan Adhikari,BJP,,,,,False,16,2013,AE
+1783536,Bibhu Lal Dey,SUCI,22920,151,0.38,5,16,31,TR,Bibhu Lal Dey,SUCI,,,,,False,16,2013,AE
+1783537,Madhab Chandra Saha,CPM,22930,22178,50.09,1,16,32,TR,Madhab Chandra Saha,CPM,,,,,False,16,2013,AE
+1783538,Biplab Kumar Ghosh,INC,22917,20868,47.13,2,16,32,TR,Biplab Kumar Ghosh,INC,,,,,False,16,2013,AE
+1783539,Madhusudhan Bhattacharjee,BJP,22916,477,1.08,3,16,32,TR,Madhusudhan Bhattacharjee,BJP,,,,,False,16,2013,AE
+1783540,Gopal Roy,CPI(ML)(L),22936,414,0.93,4,16,32,TR,Gopal Roy,CPI(ML)(L),,,,,False,16,2013,AE
+1783541,Aghore Debbarma,IPFT,22923,343,0.77,5,16,32,TR,Aghore Debbarma,IPFT,,,,,False,16,2013,AE
+1783542,Ratan Bhowmik,CPM,22930,24947,57.07,1,16,33,TR,Ratan Bhowmik,CPM,,,,,False,16,2013,AE
+1783543,Rajib Samaddar,INC,22917,17757,40.62,2,16,33,TR,Rajib Samaddar,INC,,,,,False,16,2013,AE
+1783544,Rabindra Kumar Das,BJP,22916,603,1.38,3,16,33,TR,Rabindra Kumar Das,BJP,,,,,False,16,2013,AE
+1783545,Uttam Das,NCP,22943,406,0.93,4,16,33,TR,Uttam Das,NCP,,,,,False,16,2013,AE
+1783546,Sudhan Das,CPM,22930,23942,63.61,1,16,34,TR,Sudhan Das,CPM,,,,,False,16,2013,AE
+1783547,Manik Chandra Das,INC,22917,12545,33.33,2,16,34,TR,Manik Chandra Das,INC,,,,,False,16,2013,AE
+1783548,Jagadish Das,CPI(ML)(L),22936,675,1.79,3,16,34,TR,Jagadish Das,CPI(ML)(L),,,,,False,16,2013,AE
+1783549,Sakhil Das,BJP,22916,478,1.27,4,16,34,TR,Sakhil Das,BJP,,,,,False,16,2013,AE
+1783550,Basudev Majumder,CPM,22930,20585,55.6,1,16,35,TR,Basudev Majumder,CPM,,,,,False,16,2013,AE
+1783551,Amal Mallik,INC,22917,15761,42.57,2,16,35,TR,Amal Mallik,INC,,,,,False,16,2013,AE
+1783552,Gouri Sankar Nandi,AMB,22929,352,0.95,3,16,35,TR,Gouri Sankar Nandi,AMB,,,,,False,16,2013,AE
+1783553,Babul Chandra Paul,CPI(ML)(L),22936,324,0.88,4,16,35,TR,Babul Chandra Paul,CPI(ML)(L),,,,,False,16,2013,AE
+1783554,Manindra Reang,CPI,22937,20798,52.87,1,16,36,TR,Manindra Reang,CPI,,,,,False,16,2013,AE
+1783555,Gouri Sankar Reang,INC,22917,17042,43.32,2,16,36,TR,Gouri Sankar Reang,INC,,,,,False,16,2013,AE
+1783556,Rana Kishore Reang,IPFT,22923,888,2.26,3,16,36,TR,Rana Kishore Reang,IPFT,,,,,False,16,2013,AE
+1783557,Parikshit Debbarma,BJP,22916,613,1.56,4,16,36,TR,Parikshit Debbarma,BJP,,,,,False,16,2013,AE
+1783558,Badal Choudhury,CPM,22930,25009,65.42,1,16,37,TR,Badal Choudhury,CPM,,,,,False,16,2013,AE
+1783559,Susankar Bhowmik,INC,22917,12580,32.91,2,16,37,TR,Susankar Bhowmik,INC,,,,,False,16,2013,AE
+1783560,Sudarshan Majumder,BJP,22916,639,1.67,3,16,37,TR,Sudarshan Majumder,BJP,,,,,False,16,2013,AE
+1783561,Jashabir Tripura,CPM,22930,24295,61.9,1,16,38,TR,Jashabir Tripura,CPM,,,,,False,16,2013,AE
+1783562,Brajendra Mog Chaudhuri,INC,22917,14952,38.1,2,16,38,TR,Brajendra Mog Chaudhuri,INC,,,,,False,16,2013,AE
+1783563,Jitendra Chaudhury,CPM,22930,21320,58.07,1,16,39,TR,Jitendra Chaudhury,CPM,,,,,False,16,2013,AE
+1783564,Chandi Charan Tripura,INC,22917,14424,39.29,2,16,39,TR,Chandi Charan Tripura,INC,,,,,False,16,2013,AE
+1783565,Thaiu Mog,BJP,22916,971,2.64,3,16,39,TR,Thaiu Mog,BJP,,,,,False,16,2013,AE
+1783566,Rita Kar (Majumder),CPM,22930,21404,55.87,1,16,40,TR,Rita Kar (Majumder),CPM,,,,,False,16,2013,AE
+1783567,Premtosh Nath,INC,22917,16197,42.28,2,16,40,TR,Premtosh Nath,INC,,,,,False,16,2013,AE
+1783568,Bhalu Rani Dey,BJP,22916,712,1.86,3,16,40,TR,Bhalu Rani Dey,BJP,,,,,False,16,2013,AE
+1783569,Daniel Jamatia,CPM,22930,15714,52.69,1,16,41,TR,Daniel Jamatia,CPM,,,,,False,16,2013,AE
+1783570,Nagendra Jamatia,INPT,22931,12930,43.36,2,16,41,TR,Nagendra Jamatia,INPT,,,,,False,16,2013,AE
+1783571,Patal Kanya Jamatia,IPFT,22923,426,1.43,3,16,41,TR,Patal Kanya Jamatia,IPFT,,,,,False,16,2013,AE
+1783572,Subir Kumar Jamatia,BJP,22916,420,1.41,4,16,41,TR,Subir Kumar Jamatia,BJP,,,,,False,16,2013,AE
+1783573,Manaram Reang,IND,22919,333,1.12,5,16,41,TR,Manaram Reang,IND,,,,,False,16,2013,AE
+1783574,Manoranjan Acharjee,CPM,22930,19075,54.72,1,16,42,TR,Manoranjan Acharjee,CPM,,,,,False,16,2013,AE
+1783575,Niranjan Barman,INC,22917,15053,43.18,2,16,42,TR,Niranjan Barman,INC,,,,,False,16,2013,AE
+1783576,Mahi Bhusan Chakraborty,BJP,22916,410,1.18,3,16,42,TR,Mahi Bhusan Chakraborty,BJP,,,,,False,16,2013,AE
+1783577,Bijoy Das,AMB,22929,321,0.92,4,16,42,TR,Bijoy Das,AMB,,,,,False,16,2013,AE
+1783578,Priyamani Debbarma,CPM,22930,15526,53.4,1,16,43,TR,Priyamani Debbarma,CPM,,,,,False,16,2013,AE
+1783579,Dharjaroy Tripura,INPT,22931,12091,41.59,2,16,43,TR,Dharjaroy Tripura,INPT,,,,,False,16,2013,AE
+1783580,Mitu Chakma,NCP,22943,351,1.21,3,16,43,TR,Mitu Chakma,NCP,,,,,False,16,2013,AE
+1783581,Charendra Reang,IND,22919,348,1.2,4,16,43,TR,Charendra Reang,IND,,,,,False,16,2013,AE
+1783582,Subal Debbarma,BJP,22916,290,1.0,5,16,43,TR,Subal Debbarma,BJP,,,,,False,16,2013,AE
+1783583,Satiram Reang,IPFT,22923,288,0.99,6,16,43,TR,Satiram Reang,IPFT,,,,,False,16,2013,AE
+1783584,Falguni Tripura,CPI(ML)(L),22936,179,0.62,7,16,43,TR,Falguni Tripura,CPI(ML)(L),,,,,False,16,2013,AE
+1783585,Lalit Mohan Tripura,CPM,22930,18527,51.99,1,16,44,TR,Lalit Mohan Tripura,CPM,,,,,True,16,2013,AE
+1783586,Nakshatra Jamatia,INPT,22931,15651,43.92,2,16,44,TR,Nakshatra Jamatia,INPT,,,,,False,16,2013,AE
+1783587,Bugerai Reang,IND,22919,798,2.24,3,16,44,TR,Bugerai Reang,IND,,,,,False,16,2013,AE
+1783588,Rajendra Reang,IPFT,22923,662,1.86,4,16,44,TR,Rajendra Reang,IPFT,,,,,False,16,2013,AE
+1783589,Bijoy Lakshmi Singha,CPM,22930,19204,51.15,1,16,45,TR,Bijoy Lakshmi Singha,CPM,,,,,True,16,2013,AE
+1783590,Manoj Kanti Deb,INC,22917,17690,47.12,2,16,45,TR,Manoj Kanti Deb,INC,,,,,True,16,2013,AE
+1783591,Ahindra Kumar Bhattacharjee,BJP,22916,652,1.74,3,16,45,TR,Ahindra Kumar Bhattacharjee,BJP,,,,,False,16,2013,AE
+1783592,Sudhir Das,CPM,22930,18648,50.51,1,16,46,TR,Sudhir Das,CPM,,,,,False,16,2013,AE
+1783593,Sukha Ranjan Das,INC,22917,16786,45.47,2,16,46,TR,Sukha Ranjan Das,INC,,,,,True,16,2013,AE
+1783594,Anadi Sarkar,BJP,22916,415,1.12,3,16,46,TR,Anadi Sarkar,BJP,,,,,False,16,2013,AE
+1783595,Sushil Malakar,IND,22919,394,1.07,4,16,46,TR,Sushil Malakar,IND,,,,,False,16,2013,AE
+1783596,Bidhu Chandar Das,AMB,22929,236,0.64,5,16,46,TR,Bidhu Chandar Das,AMB,,,,,False,16,2013,AE
+1783597,Lukesh Sabdakar,IND,22919,231,0.63,6,16,46,TR,Lukesh Sabdakar,IND,,,,,False,16,2013,AE
+1783598,Atul Das,IND,22919,209,0.57,7,16,46,TR,Atul Das,IND,,,,,False,16,2013,AE
+1783599,Lalit Kumar Debbarma,CPM,22930,18755,49.11,1,16,47,TR,Lalit Kumar Debbarma,CPM,,,,,False,16,2013,AE
+1783600,Bijoy Kumar Hrangkhawl,INPT,22931,17701,46.35,2,16,47,TR,Bijoy Kumar Hrangkhawl,INPT,,,,,False,16,2013,AE
+1783601,Pradip Debbarma,BJP,22916,655,1.72,3,16,47,TR,Pradip Debbarma,BJP,,,,,False,16,2013,AE
+1783602,Bimal Debbarma,IND,22919,598,1.57,4,16,47,TR,Bimal Debbarma,IND,,,,,False,16,2013,AE
+1783603,Krishan Kumar Debbarma,IPFT,22923,481,1.26,5,16,47,TR,Krishan Kumar Debbarma,IPFT,,,,,False,16,2013,AE
+1783604,Diba Chandra Hrangkhawl,INC,22917,15411,49.77,1,16,48,TR,Diba Chandra Hrangkhawl,INC,,,,,False,16,2013,AE
+1783605,Gajendra Tripura,CPM,22930,14039,45.34,2,16,48,TR,Gajendra Tripura,CPM,,,,,False,16,2013,AE
+1783606,Chiranjoy Reang,IND,22919,488,1.58,3,16,48,TR,Chiranjoy Reang,IND,,,,,False,16,2013,AE
+1783607,Padma Bikash Tripura,BJP,22916,446,1.44,4,16,48,TR,Padma Bikash Tripura,BJP,,,,,False,16,2013,AE
+1783608,Kalpa Mohan Tripura,IND,22919,226,0.73,5,16,48,TR,Kalpa Mohan Tripura,IND,,,,,False,16,2013,AE
+1783609,Saimon Darlong,IPFT,22923,208,0.67,6,16,48,TR,Saimon Darlong,IPFT,,,,,False,16,2013,AE
+1783610,Khanna Marak,SP,22942,145,0.47,7,16,48,TR,Khanna Marak,SP,,,,,False,16,2013,AE
+1783611,Nirajoy Tripura,CPM,22930,15870,50.8,1,16,49,TR,Nirajoy Tripura,CPM,,,,,True,16,2013,AE
+1783612,Zaidami Tripura,INC,22917,14375,46.01,2,16,49,TR,Zaidami Tripura,INC,,,,,False,16,2013,AE
+1783613,Amal Basu Chakma,SP,22942,996,3.19,3,16,49,TR,Amal Basu Chakma,SP,,,,,False,16,2013,AE
+1783614,Samiran Malakar,CPM,22930,18504,49.81,1,16,50,TR,Samiran Malakar,CPM,,,,,False,16,2013,AE
+1783615,Satyaban Das,INC,22917,17254,46.44,2,16,50,TR,Satyaban Das,INC,,,,,False,16,2013,AE
+1783616,Bhagaban Das,BJP,22916,543,1.46,3,16,50,TR,Bhagaban Das,BJP,,,,,True,16,2013,AE
+1783617,Bilas Bindu Malakar,IND,22919,446,1.2,4,16,50,TR,Bilas Bindu Malakar,IND,,,,,False,16,2013,AE
+1783618,Pranesh Das,AMB,22929,405,1.09,5,16,50,TR,Pranesh Das,AMB,,,,,False,16,2013,AE
+1783619,Tunubala Malakar,CPM,22930,17899,51.18,1,16,51,TR,Tunubala Malakar,CPM,,,,,False,16,2013,AE
+1783620,Jugal Malakar,INC,22917,16034,45.84,2,16,51,TR,Jugal Malakar,INC,,,,,False,16,2013,AE
+1783621,Sajal Das,IND,22919,467,1.34,3,16,51,TR,Sajal Das,IND,,,,,False,16,2013,AE
+1783622,Subrata Malakar,BJP,22916,380,1.09,4,16,51,TR,Subrata Malakar,BJP,,,,,False,16,2013,AE
+1783623,Bishnupada Roy,CPI(ML)(L),22936,196,0.56,5,16,51,TR,Bishnupada Roy,CPI(ML)(L),,,,,False,16,2013,AE
+1783624,Tapan Chakrabarti,CPM,22930,21009,58.43,1,16,52,TR,Tapan Chakrabarti,CPM,,,,,False,16,2013,AE
+1783625,Nirmalendu Deb,INC,22917,13380,37.21,2,16,52,TR,Nirmalendu Deb,INC,,,,,False,16,2013,AE
+1783626,Ranjan Sinha,BJP,22916,643,1.79,3,16,52,TR,Ranjan Sinha,BJP,,,,,False,16,2013,AE
+1783627,Rudra Kanta Sinha,IND,22919,533,1.48,4,16,52,TR,Rudra Kanta Sinha,IND,,,,,True,16,2013,AE
+1783628,Chiranjib Bhattacharjee,CPI(ML)(L),22936,391,1.09,5,16,52,TR,Chiranjib Bhattacharjee,CPI(ML)(L),,,,,True,16,2013,AE
+1783629,Birajit Sinha,INC,22917,18857,49.55,1,16,53,TR,Birajit Sinha,INC,,,,,True,16,2013,AE
+1783630,Moboshar Ali,CPM,22930,18372,48.28,2,16,53,TR,Moboshar Ali,CPM,,,,,False,16,2013,AE
+1783631,Durga Charan Deb,BJP,22916,412,1.08,3,16,53,TR,Durga Charan Deb,BJP,,,,,False,16,2013,AE
+1783632,Md Taybur Rahman,IND,22919,251,0.66,4,16,53,TR,Md Taybur Rahman,IND,,,,,False,16,2013,AE
+1783633,Amal Sinha,CPI(ML)(L),22936,162,0.43,5,16,53,TR,Amal Sinha,CPI(ML)(L),,,,,False,16,2013,AE
+1783634,Fayzur Rohaman,CPM,22930,14514,42.64,1,16,54,TR,Fayzur Rohaman,CPM,,,,,False,16,2013,AE
+1783635,Abdul Matin Chaudhury,INC,22917,12585,36.98,2,16,54,TR,Abdul Matin Chaudhury,INC,,,,,False,16,2013,AE
+1783636,Arijit Nath,BJP,22916,6070,17.83,3,16,54,TR,Arijit Nath,BJP,,,,,False,16,2013,AE
+1783637,Abdul Kayum,JD(U),22944,487,1.43,4,16,54,TR,Abdul Kayum,JD(U),,,,,False,16,2013,AE
+1783638,Fazlur Rahaman,CPI(ML)(L),22936,379,1.11,5,16,54,TR,Fazlur Rahaman,CPI(ML)(L),,,,,False,16,2013,AE
+1783639,Bijita Nath,CPM,22930,17991,51.26,1,16,55,TR,Bijita Nath,CPM,,,,,True,16,2013,AE
+1783640,Jyotirmoy Nath,INC,22917,15059,42.91,2,16,55,TR,Jyotirmoy Nath,INC,,,,,True,16,2013,AE
+1783641,Ronajoy Kumar Deb,BJP,22916,1479,4.21,3,16,55,TR,Ronajoy Kumar Deb,BJP,,,,,False,16,2013,AE
+1783642,Subirjit Sinha,CPI(ML)(L),22936,566,1.61,4,16,55,TR,Subirjit Sinha,CPI(ML)(L),,,,,False,16,2013,AE
+1783643,Biswabandhu Sen,INC,22917,17991,50.99,1,16,56,TR,Biswabandhu Sen,INC,,,,,False,16,2013,AE
+1783644,Amitabha Datta,CPM,22930,16147,45.77,2,16,56,TR,Amitabha Datta,CPM,,,,,True,16,2013,AE
+1783645,Jahar Chakrabarti,BJP,22916,692,1.96,3,16,56,TR,Jahar Chakrabarti,BJP,,,,,False,16,2013,AE
+1783646,Pratyush Nag,IND,22919,183,0.52,4,16,56,TR,Pratyush Nag,IND,,,,,False,16,2013,AE
+1783647,Bibhash Ranjan Das,AMB,22929,159,0.45,5,16,56,TR,Bibhash Ranjan Das,AMB,,,,,False,16,2013,AE
+1783648,Sanjoy Chaudhury,SUCI,22920,109,0.31,6,16,56,TR,Sanjoy Chaudhury,SUCI,,,,,False,16,2013,AE
+1783649,Ramendra Chandra Debnath,CPM,22930,18602,53.19,1,16,57,TR,Ramendra Chandra Debnath,CPM,,,,,True,16,2013,AE
+1783650,Ranadhir Nath,INC,22917,15724,44.96,2,16,57,TR,Ranadhir Nath,INC,,,,,False,16,2013,AE
+1783651,Pijush Nath,BJP,22916,648,1.85,3,16,57,TR,Pijush Nath,BJP,,,,,True,16,2013,AE
+1783652,Subodh Das,CPM,22930,15196,51.45,1,16,58,TR,Subodh Das,CPM,,,,,False,16,2013,AE
+1783653,Radhika Ranjan Das,INC,22917,13285,44.98,2,16,58,TR,Radhika Ranjan Das,INC,,,,,False,16,2013,AE
+1783654,Suranjan Kumar Das,BJP,22916,618,2.09,3,16,58,TR,Suranjan Kumar Das,BJP,,,,,False,16,2013,AE
+1783655,Narayan Malakar,AMB,22929,435,1.47,4,16,58,TR,Narayan Malakar,AMB,,,,,False,16,2013,AE
+1783656,Arun Kumar Chakma,CPM,22930,16601,50.46,1,16,59,TR,Arun Kumar Chakma,CPM,,,,,False,16,2013,AE
+1783657,Purnita Chakma,INC,22917,15584,47.36,2,16,59,TR,Purnita Chakma,INC,,,,,False,16,2013,AE
+1783658,Krishna Chakma,BJP,22916,717,2.18,3,16,59,TR,Krishna Chakma,BJP,,,,,False,16,2013,AE
+1783659,Rajendra Reang,CPM,22930,17186,50.13,1,16,60,TR,Rajendra Reang,CPM,,,,,True,16,2013,AE
+1783660,Drao Kumar Reang,INPT,22931,16105,46.98,2,16,60,TR,Drao Kumar Reang,INPT,,,,,False,16,2013,AE
+1783661,Upendra Reang,BJP,22916,992,2.89,3,16,60,TR,Upendra Reang,BJP,,,,,True,16,2013,AE

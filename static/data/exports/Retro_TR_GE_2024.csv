@@ -1,0 +1,601 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1780896,Biplab Kumar Deb,BJP,22916,22124,73.17,1,53,1,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780897,Asish Kumar Saha,INC,22917,5826,19.27,2,53,1,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780898,Nota,NOTA,22918,496,1.64,3,53,1,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780899,Milan Pada Murasing,IND,22919,329,1.09,4,53,1,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780900,Arun Kumar Bhaumik,SUCI,22920,311,1.03,5,53,1,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780901,Gouri Sankar Nandi,IND,22919,288,0.95,6,53,1,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780902,Ramendra Reang,IND,22919,288,0.95,6,53,1,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780903,Balaram Debbarma,IND,22919,241,0.8,8,53,1,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780904,Brajalal Debnath,IND,22919,195,0.64,9,53,1,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780905,Arnab Roy,RPI(A),22921,137,0.45,10,53,1,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780906,Biplab Kumar Deb,BJP,22916,34852,86.4,1,53,2,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780907,Asish Kumar Saha,INC,22917,3883,9.63,2,53,2,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780908,Nota,NOTA,22918,361,0.89,3,53,2,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780909,Ramendra Reang,IND,22919,273,0.68,4,53,2,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780910,Arun Kumar Bhaumik,SUCI,22920,259,0.64,5,53,2,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780911,Milan Pada Murasing,IND,22919,201,0.5,6,53,2,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780912,Gouri Sankar Nandi,IND,22919,179,0.44,7,53,2,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780913,Balaram Debbarma,IND,22919,133,0.33,8,53,2,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780914,Brajalal Debnath,IND,22919,99,0.25,9,53,2,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780915,Arnab Roy,RPI(A),22921,96,0.24,10,53,2,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780916,Biplab Kumar Deb,BJP,22916,28866,71.46,1,53,3,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780917,Asish Kumar Saha,INC,22917,9650,23.89,2,53,3,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780918,Nota,NOTA,22918,462,1.14,3,53,3,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780919,Ramendra Reang,IND,22919,290,0.72,4,53,3,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780920,Gouri Sankar Nandi,IND,22919,289,0.72,5,53,3,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780921,Arun Kumar Bhaumik,SUCI,22920,280,0.69,6,53,3,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780922,Milan Pada Murasing,IND,22919,185,0.46,7,53,3,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780923,Balaram Debbarma,IND,22919,140,0.35,8,53,3,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780924,Arnab Roy,RPI(A),22921,121,0.3,9,53,3,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780925,Brajalal Debnath,IND,22919,110,0.27,10,53,3,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780926,Biplab Kumar Deb,BJP,22916,27892,70.79,1,53,4,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780927,Asish Kumar Saha,INC,22917,9925,25.19,2,53,4,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780928,Nota,NOTA,22918,433,1.1,3,53,4,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780929,Gouri Sankar Nandi,IND,22919,291,0.74,4,53,4,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780930,Arun Kumar Bhaumik,SUCI,22920,233,0.59,5,53,4,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780931,Ramendra Reang,IND,22919,201,0.51,6,53,4,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780932,Milan Pada Murasing,IND,22919,152,0.39,7,53,4,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780933,Arnab Roy,RPI(A),22921,100,0.25,8,53,4,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780934,Brajalal Debnath,IND,22919,97,0.25,9,53,4,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780935,Balaram Debbarma,IND,22919,79,0.2,10,53,4,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780936,Biplab Kumar Deb,BJP,22916,33381,79.64,1,53,5,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780937,Asish Kumar Saha,INC,22917,6704,15.99,2,53,5,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780938,Nota,NOTA,22918,420,1.0,3,53,5,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780940,Ramendra Reang,IND,22919,299,0.71,4,53,5,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780939,Arun Kumar Bhaumik,SUCI,22920,299,0.71,4,53,5,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780941,Gouri Sankar Nandi,IND,22919,286,0.68,6,53,5,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780942,Milan Pada Murasing,IND,22919,200,0.48,7,53,5,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780943,Arnab Roy,RPI(A),22921,113,0.27,8,53,5,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780944,Balaram Debbarma,IND,22919,108,0.26,9,53,5,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780945,Brajalal Debnath,IND,22919,106,0.25,10,53,5,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780946,Biplab Kumar Deb,BJP,22916,27158,63.79,1,53,6,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780947,Asish Kumar Saha,INC,22917,13903,32.66,2,53,6,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780948,Nota,NOTA,22918,555,1.3,3,53,6,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780949,Arun Kumar Bhaumik,SUCI,22920,231,0.54,4,53,6,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780950,Ramendra Reang,IND,22919,209,0.49,5,53,6,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780951,Gouri Sankar Nandi,IND,22919,161,0.38,6,53,6,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780952,Milan Pada Murasing,IND,22919,132,0.31,7,53,6,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780953,Brajalal Debnath,IND,22919,80,0.19,8,53,6,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780954,Arnab Roy,RPI(A),22921,77,0.18,9,53,6,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780955,Balaram Debbarma,IND,22919,67,0.16,10,53,6,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780956,Biplab Kumar Deb,BJP,22916,23433,70.44,1,53,7,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780957,Asish Kumar Saha,INC,22917,8480,25.49,2,53,7,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780958,Nota,NOTA,22918,488,1.47,3,53,7,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780959,Gouri Sankar Nandi,IND,22919,213,0.64,4,53,7,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780960,Arun Kumar Bhaumik,SUCI,22920,189,0.57,5,53,7,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780961,Ramendra Reang,IND,22919,116,0.35,6,53,7,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780962,Milan Pada Murasing,IND,22919,112,0.34,7,53,7,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780963,Balaram Debbarma,IND,22919,86,0.26,8,53,7,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780964,Arnab Roy,RPI(A),22921,83,0.25,9,53,7,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780965,Brajalal Debnath,IND,22919,65,0.2,10,53,7,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780966,Biplab Kumar Deb,BJP,22916,23371,65.2,1,53,8,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780967,Asish Kumar Saha,INC,22917,11493,32.06,2,53,8,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780968,Nota,NOTA,22918,495,1.38,3,53,8,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780969,Arun Kumar Bhaumik,SUCI,22920,193,0.54,4,53,8,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780970,Gouri Sankar Nandi,IND,22919,81,0.23,5,53,8,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780971,Ramendra Reang,IND,22919,64,0.18,6,53,8,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780972,Arnab Roy,RPI(A),22921,59,0.16,7,53,8,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780973,Milan Pada Murasing,IND,22919,32,0.09,8,53,8,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780974,Balaram Debbarma,IND,22919,30,0.08,9,53,8,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780975,Brajalal Debnath,IND,22919,29,0.08,10,53,8,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780976,Biplab Kumar Deb,BJP,22916,19339,61.54,1,53,9,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780977,Asish Kumar Saha,INC,22917,11142,35.46,2,53,9,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780978,Nota,NOTA,22918,424,1.35,3,53,9,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780979,Arun Kumar Bhaumik,SUCI,22920,171,0.54,4,53,9,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780980,Gouri Sankar Nandi,IND,22919,118,0.38,5,53,9,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780981,Ramendra Reang,IND,22919,54,0.17,6,53,9,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780982,Milan Pada Murasing,IND,22919,50,0.16,7,53,9,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780983,Arnab Roy,RPI(A),22921,48,0.15,8,53,9,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780984,Brajalal Debnath,IND,22919,47,0.15,9,53,9,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780985,Balaram Debbarma,IND,22919,31,0.1,10,53,9,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780986,Biplab Kumar Deb,BJP,22916,33021,80.85,1,53,10,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780987,Asish Kumar Saha,INC,22917,6232,15.26,2,53,10,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780988,Nota,NOTA,22918,402,0.98,3,53,10,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780989,Arun Kumar Bhaumik,SUCI,22920,273,0.67,4,53,10,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1780990,Ramendra Reang,IND,22919,241,0.59,5,53,10,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1780991,Gouri Sankar Nandi,IND,22919,192,0.47,6,53,10,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1780992,Milan Pada Murasing,IND,22919,180,0.44,7,53,10,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1780993,Balaram Debbarma,IND,22919,126,0.31,8,53,10,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1780994,Arnab Roy,RPI(A),22921,90,0.22,9,53,10,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1780995,Brajalal Debnath,IND,22919,87,0.21,10,53,10,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1780996,Biplab Kumar Deb,BJP,22916,28235,77.57,1,53,11,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1780997,Asish Kumar Saha,INC,22917,5516,15.15,2,53,11,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1780998,Nota,NOTA,22918,519,1.43,3,53,11,TR,Nota,NOTA,,,,,False,53,2024,GE
+1780999,Balaram Debbarma,IND,22919,394,1.08,4,53,11,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781000,Ramendra Reang,IND,22919,364,1.0,5,53,11,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781001,Arun Kumar Bhaumik,SUCI,22920,326,0.9,6,53,11,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781002,Gouri Sankar Nandi,IND,22919,318,0.87,7,53,11,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781003,Milan Pada Murasing,IND,22919,298,0.82,8,53,11,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781004,Brajalal Debnath,IND,22919,247,0.68,9,53,11,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781005,Arnab Roy,RPI(A),22921,183,0.5,10,53,11,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781006,Biplab Kumar Deb,BJP,22916,26701,79.42,1,53,12,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781007,Asish Kumar Saha,INC,22917,4046,12.03,2,53,12,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781008,Balaram Debbarma,IND,22919,547,1.63,3,53,12,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781009,Nota,NOTA,22918,528,1.57,4,53,12,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781010,Milan Pada Murasing,IND,22919,409,1.22,5,53,12,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781011,Ramendra Reang,IND,22919,353,1.05,6,53,12,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781012,Gouri Sankar Nandi,IND,22919,315,0.94,7,53,12,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781013,Arun Kumar Bhaumik,SUCI,22920,287,0.85,8,53,12,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781014,Brajalal Debnath,IND,22919,265,0.79,9,53,12,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781015,Arnab Roy,RPI(A),22921,171,0.51,10,53,12,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781016,Biplab Kumar Deb,BJP,22916,34897,69.96,1,53,13,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781017,Asish Kumar Saha,INC,22917,12762,25.59,2,53,13,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781018,Nota,NOTA,22918,529,1.06,3,53,13,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781019,Gouri Sankar Nandi,IND,22919,415,0.83,4,53,13,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781020,Arun Kumar Bhaumik,SUCI,22920,357,0.72,5,53,13,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781021,Ramendra Reang,IND,22919,341,0.68,6,53,13,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781022,Milan Pada Murasing,IND,22919,215,0.43,7,53,13,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781023,Arnab Roy,RPI(A),22921,145,0.29,8,53,13,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781024,Brajalal Debnath,IND,22919,121,0.24,9,53,13,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781025,Balaram Debbarma,IND,22919,96,0.19,10,53,13,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781026,Biplab Kumar Deb,BJP,22916,34582,68.22,1,53,14,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781027,Asish Kumar Saha,INC,22917,13776,27.17,2,53,14,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781028,Nota,NOTA,22918,608,1.2,3,53,14,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781029,Arun Kumar Bhaumik,SUCI,22920,527,1.04,4,53,14,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781030,Gouri Sankar Nandi,IND,22919,349,0.69,5,53,14,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781031,Ramendra Reang,IND,22919,345,0.68,6,53,14,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781032,Milan Pada Murasing,IND,22919,167,0.33,7,53,14,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781033,Arnab Roy,RPI(A),22921,128,0.25,8,53,14,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781034,Balaram Debbarma,IND,22919,108,0.21,9,53,14,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781035,Brajalal Debnath,IND,22919,105,0.21,10,53,14,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781036,Biplab Kumar Deb,BJP,22916,26433,70.56,1,53,15,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781037,Asish Kumar Saha,INC,22917,8937,23.86,2,53,15,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781038,Nota,NOTA,22918,422,1.13,3,53,15,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781039,Gouri Sankar Nandi,IND,22919,378,1.01,4,53,15,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781040,Ramendra Reang,IND,22919,377,1.01,5,53,15,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781041,Arun Kumar Bhaumik,SUCI,22920,294,0.78,6,53,15,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781042,Milan Pada Murasing,IND,22919,231,0.62,7,53,15,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781043,Brajalal Debnath,IND,22919,154,0.41,8,53,15,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781044,Balaram Debbarma,IND,22919,131,0.35,9,53,15,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781045,Arnab Roy,RPI(A),22921,104,0.28,10,53,15,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781046,Biplab Kumar Deb,BJP,22916,32887,79.94,1,53,16,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781047,Asish Kumar Saha,INC,22917,6703,16.29,2,53,16,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781048,Nota,NOTA,22918,362,0.88,3,53,16,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781049,Ramendra Reang,IND,22919,349,0.85,4,53,16,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781050,Arun Kumar Bhaumik,SUCI,22920,213,0.52,5,53,16,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781051,Gouri Sankar Nandi,IND,22919,189,0.46,6,53,16,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781052,Milan Pada Murasing,IND,22919,183,0.44,7,53,16,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781053,Brajalal Debnath,IND,22919,94,0.23,8,53,16,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781054,Arnab Roy,RPI(A),22921,83,0.2,9,53,16,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781055,Balaram Debbarma,IND,22919,77,0.19,10,53,16,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781056,Biplab Kumar Deb,BJP,22916,26976,77.49,1,53,17,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781057,Asish Kumar Saha,INC,22917,5749,16.51,2,53,17,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781058,Nota,NOTA,22918,414,1.19,3,53,17,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781059,Milan Pada Murasing,IND,22919,318,0.91,4,53,17,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781060,Ramendra Reang,IND,22919,317,0.91,5,53,17,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781061,Arun Kumar Bhaumik,SUCI,22920,266,0.76,6,53,17,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781062,Gouri Sankar Nandi,IND,22919,259,0.74,7,53,17,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781063,Balaram Debbarma,IND,22919,230,0.66,8,53,17,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781064,Brajalal Debnath,IND,22919,161,0.46,9,53,17,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781065,Arnab Roy,RPI(A),22921,122,0.35,10,53,17,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781066,Biplab Kumar Deb,BJP,22916,35254,73.92,1,53,18,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781067,Asish Kumar Saha,INC,22917,10632,22.29,2,53,18,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781068,Nota,NOTA,22918,454,0.95,3,53,18,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781069,Ramendra Reang,IND,22919,331,0.69,4,53,18,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781070,Gouri Sankar Nandi,IND,22919,284,0.6,5,53,18,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781071,Arun Kumar Bhaumik,SUCI,22920,251,0.53,6,53,18,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781072,Milan Pada Murasing,IND,22919,194,0.41,7,53,18,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781073,Brajalal Debnath,IND,22919,108,0.23,8,53,18,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781074,Balaram Debbarma,IND,22919,96,0.2,9,53,18,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781075,Arnab Roy,RPI(A),22921,90,0.19,10,53,18,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781076,Biplab Kumar Deb,BJP,22916,26602,82.03,1,53,19,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781077,Asish Kumar Saha,INC,22917,4223,13.02,2,53,19,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781078,Nota,NOTA,22918,368,1.13,3,53,19,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781079,Ramendra Reang,IND,22919,307,0.95,4,53,19,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781080,Milan Pada Murasing,IND,22919,220,0.68,5,53,19,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781081,Arun Kumar Bhaumik,SUCI,22920,219,0.68,6,53,19,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781082,Balaram Debbarma,IND,22919,158,0.49,7,53,19,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781083,Brajalal Debnath,IND,22919,119,0.37,8,53,19,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781084,Gouri Sankar Nandi,IND,22919,117,0.36,9,53,19,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781085,Arnab Roy,RPI(A),22921,96,0.3,10,53,19,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781086,Biplab Kumar Deb,BJP,22916,26505,70.79,1,53,20,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781087,Asish Kumar Saha,INC,22917,9383,25.06,2,53,20,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781088,Nota,NOTA,22918,309,0.83,3,53,20,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781089,Ramendra Reang,IND,22919,280,0.75,4,53,20,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781090,Gouri Sankar Nandi,IND,22919,225,0.6,5,53,20,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781091,Arun Kumar Bhaumik,SUCI,22920,216,0.58,6,53,20,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781092,Milan Pada Murasing,IND,22919,208,0.56,7,53,20,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781093,Balaram Debbarma,IND,22919,116,0.31,8,53,20,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781094,Arnab Roy,RPI(A),22921,105,0.28,9,53,20,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781095,Brajalal Debnath,IND,22919,96,0.26,10,53,20,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781096,Biplab Kumar Deb,BJP,22916,29232,74.76,1,53,21,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781097,Asish Kumar Saha,INC,22917,8143,20.83,2,53,21,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781098,Nota,NOTA,22918,393,1.01,3,53,21,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781099,Ramendra Reang,IND,22919,317,0.81,4,53,21,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781100,Gouri Sankar Nandi,IND,22919,264,0.68,5,53,21,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781101,Arun Kumar Bhaumik,SUCI,22920,260,0.66,6,53,21,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781102,Milan Pada Murasing,IND,22919,213,0.54,7,53,21,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781103,Arnab Roy,RPI(A),22921,98,0.25,8,53,21,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781104,Balaram Debbarma,IND,22919,93,0.24,9,53,21,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781105,Brajalal Debnath,IND,22919,88,0.23,10,53,21,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781106,Biplab Kumar Deb,BJP,22916,24626,65.7,1,53,22,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781107,Asish Kumar Saha,INC,22917,10903,29.09,2,53,22,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781108,Nota,NOTA,22918,447,1.19,3,53,22,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781109,Ramendra Reang,IND,22919,401,1.07,4,53,22,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781110,Gouri Sankar Nandi,IND,22919,278,0.74,5,53,22,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781111,Arun Kumar Bhaumik,SUCI,22920,255,0.68,6,53,22,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781112,Milan Pada Murasing,IND,22919,245,0.65,7,53,22,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781113,Brajalal Debnath,IND,22919,121,0.32,8,53,22,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781114,Balaram Debbarma,IND,22919,115,0.31,9,53,22,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781115,Arnab Roy,RPI(A),22921,93,0.25,10,53,22,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781116,Biplab Kumar Deb,BJP,22916,27346,66.2,1,53,23,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781117,Asish Kumar Saha,INC,22917,11390,27.57,2,53,23,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781118,Nota,NOTA,22918,504,1.22,3,53,23,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781119,Gouri Sankar Nandi,IND,22919,480,1.16,4,53,23,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781120,Ramendra Reang,IND,22919,383,0.93,5,53,23,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781121,Arun Kumar Bhaumik,SUCI,22920,360,0.87,6,53,23,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781122,Milan Pada Murasing,IND,22919,334,0.81,7,53,23,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781123,Brajalal Debnath,IND,22919,183,0.44,8,53,23,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781124,Balaram Debbarma,IND,22919,167,0.4,9,53,23,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781125,Arnab Roy,RPI(A),22921,159,0.38,10,53,23,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781126,Kriti Devi Debbarman,BJP,22916,27145,80.1,1,53,24,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781127,Rajendra Reang,CPI(M),22922,4422,13.05,2,53,24,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781128,Nota,NOTA,22918,600,1.77,3,53,24,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781129,Shib Chandra Debbarma,IND,22919,353,1.04,4,53,24,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781130,Archana Urang,IND,22919,345,1.02,5,53,24,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781131,Darshan Kumar Reang,IND,22919,301,0.89,6,53,24,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781132,Santojoy Tripura,IND,22919,232,0.68,7,53,24,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781133,Satrughna Jamatia,IND,22919,223,0.66,8,53,24,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781134,Kalpa Mohan Tripura,IND,22919,146,0.43,9,53,24,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781135,Krishna Mohan Jamatia,IND,22919,124,0.37,10,53,24,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781136,Kriti Devi Debbarman,BJP,22916,29284,77.8,1,53,25,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781137,Rajendra Reang,CPI(M),22922,7011,18.63,2,53,25,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781138,Nota,NOTA,22918,504,1.34,3,53,25,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781139,Archana Urang,IND,22919,321,0.85,4,53,25,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781140,Darshan Kumar Reang,IND,22919,133,0.35,5,53,25,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781141,Shib Chandra Debbarma,IND,22919,105,0.28,6,53,25,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781142,Santojoy Tripura,IND,22919,84,0.22,7,53,25,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781143,Satrughna Jamatia,IND,22919,79,0.21,8,53,25,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781144,Kalpa Mohan Tripura,IND,22919,72,0.19,9,53,25,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781145,Krishna Mohan Jamatia,IND,22919,49,0.13,10,53,25,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781146,Kriti Devi Debbarman,BJP,22916,24151,76.76,1,53,26,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781147,Rajendra Reang,CPI(M),22922,4728,15.03,2,53,26,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781148,Nota,NOTA,22918,560,1.78,3,53,26,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781149,Archana Urang,IND,22919,459,1.46,4,53,26,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781150,Darshan Kumar Reang,IND,22919,312,0.99,5,53,26,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781151,Shib Chandra Debbarma,IND,22919,307,0.98,6,53,26,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781152,Satrughna Jamatia,IND,22919,303,0.96,7,53,26,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781153,Santojoy Tripura,IND,22919,251,0.8,8,53,26,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781154,Krishna Mohan Jamatia,IND,22919,226,0.72,9,53,26,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781155,Kalpa Mohan Tripura,IND,22919,165,0.52,10,53,26,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781156,Kriti Devi Debbarman,BJP,22916,30528,81.96,1,53,27,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781157,Rajendra Reang,CPI(M),22922,4971,13.35,2,53,27,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781158,Nota,NOTA,22918,433,1.16,3,53,27,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781159,Archana Urang,IND,22919,423,1.14,4,53,27,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781160,Darshan Kumar Reang,IND,22919,201,0.54,5,53,27,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781161,Santojoy Tripura,IND,22919,186,0.5,6,53,27,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781162,Shib Chandra Debbarma,IND,22919,152,0.41,7,53,27,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781163,Satrughna Jamatia,IND,22919,145,0.39,8,53,27,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781164,Kalpa Mohan Tripura,IND,22919,122,0.33,9,53,27,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781165,Krishna Mohan Jamatia,IND,22919,86,0.23,10,53,27,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781166,Kriti Devi Debbarman,BJP,22916,28309,76.74,1,53,28,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781167,Rajendra Reang,CPI(M),22922,6927,18.78,2,53,28,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781168,Nota,NOTA,22918,459,1.24,3,53,28,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781169,Archana Urang,IND,22919,422,1.14,4,53,28,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781170,Darshan Kumar Reang,IND,22919,161,0.44,5,53,28,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781171,Shib Chandra Debbarma,IND,22919,149,0.4,6,53,28,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781172,Santojoy Tripura,IND,22919,134,0.36,7,53,28,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781173,Satrughna Jamatia,IND,22919,134,0.36,7,53,28,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781174,Kalpa Mohan Tripura,IND,22919,107,0.29,9,53,28,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781175,Krishna Mohan Jamatia,IND,22919,87,0.24,10,53,28,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781176,Kriti Devi Debbarman,BJP,22916,24294,76.05,1,53,29,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781177,Rajendra Reang,CPI(M),22922,5748,17.99,2,53,29,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781178,Nota,NOTA,22918,523,1.64,3,53,29,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781179,Archana Urang,IND,22919,278,0.87,4,53,29,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781180,Darshan Kumar Reang,IND,22919,277,0.87,5,53,29,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781181,Santojoy Tripura,IND,22919,217,0.68,6,53,29,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781182,Shib Chandra Debbarma,IND,22919,199,0.62,7,53,29,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781183,Satrughna Jamatia,IND,22919,170,0.53,8,53,29,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781184,Kalpa Mohan Tripura,IND,22919,128,0.4,9,53,29,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781185,Krishna Mohan Jamatia,IND,22919,111,0.35,10,53,29,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781186,Biplab Kumar Deb,BJP,22916,31960,74.27,1,53,30,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781187,Asish Kumar Saha,INC,22917,8866,20.6,2,53,30,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781188,Nota,NOTA,22918,517,1.2,3,53,30,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781189,Arun Kumar Bhaumik,SUCI,22920,328,0.76,4,53,30,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781190,Gouri Sankar Nandi,IND,22919,313,0.73,5,53,30,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781191,Ramendra Reang,IND,22919,307,0.71,6,53,30,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781192,Milan Pada Murasing,IND,22919,231,0.54,7,53,30,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781193,Balaram Debbarma,IND,22919,210,0.49,8,53,30,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781194,Brajalal Debnath,IND,22919,168,0.39,9,53,30,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781195,Arnab Roy,RPI(A),22921,134,0.31,10,53,30,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781196,Biplab Kumar Deb,BJP,22916,29083,72.37,1,53,31,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781197,Asish Kumar Saha,INC,22917,9551,23.77,2,53,31,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781198,Nota,NOTA,22918,576,1.43,3,53,31,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781199,Arun Kumar Bhaumik,SUCI,22920,286,0.71,4,53,31,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781200,Ramendra Reang,IND,22919,230,0.57,5,53,31,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781201,Gouri Sankar Nandi,IND,22919,132,0.33,6,53,31,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781202,Milan Pada Murasing,IND,22919,129,0.32,7,53,31,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781203,Arnab Roy,RPI(A),22921,93,0.23,8,53,31,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781204,Balaram Debbarma,IND,22919,57,0.14,9,53,31,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781205,Brajalal Debnath,IND,22919,49,0.12,10,53,31,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781206,Biplab Kumar Deb,BJP,22916,34975,76.02,1,53,32,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781207,Asish Kumar Saha,INC,22917,9022,19.61,2,53,32,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781208,Nota,NOTA,22918,479,1.04,3,53,32,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781209,Ramendra Reang,IND,22919,390,0.85,4,53,32,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781210,Arun Kumar Bhaumik,SUCI,22920,315,0.68,5,53,32,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781211,Milan Pada Murasing,IND,22919,231,0.5,6,53,32,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781212,Gouri Sankar Nandi,IND,22919,180,0.39,7,53,32,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781213,Balaram Debbarma,IND,22919,150,0.33,8,53,32,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781214,Arnab Roy,RPI(A),22921,134,0.29,9,53,32,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781215,Brajalal Debnath,IND,22919,129,0.28,10,53,32,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781216,Biplab Kumar Deb,BJP,22916,33733,74.82,1,53,33,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781217,Asish Kumar Saha,INC,22917,9435,20.93,2,53,33,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781218,Nota,NOTA,22918,497,1.1,3,53,33,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781219,Ramendra Reang,IND,22919,336,0.75,4,53,33,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781220,Arun Kumar Bhaumik,SUCI,22920,325,0.72,5,53,33,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781221,Gouri Sankar Nandi,IND,22919,227,0.5,6,53,33,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781222,Milan Pada Murasing,IND,22919,220,0.49,7,53,33,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781223,Balaram Debbarma,IND,22919,110,0.24,8,53,33,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781224,Arnab Roy,RPI(A),22921,103,0.23,9,53,33,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781225,Brajalal Debnath,IND,22919,102,0.23,10,53,33,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781226,Biplab Kumar Deb,BJP,22916,28121,69.26,1,53,34,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781227,Asish Kumar Saha,INC,22917,10056,24.77,2,53,34,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781228,Nota,NOTA,22918,620,1.53,3,53,34,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781229,Gouri Sankar Nandi,IND,22919,377,0.93,4,53,34,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781230,Ramendra Reang,IND,22919,357,0.88,5,53,34,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781231,Arun Kumar Bhaumik,SUCI,22920,346,0.85,6,53,34,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781232,Milan Pada Murasing,IND,22919,320,0.79,7,53,34,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781233,Balaram Debbarma,IND,22919,149,0.37,8,53,34,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781234,Brajalal Debnath,IND,22919,129,0.32,9,53,34,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781235,Arnab Roy,RPI(A),22921,127,0.31,10,53,34,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781236,Biplab Kumar Deb,BJP,22916,26012,67.05,1,53,35,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781237,Asish Kumar Saha,INC,22917,10480,27.01,2,53,35,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781238,Nota,NOTA,22918,659,1.7,3,53,35,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781239,Gouri Sankar Nandi,IND,22919,408,1.05,4,53,35,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781240,Arun Kumar Bhaumik,SUCI,22920,347,0.89,5,53,35,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781241,Ramendra Reang,IND,22919,339,0.87,6,53,35,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781242,Milan Pada Murasing,IND,22919,232,0.6,7,53,35,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781243,Arnab Roy,RPI(A),22921,124,0.32,8,53,35,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781244,Brajalal Debnath,IND,22919,99,0.26,9,53,35,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781245,Balaram Debbarma,IND,22919,95,0.24,10,53,35,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781246,Biplab Kumar Deb,BJP,22916,30887,71.7,1,53,36,TR,Biplab Kumar Deb,BJP,,,,,True,53,2024,GE
+1781247,Asish Kumar Saha,INC,22917,9101,21.13,2,53,36,TR,Asish Kumar Saha,INC,,,,,False,53,2024,GE
+1781248,Nota,NOTA,22918,703,1.63,3,53,36,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781249,Gouri Sankar Nandi,IND,22919,468,1.09,4,53,36,TR,Gouri Sankar Nandi,IND,,,,,False,53,2024,GE
+1781250,Milan Pada Murasing,IND,22919,454,1.05,5,53,36,TR,Milan Pada Murasing,IND,,,,,False,53,2024,GE
+1781251,Ramendra Reang,IND,22919,440,1.02,6,53,36,TR,Ramendra Reang,IND,,,,,False,53,2024,GE
+1781252,Arun Kumar Bhaumik,SUCI,22920,400,0.93,7,53,36,TR,Arun Kumar Bhaumik,SUCI,,,,,False,53,2024,GE
+1781253,Balaram Debbarma,IND,22919,216,0.5,8,53,36,TR,Balaram Debbarma,IND,,,,,False,53,2024,GE
+1781254,Arnab Roy,RPI(A),22921,204,0.47,9,53,36,TR,Arnab Roy,RPI(A),,,,,False,53,2024,GE
+1781255,Brajalal Debnath,IND,22919,203,0.47,10,53,36,TR,Brajalal Debnath,IND,,,,,False,53,2024,GE
+1781256,Kriti Devi Debbarman,BJP,22916,29000,71.45,1,53,37,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781257,Rajendra Reang,CPI(M),22922,9493,23.39,2,53,37,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781258,Nota,NOTA,22918,793,1.95,3,53,37,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781259,Archana Urang,IND,22919,270,0.67,4,53,37,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781260,Darshan Kumar Reang,IND,22919,236,0.58,5,53,37,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781261,Santojoy Tripura,IND,22919,211,0.52,6,53,37,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781262,Shib Chandra Debbarma,IND,22919,211,0.52,6,53,37,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781263,Satrughna Jamatia,IND,22919,152,0.37,8,53,37,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781264,Kalpa Mohan Tripura,IND,22919,117,0.29,9,53,37,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781265,Krishna Mohan Jamatia,IND,22919,106,0.26,10,53,37,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781266,Kriti Devi Debbarman,BJP,22916,29432,69.74,1,53,38,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781267,Rajendra Reang,CPI(M),22922,9795,23.21,2,53,38,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781268,Nota,NOTA,22918,1000,2.37,3,53,38,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781269,Archana Urang,IND,22919,369,0.87,4,53,38,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781270,Darshan Kumar Reang,IND,22919,328,0.78,5,53,38,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781271,Santojoy Tripura,IND,22919,326,0.77,6,53,38,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781272,Shib Chandra Debbarma,IND,22919,315,0.75,7,53,38,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781273,Satrughna Jamatia,IND,22919,297,0.7,8,53,38,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781274,Kalpa Mohan Tripura,IND,22919,187,0.44,9,53,38,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781275,Krishna Mohan Jamatia,IND,22919,152,0.36,10,53,38,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781276,Kriti Devi Debbarman,BJP,22916,27572,66.04,1,53,39,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781277,Rajendra Reang,CPI(M),22922,11252,26.95,2,53,39,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781278,Nota,NOTA,22918,860,2.06,3,53,39,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781279,Archana Urang,IND,22919,406,0.97,4,53,39,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781280,Santojoy Tripura,IND,22919,353,0.85,5,53,39,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781281,Shib Chandra Debbarma,IND,22919,348,0.83,6,53,39,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781282,Darshan Kumar Reang,IND,22919,331,0.79,7,53,39,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781283,Satrughna Jamatia,IND,22919,287,0.69,8,53,39,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781284,Kalpa Mohan Tripura,IND,22919,182,0.44,9,53,39,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781285,Krishna Mohan Jamatia,IND,22919,160,0.38,10,53,39,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781286,Kriti Devi Debbarman,BJP,22916,26505,63.49,1,53,40,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781287,Rajendra Reang,CPI(M),22922,12747,30.53,2,53,40,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781288,Nota,NOTA,22918,943,2.26,3,53,40,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781289,Archana Urang,IND,22919,380,0.91,4,53,40,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781290,Darshan Kumar Reang,IND,22919,328,0.79,5,53,40,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781291,Shib Chandra Debbarma,IND,22919,239,0.57,6,53,40,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781292,Santojoy Tripura,IND,22919,205,0.49,7,53,40,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781293,Satrughna Jamatia,IND,22919,164,0.39,8,53,40,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781294,Kalpa Mohan Tripura,IND,22919,121,0.29,9,53,40,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781295,Krishna Mohan Jamatia,IND,22919,116,0.28,10,53,40,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781296,Kriti Devi Debbarman,BJP,22916,22317,72.59,1,53,41,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781297,Rajendra Reang,CPI(M),22922,6139,19.97,2,53,41,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781298,Nota,NOTA,22918,458,1.49,3,53,41,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781299,Satrughna Jamatia,IND,22919,328,1.07,4,53,41,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781300,Darshan Kumar Reang,IND,22919,294,0.96,5,53,41,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781301,Archana Urang,IND,22919,289,0.94,6,53,41,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781302,Shib Chandra Debbarma,IND,22919,274,0.89,7,53,41,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781303,Santojoy Tripura,IND,22919,260,0.85,8,53,41,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781304,Krishna Mohan Jamatia,IND,22919,254,0.83,9,53,41,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781305,Kalpa Mohan Tripura,IND,22919,132,0.43,10,53,41,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781306,Kriti Devi Debbarman,BJP,22916,26708,72.33,1,53,42,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781307,Rajendra Reang,CPI(M),22922,8625,23.36,2,53,42,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781308,Nota,NOTA,22918,463,1.25,3,53,42,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781309,Darshan Kumar Reang,IND,22919,246,0.67,4,53,42,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781310,Archana Urang,IND,22919,186,0.5,5,53,42,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781311,Santojoy Tripura,IND,22919,181,0.49,6,53,42,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781312,Shib Chandra Debbarma,IND,22919,153,0.41,7,53,42,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781313,Satrughna Jamatia,IND,22919,129,0.35,8,53,42,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781314,Kalpa Mohan Tripura,IND,22919,125,0.34,9,53,42,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781315,Krishna Mohan Jamatia,IND,22919,108,0.29,10,53,42,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781316,Kriti Devi Debbarman,BJP,22916,22199,66.62,1,53,43,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781317,Rajendra Reang,CPI(M),22922,8692,26.09,2,53,43,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781318,Nota,NOTA,22918,598,1.79,3,53,43,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781319,Darshan Kumar Reang,IND,22919,401,1.2,4,53,43,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781320,Santojoy Tripura,IND,22919,311,0.93,5,53,43,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781321,Satrughna Jamatia,IND,22919,299,0.9,6,53,43,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781322,Archana Urang,IND,22919,270,0.81,7,53,43,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781323,Shib Chandra Debbarma,IND,22919,255,0.77,8,53,43,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781324,Krishna Mohan Jamatia,IND,22919,154,0.46,9,53,43,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781325,Kalpa Mohan Tripura,IND,22919,142,0.43,10,53,43,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781326,Kriti Devi Debbarman,BJP,22916,24663,58.72,1,53,44,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781327,Rajendra Reang,CPI(M),22922,13671,32.55,2,53,44,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781328,Nota,NOTA,22918,785,1.87,3,53,44,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781329,Darshan Kumar Reang,IND,22919,577,1.37,4,53,44,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781330,Archana Urang,IND,22919,498,1.19,5,53,44,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781331,Satrughna Jamatia,IND,22919,405,0.96,6,53,44,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781332,Santojoy Tripura,IND,22919,400,0.95,7,53,44,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781333,Shib Chandra Debbarma,IND,22919,395,0.94,8,53,44,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781334,Krishna Mohan Jamatia,IND,22919,333,0.79,9,53,44,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781335,Kalpa Mohan Tripura,IND,22919,274,0.65,10,53,44,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781336,Kriti Devi Debbarman,BJP,22916,25149,66.79,1,53,45,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781337,Rajendra Reang,CPI(M),22922,10383,27.57,2,53,45,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781338,Nota,NOTA,22918,643,1.71,3,53,45,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781339,Archana Urang,IND,22919,306,0.81,4,53,45,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781340,Darshan Kumar Reang,IND,22919,274,0.73,5,53,45,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781341,Santojoy Tripura,IND,22919,261,0.69,6,53,45,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781342,Shib Chandra Debbarma,IND,22919,218,0.58,7,53,45,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781343,Satrughna Jamatia,IND,22919,189,0.5,8,53,45,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781344,Kalpa Mohan Tripura,IND,22919,123,0.33,9,53,45,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781345,Krishna Mohan Jamatia,IND,22919,109,0.29,10,53,45,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781346,Kriti Devi Debbarman,BJP,22916,26807,68.61,1,53,46,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781347,Rajendra Reang,CPI(M),22922,10072,25.78,2,53,46,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781348,Nota,NOTA,22918,507,1.3,3,53,46,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781349,Archana Urang,IND,22919,416,1.06,4,53,46,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781350,Darshan Kumar Reang,IND,22919,296,0.76,5,53,46,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781351,Santojoy Tripura,IND,22919,268,0.69,6,53,46,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781352,Shib Chandra Debbarma,IND,22919,218,0.56,7,53,46,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781353,Satrughna Jamatia,IND,22919,203,0.52,8,53,46,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781354,Krishna Mohan Jamatia,IND,22919,154,0.39,9,53,46,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781355,Kalpa Mohan Tripura,IND,22919,131,0.34,10,53,46,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781356,Kriti Devi Debbarman,BJP,22916,25668,60.92,1,53,47,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781357,Rajendra Reang,CPI(M),22922,13170,31.26,2,53,47,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781358,Nota,NOTA,22918,704,1.67,3,53,47,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781359,Archana Urang,IND,22919,692,1.64,4,53,47,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781360,Darshan Kumar Reang,IND,22919,429,1.02,5,53,47,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781361,Santojoy Tripura,IND,22919,411,0.98,6,53,47,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781362,Shib Chandra Debbarma,IND,22919,337,0.8,7,53,47,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781363,Satrughna Jamatia,IND,22919,321,0.76,8,53,47,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781364,Krishna Mohan Jamatia,IND,22919,214,0.51,9,53,47,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781365,Kalpa Mohan Tripura,IND,22919,185,0.44,10,53,47,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781366,Kriti Devi Debbarman,BJP,22916,24665,70.44,1,53,48,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781367,Rajendra Reang,CPI(M),22922,7757,22.15,2,53,48,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781368,Nota,NOTA,22918,483,1.38,3,53,48,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781369,Darshan Kumar Reang,IND,22919,384,1.1,4,53,48,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781370,Archana Urang,IND,22919,348,0.99,5,53,48,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781371,Satrughna Jamatia,IND,22919,343,0.98,6,53,48,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781372,Shib Chandra Debbarma,IND,22919,326,0.93,7,53,48,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781373,Santojoy Tripura,IND,22919,303,0.87,8,53,48,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781374,Kalpa Mohan Tripura,IND,22919,218,0.62,9,53,48,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781375,Krishna Mohan Jamatia,IND,22919,187,0.53,10,53,48,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781376,Kriti Devi Debbarman,BJP,22916,25004,69.46,1,53,49,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781377,Rajendra Reang,CPI(M),22922,8501,23.62,2,53,49,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781378,Nota,NOTA,22918,536,1.49,3,53,49,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781379,Darshan Kumar Reang,IND,22919,406,1.13,4,53,49,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781380,Archana Urang,IND,22919,380,1.06,5,53,49,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781381,Santojoy Tripura,IND,22919,273,0.76,6,53,49,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781382,Satrughna Jamatia,IND,22919,261,0.73,7,53,49,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781383,Shib Chandra Debbarma,IND,22919,258,0.72,8,53,49,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781384,Krishna Mohan Jamatia,IND,22919,211,0.59,9,53,49,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781385,Kalpa Mohan Tripura,IND,22919,166,0.46,10,53,49,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781386,Kriti Devi Debbarman,BJP,22916,28459,68.4,1,53,50,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781387,Rajendra Reang,CPI(M),22922,11071,26.61,2,53,50,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781388,Nota,NOTA,22918,635,1.53,3,53,50,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781389,Archana Urang,IND,22919,413,0.99,4,53,50,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781390,Darshan Kumar Reang,IND,22919,264,0.63,5,53,50,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781391,Shib Chandra Debbarma,IND,22919,214,0.51,6,53,50,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781392,Santojoy Tripura,IND,22919,187,0.45,7,53,50,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781393,Satrughna Jamatia,IND,22919,147,0.35,8,53,50,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781394,Krishna Mohan Jamatia,IND,22919,119,0.29,9,53,50,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781395,Kalpa Mohan Tripura,IND,22919,100,0.24,10,53,50,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781396,Kriti Devi Debbarman,BJP,22916,28249,75.66,1,53,51,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781397,Rajendra Reang,CPI(M),22922,7619,20.4,2,53,51,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781398,Nota,NOTA,22918,469,1.26,3,53,51,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781399,Darshan Kumar Reang,IND,22919,224,0.6,4,53,51,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781400,Archana Urang,IND,22919,195,0.52,5,53,51,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781401,Santojoy Tripura,IND,22919,143,0.38,6,53,51,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781402,Satrughna Jamatia,IND,22919,136,0.36,7,53,51,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781403,Shib Chandra Debbarma,IND,22919,136,0.36,7,53,51,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781404,Kalpa Mohan Tripura,IND,22919,94,0.25,9,53,51,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781405,Krishna Mohan Jamatia,IND,22919,74,0.2,10,53,51,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781406,Kriti Devi Debbarman,BJP,22916,25394,67.06,1,53,52,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781407,Rajendra Reang,CPI(M),22922,10502,27.73,2,53,52,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781408,Nota,NOTA,22918,676,1.79,3,53,52,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781409,Archana Urang,IND,22919,261,0.69,4,53,52,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781410,Darshan Kumar Reang,IND,22919,228,0.6,5,53,52,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781411,Shib Chandra Debbarma,IND,22919,216,0.57,6,53,52,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781412,Santojoy Tripura,IND,22919,199,0.53,7,53,52,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781413,Satrughna Jamatia,IND,22919,169,0.45,8,53,52,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781414,Kalpa Mohan Tripura,IND,22919,127,0.34,9,53,52,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781415,Krishna Mohan Jamatia,IND,22919,98,0.26,10,53,52,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781416,Rajendra Reang,CPI(M),22922,19809,50.79,1,53,53,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781417,Kriti Devi Debbarman,BJP,22916,17502,44.88,2,53,53,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781418,Nota,NOTA,22918,558,1.43,3,53,53,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781419,Archana Urang,IND,22919,322,0.83,4,53,53,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781420,Darshan Kumar Reang,IND,22919,178,0.46,5,53,53,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781421,Santojoy Tripura,IND,22919,159,0.41,6,53,53,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781422,Shib Chandra Debbarma,IND,22919,134,0.34,7,53,53,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781423,Krishna Mohan Jamatia,IND,22919,118,0.3,8,53,53,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781424,Satrughna Jamatia,IND,22919,111,0.28,9,53,53,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781425,Kalpa Mohan Tripura,IND,22919,107,0.27,10,53,53,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781426,Kriti Devi Debbarman,BJP,22916,21464,56.43,1,53,54,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781427,Rajendra Reang,CPI(M),22922,14659,38.54,2,53,54,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781428,Nota,NOTA,22918,549,1.44,3,53,54,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781429,Archana Urang,IND,22919,431,1.13,4,53,54,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781430,Santojoy Tripura,IND,22919,230,0.6,5,53,54,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781431,Darshan Kumar Reang,IND,22919,192,0.5,6,53,54,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781432,Shib Chandra Debbarma,IND,22919,167,0.44,7,53,54,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781433,Satrughna Jamatia,IND,22919,137,0.36,8,53,54,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781434,Kalpa Mohan Tripura,IND,22919,104,0.27,9,53,54,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781435,Krishna Mohan Jamatia,IND,22919,101,0.27,10,53,54,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781436,Kriti Devi Debbarman,BJP,22916,25140,67.5,1,53,55,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781437,Rajendra Reang,CPI(M),22922,10624,28.53,2,53,55,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781438,Nota,NOTA,22918,458,1.23,3,53,55,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781439,Archana Urang,IND,22919,262,0.7,4,53,55,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781440,Darshan Kumar Reang,IND,22919,197,0.53,5,53,55,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781441,Santojoy Tripura,IND,22919,172,0.46,6,53,55,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781442,Shib Chandra Debbarma,IND,22919,141,0.38,7,53,55,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781443,Satrughna Jamatia,IND,22919,116,0.31,8,53,55,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781444,Kalpa Mohan Tripura,IND,22919,78,0.21,9,53,55,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781445,Krishna Mohan Jamatia,IND,22919,54,0.14,10,53,55,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781446,Kriti Devi Debbarman,BJP,22916,27797,76.63,1,53,56,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781447,Rajendra Reang,CPI(M),22922,7250,19.99,2,53,56,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781448,Nota,NOTA,22918,591,1.63,3,53,56,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781449,Archana Urang,IND,22919,195,0.54,4,53,56,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781450,Darshan Kumar Reang,IND,22919,101,0.28,5,53,56,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781451,Shib Chandra Debbarma,IND,22919,92,0.25,6,53,56,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781452,Kalpa Mohan Tripura,IND,22919,66,0.18,7,53,56,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781453,Santojoy Tripura,IND,22919,66,0.18,7,53,56,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781454,Satrughna Jamatia,IND,22919,62,0.17,9,53,56,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781455,Krishna Mohan Jamatia,IND,22919,52,0.14,10,53,56,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781456,Kriti Devi Debbarman,BJP,22916,25741,68.71,1,53,57,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781457,Rajendra Reang,CPI(M),22922,10372,27.69,2,53,57,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781458,Nota,NOTA,22918,468,1.25,3,53,57,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781459,Archana Urang,IND,22919,219,0.58,4,53,57,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781460,Darshan Kumar Reang,IND,22919,173,0.46,5,53,57,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781461,Santojoy Tripura,IND,22919,135,0.36,6,53,57,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781462,Shib Chandra Debbarma,IND,22919,103,0.27,7,53,57,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781463,Satrughna Jamatia,IND,22919,92,0.25,8,53,57,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781464,Krishna Mohan Jamatia,IND,22919,91,0.24,9,53,57,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781465,Kalpa Mohan Tripura,IND,22919,68,0.18,10,53,57,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781466,Kriti Devi Debbarman,BJP,22916,23499,66.52,1,53,58,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781467,Rajendra Reang,CPI(M),22922,9656,27.34,2,53,58,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781468,Nota,NOTA,22918,540,1.53,3,53,58,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781469,Darshan Kumar Reang,IND,22919,510,1.44,4,53,58,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781470,Archana Urang,IND,22919,316,0.89,5,53,58,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781471,Shib Chandra Debbarma,IND,22919,196,0.55,6,53,58,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781472,Santojoy Tripura,IND,22919,187,0.53,7,53,58,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781473,Satrughna Jamatia,IND,22919,166,0.47,8,53,58,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781474,Krishna Mohan Jamatia,IND,22919,150,0.42,9,53,58,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781475,Kalpa Mohan Tripura,IND,22919,104,0.29,10,53,58,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781476,Kriti Devi Debbarman,BJP,22916,21239,60.43,1,53,59,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781477,Rajendra Reang,CPI(M),22922,11368,32.35,2,53,59,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781478,Nota,NOTA,22918,570,1.62,3,53,59,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781479,Darshan Kumar Reang,IND,22919,518,1.47,4,53,59,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781480,Archana Urang,IND,22919,504,1.43,5,53,59,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781481,Santojoy Tripura,IND,22919,236,0.67,6,53,59,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781482,Shib Chandra Debbarma,IND,22919,217,0.62,7,53,59,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781483,Krishna Mohan Jamatia,IND,22919,184,0.52,8,53,59,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781484,Satrughna Jamatia,IND,22919,178,0.51,9,53,59,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781485,Kalpa Mohan Tripura,IND,22919,132,0.38,10,53,59,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE
+1781486,Kriti Devi Debbarman,BJP,22916,24245,63.56,1,53,60,TR,Kriti Devi Debbarman,BJP,,,,,True,53,2024,GE
+1781487,Rajendra Reang,CPI(M),22922,10738,28.15,2,53,60,TR,Rajendra Reang,CPI(M),,,,,False,53,2024,GE
+1781488,Nota,NOTA,22918,810,2.12,3,53,60,TR,Nota,NOTA,,,,,False,53,2024,GE
+1781489,Darshan Kumar Reang,IND,22919,700,1.84,4,53,60,TR,Darshan Kumar Reang,IND,,,,,False,53,2024,GE
+1781490,Archana Urang,IND,22919,638,1.67,5,53,60,TR,Archana Urang,IND,,,,,False,53,2024,GE
+1781491,Shib Chandra Debbarma,IND,22919,257,0.67,6,53,60,TR,Shib Chandra Debbarma,IND,,,,,False,53,2024,GE
+1781492,Santojoy Tripura,IND,22919,244,0.64,7,53,60,TR,Santojoy Tripura,IND,,,,,False,53,2024,GE
+1781493,Satrughna Jamatia,IND,22919,193,0.51,8,53,60,TR,Satrughna Jamatia,IND,,,,,False,53,2024,GE
+1781494,Krishna Mohan Jamatia,IND,22919,184,0.48,9,53,60,TR,Krishna Mohan Jamatia,IND,,,,,False,53,2024,GE
+1781495,Kalpa Mohan Tripura,IND,22919,135,0.35,10,53,60,TR,Kalpa Mohan Tripura,IND,,,,,False,53,2024,GE

@@ -2217,7 +2217,7 @@ async function renderGlanceMomentumAndTable() {
   // ── Shared helpers ─────────────────────────────────────────────────────────
   const FULL_NAMES = {
     AP:'Andhra Pradesh', AR:'Arunachal Pradesh', AS:'Assam', BR:'Bihar',
-    CG:'Chandigarh', CT:'Chhattisgarh', GA:'Goa', GJ:'Gujarat', HR:'Haryana',
+    CT:'Chhattisgarh', GA:'Goa', GJ:'Gujarat', HR:'Haryana',
     HP:'Himachal Pradesh', JH:'Jharkhand', JK:'Jammu & Kashmir', KA:'Karnataka',
     KL:'Kerala', LA:'Ladakh', LD:'Lakshadweep', MP:'Madhya Pradesh',
     MH:'Maharashtra', MN:'Manipur', ML:'Meghalaya', MZ:'Mizoram', NL:'Nagaland',

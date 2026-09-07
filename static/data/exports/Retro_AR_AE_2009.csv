@@ -1,0 +1,158 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1671499,Jambey Tashi,INC,19388,0,0.0,1,4,1,AR,Jambey Tashi,INC,,,,,False,4,2009,AE
+1671500,Tsewang Dhondup,INC,19388,0,0.0,1,4,2,AR,Tsewang Dhondup,INC,,,,,False,4,2009,AE
+1671501,Dorjee Khandu,INC,19388,0,0.0,1,4,3,AR,Dorjee Khandu,INC,,,,,False,4,2009,AE
+1671502,Phurpa Tsering,PPA,19393,6618,56.55,1,4,4,AR,Phurpa Tsering,PPA,,,,,False,4,2009,AE
+1671503,Tsering Gyurme,INC,19388,5085,43.45,2,4,4,AR,Tsering Gyurme,INC,,,,,False,4,2009,AE
+1671504,Tenzing Norbu Thongdok,INC,19388,4189,58.61,1,4,5,AR,Tenzing Norbu Thongdok,INC,,,,,False,4,2009,AE
+1671505,Rinchin Khandu Khrimey,NCP,19396,2958,41.39,2,4,5,AR,Rinchin Khandu Khrimey,NCP,,,,,False,4,2009,AE
+1671506,Kumsi Sidisow,PPA,19393,8279,71.62,1,4,6,AR,Kumsi Sidisow,PPA,,,,,False,4,2009,AE
+1671507,Naresh Glow,INC,19388,3281,28.38,2,4,6,AR,Naresh Glow,INC,,,,,False,4,2009,AE
+1671508,R. T. Khunjuju,INC,19388,4062,50.96,1,4,7,AR,R. T. Khunjuju,INC,,,,,False,4,2009,AE
+1671509,Japu Deru,NCP,19396,3670,46.04,2,4,7,AR,Japu Deru,NCP,,,,,False,4,2009,AE
+1671510,Sambu Siongju,BJP,19389,239,3.0,3,4,7,AR,Sambu Siongju,BJP,,,,,False,4,2009,AE
+1671511,Kumar Waii,INC,19388,5647,71.21,1,4,8,AR,Kumar Waii,INC,,,,,False,4,2009,AE
+1671512,Tagung Neri,AITC,19394,2283,28.79,2,4,8,AR,Tagung Neri,AITC,,,,,False,4,2009,AE
+1671513,Karya Bagang,AITC,19394,3674,52.44,1,4,9,AR,Karya Bagang,AITC,,,,,False,4,2009,AE
+1671514,Kameng Dolo,INC,19388,3332,47.56,2,4,9,AR,Kameng Dolo,INC,,,,,False,4,2009,AE
+1671515,Tapuk Taku,AITC,19394,4666,51.62,1,4,10,AR,Tapuk Taku,AITC,,,,,False,4,2009,AE
+1671516,Tame Phassang,INC,19388,4374,48.38,2,4,10,AR,Tame Phassang,INC,,,,,False,4,2009,AE
+1671517,Tani Loffa,AITC,19394,2783,52.96,1,4,11,AR,Tani Loffa,AITC,,,,,False,4,2009,AE
+1671518,Hari Notung,INC,19388,2472,47.04,2,4,11,AR,Hari Notung,INC,,,,,False,4,2009,AE
+1671519,Atum Welly,INC,19388,2885,50.59,1,4,12,AR,Atum Welly,INC,,,,,False,4,2009,AE
+1671520,Techi Hemu,NCP,19396,2818,49.41,2,4,12,AR,Techi Hemu,NCP,,,,,False,4,2009,AE
+1671521,Shri Techi Kaso,NCP,19396,13443,45.48,1,4,13,AR,Shri Techi Kaso,NCP,,,,,False,4,2009,AE
+1671522,Shri Kipa Babu,INC,19388,10057,34.03,2,4,13,AR,Shri Kipa Babu,INC,,,,,False,4,2009,AE
+1671523,Shri Lichi Legi,BJP,19389,4894,16.56,3,4,13,AR,Shri Lichi Legi,BJP,,,,,False,4,2009,AE
+1671524,Shri Techi Necha,AITC,19394,884,2.99,4,4,13,AR,Shri Techi Necha,AITC,,,,,False,4,2009,AE
+1671525,Sri Tami Taniang,JD(U),19403,278,0.94,5,4,13,AR,Sri Tami Taniang,JD(U),,,,,False,4,2009,AE
+1671526,Shri Nabam Rebia,INC,19388,6752,40.69,1,4,14,AR,Shri Nabam Rebia,INC,,,,,False,4,2009,AE
+1671527,Shri Ngurang Pinch,NCP,19396,6154,37.09,2,4,14,AR,Shri Ngurang Pinch,NCP,,,,,False,4,2009,AE
+1671528,Shri T.C. Teli,AITC,19394,3686,22.22,3,4,14,AR,Shri T.C. Teli,AITC,,,,,False,4,2009,AE
+1671529,Shri Nabam Tuki,INC,19388,6646,69.23,1,4,15,AR,Shri Nabam Tuki,INC,,,,,False,4,2009,AE
+1671530,Sri Tad Tana,NCP,19396,2954,30.77,2,4,15,AR,Sri Tad Tana,NCP,,,,,False,4,2009,AE
+1671531,Shri Likha Saaya,INC,19388,5638,41.58,1,4,16,AR,Shri Likha Saaya,INC,,,,,False,4,2009,AE
+1671532,Shri Nikh Kamin,AITC,19394,5596,41.27,2,4,16,AR,Shri Nikh Kamin,AITC,,,,,False,4,2009,AE
+1671533,Shri Jotam Toko Takam,PPA,19393,2324,17.14,3,4,16,AR,Shri Jotam Toko Takam,PPA,,,,,False,4,2009,AE
+1671534,Shri Padi Richo,INC,19388,9569,55.89,1,4,17,AR,Shri Padi Richo,INC,,,,,False,4,2009,AE
+1671535,Nani Ribia,AITC,19394,6697,39.12,2,4,17,AR,Nani Ribia,AITC,,,,,False,4,2009,AE
+1671536,Shri Kuru Tai,BJP,19389,442,2.58,3,4,17,AR,Shri Kuru Tai,BJP,,,,,False,4,2009,AE
+1671537,Sri Subu Koyang,NCP,19396,412,2.41,4,4,17,AR,Sri Subu Koyang,NCP,,,,,False,4,2009,AE
+1671538,Takam Tagar,PPA,19393,6015,52.68,1,4,18,AR,Takam Tagar,PPA,,,,,False,4,2009,AE
+1671539,Balo Raja,INC,19388,5326,46.65,2,4,18,AR,Balo Raja,INC,,,,,False,4,2009,AE
+1671540,Charu Tanam,NCP,19396,77,0.67,3,4,18,AR,Charu Tanam,NCP,,,,,False,4,2009,AE
+1671541,Bamang Felix,NCP,19396,4865,54.11,1,4,19,AR,Bamang Felix,NCP,,,,,False,4,2009,AE
+1671542,Tatar Kipa,INC,19388,4126,45.89,2,4,19,AR,Tatar Kipa,INC,,,,,False,4,2009,AE
+1671543,Markio Tado,PPA,19393,5261,67.37,1,4,20,AR,Markio Tado,PPA,,,,,False,4,2009,AE
+1671544,Takam Sorang,INC,19388,2548,32.63,2,4,20,AR,Takam Sorang,INC,,,,,False,4,2009,AE
+1671545,Lokam Tassar,INC,19388,5095,56.04,1,4,21,AR,Lokam Tassar,INC,,,,,False,4,2009,AE
+1671546,Kahfa Bengia,NCP,19396,3996,43.96,2,4,21,AR,Kahfa Bengia,NCP,,,,,False,4,2009,AE
+1671547,Shri Tanga Byaling,INC,19388,4878,70.0,1,4,22,AR,Shri Tanga Byaling,INC,,,,,False,4,2009,AE
+1671548,Shri Ajit Nacho,BJP,19389,1052,15.1,2,4,22,AR,Shri Ajit Nacho,BJP,,,,,False,4,2009,AE
+1671549,Shri Tapa Garam Baki,NCP,19396,1039,14.91,3,4,22,AR,Shri Tapa Garam Baki,NCP,,,,,False,4,2009,AE
+1671550,Shri Punji Mara,INC,19388,3570,53.01,1,4,23,AR,Shri Punji Mara,INC,,,,,False,4,2009,AE
+1671551,Shri Nyato Rigia,AITC,19394,3164,46.99,2,4,23,AR,Shri Nyato Rigia,AITC,,,,,False,4,2009,AE
+1671552,Shri Tapen Siga,BJP,19389,5009,39.24,1,4,24,AR,Shri Tapen Siga,BJP,,,,,False,4,2009,AE
+1671553,Smti Yari Dulom,INC,19388,3806,29.82,2,4,24,AR,Smti Yari Dulom,INC,,,,,False,4,2009,AE
+1671554,Shri Daklo Nidak,AITC,19394,2874,22.52,3,4,24,AR,Shri Daklo Nidak,AITC,,,,,False,4,2009,AE
+1671555,Shri Maji Marging,NCP,19396,684,5.36,4,4,24,AR,Shri Maji Marging,NCP,,,,,False,4,2009,AE
+1671556,Shri Takir Kurdu,JD(U),19403,391,3.06,5,4,24,AR,Shri Takir Kurdu,JD(U),,,,,False,4,2009,AE
+1671557,Sri Nido Pavitra,INC,19388,5460,40.64,1,4,25,AR,Sri Nido Pavitra,INC,,,,,False,4,2009,AE
+1671558,Shri Aath Tacho Kabak,NCP,19396,4274,31.81,2,4,25,AR,Shri Aath Tacho Kabak,NCP,,,,,False,4,2009,AE
+1671559,Shri Talo Mugli,AITC,19394,3700,27.54,3,4,25,AR,Shri Talo Mugli,AITC,,,,,False,4,2009,AE
+1671560,Shri Takar Marde,INC,19388,7493,81.2,1,4,26,AR,Shri Takar Marde,INC,,,,,False,4,2009,AE
+1671561,Shri Lompak Paksok,BJP,19389,1735,18.8,2,4,26,AR,Shri Lompak Paksok,BJP,,,,,False,4,2009,AE
+1671562,Jarbom Gamlin,INC,19388,6640,70.73,1,4,27,AR,Jarbom Gamlin,INC,,,,,False,4,2009,AE
+1671563,Bai Gadi,BJP,19389,2748,29.27,2,4,27,AR,Bai Gadi,BJP,,,,,False,4,2009,AE
+1671564,Jomde Kena,INC,19388,3420,40.39,1,4,28,AR,Jomde Kena,INC,,,,,False,4,2009,AE
+1671565,Yai Mara,AITC,19394,2527,29.84,2,4,28,AR,Yai Mara,AITC,,,,,False,4,2009,AE
+1671566,Gumke Riba,NCP,19396,2477,29.25,3,4,28,AR,Gumke Riba,NCP,,,,,False,4,2009,AE
+1671567,Kardu Taipodia,PPA,19393,44,0.52,4,4,28,AR,Kardu Taipodia,PPA,,,,,False,4,2009,AE
+1671568,Gojen Gadi,INC,19388,8438,60.86,1,4,29,AR,Gojen Gadi,INC,,,,,False,4,2009,AE
+1671569,Dakter Basar,AITC,19394,5317,38.35,2,4,29,AR,Dakter Basar,AITC,,,,,False,4,2009,AE
+1671570,Yomkar Riba,NCP,19396,109,0.79,3,4,29,AR,Yomkar Riba,NCP,,,,,False,4,2009,AE
+1671571,Gadam Ete,INC,19388,5113,50.15,1,4,30,AR,Gadam Ete,INC,,,,,False,4,2009,AE
+1671572,Duter Padu,AITC,19394,5082,49.85,2,4,30,AR,Duter Padu,AITC,,,,,False,4,2009,AE
+1671573,Jarkar Gamlin,INC,19388,5175,53.07,1,4,31,AR,Jarkar Gamlin,INC,,,,,False,4,2009,AE
+1671574,Yomto Jini,AITC,19394,4576,46.93,2,4,31,AR,Yomto Jini,AITC,,,,,False,4,2009,AE
+1671575,Tamiyo Taga,BJP,19389,3658,38.77,1,4,32,AR,Tamiyo Taga,BJP,,,,,False,4,2009,AE
+1671576,Karma Jerang,JD(U),19403,2915,30.89,2,4,32,AR,Karma Jerang,JD(U),,,,,False,4,2009,AE
+1671577,Dibang Tatak,INC,19388,2749,29.13,3,4,32,AR,Dibang Tatak,INC,,,,,False,4,2009,AE
+1671578,Tayu Jerang,NCP,19396,114,1.21,4,4,32,AR,Tayu Jerang,NCP,,,,,False,4,2009,AE
+1671579,Pasang Dorjee Sona,INC,19388,3973,51.67,1,4,33,AR,Pasang Dorjee Sona,INC,,,,,False,4,2009,AE
+1671580,Tsering Naksang,NCP,19396,2423,31.51,2,4,33,AR,Tsering Naksang,NCP,,,,,False,4,2009,AE
+1671581,Bote Yuto,PPA,19393,1175,15.28,3,4,33,AR,Bote Yuto,PPA,,,,,False,4,2009,AE
+1671582,Tako Puning,AITC,19394,118,1.53,4,4,33,AR,Tako Puning,AITC,,,,,False,4,2009,AE
+1671583,Alo Libang,NCP,19396,4827,53.52,1,4,34,AR,Alo Libang,NCP,,,,,False,4,2009,AE
+1671584,Gegong Apang,INC,19388,3457,38.33,2,4,34,AR,Gegong Apang,INC,,,,,False,4,2009,AE
+1671585,Katan Komboh,BJP,19389,735,8.15,3,4,34,AR,Katan Komboh,BJP,,,,,False,4,2009,AE
+1671586,Tapang Taloh,INC,19388,6826,62.79,1,4,35,AR,Tapang Taloh,INC,,,,,False,4,2009,AE
+1671587,Kaling Jerang,NCP,19396,4045,37.21,2,4,35,AR,Kaling Jerang,NCP,,,,,False,4,2009,AE
+1671588,Tako Dabi,INC,19388,3398,56.13,1,4,36,AR,Tako Dabi,INC,,,,,False,4,2009,AE
+1671589,Kenyir Ringu,NCP,19396,2656,43.87,2,4,36,AR,Kenyir Ringu,NCP,,,,,False,4,2009,AE
+1671590,Dr. Tangor Tapak,BJP,19389,5529,53.18,1,4,37,AR,Dr. Tangor Tapak,BJP,,,,,False,4,2009,AE
+1671591,Omak Apang,INC,19388,4868,46.82,2,4,37,AR,Omak Apang,INC,,,,,False,4,2009,AE
+1671592,Bosiram Siram,INC,19388,8908,59.71,1,4,38,AR,Bosiram Siram,INC,,,,,False,4,2009,AE
+1671593,Kaling Moyong,NCP,19396,5683,38.09,2,4,38,AR,Kaling Moyong,NCP,,,,,False,4,2009,AE
+1671594,Oyem Dai,BJP,19389,329,2.21,3,4,38,AR,Oyem Dai,BJP,,,,,False,4,2009,AE
+1671595,Ralom Borang,NCP,19396,5142,53.03,1,4,39,AR,Ralom Borang,NCP,,,,,False,4,2009,AE
+1671596,Lombo Tayeng,INC,19388,4555,46.97,2,4,39,AR,Lombo Tayeng,INC,,,,,False,4,2009,AE
+1671597,J K Panggeng,INC,19388,4165,44.05,1,4,40,AR,J K Panggeng,INC,,,,,False,4,2009,AE
+1671598,Raising Perme,NCP,19396,2885,30.51,2,4,40,AR,Raising Perme,NCP,,,,,False,4,2009,AE
+1671599,Olom Panyang,AITC,19394,2212,23.39,3,4,40,AR,Olom Panyang,AITC,,,,,False,4,2009,AE
+1671600,Dana Pertin,BJP,19389,194,2.05,4,4,40,AR,Dana Pertin,BJP,,,,,False,4,2009,AE
+1671601,Rajesh Tacho,INC,19388,1730,51.2,1,4,41,AR,Rajesh Tacho,INC,,,,,False,4,2009,AE
+1671602,Eri Tayu,NCP,19396,1649,48.8,2,4,41,AR,Eri Tayu,NCP,,,,,False,4,2009,AE
+1671603,Jomin Tayeng,NCP,19396,4967,50.66,1,4,42,AR,Jomin Tayeng,NCP,,,,,False,4,2009,AE
+1671604,Roding Pertin,INC,19388,4837,49.34,2,4,42,AR,Roding Pertin,INC,,,,,False,4,2009,AE
+1671605,Shri Laeta Umbrey,AITC,19394,5170,54.38,1,4,43,AR,Shri Laeta Umbrey,AITC,,,,,False,4,2009,AE
+1671606,Smti Pomoya Mithi,INC,19388,4337,45.62,2,4,43,AR,Smti Pomoya Mithi,INC,,,,,False,4,2009,AE
+1671607,Karikho Kri,INC,19388,8397,64.85,1,4,44,AR,Karikho Kri,INC,,,,,False,4,2009,AE
+1671608,Nakul Chai,AITC,19394,4552,35.15,2,4,44,AR,Nakul Chai,AITC,,,,,False,4,2009,AE
+1671609,Shri Kalikho Pul,INC,19388,7788,85.26,1,4,45,AR,Shri Kalikho Pul,INC,,,,,False,4,2009,AE
+1671610,Shri Baritlum Ama,AITC,19394,998,10.93,2,4,45,AR,Shri Baritlum Ama,AITC,,,,,False,4,2009,AE
+1671611,Sh. Banim Kri,BJP,19389,250,2.74,3,4,45,AR,Sh. Banim Kri,BJP,,,,,False,4,2009,AE
+1671612,Shri Khuje Drai,NCP,19396,98,1.07,4,4,45,AR,Shri Khuje Drai,NCP,,,,,False,4,2009,AE
+1671613,Chow Tewa Mein,INC,19388,6279,60.95,1,4,46,AR,Chow Tewa Mein,INC,,,,,False,4,2009,AE
+1671614,Chow Chinakong Namchoom,NCP,19396,4023,39.05,2,4,46,AR,Chow Chinakong Namchoom,NCP,,,,,False,4,2009,AE
+1671615,Nang Sati Mein,IND,19390,10477,64.89,1,4,47,AR,Nang Sati Mein,IND,,,,,False,4,2009,AE
+1671616,Chow Pingthika Namchoom,AITC,19394,4778,29.59,2,4,47,AR,Chow Pingthika Namchoom,AITC,,,,,False,4,2009,AE
+1671617,Chau Ambika Enling,BJP,19389,603,3.73,3,4,47,AR,Chau Ambika Enling,BJP,,,,,False,4,2009,AE
+1671618,Chow Chandra Mansai,INC,19388,288,1.78,4,4,47,AR,Chow Chandra Mansai,INC,,,,,False,4,2009,AE
+1671619,Chowna Mein,INC,19388,6896,56.97,1,4,48,AR,Chowna Mein,INC,,,,,False,4,2009,AE
+1671620,James Techi Tara,NCP,19396,3950,32.63,2,4,48,AR,James Techi Tara,NCP,,,,,False,4,2009,AE
+1671621,Sotai Kri,BJP,19389,705,5.82,3,4,48,AR,Sotai Kri,BJP,,,,,False,4,2009,AE
+1671622,Koruna Morang,IND,19390,305,2.52,4,4,48,AR,Koruna Morang,IND,,,,,False,4,2009,AE
+1671623,Larbin Nasi,AITC,19394,248,2.05,5,4,48,AR,Larbin Nasi,AITC,,,,,False,4,2009,AE
+1671624,C.C Singpho,INC,19388,6193,48.84,1,4,49,AR,C.C Singpho,INC,,,,,False,4,2009,AE
+1671625,Khumral Lungphi,NCP,19396,5238,41.31,2,4,49,AR,Khumral Lungphi,NCP,,,,,False,4,2009,AE
+1671626,Siraiong Singpho,BJP,19389,1250,9.86,3,4,49,AR,Siraiong Singpho,BJP,,,,,False,4,2009,AE
+1671627,Kamlung Mosang,INC,19388,9151,59.69,1,4,50,AR,Kamlung Mosang,INC,,,,,False,4,2009,AE
+1671628,Samchom Ngemu,NCP,19396,6180,40.31,2,4,50,AR,Samchom Ngemu,NCP,,,,,False,4,2009,AE
+1671629,Setong Sena,INC,19388,5432,77.45,1,4,51,AR,Setong Sena,INC,,,,,False,4,2009,AE
+1671630,Tosham Mossang,IND,19390,1582,22.55,2,4,51,AR,Tosham Mossang,IND,,,,,False,4,2009,AE
+1671631,Phosum Khimhun,INC,19388,2904,67.55,1,4,52,AR,Phosum Khimhun,INC,,,,,False,4,2009,AE
+1671632,Tengam Ngemu,AITC,19394,950,22.1,2,4,52,AR,Tengam Ngemu,AITC,,,,,False,4,2009,AE
+1671633,Hamjong Tangha,NCP,19396,445,10.35,3,4,52,AR,Hamjong Tangha,NCP,,,,,False,4,2009,AE
+1671634,Thinghaap Taiju,INC,19388,4088,52.91,1,4,53,AR,Thinghaap Taiju,INC,,,,,False,4,2009,AE
+1671635,Wangnia Pongte,AITC,19394,2834,36.68,2,4,53,AR,Wangnia Pongte,AITC,,,,,False,4,2009,AE
+1671636,Happa Taidong,NCP,19396,804,10.41,3,4,53,AR,Happa Taidong,NCP,,,,,False,4,2009,AE
+1671637,Wangki Lowang,INC,19388,4968,68.59,1,4,54,AR,Wangki Lowang,INC,,,,,False,4,2009,AE
+1671638,Wanglong Rajkumar,NCP,19396,2275,31.41,2,4,54,AR,Wanglong Rajkumar,NCP,,,,,False,4,2009,AE
+1671639,Kamthok Lowang,AITC,19394,3475,45.38,1,4,55,AR,Kamthok Lowang,AITC,,,,,False,4,2009,AE
+1671640,T L Rajkumar,INC,19388,3020,39.44,2,4,55,AR,T L Rajkumar,INC,,,,,False,4,2009,AE
+1671641,Ngampay Lamatey,PPA,19393,721,9.41,3,4,55,AR,Ngampay Lamatey,PPA,,,,,False,4,2009,AE
+1671642,Wangman Lowangcha,BJP,19389,442,5.77,4,4,55,AR,Wangman Lowangcha,BJP,,,,,False,4,2009,AE
+1671643,Yumsem Matey,INC,19388,4030,51.34,1,4,56,AR,Yumsem Matey,INC,,,,,False,4,2009,AE
+1671644,Thajam Aboh,AITC,19394,3562,45.38,2,4,56,AR,Thajam Aboh,AITC,,,,,False,4,2009,AE
+1671645,Jitbo Aboh,NCP,19396,143,1.82,3,4,56,AR,Jitbo Aboh,NCP,,,,,False,4,2009,AE
+1671646,Langwang Sumpa,BJP,19389,115,1.46,4,4,56,AR,Langwang Sumpa,BJP,,,,,False,4,2009,AE
+1671647,Wanglin Lowangdong,INC,19388,4034,67.89,1,4,57,AR,Wanglin Lowangdong,INC,,,,,False,4,2009,AE
+1671648,Tonhang Tongluk,NCP,19396,1908,32.11,2,4,57,AR,Tonhang Tongluk,NCP,,,,,False,4,2009,AE
+1671649,Newlai Tingkhatra,INC,19388,4859,53.7,1,4,58,AR,Newlai Tingkhatra,INC,,,,,False,4,2009,AE
+1671650,Gabrial Denwang Wangsu,PPA,19393,4189,46.3,2,4,58,AR,Gabrial Denwang Wangsu,PPA,,,,,False,4,2009,AE
+1671651,Thangwang Wangham,INC,19388,4763,53.27,1,4,59,AR,Thangwang Wangham,INC,,,,,False,4,2009,AE
+1671652,Tanpho Wangnaw,PPA,19393,4178,46.73,2,4,59,AR,Tanpho Wangnaw,PPA,,,,,False,4,2009,AE
+1671653,Honchun Ngandam,INC,19388,7531,61.63,1,4,60,AR,Honchun Ngandam,INC,,,,,False,4,2009,AE
+1671654,Anok Wangsa,PPA,19393,2976,24.35,2,4,60,AR,Anok Wangsa,PPA,,,,,False,4,2009,AE
+1671655,Kapnai Wangsa,NCP,19396,1713,14.02,3,4,60,AR,Kapnai Wangsa,NCP,,,,,False,4,2009,AE

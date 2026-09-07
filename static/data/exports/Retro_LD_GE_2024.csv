@@ -1,0 +1,6 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1880414,Muhammed Hamdullah Sayeed,INC,24434,25405,52.24,1,53,1,LD,Muhammed Hamdullah Sayeed,INC,,,,,False,53,2024,GE
+1880415,Mohammed Faizal PP,NCPSP,24435,22837,46.96,2,53,1,LD,Mohammed Faizal PP,NCPSP,,,,,False,53,2024,GE
+1880416,Yousuf TP,NCP,24436,198,0.41,3,53,1,LD,Yousuf TP,NCP,,,,,True,53,2024,GE
+1880417,Nota,NOTA,24437,132,0.27,4,53,1,LD,Nota,NOTA,,,,,False,53,2024,GE
+1880418,Koya,IND,24438,58,0.12,5,53,1,LD,Koya,IND,,,,,False,53,2024,GE

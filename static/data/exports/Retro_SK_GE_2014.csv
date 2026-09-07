@@ -1,0 +1,225 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1763996,Prem Das Rai,SDF,22687,6672,66.8,1,21,1,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1763997,Tek Nath Dhakal,SKM,22694,2362,23.65,2,21,1,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1763998,Akar Dhoj Limbu,INC,22688,408,4.08,3,21,1,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1763999,Nar Bahadur Khatiwada,BJP,22690,213,2.13,4,21,1,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764000,Nota,NOTA,22695,163,1.63,5,21,1,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764001,Kaushal Rai,AAAP,22696,115,1.15,6,21,1,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764002,Nakul Das Rai,AITC,22697,55,0.55,7,21,1,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764003,Prem Das Rai,SDF,22687,5044,54.93,1,21,2,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764004,Tek Nath Dhakal,SKM,22694,3419,37.24,2,21,2,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764005,Akar Dhoj Limbu,INC,22688,284,3.09,3,21,2,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764006,Nar Bahadur Khatiwada,BJP,22690,176,1.92,4,21,2,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764007,Nota,NOTA,22695,148,1.61,5,21,2,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764008,Kaushal Rai,AAAP,22696,58,0.63,6,21,2,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764009,Nakul Das Rai,AITC,22697,53,0.58,7,21,2,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764010,Prem Das Rai,SDF,22687,7349,70.85,1,21,3,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764011,Tek Nath Dhakal,SKM,22694,2351,22.66,2,21,3,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764012,Akar Dhoj Limbu,INC,22688,214,2.06,3,21,3,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764013,Nar Bahadur Khatiwada,BJP,22690,149,1.44,4,21,3,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764014,Nota,NOTA,22695,136,1.31,5,21,3,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764015,Kaushal Rai,AAAP,22696,110,1.06,6,21,3,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764016,Nakul Das Rai,AITC,22697,64,0.62,7,21,3,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764017,Prem Das Rai,SDF,22687,4271,49.74,1,21,4,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764018,Tek Nath Dhakal,SKM,22694,3652,42.53,2,21,4,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764019,Nar Bahadur Khatiwada,BJP,22690,188,2.19,3,21,4,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764020,Akar Dhoj Limbu,INC,22688,165,1.92,4,21,4,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764021,Nota,NOTA,22695,160,1.86,5,21,4,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764022,Kaushal Rai,AAAP,22696,79,0.92,6,21,4,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764023,Nakul Das Rai,AITC,22697,71,0.83,7,21,4,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764024,Prem Das Rai,SDF,22687,7089,66.68,1,21,5,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764025,Tek Nath Dhakal,SKM,22694,2769,26.05,2,21,5,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764026,Akar Dhoj Limbu,INC,22688,262,2.46,3,21,5,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764027,Nar Bahadur Khatiwada,BJP,22690,204,1.92,4,21,5,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764028,Nota,NOTA,22695,145,1.36,5,21,5,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764029,Kaushal Rai,AAAP,22696,104,0.98,6,21,5,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764030,Nakul Das Rai,AITC,22697,58,0.55,7,21,5,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764031,Prem Das Rai,SDF,22687,5988,54.04,1,21,6,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764032,Tek Nath Dhakal,SKM,22694,4199,37.89,2,21,6,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764033,Akar Dhoj Limbu,INC,22688,378,3.41,3,21,6,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764034,Nar Bahadur Khatiwada,BJP,22690,204,1.84,4,21,6,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764035,Nota,NOTA,22695,171,1.54,5,21,6,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764036,Kaushal Rai,AAAP,22696,93,0.84,6,21,6,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764037,Nakul Das Rai,AITC,22697,48,0.43,7,21,6,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764038,Prem Das Rai,SDF,22687,6224,53.58,1,21,7,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764039,Tek Nath Dhakal,SKM,22694,4301,37.02,2,21,7,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764040,Akar Dhoj Limbu,INC,22688,523,4.5,3,21,7,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764041,Nota,NOTA,22695,209,1.8,4,21,7,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764042,Nar Bahadur Khatiwada,BJP,22690,202,1.74,5,21,7,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764043,Kaushal Rai,AAAP,22696,101,0.87,6,21,7,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764044,Nakul Das Rai,AITC,22697,57,0.49,7,21,7,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764045,Prem Das Rai,SDF,22687,3972,49.91,1,21,8,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764046,Tek Nath Dhakal,SKM,22694,3234,40.63,2,21,8,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764047,Nar Bahadur Khatiwada,BJP,22690,338,4.25,3,21,8,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764048,Akar Dhoj Limbu,INC,22688,200,2.51,4,21,8,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764049,Nota,NOTA,22695,96,1.21,5,21,8,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764050,Kaushal Rai,AAAP,22696,67,0.84,6,21,8,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764051,Nakul Das Rai,AITC,22697,52,0.65,7,21,8,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764052,Prem Das Rai,SDF,22687,6448,63.02,1,21,9,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764053,Tek Nath Dhakal,SKM,22694,3207,31.34,2,21,9,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764054,Nota,NOTA,22695,158,1.54,3,21,9,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764055,Nar Bahadur Khatiwada,BJP,22690,151,1.48,4,21,9,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764056,Akar Dhoj Limbu,INC,22688,122,1.19,5,21,9,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764057,Kaushal Rai,AAAP,22696,87,0.85,6,21,9,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764058,Nakul Das Rai,AITC,22697,59,0.58,7,21,9,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764059,Prem Das Rai,SDF,22687,7741,68.32,1,21,10,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764060,Tek Nath Dhakal,SKM,22694,3062,27.02,2,21,10,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764061,Nota,NOTA,22695,147,1.3,3,21,10,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764062,Akar Dhoj Limbu,INC,22688,139,1.23,4,21,10,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764063,Nar Bahadur Khatiwada,BJP,22690,126,1.11,5,21,10,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764064,Kaushal Rai,AAAP,22696,79,0.7,6,21,10,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764065,Nakul Das Rai,AITC,22697,37,0.33,7,21,10,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764066,Prem Das Rai,SDF,22687,4499,54.1,1,21,11,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764067,Tek Nath Dhakal,SKM,22694,3350,40.28,2,21,11,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764068,Nar Bahadur Khatiwada,BJP,22690,145,1.74,3,21,11,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764069,Akar Dhoj Limbu,INC,22688,128,1.54,4,21,11,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764070,Nota,NOTA,22695,110,1.32,5,21,11,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764071,Kaushal Rai,AAAP,22696,52,0.63,6,21,11,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764072,Nakul Das Rai,AITC,22697,32,0.38,7,21,11,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764073,Prem Das Rai,SDF,22687,7335,66.48,1,21,12,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764074,Tek Nath Dhakal,SKM,22694,3126,28.33,2,21,12,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764075,Nar Bahadur Khatiwada,BJP,22690,185,1.68,3,21,12,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764076,Akar Dhoj Limbu,INC,22688,145,1.31,4,21,12,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764077,Nota,NOTA,22695,111,1.01,5,21,12,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764078,Kaushal Rai,AAAP,22696,77,0.7,6,21,12,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764079,Nakul Das Rai,AITC,22697,54,0.49,7,21,12,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764080,Prem Das Rai,SDF,22687,5836,53.99,1,21,13,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764081,Tek Nath Dhakal,SKM,22694,4321,39.98,2,21,13,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764082,Nar Bahadur Khatiwada,BJP,22690,183,1.69,3,21,13,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764083,Akar Dhoj Limbu,INC,22688,159,1.47,4,21,13,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764084,Nota,NOTA,22695,159,1.47,4,21,13,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764085,Kaushal Rai,AAAP,22696,94,0.87,6,21,13,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764086,Nakul Das Rai,AITC,22697,57,0.53,7,21,13,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764087,Prem Das Rai,SDF,22687,5428,54.69,1,21,14,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764088,Tek Nath Dhakal,SKM,22694,3823,38.52,2,21,14,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764089,Nar Bahadur Khatiwada,BJP,22690,249,2.51,3,21,14,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764090,Nota,NOTA,22695,142,1.43,4,21,14,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764091,Akar Dhoj Limbu,INC,22688,140,1.41,5,21,14,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764092,Kaushal Rai,AAAP,22696,84,0.85,6,21,14,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764093,Nakul Das Rai,AITC,22697,59,0.59,7,21,14,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764094,Prem Das Rai,SDF,22687,6174,63.38,1,21,15,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764095,Tek Nath Dhakal,SKM,22694,2863,29.39,2,21,15,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764096,Nar Bahadur Khatiwada,BJP,22690,197,2.02,3,21,15,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764097,Akar Dhoj Limbu,INC,22688,189,1.94,4,21,15,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764098,Nota,NOTA,22695,177,1.82,5,21,15,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764099,Kaushal Rai,AAAP,22696,86,0.88,6,21,15,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764100,Nakul Das Rai,AITC,22697,56,0.57,7,21,15,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764101,Prem Das Rai,SDF,22687,6700,59.09,1,21,16,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764102,Tek Nath Dhakal,SKM,22694,3927,34.64,2,21,16,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764103,Nar Bahadur Khatiwada,BJP,22690,260,2.29,3,21,16,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764104,Akar Dhoj Limbu,INC,22688,189,1.67,4,21,16,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764105,Nota,NOTA,22695,115,1.01,5,21,16,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764106,Kaushal Rai,AAAP,22696,88,0.78,6,21,16,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764107,Nakul Das Rai,AITC,22697,59,0.52,7,21,16,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764108,Prem Das Rai,SDF,22687,4538,47.96,1,21,17,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764109,Tek Nath Dhakal,SKM,22694,4182,44.19,2,21,17,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764110,Nar Bahadur Khatiwada,BJP,22690,276,2.92,3,21,17,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764111,Akar Dhoj Limbu,INC,22688,167,1.76,4,21,17,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764112,Nota,NOTA,22695,159,1.68,5,21,17,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764113,Kaushal Rai,AAAP,22696,85,0.9,6,21,17,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764114,Nakul Das Rai,AITC,22697,56,0.59,7,21,17,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764115,Tek Nath Dhakal,SKM,22694,5064,50.33,1,21,18,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764116,Prem Das Rai,SDF,22687,4241,42.15,2,21,18,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764117,Nar Bahadur Khatiwada,BJP,22690,339,3.37,3,21,18,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764118,Nota,NOTA,22695,144,1.43,4,21,18,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764119,Akar Dhoj Limbu,INC,22688,118,1.17,5,21,18,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764120,Nakul Das Rai,AITC,22697,79,0.79,6,21,18,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764121,Kaushal Rai,AAAP,22696,77,0.77,7,21,18,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764122,Tek Nath Dhakal,SKM,22694,6251,50.28,1,21,19,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764123,Prem Das Rai,SDF,22687,5175,41.63,2,21,19,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764124,Nar Bahadur Khatiwada,BJP,22690,350,2.82,3,21,19,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764125,Akar Dhoj Limbu,INC,22688,272,2.19,4,21,19,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764126,Nota,NOTA,22695,199,1.6,5,21,19,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764127,Nakul Das Rai,AITC,22697,103,0.83,6,21,19,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764128,Kaushal Rai,AAAP,22696,82,0.66,7,21,19,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764129,Prem Das Rai,SDF,22687,7149,57.61,1,21,20,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764130,Tek Nath Dhakal,SKM,22694,4316,34.78,2,21,20,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764131,Akar Dhoj Limbu,INC,22688,355,2.86,3,21,20,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764132,Nar Bahadur Khatiwada,BJP,22690,289,2.33,4,21,20,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764133,Nota,NOTA,22695,156,1.26,5,21,20,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764134,Kaushal Rai,AAAP,22696,91,0.73,6,21,20,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764135,Nakul Das Rai,AITC,22697,53,0.43,7,21,20,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764136,Prem Das Rai,SDF,22687,4673,56.4,1,21,21,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764137,Tek Nath Dhakal,SKM,22694,3019,36.44,2,21,21,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764138,Nar Bahadur Khatiwada,BJP,22690,209,2.52,3,21,21,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764139,Akar Dhoj Limbu,INC,22688,169,2.04,4,21,21,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764140,Nota,NOTA,22695,95,1.15,5,21,21,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764141,Kaushal Rai,AAAP,22696,71,0.86,6,21,21,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764142,Nakul Das Rai,AITC,22697,49,0.59,7,21,21,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764143,Prem Das Rai,SDF,22687,5185,48.58,1,21,22,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764144,Tek Nath Dhakal,SKM,22694,4605,43.14,2,21,22,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764145,Akar Dhoj Limbu,INC,22688,250,2.34,3,21,22,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764146,Nar Bahadur Khatiwada,BJP,22690,219,2.05,4,21,22,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764147,Nakul Das Rai,AITC,22697,192,1.8,5,21,22,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764148,Nota,NOTA,22695,138,1.29,6,21,22,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764149,Kaushal Rai,AAAP,22696,85,0.8,7,21,22,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764150,Tek Nath Dhakal,SKM,22694,4841,48.75,1,21,23,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764151,Prem Das Rai,SDF,22687,4231,42.6,2,21,23,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764152,Nar Bahadur Khatiwada,BJP,22690,272,2.74,3,21,23,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764153,Akar Dhoj Limbu,INC,22688,253,2.55,4,21,23,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764154,Kaushal Rai,AAAP,22696,125,1.26,5,21,23,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764155,Nota,NOTA,22695,121,1.22,6,21,23,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764156,Nakul Das Rai,AITC,22697,88,0.89,7,21,23,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764157,Tek Nath Dhakal,SKM,22694,5592,47.51,1,21,24,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764158,Prem Das Rai,SDF,22687,5123,43.52,2,21,24,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764159,Akar Dhoj Limbu,INC,22688,361,3.07,3,21,24,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764160,Nar Bahadur Khatiwada,BJP,22690,312,2.65,4,21,24,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764161,Nota,NOTA,22695,198,1.68,5,21,24,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764162,Nakul Das Rai,AITC,22697,95,0.81,6,21,24,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764163,Kaushal Rai,AAAP,22696,90,0.76,7,21,24,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764164,Tek Nath Dhakal,SKM,22694,3366,51.26,1,21,25,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764165,Prem Das Rai,SDF,22687,2586,39.38,2,21,25,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764166,Nar Bahadur Khatiwada,BJP,22690,240,3.65,3,21,25,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764167,Akar Dhoj Limbu,INC,22688,164,2.5,4,21,25,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764168,Nota,NOTA,22695,101,1.54,5,21,25,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764169,Kaushal Rai,AAAP,22696,56,0.85,6,21,25,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764170,Nakul Das Rai,AITC,22697,54,0.82,7,21,25,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764171,Tek Nath Dhakal,SKM,22694,3700,54.86,1,21,26,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764172,Prem Das Rai,SDF,22687,2191,32.48,2,21,26,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764173,Nar Bahadur Khatiwada,BJP,22690,404,5.99,3,21,26,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764174,Akar Dhoj Limbu,INC,22688,207,3.07,4,21,26,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764175,Nota,NOTA,22695,110,1.63,5,21,26,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764176,Nakul Das Rai,AITC,22697,68,1.01,6,21,26,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764177,Kaushal Rai,AAAP,22696,65,0.96,7,21,26,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764178,Tek Nath Dhakal,SKM,22694,3848,58.07,1,21,27,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764179,Prem Das Rai,SDF,22687,2016,30.42,2,21,27,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764180,Nar Bahadur Khatiwada,BJP,22690,394,5.95,3,21,27,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764181,Akar Dhoj Limbu,INC,22688,182,2.75,4,21,27,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764182,Nota,NOTA,22695,99,1.49,5,21,27,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764183,Kaushal Rai,AAAP,22696,45,0.68,6,21,27,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764184,Nakul Das Rai,AITC,22697,43,0.65,7,21,27,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764185,Tek Nath Dhakal,SKM,22694,5196,51.75,1,21,28,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764186,Prem Das Rai,SDF,22687,4159,41.42,2,21,28,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764187,Nar Bahadur Khatiwada,BJP,22690,233,2.32,3,21,28,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764188,Akar Dhoj Limbu,INC,22688,205,2.04,4,21,28,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764189,Nota,NOTA,22695,138,1.37,5,21,28,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764190,Nakul Das Rai,AITC,22697,57,0.57,6,21,28,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764191,Kaushal Rai,AAAP,22696,53,0.53,7,21,28,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764192,Tek Nath Dhakal,SKM,22694,4509,47.99,1,21,29,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764193,Prem Das Rai,SDF,22687,4160,44.28,2,21,29,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764194,Akar Dhoj Limbu,INC,22688,267,2.84,3,21,29,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764195,Nar Bahadur Khatiwada,BJP,22690,213,2.27,4,21,29,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764196,Nota,NOTA,22695,133,1.42,5,21,29,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764197,Kaushal Rai,AAAP,22696,62,0.66,6,21,29,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764198,Nakul Das Rai,AITC,22697,51,0.54,7,21,29,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764199,Prem Das Rai,SDF,22687,4499,62.74,1,21,30,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764200,Tek Nath Dhakal,SKM,22694,2199,30.67,2,21,30,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764201,Akar Dhoj Limbu,INC,22688,229,3.19,3,21,30,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764202,Nar Bahadur Khatiwada,BJP,22690,112,1.56,4,21,30,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764203,Kaushal Rai,AAAP,22696,56,0.78,5,21,30,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764204,Nota,NOTA,22695,56,0.78,5,21,30,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764205,Nakul Das Rai,AITC,22697,20,0.28,7,21,30,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+1764206,Prem Das Rai,SDF,22687,3008,51.41,1,21,31,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764207,Tek Nath Dhakal,SKM,22694,2417,41.31,2,21,31,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764208,Nar Bahadur Khatiwada,BJP,22690,156,2.67,3,21,31,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764209,Akar Dhoj Limbu,INC,22688,123,2.1,4,21,31,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764210,Nota,NOTA,22695,65,1.11,5,21,31,SK,Nota,NOTA,,,,,False,21,2014,GE
+1764211,Kaushal Rai,AAAP,22696,53,0.91,6,21,31,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764212,Nakul Das Rai,AITC,22697,29,0.5,7,21,31,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE
+2001079,NOTA,NOTA,22695,0,0.0,1,21,32,SK,NOTA,NOTA,,,,,,21,2014,GE
+1764214,Kaushal Rai,AAAP,22696,0,0.0,1,21,32,SK,Kaushal Rai,AAAP,,,,,False,21,2014,GE
+1764217,Prem Das Rai,SDF,22687,0,0.0,1,21,32,SK,Prem Das Rai,SDF,,,,,True,21,2014,GE
+1764213,Akar Dhoj Limbu,INC,22688,0,0.0,1,21,32,SK,Akar Dhoj Limbu,INC,,,,,False,21,2014,GE
+1764218,Tek Nath Dhakal,SKM,22694,0,0.0,1,21,32,SK,Tek Nath Dhakal,SKM,,,,,False,21,2014,GE
+1764216,Nar Bahadur Khatiwada,BJP,22690,0,0.0,1,21,32,SK,Nar Bahadur Khatiwada,BJP,,,,,False,21,2014,GE
+1764215,Nakul Das Rai,AITC,22697,0,0.0,1,21,32,SK,Nakul Das Rai,AITC,,,,,False,21,2014,GE

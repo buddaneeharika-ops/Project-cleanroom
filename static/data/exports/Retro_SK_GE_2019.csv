@@ -1,0 +1,373 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1764219,Indra Hang Subba,SKM,22694,5618,47.91,1,37,1,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764220,Dek Bahadur Katwal,SDF,22687,5183,44.2,2,37,1,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764221,Laten Tshering Sherpa,BJP,22690,257,2.19,3,37,1,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764222,Dhiraj Kumar Rai,SKPP,22698,232,1.98,4,37,1,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764223,Bharat Basnett,INC,22688,130,1.11,5,37,1,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764224,Biraj Adhikari,HMSKP,22699,104,0.89,6,37,1,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764225,Nota,NOTA,22695,95,0.81,7,37,1,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764226,Mahendra Thapa,IND,22691,29,0.25,8,37,1,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764227,Passang Gyali Sherpa,IND,22691,26,0.22,9,37,1,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764228,Narendra Adhikari,SUTF,22700,25,0.21,10,37,1,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764229,Sunmaya Gurung,JMBP,22701,20,0.17,11,37,1,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764230,Rabin Rai,AIP,22702,7,0.06,12,37,1,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764231,Indra Hang Subba,SKM,22694,5157,49.18,1,37,2,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764232,Dek Bahadur Katwal,SDF,22687,4650,44.34,2,37,2,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764233,Laten Tshering Sherpa,BJP,22690,195,1.86,3,37,2,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764234,Bharat Basnett,INC,22688,162,1.54,4,37,2,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764235,Biraj Adhikari,HMSKP,22699,95,0.91,5,37,2,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764236,Nota,NOTA,22695,67,0.64,6,37,2,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764237,Dhiraj Kumar Rai,SKPP,22698,60,0.57,7,37,2,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764238,Passang Gyali Sherpa,IND,22691,46,0.44,8,37,2,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764239,Mahendra Thapa,IND,22691,20,0.19,9,37,2,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764240,Narendra Adhikari,SUTF,22700,17,0.16,10,37,2,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764241,Rabin Rai,AIP,22702,10,0.1,11,37,2,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764242,Sunmaya Gurung,JMBP,22701,8,0.08,12,37,2,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764243,Dek Bahadur Katwal,SDF,22687,6428,51.77,1,37,3,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764244,Indra Hang Subba,SKM,22694,5458,43.96,2,37,3,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764245,Laten Tshering Sherpa,BJP,22690,175,1.41,3,37,3,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764246,Bharat Basnett,INC,22688,115,0.93,4,37,3,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764247,Nota,NOTA,22695,85,0.68,5,37,3,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764248,Biraj Adhikari,HMSKP,22699,52,0.42,6,37,3,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764249,Passang Gyali Sherpa,IND,22691,49,0.39,7,37,3,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764250,Narendra Adhikari,SUTF,22700,17,0.14,8,37,3,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764251,Mahendra Thapa,IND,22691,15,0.12,9,37,3,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764252,Dhiraj Kumar Rai,SKPP,22698,11,0.09,10,37,3,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764253,Sunmaya Gurung,JMBP,22701,8,0.06,11,37,3,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764254,Rabin Rai,AIP,22702,4,0.03,12,37,3,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764255,Indra Hang Subba,SKM,22694,5567,56.33,1,37,4,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764256,Dek Bahadur Katwal,SDF,22687,3762,38.07,2,37,4,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764257,Laten Tshering Sherpa,BJP,22690,290,2.93,3,37,4,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764258,Nota,NOTA,22695,64,0.65,4,37,4,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764259,Bharat Basnett,INC,22688,57,0.58,5,37,4,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764260,Passang Gyali Sherpa,IND,22691,51,0.52,6,37,4,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764261,Biraj Adhikari,HMSKP,22699,35,0.35,7,37,4,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764262,Dhiraj Kumar Rai,SKPP,22698,13,0.13,8,37,4,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764263,Narendra Adhikari,SUTF,22700,13,0.13,8,37,4,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764264,Sunmaya Gurung,JMBP,22701,12,0.12,10,37,4,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764265,Mahendra Thapa,IND,22691,9,0.09,11,37,4,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764266,Rabin Rai,AIP,22702,9,0.09,11,37,4,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764267,Dek Bahadur Katwal,SDF,22687,6084,49.17,1,37,5,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764268,Indra Hang Subba,SKM,22694,5507,44.5,2,37,5,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764269,Laten Tshering Sherpa,BJP,22690,410,3.31,3,37,5,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764270,Bharat Basnett,INC,22688,163,1.32,4,37,5,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764271,Nota,NOTA,22695,72,0.58,5,37,5,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764272,Biraj Adhikari,HMSKP,22699,35,0.28,6,37,5,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764273,Passang Gyali Sherpa,IND,22691,34,0.27,7,37,5,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764274,Dhiraj Kumar Rai,SKPP,22698,19,0.15,8,37,5,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764275,Narendra Adhikari,SUTF,22700,18,0.15,9,37,5,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764276,Mahendra Thapa,IND,22691,12,0.1,10,37,5,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764277,Rabin Rai,AIP,22702,11,0.09,11,37,5,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764278,Sunmaya Gurung,JMBP,22701,9,0.07,12,37,5,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764279,Indra Hang Subba,SKM,22694,6123,50.16,1,37,6,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764280,Dek Bahadur Katwal,SDF,22687,5394,44.18,2,37,6,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764281,Laten Tshering Sherpa,BJP,22690,327,2.68,3,37,6,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764282,Bharat Basnett,INC,22688,104,0.85,4,37,6,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764283,Passang Gyali Sherpa,IND,22691,103,0.84,5,37,6,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764284,Nota,NOTA,22695,77,0.63,6,37,6,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764285,Biraj Adhikari,HMSKP,22699,21,0.17,7,37,6,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764286,Dhiraj Kumar Rai,SKPP,22698,18,0.15,8,37,6,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764287,Narendra Adhikari,SUTF,22700,15,0.12,9,37,6,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764289,Rabin Rai,AIP,22702,10,0.08,10,37,6,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764288,Mahendra Thapa,IND,22691,10,0.08,10,37,6,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764290,Sunmaya Gurung,JMBP,22701,6,0.05,12,37,6,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764291,Indra Hang Subba,SKM,22694,6528,51.3,1,37,7,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764292,Dek Bahadur Katwal,SDF,22687,5637,44.3,2,37,7,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764293,Laten Tshering Sherpa,BJP,22690,213,1.67,3,37,7,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764294,Bharat Basnett,INC,22688,146,1.15,4,37,7,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764295,Nota,NOTA,22695,76,0.6,5,37,7,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764296,Biraj Adhikari,HMSKP,22699,35,0.28,6,37,7,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764297,Passang Gyali Sherpa,IND,22691,29,0.23,7,37,7,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764298,Dhiraj Kumar Rai,SKPP,22698,17,0.13,8,37,7,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764299,Mahendra Thapa,IND,22691,15,0.12,9,37,7,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764300,Narendra Adhikari,SUTF,22700,15,0.12,9,37,7,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764301,Sunmaya Gurung,JMBP,22701,8,0.06,11,37,7,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764302,Rabin Rai,AIP,22702,6,0.05,12,37,7,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764303,Indra Hang Subba,SKM,22694,4234,48.32,1,37,8,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764304,Dek Bahadur Katwal,SDF,22687,3914,44.67,2,37,8,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764305,Laten Tshering Sherpa,BJP,22690,388,4.43,3,37,8,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764306,Bharat Basnett,INC,22688,101,1.15,4,37,8,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764307,Nota,NOTA,22695,52,0.59,5,37,8,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764308,Passang Gyali Sherpa,IND,22691,21,0.24,6,37,8,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764309,Dhiraj Kumar Rai,SKPP,22698,20,0.23,7,37,8,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764310,Biraj Adhikari,HMSKP,22699,12,0.14,8,37,8,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764311,Rabin Rai,AIP,22702,9,0.1,9,37,8,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764312,Narendra Adhikari,SUTF,22700,5,0.06,10,37,8,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764313,Sunmaya Gurung,JMBP,22701,4,0.05,11,37,8,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764314,Mahendra Thapa,IND,22691,2,0.02,12,37,8,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764315,Dek Bahadur Katwal,SDF,22687,5326,45.04,1,37,9,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764316,Indra Hang Subba,SKM,22694,5273,44.59,2,37,9,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764317,Laten Tshering Sherpa,BJP,22690,775,6.55,3,37,9,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764318,Bharat Basnett,INC,22688,165,1.4,4,37,9,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764319,Passang Gyali Sherpa,IND,22691,76,0.64,5,37,9,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764320,Biraj Adhikari,HMSKP,22699,69,0.58,6,37,9,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764321,Nota,NOTA,22695,67,0.57,7,37,9,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764322,Dhiraj Kumar Rai,SKPP,22698,24,0.2,8,37,9,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764323,Rabin Rai,AIP,22702,18,0.15,9,37,9,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764324,Mahendra Thapa,IND,22691,17,0.14,10,37,9,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764325,Narendra Adhikari,SUTF,22700,10,0.08,11,37,9,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764326,Sunmaya Gurung,JMBP,22701,5,0.04,12,37,9,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764327,Dek Bahadur Katwal,SDF,22687,7016,55.22,1,37,10,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764328,Indra Hang Subba,SKM,22694,4879,38.4,2,37,10,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764329,Laten Tshering Sherpa,BJP,22690,252,1.98,3,37,10,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764330,Dhiraj Kumar Rai,SKPP,22698,149,1.17,4,37,10,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764331,Passang Gyali Sherpa,IND,22691,109,0.86,5,37,10,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764332,Nota,NOTA,22695,91,0.72,6,37,10,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764333,Bharat Basnett,INC,22688,88,0.69,7,37,10,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764335,Rabin Rai,AIP,22702,42,0.33,8,37,10,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764334,Biraj Adhikari,HMSKP,22699,42,0.33,8,37,10,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764336,Mahendra Thapa,IND,22691,15,0.12,10,37,10,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764337,Narendra Adhikari,SUTF,22700,14,0.11,11,37,10,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764338,Sunmaya Gurung,JMBP,22701,8,0.06,12,37,10,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764339,Indra Hang Subba,SKM,22694,4568,47.64,1,37,11,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764340,Dek Bahadur Katwal,SDF,22687,4400,45.89,2,37,11,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764341,Laten Tshering Sherpa,BJP,22690,267,2.78,3,37,11,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764342,Bharat Basnett,INC,22688,99,1.03,4,37,11,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764343,Dhiraj Kumar Rai,SKPP,22698,67,0.7,5,37,11,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764345,Passang Gyali Sherpa,IND,22691,54,0.56,6,37,11,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764344,Nota,NOTA,22695,54,0.56,6,37,11,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764346,Biraj Adhikari,HMSKP,22699,45,0.47,8,37,11,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764347,Narendra Adhikari,SUTF,22700,9,0.09,9,37,11,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764348,Rabin Rai,AIP,22702,9,0.09,9,37,11,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764349,Mahendra Thapa,IND,22691,8,0.08,11,37,11,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764350,Sunmaya Gurung,JMBP,22701,8,0.08,11,37,11,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764351,Dek Bahadur Katwal,SDF,22687,5880,48.1,1,37,12,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764352,Indra Hang Subba,SKM,22694,5485,44.87,2,37,12,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764353,Laten Tshering Sherpa,BJP,22690,411,3.36,3,37,12,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764354,Nota,NOTA,22695,138,1.13,4,37,12,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764355,Bharat Basnett,INC,22688,95,0.78,5,37,12,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764356,Passang Gyali Sherpa,IND,22691,57,0.47,6,37,12,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764357,Dhiraj Kumar Rai,SKPP,22698,36,0.29,7,37,12,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764358,Biraj Adhikari,HMSKP,22699,34,0.28,8,37,12,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764359,Rabin Rai,AIP,22702,25,0.2,9,37,12,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764360,Narendra Adhikari,SUTF,22700,23,0.19,10,37,12,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764361,Sunmaya Gurung,JMBP,22701,21,0.17,11,37,12,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764362,Mahendra Thapa,IND,22691,20,0.16,12,37,12,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764363,Indra Hang Subba,SKM,22694,6393,51.53,1,37,13,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764364,Dek Bahadur Katwal,SDF,22687,4951,39.91,2,37,13,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764365,Laten Tshering Sherpa,BJP,22690,652,5.26,3,37,13,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764366,Bharat Basnett,INC,22688,144,1.16,4,37,13,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764367,Passang Gyali Sherpa,IND,22691,88,0.71,5,37,13,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764368,Nota,NOTA,22695,62,0.5,6,37,13,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764369,Biraj Adhikari,HMSKP,22699,28,0.23,7,37,13,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764370,Mahendra Thapa,IND,22691,27,0.22,8,37,13,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764371,Dhiraj Kumar Rai,SKPP,22698,21,0.17,9,37,13,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764372,Sunmaya Gurung,JMBP,22701,16,0.13,10,37,13,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764373,Narendra Adhikari,SUTF,22700,13,0.1,11,37,13,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764374,Rabin Rai,AIP,22702,11,0.09,12,37,13,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764375,Indra Hang Subba,SKM,22694,5537,48.68,1,37,14,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764376,Dek Bahadur Katwal,SDF,22687,4763,41.88,2,37,14,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764377,Laten Tshering Sherpa,BJP,22690,640,5.63,3,37,14,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764378,Bharat Basnett,INC,22688,146,1.28,4,37,14,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764379,Passang Gyali Sherpa,IND,22691,107,0.94,5,37,14,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764380,Biraj Adhikari,HMSKP,22699,60,0.53,6,37,14,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764381,Nota,NOTA,22695,58,0.51,7,37,14,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764382,Mahendra Thapa,IND,22691,16,0.14,8,37,14,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764383,Dhiraj Kumar Rai,SKPP,22698,15,0.13,9,37,14,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764384,Sunmaya Gurung,JMBP,22701,12,0.11,10,37,14,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764385,Rabin Rai,AIP,22702,11,0.1,11,37,14,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764386,Narendra Adhikari,SUTF,22700,9,0.08,12,37,14,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764387,Dek Bahadur Katwal,SDF,22687,5725,50.89,1,37,15,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764388,Indra Hang Subba,SKM,22694,4421,39.3,2,37,15,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764389,Laten Tshering Sherpa,BJP,22690,467,4.15,3,37,15,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764390,Bharat Basnett,INC,22688,167,1.48,4,37,15,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764391,Dhiraj Kumar Rai,SKPP,22698,121,1.08,5,37,15,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764392,Mahendra Thapa,IND,22691,107,0.95,6,37,15,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764393,Narendra Adhikari,SUTF,22700,84,0.75,7,37,15,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764394,Nota,NOTA,22695,59,0.52,8,37,15,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764395,Biraj Adhikari,HMSKP,22699,37,0.33,9,37,15,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764396,Passang Gyali Sherpa,IND,22691,28,0.25,10,37,15,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764397,Rabin Rai,AIP,22702,22,0.2,11,37,15,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764398,Sunmaya Gurung,JMBP,22701,11,0.1,12,37,15,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764399,Dek Bahadur Katwal,SDF,22687,6108,47.01,1,37,16,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764400,Indra Hang Subba,SKM,22694,5929,45.63,2,37,16,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764401,Laten Tshering Sherpa,BJP,22690,422,3.25,3,37,16,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764402,Bharat Basnett,INC,22688,178,1.37,4,37,16,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764403,Biraj Adhikari,HMSKP,22699,94,0.72,5,37,16,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764404,Nota,NOTA,22695,87,0.67,6,37,16,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764405,Narendra Adhikari,SUTF,22700,68,0.52,7,37,16,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764406,Passang Gyali Sherpa,IND,22691,42,0.32,8,37,16,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764407,Mahendra Thapa,IND,22691,23,0.18,9,37,16,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764408,Sunmaya Gurung,JMBP,22701,17,0.13,10,37,16,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764409,Dhiraj Kumar Rai,SKPP,22698,14,0.11,11,37,16,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764410,Rabin Rai,AIP,22702,11,0.08,12,37,16,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764411,Indra Hang Subba,SKM,22694,5194,50.0,1,37,17,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764412,Dek Bahadur Katwal,SDF,22687,4187,40.3,2,37,17,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764413,Laten Tshering Sherpa,BJP,22690,638,6.14,3,37,17,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764414,Bharat Basnett,INC,22688,112,1.08,4,37,17,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764415,Nota,NOTA,22695,63,0.61,5,37,17,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764416,Biraj Adhikari,HMSKP,22699,60,0.58,6,37,17,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764417,Passang Gyali Sherpa,IND,22691,60,0.58,6,37,17,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764418,Mahendra Thapa,IND,22691,26,0.25,8,37,17,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764419,Narendra Adhikari,SUTF,22700,23,0.22,9,37,17,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764420,Sunmaya Gurung,JMBP,22701,10,0.1,10,37,17,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764421,Rabin Rai,AIP,22702,9,0.09,11,37,17,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764422,Dhiraj Kumar Rai,SKPP,22698,7,0.07,12,37,17,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764423,Indra Hang Subba,SKM,22694,5798,50.56,1,37,18,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764424,Dek Bahadur Katwal,SDF,22687,4498,39.23,2,37,18,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764425,Laten Tshering Sherpa,BJP,22690,803,7.0,3,37,18,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764426,Bharat Basnett,INC,22688,94,0.82,4,37,18,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764427,Nota,NOTA,22695,77,0.67,5,37,18,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764428,Passang Gyali Sherpa,IND,22691,64,0.56,6,37,18,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764429,Biraj Adhikari,HMSKP,22699,39,0.34,7,37,18,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764430,Mahendra Thapa,IND,22691,35,0.31,8,37,18,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764431,Dhiraj Kumar Rai,SKPP,22698,21,0.18,9,37,18,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764432,Narendra Adhikari,SUTF,22700,16,0.14,10,37,18,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764433,Sunmaya Gurung,JMBP,22701,13,0.11,11,37,18,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764434,Rabin Rai,AIP,22702,9,0.08,12,37,18,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764435,Indra Hang Subba,SKM,22694,7629,55.32,1,37,19,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764436,Dek Bahadur Katwal,SDF,22687,4769,34.58,2,37,19,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764437,Laten Tshering Sherpa,BJP,22690,807,5.85,3,37,19,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764438,Bharat Basnett,INC,22688,155,1.12,4,37,19,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764439,Nota,NOTA,22695,124,0.9,5,37,19,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764440,Dhiraj Kumar Rai,SKPP,22698,80,0.58,6,37,19,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764441,Passang Gyali Sherpa,IND,22691,70,0.51,7,37,19,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764442,Biraj Adhikari,HMSKP,22699,54,0.39,8,37,19,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764443,Mahendra Thapa,IND,22691,28,0.2,9,37,19,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764444,Narendra Adhikari,SUTF,22700,27,0.2,10,37,19,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764445,Rabin Rai,AIP,22702,26,0.19,11,37,19,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764446,Sunmaya Gurung,JMBP,22701,22,0.16,12,37,19,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764447,Dek Bahadur Katwal,SDF,22687,6439,47.18,1,37,20,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764448,Indra Hang Subba,SKM,22694,5972,43.76,2,37,20,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764449,Laten Tshering Sherpa,BJP,22690,707,5.18,3,37,20,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764450,Bharat Basnett,INC,22688,151,1.11,4,37,20,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764451,Nota,NOTA,22695,92,0.67,5,37,20,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764452,Passang Gyali Sherpa,IND,22691,90,0.66,6,37,20,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764453,Biraj Adhikari,HMSKP,22699,63,0.46,7,37,20,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764454,Dhiraj Kumar Rai,SKPP,22698,59,0.43,8,37,20,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764455,Sunmaya Gurung,JMBP,22701,24,0.18,9,37,20,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764457,Narendra Adhikari,SUTF,22700,21,0.15,10,37,20,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764456,Mahendra Thapa,IND,22691,21,0.15,10,37,20,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764458,Rabin Rai,AIP,22702,8,0.06,12,37,20,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764459,Dek Bahadur Katwal,SDF,22687,5134,52.93,1,37,21,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764460,Indra Hang Subba,SKM,22694,3469,35.76,2,37,21,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764461,Laten Tshering Sherpa,BJP,22690,666,6.87,3,37,21,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764462,Dhiraj Kumar Rai,SKPP,22698,136,1.4,4,37,21,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764463,Bharat Basnett,INC,22688,83,0.86,5,37,21,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764464,Passang Gyali Sherpa,IND,22691,70,0.72,6,37,21,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764465,Nota,NOTA,22695,63,0.65,7,37,21,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764466,Biraj Adhikari,HMSKP,22699,39,0.4,8,37,21,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764467,Narendra Adhikari,SUTF,22700,15,0.15,9,37,21,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764468,Mahendra Thapa,IND,22691,11,0.11,10,37,21,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764469,Rabin Rai,AIP,22702,9,0.09,11,37,21,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764470,Sunmaya Gurung,JMBP,22701,5,0.05,12,37,21,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764471,Dek Bahadur Katwal,SDF,22687,5506,45.71,1,37,22,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764472,Indra Hang Subba,SKM,22694,5375,44.62,2,37,22,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764473,Laten Tshering Sherpa,BJP,22690,560,4.65,3,37,22,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764474,Bharat Basnett,INC,22688,176,1.46,4,37,22,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764475,Dhiraj Kumar Rai,SKPP,22698,158,1.31,5,37,22,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764476,Nota,NOTA,22695,80,0.66,6,37,22,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764477,Biraj Adhikari,HMSKP,22699,70,0.58,7,37,22,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764478,Passang Gyali Sherpa,IND,22691,56,0.46,8,37,22,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764479,Narendra Adhikari,SUTF,22700,28,0.23,9,37,22,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764480,Mahendra Thapa,IND,22691,13,0.11,10,37,22,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764481,Rabin Rai,AIP,22702,12,0.1,11,37,22,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764482,Sunmaya Gurung,JMBP,22701,12,0.1,11,37,22,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764483,Indra Hang Subba,SKM,22694,6217,52.48,1,37,23,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764484,Dek Bahadur Katwal,SDF,22687,4623,39.02,2,37,23,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764485,Laten Tshering Sherpa,BJP,22690,595,5.02,3,37,23,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764486,Bharat Basnett,INC,22688,139,1.17,4,37,23,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764487,Nota,NOTA,22695,74,0.62,5,37,23,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764488,Biraj Adhikari,HMSKP,22699,66,0.56,6,37,23,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764489,Passang Gyali Sherpa,IND,22691,62,0.52,7,37,23,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764490,Sunmaya Gurung,JMBP,22701,19,0.16,8,37,23,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764491,Dhiraj Kumar Rai,SKPP,22698,18,0.15,9,37,23,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764492,Narendra Adhikari,SUTF,22700,17,0.14,10,37,23,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764493,Mahendra Thapa,IND,22691,11,0.09,11,37,23,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764494,Rabin Rai,AIP,22702,6,0.05,12,37,23,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764495,Indra Hang Subba,SKM,22694,6504,48.59,1,37,24,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764496,Dek Bahadur Katwal,SDF,22687,5364,40.07,2,37,24,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764497,Laten Tshering Sherpa,BJP,22690,863,6.45,3,37,24,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764498,Bharat Basnett,INC,22688,206,1.54,4,37,24,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764499,Biraj Adhikari,HMSKP,22699,173,1.29,5,37,24,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764500,Nota,NOTA,22695,76,0.57,6,37,24,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764501,Passang Gyali Sherpa,IND,22691,74,0.55,7,37,24,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764502,Dhiraj Kumar Rai,SKPP,22698,60,0.45,8,37,24,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764503,Mahendra Thapa,IND,22691,21,0.16,9,37,24,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764504,Narendra Adhikari,SUTF,22700,16,0.12,10,37,24,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764505,Rabin Rai,AIP,22702,14,0.1,11,37,24,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764506,Sunmaya Gurung,JMBP,22701,14,0.1,11,37,24,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764507,Indra Hang Subba,SKM,22694,3441,47.42,1,37,25,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764508,Dek Bahadur Katwal,SDF,22687,3017,41.57,2,37,25,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764509,Laten Tshering Sherpa,BJP,22690,415,5.72,3,37,25,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764510,Biraj Adhikari,HMSKP,22699,115,1.58,4,37,25,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764511,Passang Gyali Sherpa,IND,22691,83,1.14,5,37,25,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764512,Bharat Basnett,INC,22688,71,0.98,6,37,25,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764513,Nota,NOTA,22695,64,0.88,7,37,25,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764514,Mahendra Thapa,IND,22691,22,0.3,8,37,25,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764515,Dhiraj Kumar Rai,SKPP,22698,9,0.12,9,37,25,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764516,Rabin Rai,AIP,22702,8,0.11,10,37,25,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764517,Narendra Adhikari,SUTF,22700,6,0.08,11,37,25,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764518,Sunmaya Gurung,JMBP,22701,6,0.08,11,37,25,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764519,Indra Hang Subba,SKM,22694,4335,56.26,1,37,26,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764520,Dek Bahadur Katwal,SDF,22687,1788,23.21,2,37,26,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764521,Laten Tshering Sherpa,BJP,22690,977,12.68,3,37,26,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764522,Passang Gyali Sherpa,IND,22691,157,2.04,4,37,26,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764523,Bharat Basnett,INC,22688,129,1.67,5,37,26,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764524,Biraj Adhikari,HMSKP,22699,82,1.06,6,37,26,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764525,Nota,NOTA,22695,76,0.99,7,37,26,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764526,Rabin Rai,AIP,22702,57,0.74,8,37,26,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764527,Dhiraj Kumar Rai,SKPP,22698,47,0.61,9,37,26,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764528,Sunmaya Gurung,JMBP,22701,27,0.35,10,37,26,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764529,Narendra Adhikari,SUTF,22700,22,0.29,11,37,26,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764530,Mahendra Thapa,IND,22691,8,0.1,12,37,26,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764531,Indra Hang Subba,SKM,22694,3669,50.59,1,37,27,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764532,Dek Bahadur Katwal,SDF,22687,2474,34.11,2,37,27,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764533,Laten Tshering Sherpa,BJP,22690,729,10.05,3,37,27,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764534,Bharat Basnett,INC,22688,129,1.78,4,37,27,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764535,Biraj Adhikari,HMSKP,22699,77,1.06,5,37,27,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764536,Passang Gyali Sherpa,IND,22691,74,1.02,6,37,27,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764537,Nota,NOTA,22695,50,0.69,7,37,27,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764538,Sunmaya Gurung,JMBP,22701,17,0.23,8,37,27,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764539,Dhiraj Kumar Rai,SKPP,22698,12,0.17,9,37,27,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764540,Narendra Adhikari,SUTF,22700,11,0.15,10,37,27,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764541,Mahendra Thapa,IND,22691,9,0.12,11,37,27,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764542,Rabin Rai,AIP,22702,2,0.03,12,37,27,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764543,Indra Hang Subba,SKM,22694,5497,48.59,1,37,28,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764544,Dek Bahadur Katwal,SDF,22687,4929,43.57,2,37,28,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764545,Laten Tshering Sherpa,BJP,22690,505,4.46,3,37,28,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764546,Bharat Basnett,INC,22688,114,1.01,4,37,28,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764547,Biraj Adhikari,HMSKP,22699,72,0.64,5,37,28,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764548,Nota,NOTA,22695,67,0.59,6,37,28,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764549,Passang Gyali Sherpa,IND,22691,56,0.5,7,37,28,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764550,Sunmaya Gurung,JMBP,22701,21,0.19,8,37,28,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764551,Narendra Adhikari,SUTF,22700,19,0.17,9,37,28,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764552,Mahendra Thapa,IND,22691,18,0.16,10,37,28,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764553,Dhiraj Kumar Rai,SKPP,22698,12,0.11,11,37,28,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764554,Rabin Rai,AIP,22702,3,0.03,12,37,28,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764555,Indra Hang Subba,SKM,22694,5211,50.49,1,37,29,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764556,Dek Bahadur Katwal,SDF,22687,3477,33.69,2,37,29,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764557,Laten Tshering Sherpa,BJP,22690,1200,11.63,3,37,29,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764558,Biraj Adhikari,HMSKP,22699,120,1.16,4,37,29,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764559,Bharat Basnett,INC,22688,116,1.12,5,37,29,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764560,Passang Gyali Sherpa,IND,22691,72,0.7,6,37,29,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764561,Nota,NOTA,22695,64,0.62,7,37,29,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764562,Narendra Adhikari,SUTF,22700,20,0.19,8,37,29,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764563,Dhiraj Kumar Rai,SKPP,22698,14,0.14,9,37,29,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764564,Mahendra Thapa,IND,22691,13,0.13,10,37,29,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764565,Sunmaya Gurung,JMBP,22701,7,0.07,11,37,29,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764566,Rabin Rai,AIP,22702,6,0.06,12,37,29,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764567,Dek Bahadur Katwal,SDF,22687,5103,61.91,1,37,30,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764568,Indra Hang Subba,SKM,22694,2737,33.2,2,37,30,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764569,Laten Tshering Sherpa,BJP,22690,152,1.84,3,37,30,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764570,Bharat Basnett,INC,22688,112,1.36,4,37,30,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764571,Biraj Adhikari,HMSKP,22699,51,0.62,5,37,30,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764572,Nota,NOTA,22695,50,0.61,6,37,30,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764573,Passang Gyali Sherpa,IND,22691,12,0.15,7,37,30,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764574,Narendra Adhikari,SUTF,22700,8,0.1,8,37,30,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE
+1764575,Mahendra Thapa,IND,22691,6,0.07,9,37,30,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764576,Dhiraj Kumar Rai,SKPP,22698,5,0.06,10,37,30,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764577,Sunmaya Gurung,JMBP,22701,4,0.05,11,37,30,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764578,Rabin Rai,AIP,22702,3,0.04,12,37,30,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764579,Indra Hang Subba,SKM,22694,3418,52.02,1,37,31,SK,Indra Hang Subba,SKM,,,,,False,37,2019,GE
+1764580,Dek Bahadur Katwal,SDF,22687,2629,40.01,2,37,31,SK,Dek Bahadur Katwal,SDF,,,,,True,37,2019,GE
+1764581,Laten Tshering Sherpa,BJP,22690,304,4.63,3,37,31,SK,Laten Tshering Sherpa,BJP,,,,,False,37,2019,GE
+1764582,Bharat Basnett,INC,22688,75,1.14,4,37,31,SK,Bharat Basnett,INC,,,,,False,37,2019,GE
+1764583,Biraj Adhikari,HMSKP,22699,64,0.97,5,37,31,SK,Biraj Adhikari,HMSKP,,,,,False,37,2019,GE
+1764584,Nota,NOTA,22695,33,0.5,6,37,31,SK,Nota,NOTA,,,,,False,37,2019,GE
+1764585,Passang Gyali Sherpa,IND,22691,27,0.41,7,37,31,SK,Passang Gyali Sherpa,IND,,,,,False,37,2019,GE
+1764586,Mahendra Thapa,IND,22691,6,0.09,8,37,31,SK,Mahendra Thapa,IND,,,,,False,37,2019,GE
+1764587,Rabin Rai,AIP,22702,5,0.08,9,37,31,SK,Rabin Rai,AIP,,,,,False,37,2019,GE
+1764588,Dhiraj Kumar Rai,SKPP,22698,4,0.06,10,37,31,SK,Dhiraj Kumar Rai,SKPP,,,,,False,37,2019,GE
+1764590,Sunmaya Gurung,JMBP,22701,3,0.05,11,37,31,SK,Sunmaya Gurung,JMBP,,,,,False,37,2019,GE
+1764589,Narendra Adhikari,SUTF,22700,3,0.05,11,37,31,SK,Narendra Adhikari,SUTF,,,,,False,37,2019,GE

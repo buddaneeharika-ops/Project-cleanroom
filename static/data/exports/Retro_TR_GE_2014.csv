@@ -1,0 +1,811 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1782603,Sankar Prasad Datta,CPM,22930,17931,64.98,1,21,1,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782604,Arunoday Saha,INC,22917,5826,21.11,2,21,1,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782605,Sudhindra Chandra Dasgupta,BJP,22916,941,3.41,3,21,1,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782606,Binay Debbarma,IPFT,22923,813,2.95,4,21,1,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782607,Ratan Chakraborti,AITC,22928,735,2.66,5,21,1,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782608,Nota,NOTA,22918,335,1.21,6,21,1,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782609,Joganati Datta,IND,22919,279,1.01,7,21,1,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782610,Arun Kumar Bhowmik,SUCI,22920,170,0.62,8,21,1,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782611,Salil Saha,AAAP,22939,124,0.45,9,21,1,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782612,Partha Karmakar,CPI(ML)(L),22936,123,0.45,10,21,1,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782613,Kamal Kanti Debnath,IND,22919,116,0.42,11,21,1,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782614,Rakhal Raj Datta,AMB,22929,74,0.27,12,21,1,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782615,Subal Bhowmik,TPGC,22940,70,0.25,13,21,1,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782616,Pjech Debbarma,JMBP,22941,59,0.21,14,21,1,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782617,Sankar Prasad Datta,CPM,22930,17827,52.04,1,21,2,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782618,Arunoday Saha,INC,22917,9621,28.09,2,21,2,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782619,Ratan Chakraborti,AITC,22928,2132,6.22,3,21,2,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782620,Sudhindra Chandra Dasgupta,BJP,22916,1859,5.43,4,21,2,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782621,Binay Debbarma,IPFT,22923,1101,3.21,5,21,2,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782622,Arun Kumar Bhowmik,SUCI,22920,436,1.27,6,21,2,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782623,Nota,NOTA,22918,359,1.05,7,21,2,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782624,Salil Saha,AAAP,22939,183,0.53,8,21,2,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782625,Joganati Datta,IND,22919,173,0.51,9,21,2,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782626,Rakhal Raj Datta,AMB,22929,161,0.47,10,21,2,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782627,Subal Bhowmik,TPGC,22940,122,0.36,11,21,2,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782628,Kamal Kanti Debnath,IND,22919,119,0.35,12,21,2,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782629,Partha Karmakar,CPI(ML)(L),22936,95,0.28,13,21,2,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782630,Pjech Debbarma,JMBP,22941,66,0.19,14,21,2,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782631,Sankar Prasad Datta,CPM,22930,21396,62.0,1,21,3,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782632,Arunoday Saha,INC,22917,5679,16.46,2,21,3,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782633,Ratan Chakraborti,AITC,22928,3389,9.82,3,21,3,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782634,Sudhindra Chandra Dasgupta,BJP,22916,2136,6.19,4,21,3,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782635,Joganati Datta,IND,22919,384,1.11,5,21,3,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782636,Nota,NOTA,22918,369,1.07,6,21,3,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782637,Arun Kumar Bhowmik,SUCI,22920,269,0.78,7,21,3,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782638,Binay Debbarma,IPFT,22923,259,0.75,8,21,3,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782639,Salil Saha,AAAP,22939,142,0.41,9,21,3,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782640,Partha Karmakar,CPI(ML)(L),22936,116,0.34,10,21,3,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782641,Rakhal Raj Datta,AMB,22929,109,0.32,11,21,3,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782642,Subal Bhowmik,TPGC,22940,107,0.31,12,21,3,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782643,Kamal Kanti Debnath,IND,22919,97,0.28,13,21,3,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782644,Pjech Debbarma,JMBP,22941,60,0.17,14,21,3,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782645,Sankar Prasad Datta,CPM,22930,18330,55.83,1,21,4,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782646,Arunoday Saha,INC,22917,6148,18.73,2,21,4,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782647,Ratan Chakraborti,AITC,22928,3825,11.65,3,21,4,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782648,Sudhindra Chandra Dasgupta,BJP,22916,2731,8.32,4,21,4,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782649,Nota,NOTA,22918,419,1.28,5,21,4,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782650,Arun Kumar Bhowmik,SUCI,22920,315,0.96,6,21,4,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782651,Joganati Datta,IND,22919,242,0.74,7,21,4,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782652,Salil Saha,AAAP,22939,193,0.59,8,21,4,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782653,Binay Debbarma,IPFT,22923,167,0.51,9,21,4,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782654,Kamal Kanti Debnath,IND,22919,138,0.42,10,21,4,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782655,Subal Bhowmik,TPGC,22940,112,0.34,11,21,4,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782656,Partha Karmakar,CPI(ML)(L),22936,96,0.29,12,21,4,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782657,Rakhal Raj Datta,AMB,22929,61,0.19,13,21,4,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782658,Pjech Debbarma,JMBP,22941,55,0.17,14,21,4,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782659,Sankar Prasad Datta,CPM,22930,25011,65.81,1,21,5,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782660,Arunoday Saha,INC,22917,4627,12.18,2,21,5,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782661,Ratan Chakraborti,AITC,22928,4514,11.88,3,21,5,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782662,Sudhindra Chandra Dasgupta,BJP,22916,1921,5.05,4,21,5,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782663,Nota,NOTA,22918,456,1.2,5,21,5,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782664,Joganati Datta,IND,22919,266,0.7,6,21,5,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782665,Arun Kumar Bhowmik,SUCI,22920,264,0.69,7,21,5,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782666,Binay Debbarma,IPFT,22923,229,0.6,8,21,5,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782667,Salil Saha,AAAP,22939,196,0.52,9,21,5,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782668,Kamal Kanti Debnath,IND,22919,134,0.35,10,21,5,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782669,Subal Bhowmik,TPGC,22940,131,0.34,11,21,5,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782670,Partha Karmakar,CPI(ML)(L),22936,104,0.27,12,21,5,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782671,Rakhal Raj Datta,AMB,22929,88,0.23,13,21,5,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782672,Pjech Debbarma,JMBP,22941,62,0.16,14,21,5,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782673,Sankar Prasad Datta,CPM,22930,20922,55.52,1,21,6,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782674,Arunoday Saha,INC,22917,7823,20.76,2,21,6,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782675,Ratan Chakraborti,AITC,22928,4482,11.89,3,21,6,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782676,Sudhindra Chandra Dasgupta,BJP,22916,2384,6.33,4,21,6,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782677,Nota,NOTA,22918,679,1.8,5,21,6,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782678,Arun Kumar Bhowmik,SUCI,22920,316,0.84,6,21,6,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782679,Salil Saha,AAAP,22939,225,0.6,7,21,6,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782680,Joganati Datta,IND,22919,218,0.58,8,21,6,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782681,Binay Debbarma,IPFT,22923,152,0.4,9,21,6,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782682,Subal Bhowmik,TPGC,22940,135,0.36,10,21,6,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782683,Kamal Kanti Debnath,IND,22919,119,0.32,11,21,6,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782684,Partha Karmakar,CPI(ML)(L),22936,107,0.28,12,21,6,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782685,Rakhal Raj Datta,AMB,22929,62,0.16,13,21,6,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782686,Pjech Debbarma,JMBP,22941,60,0.16,14,21,6,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782687,Sankar Prasad Datta,CPM,22930,19709,59.64,1,21,7,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782688,Ratan Chakraborti,AITC,22928,5218,15.79,2,21,7,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782689,Arunoday Saha,INC,22917,4218,12.76,3,21,7,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782690,Sudhindra Chandra Dasgupta,BJP,22916,2102,6.36,4,21,7,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782691,Nota,NOTA,22918,608,1.84,5,21,7,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782692,Binay Debbarma,IPFT,22923,240,0.73,6,21,7,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782693,Arun Kumar Bhowmik,SUCI,22920,208,0.63,7,21,7,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782694,Salil Saha,AAAP,22939,201,0.61,8,21,7,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782695,Joganati Datta,IND,22919,144,0.44,9,21,7,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782696,Subal Bhowmik,TPGC,22940,99,0.3,10,21,7,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782697,Partha Karmakar,CPI(ML)(L),22936,88,0.27,11,21,7,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782698,Kamal Kanti Debnath,IND,22919,81,0.25,12,21,7,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782699,Rakhal Raj Datta,AMB,22929,77,0.23,13,21,7,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782700,Pjech Debbarma,JMBP,22941,55,0.17,14,21,7,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782701,Sankar Prasad Datta,CPM,22930,16390,48.24,1,21,8,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782702,Ratan Chakraborti,AITC,22928,6627,19.51,2,21,8,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782703,Arunoday Saha,INC,22917,6489,19.1,3,21,8,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782704,Sudhindra Chandra Dasgupta,BJP,22916,2538,7.47,4,21,8,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782705,Nota,NOTA,22918,884,2.6,5,21,8,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782706,Salil Saha,AAAP,22939,251,0.74,6,21,8,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782707,Arun Kumar Bhowmik,SUCI,22920,228,0.67,7,21,8,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782708,Subal Bhowmik,TPGC,22940,147,0.43,8,21,8,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782709,Joganati Datta,IND,22919,100,0.29,9,21,8,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782710,Binay Debbarma,IPFT,22923,90,0.26,10,21,8,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782711,Partha Karmakar,CPI(ML)(L),22936,75,0.22,11,21,8,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782712,Rakhal Raj Datta,AMB,22929,68,0.2,12,21,8,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782713,Kamal Kanti Debnath,IND,22919,47,0.14,13,21,8,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782714,Pjech Debbarma,JMBP,22941,40,0.12,14,21,8,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782715,Sankar Prasad Datta,CPM,22930,13262,44.15,1,21,9,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782716,Arunoday Saha,INC,22917,6503,21.65,2,21,9,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782717,Ratan Chakraborti,AITC,22928,6078,20.24,3,21,9,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782718,Sudhindra Chandra Dasgupta,BJP,22916,2333,7.77,4,21,9,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782719,Nota,NOTA,22918,684,2.28,5,21,9,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782720,Salil Saha,AAAP,22939,280,0.93,6,21,9,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782721,Arun Kumar Bhowmik,SUCI,22920,226,0.75,7,21,9,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782722,Subal Bhowmik,TPGC,22940,199,0.66,8,21,9,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782723,Binay Debbarma,IPFT,22923,117,0.39,9,21,9,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782724,Kamal Kanti Debnath,IND,22919,94,0.31,10,21,9,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782725,Joganati Datta,IND,22919,90,0.3,11,21,9,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782726,Rakhal Raj Datta,AMB,22929,80,0.27,12,21,9,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782727,Partha Karmakar,CPI(ML)(L),22936,63,0.21,13,21,9,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782728,Pjech Debbarma,JMBP,22941,27,0.09,14,21,9,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782729,Sankar Prasad Datta,CPM,22930,26306,69.73,1,21,10,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782730,Arunoday Saha,INC,22917,3891,10.31,2,21,10,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782731,Ratan Chakraborti,AITC,22928,3795,10.06,3,21,10,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782732,Sudhindra Chandra Dasgupta,BJP,22916,1785,4.73,4,21,10,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782733,Binay Debbarma,IPFT,22923,486,1.29,5,21,10,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782734,Nota,NOTA,22918,405,1.07,6,21,10,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782735,Arun Kumar Bhowmik,SUCI,22920,238,0.63,7,21,10,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782736,Joganati Datta,IND,22919,202,0.54,8,21,10,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782737,Salil Saha,AAAP,22939,149,0.39,9,21,10,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782738,Subal Bhowmik,TPGC,22940,128,0.34,10,21,10,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782739,Kamal Kanti Debnath,IND,22919,124,0.33,11,21,10,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782740,Partha Karmakar,CPI(ML)(L),22936,97,0.26,12,21,10,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782741,Pjech Debbarma,JMBP,22941,60,0.16,13,21,10,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782742,Rakhal Raj Datta,AMB,22929,58,0.15,14,21,10,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782743,Sankar Prasad Datta,CPM,22930,24207,71.82,1,21,11,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782744,Arunoday Saha,INC,22917,5112,15.17,2,21,11,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782745,Sudhindra Chandra Dasgupta,BJP,22916,1136,3.37,3,21,11,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782746,Ratan Chakraborti,AITC,22928,983,2.92,4,21,11,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782747,Binay Debbarma,IPFT,22923,814,2.41,5,21,11,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782748,Nota,NOTA,22918,373,1.11,6,21,11,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782749,Joganati Datta,IND,22919,216,0.64,7,21,11,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782750,Arun Kumar Bhowmik,SUCI,22920,182,0.54,8,21,11,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782751,Salil Saha,AAAP,22939,149,0.44,9,21,11,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782752,Partha Karmakar,CPI(ML)(L),22936,134,0.4,10,21,11,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782753,Subal Bhowmik,TPGC,22940,126,0.37,11,21,11,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782754,Kamal Kanti Debnath,IND,22919,117,0.35,12,21,11,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782755,Rakhal Raj Datta,AMB,22929,93,0.28,13,21,11,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782756,Pjech Debbarma,JMBP,22941,65,0.19,14,21,11,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782757,Sankar Prasad Datta,CPM,22930,20363,66.71,1,21,12,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782758,Arunoday Saha,INC,22917,6651,21.79,2,21,12,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782759,Binay Debbarma,IPFT,22923,844,2.76,3,21,12,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782760,Sudhindra Chandra Dasgupta,BJP,22916,799,2.62,4,21,12,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782761,Ratan Chakraborti,AITC,22928,382,1.25,5,21,12,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782762,Nota,NOTA,22918,337,1.1,6,21,12,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782763,Arun Kumar Bhowmik,SUCI,22920,262,0.86,7,21,12,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782764,Joganati Datta,IND,22919,173,0.57,8,21,12,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782765,Partha Karmakar,CPI(ML)(L),22936,152,0.5,9,21,12,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782766,Kamal Kanti Debnath,IND,22919,145,0.48,10,21,12,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782767,Salil Saha,AAAP,22939,125,0.41,11,21,12,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782768,Subal Bhowmik,TPGC,22940,120,0.39,12,21,12,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782769,Rakhal Raj Datta,AMB,22929,88,0.29,13,21,12,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782770,Pjech Debbarma,JMBP,22941,85,0.28,14,21,12,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782771,Sankar Prasad Datta,CPM,22930,26987,61.36,1,21,13,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782772,Arunoday Saha,INC,22917,6477,14.73,2,21,13,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782773,Ratan Chakraborti,AITC,22928,5632,12.81,3,21,13,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782774,Sudhindra Chandra Dasgupta,BJP,22916,2564,5.83,4,21,13,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782775,Nota,NOTA,22918,629,1.43,5,21,13,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782776,Joganati Datta,IND,22919,309,0.7,6,21,13,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782777,Arun Kumar Bhowmik,SUCI,22920,297,0.68,7,21,13,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782778,Binay Debbarma,IPFT,22923,233,0.53,8,21,13,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782779,Salil Saha,AAAP,22939,197,0.45,9,21,13,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782780,Subal Bhowmik,TPGC,22940,153,0.35,10,21,13,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782781,Partha Karmakar,CPI(ML)(L),22936,151,0.34,11,21,13,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782782,Kamal Kanti Debnath,IND,22919,143,0.33,12,21,13,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782783,Rakhal Raj Datta,AMB,22929,136,0.31,13,21,13,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782784,Pjech Debbarma,JMBP,22941,71,0.16,14,21,13,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782785,Sankar Prasad Datta,CPM,22930,26102,58.36,1,21,14,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782786,Arunoday Saha,INC,22917,7174,16.04,2,21,14,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782787,Ratan Chakraborti,AITC,22928,6313,14.11,3,21,14,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782788,Sudhindra Chandra Dasgupta,BJP,22916,2618,5.85,4,21,14,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782789,Nota,NOTA,22918,589,1.32,5,21,14,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782790,Arun Kumar Bhowmik,SUCI,22920,405,0.91,6,21,14,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782791,Binay Debbarma,IPFT,22923,321,0.72,7,21,14,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782792,Salil Saha,AAAP,22939,293,0.66,8,21,14,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782793,Joganati Datta,IND,22919,243,0.54,9,21,14,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782794,Partha Karmakar,CPI(ML)(L),22936,165,0.37,10,21,14,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782795,Subal Bhowmik,TPGC,22940,162,0.36,11,21,14,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782796,Kamal Kanti Debnath,IND,22919,161,0.36,12,21,14,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782797,Rakhal Raj Datta,AMB,22929,114,0.25,13,21,14,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782798,Pjech Debbarma,JMBP,22941,69,0.15,14,21,14,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782799,Sankar Prasad Datta,CPM,22930,21136,64.27,1,21,15,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782800,Ratan Chakraborti,AITC,22928,4622,14.05,2,21,15,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782801,Arunoday Saha,INC,22917,3954,12.02,3,21,15,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782802,Sudhindra Chandra Dasgupta,BJP,22916,1579,4.8,4,21,15,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782803,Arun Kumar Bhowmik,SUCI,22920,297,0.9,5,21,15,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782804,Nota,NOTA,22918,228,0.69,6,21,15,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782805,Binay Debbarma,IPFT,22923,206,0.63,7,21,15,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782806,Partha Karmakar,CPI(ML)(L),22936,165,0.5,8,21,15,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782807,Rakhal Raj Datta,AMB,22929,152,0.46,9,21,15,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782808,Subal Bhowmik,TPGC,22940,132,0.4,10,21,15,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782809,Joganati Datta,IND,22919,114,0.35,11,21,15,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782810,Salil Saha,AAAP,22939,111,0.34,12,21,15,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782811,Kamal Kanti Debnath,IND,22919,109,0.33,13,21,15,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782812,Pjech Debbarma,JMBP,22941,82,0.25,14,21,15,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782813,Sankar Prasad Datta,CPM,22930,22722,59.94,1,21,16,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782814,Ratan Chakraborti,AITC,22928,6141,16.2,2,21,16,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782815,Arunoday Saha,INC,22917,5075,13.39,3,21,16,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782816,Sudhindra Chandra Dasgupta,BJP,22916,2147,5.66,4,21,16,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782817,Nota,NOTA,22918,384,1.01,5,21,16,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782818,Arun Kumar Bhowmik,SUCI,22920,238,0.63,6,21,16,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782819,Subal Bhowmik,TPGC,22940,227,0.6,7,21,16,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782820,Joganati Datta,IND,22919,200,0.53,8,21,16,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782821,Binay Debbarma,IPFT,22923,177,0.47,9,21,16,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782822,Kamal Kanti Debnath,IND,22919,168,0.44,10,21,16,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782823,Salil Saha,AAAP,22939,134,0.35,11,21,16,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782824,Partha Karmakar,CPI(ML)(L),22936,118,0.31,12,21,16,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782825,Rakhal Raj Datta,AMB,22929,117,0.31,13,21,16,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782826,Pjech Debbarma,JMBP,22941,58,0.15,14,21,16,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782827,Sankar Prasad Datta,CPM,22930,21056,66.52,1,21,17,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782828,Arunoday Saha,INC,22917,5209,16.46,2,21,17,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782829,Ratan Chakraborti,AITC,22928,2307,7.29,3,21,17,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782830,Sudhindra Chandra Dasgupta,BJP,22916,1337,4.22,4,21,17,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782831,Binay Debbarma,IPFT,22923,365,1.15,5,21,17,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782832,Nota,NOTA,22918,308,0.97,6,21,17,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782833,Arun Kumar Bhowmik,SUCI,22920,242,0.76,7,21,17,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782834,Joganati Datta,IND,22919,197,0.62,8,21,17,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782835,Subal Bhowmik,TPGC,22940,130,0.41,9,21,17,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782836,Partha Karmakar,CPI(ML)(L),22936,128,0.4,10,21,17,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782837,Kamal Kanti Debnath,IND,22919,125,0.39,11,21,17,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782838,Salil Saha,AAAP,22939,96,0.3,12,21,17,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782839,Pjech Debbarma,JMBP,22941,83,0.26,13,21,17,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782840,Rakhal Raj Datta,AMB,22929,71,0.22,14,21,17,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782841,Sankar Prasad Datta,CPM,22930,24420,60.8,1,21,18,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782842,Arunoday Saha,INC,22917,6679,16.63,2,21,18,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782843,Ratan Chakraborti,AITC,22928,4715,11.74,3,21,18,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782844,Sudhindra Chandra Dasgupta,BJP,22916,2370,5.9,4,21,18,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782845,Nota,NOTA,22918,430,1.07,5,21,18,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782846,Arun Kumar Bhowmik,SUCI,22920,359,0.89,6,21,18,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782847,Joganati Datta,IND,22919,232,0.58,7,21,18,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782848,Binay Debbarma,IPFT,22923,213,0.53,8,21,18,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782849,Kamal Kanti Debnath,IND,22919,150,0.37,9,21,18,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782850,Partha Karmakar,CPI(ML)(L),22936,142,0.35,10,21,18,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782851,Salil Saha,AAAP,22939,142,0.35,10,21,18,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782852,Subal Bhowmik,TPGC,22940,119,0.3,12,21,18,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782853,Rakhal Raj Datta,AMB,22929,117,0.29,13,21,18,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782854,Pjech Debbarma,JMBP,22941,79,0.2,14,21,18,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782855,Sankar Prasad Datta,CPM,22930,18528,63.74,1,21,19,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782856,Arunoday Saha,INC,22917,4562,15.69,2,21,19,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782857,Ratan Chakraborti,AITC,22928,2708,9.32,3,21,19,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782858,Sudhindra Chandra Dasgupta,BJP,22916,1344,4.62,4,21,19,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782859,Binay Debbarma,IPFT,22923,458,1.58,5,21,19,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782860,Nota,NOTA,22918,309,1.06,6,21,19,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782861,Joganati Datta,IND,22919,230,0.79,7,21,19,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782862,Arun Kumar Bhowmik,SUCI,22920,215,0.74,8,21,19,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782863,Subal Bhowmik,TPGC,22940,141,0.49,9,21,19,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782864,Kamal Kanti Debnath,IND,22919,140,0.48,10,21,19,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782865,Salil Saha,AAAP,22939,135,0.46,11,21,19,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782866,Partha Karmakar,CPI(ML)(L),22936,130,0.45,12,21,19,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782867,Rakhal Raj Datta,AMB,22929,103,0.35,13,21,19,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782868,Pjech Debbarma,JMBP,22941,65,0.22,14,21,19,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782869,Sankar Prasad Datta,CPM,22930,19859,66.28,1,21,20,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782870,Arunoday Saha,INC,22917,5755,19.21,2,21,20,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782871,Ratan Chakraborti,AITC,22928,1929,6.44,3,21,20,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782872,Sudhindra Chandra Dasgupta,BJP,22916,1052,3.51,4,21,20,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782873,Arun Kumar Bhowmik,SUCI,22920,304,1.01,5,21,20,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782874,Nota,NOTA,22918,232,0.77,6,21,20,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782875,Binay Debbarma,IPFT,22923,179,0.6,7,21,20,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782876,Joganati Datta,IND,22919,139,0.46,8,21,20,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782877,Subal Bhowmik,TPGC,22940,112,0.37,9,21,20,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782878,Kamal Kanti Debnath,IND,22919,110,0.37,10,21,20,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782879,Partha Karmakar,CPI(ML)(L),22936,104,0.35,11,21,20,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782880,Salil Saha,AAAP,22939,74,0.25,12,21,20,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782881,Rakhal Raj Datta,AMB,22929,58,0.19,13,21,20,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782882,Pjech Debbarma,JMBP,22941,56,0.19,14,21,20,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782883,Sankar Prasad Datta,CPM,22930,22930,64.9,1,21,21,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782884,Ratan Chakraborti,AITC,22928,4726,13.38,2,21,21,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782885,Arunoday Saha,INC,22917,4272,12.09,3,21,21,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782886,Sudhindra Chandra Dasgupta,BJP,22916,1904,5.39,4,21,21,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782887,Nota,NOTA,22918,282,0.8,5,21,21,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782888,Arun Kumar Bhowmik,SUCI,22920,240,0.68,6,21,21,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782890,Joganati Datta,IND,22919,154,0.44,7,21,21,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782889,Binay Debbarma,IPFT,22923,154,0.44,7,21,21,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782891,Partha Karmakar,CPI(ML)(L),22936,144,0.41,9,21,21,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782892,Subal Bhowmik,TPGC,22940,129,0.37,10,21,21,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782893,Salil Saha,AAAP,22939,111,0.31,11,21,21,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782894,Rakhal Raj Datta,AMB,22929,109,0.31,12,21,21,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782895,Kamal Kanti Debnath,IND,22919,101,0.29,13,21,21,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782896,Pjech Debbarma,JMBP,22941,76,0.22,14,21,21,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782897,Sankar Prasad Datta,CPM,22930,20418,63.09,1,21,22,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782898,Arunoday Saha,INC,22917,4827,14.91,2,21,22,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782899,Ratan Chakraborti,AITC,22928,3588,11.09,3,21,22,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782900,Sudhindra Chandra Dasgupta,BJP,22916,1671,5.16,4,21,22,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782901,Subal Bhowmik,TPGC,22940,400,1.24,5,21,22,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782902,Nota,NOTA,22918,359,1.11,6,21,22,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782903,Arun Kumar Bhowmik,SUCI,22920,280,0.87,7,21,22,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782904,Joganati Datta,IND,22919,159,0.49,8,21,22,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782905,Binay Debbarma,IPFT,22923,157,0.49,9,21,22,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782906,Partha Karmakar,CPI(ML)(L),22936,132,0.41,10,21,22,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782907,Salil Saha,AAAP,22939,131,0.4,11,21,22,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782908,Kamal Kanti Debnath,IND,22919,120,0.37,12,21,22,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782909,Rakhal Raj Datta,AMB,22929,81,0.25,13,21,22,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782910,Pjech Debbarma,JMBP,22941,42,0.13,14,21,22,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782911,Sankar Prasad Datta,CPM,22930,24435,68.37,1,21,23,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1782912,Arunoday Saha,INC,22917,4533,12.68,2,21,23,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1782913,Ratan Chakraborti,AITC,22928,2368,6.63,3,21,23,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1782914,Sudhindra Chandra Dasgupta,BJP,22916,2087,5.84,4,21,23,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1782915,Binay Debbarma,IPFT,22923,439,1.23,5,21,23,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1782916,Nota,NOTA,22918,393,1.1,6,21,23,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782917,Arun Kumar Bhowmik,SUCI,22920,334,0.93,7,21,23,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1782918,Subal Bhowmik,TPGC,22940,216,0.6,8,21,23,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1782919,Salil Saha,AAAP,22939,208,0.58,9,21,23,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1782920,Joganati Datta,IND,22919,205,0.57,10,21,23,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1782921,Partha Karmakar,CPI(ML)(L),22936,171,0.48,11,21,23,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1782922,Kamal Kanti Debnath,IND,22919,153,0.43,12,21,23,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1782923,Rakhal Raj Datta,AMB,22929,103,0.29,13,21,23,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1782924,Pjech Debbarma,JMBP,22941,93,0.26,14,21,23,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1782925,Jitendra Chaudhury,CPM,22930,21514,71.61,1,21,24,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1782926,Sachitra Debbarma,INC,22917,4338,14.44,2,21,24,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1782927,Bhriguram Reang,AITC,22928,1453,4.84,3,21,24,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1782928,Parikshit Debbarma,BJP,22916,1058,3.52,4,21,24,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1782929,Narendra Chandra Deb Barma,IPFT,22923,520,1.73,5,21,24,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1782930,Nota,NOTA,22918,312,1.04,6,21,24,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782931,Subarna Mala Debbarma,AMB,22929,152,0.51,7,21,24,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1782932,Falguni Tripura,CPI(ML)(L),22936,149,0.5,8,21,24,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1782933,Karna Bijoy Jamatia,AAAP,22939,130,0.43,9,21,24,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1782934,Basu Mog,TPGC,22940,122,0.41,10,21,24,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1782935,Prabiddha Reang,IND,22919,121,0.4,11,21,24,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1782936,Patal Kanya Jamatia,IND,22919,100,0.33,12,21,24,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1782937,Bikash Debbarma,JMBP,22941,73,0.24,13,21,24,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1782938,Jitendra Chaudhury,CPM,22930,26382,73.72,1,21,25,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1782939,Bhriguram Reang,AITC,22928,4713,13.17,2,21,25,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1782940,Sachitra Debbarma,INC,22917,2439,6.82,3,21,25,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1782941,Parikshit Debbarma,BJP,22916,1114,3.11,4,21,25,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1782942,Nota,NOTA,22918,338,0.94,5,21,25,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782943,Subarna Mala Debbarma,AMB,22929,169,0.47,6,21,25,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1782944,Basu Mog,TPGC,22940,114,0.32,7,21,25,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1782945,Karna Bijoy Jamatia,AAAP,22939,104,0.29,8,21,25,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1782946,Narendra Chandra Deb Barma,IPFT,22923,96,0.27,9,21,25,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1782947,Bikash Debbarma,JMBP,22941,93,0.26,10,21,25,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1782948,Falguni Tripura,CPI(ML)(L),22936,89,0.25,11,21,25,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1782949,Prabiddha Reang,IND,22919,83,0.23,12,21,25,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1782950,Patal Kanya Jamatia,IND,22919,51,0.14,13,21,25,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1782951,Jitendra Chaudhury,CPM,22930,20584,75.1,1,21,26,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1782952,Sachitra Debbarma,INC,22917,3478,12.69,2,21,26,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1782953,Parikshit Debbarma,BJP,22916,1091,3.98,3,21,26,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1782954,Bhriguram Reang,AITC,22928,689,2.51,4,21,26,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1782955,Narendra Chandra Deb Barma,IPFT,22923,368,1.34,5,21,26,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1782956,Nota,NOTA,22918,354,1.29,6,21,26,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782957,Prabiddha Reang,IND,22919,162,0.59,7,21,26,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1782958,Falguni Tripura,CPI(ML)(L),22936,145,0.53,8,21,26,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1782960,Subarna Mala Debbarma,AMB,22929,116,0.42,9,21,26,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1782959,Karna Bijoy Jamatia,AAAP,22939,116,0.42,9,21,26,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1782961,Patal Kanya Jamatia,IND,22919,111,0.4,11,21,26,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1782962,Basu Mog,TPGC,22940,101,0.37,12,21,26,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1782963,Bikash Debbarma,JMBP,22941,94,0.34,13,21,26,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1782964,Jitendra Chaudhury,CPM,22930,22414,67.88,1,21,27,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1782965,Bhriguram Reang,AITC,22928,4204,12.73,2,21,27,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1782966,Sachitra Debbarma,INC,22917,3011,9.12,3,21,27,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1782967,Parikshit Debbarma,BJP,22916,1535,4.65,4,21,27,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1782968,Narendra Chandra Deb Barma,IPFT,22923,470,1.42,5,21,27,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1782969,Nota,NOTA,22918,273,0.83,6,21,27,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782970,Subarna Mala Debbarma,AMB,22929,212,0.64,7,21,27,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1782971,Basu Mog,TPGC,22940,180,0.55,8,21,27,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1782972,Karna Bijoy Jamatia,AAAP,22939,173,0.52,9,21,27,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1782973,Patal Kanya Jamatia,IND,22919,172,0.52,10,21,27,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1782974,Bikash Debbarma,JMBP,22941,129,0.39,11,21,27,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1782975,Falguni Tripura,CPI(ML)(L),22936,126,0.38,12,21,27,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1782976,Prabiddha Reang,IND,22919,119,0.36,13,21,27,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1782977,Jitendra Chaudhury,CPM,22930,20172,62.16,1,21,28,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1782978,Sachitra Debbarma,INC,22917,4276,13.18,2,21,28,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1782979,Bhriguram Reang,AITC,22928,3586,11.05,3,21,28,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1782980,Parikshit Debbarma,BJP,22916,2014,6.21,4,21,28,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1782981,Narendra Chandra Deb Barma,IPFT,22923,724,2.23,5,21,28,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1782982,Nota,NOTA,22918,389,1.2,6,21,28,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782983,Patal Kanya Jamatia,IND,22919,262,0.81,7,21,28,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1782984,Subarna Mala Debbarma,AMB,22929,251,0.77,8,21,28,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1782985,Karna Bijoy Jamatia,AAAP,22939,235,0.72,9,21,28,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1782986,Basu Mog,TPGC,22940,160,0.49,10,21,28,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1782987,Prabiddha Reang,IND,22919,151,0.47,11,21,28,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1782988,Falguni Tripura,CPI(ML)(L),22936,121,0.37,12,21,28,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1782989,Bikash Debbarma,JMBP,22941,113,0.35,13,21,28,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1782990,Jitendra Chaudhury,CPM,22930,19495,71.36,1,21,29,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1782991,Sachitra Debbarma,INC,22917,2659,9.73,2,21,29,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1782992,Bhriguram Reang,AITC,22928,2267,8.3,3,21,29,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1782993,Parikshit Debbarma,BJP,22916,1603,5.87,4,21,29,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1782994,Nota,NOTA,22918,299,1.09,5,21,29,TR,Nota,NOTA,,,,,False,21,2014,GE
+1782995,Narendra Chandra Deb Barma,IPFT,22923,250,0.92,6,21,29,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1782996,Karna Bijoy Jamatia,AAAP,22939,133,0.49,7,21,29,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1782997,Subarna Mala Debbarma,AMB,22929,130,0.48,8,21,29,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1782998,Prabiddha Reang,IND,22919,104,0.38,9,21,29,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783000,Falguni Tripura,CPI(ML)(L),22936,103,0.38,10,21,29,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1782999,Basu Mog,TPGC,22940,103,0.38,10,21,29,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783001,Patal Kanya Jamatia,IND,22919,88,0.32,12,21,29,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783002,Bikash Debbarma,JMBP,22941,87,0.32,13,21,29,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783003,Sankar Prasad Datta,CPM,22930,25584,64.95,1,21,30,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1783004,Arunoday Saha,INC,22917,6986,17.74,2,21,30,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1783005,Ratan Chakraborti,AITC,22928,2721,6.91,3,21,30,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1783006,Sudhindra Chandra Dasgupta,BJP,22916,1197,3.04,4,21,30,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1783007,Binay Debbarma,IPFT,22923,1067,2.71,5,21,30,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1783008,Nota,NOTA,22918,373,0.95,6,21,30,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783009,Arun Kumar Bhowmik,SUCI,22920,315,0.8,7,21,30,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1783010,Joganati Datta,IND,22919,231,0.59,8,21,30,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1783011,Partha Karmakar,CPI(ML)(L),22936,229,0.58,9,21,30,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1783012,Salil Saha,AAAP,22939,210,0.53,10,21,30,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1783013,Kamal Kanti Debnath,IND,22919,164,0.42,11,21,30,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1783014,Subal Bhowmik,TPGC,22940,138,0.35,12,21,30,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1783015,Rakhal Raj Datta,AMB,22929,93,0.24,13,21,30,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1783016,Pjech Debbarma,JMBP,22941,83,0.21,14,21,30,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1783017,Sankar Prasad Datta,CPM,22930,21354,58.09,1,21,31,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1783018,Arunoday Saha,INC,22917,7176,19.52,2,21,31,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1783019,Ratan Chakraborti,AITC,22928,4970,13.52,3,21,31,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1783020,Sudhindra Chandra Dasgupta,BJP,22916,1575,4.28,4,21,31,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1783021,Nota,NOTA,22918,437,1.19,5,21,31,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783022,Arun Kumar Bhowmik,SUCI,22920,272,0.74,6,21,31,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1783023,Partha Karmakar,CPI(ML)(L),22936,238,0.65,7,21,31,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1783024,Joganati Datta,IND,22919,177,0.48,8,21,31,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1783025,Salil Saha,AAAP,22939,144,0.39,9,21,31,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1783026,Subal Bhowmik,TPGC,22940,108,0.29,10,21,31,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1783027,Kamal Kanti Debnath,IND,22919,106,0.29,11,21,31,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1783028,Binay Debbarma,IPFT,22923,101,0.27,12,21,31,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1783029,Rakhal Raj Datta,AMB,22929,53,0.14,13,21,31,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1783030,Pjech Debbarma,JMBP,22941,48,0.13,14,21,31,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1783031,Sankar Prasad Datta,CPM,22930,25528,62.87,1,21,32,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1783032,Arunoday Saha,INC,22917,6436,15.85,2,21,32,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1783033,Ratan Chakraborti,AITC,22928,4697,11.57,3,21,32,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1783034,Sudhindra Chandra Dasgupta,BJP,22916,1917,4.72,4,21,32,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1783035,Nota,NOTA,22918,342,0.84,5,21,32,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783036,Arun Kumar Bhowmik,SUCI,22920,329,0.81,6,21,32,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1783037,Binay Debbarma,IPFT,22923,291,0.72,7,21,32,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1783038,Partha Karmakar,CPI(ML)(L),22936,263,0.65,8,21,32,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1783039,Joganati Datta,IND,22919,180,0.44,9,21,32,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1783040,Subal Bhowmik,TPGC,22940,150,0.37,10,21,32,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1783041,Salil Saha,AAAP,22939,136,0.33,11,21,32,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1783042,Kamal Kanti Debnath,IND,22919,133,0.33,12,21,32,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1783043,Rakhal Raj Datta,AMB,22929,103,0.25,13,21,32,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1783044,Pjech Debbarma,JMBP,22941,98,0.24,14,21,32,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1783045,Sankar Prasad Datta,CPM,22930,29538,70.63,1,21,33,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1783046,Arunoday Saha,INC,22917,4423,10.58,2,21,33,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1783047,Ratan Chakraborti,AITC,22928,4217,10.08,3,21,33,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1783048,Sudhindra Chandra Dasgupta,BJP,22916,1715,4.1,4,21,33,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1783049,Binay Debbarma,IPFT,22923,391,0.93,5,21,33,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1783050,Nota,NOTA,22918,319,0.76,6,21,33,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783051,Arun Kumar Bhowmik,SUCI,22920,254,0.61,7,21,33,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1783052,Partha Karmakar,CPI(ML)(L),22936,223,0.53,8,21,33,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1783053,Joganati Datta,IND,22919,160,0.38,9,21,33,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1783054,Subal Bhowmik,TPGC,22940,137,0.33,10,21,33,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1783055,Kamal Kanti Debnath,IND,22919,135,0.32,11,21,33,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1783056,Salil Saha,AAAP,22939,134,0.32,12,21,33,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1783057,Rakhal Raj Datta,AMB,22929,96,0.23,13,21,33,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1783058,Pjech Debbarma,JMBP,22941,77,0.18,14,21,33,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1783059,Sankar Prasad Datta,CPM,22930,26993,74.31,1,21,34,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1783060,Ratan Chakraborti,AITC,22928,3468,9.55,2,21,34,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1783061,Arunoday Saha,INC,22917,2595,7.14,3,21,34,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1783062,Sudhindra Chandra Dasgupta,BJP,22916,1695,4.67,4,21,34,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1783063,Nota,NOTA,22918,233,0.64,5,21,34,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783064,Arun Kumar Bhowmik,SUCI,22920,226,0.62,6,21,34,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1783065,Subal Bhowmik,TPGC,22940,204,0.56,7,21,34,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1783066,Partha Karmakar,CPI(ML)(L),22936,175,0.48,8,21,34,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1783067,Binay Debbarma,IPFT,22923,174,0.48,9,21,34,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1783068,Joganati Datta,IND,22919,150,0.41,10,21,34,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1783069,Kamal Kanti Debnath,IND,22919,119,0.33,11,21,34,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1783070,Salil Saha,AAAP,22939,116,0.32,12,21,34,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1783071,Rakhal Raj Datta,AMB,22929,102,0.28,13,21,34,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1783072,Pjech Debbarma,JMBP,22941,73,0.2,14,21,34,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1783073,Sankar Prasad Datta,CPM,22930,23765,67.93,1,21,35,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1783074,Ratan Chakraborti,AITC,22928,4381,12.52,2,21,35,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1783075,Arunoday Saha,INC,22917,3966,11.34,3,21,35,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1783076,Sudhindra Chandra Dasgupta,BJP,22916,1381,3.95,4,21,35,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1783077,Nota,NOTA,22918,439,1.25,5,21,35,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783078,Arun Kumar Bhowmik,SUCI,22920,186,0.53,6,21,35,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1783079,Binay Debbarma,IPFT,22923,158,0.45,7,21,35,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1783080,Subal Bhowmik,TPGC,22940,146,0.42,8,21,35,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1783081,Joganati Datta,IND,22919,135,0.39,9,21,35,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1783082,Partha Karmakar,CPI(ML)(L),22936,115,0.33,10,21,35,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1783083,Salil Saha,AAAP,22939,108,0.31,11,21,35,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1783084,Rakhal Raj Datta,AMB,22929,84,0.24,12,21,35,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1783085,Kamal Kanti Debnath,IND,22919,70,0.2,13,21,35,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1783086,Pjech Debbarma,JMBP,22941,53,0.15,14,21,35,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1783087,Sankar Prasad Datta,CPM,22930,24077,65.9,1,21,36,TR,Sankar Prasad Datta,CPM,,,,,True,21,2014,GE
+1783088,Arunoday Saha,INC,22917,4539,12.42,2,21,36,TR,Arunoday Saha,INC,,,,,False,21,2014,GE
+1783089,Ratan Chakraborti,AITC,22928,3955,10.82,3,21,36,TR,Ratan Chakraborti,AITC,,,,,False,21,2014,GE
+1783090,Sudhindra Chandra Dasgupta,BJP,22916,1588,4.35,4,21,36,TR,Sudhindra Chandra Dasgupta,BJP,,,,,False,21,2014,GE
+1783091,Binay Debbarma,IPFT,22923,493,1.35,5,21,36,TR,Binay Debbarma,IPFT,,,,,False,21,2014,GE
+1783092,Nota,NOTA,22918,396,1.08,6,21,36,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783093,Subal Bhowmik,TPGC,22940,279,0.76,7,21,36,TR,Subal Bhowmik,TPGC,,,,,False,21,2014,GE
+1783094,Arun Kumar Bhowmik,SUCI,22920,243,0.67,8,21,36,TR,Arun Kumar Bhowmik,SUCI,,,,,False,21,2014,GE
+1783095,Joganati Datta,IND,22919,230,0.63,9,21,36,TR,Joganati Datta,IND,,,,,False,21,2014,GE
+1783096,Salil Saha,AAAP,22939,196,0.54,10,21,36,TR,Salil Saha,AAAP,,,,,False,21,2014,GE
+1783097,Kamal Kanti Debnath,IND,22919,191,0.52,11,21,36,TR,Kamal Kanti Debnath,IND,,,,,False,21,2014,GE
+1783098,Partha Karmakar,CPI(ML)(L),22936,153,0.42,12,21,36,TR,Partha Karmakar,CPI(ML)(L),,,,,False,21,2014,GE
+1783099,Pjech Debbarma,JMBP,22941,104,0.28,13,21,36,TR,Pjech Debbarma,JMBP,,,,,False,21,2014,GE
+1783100,Rakhal Raj Datta,AMB,22929,94,0.26,14,21,36,TR,Rakhal Raj Datta,AMB,,,,,False,21,2014,GE
+1783101,Jitendra Chaudhury,CPM,22930,28238,77.16,1,21,37,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783102,Bhriguram Reang,AITC,22928,2810,7.68,2,21,37,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783103,Sachitra Debbarma,INC,22917,2563,7.0,3,21,37,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783104,Parikshit Debbarma,BJP,22916,1741,4.76,4,21,37,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783105,Nota,NOTA,22918,377,1.03,5,21,37,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783106,Karna Bijoy Jamatia,AAAP,22939,161,0.44,6,21,37,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783107,Basu Mog,TPGC,22940,138,0.38,7,21,37,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783108,Prabiddha Reang,IND,22919,123,0.34,8,21,37,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783109,Falguni Tripura,CPI(ML)(L),22936,113,0.31,9,21,37,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783110,Narendra Chandra Deb Barma,IPFT,22923,108,0.3,10,21,37,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783111,Subarna Mala Debbarma,AMB,22929,95,0.26,11,21,37,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783112,Bikash Debbarma,JMBP,22941,71,0.19,12,21,37,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783113,Patal Kanya Jamatia,IND,22919,58,0.16,13,21,37,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783114,Jitendra Chaudhury,CPM,22930,27468,73.14,1,21,38,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783115,Bhriguram Reang,AITC,22928,4049,10.78,2,21,38,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783116,Sachitra Debbarma,INC,22917,2907,7.74,3,21,38,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783117,Parikshit Debbarma,BJP,22916,1545,4.11,4,21,38,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783118,Nota,NOTA,22918,522,1.39,5,21,38,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783119,Basu Mog,TPGC,22940,210,0.56,6,21,38,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783120,Prabiddha Reang,IND,22919,168,0.45,7,21,38,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783121,Karna Bijoy Jamatia,AAAP,22939,159,0.42,8,21,38,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783122,Narendra Chandra Deb Barma,IPFT,22923,141,0.38,9,21,38,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783123,Subarna Mala Debbarma,AMB,22929,110,0.29,10,21,38,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783124,Falguni Tripura,CPI(ML)(L),22936,108,0.29,11,21,38,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783125,Bikash Debbarma,JMBP,22941,88,0.23,12,21,38,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783126,Patal Kanya Jamatia,IND,22919,81,0.22,13,21,38,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783127,Jitendra Chaudhury,CPM,22930,23550,68.89,1,21,39,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783128,Sachitra Debbarma,INC,22917,4833,14.14,2,21,39,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783129,Bhriguram Reang,AITC,22928,2552,7.46,3,21,39,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783130,Parikshit Debbarma,BJP,22916,1389,4.06,4,21,39,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783131,Nota,NOTA,22918,458,1.34,5,21,39,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783132,Narendra Chandra Deb Barma,IPFT,22923,447,1.31,6,21,39,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783133,Basu Mog,TPGC,22940,178,0.52,7,21,39,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783134,Karna Bijoy Jamatia,AAAP,22939,171,0.5,8,21,39,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783135,Bikash Debbarma,JMBP,22941,146,0.43,9,21,39,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783136,Prabiddha Reang,IND,22919,139,0.41,10,21,39,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783137,Falguni Tripura,CPI(ML)(L),22936,115,0.34,11,21,39,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783138,Subarna Mala Debbarma,AMB,22929,114,0.33,12,21,39,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783139,Patal Kanya Jamatia,IND,22919,95,0.28,13,21,39,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783140,Jitendra Chaudhury,CPM,22930,24506,68.76,1,21,40,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783141,Sachitra Debbarma,INC,22917,4016,11.27,2,21,40,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783142,Bhriguram Reang,AITC,22928,3840,10.77,3,21,40,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783143,Parikshit Debbarma,BJP,22916,1612,4.52,4,21,40,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783144,Narendra Chandra Deb Barma,IPFT,22923,485,1.36,5,21,40,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783145,Nota,NOTA,22918,383,1.07,6,21,40,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783146,Karna Bijoy Jamatia,AAAP,22939,162,0.45,7,21,40,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783147,Subarna Mala Debbarma,AMB,22929,126,0.35,8,21,40,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783148,Basu Mog,TPGC,22940,124,0.35,9,21,40,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783149,Falguni Tripura,CPI(ML)(L),22936,118,0.33,10,21,40,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783150,Prabiddha Reang,IND,22919,111,0.31,11,21,40,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783151,Bikash Debbarma,JMBP,22941,88,0.25,12,21,40,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783152,Patal Kanya Jamatia,IND,22919,70,0.2,13,21,40,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783153,Jitendra Chaudhury,CPM,22930,18265,67.13,1,21,41,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783154,Sachitra Debbarma,INC,22917,4222,15.52,2,21,41,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783155,Narendra Chandra Deb Barma,IPFT,22923,1360,5.0,3,21,41,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783156,Parikshit Debbarma,BJP,22916,1078,3.96,4,21,41,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783157,Bhriguram Reang,AITC,22928,1000,3.68,5,21,41,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783158,Nota,NOTA,22918,337,1.24,6,21,41,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783159,Karna Bijoy Jamatia,AAAP,22939,238,0.87,7,21,41,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783160,Prabiddha Reang,IND,22919,174,0.64,8,21,41,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783161,Falguni Tripura,CPI(ML)(L),22936,143,0.53,9,21,41,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783162,Patal Kanya Jamatia,IND,22919,135,0.5,10,21,41,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783163,Bikash Debbarma,JMBP,22941,88,0.32,11,21,41,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783164,Subarna Mala Debbarma,AMB,22929,87,0.32,12,21,41,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783165,Basu Mog,TPGC,22940,81,0.3,13,21,41,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783166,Jitendra Chaudhury,CPM,22930,21539,68.33,1,21,42,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783167,Sachitra Debbarma,INC,22917,3881,12.31,2,21,42,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783168,Bhriguram Reang,AITC,22928,3150,9.99,3,21,42,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783169,Parikshit Debbarma,BJP,22916,1234,3.91,4,21,42,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783170,Narendra Chandra Deb Barma,IPFT,22923,444,1.41,5,21,42,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783171,Nota,NOTA,22918,403,1.28,6,21,42,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783172,Karna Bijoy Jamatia,AAAP,22939,217,0.69,7,21,42,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783173,Prabiddha Reang,IND,22919,151,0.48,8,21,42,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783174,Falguni Tripura,CPI(ML)(L),22936,120,0.38,9,21,42,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783175,Subarna Mala Debbarma,AMB,22929,106,0.34,10,21,42,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783176,Basu Mog,TPGC,22940,104,0.33,11,21,42,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783177,Bikash Debbarma,JMBP,22941,102,0.32,12,21,42,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783178,Patal Kanya Jamatia,IND,22919,69,0.22,13,21,42,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783179,Jitendra Chaudhury,CPM,22930,17634,68.46,1,21,43,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783180,Sachitra Debbarma,INC,22917,4741,18.41,2,21,43,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783181,Parikshit Debbarma,BJP,22916,869,3.37,3,21,43,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783182,Bhriguram Reang,AITC,22928,813,3.16,4,21,43,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783183,Nota,NOTA,22918,391,1.52,5,21,43,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783184,Narendra Chandra Deb Barma,IPFT,22923,282,1.09,6,21,43,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783185,Falguni Tripura,CPI(ML)(L),22936,208,0.81,7,21,43,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783186,Patal Kanya Jamatia,IND,22919,190,0.74,8,21,43,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783187,Prabiddha Reang,IND,22919,178,0.69,9,21,43,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783188,Karna Bijoy Jamatia,AAAP,22939,124,0.48,10,21,43,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783189,Bikash Debbarma,JMBP,22941,123,0.48,11,21,43,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783190,Basu Mog,TPGC,22940,117,0.45,12,21,43,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783191,Subarna Mala Debbarma,AMB,22929,87,0.34,13,21,43,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783192,Jitendra Chaudhury,CPM,22930,22161,68.77,1,21,44,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783193,Sachitra Debbarma,INC,22917,4392,13.63,2,21,44,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783194,Bhriguram Reang,AITC,22928,2465,7.65,3,21,44,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783195,Parikshit Debbarma,BJP,22916,1426,4.42,4,21,44,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783196,Narendra Chandra Deb Barma,IPFT,22923,364,1.13,5,21,44,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783197,Prabiddha Reang,IND,22919,268,0.83,6,21,44,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783198,Nota,NOTA,22918,233,0.72,7,21,44,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783199,Karna Bijoy Jamatia,AAAP,22939,201,0.62,8,21,44,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783200,Falguni Tripura,CPI(ML)(L),22936,199,0.62,9,21,44,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783201,Bikash Debbarma,JMBP,22941,166,0.52,10,21,44,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783202,Basu Mog,TPGC,22940,156,0.48,11,21,44,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783203,Subarna Mala Debbarma,AMB,22929,118,0.37,12,21,44,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783204,Patal Kanya Jamatia,IND,22919,77,0.24,13,21,44,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783205,Jitendra Chaudhury,CPM,22930,21716,64.05,1,21,45,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783206,Sachitra Debbarma,INC,22917,5215,15.38,2,21,45,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783207,Bhriguram Reang,AITC,22928,3545,10.46,3,21,45,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783208,Parikshit Debbarma,BJP,22916,1890,5.57,4,21,45,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783209,Nota,NOTA,22918,441,1.3,5,21,45,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783210,Narendra Chandra Deb Barma,IPFT,22923,207,0.61,6,21,45,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783211,Karna Bijoy Jamatia,AAAP,22939,177,0.52,7,21,45,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783212,Prabiddha Reang,IND,22919,150,0.44,8,21,45,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783213,Falguni Tripura,CPI(ML)(L),22936,144,0.42,9,21,45,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783214,Basu Mog,TPGC,22940,141,0.42,10,21,45,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783215,Subarna Mala Debbarma,AMB,22929,110,0.32,11,21,45,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783216,Bikash Debbarma,JMBP,22941,100,0.29,12,21,45,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783217,Patal Kanya Jamatia,IND,22919,69,0.2,13,21,45,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783218,Jitendra Chaudhury,CPM,22930,22127,64.52,1,21,46,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783219,Sachitra Debbarma,INC,22917,5101,14.87,2,21,46,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783220,Bhriguram Reang,AITC,22928,3052,8.9,3,21,46,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783221,Parikshit Debbarma,BJP,22916,1972,5.75,4,21,46,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783222,Narendra Chandra Deb Barma,IPFT,22923,580,1.69,5,21,46,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783223,Nota,NOTA,22918,308,0.9,6,21,46,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783224,Basu Mog,TPGC,22940,246,0.72,7,21,46,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783225,Falguni Tripura,CPI(ML)(L),22936,202,0.59,8,21,46,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783226,Karna Bijoy Jamatia,AAAP,22939,202,0.59,8,21,46,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783227,Bikash Debbarma,JMBP,22941,138,0.4,10,21,46,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783228,Prabiddha Reang,IND,22919,133,0.39,11,21,46,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783229,Subarna Mala Debbarma,AMB,22929,132,0.38,12,21,46,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783230,Patal Kanya Jamatia,IND,22919,104,0.3,13,21,46,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783231,Jitendra Chaudhury,CPM,22930,22071,62.16,1,21,47,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783232,Sachitra Debbarma,INC,22917,6190,17.43,2,21,47,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783233,Bhriguram Reang,AITC,22928,2668,7.51,3,21,47,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783234,Parikshit Debbarma,BJP,22916,2009,5.66,4,21,47,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783235,Basu Mog,TPGC,22940,443,1.25,5,21,47,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783236,Nota,NOTA,22918,424,1.19,6,21,47,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783237,Narendra Chandra Deb Barma,IPFT,22923,337,0.95,7,21,47,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783238,Prabiddha Reang,IND,22919,268,0.75,8,21,47,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783239,Karna Bijoy Jamatia,AAAP,22939,247,0.7,9,21,47,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783240,Falguni Tripura,CPI(ML)(L),22936,245,0.69,10,21,47,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783241,Subarna Mala Debbarma,AMB,22929,235,0.66,11,21,47,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783242,Patal Kanya Jamatia,IND,22919,199,0.56,12,21,47,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783243,Bikash Debbarma,JMBP,22941,173,0.49,13,21,47,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783244,Jitendra Chaudhury,CPM,22930,16073,56.37,1,21,48,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783245,Sachitra Debbarma,INC,22917,8106,28.43,2,21,48,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783246,Parikshit Debbarma,BJP,22916,1170,4.1,3,21,48,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783247,Bhriguram Reang,AITC,22928,1088,3.82,4,21,48,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783248,Narendra Chandra Deb Barma,IPFT,22923,755,2.65,5,21,48,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783249,Nota,NOTA,22918,290,1.02,6,21,48,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783250,Prabiddha Reang,IND,22919,253,0.89,7,21,48,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783251,Karna Bijoy Jamatia,AAAP,22939,204,0.72,8,21,48,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783252,Subarna Mala Debbarma,AMB,22929,140,0.49,9,21,48,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783253,Falguni Tripura,CPI(ML)(L),22936,138,0.48,10,21,48,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783254,Basu Mog,TPGC,22940,103,0.36,11,21,48,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783255,Patal Kanya Jamatia,IND,22919,98,0.34,12,21,48,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783256,Bikash Debbarma,JMBP,22941,94,0.33,13,21,48,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783257,Jitendra Chaudhury,CPM,22930,17380,64.16,1,21,49,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783258,Sachitra Debbarma,INC,22917,4972,18.35,2,21,49,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783259,Bhriguram Reang,AITC,22928,1826,6.74,3,21,49,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783260,Parikshit Debbarma,BJP,22916,1189,4.39,4,21,49,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783261,Nota,NOTA,22918,423,1.56,5,21,49,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783262,Narendra Chandra Deb Barma,IPFT,22923,240,0.89,6,21,49,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783263,Prabiddha Reang,IND,22919,185,0.68,7,21,49,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783264,Karna Bijoy Jamatia,AAAP,22939,176,0.65,8,21,49,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783265,Falguni Tripura,CPI(ML)(L),22936,170,0.63,9,21,49,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783266,Subarna Mala Debbarma,AMB,22929,149,0.55,10,21,49,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783267,Bikash Debbarma,JMBP,22941,133,0.49,11,21,49,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783268,Basu Mog,TPGC,22940,131,0.48,12,21,49,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783269,Patal Kanya Jamatia,IND,22919,115,0.42,13,21,49,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783270,Jitendra Chaudhury,CPM,22930,20569,60.73,1,21,50,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783271,Sachitra Debbarma,INC,22917,5667,16.73,2,21,50,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783272,Bhriguram Reang,AITC,22928,3591,10.6,3,21,50,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783273,Parikshit Debbarma,BJP,22916,2166,6.4,4,21,50,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783274,Nota,NOTA,22918,515,1.52,5,21,50,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783275,Prabiddha Reang,IND,22919,229,0.68,6,21,50,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783276,Subarna Mala Debbarma,AMB,22929,221,0.65,7,21,50,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783277,Karna Bijoy Jamatia,AAAP,22939,180,0.53,8,21,50,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783278,Falguni Tripura,CPI(ML)(L),22936,176,0.52,9,21,50,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783279,Basu Mog,TPGC,22940,159,0.47,10,21,50,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783280,Narendra Chandra Deb Barma,IPFT,22923,152,0.45,11,21,50,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783281,Patal Kanya Jamatia,IND,22919,123,0.36,12,21,50,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783282,Bikash Debbarma,JMBP,22941,120,0.35,13,21,50,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783283,Jitendra Chaudhury,CPM,22930,19027,62.4,1,21,51,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783284,Sachitra Debbarma,INC,22917,4544,14.9,2,21,51,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783285,Bhriguram Reang,AITC,22928,3116,10.22,3,21,51,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783286,Parikshit Debbarma,BJP,22916,2130,6.99,4,21,51,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783287,Narendra Chandra Deb Barma,IPFT,22923,432,1.42,5,21,51,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783288,Nota,NOTA,22918,338,1.11,6,21,51,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783289,Prabiddha Reang,IND,22919,285,0.93,7,21,51,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783290,Falguni Tripura,CPI(ML)(L),22936,146,0.48,8,21,51,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783291,Karna Bijoy Jamatia,AAAP,22939,134,0.44,9,21,51,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783292,Subarna Mala Debbarma,AMB,22929,117,0.38,10,21,51,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783293,Basu Mog,TPGC,22940,84,0.28,11,21,51,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783294,Bikash Debbarma,JMBP,22941,78,0.26,12,21,51,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783295,Patal Kanya Jamatia,IND,22919,59,0.19,13,21,51,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783296,Jitendra Chaudhury,CPM,22930,21659,65.5,1,21,52,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783297,Sachitra Debbarma,INC,22917,5114,15.47,2,21,52,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783298,Parikshit Debbarma,BJP,22916,2775,8.39,3,21,52,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783299,Bhriguram Reang,AITC,22928,1851,5.6,4,21,52,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783300,Nota,NOTA,22918,438,1.32,5,21,52,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783301,Falguni Tripura,CPI(ML)(L),22936,288,0.87,6,21,52,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783302,Narendra Chandra Deb Barma,IPFT,22923,233,0.7,7,21,52,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783303,Prabiddha Reang,IND,22919,176,0.53,8,21,52,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783304,Karna Bijoy Jamatia,AAAP,22939,133,0.4,9,21,52,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783305,Subarna Mala Debbarma,AMB,22929,126,0.38,10,21,52,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783306,Patal Kanya Jamatia,IND,22919,99,0.3,11,21,52,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783307,Bikash Debbarma,JMBP,22941,98,0.3,12,21,52,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783308,Basu Mog,TPGC,22940,78,0.24,13,21,52,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783309,Jitendra Chaudhury,CPM,22930,17939,53.74,1,21,53,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783310,Sachitra Debbarma,INC,22917,9887,29.62,2,21,53,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783311,Parikshit Debbarma,BJP,22916,3023,9.06,3,21,53,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783312,Bhriguram Reang,AITC,22928,1547,4.63,4,21,53,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783313,Nota,NOTA,22918,320,0.96,5,21,53,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783314,Karna Bijoy Jamatia,AAAP,22939,134,0.4,6,21,53,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783315,Narendra Chandra Deb Barma,IPFT,22923,134,0.4,6,21,53,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783316,Falguni Tripura,CPI(ML)(L),22936,92,0.28,8,21,53,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783317,Prabiddha Reang,IND,22919,88,0.26,9,21,53,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783318,Basu Mog,TPGC,22940,76,0.23,10,21,53,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783319,Subarna Mala Debbarma,AMB,22929,57,0.17,11,21,53,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783320,Bikash Debbarma,JMBP,22941,47,0.14,12,21,53,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783321,Patal Kanya Jamatia,IND,22919,36,0.11,13,21,53,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783322,Jitendra Chaudhury,CPM,22930,17796,58.97,1,21,54,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783323,Sachitra Debbarma,INC,22917,6533,21.65,2,21,54,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783324,Parikshit Debbarma,BJP,22916,3357,11.12,3,21,54,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783325,Bhriguram Reang,AITC,22928,1121,3.71,4,21,54,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783326,Nota,NOTA,22918,314,1.04,5,21,54,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783327,Basu Mog,TPGC,22940,199,0.66,6,21,54,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783328,Narendra Chandra Deb Barma,IPFT,22923,192,0.64,7,21,54,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783329,Prabiddha Reang,IND,22919,141,0.47,8,21,54,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783330,Falguni Tripura,CPI(ML)(L),22936,134,0.44,9,21,54,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783331,Karna Bijoy Jamatia,AAAP,22939,125,0.41,10,21,54,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783332,Subarna Mala Debbarma,AMB,22929,121,0.4,11,21,54,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783333,Patal Kanya Jamatia,IND,22919,74,0.25,12,21,54,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783334,Bikash Debbarma,JMBP,22941,72,0.24,13,21,54,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783335,Jitendra Chaudhury,CPM,22930,17678,57.58,1,21,55,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783336,Parikshit Debbarma,BJP,22916,4688,15.27,2,21,55,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783337,Sachitra Debbarma,INC,22917,4665,15.19,3,21,55,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783338,Bhriguram Reang,AITC,22928,2265,7.38,4,21,55,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783339,Nota,NOTA,22918,320,1.04,5,21,55,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783340,Falguni Tripura,CPI(ML)(L),22936,229,0.75,6,21,55,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783341,Prabiddha Reang,IND,22919,182,0.59,7,21,55,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783342,Basu Mog,TPGC,22940,164,0.53,8,21,55,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783343,Narendra Chandra Deb Barma,IPFT,22923,147,0.48,9,21,55,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783344,Karna Bijoy Jamatia,AAAP,22939,119,0.39,10,21,55,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783345,Subarna Mala Debbarma,AMB,22929,105,0.34,11,21,55,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783346,Patal Kanya Jamatia,IND,22919,73,0.24,12,21,55,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783347,Bikash Debbarma,JMBP,22941,66,0.21,13,21,55,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783348,Jitendra Chaudhury,CPM,22930,16678,53.47,1,21,56,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783349,Parikshit Debbarma,BJP,22916,6019,19.3,2,21,56,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783350,Sachitra Debbarma,INC,22917,4604,14.76,3,21,56,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783351,Bhriguram Reang,AITC,22928,2830,9.07,4,21,56,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783352,Nota,NOTA,22918,451,1.45,5,21,56,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783353,Karna Bijoy Jamatia,AAAP,22939,127,0.41,6,21,56,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783354,Prabiddha Reang,IND,22919,100,0.32,7,21,56,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783356,Narendra Chandra Deb Barma,IPFT,22923,79,0.25,8,21,56,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783355,Basu Mog,TPGC,22940,79,0.25,8,21,56,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783357,Subarna Mala Debbarma,AMB,22929,69,0.22,10,21,56,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783358,Falguni Tripura,CPI(ML)(L),22936,64,0.21,11,21,56,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783359,Patal Kanya Jamatia,IND,22919,48,0.15,12,21,56,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783360,Bikash Debbarma,JMBP,22941,46,0.15,13,21,56,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783361,Jitendra Chaudhury,CPM,22930,19537,63.06,1,21,57,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783362,Parikshit Debbarma,BJP,22916,3482,11.24,2,21,57,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783363,Bhriguram Reang,AITC,22928,3345,10.8,3,21,57,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783364,Sachitra Debbarma,INC,22917,3341,10.78,4,21,57,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783365,Nota,NOTA,22918,310,1.0,5,21,57,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783366,Narendra Chandra Deb Barma,IPFT,22923,151,0.49,6,21,57,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783367,Subarna Mala Debbarma,AMB,22929,148,0.48,7,21,57,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783368,Karna Bijoy Jamatia,AAAP,22939,145,0.47,8,21,57,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783369,Prabiddha Reang,IND,22919,141,0.46,9,21,57,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783370,Basu Mog,TPGC,22940,110,0.36,10,21,57,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783371,Falguni Tripura,CPI(ML)(L),22936,94,0.3,11,21,57,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783372,Bikash Debbarma,JMBP,22941,89,0.29,12,21,57,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783373,Patal Kanya Jamatia,IND,22919,87,0.28,13,21,57,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783374,Jitendra Chaudhury,CPM,22930,17969,66.47,1,21,58,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783375,Sachitra Debbarma,INC,22917,3872,14.32,2,21,58,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783376,Parikshit Debbarma,BJP,22916,2167,8.02,3,21,58,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783377,Bhriguram Reang,AITC,22928,1755,6.49,4,21,58,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783378,Nota,NOTA,22918,276,1.02,5,21,58,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783379,Prabiddha Reang,IND,22919,249,0.92,6,21,58,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783380,Narendra Chandra Deb Barma,IPFT,22923,143,0.53,7,21,58,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783381,Subarna Mala Debbarma,AMB,22929,138,0.51,8,21,58,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783382,Karna Bijoy Jamatia,AAAP,22939,122,0.45,9,21,58,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783383,Falguni Tripura,CPI(ML)(L),22936,105,0.39,10,21,58,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783384,Basu Mog,TPGC,22940,99,0.37,11,21,58,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783385,Bikash Debbarma,JMBP,22941,83,0.31,12,21,58,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783386,Patal Kanya Jamatia,IND,22919,55,0.2,13,21,58,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783387,Jitendra Chaudhury,CPM,22930,19388,66.62,1,21,59,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783388,Sachitra Debbarma,INC,22917,5167,17.75,2,21,59,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783389,Bhriguram Reang,AITC,22928,1951,6.7,3,21,59,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783390,Parikshit Debbarma,BJP,22916,1008,3.46,4,21,59,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783391,Nota,NOTA,22918,449,1.54,5,21,59,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783392,Prabiddha Reang,IND,22919,209,0.72,6,21,59,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783393,Subarna Mala Debbarma,AMB,22929,196,0.67,7,21,59,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783394,Narendra Chandra Deb Barma,IPFT,22923,174,0.6,8,21,59,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783395,Falguni Tripura,CPI(ML)(L),22936,151,0.52,9,21,59,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783396,Karna Bijoy Jamatia,AAAP,22939,126,0.43,10,21,59,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783397,Basu Mog,TPGC,22940,107,0.37,11,21,59,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783398,Bikash Debbarma,JMBP,22941,94,0.32,12,21,59,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783399,Patal Kanya Jamatia,IND,22919,84,0.29,13,21,59,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE
+1783400,Jitendra Chaudhury,CPM,22930,18722,65.29,1,21,60,TR,Jitendra Chaudhury,CPM,,,,,True,21,2014,GE
+1783401,Sachitra Debbarma,INC,22917,4009,13.98,2,21,60,TR,Sachitra Debbarma,INC,,,,,False,21,2014,GE
+1783402,Bhriguram Reang,AITC,22928,2527,8.81,3,21,60,TR,Bhriguram Reang,AITC,,,,,False,21,2014,GE
+1783403,Parikshit Debbarma,BJP,22916,1891,6.6,4,21,60,TR,Parikshit Debbarma,BJP,,,,,False,21,2014,GE
+1783404,Nota,NOTA,22918,317,1.11,5,21,60,TR,Nota,NOTA,,,,,False,21,2014,GE
+1783405,Narendra Chandra Deb Barma,IPFT,22923,204,0.71,6,21,60,TR,Narendra Chandra Deb Barma,IPFT,,,,,False,21,2014,GE
+1783406,Prabiddha Reang,IND,22919,195,0.68,7,21,60,TR,Prabiddha Reang,IND,,,,,False,21,2014,GE
+1783407,Subarna Mala Debbarma,AMB,22929,179,0.62,8,21,60,TR,Subarna Mala Debbarma,AMB,,,,,False,21,2014,GE
+1783408,Falguni Tripura,CPI(ML)(L),22936,161,0.56,9,21,60,TR,Falguni Tripura,CPI(ML)(L),,,,,False,21,2014,GE
+1783409,Bikash Debbarma,JMBP,22941,138,0.48,10,21,60,TR,Bikash Debbarma,JMBP,,,,,False,21,2014,GE
+1783410,Karna Bijoy Jamatia,AAAP,22939,125,0.44,11,21,60,TR,Karna Bijoy Jamatia,AAAP,,,,,False,21,2014,GE
+1783411,Basu Mog,TPGC,22940,104,0.36,12,21,60,TR,Basu Mog,TPGC,,,,,False,21,2014,GE
+1783412,Patal Kanya Jamatia,IND,22919,101,0.35,13,21,60,TR,Patal Kanya Jamatia,IND,,,,,False,21,2014,GE

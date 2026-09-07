@@ -214,9 +214,9 @@
         gap: 6px;
       }
 
-      /* Tap info bar — shown on mobile when user taps a region */
+      /* Tap info bar — removed in favor of bottom sheet injection */
       #mobile-tap-info {
-        display: flex !important;
+        display: none !important;
       }
     }
 
@@ -381,6 +381,17 @@
   </div>
 
   <div class="px-1 space-y-4">
+    <!-- Mobile Tap Details Container (Injected on tap) -->
+    <div id="mobile-details-injection" class="hidden md:hidden mb-1 mt-1 border border-gray-200 bg-white rounded-xl shadow-sm overflow-hidden transition-all duration-300">
+      <div class="flex justify-between items-center bg-gray-50 px-3 py-2 border-b border-gray-100">
+         <div>
+            <div id="mdi-region" class="font-bold text-gray-900 text-[13px] leading-tight">Region</div>
+            <div id="mdi-parent" class="text-[10px] font-semibold text-gray-500 uppercase tracking-wide">Parent</div>
+         </div>
+         <div id="mdi-score" class="text-[11px] font-mono font-bold px-2 py-0.5 rounded shadow-sm border border-transparent">--%</div>
+      </div>
+      <div id="mdi-body" class="p-3 text-[11px] text-gray-700 space-y-2 bg-white"></div>
+    </div>
 
   <div>
     <div class="flex items-center justify-between mb-3">
@@ -1716,12 +1727,14 @@
       let bgClass = Array.from(scoreEl.classList).find(c => c.startsWith('bg-'));
       let color = null;
       if (bgClass === 'bg-emerald-50') color = '#059669';
+      else if (bgClass === 'bg-amber-50') color = '#d97706';
       else if (bgClass === 'bg-yellow-50') color = '#ca8a04';
       else if (bgClass === 'bg-orange-50') color = '#ea580c';
       else if (bgClass === 'bg-red-50') color = '#dc2626';
       else if (bgClass === 'bg-gray-50') color = '#9ca3af';
       
-      window.showMobileTapInfo(region, parent, pct, color);
+      const detailsHtml = document.getElementById('tooltip-details').innerHTML;
+      window.showMobileTapInfo(region, parent, pct, color, detailsHtml, bgClass);
     }
     
     const panelWidth = 280;
@@ -2462,20 +2475,30 @@
   }
 
   // ── Show tap info on mobile when a region is clicked/tapped ──────────
-  window.showMobileTapInfo = function(regionName, parentName, pct, color) {
+  window.showMobileTapInfo = function(regionName, parentName, pct, color, detailsHtml, bgClass) {
     if (!isMobile()) return;
-    var r = document.getElementById('mobile-tap-region');
-    var s = document.getElementById('mobile-tap-sub');
-    var sc = document.getElementById('mobile-tap-score');
-    if (r) r.textContent = regionName || '—';
-    if (s) s.textContent = parentName || '';
-    if (sc) {
+    
+    var mdi = document.getElementById('mobile-details-injection');
+    if (mdi) {
+      mdi.classList.remove('hidden');
+      document.getElementById('mdi-region').textContent = regionName || '—';
+      document.getElementById('mdi-parent').textContent = parentName || '';
+      
+      var sc = document.getElementById('mdi-score');
       sc.textContent = pct != null ? pct.toFixed(1) + '%' : '—';
-      sc.style.background = color || '#f0fdf4';
-      sc.style.color = color ? '#fff' : '#15803d';
-      sc.style.borderColor = 'transparent';
+      
+      sc.className = 'text-[11px] font-mono font-bold px-2 py-0.5 rounded whitespace-nowrap shadow-sm ';
+      if (bgClass === 'bg-emerald-50') sc.className += 'bg-emerald-50 text-emerald-700 border border-emerald-200';
+      else if (bgClass === 'bg-amber-50') sc.className += 'bg-amber-50 text-amber-700 border border-amber-200';
+      else sc.className += 'bg-gray-50 text-gray-500 border border-gray-200';
+      
+      document.getElementById('mdi-body').innerHTML = detailsHtml || '';
+
+      // Auto-expand sheet if it's collapsed so user sees the new data
+      if (sheetCollapsed && window.toggleSheet) {
+        window.toggleSheet();
+      }
     }
-    updateTapInfoPosition();
   };
 
   // ── On startup: collapse panel & adjust ───────────────────────────

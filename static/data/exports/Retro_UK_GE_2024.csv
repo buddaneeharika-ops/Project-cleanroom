@@ -1,0 +1,841 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1491987,Boby Panwar,IND,16059,25647,55.01,1,53,1,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1491988,Mala Rajya Lakshmi Shah,BJP,16057,13536,29.03,2,53,1,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1491989,Jot Singh Gunsola,INC,16058,3659,7.85,3,53,1,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1491990,Navneet Singh Gosain,raup,16074,1074,2.3,4,53,1,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1491991,Nemchand,BSP,16062,496,1.06,5,53,1,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1491992,Brij Bhushan Karanwal,BRED,16160,463,0.99,6,53,1,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1491993,Vepin Kumar Aggarwal,IND,16059,373,0.8,7,53,1,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1491994,Nota,NOTA,16061,352,0.76,8,53,1,UK,Nota,NOTA,,,,,False,53,2024,GE
+1491995,Rampal Singh,PPID,16162,311,0.67,9,53,1,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1491996,Prem Dutt Semwal,IND,16059,281,0.6,10,53,1,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1491997,Sardar Khan Pappu,IND,16059,246,0.53,11,53,1,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1491998,Sudesh Tomar,IND,16059,183,0.39,12,53,1,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1491999,Boby Panwar,IND,16059,21602,50.39,1,53,2,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492000,Mala Rajya Lakshmi Shah,BJP,16057,14804,34.53,2,53,2,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492001,Jot Singh Gunsola,INC,16058,2703,6.31,3,53,2,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492002,Navneet Singh Gosain,raup,16074,1097,2.56,4,53,2,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492003,Brij Bhushan Karanwal,BRED,16160,461,1.08,5,53,2,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492004,Nemchand,BSP,16062,459,1.07,6,53,2,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492005,Vepin Kumar Aggarwal,IND,16059,359,0.84,7,53,2,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492006,Nota,NOTA,16061,335,0.78,8,53,2,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492007,Prem Dutt Semwal,IND,16059,330,0.77,9,53,2,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492008,Sardar Khan Pappu,IND,16059,296,0.69,10,53,2,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492009,Rampal Singh,PPID,16162,227,0.53,11,53,2,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492010,Sudesh Tomar,IND,16059,195,0.45,12,53,2,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492011,Mala Rajya Lakshmi Shah,BJP,16057,20513,43.0,1,53,3,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492012,Boby Panwar,IND,16059,19131,40.1,2,53,3,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492013,Jot Singh Gunsola,INC,16058,4548,9.53,3,53,3,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492014,Navneet Singh Gosain,raup,16074,1155,2.42,4,53,3,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492015,Nemchand,BSP,16062,452,0.95,5,53,3,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492016,Nota,NOTA,16061,387,0.81,6,53,3,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492017,Brij Bhushan Karanwal,BRED,16160,384,0.8,7,53,3,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492018,Vepin Kumar Aggarwal,IND,16059,316,0.66,8,53,3,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492019,Sardar Khan Pappu,IND,16059,237,0.5,9,53,3,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492020,Rampal Singh,PPID,16162,216,0.45,10,53,3,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492021,Sudesh Tomar,IND,16059,198,0.42,11,53,3,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492022,Prem Dutt Semwal,IND,16059,171,0.36,12,53,3,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492023,Anil Baluni,BJP,16057,31854,54.87,1,53,4,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492024,Ganesh Godiyal,INC,16058,23600,40.65,2,53,4,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492025,Nota,NOTA,16061,892,1.54,3,53,4,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492026,Sonu Kumar,IND,16059,351,0.6,4,53,4,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492027,Dheer Singh,BSP,16062,307,0.53,5,53,4,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492028,Ashutosh Singh,UKKD,16063,231,0.4,6,53,4,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492029,Mukesh Prakash,IND,16059,197,0.34,7,53,4,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492030,Sureshi Devi,PPID,16162,132,0.23,8,53,4,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492031,Arjun Singh,AKBRPRVP,16163,111,0.19,9,53,4,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492032,Deependra Singh Negi,IND,16059,100,0.17,10,53,4,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492033,Dr Mukesh Pant,SaSP,16097,83,0.14,11,53,4,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492034,Vinod Kumar Sharma,UTRASMNTP,16164,77,0.13,12,53,4,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492035,Reshma Panwar,SUCI,16165,70,0.12,13,53,4,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492036,Shyamlal,BMUP,16098,51,0.09,14,53,4,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492037,Anil Baluni,BJP,16057,31398,57.02,1,53,5,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492038,Ganesh Godiyal,INC,16058,20192,36.67,2,53,5,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492039,Nota,NOTA,16061,1076,1.95,3,53,5,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492040,Sonu Kumar,IND,16059,467,0.85,4,53,5,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492041,Mukesh Prakash,IND,16059,428,0.78,5,53,5,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492042,Dheer Singh,BSP,16062,383,0.7,6,53,5,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492043,Ashutosh Singh,UKKD,16063,280,0.51,7,53,5,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492044,Sureshi Devi,PPID,16162,175,0.32,8,53,5,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492045,Deependra Singh Negi,IND,16059,165,0.3,9,53,5,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492046,Dr Mukesh Pant,SaSP,16097,128,0.23,10,53,5,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492047,Arjun Singh,AKBRPRVP,16163,116,0.21,11,53,5,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492048,Vinod Kumar Sharma,UTRASMNTP,16164,93,0.17,12,53,5,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492049,Shyamlal,BMUP,16098,84,0.15,13,53,5,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492050,Reshma Panwar,SUCI,16165,76,0.14,14,53,5,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492051,Anil Baluni,BJP,16057,32215,61.98,1,53,6,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492052,Ganesh Godiyal,INC,16058,17019,32.74,2,53,6,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492053,Nota,NOTA,16061,904,1.74,3,53,6,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492054,Ashutosh Singh,UKKD,16063,392,0.75,4,53,6,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492055,Sonu Kumar,IND,16059,331,0.64,5,53,6,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492056,Mukesh Prakash,IND,16059,249,0.48,6,53,6,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492057,Dheer Singh,BSP,16062,246,0.47,7,53,6,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492058,Sureshi Devi,PPID,16162,139,0.27,8,53,6,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492059,Deependra Singh Negi,IND,16059,130,0.25,9,53,6,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492060,Arjun Singh,AKBRPRVP,16163,88,0.17,10,53,6,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492061,Dr Mukesh Pant,SaSP,16097,83,0.16,11,53,6,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492062,Shyamlal,BMUP,16098,70,0.13,12,53,6,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492063,Vinod Kumar Sharma,UTRASMNTP,16164,64,0.12,13,53,6,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492064,Reshma Panwar,SUCI,16165,46,0.09,14,53,6,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492065,Anil Baluni,BJP,16057,30536,57.21,1,53,7,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492066,Ganesh Godiyal,INC,16058,20164,37.78,2,53,7,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492067,Nota,NOTA,16061,932,1.75,3,53,7,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492068,Sonu Kumar,IND,16059,312,0.58,4,53,7,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492069,Dheer Singh,BSP,16062,287,0.54,5,53,7,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492070,Ashutosh Singh,UKKD,16063,271,0.51,6,53,7,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492071,Mukesh Prakash,IND,16059,207,0.39,7,53,7,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492072,Deependra Singh Negi,IND,16059,174,0.33,8,53,7,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492073,Reshma Panwar,SUCI,16165,105,0.2,9,53,7,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492074,Sureshi Devi,PPID,16162,99,0.19,10,53,7,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492075,Dr Mukesh Pant,SaSP,16097,97,0.18,11,53,7,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492076,Arjun Singh,AKBRPRVP,16163,85,0.16,12,53,7,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492077,Shyamlal,BMUP,16098,55,0.1,13,53,7,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492078,Vinod Kumar Sharma,UTRASMNTP,16164,53,0.1,14,53,7,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492079,Anil Baluni,BJP,16057,34688,61.61,1,53,8,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492080,Ganesh Godiyal,INC,16058,18041,32.04,2,53,8,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492081,Nota,NOTA,16061,991,1.76,3,53,8,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492082,Dheer Singh,BSP,16062,486,0.86,4,53,8,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492083,Sonu Kumar,IND,16059,431,0.77,5,53,8,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492084,Reshma Panwar,SUCI,16165,412,0.73,6,53,8,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492085,Mukesh Prakash,IND,16059,312,0.55,7,53,8,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492086,Ashutosh Singh,UKKD,16063,270,0.48,8,53,8,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492087,Deependra Singh Negi,IND,16059,141,0.25,9,53,8,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492088,Sureshi Devi,PPID,16162,139,0.25,10,53,8,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492089,Arjun Singh,AKBRPRVP,16163,124,0.22,11,53,8,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492090,Dr Mukesh Pant,SaSP,16097,113,0.2,12,53,8,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492091,Vinod Kumar Sharma,UTRASMNTP,16164,81,0.14,13,53,8,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492092,Shyamlal,BMUP,16098,75,0.13,14,53,8,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492093,Mala Rajya Lakshmi Shah,BJP,16057,21727,54.46,1,53,9,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492094,Boby Panwar,IND,16059,8173,20.49,2,53,9,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492095,Jot Singh Gunsola,INC,16058,6094,15.27,3,53,9,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492096,Navneet Singh Gosain,raup,16074,998,2.5,4,53,9,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492097,Sardar Khan Pappu,IND,16059,582,1.46,5,53,9,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492098,Nota,NOTA,16061,540,1.35,6,53,9,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492099,Nemchand,BSP,16062,500,1.25,7,53,9,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492100,Vepin Kumar Aggarwal,IND,16059,364,0.91,8,53,9,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492101,Brij Bhushan Karanwal,BRED,16160,281,0.7,9,53,9,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492102,Sudesh Tomar,IND,16059,263,0.66,10,53,9,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492103,Rampal Singh,PPID,16162,204,0.51,11,53,9,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492104,Prem Dutt Semwal,IND,16059,170,0.43,12,53,9,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492105,Anil Baluni,BJP,16057,21920,59.32,1,53,10,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492106,Ganesh Godiyal,INC,16058,12735,34.46,2,53,10,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492107,Nota,NOTA,16061,737,1.99,3,53,10,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492108,Ashutosh Singh,UKKD,16063,326,0.88,4,53,10,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492109,Sonu Kumar,IND,16059,314,0.85,5,53,10,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492110,Dheer Singh,BSP,16062,210,0.57,6,53,10,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492111,Mukesh Prakash,IND,16059,201,0.54,7,53,10,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492112,Sureshi Devi,PPID,16162,93,0.25,8,53,10,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492113,Dr Mukesh Pant,SaSP,16097,87,0.24,9,53,10,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492114,Reshma Panwar,SUCI,16165,85,0.23,10,53,10,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492115,Deependra Singh Negi,IND,16059,84,0.23,11,53,10,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492116,Vinod Kumar Sharma,UTRASMNTP,16164,56,0.15,12,53,10,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492117,Shyamlal,BMUP,16098,54,0.15,13,53,10,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492118,Arjun Singh,AKBRPRVP,16163,50,0.14,14,53,10,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492119,Anil Baluni,BJP,16057,31147,69.22,1,53,11,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492120,Ganesh Godiyal,INC,16058,11570,25.71,2,53,11,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492121,Nota,NOTA,16061,679,1.51,3,53,11,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492122,Ashutosh Singh,UKKD,16063,421,0.94,4,53,11,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492123,Sonu Kumar,IND,16059,242,0.54,5,53,11,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492124,Mukesh Prakash,IND,16059,207,0.46,6,53,11,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492125,Dheer Singh,BSP,16062,195,0.43,7,53,11,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492126,Dr Mukesh Pant,SaSP,16097,116,0.26,8,53,11,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492127,Sureshi Devi,PPID,16162,109,0.24,9,53,11,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492128,Arjun Singh,AKBRPRVP,16163,79,0.18,10,53,11,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492129,Deependra Singh Negi,IND,16059,78,0.17,11,53,11,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492130,Vinod Kumar Sharma,UTRASMNTP,16164,55,0.12,12,53,11,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492131,Reshma Panwar,SUCI,16165,53,0.12,13,53,11,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492132,Shyamlal,BMUP,16098,49,0.11,14,53,11,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492133,Mala Rajya Lakshmi Shah,BJP,16057,17043,51.18,1,53,12,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492134,Jot Singh Gunsola,INC,16058,7538,22.64,2,53,12,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492135,Boby Panwar,IND,16059,5613,16.86,3,53,12,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492136,Navneet Singh Gosain,raup,16074,837,2.51,4,53,12,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492137,Nemchand,BSP,16062,467,1.4,5,53,12,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492138,Nota,NOTA,16061,431,1.29,6,53,12,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492139,Sardar Khan Pappu,IND,16059,368,1.11,7,53,12,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492140,Vepin Kumar Aggarwal,IND,16059,264,0.79,8,53,12,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492141,Sudesh Tomar,IND,16059,232,0.7,9,53,12,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492142,Brij Bhushan Karanwal,BRED,16160,218,0.65,10,53,12,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492143,Prem Dutt Semwal,IND,16059,150,0.45,11,53,12,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492144,Rampal Singh,PPID,16162,138,0.41,12,53,12,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492145,Mala Rajya Lakshmi Shah,BJP,16057,18050,50.14,1,53,13,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492146,Boby Panwar,IND,16059,10838,30.11,2,53,13,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492147,Jot Singh Gunsola,INC,16058,4793,13.31,3,53,13,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492148,Navneet Singh Gosain,raup,16074,681,1.89,4,53,13,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492149,Nota,NOTA,16061,336,0.93,5,53,13,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492150,Nemchand,BSP,16062,241,0.67,6,53,13,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492151,Brij Bhushan Karanwal,BRED,16160,231,0.64,7,53,13,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492152,Sardar Khan Pappu,IND,16059,224,0.62,8,53,13,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492153,Vepin Kumar Aggarwal,IND,16059,186,0.52,9,53,13,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492154,Sudesh Tomar,IND,16059,160,0.44,10,53,13,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492155,Prem Dutt Semwal,IND,16059,134,0.37,11,53,13,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492156,Rampal Singh,PPID,16162,123,0.34,12,53,13,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492157,Mala Rajya Lakshmi Shah,BJP,16057,18366,42.2,1,53,14,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492158,Boby Panwar,IND,16059,17879,41.08,2,53,14,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492159,Jot Singh Gunsola,INC,16058,3757,8.63,3,53,14,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492160,Navneet Singh Gosain,raup,16074,1031,2.37,4,53,14,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492161,Nota,NOTA,16061,442,1.02,5,53,14,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492162,Brij Bhushan Karanwal,BRED,16160,421,0.97,6,53,14,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492163,Sardar Khan Pappu,IND,16059,358,0.82,7,53,14,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492164,Vepin Kumar Aggarwal,IND,16059,337,0.77,8,53,14,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492165,Nemchand,BSP,16062,279,0.64,9,53,14,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492166,Rampal Singh,PPID,16162,220,0.51,10,53,14,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492167,Sudesh Tomar,IND,16059,217,0.5,11,53,14,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492168,Prem Dutt Semwal,IND,16059,216,0.5,12,53,14,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492169,Boby Panwar,IND,16059,26983,47.82,1,53,15,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492170,Mala Rajya Lakshmi Shah,BJP,16057,14640,25.95,2,53,15,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492171,Jot Singh Gunsola,INC,16058,11336,20.09,3,53,15,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492172,Navneet Singh Gosain,raup,16074,868,1.54,4,53,15,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492173,Brij Bhushan Karanwal,BRED,16160,547,0.97,5,53,15,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492174,Nota,NOTA,16061,403,0.71,6,53,15,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492175,Nemchand,BSP,16062,372,0.66,7,53,15,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492176,Vepin Kumar Aggarwal,IND,16059,363,0.64,8,53,15,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492177,Sardar Khan Pappu,IND,16059,273,0.48,9,53,15,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492178,Rampal Singh,PPID,16162,220,0.39,10,53,15,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492179,Prem Dutt Semwal,IND,16059,218,0.39,11,53,15,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492180,Sudesh Tomar,IND,16059,201,0.36,12,53,15,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492181,Mala Rajya Lakshmi Shah,BJP,16057,44541,58.56,1,53,16,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492182,Jot Singh Gunsola,INC,16058,25342,33.32,2,53,16,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492183,Boby Panwar,IND,16059,4076,5.36,3,53,16,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492184,Nemchand,BSP,16062,609,0.8,4,53,16,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492185,Nota,NOTA,16061,439,0.58,5,53,16,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492186,Navneet Singh Gosain,raup,16074,414,0.54,6,53,16,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492187,Sardar Khan Pappu,IND,16059,151,0.2,7,53,16,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492188,Vepin Kumar Aggarwal,IND,16059,121,0.16,8,53,16,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492189,Sudesh Tomar,IND,16059,120,0.16,9,53,16,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492190,Brij Bhushan Karanwal,BRED,16160,105,0.14,10,53,16,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492191,Rampal Singh,PPID,16162,74,0.1,11,53,16,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492192,Prem Dutt Semwal,IND,16059,72,0.09,12,53,16,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492193,Mala Rajya Lakshmi Shah,BJP,16057,72125,60.53,1,53,17,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492194,Jot Singh Gunsola,INC,16058,38215,32.07,2,53,17,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492195,Boby Panwar,IND,16059,5421,4.55,3,53,17,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492196,Nota,NOTA,16061,854,0.72,4,53,17,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492197,Nemchand,BSP,16062,827,0.69,5,53,17,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492198,Navneet Singh Gosain,raup,16074,635,0.53,6,53,17,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492199,Sardar Khan Pappu,IND,16059,233,0.2,7,53,17,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492200,Sudesh Tomar,IND,16059,206,0.17,8,53,17,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492201,Vepin Kumar Aggarwal,IND,16059,196,0.16,9,53,17,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492202,Brij Bhushan Karanwal,BRED,16160,158,0.13,10,53,17,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492203,Rampal Singh,PPID,16162,157,0.13,11,53,17,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492204,Prem Dutt Semwal,IND,16059,134,0.11,12,53,17,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492205,Trivendra Singh Rawat,BJP,16057,69803,62.35,1,53,18,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492206,Virendra Rawat,INC,16058,38292,34.2,2,53,18,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492207,Nota,NOTA,16061,1025,0.92,3,53,18,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492208,Umesh Kumar Patrakar,IND,16059,887,0.79,4,53,18,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492209,Jamil Ahmad,BSP,16062,731,0.65,5,53,18,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492210,Mohan Singh Aswal,UKKD,16063,237,0.21,6,53,18,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492211,Balbir Singh Bhandari,UTRASMNTP,16164,231,0.21,7,53,18,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492212,Vijay Kumar,IND,16059,165,0.15,8,53,18,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492213,Pawan Kashyap,IND,16059,118,0.11,9,53,18,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492214,Karan Singh Saini Engineer,IND,16059,107,0.1,10,53,18,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492215,Lalit Kumar,PPID,16162,94,0.08,11,53,18,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492216,Ashish Dhyani,IND,16059,78,0.07,12,53,18,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492217,Akram Hussain,IND,16059,73,0.07,13,53,18,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492218,Suresh Pal,BRED,16160,70,0.06,14,53,18,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492219,Avnish Kumar,IND,16059,46,0.04,15,53,18,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492220,Mala Rajya Lakshmi Shah,BJP,16057,65407,64.74,1,53,19,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492221,Jot Singh Gunsola,INC,16058,24710,24.46,2,53,19,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492222,Boby Panwar,IND,16059,7990,7.91,3,53,19,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492223,Nota,NOTA,16061,955,0.95,4,53,19,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492224,Nemchand,BSP,16062,800,0.79,5,53,19,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492225,Navneet Singh Gosain,raup,16074,425,0.42,6,53,19,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492226,Rampal Singh,PPID,16162,233,0.23,7,53,19,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492228,Sardar Khan Pappu,IND,16059,108,0.11,8,53,19,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492227,Vepin Kumar Aggarwal,IND,16059,108,0.11,8,53,19,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492229,Sudesh Tomar,IND,16059,101,0.1,10,53,19,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492230,Prem Dutt Semwal,IND,16059,98,0.1,11,53,19,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492231,Brij Bhushan Karanwal,BRED,16160,92,0.09,12,53,19,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492232,Mala Rajya Lakshmi Shah,BJP,16057,40178,65.96,1,53,20,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492233,Jot Singh Gunsola,INC,16058,17237,28.3,2,53,20,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492234,Boby Panwar,IND,16059,1909,3.13,3,53,20,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492235,Nota,NOTA,16061,588,0.97,4,53,20,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492236,Nemchand,BSP,16062,445,0.73,5,53,20,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492237,Navneet Singh Gosain,raup,16074,211,0.35,6,53,20,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492238,Rampal Singh,PPID,16162,80,0.13,7,53,20,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492240,Sardar Khan Pappu,IND,16059,59,0.1,8,53,20,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492239,Vepin Kumar Aggarwal,IND,16059,59,0.1,8,53,20,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492241,Sudesh Tomar,IND,16059,54,0.09,10,53,20,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492242,Prem Dutt Semwal,IND,16059,49,0.08,11,53,20,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492243,Brij Bhushan Karanwal,BRED,16160,48,0.08,12,53,20,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492244,Mala Rajya Lakshmi Shah,BJP,16057,49270,70.02,1,53,21,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492245,Jot Singh Gunsola,INC,16058,17078,24.27,2,53,21,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492246,Boby Panwar,IND,16059,2512,3.57,3,53,21,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492247,Nota,NOTA,16061,615,0.87,4,53,21,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492248,Nemchand,BSP,16062,391,0.56,5,53,21,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492249,Navneet Singh Gosain,raup,16074,172,0.24,6,53,21,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492250,Brij Bhushan Karanwal,BRED,16160,61,0.09,7,53,21,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492251,Rampal Singh,PPID,16162,59,0.08,8,53,21,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492253,Sudesh Tomar,IND,16059,54,0.08,9,53,21,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492252,Sardar Khan Pappu,IND,16059,54,0.08,9,53,21,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492254,Prem Dutt Semwal,IND,16059,49,0.07,11,53,21,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492255,Vepin Kumar Aggarwal,IND,16059,48,0.07,12,53,21,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492256,Mala Rajya Lakshmi Shah,BJP,16057,45749,62.73,1,53,22,UK,Mala Rajya Lakshmi Shah,BJP,,,,,True,53,2024,GE
+1492257,Jot Singh Gunsola,INC,16058,20592,28.23,2,53,22,UK,Jot Singh Gunsola,INC,,,,,False,53,2024,GE
+1492258,Boby Panwar,IND,16059,4695,6.44,3,53,22,UK,Boby Panwar,IND,,,,,False,53,2024,GE
+1492259,Nota,NOTA,16061,627,0.86,4,53,22,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492260,Nemchand,BSP,16062,448,0.61,5,53,22,UK,Nemchand,BSP,,,,,False,53,2024,GE
+1492261,Navneet Singh Gosain,raup,16074,371,0.51,6,53,22,UK,Navneet Singh Gosain,raup,,,,,False,53,2024,GE
+1492262,Rampal Singh,PPID,16162,81,0.11,7,53,22,UK,Rampal Singh,PPID,,,,,False,53,2024,GE
+1492264,Sardar Khan Pappu,IND,16059,79,0.11,8,53,22,UK,Sardar Khan Pappu,IND,,,,,False,53,2024,GE
+1492263,Vepin Kumar Aggarwal,IND,16059,79,0.11,8,53,22,UK,Vepin Kumar Aggarwal,IND,,,,,False,53,2024,GE
+1492265,Sudesh Tomar,IND,16059,77,0.11,10,53,22,UK,Sudesh Tomar,IND,,,,,False,53,2024,GE
+1492266,Brij Bhushan Karanwal,BRED,16160,75,0.1,11,53,22,UK,Brij Bhushan Karanwal,BRED,,,,,False,53,2024,GE
+1492267,Prem Dutt Semwal,IND,16059,62,0.09,12,53,22,UK,Prem Dutt Semwal,IND,,,,,False,53,2024,GE
+1492268,Trivendra Singh Rawat,BJP,16057,74693,70.28,1,53,23,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492269,Virendra Rawat,INC,16058,25132,23.65,2,53,23,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492270,Umesh Kumar Patrakar,IND,16059,3083,2.9,3,53,23,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492271,Nota,NOTA,16061,1150,1.08,4,53,23,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492272,Jamil Ahmad,BSP,16062,575,0.54,5,53,23,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492273,Mohan Singh Aswal,UKKD,16063,361,0.34,6,53,23,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492274,Vijay Kumar,IND,16059,331,0.31,7,53,23,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492275,Balbir Singh Bhandari,UTRASMNTP,16164,247,0.23,8,53,23,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492276,Pawan Kashyap,IND,16059,171,0.16,9,53,23,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492277,Akram Hussain,IND,16059,115,0.11,10,53,23,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492278,Karan Singh Saini Engineer,IND,16059,108,0.1,11,53,23,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492279,Ashish Dhyani,IND,16059,88,0.08,12,53,23,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492280,Suresh Pal,BRED,16160,81,0.08,13,53,23,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492282,Avnish Kumar,IND,16059,71,0.07,14,53,23,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492281,Lalit Kumar,PPID,16162,71,0.07,14,53,23,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492283,Trivendra Singh Rawat,BJP,16057,67383,73.31,1,53,24,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492284,Virendra Rawat,INC,16058,15133,16.46,2,53,24,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492285,Umesh Kumar Patrakar,IND,16059,5843,6.36,3,53,24,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492286,Nota,NOTA,16061,931,1.01,4,53,24,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492287,Mohan Singh Aswal,UKKD,16063,739,0.8,5,53,24,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492288,Jamil Ahmad,BSP,16062,714,0.78,6,53,24,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492289,Vijay Kumar,IND,16059,270,0.29,7,53,24,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492290,Balbir Singh Bhandari,UTRASMNTP,16164,175,0.19,8,53,24,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492291,Pawan Kashyap,IND,16059,167,0.18,9,53,24,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492292,Karan Singh Saini Engineer,IND,16059,130,0.14,10,53,24,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492293,Akram Hussain,IND,16059,117,0.13,11,53,24,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492294,Avnish Kumar,IND,16059,82,0.09,12,53,24,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492295,Ashish Dhyani,IND,16059,81,0.09,13,53,24,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492296,Suresh Pal,BRED,16160,79,0.09,14,53,24,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492297,Lalit Kumar,PPID,16162,69,0.08,15,53,24,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492298,Trivendra Singh Rawat,BJP,16057,60936,70.97,1,53,25,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492299,Virendra Rawat,INC,16058,18988,22.11,2,53,25,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492300,Umesh Kumar Patrakar,IND,16059,3525,4.11,3,53,25,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492301,Jamil Ahmad,BSP,16062,1134,1.32,4,53,25,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492302,Nota,NOTA,16061,487,0.57,5,53,25,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492303,Vijay Kumar,IND,16059,124,0.14,6,53,25,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492304,Balbir Singh Bhandari,UTRASMNTP,16164,119,0.14,7,53,25,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492305,Mohan Singh Aswal,UKKD,16063,118,0.14,8,53,25,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492306,Pawan Kashyap,IND,16059,93,0.11,9,53,25,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492308,Karan Singh Saini Engineer,IND,16059,75,0.09,10,53,25,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492307,Akram Hussain,IND,16059,75,0.09,10,53,25,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492309,Suresh Pal,BRED,16160,64,0.07,12,53,25,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492310,Ashish Dhyani,IND,16059,45,0.05,13,53,25,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492311,Avnish Kumar,IND,16059,42,0.05,14,53,25,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492312,Lalit Kumar,PPID,16162,41,0.05,15,53,25,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492313,Trivendra Singh Rawat,BJP,16057,62739,58.56,1,53,26,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492314,Virendra Rawat,INC,16058,34019,31.76,2,53,26,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492315,Umesh Kumar Patrakar,IND,16059,6157,5.75,3,53,26,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492316,Jamil Ahmad,BSP,16062,2583,2.41,4,53,26,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492317,Nota,NOTA,16061,514,0.48,5,53,26,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492318,Balbir Singh Bhandari,UTRASMNTP,16164,184,0.17,6,53,26,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492319,Karan Singh Saini Engineer,IND,16059,142,0.13,7,53,26,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492320,Vijay Kumar,IND,16059,134,0.13,8,53,26,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492321,Pawan Kashyap,IND,16059,126,0.12,9,53,26,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492322,Mohan Singh Aswal,UKKD,16063,122,0.11,10,53,26,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492323,Suresh Pal,BRED,16160,113,0.11,11,53,26,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492324,Lalit Kumar,PPID,16162,98,0.09,12,53,26,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492325,Akram Hussain,IND,16059,83,0.08,13,53,26,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492326,Avnish Kumar,IND,16059,57,0.05,14,53,26,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492327,Ashish Dhyani,IND,16059,57,0.05,14,53,26,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492328,Virendra Rawat,INC,16058,42979,48.34,1,53,27,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492329,Trivendra Singh Rawat,BJP,16057,33369,37.53,2,53,27,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492330,Umesh Kumar Patrakar,IND,16059,6129,6.89,3,53,27,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492331,Jamil Ahmad,BSP,16062,4484,5.04,4,53,27,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492332,Nota,NOTA,16061,306,0.34,5,53,27,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492333,Balbir Singh Bhandari,UTRASMNTP,16164,288,0.32,6,53,27,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492334,Pawan Kashyap,IND,16059,236,0.27,7,53,27,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492335,Karan Singh Saini Engineer,IND,16059,195,0.22,8,53,27,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492336,Akram Hussain,IND,16059,191,0.21,9,53,27,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492337,Mohan Singh Aswal,UKKD,16063,182,0.2,10,53,27,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492338,Vijay Kumar,IND,16059,177,0.2,11,53,27,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492339,Suresh Pal,BRED,16160,101,0.11,12,53,27,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492340,Avnish Kumar,IND,16059,97,0.11,13,53,27,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492341,Lalit Kumar,PPID,16162,88,0.1,14,53,27,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492342,Ashish Dhyani,IND,16059,87,0.1,15,53,27,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492343,Virendra Rawat,INC,16058,44209,47.97,1,53,28,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492344,Trivendra Singh Rawat,BJP,16057,34646,37.59,2,53,28,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492345,Umesh Kumar Patrakar,IND,16059,6701,7.27,3,53,28,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492346,Jamil Ahmad,BSP,16062,4966,5.39,4,53,28,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492347,Nota,NOTA,16061,274,0.3,5,53,28,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492348,Balbir Singh Bhandari,UTRASMNTP,16164,223,0.24,6,53,28,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492349,Vijay Kumar,IND,16059,201,0.22,7,53,28,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492350,Mohan Singh Aswal,UKKD,16063,165,0.18,8,53,28,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492351,Pawan Kashyap,IND,16059,158,0.17,9,53,28,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492352,Karan Singh Saini Engineer,IND,16059,154,0.17,10,53,28,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492353,Akram Hussain,IND,16059,139,0.15,11,53,28,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492354,Lalit Kumar,PPID,16162,102,0.11,12,53,28,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492355,Ashish Dhyani,IND,16059,88,0.1,13,53,28,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492356,Avnish Kumar,IND,16059,69,0.07,14,53,28,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492357,Suresh Pal,BRED,16160,63,0.07,15,53,28,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492358,Virendra Rawat,INC,16058,35896,41.37,1,53,29,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492359,Trivendra Singh Rawat,BJP,16057,31632,36.45,2,53,29,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492360,Umesh Kumar Patrakar,IND,16059,12269,14.14,3,53,29,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492361,Jamil Ahmad,BSP,16062,5286,6.09,4,53,29,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492362,Lalit Kumar,PPID,16162,347,0.4,5,53,29,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492363,Nota,NOTA,16061,232,0.27,6,53,29,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492364,Balbir Singh Bhandari,UTRASMNTP,16164,170,0.2,7,53,29,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492365,Karan Singh Saini Engineer,IND,16059,154,0.18,8,53,29,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492366,Vijay Kumar,IND,16059,139,0.16,9,53,29,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492367,Pawan Kashyap,IND,16059,132,0.15,10,53,29,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492368,Mohan Singh Aswal,UKKD,16063,130,0.15,11,53,29,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492369,Akram Hussain,IND,16059,122,0.14,12,53,29,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492370,Suresh Pal,BRED,16160,101,0.12,13,53,29,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492371,Ashish Dhyani,IND,16059,99,0.11,14,53,29,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492372,Avnish Kumar,IND,16059,67,0.08,15,53,29,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492373,Virendra Rawat,INC,16058,49179,52.6,1,53,30,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492374,Trivendra Singh Rawat,BJP,16057,30989,33.14,2,53,30,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492375,Umesh Kumar Patrakar,IND,16059,7890,8.44,3,53,30,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492376,Jamil Ahmad,BSP,16062,3831,4.1,4,53,30,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492377,Balbir Singh Bhandari,UTRASMNTP,16164,267,0.29,5,53,30,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492378,Nota,NOTA,16061,256,0.27,6,53,30,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492379,Vijay Kumar,IND,16059,171,0.18,7,53,30,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492380,Pawan Kashyap,IND,16059,164,0.18,8,53,30,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492381,Karan Singh Saini Engineer,IND,16059,162,0.17,9,53,30,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492382,Akram Hussain,IND,16059,135,0.14,10,53,30,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492383,Mohan Singh Aswal,UKKD,16063,131,0.14,11,53,30,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492384,Lalit Kumar,PPID,16162,103,0.11,12,53,30,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492385,Suresh Pal,BRED,16160,94,0.1,13,53,30,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492386,Ashish Dhyani,IND,16059,75,0.08,14,53,30,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492387,Avnish Kumar,IND,16059,55,0.06,15,53,30,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492388,Trivendra Singh Rawat,BJP,16057,37035,52.53,1,53,31,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492389,Virendra Rawat,INC,16058,26841,38.07,2,53,31,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492390,Umesh Kumar Patrakar,IND,16059,5015,7.11,3,53,31,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492391,Jamil Ahmad,BSP,16062,887,1.26,4,53,31,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492392,Nota,NOTA,16061,285,0.4,5,53,31,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492393,Balbir Singh Bhandari,UTRASMNTP,16164,78,0.11,6,53,31,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492394,Akram Hussain,IND,16059,52,0.07,7,53,31,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492395,Vijay Kumar,IND,16059,51,0.07,8,53,31,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492396,Lalit Kumar,PPID,16162,49,0.07,9,53,31,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492397,Karan Singh Saini Engineer,IND,16059,49,0.07,9,53,31,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492398,Mohan Singh Aswal,UKKD,16063,47,0.07,11,53,31,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492399,Pawan Kashyap,IND,16059,38,0.05,12,53,31,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492400,Suresh Pal,BRED,16160,36,0.05,13,53,31,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492401,Avnish Kumar,IND,16059,23,0.03,14,53,31,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492402,Ashish Dhyani,IND,16059,17,0.02,15,53,31,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492403,Trivendra Singh Rawat,BJP,16057,46252,43.97,1,53,32,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492404,Virendra Rawat,INC,16058,36755,34.94,2,53,32,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492405,Umesh Kumar Patrakar,IND,16059,16184,15.39,3,53,32,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492406,Jamil Ahmad,BSP,16062,4225,4.02,4,53,32,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492407,Nota,NOTA,16061,311,0.3,5,53,32,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492408,Balbir Singh Bhandari,UTRASMNTP,16164,234,0.22,6,53,32,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492409,Pawan Kashyap,IND,16059,195,0.19,7,53,32,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492410,Karan Singh Saini Engineer,IND,16059,173,0.16,8,53,32,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492411,Mohan Singh Aswal,UKKD,16063,171,0.16,9,53,32,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492412,Vijay Kumar,IND,16059,158,0.15,10,53,32,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492413,Akram Hussain,IND,16059,137,0.13,11,53,32,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492414,Ashish Dhyani,IND,16059,133,0.13,12,53,32,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492415,Lalit Kumar,PPID,16162,98,0.09,13,53,32,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492416,Suresh Pal,BRED,16160,90,0.09,14,53,32,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492417,Avnish Kumar,IND,16059,66,0.06,15,53,32,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492418,Virendra Rawat,INC,16058,44101,57.37,1,53,33,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492419,Trivendra Singh Rawat,BJP,16057,21100,27.45,2,53,33,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492420,Jamil Ahmad,BSP,16062,5507,7.16,3,53,33,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492421,Umesh Kumar Patrakar,IND,16059,4816,6.27,4,53,33,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492422,Balbir Singh Bhandari,UTRASMNTP,16164,231,0.3,5,53,33,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492423,Nota,NOTA,16061,223,0.29,6,53,33,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492424,Pawan Kashyap,IND,16059,144,0.19,7,53,33,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492425,Akram Hussain,IND,16059,141,0.18,8,53,33,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492426,Karan Singh Saini Engineer,IND,16059,131,0.17,9,53,33,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492427,Vijay Kumar,IND,16059,99,0.13,10,53,33,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492428,Suresh Pal,BRED,16160,91,0.12,11,53,33,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492429,Lalit Kumar,PPID,16162,83,0.11,12,53,33,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492430,Mohan Singh Aswal,UKKD,16063,81,0.11,13,53,33,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492431,Ashish Dhyani,IND,16059,62,0.08,14,53,33,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492432,Avnish Kumar,IND,16059,58,0.08,15,53,33,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492433,Virendra Rawat,INC,16058,33407,44.28,1,53,34,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492434,Trivendra Singh Rawat,BJP,16057,30595,40.56,2,53,34,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492435,Umesh Kumar Patrakar,IND,16059,5732,7.6,3,53,34,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492436,Jamil Ahmad,BSP,16062,4479,5.94,4,53,34,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492437,Nota,NOTA,16061,230,0.3,5,53,34,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492438,Balbir Singh Bhandari,UTRASMNTP,16164,173,0.23,6,53,34,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492440,Pawan Kashyap,IND,16059,136,0.18,7,53,34,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492439,Karan Singh Saini Engineer,IND,16059,136,0.18,7,53,34,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492441,Akram Hussain,IND,16059,120,0.16,9,53,34,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492442,Vijay Kumar,IND,16059,114,0.15,10,53,34,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492443,Mohan Singh Aswal,UKKD,16063,105,0.14,11,53,34,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492444,Suresh Pal,BRED,16160,62,0.08,12,53,34,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492445,Ashish Dhyani,IND,16059,61,0.08,13,53,34,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492446,Lalit Kumar,PPID,16162,55,0.07,14,53,34,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492447,Avnish Kumar,IND,16059,33,0.04,15,53,34,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492448,Trivendra Singh Rawat,BJP,16057,47326,46.97,1,53,35,UK,Trivendra Singh Rawat,BJP,,,,,True,53,2024,GE
+1492449,Virendra Rawat,INC,16058,42475,42.16,2,53,35,UK,Virendra Rawat,INC,,,,,False,53,2024,GE
+1492450,Umesh Kumar Patrakar,IND,16059,5760,5.72,3,53,35,UK,Umesh Kumar Patrakar,IND,,,,,False,53,2024,GE
+1492451,Jamil Ahmad,BSP,16062,2714,2.69,4,53,35,UK,Jamil Ahmad,BSP,,,,,False,53,2024,GE
+1492452,Nota,NOTA,16061,441,0.44,5,53,35,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492453,Balbir Singh Bhandari,UTRASMNTP,16164,323,0.32,6,53,35,UK,Balbir Singh Bhandari,UTRASMNTP,,,,,False,53,2024,GE
+1492454,Pawan Kashyap,IND,16059,292,0.29,7,53,35,UK,Pawan Kashyap,IND,,,,,False,53,2024,GE
+1492455,Vijay Kumar,IND,16059,273,0.27,8,53,35,UK,Vijay Kumar,IND,,,,,False,53,2024,GE
+1492456,Karan Singh Saini Engineer,IND,16059,247,0.25,9,53,35,UK,Karan Singh Saini Engineer,IND,,,,,False,53,2024,GE
+1492457,Mohan Singh Aswal,UKKD,16063,220,0.22,10,53,35,UK,Mohan Singh Aswal,UKKD,,,,,False,53,2024,GE
+1492458,Avnish Kumar,IND,16059,201,0.2,11,53,35,UK,Avnish Kumar,IND,,,,,False,53,2024,GE
+1492459,Akram Hussain,IND,16059,178,0.18,12,53,35,UK,Akram Hussain,IND,,,,,False,53,2024,GE
+1492460,Suresh Pal,BRED,16160,105,0.1,13,53,35,UK,Suresh Pal,BRED,,,,,False,53,2024,GE
+1492461,Ashish Dhyani,IND,16059,103,0.1,14,53,35,UK,Ashish Dhyani,IND,,,,,False,53,2024,GE
+1492462,Lalit Kumar,PPID,16162,98,0.1,15,53,35,UK,Lalit Kumar,PPID,,,,,False,53,2024,GE
+1492463,Anil Baluni,BJP,16057,25654,64.0,1,53,36,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492464,Ganesh Godiyal,INC,16058,12276,30.62,2,53,36,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492465,Nota,NOTA,16061,674,1.68,3,53,36,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492466,Ashutosh Singh,UKKD,16063,512,1.28,4,53,36,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492467,Sonu Kumar,IND,16059,230,0.57,5,53,36,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492468,Dheer Singh,BSP,16062,159,0.4,6,53,36,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492469,Mukesh Prakash,IND,16059,144,0.36,7,53,36,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492470,Arjun Singh,AKBRPRVP,16163,92,0.23,8,53,36,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492471,Sureshi Devi,PPID,16162,84,0.21,9,53,36,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492472,Dr Mukesh Pant,SaSP,16097,70,0.17,10,53,36,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492473,Deependra Singh Negi,IND,16059,67,0.17,11,53,36,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492474,Vinod Kumar Sharma,UTRASMNTP,16164,50,0.12,12,53,36,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492475,Shyamlal,BMUP,16098,44,0.11,13,53,36,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492476,Reshma Panwar,SUCI,16165,29,0.07,14,53,36,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492477,Anil Baluni,BJP,16057,22707,51.11,1,53,37,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492478,Ganesh Godiyal,INC,16058,19499,43.89,2,53,37,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492479,Nota,NOTA,16061,671,1.51,3,53,37,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492480,Sonu Kumar,IND,16059,387,0.87,4,53,37,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492481,Ashutosh Singh,UKKD,16063,353,0.79,5,53,37,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492482,Dheer Singh,BSP,16062,186,0.42,6,53,37,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492483,Mukesh Prakash,IND,16059,185,0.42,7,53,37,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492484,Sureshi Devi,PPID,16162,93,0.21,8,53,37,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492485,Deependra Singh Negi,IND,16059,89,0.2,9,53,37,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492486,Arjun Singh,AKBRPRVP,16163,65,0.15,10,53,37,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492487,Dr Mukesh Pant,SaSP,16097,61,0.14,11,53,37,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492488,Vinod Kumar Sharma,UTRASMNTP,16164,52,0.12,12,53,37,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492489,Reshma Panwar,SUCI,16165,48,0.11,13,53,37,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492490,Shyamlal,BMUP,16098,34,0.08,14,53,37,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492491,Anil Baluni,BJP,16057,28484,48.42,1,53,38,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492492,Ganesh Godiyal,INC,16058,27786,47.24,2,53,38,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492493,Nota,NOTA,16061,905,1.54,3,53,38,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492494,Sonu Kumar,IND,16059,621,1.06,4,53,38,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492495,Mukesh Prakash,IND,16059,277,0.47,5,53,38,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492496,Dheer Singh,BSP,16062,212,0.36,6,53,38,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492497,Ashutosh Singh,UKKD,16063,163,0.28,7,53,38,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492498,Sureshi Devi,PPID,16162,86,0.15,8,53,38,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492499,Deependra Singh Negi,IND,16059,79,0.13,9,53,38,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492500,Reshma Panwar,SUCI,16165,73,0.12,10,53,38,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492501,Arjun Singh,AKBRPRVP,16163,47,0.08,11,53,38,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492502,Shyamlal,BMUP,16098,33,0.06,12,53,38,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492503,Dr Mukesh Pant,SaSP,16097,31,0.05,13,53,38,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492504,Vinod Kumar Sharma,UTRASMNTP,16164,28,0.05,14,53,38,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492505,Anil Baluni,BJP,16057,20688,56.88,1,53,39,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492506,Ganesh Godiyal,INC,16058,13621,37.45,2,53,39,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492507,Nota,NOTA,16061,766,2.11,3,53,39,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492508,Sonu Kumar,IND,16059,402,1.11,4,53,39,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492509,Dheer Singh,BSP,16062,180,0.49,5,53,39,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492510,Mukesh Prakash,IND,16059,165,0.45,6,53,39,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492511,Ashutosh Singh,UKKD,16063,163,0.45,7,53,39,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492512,Arjun Singh,AKBRPRVP,16163,82,0.23,8,53,39,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492513,Sureshi Devi,PPID,16162,81,0.22,9,53,39,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492514,Deependra Singh Negi,IND,16059,73,0.2,10,53,39,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492515,Reshma Panwar,SUCI,16165,42,0.12,11,53,39,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492516,Dr Mukesh Pant,SaSP,16097,41,0.11,12,53,39,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492517,Vinod Kumar Sharma,UTRASMNTP,16164,37,0.1,13,53,39,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492518,Shyamlal,BMUP,16098,30,0.08,14,53,39,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492519,Anil Baluni,BJP,16057,21237,63.53,1,53,40,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492520,Ganesh Godiyal,INC,16058,10301,30.82,2,53,40,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492521,Nota,NOTA,16061,606,1.81,3,53,40,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492522,Sonu Kumar,IND,16059,287,0.86,4,53,40,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492523,Ashutosh Singh,UKKD,16063,237,0.71,5,53,40,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492524,Mukesh Prakash,IND,16059,203,0.61,6,53,40,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492525,Dheer Singh,BSP,16062,148,0.44,7,53,40,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492526,Arjun Singh,AKBRPRVP,16163,83,0.25,8,53,40,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492527,Deependra Singh Negi,IND,16059,83,0.25,8,53,40,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492528,Sureshi Devi,PPID,16162,78,0.23,10,53,40,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492529,Dr Mukesh Pant,SaSP,16097,61,0.18,11,53,40,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492530,Shyamlal,BMUP,16098,42,0.13,12,53,40,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492531,Reshma Panwar,SUCI,16165,31,0.09,13,53,40,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492532,Vinod Kumar Sharma,UTRASMNTP,16164,31,0.09,13,53,40,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492533,Anil Baluni,BJP,16057,43190,61.96,1,53,41,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492534,Ganesh Godiyal,INC,16058,24344,34.92,2,53,41,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492535,Nota,NOTA,16061,620,0.89,3,53,41,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492536,Ashutosh Singh,UKKD,16063,397,0.57,4,53,41,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492537,Dheer Singh,BSP,16062,306,0.44,5,53,41,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492538,Sonu Kumar,IND,16059,183,0.26,6,53,41,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492539,Arjun Singh,AKBRPRVP,16163,150,0.22,7,53,41,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492540,Mukesh Prakash,IND,16059,122,0.18,8,53,41,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492541,Vinod Kumar Sharma,UTRASMNTP,16164,97,0.14,9,53,41,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492544,Sureshi Devi,PPID,16162,65,0.09,10,53,41,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492543,Shyamlal,BMUP,16098,65,0.09,10,53,41,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492542,Dr Mukesh Pant,SaSP,16097,65,0.09,10,53,41,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492545,Deependra Singh Negi,IND,16059,59,0.08,13,53,41,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492546,Reshma Panwar,SUCI,16165,46,0.07,14,53,41,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492547,Ajay Tamta,BJP,16057,26512,62.58,1,53,42,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492548,Pradeep Tamta,INC,16058,13415,31.66,2,53,42,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492549,Nota,NOTA,16061,899,2.12,3,53,42,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492550,Narayan Ram,BSP,16062,561,1.32,4,53,42,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492551,Kiran Arya,UPP,16166,314,0.74,5,53,42,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492552,Dr Pramod Kumar,PPID,16162,303,0.72,6,53,42,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492553,Arjun Prasad,IND,16059,250,0.59,7,53,42,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492554,Er Jyoti Prakash Tamta,BMUP,16098,113,0.27,8,53,42,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492555,Ajay Tamta,BJP,16057,25910,66.0,1,53,43,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492556,Pradeep Tamta,INC,16058,11170,28.45,2,53,43,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492557,Nota,NOTA,16061,899,2.29,3,53,43,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492558,Narayan Ram,BSP,16062,478,1.22,4,53,43,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492559,Kiran Arya,UPP,16166,242,0.62,5,53,43,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492560,Arjun Prasad,IND,16059,237,0.6,6,53,43,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492561,Dr Pramod Kumar,PPID,16162,197,0.5,7,53,43,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492562,Er Jyoti Prakash Tamta,BMUP,16098,125,0.32,8,53,43,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492563,Ajay Tamta,BJP,16057,34336,63.4,1,53,44,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492564,Pradeep Tamta,INC,16058,16862,31.14,2,53,44,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492565,Nota,NOTA,16061,1279,2.36,3,53,44,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492566,Arjun Prasad,IND,16059,590,1.09,4,53,44,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492567,Narayan Ram,BSP,16062,517,0.95,5,53,44,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492568,Kiran Arya,UPP,16166,292,0.54,6,53,44,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492569,Dr Pramod Kumar,PPID,16162,175,0.32,7,53,44,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492570,Er Jyoti Prakash Tamta,BMUP,16098,106,0.2,8,53,44,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492571,Ajay Tamta,BJP,16057,28521,59.66,1,53,45,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492572,Pradeep Tamta,INC,16058,15840,33.14,2,53,45,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492573,Nota,NOTA,16061,1249,2.61,3,53,45,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492574,Narayan Ram,BSP,16062,735,1.54,4,53,45,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492575,Kiran Arya,UPP,16166,499,1.04,5,53,45,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492576,Arjun Prasad,IND,16059,421,0.88,6,53,45,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492577,Dr Pramod Kumar,PPID,16162,354,0.74,7,53,45,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492578,Er Jyoti Prakash Tamta,BMUP,16098,184,0.38,8,53,45,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492579,Ajay Tamta,BJP,16057,34642,64.84,1,53,46,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492580,Pradeep Tamta,INC,16058,15080,28.23,2,53,46,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492581,Nota,NOTA,16061,1258,2.35,3,53,46,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492582,Narayan Ram,BSP,16062,971,1.82,4,53,46,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492583,Kiran Arya,UPP,16166,600,1.12,5,53,46,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492584,Arjun Prasad,IND,16059,361,0.68,6,53,46,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492585,Dr Pramod Kumar,PPID,16162,331,0.62,7,53,46,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492586,Er Jyoti Prakash Tamta,BMUP,16098,180,0.34,8,53,46,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492587,Ajay Tamta,BJP,16057,41056,63.29,1,53,47,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492588,Pradeep Tamta,INC,16058,19777,30.49,2,53,47,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492589,Nota,NOTA,16061,1570,2.42,3,53,47,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492590,Narayan Ram,BSP,16062,966,1.49,4,53,47,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492591,Kiran Arya,UPP,16166,576,0.89,5,53,47,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492592,Arjun Prasad,IND,16059,392,0.6,6,53,47,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492593,Dr Pramod Kumar,PPID,16162,333,0.51,7,53,47,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492594,Er Jyoti Prakash Tamta,BMUP,16098,203,0.31,8,53,47,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492595,Ajay Tamta,BJP,16057,28463,67.22,1,53,48,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492596,Pradeep Tamta,INC,16058,10312,24.35,2,53,48,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492597,Nota,NOTA,16061,1413,3.34,3,53,48,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492598,Narayan Ram,BSP,16062,673,1.59,4,53,48,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492599,Dr Pramod Kumar,PPID,16162,567,1.34,5,53,48,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492600,Kiran Arya,UPP,16166,432,1.02,6,53,48,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492601,Arjun Prasad,IND,16059,297,0.7,7,53,48,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492602,Er Jyoti Prakash Tamta,BMUP,16098,188,0.44,8,53,48,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492603,Ajay Tamta,BJP,16057,23549,70.35,1,53,49,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492604,Pradeep Tamta,INC,16058,7450,22.25,2,53,49,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492605,Nota,NOTA,16061,954,2.85,3,53,49,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492606,Narayan Ram,BSP,16062,604,1.8,4,53,49,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492607,Arjun Prasad,IND,16059,287,0.86,5,53,49,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492608,Kiran Arya,UPP,16166,258,0.77,6,53,49,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492609,Dr Pramod Kumar,PPID,16162,258,0.77,6,53,49,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492610,Er Jyoti Prakash Tamta,BMUP,16098,116,0.35,8,53,49,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492611,Ajay Tamta,BJP,16057,20612,59.39,1,53,50,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492612,Pradeep Tamta,INC,16058,11596,33.41,2,53,50,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492613,Nota,NOTA,16061,1028,2.96,3,53,50,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492614,Narayan Ram,BSP,16062,610,1.76,4,53,50,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492615,Kiran Arya,UPP,16166,273,0.79,5,53,50,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492616,Dr Pramod Kumar,PPID,16162,257,0.74,6,53,50,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492617,Arjun Prasad,IND,16059,202,0.58,7,53,50,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492618,Er Jyoti Prakash Tamta,BMUP,16098,128,0.37,8,53,50,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492619,Ajay Tamta,BJP,16057,24664,56.57,1,53,51,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492620,Pradeep Tamta,INC,16058,15413,35.35,2,53,51,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492621,Nota,NOTA,16061,1278,2.93,3,53,51,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492622,Narayan Ram,BSP,16062,757,1.74,4,53,51,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492623,Kiran Arya,UPP,16166,544,1.25,5,53,51,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492624,Dr Pramod Kumar,PPID,16162,420,0.96,6,53,51,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492625,Arjun Prasad,IND,16059,353,0.81,7,53,51,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492626,Er Jyoti Prakash Tamta,BMUP,16098,172,0.39,8,53,51,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492627,Ajay Tamta,BJP,16057,27099,57.65,1,53,52,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492628,Pradeep Tamta,INC,16058,17148,36.48,2,53,52,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492629,Nota,NOTA,16061,1103,2.35,3,53,52,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492630,Narayan Ram,BSP,16062,555,1.18,4,53,52,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492631,Kiran Arya,UPP,16166,441,0.94,5,53,52,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492632,Dr Pramod Kumar,PPID,16162,295,0.63,6,53,52,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492633,Arjun Prasad,IND,16059,211,0.45,7,53,52,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492634,Er Jyoti Prakash Tamta,BMUP,16098,154,0.33,8,53,52,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492635,Ajay Tamta,BJP,16057,26431,60.79,1,53,53,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492636,Pradeep Tamta,INC,16058,13417,30.86,2,53,53,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492637,Nota,NOTA,16061,1214,2.79,3,53,53,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492638,Narayan Ram,BSP,16062,942,2.17,4,53,53,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492639,Kiran Arya,UPP,16166,493,1.13,5,53,53,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492640,Dr Pramod Kumar,PPID,16162,400,0.92,6,53,53,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492641,Arjun Prasad,IND,16059,386,0.89,7,53,53,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492642,Er Jyoti Prakash Tamta,BMUP,16098,195,0.45,8,53,53,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492643,Ajay Tamta,BJP,16057,36206,71.77,1,53,54,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492644,Pradeep Tamta,INC,16058,10892,21.59,2,53,54,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492645,Nota,NOTA,16061,1349,2.67,3,53,54,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492646,Narayan Ram,BSP,16062,796,1.58,4,53,54,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492647,Arjun Prasad,IND,16059,381,0.76,5,53,54,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492648,Kiran Arya,UPP,16166,332,0.66,6,53,54,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492649,Dr Pramod Kumar,PPID,16162,304,0.6,7,53,54,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492650,Er Jyoti Prakash Tamta,BMUP,16098,189,0.37,8,53,54,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492651,Ajay Tamta,BJP,16057,39534,71.27,1,53,55,UK,Ajay Tamta,BJP,,,,,True,53,2024,GE
+1492652,Pradeep Tamta,INC,16058,13270,23.92,2,53,55,UK,Pradeep Tamta,INC,,,,,False,53,2024,GE
+1492653,Nota,NOTA,16061,1204,2.17,3,53,55,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492654,Narayan Ram,BSP,16062,675,1.22,4,53,55,UK,Narayan Ram,BSP,,,,,False,53,2024,GE
+1492655,Kiran Arya,UPP,16166,232,0.42,5,53,55,UK,Kiran Arya,UPP,,,,,False,53,2024,GE
+1492656,Arjun Prasad,IND,16059,223,0.4,6,53,55,UK,Arjun Prasad,IND,,,,,False,53,2024,GE
+1492657,Dr Pramod Kumar,PPID,16162,207,0.37,7,53,55,UK,Dr Pramod Kumar,PPID,,,,,False,53,2024,GE
+1492658,Er Jyoti Prakash Tamta,BMUP,16098,125,0.23,8,53,55,UK,Er Jyoti Prakash Tamta,BMUP,,,,,False,53,2024,GE
+1492659,Ajay Bhatt,BJP,16057,54351,70.22,1,53,56,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492660,Prakash Joshi,INC,16058,20128,26.0,2,53,56,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492661,Nota,NOTA,16061,876,1.13,3,53,56,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492662,Akhtar Ali,BSP,16062,580,0.75,4,53,56,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492663,Hitesh Pathak,IND,16059,352,0.45,5,53,56,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492664,Akhalesh Kumar,AKBRPRVP,16163,285,0.37,6,53,56,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492665,Ramesh Kumar Max,IND,16059,224,0.29,7,53,56,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492666,Amar Singh Saini,PPID,16162,199,0.26,8,53,56,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492667,Jeevan Chandra Upreti,BKLJP,16148,157,0.2,9,53,56,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492668,Shib Singh,UKKD,16063,134,0.17,10,53,56,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492669,Surendra Singh,BSCP,16158,120,0.16,11,53,56,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492670,Ajay Bhatt,BJP,16057,40541,69.51,1,53,57,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492671,Prakash Joshi,INC,16058,13636,23.38,2,53,57,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492672,Akhtar Ali,BSP,16062,1424,2.44,3,53,57,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492673,Nota,NOTA,16061,848,1.45,4,53,57,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492674,Hitesh Pathak,IND,16059,512,0.88,5,53,57,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492675,Akhalesh Kumar,AKBRPRVP,16163,324,0.56,6,53,57,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492676,Ramesh Kumar Max,IND,16059,292,0.5,7,53,57,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492677,Amar Singh Saini,PPID,16162,233,0.4,8,53,57,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492678,Surendra Singh,BSCP,16158,194,0.33,9,53,57,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492679,Jeevan Chandra Upreti,BKLJP,16148,162,0.28,10,53,57,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492680,Shib Singh,UKKD,16063,156,0.27,11,53,57,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492681,Ajay Bhatt,BJP,16057,34589,60.47,1,53,58,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492682,Prakash Joshi,INC,16058,19424,33.96,2,53,58,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492683,Nota,NOTA,16061,749,1.31,3,53,58,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492684,Akhtar Ali,BSP,16062,739,1.29,4,53,58,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492685,Hitesh Pathak,IND,16059,601,1.05,5,53,58,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492686,Akhalesh Kumar,AKBRPRVP,16163,268,0.47,6,53,58,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492687,Ramesh Kumar Max,IND,16059,231,0.4,7,53,58,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492688,Amar Singh Saini,PPID,16162,185,0.32,8,53,58,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492689,Jeevan Chandra Upreti,BKLJP,16148,155,0.27,9,53,58,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492690,Surendra Singh,BSCP,16158,138,0.24,10,53,58,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492691,Shib Singh,UKKD,16063,122,0.21,11,53,58,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492692,Ajay Bhatt,BJP,16057,45273,48.95,1,53,59,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492693,Prakash Joshi,INC,16058,44761,48.4,2,53,59,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492694,Nota,NOTA,16061,839,0.91,3,53,59,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492695,Akhtar Ali,BSP,16062,521,0.56,4,53,59,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492696,Akhalesh Kumar,AKBRPRVP,16163,343,0.37,5,53,59,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492697,Ramesh Kumar Max,IND,16059,175,0.19,6,53,59,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492698,Hitesh Pathak,IND,16059,170,0.18,7,53,59,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492699,Jeevan Chandra Upreti,BKLJP,16148,129,0.14,8,53,59,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492700,Amar Singh Saini,PPID,16162,127,0.14,9,53,59,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492701,Shib Singh,UKKD,16063,74,0.08,10,53,59,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492702,Surendra Singh,BSCP,16158,71,0.08,11,53,59,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492703,Ajay Bhatt,BJP,16057,81241,73.92,1,53,60,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492704,Prakash Joshi,INC,16058,24830,22.59,2,53,60,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492705,Nota,NOTA,16061,1399,1.27,3,53,60,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492706,Akhtar Ali,BSP,16062,908,0.83,4,53,60,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492707,Hitesh Pathak,IND,16059,340,0.31,5,53,60,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492708,Akhalesh Kumar,AKBRPRVP,16163,300,0.27,6,53,60,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492709,Amar Singh Saini,PPID,16162,223,0.2,7,53,60,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492710,Ramesh Kumar Max,IND,16059,211,0.19,8,53,60,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492711,Jeevan Chandra Upreti,BKLJP,16148,174,0.16,9,53,60,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492712,Shib Singh,UKKD,16063,154,0.14,10,53,60,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492713,Surendra Singh,BSCP,16158,125,0.11,11,53,60,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492714,Anil Baluni,BJP,16057,42813,55.61,1,53,61,UK,Anil Baluni,BJP,,,,,True,53,2024,GE
+1492715,Ganesh Godiyal,INC,16058,31544,40.97,2,53,61,UK,Ganesh Godiyal,INC,,,,,False,53,2024,GE
+1492716,Nota,NOTA,16061,771,1.0,3,53,61,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492717,Dheer Singh,BSP,16062,702,0.91,4,53,61,UK,Dheer Singh,BSP,,,,,False,53,2024,GE
+1492718,Sonu Kumar,IND,16059,245,0.32,5,53,61,UK,Sonu Kumar,IND,,,,,False,53,2024,GE
+1492719,Mukesh Prakash,IND,16059,167,0.22,6,53,61,UK,Mukesh Prakash,IND,,,,,False,53,2024,GE
+1492720,Ashutosh Singh,UKKD,16063,166,0.22,7,53,61,UK,Ashutosh Singh,UKKD,,,,,False,53,2024,GE
+1492721,Arjun Singh,AKBRPRVP,16163,136,0.18,8,53,61,UK,Arjun Singh,AKBRPRVP,,,,,False,53,2024,GE
+1492722,Sureshi Devi,PPID,16162,99,0.13,9,53,61,UK,Sureshi Devi,PPID,,,,,False,53,2024,GE
+1492723,Deependra Singh Negi,IND,16059,86,0.11,10,53,61,UK,Deependra Singh Negi,IND,,,,,False,53,2024,GE
+1492724,Dr Mukesh Pant,SaSP,16097,85,0.11,11,53,61,UK,Dr Mukesh Pant,SaSP,,,,,False,53,2024,GE
+1492725,Vinod Kumar Sharma,UTRASMNTP,16164,64,0.08,12,53,61,UK,Vinod Kumar Sharma,UTRASMNTP,,,,,False,53,2024,GE
+1492726,Shyamlal,BMUP,16098,57,0.07,13,53,61,UK,Shyamlal,BMUP,,,,,False,53,2024,GE
+1492727,Reshma Panwar,SUCI,16165,52,0.07,14,53,61,UK,Reshma Panwar,SUCI,,,,,False,53,2024,GE
+1492728,Prakash Joshi,INC,16058,42931,48.86,1,53,62,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492729,Ajay Bhatt,BJP,16057,39663,45.14,2,53,62,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492730,Akhtar Ali,BSP,16062,3276,3.73,3,53,62,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492731,Nota,NOTA,16061,467,0.53,4,53,62,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492732,Akhalesh Kumar,AKBRPRVP,16163,454,0.52,5,53,62,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492733,Amar Singh Saini,PPID,16162,237,0.27,6,53,62,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492734,Hitesh Pathak,IND,16059,229,0.26,7,53,62,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492735,Ramesh Kumar Max,IND,16059,217,0.25,8,53,62,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492736,Jeevan Chandra Upreti,BKLJP,16148,171,0.19,9,53,62,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492737,Surendra Singh,BSCP,16158,110,0.13,10,53,62,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492738,Shib Singh,UKKD,16063,108,0.12,11,53,62,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492739,Ajay Bhatt,BJP,16057,60312,60.1,1,53,63,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492740,Prakash Joshi,INC,16058,34802,34.68,2,53,63,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492741,Akhtar Ali,BSP,16062,3154,3.14,3,53,63,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492742,Nota,NOTA,16061,673,0.67,4,53,63,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492743,Akhalesh Kumar,AKBRPRVP,16163,360,0.36,5,53,63,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492744,Shib Singh,UKKD,16063,250,0.25,6,53,63,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492745,Ramesh Kumar Max,IND,16059,198,0.2,7,53,63,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492746,Hitesh Pathak,IND,16059,192,0.19,8,53,63,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492747,Amar Singh Saini,PPID,16162,177,0.18,9,53,63,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492748,Jeevan Chandra Upreti,BKLJP,16148,151,0.15,10,53,63,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492749,Surendra Singh,BSCP,16158,81,0.08,11,53,63,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492750,Ajay Bhatt,BJP,16057,50115,50.17,1,53,64,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492751,Prakash Joshi,INC,16058,44171,44.22,2,53,64,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492752,Akhtar Ali,BSP,16062,3230,3.23,3,53,64,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492753,Nota,NOTA,16061,637,0.64,4,53,64,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492754,Akhalesh Kumar,AKBRPRVP,16163,516,0.52,5,53,64,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492755,Hitesh Pathak,IND,16059,289,0.29,6,53,64,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492756,Ramesh Kumar Max,IND,16059,273,0.27,7,53,64,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492757,Jeevan Chandra Upreti,BKLJP,16148,207,0.21,8,53,64,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492758,Amar Singh Saini,PPID,16162,193,0.19,9,53,64,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492759,Shib Singh,UKKD,16063,131,0.13,10,53,64,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492760,Surendra Singh,BSCP,16158,121,0.12,11,53,64,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492761,Ajay Bhatt,BJP,16057,63563,61.9,1,53,65,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492762,Prakash Joshi,INC,16058,35537,34.61,2,53,65,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492763,Akhtar Ali,BSP,16062,1428,1.39,3,53,65,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492764,Nota,NOTA,16061,646,0.63,4,53,65,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492765,Akhalesh Kumar,AKBRPRVP,16163,346,0.34,5,53,65,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492766,Hitesh Pathak,IND,16059,289,0.28,6,53,65,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492767,Ramesh Kumar Max,IND,16059,240,0.23,7,53,65,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492768,Amar Singh Saini,PPID,16162,212,0.21,8,53,65,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492769,Jeevan Chandra Upreti,BKLJP,16148,175,0.17,9,53,65,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492770,Surendra Singh,BSCP,16158,127,0.12,10,53,65,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492771,Shib Singh,UKKD,16063,125,0.12,11,53,65,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492772,Ajay Bhatt,BJP,16057,92106,74.05,1,53,66,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492773,Prakash Joshi,INC,16058,28242,22.71,2,53,66,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492774,Akhtar Ali,BSP,16062,1669,1.34,3,53,66,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492775,Nota,NOTA,16061,801,0.64,4,53,66,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492776,Amar Singh Saini,PPID,16162,411,0.33,5,53,66,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492777,Akhalesh Kumar,AKBRPRVP,16163,287,0.23,6,53,66,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492778,Hitesh Pathak,IND,16059,258,0.21,7,53,66,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492779,Ramesh Kumar Max,IND,16059,179,0.14,8,53,66,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492780,Jeevan Chandra Upreti,BKLJP,16148,177,0.14,9,53,66,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492781,Shib Singh,UKKD,16063,136,0.11,10,53,66,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492782,Surendra Singh,BSCP,16158,116,0.09,11,53,66,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492783,Ajay Bhatt,BJP,16057,48781,52.86,1,53,67,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492784,Prakash Joshi,INC,16058,40405,43.78,2,53,67,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492785,Akhtar Ali,BSP,16062,1294,1.4,3,53,67,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492786,Nota,NOTA,16061,505,0.55,4,53,67,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492787,Akhalesh Kumar,AKBRPRVP,16163,379,0.41,5,53,67,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492788,Hitesh Pathak,IND,16059,196,0.21,6,53,67,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492789,Amar Singh Saini,PPID,16162,192,0.21,7,53,67,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492790,Ramesh Kumar Max,IND,16059,179,0.19,8,53,67,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492791,Jeevan Chandra Upreti,BKLJP,16148,154,0.17,9,53,67,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492792,Shib Singh,UKKD,16063,103,0.11,10,53,67,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492793,Surendra Singh,BSCP,16158,96,0.1,11,53,67,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492794,Ajay Bhatt,BJP,16057,59612,65.13,1,53,68,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492795,Prakash Joshi,INC,16058,28316,30.94,2,53,68,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492796,Akhtar Ali,BSP,16062,1702,1.86,3,53,68,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492797,Nota,NOTA,16061,555,0.61,4,53,68,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492798,Akhalesh Kumar,AKBRPRVP,16163,327,0.36,5,53,68,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492799,Hitesh Pathak,IND,16059,227,0.25,6,53,68,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492800,Amar Singh Saini,PPID,16162,212,0.23,7,53,68,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492801,Ramesh Kumar Max,IND,16059,203,0.22,8,53,68,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492802,Jeevan Chandra Upreti,BKLJP,16148,162,0.18,9,53,68,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492803,Surendra Singh,BSCP,16158,110,0.12,10,53,68,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492804,Shib Singh,UKKD,16063,106,0.12,11,53,68,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492805,Ajay Bhatt,BJP,16057,45697,55.73,1,53,69,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492806,Prakash Joshi,INC,16058,32087,39.13,2,53,69,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492807,Akhtar Ali,BSP,16062,1858,2.27,3,53,69,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492808,Nota,NOTA,16061,673,0.82,4,53,69,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492809,Akhalesh Kumar,AKBRPRVP,16163,389,0.47,5,53,69,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492810,Ramesh Kumar Max,IND,16059,312,0.38,6,53,69,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492811,Hitesh Pathak,IND,16059,287,0.35,7,53,69,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492812,Amar Singh Saini,PPID,16162,230,0.28,8,53,69,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492813,Jeevan Chandra Upreti,BKLJP,16148,197,0.24,9,53,69,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492814,Surendra Singh,BSCP,16158,149,0.18,10,53,69,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492815,Shib Singh,UKKD,16063,119,0.15,11,53,69,UK,Shib Singh,UKKD,,,,,False,53,2024,GE
+1492816,Ajay Bhatt,BJP,16057,50553,63.46,1,53,70,UK,Ajay Bhatt,BJP,,,,,True,53,2024,GE
+1492817,Prakash Joshi,INC,16058,25646,32.19,2,53,70,UK,Prakash Joshi,INC,,,,,False,53,2024,GE
+1492818,Akhtar Ali,BSP,16062,1493,1.87,3,53,70,UK,Akhtar Ali,BSP,,,,,False,53,2024,GE
+1492819,Nota,NOTA,16061,565,0.71,4,53,70,UK,Nota,NOTA,,,,,False,53,2024,GE
+1492820,Hitesh Pathak,IND,16059,340,0.43,5,53,70,UK,Hitesh Pathak,IND,,,,,False,53,2024,GE
+1492821,Ramesh Kumar Max,IND,16059,336,0.42,6,53,70,UK,Ramesh Kumar Max,IND,,,,,False,53,2024,GE
+1492822,Akhalesh Kumar,AKBRPRVP,16163,293,0.37,7,53,70,UK,Akhalesh Kumar,AKBRPRVP,,,,,False,53,2024,GE
+1492823,Amar Singh Saini,PPID,16162,132,0.17,8,53,70,UK,Amar Singh Saini,PPID,,,,,False,53,2024,GE
+1492824,Jeevan Chandra Upreti,BKLJP,16148,121,0.15,9,53,70,UK,Jeevan Chandra Upreti,BKLJP,,,,,False,53,2024,GE
+1492825,Surendra Singh,BSCP,16158,97,0.12,10,53,70,UK,Surendra Singh,BSCP,,,,,False,53,2024,GE
+1492826,Shib Singh,UKKD,16063,91,0.11,11,53,70,UK,Shib Singh,UKKD,,,,,False,53,2024,GE

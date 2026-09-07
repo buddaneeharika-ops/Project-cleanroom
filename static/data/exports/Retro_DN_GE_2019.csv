@@ -1,0 +1,13 @@
+﻿el_res_id,ca_full_name,party_abb,party_id,el_vote_count,el_vote_perc,el_rank,el_id,ac_no,state_abb,original_ca_full_name,original_party_abb,caste,caste_category,gender,age,incumbency,el_id,el_year,el_type
+1939323,Delkar Mohanbhai Sanjibhai,IND,26377,90421,34.77,1,37,1,DN,Delkar Mohanbhai Sanjibhai,IND,,,,,False,37,2019,GE
+1939324,Patel Natubhai Gomanbhai,BJP,26372,81420,31.31,2,37,1,DN,Patel Natubhai Gomanbhai,BJP,,,,,True,37,2019,GE
+1939325,Tokiya Prabhubhai,INC,26373,8608,4.33,3,37,1,DN,Tokiya Prabhubhai,INC,,,,,False,37,2019,GE
+1939326,Patel Ankita Amrutbhai,SS,26378,4000,1.54,4,37,1,DN,Patel Ankita Amrutbhai,SS,,,,,False,37,2019,GE
+1939327,Kurada Deepakbhai,IND,26377,3630,1.82,5,37,1,DN,Kurada Deepakbhai,IND,,,,,False,37,2019,GE
+1939334,Nota,NOTA,26375,2950,1.13,6,37,1,DN,Nota,NOTA,,,,,False,37,2019,GE
+1939328,Dayat Manoj Ranchod,IND,26377,2287,0.88,7,37,1,DN,Dayat Manoj Ranchod,IND,,,,,False,37,2019,GE
+1939329,Janathiya Pravinbhai Ladakbhai,BMUP,26379,1596,0.61,8,37,1,DN,Janathiya Pravinbhai Ladakbhai,BMUP,,,,,False,37,2019,GE
+1939330,Halpati Rajeshbhai Bhanabhai,NSBHP,26380,1160,0.45,9,37,1,DN,Halpati Rajeshbhai Bhanabhai,NSBHP,,,,,False,37,2019,GE
+1939331,Patel Dhirubhai Chhotubhai,IND,26377,1120,0.43,10,37,1,DN,Patel Dhirubhai Chhotubhai,IND,,,,,False,37,2019,GE
+1939332,Dongarkar Ishwarbhai Gopjibhai,BSP,26376,948,0.36,11,37,1,DN,Dongarkar Ishwarbhai Gopjibhai,BSP,,,,,False,37,2019,GE
+1939333,Bhikhlabhai Vansabhai Khulat,BTP,26381,843,0.32,12,37,1,DN,Bhikhlabhai Vansabhai Khulat,BTP,,,,,False,37,2019,GE
