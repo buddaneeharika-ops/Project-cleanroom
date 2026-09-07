@@ -599,18 +599,10 @@
 ═══════════════════════════════════════════ -->
 <script>
 // ─── State ─────────────────────────────────────────────────────────────────
-  const urlParams = new URLSearchParams(window.location.search);
-  let activeMainTab = urlParams.get('tab') || 'eci';
-  let activeMetric  = urlParams.get('metric') || 'retro';
-  let activeGranularity = urlParams.get('granularity') || 'state'; // 'state', 'district', 'pc', 'ac'
+  let activeMainTab = 'eci';
+  let activeMetric  = 'retro';
+  let activeGranularity = 'state'; // 'state', 'district', 'pc', 'ac'
 
-  function updateURLParams() {
-    const url = new URL(window.location);
-    url.searchParams.set('tab', activeMainTab);
-    url.searchParams.set('metric', activeMetric);
-    url.searchParams.set('granularity', activeGranularity);
-    window.history.replaceState({}, '', url);
-  }
   let stateData     = [];   // array of {state_abb, state_name, retro, form20, ...}
   let districtCache = {};   // metric → {key: {pct, covered, total}}
   let pcCache       = {};   // metric → {dict: {...}, coveredCount, totalCount}
@@ -1640,7 +1632,7 @@
 
     const props = info.object.properties;
     const pcName = props.ls_seat_name || props.PC_NAME || props.pc_name || 'PC';
-    const stateName = props.STATE_NAME || props.ST_NAME || props.st_name || props.state_name || props.NAME_1 || 'State';
+    const stateName = props.state_ut_name || props.STATE_NAME || props.ST_NAME || props.st_name || props.state_name || props.NAME_1 || 'State';
     const pcInfo = getPCPct(props);
     const pct = pcInfo ? pcInfo.pct : 0;
     const covered = pcInfo ? pcInfo.covered : 0;
@@ -1817,9 +1809,9 @@
   async function switchMainTab(tab) {
     if (activeMainTab === tab) return;
     activeMainTab = tab;
-    updateURLParams();
     updateMainTabUI();
     
+    const eciActive = activeMainTab === 'eci';
     activeMetric = eciActive ? 'retro' : 'ejal';
     
     if (eciActive && activeGranularity === 'district') {
@@ -1847,7 +1839,6 @@
   async function setMetric(metric) {
     if (activeMetric === metric) return;
     activeMetric = metric;
-    updateURLParams();
     updateMetricUI();
 
     showLoading(true);
@@ -1871,7 +1862,6 @@
     const mdi = document.getElementById('mobile-details-injection');
     if (mdi) mdi.classList.add('hidden');
     
-    updateURLParams();
     updateGranularityUI();
 
     showLoading(true);
@@ -1889,9 +1879,6 @@
 
   // ─── Initialization ────────────────────────────────────────────────────────
   async function initDeckGL() {
-    updateMainTabUI();
-    updateGranularityUI();
-    updateMetricUI();
     showLoading(true);
 
     try {
