@@ -1764,6 +1764,14 @@
   }
 
   // ─── UI switching ──────────────────────────────────────────────────────────
+  function updateMainTabUI() {
+    const eciActive = activeMainTab === 'eci';
+    document.getElementById('main-tab-eci').className   = eciActive ? 'filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all' : 'filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all';
+    document.getElementById('main-tab-other').className = eciActive ? 'filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all' : 'filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all';
+    document.getElementById('group-opts-eci').className   = eciActive ? 'space-y-1.5' : 'hidden space-y-1.5';
+    document.getElementById('group-opts-other').className = eciActive ? 'hidden space-y-1.5' : 'space-y-1.5';
+  }
+
   function updateGranularityUI() {
     const isEci = activeMainTab === 'eci';
     document.getElementById('btn-gran-pc').style.display = isEci ? 'inline-flex' : 'none';
@@ -1810,12 +1818,7 @@
     if (activeMainTab === tab) return;
     activeMainTab = tab;
     updateURLParams();
-    
-    const eciActive = tab === 'eci';
-    document.getElementById('main-tab-eci').className   = eciActive ? 'filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all' : 'filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all';
-    document.getElementById('main-tab-other').className = eciActive ? 'filter-tab-inactive flex-1 py-1.5 rounded-lg text-center transition-all' : 'filter-tab-active flex-1 py-1.5 rounded-lg text-center transition-all';
-    document.getElementById('group-opts-eci').className   = eciActive ? 'space-y-1.5' : 'hidden space-y-1.5';
-    document.getElementById('group-opts-other').className = eciActive ? 'hidden space-y-1.5' : 'space-y-1.5';
+    updateMainTabUI();
     
     activeMetric = eciActive ? 'retro' : 'ejal';
     
@@ -1886,6 +1889,9 @@
 
   // ─── Initialization ────────────────────────────────────────────────────────
   async function initDeckGL() {
+    updateMainTabUI();
+    updateGranularityUI();
+    updateMetricUI();
     showLoading(true);
 
     try {
