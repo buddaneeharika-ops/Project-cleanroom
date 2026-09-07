@@ -17,7 +17,7 @@ jobs:
         uses: easingthemes/ssh-deploy@main
         env:
           SSH_PRIVATE_KEY: ${{ secrets.EC2_SSH_KEY }}
-          REMOTE_HOST: 13.206.145.98
+          REMOTE_HOST: 3.109.60.230
           REMOTE_USER: ec2-user
           TARGET: /home/ec2-user/Form20-backlog-tracker/
           EXCLUDE: "/venv/, /env/, /.git/, *.db, weekly_snapshots.json, *.csv, *.zip, *.log"
@@ -25,7 +25,7 @@ jobs:
       - name: Restart Service
         uses: appleboy/ssh-action@master
         with:
-          host: 13.206.145.98
+          host: 3.109.60.230
           username: ec2-user
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
