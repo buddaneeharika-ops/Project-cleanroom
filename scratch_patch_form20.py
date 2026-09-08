@@ -76,10 +76,6 @@ def patch_form20_incremental():
             avail_pct = round((total_available_acs / total_expected_acs * 100) if total_expected_acs > 0 else 0, 2)
             if avail_pct > 100: avail_pct = 100.0
             
-            # Manual override: DD and DN Form 20 is 0% to match country glance
-            if state in ['DD', 'DN']:
-                avail_pct = 0.0
-            
             if "form20" not in cache[state] or not isinstance(cache[state]["form20"], dict):
                 cache[state]["form20"] = {}
                 
