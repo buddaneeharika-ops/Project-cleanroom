@@ -1889,6 +1889,8 @@
 
   // ─── Initialization ────────────────────────────────────────────────────────
   async function initDeckGL() {
+    updateMainTabUI();
+    updateGranularityUI();
     showLoading(true);
 
     try {
