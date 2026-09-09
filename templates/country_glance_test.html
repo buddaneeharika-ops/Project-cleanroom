@@ -840,7 +840,9 @@
     document.getElementById('table-footer').classList.add('hidden');
 
     try {
-      const res  = await fetch(forceRefresh ? '/api/country_glance_test/data?refresh=1' : '/api/country_glance_test/data');
+      const timestamp = new Date().getTime();
+      const url = forceRefresh ? `/api/country_glance_test/data?refresh=1&t=${timestamp}` : `/api/country_glance_test/data?t=${timestamp}`;
+      const res  = await fetch(url);
       const json = await res.json();
 
       if (json.matrix && json.matrix.length > 0) {
