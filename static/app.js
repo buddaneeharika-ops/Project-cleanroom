@@ -1721,13 +1721,13 @@ async function loadGlancePanel() {
     });
 
     const stateNames = {
-      AP:'Andhra Pradesh', AR:'Arunachal Pradesh', AS:'Assam', BR:'Bihar', CG:'Chhattisgarh',
+      AP:'Andhra Pradesh', AR:'Arunachal Pradesh', AS:'Assam', BR:'Bihar', CG:'Chandigarh',
       GA:'Goa', GJ:'Gujarat', HR:'Haryana', HP:'Himachal Pradesh', JH:'Jharkhand',
       KA:'Karnataka', KL:'Kerala', MP:'Madhya Pradesh', MH:'Maharashtra', MN:'Manipur',
       ML:'Meghalaya', MZ:'Mizoram', NL:'Nagaland', OR:'Odisha', PB:'Punjab',
       RJ:'Rajasthan', SK:'Sikkim', TN:'Tamil Nadu', TR:'Tripura', UP:'Uttar Pradesh',
       UK:'Uttarakhand', WB:'West Bengal', TS:'Telangana', DL:'Delhi', JK:'Jammu & Kashmir',
-      LA:'Ladakh', AN:'Andaman & Nicobar', CH:'Chandigarh', PY:'Puducherry', LD:'Lakshadweep',
+      LA:'Ladakh', AN:'Andaman & Nicobar', PY:'Puducherry', LD:'Lakshadweep',
       CT:'Chhattisgarh',
     };
 

@@ -7,11 +7,11 @@ from dotenv import load_dotenv
 load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env'))
 
 STATE_AC_COUNTS = {
-    'AP': 175, 'AR': 60, 'AS': 126, 'BR': 243, 'CG': 90, 'CT': 90, 'GA': 40, 'GJ': 182,
+    'AP': 175, 'AR': 60, 'AS': 126, 'BR': 243, 'CG': 1, 'CT': 90, 'GA': 40, 'GJ': 182,
     'HR': 90, 'HP': 68, 'JK': 90, 'JH': 81, 'KA': 224, 'KL': 140, 'MP': 230,
     'MH': 288, 'MN': 60, 'ML': 60, 'MZ': 40, 'NL': 60, 'OR': 147, 'PB': 117,
     'RJ': 200, 'SK': 32, 'TN': 234, 'TS': 119, 'TR': 60, 'UP': 403, 'UK': 70,
-    'WB': 294, 'AN': 1, 'CH': 1, 'DN': 1, 'DD': 1, 'DL': 70, 'LD': 1, 'PY': 30
+    'WB': 294, 'AN': 1, 'DN': 1, 'DD': 1, 'DL': 70, 'LD': 1, 'PY': 30
 }
 
 def get_conn():

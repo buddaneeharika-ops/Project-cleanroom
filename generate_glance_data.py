@@ -7,17 +7,17 @@ load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env'))
 
 # Canonical AC Counts from app.py
 STATE_AC_COUNTS = {
-    'AP': 175, 'AR': 60, 'AS': 126, 'BR': 243, 'CG': 90, 'GA': 40, 'GJ': 182,
+    'AP': 175, 'AR': 60, 'AS': 126, 'BR': 243, 'CT': 90, 'GA': 40, 'GJ': 182,
     'HR': 90, 'HP': 68, 'JK': 90, 'JH': 81, 'KA': 224, 'KL': 140, 'MP': 230,
     'MH': 288, 'MN': 60, 'ML': 60, 'MZ': 40, 'NL': 60, 'OR': 147, 'PB': 117,
     'RJ': 200, 'SK': 32, 'TN': 234, 'TS': 119, 'TR': 60, 'UP': 403, 'UK': 70,
-    'WB': 294, 'AN': 1, 'CH': 1, 'DN': 1, 'DD': 1, 'DL': 70, 'LD': 1, 'PY': 30
+    'WB': 294, 'AN': 1, 'CG': 1, 'DN': 1, 'DD': 1, 'DL': 70, 'LD': 1, 'PY': 30
 }
 
 # Canonical State Names
 STATE_NAMES = {
     'AN': 'Andaman & Nicobar Islands', 'AP': 'Andhra Pradesh', 'AR': 'Arunachal Pradesh',
-    'AS': 'Assam', 'BR': 'Bihar', 'CH': 'Chandigarh', 'CT': 'Chhattisgarh',
+    'AS': 'Assam', 'BR': 'Bihar', 'CG': 'Chandigarh', 'CT': 'Chhattisgarh',
     'DD': 'Daman & Diu', 'DL': 'Delhi', 'DN': 'Dadra and Nagar Haveli', 'GA': 'Goa',
     'GJ': 'Gujarat', 'HP': 'Himachal Pradesh', 'HR': 'Haryana', 'JH': 'Jharkhand',
     'JK': 'Jammu & Kashmir', 'KA': 'Karnataka', 'KL': 'Kerala', 'LA': 'Ladakh',
@@ -48,7 +48,7 @@ cur.execute("""
     WHERE el_type NOT LIKE '%BP%'
     GROUP BY state_abb;
 """)
-expected_retro = {r[0]: r[1] for r in cur.fetchall()}
+expected_retro = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 print("Executing Retro Available query (this might take a while)...")
 cur.execute("""
@@ -58,7 +58,7 @@ cur.execute("""
     WHERE e.el_type NOT LIKE '%BP%'
     GROUP BY er.state_abb;
 """)
-available_retro = {r[0]: r[1] for r in cur.fetchall()}
+available_retro = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 # 2. Form 20
 print("Executing Form 20 Expected query...")
@@ -68,7 +68,7 @@ cur.execute("""
     WHERE el_type NOT LIKE '%BP%'
     GROUP BY state_abb;
 """)
-expected_f20 = {r[0]: r[1] for r in cur.fetchall()}
+expected_f20 = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 print("Executing Form 20 Available query (this might take a while)...")
 cur.execute("""
@@ -77,7 +77,7 @@ cur.execute("""
     WHERE el_type NOT LIKE '%BP%'
     GROUP BY state_abb;
 """)
-available_f20 = {r[0]: r[1] for r in cur.fetchall()}
+available_f20 = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 # 3. Caste Data
 print("Executing Caste Data query...")
@@ -86,7 +86,7 @@ cur.execute("""
     FROM caste_details 
     GROUP BY state_abb;
 """)
-available_caste = {r[0]: r[1] for r in cur.fetchall()}
+available_caste = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 # 4. Booth Details
 print("Executing Booth Details query...")
@@ -95,36 +95,36 @@ cur.execute("""
     FROM booth_metadata_full_view 
     GROUP BY state_abb;
 """)
-available_booth = {r[0]: r[1] for r in cur.fetchall()}
+available_booth = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 # 5. Denominators from LGD
 print("Executing LGD Denominators queries...")
 cur.execute("SELECT state_abb, COUNT(DISTINCT district_code) FROM lgd_directory GROUP BY state_abb;")
-lgd_districts = {r[0]: r[1] for r in cur.fetchall()}
+lgd_districts = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 cur.execute("SELECT state_abb, COUNT(DISTINCT lgd_code) FROM lgd_directory GROUP BY state_abb;")
-lgd_codes = {r[0]: r[1] for r in cur.fetchall()}
+lgd_codes = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 # Other source counts
 print("Executing Muslim Census query...")
 cur.execute("SELECT state_abb, COUNT(DISTINCT district_name) FROM muslim_census GROUP BY state_abb;")
-muslim_counts = {r[0]: r[1] for r in cur.fetchall()}
+muslim_counts = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 print("Executing Joshua Population query...")
 cur.execute("SELECT state_abb, COUNT(DISTINCT district_name) FROM joshua_population GROUP BY state_abb;")
-joshua_counts = {r[0]: r[1] for r in cur.fetchall()}
+joshua_counts = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 print("Executing Ejalshakti query...")
 cur.execute("SELECT ld.state_abb, COUNT(DISTINCT ep.lgd_code) FROM ejalshakti_portal ep JOIN lgd_directory ld ON ld.lgd_code = ep.lgd_code GROUP BY ld.state_abb;")
-ejal_counts = {r[0]: r[1] for r in cur.fetchall()}
+ejal_counts = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 print("Executing SECC query...")
 cur.execute("SELECT state_abb, COUNT(DISTINCT lgd_code) FROM secc_abstract GROUP BY state_abb;")
-secc_counts = {r[0]: r[1] for r in cur.fetchall()}
+secc_counts = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 print("Executing KYS query...")
 cur.execute("SELECT state_abb, COUNT(DISTINCT district_name) FROM school_locator WHERE district_name IS NOT NULL GROUP BY state_abb;")
-kys_counts = {r[0]: r[1] for r in cur.fetchall()}
+kys_counts = {str(r[0]).strip(): r[1] for r in cur.fetchall()}
 
 print("Building matrix...")
 

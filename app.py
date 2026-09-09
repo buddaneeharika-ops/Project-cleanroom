@@ -340,14 +340,14 @@ STATE_TO_ECI = {
 # CG and CT are both Chhattisgarh; DD = Daman & Diu, DN = Dadra & Nagar Haveli.
 STATE_NAMES = {
     'AP': 'Andhra Pradesh', 'AR': 'Arunachal Pradesh', 'AS': 'Assam', 'BR': 'Bihar',
-    'CG': 'Chhattisgarh', 'CT': 'Chhattisgarh', 'GA': 'Goa', 'GJ': 'Gujarat',
+    'CG': 'Chandigarh', 'CT': 'Chhattisgarh', 'GA': 'Goa', 'GJ': 'Gujarat',
     'HR': 'Haryana', 'HP': 'Himachal Pradesh', 'JH': 'Jharkhand', 'KA': 'Karnataka',
     'KL': 'Kerala', 'MP': 'Madhya Pradesh', 'MH': 'Maharashtra', 'MN': 'Manipur',
     'ML': 'Meghalaya', 'MZ': 'Mizoram', 'NL': 'Nagaland', 'OR': 'Odisha',
     'PB': 'Punjab', 'RJ': 'Rajasthan', 'SK': 'Sikkim', 'TN': 'Tamil Nadu',
     'TR': 'Tripura', 'UP': 'Uttar Pradesh', 'UK': 'Uttarakhand', 'WB': 'West Bengal',
     'TS': 'Telangana', 'DL': 'Delhi', 'JK': 'Jammu & Kashmir', 'LA': 'Ladakh',
-    'AN': 'Andaman & Nicobar', 'CH': 'Chandigarh', 'PY': 'Puducherry',
+    'AN': 'Andaman & Nicobar', 'PY': 'Puducherry',
     'LD': 'Lakshadweep', 'DD': 'Daman & Diu', 'DN': 'Dadra & Nagar Haveli',
 }
 
@@ -1761,15 +1761,16 @@ def get_filters():
         s_name = r['state_name']
         t = r['el_type']
         y = r['el_year']
-        
-        state_names[s] = s_name
-        
+
+        # Always prefer the canonical full name from STATE_NAMES, falling back to DB value
+        state_names[s] = STATE_NAMES.get(s, s_name) if s else s_name
+
         if s not in metadata:
             metadata[s] = {}
         if t not in metadata[s]:
             metadata[s][t] = {}
         metadata[s][t][y] = r['cnt']
-        
+
     return jsonify({
         'metadata': metadata,
         'state_names': state_names
