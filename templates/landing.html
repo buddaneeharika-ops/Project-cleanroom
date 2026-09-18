@@ -501,7 +501,8 @@
 
         async function loadData() {
             try {
-                const res = await fetch('/api/country_glance/data');
+                const timestamp = new Date().getTime();
+                const res = await fetch('/api/country_glance/data?t=' + timestamp);
                 const json = await res.json();
                 if (json.matrix && json.matrix.length > 0) {
                     globalMatrix = json.matrix.map(m => {
