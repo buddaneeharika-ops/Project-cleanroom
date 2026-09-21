@@ -61,8 +61,8 @@ def run_nightly_aggregation():
         # 6. By-Polls and Quality Remarks
         ("scratch_master_patch.py", "Finalizing By-Polls & Remarks"),
 
-        # 7. Generate Country Glance Cache
-        ("generate_glance_data.py", "Generating Country Glance Cache")
+        # 7. Generate Country Glance Cache and Unified State Caches
+        ("rebuild_all_data.py", "Generating Unified Global Caches")
     ]
     
     for script, description in scripts:
