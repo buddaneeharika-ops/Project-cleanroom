@@ -223,6 +223,33 @@ out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'd
 with open(out_path, "w") as f:
     json.dump(out_data, f, indent=2)
 
+# --- SYNC TO STATE_GLANCE_CACHE.JSON TO UNIFY THE SINGLE SOURCE OF TRUTH ---
+print("Syncing unified percentages to State Reports...")
+state_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'state_glance_cache.json')
+if os.path.exists(state_path):
+    try:
+        with open(state_path, "r") as f:
+            state_data = json.load(f)
+        
+        for row in out_data.get('matrix', []):
+            abb = row.get('state_abb')
+            if not abb or abb not in state_data: continue
+            
+            if 'form20' not in state_data[abb]:
+                state_data[abb]['form20'] = {}
+            state_data[abb]['form20']['availability_pct'] = row.get('form20', 0)
+            
+            if 'hero' not in state_data[abb]:
+                state_data[abb]['hero'] = {}
+            state_data[abb]['hero']['retro_availability_pct'] = row.get('retro', 0)
+            
+        with open(state_path, "w") as f:
+            json.dump(state_data, f, indent=2)
+        print("Unified State Reports successfully!")
+    except Exception as e:
+        print(f"[WARN] Failed to sync to state_glance_cache.json: {e}")
+# ---------------------------------------------------------------------------
+
 print("Calculation successful!")
 cur.close()
 conn.close()
