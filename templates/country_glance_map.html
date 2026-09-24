@@ -1888,6 +1888,19 @@
   }
 
   // ─── Initialization ────────────────────────────────────────────────────────
+  function getResponsiveViewport() {
+    const w = window.innerWidth;
+    if (w < 480) {
+      return { longitude: 82.0, latitude: 19.5, zoom: 3.1, pitch: 0, bearing: 0 };
+    } else if (w < 768) {
+      return { longitude: 82.0, latitude: 22.0, zoom: 3.5, pitch: 0, bearing: 0 };
+    } else if (w < 1024) {
+      return { longitude: 82.5, latitude: 22.5, zoom: 4.0, pitch: 0, bearing: 0 };
+    } else {
+      return { longitude: 82.5, latitude: 22.5, zoom: 4.3, pitch: 0, bearing: 0 };
+    }
+  }
+
   async function initDeckGL() {
     updateMainTabUI();
     updateGranularityUI();
@@ -1910,12 +1923,14 @@
         console.error('GeoJSON fetch error:', e);
       }
 
+      const initialVP = getResponsiveViewport();
+
       try {
         maplibre = new maplibregl.Map({
           container: 'maplibre-bg',
           style: 'https://basemaps.cartocdn.com/gl/positron-gl-style/style.json',
-          center: [82.5, 22.5],
-          zoom: 4.3,
+          center: [initialVP.longitude, initialVP.latitude],
+          zoom: initialVP.zoom,
           interactive: false
         });
       } catch (mErr) {
@@ -1924,13 +1939,7 @@
 
       deckgl = new deck.DeckGL({
         container: 'deck-canvas-container',
-        initialViewState: {
-          longitude: 82.5,
-          latitude: 22.5,
-          zoom: 4.3,
-          pitch: 0,
-          bearing: 0
-        },
+        initialViewState: initialVP,
         controller: true,
         onViewStateChange: ({ viewState }) => {
           if (maplibre) {
@@ -2064,7 +2073,7 @@
     if (deckgl) {
       deckgl.setProps({
         initialViewState: {
-          longitude: 82.5, latitude: 22.5, zoom: 4.3, pitch: 0, bearing: 0,
+          ...getResponsiveViewport(),
           transitionDuration: 800,
           transitionInterpolator: new deck.FlyToInterpolator()
         }

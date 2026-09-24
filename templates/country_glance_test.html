@@ -794,12 +794,7 @@
       </div>
 
       <!-- Footer row -->
-      <div id="table-footer" class="hidden border-t border-gray-200/60 bg-white/70 px-6 py-3 flex items-center justify-between flex-wrap gap-2 text-[11.5px] text-gray-500">
-        <span>Showing <strong id="visible-count" class="text-gray-800">—</strong> of 36 States / UTs</span>
-        <div class="flex items-center gap-1.5 text-[11px] text-amber-800 bg-amber-50 px-3 py-1 rounded-lg border border-amber-200/70 font-medium">
-          <span class="font-bold">* Note for J&K:</span> Coverage is set to 100% (adjusted for election seats increase from 87 to 90 seats in 2022).
-        </div>
-
+      <div id="table-footer" class="hidden border-t border-gray-200/60 bg-white/70 px-6 py-3 flex items-center justify-end flex-wrap gap-2 text-[11.5px] text-gray-500">
         <span class="flex items-center gap-1.5">
           <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
           Live from AWS RDS
@@ -965,8 +960,8 @@
         ? (sortAsc ? va.localeCompare(vb) : vb.localeCompare(va))
         : (sortAsc ? va - vb : vb - va);
     });
-
-    document.getElementById('visible-count').textContent = rows.length;
+    const visibleCountEl = document.getElementById('visible-count');
+    if (visibleCountEl) visibleCountEl.textContent = rows.length;
 
     const h = (col) => activeFilter.cols.includes(col) ? 'bg-indigo-50/70 shadow-[inset_0_0_0_1px_rgba(99,102,241,0.2)]' : '';
 

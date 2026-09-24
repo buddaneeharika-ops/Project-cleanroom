@@ -646,7 +646,7 @@ def login_page():
 
 @app.route('/login')
 def login():
-    redirect_uri = url_for('auth_callback', _external=True, _scheme='https')
+    redirect_uri = "https://proj-cleanroom.duckdns.org/auth/callback"
     return google.authorize_redirect(redirect_uri)
 
 @app.route('/auth/callback')

@@ -37,6 +37,11 @@ def build_all_data():
     conn = get_conn()
     cur = conn.cursor()
     
+    # Overall stats for weighted national average
+    global_expected = 0
+    global_retro_av = 0
+    global_form20_av = 0
+    
     # 1. Expected ACs
     cur.execute("""
         SELECT state_abb, el_type, el_year, COUNT(DISTINCT ac_no) 
@@ -164,6 +169,10 @@ def build_all_data():
         retro_pct = round((total_retro_av / total_expected_acs * 100), 2) if total_expected_acs > 0 else 0.0
         form20_pct = round((total_form20_av / total_expected_acs * 100), 2) if total_expected_acs > 0 else 0.0
         
+        global_retro_av += total_retro_av
+        global_form20_av += total_form20_av
+        global_expected += total_expected_acs
+        
         # Caste and Booth (based on STATE_AC_COUNTS)
         base_ac = STATE_AC_COUNTS.get(abb, 1)
         caste_pct = round((min(caste.get(abb, 0), base_ac) / base_ac * 100), 2)
@@ -213,18 +222,30 @@ def build_all_data():
     with open(state_path, 'w') as f:
         json.dump(state_glance, f, indent=2)
         
-    # Write glance_cache.json
     glance_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'glance_cache.json')
+    global_retro_pct = round((global_retro_av / global_expected * 100), 2) if global_expected > 0 else 0.0
+    global_form20_pct = round((global_form20_av / global_expected * 100), 2) if global_expected > 0 else 0.0
+
+    # Apply Frontend Mappings: CH -> CG, CG -> CT
+    frontend_matrix = []
+    for item in glance_matrix:
+        new_item = item.copy()
+        if new_item['state_abb'] == 'CH':
+            new_item['state_abb'] = 'CG'
+        elif new_item['state_abb'] == 'CG':
+            new_item['state_abb'] = 'CT'
+        frontend_matrix.append(new_item)
+
     with open(glance_path, 'w') as f:
         json.dump({
             "generated_at": datetime.now().isoformat(),
             "national_avg": {
-                "retro": round(sum(r['retro'] for r in glance_matrix) / len(glance_matrix), 2),
-                "form20": round(sum(r['form20'] for r in glance_matrix) / len(glance_matrix), 2),
+                "retro": global_retro_pct,
+                "form20": global_form20_pct,
                 "caste": round(sum(r['caste'] for r in glance_matrix) / len(glance_matrix), 2),
                 "booth": round(sum(r['booth'] for r in glance_matrix) / len(glance_matrix), 2),
             },
-            "matrix": glance_matrix
+            "matrix": frontend_matrix
         }, f, indent=2)
         
     # Push State data to Redis!
@@ -232,9 +253,23 @@ def build_all_data():
         import redis
         r = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)
         for abb, data in state_glance.items():
-            r.set(f"state_glance:{abb}", json.dumps(data))
+            redis_abb = abb
+            if abb == 'CH':
+                redis_abb = 'CG'
+            elif abb == 'CG':
+                redis_abb = 'CT'
+            r.set(f"state_glance:{redis_abb}", json.dumps(data))
     except Exception as e:
         print(f"Error syncing to redis: {e}")
+        
+    try:
+        import redis
+        r = redis.Redis(host='localhost', port=6379, db=0, decode_responses=True)
+        with open(glance_path, 'r') as f:
+            country_data = json.load(f)
+        r.set('cache:country_glance_data:data', json.dumps(country_data))
+    except Exception as e:
+        print(f"Error syncing country data to redis: {e}")
         
     print("ALL CACHES REBUILT AND UNIFIED.")
 
