@@ -2497,14 +2497,68 @@
   function isMobile() { return window.innerWidth < 768; }
 
   // ── Sheet toggle (drag handle tap) ────────────────────────────────────
+  var sheetDidDrag = false;
   window.toggleSheet = function() {
     if (!isMobile() || !panel) return;
+    if (sheetDidDrag) return; // Ignore tap if we just dragged
     sheetCollapsed = !sheetCollapsed;
     panel.classList.toggle('sheet-collapsed', sheetCollapsed);
     updateTapInfoPosition();
     // Resize map so it fills the visible area correctly
     setTimeout(function() { if (window.deckgl) { try { window.deckgl.redraw(true); } catch(e){} } }, 400);
   };
+
+  // ── Sheet drag/slide support ──────────────────────────────────────────
+  var handle = document.getElementById('sheet-drag-handle');
+  if (handle) {
+    var startY = 0, currentY = 0, initialHeight = 0, isDragging = false;
+    handle.addEventListener('touchstart', function(e) {
+      if (!isMobile() || !panel) return;
+      startY = e.touches[0].clientY;
+      currentY = startY;
+      initialHeight = panel.getBoundingClientRect().height;
+      isDragging = true;
+      sheetDidDrag = false;
+      panel.style.transition = 'none';
+    }, {passive: true});
+
+    handle.addEventListener('touchmove', function(e) {
+      if (!isDragging) return;
+      currentY = e.touches[0].clientY;
+      var deltaY = startY - currentY; // positive means dragging UP
+      if (Math.abs(deltaY) > 10) sheetDidDrag = true;
+
+      var newHeight = initialHeight + deltaY;
+      var maxHeightPx = window.innerHeight * 0.52;
+      var minHeightPx = 68;
+      
+      if (newHeight < minHeightPx) newHeight = minHeightPx;
+      if (newHeight > maxHeightPx) newHeight = maxHeightPx;
+      panel.style.maxHeight = newHeight + 'px';
+    }, {passive: true});
+
+    handle.addEventListener('touchend', function(e) {
+      if (!isDragging) return;
+      isDragging = false;
+      panel.style.transition = '';
+      
+      if (sheetDidDrag) {
+        var deltaY = startY - currentY;
+        if (deltaY > 20) {
+          sheetCollapsed = false; // Dragged up -> expand
+        } else if (deltaY < -20) {
+          sheetCollapsed = true; // Dragged down -> collapse
+        }
+        panel.style.maxHeight = ''; // Remove inline style
+        panel.classList.toggle('sheet-collapsed', sheetCollapsed);
+        updateTapInfoPosition();
+        setTimeout(function() { if (window.deckgl) { try { window.deckgl.redraw(true); } catch(e){} } }, 400);
+        
+        // Prevent click event immediately following touchend from toggling
+        setTimeout(function() { sheetDidDrag = false; }, 200); 
+      }
+    });
+  }
 
   // ── Position tap info bar just above the sheet ─────────────────────
   function updateTapInfoPosition() {
