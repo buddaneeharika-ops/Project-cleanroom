@@ -197,6 +197,13 @@
         max-height: 68px !important;
         overflow: hidden;
       }
+      #control-panel.search-active {
+        max-height: calc(100dvh - 56px) !important;
+        height: calc(100dvh - 56px) !important;
+        border-radius: 0 !important;
+        bottom: 0 !important;
+        z-index: 60 !important;
+      }
 
       /* Drag handle pill */
       #sheet-drag-handle {
@@ -1994,16 +2001,21 @@
     }
   };
 
-  // ─── State Search ─────────────────────────────────────────────────────────
   function onStateSearchInput() {
     const input = document.getElementById('state-search-map');
+    const panel = document.getElementById('control-panel');
+    if (document.activeElement === input && window.innerWidth < 768 && panel) {
+      panel.classList.add('search-active');
+      if (window.setSheetState) window.setSheetState(false);
+    }
+
     const q = input.value.toLowerCase().trim();
     const container = document.getElementById('state-search-results');
     const clearBtn = document.getElementById('state-search-clear');
 
     clearBtn.classList.toggle('hidden', !q);
 
-    if (!q && !document.activeElement === input) {
+    if (!q && document.activeElement !== input) {
       container.style.display = 'none';
       return;
     }
@@ -2019,7 +2031,7 @@
     }
 
     container.innerHTML = matches.map(r =>
-      `<div class="search-item" onclick="selectStateByName('${r.state_name.replace(/'/g, "\'")}')">
+      `<div class="search-item" onclick="selectStateByName('${r.state_name.replace(/'/g, "\\'")}')">
         <span class="search-abb">${r.state_abb}</span>
         <span>${r.state_name}</span>
         <span class="ml-auto text-[10px] font-mono text-gray-400">${parseFloat(r[activeMetric] || 0).toFixed(1)}%</span>
@@ -2029,17 +2041,23 @@
   }
 
   function clearStateSearch() {
-    document.getElementById('state-search-map').value = '';
+    const input = document.getElementById('state-search-map');
+    input.value = '';
+    input.blur();
     document.getElementById('state-search-results').style.display = 'none';
     document.getElementById('state-search-clear').classList.add('hidden');
+    const panel = document.getElementById('control-panel');
+    if (panel) panel.classList.remove('search-active');
   }
 
   // Close dropdown when clicking outside
   document.addEventListener('click', function(e) {
     const wrap = document.getElementById('state-search-map');
     const results = document.getElementById('state-search-results');
+    const panel = document.getElementById('control-panel');
     if (wrap && results && !wrap.contains(e.target) && !results.contains(e.target)) {
       results.style.display = 'none';
+      if (panel) panel.classList.remove('search-active');
     }
   });
 
@@ -2508,12 +2526,21 @@
     setTimeout(function() { if (window.deckgl) { try { window.deckgl.redraw(true); } catch(e){} } }, 400);
   };
 
+  window.setSheetState = function(collapsed) {
+    if (!isMobile() || !panel) return;
+    sheetCollapsed = collapsed;
+    panel.classList.toggle('sheet-collapsed', sheetCollapsed);
+    updateTapInfoPosition();
+    setTimeout(function() { if (window.deckgl) { try { window.deckgl.redraw(true); } catch(e){} } }, 400);
+  };
+
   // ── Sheet drag/slide support ──────────────────────────────────────────
   var handle = document.getElementById('sheet-drag-handle');
   if (handle) {
     var startY = 0, currentY = 0, initialHeight = 0, isDragging = false;
     handle.addEventListener('touchstart', function(e) {
       if (!isMobile() || !panel) return;
+      if (panel.classList.contains('search-active')) return; // Ignore drag if search is full-screen
       startY = e.touches[0].clientY;
       currentY = startY;
       initialHeight = panel.getBoundingClientRect().height;
