@@ -2046,18 +2046,14 @@
     input.blur();
     document.getElementById('state-search-results').style.display = 'none';
     document.getElementById('state-search-clear').classList.add('hidden');
-    const panel = document.getElementById('control-panel');
-    if (panel) panel.classList.remove('search-active');
   }
 
   // Close dropdown when clicking outside
   document.addEventListener('click', function(e) {
     const wrap = document.getElementById('state-search-map');
     const results = document.getElementById('state-search-results');
-    const panel = document.getElementById('control-panel');
     if (wrap && results && !wrap.contains(e.target) && !results.contains(e.target)) {
       results.style.display = 'none';
-      if (panel) panel.classList.remove('search-active');
     }
   });
 
