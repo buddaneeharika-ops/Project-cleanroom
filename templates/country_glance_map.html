@@ -2518,11 +2518,21 @@
   var sheetDidDrag = false;
   window.toggleSheet = function() {
     if (!isMobile() || !panel) return;
-    if (sheetDidDrag) return; // Ignore tap if we just dragged
-    sheetCollapsed = !sheetCollapsed;
-    panel.classList.toggle('sheet-collapsed', sheetCollapsed);
+    if (sheetDidDrag) return; 
+
+    if (panel.classList.contains('search-active')) {
+      panel.classList.remove('search-active');
+      sheetCollapsed = false;
+      panel.classList.remove('sheet-collapsed');
+    } else if (sheetCollapsed) {
+      sheetCollapsed = false;
+      panel.classList.remove('sheet-collapsed');
+    } else {
+      sheetCollapsed = true;
+      panel.classList.add('sheet-collapsed');
+    }
+    
     updateTapInfoPosition();
-    // Resize map so it fills the visible area correctly
     setTimeout(function() { if (window.deckgl) { try { window.deckgl.redraw(true); } catch(e){} } }, 400);
   };
 
@@ -2540,10 +2550,16 @@
     var startY = 0, currentY = 0, initialHeight = 0, isDragging = false;
     handle.addEventListener('touchstart', function(e) {
       if (!isMobile() || !panel) return;
-      if (panel.classList.contains('search-active')) return; // Ignore drag if search is full-screen
+      
       startY = e.touches[0].clientY;
       currentY = startY;
       initialHeight = panel.getBoundingClientRect().height;
+      
+      if (panel.classList.contains('search-active')) {
+         panel.classList.remove('search-active');
+         panel.style.maxHeight = initialHeight + 'px';
+      }
+      
       isDragging = true;
       sheetDidDrag = false;
       panel.style.transition = 'none';
@@ -2556,7 +2572,7 @@
       if (Math.abs(deltaY) > 10) sheetDidDrag = true;
 
       var newHeight = initialHeight + deltaY;
-      var maxHeightPx = window.innerHeight * 0.52;
+      var maxHeightPx = window.innerHeight - 56;
       var minHeightPx = 68;
       
       if (newHeight < minHeightPx) newHeight = minHeightPx;
@@ -2571,17 +2587,45 @@
       
       if (sheetDidDrag) {
         var deltaY = startY - currentY;
-        if (deltaY > 20) {
-          sheetCollapsed = false; // Dragged up -> expand
-        } else if (deltaY < -20) {
-          sheetCollapsed = true; // Dragged down -> collapse
-        }
+        var finalHeight = initialHeight + deltaY;
+        var halfHeight = window.innerHeight * 0.52;
+        
         panel.style.maxHeight = ''; // Remove inline style
-        panel.classList.toggle('sheet-collapsed', sheetCollapsed);
+        
+        if (deltaY > 20) { // dragged up
+           if (finalHeight > halfHeight + 30) {
+               panel.classList.add('search-active');
+               sheetCollapsed = false;
+               panel.classList.remove('sheet-collapsed');
+           } else {
+               panel.classList.remove('search-active');
+               sheetCollapsed = false;
+               panel.classList.remove('sheet-collapsed');
+           }
+        } else if (deltaY < -20) { // dragged down
+           if (finalHeight < halfHeight - 30) {
+               panel.classList.remove('search-active');
+               sheetCollapsed = true;
+               panel.classList.add('sheet-collapsed');
+           } else {
+               panel.classList.remove('search-active');
+               sheetCollapsed = false;
+               panel.classList.remove('sheet-collapsed');
+           }
+        } else {
+          // didn't move much, revert to closest state based on height
+          if (initialHeight > halfHeight + 10) {
+             panel.classList.add('search-active');
+             sheetCollapsed = false;
+             panel.classList.remove('sheet-collapsed');
+          } else {
+             panel.classList.remove('search-active');
+             panel.classList.toggle('sheet-collapsed', sheetCollapsed);
+          }
+        }
+        
         updateTapInfoPosition();
         setTimeout(function() { if (window.deckgl) { try { window.deckgl.redraw(true); } catch(e){} } }, 400);
-        
-        // Prevent click event immediately following touchend from toggling
         setTimeout(function() { sheetDidDrag = false; }, 200); 
       }
     });
