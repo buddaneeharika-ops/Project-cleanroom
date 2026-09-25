@@ -770,8 +770,8 @@
         <table class="glance-tbl" id="glanceTable">
           <thead>
             <tr>
-              <th rowspan="2" class="w-10 text-center sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;">#</th>
-              <th rowspan="2" class="w-60 text-left cursor-pointer sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;" onclick="sortTable('state_name')">
+              <th class="w-10 text-center sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0" style="z-index: 20 !important;">#</th>
+              <th class="w-60 text-left cursor-pointer sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0" style="z-index: 20 !important;" onclick="sortTable('state_name')">
                 State / UT <span class="text-[10px] text-gray-300 ml-0.5">↕</span>
               </th>
               <!-- ECI group header -->
@@ -780,6 +780,9 @@
               <th colspan="9" class="text-center bg-gray-50/70" id="group-other">Available Data — Other Sources <span class="text-[9.5px] font-normal text-gray-500 font-mono">(District-wise %)</span></th>
             </tr>
             <tr>
+              <!-- Empty spacer cells for the split rowspan -->
+              <th class="w-10 sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;"></th>
+              <th class="w-60 sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;"></th>
               <!-- ECI cols -->
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('retro')">Retro Data</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
