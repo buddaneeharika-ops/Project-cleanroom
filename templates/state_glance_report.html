@@ -187,7 +187,7 @@
           <span class="material-symbols-outlined text-gray-400 group-hover:text-indigo-500 transition-colors" style="font-size:20px;">search</span>
         </div>
         <!-- Dropdown Menu -->
-        <div id="stateSearchDropdown" class="absolute top-[calc(100%+8px)] left-0 w-full bg-white border border-gray-200 rounded-xl shadow-xl overflow-hidden hidden opacity-0 transition-opacity duration-200 max-h-[300px] overflow-y-auto">
+        <div id="stateSearchDropdown" class="absolute bottom-[calc(100%+8px)] left-0 w-full bg-white border border-gray-200 rounded-xl shadow-xl overflow-hidden hidden opacity-0 transition-opacity duration-200 max-h-[300px] overflow-y-auto">
            <!-- Populated by JS -->
         </div>
       </div>
@@ -1983,8 +1983,11 @@ document.addEventListener("DOMContentLoaded", () => {
       renderList(e.target.value);
     });
     
-    // Select all text on focus
-    input.addEventListener('click', () => {
+    // Re-open on click (handles case where input kept focus but list was closed by touchstart)
+    input.addEventListener('click', (e) => {
+      dropdown.classList.remove('hidden');
+      setTimeout(() => dropdown.classList.remove('opacity-0'), 10);
+      renderList(input.value);
       input.select();
     });
   };
