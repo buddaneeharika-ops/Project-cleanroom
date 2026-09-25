@@ -154,17 +154,17 @@
   <div class="bg-white border border-gray-200 rounded-xl p-4 lg:p-5 flex flex-col xl:flex-row xl:items-center justify-between gap-6 shadow-[0_2px_4px_rgba(0,0,0,0.02)] relative z-10">
     
     <!-- Left: Segmented Control -->
-    <div class="flex flex-col gap-2 shrink-0">
+    <div class="flex flex-col gap-2 shrink-0 w-full xl:w-auto">
       <p class="text-[9px] font-extrabold text-gray-400 uppercase tracking-[0.1em] ml-1.5">Glance Report Zoom Level</p>
-      <div class="inline-flex bg-slate-100/80 p-1 rounded-[12px] border border-slate-200/50 self-start shadow-[inset_0_1px_2px_rgba(0,0,0,0.03)]">
-        <a href="/country-glance-report" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
-          <span class="material-symbols-outlined" style="font-size:16px;">public</span> Country Data
+      <div class="flex w-full bg-slate-100/80 p-1 rounded-[12px] border border-slate-200/50 self-start shadow-[inset_0_1px_2px_rgba(0,0,0,0.03)]">
+        <a href="/country-glance-report" class="flex-1 flex justify-center items-center gap-1.5 py-1.5 text-[11.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
+          <span class="material-symbols-outlined" style="font-size:16px;">public</span> Country
         </a>
-        <a href="/country-glance-map" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
-          <span class="material-symbols-outlined" style="font-size:16px;">explore</span> Country Map
+        <a href="/country-glance-map" class="flex-1 flex justify-center items-center gap-1.5 py-1.5 text-[11.5px] font-bold text-slate-500 hover:text-slate-900 hover:bg-slate-200/60 rounded-lg transition-all duration-200">
+          <span class="material-symbols-outlined" style="font-size:16px;">explore</span> Map
         </a>
-        <a href="/state-glance-report" class="flex items-center gap-1.5 px-4 py-1.5 text-[12.5px] font-bold text-white bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.15)] ring-1 ring-gray-900/10 transition-all duration-200">
-          <span class="material-symbols-outlined text-gray-300" style="font-size:16px;">flag</span> State Report
+        <a href="/state-glance-report" class="flex-1 flex justify-center items-center gap-1.5 py-1.5 text-[11.5px] font-bold text-white bg-gradient-to-b from-gray-800 to-gray-900 rounded-lg shadow-[0_2px_8px_rgba(0,0,0,0.15)] ring-1 ring-gray-900/10 transition-all duration-200">
+          <span class="material-symbols-outlined text-gray-300" style="font-size:16px;">flag</span> State
         </a>
       </div>
     </div>
@@ -197,20 +197,20 @@
   <!-- ─────────────────────────────────────────
        STUNNING EMPTY STATE / CENTER SELECTOR
   ───────────────────────────────────────── -->
-  <div id="emptyStateContainer" class="flex flex-col items-center justify-center pt-8 pb-16 w-full fade-in" style="display: none;">
-    <div class="mb-4 relative">
-      <div class="absolute inset-0 bg-indigo-500 blur-[60px] opacity-20 rounded-full scale-150"></div>
-      <div class="relative w-20 h-20 bg-gradient-to-br from-white to-indigo-50 border border-indigo-100 rounded-[2rem] flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-6 transition-transform duration-500">
-        <span class="material-symbols-outlined text-indigo-600 drop-shadow-sm" style="font-size:40px;">map</span>
+  <div id="emptyStateContainer" class="flex flex-col items-center justify-center pt-4 pb-8 lg:pt-8 w-full fade-in" style="display: none;">
+    <div class="mb-3 relative">
+      <div class="absolute inset-0 bg-indigo-500 blur-[40px] opacity-20 rounded-full scale-150"></div>
+      <div class="relative w-14 h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-white to-indigo-50 border border-indigo-100 rounded-[1.2rem] lg:rounded-[1.5rem] flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-6 transition-transform duration-500">
+        <span class="material-symbols-outlined text-indigo-600 drop-shadow-sm text-[28px] lg:text-[32px]">map</span>
       </div>
     </div>
     
-    <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mb-2 tracking-tight text-center relative z-10">Select Intelligence Region</h2>
-    <p class="text-[14px] lg:text-[15px] text-gray-500 font-medium text-center max-w-md leading-relaxed mb-6 relative z-10 px-4">
+    <h2 class="text-2xl lg:text-3xl font-black text-gray-900 mb-1.5 tracking-tight text-center relative z-10">Select Intelligence Region</h2>
+    <p class="text-[13px] lg:text-[14px] text-gray-500 font-medium text-center max-w-sm leading-relaxed mb-4 relative z-10 px-4">
       Access demographic intelligence, coverage metrics, and historical election data for any State or UT.
     </p>
 
-    <div class="relative w-full max-w-lg group z-50 mt-2 px-4 lg:px-0">
+    <div id="centerStateSelectorWrapper" class="relative w-full max-w-lg group z-50 mt-2 px-4 lg:px-0">
       <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 rounded-[1.5rem] blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-300"></div>
       <div class="relative flex items-center bg-white/95 backdrop-blur-xl border border-white/80 rounded-2xl shadow-2xl ring-1 ring-gray-900/5 focus-within:ring-4 focus-within:ring-indigo-500/20 focus-within:border-indigo-500 transition-all p-2 h-[68px] lg:h-[76px]">
         <div class="pl-2 pr-3 flex items-center pointer-events-none z-10">
@@ -1996,11 +1996,13 @@ document.addEventListener("DOMContentLoaded", () => {
     if(d2 && !d2.classList.contains('hidden')) { d2.classList.add('opacity-0'); setTimeout(() => d2.classList.add('hidden'), 200); }
   };
 
-  document.addEventListener('click', (e) => {
-    if(!e.target.closest('#topStateSelectorWrapper') && !e.target.closest('#emptyStateContainer')) {
+  const handleOutsideClick = (e) => {
+    if(!e.target.closest('#topStateSelectorWrapper') && !e.target.closest('#centerStateSelectorWrapper')) {
       closeAllDropdowns();
     }
-  });
+  };
+  document.addEventListener('click', handleOutsideClick);
+  document.addEventListener('touchstart', handleOutsideClick, {passive: true});
 
   /* ══ FETCH ══ */
   const loadData = async (state) => {
