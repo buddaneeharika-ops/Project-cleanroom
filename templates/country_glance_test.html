@@ -116,10 +116,16 @@
 
     /* ── Dense Enterprise Table ── */
     table.glance-tbl { width: 100%; border-collapse: separate; border-spacing: 0; }
-    table.glance-tbl thead {
+    table.glance-tbl thead tr:nth-child(1) th {
       position: sticky;
       top: 56px; /* Below navbar */
-      z-index: 15;
+      height: 42px;
+      z-index: 12;
+    }
+    table.glance-tbl thead tr:nth-child(2) th {
+      position: sticky;
+      top: 98px; /* 56px + 42px */
+      z-index: 11;
     }
     table.glance-tbl th {
       background: #f8fafc;
@@ -283,7 +289,7 @@
 
 </head>
 
-<body class="overflow-x-hidden bg-slate-50">
+<body class="flex flex-col min-h-screen overflow-x-hidden bg-slate-50">
 
 <!-- Fixed background blobs -->
 <div aria-hidden="true" class="absolute inset-0 overflow-hidden pointer-events-none -z-10">
@@ -760,12 +766,12 @@
     </div>
   </div>
 
-  <div id="table-wrap" class="hidden overflow-x-auto" style="max-height: calc(100vh - 260px);">
+  <div id="table-wrap" class="hidden overflow-x-auto min-w-0 w-full" style="max-height: calc(100vh - 260px);">
         <table class="glance-tbl" id="glanceTable">
           <thead>
             <tr>
               <th rowspan="2" class="w-10 text-center sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;">#</th>
-              <th rowspan="2" class="w-60 text-left cursor-pointer sticky left-[40px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;" onclick="sortTable('state_name')">
+              <th rowspan="2" class="w-60 text-left cursor-pointer sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;" onclick="sortTable('state_name')">
                 State / UT <span class="text-[10px] text-gray-300 ml-0.5">↕</span>
               </th>
               <!-- ECI group header -->
@@ -975,7 +981,7 @@
         : row.state_name;
       tr.innerHTML = `
         <td class="text-center text-gray-400 font-medium text-xs bg-[#f8fafc] sticky left-0 z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)]">${idx+1}</td>
-        <td class="font-semibold text-gray-800 text-[12.5px] bg-[#f8fafc] sticky left-[40px] z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)] pr-4">${stateLabel}</td>
+        <td class="font-semibold text-gray-800 text-[12.5px] bg-[#f8fafc] sticky left-[39px] z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)] pr-4">${stateLabel}</td>
         <td class="text-center eci-col ${h('retro')}">${getDotHTML(row.retro)}</td>
         <td class="text-center eci-col ${h('form20')}">${getDotHTML(row.form20)}</td>
         <td class="text-center eci-col ${h('caste')}">${getDotHTML(row.caste)}</td>
