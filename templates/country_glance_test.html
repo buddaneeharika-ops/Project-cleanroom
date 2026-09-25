@@ -770,9 +770,13 @@
         <table class="glance-tbl" id="glanceTable">
           <thead>
             <tr>
-              <th class="w-10 text-center sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0" style="z-index: 20 !important;">#</th>
-              <th class="w-60 text-left cursor-pointer sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0" style="z-index: 20 !important;" onclick="sortTable('state_name')">
-                State / UT <span class="text-[10px] text-gray-300 ml-0.5">↕</span>
+              <th class="w-10 text-center sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0 p-0" style="z-index: 20 !important;">
+                <div class="absolute top-0 left-0 w-full h-[84px] flex items-center justify-center">#</div>
+              </th>
+              <th class="w-60 text-left cursor-pointer sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0 p-0" style="z-index: 20 !important;" onclick="sortTable('state_name')">
+                <div class="absolute top-0 left-0 w-full h-[84px] flex items-center justify-start pl-4 gap-2">
+                  State / UT <span class="text-[10px] text-gray-300">↕</span>
+                </div>
               </th>
               <!-- ECI group header -->
               <th colspan="4" class="text-center" id="group-eci">ECI Data Points <span class="text-[9.5px] font-normal text-gray-400 font-mono">(AC-wise %)</span></th>
