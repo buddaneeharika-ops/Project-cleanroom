@@ -770,13 +770,9 @@
         <table class="glance-tbl" id="glanceTable">
           <thead>
             <tr>
-              <th class="w-10 text-center sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0 p-0" style="z-index: 20 !important;">
-                <div class="absolute top-0 left-0 w-full h-[84px] flex items-center justify-center">#</div>
-              </th>
-              <th class="w-60 text-left cursor-pointer sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)] border-b-0 p-0" style="z-index: 20 !important;" onclick="sortTable('state_name')">
-                <div class="absolute top-0 left-0 w-full h-[84px] flex items-center justify-start pl-4 gap-2">
-                  State / UT <span class="text-[10px] text-gray-300">↕</span>
-                </div>
+              <th rowspan="2" class="text-center sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important; width: 40px; min-width: 40px; max-width: 40px; box-sizing: border-box;">#</th>
+              <th rowspan="2" class="w-60 text-left cursor-pointer sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;" onclick="sortTable('state_name')">
+                State / UT <span class="text-[10px] text-gray-300 ml-0.5">↕</span>
               </th>
               <!-- ECI group header -->
               <th colspan="4" class="text-center" id="group-eci">ECI Data Points <span class="text-[9.5px] font-normal text-gray-400 font-mono">(AC-wise %)</span></th>
@@ -784,9 +780,6 @@
               <th colspan="9" class="text-center bg-gray-50/70" id="group-other">Available Data — Other Sources <span class="text-[9.5px] font-normal text-gray-500 font-mono">(District-wise %)</span></th>
             </tr>
             <tr>
-              <!-- Empty spacer cells for the split rowspan -->
-              <th class="w-10 sticky left-0 bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;"></th>
-              <th class="w-60 sticky left-[39px] bg-[#f8fafc] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="z-index: 20 !important;"></th>
               <!-- ECI cols -->
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('retro')">Retro Data</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
@@ -987,7 +980,7 @@
         ? `${row.state_name} <span class="text-amber-600 font-bold ml-0.5" title="Capped at 100% (adjusted for election seats increase from 87 to 90 seats in 2022)">*</span>`
         : row.state_name;
       tr.innerHTML = `
-        <td class="text-center text-gray-400 font-medium text-xs bg-[#f8fafc] sticky left-0 z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)]">${idx+1}</td>
+        <td class="text-center text-gray-400 font-medium text-xs bg-[#f8fafc] sticky left-0 z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="width: 40px; min-width: 40px; max-width: 40px; box-sizing: border-box;">${idx+1}</td>
         <td class="font-semibold text-gray-800 text-[12.5px] bg-[#f8fafc] sticky left-[39px] z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)] pr-4">${stateLabel}</td>
         <td class="text-center eci-col ${h('retro')}">${getDotHTML(row.retro)}</td>
         <td class="text-center eci-col ${h('form20')}">${getDotHTML(row.form20)}</td>
