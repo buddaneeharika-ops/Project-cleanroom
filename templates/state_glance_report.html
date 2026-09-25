@@ -197,35 +197,35 @@
   <!-- ─────────────────────────────────────────
        STUNNING EMPTY STATE / CENTER SELECTOR
   ───────────────────────────────────────── -->
-  <div id="emptyStateContainer" class="flex flex-col items-center justify-center pt-20 pb-32 w-full fade-in" style="display: none;">
-    <div class="mb-8 relative">
+  <div id="emptyStateContainer" class="flex flex-col items-center justify-center pt-8 pb-16 w-full fade-in" style="display: none;">
+    <div class="mb-4 relative">
       <div class="absolute inset-0 bg-indigo-500 blur-[60px] opacity-20 rounded-full scale-150"></div>
-      <div class="relative w-24 h-24 bg-gradient-to-br from-white to-indigo-50 border border-indigo-100 rounded-[2rem] flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-6 transition-transform duration-500">
-        <span class="material-symbols-outlined text-indigo-600 drop-shadow-sm" style="font-size:48px;">map</span>
+      <div class="relative w-20 h-20 bg-gradient-to-br from-white to-indigo-50 border border-indigo-100 rounded-[2rem] flex items-center justify-center shadow-lg transform rotate-3 hover:rotate-6 transition-transform duration-500">
+        <span class="material-symbols-outlined text-indigo-600 drop-shadow-sm" style="font-size:40px;">map</span>
       </div>
     </div>
     
-    <h2 class="text-4xl font-black text-gray-900 mb-4 tracking-tight text-center relative z-10">Select Intelligence Region</h2>
-    <p class="text-[15px] text-gray-500 font-medium text-center max-w-md leading-relaxed mb-10 relative z-10">
+    <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mb-2 tracking-tight text-center relative z-10">Select Intelligence Region</h2>
+    <p class="text-[14px] lg:text-[15px] text-gray-500 font-medium text-center max-w-md leading-relaxed mb-6 relative z-10 px-4">
       Access demographic intelligence, coverage metrics, and historical election data for any State or UT.
     </p>
 
-    <div class="relative w-full max-w-lg group z-50 mt-4">
+    <div class="relative w-full max-w-lg group z-50 mt-2 px-4 lg:px-0">
       <div class="absolute -inset-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-blue-500 rounded-[1.5rem] blur opacity-25 group-hover:opacity-40 transition duration-1000 group-hover:duration-300"></div>
-      <div class="relative flex items-center bg-white/95 backdrop-blur-xl border border-white/80 rounded-2xl shadow-2xl ring-1 ring-gray-900/5 focus-within:ring-4 focus-within:ring-indigo-500/20 focus-within:border-indigo-500 transition-all p-2 h-[76px]">
+      <div class="relative flex items-center bg-white/95 backdrop-blur-xl border border-white/80 rounded-2xl shadow-2xl ring-1 ring-gray-900/5 focus-within:ring-4 focus-within:ring-indigo-500/20 focus-within:border-indigo-500 transition-all p-2 h-[68px] lg:h-[76px]">
         <div class="pl-2 pr-3 flex items-center pointer-events-none z-10">
-          <div class="bg-gradient-to-br from-indigo-500 to-blue-600 p-2.5 rounded-[12px] shadow-inner shadow-white/20 flex items-center justify-center">
-             <span class="material-symbols-outlined text-white" style="font-size:26px;">travel_explore</span>
+          <div class="bg-gradient-to-br from-indigo-500 to-blue-600 p-2 lg:p-2.5 rounded-[12px] shadow-inner shadow-white/20 flex items-center justify-center">
+             <span class="material-symbols-outlined text-white" style="font-size:24px;">travel_explore</span>
           </div>
         </div>
-        <input type="text" id="centerStateSearchInput" placeholder="Type a State or UT name..." class="appearance-none w-full h-full bg-transparent text-[18px] font-black text-gray-800 outline-none border-0 focus:ring-0 tracking-tight" autocomplete="off" spellcheck="false" />
+        <input type="text" id="centerStateSearchInput" placeholder="Type a State or UT name..." class="appearance-none w-full h-full bg-transparent text-[16px] lg:text-[18px] font-black text-gray-800 outline-none border-0 focus:ring-0 tracking-tight" autocomplete="off" spellcheck="false" />
         <div class="pr-2 flex items-center pointer-events-none z-10">
           <div class="bg-gray-50 flex items-center justify-center h-full px-3 py-2 rounded-xl border border-gray-200/60 shadow-[inset_0_1px_2px_rgba(0,0,0,0.02)] group-hover:bg-indigo-50 group-hover:border-indigo-100 transition-colors">
-            <span class="material-symbols-outlined text-gray-400 group-hover:text-indigo-600 transition-colors" style="font-size:24px;">search</span>
+            <span class="material-symbols-outlined text-gray-400 group-hover:text-indigo-600 transition-colors" style="font-size:22px;">search</span>
           </div>
         </div>
         <!-- Dropdown Menu -->
-        <div id="centerStateSearchDropdown" class="absolute top-[calc(100%+12px)] left-0 w-full bg-white/95 backdrop-blur-xl border border-gray-200/80 rounded-2xl shadow-2xl overflow-hidden hidden opacity-0 transition-opacity duration-200 max-h-[350px] overflow-y-auto">
+        <div id="centerStateSearchDropdown" class="absolute bottom-[calc(100%+12px)] left-0 w-full bg-white/95 backdrop-blur-xl border border-gray-200/80 rounded-2xl shadow-2xl overflow-hidden hidden opacity-0 transition-opacity duration-200 max-h-[250px] lg:max-h-[350px] overflow-y-auto">
            <!-- Populated by JS -->
         </div>
       </div>
