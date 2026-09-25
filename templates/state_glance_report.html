@@ -36,7 +36,7 @@
     ::-webkit-scrollbar-thumb:hover { background: #9ca3af; }
     /* ── Section card ── */
     .sec { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; }
-    .sec-head { padding: 12px 18px; border-bottom: 1px solid #f1f5f9; background: #f8fafc; display:flex; align-items:center; justify-content:space-between; }
+    .sec-head { padding: 12px 18px; border-bottom: 1px solid #f1f5f9; background: #f8fafc; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:12px; }
     .sec-title { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #475569; }
     /* ── Status chips ── */
     .chip { display:inline-flex; align-items:center; font-size:9.5px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; padding:2px 7px; border-radius:3px; border-width:1px; border-style:solid; white-space:nowrap; }
@@ -97,7 +97,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 </head>
-<body class="flex flex-col min-h-screen">
+<body class="flex flex-col min-h-screen overflow-x-hidden">
 
 <!-- ═══════════════════════════════════════════════════════════
      NAV — Exact copy from index.html
@@ -236,71 +236,71 @@
   <!-- ─────────────────────────────────────────
        HERO KPI STRIP — 4 cards with progress rings
   ───────────────────────────────────────── -->
-  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4">
 
     <!-- Retro Availability -->
-    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
-      <div>
-        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Retro Data Availability</p>
-        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroRetroVal">98.76%</p>
-        <div class="prog-track w-32 mt-2"><div class="prog-fill bg-emerald-500" id="heroRetroBar" style="width:0%"></div></div>
-        <p class="text-[10px] text-gray-400 mt-1.5">Assembly + GE + By-polls</p>
+    <div class="bg-white border border-gray-200 rounded-xl p-2.5 md:p-4 flex flex-col md:flex-row md:items-center justify-between shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+      <div class="z-10 relative">
+        <p class="text-[9px] md:text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1 truncate">Retro Data</p>
+        <p class="text-xl md:text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroRetroVal">--%</p>
+        <div class="prog-track w-16 md:w-32 mt-1.5 md:mt-2"><div class="prog-fill bg-emerald-500" id="heroRetroBar" style="width:0%"></div></div>
+        <p class="text-[9px] md:text-[10px] text-gray-400 mt-1 md:mt-1.5 truncate hidden md:block">Assembly + GE + By-polls</p>
       </div>
-      <div class="relative shrink-0 ml-3">
-        <svg width="52" height="52" viewBox="0 0 36 36">
+      <div class="relative shrink-0 mt-2 md:mt-0 md:ml-3 z-10 self-end md:self-auto">
+        <svg class="w-9 h-9 md:w-[52px] md:h-[52px]" viewBox="0 0 36 36">
           <circle cx="18" cy="18" r="15.9" fill="none" stroke="#f1f5f9" stroke-width="3"/>
           <circle cx="18" cy="18" r="15.9" fill="none" stroke="#10b981" stroke-width="3"
             stroke-linecap="round" class="ring-fill" id="heroRetroRing" stroke-dasharray="0,100"/>
         </svg>
         <div class="absolute inset-0 flex items-center justify-center">
-          <span class="text-[9px] font-black text-emerald-600 tabular-nums" id="heroRetroRingLabel">--</span>
+          <span class="text-[8px] md:text-[9px] font-black text-emerald-600 tabular-nums" id="heroRetroRingLabel">--</span>
         </div>
       </div>
     </div>
 
     <!-- Form 20 Availability -->
-    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
-      <div>
-        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Form 20 Availability</p>
-        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroF20Val">--%</p>
-        <div class="prog-track w-32 mt-2"><div class="prog-fill bg-indigo-500" id="heroF20Bar" style="width:0%"></div></div>
-        <p class="text-[10px] text-gray-400 mt-1.5">4 election cycles</p>
+    <div class="bg-white border border-gray-200 rounded-xl p-2.5 md:p-4 flex flex-col md:flex-row md:items-center justify-between shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+      <div class="z-10 relative">
+        <p class="text-[9px] md:text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1 truncate">Form 20</p>
+        <p class="text-xl md:text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroF20Val">--%</p>
+        <div class="prog-track w-16 md:w-32 mt-1.5 md:mt-2"><div class="prog-fill bg-indigo-500" id="heroF20Bar" style="width:0%"></div></div>
+        <p class="text-[9px] md:text-[10px] text-gray-400 mt-1 md:mt-1.5 truncate hidden md:block">4 election cycles</p>
       </div>
-      <div class="relative shrink-0 ml-3">
-        <svg width="52" height="52" viewBox="0 0 36 36">
+      <div class="relative shrink-0 mt-2 md:mt-0 md:ml-3 z-10 self-end md:self-auto">
+        <svg class="w-9 h-9 md:w-[52px] md:h-[52px]" viewBox="0 0 36 36">
           <circle cx="18" cy="18" r="15.9" fill="none" stroke="#f1f5f9" stroke-width="3"/>
           <circle cx="18" cy="18" r="15.9" fill="none" stroke="#6366f1" stroke-width="3"
             stroke-linecap="round" class="ring-fill" id="heroF20Ring" stroke-dasharray="0,100"/>
         </svg>
         <div class="absolute inset-0 flex items-center justify-center">
-          <span class="text-[9px] font-black text-indigo-600 tabular-nums" id="heroF20RingLabel">--</span>
+          <span class="text-[8px] md:text-[9px] font-black text-indigo-600 tabular-nums" id="heroF20RingLabel">--</span>
         </div>
       </div>
     </div>
 
     <!-- Total Population -->
-    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
-      <div>
-        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Total Population</p>
-        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroPopVal">--</p>
-        <p class="text-[10px] text-gray-400 mt-2">Joshua Project</p>
-        <p class="text-[11px] font-semibold text-indigo-600 mt-0.5"><span id="heroPeoplesGroups">--</span> Peoples Groups</p>
+    <div class="bg-white border border-gray-200 rounded-xl p-2.5 md:p-4 flex flex-col md:flex-row md:items-center justify-between shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+      <div class="z-10 relative">
+        <p class="text-[9px] md:text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1 truncate">Population</p>
+        <p class="text-xl md:text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroPopVal">--</p>
+        <p class="text-[9px] md:text-[10px] text-gray-400 mt-1 md:mt-2 truncate">Joshua Project</p>
+        <p class="text-[10px] md:text-[11px] font-semibold text-indigo-600 mt-0.5 truncate hidden md:block"><span id="heroPeoplesGroups">--</span> Peoples Groups</p>
       </div>
-      <div class="shrink-0 ml-3 w-10 h-10 rounded-full bg-indigo-50 flex items-center justify-center border border-indigo-100">
-        <span class="material-symbols-outlined text-indigo-500" style="font-size:20px;font-variation-settings:'FILL' 1;">groups</span>
+      <div class="shrink-0 mt-2 md:mt-0 md:ml-3 w-8 h-8 md:w-10 md:h-10 rounded-full bg-indigo-50 flex items-center justify-center border border-indigo-100 z-10 self-end md:self-auto">
+        <span class="material-symbols-outlined text-indigo-500 text-[16px] md:text-[20px]" style="font-variation-settings:'FILL' 1;">groups</span>
       </div>
     </div>
 
     <!-- Muslim Population -->
-    <div class="bg-white border border-gray-200 rounded-xl p-4 flex items-center justify-between shadow-sm hover:shadow-md transition-shadow">
-      <div>
-        <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Muslim Population</p>
-        <p class="text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroMusVal">--</p>
-        <span class="chip chip-red mt-2 inline-block" id="heroMusPct">--%</span>
-        <p class="text-[10px] text-gray-400 mt-1.5">of total — Census 2011</p>
+    <div class="bg-white border border-gray-200 rounded-xl p-2.5 md:p-4 flex flex-col md:flex-row md:items-center justify-between shadow-sm hover:shadow-md transition-shadow relative overflow-hidden">
+      <div class="z-10 relative">
+        <p class="text-[9px] md:text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1 truncate">Muslim Pop.</p>
+        <p class="text-xl md:text-3xl font-black text-gray-900 tabular-nums leading-none" id="heroMusVal">--</p>
+        <span class="chip chip-red mt-1 md:mt-2 inline-block text-[9px] px-1 py-0" id="heroMusPct">--%</span>
+        <p class="text-[9px] md:text-[10px] text-gray-400 mt-1 md:mt-1.5 truncate hidden md:block">of total — Census 2011</p>
       </div>
-      <div class="shrink-0 ml-3 w-10 h-10 rounded-full bg-rose-50 flex items-center justify-center border border-rose-100">
-        <span class="material-symbols-outlined text-rose-500" style="font-size:20px;font-variation-settings:'FILL' 1;">mosque</span>
+      <div class="shrink-0 mt-2 md:mt-0 md:ml-3 w-8 h-8 md:w-10 md:h-10 rounded-full bg-rose-50 flex items-center justify-center border border-rose-100 z-10 self-end md:self-auto">
+        <span class="material-symbols-outlined text-rose-500 text-[16px] md:text-[20px]" style="font-variation-settings:'FILL' 1;">mosque</span>
       </div>
     </div>
   </div>
@@ -323,12 +323,12 @@
     <div class="p-4 grid grid-cols-1 lg:grid-cols-2 gap-5">
       <!-- AE -->
       <div onclick="openRetroModal('AE')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
-        <div class="flex items-center justify-between mb-3 shrink-0">
+        <div class="flex flex-col md:flex-row md:items-center justify-between items-start gap-2 mb-3 shrink-0">
           <div class="flex items-center gap-2">
             <span class="chip chip-green text-[10px] font-bold">AE</span>
             <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Assembly Elections</span>
           </div>
-          <div id="retroAeSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+          <div id="retroAeSummary" class="text-[10px] text-gray-500 font-medium flex gap-2 md:gap-3 flex-wrap"></div>
         </div>
         <div class="relative w-full" style="height: 160px;">
           <canvas id="retroAeCanvas"></canvas>
@@ -342,12 +342,12 @@
       </div>
       <!-- GE -->
       <div onclick="openRetroModal('GE')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
-        <div class="flex items-center justify-between mb-3 shrink-0">
+        <div class="flex flex-col md:flex-row md:items-center justify-between items-start gap-2 mb-3 shrink-0">
           <div class="flex items-center gap-2">
             <span class="chip chip-blue text-[10px] font-bold">GE</span>
             <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">General Elections</span>
           </div>
-          <div id="retroGeSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+          <div id="retroGeSummary" class="text-[10px] text-gray-500 font-medium flex gap-2 md:gap-3 flex-wrap"></div>
         </div>
         <div class="relative w-full" style="height: 160px;">
           <canvas id="retroGeCanvas"></canvas>
@@ -361,12 +361,12 @@
       </div>
       <!-- AE BP -->
       <div onclick="openRetroModal('AE-BP')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
-        <div class="flex items-center justify-between mb-3 shrink-0">
+        <div class="flex flex-col md:flex-row md:items-center justify-between items-start gap-2 mb-3 shrink-0">
           <div class="flex items-center gap-2">
             <span class="chip chip-amber text-[10px] font-bold">AE-BP</span>
             <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Assembly By-Polls</span>
           </div>
-          <div id="retroAeBpSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+          <div id="retroAeBpSummary" class="text-[10px] text-gray-500 font-medium flex gap-2 md:gap-3 flex-wrap"></div>
         </div>
         <div class="relative w-full" style="height: 160px;">
           <canvas id="retroAeBpCanvas"></canvas>
@@ -380,12 +380,12 @@
       </div>
       <!-- GE BP -->
       <div onclick="openRetroModal('GE-BP')" class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-xl hover:border-indigo-300 hover:ring-4 hover:ring-indigo-50 transition-all cursor-pointer flex flex-col group" style="height: 290px;">
-        <div class="flex items-center justify-between mb-3 shrink-0">
+        <div class="flex flex-col md:flex-row md:items-center justify-between items-start gap-2 mb-3 shrink-0">
           <div class="flex items-center gap-2">
             <span class="chip chip-amber text-[10px] font-bold">GE-BP</span>
             <span class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">General By-Polls</span>
           </div>
-          <div id="retroGeBpSummary" class="text-[10px] text-gray-500 font-medium flex gap-3"></div>
+          <div id="retroGeBpSummary" class="text-[10px] text-gray-500 font-medium flex gap-2 md:gap-3 flex-wrap"></div>
         </div>
         <div class="relative w-full" style="height: 160px;">
           <canvas id="retroGeBpCanvas"></canvas>
