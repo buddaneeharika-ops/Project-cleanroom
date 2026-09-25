@@ -149,7 +149,12 @@
     }
     table.glance-tbl th:last-child,
     table.glance-tbl td:last-child { border-right: none; }
-    table.glance-tbl tr:hover td { background: rgba(0,0,0,0.016) !important; }
+    
+    @media (hover: hover) {
+      table.glance-tbl tbody tr:hover td:not(.sticky) { 
+        background: rgba(0,0,0,0.02) !important; 
+      }
+    }
     table.glance-tbl tbody tr:last-child td { border-bottom: none; }
 
     /* ── Status Dots ── */
@@ -975,7 +980,7 @@
 
     rows.forEach((row, idx) => {
       const tr = document.createElement('tr');
-      tr.className = "hover:bg-gray-50 transition-colors";
+      tr.className = "transition-colors";
       const stateLabel = row.state_abb === 'JK'
         ? `${row.state_name} <span class="text-amber-600 font-bold ml-0.5" title="Capped at 100% (adjusted for election seats increase from 87 to 90 seats in 2022)">*</span>`
         : row.state_name;
