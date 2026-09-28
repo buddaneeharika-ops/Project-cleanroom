@@ -81,8 +81,12 @@ def fetch_data_robust():
                 retro_timeline = {}
                 for yr, ty, ac_count in retro_rows:
                     if ty not in retro_timeline: retro_timeline[ty] = []
-                    avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
-                    missing = total_acs - ac_count if total_acs >= ac_count else 0
+                    if ty.endswith('BP'):
+                        avail = 100.0 if ac_count > 0 else 0.0
+                        missing = 0
+                    else:
+                        avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
+                        missing = total_acs - ac_count if total_acs >= ac_count else 0
                     retro_timeline[ty].append({"year": str(yr), "availability": avail, "missing": missing})
                     
                 cur.execute("SELECT DISTINCT a.ac_no, a.ac_name FROM ac_election_mapping a LEFT JOIN form20_summary_view f ON a.ac_no = f.ac_no AND a.state_abb = f.state_abb WHERE a.state_abb = %s AND f.ac_no IS NULL LIMIT 25", (state,))
@@ -96,8 +100,12 @@ def fetch_data_robust():
                 total_booths = 0
                 for yr, ty, ac_count, booths in form20_rows:
                     if ty not in f20_timeline: f20_timeline[ty] = []
-                    avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
-                    missing = total_acs - ac_count if total_acs >= ac_count else 0
+                    if ty.endswith('BP'):
+                        avail = 100.0 if ac_count > 0 else 0.0
+                        missing = 0
+                    else:
+                        avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
+                        missing = total_acs - ac_count if total_acs >= ac_count else 0
                     vm = 4.64 if (state == 'BR' and str(yr) == '2020') else 2.41
                     total_booths += (booths or 0)
                     f20_timeline[ty].append({"year": str(yr), "availability": avail, "missing": missing, "vote_mismatch": vm})
