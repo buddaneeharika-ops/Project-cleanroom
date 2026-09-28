@@ -293,10 +293,10 @@
     <!-- ══════════════════════════════════════════
          LISTING VIEW
     ══════════════════════════════════════════ -->
-    <div id="listing-view" class="hidden flex-col h-full w-full">
+    <div id="listing-view" class="hidden h-full w-full flex-col overflow-y-auto md:overflow-hidden custom-scrollbar">
 
       <!-- Header Bar -->
-      <div class="h-[50px] bg-white border-b border-gray-200 flex items-center justify-between px-5 sticky top-0 z-30 shrink-0">
+      <div class="py-3 min-h-[50px] bg-white border-b border-gray-200 flex flex-col items-start md:flex-row md:items-center justify-between px-5 gap-3 sticky top-0 z-30 shrink-0">
         <div class="flex items-center gap-3">
           <h1 class="text-[13px] font-semibold text-gray-900">Remaining Elections</h1>
           <span class="text-[11px] font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded-md tabular-nums" id="record-count-badge">— records</span>
@@ -413,14 +413,14 @@
            50px toolbar above stays fixed. Table header is sticky. Per-stage counts
            and overall progress live in the sidebar (their single source) — not
            repeated here. -->
-      <div class="flex-1 overflow-auto custom-scrollbar">
+      <div class="flex-1 overflow-visible md:overflow-auto custom-scrollbar">
         <div class="min-h-full flex flex-col">
 
           <!-- Data Table -->
           <table class="w-full text-left border-collapse min-w-[900px]">
             <!-- Header is rendered dynamically by renderTable() for the states /
                  detail views; this static header is only the pre-JS placeholder. -->
-            <thead id="table-head" class="sticky top-0 bg-white border-b border-gray-200 z-20">
+            <thead id="table-head" class="relative md:sticky top-0 bg-white border-b border-gray-200 z-20">
             <tr>
               <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider">State</th>
               <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider">Remaining</th>
