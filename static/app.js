@@ -1198,7 +1198,7 @@ function renderCastePanel(d) {
   const realCatN   = (d.by_category || []).length;
 
   const coveragePctAll = d.coverage_pct_all || 0;
-  if (pctEl) pctEl.textContent = coveragePctAll + '% AC coverage';
+  if (pctEl) pctEl.textContent = coveragePctAll + '%';
   if (subStatesEl) subStatesEl.textContent = fmtNum(d.states);
   if (heroCaste)    heroCaste.textContent    = fmtNum(acsCovered);
   if (heroCasteSub) heroCasteSub.textContent = `${fmtNum(d.states)} States/UTs`;
@@ -1293,7 +1293,7 @@ function renderBoothPanel(d) {
   const totalAcsAll     = d.total_acs_all || 0;
   const stateProgress   = d.state_progress || [];
 
-  if (pctEl)       pctEl.textContent = coveragePctAll + '% AC coverage';
+  if (pctEl)       pctEl.textContent = coveragePctAll + '%';
   if (subStatesEl) subStatesEl.textContent = fmtNum(d.states);
   if (heroBooth)    heroBooth.textContent    = fmtNum(acsCovered);
   if (heroBoothSub) heroBoothSub.textContent = `${coveragePctAll}% · ${fmtNum(d.states)} States/UTs`;
