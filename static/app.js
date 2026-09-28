@@ -809,6 +809,11 @@ function bindEvents() {
       if (t.id === activeId) {
         view.classList.remove('hidden'); view.classList.add('flex');
         nav.classList.add('active');
+        if (window.innerWidth < 768) {
+          setTimeout(() => {
+            nav.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+          }, 50);
+        }
         if (t.setup) t.setup();
       } else {
         view.classList.add('hidden'); view.classList.remove('flex');
