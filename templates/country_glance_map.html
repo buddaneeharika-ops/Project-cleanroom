@@ -148,6 +148,7 @@
       position: fixed;
       top: 56px; right: 0;
       width: 380px;
+      max-width: 100vw;
       height: calc(100vh - 56px);
       background: rgba(255, 255, 255, 0.97);
       backdrop-filter: blur(16px);
@@ -2075,6 +2076,15 @@
 
     // Re-render to highlight selected state
     renderLayers();
+
+    // Automatically collapse the search sheet on mobile
+    if (window.innerWidth < 768) {
+      const panel = document.getElementById('control-panel');
+      if (panel) {
+        panel.classList.remove('search-active');
+        if (window.setSheetState) window.setSheetState(true);
+      }
+    }
   }
 
   function deselectState() {
