@@ -1137,8 +1137,9 @@ function renderRetroPanel(r) {
                  p <= 50 ? 'bg-amber-50 border-amber-100' : 'bg-gray-50 border-gray-100';
       const tc = p <= 20 ? 'text-rose-600' : p <= 50 ? 'text-amber-600' : 'text-gray-600';
       return `
-        <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5" title="${s.state}: ${s.pct}%">
-          <span class="text-[11px] font-bold ${tc}">${s.state} - ${s.pct}%</span>
+        <div class="flex flex-col items-center justify-center py-1.5 px-0.5 rounded-lg border ${bg} gap-0.5 text-center leading-tight" title="${s.state}: ${s.pct}%">
+          <span class="text-[10px] font-bold ${tc}">${s.state}</span>
+          <span class="text-[9px] font-bold ${tc}">${Math.round(p)}%</span>
         </div>`;
     }).join('');
   }
@@ -1258,10 +1259,10 @@ function renderCastePanel(d) {
                  p <= 50 ? 'bg-orange-50 border-orange-100' : 'bg-gray-50 border-gray-100';
       const tc = p <= 20 ? 'text-red-600' : p <= 50 ? 'text-orange-600' : 'text-gray-600';
       return `
-        <div class="flex flex-col items-center justify-center border py-1.5 rounded-lg gap-0.5 ${bg}" title="${s.state}: ${fmtNum(s.acs)} / ${fmtNum(s.total_acs)} ACs (${s.pct}%)">
-          <span class="text-[10.5px] font-bold ${tc}">${s.state}</span>
-          <span class="text-[12px] font-black text-gray-900 tabular-nums leading-none">${fmtNum(s.acs)}</span>
-          <span class="text-[9px] text-gray-400 tabular-nums leading-none">${s.pct}%</span>
+        <div class="flex flex-col items-center justify-center border py-1.5 px-0.5 rounded-lg gap-0.5 ${bg} text-center leading-tight" title="${s.state}: ${fmtNum(s.acs)} / ${fmtNum(s.total_acs)} ACs (${s.pct}%)">
+          <span class="text-[10px] font-bold ${tc}">${s.state}</span>
+          <span class="text-[11px] font-black text-gray-900 tabular-nums leading-none">${fmtNum(s.acs)}</span>
+          <span class="text-[9px] text-gray-400 tabular-nums leading-none">${Math.round(p)}%</span>
         </div>
       `;
     }).join('');
@@ -1324,10 +1325,10 @@ function renderBoothPanel(d) {
                  p <= 50 ? 'bg-orange-50 border-orange-100' : 'bg-gray-50 border-gray-100';
       const tc = p <= 20 ? 'text-red-600' : p <= 50 ? 'text-orange-600' : 'text-gray-600';
       return `
-        <div class="flex flex-col items-center justify-center border py-1.5 rounded-lg gap-0.5 ${bg}" title="${s.state}: ${fmtNum(s.acs)} / ${fmtNum(s.total_acs)} ACs (${s.pct}%)">
-          <span class="text-[10.5px] font-bold ${tc}">${s.state}</span>
-          <span class="text-[12px] font-black text-gray-900 tabular-nums leading-none">${fmtNum(s.acs)}</span>
-          <span class="text-[9px] text-gray-400 tabular-nums leading-none">${s.pct}%</span>
+        <div class="flex flex-col items-center justify-center border py-1.5 px-0.5 rounded-lg gap-0.5 ${bg} text-center leading-tight" title="${s.state}: ${fmtNum(s.acs)} / ${fmtNum(s.total_acs)} ACs (${s.pct}%)">
+          <span class="text-[10px] font-bold ${tc}">${s.state}</span>
+          <span class="text-[11px] font-black text-gray-900 tabular-nums leading-none">${fmtNum(s.acs)}</span>
+          <span class="text-[9px] text-gray-400 tabular-nums leading-none">${Math.round(p)}%</span>
         </div>
       `;
     }).join('');
@@ -1450,9 +1451,10 @@ function populateForm20Card(d) {
       const tc = intensity >= 8 ? 'text-red-600' : intensity >= 4 ? 'text-orange-600' : 'text-gray-600';
       
       return `
-        <div class="flex flex-col items-center justify-center py-1.5 rounded-lg border ${bg} gap-0.5">
-          <span class="text-[10.5px] font-bold ${tc}">${s.state} - ${Math.round(s.pct)}%</span>
-          <span class="text-[10px] font-semibold text-gray-600 tabular-nums leading-none">Election Years - ${s.missing_years}</span>
+        <div class="flex flex-col items-center justify-center py-1.5 px-0.5 rounded-lg border ${bg} gap-0.5 text-center leading-tight">
+          <span class="text-[10px] font-bold ${tc}">${s.state}</span>
+          <span class="text-[9px] font-bold ${tc}">${Math.round(s.pct)}%</span>
+          <span class="text-[8.5px] font-medium text-gray-500 tabular-nums mt-0.5">${s.missing_years} yrs missing</span>
         </div>`;
     }).join('');
   }
