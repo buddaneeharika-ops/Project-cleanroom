@@ -784,11 +784,11 @@
       <div class="bg-white border-b border-gray-200 px-5 sticky top-0 z-10 shrink-0">
 
         <!-- Row 1: title + table week selector -->
-        <div class="h-[48px] flex items-center justify-between">
+        <div class="py-2 min-h-[48px] flex flex-wrap items-center justify-between gap-y-2">
           <div class="flex items-center gap-2.5">
             <span class="material-symbols-outlined text-gray-400" style="font-size:15px;">fact_check</span>
             <h2 class="text-[13px] font-semibold text-gray-900">Weekly Report</h2>
-            <span class="text-[11px] font-semibold bg-indigo-50 text-indigo-600 px-2.5 py-0.5 rounded-full tabular-nums" id="glance-panel-count">— records</span>
+            <span class="text-[11px] font-semibold bg-indigo-50 text-indigo-600 px-2.5 py-0.5 rounded-full tabular-nums whitespace-nowrap" id="glance-panel-count">— records</span>
           </div>
 
           <!-- Table week selector (replaces old gradient button) -->
@@ -807,7 +807,7 @@
         </div>
 
         <!-- Row 2: Graph range filter bar -->
-        <div class="pb-2.5 flex items-center gap-2">
+        <div class="pb-2.5 flex flex-wrap items-center gap-2">
           <span class="text-[10px] font-semibold text-gray-400 uppercase tracking-wider shrink-0">Graph</span>
 
           <!-- Hidden values passed to API -->
@@ -816,7 +816,7 @@
           <input type="hidden" id="glance-to-week"   value="">
 
           <!-- Preset pills -->
-          <div class="flex gap-1">
+          <div class="flex flex-wrap gap-1">
             <button onclick="setGlanceGraphRange('4')"   id="grange-4"   class="grange-btn grange-active">Last 4 Weeks</button>
             <button onclick="setGlanceGraphRange('8')"   id="grange-8"   class="grange-btn">Last 8 Weeks</button>
             <button onclick="setGlanceGraphRange('12')"  id="grange-12"  class="grange-btn">Last 12 Weeks</button>
