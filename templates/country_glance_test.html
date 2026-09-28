@@ -451,18 +451,18 @@
     <div class="w-full mx-auto px-6 py-3 flex items-center justify-between flex-wrap gap-3">
 
       <!-- Wide Executive Black Tab Selector -->
-      <div class="tab-switcher-container">
+      <div class="tab-switcher-container max-w-full overflow-x-auto hide-scrollbar" style="-webkit-overflow-scrolling: touch;">
         <button id="tab-eci"
                 onclick="switchTab('eci')"
-                class="btn-tab-active-black px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95">
+                class="btn-tab-active-black shrink-0 px-6 md:px-8 py-2.5 min-w-[155px] md:min-w-[175px] rounded-xl text-[13px] md:text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2 md:gap-2.5 cursor-pointer active:scale-95">
           <span class="material-symbols-outlined" style="font-size:18px;">how_to_vote</span>
-          <span>ECI Primary</span>
+          <span class="whitespace-nowrap">ECI Primary</span>
         </button>
         <button id="tab-other"
                 onclick="switchTab('other')"
-                class="btn-tab-inactive-gray px-8 py-2.5 min-w-[175px] rounded-xl text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2.5 cursor-pointer active:scale-95">
+                class="btn-tab-inactive-gray shrink-0 px-6 md:px-8 py-2.5 min-w-[155px] md:min-w-[175px] rounded-xl text-[13px] md:text-[13.5px] font-bold transition-all duration-200 flex items-center justify-center gap-2 md:gap-2.5 cursor-pointer active:scale-95">
           <span class="material-symbols-outlined" style="font-size:18px;">dataset</span>
-          <span>Auxiliary Sources</span>
+          <span class="whitespace-nowrap">Auxiliary Sources</span>
         </button>
       </div>
 
