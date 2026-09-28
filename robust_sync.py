@@ -75,18 +75,32 @@ def fetch_data_robust():
                 cur.execute("SELECT COUNT(DISTINCT ac_no) FROM ac_details WHERE state_abb = %s", (state,))
                 total_acs = cur.fetchone()[0] or 0
                 
-                # 2. Retro
+                                # 2. Retro
                 cur.execute("SELECT el_year, el_type, COUNT(DISTINCT ac_no) FROM ac_election_mapping WHERE state_abb = %s GROUP BY el_year, el_type", (state,))
-                retro_rows = cur.fetchall()
+                expected_rows = cur.fetchall()
+                expected_map = {f"{str(yr)}_{ty}": c for yr, ty, c in expected_rows}
+
+                cur.execute('''
+                    SELECT e.el_year, e.el_type, COUNT(DISTINCT er.ac_no) 
+                    FROM election_result er
+                    JOIN election e ON er.el_id = e.el_id
+                    WHERE er.state_abb = %s
+                    GROUP BY e.el_year, e.el_type
+                ''', (state,))
+                retro_actual_map = {f"{str(yr)}_{ty}": c for yr, ty, c in cur.fetchall()}
+
                 retro_timeline = {}
-                for yr, ty, ac_count in retro_rows:
+                retro_rows = expected_rows # Keep for compatibility if needed below
+                for yr, ty, exp_c in expected_rows:
                     if ty not in retro_timeline: retro_timeline[ty] = []
+                    
                     if ty.endswith('BP'):
-                        avail = 100.0 if ac_count > 0 else 0.0
-                        missing = 0
+                        act_c = retro_actual_map.get(f"{str(yr)}_{ty}", 0)
+                        avail = round((act_c / exp_c * 100) if exp_c > 0 else 0, 2)
+                        missing = exp_c - act_c if exp_c >= act_c else 0
                     else:
-                        avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
-                        missing = total_acs - ac_count if total_acs >= ac_count else 0
+                        avail = round((exp_c / total_acs * 100) if total_acs > 0 else 0, 2)
+                        missing = total_acs - exp_c if total_acs >= exp_c else 0
                     retro_timeline[ty].append({"year": str(yr), "availability": avail, "missing": missing})
                     
                 cur.execute("SELECT DISTINCT a.ac_no, a.ac_name FROM ac_election_mapping a LEFT JOIN form20_summary_view f ON a.ac_no = f.ac_no AND a.state_abb = f.state_abb WHERE a.state_abb = %s AND f.ac_no IS NULL LIMIT 25", (state,))
@@ -100,12 +114,15 @@ def fetch_data_robust():
                 total_booths = 0
                 for yr, ty, ac_count, booths in form20_rows:
                     if ty not in f20_timeline: f20_timeline[ty] = []
+                    
                     if ty.endswith('BP'):
-                        avail = 100.0 if ac_count > 0 else 0.0
-                        missing = 0
+                        exp_c = expected_map.get(f"{str(yr)}_{ty}", ac_count)
+                        avail = round((ac_count / exp_c * 100) if exp_c > 0 else 0, 2)
+                        missing = exp_c - ac_count if exp_c >= ac_count else 0
                     else:
                         avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
                         missing = total_acs - ac_count if total_acs >= ac_count else 0
+                        
                     vm = 4.64 if (state == 'BR' and str(yr) == '2020') else 2.41
                     total_booths += (booths or 0)
                     f20_timeline[ty].append({"year": str(yr), "availability": avail, "missing": missing, "vote_mismatch": vm})
