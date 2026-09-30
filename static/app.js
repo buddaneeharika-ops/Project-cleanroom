@@ -1022,7 +1022,7 @@ function renderForm20Panel(stats) {
   _f20ByType     = stats.by_type     || {};
 
   setEl('f20-pct',        pct + '%');
-  setEl('f20-pct-badge',  pct + '% complete');
+  setEl('f20-pct-badge', pct + '%');
   setEl('f20-counts',     `${completed.toLocaleString()} / ${total.toLocaleString()} elections in DB`);
   const progEl = document.getElementById('f20-prog');
   if (progEl) progEl.style.width = pct + '%';
@@ -1085,6 +1085,8 @@ function renderRetroPanel(r) {
   const ringPct = document.getElementById('retro-ring-pct');
   if (ring)    ring.style.strokeDashoffset = dash;
   if (ringPct) ringPct.textContent = pct + '%';
+  const retroBadge = document.getElementById('retro-pct-badge');
+  if (retroBadge) retroBadge.textContent = pct + '%';
 
   // Main numbers
   const setPct = document.getElementById('retro-pct');
@@ -1394,7 +1396,7 @@ function populateForm20Card(d) {
 
   setEl('f20-pct',       pct + '%');
   setEl('f20-pct-label', 'coverage');
-  setEl('f20-pct-badge', pct + '% complete');
+  setEl('f20-pct-badge', pct + '%');
   setEl('f20-counts',    `AC-Level Granular Coverage | ${form20.toLocaleString()} / ${acpc.toLocaleString()} elections processed`);
 
   // Hero ribbon — pipeline coverage
