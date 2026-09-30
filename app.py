@@ -1591,8 +1591,8 @@ def dashboard_analytics():
     payload = {
         'retro': {
             'available': True,
-            'total_acs': 2100,
-            'available_acs': 2063,
+            'total_acs': 4120,
+            'available_acs': int(4120 * (retro_pct / 100.0)),
             'coverage_pct_acs': retro_pct,
             'by_type_acs': [{'type': 'AE', 'total': 113, 'available': int(113 * (retro_pct / 100.0))}, {'type': 'GE', 'total': 148, 'available': int(148 * (retro_pct / 100.0))}],
             'top_states_acs': [{'state': r['state'], 'expected': 100, 'available': int(r['pct']), 'pct': r['pct']} for r in retro_progress[:10]],
@@ -1601,7 +1601,7 @@ def dashboard_analytics():
         'booth': {
             'available': True,
             'states': len(matrix),
-            'acs_with_data': 2450,
+            'acs_with_data': int(4120 * (booth_pct / 100.0)),
             'total_acs_all': 4120,
             'coverage_pct_all': booth_pct,
             'top_states': [{'state': r['state'], 'acs': int(r['pct']*41.2)} for r in booth_progress[:10]],
@@ -1611,7 +1611,7 @@ def dashboard_analytics():
             'available': True,
             'states': len(matrix),
             'categories': 4,
-            'acs_with_data': 2784,
+            'acs_with_data': int(4120 * (caste_pct / 100.0)),
             'total_acs_all': 4120,
             'coverage_pct_all': caste_pct,
             'top_states': [{'state': r['state'], 'acs': int(r['pct']*41.2)} for r in caste_progress[:10]],
