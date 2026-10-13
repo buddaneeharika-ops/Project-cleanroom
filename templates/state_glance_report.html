@@ -612,12 +612,413 @@
   </div>
 
   <!-- ─────────────────────────────────────────
-       SECTION 03 — LGD / SECC / EJAL
+       SECTION 03 — BOOTH METADATA ANALYTICS
   ───────────────────────────────────────── -->
   <div class="sec">
     <div class="sec-head">
       <div class="flex items-center gap-2.5">
         <span class="sec-num">03</span>
+        <div>
+          <span class="sec-title">Booth Metadata Analytics &amp; Infrastructure Quality</span>
+          <p class="text-[10px] text-gray-400 font-medium">Granular administrative boundary mapping, field completeness, and local body governance coverage</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="chip chip-blue">ECI Verified</span>
+        <span class="chip chip-violet">Admin Boundaries</span>
+        <span class="chip chip-green">Active Pipeline</span>
+      </div>
+    </div>
+    
+    <div class="p-4 space-y-5">
+      <!-- Empty state if booth data not yet loaded -->
+      <div id="boothNoDataBanner" class="hidden bg-amber-50 border border-amber-200 rounded-xl p-4 text-center">
+        <p class="text-xs font-bold text-amber-800">Booth metadata is currently being ingested for this State / UT.</p>
+      </div>
+
+      <div id="boothContentWrapper" class="space-y-5">
+        <!-- Top KPI Cards -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-3">
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-indigo-500">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Total Polling Booths</p>
+              <p class="text-2xl font-black text-gray-900 tabular-nums" id="boothTotalVal">--</p>
+              <p class="text-[10px] text-gray-400 mt-1">Tracked in metadata view</p>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600">
+              <span class="material-symbols-outlined text-[20px]">how_to_vote</span>
+            </div>
+          </div>
+
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-emerald-500">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Assembly Constituencies</p>
+              <p class="text-2xl font-black text-gray-900 tabular-nums" id="boothAcsVal">--</p>
+              <p class="text-[10px] text-gray-400 mt-1">With active booth data</p>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-emerald-50 flex items-center justify-center text-emerald-600">
+              <span class="material-symbols-outlined text-[20px]">ballot</span>
+            </div>
+          </div>
+
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-blue-500">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Avg Booths / AC</p>
+              <p class="text-2xl font-black text-gray-900 tabular-nums" id="boothAvgPerAcVal">--</p>
+              <p class="text-[10px] text-gray-400 mt-1">Electoral density</p>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">
+              <span class="material-symbols-outlined text-[20px]">density_medium</span>
+            </div>
+          </div>
+
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-teal-500">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Admin Quality Score</p>
+              <p class="text-2xl font-black text-teal-600 tabular-nums" id="boothAdminScoreVal">--%</p>
+              <div class="prog-track w-24"><div class="prog-fill bg-teal-500" id="boothAdminScoreBar" style="width:0%"></div></div>
+            </div>
+            <div class="w-10 h-10 rounded-full bg-teal-50 flex items-center justify-center text-teal-600">
+              <span class="material-symbols-outlined text-[20px]">verified</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 Columns: Zone Admin Details Table (Left 2/3) & Field Completeness + Alerts (Right 1/3) -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
+          <!-- Administrative Details by Zone Table -->
+          <div class="lg:col-span-2 bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
+            <div class="flex items-center justify-between mb-3 border-b border-gray-100 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-indigo-600 text-[18px]">account_tree</span>
+                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Administrative Details by Zone</h3>
+              </div>
+              <span class="text-[10px] font-bold text-gray-400" id="boothZoneCountLabel">Zones</span>
+            </div>
+
+            <div class="overflow-x-auto flex-1 border border-gray-100 rounded-lg">
+              <table class="dt">
+                <thead class="sticky top-0 bg-gray-50 text-[10px] uppercase text-gray-500">
+                  <tr>
+                    <th class="text-left py-2.5 px-3">Zone</th>
+                    <th class="text-right py-2.5 px-3">Districts</th>
+                    <th class="text-right py-2.5 px-3">Booths</th>
+                    <th class="text-right py-2.5 px-3">Block / Taluka %</th>
+                    <th class="text-right py-2.5 px-3">Panchayat %</th>
+                    <th class="text-right py-2.5 px-3">Police Stn %</th>
+                    <th class="text-right py-2.5 px-3">Pincode %</th>
+                    <th class="text-right py-2.5 px-3">Avail %</th>
+                  </tr>
+                </thead>
+                <tbody id="boothZoneTableBody" class="divide-y divide-gray-100 text-xs"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Right: Field Completeness & Missing Data Alerts -->
+          <div class="space-y-4">
+            <!-- Field Completeness Progress Bars -->
+            <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm space-y-3">
+              <div class="flex items-center justify-between border-b border-gray-100 pb-2">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-emerald-600 text-[18px]">fact_check</span>
+                  <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Field Completeness</h3>
+                </div>
+                <span class="text-[10px] text-gray-400">ECI Standards</span>
+              </div>
+
+              <div class="space-y-2.5 text-xs">
+                <div>
+                  <div class="flex justify-between font-bold text-gray-700 mb-1">
+                    <span>Block / Taluka / Tehsil</span>
+                    <span id="fcBlockVal" class="tabular-nums text-indigo-600">--%</span>
+                  </div>
+                  <div class="prog-track"><div id="fcBlockBar" class="prog-fill bg-indigo-500" style="width:0%"></div></div>
+                </div>
+
+                <div>
+                  <div class="flex justify-between font-bold text-gray-700 mb-1">
+                    <span>Panchayat / Local Body / Ward</span>
+                    <span id="fcPanchayatVal" class="tabular-nums text-blue-600">--%</span>
+                  </div>
+                  <div class="prog-track"><div id="fcPanchayatBar" class="prog-fill bg-blue-500" style="width:0%"></div></div>
+                </div>
+
+                <div>
+                  <div class="flex justify-between font-bold text-gray-700 mb-1">
+                    <span>Police Station</span>
+                    <span id="fcPoliceVal" class="tabular-nums text-teal-600">--%</span>
+                  </div>
+                  <div class="prog-track"><div id="fcPoliceBar" class="prog-fill bg-teal-500" style="width:0%"></div></div>
+                </div>
+
+                <div>
+                  <div class="flex justify-between font-bold text-gray-700 mb-1">
+                    <span>Postal Pincode</span>
+                    <span id="fcPincodeVal" class="tabular-nums text-emerald-600">--%</span>
+                  </div>
+                  <div class="prog-track"><div id="fcPincodeBar" class="prog-fill bg-emerald-500" style="width:0%"></div></div>
+                </div>
+
+                <div>
+                  <div class="flex justify-between font-bold text-gray-700 mb-1">
+                    <span>Physical Address &amp; Location</span>
+                    <span id="fcAddressVal" class="tabular-nums text-purple-600">--%</span>
+                  </div>
+                  <div class="prog-track"><div id="fcAddressBar" class="prog-fill bg-purple-500" style="width:0%"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Missing Data Alerts for ACs -->
+            <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
+              <div class="flex items-center justify-between border-b border-gray-100 pb-2 mb-2">
+                <div class="flex items-center gap-2">
+                  <span class="material-symbols-outlined text-rose-500 text-[18px]">warning</span>
+                  <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Missing Data Alerts for ACs</h3>
+                </div>
+                <span class="chip chip-red text-[9px]">Attention</span>
+              </div>
+              <p class="text-[10.5px] text-gray-400 mb-2">Constituencies with lowest administrative field completeness</p>
+              <div id="boothMissingAlertsContainer" class="space-y-2 max-h-[220px] overflow-y-auto pr-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SECTION 04 — VOTER ANALYTICS
+  ───────────────────────────────────────── -->
+  <div class="sec">
+    <div class="sec-head">
+      <div class="flex items-center gap-2.5">
+        <span class="sec-num">04</span>
+        <div>
+          <span class="sec-title">Voter Demographics &amp; Electoral Roll Analytics</span>
+          <p class="text-[10px] text-gray-400 font-medium">State electorate volume, gender ratio parity, socio-demographic caste composition, and constituency sizing</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="chip chip-violet">Rolls Ingested</span>
+        <span class="chip chip-blue">Gender Inclusivity</span>
+        <span class="chip chip-amber">Demographic Profile</span>
+      </div>
+    </div>
+
+    <div class="p-4 space-y-5">
+      <!-- Empty state if voter data not yet loaded -->
+      <div id="voterNoDataBanner" class="hidden bg-amber-50 border border-amber-200 rounded-xl p-4 text-center">
+        <p class="text-xs font-bold text-amber-800">Electoral roll voter data is currently being ingested for this State / UT.</p>
+      </div>
+
+      <div id="voterContentWrapper" class="space-y-5">
+        <!-- Top Voter KPI Cards -->
+        <div class="grid grid-cols-2 md:grid-cols-5 gap-3">
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-indigo-600">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Total Electorate</p>
+              <p class="text-2xl font-black text-gray-900 tabular-nums" id="voterTotalVal">--</p>
+              <p class="text-[10px] text-gray-400 mt-1">Registered voters</p>
+            </div>
+            <div class="w-9 h-9 rounded-full bg-indigo-50 flex items-center justify-center text-indigo-600">
+              <span class="material-symbols-outlined text-[19px]">group</span>
+            </div>
+          </div>
+
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-blue-600">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Male Voters</p>
+              <p class="text-2xl font-black text-gray-900 tabular-nums" id="voterMaleVal">--</p>
+              <p class="text-[10px] font-bold text-blue-600 mt-1" id="voterMalePct">--%</p>
+            </div>
+            <div class="w-9 h-9 rounded-full bg-blue-50 flex items-center justify-center text-blue-600">
+              <span class="material-symbols-outlined text-[19px]">male</span>
+            </div>
+          </div>
+
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-rose-500">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Female Voters</p>
+              <p class="text-2xl font-black text-gray-900 tabular-nums" id="voterFemaleVal">--</p>
+              <p class="text-[10px] font-bold text-rose-600 mt-1" id="voterFemalePct">--%</p>
+            </div>
+            <div class="w-9 h-9 rounded-full bg-rose-50 flex items-center justify-center text-rose-500">
+              <span class="material-symbols-outlined text-[19px]">female</span>
+            </div>
+          </div>
+
+          <div class="kpi-mini flex items-center justify-between border-l-4 border-l-purple-600">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Gender Ratio</p>
+              <p class="text-2xl font-black text-purple-700 tabular-nums" id="voterGenderRatioVal">--</p>
+              <p class="text-[10px] text-gray-400 mt-1">Females / 1000 Males</p>
+            </div>
+            <div class="w-9 h-9 rounded-full bg-purple-50 flex items-center justify-center text-purple-600">
+              <span class="material-symbols-outlined text-[19px]">wc</span>
+            </div>
+          </div>
+
+          <div class="col-span-2 md:col-span-1 kpi-mini flex items-center justify-between border-l-4 border-l-teal-600">
+            <div>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-wider mb-1">Avg Voters / Booth</p>
+              <p class="text-2xl font-black text-teal-700 tabular-nums" id="voterAvgPerBoothVal">--</p>
+              <p class="text-[10px] text-gray-400 mt-1">Booth capacity</p>
+            </div>
+            <div class="w-9 h-9 rounded-full bg-teal-50 flex items-center justify-center text-teal-600">
+              <span class="material-symbols-outlined text-[19px]">meeting_room</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Demographic Analysis 3-Column Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+          <!-- Gender Distribution Visual Donut -->
+          <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
+            <div class="flex items-center justify-between border-b border-gray-100 pb-2 mb-3">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-rose-500 text-[18px]">pie_chart</span>
+                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Gender Distribution</h3>
+              </div>
+              <span class="text-[10px] font-bold text-gray-400" id="voterGenderRatioBadge">Ratio</span>
+            </div>
+            <div class="relative w-full flex-1 flex items-center justify-center" style="min-height: 200px;">
+              <canvas id="voterGenderDonutCanvas"></canvas>
+            </div>
+            <div class="grid grid-cols-2 gap-2 mt-3 pt-3 border-t border-gray-100 text-center">
+              <div class="bg-blue-50/60 rounded-lg p-2 border border-blue-100/60">
+                <p class="text-[10px] font-bold text-blue-700 uppercase">Male Electorate</p>
+                <p class="text-sm font-black text-blue-900 tabular-nums" id="voterMaleSummary">-</p>
+              </div>
+              <div class="bg-rose-50/60 rounded-lg p-2 border border-rose-100/60">
+                <p class="text-[10px] font-bold text-rose-700 uppercase">Female Electorate</p>
+                <p class="text-sm font-black text-rose-900 tabular-nums" id="voterFemaleSummary">-</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Caste Profile Breakdown -->
+          <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
+            <div class="flex items-center justify-between border-b border-gray-100 pb-2 mb-3">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-purple-600 text-[18px]">groups_2</span>
+                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Socio-Demographic Profile</h3>
+              </div>
+              <span class="text-[10px] font-bold text-purple-600">Caste 2.0</span>
+            </div>
+            <div id="voterCasteContainer" class="space-y-2.5 flex-1 overflow-y-auto max-h-[260px] pr-1"></div>
+          </div>
+
+          <!-- Urban / Rural Classification -->
+          <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
+            <div class="flex items-center justify-between border-b border-gray-100 pb-2 mb-3">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-teal-600 text-[18px]">domain</span>
+                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Urban vs Rural Demographics</h3>
+              </div>
+              <span class="text-[10px] font-bold text-gray-400">Classification</span>
+            </div>
+            <div class="space-y-3 flex-1 flex flex-col justify-center">
+              <div class="p-3 rounded-lg bg-teal-50/60 border border-teal-100/70 flex items-center justify-between">
+                <div>
+                  <p class="text-[10px] font-bold text-teal-700 uppercase">Rural Constituencies</p>
+                  <p class="text-xl font-black text-teal-900 tabular-nums" id="voterRuralPct">--%</p>
+                </div>
+                <div class="text-right">
+                  <p class="text-[10px] font-semibold text-teal-600 uppercase">Avg Turnout</p>
+                  <p class="text-sm font-bold text-teal-800" id="voterRuralTurnout">--%</p>
+                </div>
+              </div>
+
+              <div class="p-3 rounded-lg bg-indigo-50/60 border border-indigo-100/70 flex items-center justify-between">
+                <div>
+                  <p class="text-[10px] font-bold text-indigo-700 uppercase">Urban Constituencies</p>
+                  <p class="text-xl font-black text-indigo-900 tabular-nums" id="voterUrbanPct">--%</p>
+                </div>
+                <div class="text-right">
+                  <p class="text-[10px] font-semibold text-indigo-600 uppercase">Avg Turnout</p>
+                  <p class="text-sm font-bold text-indigo-800" id="voterUrbanTurnout">--%</p>
+                </div>
+              </div>
+
+              <div class="p-3 rounded-lg bg-amber-50/60 border border-amber-100/70 flex items-center justify-between">
+                <div>
+                  <p class="text-[10px] font-bold text-amber-700 uppercase">Semi-Urban Constituencies</p>
+                  <p class="text-xl font-black text-amber-900 tabular-nums" id="voterSemiUrbanPct">--%</p>
+                </div>
+                <div class="text-right">
+                  <p class="text-[10px] font-semibold text-amber-600 uppercase">Region Balance</p>
+                  <p class="text-sm font-bold text-amber-800">Mixed</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Electoral Scale Rankings: Largest vs Smallest Constituencies -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          <!-- Top 5 Largest ACs -->
+          <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
+            <div class="flex items-center justify-between mb-3 border-b border-gray-100 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-indigo-600 text-[18px]">trending_up</span>
+                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Top 5 Largest ACs by Electorate</h3>
+              </div>
+              <span class="chip chip-blue text-[9px]">High Density</span>
+            </div>
+            <div class="overflow-x-auto flex-1 border border-gray-100 rounded-lg">
+              <table class="dt">
+                <thead class="bg-gray-50 text-[10px] uppercase text-gray-500">
+                  <tr>
+                    <th class="text-left py-2 px-3">AC No &amp; Name</th>
+                    <th class="text-right py-2 px-3">Total Voters</th>
+                    <th class="text-right py-2 px-3">Male</th>
+                    <th class="text-right py-2 px-3">Female</th>
+                    <th class="text-right py-2 px-3">Booths</th>
+                  </tr>
+                </thead>
+                <tbody id="voterLargestAcsTable" class="divide-y divide-gray-100 text-xs"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Top 5 Smallest ACs -->
+          <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
+            <div class="flex items-center justify-between mb-3 border-b border-gray-100 pb-2">
+              <div class="flex items-center gap-2">
+                <span class="material-symbols-outlined text-amber-600 text-[18px]">trending_down</span>
+                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Top 5 Smallest ACs by Electorate</h3>
+              </div>
+              <span class="chip chip-amber text-[9px]">Compact</span>
+            </div>
+            <div class="overflow-x-auto flex-1 border border-gray-100 rounded-lg">
+              <table class="dt">
+                <thead class="bg-gray-50 text-[10px] uppercase text-gray-500">
+                  <tr>
+                    <th class="text-left py-2 px-3">AC No &amp; Name</th>
+                    <th class="text-right py-2 px-3">Total Voters</th>
+                    <th class="text-right py-2 px-3">Male</th>
+                    <th class="text-right py-2 px-3">Female</th>
+                    <th class="text-right py-2 px-3">Booths</th>
+                  </tr>
+                </thead>
+                <tbody id="voterSmallestAcsTable" class="divide-y divide-gray-100 text-xs"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─────────────────────────────────────────
+       SECTION 05 — LGD / SECC / EJAL
+  ───────────────────────────────────────── -->
+  <div class="sec">
+    <div class="sec-head">
+      <div class="flex items-center gap-2.5">
+        <span class="sec-num">05</span>
         <span class="sec-title">State Overview — LGD / SECC / eJal Shakti</span>
       </div>
     </div>
@@ -743,12 +1144,12 @@
   </div>
 
   <!-- ─────────────────────────────────────────
-       SECTION 04 — DEMOGRAPHIC INTELLIGENCE
+       SECTION 06 — DEMOGRAPHIC INTELLIGENCE
   ───────────────────────────────────────── -->
   <div class="sec">
     <div class="sec-head">
       <div class="flex items-center gap-2.5">
-        <span class="sec-num">04</span>
+        <span class="sec-num">06</span>
         <span class="sec-title">Demographic Intelligence</span>
       </div>
     </div>
@@ -1622,6 +2023,209 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         html('f20QualityRemarks', rows);
       }
+    }
+
+    /* ══ BOOTH METADATA ANALYTICS (Wireframe Page 2) ══ */
+    const boothBanner = document.getElementById('boothNoDataBanner');
+    const boothContent = document.getElementById('boothContentWrapper');
+    if(d.booth && d.booth.total_booths) {
+      if(boothBanner) boothBanner.classList.add('hidden');
+      if(boothContent) boothContent.classList.remove('hidden');
+
+      set('boothTotalVal', Number(d.booth.total_booths).toLocaleString());
+      set('boothAcsVal', d.booth.total_acs ? Number(d.booth.total_acs).toLocaleString() : '--');
+      set('boothAvgPerAcVal', d.booth.avg_booths_per_ac || '--');
+      set('boothAdminScoreVal', (d.booth.admin_quality_score || 0) + '%');
+      setBar('boothAdminScoreBar', d.booth.admin_quality_score || 0);
+
+      // Zone table
+      if(d.booth.zones && d.booth.zones.length > 0) {
+        set('boothZoneCountLabel', d.booth.zones.length + ' Administrative Zones');
+        let zRows = '';
+        d.booth.zones.forEach(z => {
+          const availBadge = z.avail_pct >= 80 ? 'av-g' : (z.avail_pct >= 50 ? 'av-a' : 'av-r');
+          zRows += `<tr>
+            <td class="font-bold text-gray-800 py-2.5 px-3">${z.zone}</td>
+            <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${z.districts}</td>
+            <td class="text-right tabular-nums font-semibold text-gray-800 py-2.5 px-3">${Number(z.total_booths).toLocaleString()}</td>
+            <td class="text-right tabular-nums py-2.5 px-3"><span class="font-medium ${z.block_pct >= 70 ? 'text-emerald-600 font-bold' : 'text-gray-500'}">${z.block_pct}%</span></td>
+            <td class="text-right tabular-nums py-2.5 px-3"><span class="font-medium ${z.panchayat_pct >= 70 ? 'text-emerald-600 font-bold' : 'text-gray-500'}">${z.panchayat_pct}%</span></td>
+            <td class="text-right tabular-nums py-2.5 px-3"><span class="font-medium ${z.police_stn_pct >= 70 ? 'text-emerald-600 font-bold' : 'text-gray-500'}">${z.police_stn_pct}%</span></td>
+            <td class="text-right tabular-nums py-2.5 px-3"><span class="font-medium ${z.pincode_pct >= 70 ? 'text-emerald-600 font-bold' : 'text-gray-500'}">${z.pincode_pct}%</span></td>
+            <td class="text-right py-2.5 px-3"><span class="${availBadge}">${z.avail_pct}%</span></td>
+          </tr>`;
+        });
+        html('boothZoneTableBody', zRows);
+      } else {
+        set('boothZoneCountLabel', '0 Zones');
+        html('boothZoneTableBody', `<tr><td colspan="8" class="text-center py-5 text-gray-400 font-medium">No administrative zone mapping available for this state</td></tr>`);
+      }
+
+      // Field completeness
+      if(d.booth.field_completeness) {
+        const fc = d.booth.field_completeness;
+        set('fcBlockVal', fc.block_taluka_pct + '%');
+        setBar('fcBlockBar', fc.block_taluka_pct);
+        set('fcPanchayatVal', fc.panchayat_pct + '%');
+        setBar('fcPanchayatBar', fc.panchayat_pct);
+        set('fcPoliceVal', fc.police_station_pct + '%');
+        setBar('fcPoliceBar', fc.police_station_pct);
+        set('fcPincodeVal', fc.pincode_pct + '%');
+        setBar('fcPincodeBar', fc.pincode_pct);
+        set('fcAddressVal', fc.address_pct + '%');
+        setBar('fcAddressBar', fc.address_pct);
+      }
+
+      // Missing alerts
+      if(d.booth.missing_alerts && d.booth.missing_alerts.length > 0) {
+        let alertHtml = '';
+        d.booth.missing_alerts.forEach(a => {
+          const badgeClass = a.impact === 'Critical' 
+            ? 'bg-rose-100 text-rose-700 border-rose-200' 
+            : (a.impact === 'Moderate' ? 'bg-amber-100 text-amber-700 border-amber-200' : 'bg-blue-100 text-blue-700 border-blue-200');
+          let missingParts = [];
+          if(a.missing_ps > 0) missingParts.push(`${a.missing_ps} booths missing Police Station`);
+          if(a.missing_pincode > 0) missingParts.push(`${a.missing_pincode} booths missing Pincode`);
+          if(a.missing_subadmin > 0) missingParts.push(`${a.missing_subadmin} booths missing Sub-admin`);
+          alertHtml += `<div class="p-2.5 rounded-lg border border-gray-100 bg-gray-50/70 hover:bg-gray-100 transition-colors">
+            <div class="flex items-center justify-between mb-1">
+              <span class="font-bold text-gray-800 text-xs">AC ${a.ac_no} — ${a.ac_name}</span>
+              <span class="text-[9px] font-black uppercase px-1.5 py-0.5 rounded border ${badgeClass}">${a.impact}</span>
+            </div>
+            <p class="text-[10.5px] text-gray-600">${missingParts.join(' • ') || 'Field gaps detected'}</p>
+            <p class="text-[9.5px] text-gray-400 mt-0.5">Total Booths: ${a.total_booths}</p>
+          </div>`;
+        });
+        html('boothMissingAlertsContainer', alertHtml);
+      } else {
+        html('boothMissingAlertsContainer', `<div class="p-4 text-center text-xs text-emerald-600 bg-emerald-50 rounded-lg border border-emerald-100 font-semibold">✓ 100% Administrative field completeness achieved!</div>`);
+      }
+    } else {
+      if(boothBanner) boothBanner.classList.remove('hidden');
+      if(boothContent) boothContent.classList.add('hidden');
+    }
+
+    /* ══ VOTER ANALYTICS (Wireframe Page 3) ══ */
+    const voterBanner = document.getElementById('voterNoDataBanner');
+    const voterContent = document.getElementById('voterContentWrapper');
+    if(d.voter && d.voter.total_voters) {
+      if(voterBanner) voterBanner.classList.add('hidden');
+      if(voterContent) voterContent.classList.remove('hidden');
+
+      set('voterTotalVal', Number(d.voter.total_voters).toLocaleString());
+      set('voterMaleVal', Number(d.voter.male_voters).toLocaleString());
+      set('voterFemaleVal', Number(d.voter.female_voters).toLocaleString());
+      set('voterMalePct', d.voter.male_pct + '% of electorate');
+      set('voterFemalePct', d.voter.female_pct + '% of electorate');
+      set('voterGenderRatioVal', (d.voter.gender_ratio || 0).toLocaleString() + ' ♀/1k ♂');
+      set('voterGenderRatioBadge', 'Ratio: ' + (d.voter.gender_ratio || 0) + ' ♀');
+      set('voterAvgPerBoothVal', Number(d.voter.avg_voters_per_booth).toLocaleString());
+      set('voterMaleSummary', `${d.voter.male_pct}% (${Number(d.voter.male_voters).toLocaleString()})`);
+      set('voterFemaleSummary', `${d.voter.female_pct}% (${Number(d.voter.female_voters).toLocaleString()})`);
+
+      // Gender Donut Chart
+      if(window._genderChart) {
+        window._genderChart.destroy();
+        window._genderChart = null;
+      }
+      const genderCanvas = document.getElementById('voterGenderDonutCanvas');
+      if(genderCanvas) {
+        const genderCtx = genderCanvas.getContext('2d');
+        window._genderChart = new Chart(genderCtx, {
+          type: 'doughnut',
+          data: {
+            labels: ['Male Voters', 'Female Voters'],
+            datasets: [{
+              data: [d.voter.male_voters, d.voter.female_voters],
+              backgroundColor: ['#2563eb', '#f43f5e'],
+              borderWidth: 2,
+              borderColor: '#ffffff',
+              hoverOffset: 4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: { boxWidth: 12, font: { family: 'Inter', size: 11, weight: '600' } }
+              },
+              tooltip: {
+                callbacks: {
+                  label: function(ctx) {
+                    const val = ctx.raw || 0;
+                    const total = d.voter.total_voters || 1;
+                    const pct = ((val / total) * 100).toFixed(1);
+                    return ` ${ctx.label}: ${Number(val).toLocaleString()} (${pct}%)`;
+                  }
+                }
+              }
+            },
+            cutout: '70%'
+          }
+        });
+      }
+
+      // Caste profile
+      if(d.voter.caste_profile && d.voter.caste_profile.length > 0) {
+        let casteHtml = '';
+        d.voter.caste_profile.forEach(c => {
+          casteHtml += `<div>
+            <div class="flex justify-between text-xs font-semibold text-gray-700 mb-1">
+              <span>${c.category}</span>
+              <span class="font-bold text-purple-700 tabular-nums">${c.pct}%</span>
+            </div>
+            <div class="prog-track"><div class="prog-fill bg-purple-500" style="width:${Math.min(c.pct * 2.5, 100)}%"></div></div>
+          </div>`;
+        });
+        html('voterCasteContainer', casteHtml);
+      } else {
+        html('voterCasteContainer', `<div class="text-center py-6 text-xs text-gray-400">Caste demographic breakdown unavailable for this state</div>`);
+      }
+
+      // Urban/Rural
+      if(d.voter.urban_rural) {
+        const ur = d.voter.urban_rural;
+        set('voterRuralPct', (ur.rural_pct || 0) + '%');
+        set('voterRuralTurnout', (ur.rural_turnout || 0) + '%');
+        set('voterUrbanPct', (ur.urban_pct || 0) + '%');
+        set('voterUrbanTurnout', (ur.urban_turnout || 0) + '%');
+        set('voterSemiUrbanPct', (ur.semi_urban_pct || 0) + '%');
+      }
+
+      // Largest ACs table
+      if(d.voter.largest_acs && d.voter.largest_acs.length > 0) {
+        let lRows = '';
+        d.voter.largest_acs.forEach(a => {
+          lRows += `<tr>
+            <td class="font-bold text-gray-800 py-2 px-3 whitespace-nowrap">${a.ac_no} — ${a.ac_name}</td>
+            <td class="text-right font-black text-indigo-700 tabular-nums py-2 px-3">${Number(a.total_voters).toLocaleString()}</td>
+            <td class="text-right text-blue-600 tabular-nums py-2 px-3">${Number(a.male_voters).toLocaleString()}</td>
+            <td class="text-right text-rose-600 tabular-nums py-2 px-3">${Number(a.female_voters).toLocaleString()}</td>
+            <td class="text-right font-semibold text-gray-700 tabular-nums py-2 px-3">${a.booths}</td>
+          </tr>`;
+        });
+        html('voterLargestAcsTable', lRows);
+      }
+
+      // Smallest ACs table
+      if(d.voter.smallest_acs && d.voter.smallest_acs.length > 0) {
+        let sRows = '';
+        d.voter.smallest_acs.forEach(a => {
+          sRows += `<tr>
+            <td class="font-bold text-gray-800 py-2 px-3 whitespace-nowrap">${a.ac_no} — ${a.ac_name}</td>
+            <td class="text-right font-black text-amber-700 tabular-nums py-2 px-3">${Number(a.total_voters).toLocaleString()}</td>
+            <td class="text-right text-blue-600 tabular-nums py-2 px-3">${Number(a.male_voters).toLocaleString()}</td>
+            <td class="text-right text-rose-600 tabular-nums py-2 px-3">${Number(a.female_voters).toLocaleString()}</td>
+            <td class="text-right font-semibold text-gray-700 tabular-nums py-2 px-3">${a.booths}</td>
+          </tr>`;
+        });
+        html('voterSmallestAcsTable', sRows);
+      }
+    } else {
+      if(voterBanner) voterBanner.classList.remove('hidden');
+      if(voterContent) voterContent.classList.add('hidden');
     }
 
     /* OVERVIEW */
