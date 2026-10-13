@@ -14,8 +14,22 @@ let toastTimer    = null;
 let searchTimer   = null;
 let retroMetadata = null;
 let filterMetadata = null;
+let stateMetadata = {};
 let currentView   = 'states';
 let currentDetailState = null;
+let listingMode   = 'backlog'; // 'backlog' | 'directory'
+let dirFilter     = 'all';     // 'all' | 'ready' | 'voters' | 'missing'
+let dirSortCol    = 'name';    // 'name' | 'acs' | 'booths' | 'voters' | 'admin'
+let dirSortDir    = 'asc';
+
+async function loadStateMetadata() {
+  try {
+    stateMetadata = await apiFetch('/api/backlog/state_metadata');
+    updateDirectoryKpiCards();
+  } catch (e) {
+    console.warn('loadStateMetadata error:', e);
+  }
+}
 
 const filters = {
   state: '', el_type: '', year: '', status: '', sir_only: false, search: '', wip: false, show_bp: false,
@@ -73,15 +87,17 @@ function reasonCategory(remark) {
 
 // Canonical AC counts per state (from ac_mapping; same across years/types)
 const STATE_AC_COUNTS = {
-  'AP': 175, 'AR': 60,  'AS': 126, 'BR': 243, 'CG': 90,  'CT': 90,  'GA': 40,
+  'AP': 175, 'AR': 60,  'AS': 126, 'BR': 243, 'CH': 1,   'CG': 1,   'CT': 90,  'GA': 40,
   'GJ': 182, 'HR': 90,  'HP': 68,  'JH': 81,  'KA': 224, 'KL': 140, 'MP': 230,
   'MH': 288, 'MN': 60,  'ML': 60,  'MZ': 40,  'NL': 60,  'OR': 147, 'PB': 117,
   'RJ': 200, 'SK': 32,  'TN': 234, 'TS': 119, 'TR': 60,  'UP': 403, 'UK': 70,
-  'WB': 294, 'DL': 70,  'PY': 30,  'JK': 90,  'LD': 1,   'AN': 1,   'CH': 1
+  'WB': 294, 'DL': 70,  'PY': 30,  'JK': 90,  'LD': 1,   'AN': 1,   'DD': 1,
+  'DN': 1,   'LA': 2
 };
 
 document.addEventListener('DOMContentLoaded', () => {
   loadFilters();
+  loadStateMetadata();
   // bindEvents() restores the last-viewed tab (default: Dashboard) and runs that
   // view's data load, so we don't eagerly load the dashboard here.
   bindEvents();
@@ -166,10 +182,15 @@ async function loadStats() {
   updateRecordBadge();
 }
 
-// Header badge: just how many elections the current filters show.
+// Header badge: just how many elections or states the current filters show.
 function updateRecordBadge() {
   const badge = document.getElementById('record-count-badge');
   if (!badge) return;
+  if (listingMode === 'directory') {
+    const stateList = Object.values(stateMetadata || {});
+    badge.textContent = `${stateList.length || 37} states & UTs`;
+    return;
+  }
   const count = allRecords.length;
   badge.textContent = count === 1 ? '1 election' : `${count.toLocaleString()} elections`;
 }
@@ -186,6 +207,9 @@ async function loadRecords() {
   if (!filters.show_bp) params.set('hide_bp',  '1');
 
   try {
+    if (!stateMetadata || Object.keys(stateMetadata).length === 0) {
+      await loadStateMetadata();
+    }
     allRecords = await apiFetch('/api/records?' + params);
     renderTable();
   } catch (e) {
@@ -195,6 +219,10 @@ async function loadRecords() {
 }
 
 function renderTable() {
+  if (listingMode === 'directory') {
+    renderBoothVoterDirectory();
+    return;
+  }
   const tbody = document.getElementById('table-body');
   const thead = document.getElementById('table-head');
   updateRecordBadge();
@@ -237,7 +265,7 @@ function renderTable() {
       <tr>
         <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none st-sortable" data-col="state">State${arrow('state')}</th>
         <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none st-sortable" data-col="count">Remaining${arrow('count')}</th>
-        <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider w-[40%]">Pipeline</th>
+        <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider w-[45%]">Pipeline</th>
         <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider text-right">Open</th>
       </tr>`;
 
@@ -400,10 +428,344 @@ function renderTable() {
   }
 }
 
+function updateStateMetaBanner(stateName) {
+  const banner = document.getElementById('detail-state-meta-banner');
+  const reportBtn = document.getElementById('detail-state-report-btn');
+  const metaReportLink = document.getElementById('meta-state-report-link');
+  if (!stateName) {
+    if (banner) banner.classList.add('hidden');
+    return;
+  }
+  const matchingRec = allRecords.find(r => (r.state_name || r.state) === stateName);
+  const stateCode = matchingRec ? matchingRec.state : null;
+  const meta = stateCode && stateMetadata ? stateMetadata[stateCode] : null;
+
+  if (stateCode) {
+    const reportUrl = `/state-glance-report?state_abb=${stateCode}`;
+    if (reportBtn) reportBtn.href = reportUrl;
+    if (metaReportLink) metaReportLink.href = reportUrl;
+  }
+
+  if (banner && meta) {
+    banner.classList.remove('hidden');
+    const tbEl = document.getElementById('meta-total-booths');
+    const abEl = document.getElementById('meta-avg-booths');
+    const aqEl = document.getElementById('meta-admin-quality');
+    const bBadge = document.getElementById('meta-booth-badge');
+    if (tbEl) tbEl.textContent = meta.has_booth ? meta.total_booths.toLocaleString() : '—';
+    if (abEl) abEl.textContent = meta.has_booth ? `Avg ${Math.round(meta.avg_booths_per_ac)} / AC` : 'Pending sync';
+    if (aqEl) aqEl.textContent = meta.has_booth ? `Admin: ${Math.round(meta.admin_quality)}%` : 'No data';
+    if (bBadge) {
+      bBadge.textContent = meta.has_booth ? 'Ready' : 'Pending';
+      bBadge.className = meta.has_booth 
+        ? 'text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100'
+        : 'text-[10px] font-bold px-2 py-0.5 rounded-full bg-gray-50 text-gray-500 border border-gray-200';
+    }
+
+    const tvEl = document.getElementById('meta-total-voters');
+    const grEl = document.getElementById('meta-gender-ratio');
+    const dsEl = document.getElementById('meta-demographic-split');
+    const vBadge = document.getElementById('meta-voter-badge');
+    if (tvEl) tvEl.textContent = meta.has_voter ? `${(meta.total_voters / 1000000).toFixed(2)}M` : '—';
+    if (grEl) grEl.textContent = meta.has_voter ? `Ratio: ${meta.gender_ratio.toLocaleString()} F / 1k M` : 'Pending sync';
+    if (dsEl) dsEl.textContent = meta.has_voter ? `${meta.urban_pct}% Urban • ${meta.rural_pct}% Rural` : '—';
+    if (vBadge) {
+      vBadge.textContent = meta.has_voter ? 'Verified' : 'Pending';
+      vBadge.className = meta.has_voter 
+        ? 'text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 border border-purple-100'
+        : 'text-[10px] font-bold px-2 py-0.5 rounded-full bg-gray-50 text-gray-500 border border-gray-200';
+    }
+  } else if (banner) {
+    banner.classList.add('hidden');
+  }
+}
+
+function updateDirectoryKpiCards() {
+  const stateList = Object.values(stateMetadata || {});
+  if (!stateList.length) return;
+
+  let readyStates = 0;
+  let readyAcs = 0;
+  let missingStates = 0;
+  let missingAcs = 0;
+  let totalBooths = 0;
+  let totalVoters = 0;
+
+  stateList.forEach(s => {
+    const abb = (s.state_abb === 'CG') ? 'CH' : s.state_abb;
+    const acs = Number(s.total_acs) || STATE_AC_COUNTS[abb] || 1;
+    if (s.has_booth) {
+      readyStates++;
+      readyAcs += acs;
+      totalBooths += (s.total_booths || 0);
+      totalVoters += (s.total_voters || 0);
+    } else {
+      missingStates++;
+      missingAcs += acs;
+    }
+  });
+
+  const totalAcs = readyAcs + missingAcs;
+  const readyPct = totalAcs > 0 ? (readyAcs / totalAcs * 100).toFixed(1) : '0.0';
+  const missingPct = totalAcs > 0 ? (missingAcs / totalAcs * 100).toFixed(1) : '0.0';
+
+  const rcEl = document.getElementById('dir-ready-count');
+  const rpEl = document.getElementById('dir-ready-pct');
+  const vtEl = document.getElementById('dir-voters-total');
+  const mcEl = document.getElementById('dir-missing-count');
+  const mpEl = document.getElementById('dir-missing-pct');
+  const dpEl = document.getElementById('dir-progress-pct');
+  const dtEl = document.getElementById('dir-progress-text');
+  const dsegR = document.getElementById('dir-seg-ready');
+  const dsegM = document.getElementById('dir-seg-missing');
+
+  if (rcEl) rcEl.textContent = readyStates;
+  if (rpEl) rpEl.textContent = `(${readyPct}% ACs)`;
+  if (vtEl) vtEl.textContent = `${(totalVoters / 1000000).toFixed(1)}M`;
+  if (mcEl) mcEl.textContent = missingStates;
+  if (mpEl) mpEl.textContent = `(${missingAcs} ACs)`;
+  if (dpEl) dpEl.textContent = `${readyPct}%`;
+  if (dtEl) dtEl.textContent = `${readyAcs.toLocaleString()} / ${totalAcs.toLocaleString()} ACs mapped (${totalBooths.toLocaleString()} booths)`;
+  if (dsegR) dsegR.style.width = `${readyPct}%`;
+  if (dsegM) dsegM.style.width = `${missingPct}%`;
+}
+
+window.switchListingMode = function(mode) {
+  listingMode = mode;
+  const btnBacklog = document.getElementById('toggle-view-backlog');
+  const btnDir = document.getElementById('toggle-view-directory');
+  const conBacklog = document.getElementById('listing-backlog-container');
+  const conDir = document.getElementById('listing-directory-container');
+
+  if (mode === 'directory') {
+    if (btnBacklog) {
+      btnBacklog.className = 'px-2.5 py-1 text-[11.5px] font-bold rounded-md transition-all text-gray-500 hover:text-gray-900 flex items-center gap-1.5 select-none cursor-pointer';
+    }
+    if (btnDir) {
+      btnDir.className = 'px-2.5 py-1 text-[11.5px] font-bold rounded-md transition-all shadow-sm bg-white text-gray-900 flex items-center gap-1.5 select-none cursor-pointer';
+    }
+    if (conBacklog) conBacklog.classList.add('hidden');
+    if (conDir) conDir.classList.remove('hidden');
+    const detailHeader = document.getElementById('detail-header');
+    if (detailHeader) detailHeader.classList.add('hidden');
+    updateStateMetaBanner(null);
+    renderBoothVoterDirectory();
+  } else {
+    if (btnBacklog) {
+      btnBacklog.className = 'px-2.5 py-1 text-[11.5px] font-bold rounded-md transition-all shadow-sm bg-white text-gray-900 flex items-center gap-1.5 select-none cursor-pointer';
+    }
+    if (btnDir) {
+      btnDir.className = 'px-2.5 py-1 text-[11.5px] font-bold rounded-md transition-all text-gray-500 hover:text-gray-900 flex items-center gap-1.5 select-none cursor-pointer';
+    }
+    if (conBacklog) conBacklog.classList.remove('hidden');
+    if (conDir) conDir.classList.add('hidden');
+    renderTable();
+  }
+};
+
+window.filterDirectory = function(filterKey) {
+  dirFilter = filterKey;
+  ['all', 'ready', 'voters', 'missing'].forEach(k => {
+    const el = document.getElementById(`dir-card-${k}`);
+    if (!el) return;
+    if (k === filterKey) {
+      el.className = 'dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-indigo-300 bg-indigo-50/40 shadow-sm transition-all cursor-pointer';
+    } else {
+      el.className = 'dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-sm transition-all bg-white cursor-pointer';
+    }
+  });
+  renderBoothVoterDirectory();
+};
+
+function renderBoothVoterDirectory() {
+  const tbody = document.getElementById('table-body');
+  const thead = document.getElementById('table-head');
+  const badge = document.getElementById('record-count-badge');
+  const paginationText = document.getElementById('pagination-text');
+
+  let stateList = Object.values(stateMetadata || {});
+  if (!stateList.length) {
+    tbody.innerHTML = `<tr><td colspan="6" class="px-5 py-12 text-center text-gray-400">Loading Booth &amp; Voter Directory...</td></tr>`;
+    return;
+  }
+
+  const backlogByState = {};
+  allRecords.forEach(r => {
+    const s = r.state;
+    backlogByState[s] = (backlogByState[s] || 0) + 1;
+  });
+
+  if (dirFilter === 'ready') {
+    stateList = stateList.filter(s => s.has_booth);
+  } else if (dirFilter === 'voters') {
+    stateList = stateList.filter(s => s.has_voter);
+  } else if (dirFilter === 'missing') {
+    stateList = stateList.filter(s => !s.has_booth);
+  }
+
+  if (filters.state) {
+    stateList = stateList.filter(s => s.state_abb === filters.state);
+  }
+
+  const searchQ = (filters.search || '').trim().toLowerCase();
+  if (searchQ) {
+    stateList = stateList.filter(s => 
+      s.state_name.toLowerCase().includes(searchQ) || 
+      s.state_abb.toLowerCase().includes(searchQ)
+    );
+  }
+
+  stateList.sort((a, b) => {
+    let va, vb;
+    if (dirSortCol === 'name') {
+      va = a.state_name; vb = b.state_name;
+      return dirSortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+    } else if (dirSortCol === 'acs') {
+      va = a.total_acs || 0; vb = b.total_acs || 0;
+    } else if (dirSortCol === 'booths') {
+      va = a.total_booths || 0; vb = b.total_booths || 0;
+    } else if (dirSortCol === 'voters') {
+      va = a.total_voters || 0; vb = b.total_voters || 0;
+    } else if (dirSortCol === 'admin') {
+      va = a.admin_quality || 0; vb = b.admin_quality || 0;
+    } else {
+      va = a.state_name; vb = b.state_name;
+      return dirSortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
+    }
+    return dirSortDir === 'asc' ? va - vb : vb - va;
+  });
+
+  if (badge) badge.textContent = `${stateList.length} States & UTs`;
+  if (paginationText) {
+    paginationText.textContent = `Displaying ${stateList.length} of ${Object.keys(stateMetadata).length} states in Directory`;
+  }
+
+  const arrow = col => dirSortCol === col ? (dirSortDir === 'asc' ? ' ▲' : ' ▼') : '';
+
+  thead.innerHTML = `
+    <tr>
+      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="name">State &amp; Canonical ACs${arrow('name')}</th>
+      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="booths">Booth Infrastructure${arrow('booths')}</th>
+      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="admin">Admin Quality${arrow('admin')}</th>
+      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="voters">Electoral Roll${arrow('voters')}</th>
+      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider text-right">Report</th>
+    </tr>`;
+
+  if (!stateList.length) {
+    tbody.innerHTML = `
+      <tr><td colspan="5" class="px-5 py-12 text-center">
+        <div class="flex flex-col items-center gap-2 text-gray-400">
+          <span class="material-symbols-outlined" style="font-size:28px;">search_off</span>
+          <p class="text-[12px]">No states match the selected filters.</p>
+        </div>
+      </td></tr>`;
+    return;
+  }
+
+  let html = '';
+  stateList.forEach(s => {
+    const rawCode = s.state_abb || '';
+    const stateCode = (rawCode === 'CG') ? 'CH' : rawCode;
+    const stateName = (s.state_name === 'CG' || stateCode === 'CH') ? 'Chandigarh' : s.state_name;
+    const canonicalAcs = Number(s.total_acs) || STATE_AC_COUNTS[stateCode] || 1;
+    
+    // Booth HTML
+    let boothHtml = '';
+    if (s.has_booth) {
+      boothHtml = `
+        <div class="flex flex-col">
+          <div class="flex items-center gap-1.5">
+            <span class="text-[13px] font-bold text-gray-900 tabular-nums">${s.total_booths.toLocaleString()}</span>
+            <span class="text-[11px] text-gray-400 font-medium">booths</span>
+          </div>
+          <span class="text-[10.5px] text-gray-500 font-medium">Avg ${Math.round(s.avg_booths_per_ac)} / AC</span>
+        </div>`;
+    } else {
+      boothHtml = `<span class="inline-flex items-center gap-1 text-[10px] font-semibold bg-gray-100 text-gray-400 border border-gray-200 px-2.5 py-0.5 rounded-full">○ Backlog (0 Booths)</span>`;
+    }
+
+    // Admin Quality HTML
+    let adminHtml = '';
+    if (s.has_booth) {
+      const q = Math.round(s.admin_quality);
+      const colorCls = q >= 80 ? 'emerald' : (q >= 50 ? 'amber' : 'red');
+      adminHtml = `
+        <div class="flex flex-col">
+          <div class="flex items-center gap-1.5">
+            <span class="inline-flex items-center gap-1 text-[11px] font-bold text-${colorCls}-700 bg-${colorCls}-50 border border-${colorCls}-200 px-2 py-0.5 rounded-full">
+              <span class="w-1.5 h-1.5 rounded-full bg-${colorCls}-500"></span>
+              ${q}% Complete
+            </span>
+          </div>
+          <span class="text-[9.5px] text-gray-400 font-medium mt-1">Blk: ${s.field_completeness?.block_taluka_pct || 0}% • PS: ${s.field_completeness?.police_station_pct || 0}%</span>
+        </div>`;
+    } else {
+      adminHtml = `<span class="text-[11px] text-gray-300">—</span>`;
+    }
+
+    // Voter HTML
+    let voterHtml = '';
+    if (s.has_voter) {
+      voterHtml = `
+        <div class="flex flex-col">
+          <div class="flex items-center gap-1.5">
+            <span class="text-[13px] font-bold text-purple-950 tabular-nums">${(s.total_voters / 1000000).toFixed(2)}M</span>
+            <span class="text-[11px] text-gray-400 font-medium">electors</span>
+          </div>
+          <div class="flex items-center gap-2 text-[10.5px] text-gray-500 font-medium mt-0.5">
+            <span class="text-purple-700 font-semibold">${s.gender_ratio.toLocaleString()} F / 1k M</span>
+            <span>•</span>
+            <span>${s.urban_pct}% Urban</span>
+          </div>
+        </div>`;
+    } else {
+      voterHtml = `<span class="text-[11px] text-gray-400 font-medium">Roll Not Ingested</span>`;
+    }
+
+    html += `
+      <tr class="trow bg-white border-b border-gray-50 hover:bg-slate-50/60 transition-colors cursor-pointer"
+          onclick="window.open('/state-glance-report?state_abb=${stateCode}', '_blank')">
+        <td class="px-5 py-3.5">
+          <div class="flex items-center gap-3">
+            <div class="w-8 h-8 rounded-lg ${s.has_booth ? 'bg-indigo-50 text-indigo-600 border border-indigo-100' : 'bg-gray-100 text-gray-400'} flex items-center justify-center shrink-0 font-extrabold text-[11px]">
+              ${stateCode}
+            </div>
+            <div>
+              <p class="text-[13px] font-semibold text-gray-900 leading-tight">${x(stateName)}</p>
+              <p class="text-[11px] text-gray-400 font-medium mt-0.5">${canonicalAcs} Canonical ACs</p>
+            </div>
+          </div>
+        </td>
+        <td class="px-5 py-3.5 whitespace-nowrap">${boothHtml}</td>
+        <td class="px-5 py-3.5 whitespace-nowrap">${adminHtml}</td>
+        <td class="px-5 py-3.5 whitespace-nowrap">${voterHtml}</td>
+        <td class="px-5 py-3.5 text-right whitespace-nowrap">
+          <a href="/state-glance-report?state_abb=${stateCode}" target="_blank" onclick="event.stopPropagation()"
+             class="px-2.5 py-1 text-[11.5px] font-bold text-indigo-600 hover:text-indigo-800 bg-indigo-50/60 hover:bg-indigo-100 border border-indigo-200 rounded-lg transition-all inline-flex items-center gap-1">
+            <span>Report</span>
+            <span class="material-symbols-outlined" style="font-size:12px;">open_in_new</span>
+          </a>
+        </td>
+      </tr>`;
+  });
+
+  tbody.innerHTML = html;
+
+  thead.querySelectorAll('.dir-sortable').forEach(th => {
+    th.addEventListener('click', () => {
+      const c = th.dataset.col;
+      dirSortDir = dirSortCol === c && dirSortDir === 'asc' ? 'desc' : 'asc';
+      dirSortCol = c;
+      renderBoothVoterDirectory();
+    });
+  });
+}
+
 window.goBackToStates = function () {
   currentView = 'states';
   currentDetailState = null;
   document.getElementById('detail-header').classList.add('hidden');
+  updateStateMetaBanner(null);
   // Clear the URL hash so a refresh lands on the states view
   history.pushState(null, '', window.location.pathname + window.location.search);
   renderTable();
@@ -414,6 +776,7 @@ window.openStateDetail = function (stateName) {
   currentDetailState = stateName;
   document.getElementById('detail-header').classList.remove('hidden');
   document.getElementById('detail-state-name').textContent = stateName;
+  updateStateMetaBanner(stateName);
   // Write the state name into the URL hash so a refresh restores this view
   history.pushState(null, '', '#state=' + encodeURIComponent(stateName));
   renderTable();
@@ -434,6 +797,7 @@ function readStateFromURL() {
       if (detailHeader) detailHeader.classList.remove('hidden');
       const detailName = document.getElementById('detail-state-name');
       if (detailName) detailName.textContent = stateName;
+      updateStateMetaBanner(stateName);
       return;
     }
   }
@@ -2076,10 +2440,10 @@ async function renderGlanceMomentumAndTable() {
   };
 
   // Only Form 20 carries real data; Retro / Booth / Caste stay flat at zero.
-  const f20vals   = series.map(s => s.f20);
-  const retrovals = series.map(() => 0);
-  const boothvals = series.map(() => 0);
-  const castevals = series.map(() => 0);
+  const f20vals   = series.map(s => s.f20 || 0);
+  const retrovals = series.map(s => s.retro_total || 0);
+  const boothvals = series.map(s => s.booth_total || 0);
+  const castevals = series.map(s => s.caste_total || 0);
 
   const chartOpts = (rawSets) => ({
     responsive: true, maintainAspectRatio: false,

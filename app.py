@@ -337,10 +337,10 @@ STATE_TO_ECI = {
 
 # Canonical state/UT display names — single source of truth for the Listing page,
 # so a state never appears under two labels (full name vs abbreviation vs NULL).
-# CG and CT are both Chhattisgarh; DD = Daman & Diu, DN = Dadra & Nagar Haveli.
+# CG and CH both map to Chandigarh; CT is Chhattisgarh; DD = Daman & Diu, DN = Dadra & Nagar Haveli.
 STATE_NAMES = {
     'AP': 'Andhra Pradesh', 'AR': 'Arunachal Pradesh', 'AS': 'Assam', 'BR': 'Bihar',
-    'CG': 'Chandigarh', 'CT': 'Chhattisgarh', 'GA': 'Goa', 'GJ': 'Gujarat',
+    'CH': 'Chandigarh', 'CG': 'Chandigarh', 'CT': 'Chhattisgarh', 'GA': 'Goa', 'GJ': 'Gujarat',
     'HR': 'Haryana', 'HP': 'Himachal Pradesh', 'JH': 'Jharkhand', 'KA': 'Karnataka',
     'KL': 'Kerala', 'MP': 'Madhya Pradesh', 'MH': 'Maharashtra', 'MN': 'Manipur',
     'ML': 'Meghalaya', 'MZ': 'Mizoram', 'NL': 'Nagaland', 'OR': 'Odisha',
@@ -357,11 +357,12 @@ def canonical_state_name(code):
 
 # Canonical Assembly Constituency (AC) counts per state/UT — mirrors STATE_AC_COUNTS in static/app.js
 STATE_AC_COUNTS = {
-    'AP': 175, 'AR': 60,  'AS': 126, 'BR': 243, 'CT': 90,  'GA': 40,
+    'AP': 175, 'AR': 60,  'AS': 126, 'BR': 243, 'CH': 1,   'CG': 1,   'CT': 90,  'GA': 40,
     'GJ': 182, 'HR': 90,  'HP': 68,  'JH': 81,  'KA': 224, 'KL': 140, 'MP': 230,
     'MH': 288, 'MN': 60,  'ML': 60,  'MZ': 40,  'NL': 60,  'OR': 147, 'PB': 117,
     'RJ': 200, 'SK': 32,  'TN': 234, 'TS': 119, 'TR': 60,  'UP': 403, 'UK': 70,
-    'WB': 294, 'DL': 70,  'PY': 30,  'JK': 90,  'LD': 1,   'AN': 1,   'CH': 1,
+    'WB': 294, 'DL': 70,  'PY': 30,  'JK': 90,  'LD': 1,   'AN': 1,   'DD': 1,
+    'DN': 1,   'LA': 2,
 }
 
 # ── Live AWS Caching ────────────────────────────────────────────────────────
@@ -631,7 +632,8 @@ def require_login():
         return
     allowed_routes = ['login_page', 'login', 'auth_callback', 'static', 'admin_ac_pct',
                       'country_glance_test_page', 'country_glance_map_page', 'indexing_visualizer_page',
-                      'api_country_glance_data', 'api_map_district_data', 'api_map_pc_data', 'api_map_ac_data']
+                      'api_country_glance_data', 'api_map_district_data', 'api_map_pc_data', 'api_map_ac_data',
+                      'get_backlog_state_metadata']
     if request.endpoint not in allowed_routes:
         if not session.get('user'):
             if request.path.startswith('/api/'):
@@ -852,6 +854,43 @@ def update_record(record_id):
             save_completion_history(history)
 
     return jsonify(r_dict)
+
+
+@app.route('/api/backlog/state_metadata')
+def get_backlog_state_metadata():
+    """Returns lightweight booth and voter roll metadata for all states to power Backlog Tracker."""
+    cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'state_glance_cache.json')
+    if not os.path.exists(cache_path):
+        return jsonify({})
+    try:
+        with open(cache_path, 'r', encoding='utf-8') as f:
+            all_data = json.load(f)
+        result = {}
+        for s_abb, data in all_data.items():
+            target_abb = 'CH' if s_abb == 'CG' else s_abb
+            b = data.get('booth') or {}
+            v = data.get('voter') or {}
+            total_acs = STATE_AC_COUNTS.get(target_abb) or b.get('total_acs') or 1
+            result[target_abb] = {
+                'state_abb': target_abb,
+                'state_name': STATE_NAMES.get(target_abb, target_abb),
+                'total_acs': total_acs,
+                'form20_avail': data.get('form20', {}).get('availability_pct', 0),
+                'retro_avail': data.get('hero', {}).get('retro_availability_pct', 0),
+                'total_booths': b.get('total_booths', 0),
+                'avg_booths_per_ac': b.get('avg_booths_per_ac', 0),
+                'admin_quality': b.get('admin_quality_score', 0),
+                'field_completeness': b.get('field_completeness', {}),
+                'total_voters': v.get('total_voters', 0),
+                'gender_ratio': v.get('gender_ratio', 0),
+                'urban_pct': v.get('urban_rural', {}).get('urban_pct', 0),
+                'rural_pct': v.get('urban_rural', {}).get('rural_pct', 0),
+                'has_booth': bool(b.get('total_booths', 0) > 0),
+                'has_voter': bool(v.get('total_voters', 0) > 0)
+            }
+        return jsonify(result)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
 
 
 @app.route('/api/stats')
@@ -2426,22 +2465,22 @@ def state_glance_report_page():
 @app.route('/api/state_glance/data')
 def api_state_glance_data():
     state_abb = request.args.get('state_abb', 'BR').upper().strip()
+    if state_abb == 'CG':
+        state_abb = 'CH'
     
     import os, json, redis
     
     # 1. Try Redis First
     try:
-        REDIS_HOST = os.environ.get('REDIS_HOST', 'localhost')
-        REDIS_PORT = int(os.environ.get('REDIS_PORT', 6379))
-        redis_client = redis.Redis(host=REDIS_HOST, port=REDIS_PORT, db=0, decode_responses=True, socket_connect_timeout=2)
-        
-        cached_data = redis_client.get(f'state_glance:{state_abb}')
-        if cached_data:
-            return jsonify({
-                "success": True,
-                "data": json.loads(cached_data),
-                "source": "redis"
-            })
+        redis_client = get_redis()
+        if redis_client:
+            cached_data = redis_client.get(f'state_glance:{state_abb}')
+            if cached_data:
+                return jsonify({
+                    "success": True,
+                    "data": json.loads(cached_data),
+                    "source": "redis"
+                })
     except Exception as e:
         print(f"Redis fetch failed for {state_abb}, falling back to JSON: {e}")
         

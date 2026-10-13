@@ -297,14 +297,28 @@
 
       <!-- Header Bar -->
       <div class="py-3 min-h-[50px] bg-white border-b border-gray-200 flex flex-col items-start md:flex-row md:items-center justify-between px-5 gap-3 sticky top-0 z-30 shrink-0">
-        <div class="flex items-center gap-3">
-          <h1 class="text-[13px] font-semibold text-gray-900">Remaining Elections</h1>
+        <div class="flex items-center gap-2.5 sm:gap-3.5 flex-wrap">
+          <!-- Backlog Mode Segmented Control -->
+          <div class="flex items-center bg-gray-100/90 p-0.5 rounded-lg border border-gray-200/90 shrink-0">
+            <button id="toggle-view-backlog" type="button" onclick="switchListingMode('backlog')"
+              class="px-2.5 py-1 text-[11.5px] font-bold rounded-md transition-all shadow-sm bg-white text-gray-900 flex items-center gap-1.5 select-none cursor-pointer">
+              <span class="material-symbols-outlined text-indigo-600" style="font-size:14px;">pending_actions</span>
+              <span>Form 20 Backlog</span>
+            </button>
+            <button id="toggle-view-directory" type="button" onclick="switchListingMode('directory')"
+              class="px-2.5 py-1 text-[11.5px] font-bold rounded-md transition-all text-gray-500 hover:text-gray-900 flex items-center gap-1.5 select-none cursor-pointer">
+              <span class="material-symbols-outlined text-purple-600" style="font-size:14px;">pin_drop</span>
+              <span>Booth &amp; Voter Directory</span>
+              <span class="text-[9.5px] font-extrabold px-1.5 py-0.2 rounded-full bg-purple-100 text-purple-700">37</span>
+            </button>
+          </div>
+
           <span class="text-[11px] font-medium text-gray-500 bg-gray-100 px-2 py-0.5 rounded-md tabular-nums" id="record-count-badge">— records</span>
 
-          <div class="w-px h-4 bg-gray-200 mx-2 hidden sm:block"></div>
+          <div class="w-px h-4 bg-gray-200 mx-1 hidden sm:block"></div>
           <div id="global-search-wrap" class="relative hidden sm:block">
             <span class="material-symbols-outlined absolute left-2.5 top-1/2 -translate-y-1/2 text-gray-400" style="font-size:14px;">search</span>
-            <input id="global-search" type="text" placeholder="Search records…"
+            <input id="global-search" type="text" placeholder="Search states or records…"
               class="h-7 w-56 bg-gray-50 border border-gray-200 rounded-md pl-8 pr-3 text-[12px] text-gray-700 placeholder-gray-400 outline-none focus:border-gray-400 focus:bg-white transition-all"/>
           </div>
         </div>
@@ -331,82 +345,222 @@
         </div>
       </div>
 
-      <!-- Pipeline Stage KPI Cards -->
-      <div class="px-5 py-3 bg-white border-b border-gray-200 grid grid-cols-2 md:grid-cols-5 gap-3 shrink-0">
-        <a data-view="all" class="sidelink sl-active kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
-          <div class="w-9 h-9 rounded-lg bg-gray-100 flex items-center justify-center shrink-0">
-            <span class="material-symbols-outlined text-gray-500" style="font-size:18px;">list_alt</span>
-          </div>
-          <div class="min-w-0">
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">All Remaining</p>
-            <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-all-count">—</p>
-          </div>
-        </a>
+      <!-- ══════════════════════════════════════════════════
+           MODE 1: Form 20 Pipeline Stage KPI Cards & Progress
+      ══════════════════════════════════════════════════ -->
+      <div id="listing-backlog-container">
+        <!-- Pipeline Stage KPI Cards -->
+        <div class="px-5 py-3 bg-white border-b border-gray-200 grid grid-cols-2 md:grid-cols-5 gap-3 shrink-0">
+          <a data-view="all" class="sidelink sl-active kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
+            <div class="w-9 h-9 rounded-lg bg-gray-100 flex items-center justify-center shrink-0">
+              <span class="material-symbols-outlined text-gray-500" style="font-size:18px;">list_alt</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">All Remaining</p>
+              <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-all-count">—</p>
+            </div>
+          </a>
 
-        <a data-view="missing" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-red-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
-          <div class="w-9 h-9 rounded-lg bg-red-50 flex items-center justify-center shrink-0 group-hover:bg-red-100 transition-colors">
-            <span class="material-symbols-outlined text-red-400" style="font-size:18px;">error_outline</span>
-          </div>
-          <div class="min-w-0">
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Not Downloaded</p>
-            <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-mi-count">—</p>
-          </div>
-        </a>
+          <a data-view="missing" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-red-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
+            <div class="w-9 h-9 rounded-lg bg-red-50 flex items-center justify-center shrink-0 group-hover:bg-red-100 transition-colors">
+              <span class="material-symbols-outlined text-red-400" style="font-size:18px;">error_outline</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Not Downloaded</p>
+              <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-mi-count">—</p>
+            </div>
+          </a>
 
-        <a data-view="downloaded" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
-          <div class="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center shrink-0 group-hover:bg-blue-100 transition-colors">
-            <span class="material-symbols-outlined text-blue-500" style="font-size:18px;">download_done</span>
-          </div>
-          <div class="min-w-0">
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Downloaded</p>
-            <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-dl-count">—</p>
-          </div>
-        </a>
+          <a data-view="downloaded" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
+            <div class="w-9 h-9 rounded-lg bg-blue-50 flex items-center justify-center shrink-0 group-hover:bg-blue-100 transition-colors">
+              <span class="material-symbols-outlined text-blue-500" style="font-size:18px;">download_done</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Downloaded</p>
+              <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-dl-count">—</p>
+            </div>
+          </a>
 
-        <a data-view="extracted" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-violet-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
-          <div class="w-9 h-9 rounded-lg bg-violet-50 flex items-center justify-center shrink-0 group-hover:bg-violet-100 transition-colors">
-            <span class="material-symbols-outlined text-violet-500" style="font-size:18px;">database</span>
-          </div>
-          <div class="min-w-0">
-            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Extracted</p>
-            <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-ex-count">—</p>
-          </div>
-        </a>
+          <a data-view="extracted" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-violet-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
+            <div class="w-9 h-9 rounded-lg bg-violet-50 flex items-center justify-center shrink-0 group-hover:bg-violet-100 transition-colors">
+              <span class="material-symbols-outlined text-violet-500" style="font-size:18px;">database</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Extracted</p>
+              <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-ex-count">—</p>
+            </div>
+          </a>
 
-        <a data-view="wip" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-amber-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
-          <div class="w-9 h-9 rounded-lg bg-amber-50 flex items-center justify-center shrink-0 group-hover:bg-amber-100 transition-colors">
-            <span class="material-symbols-outlined text-amber-400" style="font-size:18px;">hourglass_top</span>
+          <a data-view="wip" class="sidelink kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-amber-300 hover:shadow-sm transition-all duration-150 bg-white cursor-pointer" href="#">
+            <div class="w-9 h-9 rounded-lg bg-amber-50 flex items-center justify-center shrink-0 group-hover:bg-amber-100 transition-colors">
+              <span class="material-symbols-outlined text-amber-400" style="font-size:18px;">hourglass_top</span>
+            </div>
+            <div class="min-w-0">
+              <p id="wip-label" class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">WIP In Progress</p>
+              <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-wip-count">—</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Overall Progress strip -->
+        <div class="px-5 py-2.5 bg-white border-b border-gray-100 flex items-center gap-3 shrink-0">
+          <span class="text-[10.5px] font-semibold text-gray-500 uppercase tracking-wider shrink-0">Progress</span>
+          <div class="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden flex">
+            <div id="seg-completed"  class="h-full bg-emerald-500 bar-fill"></div>
+            <div id="seg-extracted"  class="h-full bg-violet-400 bar-fill"></div>
+            <div id="seg-downloaded" class="h-full bg-blue-400 bar-fill"></div>
           </div>
-          <div class="min-w-0">
-            <p id="wip-label" class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">WIP In Progress</p>
-            <p class="text-[20px] font-black text-gray-800 leading-tight tabular-nums" id="sl-wip-count">—</p>
-          </div>
-        </a>
+          <span class="text-[12px] font-bold text-gray-900 tabular-nums shrink-0" id="progress-pct-sidebar">0%</span>
+          <span class="text-[10.5px] text-gray-500 tabular-nums shrink-0" id="progress-text">0 / 0 completed</span>
+        </div>
       </div>
 
-      <!-- Overall Progress strip -->
-      <div class="px-5 py-2.5 bg-white border-b border-gray-100 flex items-center gap-3 shrink-0">
-        <span class="text-[10.5px] font-semibold text-gray-500 uppercase tracking-wider shrink-0">Progress</span>
-        <div class="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden flex">
-          <div id="seg-completed"  class="h-full bg-emerald-500 bar-fill"></div>
-          <div id="seg-extracted"  class="h-full bg-violet-400 bar-fill"></div>
-          <div id="seg-downloaded" class="h-full bg-blue-400 bar-fill"></div>
+      <!-- ══════════════════════════════════════════════════
+           MODE 2: Booth & Voter Infrastructure Directory KPIs & Progress
+      ══════════════════════════════════════════════════ -->
+      <div id="listing-directory-container" class="hidden">
+        <!-- Directory Stage KPI Cards -->
+        <div class="px-5 py-3 bg-white border-b border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-3 shrink-0">
+          <a id="dir-card-all" onclick="filterDirectory('all')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-indigo-300 bg-indigo-50/30 hover:shadow-sm transition-all cursor-pointer">
+            <div class="w-9 h-9 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0">
+              <span class="material-symbols-outlined text-indigo-600" style="font-size:18px;">map</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">National Coverage</p>
+              <div class="flex items-baseline gap-1.5">
+                <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums">37</p>
+                <span class="text-[11px] text-gray-500 font-medium">States &amp; UTs</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="dir-card-ready" onclick="filterDirectory('ready')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-emerald-300 hover:shadow-sm transition-all bg-white cursor-pointer">
+            <div class="w-9 h-9 rounded-lg bg-emerald-50 flex items-center justify-center shrink-0 group-hover:bg-emerald-100 transition-colors">
+              <span class="material-symbols-outlined text-emerald-600" style="font-size:18px;">check_circle</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Booth Infra Ready</p>
+              <div class="flex items-baseline gap-1.5">
+                <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums" id="dir-ready-count">23</p>
+                <span class="text-[11px] text-emerald-600 font-bold" id="dir-ready-pct">(79.5% ACs)</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="dir-card-voters" onclick="filterDirectory('voters')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-purple-300 hover:shadow-sm transition-all bg-white cursor-pointer">
+            <div class="w-9 h-9 rounded-lg bg-purple-50 flex items-center justify-center shrink-0 group-hover:bg-purple-100 transition-colors">
+              <span class="material-symbols-outlined text-purple-600" style="font-size:18px;">groups</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Electoral Roll Profile</p>
+              <div class="flex items-baseline gap-1.5">
+                <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums" id="dir-voters-total">973.8M</p>
+                <span class="text-[11px] text-purple-600 font-bold">electors</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="dir-card-missing" onclick="filterDirectory('missing')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-amber-300 hover:shadow-sm transition-all bg-white cursor-pointer">
+            <div class="w-9 h-9 rounded-lg bg-amber-50 flex items-center justify-center shrink-0 group-hover:bg-amber-100 transition-colors">
+              <span class="material-symbols-outlined text-amber-500" style="font-size:18px;">hourglass_empty</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Pending Backlog</p>
+              <div class="flex items-baseline gap-1.5">
+                <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums" id="dir-missing-count">14</p>
+                <span class="text-[11px] text-amber-600 font-bold" id="dir-missing-pct">(847 ACs)</span>
+              </div>
+            </div>
+          </a>
         </div>
-        <span class="text-[12px] font-bold text-gray-900 tabular-nums shrink-0" id="progress-pct-sidebar">0%</span>
-        <span class="text-[10.5px] text-gray-500 tabular-nums shrink-0" id="progress-text">0 / 0 completed</span>
+
+        <!-- Directory Progress Strip -->
+        <div class="px-5 py-2.5 bg-white border-b border-gray-100 flex items-center gap-3 shrink-0">
+          <span class="text-[10.5px] font-semibold text-gray-500 uppercase tracking-wider shrink-0">National AC Coverage</span>
+          <div class="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden flex">
+            <div id="dir-seg-ready" style="width: 79.5%;" class="h-full bg-emerald-500 bar-fill"></div>
+            <div id="dir-seg-missing" style="width: 20.5%;" class="h-full bg-amber-400/80 bar-fill"></div>
+          </div>
+          <span class="text-[12px] font-bold text-gray-900 tabular-nums shrink-0" id="dir-progress-pct">79.5%</span>
+          <span class="text-[10.5px] text-gray-500 tabular-nums shrink-0" id="dir-progress-text">3,282 / 4,129 ACs mapped (1,094,930 booths)</span>
+        </div>
       </div>
 
       <!-- Back to States bar (only visible in state detail mode) -->
-      <div id="detail-header" class="hidden h-[40px] bg-gray-50 border-b border-gray-200 flex items-center px-5 shrink-0">
-        <button onclick="goBackToStates()" class="flex items-center gap-1.5 px-2.5 py-1 text-[12px] font-semibold text-gray-700 bg-white border border-gray-200 rounded-lg hover:border-gray-300 transition-colors">
-          <span class="material-symbols-outlined" style="font-size:13px;">arrow_back</span>
-          All States
-        </button>
-        <div class="h-3.5 w-px bg-gray-300 mx-3"></div>
-        <span class="text-[12px] font-semibold text-gray-800 flex items-center gap-1.5">
-          <span class="material-symbols-outlined text-gray-400" style="font-size:13px;">map</span>
-          <span id="detail-state-name">State</span>
-        </span>
+      <div id="detail-header" class="hidden h-[40px] bg-gray-50 border-b border-gray-200 flex items-center justify-between px-5 shrink-0">
+        <div class="flex items-center">
+          <button onclick="goBackToStates()" class="flex items-center gap-1.5 px-2.5 py-1 text-[12px] font-semibold text-gray-700 bg-white border border-gray-200 rounded-lg hover:border-gray-300 transition-colors">
+            <span class="material-symbols-outlined" style="font-size:13px;">arrow_back</span>
+            All States
+          </button>
+          <div class="h-3.5 w-px bg-gray-300 mx-3"></div>
+          <span class="text-[12px] font-semibold text-gray-800 flex items-center gap-1.5">
+            <span class="material-symbols-outlined text-gray-400" style="font-size:13px;">map</span>
+            <span id="detail-state-name">State</span>
+          </span>
+        </div>
+        <a id="detail-state-report-btn" href="#" target="_blank" class="hidden sm:inline-flex items-center gap-1.5 px-2.5 py-1 text-[11.5px] font-bold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 rounded-lg transition-colors">
+          <span>Open Full State Report</span>
+          <span class="material-symbols-outlined" style="font-size:13px;">open_in_new</span>
+        </a>
+      </div>
+
+      <!-- State Booth & Voter Quick Insight Banner -->
+      <div id="detail-state-meta-banner" class="hidden px-5 py-3.5 bg-gradient-to-r from-slate-50 via-indigo-50/20 to-white border-b border-gray-200 shrink-0">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3.5">
+          <!-- Booth Metadata Card -->
+          <div class="p-3 bg-white rounded-xl border border-gray-200/80 shadow-[0_1px_3px_rgba(0,0,0,0.02)] flex flex-col justify-between">
+            <div class="flex items-center justify-between mb-1.5">
+              <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-indigo-500" style="font-size:14px;">pin_drop</span>
+                Booth Infrastructure
+              </span>
+              <span id="meta-booth-badge" class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-100">Ready</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span id="meta-total-booths" class="text-[20px] font-black text-gray-900 tabular-nums leading-tight">—</span>
+              <span class="text-[11px] text-gray-500 font-medium">booths mapped</span>
+            </div>
+            <div class="flex items-center justify-between text-[11px] text-gray-500 mt-2 pt-2 border-t border-gray-100">
+              <span id="meta-avg-booths">Avg — / AC</span>
+              <span id="meta-admin-quality" class="font-semibold text-gray-700">Admin: —%</span>
+            </div>
+          </div>
+
+          <!-- Voter Rolls Card -->
+          <div class="p-3 bg-white rounded-xl border border-gray-200/80 shadow-[0_1px_3px_rgba(0,0,0,0.02)] flex flex-col justify-between">
+            <div class="flex items-center justify-between mb-1.5">
+              <span class="text-[10px] font-bold text-gray-400 uppercase tracking-wider flex items-center gap-1.5">
+                <span class="material-symbols-outlined text-purple-500" style="font-size:14px;">groups</span>
+                Electoral Roll Overview
+              </span>
+              <span id="meta-voter-badge" class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-purple-50 text-purple-700 border border-purple-100">Verified</span>
+            </div>
+            <div class="flex items-baseline gap-2">
+              <span id="meta-total-voters" class="text-[20px] font-black text-gray-900 tabular-nums leading-tight">—</span>
+              <span class="text-[11px] text-gray-500 font-medium">registered electors</span>
+            </div>
+            <div class="flex items-center justify-between text-[11px] text-gray-500 mt-2 pt-2 border-t border-gray-100">
+              <span id="meta-gender-ratio">Ratio: — F / 1k M</span>
+              <span id="meta-demographic-split" class="font-semibold text-gray-700">—% Urban / —% Rural</span>
+            </div>
+          </div>
+
+          <!-- Deep Analytics Navigation Card -->
+          <div class="p-3 bg-gradient-to-br from-indigo-50/60 to-purple-50/40 rounded-xl border border-indigo-100 flex flex-col justify-between">
+            <div>
+              <p class="text-[10px] font-bold text-indigo-500 uppercase tracking-wider">CleanRoom Intelligence</p>
+              <h4 class="text-[13px] font-bold text-gray-900 mt-0.5">Comprehensive State Analytics</h4>
+              <p class="text-[11px] text-gray-500 mt-1 line-clamp-2">Inspect block/panchayat mapping, caste profiles, and constituency-level turnout in the State Glance Report.</p>
+            </div>
+            <div class="mt-2 pt-2 flex items-center justify-between">
+              <a id="meta-state-report-link" href="#" target="_blank" class="inline-flex items-center gap-1.5 text-[11.5px] font-bold text-indigo-600 hover:text-indigo-800 transition-colors">
+                View Full State Report
+                <span class="material-symbols-outlined" style="font-size:13px;">open_in_new</span>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- Single scroll surface: the table and footer scroll together; only the
@@ -770,11 +924,20 @@
               </div>
             </div>
 
-<!-- Top remaining changes -->
-            <div class="px-4 py-3">
+            <!-- Top remaining changes -->
+            <div class="px-4 py-3 border-b border-gray-50">
               <p class="text-[9px] font-bold text-gray-400 uppercase tracking-widest mb-0.5">Top remaining changes · AC-wise Coverage</p>
               <p class="text-[9px] text-gray-300 mb-2.5">Number = ACs with data · % = coverage of expected</p>
               <div id="booth-state-rows" class="grid grid-cols-4 gap-1.5"></div>
+            </div>
+
+            <!-- Deep Drilldown CTA to State Glance Report -->
+            <div class="p-3 bg-emerald-50/40 mt-auto">
+              <a href="/state-glance-report" class="w-full flex items-center justify-center gap-2 py-2 px-3 bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-700 hover:to-teal-800 text-white rounded-lg text-xs font-bold shadow-sm hover:shadow transition-all duration-150">
+                <span class="material-symbols-outlined text-[15px]">analytics</span>
+                <span>Open Booth &amp; Voter Analytics</span>
+                <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+              </a>
             </div>
           </div>
 
