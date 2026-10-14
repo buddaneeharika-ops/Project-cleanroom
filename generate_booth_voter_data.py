@@ -4,7 +4,7 @@ import time
 from app import get_rds_db, STATE_NAMES, STATE_AC_COUNTS, get_redis
 
 def generate_booth_voter_data():
-    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Starting Booth Metadata & Voter Details Aggregation...")
+    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Starting Booth Metadata & Voter Details Aggregation (DB-ONLY Mode)...")
     t0 = time.time()
     
     conn = get_rds_db()
@@ -15,7 +15,7 @@ def generate_booth_voter_data():
     cur = conn.cursor()
     
     # ─── 1. Query State & Zone Aggregates ─────────────────────────────────────
-    print("[1/5] Querying Zone-level Booth and Voter aggregations...")
+    print("[1/5] Querying Zone-level Booth and Voter aggregations from RDS...")
     zone_query = """
     SELECT 
         b.state_abb,
@@ -75,13 +75,13 @@ def generate_booth_voter_data():
         })
 
     # ─── 2. Query AC-level Aggregates (Requirement 1: Add Booth Details) ───────
-    print("[2/5] Querying AC-level Booth Details and Electoral rankings...")
+    print("[2/5] Querying AC-level Booth Details from RDS (booth_metadata_full_view)...")
     ac_query = """
     SELECT 
         b.state_abb,
         b.ac_no,
         COALESCE(a.ac_name, CONCAT('AC-', b.ac_no)) AS ac_name,
-        COUNT(*) AS actual_booths,
+        COUNT(*) AS extracted_booths,
         COALESCE(SUM(b.total_voters), 0) AS total_voters,
         COALESCE(SUM(b.male_voters), 0) AS male_voters,
         COALESCE(SUM(b.female_voters), 0) AS female_voters,
@@ -91,7 +91,7 @@ def generate_booth_voter_data():
         COUNT(DISTINCT NULLIF(b.police_station, '')) AS ps_count,
         COUNT(CASE WHEN b.police_station IS NULL OR b.police_station = '' THEN 1 END) AS missing_ps,
         COUNT(CASE WHEN b.pincode IS NULL OR b.pincode = '' THEN 1 END) AS missing_pincode,
-        COUNT(CASE WHEN (b.block IS NULL OR b.block = '') AND (b.taluka IS NULL OR b.taluka = '') THEN 1 END) AS missing_subadmin
+        COUNT(CASE WHEN (b.block IS NULL OR b.block = '') AND (b.taluka IS NULL OR b.taluka = '') AND (b.tehsil IS NULL OR b.tehsil = '') AND (b.sub_division IS NULL OR b.sub_division = '') THEN 1 END) AS missing_subadmin
     FROM booth_metadata_full_view b
     LEFT JOIN ac_mapping a ON b.state_abb = a.state_abb AND b.ac_no = a.ac_no
     GROUP BY b.state_abb, b.ac_no, a.ac_name
@@ -116,26 +116,23 @@ def generate_booth_voter_data():
         missing_rate = (tot_missing / max(b_cnt * 3, 1)) * 100
         impact = 'Critical Gaps' if missing_rate > 30 or mis_ps > 50 else ('Moderate Gaps' if missing_rate > 10 or mis_ps > 10 else 'Complete')
         
-        # Coordinates computation matching wireframe Clean Room validation (89.5% valid rate)
-        u_coords = round(b_cnt * 0.877)
-        v_coords = round(b_cnt * 0.895)
-        v_coords_pct = 89.5 if b_cnt > 0 else 0.0
-
         # Requirement 1 Record:
+        # Note: 'actual_booths' is None if not in gazetted master table.
+        # Coordinates (total, unique, valid, valid_pct) are None because lat/long is NOT in RDS DB.
         state_booth_details[s_abb].append({
             'state': s_abb,
             'ac_no': ac_no,
             'ac_name': ac_name,
-            'actual_booths': b_cnt,
-            'extracted_booths': b_cnt,
-            'total_blocks': max(blk_cnt, 1),
-            'total_panchayat': pan_cnt,
-            'total_police_station': ps_cnt,
-            'total_districts': max(dist_cnt, 1),
-            'total_booth_coordinates': b_cnt,
-            'unique_booth_coordinates': u_coords,
-            'valid_booth_coordinates': v_coords,
-            'valid_booth_coordinates_pct': v_coords_pct,
+            'actual_booths': None,  # Not in DB -> will display as '—'
+            'extracted_booths': b_cnt,  # Real count from booth_metadata_full_view
+            'total_blocks': blk_cnt if blk_cnt > 0 else 0,
+            'total_panchayat': pan_cnt if pan_cnt > 0 else 0,
+            'total_police_station': ps_cnt if ps_cnt > 0 else 0,
+            'total_districts': dist_cnt if dist_cnt > 0 else 0,
+            'total_booth_coordinates': None,   # Not in DB -> '—'
+            'unique_booth_coordinates': None,  # Not in DB -> '—'
+            'valid_booth_coordinates': None,   # Not in DB -> '—'
+            'valid_booth_coordinates_pct': None, # Not in DB -> '—'
             'missing_data_status': impact,
             'total_voters': tot_v,
             'male_voters': m_v,
@@ -193,20 +190,12 @@ def generate_booth_voter_data():
             state_booth_voters[s_abb] = []
         
         tot_v = tot_v or 0
-        m_v = m_v or round(tot_v * 0.51)
-        f_v = f_v or max(tot_v - m_v, 0)
-        v_loc = round(tot_v * 0.895)
-        
-        # Age group distribution cohorts
-        a18 = round(tot_v * 0.158)
-        a26 = round(tot_v * 0.275)
-        a36 = round(tot_v * 0.238)
-        a46 = round(tot_v * 0.221)
-        a60 = max(tot_v - (a18 + a26 + a36 + a46), 0)
-
+        m_v = m_v or 0
+        f_v = f_v or 0
         ratio = round((f_v / max(m_v, 1)) * 1000) if m_v > 0 else 0
 
-        # Requirement 2 Record:
+        # Requirement 2 Record (DB-ONLY):
+        # Age distribution, valid location voter counts, and coordinates are NOT in DB -> set to None ('—')
         state_booth_voters[s_abb].append({
             'state': s_abb,
             'ac_no': ac_no,
@@ -214,27 +203,21 @@ def generate_booth_voter_data():
             'booth_no': b_no,
             'booth_name': b_name or f"Booth {b_no}",
             'total_voters': tot_v,
-            'voters_with_valid_location': v_loc,
-            'age_distribution': {
-                '18_25': a18,
-                '26_35': a26,
-                '36_45': a36,
-                '46_60': a46,
-                '60_plus': a60
-            },
+            'voters_with_valid_location': None,  # Not in DB -> '—'
+            'age_distribution': None,            # Not in DB -> '—'
             'gender_distribution': {
                 'male': m_v,
                 'female': f_v,
                 'ratio': ratio
             },
-            'total_voter_coordinates': tot_v,
-            'unique_voter_coordinates': round(tot_v * 0.877),
-            'valid_voter_coordinates': v_loc,
-            'valid_voter_coordinates_pct': 89.5
+            'total_voter_coordinates': None,     # Not in DB -> '—'
+            'unique_voter_coordinates': None,    # Not in DB -> '—'
+            'valid_voter_coordinates': None,     # Not in DB -> '—'
+            'valid_voter_coordinates_pct': None  # Not in DB -> '—'
         })
 
-    # ─── 4. Query Caste Profiles & Urban/Rural Classification ────────────────
-    print("[4/5] Querying Caste Profiles and Urban/Rural details...")
+    # ─── 4. Query Caste Details from RDS ──────────────────────────────────────────
+    print("[4/5] Querying Caste Profiles from RDS (caste_details)...")
     caste_query = """
     SELECT state_abb, caste_category, AVG(caste_percentage) AS avg_pct
     FROM caste_details
@@ -259,45 +242,19 @@ def generate_booth_voter_data():
             'pct': round(float(avg_p) * 100, 1) if avg_p <= 1.0 else round(float(avg_p), 1)
         })
 
-    region_query = """
-    SELECT state_abb, ac_region, COUNT(*) as cnt, AVG(poll_percentage) as avg_turnout
-    FROM ac_details
-    WHERE ac_region IS NOT NULL
-    GROUP BY state_abb, ac_region;
-    """
-    try:
-        cur.execute(region_query)
-        region_rows = cur.fetchall()
-    except Exception as e:
-        print(f"[WARN] Region query failed: {e}")
-        cur.execute('ROLLBACK')
-        region_rows = []
-
-    state_region_map = {}
-    for s_abb, reg, cnt, avg_turn in region_rows:
-        if s_abb not in state_region_map:
-            state_region_map[s_abb] = {}
-        state_region_map[s_abb][reg.lower()] = {
-            'count': cnt,
-            'turnout': round(float(avg_turn), 1) if avg_turn else 0.0
-        }
-
-    conn.close()
-
     # ─── 5. Update state_glance_cache.json ───────────────────────────────────
-    print("[5/5] Writing enriched Booth & Voter data into state_glance_cache.json...")
+    print("[5/5] Writing DB-ONLY Booth & Voter data into state_glance_cache.json...")
     cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'state_glance_cache.json')
-    if os.path.exists(cache_path):
+    try:
         with open(cache_path, 'r', encoding='utf-8') as f:
             state_glance = json.load(f)
-    else:
+    except Exception:
         state_glance = {}
 
-    redis_client = None
     try:
         redis_client = get_redis()
     except Exception:
-        pass
+        redis_client = None
 
     for s_abb, s_name in STATE_NAMES.items():
         if s_abb not in state_glance:
@@ -308,18 +265,17 @@ def generate_booth_voter_data():
         booth_details = state_booth_details.get(s_abb, [])
         booth_voters = state_booth_voters.get(s_abb, [])
 
-        # Preserve existing booth object if present
         existing_booth = state_glance[s_abb].get('booth') or {}
         existing_booth_avail = existing_booth.get('availability_pct', 0.0)
 
         if zones or booth_details:
-            tot_booths = sum(z['total_booths'] for z in zones) if zones else sum(b['actual_booths'] for b in booth_details)
+            tot_booths = sum(z['total_booths'] for z in zones) if zones else sum(b['extracted_booths'] for b in booth_details)
             tot_voters = sum(z['total_voters'] for z in zones) if zones else sum(b['total_voters'] for b in booth_details)
             tot_male = sum(z['male_voters'] for z in zones) if zones else sum(b['male_voters'] for b in booth_details)
             tot_female = sum(z['female_voters'] for z in zones) if zones else sum(b['female_voters'] for b in booth_details)
             ac_cnt = len(booth_details) if booth_details else len(acs)
 
-            # Field averages weighted by booths
+            # Field averages weighted by booths from RDS
             if zones:
                 blk_avg = round(sum(z['block_pct'] * z['total_booths'] for z in zones) / max(tot_booths, 1), 1)
                 pan_avg = round(sum(z['panchayat_pct'] * z['total_booths'] for z in zones) / max(tot_booths, 1), 1)
@@ -328,33 +284,21 @@ def generate_booth_voter_data():
                 addr_avg = round(sum(z['address_pct'] * z['total_booths'] for z in zones) / max(tot_booths, 1), 1)
                 admin_score = round((blk_avg + pan_avg + ps_avg + pin_avg) / 4.0, 1)
             else:
-                blk_avg, pan_avg, ps_avg, pin_avg, addr_avg, admin_score = 90.0, 85.0, 88.0, 95.0, 92.0, 89.5
+                blk_avg, pan_avg, ps_avg, pin_avg, addr_avg, admin_score = 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
 
-            # Missing alerts: ACs sorted by missing fields count
             missing_acs = sorted([a for a in acs if a.get('total_missing', 0) > 0], key=lambda x: x.get('total_missing', 0), reverse=True)[:10]
 
-            # Largest and smallest ACs by voter size
             valid_voter_acs = [a for a in acs if a.get('total_voters', 0) > 0]
             largest_acs = sorted(valid_voter_acs, key=lambda x: x['total_voters'], reverse=True)[:5]
             smallest_acs = sorted(valid_voter_acs, key=lambda x: x['total_voters'])[:5]
 
-            # Coordinate totals for Page 2 Top KPIs
-            unique_coords = sum(b['unique_booth_coordinates'] for b in booth_details) if booth_details else round(tot_booths * 0.877)
-            valid_coords = sum(b['valid_booth_coordinates'] for b in booth_details) if booth_details else round(tot_booths * 0.895)
-            valid_pct = round((valid_coords / max(tot_booths, 1)) * 100, 1) if tot_booths > 0 else 89.5
-
             state_glance[s_abb]['booth'] = {
                 'availability_pct': existing_booth_avail or 100.0,
                 'total_booths': tot_booths,
-                'unique_coordinates': unique_coords,
-                'valid_coordinates': valid_coords,
-                'valid_coordinates_pct': valid_pct,
-                'geo_validation': {
-                    'valid': valid_coords,
-                    'invalid': max(tot_booths - valid_coords, 0),
-                    'valid_pct': valid_pct,
-                    'invalid_pct': round(100.0 - valid_pct, 1)
-                },
+                'unique_coordinates': None,     # Not in DB -> '—'
+                'valid_coordinates': None,      # Not in DB -> '—'
+                'valid_coordinates_pct': None,  # Not in DB -> '—'
+                'geo_validation': None,         # Not in DB -> empty state placeholder
                 'total_acs': ac_cnt,
                 'avg_booths_per_ac': round(tot_booths / max(ac_cnt, 1), 1),
                 'admin_quality_score': admin_score,
@@ -373,231 +317,73 @@ def generate_booth_voter_data():
             gender_ratio = round((tot_female / max(tot_male, 1)) * 1000) if tot_male > 0 else 0
             avg_v_per_b = round(tot_voters / max(tot_booths, 1)) if tot_booths > 0 else 0
 
-            # Urban/Rural breakdown
-            reg_info = state_region_map.get(s_abb, {})
-            tot_reg_cnt = sum(v['count'] for v in reg_info.values())
-            urban_pct = round((reg_info.get('urban', {}).get('count', 0) / max(tot_reg_cnt, 1)) * 100, 1) if tot_reg_cnt > 0 else 30.0
-            rural_pct = round((reg_info.get('rural', {}).get('count', 0) / max(tot_reg_cnt, 1)) * 100, 1) if tot_reg_cnt > 0 else 60.0
-            semi_pct = round(100.0 - (urban_pct + rural_pct), 1)
-
-            # Age group cohorts
-            a18 = round(tot_voters * 0.158)
-            a26 = round(tot_voters * 0.275)
-            a36 = round(tot_voters * 0.238)
-            a46 = round(tot_voters * 0.221)
-            a60 = max(tot_voters - (a18 + a26 + a36 + a46), 0)
-
-            v_valid_loc = round(tot_voters * 0.895)
-
             state_glance[s_abb]['voter'] = {
                 'total_voters': tot_voters,
-                'voters_with_valid_loc': v_valid_loc,
-                'valid_location_pct': 89.5 if tot_voters > 0 else 0.0,
+                'voters_with_valid_loc': None,  # Not in DB -> '—'
+                'valid_location_pct': None,     # Not in DB -> '—'
                 'male_voters': tot_male,
                 'female_voters': tot_female,
-                'male_pct': round((tot_male / max(tot_voters, 1)) * 100, 1) if tot_voters > 0 else 50.0,
-                'female_pct': round((tot_female / max(tot_voters, 1)) * 100, 1) if tot_voters > 0 else 50.0,
+                'male_pct': round((tot_male / max(tot_voters, 1)) * 100, 1) if tot_voters > 0 else 0.0,
+                'female_pct': round((tot_female / max(tot_voters, 1)) * 100, 1) if tot_voters > 0 else 0.0,
                 'gender_ratio': gender_ratio,
                 'avg_voters_per_booth': avg_v_per_b,
-                'age_distribution': {
-                    '18_25': a18,
-                    '26_35': a26,
-                    '36_45': a36,
-                    '46_60': a46,
-                    '60_plus': a60
-                },
-                'surname_caste_mapping': {
-                    'total_surnames': 14250,
-                    'mapped_surnames': 11172,
-                    'caste_coverage_pct': 78.4,
-                    'status': 'Active Ingestion'
-                },
-                'urban_rural': {
-                    'urban_pct': urban_pct,
-                    'rural_pct': rural_pct,
-                    'semi_urban_pct': max(semi_pct, 0.0),
-                    'urban_turnout': reg_info.get('urban', {}).get('turnout', 0.0),
-                    'rural_turnout': reg_info.get('rural', {}).get('turnout', 0.0)
-                },
+                'age_distribution': None,       # Not in DB -> '—'
+                'surname_caste_mapping': None,  # Not in DB -> empty state
+                'urban_rural': None,            # Not in DB -> '—'
                 'caste_profile': state_caste_map.get(s_abb, [])[:6],
-                'zone_distribution': [
-                    {
-                        'zone': z.get('zone', 'General'),
-                        'total_voters': z.get('total_voters', 0),
-                        'male_voters': z.get('male_voters', 0),
-                        'female_voters': z.get('female_voters', 0),
-                        'gender_ratio': z.get('gender_ratio', 0),
-                        'avg_voters_per_booth': z.get('avg_voters_per_booth', 0)
-                    } for z in zones
-                ],
-                'largest_acs': [
-                    {
-                        'ac_no': a['ac_no'],
-                        'ac_name': a['ac_name'],
-                        'total_voters': a['total_voters'],
-                        'male_voters': a['male_voters'],
-                        'female_voters': a['female_voters'],
-                        'booths': a['total_booths']
-                    } for a in largest_acs
-                ],
-                'smallest_acs': [
-                    {
-                        'ac_no': a['ac_no'],
-                        'ac_name': a['ac_name'],
-                        'total_voters': a['total_voters'],
-                        'male_voters': a['male_voters'],
-                        'female_voters': a['female_voters'],
-                        'booths': a['total_booths']
-                    } for a in smallest_acs
-                ],
-                'booth_voter_details': booth_voters  # Requirement 2 Table
+                'zone_distribution': zones,
+                'largest_acs': largest_acs,
+                'smallest_acs': smallest_acs,
+                'booth_voter_details': booth_voters # Requirement 2 Table
             }
         else:
-            # Fallback for states not yet in booth_metadata_full_view
-            target_acs = STATE_AC_COUNTS.get(s_abb, 60)
-            est_booths = target_acs * 340
-            est_voters = est_booths * 950
-            est_male = round(est_voters * 0.51)
-            est_female = est_voters - est_male
-            u_coords = round(est_booths * 0.877)
-            v_coords = round(est_booths * 0.895)
-            
-            synth_booth_details = []
-            synth_booth_voters = []
-            for ac_i in range(1, target_acs + 1):
-                b_cnt = 340
-                ac_v = b_cnt * 950
-                ac_m = round(ac_v * 0.51)
-                ac_f = ac_v - ac_m
-                synth_booth_details.append({
-                    'state': s_abb,
-                    'ac_no': ac_i,
-                    'ac_name': f"Constituency-{ac_i}",
-                    'actual_booths': b_cnt,
-                    'extracted_booths': b_cnt,
-                    'total_blocks': 2,
-                    'total_panchayat': 24,
-                    'total_police_station': 3,
-                    'total_districts': 1,
-                    'total_booth_coordinates': b_cnt,
-                    'unique_booth_coordinates': round(b_cnt * 0.877),
-                    'valid_booth_coordinates': round(b_cnt * 0.895),
-                    'valid_booth_coordinates_pct': 89.5,
-                    'missing_data_status': 'Complete' if ac_i % 4 != 0 else 'Moderate Gaps',
-                    'total_voters': ac_v,
-                    'male_voters': ac_m,
-                    'female_voters': ac_f,
-                    'missing_ps': 0 if ac_i % 4 != 0 else 4,
-                    'missing_pincode': 0,
-                    'missing_subadmin': 0,
-                    'total_missing': 0 if ac_i % 4 != 0 else 4
-                })
-                if ac_i <= 30:  # Sample booths for UI
-                    for b_i in [1, 2]:
-                        bv_tot = 950
-                        bv_m = 485
-                        bv_f = 465
-                        synth_booth_voters.append({
-                            'state': s_abb,
-                            'ac_no': ac_i,
-                            'ac_name': f"Constituency-{ac_i}",
-                            'booth_no': str(b_i),
-                            'booth_name': f"Govt High School {ac_i}-{b_i}",
-                            'total_voters': bv_tot,
-                            'voters_with_valid_location': round(bv_tot * 0.895),
-                            'age_distribution': {
-                                '18_25': round(bv_tot * 0.158),
-                                '26_35': round(bv_tot * 0.275),
-                                '36_45': round(bv_tot * 0.238),
-                                '46_60': round(bv_tot * 0.221),
-                                '60_plus': round(bv_tot * 0.108)
-                            },
-                            'gender_distribution': {
-                                'male': bv_m,
-                                'female': bv_f,
-                                'ratio': 958
-                            },
-                            'total_voter_coordinates': bv_tot,
-                            'unique_voter_coordinates': round(bv_tot * 0.877),
-                            'valid_voter_coordinates': round(bv_tot * 0.895),
-                            'valid_voter_coordinates_pct': 89.5
-                        })
-
+            # State has NO booth records in booth_metadata_full_view in RDS
             state_glance[s_abb]['booth'] = {
-                'availability_pct': existing_booth_avail or 95.0,
-                'total_booths': est_booths,
-                'unique_coordinates': u_coords,
-                'valid_coordinates': v_coords,
-                'valid_coordinates_pct': 89.5,
-                'geo_validation': {
-                    'valid': v_coords,
-                    'invalid': est_booths - v_coords,
-                    'valid_pct': 89.5,
-                    'invalid_pct': 10.5
-                },
-                'total_acs': target_acs,
-                'avg_booths_per_ac': 340.0,
-                'admin_quality_score': 88.5,
-                'field_completeness': {
-                    'block_taluka_pct': 92.0,
-                    'panchayat_pct': 86.0,
-                    'police_station_pct': 89.0,
-                    'pincode_pct': 94.0,
-                    'address_pct': 91.0
-                },
-                'zones': [{'zone': 'Statewide', 'districts': max(target_acs // 8, 1), 'total_booths': est_booths, 'total_voters': est_voters, 'male_voters': est_male, 'female_voters': est_female, 'gender_ratio': 958, 'avg_voters_per_booth': 950, 'block_pct': 92.0, 'panchayat_pct': 86.0, 'police_stn_pct': 89.0, 'pincode_pct': 94.0, 'address_pct': 91.0, 'avail_pct': 90.3}],
+                'availability_pct': existing_booth_avail or 0.0,
+                'total_booths': 0,
+                'unique_coordinates': None,
+                'valid_coordinates': None,
+                'valid_coordinates_pct': None,
+                'geo_validation': None,
+                'total_acs': STATE_AC_COUNTS.get(s_abb, 0),
+                'avg_booths_per_ac': 0.0,
+                'admin_quality_score': 0.0,
+                'field_completeness': {'block_taluka_pct': 0.0, 'panchayat_pct': 0.0, 'police_station_pct': 0.0, 'pincode_pct': 0.0, 'address_pct': 0.0},
+                'zones': [],
                 'missing_alerts': [],
-                'booth_details': synth_booth_details
+                'booth_details': []
             }
-
             state_glance[s_abb]['voter'] = {
-                'total_voters': est_voters,
-                'voters_with_valid_loc': round(est_voters * 0.895),
-                'valid_location_pct': 89.5,
-                'male_voters': est_male,
-                'female_voters': est_female,
-                'male_pct': 51.0,
-                'female_pct': 49.0,
-                'gender_ratio': 958,
-                'avg_voters_per_booth': 950,
-                'age_distribution': {
-                    '18_25': round(est_voters * 0.158),
-                    '26_35': round(est_voters * 0.275),
-                    '36_45': round(est_voters * 0.238),
-                    '46_60': round(est_voters * 0.221),
-                    '60_plus': round(est_voters * 0.108)
-                },
-                'surname_caste_mapping': {
-                    'total_surnames': 12000,
-                    'mapped_surnames': 9400,
-                    'caste_coverage_pct': 78.3,
-                    'status': 'Active Ingestion'
-                },
-                'urban_rural': {
-                    'urban_pct': 32.0,
-                    'rural_pct': 58.0,
-                    'semi_urban_pct': 10.0,
-                    'urban_turnout': 62.4,
-                    'rural_turnout': 71.8
-                },
-                'caste_profile': [],
-                'zone_distribution': [{'zone': 'Statewide', 'total_voters': est_voters, 'male_voters': est_male, 'female_voters': est_female, 'gender_ratio': 958, 'avg_voters_per_booth': 950}],
+                'total_voters': 0,
+                'voters_with_valid_loc': None,
+                'valid_location_pct': None,
+                'male_voters': 0,
+                'female_voters': 0,
+                'male_pct': 0.0,
+                'female_pct': 0.0,
+                'gender_ratio': 0,
+                'avg_voters_per_booth': 0,
+                'age_distribution': None,
+                'surname_caste_mapping': None,
+                'urban_rural': None,
+                'caste_profile': state_caste_map.get(s_abb, [])[:6],
+                'zone_distribution': [],
                 'largest_acs': [],
                 'smallest_acs': [],
-                'booth_voter_details': synth_booth_voters
+                'booth_voter_details': []
             }
 
-        # Update Redis if connected
+        # Sync to Redis if client available
         if redis_client:
             try:
                 redis_client.set(f'state_glance:{s_abb}', json.dumps(state_glance[s_abb]))
-            except Exception:
+            except Exception as e:
                 pass
 
     with open(cache_path, 'w', encoding='utf-8') as f:
         json.dump(state_glance, f, indent=2)
 
-    print(f"[OK] Successfully enriched Booth Details and Booth_Voter Details in {round(time.time() - t0, 2)}s!")
+    print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] DB-ONLY Aggregation complete in {round(time.time() - t0, 1)}s!")
     return True
 
 if __name__ == '__main__':

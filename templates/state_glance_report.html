@@ -2090,91 +2090,20 @@ document.addEventListener("DOMContentLoaded", () => {
   let _boothMap = null;
   window.initBoothLocationMap = (boothData, stateAbb) => {
     if(_boothMap) {
-      _boothMap.remove();
+      try { _boothMap.remove(); } catch(e){}
       _boothMap = null;
     }
     const container = document.getElementById('boothLeafletMap');
     if(!container) return;
 
-    _boothMap = L.map('boothLeafletMap', { zoomControl: false, scrollWheelZoom: false });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap © CARTO'
-    }).addTo(_boothMap);
-    L.control.zoom({ position: 'bottomright' }).addTo(_boothMap);
-
-    const norm = s => (s || '').toLowerCase().replace(/[^a-z]/g, '');
-    const stateNameMap = {
-      'MH': 'Maharashtra', 'UP': 'Uttar Pradesh', 'BR': 'Bihar', 'WB': 'West Bengal',
-      'MP': 'Madhya Pradesh', 'TN': 'Tamil Nadu', 'KA': 'Karnataka', 'AP': 'Andhra Pradesh',
-      'OR': 'Odisha', 'JH': 'Jharkhand', 'AS': 'Assam', 'CH': 'Chhattisgarh',
-      'CT': 'Chhattisgarh', 'KL': 'Kerala', 'PB': 'Punjab', 'HR': 'Haryana',
-      'DL': 'NCT of Delhi', 'UK': 'Uttarakhand', 'JK': 'Jammu and Kashmir',
-      'HP': 'Himachal Pradesh', 'ML': 'Meghalaya', 'GA': 'Goa'
-    };
-    const targetState = stateNameMap[stateAbb] || (window.stateNameCache && window.stateNameCache[stateAbb]) || stateAbb;
-
-    const renderFeatures = (geojson) => {
-      if(!_boothMap) return;
-      const filtered = {
-        type: 'FeatureCollection',
-        features: geojson.features.filter(f => norm(f.properties.NAME_1) === norm(targetState))
-      };
-      if(filtered.features.length > 0) {
-        const lyr = L.geoJSON(filtered, {
-          style: {
-            fillColor: '#4f46e5',
-            fillOpacity: 0.12,
-            color: '#6366f1',
-            weight: 1.5
-          }
-        }).addTo(_boothMap);
-        _boothMap.fitBounds(lyr.getBounds(), { padding: [10, 10] });
-
-        const acDetails = boothData.booth_details || [];
-        const bounds = lyr.getBounds();
-        const sw = bounds.getSouthWest();
-        const ne = bounds.getNorthEast();
-
-        const sampleAcs = acDetails.slice(0, Math.min(acDetails.length, 35));
-        sampleAcs.forEach((ac, idx) => {
-          const lat = sw.lat + (ne.lat - sw.lat) * (0.15 + 0.7 * Math.sin(idx * 1.7 + 1) ** 2);
-          const lng = sw.lng + (ne.lng - sw.lng) * (0.15 + 0.7 * Math.cos(idx * 2.3 + 2) ** 2);
-
-          const markerColor = ac.missing_data_status === 'Complete' ? '#10b981' : (ac.missing_data_status === 'Moderate Gaps' ? '#f59e0b' : '#ef4444');
-          const circle = L.circleMarker([lat, lng], {
-            radius: Math.min(Math.max((ac.actual_booths || 200) / 40, 5), 13),
-            fillColor: markerColor,
-            fillOpacity: 0.85,
-            color: '#ffffff',
-            weight: 2
-          }).addTo(_boothMap);
-
-          circle.bindPopup(`
-            <div style="font-family:'Inter',sans-serif;font-size:12px;padding:2px;min-width:160px;">
-              <strong style="color:#1e293b;font-size:13px;">AC ${ac.ac_no} — ${ac.ac_name}</strong>
-              <div style="margin-top:5px;color:#475569;line-height:1.5;">
-                <div>Total Booths: <strong>${Number(ac.actual_booths).toLocaleString()}</strong></div>
-                <div>Valid Coordinates: <strong>${Number(ac.valid_booth_coordinates).toLocaleString()} (${ac.valid_booth_coordinates_pct}%)</strong></div>
-                <div>Blocks: <strong>${ac.total_blocks}</strong> • PS: <strong>${ac.total_police_station}</strong></div>
-                <div style="margin-top:5px;"><span style="display:inline-block;padding:2px 7px;border-radius:4px;font-size:10px;font-weight:bold;background:${ac.missing_data_status === 'Complete' ? '#dcfce7;color:#166534;' : '#fef3c7;color:#92400e;'}">${ac.missing_data_status}</span></div>
-              </div>
-            </div>
-          `);
-        });
-      }
-    };
-
-    if(window._indiaGeojsonCache) {
-      renderFeatures(window._indiaGeojsonCache);
-    } else {
-      fetch('https://raw.githubusercontent.com/geohacker/india/master/district/india_district.geojson')
-        .then(r => r.json())
-        .then(data => {
-          window._indiaGeojsonCache = data;
-          renderFeatures(data);
-        })
-        .catch(e => console.log('Booth map geojson fetch error', e));
-    }
+    // Display clean placeholder: coordinates are not in the database
+    container.innerHTML = `
+      <div class="h-full w-full min-h-[240px] flex flex-col items-center justify-center p-6 text-center bg-gray-50/80 rounded-lg border border-dashed border-gray-200">
+        <span class="material-symbols-outlined text-gray-400 text-4xl mb-2">location_off</span>
+        <p class="text-xs font-bold text-gray-700">Booth Spatial Coordinates Not in DB</p>
+        <p class="text-[11px] text-gray-400 mt-1 max-w-sm">Physical booth coordinates (latitude/longitude) are not stored in the database. Map visualization will activate once coordinate layers are ingested.</p>
+      </div>
+    `;
   };
 
   /* ═══ REQUIREMENT 1: BOOTH DETAILS TABLE ═══ */
@@ -2224,18 +2153,18 @@ document.addEventListener("DOMContentLoaded", () => {
           ? '<span class="chip chip-green">Complete</span>'
           : (r.missing_data_status === 'Moderate Gaps' ? '<span class="chip chip-amber">Moderate Gaps</span>' : '<span class="chip chip-red">Critical Gaps</span>');
         tbody += `<tr>
-          <td class="font-bold text-gray-600 py-2.5 px-3">${r.state}</td>
+          <td class="font-bold text-gray-600 py-2.5 px-3">${r.state || '—'}</td>
           <td class="font-bold text-gray-900 py-2.5 px-3 whitespace-nowrap">AC ${r.ac_no} — ${r.ac_name}</td>
-          <td class="text-right tabular-nums font-semibold text-gray-800 py-2.5 px-3">${Number(r.actual_booths).toLocaleString()}</td>
-          <td class="text-right tabular-nums font-semibold text-indigo-600 py-2.5 px-3">${Number(r.extracted_booths).toLocaleString()}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_blocks}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_panchayat}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_police_station}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_districts}</td>
-          <td class="text-right tabular-nums text-gray-700 py-2.5 px-3">${Number(r.total_booth_coordinates).toLocaleString()}</td>
-          <td class="text-right tabular-nums text-blue-600 py-2.5 px-3">${Number(r.unique_booth_coordinates).toLocaleString()}</td>
-          <td class="text-right tabular-nums text-emerald-600 py-2.5 px-3">${Number(r.valid_booth_coordinates).toLocaleString()}</td>
-          <td class="text-right tabular-nums font-bold ${r.valid_booth_coordinates_pct >= 85 ? 'text-emerald-600' : 'text-amber-600'} py-2.5 px-3">${r.valid_booth_coordinates_pct}%</td>
+          <td class="text-right tabular-nums font-semibold text-gray-500 py-2.5 px-3">${r.actual_booths != null ? Number(r.actual_booths).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums font-semibold text-indigo-600 py-2.5 px-3">${r.extracted_booths != null ? Number(r.extracted_booths).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_blocks != null ? r.total_blocks : '—'}</td>
+          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_panchayat != null ? r.total_panchayat : '—'}</td>
+          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_police_station != null ? r.total_police_station : '—'}</td>
+          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_districts != null ? r.total_districts : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${r.total_booth_coordinates != null ? Number(r.total_booth_coordinates).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${r.unique_booth_coordinates != null ? Number(r.unique_booth_coordinates).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${r.valid_booth_coordinates != null ? Number(r.valid_booth_coordinates).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums font-medium text-gray-400 py-2.5 px-3">${r.valid_booth_coordinates_pct != null ? r.valid_booth_coordinates_pct + '%' : '—'}</td>
           <td class="text-center py-2.5 px-3">${statusBadge}</td>
         </tr>`;
       });
@@ -2302,25 +2231,25 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       let tbody = '';
       pageRows.forEach(r => {
-        const age = r.age_distribution || {};
+        const age = r.age_distribution;
         const g = r.gender_distribution || {};
         tbody += `<tr>
-          <td class="font-bold text-gray-600 py-2.5 px-3">${r.state}</td>
+          <td class="font-bold text-gray-600 py-2.5 px-3">${r.state || '—'}</td>
           <td class="font-semibold text-gray-800 py-2.5 px-3 whitespace-nowrap">AC ${r.ac_no}</td>
           <td class="font-bold text-indigo-700 py-2.5 px-3 whitespace-nowrap" title="${r.booth_name}">${r.booth_no} - ${(r.booth_name && r.booth_name.length > 25) ? r.booth_name.slice(0,25)+'...' : (r.booth_name || '')}</td>
-          <td class="text-right tabular-nums font-black text-gray-900 py-2.5 px-3">${Number(r.total_voters).toLocaleString()}</td>
-          <td class="text-right tabular-nums font-semibold text-emerald-600 py-2.5 px-3">${Number(r.voters_with_valid_location).toLocaleString()}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${age['18_25'] || 0}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${age['26_35'] || 0}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${age['36_45'] || 0}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${age['46_60'] || 0}</td>
-          <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${age['60_plus'] || 0}</td>
-          <td class="text-right tabular-nums text-blue-600 py-2.5 px-3">${g.male || r.male_voters || 0}</td>
-          <td class="text-right tabular-nums text-rose-600 py-2.5 px-3">${g.female || r.female_voters || 0}</td>
-          <td class="text-right tabular-nums text-gray-700 py-2.5 px-3">${Number(r.total_voter_coordinates || r.total_voters).toLocaleString()}</td>
-          <td class="text-right tabular-nums text-blue-600 py-2.5 px-3">${Number(r.unique_voter_coordinates || Math.round(r.total_voters * 0.877)).toLocaleString()}</td>
-          <td class="text-right tabular-nums text-emerald-600 py-2.5 px-3">${Number(r.valid_voter_coordinates || r.voters_with_valid_location).toLocaleString()}</td>
-          <td class="text-right tabular-nums font-bold text-emerald-600 py-2.5 px-3">${r.valid_voter_coordinates_pct || 89.5}%</td>
+          <td class="text-right tabular-nums font-black text-gray-900 py-2.5 px-3">${r.total_voters != null ? Number(r.total_voters).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums font-medium text-gray-400 py-2.5 px-3">${r.voters_with_valid_location != null ? Number(r.voters_with_valid_location).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${age && age['18_25'] != null ? age['18_25'] : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${age && age['26_35'] != null ? age['26_35'] : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${age && age['36_45'] != null ? age['36_45'] : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${age && age['46_60'] != null ? age['46_60'] : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${age && age['60_plus'] != null ? age['60_plus'] : '—'}</td>
+          <td class="text-right tabular-nums text-blue-600 py-2.5 px-3">${g.male != null ? Number(g.male).toLocaleString() : (r.male_voters != null ? Number(r.male_voters).toLocaleString() : '—')}</td>
+          <td class="text-right tabular-nums text-rose-600 py-2.5 px-3">${g.female != null ? Number(g.female).toLocaleString() : (r.female_voters != null ? Number(r.female_voters).toLocaleString() : '—')}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${r.total_voter_coordinates != null ? Number(r.total_voter_coordinates).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${r.unique_voter_coordinates != null ? Number(r.unique_voter_coordinates).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${r.valid_voter_coordinates != null ? Number(r.valid_voter_coordinates).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums font-medium text-gray-400 py-2.5 px-3">${r.valid_voter_coordinates_pct != null ? r.valid_voter_coordinates_pct + '%' : '—'}</td>
         </tr>`;
       });
       html('boothVoterTableBody', tbody);
@@ -2504,14 +2433,14 @@ document.addEventListener("DOMContentLoaded", () => {
       if(boothContent) boothContent.classList.remove('hidden');
 
       set('boothTotalVal', Number(d.booth.total_booths).toLocaleString());
-      const uCoords = d.booth.unique_coordinates || Math.round(d.booth.total_booths * 0.877);
-      const vCoords = d.booth.valid_coordinates || Math.round(d.booth.total_booths * 0.895);
-      const vPct = d.booth.valid_coordinates_pct || 89.5;
+      const uCoords = d.booth.unique_coordinates;
+      const vCoords = d.booth.valid_coordinates;
+      const vPct = d.booth.valid_coordinates_pct;
       
-      set('boothUniqueVal', Number(uCoords).toLocaleString());
-      set('boothValidVal', Number(vCoords).toLocaleString());
-      set('boothValidPctVal', vPct + '%');
-      setBar('boothValidPctBar', vPct);
+      set('boothUniqueVal', uCoords != null ? Number(uCoords).toLocaleString() : '—');
+      set('boothValidVal', vCoords != null ? Number(vCoords).toLocaleString() : '—');
+      set('boothValidPctVal', vPct != null ? vPct + '%' : '—');
+      setBar('boothValidPctBar', vPct != null ? vPct : 0);
 
       // Zone table
       if(d.booth.zones && d.booth.zones.length > 0) {
@@ -2561,7 +2490,7 @@ document.addEventListener("DOMContentLoaded", () => {
           let missingParts = [];
           if(a.missing_ps > 0) missingParts.push(`${a.missing_ps} booths missing Police Station`);
           if(a.missing_pincode > 0) missingParts.push(`${a.missing_pincode} booths missing Pincode`);
-          if(a.missing_subadmin > 0) missingParts.push(`${a.missing_subadmin} booths missing Sub-admin`);
+          if(a.missing_subadmin > 0) missingParts.push(`${a.missing_subadmin} booths missing Sub-district (Taluka/Tehsil/Block/Mandal)`);
           alertHtml += `<div class="p-2.5 rounded-lg border border-gray-100 bg-gray-50/70 hover:bg-gray-100 transition-colors">
             <div class="flex items-center justify-between mb-1">
               <span class="font-bold text-gray-800 text-xs">AC ${a.ac_no} — ${a.ac_name}</span>
@@ -2582,7 +2511,21 @@ document.addEventListener("DOMContentLoaded", () => {
         window._boothGeoChart = null;
       }
       const geoCanvas = document.getElementById('boothGeoValidationChart');
-      if(geoCanvas) {
+      const geoWrapper = geoCanvas ? geoCanvas.parentElement : null;
+      if(!d.booth.geo_validation || vCoords == null) {
+        set('boothGeoValidCount', '—');
+        set('boothGeoInvalidCount', '—');
+        set('boothGeoValidBadge', 'Not in DB');
+        if(geoWrapper) {
+          geoWrapper.innerHTML = `
+            <div class="h-full w-full min-h-[180px] flex flex-col items-center justify-center p-6 text-center bg-gray-50/70 rounded-lg border border-dashed border-gray-200">
+              <span class="material-symbols-outlined text-gray-300 text-3xl mb-1">analytics</span>
+              <p class="text-xs font-bold text-gray-600">Coordinate Validation Data Not in DB</p>
+              <p class="text-[11px] text-gray-400 mt-1 max-w-xs">Physical booth coordinates (latitude/longitude) are not stored in the database.</p>
+            </div>
+          `;
+        }
+      } else if(geoCanvas) {
         const invCoords = Math.max(d.booth.total_booths - vCoords, 0);
         set('boothGeoValidCount', Number(vCoords).toLocaleString());
         set('boothGeoInvalidCount', Number(invCoords).toLocaleString());
@@ -2695,11 +2638,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if(voterContent) voterContent.classList.remove('hidden');
 
       set('voterTotalVal', Number(d.voter.total_voters).toLocaleString());
-      const vLocVal = d.voter.voters_with_valid_loc || Math.round(d.voter.total_voters * 0.895);
-      const vLocPct = d.voter.valid_location_pct || 89.5;
-      set('voterValidLocVal', Number(vLocVal).toLocaleString());
-      set('voterValidLocPctVal', vLocPct + '%');
-      setBar('voterValidLocPctBar', vLocPct);
+      const vLocVal = d.voter.voters_with_valid_loc;
+      const vLocPct = d.voter.valid_location_pct;
+      set('voterValidLocVal', vLocVal != null ? Number(vLocVal).toLocaleString() : '—');
+      set('voterValidLocPctVal', vLocPct != null ? vLocPct + '%' : '—');
+      setBar('voterValidLocPctBar', vLocPct != null ? vLocPct : 0);
 
       set('voterMaleVal', Number(d.voter.male_voters).toLocaleString());
       set('voterFemaleVal', Number(d.voter.female_voters).toLocaleString());
@@ -2709,13 +2652,13 @@ document.addEventListener("DOMContentLoaded", () => {
       set('voterMaleSummary', `${d.voter.male_pct}% (${Number(d.voter.male_voters).toLocaleString()})`);
       set('voterFemaleSummary', `${d.voter.female_pct}% (${Number(d.voter.female_voters).toLocaleString()})`);
 
-      // Gender Donut Chart
+      // Gender Donut Chart (Real from DB)
       if(window._genderChart) {
         window._genderChart.destroy();
         window._genderChart = null;
       }
       const genderCanvas = document.getElementById('voterGenderDonutCanvas');
-      if(genderCanvas) {
+      if(genderCanvas && d.voter.male_voters && d.voter.female_voters) {
         const genderCtx = genderCanvas.getContext('2d');
         window._genderChart = new Chart(genderCtx, {
           type: 'doughnut',
@@ -2759,13 +2702,25 @@ document.addEventListener("DOMContentLoaded", () => {
         window._ageChart = null;
       }
       const ageCanvas = document.getElementById('voterAgeBarCanvas');
-      if(ageCanvas) {
+      const ageWrapper = ageCanvas ? ageCanvas.parentElement : null;
+      if(!d.voter.age_distribution) {
+        set('voterAgeYouthPct', 'Not in DB');
+        if(ageWrapper) {
+          ageWrapper.innerHTML = `
+            <div class="h-full w-full min-h-[180px] flex flex-col items-center justify-center p-6 text-center bg-gray-50/70 rounded-lg border border-dashed border-gray-200">
+              <span class="material-symbols-outlined text-gray-300 text-3xl mb-1">demography</span>
+              <p class="text-xs font-bold text-gray-600">Age Cohort Data Not in DB</p>
+              <p class="text-[11px] text-gray-400 mt-1 max-w-xs">Electoral roll demographic age cohorts are not ingested in the database.</p>
+            </div>
+          `;
+        }
+      } else if(ageCanvas) {
         const age = d.voter.age_distribution || {};
-        const c18 = age['18_25'] || Math.round(d.voter.total_voters * 0.158);
-        const c26 = age['26_35'] || Math.round(d.voter.total_voters * 0.275);
-        const c36 = age['36_45'] || Math.round(d.voter.total_voters * 0.238);
-        const c46 = age['46_60'] || Math.round(d.voter.total_voters * 0.221);
-        const c60 = age['60_plus'] || Math.round(d.voter.total_voters * 0.108);
+        const c18 = age['18_25'] || 0;
+        const c26 = age['26_35'] || 0;
+        const c36 = age['36_45'] || 0;
+        const c46 = age['46_60'] || 0;
+        const c60 = age['60_plus'] || 0;
 
         const youthPct = (((c18 + c26) / Math.max(d.voter.total_voters, 1)) * 100).toFixed(1);
         set('voterAgeYouthPct', `Youth (18–35): ${youthPct}%`);
@@ -2808,11 +2763,17 @@ document.addEventListener("DOMContentLoaded", () => {
       // Surname-to-Caste Mapping
       if(d.voter.surname_caste_mapping) {
         const sc = d.voter.surname_caste_mapping;
-        set('voterSurnameCoveragePct', (sc.caste_coverage_pct || 78.4) + '%');
-        setBar('voterSurnameProgressBar', sc.caste_coverage_pct || 78.4);
-        set('voterSurnameMapped', Number(sc.mapped_surnames || 11172).toLocaleString());
-        set('voterSurnameTotal', Number(sc.total_surnames || 14250).toLocaleString());
-        set('voterSurnameStatus', sc.status || 'Active Ingestion');
+        set('voterSurnameCoveragePct', (sc.caste_coverage_pct || 0) + '%');
+        setBar('voterSurnameProgressBar', sc.caste_coverage_pct || 0);
+        set('voterSurnameMapped', Number(sc.mapped_surnames || 0).toLocaleString());
+        set('voterSurnameTotal', Number(sc.total_surnames || 0).toLocaleString());
+        set('voterSurnameStatus', sc.status || 'Active');
+      } else {
+        set('voterSurnameCoveragePct', '—');
+        setBar('voterSurnameProgressBar', 0);
+        set('voterSurnameMapped', '—');
+        set('voterSurnameTotal', '—');
+        set('voterSurnameStatus', 'Not in DB');
       }
 
       // Caste profile
@@ -2829,7 +2790,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
         html('voterCasteContainer', casteHtml);
       } else {
-        html('voterCasteContainer', `<div class="text-center py-4 text-xs text-gray-400">Standard demographic distribution active</div>`);
+        html('voterCasteContainer', `<div class="text-center py-4 text-xs text-gray-400">No caste profile categorized in DB</div>`);
       }
 
       // Urban/Rural
@@ -2840,6 +2801,12 @@ document.addEventListener("DOMContentLoaded", () => {
         set('voterUrbanPct', (ur.urban_pct || 0) + '%');
         set('voterUrbanTurnout', (ur.urban_turnout || 0) + '%');
         set('voterSemiUrbanPct', (ur.semi_urban_pct || 0) + '%');
+      } else {
+        set('voterRuralPct', '—');
+        set('voterRuralTurnout', '—');
+        set('voterUrbanPct', '—');
+        set('voterUrbanTurnout', '—');
+        set('voterSemiUrbanPct', '—');
       }
 
       // Largest ACs table
