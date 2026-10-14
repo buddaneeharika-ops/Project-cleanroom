@@ -1,0 +1,32 @@
+# Secrets & Keys
+*.pem
+.env
+.env.*
+client_secret*.json
+
+# Databases
+*.db
+
+# Binary / Tools
+cloudflared.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Large wireframe PDF
+Clean Room State Report- Wire Frame.pdf
+
+# Temp / scratch caches
+ec2_*
+scratch_*
+glance_cache2.json
+glance_cache3.json
+glance_cache_from_ec2.json
+state_glance_cache_from_ec2.json
+state_glance_cache_fixed.json
+patched_state_glance.json
+weekly_snapshots.json
