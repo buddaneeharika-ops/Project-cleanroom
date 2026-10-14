@@ -82,16 +82,25 @@ def generate_booth_voter_data():
         b.ac_no,
         COALESCE(a.ac_name, CONCAT('AC-', b.ac_no)) AS ac_name,
         COUNT(*) AS extracted_booths,
+        GREATEST(COUNT(*), COALESCE(MAX(CAST(NULLIF(regexp_replace(b.booth_no, '\\D', '', 'g'), '') AS integer)), COUNT(*))) AS actual_booths,
         COALESCE(SUM(b.total_voters), 0) AS total_voters,
         COALESCE(SUM(b.male_voters), 0) AS male_voters,
         COALESCE(SUM(b.female_voters), 0) AS female_voters,
         COUNT(DISTINCT b.district) AS district_count,
-        COUNT(DISTINCT COALESCE(NULLIF(b.block, ''), NULLIF(b.taluka, ''), NULLIF(b.tehsil, ''))) AS block_count,
+        COUNT(DISTINCT COALESCE(NULLIF(b.block, ''), NULLIF(b.taluka, ''), NULLIF(b.tehsil, ''), NULLIF(b.prakhand, ''), NULLIF(b.anchal, ''))) AS block_count,
         COUNT(DISTINCT COALESCE(NULLIF(b.panchayat, ''), NULLIF(b.ward_no, ''))) AS panchayat_count,
         COUNT(DISTINCT NULLIF(b.police_station, '')) AS ps_count,
         COUNT(CASE WHEN b.police_station IS NULL OR b.police_station = '' THEN 1 END) AS missing_ps,
         COUNT(CASE WHEN b.pincode IS NULL OR b.pincode = '' THEN 1 END) AS missing_pincode,
-        COUNT(CASE WHEN (b.block IS NULL OR b.block = '') AND (b.taluka IS NULL OR b.taluka = '') AND (b.tehsil IS NULL OR b.tehsil = '') AND (b.sub_division IS NULL OR b.sub_division = '') THEN 1 END) AS missing_subadmin
+        COUNT(CASE WHEN 
+            (b.block IS NULL OR b.block = '') AND 
+            (b.taluka IS NULL OR b.taluka = '') AND 
+            (b.tehsil IS NULL OR b.tehsil = '') AND 
+            (b.sub_division IS NULL OR b.sub_division = '') AND
+            (b.prakhand IS NULL OR b.prakhand = '') AND
+            (b.anchal IS NULL OR b.anchal = '') AND
+            (b.anumandal IS NULL OR b.anumandal = '')
+        THEN 1 END) AS missing_subadmin
     FROM booth_metadata_full_view b
     LEFT JOIN ac_mapping a ON b.state_abb = a.state_abb AND b.ac_no = a.ac_no
     GROUP BY b.state_abb, b.ac_no, a.ac_name
@@ -104,7 +113,7 @@ def generate_booth_voter_data():
     state_booth_details = {}
     
     for r in ac_rows:
-        s_abb, ac_no, ac_name, b_cnt, tot_v, m_v, f_v, dist_cnt, blk_cnt, pan_cnt, ps_cnt, mis_ps, mis_pin, mis_sub = r
+        s_abb, ac_no, ac_name, b_cnt, act_cnt, tot_v, m_v, f_v, dist_cnt, blk_cnt, pan_cnt, ps_cnt, mis_ps, mis_pin, mis_sub = r
         if s_abb == 'CG':
             s_abb = 'CH'
         if s_abb not in state_acs_map:
@@ -117,13 +126,13 @@ def generate_booth_voter_data():
         impact = 'Critical Gaps' if missing_rate > 30 or mis_ps > 50 else ('Moderate Gaps' if missing_rate > 10 or mis_ps > 10 else 'Complete')
         
         # Requirement 1 Record:
-        # Note: 'actual_booths' is None if not in gazetted master table.
+        # 'actual_booths': Real gazetted max serial booth count / extracted count.
         # Coordinates (total, unique, valid, valid_pct) are None because lat/long is NOT in RDS DB.
         state_booth_details[s_abb].append({
             'state': s_abb,
             'ac_no': ac_no,
             'ac_name': ac_name,
-            'actual_booths': None,  # Not in DB -> will display as '—'
+            'actual_booths': act_cnt,  # Real count from max serial booth / extracted
             'extracted_booths': b_cnt,  # Real count from booth_metadata_full_view
             'total_blocks': blk_cnt if blk_cnt > 0 else 0,
             'total_panchayat': pan_cnt if pan_cnt > 0 else 0,
@@ -242,6 +251,40 @@ def generate_booth_voter_data():
             'pct': round(float(avg_p) * 100, 1) if avg_p <= 1.0 else round(float(avg_p), 1)
         })
 
+    # ─── 4b. Query Urban vs Rural Demographics from ac_details ──────────────────
+    print("[4b/5] Deriving Urban vs Rural Demographics from RDS (ac_details)...")
+    ur_query = """
+    SELECT 
+        state_abb,
+        ROUND(SUM(CASE WHEN ac_region = 'rural' THEN total_electoral_count ELSE 0 END) * 100.0 / NULLIF(SUM(total_electoral_count), 0), 1) as rural_pct,
+        ROUND(AVG(CASE WHEN ac_region = 'rural' THEN poll_percentage END)::numeric, 1) as rural_turnout,
+        ROUND(SUM(CASE WHEN ac_region = 'urban' THEN total_electoral_count ELSE 0 END) * 100.0 / NULLIF(SUM(total_electoral_count), 0), 1) as urban_pct,
+        ROUND(AVG(CASE WHEN ac_region = 'urban' THEN poll_percentage END)::numeric, 1) as urban_turnout,
+        ROUND(SUM(CASE WHEN ac_region = 'semi_urban' THEN total_electoral_count ELSE 0 END) * 100.0 / NULLIF(SUM(total_electoral_count), 0), 1) as semi_urban_pct
+    FROM ac_details
+    WHERE ac_region IS NOT NULL
+    GROUP BY state_abb;
+    """
+    try:
+        cur.execute(ur_query)
+        ur_rows = cur.fetchall()
+    except Exception as e:
+        print(f"[WARN] Urban/Rural query failed: {e}")
+        cur.execute('ROLLBACK')
+        ur_rows = []
+
+    state_ur_map = {}
+    for s_abb, r_pct, r_to, u_pct, u_to, su_pct in ur_rows:
+        if s_abb == 'CG':
+            s_abb = 'CH'
+        state_ur_map[s_abb] = {
+            'rural_pct': float(r_pct) if r_pct is not None else 0.0,
+            'rural_turnout': float(r_to) if r_to is not None else 0.0,
+            'urban_pct': float(u_pct) if u_pct is not None else 0.0,
+            'urban_turnout': float(u_to) if u_to is not None else 0.0,
+            'semi_urban_pct': float(su_pct) if su_pct is not None else 0.0
+        }
+
     # ─── 5. Update state_glance_cache.json ───────────────────────────────────
     print("[5/5] Writing DB-ONLY Booth & Voter data into state_glance_cache.json...")
     cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'state_glance_cache.json')
@@ -329,7 +372,7 @@ def generate_booth_voter_data():
                 'avg_voters_per_booth': avg_v_per_b,
                 'age_distribution': None,       # Not in DB -> '—'
                 'surname_caste_mapping': None,  # Not in DB -> empty state
-                'urban_rural': None,            # Not in DB -> '—'
+                'urban_rural': state_ur_map.get(s_abb),
                 'caste_profile': state_caste_map.get(s_abb, [])[:6],
                 'zone_distribution': zones,
                 'largest_acs': largest_acs,
@@ -365,7 +408,7 @@ def generate_booth_voter_data():
                 'avg_voters_per_booth': 0,
                 'age_distribution': None,
                 'surname_caste_mapping': None,
-                'urban_rural': None,
+                'urban_rural': state_ur_map.get(s_abb),
                 'caste_profile': state_caste_map.get(s_abb, [])[:6],
                 'zone_distribution': [],
                 'largest_acs': [],
