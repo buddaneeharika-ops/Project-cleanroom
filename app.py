@@ -633,7 +633,8 @@ def require_login():
     allowed_routes = ['login_page', 'login', 'auth_callback', 'static', 'admin_ac_pct',
                       'country_glance_test_page', 'country_glance_map_page', 'indexing_visualizer_page',
                       'api_country_glance_data', 'api_map_district_data', 'api_map_pc_data', 'api_map_ac_data',
-                      'get_backlog_state_metadata']
+                      'get_backlog_state_metadata', 'state_glance_report_page',
+                      'api_state_glance_data', 'api_state_glance_booth_voters']
     if request.endpoint not in allowed_routes:
         if not session.get('user'):
             if request.path.startswith('/api/'):

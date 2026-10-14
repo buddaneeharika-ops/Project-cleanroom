@@ -62,7 +62,10 @@ def run_nightly_aggregation():
         ("scratch_master_patch.py", "Finalizing By-Polls & Remarks"),
 
         # 7. Generate Country Glance Cache and Unified State Caches
-        ("rebuild_all_data.py", "Generating Unified Global Caches")
+        ("rebuild_all_data.py", "Generating Unified Global Caches"),
+
+        # 8. Booth Metadata & Voter Details Aggregation
+        ("generate_booth_voter_data.py", "Booth Metadata & Voter Details Aggregation")
     ]
     
     for script, description in scripts:
