@@ -2465,7 +2465,7 @@ def state_glance_report_page():
 
 @app.route('/api/state_glance/data')
 def api_state_glance_data():
-    state_abb = request.args.get('state_abb', 'BR').upper().strip()
+    state_abb = (request.args.get('state_abb') or request.args.get('state') or 'MH').upper().strip()
     if state_abb == 'CG':
         state_abb = 'CH'
     
@@ -2510,7 +2510,7 @@ def api_state_glance_data():
 
 @app.route('/api/state_glance/booth_voters')
 def api_state_glance_booth_voters():
-    state_abb = request.args.get('state_abb', 'MH').upper().strip()
+    state_abb = (request.args.get('state_abb') or request.args.get('state') or 'MH').upper().strip()
     if state_abb == 'CG':
         state_abb = 'CH'
     ac_no = request.args.get('ac_no')
