@@ -633,7 +633,7 @@ def require_login():
     allowed_routes = ['login_page', 'login', 'auth_callback', 'static', 'admin_ac_pct',
                       'country_glance_test_page', 'country_glance_map_page', 'indexing_visualizer_page',
                       'api_country_glance_data', 'api_map_district_data', 'api_map_pc_data', 'api_map_ac_data',
-                      'get_backlog_state_metadata', 'state_glance_report_page',
+                      'get_backlog_state_metadata', 'get_backlog_state_booths', 'state_glance_report_page',
                       'api_state_glance_data', 'api_state_glance_booth_voters']
     if request.endpoint not in allowed_routes:
         if not session.get('user'):
@@ -868,10 +868,13 @@ def get_backlog_state_metadata():
             all_data = json.load(f)
         result = {}
         for s_abb, data in all_data.items():
+            if s_abb == 'CG' and 'CH' in all_data:
+                continue
             target_abb = 'CH' if s_abb == 'CG' else s_abb
             b = data.get('booth') or {}
             v = data.get('voter') or {}
             total_acs = STATE_AC_COUNTS.get(target_abb) or b.get('total_acs') or 1
+            rev_bd = b.get('revision_breakdown') or {}
             result[target_abb] = {
                 'state_abb': target_abb,
                 'state_name': STATE_NAMES.get(target_abb, target_abb),
@@ -879,17 +882,39 @@ def get_backlog_state_metadata():
                 'form20_avail': data.get('form20', {}).get('availability_pct', 0),
                 'retro_avail': data.get('hero', {}).get('retro_availability_pct', 0),
                 'total_booths': b.get('total_booths', 0),
+                'pre_sir_booths': rev_bd.get('pre_sir') or b.get('pre_sir_booths', 0),
+                'sir_booths': rev_bd.get('sir') or b.get('sir_booths', 0),
+                'post_sir_booths': rev_bd.get('post_sir') or b.get('post_sir_booths', 0),
+                'revision_stage': rev_bd.get('primary_stage') or b.get('revision_stage', '—'),
+                'sample_revision': rev_bd.get('sample_revision', ''),
                 'avg_booths_per_ac': b.get('avg_booths_per_ac', 0),
                 'admin_quality': b.get('admin_quality_score', 0),
                 'field_completeness': b.get('field_completeness', {}),
                 'total_voters': v.get('total_voters', 0),
                 'gender_ratio': v.get('gender_ratio', 0),
-                'urban_pct': v.get('urban_rural', {}).get('urban_pct', 0),
-                'rural_pct': v.get('urban_rural', {}).get('rural_pct', 0),
+                'urban_pct': (v.get('urban_rural') or {}).get('urban_pct', 0),
+                'rural_pct': (v.get('urban_rural') or {}).get('rural_pct', 0),
                 'has_booth': bool(b.get('total_booths', 0) > 0),
                 'has_voter': bool(v.get('total_voters', 0) > 0)
             }
         return jsonify(result)
+    except Exception as e:
+        return jsonify({'error': str(e)}), 500
+
+
+@app.route('/api/backlog/state_booths/<state_abb>')
+def get_backlog_state_booths(state_abb):
+    """Returns AC-level booth details with Pre-SIR, SIR, and Post-SIR breakdown for a given state."""
+    state_code = 'CH' if state_abb.upper() == 'CG' else state_abb.upper()
+    cache_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static', 'data', 'state_glance_cache.json')
+    if not os.path.exists(cache_path):
+        return jsonify([])
+    try:
+        with open(cache_path, 'r', encoding='utf-8') as f:
+            all_data = json.load(f)
+        s_data = all_data.get(state_code, {})
+        booth_details = s_data.get('booth', {}).get('booth_details', [])
+        return jsonify(booth_details)
     except Exception as e:
         return jsonify({'error': str(e)}), 500
 

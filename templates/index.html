@@ -419,14 +419,14 @@
            MODE 2: Booth & Voter Infrastructure Directory KPIs & Progress
       ══════════════════════════════════════════════════ -->
       <div id="listing-directory-container" class="hidden">
-        <!-- Directory Stage KPI Cards -->
-        <div class="px-5 py-3 bg-white border-b border-gray-200 grid grid-cols-2 md:grid-cols-4 gap-3 shrink-0">
+        <!-- Directory Stage KPI Cards: 3-Column Revision Breakdown -->
+        <div class="px-5 py-3 bg-white border-b border-gray-200 grid grid-cols-2 md:grid-cols-5 gap-3 shrink-0">
           <a id="dir-card-all" onclick="filterDirectory('all')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-indigo-300 bg-indigo-50/30 hover:shadow-sm transition-all cursor-pointer">
             <div class="w-9 h-9 rounded-lg bg-indigo-100 flex items-center justify-center shrink-0">
               <span class="material-symbols-outlined text-indigo-600" style="font-size:18px;">map</span>
             </div>
             <div class="min-w-0">
-              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">National Coverage</p>
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">National States</p>
               <div class="flex items-baseline gap-1.5">
                 <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums">37</p>
                 <span class="text-[11px] text-gray-500 font-medium">States &amp; UTs</span>
@@ -434,55 +434,69 @@
             </div>
           </a>
 
-          <a id="dir-card-ready" onclick="filterDirectory('ready')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-emerald-300 hover:shadow-sm transition-all bg-white cursor-pointer">
-            <div class="w-9 h-9 rounded-lg bg-emerald-50 flex items-center justify-center shrink-0 group-hover:bg-emerald-100 transition-colors">
-              <span class="material-symbols-outlined text-emerald-600" style="font-size:18px;">check_circle</span>
-            </div>
-            <div class="min-w-0">
-              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Booth Infra Ready</p>
-              <div class="flex items-baseline gap-1.5">
-                <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums" id="dir-ready-count">23</p>
-                <span class="text-[11px] text-emerald-600 font-bold" id="dir-ready-pct">(79.5% ACs)</span>
-              </div>
-            </div>
-          </a>
-
-          <a id="dir-card-voters" onclick="filterDirectory('voters')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-purple-300 hover:shadow-sm transition-all bg-white cursor-pointer">
-            <div class="w-9 h-9 rounded-lg bg-purple-50 flex items-center justify-center shrink-0 group-hover:bg-purple-100 transition-colors">
-              <span class="material-symbols-outlined text-purple-600" style="font-size:18px;">groups</span>
-            </div>
-            <div class="min-w-0">
-              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Electoral Roll Profile</p>
-              <div class="flex items-baseline gap-1.5">
-                <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums" id="dir-voters-total">973.8M</p>
-                <span class="text-[11px] text-purple-600 font-bold">electors</span>
-              </div>
-            </div>
-          </a>
-
-          <a id="dir-card-missing" onclick="filterDirectory('missing')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-amber-300 hover:shadow-sm transition-all bg-white cursor-pointer">
+          <a id="dir-card-pre_sir" onclick="filterDirectory('pre_sir')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-amber-300 hover:shadow-sm transition-all bg-white cursor-pointer">
             <div class="w-9 h-9 rounded-lg bg-amber-50 flex items-center justify-center shrink-0 group-hover:bg-amber-100 transition-colors">
-              <span class="material-symbols-outlined text-amber-500" style="font-size:18px;">hourglass_empty</span>
+              <span class="material-symbols-outlined text-amber-600" style="font-size:18px;">draft</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Pre-SIR Booths</p>
+              <div class="flex items-baseline gap-1.5">
+                <p class="text-[20px] font-black text-amber-700 leading-tight tabular-nums" id="dir-presir-count">4,164</p>
+                <span class="text-[10px] text-amber-600 font-bold">Draft Rolls</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="dir-card-sir" onclick="filterDirectory('sir')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-indigo-300 hover:shadow-sm transition-all bg-white cursor-pointer">
+            <div class="w-9 h-9 rounded-lg bg-indigo-50 flex items-center justify-center shrink-0 group-hover:bg-indigo-100 transition-colors">
+              <span class="material-symbols-outlined text-indigo-600" style="font-size:18px;">history_edu</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">SIR Booths</p>
+              <div class="flex items-baseline gap-1.5">
+                <p class="text-[20px] font-black text-indigo-700 leading-tight tabular-nums" id="dir-sir-count">953.5K</p>
+                <span class="text-[10px] text-indigo-600 font-bold">Intensive / SSR</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="dir-card-post_sir" onclick="filterDirectory('post_sir')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-emerald-300 hover:shadow-sm transition-all bg-white cursor-pointer">
+            <div class="w-9 h-9 rounded-lg bg-emerald-50 flex items-center justify-center shrink-0 group-hover:bg-emerald-100 transition-colors">
+              <span class="material-symbols-outlined text-emerald-600" style="font-size:18px;">task_alt</span>
+            </div>
+            <div class="min-w-0">
+              <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Post-SIR Booths</p>
+              <div class="flex items-baseline gap-1.5">
+                <p class="text-[20px] font-black text-emerald-700 leading-tight tabular-nums" id="dir-postsir-count">136.8K</p>
+                <span class="text-[10px] text-emerald-600 font-bold">Final Rolls</span>
+              </div>
+            </div>
+          </a>
+
+          <a id="dir-card-missing" onclick="filterDirectory('missing')" class="dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-rose-300 hover:shadow-sm transition-all bg-white cursor-pointer">
+            <div class="w-9 h-9 rounded-lg bg-gray-50 flex items-center justify-center shrink-0 group-hover:bg-gray-100 transition-colors">
+              <span class="material-symbols-outlined text-gray-400" style="font-size:18px;">pending_actions</span>
             </div>
             <div class="min-w-0">
               <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Pending Backlog</p>
               <div class="flex items-baseline gap-1.5">
-                <p class="text-[20px] font-black text-gray-900 leading-tight tabular-nums" id="dir-missing-count">14</p>
-                <span class="text-[11px] text-amber-600 font-bold" id="dir-missing-pct">(847 ACs)</span>
+                <p class="text-[20px] font-black text-gray-600 leading-tight tabular-nums" id="dir-missing-count">14</p>
+                <span class="text-[10px] text-gray-400 font-bold">0 Booths</span>
               </div>
             </div>
           </a>
         </div>
 
-        <!-- Directory Progress Strip -->
+        <!-- Directory Revision & Coverage Strip -->
         <div class="px-5 py-2.5 bg-white border-b border-gray-100 flex items-center gap-3 shrink-0">
-          <span class="text-[10.5px] font-semibold text-gray-500 uppercase tracking-wider shrink-0">National AC Coverage</span>
+          <span class="text-[10.5px] font-semibold text-gray-500 uppercase tracking-wider shrink-0">Revision Breakdown</span>
           <div class="flex-1 h-2 bg-gray-100 rounded-full overflow-hidden flex">
-            <div id="dir-seg-ready" style="width: 79.5%;" class="h-full bg-emerald-500 bar-fill"></div>
-            <div id="dir-seg-missing" style="width: 20.5%;" class="h-full bg-amber-400/80 bar-fill"></div>
+            <div id="dir-seg-presir" style="width: 0.4%;" class="h-full bg-amber-400 bar-fill" title="Pre-SIR (Draft): 4,164 booths"></div>
+            <div id="dir-seg-sir" style="width: 87.1%;" class="h-full bg-indigo-600 bar-fill" title="SIR (Intensive / SSR): 953,505 booths"></div>
+            <div id="dir-seg-postsir" style="width: 12.5%;" class="h-full bg-emerald-500 bar-fill" title="Post-SIR (Final): 136,834 booths"></div>
           </div>
-          <span class="text-[12px] font-bold text-gray-900 tabular-nums shrink-0" id="dir-progress-pct">79.5%</span>
-          <span class="text-[10.5px] text-gray-500 tabular-nums shrink-0" id="dir-progress-text">3,282 / 4,129 ACs mapped (1,094,930 booths)</span>
+          <span class="text-[11px] font-bold text-gray-900 tabular-nums shrink-0" id="dir-progress-pct">1,094,503 Booths</span>
+          <span class="text-[10px] text-gray-500 tabular-nums shrink-0" id="dir-progress-text">Pre-SIR: 4.2k • SIR: 953.5k • Post-SIR: 136.8k</span>
         </div>
       </div>
 

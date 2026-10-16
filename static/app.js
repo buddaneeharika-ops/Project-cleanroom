@@ -565,16 +565,138 @@ window.switchListingMode = function(mode) {
 
 window.filterDirectory = function(filterKey) {
   dirFilter = filterKey;
-  ['all', 'ready', 'voters', 'missing'].forEach(k => {
+  ['all', 'pre_sir', 'sir', 'post_sir', 'missing', 'ready', 'voters'].forEach(k => {
     const el = document.getElementById(`dir-card-${k}`);
     if (!el) return;
     if (k === filterKey) {
-      el.className = 'dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-indigo-300 bg-indigo-50/40 shadow-sm transition-all cursor-pointer';
+      el.className = 'dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-indigo-400 bg-indigo-50/60 shadow-sm transition-all cursor-pointer ring-1 ring-indigo-300';
     } else {
       el.className = 'dir-kpi-card group flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-sm transition-all bg-white cursor-pointer';
     }
   });
   renderBoothVoterDirectory();
+};
+
+window._cachedStateBooths = {};
+
+window.toggleStateBoothDetail = async function(stateCode) {
+  const existingTr = document.getElementById(`dir-expand-${stateCode}`);
+  const icon = document.getElementById(`icon-expand-${stateCode}`);
+  if (existingTr) {
+    if (existingTr.classList.contains('hidden')) {
+      existingTr.classList.remove('hidden');
+      if (icon) icon.textContent = 'expand_less';
+    } else {
+      existingTr.classList.add('hidden');
+      if (icon) icon.textContent = 'expand_more';
+    }
+    return;
+  }
+
+  // Create loading row
+  const parentTr = document.getElementById(`dir-row-${stateCode}`);
+  if (!parentTr) return;
+  if (icon) icon.textContent = 'expand_less';
+
+  const expandTr = document.createElement('tr');
+  expandTr.id = `dir-expand-${stateCode}`;
+  expandTr.className = 'bg-slate-50/90 border-b border-gray-200';
+  expandTr.innerHTML = `
+    <td colspan="7" class="p-4 pl-12">
+      <div class="flex items-center gap-2 text-gray-500 py-3 text-[12px]">
+        <span class="material-symbols-outlined animate-spin text-indigo-600" style="font-size:16px;">refresh</span>
+        <span>Loading constituency booth data for ${stateCode}...</span>
+      </div>
+    </td>`;
+  parentTr.parentNode.insertBefore(expandTr, parentTr.nextSibling);
+
+  try {
+    let acs = window._cachedStateBooths[stateCode];
+    if (!acs) {
+      const resp = await fetch(`/api/backlog/state_booths/${stateCode}`);
+      acs = await resp.json();
+      window._cachedStateBooths[stateCode] = acs;
+    }
+
+    if (!acs || !acs.length) {
+      expandTr.innerHTML = `
+        <td colspan="7" class="p-4 pl-12 text-gray-400 text-[12px]">
+          No constituency-level breakdown available for ${stateCode}.
+        </td>`;
+      return;
+    }
+
+    let rowsHtml = '';
+    acs.forEach(ac => {
+      const pre = ac.pre_sir_booths || 0;
+      const sir = ac.sir_booths || 0;
+      const post = ac.post_sir_booths || 0;
+      const stage = ac.revision_stage || '—';
+      const stageBadge = stage === 'Post-SIR'
+        ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Post-SIR</span>'
+        : (stage === 'Pre-SIR'
+            ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Pre-SIR</span>'
+            : '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">SIR</span>');
+
+      const statusBadge = ac.missing_data_status === 'Complete'
+        ? '<span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.2 rounded">Complete</span>'
+        : (ac.missing_data_status === 'Moderate Gaps'
+            ? '<span class="text-[10px] font-bold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.2 rounded">Moderate</span>'
+            : '<span class="text-[10px] font-bold text-rose-700 bg-rose-50 border border-rose-200 px-1.5 py-0.2 rounded">Critical Gaps</span>');
+
+      rowsHtml += `
+        <tr class="hover:bg-indigo-50/20 transition-colors border-b border-gray-100 text-[11.5px]">
+          <td class="py-2 px-3 font-bold text-gray-700">AC ${ac.ac_no}</td>
+          <td class="py-2 px-3 font-semibold text-gray-900">${x(ac.ac_name || '—')}</td>
+          <td class="py-2 px-3 text-right tabular-nums font-bold ${pre > 0 ? 'text-amber-700' : 'text-gray-300'}">${pre > 0 ? pre.toLocaleString() : '—'}</td>
+          <td class="py-2 px-3 text-right tabular-nums font-bold ${sir > 0 ? 'text-indigo-700' : 'text-gray-300'}">${sir > 0 ? sir.toLocaleString() : '—'}</td>
+          <td class="py-2 px-3 text-right tabular-nums font-bold ${post > 0 ? 'text-emerald-700' : 'text-gray-300'}">${post > 0 ? post.toLocaleString() : '—'}</td>
+          <td class="py-2 px-3 text-right tabular-nums font-extrabold text-gray-900">${(ac.extracted_booths || 0).toLocaleString()}</td>
+          <td class="py-2 px-3 text-center">${stageBadge}</td>
+          <td class="py-2 px-3 text-gray-500 max-w-[200px] truncate" title="${x(ac.type_of_revision || '')}">${x(ac.type_of_revision || '—')}</td>
+          <td class="py-2 px-3 text-center">${statusBadge}</td>
+        </tr>`;
+    });
+
+    expandTr.innerHTML = `
+      <td colspan="7" class="p-3 pl-8 sm:pl-12">
+        <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+          <div class="px-4 py-2.5 bg-gradient-to-r from-slate-50 to-indigo-50/30 border-b border-gray-200 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+              <span class="material-symbols-outlined text-indigo-600 text-[16px]">account_tree</span>
+              <span class="text-[12px] font-bold text-gray-900">${stateCode} Constituencies: Pre-SIR / SIR / Post-SIR Breakdown</span>
+              <span class="text-[10px] font-bold px-2 py-0.2 rounded-full bg-indigo-100 text-indigo-800">${acs.length} ACs</span>
+            </div>
+            <span class="text-[10.5px] text-gray-400 font-medium">Categorized by type_of_revision</span>
+          </div>
+          <div class="max-h-[320px] overflow-y-auto custom-scrollbar">
+            <table class="w-full text-left border-collapse">
+              <thead class="bg-gray-50/80 sticky top-0 text-[10px] uppercase font-bold text-gray-500 border-b border-gray-200 z-10">
+                <tr>
+                  <th class="py-2 px-3">AC #</th>
+                  <th class="py-2 px-3">Constituency</th>
+                  <th class="py-2 px-3 text-right text-amber-700">Pre-SIR</th>
+                  <th class="py-2 px-3 text-right text-indigo-700">SIR</th>
+                  <th class="py-2 px-3 text-right text-emerald-700">Post-SIR</th>
+                  <th class="py-2 px-3 text-right text-gray-800">Total Booths</th>
+                  <th class="py-2 px-3 text-center">Stage</th>
+                  <th class="py-2 px-3">Revision String (type_of_revision)</th>
+                  <th class="py-2 px-3 text-center">Status</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-gray-100">
+                ${rowsHtml}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </td>`;
+  } catch (err) {
+    expandTr.innerHTML = `
+      <td colspan="7" class="p-4 pl-12 text-rose-500 text-[12px]">
+        Failed to load constituency data: ${err.message}
+      </td>`;
+  }
 };
 
 function renderBoothVoterDirectory() {
@@ -585,7 +707,7 @@ function renderBoothVoterDirectory() {
 
   let stateList = Object.values(stateMetadata || {});
   if (!stateList.length) {
-    tbody.innerHTML = `<tr><td colspan="6" class="px-5 py-12 text-center text-gray-400">Loading Booth &amp; Voter Directory...</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="7" class="px-5 py-12 text-center text-gray-400">Loading Booth &amp; Voter Directory...</td></tr>`;
     return;
   }
 
@@ -595,7 +717,13 @@ function renderBoothVoterDirectory() {
     backlogByState[s] = (backlogByState[s] || 0) + 1;
   });
 
-  if (dirFilter === 'ready') {
+  if (dirFilter === 'pre_sir') {
+    stateList = stateList.filter(s => (s.pre_sir_booths || 0) > 0);
+  } else if (dirFilter === 'sir') {
+    stateList = stateList.filter(s => (s.sir_booths || 0) > 0);
+  } else if (dirFilter === 'post_sir') {
+    stateList = stateList.filter(s => (s.post_sir_booths || 0) > 0);
+  } else if (dirFilter === 'ready') {
     stateList = stateList.filter(s => s.has_booth);
   } else if (dirFilter === 'voters') {
     stateList = stateList.filter(s => s.has_voter);
@@ -622,6 +750,12 @@ function renderBoothVoterDirectory() {
       return dirSortDir === 'asc' ? va.localeCompare(vb) : vb.localeCompare(va);
     } else if (dirSortCol === 'acs') {
       va = a.total_acs || 0; vb = b.total_acs || 0;
+    } else if (dirSortCol === 'pre_sir') {
+      va = a.pre_sir_booths || 0; vb = b.pre_sir_booths || 0;
+    } else if (dirSortCol === 'sir') {
+      va = a.sir_booths || 0; vb = b.sir_booths || 0;
+    } else if (dirSortCol === 'post_sir') {
+      va = a.post_sir_booths || 0; vb = b.post_sir_booths || 0;
     } else if (dirSortCol === 'booths') {
       va = a.total_booths || 0; vb = b.total_booths || 0;
     } else if (dirSortCol === 'voters') {
@@ -645,15 +779,17 @@ function renderBoothVoterDirectory() {
   thead.innerHTML = `
     <tr>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="name">State &amp; Canonical ACs${arrow('name')}</th>
-      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="booths">Booth Infrastructure${arrow('booths')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-amber-700 uppercase tracking-wider cursor-pointer hover:bg-amber-50/50 select-none dir-sortable text-right" data-col="pre_sir">Pre-SIR Booths${arrow('pre_sir')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-indigo-700 uppercase tracking-wider cursor-pointer hover:bg-indigo-50/50 select-none dir-sortable text-right" data-col="sir">SIR Booths${arrow('sir')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-emerald-700 uppercase tracking-wider cursor-pointer hover:bg-emerald-50/50 select-none dir-sortable text-right" data-col="post_sir">Post-SIR Booths${arrow('post_sir')}</th>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="admin">Admin Quality${arrow('admin')}</th>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="voters">Electoral Roll${arrow('voters')}</th>
-      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider text-right">Report</th>
+      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider text-right">Actions</th>
     </tr>`;
 
   if (!stateList.length) {
     tbody.innerHTML = `
-      <tr><td colspan="5" class="px-5 py-12 text-center">
+      <tr><td colspan="7" class="px-5 py-12 text-center">
         <div class="flex flex-col items-center gap-2 text-gray-400">
           <span class="material-symbols-outlined" style="font-size:28px;">search_off</span>
           <p class="text-[12px]">No states match the selected filters.</p>
@@ -669,19 +805,69 @@ function renderBoothVoterDirectory() {
     const stateName = (s.state_name === 'CG' || stateCode === 'CH') ? 'Chandigarh' : s.state_name;
     const canonicalAcs = Number(s.total_acs) || STATE_AC_COUNTS[stateCode] || 1;
     
-    // Booth HTML
-    let boothHtml = '';
-    if (s.has_booth) {
-      boothHtml = `
-        <div class="flex flex-col">
-          <div class="flex items-center gap-1.5">
-            <span class="text-[13px] font-bold text-gray-900 tabular-nums">${s.total_booths.toLocaleString()}</span>
-            <span class="text-[11px] text-gray-400 font-medium">booths</span>
-          </div>
-          <span class="text-[10.5px] text-gray-500 font-medium">Avg ${Math.round(s.avg_booths_per_ac)} / AC</span>
+    const preCount = s.pre_sir_booths || 0;
+    const sirCount = s.sir_booths || 0;
+    const postCount = s.post_sir_booths || 0;
+    const revStage = s.revision_stage || '—';
+
+    // Pre-SIR cell
+    let preHtml = '';
+    if (preCount > 0) {
+      preHtml = `
+        <div class="flex flex-col items-end">
+          <span class="text-[13px] font-bold text-amber-900 tabular-nums">${preCount.toLocaleString()}</span>
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.2 rounded mt-0.5">
+            Draft
+          </span>
         </div>`;
+    } else if (s.has_booth) {
+      preHtml = `<span class="text-[12px] text-gray-300 font-medium">—</span>`;
     } else {
-      boothHtml = `<span class="inline-flex items-center gap-1 text-[10px] font-semibold bg-gray-100 text-gray-400 border border-gray-200 px-2.5 py-0.5 rounded-full">○ Backlog (0 Booths)</span>`;
+      preHtml = `<span class="text-[11px] text-gray-300 font-medium">○</span>`;
+    }
+
+    // SIR cell
+    let sirHtml = '';
+    if (sirCount > 0) {
+      sirHtml = `
+        <div class="flex flex-col items-end">
+          <span class="text-[13px] font-bold text-indigo-900 tabular-nums">${sirCount.toLocaleString()}</span>
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-indigo-700 bg-indigo-50 border border-indigo-200 px-1.5 py-0.2 rounded mt-0.5">
+            Intensive / SSR
+          </span>
+        </div>`;
+    } else if (s.has_booth) {
+      sirHtml = `<span class="text-[12px] text-gray-300 font-medium">—</span>`;
+    } else {
+      sirHtml = `<span class="text-[11px] text-gray-300 font-medium">○</span>`;
+    }
+
+    // Post-SIR cell
+    let postHtml = '';
+    if (postCount > 0) {
+      postHtml = `
+        <div class="flex flex-col items-end">
+          <span class="text-[13px] font-bold text-emerald-900 tabular-nums">${postCount.toLocaleString()}</span>
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.2 rounded mt-0.5">
+            Final Roll
+          </span>
+        </div>`;
+    } else if (s.has_booth) {
+      postHtml = `<span class="text-[12px] text-gray-300 font-medium">—</span>`;
+    } else {
+      postHtml = `<span class="text-[11px] text-gray-300 font-medium">○</span>`;
+    }
+
+    // Stage badge for state column
+    let stageBadge = '';
+    if (s.has_booth) {
+      if (revStage === 'Post-SIR') {
+        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Post-SIR</span>';
+      } else if (revStage === 'Pre-SIR') {
+        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Pre-SIR</span>';
+      } else {
+        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">SIR</span>';
+      }
     }
 
     // Admin Quality HTML
@@ -723,28 +909,43 @@ function renderBoothVoterDirectory() {
     }
 
     html += `
-      <tr class="trow bg-white border-b border-gray-50 hover:bg-slate-50/60 transition-colors cursor-pointer"
-          onclick="window.open('/state-glance-report?state_abb=${stateCode}', '_blank')">
+      <tr id="dir-row-${stateCode}" class="trow bg-white border-b border-gray-50 hover:bg-slate-50/60 transition-colors">
         <td class="px-5 py-3.5">
           <div class="flex items-center gap-3">
             <div class="w-8 h-8 rounded-lg ${s.has_booth ? 'bg-indigo-50 text-indigo-600 border border-indigo-100' : 'bg-gray-100 text-gray-400'} flex items-center justify-center shrink-0 font-extrabold text-[11px]">
               ${stateCode}
             </div>
             <div>
-              <p class="text-[13px] font-semibold text-gray-900 leading-tight">${x(stateName)}</p>
-              <p class="text-[11px] text-gray-400 font-medium mt-0.5">${canonicalAcs} Canonical ACs</p>
+              <div class="flex items-center gap-1.5">
+                <p class="text-[13px] font-semibold text-gray-900 leading-tight">${x(stateName)}</p>
+                ${stageBadge}
+              </div>
+              <p class="text-[11px] text-gray-400 font-medium mt-0.5">${canonicalAcs} Canonical ACs • ${s.has_booth ? (s.total_booths || 0).toLocaleString() + ' booths' : '0 booths'}</p>
             </div>
           </div>
         </td>
-        <td class="px-5 py-3.5 whitespace-nowrap">${boothHtml}</td>
+        <td class="px-4 py-3.5 whitespace-nowrap text-right">${preHtml}</td>
+        <td class="px-4 py-3.5 whitespace-nowrap text-right">${sirHtml}</td>
+        <td class="px-4 py-3.5 whitespace-nowrap text-right">${postHtml}</td>
         <td class="px-5 py-3.5 whitespace-nowrap">${adminHtml}</td>
         <td class="px-5 py-3.5 whitespace-nowrap">${voterHtml}</td>
         <td class="px-5 py-3.5 text-right whitespace-nowrap">
-          <a href="/state-glance-report?state_abb=${stateCode}" target="_blank" onclick="event.stopPropagation()"
-             class="px-2.5 py-1 text-[11.5px] font-bold text-indigo-600 hover:text-indigo-800 bg-indigo-50/60 hover:bg-indigo-100 border border-indigo-200 rounded-lg transition-all inline-flex items-center gap-1">
-            <span>Report</span>
-            <span class="material-symbols-outlined" style="font-size:12px;">open_in_new</span>
-          </a>
+          <div class="flex items-center justify-end gap-1.5">
+            ${s.has_booth ? `
+              <button onclick="window.toggleStateBoothDetail('${stateCode}')"
+                      id="btn-expand-${stateCode}"
+                      class="px-2 py-1 text-[11px] font-bold text-gray-700 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-lg transition-all inline-flex items-center gap-0.5 cursor-pointer"
+                      title="View Assembly Constituencies Breakdown">
+                <span class="material-symbols-outlined text-[14px]" id="icon-expand-${stateCode}">expand_more</span>
+                <span>ACs</span>
+              </button>
+            ` : ''}
+            <a href="/state-glance-report?state_abb=${stateCode}" target="_blank"
+               class="px-2.5 py-1 text-[11.5px] font-bold text-indigo-600 hover:text-indigo-800 bg-indigo-50/60 hover:bg-indigo-100 border border-indigo-200 rounded-lg transition-all inline-flex items-center gap-1">
+              <span>Report</span>
+              <span class="material-symbols-outlined" style="font-size:12px;">open_in_new</span>
+            </a>
+          </div>
         </td>
       </tr>`;
   });

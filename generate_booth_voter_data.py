@@ -335,9 +335,16 @@ def generate_booth_voter_data():
             largest_acs = sorted(valid_voter_acs, key=lambda x: x['total_voters'], reverse=True)[:5]
             smallest_acs = sorted(valid_voter_acs, key=lambda x: x['total_voters'])[:5]
 
+            existing_rev = existing_booth.get('revision_breakdown') or {}
+
             state_glance[s_abb]['booth'] = {
                 'availability_pct': existing_booth_avail or 100.0,
                 'total_booths': tot_booths,
+                'pre_sir_booths': existing_rev.get('pre_sir') or existing_booth.get('pre_sir_booths', 0),
+                'sir_booths': existing_rev.get('sir') or existing_booth.get('sir_booths', 0),
+                'post_sir_booths': existing_rev.get('post_sir') or existing_booth.get('post_sir_booths', 0),
+                'revision_stage': existing_rev.get('primary_stage') or existing_booth.get('revision_stage', '—'),
+                'revision_breakdown': existing_rev,
                 'unique_coordinates': None,     # Not in DB -> '—'
                 'valid_coordinates': None,      # Not in DB -> '—'
                 'valid_coordinates_pct': None,  # Not in DB -> '—'

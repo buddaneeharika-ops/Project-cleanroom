@@ -862,6 +862,10 @@
                   <th class="text-left py-2.5 px-3">Assembly Constituency (AC)</th>
                   <th class="text-right py-2.5 px-3">Actual Booths</th>
                   <th class="text-right py-2.5 px-3">Extracted Booths</th>
+                  <th class="text-right py-2.5 px-3 text-amber-700">Pre-SIR</th>
+                  <th class="text-right py-2.5 px-3 text-indigo-700">SIR</th>
+                  <th class="text-right py-2.5 px-3 text-emerald-700">Post-SIR</th>
+                  <th class="text-center py-2.5 px-3">Revision Stage</th>
                   <th class="text-right py-2.5 px-3">Total Blocks</th>
                   <th class="text-right py-2.5 px-3">Total Panchayat</th>
                   <th class="text-right py-2.5 px-3">Total Police Stn</th>
@@ -2145,10 +2149,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const pageRows = list.slice(startIdx, endIdx);
 
     if(pageRows.length === 0) {
-      html('boothDetailsTableBody', `<tr><td colspan="13" class="text-center py-6 text-gray-400 font-medium">No assembly constituencies matching your search criteria</td></tr>`);
+      html('boothDetailsTableBody', `<tr><td colspan="17" class="text-center py-6 text-gray-400 font-medium">No assembly constituencies matching your search criteria</td></tr>`);
     } else {
       let tbody = '';
       pageRows.forEach(r => {
+        const pre = r.pre_sir_booths || 0;
+        const sir = r.sir_booths || 0;
+        const post = r.post_sir_booths || 0;
+        const stage = r.revision_stage || '—';
+        const stageBadge = stage === 'Post-SIR'
+          ? '<span class="chip chip-green font-bold text-[9.5px]">Post-SIR</span>'
+          : (stage === 'Pre-SIR'
+              ? '<span class="chip chip-amber font-bold text-[9.5px]">Pre-SIR</span>'
+              : '<span class="chip chip-violet font-bold text-[9.5px]">SIR</span>');
+
         const statusBadge = r.missing_data_status === 'Complete'
           ? '<span class="chip chip-green">Complete</span>'
           : (r.missing_data_status === 'Moderate Gaps' ? '<span class="chip chip-amber">Moderate Gaps</span>' : '<span class="chip chip-red">Critical Gaps</span>');
@@ -2157,6 +2171,10 @@ document.addEventListener("DOMContentLoaded", () => {
           <td class="font-bold text-gray-900 py-2.5 px-3 whitespace-nowrap">AC ${r.ac_no} — ${r.ac_name}</td>
           <td class="text-right tabular-nums font-semibold text-gray-500 py-2.5 px-3">${r.actual_booths != null ? Number(r.actual_booths).toLocaleString() : '—'}</td>
           <td class="text-right tabular-nums font-semibold text-indigo-600 py-2.5 px-3">${r.extracted_booths != null ? Number(r.extracted_booths).toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums font-bold text-amber-700 py-2.5 px-3">${pre > 0 ? pre.toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums font-bold text-indigo-700 py-2.5 px-3">${sir > 0 ? sir.toLocaleString() : '—'}</td>
+          <td class="text-right tabular-nums font-bold text-emerald-700 py-2.5 px-3">${post > 0 ? post.toLocaleString() : '—'}</td>
+          <td class="text-center py-2.5 px-3">${stageBadge}</td>
           <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_blocks != null ? r.total_blocks : '—'}</td>
           <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_panchayat != null ? r.total_panchayat : '—'}</td>
           <td class="text-right tabular-nums text-gray-600 py-2.5 px-3">${r.total_police_station != null ? r.total_police_station : '—'}</td>
@@ -2612,11 +2630,12 @@ document.addEventListener("DOMContentLoaded", () => {
       if(bdExport) {
         bdExport.onclick = () => {
           const exportRows = [
-            ['State', 'AC Number', 'AC Name', 'Actual Booth Count', 'Extracted Booth Count', 'Total Blocks', 'Total Panchayat', 'Total Police Station', 'Total Districts', 'Total Booth Coordinates', 'Unique Booth Coordinates', 'Valid Booth Coordinates', 'Valid Booth Coordinates %', 'Missing Data Status']
+            ['State', 'AC Number', 'AC Name', 'Actual Booth Count', 'Extracted Booth Count', 'Pre-SIR Booths', 'SIR Booths', 'Post-SIR Booths', 'Revision Stage', 'Total Blocks', 'Total Panchayat', 'Total Police Station', 'Total Districts', 'Total Booth Coordinates', 'Unique Booth Coordinates', 'Valid Booth Coordinates', 'Valid Booth Coordinates %', 'Missing Data Status']
           ];
           (window._boothDetailsState.filtered || []).forEach(r => {
             exportRows.push([
               r.state, r.ac_no, r.ac_name, r.actual_booths, r.extracted_booths,
+              r.pre_sir_booths || 0, r.sir_booths || 0, r.post_sir_booths || 0, r.revision_stage || '—',
               r.total_blocks, r.total_panchayat, r.total_police_station, r.total_districts,
               r.total_booth_coordinates, r.unique_booth_coordinates, r.valid_booth_coordinates,
               r.valid_booth_coordinates_pct, r.missing_data_status
