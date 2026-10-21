@@ -484,50 +484,59 @@ function updateDirectoryKpiCards() {
   const stateList = Object.values(stateMetadata || {});
   if (!stateList.length) return;
 
+  let totalPreSir = 0;
+  let totalSsr = 0;
+  let totalSir = 0;
+  let totalPostSir = 0;
   let readyStates = 0;
-  let readyAcs = 0;
   let missingStates = 0;
-  let missingAcs = 0;
-  let totalBooths = 0;
-  let totalVoters = 0;
 
   stateList.forEach(s => {
-    const abb = (s.state_abb === 'CG') ? 'CH' : s.state_abb;
-    const acs = Number(s.total_acs) || STATE_AC_COUNTS[abb] || 1;
+    totalPreSir += (s.pre_sir_booths || 0);
+    totalSsr += (s.ssr_booths || 0);
+    totalSir += (s.sir_booths || 0);
+    totalPostSir += (s.post_sir_booths || 0);
     if (s.has_booth) {
       readyStates++;
-      readyAcs += acs;
-      totalBooths += (s.total_booths || 0);
-      totalVoters += (s.total_voters || 0);
     } else {
       missingStates++;
-      missingAcs += acs;
     }
   });
 
-  const totalAcs = readyAcs + missingAcs;
-  const readyPct = totalAcs > 0 ? (readyAcs / totalAcs * 100).toFixed(1) : '0.0';
-  const missingPct = totalAcs > 0 ? (missingAcs / totalAcs * 100).toFixed(1) : '0.0';
+  const totalAllBooths = totalPreSir + totalSsr + totalSir + totalPostSir;
+  const prePct = totalAllBooths > 0 ? (totalPreSir / totalAllBooths * 100).toFixed(1) : '0.0';
+  const ssrPct = totalAllBooths > 0 ? (totalSsr / totalAllBooths * 100).toFixed(1) : '0.0';
+  const sirPct = totalAllBooths > 0 ? (totalSir / totalAllBooths * 100).toFixed(1) : '0.0';
+  const postPct = totalAllBooths > 0 ? (totalPostSir / totalAllBooths * 100).toFixed(1) : '0.0';
 
-  const rcEl = document.getElementById('dir-ready-count');
-  const rpEl = document.getElementById('dir-ready-pct');
-  const vtEl = document.getElementById('dir-voters-total');
-  const mcEl = document.getElementById('dir-missing-count');
-  const mpEl = document.getElementById('dir-missing-pct');
-  const dpEl = document.getElementById('dir-progress-pct');
-  const dtEl = document.getElementById('dir-progress-text');
-  const dsegR = document.getElementById('dir-seg-ready');
-  const dsegM = document.getElementById('dir-seg-missing');
+  const fmtK = n => n >= 1000 ? (n / 1000).toFixed(1) + 'K' : n.toLocaleString();
 
-  if (rcEl) rcEl.textContent = readyStates;
-  if (rpEl) rpEl.textContent = `(${readyPct}% ACs)`;
-  if (vtEl) vtEl.textContent = `${(totalVoters / 1000000).toFixed(1)}M`;
-  if (mcEl) mcEl.textContent = missingStates;
-  if (mpEl) mpEl.textContent = `(${missingAcs} ACs)`;
-  if (dpEl) dpEl.textContent = `${readyPct}%`;
-  if (dtEl) dtEl.textContent = `${readyAcs.toLocaleString()} / ${totalAcs.toLocaleString()} ACs mapped (${totalBooths.toLocaleString()} booths)`;
-  if (dsegR) dsegR.style.width = `${readyPct}%`;
-  if (dsegM) dsegM.style.width = `${missingPct}%`;
+  const preEl = document.getElementById('dir-presir-count');
+  const ssrEl = document.getElementById('dir-ssr-count');
+  const sirEl = document.getElementById('dir-sir-count');
+  const postEl = document.getElementById('dir-postsir-count');
+  const missEl = document.getElementById('dir-missing-count');
+
+  if (preEl) preEl.textContent = fmtK(totalPreSir);
+  if (ssrEl) ssrEl.textContent = fmtK(totalSsr);
+  if (sirEl) sirEl.textContent = fmtK(totalSir);
+  if (postEl) postEl.textContent = fmtK(totalPostSir);
+  if (missEl) missEl.textContent = missingStates;
+
+  const segPre = document.getElementById('dir-seg-presir');
+  const segSsr = document.getElementById('dir-seg-ssr');
+  const segSir = document.getElementById('dir-seg-sir');
+  const segPost = document.getElementById('dir-seg-postsir');
+
+  if (segPre) { segPre.style.width = `${prePct}%`; segPre.title = `Pre-SIR: ${totalPreSir.toLocaleString()} booths (${prePct}%)`; }
+  if (segSsr) { segSsr.style.width = `${ssrPct}%`; segSsr.title = `SSR: ${totalSsr.toLocaleString()} booths (${ssrPct}%)`; }
+  if (segSir) { segSir.style.width = `${sirPct}%`; segSir.title = `SIR: ${totalSir.toLocaleString()} booths (${sirPct}%)`; }
+  if (segPost) { segPost.style.width = `${postPct}%`; segPost.title = `Post-SIR: ${totalPostSir.toLocaleString()} booths (${postPct}%)`; }
+
+  const progPct = document.getElementById('dir-progress-pct');
+  const progTxt = document.getElementById('dir-progress-text');
+  if (progPct) progPct.textContent = `${totalAllBooths.toLocaleString()} Booths`;
+  if (progTxt) progTxt.textContent = `Pre-SIR: ${fmtK(totalPreSir).toLowerCase()} • SSR: ${fmtK(totalSsr).toLowerCase()} • SIR: ${fmtK(totalSir).toLowerCase()} • Post-SIR: ${fmtK(totalPostSir).toLowerCase()}`;
 }
 
 window.switchListingMode = function(mode) {
@@ -565,7 +574,7 @@ window.switchListingMode = function(mode) {
 
 window.filterDirectory = function(filterKey) {
   dirFilter = filterKey;
-  ['all', 'pre_sir', 'sir', 'post_sir', 'missing', 'ready', 'voters'].forEach(k => {
+  ['all', 'pre_sir', 'ssr', 'sir', 'post_sir', 'missing', 'ready', 'voters'].forEach(k => {
     const el = document.getElementById(`dir-card-${k}`);
     if (!el) return;
     if (k === filterKey) {
@@ -602,7 +611,7 @@ window.toggleStateBoothDetail = async function(stateCode) {
   expandTr.id = `dir-expand-${stateCode}`;
   expandTr.className = 'bg-slate-50/90 border-b border-gray-200';
   expandTr.innerHTML = `
-    <td colspan="7" class="p-4 pl-12">
+    <td colspan="8" class="p-4 pl-12">
       <div class="flex items-center gap-2 text-gray-500 py-3 text-[12px]">
         <span class="material-symbols-outlined animate-spin text-indigo-600" style="font-size:16px;">refresh</span>
         <span>Loading constituency booth data for ${stateCode}...</span>
@@ -620,7 +629,7 @@ window.toggleStateBoothDetail = async function(stateCode) {
 
     if (!acs || !acs.length) {
       expandTr.innerHTML = `
-        <td colspan="7" class="p-4 pl-12 text-gray-400 text-[12px]">
+        <td colspan="8" class="p-4 pl-12 text-gray-400 text-[12px]">
           No constituency-level breakdown available for ${stateCode}.
         </td>`;
       return;
@@ -629,6 +638,7 @@ window.toggleStateBoothDetail = async function(stateCode) {
     let rowsHtml = '';
     acs.forEach(ac => {
       const pre = ac.pre_sir_booths || 0;
+      const ssr = ac.ssr_booths || 0;
       const sir = ac.sir_booths || 0;
       const post = ac.post_sir_booths || 0;
       const stage = ac.revision_stage || '—';
@@ -636,7 +646,9 @@ window.toggleStateBoothDetail = async function(stateCode) {
         ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Post-SIR</span>'
         : (stage === 'Pre-SIR'
             ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Pre-SIR</span>'
-            : '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">SIR</span>');
+            : (stage === 'SSR'
+                ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-sky-50 text-sky-700 border border-sky-200">SSR</span>'
+                : '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">SIR</span>'));
 
       const statusBadge = ac.missing_data_status === 'Complete'
         ? '<span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.2 rounded">Complete</span>'
@@ -649,6 +661,7 @@ window.toggleStateBoothDetail = async function(stateCode) {
           <td class="py-2 px-3 font-bold text-gray-700">AC ${ac.ac_no}</td>
           <td class="py-2 px-3 font-semibold text-gray-900">${x(ac.ac_name || '—')}</td>
           <td class="py-2 px-3 text-right tabular-nums font-bold ${pre > 0 ? 'text-amber-700' : 'text-gray-300'}">${pre > 0 ? pre.toLocaleString() : '—'}</td>
+          <td class="py-2 px-3 text-right tabular-nums font-bold ${ssr > 0 ? 'text-sky-700' : 'text-gray-300'}">${ssr > 0 ? ssr.toLocaleString() : '—'}</td>
           <td class="py-2 px-3 text-right tabular-nums font-bold ${sir > 0 ? 'text-indigo-700' : 'text-gray-300'}">${sir > 0 ? sir.toLocaleString() : '—'}</td>
           <td class="py-2 px-3 text-right tabular-nums font-bold ${post > 0 ? 'text-emerald-700' : 'text-gray-300'}">${post > 0 ? post.toLocaleString() : '—'}</td>
           <td class="py-2 px-3 text-right tabular-nums font-extrabold text-gray-900">${(ac.extracted_booths || 0).toLocaleString()}</td>
@@ -659,15 +672,15 @@ window.toggleStateBoothDetail = async function(stateCode) {
     });
 
     expandTr.innerHTML = `
-      <td colspan="7" class="p-3 pl-8 sm:pl-12">
+      <td colspan="8" class="p-3 pl-8 sm:pl-12">
         <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
           <div class="px-4 py-2.5 bg-gradient-to-r from-slate-50 to-indigo-50/30 border-b border-gray-200 flex items-center justify-between">
             <div class="flex items-center gap-2">
               <span class="material-symbols-outlined text-indigo-600 text-[16px]">account_tree</span>
-              <span class="text-[12px] font-bold text-gray-900">${stateCode} Constituencies: Pre-SIR / SIR / Post-SIR Breakdown</span>
+              <span class="text-[12px] font-bold text-gray-900">${stateCode} Constituencies: Pre-SIR / SSR / SIR / Post-SIR Breakdown</span>
               <span class="text-[10px] font-bold px-2 py-0.2 rounded-full bg-indigo-100 text-indigo-800">${acs.length} ACs</span>
             </div>
-            <span class="text-[10.5px] text-gray-400 font-medium">Categorized by type_of_revision</span>
+            <span class="text-[10.5px] text-gray-400 font-medium">Timeline Revision Segregation</span>
           </div>
           <div class="max-h-[320px] overflow-y-auto custom-scrollbar">
             <table class="w-full text-left border-collapse">
@@ -676,6 +689,7 @@ window.toggleStateBoothDetail = async function(stateCode) {
                   <th class="py-2 px-3">AC #</th>
                   <th class="py-2 px-3">Constituency</th>
                   <th class="py-2 px-3 text-right text-amber-700">Pre-SIR</th>
+                  <th class="py-2 px-3 text-right text-sky-700">SSR</th>
                   <th class="py-2 px-3 text-right text-indigo-700">SIR</th>
                   <th class="py-2 px-3 text-right text-emerald-700">Post-SIR</th>
                   <th class="py-2 px-3 text-right text-gray-800">Total Booths</th>
@@ -693,7 +707,7 @@ window.toggleStateBoothDetail = async function(stateCode) {
       </td>`;
   } catch (err) {
     expandTr.innerHTML = `
-      <td colspan="7" class="p-4 pl-12 text-rose-500 text-[12px]">
+      <td colspan="8" class="p-4 pl-12 text-rose-500 text-[12px]">
         Failed to load constituency data: ${err.message}
       </td>`;
   }
@@ -719,6 +733,8 @@ function renderBoothVoterDirectory() {
 
   if (dirFilter === 'pre_sir') {
     stateList = stateList.filter(s => (s.pre_sir_booths || 0) > 0);
+  } else if (dirFilter === 'ssr') {
+    stateList = stateList.filter(s => (s.ssr_booths || 0) > 0);
   } else if (dirFilter === 'sir') {
     stateList = stateList.filter(s => (s.sir_booths || 0) > 0);
   } else if (dirFilter === 'post_sir') {
@@ -752,6 +768,8 @@ function renderBoothVoterDirectory() {
       va = a.total_acs || 0; vb = b.total_acs || 0;
     } else if (dirSortCol === 'pre_sir') {
       va = a.pre_sir_booths || 0; vb = b.pre_sir_booths || 0;
+    } else if (dirSortCol === 'ssr') {
+      va = a.ssr_booths || 0; vb = b.ssr_booths || 0;
     } else if (dirSortCol === 'sir') {
       va = a.sir_booths || 0; vb = b.sir_booths || 0;
     } else if (dirSortCol === 'post_sir') {
@@ -780,6 +798,7 @@ function renderBoothVoterDirectory() {
     <tr>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="name">State &amp; Canonical ACs${arrow('name')}</th>
       <th class="px-4 py-3 text-[10.5px] font-bold text-amber-700 uppercase tracking-wider cursor-pointer hover:bg-amber-50/50 select-none dir-sortable text-right" data-col="pre_sir">Pre-SIR Booths${arrow('pre_sir')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-sky-700 uppercase tracking-wider cursor-pointer hover:bg-sky-50/50 select-none dir-sortable text-right" data-col="ssr">SSR Booths${arrow('ssr')}</th>
       <th class="px-4 py-3 text-[10.5px] font-bold text-indigo-700 uppercase tracking-wider cursor-pointer hover:bg-indigo-50/50 select-none dir-sortable text-right" data-col="sir">SIR Booths${arrow('sir')}</th>
       <th class="px-4 py-3 text-[10.5px] font-bold text-emerald-700 uppercase tracking-wider cursor-pointer hover:bg-emerald-50/50 select-none dir-sortable text-right" data-col="post_sir">Post-SIR Booths${arrow('post_sir')}</th>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="admin">Admin Quality${arrow('admin')}</th>
@@ -789,7 +808,7 @@ function renderBoothVoterDirectory() {
 
   if (!stateList.length) {
     tbody.innerHTML = `
-      <tr><td colspan="7" class="px-5 py-12 text-center">
+      <tr><td colspan="8" class="px-5 py-12 text-center">
         <div class="flex flex-col items-center gap-2 text-gray-400">
           <span class="material-symbols-outlined" style="font-size:28px;">search_off</span>
           <p class="text-[12px]">No states match the selected filters.</p>
@@ -806,6 +825,7 @@ function renderBoothVoterDirectory() {
     const canonicalAcs = Number(s.total_acs) || STATE_AC_COUNTS[stateCode] || 1;
     
     const preCount = s.pre_sir_booths || 0;
+    const ssrCount = s.ssr_booths || 0;
     const sirCount = s.sir_booths || 0;
     const postCount = s.post_sir_booths || 0;
     const revStage = s.revision_stage || '—';
@@ -826,6 +846,22 @@ function renderBoothVoterDirectory() {
       preHtml = `<span class="text-[11px] text-gray-300 font-medium">○</span>`;
     }
 
+    // SSR cell
+    let ssrHtml = '';
+    if (ssrCount > 0) {
+      ssrHtml = `
+        <div class="flex flex-col items-end">
+          <span class="text-[13px] font-bold text-sky-900 tabular-nums">${ssrCount.toLocaleString()}</span>
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-sky-700 bg-sky-50 border border-sky-200 px-1.5 py-0.2 rounded mt-0.5">
+            Annual Roll
+          </span>
+        </div>`;
+    } else if (s.has_booth) {
+      ssrHtml = `<span class="text-[12px] text-gray-300 font-medium">—</span>`;
+    } else {
+      ssrHtml = `<span class="text-[11px] text-gray-300 font-medium">○</span>`;
+    }
+
     // SIR cell
     let sirHtml = '';
     if (sirCount > 0) {
@@ -833,7 +869,7 @@ function renderBoothVoterDirectory() {
         <div class="flex flex-col items-end">
           <span class="text-[13px] font-bold text-indigo-900 tabular-nums">${sirCount.toLocaleString()}</span>
           <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-indigo-700 bg-indigo-50 border border-indigo-200 px-1.5 py-0.2 rounded mt-0.5">
-            Intensive / SSR
+            Intensive
           </span>
         </div>`;
     } else if (s.has_booth) {
@@ -865,6 +901,8 @@ function renderBoothVoterDirectory() {
         stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Post-SIR</span>';
       } else if (revStage === 'Pre-SIR') {
         stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Pre-SIR</span>';
+      } else if (revStage === 'SSR') {
+        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-sky-50 text-sky-700 border border-sky-200">SSR</span>';
       } else {
         stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">SIR</span>';
       }
@@ -925,6 +963,7 @@ function renderBoothVoterDirectory() {
           </div>
         </td>
         <td class="px-4 py-3.5 whitespace-nowrap text-right">${preHtml}</td>
+        <td class="px-4 py-3.5 whitespace-nowrap text-right">${ssrHtml}</td>
         <td class="px-4 py-3.5 whitespace-nowrap text-right">${sirHtml}</td>
         <td class="px-4 py-3.5 whitespace-nowrap text-right">${postHtml}</td>
         <td class="px-5 py-3.5 whitespace-nowrap">${adminHtml}</td>

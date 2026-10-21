@@ -883,6 +883,7 @@ def get_backlog_state_metadata():
                 'retro_avail': data.get('hero', {}).get('retro_availability_pct', 0),
                 'total_booths': b.get('total_booths', 0),
                 'pre_sir_booths': rev_bd.get('pre_sir') or b.get('pre_sir_booths', 0),
+                'ssr_booths': rev_bd.get('ssr') or b.get('ssr_booths', 0),
                 'sir_booths': rev_bd.get('sir') or b.get('sir_booths', 0),
                 'post_sir_booths': rev_bd.get('post_sir') or b.get('post_sir_booths', 0),
                 'revision_stage': rev_bd.get('primary_stage') or b.get('revision_stage', '—'),

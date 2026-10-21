@@ -12,8 +12,8 @@
 1725393,Probhash Ch. Sarkar,IND,19861,189,0.25,11,6,1,AS,Probhash Ch. Sarkar,IND,,,,,False,6,2009,GE
 1725394,Joy Das,IND,19861,162,0.21,12,6,1,AS,Joy Das,IND,,,,,False,6,2009,GE
 1725395,Bijoy Malakar,IND,19861,154,0.2,13,6,1,AS,Bijoy Malakar,IND,,,,,False,6,2009,GE
-1725397,Malati Roy,IND,19861,138,0.18,14,6,1,AS,Malati Roy,IND,,,,,False,6,2009,GE
 1725396,Debasish Das,IND,19861,138,0.18,14,6,1,AS,Debasish Das,IND,,,,,False,6,2009,GE
+1725397,Malati Roy,IND,19861,138,0.18,14,6,1,AS,Malati Roy,IND,,,,,False,6,2009,GE
 1725398,Lalit Mohan Suklabaidya,INC,19858,37343,41.01,1,6,2,AS,Lalit Mohan Suklabaidya,INC,,,,,False,6,2009,GE
 1725399,Rajesh Mallah,AUDF,19935,27818,30.55,2,6,2,AS,Rajesh Mallah,AUDF,,,,,False,6,2009,GE
 1725400,Sudhangshu Das,BJP,19872,21918,24.07,3,6,2,AS,Sudhangshu Das,BJP,,,,,False,6,2009,GE
@@ -113,8 +113,8 @@
 1725494,Uttam Nomosudra,IND,19861,359,0.41,7,6,8,AS,Uttam Nomosudra,IND,,,,,False,6,2009,GE
 1725495,Sital Prasad Dusad,IND,19861,276,0.31,8,6,8,AS,Sital Prasad Dusad,IND,,,,,False,6,2009,GE
 1725496,Bijon Roy,IND,19861,174,0.2,9,6,8,AS,Bijon Roy,IND,,,,,False,6,2009,GE
-1725497,Joy Das,IND,19861,169,0.19,10,6,8,AS,Joy Das,IND,,,,,False,6,2009,GE
 1725498,Ranjan Namasudra,IND,19861,169,0.19,10,6,8,AS,Ranjan Namasudra,IND,,,,,False,6,2009,GE
+1725497,Joy Das,IND,19861,169,0.19,10,6,8,AS,Joy Das,IND,,,,,False,6,2009,GE
 1725499,Probhash Ch. Sarkar,IND,19861,163,0.19,12,6,8,AS,Probhash Ch. Sarkar,IND,,,,,False,6,2009,GE
 1725500,Debasish Das,IND,19861,139,0.16,13,6,8,AS,Debasish Das,IND,,,,,False,6,2009,GE
 1725501,Bijoy Malakar,IND,19861,132,0.15,14,6,8,AS,Bijoy Malakar,IND,,,,,False,6,2009,GE
@@ -122,7 +122,7 @@
 1725503,Kabindra Purkayastha,BJP,19872,53903,43.71,1,6,9,AS,Kabindra Purkayastha,BJP,,,,,False,6,2009,GE
 1725504,Sontosh Mohan Dev,INC,19858,41236,33.44,2,6,9,AS,Sontosh Mohan Dev,INC,,,,,False,6,2009,GE
 1725505,Badruddin Ajmal,AUDF,19935,21626,17.54,3,6,9,AS,Badruddin Ajmal,AUDF,,,,,False,6,2009,GE
-1725506,Dipak Bhattacharjee,CPM,19912,2625,2.13,4,6,9,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
+1725506,Dipak Bhattacharjee,CPI(M),19875,2625,2.13,4,6,9,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
 1725507,Manish Bhattacharjee,IND,19861,1099,0.89,5,6,9,AS,Manish Bhattacharjee,IND,,,,,False,6,2009,GE
 1725508,Sumit Roy,IND,19861,510,0.41,6,6,9,AS,Sumit Roy,IND,,,,,False,6,2009,GE
 1725509,Kantimoy Deb,IND,19861,505,0.41,7,6,9,AS,Kantimoy Deb,IND,,,,,False,6,2009,GE
@@ -138,7 +138,7 @@
 1725519,Badruddin Ajmal,AUDF,19935,45297,44.49,1,6,10,AS,Badruddin Ajmal,AUDF,,,,,False,6,2009,GE
 1725520,Kabindra Purkayastha,BJP,19872,27122,26.64,2,6,10,AS,Kabindra Purkayastha,BJP,,,,,False,6,2009,GE
 1725521,Sontosh Mohan Dev,INC,19858,25244,24.79,3,6,10,AS,Sontosh Mohan Dev,INC,,,,,False,6,2009,GE
-1725522,Dipak Bhattacharjee,CPM,19912,855,0.84,4,6,10,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
+1725522,Dipak Bhattacharjee,CPI(M),19875,855,0.84,4,6,10,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
 1725523,Manish Bhattacharjee,IND,19861,691,0.68,5,6,10,AS,Manish Bhattacharjee,IND,,,,,False,6,2009,GE
 1725524,Sumit Roy,IND,19861,478,0.47,6,6,10,AS,Sumit Roy,IND,,,,,False,6,2009,GE
 1725525,Nagendra Chandra Das,IND,19861,446,0.44,7,6,10,AS,Nagendra Chandra Das,IND,,,,,False,6,2009,GE
@@ -154,7 +154,7 @@
 1725535,Kabindra Purkayastha,BJP,19872,40711,41.55,1,6,11,AS,Kabindra Purkayastha,BJP,,,,,False,6,2009,GE
 1725536,Sontosh Mohan Dev,INC,19858,29209,29.81,2,6,11,AS,Sontosh Mohan Dev,INC,,,,,False,6,2009,GE
 1725537,Badruddin Ajmal,AUDF,19935,18554,18.94,3,6,11,AS,Badruddin Ajmal,AUDF,,,,,False,6,2009,GE
-1725538,Dipak Bhattacharjee,CPM,19912,2489,2.54,4,6,11,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
+1725538,Dipak Bhattacharjee,CPI(M),19875,2489,2.54,4,6,11,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
 1725539,Manish Bhattacharjee,IND,19861,1367,1.4,5,6,11,AS,Manish Bhattacharjee,IND,,,,,False,6,2009,GE
 1725540,Sumit Roy,IND,19861,1179,1.2,6,6,11,AS,Sumit Roy,IND,,,,,False,6,2009,GE
 1725541,Kantimoy Deb,IND,19861,1149,1.17,7,6,11,AS,Kantimoy Deb,IND,,,,,False,6,2009,GE
@@ -170,7 +170,7 @@
 1725551,Sontosh Mohan Dev,INC,19858,31489,34.56,1,6,12,AS,Sontosh Mohan Dev,INC,,,,,False,6,2009,GE
 1725552,Kabindra Purkayastha,BJP,19872,30675,33.66,2,6,12,AS,Kabindra Purkayastha,BJP,,,,,False,6,2009,GE
 1725553,Badruddin Ajmal,AUDF,19935,21529,23.63,3,6,12,AS,Badruddin Ajmal,AUDF,,,,,False,6,2009,GE
-1725554,Dipak Bhattacharjee,CPM,19912,1480,1.62,4,6,12,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
+1725554,Dipak Bhattacharjee,CPI(M),19875,1480,1.62,4,6,12,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
 1725555,Sumit Roy,IND,19861,1284,1.41,5,6,12,AS,Sumit Roy,IND,,,,,False,6,2009,GE
 1725556,Manish Bhattacharjee,IND,19861,1270,1.39,6,6,12,AS,Manish Bhattacharjee,IND,,,,,False,6,2009,GE
 1725557,Kantimoy Deb,IND,19861,675,0.74,7,6,12,AS,Kantimoy Deb,IND,,,,,False,6,2009,GE
@@ -188,7 +188,7 @@
 1725569,Badruddin Ajmal,AUDF,19935,26251,29.31,3,6,13,AS,Badruddin Ajmal,AUDF,,,,,False,6,2009,GE
 1725570,Sumit Roy,IND,19861,1103,1.23,4,6,13,AS,Sumit Roy,IND,,,,,False,6,2009,GE
 1725571,Manish Bhattacharjee,IND,19861,1046,1.17,5,6,13,AS,Manish Bhattacharjee,IND,,,,,False,6,2009,GE
-1725572,Dipak Bhattacharjee,CPM,19912,942,1.05,6,6,13,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
+1725572,Dipak Bhattacharjee,CPI(M),19875,942,1.05,6,6,13,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
 1725573,Kantimoy Deb,IND,19861,525,0.59,7,6,13,AS,Kantimoy Deb,IND,,,,,False,6,2009,GE
 1725574,Nagendra Chandra Das,IND,19861,475,0.53,8,6,13,AS,Nagendra Chandra Das,IND,,,,,False,6,2009,GE
 1725575,Yogendra Kumar Singh,IND,19861,461,0.51,9,6,13,AS,Yogendra Kumar Singh,IND,,,,,False,6,2009,GE
@@ -202,7 +202,7 @@
 1725583,Badruddin Ajmal,AUDF,19935,29988,36.2,1,6,14,AS,Badruddin Ajmal,AUDF,,,,,False,6,2009,GE
 1725584,Kabindra Purkayastha,BJP,19872,25133,30.34,2,6,14,AS,Kabindra Purkayastha,BJP,,,,,False,6,2009,GE
 1725585,Sontosh Mohan Dev,INC,19858,21460,25.9,3,6,14,AS,Sontosh Mohan Dev,INC,,,,,False,6,2009,GE
-1725586,Dipak Bhattacharjee,CPM,19912,1980,2.39,4,6,14,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
+1725586,Dipak Bhattacharjee,CPI(M),19875,1980,2.39,4,6,14,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
 1725587,Manish Bhattacharjee,IND,19861,870,1.05,5,6,14,AS,Manish Bhattacharjee,IND,,,,,False,6,2009,GE
 1725588,Sumit Roy,IND,19861,704,0.85,6,6,14,AS,Sumit Roy,IND,,,,,False,6,2009,GE
 1725589,Kantimoy Deb,IND,19861,444,0.54,7,6,14,AS,Kantimoy Deb,IND,,,,,False,6,2009,GE
@@ -218,7 +218,7 @@
 1725599,Badruddin Ajmal,AUDF,19935,38811,38.12,1,6,15,AS,Badruddin Ajmal,AUDF,,,,,False,6,2009,GE
 1725600,Kabindra Purkayastha,BJP,19872,37725,37.05,2,6,15,AS,Kabindra Purkayastha,BJP,,,,,False,6,2009,GE
 1725601,Sontosh Mohan Dev,INC,19858,19843,19.49,3,6,15,AS,Sontosh Mohan Dev,INC,,,,,False,6,2009,GE
-1725602,Dipak Bhattacharjee,CPM,19912,1459,1.43,4,6,15,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
+1725602,Dipak Bhattacharjee,CPI(M),19875,1459,1.43,4,6,15,AS,Dipak Bhattacharjee,CPM,,,,,False,6,2009,GE
 1725603,Manish Bhattacharjee,IND,19861,750,0.74,5,6,15,AS,Manish Bhattacharjee,IND,,,,,False,6,2009,GE
 1725604,Sumit Roy,IND,19861,691,0.68,6,6,15,AS,Sumit Roy,IND,,,,,False,6,2009,GE
 1725605,Nagendra Chandra Das,IND,19861,480,0.47,7,6,15,AS,Nagendra Chandra Das,IND,,,,,False,6,2009,GE
@@ -346,7 +346,7 @@
 1725727,Bhupen Ray,AGP,19864,48793,48.31,1,6,32,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
 1725728,Ismail Hussain,INC,19858,35316,34.97,2,6,32,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725729,Abdus Samad Ahmed,AUDF,19935,6063,6.0,3,6,32,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
-1725730,Durgeswar Deka,CPM,19912,4583,4.54,4,6,32,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725730,Durgeswar Deka,CPI(M),19875,4583,4.54,4,6,32,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725731,Bhadreswar Das,IND,19861,1349,1.34,5,6,32,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725732,Dewan Joynal Abedin,IND,19861,948,0.94,6,6,32,AS,Dewan Joynal Abedin,IND,,,,,False,6,2009,GE
 1725733,Kandarpa Lahkar,RVNP,19937,840,0.83,7,6,32,AS,Kandarpa Lahkar,RVNP,,,,,False,6,2009,GE
@@ -363,7 +363,7 @@
 1725744,Bhupen Ray,AGP,19864,34245,36.86,1,6,34,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
 1725745,Ismail Hussain,INC,19858,30238,32.55,2,6,34,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725746,Abdus Samad Ahmed,AUDF,19935,20821,22.41,3,6,34,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
-1725747,Durgeswar Deka,CPM,19912,4430,4.77,4,6,34,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725747,Durgeswar Deka,CPI(M),19875,4430,4.77,4,6,34,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725748,Bhadreswar Das,IND,19861,735,0.79,5,6,34,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725749,Md. Amir Ali,RJD,19905,376,0.4,6,6,34,AS,Md. Amir Ali,RJD,,,,,False,6,2009,GE
 1725750,Dewan Joynal Abedin,IND,19861,344,0.37,7,6,34,AS,Dewan Joynal Abedin,IND,,,,,False,6,2009,GE
@@ -377,7 +377,7 @@
 1725758,Bhupen Ray,AGP,19864,37650,36.85,1,6,35,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
 1725759,Ismail Hussain,INC,19858,29750,29.12,2,6,35,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725760,Abdus Samad Ahmed,AUDF,19935,29355,28.73,3,6,35,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
-1725761,Durgeswar Deka,CPM,19912,1275,1.25,4,6,35,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725761,Durgeswar Deka,CPI(M),19875,1275,1.25,4,6,35,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725762,Bhadreswar Das,IND,19861,928,0.91,5,6,35,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725763,Golap Hussain Mazumder,IND,19861,491,0.48,6,6,35,AS,Golap Hussain Mazumder,IND,,,,,False,6,2009,GE
 1725764,Abu Chand Mahmmad,RPI(A),19890,451,0.44,7,6,35,AS,Abu Chand Mahmmad,RPI(A),,,,,False,6,2009,GE
@@ -438,7 +438,7 @@
 1725819,Urkhao Gwra Brahma,IND,19861,19360,26.38,3,6,41,AS,Urkhao Gwra Brahma,IND,,,,,False,6,2009,GE
 1725820,Bhupen Ray,AGP,19864,45459,65.99,1,6,42,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
 1725821,Ismail Hussain,INC,19858,14398,20.9,2,6,42,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
-1725822,Durgeswar Deka,CPM,19912,5387,7.82,3,6,42,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725822,Durgeswar Deka,CPI(M),19875,5387,7.82,3,6,42,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725823,Abdus Samad Ahmed,AUDF,19935,1147,1.66,4,6,42,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
 1725824,Kandarpa Lahkar,RVNP,19937,557,0.81,5,6,42,AS,Kandarpa Lahkar,RVNP,,,,,False,6,2009,GE
 1725825,Bhadreswar Das,IND,19861,448,0.65,6,6,42,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
@@ -453,7 +453,7 @@
 1725834,Ismail Hussain,INC,19858,46771,43.03,1,6,43,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725835,Bhupen Ray,AGP,19864,35855,32.99,2,6,43,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
 1725836,Abdus Samad Ahmed,AUDF,19935,20747,19.09,3,6,43,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
-1725837,Durgeswar Deka,CPM,19912,2003,1.84,4,6,43,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725837,Durgeswar Deka,CPI(M),19875,2003,1.84,4,6,43,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725838,Bhadreswar Das,IND,19861,763,0.7,5,6,43,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725839,Md. Amir Ali,RJD,19905,381,0.35,6,6,43,AS,Md. Amir Ali,RJD,,,,,False,6,2009,GE
 1725840,Abu Chand Mahmmad,RPI(A),19890,371,0.34,7,6,43,AS,Abu Chand Mahmmad,RPI(A),,,,,False,6,2009,GE
@@ -467,7 +467,7 @@
 1725848,Abdus Samad Ahmed,AUDF,19935,43014,44.06,1,6,44,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
 1725849,Ismail Hussain,INC,19858,40935,41.93,2,6,44,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725850,Bhupen Ray,AGP,19864,5778,5.92,3,6,44,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
-1725851,Durgeswar Deka,CPM,19912,4631,4.74,4,6,44,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725851,Durgeswar Deka,CPI(M),19875,4631,4.74,4,6,44,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725852,Bhadreswar Das,IND,19861,727,0.74,5,6,44,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725853,Md. Amir Ali,RJD,19905,529,0.54,6,6,44,AS,Md. Amir Ali,RJD,,,,,False,6,2009,GE
 1725854,Golap Hussain Mazumder,IND,19861,417,0.43,7,6,44,AS,Golap Hussain Mazumder,IND,,,,,False,6,2009,GE
@@ -481,7 +481,7 @@
 1725862,Abdus Samad Ahmed,AUDF,19935,38429,49.37,1,6,45,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
 1725863,Ismail Hussain,INC,19858,32021,41.14,2,6,45,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725864,Bhupen Ray,AGP,19864,2436,3.13,3,6,45,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
-1725865,Durgeswar Deka,CPM,19912,1493,1.92,4,6,45,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725865,Durgeswar Deka,CPI(M),19875,1493,1.92,4,6,45,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725866,Md. Amir Ali,RJD,19905,897,1.15,5,6,45,AS,Md. Amir Ali,RJD,,,,,False,6,2009,GE
 1725867,Bhadreswar Das,IND,19861,555,0.71,6,6,45,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725868,Golap Hussain Mazumder,IND,19861,382,0.49,7,6,45,AS,Golap Hussain Mazumder,IND,,,,,False,6,2009,GE
@@ -495,7 +495,7 @@
 1725876,Abdus Samad Ahmed,AUDF,19935,32347,31.98,1,6,46,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
 1725877,Ismail Hussain,INC,19858,29509,29.17,2,6,46,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725878,Bhupen Ray,AGP,19864,27481,27.17,3,6,46,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
-1725879,Durgeswar Deka,CPM,19912,7622,7.54,4,6,46,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725879,Durgeswar Deka,CPI(M),19875,7622,7.54,4,6,46,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725880,Bhadreswar Das,IND,19861,893,0.88,5,6,46,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725881,Dewan Joynal Abedin,IND,19861,607,0.6,6,6,46,AS,Dewan Joynal Abedin,IND,,,,,False,6,2009,GE
 1725882,Golap Hussain Mazumder,IND,19861,450,0.44,7,6,46,AS,Golap Hussain Mazumder,IND,,,,,False,6,2009,GE
@@ -509,7 +509,7 @@
 1725890,Ismail Hussain,INC,19858,30876,42.07,1,6,47,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1725891,Abdus Samad Ahmed,AUDF,19935,21845,29.76,2,6,47,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
 1725892,Bhupen Ray,AGP,19864,15737,21.44,3,6,47,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
-1725893,Durgeswar Deka,CPM,19912,2495,3.4,4,6,47,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1725893,Durgeswar Deka,CPI(M),19875,2495,3.4,4,6,47,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1725894,Md. Amir Ali,RJD,19905,448,0.61,5,6,47,AS,Md. Amir Ali,RJD,,,,,False,6,2009,GE
 1725895,Bhadreswar Das,IND,19861,426,0.58,6,6,47,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1725896,Golap Hussain Mazumder,IND,19861,284,0.39,7,6,47,AS,Golap Hussain Mazumder,IND,,,,,False,6,2009,GE
@@ -673,7 +673,7 @@
 1726054,Bhupen Ray,AGP,19864,37792,49.48,1,6,61,AS,Bhupen Ray,AGP,,,,,False,6,2009,GE
 1726055,Ismail Hussain,INC,19858,31906,41.77,2,6,61,AS,Ismail Hussain,INC,,,,,False,6,2009,GE
 1726056,Abdus Samad Ahmed,AUDF,19935,2163,2.83,3,6,61,AS,Abdus Samad Ahmed,AUDF,,,,,False,6,2009,GE
-1726057,Durgeswar Deka,CPM,19912,2058,2.69,4,6,61,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
+1726057,Durgeswar Deka,CPI(M),19875,2058,2.69,4,6,61,AS,Durgeswar Deka,CPM,,,,,False,6,2009,GE
 1726058,Bhadreswar Das,IND,19861,577,0.76,5,6,61,AS,Bhadreswar Das,IND,,,,,False,6,2009,GE
 1726059,Abu Chand Mahmmad,RPI(A),19890,316,0.41,6,6,61,AS,Abu Chand Mahmmad,RPI(A),,,,,False,6,2009,GE
 1726060,Md. Amir Ali,RJD,19905,261,0.34,7,6,61,AS,Md. Amir Ali,RJD,,,,,False,6,2009,GE
@@ -785,7 +785,7 @@
 1726166,Moni Kumar Subba,INC,19858,41550,36.98,2,6,71,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
 1726167,Deba Orang,AUDF,19935,7639,6.8,3,6,71,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
 1726168,Prasanta Boro,IND,19861,7006,6.24,4,6,71,AS,Prasanta Boro,IND,,,,,False,6,2009,GE
-1726169,Jiten Sundi,CPM,19912,3652,3.25,5,6,71,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726169,Jiten Sundi,CPI(M),19875,3652,3.25,5,6,71,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726170,Rudra Parajuli,IND,19861,3323,2.96,6,6,71,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726171,Dr. Pranab Kr. Das,IND,19861,1070,0.95,7,6,71,AS,Dr. Pranab Kr. Das,IND,,,,,False,6,2009,GE
 1726172,Md. Nazir Ahmed,IND,19861,871,0.78,8,6,71,AS,Md. Nazir Ahmed,IND,,,,,False,6,2009,GE
@@ -799,7 +799,7 @@
 1726180,Joseph Toppo,AGP,19864,34741,38.84,1,6,72,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
 1726181,Moni Kumar Subba,INC,19858,33465,37.41,2,6,72,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
 1726182,Deba Orang,AUDF,19935,10169,11.37,3,6,72,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
-1726183,Jiten Sundi,CPM,19912,2741,3.06,4,6,72,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726183,Jiten Sundi,CPI(M),19875,2741,3.06,4,6,72,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726184,Rudra Parajuli,IND,19861,2430,2.72,5,6,72,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726185,Prasanta Boro,IND,19861,1443,1.61,6,6,72,AS,Prasanta Boro,IND,,,,,False,6,2009,GE
 1726186,Dr. Pranab Kr. Das,IND,19861,914,1.02,7,6,72,AS,Dr. Pranab Kr. Das,IND,,,,,False,6,2009,GE
@@ -814,7 +814,7 @@
 1726195,Joseph Toppo,AGP,19864,37611,40.85,1,6,73,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
 1726196,Moni Kumar Subba,INC,19858,34278,37.23,2,6,73,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
 1726197,Deba Orang,AUDF,19935,13030,14.15,3,6,73,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
-1726198,Jiten Sundi,CPM,19912,2178,2.37,4,6,73,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726198,Jiten Sundi,CPI(M),19875,2178,2.37,4,6,73,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726199,Rudra Parajuli,IND,19861,1121,1.22,5,6,73,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726200,Dr. Pranab Kr. Das,IND,19861,568,0.62,6,6,73,AS,Dr. Pranab Kr. Das,IND,,,,,False,6,2009,GE
 1726201,Rubul Sarma,CPI(ML)(L),19892,445,0.48,7,6,73,AS,Rubul Sarma,CPI(ML)(L),,,,,False,6,2009,GE
@@ -828,7 +828,7 @@
 1726209,Reginold V. Johnson,RSPS,19939,287,0.31,15,6,73,AS,Reginold V. Johnson,RSPS,,,,,False,6,2009,GE
 1726210,Moni Kumar Subba,INC,19858,39063,41.58,1,6,74,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
 1726211,Joseph Toppo,AGP,19864,25922,27.59,2,6,74,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
-1726212,Jiten Sundi,CPM,19912,11621,12.37,3,6,74,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726212,Jiten Sundi,CPI(M),19875,11621,12.37,3,6,74,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726213,Deba Orang,AUDF,19935,6369,6.78,4,6,74,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
 1726214,Rudra Parajuli,IND,19861,3131,3.33,5,6,74,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726215,Dr. Pranab Kr. Das,IND,19861,1235,1.31,6,6,74,AS,Dr. Pranab Kr. Das,IND,,,,,False,6,2009,GE
@@ -843,7 +843,7 @@
 1726224,Jugananda Hazarika,SP,19886,496,0.53,15,6,74,AS,Jugananda Hazarika,SP,,,,,False,6,2009,GE
 1726225,Joseph Toppo,AGP,19864,40383,41.07,1,6,75,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
 1726226,Moni Kumar Subba,INC,19858,40378,41.06,2,6,75,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
-1726227,Jiten Sundi,CPM,19912,6718,6.83,3,6,75,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726227,Jiten Sundi,CPI(M),19875,6718,6.83,3,6,75,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726228,Deba Orang,AUDF,19935,2547,2.59,4,6,75,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
 1726229,Rudra Parajuli,IND,19861,1888,1.92,5,6,75,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726230,Prasanta Boro,IND,19861,1133,1.15,6,6,75,AS,Prasanta Boro,IND,,,,,False,6,2009,GE
@@ -858,7 +858,7 @@
 1726239,Jugananda Hazarika,SP,19886,398,0.4,15,6,75,AS,Jugananda Hazarika,SP,,,,,False,6,2009,GE
 1726240,Moni Kumar Subba,INC,19858,42398,44.48,1,6,76,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
 1726241,Joseph Toppo,AGP,19864,37469,39.31,2,6,76,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
-1726242,Jiten Sundi,CPM,19912,4221,4.43,3,6,76,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726242,Jiten Sundi,CPI(M),19875,4221,4.43,3,6,76,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726243,Deba Orang,AUDF,19935,3066,3.22,4,6,76,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
 1726244,Rudra Parajuli,IND,19861,2110,2.21,5,6,76,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726245,Dr. Pranab Kr. Das,IND,19861,1131,1.19,6,6,76,AS,Dr. Pranab Kr. Das,IND,,,,,False,6,2009,GE
@@ -874,7 +874,7 @@
 1726255,Moni Kumar Subba,INC,19858,27202,36.77,1,6,77,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
 1726256,Joseph Toppo,AGP,19864,26660,36.04,2,6,77,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
 1726257,Rubul Sarma,CPI(ML)(L),19892,6882,9.3,3,6,77,AS,Rubul Sarma,CPI(ML)(L),,,,,False,6,2009,GE
-1726258,Jiten Sundi,CPM,19912,2849,3.85,4,6,77,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726258,Jiten Sundi,CPI(M),19875,2849,3.85,4,6,77,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726259,Rudra Parajuli,IND,19861,2763,3.73,5,6,77,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726260,Deba Orang,AUDF,19935,1542,2.08,6,6,77,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
 1726261,Prasanta Boro,IND,19861,962,1.3,7,6,77,AS,Prasanta Boro,IND,,,,,False,6,2009,GE
@@ -882,14 +882,14 @@
 1726263,Md. Nazir Ahmed,IND,19861,794,1.07,9,6,77,AS,Md. Nazir Ahmed,IND,,,,,False,6,2009,GE
 1726264,Daniel David Jesudas,IND,19861,706,0.95,10,6,77,AS,Daniel David Jesudas,IND,,,,,False,6,2009,GE
 1726265,Arun Kumar Murmoo,BVM,19924,685,0.93,11,6,77,AS,Arun Kumar Murmoo,BVM,,,,,False,6,2009,GE
-1726266,Reginold V. Johnson,RSPS,19939,560,0.76,12,6,77,AS,Reginold V. Johnson,RSPS,,,,,False,6,2009,GE
 1726267,Kalyan Kumar Deori Bharali,IND,19861,560,0.76,12,6,77,AS,Kalyan Kumar Deori Bharali,IND,,,,,False,6,2009,GE
+1726266,Reginold V. Johnson,RSPS,19939,560,0.76,12,6,77,AS,Reginold V. Johnson,RSPS,,,,,False,6,2009,GE
 1726268,Jugananda Hazarika,SP,19886,466,0.63,14,6,77,AS,Jugananda Hazarika,SP,,,,,False,6,2009,GE
 1726269,Parashmoni Sinha,JMM,19927,404,0.55,15,6,77,AS,Parashmoni Sinha,JMM,,,,,False,6,2009,GE
 1726270,Joseph Toppo,AGP,19864,67860,60.11,1,6,78,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
 1726271,Moni Kumar Subba,INC,19858,33353,29.54,2,6,78,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
 1726272,Rudra Parajuli,IND,19861,2072,1.84,3,6,78,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
-1726273,Jiten Sundi,CPM,19912,1663,1.47,4,6,78,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726273,Jiten Sundi,CPI(M),19875,1663,1.47,4,6,78,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726274,Prasanta Boro,IND,19861,1349,1.19,5,6,78,AS,Prasanta Boro,IND,,,,,False,6,2009,GE
 1726275,Rubul Sarma,CPI(ML)(L),19892,1193,1.06,6,6,78,AS,Rubul Sarma,CPI(ML)(L),,,,,False,6,2009,GE
 1726276,Deba Orang,AUDF,19935,855,0.76,7,6,78,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
@@ -1195,7 +1195,7 @@
 1726576,Biren Nanda,JMM,19927,147,0.19,8,6,108,AS,Biren Nanda,JMM,,,,,False,6,2009,GE
 1726577,Joseph Toppo,AGP,19864,38478,51.96,1,6,109,AS,Joseph Toppo,AGP,,,,,False,6,2009,GE
 1726578,Moni Kumar Subba,INC,19858,30191,40.77,2,6,109,AS,Moni Kumar Subba,INC,,,,,False,6,2009,GE
-1726579,Jiten Sundi,CPM,19912,1063,1.44,3,6,109,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
+1726579,Jiten Sundi,CPI(M),19875,1063,1.44,3,6,109,AS,Jiten Sundi,CPM,,,,,False,6,2009,GE
 1726580,Deba Orang,AUDF,19935,1035,1.4,4,6,109,AS,Deba Orang,AUDF,,,,,False,6,2009,GE
 1726581,Rudra Parajuli,IND,19861,844,1.14,5,6,109,AS,Rudra Parajuli,IND,,,,,False,6,2009,GE
 1726582,Arun Kumar Murmoo,BVM,19924,384,0.52,6,6,109,AS,Arun Kumar Murmoo,BVM,,,,,False,6,2009,GE

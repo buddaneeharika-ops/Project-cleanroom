@@ -22,7 +22,13 @@
       "secc": 0.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "AP",
@@ -39,7 +45,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 46396,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 46396
     },
     {
       "state_abb": "AR",
@@ -56,7 +68,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "AS",
@@ -73,7 +91,13 @@
       "secc": 0.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 29213,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 29213
     },
     {
       "state_abb": "BR",
@@ -90,7 +114,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 167868,
+      "post_sir": 0,
+      "revision_stage": "SIR",
+      "total_booths": 167868
     },
     {
       "state_abb": "CG",
@@ -107,7 +137,13 @@
       "secc": 100.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "CT",
@@ -124,7 +160,13 @@
       "secc": 100.0,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 27196,
+      "post_sir": 0,
+      "revision_stage": "SIR",
+      "total_booths": 27196
     },
     {
       "state_abb": "DN",
@@ -141,7 +183,13 @@
       "secc": 0.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "DD",
@@ -158,7 +206,13 @@
       "secc": 0.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "DL",
@@ -175,7 +229,13 @@
       "secc": 0.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 13033,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 13033
     },
     {
       "state_abb": "GA",
@@ -192,7 +252,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 1708,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 1708
     },
     {
       "state_abb": "GJ",
@@ -209,7 +275,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "HR",
@@ -226,7 +298,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 20628,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "Pre-SIR",
+      "total_booths": 20628
     },
     {
       "state_abb": "HP",
@@ -243,7 +321,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 8006,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 8006
     },
     {
       "state_abb": "JK",
@@ -260,7 +344,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 11613,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "Pre-SIR",
+      "total_booths": 11613
     },
     {
       "state_abb": "JH",
@@ -277,7 +367,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 29562,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "Pre-SIR",
+      "total_booths": 29562
     },
     {
       "state_abb": "KA",
@@ -294,7 +390,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 58931,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 58931
     },
     {
       "state_abb": "KL",
@@ -311,7 +413,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 25400,
+      "sir": 0,
+      "post_sir": 1,
+      "revision_stage": "SSR",
+      "total_booths": 25401
     },
     {
       "state_abb": "LA",
@@ -328,7 +436,13 @@
       "secc": 0.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 595,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 595
     },
     {
       "state_abb": "LD",
@@ -345,7 +459,13 @@
       "secc": 0.0,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "MP",
@@ -362,7 +482,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 71930,
+      "post_sir": 0,
+      "revision_stage": "SIR",
+      "total_booths": 71930
     },
     {
       "state_abb": "MH",
@@ -379,7 +505,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 5823,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 94277,
+      "revision_stage": "Post-SIR",
+      "total_booths": 100100
     },
     {
       "state_abb": "MN",
@@ -396,7 +528,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "ML",
@@ -413,7 +551,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 3551,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 3551
     },
     {
       "state_abb": "MZ",
@@ -430,7 +574,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "NL",
@@ -447,7 +597,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "OR",
@@ -464,7 +620,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 3552,
+      "ssr": 10832,
+      "sir": 2,
+      "post_sir": 23293,
+      "revision_stage": "Post-SIR",
+      "total_booths": 38060
     },
     {
       "state_abb": "PY",
@@ -481,7 +643,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "PB",
@@ -498,7 +666,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 23437,
+      "ssr": 1042,
+      "sir": 0,
+      "post_sir": 1,
+      "revision_stage": "Pre-SIR",
+      "total_booths": 24480
     },
     {
       "state_abb": "RJ",
@@ -515,7 +689,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "SK",
@@ -532,7 +712,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "TN",
@@ -549,7 +735,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 67834,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 67834
     },
     {
       "state_abb": "TS",
@@ -566,7 +758,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "TR",
@@ -583,7 +781,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 0.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 0,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "—",
+      "total_booths": 0
     },
     {
       "state_abb": "UP",
@@ -600,7 +804,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 159845,
+      "sir": 96033,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 255878
     },
     {
       "state_abb": "UK",
@@ -617,7 +827,13 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 11733,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 11733
     },
     {
       "state_abb": "WB",
@@ -634,7 +850,19 @@
       "secc": 100,
       "nrega": 100.0,
       "indiastat": 100.0,
-      "lens": 100.0
+      "lens": 100.0,
+      "pre_sir": 0,
+      "ssr": 80555,
+      "sir": 0,
+      "post_sir": 0,
+      "revision_stage": "SSR",
+      "total_booths": 80600
     }
-  ]
+  ],
+  "revision_totals": {
+    "pre_sir": 95229,
+    "ssr": 518674,
+    "sir": 363029,
+    "post_sir": 117572
+  }
 }

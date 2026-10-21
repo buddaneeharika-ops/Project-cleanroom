@@ -775,7 +775,7 @@
                 State / UT <span class="text-[10px] text-gray-300 ml-0.5">↕</span>
               </th>
               <!-- ECI group header -->
-              <th colspan="4" class="text-center" id="group-eci">ECI Data Points <span class="text-[9.5px] font-normal text-gray-400 font-mono">(AC-wise %)</span></th>
+              <th colspan="8" class="text-center" id="group-eci">ECI Data Points <span class="text-[9.5px] font-normal text-gray-400 font-mono">(AC-wise %)</span></th>
               <!-- Other sources group header -->
               <th colspan="9" class="text-center bg-gray-50/70" id="group-other">Available Data — Other Sources <span class="text-[9.5px] font-normal text-gray-500 font-mono">(District-wise %)</span></th>
             </tr>
@@ -785,6 +785,10 @@
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('caste')">Caste Data</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('booth')">Booth Details</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-amber-50/80 text-amber-800 transition-colors" onclick="sortTable('pre_sir')">Pre-SIR</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-sky-50/80 text-sky-800 transition-colors" onclick="sortTable('ssr')">SSR</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-indigo-50/80 text-indigo-800 transition-colors" onclick="sortTable('sir')">SIR</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-emerald-50/80 text-emerald-800 transition-colors" onclick="sortTable('post_sir')">Post-SIR</th>
               <!-- Auxiliary cols -->
               <th class="text-center other-col bg-gray-50/50">Muslim Census</th>
               <th class="text-center other-col bg-gray-50/50">Joshua</th>
@@ -861,6 +865,10 @@
             form20:    m.form20    ?? 0,
             caste:     m.caste     ?? 0,
             booth:     m.booth     ?? 0,
+            pre_sir:   m.pre_sir   ?? 0,
+            ssr:       m.ssr       ?? 0,
+            sir:       m.sir       ?? 0,
+            post_sir:  m.post_sir  ?? 0,
             muslim:    m.muslim    ?? 0,
             joshua:    m.joshua    ?? 0,
             kys:       m.kys       ?? 0,
@@ -929,6 +937,23 @@
             </span>`;
   }
 
+  function getRevBadgeHTML(cnt, stage) {
+    if (!cnt || cnt <= 0) {
+      return `<span class="text-[11px] text-gray-300 font-medium text-center block">—</span>`;
+    }
+    const colorMap = {
+      pre: 'text-amber-800 bg-amber-50 border border-amber-200/80',
+      ssr: 'text-sky-800 bg-sky-50 border border-sky-200/80',
+      sir: 'text-indigo-800 bg-indigo-50 border border-indigo-200/80',
+      post: 'text-emerald-800 bg-emerald-50 border border-emerald-200/80'
+    };
+    const cls = colorMap[stage] || 'text-gray-800 bg-gray-50 border border-gray-200';
+    const formatted = cnt >= 1000 ? (cnt / 1000).toFixed(cnt >= 10000 ? 0 : 1) + 'k' : cnt.toLocaleString();
+    return `<div class="flex items-center justify-center">
+              <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-bold ${cls} tabular-nums" title="${cnt.toLocaleString()} booths">${formatted}</span>
+            </div>`;
+  }
+
   let activeFilter = { cols: [], range: 'all', min: 0, max: 100 };
   let hasScrolledForSearch = false;
 
@@ -986,6 +1011,10 @@
         <td class="text-center eci-col ${h('form20')}">${getDotHTML(row.form20)}</td>
         <td class="text-center eci-col ${h('caste')}">${getDotHTML(row.caste)}</td>
         <td class="text-center eci-col ${h('booth')}">${getDotHTML(row.booth)}</td>
+        <td class="text-center eci-col ${h('pre_sir')}">${getRevBadgeHTML(row.pre_sir, 'pre')}</td>
+        <td class="text-center eci-col ${h('ssr')}">${getRevBadgeHTML(row.ssr, 'ssr')}</td>
+        <td class="text-center eci-col ${h('sir')}">${getRevBadgeHTML(row.sir, 'sir')}</td>
+        <td class="text-center eci-col ${h('post_sir')}">${getRevBadgeHTML(row.post_sir, 'post')}</td>
         <td class="text-center other-col ${h('muslim')}">${getDotHTML(row.muslim)}</td>
         <td class="text-center other-col ${h('joshua')}">${getDotHTML(row.joshua)}</td>
         <td class="text-center other-col ${h('kys')}">${getDotHTML(row.kys)}</td>

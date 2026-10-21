@@ -1140,20 +1140,20 @@
           </div>
         </div>
 
-        <!-- Requirement 2: Booth_Voter Details Table (Polling Station Level) -->
+        <!-- Requirement 2: Booth_Voter Details Table (Constituency Level) -->
         <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col space-y-3">
           <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-gray-100 pb-3">
             <div>
               <div class="flex items-center gap-2">
                 <span class="material-symbols-outlined text-purple-600 text-[20px]">person_pin_circle</span>
-                <h3 class="text-sm font-black text-gray-900 tracking-tight">Booth_Voter Details (Polling Station Level)</h3>
-                <span class="chip chip-violet" id="boothVoterTotalBadge">0 Booths</span>
+                <h3 class="text-sm font-black text-gray-900 tracking-tight">Booth_Voter Details (Constituency Level)</h3>
+                <span class="chip chip-violet" id="boothVoterTotalBadge">0 Constituencies</span>
               </div>
-              <p class="text-[11px] text-gray-500 mt-0.5">Granular booth-level voter demographics, age brackets, gender parity, and geo-validation coordinates</p>
+              <p class="text-[11px] text-gray-500 mt-0.5">Aggregated constituency-level voter demographics, age brackets, gender parity, and geo-validation coordinates</p>
             </div>
             <div class="flex flex-wrap items-center gap-2">
               <div class="relative">
-                <input type="text" id="boothVoterSearchInput" placeholder="Search booth name, no, or AC..." class="pl-8 pr-3 py-1.5 text-xs bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:bg-white w-48 lg:w-60" />
+                <input type="text" id="boothVoterSearchInput" placeholder="Search constituency name or AC..." class="pl-8 pr-3 py-1.5 text-xs bg-gray-50 border border-gray-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-indigo-500 focus:bg-white w-48 lg:w-60" />
                 <span class="material-symbols-outlined absolute left-2.5 top-2 text-gray-400 text-[15px]">search</span>
               </div>
               <select id="boothVoterAcFilter" class="text-xs bg-gray-50 border border-gray-200 rounded-lg py-1.5 px-2.5 text-gray-700 focus:outline-none focus:ring-1 focus:ring-indigo-500 max-w-[180px]">
@@ -1170,8 +1170,8 @@
               <thead class="bg-gray-50 text-[10px] uppercase text-gray-600 font-bold">
                 <tr>
                   <th class="text-left py-2.5 px-3">State</th>
-                  <th class="text-left py-2.5 px-3">AC</th>
-                  <th class="text-left py-2.5 px-3">Booth</th>
+                  <th class="text-left py-2.5 px-3">AC #</th>
+                  <th class="text-left py-2.5 px-3">Constituency</th>
                   <th class="text-right py-2.5 px-3">Total Voters</th>
                   <th class="text-right py-2.5 px-3">Valid Loc</th>
                   <th class="text-right py-2.5 px-3">18–25</th>
@@ -1193,7 +1193,7 @@
 
           <!-- Pagination Bar -->
           <div class="flex items-center justify-between pt-2 text-xs text-gray-500">
-            <div id="boothVoterPaginationInfo">Showing 0 of 0 Polling Booths</div>
+            <div id="boothVoterPaginationInfo">Showing 0 of 0 Constituencies</div>
             <div class="flex items-center gap-1" id="boothVoterPaginationControls"></div>
           </div>
         </div>
@@ -2226,15 +2226,13 @@ document.addEventListener("DOMContentLoaded", () => {
       const q = s.search.toLowerCase().trim();
       list = list.filter(item =>
         String(item.ac_no).includes(q) ||
-        (item.ac_name && item.ac_name.toLowerCase().includes(q)) ||
-        String(item.booth_no).includes(q) ||
-        (item.booth_name && item.booth_name.toLowerCase().includes(q))
+        (item.ac_name && item.ac_name.toLowerCase().includes(q))
       );
     }
 
     s.filtered = list;
     const total = list.length;
-    set('boothVoterTotalBadge', `${total} Booths`);
+    set('boothVoterTotalBadge', `${total} Constituencies`);
 
     const totalPages = Math.ceil(total / s.pageSize) || 1;
     if(s.page > totalPages) s.page = totalPages;
@@ -2245,16 +2243,17 @@ document.addEventListener("DOMContentLoaded", () => {
     const pageRows = list.slice(startIdx, endIdx);
 
     if(pageRows.length === 0) {
-      html('boothVoterTableBody', `<tr><td colspan="16" class="text-center py-6 text-gray-400 font-medium">No polling booths matching your search criteria</td></tr>`);
+      html('boothVoterTableBody', `<tr><td colspan="16" class="text-center py-6 text-gray-400 font-medium">No constituencies matching your search criteria</td></tr>`);
     } else {
       let tbody = '';
       pageRows.forEach(r => {
         const age = r.age_distribution;
         const g = r.gender_distribution || {};
+        const acTitle = r.ac_name ? r.ac_name : ('AC ' + r.ac_no);
         tbody += `<tr>
           <td class="font-bold text-gray-600 py-2.5 px-3">${r.state || '—'}</td>
-          <td class="font-semibold text-gray-800 py-2.5 px-3 whitespace-nowrap">AC ${r.ac_no}</td>
-          <td class="font-bold text-indigo-700 py-2.5 px-3 whitespace-nowrap" title="${r.booth_name}">${r.booth_no} - ${(r.booth_name && r.booth_name.length > 25) ? r.booth_name.slice(0,25)+'...' : (r.booth_name || '')}</td>
+          <td class="font-bold text-gray-800 py-2.5 px-3 whitespace-nowrap">AC ${r.ac_no}</td>
+          <td class="font-bold text-indigo-700 py-2.5 px-3 whitespace-nowrap" title="${acTitle}">${acTitle}</td>
           <td class="text-right tabular-nums font-black text-gray-900 py-2.5 px-3">${r.total_voters != null ? Number(r.total_voters).toLocaleString() : '—'}</td>
           <td class="text-right tabular-nums font-medium text-gray-400 py-2.5 px-3">${r.voters_with_valid_location != null ? Number(r.voters_with_valid_location).toLocaleString() : '—'}</td>
           <td class="text-right tabular-nums text-gray-400 py-2.5 px-3">${age && age['18_25'] != null ? age['18_25'] : '—'}</td>
@@ -2273,7 +2272,7 @@ document.addEventListener("DOMContentLoaded", () => {
       html('boothVoterTableBody', tbody);
     }
 
-    set('boothVoterPaginationInfo', total === 0 ? 'Showing 0 of 0 Polling Booths' : `Showing ${startIdx + 1} to ${endIdx} of ${total} Polling Booths`);
+    set('boothVoterPaginationInfo', total === 0 ? 'Showing 0 of 0 Constituencies' : `Showing ${startIdx + 1} to ${endIdx} of ${total} Constituencies`);
 
     let pagHtml = `
       <button class="px-2.5 py-1 text-xs border border-gray-200 rounded hover:bg-gray-50 disabled:opacity-40" ${s.page <= 1 ? 'disabled' : ''} onclick="window.changeBoothVoterPage(${s.page - 1})">Prev</button>
@@ -2902,23 +2901,23 @@ document.addEventListener("DOMContentLoaded", () => {
       if(bvExport) {
         bvExport.onclick = () => {
           const exportRows = [
-            ['State', 'AC Number', 'AC Name', 'Booth Number', 'Booth Name', 'Total Voters', 'Voters with Valid Location', 'Age 18-25', 'Age 26-35', 'Age 36-45', 'Age 46-60', 'Age 60+', 'Male Voters', 'Female Voters', 'Total Voter Coordinates', 'Unique Voter Coordinates', 'Valid Voter Coordinates', 'Valid Voter Coordinates %']
+            ['State', 'AC Number', 'Constituency Name', 'Total Voters', 'Voters with Valid Location', 'Age 18-25', 'Age 26-35', 'Age 36-45', 'Age 46-60', 'Age 60+', 'Male Voters', 'Female Voters', 'Total Voter Coordinates', 'Unique Voter Coordinates', 'Valid Voter Coordinates', 'Valid Voter Coordinates %']
           ];
           (window._boothVoterState.filtered || []).forEach(r => {
             const age = r.age_distribution || {};
             const g = r.gender_distribution || {};
             exportRows.push([
-              r.state, r.ac_no, r.ac_name, r.booth_no, r.booth_name,
+              r.state, r.ac_no, r.ac_name || ('AC ' + r.ac_no),
               r.total_voters, r.voters_with_valid_location,
               age['18_25'] || 0, age['26_35'] || 0, age['36_45'] || 0, age['46_60'] || 0, age['60_plus'] || 0,
               g.male || r.male_voters || 0, g.female || r.female_voters || 0,
               r.total_voter_coordinates || r.total_voters,
-              r.unique_voter_coordinates || Math.round(r.total_voters * 0.877),
+              r.unique_voter_coordinates || Math.round((r.total_voters || 0) * 0.877),
               r.valid_voter_coordinates || r.voters_with_valid_location,
               r.valid_voter_coordinates_pct || 89.5
             ]);
           });
-          window.exportToCsv(`${window._currentState}_Booth_Voter_Details_Requirement2.csv`, exportRows);
+          window.exportToCsv(`${window._currentState}_Constituency_Voter_Details.csv`, exportRows);
         };
       }
     } else {

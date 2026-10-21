@@ -17,7 +17,7 @@
 1721623,Krishnendu Paul,BJP,19872,46544,37.94,1,26,2,AS,Krishnendu Paul,BJP,,,,,False,26,2016,AE
 1721624,Debendra Kumar Sinha,AIUDF,19865,37276,30.38,2,26,2,AS,Debendra Kumar Sinha,AIUDF,,,,,False,26,2016,AE
 1721625,Moni Lal Gowala,INC,19858,32048,26.12,3,26,2,AS,Moni Lal Gowala,INC,,,,,False,26,2016,AE
-1721626,Kripesh Ranjan Dasgupta,CPM,19912,1638,1.34,4,26,2,AS,Kripesh Ranjan Dasgupta,CPM,,,,,True,26,2016,AE
+1721626,Kripesh Ranjan Dasgupta,CPI(M),19875,1638,1.34,4,26,2,AS,Kripesh Ranjan Dasgupta,CPM,,,,,True,26,2016,AE
 1721627,Nota,NOTA,19863,1030,0.84,5,26,2,AS,Nota,NOTA,,,,,False,26,2016,AE
 1721628,Kabir Ahmed,IND,19861,892,0.73,6,26,2,AS,Kabir Ahmed,IND,,,,,False,26,2016,AE
 1721629,Rahim Uddin Ahmed,IND,19861,743,0.61,7,26,2,AS,Rahim Uddin Ahmed,IND,,,,,False,26,2016,AE
@@ -136,7 +136,7 @@
 1721742,Saleh Ahmed Mazumder,IND,19861,173,0.14,15,26,8,AS,Saleh Ahmed Mazumder,IND,,,,,False,26,2016,AE
 1721743,Dilip Kumar Paul,BJP,19872,94787,60.53,1,26,9,AS,Dilip Kumar Paul,BJP,,,,,False,26,2016,AE
 1721744,Bithika Dev,INC,19858,54867,35.04,2,26,9,AS,Bithika Dev,INC,,,,,False,26,2016,AE
-1721745,Supriya Bhattacharjee,CPM,19912,1961,1.25,3,26,9,AS,Supriya Bhattacharjee,CPM,,,,,False,26,2016,AE
+1721745,Supriya Bhattacharjee,CPI(M),19875,1961,1.25,3,26,9,AS,Supriya Bhattacharjee,CPM,,,,,False,26,2016,AE
 1721746,Nota,NOTA,19863,1143,0.73,4,26,9,AS,Nota,NOTA,,,,,False,26,2016,AE
 1721747,Shuvadip Datta,IND,19861,657,0.42,5,26,9,AS,Shuvadip Datta,IND,,,,,False,26,2016,AE
 1721748,Rita Mazumder,IND,19861,526,0.34,6,26,9,AS,Rita Mazumder,IND,,,,,False,26,2016,AE
@@ -160,8 +160,8 @@
 1721766,Santosh Das,IND,19861,598,0.48,8,26,10,AS,Santosh Das,IND,,,,,False,26,2016,AE
 1721767,Rejaul Islam Barbhuiya,IND,19861,579,0.47,9,26,10,AS,Rejaul Islam Barbhuiya,IND,,,,,False,26,2016,AE
 1721768,Pranesh Nath,LJP,19900,522,0.42,10,26,10,AS,Pranesh Nath,LJP,,,,,False,26,2016,AE
-1721769,Jawahar Lal Goala,IND,19861,401,0.32,11,26,10,AS,Jawahar Lal Goala,IND,,,,,False,26,2016,AE
 1721770,Manindra Chandra Das,SP,19886,401,0.32,11,26,10,AS,Manindra Chandra Das,SP,,,,,False,26,2016,AE
+1721769,Jawahar Lal Goala,IND,19861,401,0.32,11,26,10,AS,Jawahar Lal Goala,IND,,,,,False,26,2016,AE
 1721771,Maksus Ahmed Laskar,IND,19861,306,0.25,13,26,10,AS,Maksus Ahmed Laskar,IND,,,,,False,26,2016,AE
 1721772,Parimal Suklabaidya,BJP,19872,68694,53.54,1,26,11,AS,Parimal Suklabaidya,BJP,,,,,True,26,2016,AE
 1721773,Girindra Mallik,INC,19858,41857,32.62,2,26,11,AS,Girindra Mallik,INC,,,,,True,26,2016,AE
@@ -188,7 +188,7 @@
 1721794,Misbahul Islam Laskar,IND,19861,36440,34.86,2,26,14,AS,Misbahul Islam Laskar,IND,,,,,True,26,2016,AE
 1721795,Dr. Rumi Nath,INC,19858,21946,20.99,3,26,14,AS,Dr. Rumi Nath,INC,,,,,False,26,2016,AE
 1721796,Jahurul Islam Barbhuiya,AIUDF,19865,4051,3.88,4,26,14,AS,Jahurul Islam Barbhuiya,AIUDF,,,,,False,26,2016,AE
-1721797,Chunilal Bhattacharjee,CPM,19912,2438,2.33,5,26,14,AS,Chunilal Bhattacharjee,CPM,,,,,False,26,2016,AE
+1721797,Chunilal Bhattacharjee,CPI(M),19875,2438,2.33,5,26,14,AS,Chunilal Bhattacharjee,CPM,,,,,False,26,2016,AE
 1721798,Nota,NOTA,19863,1621,1.55,6,26,14,AS,Nota,NOTA,,,,,False,26,2016,AE
 1721799,Badrul Islam Mazumder,IND,19861,619,0.59,7,26,14,AS,Badrul Islam Mazumder,IND,,,,,True,26,2016,AE
 1721800,Anam Uddin Mazumder,IND,19861,473,0.45,8,26,14,AS,Anam Uddin Mazumder,IND,,,,,False,26,2016,AE
@@ -256,7 +256,7 @@
 1721862,Rasul Hoque,IND,19861,3486,2.29,5,26,23,AS,Rasul Hoque,IND,,,,,False,26,2016,AE
 1721863,Nota,NOTA,19863,1069,0.7,6,26,23,AS,Nota,NOTA,,,,,False,26,2016,AE
 1721864,Ali Hussain,IND,19861,975,0.64,7,26,23,AS,Ali Hussain,IND,,,,,False,26,2016,AE
-1721865,Sopiar Rahman,CPM,19912,669,0.44,8,26,23,AS,Sopiar Rahman,CPM,,,,,False,26,2016,AE
+1721865,Sopiar Rahman,CPI(M),19875,669,0.44,8,26,23,AS,Sopiar Rahman,CPM,,,,,False,26,2016,AE
 1721866,Azhar Hussain,SUCI,19871,552,0.36,9,26,23,AS,Azhar Hussain,SUCI,,,,,False,26,2016,AE
 1721867,Mukta Begum,RPI(A),19890,406,0.27,10,26,23,AS,Mukta Begum,RPI(A),,,,,False,26,2016,AE
 1721868,Baharul Sk.,RsSC,19914,312,0.21,11,26,23,AS,Baharul Sk.,RsSC,,,,,False,26,2016,AE
@@ -350,7 +350,7 @@
 1721956,Santosh Khakhlary,IND,19861,19350,16.21,3,26,33,AS,Santosh Khakhlary,IND,,,,,False,26,2016,AE
 1721957,Kamaleswar Ray,AIUDF,19865,18197,15.25,4,26,33,AS,Kamaleswar Ray,AIUDF,,,,,False,26,2016,AE
 1721958,Khalilur Rahman,IND,19861,12619,10.57,5,26,33,AS,Khalilur Rahman,IND,,,,,False,26,2016,AE
-1721959,Gajendra Barman,CPM,19912,5991,5.02,6,26,33,AS,Gajendra Barman,CPM,,,,,True,26,2016,AE
+1721959,Gajendra Barman,CPI(M),19875,5991,5.02,6,26,33,AS,Gajendra Barman,CPM,,,,,True,26,2016,AE
 1721960,Biswajit Ray,INC,19858,3861,3.23,7,26,33,AS,Biswajit Ray,INC,,,,,False,26,2016,AE
 1721961,Nota,NOTA,19863,1306,1.09,8,26,33,AS,Nota,NOTA,,,,,False,26,2016,AE
 1721962,Philip Marandi,JDP,19916,1236,1.04,9,26,33,AS,Philip Marandi,JDP,,,,,False,26,2016,AE
@@ -358,7 +358,7 @@
 1721964,Bhupen Roy,AGP,19864,46211,33.81,2,26,34,AS,Bhupen Roy,AGP,,,,,False,26,2016,AE
 1721965,Abdul Batin Khandakar,AIUDF,19865,32699,23.92,3,26,34,AS,Abdul Batin Khandakar,AIUDF,,,,,False,26,2016,AE
 1721966,Swapan Mukherjee,IND,19861,3968,2.9,4,26,34,AS,Swapan Mukherjee,IND,,,,,False,26,2016,AE
-1721967,Taren Chandra Ray,CPM,19912,3315,2.43,5,26,34,AS,Taren Chandra Ray,CPM,,,,,False,26,2016,AE
+1721967,Taren Chandra Ray,CPI(M),19875,3315,2.43,5,26,34,AS,Taren Chandra Ray,CPM,,,,,False,26,2016,AE
 1721968,Bhagirath Ray,RPI(A),19890,836,0.61,6,26,34,AS,Bhagirath Ray,RPI(A),,,,,False,26,2016,AE
 1721969,Nota,NOTA,19863,803,0.59,7,26,34,AS,Nota,NOTA,,,,,False,26,2016,AE
 1721970,Samsul Hoque,IND,19861,501,0.37,8,26,34,AS,Samsul Hoque,IND,,,,,False,26,2016,AE
@@ -419,7 +419,7 @@
 1722025,Nota,NOTA,19863,627,0.49,9,26,39,AS,Nota,NOTA,,,,,False,26,2016,AE
 1722026,Ranjeet Kumar Dass,BJP,19872,56454,33.34,1,26,40,AS,Ranjeet Kumar Dass,BJP,,,,,True,26,2016,AE
 1722027,Anurupa Hannan,INC,19858,36928,21.81,2,26,40,AS,Anurupa Hannan,INC,,,,,False,26,2016,AE
-1722028,Manoranjan Talukdar,CPM,19912,29082,17.17,3,26,40,AS,Manoranjan Talukdar,CPM,,,,,True,26,2016,AE
+1722028,Manoranjan Talukdar,CPI(M),19875,29082,17.17,3,26,40,AS,Manoranjan Talukdar,CPM,,,,,True,26,2016,AE
 1722029,Pradip Deb Nath,IND,19861,19387,11.45,4,26,40,AS,Pradip Deb Nath,IND,,,,,False,26,2016,AE
 1722030,Samsul Hoque,AIUDF,19865,17504,10.34,5,26,40,AS,Samsul Hoque,AIUDF,,,,,False,26,2016,AE
 1722031,Anilananda Pathak,IND,19861,3755,2.22,6,26,40,AS,Anilananda Pathak,IND,,,,,False,26,2016,AE
@@ -465,7 +465,7 @@
 1722071,Abdul Khaleque,INC,19858,86930,56.4,1,26,44,AS,Abdul Khaleque,INC,,,,,True,26,2016,AE
 1722072,Rafiqul Islam,AIUDF,19865,57194,37.11,2,26,44,AS,Rafiqul Islam,AIUDF,,,,,True,26,2016,AE
 1722073,Benazir Arfan,BJP,19872,6067,3.94,3,26,44,AS,Benazir Arfan,BJP,,,,,False,26,2016,AE
-1722074,Mainul Hoque,CPM,19912,1976,1.28,4,26,44,AS,Mainul Hoque,CPM,,,,,False,26,2016,AE
+1722074,Mainul Hoque,CPI(M),19875,1976,1.28,4,26,44,AS,Mainul Hoque,CPM,,,,,False,26,2016,AE
 1722075,Amir Hussain,RsSC,19914,769,0.5,5,26,44,AS,Amir Hussain,RsSC,,,,,False,26,2016,AE
 1722076,Nota,NOTA,19863,689,0.45,6,26,44,AS,Nota,NOTA,,,,,False,26,2016,AE
 1722077,Md. Sultan Mahmud,RaJPa,19919,506,0.33,7,26,44,AS,Md. Sultan Mahmud,RaJPa,,,,,False,26,2016,AE
@@ -483,7 +483,7 @@
 1722089,Chittaranjan Barman,AGP,19864,45815,29.46,2,26,46,AS,Chittaranjan Barman,AGP,,,,,False,26,2016,AE
 1722090,Ali Hossain,AIUDF,19865,21460,13.8,3,26,46,AS,Ali Hossain,AIUDF,,,,,True,26,2016,AE
 1722091,Tara Prasad Das,IND,19861,9623,6.19,4,26,46,AS,Tara Prasad Das,IND,,,,,False,26,2016,AE
-1722092,Pearul Islam Ahmed,CPM,19912,3626,2.33,5,26,46,AS,Pearul Islam Ahmed,CPM,,,,,False,26,2016,AE
+1722092,Pearul Islam Ahmed,CPI(M),19875,3626,2.33,5,26,46,AS,Pearul Islam Ahmed,CPM,,,,,False,26,2016,AE
 1722093,Hareswar Deka,IND,19861,1308,0.84,6,26,46,AS,Hareswar Deka,IND,,,,,False,26,2016,AE
 1722094,Matiar Rahman,TNRMPI,19866,836,0.54,7,26,46,AS,Matiar Rahman,TNRMPI,,,,,False,26,2016,AE
 1722095,Nota,NOTA,19863,776,0.5,8,26,46,AS,Nota,NOTA,,,,,False,26,2016,AE
@@ -530,7 +530,7 @@
 1722136,Atul Bora,BJP,19872,198378,71.14,1,26,52,AS,Atul Bora,BJP,,,,,False,26,2016,AE
 1722137,Akon Bora,INC,19858,68181,24.45,2,26,52,AS,Akon Bora,INC,,,,,True,26,2016,AE
 1722138,Nota,NOTA,19863,2600,0.93,3,26,52,AS,Nota,NOTA,,,,,False,26,2016,AE
-1722139,Sangita Das,CPM,19912,1944,0.7,4,26,52,AS,Sangita Das,CPM,,,,,False,26,2016,AE
+1722139,Sangita Das,CPI(M),19875,1944,0.7,4,26,52,AS,Sangita Das,CPM,,,,,False,26,2016,AE
 1722140,Hareswar Rahang,IND,19861,1756,0.63,5,26,52,AS,Hareswar Rahang,IND,,,,,False,26,2016,AE
 1722141,Pradip Baruah,NCP,19894,1259,0.45,6,26,52,AS,Pradip Baruah,NCP,,,,,False,26,2016,AE
 1722142,Bidyut Bora,AITC,19859,1022,0.37,7,26,52,AS,Bidyut Bora,AITC,,,,,False,26,2016,AE
@@ -601,7 +601,7 @@
 1722207,Ghanashyam Kalita,INC,19858,26286,18.34,2,26,57,AS,Ghanashyam Kalita,INC,,,,,True,26,2016,AE
 1722208,Mrinal Deka,IND,19861,17772,12.4,3,26,57,AS,Mrinal Deka,IND,,,,,False,26,2016,AE
 1722209,Abdul Samad Choudhury,AIUDF,19865,14411,10.06,4,26,57,AS,Abdul Samad Choudhury,AIUDF,,,,,False,26,2016,AE
-1722210,Ananta Deka,CPM,19912,12261,8.56,5,26,57,AS,Ananta Deka,CPM,,,,,True,26,2016,AE
+1722210,Ananta Deka,CPI(M),19875,12261,8.56,5,26,57,AS,Ananta Deka,CPM,,,,,True,26,2016,AE
 1722211,Thaneswar Boro,IND,19861,5358,3.74,6,26,57,AS,Thaneswar Boro,IND,,,,,False,26,2016,AE
 1722212,Samsul Haque,IND,19861,4472,3.12,7,26,57,AS,Samsul Haque,IND,,,,,False,26,2016,AE
 1722213,Pabitra Baro,IND,19861,1230,0.86,8,26,57,AS,Pabitra Baro,IND,,,,,False,26,2016,AE
@@ -623,7 +623,7 @@
 1722229,Pradyut Kumar Bhuyan,INC,19858,46087,29.26,2,26,59,AS,Pradyut Kumar Bhuyan,INC,,,,,False,26,2016,AE
 1722230,Khurshid Alam,IND,19861,3608,2.29,3,26,59,AS,Khurshid Alam,IND,,,,,False,26,2016,AE
 1722231,Shristi Sarma,IND,19861,3028,1.92,4,26,59,AS,Shristi Sarma,IND,,,,,False,26,2016,AE
-1722232,Maheswar Dutta,CPM,19912,1676,1.06,5,26,59,AS,Maheswar Dutta,CPM,,,,,False,26,2016,AE
+1722232,Maheswar Dutta,CPI(M),19875,1676,1.06,5,26,59,AS,Maheswar Dutta,CPM,,,,,False,26,2016,AE
 1722233,Nota,NOTA,19863,1576,1.0,6,26,59,AS,Nota,NOTA,,,,,False,26,2016,AE
 1722234,Harinarayan Das,IND,19861,698,0.44,7,26,59,AS,Harinarayan Das,IND,,,,,False,26,2016,AE
 1722235,Jyotirmay Goswami,IND,19861,611,0.39,8,26,59,AS,Jyotirmay Goswami,IND,,,,,False,26,2016,AE
@@ -760,7 +760,7 @@
 1722366,Pallab Lochan Das,BJP,19872,51597,43.92,1,26,74,AS,Pallab Lochan Das,BJP,,,,,False,26,2016,AE
 1722367,Bhimananda Tanti,INC,19858,28606,24.35,2,26,74,AS,Bhimananda Tanti,INC,,,,,True,26,2016,AE
 1722368,Bijoy Kumar Tiru,AIUDF,19865,13281,11.3,3,26,74,AS,Bijoy Kumar Tiru,AIUDF,,,,,False,26,2016,AE
-1722369,Royal Soreng,CPM,19912,8033,6.84,4,26,74,AS,Royal Soreng,CPM,,,,,False,26,2016,AE
+1722369,Royal Soreng,CPI(M),19875,8033,6.84,4,26,74,AS,Royal Soreng,CPM,,,,,False,26,2016,AE
 1722370,Christopher Dhanwar,IND,19861,6415,5.46,5,26,74,AS,Christopher Dhanwar,IND,,,,,False,26,2016,AE
 1722371,Abhijit Hazarika,IND,19861,3438,2.93,6,26,74,AS,Abhijit Hazarika,IND,,,,,False,26,2016,AE
 1722372,Nota,NOTA,19863,2321,1.98,7,26,74,AS,Nota,NOTA,,,,,False,26,2016,AE
@@ -770,7 +770,7 @@
 1722376,Archana Paul Choudhury,IND,19861,490,0.42,11,26,74,AS,Archana Paul Choudhury,IND,,,,,False,26,2016,AE
 1722377,Padma Hazarika,BJP,19872,60440,45.89,1,26,75,AS,Padma Hazarika,BJP,,,,,False,26,2016,AE
 1722378,Praneswar Basumatary,INC,19858,58622,44.51,2,26,75,AS,Praneswar Basumatary,INC,,,,,False,26,2016,AE
-1722379,Khemraj Chetry,CPM,19912,4914,3.73,3,26,75,AS,Khemraj Chetry,CPM,,,,,False,26,2016,AE
+1722379,Khemraj Chetry,CPI(M),19875,4914,3.73,3,26,75,AS,Khemraj Chetry,CPM,,,,,False,26,2016,AE
 1722380,Jyoti Subba,IND,19861,2484,1.89,4,26,75,AS,Jyoti Subba,IND,,,,,False,26,2016,AE
 1722381,Mahendra Urang,IND,19861,2112,1.6,5,26,75,AS,Mahendra Urang,IND,,,,,False,26,2016,AE
 1722382,Nota,NOTA,19863,1941,1.47,6,26,75,AS,Nota,NOTA,,,,,False,26,2016,AE
@@ -942,7 +942,7 @@
 1722548,Ajit Hazarika,NCP,19894,1828,1.52,6,26,97,AS,Ajit Hazarika,NCP,,,,,False,26,2016,AE
 1722549,Hitendra Nath Goswami,BJP,19872,69209,52.91,1,26,98,AS,Hitendra Nath Goswami,BJP,,,,,False,26,2016,AE
 1722550,Rana Goswami,INC,19858,55571,42.48,2,26,98,AS,Rana Goswami,INC,,,,,True,26,2016,AE
-1722551,Nirmal Chandra Gogoi,CPM,19912,1548,1.18,3,26,98,AS,Nirmal Chandra Gogoi,CPM,,,,,False,26,2016,AE
+1722551,Nirmal Chandra Gogoi,CPI(M),19875,1548,1.18,3,26,98,AS,Nirmal Chandra Gogoi,CPM,,,,,False,26,2016,AE
 1722552,Prodyut Kumar Bora,LDP,19921,1372,1.05,4,26,98,AS,Prodyut Kumar Bora,LDP,,,,,False,26,2016,AE
 1722553,Nota,NOTA,19863,1184,0.91,5,26,98,AS,Nota,NOTA,,,,,False,26,2016,AE
 1722554,Sanjeev Rajkhowa,AIUDF,19865,842,0.64,6,26,98,AS,Sanjeev Rajkhowa,AIUDF,,,,,False,26,2016,AE
@@ -1061,7 +1061,7 @@
 1722667,Birinchi Pegu,SUCI,19871,344,0.25,15,26,111,AS,Birinchi Pegu,SUCI,,,,,True,26,2016,AE
 1722668,Naba Kumar Doley,BJP,19872,81556,55.45,1,26,112,AS,Naba Kumar Doley,BJP,,,,,False,26,2016,AE
 1722669,Bharat Chandra Narah,INC,19858,57014,38.77,2,26,112,AS,Bharat Chandra Narah,INC,,,,,True,26,2016,AE
-1722670,Lakhi Nath Sonowal,CPM,19912,2270,1.54,3,26,112,AS,Lakhi Nath Sonowal,CPM,,,,,False,26,2016,AE
+1722670,Lakhi Nath Sonowal,CPI(M),19875,2270,1.54,3,26,112,AS,Lakhi Nath Sonowal,CPM,,,,,False,26,2016,AE
 1722671,Dilip Kumar Chowdhury,IND,19861,2032,1.38,4,26,112,AS,Dilip Kumar Chowdhury,IND,,,,,False,26,2016,AE
 1722672,Bhumi Ranjan Doley,IND,19861,1855,1.26,5,26,112,AS,Bhumi Ranjan Doley,IND,,,,,False,26,2016,AE
 1722673,Nota,NOTA,19863,1111,0.76,6,26,112,AS,Nota,NOTA,,,,,False,26,2016,AE
@@ -1071,7 +1071,7 @@
 1722677,Sumitra Doley Patir,INC,19858,50471,29.66,2,26,113,AS,Sumitra Doley Patir,INC,,,,,True,26,2016,AE
 1722678,Paramananda Chayengia,IND,19861,21874,12.85,3,26,113,AS,Paramananda Chayengia,IND,,,,,False,26,2016,AE
 1722679,Sailen Sonowal,IND,19861,16548,9.72,4,26,113,AS,Sailen Sonowal,IND,,,,,False,26,2016,AE
-1722680,Gandheswar Borah,CPM,19912,3830,2.25,5,26,113,AS,Gandheswar Borah,CPM,,,,,False,26,2016,AE
+1722680,Gandheswar Borah,CPI(M),19875,3830,2.25,5,26,113,AS,Gandheswar Borah,CPM,,,,,False,26,2016,AE
 1722681,Kiranban Deori,LDP,19921,2456,1.44,6,26,113,AS,Kiranban Deori,LDP,,,,,False,26,2016,AE
 1722682,Rajkumar Doley,IND,19861,2173,1.28,7,26,113,AS,Rajkumar Doley,IND,,,,,False,26,2016,AE
 1722683,Nota,NOTA,19863,1417,0.83,8,26,113,AS,Nota,NOTA,,,,,False,26,2016,AE
@@ -1131,7 +1131,7 @@
 1722737,Eliash Sichan,JDP,19916,1150,1.1,7,26,119,AS,Eliash Sichan,JDP,,,,,False,26,2016,AE
 1722738,Naren Sonowal (Botali),AGP,19864,46051,46.75,1,26,120,AS,Naren Sonowal (Botali),AGP,,,,,False,26,2016,AE
 1722739,Pranatee Phukan,INC,19858,42520,43.17,2,26,120,AS,Pranatee Phukan,INC,,,,,False,26,2016,AE
-1722740,Suresh Ch. Deka,CPM,19912,4026,4.09,3,26,120,AS,Suresh Ch. Deka,CPM,,,,,False,26,2016,AE
+1722740,Suresh Ch. Deka,CPI(M),19875,4026,4.09,3,26,120,AS,Suresh Ch. Deka,CPM,,,,,False,26,2016,AE
 1722741,Mohan Nag,IND,19861,2708,2.75,4,26,120,AS,Mohan Nag,IND,,,,,False,26,2016,AE
 1722742,Nota,NOTA,19863,1719,1.75,5,26,120,AS,Nota,NOTA,,,,,False,26,2016,AE
 1722743,Mahendra Dhadumiya,IND,19861,783,0.79,6,26,120,AS,Mahendra Dhadumiya,IND,,,,,False,26,2016,AE
@@ -1181,7 +1181,7 @@
 1722787,Lakhin Chandra Chetia,IND,19861,22005,18.21,3,26,126,AS,Lakhin Chandra Chetia,IND,,,,,False,26,2016,AE
 1722788,Dindayal Verma,IND,19861,12481,10.33,4,26,126,AS,Dindayal Verma,IND,,,,,False,26,2016,AE
 1722789,Tikendra Thapa,IND,19861,5047,4.18,5,26,126,AS,Tikendra Thapa,IND,,,,,False,26,2016,AE
-1722790,Drona Charingia Phukan,CPM,19912,2310,1.91,6,26,126,AS,Drona Charingia Phukan,CPM,,,,,False,26,2016,AE
+1722790,Drona Charingia Phukan,CPI(M),19875,2310,1.91,6,26,126,AS,Drona Charingia Phukan,CPM,,,,,False,26,2016,AE
 1722791,Nota,NOTA,19863,2044,1.69,7,26,126,AS,Nota,NOTA,,,,,False,26,2016,AE
 1722792,Biswanath Baruah,IND,19861,1430,1.18,8,26,126,AS,Biswanath Baruah,IND,,,,,False,26,2016,AE
 1722793,Shrikumar Dohutia,IND,19861,1264,1.05,9,26,126,AS,Shrikumar Dohutia,IND,,,,,False,26,2016,AE

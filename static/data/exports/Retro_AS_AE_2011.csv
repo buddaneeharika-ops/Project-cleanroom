@@ -14,7 +14,7 @@
 1724414,Monilal Gowala,INC,19858,44986,42.26,1,10,2,AS,Monilal Gowala,INC,,,,,False,10,2011,AE
 1724415,Kartik Sena Sinha,AIUDF,19865,41762,39.23,2,10,2,AS,Kartik Sena Sinha,AIUDF,,,,,False,10,2011,AE
 1724416,Sukhendu Shekhar Dutta,BJP,19872,9424,8.85,3,10,2,AS,Sukhendu Shekhar Dutta,BJP,,,,,False,10,2011,AE
-1724417,Kripesh Ranjan Dasgupta,CPM,19912,6234,5.86,4,10,2,AS,Kripesh Ranjan Dasgupta,CPM,,,,,False,10,2011,AE
+1724417,Kripesh Ranjan Dasgupta,CPI(M),19875,6234,5.86,4,10,2,AS,Kripesh Ranjan Dasgupta,CPM,,,,,False,10,2011,AE
 1724418,Nikhil Kumar Sen,IND,19861,1417,1.33,5,10,2,AS,Nikhil Kumar Sen,IND,,,,,False,10,2011,AE
 1724419,Rupam Nandi Purkayastha,AITC,19859,1267,1.19,6,10,2,AS,Rupam Nandi Purkayastha,AITC,,,,,False,10,2011,AE
 1724420,Debangshu Nath,SUCI,19871,764,0.72,7,10,2,AS,Debangshu Nath,SUCI,,,,,False,10,2011,AE
@@ -101,8 +101,8 @@
 1724501,Khalil Uddin Barbhuiya,IND,19861,199,0.19,7,10,8,AS,Khalil Uddin Barbhuiya,IND,,,,,False,10,2011,AE
 1724502,Abdul Jalil Laskar,IND,19861,178,0.17,8,10,8,AS,Abdul Jalil Laskar,IND,,,,,False,10,2011,AE
 1724503,Chayan Dey,IND,19861,154,0.14,9,10,8,AS,Chayan Dey,IND,,,,,False,10,2011,AE
-1724504,Jamal Uddin Choudhury,IND,19861,145,0.14,10,10,8,AS,Jamal Uddin Choudhury,IND,,,,,False,10,2011,AE
 1724505,Motiur Rahman Barbhuiya,IND,19861,145,0.14,10,10,8,AS,Motiur Rahman Barbhuiya,IND,,,,,False,10,2011,AE
+1724504,Jamal Uddin Choudhury,IND,19861,145,0.14,10,10,8,AS,Jamal Uddin Choudhury,IND,,,,,False,10,2011,AE
 1724506,Nurul Hoque Laskar,IND,19861,138,0.13,12,10,8,AS,Nurul Hoque Laskar,IND,,,,,False,10,2011,AE
 1724507,Kaidul Alam Saha,IND,19861,131,0.12,13,10,8,AS,Kaidul Alam Saha,IND,,,,,False,10,2011,AE
 1724508,Mohir Uddin Choudhury,IND,19861,127,0.12,14,10,8,AS,Mohir Uddin Choudhury,IND,,,,,False,10,2011,AE
@@ -110,7 +110,7 @@
 1724510,Altaf Hussain Laskar,IND,19861,108,0.1,16,10,8,AS,Altaf Hussain Laskar,IND,,,,,False,10,2011,AE
 1724511,SUSHMITA DEV,INC,19858,60978,50.34,1,10,9,AS,SUSHMITA DEV,INC,,GEN,FEMALE,38,False,10,2011,AE
 1724512,RAJDEEP ROY,BJP,19872,45127,37.25,2,10,9,AS,RAJDEEP ROY,BJP,,GEN,MALE,38,False,10,2011,AE
-1724513,PARIMAL KANTI PAUL,CPM,19912,6163,5.09,3,10,9,AS,PARIMAL KANTI PAUL,CPM,,GEN,MALE,57,False,10,2011,AE
+1724513,PARIMAL KANTI PAUL,CPI(M),19875,6163,5.09,3,10,9,AS,PARIMAL KANTI PAUL,CPM,,GEN,MALE,57,False,10,2011,AE
 1724514,FAKRUL ISLAM MAZUMDER,AGP,19864,4295,3.55,4,10,9,AS,FAKRUL ISLAM MAZUMDER,AGP,,GEN,MALE,44,False,10,2011,AE
 1724515,DHRUBOJYOTI GUPTA,AITC,19859,1049,0.87,5,10,9,AS,DHRUBOJYOTI GUPTA,AITC,,GEN,MALE,67,False,10,2011,AE
 1724516,TUSHAR KANTI PURKAYASTHA,SUCI,19871,856,0.71,6,10,9,AS,TUSHAR KANTI PURKAYASTHA,SUCI,,GEN,MALE,50,False,10,2011,AE
@@ -290,7 +290,7 @@
 1724690,Kiranmayee Nath,AITC,19859,1344,1.19,6,10,32,AS,Kiranmayee Nath,AITC,,,,,False,10,2011,AE
 1724691,Kamalshing Narzary,BOPF,19857,39861,41.83,1,10,33,AS,Kamalshing Narzary,BOPF,,,,,False,10,2011,AE
 1724692,Khalilur Rahman,INC,19858,26536,27.84,2,10,33,AS,Khalilur Rahman,INC,,,,,False,10,2011,AE
-1724693,Gajendra Barman,CPM,19912,22151,23.24,3,10,33,AS,Gajendra Barman,CPM,,,,,False,10,2011,AE
+1724693,Gajendra Barman,CPI(M),19875,22151,23.24,3,10,33,AS,Gajendra Barman,CPM,,,,,False,10,2011,AE
 1724694,Romio Brahma,IND,19861,4118,4.32,4,10,33,AS,Romio Brahma,IND,,,,,False,10,2011,AE
 1724695,Parimal Biswas,BJP,19872,1626,1.71,5,10,33,AS,Parimal Biswas,BJP,,,,,False,10,2011,AE
 1724696,Haren Gogoi,AITC,19859,1011,1.06,6,10,33,AS,Haren Gogoi,AITC,,,,,False,10,2011,AE
@@ -298,7 +298,7 @@
 1724698,Abdul Hai Nagori,INC,19858,36574,34.85,2,10,34,AS,Abdul Hai Nagori,INC,,,,,False,10,2011,AE
 1724699,Abdul Latif Mondal,AIUDF,19865,19695,18.77,3,10,34,AS,Abdul Latif Mondal,AIUDF,,,,,False,10,2011,AE
 1724700,Anju Monowara Begum,BOPF,19857,4733,4.51,4,10,34,AS,Anju Monowara Begum,BOPF,,,,,False,10,2011,AE
-1724701,Rabin Das,CPM,19912,2844,2.71,5,10,34,AS,Rabin Das,CPM,,,,,False,10,2011,AE
+1724701,Rabin Das,CPI(M),19875,2844,2.71,5,10,34,AS,Rabin Das,CPM,,,,,False,10,2011,AE
 1724702,Ratul Bharali,BJP,19872,1041,0.99,6,10,34,AS,Ratul Bharali,BJP,,,,,False,10,2011,AE
 1724703,Nilananda Rajbongshi,AITC,19859,709,0.68,7,10,34,AS,Nilananda Rajbongshi,AITC,,,,,False,10,2011,AE
 1724704,Aminul Hoque Jwadder,LKS,19931,466,0.44,8,10,34,AS,Aminul Hoque Jwadder,LKS,,,,,False,10,2011,AE
@@ -347,7 +347,7 @@
 1724747,Ranjeet Kumar Dass,BJP,19872,40716,31.25,1,10,40,AS,Ranjeet Kumar Dass,BJP,,,,,False,10,2011,AE
 1724748,A. Salim,AIUDF,19865,21534,16.53,2,10,40,AS,A. Salim,AIUDF,,,,,False,10,2011,AE
 1724749,Abdus Samad Ahmed,INC,19858,21099,16.2,3,10,40,AS,Abdus Samad Ahmed,INC,,,,,False,10,2011,AE
-1724750,Manoranjan Talukdar,CPM,19912,20609,15.82,4,10,40,AS,Manoranjan Talukdar,CPM,,,,,False,10,2011,AE
+1724750,Manoranjan Talukdar,CPI(M),19875,20609,15.82,4,10,40,AS,Manoranjan Talukdar,CPM,,,,,False,10,2011,AE
 1724751,Iyad Ali,IND,19861,20516,15.75,5,10,40,AS,Iyad Ali,IND,,,,,False,10,2011,AE
 1724752,Mohidul Islam,IND,19861,1392,1.07,6,10,40,AS,Mohidul Islam,IND,,,,,False,10,2011,AE
 1724753,Mrinal Kanti Sarkar,AITC,19859,1190,0.91,7,10,40,AS,Mrinal Kanti Sarkar,AITC,,,,,False,10,2011,AE
@@ -385,7 +385,7 @@
 1724785,Jeherul Haque,AITC,19859,1297,0.99,6,10,43,AS,Jeherul Haque,AITC,,,,,False,10,2011,AE
 1724786,Rafiqul Islam,AIUDF,19865,59978,52.23,1,10,44,AS,Rafiqul Islam,AIUDF,,,,,False,10,2011,AE
 1724787,Abdul Khaleque,INC,19858,42464,36.98,2,10,44,AS,Abdul Khaleque,INC,,,,,False,10,2011,AE
-1724788,Abdul Karim Bhuyan,CPM,19912,6450,5.62,3,10,44,AS,Abdul Karim Bhuyan,CPM,,,,,False,10,2011,AE
+1724788,Abdul Karim Bhuyan,CPI(M),19875,6450,5.62,3,10,44,AS,Abdul Karim Bhuyan,CPM,,,,,False,10,2011,AE
 1724789,Aynal Hoque,JKNPP,19932,2101,1.83,4,10,44,AS,Aynal Hoque,JKNPP,,,,,False,10,2011,AE
 1724790,Upendra Ch. Arjya,BJP,19872,1290,1.12,5,10,44,AS,Upendra Ch. Arjya,BJP,,,,,False,10,2011,AE
 1724791,Nazrul Islam,AGP,19864,860,0.75,6,10,44,AS,Nazrul Islam,AGP,,,,,False,10,2011,AE
@@ -395,15 +395,15 @@
 1724795,Sherman Ali Ahmed,AIUDF,19865,60434,64.62,1,10,45,AS,Sherman Ali Ahmed,AIUDF,,,,,False,10,2011,AE
 1724796,Rajib Ahmed,INC,19858,28313,30.27,2,10,45,AS,Rajib Ahmed,INC,,,,,False,10,2011,AE
 1724797,Manumati Sarkar,IND,19861,2139,2.29,3,10,45,AS,Manumati Sarkar,IND,,,,,False,10,2011,AE
-1724799,Azmul Hoque,AIMF,19896,772,0.83,4,10,45,AS,Azmul Hoque,AIMF,,,,,False,10,2011,AE
 1724798,Md Jalal Uddin Ali,AGP,19864,772,0.83,4,10,45,AS,Md Jalal Uddin Ali,AGP,,,,,False,10,2011,AE
+1724799,Azmul Hoque,AIMF,19896,772,0.83,4,10,45,AS,Azmul Hoque,AIMF,,,,,False,10,2011,AE
 1724800,Abdus Salam Ahmed,BJP,19872,423,0.45,6,10,45,AS,Abdus Salam Ahmed,BJP,,,,,False,10,2011,AE
 1724801,Abu Chand Mahmmad,SAP,19933,342,0.37,7,10,45,AS,Abu Chand Mahmmad,SAP,,,,,False,10,2011,AE
 1724802,Md. Amir Ali,AITC,19859,331,0.35,8,10,45,AS,Md. Amir Ali,AITC,,,,,False,10,2011,AE
 1724803,Ali Hossain,AIUDF,19865,51537,42.63,1,10,46,AS,Ali Hossain,AIUDF,,,,,False,10,2011,AE
 1724804,Tara Prasad Das,INC,19858,23915,19.78,2,10,46,AS,Tara Prasad Das,INC,,,,,False,10,2011,AE
 1724805,Kamaleswar Medhi,AGP,19864,20614,17.05,3,10,46,AS,Kamaleswar Medhi,AGP,,,,,False,10,2011,AE
-1724806,Gholam Saruwar,CPM,19912,8517,7.05,4,10,46,AS,Gholam Saruwar,CPM,,,,,False,10,2011,AE
+1724806,Gholam Saruwar,CPI(M),19875,8517,7.05,4,10,46,AS,Gholam Saruwar,CPM,,,,,False,10,2011,AE
 1724807,Chanakya Pathak,BJP,19872,7830,6.48,5,10,46,AS,Chanakya Pathak,BJP,,,,,False,10,2011,AE
 1724808,Kandarpa Kumar Das,BOPF,19857,3834,3.17,6,10,46,AS,Kandarpa Kumar Das,BOPF,,,,,False,10,2011,AE
 1724809,Subhash Sarkar,IND,19861,2318,1.92,7,10,46,AS,Subhash Sarkar,IND,,,,,False,10,2011,AE
@@ -448,7 +448,7 @@
 1724848,Akon Bora,INC,19858,83096,41.48,1,10,52,AS,Akon Bora,INC,,,,,False,10,2011,AE
 1724849,Atul Bora.,AGP,19864,74849,37.37,2,10,52,AS,Atul Bora.,AGP,,,,,False,10,2011,AE
 1724850,Ranjit Rahang,BJP,19872,29065,14.51,3,10,52,AS,Ranjit Rahang,BJP,,,,,False,10,2011,AE
-1724851,Biren Sarma.,CPM,19912,3314,1.65,4,10,52,AS,Biren Sarma.,CPM,,,,,False,10,2011,AE
+1724851,Biren Sarma.,CPI(M),19875,3314,1.65,4,10,52,AS,Biren Sarma.,CPM,,,,,False,10,2011,AE
 1724852,Anowar Ali.,AIUDF,19865,2417,1.21,5,10,52,AS,Anowar Ali.,AIUDF,,,,,False,10,2011,AE
 1724853,Luit Kr. Barman.,IND,19861,1813,0.91,6,10,52,AS,Luit Kr. Barman.,IND,,,,,False,10,2011,AE
 1724854,Gobinda Das.,IND,19861,1455,0.73,7,10,52,AS,Gobinda Das.,IND,,,,,False,10,2011,AE
@@ -501,7 +501,7 @@
 1724901,Sisir Kr. Kakati,SUCI,19871,620,0.57,10,10,56,AS,Sisir Kr. Kakati,SUCI,,,,,False,10,2011,AE
 1724902,Ghanashyam Kalita,INC,19858,34119,29.11,1,10,57,AS,Ghanashyam Kalita,INC,,,,,False,10,2011,AE
 1724903,Thaneswar Boro,AGP,19864,24045,20.52,2,10,57,AS,Thaneswar Boro,AGP,,,,,False,10,2011,AE
-1724904,Ananta Deka,CPM,19912,23274,19.86,3,10,57,AS,Ananta Deka,CPM,,,,,False,10,2011,AE
+1724904,Ananta Deka,CPI(M),19875,23274,19.86,3,10,57,AS,Ananta Deka,CPM,,,,,False,10,2011,AE
 1724905,Maheswar Basumatary,BOPF,19857,21106,18.01,4,10,57,AS,Maheswar Basumatary,BOPF,,,,,False,10,2011,AE
 1724906,Pradip Thakuria,BJP,19872,5776,4.93,5,10,57,AS,Pradip Thakuria,BJP,,,,,False,10,2011,AE
 1724907,Jamshed Ali,AITC,19859,3626,3.09,6,10,57,AS,Jamshed Ali,AITC,,,,,False,10,2011,AE
@@ -520,7 +520,7 @@
 1724920,Anjan Barman,AITC,19859,15970,13.58,3,10,59,AS,Anjan Barman,AITC,,,,,False,10,2011,AE
 1724921,Dilip Saikia,BJP,19872,12507,10.64,4,10,59,AS,Dilip Saikia,BJP,,,,,False,10,2011,AE
 1724922,Madan Kalita,IND,19861,9615,8.18,5,10,59,AS,Madan Kalita,IND,,,,,False,10,2011,AE
-1724923,Rabin Misra,CPM,19912,4613,3.92,6,10,59,AS,Rabin Misra,CPM,,,,,False,10,2011,AE
+1724923,Rabin Misra,CPI(M),19875,4613,3.92,6,10,59,AS,Rabin Misra,CPM,,,,,False,10,2011,AE
 1724924,Dipika Dutta,IND,19861,1411,1.2,7,10,59,AS,Dipika Dutta,IND,,,,,False,10,2011,AE
 1724925,Nanda Medhi,IND,19861,842,0.72,8,10,59,AS,Nanda Medhi,IND,,,,,False,10,2011,AE
 1724926,Taijuddin Ahmed,NCP,19894,562,0.48,9,10,59,AS,Taijuddin Ahmed,NCP,,,,,False,10,2011,AE
@@ -600,7 +600,7 @@
 1725000,Batash Orang,BJP,19872,21997,18.38,3,10,71,AS,Batash Orang,BJP,,,,,False,10,2011,AE
 1725001,Bibek Borah,BOPF,19857,16776,14.02,4,10,71,AS,Bibek Borah,BOPF,,,,,False,10,2011,AE
 1725002,Bina Daimari,IND,19861,6039,5.05,5,10,71,AS,Bina Daimari,IND,,,,,False,10,2011,AE
-1725003,Junuma Boro,CPM,19912,1903,1.59,6,10,71,AS,Junuma Boro,CPM,,,,,False,10,2011,AE
+1725003,Junuma Boro,CPI(M),19875,1903,1.59,6,10,71,AS,Junuma Boro,CPM,,,,,False,10,2011,AE
 1725004,Umesh Saikia,IND,19861,1785,1.49,7,10,71,AS,Umesh Saikia,IND,,,,,False,10,2011,AE
 1725005,Tanka Bahadur Rai,INC,19858,47270,48.19,1,10,72,AS,Tanka Bahadur Rai,INC,,,,,False,10,2011,AE
 1725006,Ratul Kumar Nath,AGP,19864,29696,30.27,2,10,72,AS,Ratul Kumar Nath,AGP,,,,,False,10,2011,AE
@@ -618,7 +618,7 @@
 1725018,Bhimananda Tanti,INC,19858,40364,40.32,1,10,74,AS,Bhimananda Tanti,INC,,,,,False,10,2011,AE
 1725019,Niranjan Nath,BJP,19872,16838,16.82,2,10,74,AS,Niranjan Nath,BJP,,,,,False,10,2011,AE
 1725020,Bijoy Tiru,AGP,19864,14809,14.79,3,10,74,AS,Bijoy Tiru,AGP,,,,,False,10,2011,AE
-1725021,Rabin Tamuli,CPM,19912,7795,7.79,4,10,74,AS,Rabin Tamuli,CPM,,,,,False,10,2011,AE
+1725021,Rabin Tamuli,CPI(M),19875,7795,7.79,4,10,74,AS,Rabin Tamuli,CPM,,,,,False,10,2011,AE
 1725022,Abbas Khan,IND,19861,7694,7.69,5,10,74,AS,Abbas Khan,IND,,,,,False,10,2011,AE
 1725023,Sahidur Rahman,AIUDF,19865,6444,6.44,6,10,74,AS,Sahidur Rahman,AIUDF,,,,,False,10,2011,AE
 1725024,Karan Minz,JMM,19927,2255,2.25,7,10,74,AS,Karan Minz,JMM,,,,,False,10,2011,AE
@@ -626,7 +626,7 @@
 1725026,Monoj Kumar Tamuli,NCP,19894,1221,1.22,9,10,74,AS,Monoj Kumar Tamuli,NCP,,,,,False,10,2011,AE
 1725027,Jayanti Nayak Saikia,SAP,19933,1143,1.14,10,10,74,AS,Jayanti Nayak Saikia,SAP,,,,,False,10,2011,AE
 1725028,Padma Hazarika,AGP,19864,45155,41.35,1,10,75,AS,Padma Hazarika,AGP,,,,,False,10,2011,AE
-1725029,Khemraj Chetri,CPM,19912,32362,29.63,2,10,75,AS,Khemraj Chetri,CPM,,,,,False,10,2011,AE
+1725029,Khemraj Chetri,CPI(M),19875,32362,29.63,2,10,75,AS,Khemraj Chetri,CPM,,,,,False,10,2011,AE
 1725030,Hiranya Bora,INC,19858,16485,15.1,3,10,75,AS,Hiranya Bora,INC,,,,,False,10,2011,AE
 1725031,Prem Newar,BOPF,19857,10644,9.75,4,10,75,AS,Prem Newar,BOPF,,,,,False,10,2011,AE
 1725032,Dhaneswar Basumatary,IND,19861,2112,1.93,5,10,75,AS,Dhaneswar Basumatary,IND,,,,,False,10,2011,AE
@@ -739,7 +739,7 @@
 1725139,Dr. Aditya Langthasa,AIUDF,19865,50755,31.9,2,10,91,AS,Dr. Aditya Langthasa,AIUDF,,,,,False,10,2011,AE
 1725140,Shiladitya Dev,BJP,19872,30011,18.86,3,10,91,AS,Shiladitya Dev,BJP,,,,,False,10,2011,AE
 1725141,Narayan Chandra Bhowmik,AGP,19864,2623,1.65,4,10,91,AS,Narayan Chandra Bhowmik,AGP,,,,,False,10,2011,AE
-1725142,Jogneshwar Das,CPM,19912,1577,0.99,5,10,91,AS,Jogneshwar Das,CPM,,,,,False,10,2011,AE
+1725142,Jogneshwar Das,CPI(M),19875,1577,0.99,5,10,91,AS,Jogneshwar Das,CPM,,,,,False,10,2011,AE
 1725143,Deba Prasad Chauhan,IND,19861,1420,0.89,6,10,91,AS,Deba Prasad Chauhan,IND,,,,,False,10,2011,AE
 1725144,Debasish Dutta,AITC,19859,941,0.59,7,10,91,AS,Debasish Dutta,AITC,,,,,False,10,2011,AE
 1725145,Abdul Karim,AIMF,19896,672,0.42,8,10,91,AS,Abdul Karim,AIMF,,,,,False,10,2011,AE
@@ -881,7 +881,7 @@
 1725281,Birinchi Pegu,SUCI,19871,502,0.45,7,10,111,AS,Birinchi Pegu,SUCI,,,,,False,10,2011,AE
 1725282,Naba Kumar Doley,AGP,19864,63963,50.31,1,10,112,AS,Naba Kumar Doley,AGP,,,,,False,10,2011,AE
 1725283,Bharat Chandra Narah,INC,19858,56456,44.4,2,10,112,AS,Bharat Chandra Narah,INC,,,,,False,10,2011,AE
-1725284,Gyana Nath Mili,CPM,19912,2033,1.6,3,10,112,AS,Gyana Nath Mili,CPM,,,,,False,10,2011,AE
+1725284,Gyana Nath Mili,CPI(M),19875,2033,1.6,3,10,112,AS,Gyana Nath Mili,CPM,,,,,False,10,2011,AE
 1725285,Lakhimai Pegu,BJP,19872,1873,1.47,4,10,112,AS,Lakhimai Pegu,BJP,,,,,False,10,2011,AE
 1725286,Ranjit Doley,IND,19861,1130,0.89,5,10,112,AS,Ranjit Doley,IND,,,,,False,10,2011,AE
 1725287,Memud Pagag,IND,19861,525,0.41,6,10,112,AS,Memud Pagag,IND,,,,,False,10,2011,AE
@@ -936,7 +936,7 @@
 1725336,Pranati Phukan,INC,19858,35373,41.58,1,10,120,AS,Pranati Phukan,INC,,,,,False,10,2011,AE
 1725337,Naren Sonowal,AGP,19864,20976,24.66,2,10,120,AS,Naren Sonowal,AGP,,,,,False,10,2011,AE
 1725338,Pradip Buragohain,BJP,19872,18917,22.24,3,10,120,AS,Pradip Buragohain,BJP,,,,,False,10,2011,AE
-1725339,Sashakamal Handique,CPM,19912,2699,3.17,4,10,120,AS,Sashakamal Handique,CPM,,,,,False,10,2011,AE
+1725339,Sashakamal Handique,CPI(M),19875,2699,3.17,4,10,120,AS,Sashakamal Handique,CPM,,,,,False,10,2011,AE
 1725340,Kartik Tanti,NCP,19894,2498,2.94,5,10,120,AS,Kartik Tanti,NCP,,,,,False,10,2011,AE
 1725341,Tirtha Gogoi,AITC,19859,1714,2.01,6,10,120,AS,Tirtha Gogoi,AITC,,,,,False,10,2011,AE
 1725342,Mohendra Dhadumia,SUCI,19871,1554,1.83,7,10,120,AS,Mohendra Dhadumia,SUCI,,,,,False,10,2011,AE
@@ -975,7 +975,7 @@
 1725375,Bolin Chetia,INC,19858,46318,44.95,1,10,126,AS,Bolin Chetia,INC,,,,,False,10,2011,AE
 1725376,Jagadish Bhuyan,AGP,19864,39451,38.28,2,10,126,AS,Jagadish Bhuyan,AGP,,,,,False,10,2011,AE
 1725377,Rupsikha Baruah,IND,19861,7018,6.81,3,10,126,AS,Rupsikha Baruah,IND,,,,,False,10,2011,AE
-1725378,Labheswar Gogoi,CPM,19912,4116,3.99,4,10,126,AS,Labheswar Gogoi,CPM,,,,,False,10,2011,AE
+1725378,Labheswar Gogoi,CPI(M),19875,4116,3.99,4,10,126,AS,Labheswar Gogoi,CPM,,,,,False,10,2011,AE
 1725379,Gopal Pradhan,BJP,19872,2607,2.53,5,10,126,AS,Gopal Pradhan,BJP,,,,,False,10,2011,AE
 1725380,Anup Pratim Borbaruah,NCP,19894,1690,1.64,6,10,126,AS,Anup Pratim Borbaruah,NCP,,,,,False,10,2011,AE
 1725381,Lalit Deori,AITC,19859,994,0.96,7,10,126,AS,Lalit Deori,AITC,,,,,False,10,2011,AE
