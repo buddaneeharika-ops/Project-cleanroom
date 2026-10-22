@@ -797,7 +797,7 @@
               <span class="chip chip-green text-[9px]" id="boothGeoValidBadge">89.5% Verified</span>
             </div>
             <p class="text-[10.5px] text-gray-500 mb-2">Clean Room spatial coordinate boundary resolution and polygon cross-matching</p>
-            <div class="relative w-full flex-1 flex items-center justify-center" style="min-height: 200px;">
+            <div id="boothGeoWrapper" class="relative w-full flex-1 flex items-center justify-center" style="min-height: 200px;">
               <canvas id="boothGeoValidationChart"></canvas>
             </div>
             <div class="grid grid-cols-2 gap-2 mt-3 pt-3 border-t border-gray-100 text-center">
@@ -2100,6 +2100,45 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById('boothLeafletMap');
     if(!container) return;
 
+    const pins = (boothData && boothData.map_pins) ? boothData.map_pins : [];
+    if(pins.length > 0) {
+      container.innerHTML = '';
+      _boothMap = L.map('boothLeafletMap', { zoomControl: false, scrollWheelZoom: false });
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; CartoDB &copy; OpenStreetMap',
+        maxZoom: 18
+      }).addTo(_boothMap);
+      L.control.zoom({ position: 'bottomright' }).addTo(_boothMap);
+
+      const latlngs = [];
+      pins.forEach(p => {
+        if(p.lat && p.lng) {
+          const marker = L.circleMarker([p.lat, p.lng], {
+            radius: 5,
+            fillColor: '#4f46e5',
+            color: '#ffffff',
+            weight: 1.5,
+            opacity: 1,
+            fillOpacity: 0.85
+          }).addTo(_boothMap);
+          marker.bindPopup(`
+            <div style="font-family: Inter, sans-serif; min-width: 160px; padding: 4px;">
+              <div style="font-weight: 800; color: #1e1b4b; font-size: 12px; margin-bottom: 2px;">${p.ac_name || ('AC ' + p.ac_no)}</div>
+              <div style="color: #4b5563; font-size: 11px;">Booth: <b>${p.booth_no || ''}</b> ${p.booth_name ? '— ' + p.booth_name : ''}</div>
+              <div style="color: #9ca3af; font-size: 10px; margin-top: 3px;">📍 ${p.lat.toFixed(4)}, ${p.lng.toFixed(4)}</div>
+            </div>
+          `);
+          latlngs.push([p.lat, p.lng]);
+        }
+      });
+
+      if(latlngs.length > 0) {
+        _boothMap.fitBounds(latlngs, { padding: [20, 20], maxZoom: 12 });
+      }
+      setTimeout(() => { if(_boothMap) _boothMap.invalidateSize(); }, 300);
+      return;
+    }
+
     // Display clean placeholder: coordinates are not in the database
     container.innerHTML = `
       <div class="h-full w-full min-h-[240px] flex flex-col items-center justify-center p-6 text-center bg-gray-50/80 rounded-lg border border-dashed border-gray-200">
@@ -2527,8 +2566,7 @@ document.addEventListener("DOMContentLoaded", () => {
         window._boothGeoChart.destroy();
         window._boothGeoChart = null;
       }
-      const geoCanvas = document.getElementById('boothGeoValidationChart');
-      const geoWrapper = geoCanvas ? geoCanvas.parentElement : null;
+      const geoWrapper = document.getElementById('boothGeoWrapper');
       if(!d.booth.geo_validation || vCoords == null) {
         set('boothGeoValidCount', '—');
         set('boothGeoInvalidCount', '—');
@@ -2542,13 +2580,18 @@ document.addEventListener("DOMContentLoaded", () => {
             </div>
           `;
         }
-      } else if(geoCanvas) {
-        const invCoords = Math.max(d.booth.total_booths - vCoords, 0);
-        set('boothGeoValidCount', Number(vCoords).toLocaleString());
-        set('boothGeoInvalidCount', Number(invCoords).toLocaleString());
-        set('boothGeoValidBadge', `${vPct}% Verified`);
+      } else {
+        if(geoWrapper && !document.getElementById('boothGeoValidationChart')) {
+          geoWrapper.innerHTML = '<canvas id="boothGeoValidationChart"></canvas>';
+        }
+        const geoCanvas = document.getElementById('boothGeoValidationChart');
+        if(geoCanvas) {
+          const invCoords = Math.max(d.booth.total_booths - vCoords, 0);
+          set('boothGeoValidCount', Number(vCoords).toLocaleString());
+          set('boothGeoInvalidCount', Number(invCoords).toLocaleString());
+          set('boothGeoValidBadge', `${vPct}% Verified`);
 
-        const geoCtx = geoCanvas.getContext('2d');
+          const geoCtx = geoCanvas.getContext('2d');
         window._boothGeoChart = new Chart(geoCtx, {
           type: 'bar',
           data: {
