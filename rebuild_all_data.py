@@ -178,6 +178,16 @@ def build_all_data():
         caste_pct = round((min(caste.get(abb, 0), base_ac) / base_ac * 100), 2)
         booth_pct = round((min(booth.get(abb, 0), base_ac) / base_ac * 100), 2)
         
+        # Booth Revisions from state_glance
+        st_booth = state_glance.get(abb, {}).get('booth', {})
+        st_rev = st_booth.get('revision_breakdown', {})
+        pre_sir_cnt = st_rev.get('pre_sir') if st_rev.get('pre_sir') is not None else st_booth.get('pre_sir_booths', 0)
+        ssr_cnt = st_rev.get('ssr') if st_rev.get('ssr') is not None else st_booth.get('ssr_booths', 0)
+        sir_cnt = st_rev.get('sir') if st_rev.get('sir') is not None else st_booth.get('sir_booths', 0)
+        post_sir_cnt = st_rev.get('post_sir') if st_rev.get('post_sir') is not None else st_booth.get('post_sir_booths', 0)
+        rev_stage = st_rev.get('primary_stage') or st_booth.get('revision_stage', '—')
+        tot_bths = st_booth.get('total_booths', 0)
+
         # Country Glance Matrix Row
         glance_matrix.append({
             'state_abb': abb,
@@ -186,6 +196,12 @@ def build_all_data():
             'form20': form20_pct,
             'caste': caste_pct,
             'booth': booth_pct,
+            'pre_sir': pre_sir_cnt,
+            'ssr': ssr_cnt,
+            'sir': sir_cnt,
+            'post_sir': post_sir_cnt,
+            'revision_stage': rev_stage,
+            'total_booths': tot_bths,
             'muslim': round(min((muslim.get(abb, 0) / max(lgd_districts.get(abb, 1), 1) * 100), 100), 2),
             'joshua': round(min((joshua.get(abb, 0) / max(lgd_districts.get(abb, 1), 1) * 100), 100), 2),
             'kys': round(min((kys.get(abb, 0) / max(lgd_districts.get(abb, 1), 1) * 100), 100), 2),
@@ -244,6 +260,12 @@ def build_all_data():
                 "form20": global_form20_pct,
                 "caste": round(sum(r['caste'] for r in glance_matrix) / len(glance_matrix), 2),
                 "booth": round(sum(r['booth'] for r in glance_matrix) / len(glance_matrix), 2),
+            },
+            "revision_totals": {
+                "pre_sir": sum(r.get('pre_sir', 0) for r in glance_matrix),
+                "ssr": sum(r.get('ssr', 0) for r in glance_matrix),
+                "sir": sum(r.get('sir', 0) for r in glance_matrix),
+                "post_sir": sum(r.get('post_sir', 0) for r in glance_matrix),
             },
             "matrix": frontend_matrix
         }, f, indent=2)

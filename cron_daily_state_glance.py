@@ -65,16 +65,21 @@ def run_nightly_aggregation():
         ("rebuild_all_data.py", "Generating Unified Global Caches"),
 
         # 8. Booth Metadata & Voter Details Aggregation
-        ("generate_booth_voter_data.py", "Booth Metadata & Voter Details Aggregation")
+        ("generate_booth_voter_data.py", "Booth Metadata & Voter Details Aggregation"),
+
+        # 9. Apply 6-Point Dashboard Updates (Revisions, By-polls, Constituency Voters, LGD Sync)
+        ("apply_6_point_updates.py", "Applying 6-Point Dashboard Updates")
     ]
     
+    import sys
+    py_exec = sys.executable or ("python3" if os.name != 'nt' else "python")
     for script, description in scripts:
         print(f"\n---> {description} ({script})")
         start_t = time.time()
         
         try:
             subprocess.run(
-                ["python3" if os.name != 'nt' else "python", script], 
+                [py_exec, script], 
                 cwd=os.path.dirname(os.path.abspath(__file__)),
                 check=True
             )

@@ -632,7 +632,9 @@ def require_login():
         return
     allowed_routes = ['login_page', 'login', 'auth_callback', 'static', 'admin_ac_pct',
                       'country_glance_test_page', 'country_glance_map_page', 'indexing_visualizer_page',
-                      'api_country_glance_data', 'api_map_district_data', 'api_map_pc_data', 'api_map_ac_data',
+                      'country_glance_report_page', 'country_glance_page',
+                      'api_country_glance_data', 'api_country_glance_test_data',
+                      'api_map_district_data', 'api_map_pc_data', 'api_map_ac_data',
                       'get_backlog_state_metadata', 'get_backlog_state_booths', 'state_glance_report_page',
                       'api_state_glance_data', 'api_state_glance_booth_voters']
     if request.endpoint not in allowed_routes:
