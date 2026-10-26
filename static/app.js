@@ -796,7 +796,7 @@ function renderBoothVoterDirectory() {
 
   thead.innerHTML = `
     <tr>
-      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="name">State &amp; Canonical ACs${arrow('name')}</th>
+      <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="name">State &amp; Total ACs${arrow('name')}</th>
       <th class="px-4 py-3 text-[10.5px] font-bold text-amber-700 uppercase tracking-wider cursor-pointer hover:bg-amber-50/50 select-none dir-sortable text-right" data-col="pre_sir">Pre-SIR Booths${arrow('pre_sir')}</th>
       <th class="px-4 py-3 text-[10.5px] font-bold text-sky-700 uppercase tracking-wider cursor-pointer hover:bg-sky-50/50 select-none dir-sortable text-right" data-col="ssr">SSR Booths${arrow('ssr')}</th>
       <th class="px-4 py-3 text-[10.5px] font-bold text-indigo-700 uppercase tracking-wider cursor-pointer hover:bg-indigo-50/50 select-none dir-sortable text-right" data-col="sir">SIR Booths${arrow('sir')}</th>
@@ -958,7 +958,7 @@ function renderBoothVoterDirectory() {
                 <p class="text-[13px] font-semibold text-gray-900 leading-tight">${x(stateName)}</p>
                 ${stageBadge}
               </div>
-              <p class="text-[11px] text-gray-400 font-medium mt-0.5">${canonicalAcs} Canonical ACs • ${s.has_booth ? (s.total_booths || 0).toLocaleString() + ' booths' : '0 booths'}</p>
+              <p class="text-[11px] text-gray-400 font-medium mt-0.5">${canonicalAcs} ACs • ${s.has_booth ? (s.total_booths || 0).toLocaleString() + ' booths' : '0 booths'}</p>
             </div>
           </div>
         </td>
