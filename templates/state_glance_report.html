@@ -2634,6 +2634,7 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
       }
+    }
 
       // Leaflet Booth Location Map
       window.initBoothLocationMap(d.booth, window._currentState);
@@ -3249,9 +3250,9 @@ document.addEventListener("DOMContentLoaded", () => {
         setupAutocomplete('stateSearchInput', 'stateSearchDropdown', 'topStateSelectorWrapper');
         setupAutocomplete('centerStateSearchInput', 'centerStateSearchDropdown', 'emptyStateContainer');
         
-        // Check URL for existing state
+        // Check URL for existing state or default to KL (Kerala)
         const urlParams = new URLSearchParams(window.location.search);
-        let defaultState = urlParams.get('state_abb');
+        let defaultState = urlParams.get('state_abb') || 'KL';
         
         if(defaultState && sortedStates.includes(defaultState)) {
           const stateName = data.state_names[defaultState] || defaultState;
@@ -3260,16 +3261,12 @@ document.addEventListener("DOMContentLoaded", () => {
           if(topInp) topInp.value = stateName;
           if(cenInp) cenInp.value = stateName;
           loadData(defaultState);
-        } else {
-          // Empty State mode
-          const mainTitle = document.getElementById('mainStateTitle');
-          if(mainTitle) mainTitle.innerText = "State Report";
-          const dash = document.getElementById('dashboardContent');
-          const empty = document.getElementById('emptyStateContainer');
-          const topWrapper = document.getElementById('topStateSelectorWrapper');
-          if(dash) dash.style.display = 'none';
-          if(empty) empty.style.display = 'flex';
-          if(topWrapper) topWrapper.style.display = 'none';
+        } else if(sortedStates.length > 0) {
+          const fallbackState = sortedStates.includes('KL') ? 'KL' : sortedStates[0];
+          const stateName = data.state_names[fallbackState] || fallbackState;
+          const topInp = document.getElementById('stateSearchInput');
+          if(topInp) topInp.value = stateName;
+          loadData(fallbackState);
         }
       }
     } catch(e) { console.error('Failed to load states', e); }
