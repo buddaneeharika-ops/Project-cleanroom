@@ -341,14 +341,16 @@ def generate_booth_voter_data():
                 'availability_pct': existing_booth_avail or 100.0,
                 'total_booths': tot_booths,
                 'pre_sir_booths': existing_rev.get('pre_sir') or existing_booth.get('pre_sir_booths', 0),
+                'ssr_booths': existing_rev.get('ssr') or existing_booth.get('ssr_booths', 0),
                 'sir_booths': existing_rev.get('sir') or existing_booth.get('sir_booths', 0),
                 'post_sir_booths': existing_rev.get('post_sir') or existing_booth.get('post_sir_booths', 0),
                 'revision_stage': existing_rev.get('primary_stage') or existing_booth.get('revision_stage', '—'),
                 'revision_breakdown': existing_rev,
-                'unique_coordinates': None,     # Not in DB -> '—'
-                'valid_coordinates': None,      # Not in DB -> '—'
-                'valid_coordinates_pct': None,  # Not in DB -> '—'
-                'geo_validation': None,         # Not in DB -> empty state placeholder
+                'unique_coordinates': existing_booth.get('unique_coordinates'),
+                'valid_coordinates': existing_booth.get('valid_coordinates'),
+                'valid_coordinates_pct': existing_booth.get('valid_coordinates_pct'),
+                'geo_validation': existing_booth.get('geo_validation'),
+                'map_pins': existing_booth.get('map_pins', []),
                 'total_acs': ac_cnt,
                 'avg_booths_per_ac': round(tot_booths / max(ac_cnt, 1), 1),
                 'admin_quality_score': admin_score,

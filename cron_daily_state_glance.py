@@ -68,7 +68,10 @@ def run_nightly_aggregation():
         ("generate_booth_voter_data.py", "Booth Metadata & Voter Details Aggregation"),
 
         # 9. Apply 6-Point Dashboard Updates (Revisions, By-polls, Constituency Voters, LGD Sync)
-        ("apply_6_point_updates.py", "Applying 6-Point Dashboard Updates")
+        ("apply_6_point_updates.py", "Applying 6-Point Dashboard Updates"),
+
+        # 10. Ingest Real Booth Coordinates & Map Pins
+        ("ingest_booth_coordinates.py", "Ingesting Real Booth Coordinates & Map Pins")
     ]
     
     import sys

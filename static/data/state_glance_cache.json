@@ -456,13 +456,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -15768,7 +15768,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "remark_count": 0
@@ -42943,7 +42943,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "remark_count": 0
@@ -43061,13 +43061,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -43151,7 +43151,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "remark_count": 0
@@ -43258,13 +43258,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -61634,7 +61634,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "remark_count": 0
@@ -61972,13 +61972,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -62839,13 +62839,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -63743,13 +63743,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -76689,7 +76689,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025 (Special Summary Revision 2025)",
           "ssr_booths": 394
         },
         {
@@ -77298,7 +77298,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025 (Special Summary Revision 2025)",
           "ssr_booths": 428
         },
         {
@@ -78574,7 +78574,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025",
+          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025",
           "ssr_booths": 404
         },
         {
@@ -79763,7 +79763,7 @@
           "sir_booths": 480,
           "post_sir_booths": 0,
           "revision_stage": "SIR",
-          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025 (Special Summary Revision 2025)",
           "ssr_booths": 429
         },
         {
@@ -93677,14 +93677,14 @@
         },
         "districts": [
           {
-            "district_name": "Ch\u00fcmoukedima",
+            "district_name": "Chümoukedima",
             "district_code": 758,
             "households": 28091,
             "tap_connections": 25563,
             "coverage_pct": 91.0
           },
           {
-            "district_name": "Ch\u00fcmoukedima and Niuland",
+            "district_name": "Chümoukedima and Niuland",
             "district_code": 764,
             "households": 8775,
             "tap_connections": 8514,
@@ -93768,7 +93768,7 @@
             "coverage_pct": 96.2
           },
           {
-            "district_name": "Tseminy\u00fc",
+            "district_name": "Tseminyü",
             "district_code": 757,
             "households": 11463,
             "tap_connections": 11208,
@@ -93789,7 +93789,7 @@
             "coverage_pct": 97.89
           },
           {
-            "district_name": "Z\u00fcnheboto",
+            "district_name": "Zünheboto",
             "district_code": 251,
             "households": 26744,
             "tap_connections": 24802,
@@ -93826,13 +93826,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -136973,13 +136973,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -137423,7 +137423,7 @@
             "muslim_pop": 7309
           },
           {
-            "district": "Janjgir \u2013 Champa",
+            "district": "Janjgir – Champa",
             "pct": 0.88,
             "muslim_pop": 14173
           },
@@ -169401,7 +169401,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "total_acs": 30
@@ -169541,13 +169541,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -169665,7 +169665,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "total_acs": 1
@@ -169762,13 +169762,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -169859,7 +169859,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "total_acs": 2
@@ -170335,7 +170335,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "total_acs": 32
@@ -170509,13 +170509,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -174959,7 +174959,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "total_acs": 60
@@ -175202,13 +175202,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -176643,7 +176643,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025",
+          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025",
           "ssr_booths": 268
         },
         {
@@ -177078,7 +177078,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025",
+          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025",
           "ssr_booths": 264
         },
         {
@@ -177716,7 +177716,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025",
+          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025",
           "ssr_booths": 284
         },
         {
@@ -178499,7 +178499,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
           "ssr_booths": 195
         },
         {
@@ -179050,7 +179050,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 -> Special Summary Revision 2025",
+          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025 -> Special Summary Revision 2025",
           "ssr_booths": 211
         },
         {
@@ -179688,7 +179688,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
           "ssr_booths": 237
         },
         {
@@ -179804,7 +179804,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
           "ssr_booths": 281
         },
         {
@@ -179833,7 +179833,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
           "ssr_booths": 328
         },
         {
@@ -179862,7 +179862,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
           "ssr_booths": 299
         },
         {
@@ -179920,7 +179920,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
           "ssr_booths": 204
         },
         {
@@ -180787,7 +180787,7 @@
           "ac_no": 103,
           "ac_name": "Golaghat",
           "booth_no": "1",
-          "booth_name": "1 - Chele\u00f1gi Gaon L.P. School",
+          "booth_name": "1 - Cheleñgi Gaon L.P. School",
           "lat": 26.53128,
           "lng": 93.96175
         },
@@ -184545,13 +184545,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -197363,7 +197363,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "total_acs": 1
@@ -197477,13 +197477,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -197592,7 +197592,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete \u2713"
+          "issues": "Data complete ✓"
         }
       ],
       "total_acs": 1
@@ -197871,13 +197871,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "\u2014",
+        "primary_stage": "—",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "\u2014",
+      "revision_stage": "—",
       "ssr_booths": 0,
       "map_pins": []
     },

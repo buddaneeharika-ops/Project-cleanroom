@@ -12,7 +12,10 @@ if (-not (Test-Path $KeyFile)) {
 
 $RemoteCommand = @"
 cd /home/ec2-user/Form20-backlog-tracker && \
+git checkout -- static/data/glance_cache.json static/data/state_glance_cache.json && \
 git pull origin main && \
+./venv/bin/python3 apply_6_point_updates.py && \
+./venv/bin/python3 ingest_booth_coordinates.py && \
 redis6-cli flushall && \
 ./venv/bin/python3 -c 'import cron_daily_state_glance; cron_daily_state_glance.sync_json_to_redis()' && \
 sudo systemctl restart form20-dashboard.service && \

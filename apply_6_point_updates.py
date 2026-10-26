@@ -67,8 +67,10 @@ def main():
     state_rev_counts = {}
     ac_rev_counts = {}
 
-    # Attempt database connection
+    # Database connection using neeharika_ka_de credentials (which have SELECT on booth_metadata & booth_metadata_polling_station)
     conn = None
+    booth_user = os.getenv('BOOTH_DB_USER', 'neeharika_ka_de')
+    booth_pass = os.getenv('BOOTH_DB_PASSWORD', 'dvhbdaybndkfkj1274nd')
     try:
         try:
             import psycopg2 as dbapi
@@ -76,9 +78,9 @@ def main():
                 host=os.getenv('DB_HOST', 'org-db.cgtvjodbp1rf.ap-south-1.rds.amazonaws.com'),
                 port=int(os.getenv('DB_PORT', 5432)),
                 database=os.getenv('DB_NAME', 'votexdb'),
-                user=os.getenv('DB_USER', 'neeharika_ka_de'),
-                password=os.getenv('DB_PASSWORD', 'dvhbdaybndkfkj1274nd'),
-                connect_timeout=5
+                user=booth_user,
+                password=booth_pass,
+                connect_timeout=30
             )
         except Exception:
             import pg8000.dbapi as dbapi
@@ -86,8 +88,8 @@ def main():
                 host=os.getenv('DB_HOST', 'org-db.cgtvjodbp1rf.ap-south-1.rds.amazonaws.com'),
                 port=int(os.getenv('DB_PORT', 5432)),
                 database=os.getenv('DB_NAME', 'votexdb'),
-                user=os.getenv('DB_USER', 'neeharika_ka_de'),
-                password=os.getenv('DB_PASSWORD', 'dvhbdaybndkfkj1274nd')
+                user=booth_user,
+                password=booth_pass
             )
     except Exception as e:
         print(f"[WARN] Database connection failed ({e}). Reusing existing classified revisions.")
