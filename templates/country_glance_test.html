@@ -386,8 +386,8 @@
       </div>
     </div>
 
-    <!-- KPI Cards — 4 national averages from live DB -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 fade-in d1">
+    <!-- KPI Cards — 5 national averages from live DB -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 fade-in d1">
 
       <div class="glass-kpi rounded-2xl p-5 flex items-center justify-between gap-4">
         <div class="min-w-0">
@@ -430,6 +430,17 @@
         </div>
         <div class="w-11 h-11 rounded-full bg-amber-50 border border-amber-100 flex items-center justify-center shrink-0">
           <div class="sdot sdot-yellow" style="width:14px;height:14px;"></div>
+        </div>
+      </div>
+
+      <div class="glass-kpi rounded-2xl p-5 flex items-center justify-between gap-4">
+        <div class="min-w-0">
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Voter Roll Avg</p>
+          <h2 class="text-[28px] font-bold text-gray-900 tabular-nums leading-none" id="kpi-voter">—</h2>
+          <p class="text-[11px] text-gray-400 mt-1.5">Electoral roll voter data</p>
+        </div>
+        <div class="w-11 h-11 rounded-full bg-emerald-50 border border-emerald-100 flex items-center justify-center shrink-0">
+          <div class="sdot sdot-light-green" style="width:14px;height:14px;"></div>
         </div>
       </div>
 
@@ -591,6 +602,12 @@
                     <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AcName, CasteName, Sub_Caste, CasteCategory, CastePercentage</td>
                     <td class="px-3 py-1.5"><span class="bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ECI</span></td>
                     <td class="px-3 py-1.5 text-gray-600 font-medium">ACwise Caste details</td>
+                  </tr>
+                  <tr class="hover:bg-indigo-50/30 transition-colors group">
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Voter Roll</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AcName, TotalElectors, MaleElectors, FemaleElectors, GenderRatio, AgeDistribution, UrbanRuralPct</td>
+                    <td class="px-3 py-1.5"><span class="bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ECI Rolls</span></td>
+                    <td class="px-3 py-1.5 text-gray-600 font-medium">ACwise Electors &amp; Demographics</td>
                   </tr>
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
                     <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Form 20</td>
@@ -775,9 +792,10 @@
                 State / UT <span class="text-[10px] text-gray-300 ml-0.5">↕</span>
               </th>
               <!-- ECI group header -->
-              <th colspan="8" class="text-center" id="group-eci">ECI Data Points <span class="text-[9.5px] font-normal text-gray-400 font-mono">(AC-wise %)</span></th>
+              <th colspan="5" class="text-center" id="group-eci">ECI Data Points <span class="text-[9.5px] font-normal text-gray-400 font-mono">(AC-wise %)</span></th>
               <!-- Other sources group header -->
               <th colspan="9" class="text-center bg-gray-50/70" id="group-other">Available Data — Other Sources <span class="text-[9.5px] font-normal text-gray-500 font-mono">(District-wise %)</span></th>
+              <th rowspan="2" class="text-center sticky right-0 bg-[#f8fafc] shadow-[-1px_0_0_rgba(0,0,0,0.05)] text-[10px] font-bold text-gray-400 uppercase tracking-wider" style="z-index: 20 !important; width: 95px; min-width: 95px;">Action</th>
             </tr>
             <tr>
               <!-- ECI cols -->
@@ -785,10 +803,7 @@
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('caste')">Caste Data</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('booth')">Booth Details</th>
-              <th class="text-center cursor-pointer eci-col hover:bg-amber-50/80 text-amber-800 transition-colors" onclick="sortTable('pre_sir')">Pre-SIR</th>
-              <th class="text-center cursor-pointer eci-col hover:bg-sky-50/80 text-sky-800 transition-colors" onclick="sortTable('ssr')">SSR</th>
-              <th class="text-center cursor-pointer eci-col hover:bg-indigo-50/80 text-indigo-800 transition-colors" onclick="sortTable('sir')">SIR</th>
-              <th class="text-center cursor-pointer eci-col hover:bg-emerald-50/80 text-emerald-800 transition-colors" onclick="sortTable('post_sir')">Post-SIR</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('voter')">Voter Roll</th>
               <!-- Auxiliary cols -->
               <th class="text-center other-col bg-gray-50/50">Muslim Census</th>
               <th class="text-center other-col bg-gray-50/50">Joshua</th>
@@ -860,15 +875,13 @@
           if (m.nrega > 0) nregaMissing = false;
           if (m.kys > 0) kysMissing = false;
           return {
+            state_abb: m.state_abb,
             state_name: m.state_name,
             retro:     m.retro     ?? 0,
             form20:    m.form20    ?? 0,
             caste:     m.caste     ?? 0,
             booth:     m.booth     ?? 0,
-            pre_sir:   m.pre_sir   ?? 0,
-            ssr:       m.ssr       ?? 0,
-            sir:       m.sir       ?? 0,
-            post_sir:  m.post_sir  ?? 0,
+            voter:     m.voter     ?? 0,
             muslim:    m.muslim    ?? 0,
             joshua:    m.joshua    ?? 0,
             kys:       m.kys       ?? 0,
@@ -892,6 +905,7 @@
         setKPI('kpi-form20', nav.form20 ?? calcAvg('form20'));
         setKPI('kpi-caste',  nav.caste  ?? calcAvg('caste'));
         setKPI('kpi-booth',  nav.booth  ?? calcAvg('booth'));
+        setKPI('kpi-voter',  nav.voter  ?? calcAvg('voter'));
         updateInfoPanelKPIs();
       } else {
         throw new Error('empty');
@@ -902,6 +916,7 @@
       setKPI('kpi-form20', 0);
       setKPI('kpi-caste',  0);
       setKPI('kpi-booth',  0);
+      setKPI('kpi-voter',  0);
       updateInfoPanelKPIs();
     }
 
@@ -970,7 +985,7 @@
       rows = rows.filter(r => {
         if (activeFilter.cols.length === 0) {
           // Check if ANY metric column meets the condition
-          const cols = ['retro','form20','caste','booth','muslim','joshua','kys','lgd','ejal','secc','nrega','indiastat','elens'];
+          const cols = ['retro','form20','caste','booth','voter','muslim','joshua','kys','lgd','ejal','secc','nrega','indiastat','elens'];
           return cols.some(c => {
              const v = parseFloat(r[c]);
              if (isNaN(v) || v < 0) return false;
@@ -1006,15 +1021,14 @@
         : row.state_name;
       tr.innerHTML = `
         <td class="text-center text-gray-400 font-medium text-xs bg-[#f8fafc] sticky left-0 z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)]" style="width: 40px; min-width: 40px; max-width: 40px; box-sizing: border-box;">${idx+1}</td>
-        <td class="font-semibold text-gray-800 text-[12.5px] bg-[#f8fafc] sticky left-[39px] z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)] pr-4">${stateLabel}</td>
+        <td class="font-semibold text-gray-800 text-[12.5px] bg-[#f8fafc] sticky left-[39px] z-[5] shadow-[1px_0_0_rgba(0,0,0,0.05)] pr-4">
+          <a href="/state-glance-report?state_abb=${row.state_abb}" target="_blank" class="hover:text-indigo-600 hover:underline transition-colors" title="Open ${row.state_name} Report">${stateLabel}</a>
+        </td>
         <td class="text-center eci-col ${h('retro')}">${getDotHTML(row.retro)}</td>
         <td class="text-center eci-col ${h('form20')}">${getDotHTML(row.form20)}</td>
         <td class="text-center eci-col ${h('caste')}">${getDotHTML(row.caste)}</td>
         <td class="text-center eci-col ${h('booth')}">${getDotHTML(row.booth)}</td>
-        <td class="text-center eci-col ${h('pre_sir')}">${getRevBadgeHTML(row.pre_sir, 'pre')}</td>
-        <td class="text-center eci-col ${h('ssr')}">${getRevBadgeHTML(row.ssr, 'ssr')}</td>
-        <td class="text-center eci-col ${h('sir')}">${getRevBadgeHTML(row.sir, 'sir')}</td>
-        <td class="text-center eci-col ${h('post_sir')}">${getRevBadgeHTML(row.post_sir, 'post')}</td>
+        <td class="text-center eci-col ${h('voter')}">${getDotHTML(row.voter)}</td>
         <td class="text-center other-col ${h('muslim')}">${getDotHTML(row.muslim)}</td>
         <td class="text-center other-col ${h('joshua')}">${getDotHTML(row.joshua)}</td>
         <td class="text-center other-col ${h('kys')}">${getDotHTML(row.kys)}</td>
@@ -1024,6 +1038,12 @@
         <td class="text-center other-col ${h('nrega')}">${getDotHTML(row.nrega)}</td>
         <td class="text-center other-col ${h('indiastat')}">${getDotHTML(row.indiastat)}</td>
         <td class="text-center other-col ${h('elens')}">${getDotHTML(row.elens)}</td>
+        <td class="text-center px-3 py-1.5 whitespace-nowrap sticky right-0 bg-white/95 z-[5] shadow-[-1px_0_0_rgba(0,0,0,0.05)]">
+          <a href="/state-glance-report?state_abb=${row.state_abb}" target="_blank"
+             class="inline-flex items-center gap-1 px-2.5 py-1 text-[11px] font-bold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 hover:text-indigo-900 border border-indigo-200/70 rounded-lg shadow-sm transition-all" title="Open ${row.state_name} Report">
+            Report <span class="material-symbols-outlined" style="font-size:13px;">open_in_new</span>
+          </a>
+        </td>
       `;
       tbody.appendChild(tr);
     });

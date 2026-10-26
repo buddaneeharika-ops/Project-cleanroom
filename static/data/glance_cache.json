@@ -4,7 +4,8 @@
     "retro": 99.91,
     "form20": 88.94,
     "caste": 70.27,
-    "booth": 100.0
+    "booth": 100.0,
+    "voter": 62.16
   },
   "matrix": [
     {
@@ -27,8 +28,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "AP",
@@ -51,7 +53,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 46396
+      "total_booths": 46396,
+      "voter": 100.0
     },
     {
       "state_abb": "AR",
@@ -73,8 +76,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "AS",
@@ -97,7 +101,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 29213
+      "total_booths": 29213,
+      "voter": 100.0
     },
     {
       "state_abb": "BR",
@@ -120,7 +125,8 @@
       "sir": 167868,
       "post_sir": 0,
       "revision_stage": "SIR",
-      "total_booths": 167868
+      "total_booths": 167868,
+      "voter": 100.0
     },
     {
       "state_abb": "CG",
@@ -142,8 +148,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 100.0
     },
     {
       "state_abb": "CT",
@@ -166,7 +173,8 @@
       "sir": 27196,
       "post_sir": 0,
       "revision_stage": "SIR",
-      "total_booths": 27196
+      "total_booths": 27196,
+      "voter": 100.0
     },
     {
       "state_abb": "DN",
@@ -188,8 +196,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "DD",
@@ -211,8 +220,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "DL",
@@ -235,7 +245,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 13033
+      "total_booths": 13033,
+      "voter": 100.0
     },
     {
       "state_abb": "GA",
@@ -258,7 +269,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 1708
+      "total_booths": 1708,
+      "voter": 100.0
     },
     {
       "state_abb": "GJ",
@@ -280,8 +292,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "HR",
@@ -304,7 +317,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "Pre-SIR",
-      "total_booths": 20628
+      "total_booths": 20628,
+      "voter": 100.0
     },
     {
       "state_abb": "HP",
@@ -327,7 +341,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 8006
+      "total_booths": 8006,
+      "voter": 100.0
     },
     {
       "state_abb": "JK",
@@ -350,7 +365,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "Pre-SIR",
-      "total_booths": 11613
+      "total_booths": 11613,
+      "voter": 100.0
     },
     {
       "state_abb": "JH",
@@ -373,7 +389,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "Pre-SIR",
-      "total_booths": 29562
+      "total_booths": 29562,
+      "voter": 100.0
     },
     {
       "state_abb": "KA",
@@ -396,7 +413,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 58931
+      "total_booths": 58931,
+      "voter": 100.0
     },
     {
       "state_abb": "KL",
@@ -419,7 +437,8 @@
       "sir": 0,
       "post_sir": 1,
       "revision_stage": "SSR",
-      "total_booths": 25401
+      "total_booths": 25401,
+      "voter": 100.0
     },
     {
       "state_abb": "LA",
@@ -442,7 +461,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 595
+      "total_booths": 595,
+      "voter": 100.0
     },
     {
       "state_abb": "LD",
@@ -464,8 +484,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "MP",
@@ -488,7 +509,8 @@
       "sir": 71930,
       "post_sir": 0,
       "revision_stage": "SIR",
-      "total_booths": 71930
+      "total_booths": 71930,
+      "voter": 100.0
     },
     {
       "state_abb": "MH",
@@ -511,7 +533,8 @@
       "sir": 0,
       "post_sir": 94277,
       "revision_stage": "Post-SIR",
-      "total_booths": 100100
+      "total_booths": 100100,
+      "voter": 100.0
     },
     {
       "state_abb": "MN",
@@ -533,8 +556,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "ML",
@@ -557,7 +581,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 3551
+      "total_booths": 3551,
+      "voter": 100.0
     },
     {
       "state_abb": "MZ",
@@ -579,8 +604,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "NL",
@@ -602,8 +628,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "OR",
@@ -626,7 +653,8 @@
       "sir": 2,
       "post_sir": 23293,
       "revision_stage": "Post-SIR",
-      "total_booths": 38060
+      "total_booths": 38060,
+      "voter": 100.0
     },
     {
       "state_abb": "PY",
@@ -648,8 +676,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "PB",
@@ -672,7 +701,8 @@
       "sir": 0,
       "post_sir": 1,
       "revision_stage": "Pre-SIR",
-      "total_booths": 24480
+      "total_booths": 24480,
+      "voter": 100.0
     },
     {
       "state_abb": "RJ",
@@ -694,8 +724,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "SK",
@@ -717,8 +748,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "TN",
@@ -741,7 +773,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 67834
+      "total_booths": 67834,
+      "voter": 100.0
     },
     {
       "state_abb": "TS",
@@ -763,8 +796,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "TR",
@@ -786,8 +820,9 @@
       "ssr": 0,
       "sir": 0,
       "post_sir": 0,
-      "revision_stage": "—",
-      "total_booths": 0
+      "revision_stage": "\u2014",
+      "total_booths": 0,
+      "voter": 0.0
     },
     {
       "state_abb": "UP",
@@ -810,7 +845,8 @@
       "sir": 96033,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 255878
+      "total_booths": 255878,
+      "voter": 100.0
     },
     {
       "state_abb": "UK",
@@ -833,7 +869,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 11733
+      "total_booths": 11733,
+      "voter": 100.0
     },
     {
       "state_abb": "WB",
@@ -856,7 +893,8 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "SSR",
-      "total_booths": 80600
+      "total_booths": 80600,
+      "voter": 100.0
     }
   ],
   "revision_totals": {
