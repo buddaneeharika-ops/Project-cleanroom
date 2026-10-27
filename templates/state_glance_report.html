@@ -856,49 +856,35 @@
             </div>
           </div>
 
-          <!-- Interactive Booth Location Map -->
-          <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
-            <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2 border-b border-gray-100 pb-2.5 gap-2">
-              <div class="flex items-center gap-2">
-                <span class="material-symbols-outlined text-indigo-600 text-[20px]">explore</span>
-                <div>
-                  <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">State Booth Spatial Distribution</h3>
-                  <p class="text-[10px] text-gray-400 font-medium">Boundary-aligned polling station clusters &amp; district topology</p>
-                </div>
-              </div>
-              <div class="flex items-center gap-1.5 self-start sm:self-auto">
-                <span class="chip chip-blue text-[9.5px] font-bold" id="boothMapStateBadge">State</span>
-                <span class="chip chip-green text-[9.5px] font-bold" id="boothMapPinCount">GPS Nodes</span>
-              </div>
+          <!-- Interactive Booth Location Map (EJal Shakti Section Aesthetics) -->
+          <div class="bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden relative" style="min-height: 380px;">
+            <!-- Top-Left Floating Title Badge -->
+            <p class="absolute top-3 left-3 z-[400] text-[11px] font-bold text-gray-700 bg-white/90 backdrop-blur-xs px-2.5 py-1 rounded shadow-sm border border-gray-100 flex items-center gap-1.5">
+              <span class="material-symbols-outlined text-indigo-600 text-[15px]">explore</span>
+              <span>District-wise Booth Coverage Map</span>
+            </p>
+
+            <!-- Top-Right Floating Badges -->
+            <div class="absolute top-3 right-12 z-[400] flex items-center gap-1.5">
+              <span class="chip chip-blue text-[9.5px] font-bold bg-white/90 backdrop-blur-xs px-2 py-0.5 rounded shadow-sm border border-indigo-100" id="boothMapStateBadge">State</span>
+              <span class="chip chip-green text-[9.5px] font-bold bg-white/90 backdrop-blur-xs px-2 py-0.5 rounded shadow-sm border border-emerald-100" id="boothMapPinCount">GPS Nodes</span>
             </div>
 
-            <!-- Toolbar Controls -->
-            <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5 bg-slate-50/90 p-2 rounded-xl border border-slate-200/70 text-[11px]">
-              <!-- Left: Layer Toggles -->
-              <div class="flex items-center gap-3">
-                <label class="flex items-center gap-1.5 cursor-pointer select-none text-gray-700 font-semibold hover:text-indigo-600 transition-colors">
-                  <input type="checkbox" id="chkDistrictBorders" checked class="w-3.5 h-3.5 text-indigo-600 rounded border-gray-300 focus:ring-0 cursor-pointer" />
-                  <span>District Outlines</span>
-                </label>
-                <label class="flex items-center gap-1.5 cursor-pointer select-none text-gray-700 font-semibold hover:text-indigo-600 transition-colors">
-                  <input type="checkbox" id="chkClusterGroup" checked class="w-3.5 h-3.5 text-indigo-600 rounded border-gray-300 focus:ring-0 cursor-pointer" />
-                  <span>Booth Clusters</span>
-                </label>
-              </div>
+            <!-- Leaflet Map Canvas -->
+            <div id="boothLeafletMap" style="height: 380px; width: 100%; z-index: 1;"></div>
 
-              <!-- Right: Basemap Selector & Reset -->
-              <div class="flex items-center gap-1.5">
-                <div class="inline-flex bg-white rounded-lg p-0.5 border border-gray-200 shadow-xs">
-                  <button type="button" id="btnBasemapCanvas" class="px-2.5 py-0.5 rounded-md text-[10.5px] font-bold text-white bg-gray-900 shadow-xs transition-all">Clean Canvas</button>
-                  <button type="button" id="btnBasemapOSM" class="px-2.5 py-0.5 rounded-md text-[10.5px] font-semibold text-gray-600 hover:text-gray-900 transition-all">Streets</button>
-                </div>
-                <button type="button" id="btnResetMapView" class="flex items-center gap-1 px-2.5 py-0.5 bg-white hover:bg-gray-100 text-gray-700 font-bold rounded-lg border border-gray-200 text-[10.5px] transition-all shadow-xs" title="Reset View to State Bounds">
-                  <span class="material-symbols-outlined text-[13px]">refresh</span> Reset View
-                </button>
+            <!-- Bottom-Left Floating Legend (Aesthetics matching EJal Shakti section) -->
+            <div class="absolute bottom-3 left-3 z-[400] bg-white/90 backdrop-blur-xs rounded-lg shadow-sm p-2 text-[9px] font-semibold border border-gray-100" id="boothMapLegend">
+              <div class="text-[9.5px] font-bold text-gray-800 mb-1 border-b border-gray-200/80 pb-0.5">District Booth Density</div>
+              <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#15803d] inline-block"></span>≥ 2,500 Booths</div>
+              <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#4ade80] inline-block"></span>2,000–2,500</div>
+              <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#facc15] inline-block"></span>1,500–2,000</div>
+              <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#fb923c] inline-block"></span>1,000–1,500</div>
+              <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#ef4444] inline-block"></span>&lt; 1,000 Booths</div>
+              <div class="mt-1 pt-1 border-t border-gray-200/80 flex items-center gap-1.5 text-gray-600 font-bold">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#312e81] inline-block shadow-xs border border-white"></span><span>Booth Clusters</span>
               </div>
             </div>
-
-            <div id="boothLeafletMap" class="w-full flex-1 rounded-xl border border-gray-200 overflow-hidden relative shadow-inner" style="min-height: 380px; z-index: 10;"></div>
           </div>
         </div>
 
@@ -1880,8 +1866,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // We don't clear innerHTML directly here, leaflet.map will use the div.
 
     _leafletMap = L.map('ejalMap', { zoomControl: false, scrollWheelZoom: false });
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-      attribution: '© OpenStreetMap © CARTO'
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri, DeLorme, NAVTEQ',
+      maxZoom: 18
     }).addTo(_leafletMap);
     L.control.zoom({ position: 'bottomright' }).addTo(_leafletMap);
 
@@ -2172,7 +2159,6 @@ document.addEventListener("DOMContentLoaded", () => {
   let _districtLayer = null;
   let _clusterGroup = null;
   let _stateBounds = null;
-  let _currentTileLayer = null;
 
   window.initBoothLocationMap = async (boothData, stateAbb) => {
     if (_boothMap) {
@@ -2204,61 +2190,93 @@ document.addEventListener("DOMContentLoaded", () => {
     _boothMap = L.map('boothLeafletMap', { zoomControl: false, scrollWheelZoom: false });
     L.control.zoom({ position: 'bottomright' }).addTo(_boothMap);
 
-    // Free, crisp, watermark-free basemaps
-    const esriLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    // Free, clean, watermark-free basemap matching executive style
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
       attribution: '&copy; Esri, DeLorme, NAVTEQ',
       maxZoom: 18
-    });
-    const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: '&copy; OpenStreetMap contributors',
-      maxZoom: 19
-    });
+    }).addTo(_boothMap);
 
-    _currentTileLayer = esriLayer;
-    _currentTileLayer.addTo(_boothMap);
+    // Normalize strings for robust matching
+    const norm = s => {
+      const n = (s || '').toLowerCase().replace(/[^a-z]/g, '');
+      if (n === 'pattanamtitta') return 'pathanamthitta';
+      return n;
+    };
 
-    // Toolbar Basemap Toggle Buttons
-    const btnCanvas = document.getElementById('btnBasemapCanvas');
-    const btnOSM = document.getElementById('btnBasemapOSM');
-    if (btnCanvas && btnOSM) {
-      btnCanvas.onclick = () => {
-        if (_boothMap.hasLayer(osmLayer)) _boothMap.removeLayer(osmLayer);
-        esriLayer.addTo(_boothMap);
-        _currentTileLayer = esriLayer;
-        btnCanvas.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-bold text-white bg-gray-900 shadow-xs transition-all";
-        btnOSM.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-semibold text-gray-600 hover:text-gray-900 transition-all";
-      };
-      btnOSM.onclick = () => {
-        if (_boothMap.hasLayer(esriLayer)) _boothMap.removeLayer(esriLayer);
-        osmLayer.addTo(_boothMap);
-        _currentTileLayer = osmLayer;
-        btnOSM.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-bold text-white bg-gray-900 shadow-xs transition-all";
-        btnCanvas.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-semibold text-gray-600 hover:text-gray-900 transition-all";
-      };
-    }
-
-    // ── 1. Fetch & Render State & District Boundaries ──
+    // ── 1. Fetch Boundary Data & Compute District Stats ──
     try {
       const bRes = await fetch(`/static/data/boundaries/${stateAbb}.json`);
       if (bRes.ok) {
         const bData = await bRes.json();
+        const acMap = bData.ac_to_district || {};
+        const boothDetails = (boothData && boothData.booth_details) ? boothData.booth_details : [];
 
-        // Render District Polygons
+        // Aggregate by normalized district name
+        const distStats = {};
+        let maxBooths = 0;
+        let minBooths = Infinity;
+
+        boothDetails.forEach(b => {
+          const rawDist = acMap[String(b.ac_no)] || '';
+          const nd = norm(rawDist);
+          if (nd) {
+            if (!distStats[nd]) {
+              distStats[nd] = { booths: 0, acs: 0, voters: 0, displayName: rawDist };
+            }
+            distStats[nd].booths += (b.actual_booths || 0);
+            distStats[nd].acs += 1;
+            distStats[nd].voters += (b.total_voters || 0);
+          }
+        });
+
+        Object.values(distStats).forEach(s => {
+          if (s.booths > maxBooths) maxBooths = s.booths;
+          if (s.booths < minBooths) minBooths = s.booths;
+        });
+        if (minBooths === Infinity) minBooths = 0;
+
+        // 5-tier palette matching EJal Shakti section aesthetics
+        const getDistrictColor = (cnt) => {
+          if (!cnt || cnt <= 0) return '#cbd5e1';
+          if (cnt >= 2500) return '#15803d'; // Green
+          if (cnt >= 2000) return '#4ade80'; // Light Green
+          if (cnt >= 1500) return '#facc15'; // Yellow
+          if (cnt >= 1000) return '#fb923c'; // Orange
+          return '#ef4444';                  // Red (< 1,000)
+        };
+
+        // Render Filled District Polygons with White Separators
         if (bData.district_features && bData.district_features.length > 0) {
           _districtLayer = L.geoJSON(bData.district_features, {
-            style: {
-              color: '#64748b',
-              weight: 1.2,
-              opacity: 0.65,
-              dashArray: '3, 4',
-              fillColor: '#6366f1',
-              fillOpacity: 0.03
+            style: feature => {
+              const dName = norm(feature.properties.NAME_2 || '');
+              const s = distStats[dName];
+              const bCount = s ? s.booths : 0;
+              return {
+                fillColor: getDistrictColor(bCount),
+                fillOpacity: 0.75,
+                color: '#ffffff',
+                weight: 1.5
+              };
             },
             onEachFeature: (feature, layer) => {
-              const dName = feature.properties.NAME_2 || feature.properties.district || 'District';
-              layer.bindTooltip(`<b>${dName} District</b>`, { sticky: true, className: 'text-xs font-bold' });
+              const dName = feature.properties.NAME_2 || 'District';
+              const nd = norm(dName);
+              const s = distStats[nd] || { booths: 0, acs: 0, voters: 0 };
+              const colorStr = getDistrictColor(s.booths);
+
+              layer.bindTooltip(`
+                <div style="font-family:Inter,sans-serif; min-width:140px; padding:2px;">
+                  <strong style="font-size:12px; display:block; color:#111827; margin-bottom:2px;">${dName} District</strong>
+                  <div style="font-size:11.5px; font-weight:800; color:${colorStr}; margin-bottom:2px;">
+                    ${s.booths.toLocaleString()} Booths <span style="font-size:10px; font-weight:500; color:#6b7280;">(${s.acs} ACs)</span>
+                  </div>
+                  <div style="font-size:10px; color:#4b5563;">Electorate: <b>${s.voters.toLocaleString()}</b> Voters</div>
+                </div>
+              `, { sticky: true, direction: 'top', offset: [0, -4] });
+
               layer.on('mouseover', function () {
-                this.setStyle({ weight: 2.2, color: '#4f46e5', fillOpacity: 0.12, dashArray: '' });
+                this.setStyle({ fillOpacity: 0.95, weight: 2.5, color: '#374151' });
                 if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) this.bringToFront();
               });
               layer.on('mouseout', function () {
@@ -2272,8 +2290,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (bData.state_feature) {
           _stateLayer = L.geoJSON(bData.state_feature, {
             style: {
-              color: '#3730a3',
-              weight: 2.5,
+              color: '#1e1b4b',
+              weight: 2.2,
               opacity: 0.9,
               fillColor: 'transparent',
               interactive: false
@@ -2281,14 +2299,14 @@ document.addEventListener("DOMContentLoaded", () => {
           }).addTo(_boothMap);
 
           _stateBounds = _stateLayer.getBounds();
-          _boothMap.fitBounds(_stateBounds, { padding: [20, 20], maxZoom: 11 });
+          _boothMap.fitBounds(_stateBounds, { padding: [15, 15], maxZoom: 10 });
         }
       }
     } catch (bErr) {
       console.warn("Could not load boundary for state:", stateAbb, bErr);
     }
 
-    // ── 2. Render Booth Clusters ──
+    // ── 2. Render Booth Clusters (Always Active Together with Districts) ──
     if (pins.length > 0) {
       if (typeof L.markerClusterGroup === 'function') {
         _clusterGroup = L.markerClusterGroup({
@@ -2320,11 +2338,11 @@ document.addEventListener("DOMContentLoaded", () => {
           if (p.lat && p.lng) {
             const marker = L.circleMarker([p.lat, p.lng], {
               radius: 5.5,
-              fillColor: '#4f46e5',
+              fillColor: '#312e81',
               color: '#ffffff',
               weight: 2,
               opacity: 1,
-              fillOpacity: 0.9
+              fillOpacity: 0.95
             });
 
             marker.bindTooltip(`<b>${p.ac_name || ('AC ' + p.ac_no)}</b> • Booth ${p.booth_no || ''}`, {
@@ -2354,7 +2372,7 @@ document.addEventListener("DOMContentLoaded", () => {
         _boothMap.addLayer(_clusterGroup);
 
         if (!_stateBounds && latlngs.length > 0) {
-          _boothMap.fitBounds(latlngs, { padding: [30, 30], maxZoom: 11 });
+          _boothMap.fitBounds(latlngs, { padding: [30, 30], maxZoom: 10 });
         }
       } else {
         // Fallback without cluster plugin
@@ -2363,61 +2381,18 @@ document.addEventListener("DOMContentLoaded", () => {
           if (p.lat && p.lng) {
             L.circleMarker([p.lat, p.lng], {
               radius: 5,
-              fillColor: '#4f46e5',
+              fillColor: '#312e81',
               color: '#ffffff',
               weight: 1.5,
-              fillOpacity: 0.85
+              fillOpacity: 0.9
             }).addTo(_boothMap);
             latlngs.push([p.lat, p.lng]);
           }
         });
         if (!_stateBounds && latlngs.length > 0) {
-          _boothMap.fitBounds(latlngs, { padding: [25, 25], maxZoom: 11 });
+          _boothMap.fitBounds(latlngs, { padding: [25, 25], maxZoom: 10 });
         }
       }
-    } else {
-      // No pins available: show clean info badge floating over state boundary
-      const infoBox = L.control({ position: 'topright' });
-      infoBox.onAdd = function () {
-        const div = L.DomUtil.create('div', 'bg-white/95 backdrop-blur-md px-3 py-2 rounded-xl shadow-md border border-gray-200 text-xs text-gray-600 font-semibold');
-        div.innerHTML = `<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-amber-500 text-[16px]">info</span> Polling station GPS ingestion pending</span>`;
-        return div;
-      };
-      infoBox.addTo(_boothMap);
-    }
-
-    // ── 3. Wire Up Toolbar Checkboxes & Buttons ──
-    const chkDistricts = document.getElementById('chkDistrictBorders');
-    if (chkDistricts) {
-      chkDistricts.checked = true;
-      chkDistricts.onchange = (e) => {
-        if (_districtLayer) {
-          if (e.target.checked) _boothMap.addLayer(_districtLayer);
-          else _boothMap.removeLayer(_districtLayer);
-        }
-      };
-    }
-
-    const chkClusters = document.getElementById('chkClusterGroup');
-    if (chkClusters) {
-      chkClusters.checked = true;
-      chkClusters.onchange = (e) => {
-        if (_clusterGroup) {
-          if (e.target.checked) _boothMap.addLayer(_clusterGroup);
-          else _boothMap.removeLayer(_clusterGroup);
-        }
-      };
-    }
-
-    const btnReset = document.getElementById('btnResetMapView');
-    if (btnReset) {
-      btnReset.onclick = () => {
-        if (_stateBounds) {
-          _boothMap.fitBounds(_stateBounds, { padding: [20, 20], maxZoom: 11 });
-        } else if (_clusterGroup) {
-          _boothMap.fitBounds(_clusterGroup.getBounds(), { padding: [25, 25] });
-        }
-      };
     }
 
     setTimeout(() => { if (_boothMap) _boothMap.invalidateSize(); }, 350);
