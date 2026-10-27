@@ -2320,7 +2320,13 @@ document.addEventListener("DOMContentLoaded", () => {
           }).addTo(_boothMap);
 
           _stateBounds = _districtLayer.getBounds();
-          _boothMap.fitBounds(_stateBounds, { padding: [15, 15], maxZoom: 9 });
+          _boothMap.fitBounds(_stateBounds, { padding: [0, 0], maxZoom: 10 });
+          setTimeout(() => {
+            if (_boothMap) {
+              _boothMap.invalidateSize();
+              _boothMap.zoomIn(1);
+            }
+          }, 350);
         }
       }
     } catch (bErr) {
