@@ -102,25 +102,25 @@
           "year": "2023",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.4
         },
         {
           "year": "2018",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.86
         },
         {
           "year": "2013",
           "availability": 97.5,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 5.74
         },
         {
           "year": "2008",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.77
         }
       ],
       "matrix_ge": [
@@ -128,19 +128,19 @@
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.01
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -173,7 +173,7 @@
       "availability_pct": 87.19,
       "overall_quality_score": 85.0,
       "missing_acs_count": 1,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 1.61,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -456,13 +456,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -650,25 +650,25 @@
           "year": "2025",
           "availability": 99.59,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.48
         },
         {
           "year": "2020",
           "availability": 89.34,
           "missing": 26,
-          "vote_mismatch": 4.64
+          "vote_mismatch": 10.96
         },
         {
           "year": "2015",
           "availability": 88.52,
           "missing": 28,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 11.7
         },
         {
           "year": "2010",
           "availability": 97.95,
           "missing": 5,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.64
         }
       ],
       "matrix_ge": [
@@ -682,19 +682,19 @@
           "year": "2019",
           "availability": 94.26,
           "missing": 14,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.66
         },
         {
           "year": "2014",
           "availability": 99.59,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 97.95,
           "missing": 5,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.79
         }
       ],
       "unavailable_bypolls": [
@@ -772,7 +772,7 @@
       "availability_pct": 95.88,
       "overall_quality_score": 72.0,
       "missing_acs_count": 88,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.23,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -15676,19 +15676,19 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.32
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.54
         },
         {
           "year": "2012",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.92
         }
       ],
       "matrix_ge": [
@@ -15696,25 +15696,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.04
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -15762,13 +15762,13 @@
       "availability_pct": 100.0,
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.76,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "remark_count": 0
@@ -19719,25 +19719,25 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.63
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.49
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.55
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.44
         }
       ],
       "matrix_ge": [
@@ -19745,25 +19745,25 @@
           "year": "2024",
           "availability": 99.29,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.64
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.36
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.52
         }
       ],
       "unavailable_bypolls": [
@@ -19816,7 +19816,7 @@
       "availability_pct": 99.91,
       "overall_quality_score": 85.0,
       "missing_acs_count": 1,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.79,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -28584,25 +28584,25 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.06
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.2
         },
         {
           "year": "2016",
           "availability": 99.57,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.57
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.3
         }
       ],
       "matrix_ge": [
@@ -28610,25 +28610,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 99.57,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.44
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 92.31,
           "missing": 18,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 7.2
         }
       ],
       "unavailable_bypolls": [
@@ -28701,7 +28701,7 @@
       "availability_pct": 98.93,
       "overall_quality_score": 85.0,
       "missing_acs_count": 20,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.63,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -42930,20 +42930,20 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [],
       "availability_pct": 25.0,
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.0,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "remark_count": 0
@@ -43061,13 +43061,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -43145,13 +43145,13 @@
       "availability_pct": 100.0,
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.0,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "remark_count": 0
@@ -43258,13 +43258,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -43440,19 +43440,19 @@
           "year": "2022",
           "availability": 99.15,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.57
         },
         {
           "year": "2017",
           "availability": 95.73,
           "missing": 5,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.71
         },
         {
           "year": "2012",
           "availability": 93.16,
           "missing": 8,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 6.86
         }
       ],
       "matrix_ge": [
@@ -43460,25 +43460,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 84.62,
           "missing": 18,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 14.6
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 95.73,
           "missing": 5,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.46
         }
       ],
       "unavailable_bypolls": [
@@ -43551,7 +43551,7 @@
       "availability_pct": 95.48,
       "overall_quality_score": 85.0,
       "missing_acs_count": 37,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.19,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -50215,19 +50215,19 @@
           "year": "2023",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.75
         },
         {
           "year": "2018",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.28
         },
         {
           "year": "2013",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.05
         }
       ],
       "matrix_ge": [
@@ -50235,25 +50235,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -50296,7 +50296,7 @@
       "availability_pct": 99.52,
       "overall_quality_score": 85.0,
       "missing_acs_count": 2,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.55,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -53826,13 +53826,13 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.61
         },
         {
           "year": "2014",
           "availability": 96.67,
           "missing": 3,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.08
         }
       ],
       "matrix_ge": [
@@ -53840,25 +53840,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.28
         },
         {
           "year": "2019",
           "availability": 96.67,
           "missing": 3,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.63
         },
         {
           "year": "2014",
           "availability": 96.67,
           "missing": 3,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.37
         },
         {
           "year": "2009",
           "availability": 87.78,
           "missing": 11,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.4
         }
       ],
       "unavailable_bypolls": [
@@ -53881,7 +53881,7 @@
       "availability_pct": 98.48,
       "overall_quality_score": 85.0,
       "missing_acs_count": 20,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 1.36,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -59106,19 +59106,19 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.48
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.46
         },
         {
           "year": "2012",
           "availability": 97.5,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.21
         }
       ],
       "matrix_ge": [
@@ -59126,25 +59126,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.01
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -59177,7 +59177,7 @@
       "availability_pct": 99.64,
       "overall_quality_score": 85.0,
       "missing_acs_count": 1,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.83,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -61573,19 +61573,19 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.92
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.85
         },
         {
           "year": "2012",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.89
         }
       ],
       "matrix_ge": [
@@ -61593,19 +61593,19 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.67
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -61628,13 +61628,13 @@
       "availability_pct": 85.71,
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.65,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "remark_count": 0
@@ -61972,13 +61972,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -62167,19 +62167,19 @@
           "year": "2023",
           "availability": 94.12,
           "missing": 7,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 8.93
         },
         {
           "year": "2018",
           "availability": 91.6,
           "missing": 10,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 9.1
         },
         {
           "year": "2009",
           "availability": 99.16,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.67
         }
       ],
       "matrix_ge": [
@@ -62187,19 +62187,19 @@
           "year": "2024",
           "availability": 99.16,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.87
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.63
         },
         {
           "year": "2009",
           "availability": 92.44,
           "missing": 9,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 6.93
         }
       ],
       "unavailable_bypolls": [
@@ -62272,7 +62272,7 @@
       "availability_pct": 81.87,
       "overall_quality_score": 85.0,
       "missing_acs_count": 28,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.82,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -62839,13 +62839,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -63058,19 +63058,19 @@
           "year": "2022",
           "availability": 98.9,
           "missing": 2,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.96
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.84
         },
         {
           "year": "2012",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.93
         }
       ],
       "matrix_ge": [
@@ -63078,25 +63078,25 @@
           "year": "2024",
           "availability": 93.96,
           "missing": 11,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.44
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.12
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.05
         },
         {
           "year": "2009",
           "availability": 99.45,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.65
         }
       ],
       "unavailable_bypolls": [
@@ -63179,7 +63179,7 @@
       "availability_pct": 98.9,
       "overall_quality_score": 85.0,
       "missing_acs_count": 14,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.53,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -63743,13 +63743,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -63932,25 +63932,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.59
         },
         {
           "year": "2019",
           "availability": 99.32,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.15
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.46
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.13
         }
       ],
       "matrix_ge": [
@@ -63958,25 +63958,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.01
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.61
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.79
         }
       ],
       "unavailable_bypolls": [
@@ -64029,7 +64029,7 @@
       "availability_pct": 99.91,
       "overall_quality_score": 85.0,
       "missing_acs_count": 1,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.71,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -72243,19 +72243,19 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.67
         },
         {
           "year": "2017",
           "availability": 98.26,
           "missing": 7,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.75
         },
         {
           "year": "2012",
           "availability": 98.51,
           "missing": 6,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.68
         }
       ],
       "matrix_ge": [
@@ -72263,25 +72263,25 @@
           "year": "2024",
           "availability": 98.76,
           "missing": 5,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.56
         },
         {
           "year": "2019",
           "availability": 99.01,
           "missing": 4,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.96
         },
         {
           "year": "2014",
           "availability": 68.98,
           "missing": 125,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 31.0
         },
         {
           "year": "2009",
           "availability": 94.54,
           "missing": 22,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 5.46
         }
       ],
       "unavailable_bypolls": [
@@ -72389,7 +72389,7 @@
       "availability_pct": 94.01,
       "overall_quality_score": 85.0,
       "missing_acs_count": 169,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.4,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -76689,7 +76689,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025 (Special Summary Revision 2025)",
           "ssr_booths": 394
         },
         {
@@ -77298,7 +77298,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025 (Special Summary Revision 2025)",
           "ssr_booths": 428
         },
         {
@@ -78574,7 +78574,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025",
+          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025",
           "ssr_booths": 404
         },
         {
@@ -79763,7 +79763,7 @@
           "sir_booths": 480,
           "post_sir_booths": 0,
           "revision_stage": "SIR",
-          "type_of_revision": "विशेष संक्षिप्त पुनरीक्षण 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u0935\u093f\u0936\u0947\u0937 \u0938\u0902\u0915\u094d\u0937\u093f\u092a\u094d\u0924 \u092a\u0941\u0928\u0930\u0940\u0915\u094d\u0937\u0923 2025 (Special Summary Revision 2025)",
           "ssr_booths": 429
         },
         {
@@ -93445,19 +93445,19 @@
           "year": "2023",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.97
         },
         {
           "year": "2018",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.84
         },
         {
           "year": "2013",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.41
         }
       ],
       "matrix_ge": [],
@@ -93491,7 +93491,7 @@
       "availability_pct": 42.38,
       "overall_quality_score": 85.0,
       "missing_acs_count": 2,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 1.74,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -93677,14 +93677,14 @@
         },
         "districts": [
           {
-            "district_name": "Chümoukedima",
+            "district_name": "Ch\u00fcmoukedima",
             "district_code": 758,
             "households": 28091,
             "tap_connections": 25563,
             "coverage_pct": 91.0
           },
           {
-            "district_name": "Chümoukedima and Niuland",
+            "district_name": "Ch\u00fcmoukedima and Niuland",
             "district_code": 764,
             "households": 8775,
             "tap_connections": 8514,
@@ -93768,7 +93768,7 @@
             "coverage_pct": 96.2
           },
           {
-            "district_name": "Tseminyü",
+            "district_name": "Tseminy\u00fc",
             "district_code": 757,
             "households": 11463,
             "tap_connections": 11208,
@@ -93789,7 +93789,7 @@
             "coverage_pct": 97.89
           },
           {
-            "district_name": "Zünheboto",
+            "district_name": "Z\u00fcnheboto",
             "district_code": 251,
             "households": 26744,
             "tap_connections": 24802,
@@ -93826,13 +93826,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -94032,19 +94032,19 @@
           "year": "2026",
           "availability": 97.96,
           "missing": 6,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 3.24
         },
         {
           "year": "2021",
           "availability": 99.32,
           "missing": 2,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.12
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.51
         }
       ],
       "matrix_ge": [
@@ -94052,25 +94052,25 @@
           "year": "2024",
           "availability": 91.5,
           "missing": 25,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 8.41
         },
         {
           "year": "2019",
           "availability": 97.62,
           "missing": 7,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.65
         },
         {
           "year": "2014",
           "availability": 99.32,
           "missing": 2,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.1
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.32
         }
       ],
       "unavailable_bypolls": [
@@ -94158,7 +94158,7 @@
       "availability_pct": 85.71,
       "overall_quality_score": 85.0,
       "missing_acs_count": 42,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.69,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -111632,19 +111632,19 @@
           "year": "2020",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.34
         },
         {
           "year": "2015",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.48
         },
         {
           "year": "2013",
           "availability": 98.57,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.27
         }
       ],
       "matrix_ge": [
@@ -111652,13 +111652,13 @@
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.02
         }
       ],
       "unavailable_bypolls": [
@@ -111681,7 +111681,7 @@
       "availability_pct": 66.51,
       "overall_quality_score": 85.0,
       "missing_acs_count": 1,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.26,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -115716,25 +115716,25 @@
           "year": "2024",
           "availability": 98.89,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.45
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.01
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.58
         },
         {
           "year": "2009",
           "availability": 93.33,
           "missing": 6,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 6.83
         }
       ],
       "matrix_ge": [
@@ -115742,25 +115742,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.08
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.01
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.04
         }
       ],
       "unavailable_bypolls": [
@@ -115808,7 +115808,7 @@
       "availability_pct": 99.03,
       "overall_quality_score": 85.0,
       "missing_acs_count": 7,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.34,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -121210,25 +121210,25 @@
           "year": "2024",
           "availability": 99.31,
           "missing": 2,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.62
         },
         {
           "year": "2019",
           "availability": 98.61,
           "missing": 4,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.09
         },
         {
           "year": "2014",
           "availability": 97.57,
           "missing": 7,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.86
         },
         {
           "year": "2009",
           "availability": 53.12,
           "missing": 135,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 45.94
         }
       ],
       "matrix_ge": [
@@ -121236,25 +121236,25 @@
           "year": "2024",
           "availability": 97.92,
           "missing": 6,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.02
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.27
         },
         {
           "year": "2014",
           "availability": 98.26,
           "missing": 5,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.06
         },
         {
           "year": "2009",
           "availability": 95.49,
           "missing": 13,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.52
         }
       ],
       "unavailable_bypolls": [
@@ -121327,7 +121327,7 @@
       "availability_pct": 92.53,
       "overall_quality_score": 85.0,
       "missing_acs_count": 172,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.47,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -136455,7 +136455,7 @@
           "year": "2009",
           "availability": 95.0,
           "missing": 3,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.48
         }
       ],
       "matrix_ge": [],
@@ -136499,7 +136499,7 @@
       "availability_pct": 24.38,
       "overall_quality_score": 85.0,
       "missing_acs_count": 3,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 1.33,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -136973,13 +136973,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -137130,25 +137130,25 @@
           "year": "2023",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.6
         },
         {
           "year": "2018",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.67
         },
         {
           "year": "2013",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.37
         },
         {
           "year": "2008",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.17
         }
       ],
       "matrix_ge": [
@@ -137156,25 +137156,25 @@
           "year": "2024",
           "availability": 97.78,
           "missing": 2,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.11
         },
         {
           "year": "2019",
           "availability": 98.89,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.07
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -137222,7 +137222,7 @@
       "availability_pct": 99.58,
       "overall_quality_score": 85.0,
       "missing_acs_count": 3,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.39,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -137423,7 +137423,7 @@
             "muslim_pop": 7309
           },
           {
-            "district": "Janjgir – Champa",
+            "district": "Janjgir \u2013 Champa",
             "pct": 0.88,
             "muslim_pop": 14173
           },
@@ -142718,25 +142718,25 @@
           "year": "2023",
           "availability": 97.77,
           "missing": 5,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 5.99
         },
         {
           "year": "2018",
           "availability": 99.11,
           "missing": 2,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.92
         },
         {
           "year": "2013",
           "availability": 99.55,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.57
         },
         {
           "year": "2008",
           "availability": 92.41,
           "missing": 17,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 8.49
         }
       ],
       "matrix_ge": [
@@ -142744,25 +142744,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 98.66,
           "missing": 3,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.31
         },
         {
           "year": "2009",
           "availability": 90.62,
           "missing": 21,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 10.48
         }
       ],
       "unavailable_bypolls": [
@@ -142845,7 +142845,7 @@
       "availability_pct": 97.27,
       "overall_quality_score": 85.0,
       "missing_acs_count": 49,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.85,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -154817,25 +154817,25 @@
           "year": "2024",
           "availability": 59.52,
           "missing": 119,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.38
         },
         {
           "year": "2019",
           "availability": 54.08,
           "missing": 135,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 10.39
         },
         {
           "year": "2014",
           "availability": 59.18,
           "missing": 120,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.46
         },
         {
           "year": "2009",
           "availability": 57.14,
           "missing": 126,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 4.47
         }
       ],
       "matrix_ge": [
@@ -154843,25 +154843,25 @@
           "year": "2024",
           "availability": 59.52,
           "missing": 119,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.56
         },
         {
           "year": "2019",
           "availability": 57.14,
           "missing": 126,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 5.68
         },
         {
           "year": "2014",
           "availability": 54.76,
           "missing": 133,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 8.08
         },
         {
           "year": "2009",
           "availability": 40.48,
           "missing": 175,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 32.68
         }
       ],
       "unavailable_bypolls": [
@@ -154924,7 +154924,7 @@
       "availability_pct": 92.79,
       "overall_quality_score": 85.0,
       "missing_acs_count": 1053,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.9,
       "deviation_cat": "Low",
       "quality_remarks": [
         {
@@ -164304,7 +164304,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 12,
       "total_booths": 29562,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.27,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [
@@ -164312,19 +164312,19 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.27
         },
         {
           "year": "2014",
           "availability": 85.19,
           "missing": 12,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 16.91
         }
       ],
       "matrix_ge": [
@@ -164332,19 +164332,19 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.02
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -169325,7 +169325,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
       "total_booths": 8400,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.73,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [
@@ -169333,25 +169333,25 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.41
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.94
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.18
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.66
         }
       ],
       "matrix_ge": [
@@ -169359,25 +169359,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.29
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -169401,7 +169401,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "total_acs": 30
@@ -169541,13 +169541,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -169649,7 +169649,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
       "total_booths": 280,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.0,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [],
@@ -169665,7 +169665,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "total_acs": 1
@@ -169762,13 +169762,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -169842,7 +169842,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
       "total_booths": 595,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.0,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [],
@@ -169851,7 +169851,7 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [],
@@ -169859,7 +169859,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "total_acs": 2
@@ -170304,8 +170304,8 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
       "total_booths": 8960,
-      "vote_mismatch_pct": 2.41,
-      "deviation_cat": "Low",
+      "vote_mismatch_pct": 2.51,
+      "deviation_cat": "Medium",
       "remark_count": 0,
       "matrix_ae": [],
       "matrix_ge": [],
@@ -170335,7 +170335,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "total_acs": 32
@@ -170509,13 +170509,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -170682,7 +170682,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 2,
       "total_booths": 11733,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.65,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [
@@ -170690,19 +170690,19 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.61
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.31
         },
         {
           "year": "2012",
           "availability": 98.57,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.92
         }
       ],
       "matrix_ge": [
@@ -170710,25 +170710,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.07
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.27
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 98.57,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.55
         }
       ],
       "unavailable_bypolls": [
@@ -174959,7 +174959,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "total_acs": 60
@@ -175202,13 +175202,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -175369,7 +175369,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 17,
       "total_booths": 29213,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.23,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [
@@ -175377,25 +175377,25 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.62
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.6
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.2
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.12
         }
       ],
       "matrix_ge": [
@@ -175403,25 +175403,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 94.44,
           "missing": 7,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 5.36
         },
         {
           "year": "2014",
           "availability": 92.06,
           "missing": 10,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 9.02
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -176643,7 +176643,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025",
           "ssr_booths": 268
         },
         {
@@ -177078,7 +177078,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025",
           "ssr_booths": 264
         },
         {
@@ -177716,7 +177716,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025",
           "ssr_booths": 284
         },
         {
@@ -178499,7 +178499,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
           "ssr_booths": 195
         },
         {
@@ -179050,7 +179050,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষীপ্ত সংশোধন 2025 -> Special Summary Revision 2025",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09c0\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 -> Special Summary Revision 2025",
           "ssr_booths": 211
         },
         {
@@ -179688,7 +179688,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
           "ssr_booths": 237
         },
         {
@@ -179804,7 +179804,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
           "ssr_booths": 281
         },
         {
@@ -179833,7 +179833,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
           "ssr_booths": 328
         },
         {
@@ -179862,7 +179862,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
           "ssr_booths": 299
         },
         {
@@ -179920,7 +179920,7 @@
           "sir_booths": 0,
           "post_sir_booths": 0,
           "revision_stage": "SSR",
-          "type_of_revision": "বিশেষ সংক্ষিপ্ত সংশোধন 2025 (Special Summary Revision 2025)",
+          "type_of_revision": "\u09ac\u09bf\u09b6\u09c7\u09b7 \u09b8\u0982\u0995\u09cd\u09b7\u09bf\u09aa\u09cd\u09a4 \u09b8\u0982\u09b6\u09cb\u09a7\u09a8 2025 (Special Summary Revision 2025)",
           "ssr_booths": 204
         },
         {
@@ -180787,7 +180787,7 @@
           "ac_no": 103,
           "ac_name": "Golaghat",
           "booth_no": "1",
-          "booth_name": "1 - Cheleñgi Gaon L.P. School",
+          "booth_name": "1 - Chele\u00f1gi Gaon L.P. School",
           "lat": 26.53128,
           "lng": 93.96175
         },
@@ -183795,7 +183795,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 17,
       "total_booths": 56000,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.47,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [
@@ -183803,25 +183803,25 @@
           "year": "2023",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.61
         },
         {
           "year": "2018",
           "availability": 99.0,
           "missing": 2,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.82
         },
         {
           "year": "2013",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 1.35
         },
         {
           "year": "2008",
           "availability": 94.5,
           "missing": 11,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 6.27
         }
       ],
       "matrix_ge": [
@@ -183829,25 +183829,25 @@
           "year": "2024",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.48
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.09
         },
         {
           "year": "2009",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.41
         }
       ],
       "unavailable_bypolls": [
@@ -184545,13 +184545,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -184751,7 +184751,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 330,
       "total_booths": 71930,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 2.44,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [
@@ -184759,13 +184759,13 @@
           "year": "2023",
           "availability": 84.78,
           "missing": 35,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 15.98
         },
         {
           "year": "2018",
           "availability": 88.26,
           "missing": 27,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 18.63
         }
       ],
       "matrix_ge": [
@@ -184773,25 +184773,25 @@
           "year": "2024",
           "availability": 80.87,
           "missing": 44,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 18.25
         },
         {
           "year": "2019",
           "availability": 26.52,
           "missing": 169,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 76.15
         },
         {
           "year": "2014",
           "availability": 94.35,
           "missing": 13,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 5.63
         },
         {
           "year": "2009",
           "availability": 81.74,
           "missing": 42,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 18.5
         }
       ],
       "unavailable_bypolls": [
@@ -197340,7 +197340,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
       "total_booths": 280,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.0,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [],
@@ -197349,7 +197349,7 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -197363,7 +197363,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "total_acs": 1
@@ -197477,13 +197477,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -197557,7 +197557,7 @@
       "overall_quality_score": 85.0,
       "missing_acs_count": 0,
       "total_booths": 614,
-      "vote_mismatch_pct": 2.41,
+      "vote_mismatch_pct": 0.0,
       "deviation_cat": "Low",
       "remark_count": 0,
       "matrix_ae": [],
@@ -197566,25 +197566,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 0.0
         }
       ],
       "unavailable_bypolls": [],
@@ -197592,7 +197592,7 @@
         {
           "el_type": "All elections",
           "acs": "None",
-          "issues": "Data complete ✓"
+          "issues": "Data complete \u2713"
         }
       ],
       "total_acs": 1
@@ -197871,13 +197871,13 @@
         "ssr": 0,
         "sir": 0,
         "post_sir": 0,
-        "primary_stage": "—",
+        "primary_stage": "\u2014",
         "sample_revision": ""
       },
       "pre_sir_booths": 0,
       "sir_booths": 0,
       "post_sir_booths": 0,
-      "revision_stage": "—",
+      "revision_stage": "\u2014",
       "ssr_booths": 0,
       "map_pins": []
     },
@@ -197899,6 +197899,10 @@
       "largest_acs": [],
       "smallest_acs": [],
       "booth_voter_details": []
+    },
+    "form20": {
+      "vote_mismatch_pct": 19.13,
+      "deviation_cat": "High"
     }
   }
 }

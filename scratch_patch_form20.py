@@ -50,7 +50,13 @@ def patch_form20_incremental():
                 avail = round((ac_count / exp_c * 100) if exp_c > 0 else 0, 2)
                 if avail > 100.0: avail = 100.0
                 missing = exp_c - ac_count if exp_c >= ac_count else 0
-                vm = 4.64 if (state == 'BR' and str(yr) == '2020') else 2.41
+                # Preserve dynamic vote mismatch from existing cache
+                existing_vm = None
+                for existing_m in cache.get(state, {}).get("form20", {}).get(f"matrix_{ty.lower()}", []):
+                    if str(existing_m.get("year")) == str(yr):
+                        existing_vm = existing_m.get("vote_mismatch")
+                        break
+                vm = existing_vm if existing_vm is not None else 0.0
                 total_booths += (booths or 0)
                 f20_timeline[ty].append({"year": str(yr), "availability": avail, "missing": missing, "vote_mismatch": vm})
 
@@ -88,8 +94,8 @@ def patch_form20_incremental():
                 "availability_pct": avail_pct,
                 "overall_quality_score": 72.00 if state == 'BR' else 85.00,
                 "missing_acs_count": missing_count,
-                "vote_mismatch_pct": 2.41,
-                "deviation_cat": "Low"
+                "vote_mismatch_pct": f20.get("vote_mismatch_pct", 0.0),
+                "deviation_cat": f20.get("deviation_cat", "Low")
             })
             
             # Save incrementally after every state so UI updates live

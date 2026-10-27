@@ -49,6 +49,9 @@ def run_nightly_aggregation():
         # 2. Form 20 Heavy Aggregation (~40 mins)
         ("scratch_patch_form20.py", "Aggregating Form 20 Data"),
         
+        # 2b. Dynamic AC-wise Vote Mismatch calculation
+        ("update_vote_mismatch.py", "Computing Dynamic Vote Mismatches"),
+        
         # 3. True Booth Counts
         ("scratch_fix_booths.py", "Updating True Booth Counts"),
         

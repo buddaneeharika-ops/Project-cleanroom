@@ -123,7 +123,13 @@ def fetch_data_robust():
                         avail = round((ac_count / total_acs * 100) if total_acs > 0 else 0, 2)
                         missing = total_acs - ac_count if total_acs >= ac_count else 0
                         
-                    vm = 4.64 if (state == 'BR' and str(yr) == '2020') else 2.41
+                    # Preserve dynamic vote mismatch from existing cache
+                    existing_vm = None
+                    for existing_m in cache.get(state, {}).get("form20", {}).get(f"matrix_{ty.lower()}", []):
+                        if str(existing_m.get("year")) == str(yr):
+                            existing_vm = existing_m.get("vote_mismatch")
+                            break
+                    vm = existing_vm if existing_vm is not None else 0.0
                     total_booths += (booths or 0)
                     f20_timeline[ty].append({"year": str(yr), "availability": avail, "missing": missing, "vote_mismatch": vm})
 
@@ -292,8 +298,8 @@ def fetch_data_robust():
                         "overall_quality_score": 95.00,
                         "missing_acs_count": sum(r['missing'] for tl in f20_timeline.values() for r in tl),
                         "total_booths": f"{total_booths:,}",
-                        "vote_mismatch_pct": 2.41 if state != 'BR' else 4.64,
-                        "deviation_cat": "Medium" if state == 'BR' else "Low",
+                        "vote_mismatch_pct": cache.get(state, {}).get("form20", {}).get("vote_mismatch_pct", 0.0),
+                        "deviation_cat": cache.get(state, {}).get("form20", {}).get("deviation_cat", "Low"),
                         "remark_count": len(quality_remarks),
                         "matrix_ae": f20_timeline.get('AE', []),
                         "matrix_ge": f20_timeline.get('GE', []),
