@@ -96,10 +96,54 @@
     .custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 4px; }
     .custom-scrollbar::-webkit-scrollbar-thumb { background: #c1c1c1; border-radius: 4px; }
     .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #a8a8a8; }
+
+    /* ── Leaflet Custom Cluster Badges ── */
+    .custom-cluster-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 9999px;
+      font-weight: 800;
+      font-size: 11px;
+      font-family: Inter, system-ui, sans-serif;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25), 0 0 0 3px rgba(255, 255, 255, 0.9);
+      transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: pointer;
+    }
+    .custom-cluster-icon:hover {
+      transform: scale(1.12);
+    }
+    .cluster-small {
+      background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+    }
+    .cluster-medium {
+      background: linear-gradient(135deg, #4f46e5 0%, #2563eb 100%);
+    }
+    .cluster-large {
+      background: linear-gradient(135deg, #7c3aed 0%, #4f46e5 100%);
+    }
+    .marker-cluster-custom {
+      background: transparent !important;
+      border: none !important;
+    }
+    .leaflet-popup-content-wrapper {
+      border-radius: 12px !important;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+      padding: 0 !important;
+      overflow: hidden;
+    }
+    .leaflet-popup-content {
+      margin: 12px 14px !important;
+      line-height: 1.4 !important;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 </head>
 <body class="flex flex-col min-h-screen overflow-x-hidden">
 
@@ -814,15 +858,47 @@
 
           <!-- Interactive Booth Location Map -->
           <div class="bg-white border border-gray-200 rounded-xl p-4 shadow-sm flex flex-col">
-            <div class="flex items-center justify-between mb-2 border-b border-gray-100 pb-2">
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2 border-b border-gray-100 pb-2.5 gap-2">
               <div class="flex items-center gap-2">
-                <span class="material-symbols-outlined text-teal-600 text-[18px]">map</span>
-                <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">Booth Location Map</h3>
+                <span class="material-symbols-outlined text-indigo-600 text-[20px]">explore</span>
+                <div>
+                  <h3 class="text-xs font-black text-gray-800 uppercase tracking-wider">State Booth Spatial Distribution</h3>
+                  <p class="text-[10px] text-gray-400 font-medium">Boundary-aligned polling station clusters &amp; district topology</p>
+                </div>
               </div>
-              <span class="text-[10px] font-bold text-gray-400" id="boothMapLabel">Statewide Spatial Coverage</span>
+              <div class="flex items-center gap-1.5 self-start sm:self-auto">
+                <span class="chip chip-blue text-[9.5px] font-bold" id="boothMapStateBadge">State</span>
+                <span class="chip chip-green text-[9.5px] font-bold" id="boothMapPinCount">GPS Nodes</span>
+              </div>
             </div>
-            <p class="text-[10.5px] text-gray-500 mb-2">Interactive constituency booth clusters across administrative boundaries</p>
-            <div id="boothLeafletMap" class="w-full flex-1 rounded-lg border border-gray-200 overflow-hidden" style="min-height: 240px; z-index: 10;"></div>
+
+            <!-- Toolbar Controls -->
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-2.5 bg-slate-50/90 p-2 rounded-xl border border-slate-200/70 text-[11px]">
+              <!-- Left: Layer Toggles -->
+              <div class="flex items-center gap-3">
+                <label class="flex items-center gap-1.5 cursor-pointer select-none text-gray-700 font-semibold hover:text-indigo-600 transition-colors">
+                  <input type="checkbox" id="chkDistrictBorders" checked class="w-3.5 h-3.5 text-indigo-600 rounded border-gray-300 focus:ring-0 cursor-pointer" />
+                  <span>District Outlines</span>
+                </label>
+                <label class="flex items-center gap-1.5 cursor-pointer select-none text-gray-700 font-semibold hover:text-indigo-600 transition-colors">
+                  <input type="checkbox" id="chkClusterGroup" checked class="w-3.5 h-3.5 text-indigo-600 rounded border-gray-300 focus:ring-0 cursor-pointer" />
+                  <span>Booth Clusters</span>
+                </label>
+              </div>
+
+              <!-- Right: Basemap Selector & Reset -->
+              <div class="flex items-center gap-1.5">
+                <div class="inline-flex bg-white rounded-lg p-0.5 border border-gray-200 shadow-xs">
+                  <button type="button" id="btnBasemapCanvas" class="px-2.5 py-0.5 rounded-md text-[10.5px] font-bold text-white bg-gray-900 shadow-xs transition-all">Clean Canvas</button>
+                  <button type="button" id="btnBasemapOSM" class="px-2.5 py-0.5 rounded-md text-[10.5px] font-semibold text-gray-600 hover:text-gray-900 transition-all">Streets</button>
+                </div>
+                <button type="button" id="btnResetMapView" class="flex items-center gap-1 px-2.5 py-0.5 bg-white hover:bg-gray-100 text-gray-700 font-bold rounded-lg border border-gray-200 text-[10.5px] transition-all shadow-xs" title="Reset View to State Bounds">
+                  <span class="material-symbols-outlined text-[13px]">refresh</span> Reset View
+                </button>
+              </div>
+            </div>
+
+            <div id="boothLeafletMap" class="w-full flex-1 rounded-xl border border-gray-200 overflow-hidden relative shadow-inner" style="min-height: 380px; z-index: 10;"></div>
           </div>
         </div>
 
@@ -2092,61 +2168,259 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ═══ BOOTH LOCATION MAP & TABLES HELPERS ═══ */
   let _boothMap = null;
-  window.initBoothLocationMap = (boothData, stateAbb) => {
-    if(_boothMap) {
+  let _stateLayer = null;
+  let _districtLayer = null;
+  let _clusterGroup = null;
+  let _stateBounds = null;
+  let _currentTileLayer = null;
+
+  window.initBoothLocationMap = async (boothData, stateAbb) => {
+    if (_boothMap) {
       try { _boothMap.remove(); } catch(e){}
       _boothMap = null;
+      _stateLayer = null;
+      _districtLayer = null;
+      _clusterGroup = null;
+      _stateBounds = null;
     }
     const container = document.getElementById('boothLeafletMap');
-    if(!container) return;
+    if (!container) return;
 
-    const pins = (boothData && boothData.map_pins) ? boothData.map_pins : [];
-    if(pins.length > 0) {
-      container.innerHTML = '';
-      _boothMap = L.map('boothLeafletMap', { zoomControl: false, scrollWheelZoom: false });
-      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; CartoDB &copy; OpenStreetMap',
-        maxZoom: 18
-      }).addTo(_boothMap);
-      L.control.zoom({ position: 'bottomright' }).addTo(_boothMap);
-
-      const latlngs = [];
-      pins.forEach(p => {
-        if(p.lat && p.lng) {
-          const marker = L.circleMarker([p.lat, p.lng], {
-            radius: 5,
-            fillColor: '#4f46e5',
-            color: '#ffffff',
-            weight: 1.5,
-            opacity: 1,
-            fillOpacity: 0.85
-          }).addTo(_boothMap);
-          marker.bindPopup(`
-            <div style="font-family: Inter, sans-serif; min-width: 160px; padding: 4px;">
-              <div style="font-weight: 800; color: #1e1b4b; font-size: 12px; margin-bottom: 2px;">${p.ac_name || ('AC ' + p.ac_no)}</div>
-              <div style="color: #4b5563; font-size: 11px;">Booth: <b>${p.booth_no || ''}</b> ${p.booth_name ? '— ' + p.booth_name : ''}</div>
-              <div style="color: #9ca3af; font-size: 10px; margin-top: 3px;">📍 ${p.lat.toFixed(4)}, ${p.lng.toFixed(4)}</div>
-            </div>
-          `);
-          latlngs.push([p.lat, p.lng]);
-        }
-      });
-
-      if(latlngs.length > 0) {
-        _boothMap.fitBounds(latlngs, { padding: [20, 20], maxZoom: 12 });
-      }
-      setTimeout(() => { if(_boothMap) _boothMap.invalidateSize(); }, 300);
-      return;
+    const stateBadge = document.getElementById('boothMapStateBadge');
+    if (stateBadge) {
+      const sName = (window.stateNameCache && window.stateNameCache[stateAbb]) || stateAbb;
+      stateBadge.innerText = sName;
     }
 
-    // Display clean placeholder: coordinates are not in the database
-    container.innerHTML = `
-      <div class="h-full w-full min-h-[240px] flex flex-col items-center justify-center p-6 text-center bg-gray-50/80 rounded-lg border border-dashed border-gray-200">
-        <span class="material-symbols-outlined text-gray-400 text-4xl mb-2">location_off</span>
-        <p class="text-xs font-bold text-gray-700">Booth Spatial Coordinates Not in DB</p>
-        <p class="text-[11px] text-gray-400 mt-1 max-w-sm">Physical booth coordinates (latitude/longitude) are not stored in the database. Map visualization will activate once coordinate layers are ingested.</p>
-      </div>
-    `;
+    const pins = (boothData && boothData.map_pins) ? boothData.map_pins : [];
+    const pinCountBadge = document.getElementById('boothMapPinCount');
+    if (pinCountBadge) {
+      pinCountBadge.innerText = pins.length > 0 ? `${pins.length} Nodes` : 'No GPS Data';
+    }
+
+    container.innerHTML = '';
+
+    // Initialize Leaflet Map
+    _boothMap = L.map('boothLeafletMap', { zoomControl: false, scrollWheelZoom: false });
+    L.control.zoom({ position: 'bottomright' }).addTo(_boothMap);
+
+    // Free, crisp, watermark-free basemaps
+    const esriLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+      attribution: '&copy; Esri, DeLorme, NAVTEQ',
+      maxZoom: 18
+    });
+    const osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 19
+    });
+
+    _currentTileLayer = esriLayer;
+    _currentTileLayer.addTo(_boothMap);
+
+    // Toolbar Basemap Toggle Buttons
+    const btnCanvas = document.getElementById('btnBasemapCanvas');
+    const btnOSM = document.getElementById('btnBasemapOSM');
+    if (btnCanvas && btnOSM) {
+      btnCanvas.onclick = () => {
+        if (_boothMap.hasLayer(osmLayer)) _boothMap.removeLayer(osmLayer);
+        esriLayer.addTo(_boothMap);
+        _currentTileLayer = esriLayer;
+        btnCanvas.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-bold text-white bg-gray-900 shadow-xs transition-all";
+        btnOSM.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-semibold text-gray-600 hover:text-gray-900 transition-all";
+      };
+      btnOSM.onclick = () => {
+        if (_boothMap.hasLayer(esriLayer)) _boothMap.removeLayer(esriLayer);
+        osmLayer.addTo(_boothMap);
+        _currentTileLayer = osmLayer;
+        btnOSM.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-bold text-white bg-gray-900 shadow-xs transition-all";
+        btnCanvas.className = "px-2.5 py-0.5 rounded-md text-[10.5px] font-semibold text-gray-600 hover:text-gray-900 transition-all";
+      };
+    }
+
+    // ── 1. Fetch & Render State & District Boundaries ──
+    try {
+      const bRes = await fetch(`/static/data/boundaries/${stateAbb}.json`);
+      if (bRes.ok) {
+        const bData = await bRes.json();
+
+        // Render District Polygons
+        if (bData.district_features && bData.district_features.length > 0) {
+          _districtLayer = L.geoJSON(bData.district_features, {
+            style: {
+              color: '#64748b',
+              weight: 1.2,
+              opacity: 0.65,
+              dashArray: '3, 4',
+              fillColor: '#6366f1',
+              fillOpacity: 0.03
+            },
+            onEachFeature: (feature, layer) => {
+              const dName = feature.properties.NAME_2 || feature.properties.district || 'District';
+              layer.bindTooltip(`<b>${dName} District</b>`, { sticky: true, className: 'text-xs font-bold' });
+              layer.on('mouseover', function () {
+                this.setStyle({ weight: 2.2, color: '#4f46e5', fillOpacity: 0.12, dashArray: '' });
+                if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) this.bringToFront();
+              });
+              layer.on('mouseout', function () {
+                _districtLayer.resetStyle(this);
+              });
+            }
+          }).addTo(_boothMap);
+        }
+
+        // Render State Outer Boundary Polygon
+        if (bData.state_feature) {
+          _stateLayer = L.geoJSON(bData.state_feature, {
+            style: {
+              color: '#3730a3',
+              weight: 2.5,
+              opacity: 0.9,
+              fillColor: 'transparent',
+              interactive: false
+            }
+          }).addTo(_boothMap);
+
+          _stateBounds = _stateLayer.getBounds();
+          _boothMap.fitBounds(_stateBounds, { padding: [20, 20], maxZoom: 11 });
+        }
+      }
+    } catch (bErr) {
+      console.warn("Could not load boundary for state:", stateAbb, bErr);
+    }
+
+    // ── 2. Render Booth Clusters ──
+    if (pins.length > 0) {
+      if (typeof L.markerClusterGroup === 'function') {
+        _clusterGroup = L.markerClusterGroup({
+          showCoverageOnHover: false,
+          zoomToBoundsOnClick: true,
+          spiderfyOnMaxZoom: true,
+          maxClusterRadius: 40,
+          iconCreateFunction: function (cluster) {
+            const count = cluster.getChildCount();
+            let cClass = 'cluster-small';
+            let size = 32;
+            if (count >= 10 && count < 30) {
+              cClass = 'cluster-medium';
+              size = 38;
+            } else if (count >= 30) {
+              cClass = 'cluster-large';
+              size = 44;
+            }
+            return L.divIcon({
+              html: `<div class="custom-cluster-icon ${cClass}" style="width:${size}px; height:${size}px;"><span>${count}</span></div>`,
+              className: 'marker-cluster-custom',
+              iconSize: L.point(size, size)
+            });
+          }
+        });
+
+        const latlngs = [];
+        pins.forEach(p => {
+          if (p.lat && p.lng) {
+            const marker = L.circleMarker([p.lat, p.lng], {
+              radius: 5.5,
+              fillColor: '#4f46e5',
+              color: '#ffffff',
+              weight: 2,
+              opacity: 1,
+              fillOpacity: 0.9
+            });
+
+            marker.bindTooltip(`<b>${p.ac_name || ('AC ' + p.ac_no)}</b> • Booth ${p.booth_no || ''}`, {
+              direction: 'top',
+              offset: [0, -6]
+            });
+
+            marker.bindPopup(`
+              <div style="font-family: Inter, sans-serif; min-width: 210px; padding: 2px;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 5px;">
+                  <span style="font-size:10px; font-weight:800; text-transform:uppercase; color:#4f46e5; letter-spacing:0.05em;">Booth ${p.booth_no || ''}</span>
+                  <span style="background:#dcfce7; color:#15803d; font-size:9.5px; font-weight:700; padding:2px 7px; border-radius:4px;">Verified GPS</span>
+                </div>
+                <div style="font-weight:800; color:#111827; font-size:13px; line-height:1.25; margin-bottom:4px;">${p.booth_name || 'Polling Station'}</div>
+                <div style="color:#6b7280; font-size:11px; font-weight:600; margin-bottom:6px;">${p.ac_name ? p.ac_name + ' (AC ' + p.ac_no + ')' : ('AC ' + p.ac_no)}</div>
+                <div style="font-size:10.5px; font-family:monospace; color:#4b5563; background:#f9fafb; padding:4px 8px; border-radius:6px; border:1px solid #e5e7eb;">
+                  📍 ${p.lat.toFixed(5)}, ${p.lng.toFixed(5)}
+                </div>
+              </div>
+            `);
+
+            _clusterGroup.addLayer(marker);
+            latlngs.push([p.lat, p.lng]);
+          }
+        });
+
+        _boothMap.addLayer(_clusterGroup);
+
+        if (!_stateBounds && latlngs.length > 0) {
+          _boothMap.fitBounds(latlngs, { padding: [30, 30], maxZoom: 11 });
+        }
+      } else {
+        // Fallback without cluster plugin
+        const latlngs = [];
+        pins.forEach(p => {
+          if (p.lat && p.lng) {
+            L.circleMarker([p.lat, p.lng], {
+              radius: 5,
+              fillColor: '#4f46e5',
+              color: '#ffffff',
+              weight: 1.5,
+              fillOpacity: 0.85
+            }).addTo(_boothMap);
+            latlngs.push([p.lat, p.lng]);
+          }
+        });
+        if (!_stateBounds && latlngs.length > 0) {
+          _boothMap.fitBounds(latlngs, { padding: [25, 25], maxZoom: 11 });
+        }
+      }
+    } else {
+      // No pins available: show clean info badge floating over state boundary
+      const infoBox = L.control({ position: 'topright' });
+      infoBox.onAdd = function () {
+        const div = L.DomUtil.create('div', 'bg-white/95 backdrop-blur-md px-3 py-2 rounded-xl shadow-md border border-gray-200 text-xs text-gray-600 font-semibold');
+        div.innerHTML = `<span class="flex items-center gap-1.5"><span class="material-symbols-outlined text-amber-500 text-[16px]">info</span> Polling station GPS ingestion pending</span>`;
+        return div;
+      };
+      infoBox.addTo(_boothMap);
+    }
+
+    // ── 3. Wire Up Toolbar Checkboxes & Buttons ──
+    const chkDistricts = document.getElementById('chkDistrictBorders');
+    if (chkDistricts) {
+      chkDistricts.checked = true;
+      chkDistricts.onchange = (e) => {
+        if (_districtLayer) {
+          if (e.target.checked) _boothMap.addLayer(_districtLayer);
+          else _boothMap.removeLayer(_districtLayer);
+        }
+      };
+    }
+
+    const chkClusters = document.getElementById('chkClusterGroup');
+    if (chkClusters) {
+      chkClusters.checked = true;
+      chkClusters.onchange = (e) => {
+        if (_clusterGroup) {
+          if (e.target.checked) _boothMap.addLayer(_clusterGroup);
+          else _boothMap.removeLayer(_clusterGroup);
+        }
+      };
+    }
+
+    const btnReset = document.getElementById('btnResetMapView');
+    if (btnReset) {
+      btnReset.onclick = () => {
+        if (_stateBounds) {
+          _boothMap.fitBounds(_stateBounds, { padding: [20, 20], maxZoom: 11 });
+        } else if (_clusterGroup) {
+          _boothMap.fitBounds(_clusterGroup.getBounds(), { padding: [25, 25] });
+        }
+      };
+    }
+
+    setTimeout(() => { if (_boothMap) _boothMap.invalidateSize(); }, 350);
   };
 
   /* ═══ REQUIREMENT 1: BOOTH DETAILS TABLE ═══ */
