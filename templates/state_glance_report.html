@@ -905,7 +905,10 @@
               <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#4ade80] inline-block"></span>2,000–2,500</div>
               <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#facc15] inline-block"></span>1,500–2,000</div>
               <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#fb923c] inline-block"></span>1,000–1,500</div>
-              <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded-sm bg-[#ef4444] inline-block"></span>&lt; 1,000 Booths</div>
+              <div class="flex items-center gap-1.5 mb-1"><span class="w-3 h-3 rounded-sm bg-[#ef4444] inline-block"></span>&lt; 1,000 Booths</div>
+              <div class="mt-1 pt-1 border-t border-gray-200/80 flex items-center gap-1.5 text-gray-700 font-bold text-[8.5px]">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#1e1b4b] border border-white shadow-xs inline-block"></span><span>Booth GPS Nodes</span>
+              </div>
             </div>
           </div>
         </div>
@@ -2398,10 +2401,15 @@ document.addEventListener("DOMContentLoaded", () => {
           }
         });
 
+        // Display booth clusters by default on initial load
+        _boothMap.addLayer(_clusterGroup);
+
         // Wire interactive toggle button for GPS Nodes
         const toggleBtn = document.getElementById('toggleBoothPinsBtn');
         const statusDot = document.getElementById('boothPinStatusDot');
+        if (statusDot) statusDot.className = 'w-2 h-2 rounded-full bg-emerald-500 inline-block transition';
         if (toggleBtn) {
+          toggleBtn.classList.add('bg-indigo-50', 'border-indigo-300', 'text-indigo-700');
           toggleBtn.onclick = function (e) {
             e.stopPropagation();
             if (_boothMap.hasLayer(_clusterGroup)) {
