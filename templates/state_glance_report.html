@@ -127,6 +127,24 @@
       background: transparent !important;
       border: none !important;
     }
+    .booth-pin-icon {
+      background: transparent !important;
+      border: none !important;
+    }
+    .booth-dot-circle {
+      width: 12px;
+      height: 12px;
+      border-radius: 9999px;
+      background: #1e1b4b;
+      border: 2.2px solid #ffffff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.45);
+      transition: transform 0.15s ease, background-color 0.15s ease;
+      cursor: pointer;
+    }
+    .booth-dot-circle:hover {
+      transform: scale(1.35);
+      background: #4f46e5;
+    }
     .leaflet-popup-content-wrapper {
       border-radius: 12px !important;
       box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
@@ -2190,6 +2208,10 @@ document.addEventListener("DOMContentLoaded", () => {
     _boothMap = L.map('boothLeafletMap', { zoomControl: false, scrollWheelZoom: false });
     L.control.zoom({ position: 'bottomright' }).addTo(_boothMap);
 
+    // Dedicated map pane for district polygons strictly below markers (z-index 350)
+    _boothMap.createPane('districtBoundaryPane');
+    _boothMap.getPane('districtBoundaryPane').style.zIndex = 350;
+
     // Free, clean, watermark-free basemap matching executive style
     L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
       attribution: '&copy; Esri, DeLorme, NAVTEQ',
@@ -2245,9 +2267,10 @@ document.addEventListener("DOMContentLoaded", () => {
           return '#ef4444';                  // Red (< 1,000)
         };
 
-        // Render Filled District Polygons with White Separators
+        // Render Filled District Polygons with White Separators in lower pane
         if (bData.district_features && bData.district_features.length > 0) {
           _districtLayer = L.geoJSON(bData.district_features, {
+            pane: 'districtBoundaryPane',
             style: feature => {
               const dName = norm(feature.properties.NAME_2 || '');
               const s = distStats[dName];
@@ -2276,8 +2299,7 @@ document.addEventListener("DOMContentLoaded", () => {
               `, { sticky: true, direction: 'top', offset: [0, -4] });
 
               layer.on('mouseover', function () {
-                this.setStyle({ fillOpacity: 0.95, weight: 2.5, color: '#374151' });
-                if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) this.bringToFront();
+                this.setStyle({ fillOpacity: 0.9, weight: 2.5, color: '#374151' });
               });
               layer.on('mouseout', function () {
                 _districtLayer.resetStyle(this);
@@ -2286,9 +2308,10 @@ document.addEventListener("DOMContentLoaded", () => {
           }).addTo(_boothMap);
         }
 
-        // Render State Outer Boundary Polygon
+        // Render State Outer Boundary Polygon in lower pane
         if (bData.state_feature) {
           _stateLayer = L.geoJSON(bData.state_feature, {
+            pane: 'districtBoundaryPane',
             style: {
               color: '#1e1b4b',
               weight: 2.2,
@@ -2306,8 +2329,15 @@ document.addEventListener("DOMContentLoaded", () => {
       console.warn("Could not load boundary for state:", stateAbb, bErr);
     }
 
-    // ── 2. Render Booth Clusters (Always Active Together with Districts) ──
+    // ── 2. Render Booth Clusters (Always In Front of Districts) ──
     if (pins.length > 0) {
+      const boothDotIcon = L.divIcon({
+        className: 'booth-pin-icon',
+        html: '<div class="booth-dot-circle"></div>',
+        iconSize: [12, 12],
+        iconAnchor: [6, 6]
+      });
+
       if (typeof L.markerClusterGroup === 'function') {
         _clusterGroup = L.markerClusterGroup({
           showCoverageOnHover: false,
@@ -2336,18 +2366,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const latlngs = [];
         pins.forEach(p => {
           if (p.lat && p.lng) {
-            const marker = L.circleMarker([p.lat, p.lng], {
-              radius: 5.5,
-              fillColor: '#312e81',
-              color: '#ffffff',
-              weight: 2,
-              opacity: 1,
-              fillOpacity: 0.95
+            const marker = L.marker([p.lat, p.lng], {
+              icon: boothDotIcon
             });
 
             marker.bindTooltip(`<b>${p.ac_name || ('AC ' + p.ac_no)}</b> • Booth ${p.booth_no || ''}`, {
               direction: 'top',
-              offset: [0, -6]
+              offset: [0, -8]
             });
 
             marker.bindPopup(`
@@ -2379,13 +2404,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const latlngs = [];
         pins.forEach(p => {
           if (p.lat && p.lng) {
-            L.circleMarker([p.lat, p.lng], {
-              radius: 5,
-              fillColor: '#312e81',
-              color: '#ffffff',
-              weight: 1.5,
-              fillOpacity: 0.9
-            }).addTo(_boothMap);
+            L.marker([p.lat, p.lng], { icon: boothDotIcon }).addTo(_boothMap);
             latlngs.push([p.lat, p.lng]);
           }
         });
