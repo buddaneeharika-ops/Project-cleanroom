@@ -2225,10 +2225,20 @@ document.addEventListener("DOMContentLoaded", () => {
       maxZoom: 18
     }).addTo(_boothMap);
 
-    // Normalize strings for robust matching
+    // Normalize strings for robust matching with alias resolution
     const norm = s => {
-      const n = (s || '').toLowerCase().replace(/[^a-z]/g, '');
+      let n = (s || '').toLowerCase().replace(/[^a-z]/g, '');
       if (n === 'pattanamtitta') return 'pathanamthitta';
+      if (n === 'visakhapatnam' || n === 'vishakhapatnam') return 'visakhapatnam';
+      if (n === 'kaimurbhabua' || n === 'kaimur') return 'bhabua';
+      if (n === 'dohad') return 'dahod';
+      if (n === 'baster') return 'bastar';
+      if (n === 'dhuburi') return 'dhubri';
+      if (n === 'lahulandspiti') return 'lahulspiti';
+      if (n === 'koderma') return 'kodarma';
+      if (n === 'pondicherry') return 'puducherry';
+      if (n === 'eastmidnapore') return 'purbamedinapur';
+      if (n === 'westmidnapore') return 'paschimmedinapur';
       return n;
     };
 
@@ -2246,13 +2256,13 @@ document.addEventListener("DOMContentLoaded", () => {
         let minBooths = Infinity;
 
         boothDetails.forEach(b => {
-          const rawDist = acMap[String(b.ac_no)] || '';
+          const rawDist = acMap[String(b.ac_no)] || b.district || '';
           const nd = norm(rawDist);
           if (nd) {
             if (!distStats[nd]) {
               distStats[nd] = { booths: 0, acs: 0, voters: 0, displayName: rawDist };
             }
-            distStats[nd].booths += (b.actual_booths || 0);
+            distStats[nd].booths += (b.actual_booths || b.extracted_booths || 0);
             distStats[nd].acs += 1;
             distStats[nd].voters += (b.total_voters || 0);
           }

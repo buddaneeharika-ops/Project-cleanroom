@@ -100,9 +100,11 @@ def generate_booth_voter_data():
             (b.prakhand IS NULL OR b.prakhand = '') AND
             (b.anchal IS NULL OR b.anchal = '') AND
             (b.anumandal IS NULL OR b.anumandal = '')
-        THEN 1 END) AS missing_subadmin
+        THEN 1 END) AS missing_subadmin,
+        COALESCE(MAX(b.district), MAX(d.district_name), '') AS district_name
     FROM booth_metadata_full_view b
     LEFT JOIN ac_mapping a ON b.state_abb = a.state_abb AND b.ac_no = a.ac_no
+    LEFT JOIN district d ON a.district_id = d.district_id
     GROUP BY b.state_abb, b.ac_no, a.ac_name
     ORDER BY b.state_abb, b.ac_no;
     """
@@ -113,7 +115,7 @@ def generate_booth_voter_data():
     state_booth_details = {}
     
     for r in ac_rows:
-        s_abb, ac_no, ac_name, b_cnt, act_cnt, tot_v, m_v, f_v, dist_cnt, blk_cnt, pan_cnt, ps_cnt, mis_ps, mis_pin, mis_sub = r
+        s_abb, ac_no, ac_name, b_cnt, act_cnt, tot_v, m_v, f_v, dist_cnt, blk_cnt, pan_cnt, ps_cnt, mis_ps, mis_pin, mis_sub, dist_name = r
         if s_abb == 'CG':
             s_abb = 'CH'
         if s_abb not in state_acs_map:
@@ -132,6 +134,7 @@ def generate_booth_voter_data():
             'state': s_abb,
             'ac_no': ac_no,
             'ac_name': ac_name,
+            'district': dist_name,
             'actual_booths': act_cnt,  # Real count from max serial booth / extracted
             'extracted_booths': b_cnt,  # Real count from booth_metadata_full_view
             'total_blocks': blk_cnt if blk_cnt > 0 else 0,
@@ -155,6 +158,7 @@ def generate_booth_voter_data():
         state_acs_map[s_abb].append({
             'ac_no': ac_no,
             'ac_name': ac_name,
+            'district': dist_name,
             'total_booths': b_cnt,
             'total_voters': tot_v,
             'male_voters': m_v,
