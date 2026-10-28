@@ -435,9 +435,9 @@
 
       <div class="glass-kpi rounded-2xl p-5 flex items-center justify-between gap-4">
         <div class="min-w-0">
-          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Voter Roll Avg</p>
-          <h2 class="text-[28px] font-bold text-gray-900 tabular-nums leading-none" id="kpi-voter">—</h2>
-          <p class="text-[11px] text-gray-400 mt-1.5">Electoral roll voter data</p>
+          <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest mb-1.5">Booth Coordinates Avg</p>
+          <h2 class="text-[28px] font-bold text-gray-900 tabular-nums leading-none" id="kpi-coordinates">—</h2>
+          <p class="text-[11px] text-gray-400 mt-1.5">Verified GIS Lat/Long Coordinates</p>
         </div>
         <div class="w-11 h-11 rounded-full bg-emerald-50 border border-emerald-100 flex items-center justify-center shrink-0">
           <div class="sdot sdot-light-green" style="width:14px;height:14px;"></div>
@@ -495,6 +495,7 @@
                     <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="form20" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Form 20</label>
                     <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="caste" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Caste</label>
                     <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="booth" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Booth</label>
+                    <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="coordinates" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Coordinates</label>
                     <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="muslim" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Muslim</label>
                     <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="joshua" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> Joshua</label>
                     <label class="flex items-center gap-1.5 cursor-pointer hover:bg-gray-50 p-1 -ml-1 rounded"><input type="checkbox" value="secc" class="filter-col-chk rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"> SECC</label>
@@ -604,10 +605,10 @@
                     <td class="px-3 py-1.5 text-gray-600 font-medium">ACwise Caste details</td>
                   </tr>
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
-                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Voter Roll</td>
-                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AcName, TotalElectors, MaleElectors, FemaleElectors, GenderRatio, AgeDistribution, UrbanRuralPct</td>
-                    <td class="px-3 py-1.5"><span class="bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">ECI Rolls</span></td>
-                    <td class="px-3 py-1.5 text-gray-600 font-medium">ACwise Electors &amp; Demographics</td>
+                    <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Booth Coordinates</td>
+                    <td class="px-3 py-1.5 text-gray-600 leading-tight font-medium">AcName, BoothNo, Latitude, Longitude, InBoundaryValidation (KL, TN, WB, AS, BR)</td>
+                    <td class="px-3 py-1.5"><span class="bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded-sm font-bold text-[10px]">Polaris &amp; ECI GIS</span></td>
+                    <td class="px-3 py-1.5 text-gray-600 font-medium">Verified Polling Station GPS Coordinates &amp; Geo-Validation</td>
                   </tr>
                   <tr class="hover:bg-indigo-50/30 transition-colors group">
                     <td class="px-3 py-1.5 font-bold text-gray-900 whitespace-nowrap group-hover:text-indigo-600 transition-colors">Form 20</td>
@@ -647,6 +648,10 @@
                 <li class="flex gap-2">
                   <span class="font-bold text-indigo-400">2.</span>
                   <span>Percentages for Retro Data and Form 20 Data are computed using the election type, election year, and the count of actual ACs for which data is available.</span>
+                </li>
+                <li class="flex gap-2">
+                  <span class="font-bold text-indigo-400">3.</span>
+                  <span>Booth Coordinates percentage reflects the proportion of polling booths with validated, in-boundary GIS latitude-longitude coordinates (available for KL, TN, WB, AS, BR).</span>
                 </li>
                 
               </ul>
@@ -803,7 +808,7 @@
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('caste')">Caste Data</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('booth')">Booth Details</th>
-              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('voter')">Voter Roll</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('coordinates')">Booth Coordinates</th>
               <!-- Auxiliary cols -->
               <th class="text-center other-col bg-gray-50/50">Muslim Census</th>
               <th class="text-center other-col bg-gray-50/50">Joshua</th>
@@ -853,6 +858,7 @@
     fillDp('dp-form20-pct', 'kpi-form20');
     fillDp('dp-caste-pct',  'kpi-caste');
     fillDp('dp-booth-pct',  'kpi-booth');
+    fillDp('dp-coordinates-pct', 'kpi-coordinates');
   }
 
   // ── Data load ───────────────────────────────────────────────────
@@ -881,7 +887,12 @@
             form20:    m.form20    ?? 0,
             caste:     m.caste     ?? 0,
             booth:     m.booth     ?? 0,
-            voter:     m.voter     ?? 0,
+            coordinates: m.coordinates ?? m.voter ?? 0,
+            voter:     m.coordinates ?? m.voter ?? 0,
+            valid_coordinates: m.valid_coordinates ?? 0,
+            total_booths: m.total_booths ?? 0,
+            total_voters: m.total_voters ?? 0,
+            gender_ratio: m.gender_ratio ?? 0,
             muslim:    m.muslim    ?? 0,
             joshua:    m.joshua    ?? 0,
             kys:       m.kys       ?? 0,
@@ -905,7 +916,9 @@
         setKPI('kpi-form20', nav.form20 ?? calcAvg('form20'));
         setKPI('kpi-caste',  nav.caste  ?? calcAvg('caste'));
         setKPI('kpi-booth',  nav.booth  ?? calcAvg('booth'));
-        setKPI('kpi-voter',  nav.voter  ?? calcAvg('voter'));
+        const coordAvg = nav.coordinates ?? nav.voter ?? calcAvg('coordinates');
+        setKPI('kpi-coordinates', coordAvg);
+        setKPI('kpi-voter', coordAvg);
         updateInfoPanelKPIs();
       } else {
         throw new Error('empty');
@@ -916,6 +929,7 @@
       setKPI('kpi-form20', 0);
       setKPI('kpi-caste',  0);
       setKPI('kpi-booth',  0);
+      setKPI('kpi-coordinates', 0);
       setKPI('kpi-voter',  0);
       updateInfoPanelKPIs();
     }
@@ -969,6 +983,20 @@
             </div>`;
   }
 
+  function getCoordTooltip(row) {
+    const p = parseFloat(row.coordinates || 0);
+    const vc = (row.valid_coordinates || 0).toLocaleString();
+    const tb = (row.total_booths || 0).toLocaleString();
+    let tip = `${row.state_name}: ${p.toFixed(1)}% Valid Coordinates (${vc} / ${tb} booths)`;
+    if (row.total_voters && row.total_voters > 0) {
+      tip += `\n• Electorate: ${row.total_voters.toLocaleString()} registered voters`;
+      if (row.gender_ratio && row.gender_ratio > 0) {
+        tip += ` (Sex Ratio: ${row.gender_ratio} F / 1000 M)`;
+      }
+    }
+    return tip;
+  }
+
   let activeFilter = { cols: [], range: 'all', min: 0, max: 100 };
   let hasScrolledForSearch = false;
 
@@ -985,7 +1013,7 @@
       rows = rows.filter(r => {
         if (activeFilter.cols.length === 0) {
           // Check if ANY metric column meets the condition
-          const cols = ['retro','form20','caste','booth','voter','muslim','joshua','kys','lgd','ejal','secc','nrega','indiastat','elens'];
+          const cols = ['retro','form20','caste','booth','coordinates','voter','muslim','joshua','kys','lgd','ejal','secc','nrega','indiastat','elens'];
           return cols.some(c => {
              const v = parseFloat(r[c]);
              if (isNaN(v) || v < 0) return false;
@@ -1028,7 +1056,7 @@
         <td class="text-center eci-col ${h('form20')}">${getDotHTML(row.form20)}</td>
         <td class="text-center eci-col ${h('caste')}">${getDotHTML(row.caste)}</td>
         <td class="text-center eci-col ${h('booth')}">${getDotHTML(row.booth)}</td>
-        <td class="text-center eci-col ${h('voter')}">${getDotHTML(row.voter)}</td>
+        <td class="text-center eci-col ${h('coordinates')}" title="${getCoordTooltip(row)}">${getDotHTML(row.coordinates)}</td>
         <td class="text-center other-col ${h('muslim')}">${getDotHTML(row.muslim)}</td>
         <td class="text-center other-col ${h('joshua')}">${getDotHTML(row.joshua)}</td>
         <td class="text-center other-col ${h('kys')}">${getDotHTML(row.kys)}</td>

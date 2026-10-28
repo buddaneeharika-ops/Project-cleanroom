@@ -178,8 +178,9 @@ def build_all_data():
         caste_pct = round((min(caste.get(abb, 0), base_ac) / base_ac * 100), 2)
         booth_pct = round((min(booth.get(abb, 0), base_ac) / base_ac * 100), 2)
         
-        # Booth Revisions from state_glance
+        # Booth Revisions and Geospatial/Voter Data from state_glance
         st_booth = state_glance.get(abb, {}).get('booth', {})
+        st_voter = state_glance.get(abb, {}).get('voter', {})
         st_rev = st_booth.get('revision_breakdown', {})
         pre_sir_cnt = st_rev.get('pre_sir') if st_rev.get('pre_sir') is not None else st_booth.get('pre_sir_booths', 0)
         ssr_cnt = st_rev.get('ssr') if st_rev.get('ssr') is not None else st_booth.get('ssr_booths', 0)
@@ -187,6 +188,11 @@ def build_all_data():
         post_sir_cnt = st_rev.get('post_sir') if st_rev.get('post_sir') is not None else st_booth.get('post_sir_booths', 0)
         rev_stage = st_rev.get('primary_stage') or st_booth.get('revision_stage', '—')
         tot_bths = st_booth.get('total_booths', 0)
+        valid_coords_pct = st_booth.get('valid_coordinates_pct')
+        coords_pct = round(float(valid_coords_pct), 2) if valid_coords_pct is not None else 0.0
+        val_coords = st_booth.get('valid_coordinates') or 0
+        tot_voters = st_voter.get('total_voters') or 0
+        gender_ratio = st_voter.get('gender_ratio') or 0
 
         # Country Glance Matrix Row
         glance_matrix.append({
@@ -196,6 +202,11 @@ def build_all_data():
             'form20': form20_pct,
             'caste': caste_pct,
             'booth': booth_pct,
+            'coordinates': coords_pct,
+            'voter': coords_pct,
+            'valid_coordinates': val_coords,
+            'total_voters': tot_voters,
+            'gender_ratio': gender_ratio,
             'pre_sir': pre_sir_cnt,
             'ssr': ssr_cnt,
             'sir': sir_cnt,
@@ -260,6 +271,8 @@ def build_all_data():
                 "form20": global_form20_pct,
                 "caste": round(sum(r['caste'] for r in glance_matrix) / len(glance_matrix), 2),
                 "booth": round(sum(r['booth'] for r in glance_matrix) / len(glance_matrix), 2),
+                "coordinates": round(sum(r['coordinates'] for r in glance_matrix) / len(glance_matrix), 2),
+                "voter": round(sum(r['coordinates'] for r in glance_matrix) / len(glance_matrix), 2),
             },
             "revision_totals": {
                 "pre_sir": sum(r.get('pre_sir', 0) for r in glance_matrix),

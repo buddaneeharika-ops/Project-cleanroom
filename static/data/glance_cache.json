@@ -5,7 +5,8 @@
     "form20": 88.94,
     "caste": 70.27,
     "booth": 100.0,
-    "voter": 62.16
+    "voter": 12.26,
+    "coordinates": 12.26
   },
   "matrix": [
     {
@@ -30,7 +31,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "AP",
@@ -54,7 +59,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 46396,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 41372659,
+      "gender_ratio": 1039
     },
     {
       "state_abb": "AR",
@@ -78,7 +87,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "AS",
@@ -102,7 +115,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 29213,
-      "voter": 100.0
+      "voter": 99.6,
+      "coordinates": 99.6,
+      "valid_coordinates": 29083,
+      "total_voters": 24474751,
+      "gender_ratio": 1002
     },
     {
       "state_abb": "BR",
@@ -126,7 +143,11 @@
       "post_sir": 0,
       "revision_stage": "SIR",
       "total_booths": 167868,
-      "voter": 100.0
+      "voter": 54.0,
+      "coordinates": 54.0,
+      "valid_coordinates": 90712,
+      "total_voters": 151781551,
+      "gender_ratio": 903
     },
     {
       "state_abb": "CG",
@@ -149,8 +170,12 @@
       "sir": 0,
       "post_sir": 0,
       "revision_stage": "\u2014",
-      "total_booths": 0,
-      "voter": 100.0
+      "total_booths": 614,
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 659805,
+      "gender_ratio": 932
     },
     {
       "state_abb": "CT",
@@ -174,7 +199,11 @@
       "post_sir": 0,
       "revision_stage": "SIR",
       "total_booths": 27196,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "DN",
@@ -198,7 +227,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "DD",
@@ -222,7 +255,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "DL",
@@ -246,7 +283,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 13033,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 15524188,
+      "gender_ratio": 859
     },
     {
       "state_abb": "GA",
@@ -270,7 +311,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 1708,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 1168576,
+      "gender_ratio": 1064
     },
     {
       "state_abb": "GJ",
@@ -294,7 +339,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "HR",
@@ -318,7 +367,11 @@
       "post_sir": 0,
       "revision_stage": "Pre-SIR",
       "total_booths": 20628,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 20223013,
+      "gender_ratio": 888
     },
     {
       "state_abb": "HP",
@@ -342,7 +395,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 8006,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 5661521,
+      "gender_ratio": 980
     },
     {
       "state_abb": "JK",
@@ -366,7 +423,11 @@
       "post_sir": 0,
       "revision_stage": "Pre-SIR",
       "total_booths": 11613,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 8648019,
+      "gender_ratio": 962
     },
     {
       "state_abb": "JH",
@@ -390,7 +451,11 @@
       "post_sir": 0,
       "revision_stage": "Pre-SIR",
       "total_booths": 29562,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 25778149,
+      "gender_ratio": 973
     },
     {
       "state_abb": "KA",
@@ -414,7 +479,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 58931,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 55203493,
+      "gender_ratio": 1003
     },
     {
       "state_abb": "KL",
@@ -438,7 +507,11 @@
       "post_sir": 1,
       "revision_stage": "SSR",
       "total_booths": 25401,
-      "voter": 100.0
+      "voter": 100.0,
+      "coordinates": 100.0,
+      "valid_coordinates": 25389,
+      "total_voters": 27802587,
+      "gender_ratio": 1068
     },
     {
       "state_abb": "LA",
@@ -462,7 +535,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 595,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 187215,
+      "gender_ratio": 993
     },
     {
       "state_abb": "LD",
@@ -486,7 +563,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "MP",
@@ -510,7 +591,11 @@
       "post_sir": 0,
       "revision_stage": "SIR",
       "total_booths": 71930,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 53981065,
+      "gender_ratio": 934
     },
     {
       "state_abb": "MH",
@@ -534,7 +619,11 @@
       "post_sir": 94277,
       "revision_stage": "Post-SIR",
       "total_booths": 100100,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 95370521,
+      "gender_ratio": 933
     },
     {
       "state_abb": "MN",
@@ -558,7 +647,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "ML",
@@ -582,7 +675,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 3551,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 2269512,
+      "gender_ratio": 1028
     },
     {
       "state_abb": "MZ",
@@ -606,7 +703,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "NL",
@@ -630,7 +731,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "OR",
@@ -654,7 +759,11 @@
       "post_sir": 23293,
       "revision_stage": "Post-SIR",
       "total_booths": 38060,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 33809376,
+      "gender_ratio": 981
     },
     {
       "state_abb": "PY",
@@ -678,7 +787,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "PB",
@@ -702,7 +815,11 @@
       "post_sir": 1,
       "revision_stage": "Pre-SIR",
       "total_booths": 24480,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 21022537,
+      "gender_ratio": 898
     },
     {
       "state_abb": "RJ",
@@ -726,7 +843,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "SK",
@@ -750,7 +871,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "TN",
@@ -774,7 +899,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 67834,
-      "voter": 100.0
+      "voter": 100.0,
+      "coordinates": 100.0,
+      "valid_coordinates": 67834,
+      "total_voters": 61926591,
+      "gender_ratio": 1041
     },
     {
       "state_abb": "TS",
@@ -798,7 +927,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "TR",
@@ -822,7 +955,11 @@
       "post_sir": 0,
       "revision_stage": "\u2014",
       "total_booths": 0,
-      "voter": 0.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 0,
+      "gender_ratio": 0
     },
     {
       "state_abb": "UP",
@@ -846,7 +983,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 255878,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 223485670,
+      "gender_ratio": 862
     },
     {
       "state_abb": "UK",
@@ -870,7 +1011,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 11733,
-      "voter": 100.0
+      "voter": 0.0,
+      "coordinates": 0.0,
+      "valid_coordinates": 0,
+      "total_voters": 8429250,
+      "gender_ratio": 931
     },
     {
       "state_abb": "WB",
@@ -894,7 +1039,11 @@
       "post_sir": 0,
       "revision_stage": "SSR",
       "total_booths": 80600,
-      "voter": 100.0
+      "voter": 100.0,
+      "coordinates": 100.0,
+      "valid_coordinates": 80599,
+      "total_voters": 76276022,
+      "gender_ratio": 969
     }
   ],
   "revision_totals": {
