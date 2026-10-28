@@ -153,9 +153,15 @@
     table.glance-tbl th.eci-col,
     table.glance-tbl td.eci-col {
       width: 104px;
-      min-width: 100px;
+      min-width: 98px;
       max-width: 108px;
       box-sizing: border-box;
+      text-align: center;
+    }
+    table.glance-tbl th.eci-col {
+      vertical-align: middle;
+      padding: 6px 4px;
+      white-space: normal;
     }
     
     table.glance-tbl tbody tr:last-child td { border-bottom: none; }
@@ -816,7 +822,7 @@
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('caste')">Caste Data</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('booth')">Booth Details</th>
-              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('coordinates')" title="Polling Booth Coordinates (% Verified GPS)">Coordinates</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('coordinates')" title="Polling Booth Coordinates (% Verified GPS)"><span class="inline-block leading-tight">Booth<br>Coordinates</span></th>
               <!-- Auxiliary cols -->
               <th class="text-center other-col bg-gray-50/50">Muslim Census</th>
               <th class="text-center other-col bg-gray-50/50">Joshua</th>

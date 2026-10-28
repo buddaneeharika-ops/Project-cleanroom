@@ -210,6 +210,7 @@ def ingest_coordinates():
                 json.dump(cache_data, f, indent=2)
 
     # Sync to Redis if available
+    rc = None
     try:
         from app import get_redis
         rc = get_redis()
@@ -219,6 +220,44 @@ def ingest_coordinates():
             print("  Synchronized updated states to Redis.")
     except Exception as e:
         print(f"  [Note] Redis sync skipped ({e}).")
+
+    # Also update Country Glance Cache (glance_cache.json) and push to Redis dynamically
+    glance_path = os.path.join(base_dir, 'static', 'data', 'glance_cache.json')
+    if os.path.exists(glance_path):
+        try:
+            with open(glance_path, 'r', encoding='utf-8') as f:
+                glance_data = json.load(f)
+            matrix = glance_data.get('matrix', [])
+            for row in matrix:
+                abb = row.get('state_abb')
+                st_key = 'CH' if abb == 'CG' else ('CG' if abb == 'CT' else abb)
+                st_info = cache_data.get(st_key) or cache_data.get(abb) or {}
+                st_b = st_info.get('booth') or {}
+                st_v = st_info.get('voter') or {}
+                v_pct = st_b.get('valid_coordinates_pct')
+                c_pct = round(float(v_pct), 2) if v_pct is not None else 0.0
+                row['coordinates'] = c_pct
+                row['voter'] = c_pct
+                row['valid_coordinates'] = st_b.get('valid_coordinates') or 0
+                row['total_voters'] = st_v.get('total_voters') or 0
+                row['gender_ratio'] = st_v.get('gender_ratio') or 0
+                row['total_booths'] = st_b.get('total_booths') or row.get('total_booths', 0)
+            
+            nav = glance_data.get('national_avg', {})
+            coord_avg = round(sum(r.get('coordinates', 0) for r in matrix) / max(len(matrix), 1), 2)
+            nav['coordinates'] = coord_avg
+            nav['voter'] = coord_avg
+            glance_data['national_avg'] = nav
+            
+            with open(glance_path, 'w', encoding='utf-8') as f:
+                json.dump(glance_data, f, indent=2)
+            print(f"  Synchronized Country Glance cache with coordinates (National Avg: {coord_avg}%).")
+            
+            if rc:
+                rc.set('cache:country_glance_data:data', json.dumps(glance_data))
+                print("  Synchronized country_glance_data to Redis.")
+        except Exception as ge:
+            print(f"  [WARN] Failed to update country glance cache: {ge}")
 
     print(f"[{time.strftime('%Y-%m-%d %H:%M:%S')}] Ingestion complete in {round(time.time() - t0, 1)}s!")
     return True
