@@ -969,21 +969,16 @@ function renderBoothVoterDirectory() {
         <td class="px-5 py-3.5 whitespace-nowrap">${adminHtml}</td>
         <td class="px-5 py-3.5 whitespace-nowrap">${voterHtml}</td>
         <td class="px-5 py-3.5 text-right whitespace-nowrap">
-          <div class="flex items-center justify-end gap-1.5">
+          <div class="flex items-center justify-end">
             ${s.has_booth ? `
               <button onclick="window.toggleStateBoothDetail('${stateCode}')"
                       id="btn-expand-${stateCode}"
-                      class="px-2 py-1 text-[11px] font-bold text-gray-700 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-lg transition-all inline-flex items-center gap-0.5 cursor-pointer"
+                      class="px-2.5 py-1 text-[11px] font-bold text-gray-700 hover:text-gray-900 bg-gray-100 hover:bg-gray-200 border border-gray-200 rounded-lg transition-all inline-flex items-center gap-1 cursor-pointer"
                       title="View Assembly Constituencies Breakdown">
-                <span class="material-symbols-outlined text-[14px]" id="icon-expand-${stateCode}">expand_more</span>
+                <span class="material-symbols-outlined text-[15px]" id="icon-expand-${stateCode}">expand_more</span>
                 <span>ACs</span>
               </button>
-            ` : ''}
-            <a href="/state-glance-report?state_abb=${stateCode}" target="_blank"
-               class="px-2.5 py-1 text-[11.5px] font-bold text-indigo-600 hover:text-indigo-800 bg-indigo-50/60 hover:bg-indigo-100 border border-indigo-200 rounded-lg transition-all inline-flex items-center gap-1">
-              <span>Report</span>
-              <span class="material-symbols-outlined" style="font-size:12px;">open_in_new</span>
-            </a>
+            ` : '<span class="text-[11px] text-gray-300 font-medium px-2">—</span>'}
           </div>
         </td>
       </tr>`;
