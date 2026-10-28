@@ -150,6 +150,14 @@
     table.glance-tbl th:last-child,
     table.glance-tbl td:last-child { border-right: none; }
     
+    table.glance-tbl th.eci-col,
+    table.glance-tbl td.eci-col {
+      width: 104px;
+      min-width: 100px;
+      max-width: 108px;
+      box-sizing: border-box;
+    }
+    
     table.glance-tbl tbody tr:last-child td { border-bottom: none; }
 
     /* ── Status Dots ── */
@@ -808,7 +816,7 @@
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('form20')">Form 20</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('caste')">Caste Data</th>
               <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('booth')">Booth Details</th>
-              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('coordinates')">Booth Coordinates</th>
+              <th class="text-center cursor-pointer eci-col hover:bg-gray-100/80 transition-colors" onclick="sortTable('coordinates')" title="Polling Booth Coordinates (% Verified GPS)">Coordinates</th>
               <!-- Auxiliary cols -->
               <th class="text-center other-col bg-gray-50/50">Muslim Census</th>
               <th class="text-center other-col bg-gray-50/50">Joshua</th>
