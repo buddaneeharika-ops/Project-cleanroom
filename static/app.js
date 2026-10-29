@@ -528,15 +528,15 @@ function updateDirectoryKpiCards() {
   const segSir = document.getElementById('dir-seg-sir');
   const segPost = document.getElementById('dir-seg-postsir');
 
-  if (segPre) { segPre.style.width = `${prePct}%`; segPre.title = `Pre-SIR: ${totalPreSir.toLocaleString()} booths (${prePct}%)`; }
-  if (segSsr) { segSsr.style.width = `${ssrPct}%`; segSsr.title = `SSR: ${totalSsr.toLocaleString()} booths (${ssrPct}%)`; }
-  if (segSir) { segSir.style.width = `${sirPct}%`; segSir.title = `SIR: ${totalSir.toLocaleString()} booths (${sirPct}%)`; }
-  if (segPost) { segPost.style.width = `${postPct}%`; segPost.title = `Post-SIR: ${totalPostSir.toLocaleString()} booths (${postPct}%)`; }
+  if (segPre) { segPre.style.width = `${prePct}%`; segPre.title = `Pre-SIR (≤ 2024 Baseline): ${totalPreSir.toLocaleString()} booths (${prePct}%)`; }
+  if (segSsr) { segSsr.style.width = `${ssrPct}%`; segSsr.title = `SSR (2025 Annual Roll): ${totalSsr.toLocaleString()} booths (${ssrPct}%)`; }
+  if (segSir) { segSir.style.width = `${sirPct}%`; segSir.title = `SIR (2025–2026 Intensive): ${totalSir.toLocaleString()} booths (${sirPct}%)`; }
+  if (segPost) { segPost.style.width = `${postPct}%`; segPost.title = `Post-SIR (2024–2025 Final Roll): ${totalPostSir.toLocaleString()} booths (${postPct}%)`; }
 
   const progPct = document.getElementById('dir-progress-pct');
   const progTxt = document.getElementById('dir-progress-text');
   if (progPct) progPct.textContent = `${totalAllBooths.toLocaleString()} Booths`;
-  if (progTxt) progTxt.textContent = `Pre-SIR: ${fmtK(totalPreSir).toLowerCase()} • SSR: ${fmtK(totalSsr).toLowerCase()} • SIR: ${fmtK(totalSir).toLowerCase()} • Post-SIR: ${fmtK(totalPostSir).toLowerCase()}`;
+  if (progTxt) progTxt.textContent = `Pre-SIR: ${fmtK(totalPreSir).toLowerCase()} (≤2024) • SSR: ${fmtK(totalSsr).toLowerCase()} (2025) • SIR: ${fmtK(totalSir).toLowerCase()} (2025–26) • Post-SIR: ${fmtK(totalPostSir).toLowerCase()} (Final)`;
 }
 
 window.switchListingMode = function(mode) {
@@ -642,13 +642,15 @@ window.toggleStateBoothDetail = async function(stateCode) {
       const sir = ac.sir_booths || 0;
       const post = ac.post_sir_booths || 0;
       const stage = ac.revision_stage || '—';
+      const year = ac.roll_year || '';
+      const stageBadgeText = ac.stage_badge_text || (year ? `${year} ${stage}` : stage);
       const stageBadge = stage === 'Post-SIR'
-        ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Post-SIR</span>'
+        ? `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200" title="Final Electoral Roll published post-revision">${stageBadgeText}</span>`
         : (stage === 'Pre-SIR'
-            ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Pre-SIR</span>'
+            ? `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200" title="Pre-SIR baseline roll (≤ 2024 SSR/Draft)">${stageBadgeText}</span>`
             : (stage === 'SSR'
-                ? '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-sky-50 text-sky-700 border border-sky-200">SSR</span>'
-                : '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">SIR</span>'));
+                ? `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-sky-50 text-sky-700 border border-sky-200" title="Periodic Special Summary Revision (2025 cycle)">${stageBadgeText}</span>`
+                : `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200" title="Special Intensive Revision">${stageBadgeText}</span>`));
 
       const statusBadge = ac.missing_data_status === 'Complete'
         ? '<span class="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.2 rounded">Complete</span>'
@@ -677,7 +679,7 @@ window.toggleStateBoothDetail = async function(stateCode) {
           <div class="px-4 py-2.5 bg-gradient-to-r from-slate-50 to-indigo-50/30 border-b border-gray-200 flex items-center justify-between">
             <div class="flex items-center gap-2">
               <span class="material-symbols-outlined text-indigo-600 text-[16px]">account_tree</span>
-              <span class="text-[12px] font-bold text-gray-900">${stateCode} Constituencies: Pre-SIR / SSR / SIR / Post-SIR Breakdown</span>
+              <span class="text-[12px] font-bold text-gray-900">${stateCode} Constituencies: Pre-SIR (≤2024) / SSR (2025) / SIR (2025–26) / Post-SIR (Final)</span>
               <span class="text-[10px] font-bold px-2 py-0.2 rounded-full bg-indigo-100 text-indigo-800">${acs.length} ACs</span>
             </div>
             <span class="text-[10.5px] text-gray-400 font-medium">Timeline Revision Segregation</span>
@@ -688,12 +690,12 @@ window.toggleStateBoothDetail = async function(stateCode) {
                 <tr>
                   <th class="py-2 px-3">AC #</th>
                   <th class="py-2 px-3">Constituency</th>
-                  <th class="py-2 px-3 text-right text-amber-700">Pre-SIR</th>
-                  <th class="py-2 px-3 text-right text-sky-700">SSR</th>
-                  <th class="py-2 px-3 text-right text-indigo-700">SIR</th>
-                  <th class="py-2 px-3 text-right text-emerald-700">Post-SIR</th>
+                  <th class="py-2 px-3 text-right text-amber-700" title="Baseline rolls conducted in ≤ 2024">Pre-SIR (≤2024)</th>
+                  <th class="py-2 px-3 text-right text-sky-700" title="Periodic Special Summary Revision (2025 Annual Rolls)">SSR (2025)</th>
+                  <th class="py-2 px-3 text-right text-indigo-700" title="Special Intensive Revision (2025–2026)">SIR (2025–26)</th>
+                  <th class="py-2 px-3 text-right text-emerald-700" title="Final Electoral Rolls published post-revision">Post-SIR (Final)</th>
                   <th class="py-2 px-3 text-right text-gray-800">Total Booths</th>
-                  <th class="py-2 px-3 text-center">Stage</th>
+                  <th class="py-2 px-3 text-center">Stage &amp; Year</th>
                   <th class="py-2 px-3">Revision String (type_of_revision)</th>
                   <th class="py-2 px-3 text-center">Status</th>
                 </tr>
@@ -797,10 +799,10 @@ function renderBoothVoterDirectory() {
   thead.innerHTML = `
     <tr>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="name">State &amp; Total ACs${arrow('name')}</th>
-      <th class="px-4 py-3 text-[10.5px] font-bold text-amber-700 uppercase tracking-wider cursor-pointer hover:bg-amber-50/50 select-none dir-sortable text-right" data-col="pre_sir">Pre-SIR Booths${arrow('pre_sir')}</th>
-      <th class="px-4 py-3 text-[10.5px] font-bold text-sky-700 uppercase tracking-wider cursor-pointer hover:bg-sky-50/50 select-none dir-sortable text-right" data-col="ssr">SSR Booths${arrow('ssr')}</th>
-      <th class="px-4 py-3 text-[10.5px] font-bold text-indigo-700 uppercase tracking-wider cursor-pointer hover:bg-indigo-50/50 select-none dir-sortable text-right" data-col="sir">SIR Booths${arrow('sir')}</th>
-      <th class="px-4 py-3 text-[10.5px] font-bold text-emerald-700 uppercase tracking-wider cursor-pointer hover:bg-emerald-50/50 select-none dir-sortable text-right" data-col="post_sir">Post-SIR Booths${arrow('post_sir')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-amber-700 uppercase tracking-wider cursor-pointer hover:bg-amber-50/50 select-none dir-sortable text-right" data-col="pre_sir" title="Baseline rolls conducted in ≤ 2024 (e.g. 2024 SSR, Continuous Updation, Draft) prior to intensive revision">Pre-SIR (≤ 2024)${arrow('pre_sir')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-sky-700 uppercase tracking-wider cursor-pointer hover:bg-sky-50/50 select-none dir-sortable text-right" data-col="ssr" title="Periodic Special Summary Revision (2025 Annual Rolls)">SSR (2025)${arrow('ssr')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-indigo-700 uppercase tracking-wider cursor-pointer hover:bg-indigo-50/50 select-none dir-sortable text-right" data-col="sir" title="Special Intensive Revision 2025–2026 (includes SSR where intensive revision ordered, e.g. Bihar 2025, MP/CT 2026)">SIR (2025–26)${arrow('sir')}</th>
+      <th class="px-4 py-3 text-[10.5px] font-bold text-emerald-700 uppercase tracking-wider cursor-pointer hover:bg-emerald-50/50 select-none dir-sortable text-right" data-col="post_sir" title="Final Electoral Rolls published post-revision (e.g. 2024 2nd SSR Final, 2025 Final lists)">Post-SIR (Final)${arrow('post_sir')}</th>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="admin">Admin Quality${arrow('admin')}</th>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider cursor-pointer hover:bg-gray-50 select-none dir-sortable" data-col="voters">Electoral Roll${arrow('voters')}</th>
       <th class="px-5 py-3 text-[10.5px] font-semibold text-gray-400 uppercase tracking-wider text-right">Actions</th>
@@ -829,6 +831,12 @@ function renderBoothVoterDirectory() {
     const sirCount = s.sir_booths || 0;
     const postCount = s.post_sir_booths || 0;
     const revStage = s.revision_stage || '—';
+    const rollYear = s.roll_year || '';
+
+    const preYr = (s.revision_years && s.revision_years.pre_sir) || (rollYear.includes('2024') ? rollYear : '2024');
+    const ssrYr = (s.revision_years && s.revision_years.ssr) || '2025';
+    const sirYr = (s.revision_years && s.revision_years.sir) || (stateCode === 'BR' ? '2025' : (rollYear.includes('2026') ? '2026' : '2025–26'));
+    const postYr = (s.revision_years && s.revision_years.post_sir) || (stateCode === 'MH' ? '2024' : '2025');
 
     // Pre-SIR cell
     let preHtml = '';
@@ -836,8 +844,8 @@ function renderBoothVoterDirectory() {
       preHtml = `
         <div class="flex flex-col items-end">
           <span class="text-[13px] font-bold text-amber-900 tabular-nums">${preCount.toLocaleString()}</span>
-          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.2 rounded mt-0.5">
-            Draft
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-amber-700 bg-amber-50 border border-amber-200 px-1.5 py-0.2 rounded mt-0.5" title="Pre-SIR Baseline (${preYr}): Baseline roll &amp; 2024 periodic SSR before intensive revision">
+            ${preYr} Draft / SSR
           </span>
         </div>`;
     } else if (s.has_booth) {
@@ -852,8 +860,8 @@ function renderBoothVoterDirectory() {
       ssrHtml = `
         <div class="flex flex-col items-end">
           <span class="text-[13px] font-bold text-sky-900 tabular-nums">${ssrCount.toLocaleString()}</span>
-          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-sky-700 bg-sky-50 border border-sky-200 px-1.5 py-0.2 rounded mt-0.5">
-            Annual Roll
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-sky-700 bg-sky-50 border border-sky-200 px-1.5 py-0.2 rounded mt-0.5" title="Periodic Special Summary Revision (${ssrYr} cycle)">
+            ${ssrYr} Annual SSR
           </span>
         </div>`;
     } else if (s.has_booth) {
@@ -868,8 +876,8 @@ function renderBoothVoterDirectory() {
       sirHtml = `
         <div class="flex flex-col items-end">
           <span class="text-[13px] font-bold text-indigo-900 tabular-nums">${sirCount.toLocaleString()}</span>
-          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-indigo-700 bg-indigo-50 border border-indigo-200 px-1.5 py-0.2 rounded mt-0.5">
-            Intensive
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-indigo-700 bg-indigo-50 border border-indigo-200 px-1.5 py-0.2 rounded mt-0.5" title="Special Intensive Revision (${sirYr}): Intensive door-to-door roll${stateCode === 'BR' ? ' (2025 SSR collided with SIR)' : ''}">
+            ${sirYr} Intensive
           </span>
         </div>`;
     } else if (s.has_booth) {
@@ -884,8 +892,8 @@ function renderBoothVoterDirectory() {
       postHtml = `
         <div class="flex flex-col items-end">
           <span class="text-[13px] font-bold text-emerald-900 tabular-nums">${postCount.toLocaleString()}</span>
-          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.2 rounded mt-0.5">
-            Final Roll
+          <span class="inline-flex items-center gap-1 text-[9.5px] font-semibold text-emerald-700 bg-emerald-50 border border-emerald-200 px-1.5 py-0.2 rounded mt-0.5" title="Final Electoral Roll published post-revision (${postYr})">
+            ${postYr} Final Roll
           </span>
         </div>`;
     } else if (s.has_booth) {
@@ -894,17 +902,18 @@ function renderBoothVoterDirectory() {
       postHtml = `<span class="text-[11px] text-gray-300 font-medium">○</span>`;
     }
 
-    // Stage badge for state column
+    // Stage badge for state column with exact Year and Stage
     let stageBadge = '';
     if (s.has_booth) {
+      const badgeText = s.stage_badge_text || (rollYear ? `${rollYear} ${revStage}` : revStage);
       if (revStage === 'Post-SIR') {
-        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">Post-SIR</span>';
+        stageBadge = `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200" title="Final Electoral Roll published post-revision">${badgeText}</span>`;
       } else if (revStage === 'Pre-SIR') {
-        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200">Pre-SIR</span>';
+        stageBadge = `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-amber-50 text-amber-700 border border-amber-200" title="Baseline rolls conducted in ≤ 2024 (e.g. 2024 SSR, Continuous Updation) prior to intensive revision">${badgeText}</span>`;
       } else if (revStage === 'SSR') {
-        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-sky-50 text-sky-700 border border-sky-200">SSR</span>';
+        stageBadge = `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-sky-50 text-sky-700 border border-sky-200" title="Periodic Special Summary Revision (2025 Annual Roll)">${badgeText}</span>`;
       } else {
-        stageBadge = '<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200">SIR</span>';
+        stageBadge = `<span class="inline-flex items-center px-1.5 py-0.2 rounded text-[9.5px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200" title="Special Intensive Revision (Intensive door-to-door roll)">${badgeText}</span>`;
       }
     }
 
