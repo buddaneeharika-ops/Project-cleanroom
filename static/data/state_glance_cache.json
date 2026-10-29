@@ -102,25 +102,33 @@
           "year": "2023",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.4
+          "vote_mismatch": 2.4,
+          "net_diff": -16883,
+          "net_diff_pct": -2.4
         },
         {
           "year": "2018",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.86
+          "vote_mismatch": 1.86,
+          "net_diff": -11753,
+          "net_diff_pct": -1.86
         },
         {
           "year": "2013",
           "availability": 97.5,
           "missing": 1,
-          "vote_mismatch": 5.74
+          "vote_mismatch": 5.74,
+          "net_diff": -32903,
+          "net_diff_pct": -5.74
         },
         {
           "year": "2008",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.77
+          "vote_mismatch": 2.77,
+          "net_diff": -13914,
+          "net_diff_pct": -2.77
         }
       ],
       "matrix_ge": [
@@ -128,19 +136,25 @@
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.01
+          "vote_mismatch": 0.01,
+          "net_diff": 44,
+          "net_diff_pct": 0.01
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -182,7 +196,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -58572,
+      "net_bias_pct": -1.61
     },
     "demographics": {
       "joshua": {
@@ -637,25 +653,33 @@
           "year": "2025",
           "availability": 99.59,
           "missing": 1,
-          "vote_mismatch": 0.48
+          "vote_mismatch": 0.48,
+          "net_diff": -242766,
+          "net_diff_pct": -0.48
         },
         {
           "year": "2020",
           "availability": 89.34,
           "missing": 26,
-          "vote_mismatch": 10.96
+          "vote_mismatch": 10.96,
+          "net_diff": -4620133,
+          "net_diff_pct": -10.96
         },
         {
           "year": "2015",
           "availability": 88.52,
           "missing": 28,
-          "vote_mismatch": 11.7
+          "vote_mismatch": 11.7,
+          "net_diff": -4460689,
+          "net_diff_pct": -11.7
         },
         {
           "year": "2010",
           "availability": 97.95,
           "missing": 5,
-          "vote_mismatch": 1.64
+          "vote_mismatch": 1.64,
+          "net_diff": -473551,
+          "net_diff_pct": -1.63
         }
       ],
       "matrix_ge": [
@@ -663,25 +687,33 @@
           "year": "2024",
           "availability": 96.72,
           "missing": 8,
-          "vote_mismatch": 2.41
+          "vote_mismatch": 2.41,
+          "net_diff": -1043501,
+          "net_diff_pct": -2.41
         },
         {
           "year": "2019",
           "availability": 94.26,
           "missing": 14,
-          "vote_mismatch": 4.66
+          "vote_mismatch": 4.66,
+          "net_diff": -1893528,
+          "net_diff_pct": -4.66
         },
         {
           "year": "2014",
           "availability": 99.59,
           "missing": 1,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 97.95,
           "missing": 5,
-          "vote_mismatch": 1.79
+          "vote_mismatch": 1.79,
+          "net_diff": -434318,
+          "net_diff_pct": -1.79
         }
       ],
       "unavailable_bypolls": [
@@ -803,7 +835,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 1
+      "remark_count": 1,
+      "net_bias_votes": -679537,
+      "net_bias_pct": -0.23
     },
     "demographics": {
       "joshua": {
@@ -19083,19 +19117,25 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.32
+          "vote_mismatch": 2.32,
+          "net_diff": -97950,
+          "net_diff_pct": -2.32
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.54
+          "vote_mismatch": 1.54,
+          "net_diff": -58364,
+          "net_diff_pct": -1.54
         },
         {
           "year": "2012",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.92
+          "vote_mismatch": 0.92,
+          "net_diff": -31169,
+          "net_diff_pct": -0.92
         }
       ],
       "matrix_ge": [
@@ -19103,25 +19143,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": -158,
+          "net_diff_pct": -0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.04
+          "vote_mismatch": 0.04,
+          "net_diff": -1033,
+          "net_diff_pct": -0.03
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -19178,7 +19226,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -188674,
+      "net_bias_pct": -0.76
     },
     "demographics": {
       "joshua": {
@@ -24086,25 +24136,33 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.63
+          "vote_mismatch": 1.63,
+          "net_diff": -352405,
+          "net_diff_pct": -1.63
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.49
+          "vote_mismatch": 2.49,
+          "net_diff": -499179,
+          "net_diff_pct": -2.4
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.55
+          "vote_mismatch": 0.55,
+          "net_diff": -112151,
+          "net_diff_pct": -0.55
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.44
+          "vote_mismatch": 0.44,
+          "net_diff": -76935,
+          "net_diff_pct": -0.44
         }
       ],
       "matrix_ge": [
@@ -24112,25 +24170,33 @@
           "year": "2024",
           "availability": 99.29,
           "missing": 1,
-          "vote_mismatch": 0.64
+          "vote_mismatch": 0.64,
+          "net_diff": -125621,
+          "net_diff_pct": -0.64
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.36
+          "vote_mismatch": 0.36,
+          "net_diff": -73877,
+          "net_diff_pct": -0.36
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.52
+          "vote_mismatch": 0.52,
+          "net_diff": -82927,
+          "net_diff_pct": -0.52
         }
       ],
       "unavailable_bypolls": [
@@ -24192,7 +24258,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1197474,
+      "net_bias_pct": -0.78
     },
     "demographics": {
       "joshua": {
@@ -34929,25 +34997,33 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.06
+          "vote_mismatch": 1.06,
+          "net_diff": -524226,
+          "net_diff_pct": -1.06
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.2
+          "vote_mismatch": 1.2,
+          "net_diff": -553893,
+          "net_diff_pct": -1.2
         },
         {
           "year": "2016",
           "availability": 99.57,
           "missing": 1,
-          "vote_mismatch": 2.57
+          "vote_mismatch": 2.57,
+          "net_diff": -383167,
+          "net_diff_pct": -0.89
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.3
+          "vote_mismatch": 0.3,
+          "net_diff": -109092,
+          "net_diff_pct": -0.3
         }
       ],
       "matrix_ge": [
@@ -34955,25 +35031,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2019",
           "availability": 99.57,
           "missing": 1,
-          "vote_mismatch": 0.44
+          "vote_mismatch": 0.44,
+          "net_diff": -187872,
+          "net_diff_pct": -0.44
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": -540,
+          "net_diff_pct": -0.0
         },
         {
           "year": "2009",
           "availability": 92.31,
           "missing": 18,
-          "vote_mismatch": 7.2
+          "vote_mismatch": 7.2,
+          "net_diff": -2186728,
+          "net_diff_pct": -7.2
         }
       ],
       "unavailable_bypolls": [
@@ -35065,7 +35149,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1363907,
+      "net_bias_pct": -0.41
     },
     "demographics": {
       "joshua": {
@@ -52564,7 +52650,9 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [],
@@ -52580,7 +52668,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": 0,
+      "net_bias_pct": 0.0
     },
     "demographics": {
       "joshua": {
@@ -52800,7 +52890,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": 0,
+      "net_bias_pct": 0.0
     },
     "demographics": {
       "joshua": {
@@ -53073,19 +53165,25 @@
           "year": "2022",
           "availability": 99.15,
           "missing": 1,
-          "vote_mismatch": 1.57
+          "vote_mismatch": 1.57,
+          "net_diff": -243678,
+          "net_diff_pct": -1.57
         },
         {
           "year": "2017",
           "availability": 95.73,
           "missing": 5,
-          "vote_mismatch": 4.71
+          "vote_mismatch": 4.71,
+          "net_diff": -727982,
+          "net_diff_pct": -4.71
         },
         {
           "year": "2012",
           "availability": 93.16,
           "missing": 8,
-          "vote_mismatch": 6.86
+          "vote_mismatch": 6.86,
+          "net_diff": -953884,
+          "net_diff_pct": -6.86
         }
       ],
       "matrix_ge": [
@@ -53093,25 +53191,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 13,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2019",
           "availability": 84.62,
           "missing": 18,
-          "vote_mismatch": 14.6
+          "vote_mismatch": 14.6,
+          "net_diff": -2000361,
+          "net_diff_pct": -14.59
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 95.73,
           "missing": 5,
-          "vote_mismatch": 4.46
+          "vote_mismatch": 4.46,
+          "net_diff": -528089,
+          "net_diff_pct": -4.46
         }
       ],
       "unavailable_bypolls": [
@@ -53213,7 +53319,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -176278,
+      "net_bias_pct": -0.19
     },
     "demographics": {
       "joshua": {
@@ -61504,19 +61612,25 @@
           "year": "2023",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 2.75
+          "vote_mismatch": 2.75,
+          "net_diff": -50034,
+          "net_diff_pct": -2.67
         },
         {
           "year": "2018",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 1.28
+          "vote_mismatch": 1.28,
+          "net_diff": -20088,
+          "net_diff_pct": -1.28
         },
         {
           "year": "2013",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.05
+          "vote_mismatch": 1.05,
+          "net_diff": -13840,
+          "net_diff_pct": -1.05
         }
       ],
       "matrix_ge": [
@@ -61524,25 +61638,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -61599,7 +61721,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -51801,
+      "net_bias_pct": -0.53
     },
     "demographics": {
       "joshua": {
@@ -65964,13 +66088,17 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 4.61
+          "vote_mismatch": 4.61,
+          "net_diff": -116430,
+          "net_diff_pct": -2.04
         },
         {
           "year": "2014",
           "availability": 96.67,
           "missing": 3,
-          "vote_mismatch": 1.08
+          "vote_mismatch": 1.08,
+          "net_diff": -51923,
+          "net_diff_pct": -1.08
         }
       ],
       "matrix_ge": [
@@ -65978,25 +66106,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.28
+          "vote_mismatch": 0.28,
+          "net_diff": -14423,
+          "net_diff_pct": -0.28
         },
         {
           "year": "2019",
           "availability": 96.67,
           "missing": 3,
-          "vote_mismatch": 0.63
+          "vote_mismatch": 0.63,
+          "net_diff": -6195,
+          "net_diff_pct": -0.18
         },
         {
           "year": "2014",
           "availability": 96.67,
           "missing": 3,
-          "vote_mismatch": 0.37
+          "vote_mismatch": 0.37,
+          "net_diff": -13343,
+          "net_diff_pct": -0.37
         },
         {
           "year": "2009",
           "availability": 87.78,
           "missing": 11,
-          "vote_mismatch": 4.4
+          "vote_mismatch": 4.4,
+          "net_diff": -114703,
+          "net_diff_pct": -4.4
         }
       ],
       "unavailable_bypolls": [
@@ -66043,7 +66179,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -178590,
+      "net_bias_pct": -0.71
     },
     "demographics": {
       "joshua": {
@@ -72518,19 +72656,25 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 2.48
+          "vote_mismatch": 2.48,
+          "net_diff": -23617,
+          "net_diff_pct": -2.48
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.46
+          "vote_mismatch": 1.46,
+          "net_diff": -13390,
+          "net_diff_pct": -1.46
         },
         {
           "year": "2012",
           "availability": 97.5,
           "missing": 1,
-          "vote_mismatch": 4.21
+          "vote_mismatch": 4.21,
+          "net_diff": -35730,
+          "net_diff_pct": -4.21
         }
       ],
       "matrix_ge": [
@@ -72538,25 +72682,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.01
+          "vote_mismatch": 0.01,
+          "net_diff": -128,
+          "net_diff_pct": -0.01
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": -1,
+          "net_diff_pct": -0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -72598,7 +72750,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -48005,
+      "net_bias_pct": -0.83
     },
     "demographics": {
       "joshua": {
@@ -75553,19 +75707,25 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.92
+          "vote_mismatch": 1.92,
+          "net_diff": -35627,
+          "net_diff_pct": -1.92
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.85
+          "vote_mismatch": 0.85,
+          "net_diff": -14013,
+          "net_diff_pct": -0.85
         },
         {
           "year": "2012",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.89
+          "vote_mismatch": 0.89,
+          "net_diff": -12398,
+          "net_diff_pct": -0.89
         }
       ],
       "matrix_ge": [
@@ -75573,19 +75733,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.67
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -75617,7 +75783,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -62038,
+      "net_bias_pct": -0.65
     },
     "demographics": {
       "joshua": {
@@ -76142,19 +76310,25 @@
           "year": "2023",
           "availability": 94.12,
           "missing": 7,
-          "vote_mismatch": 8.93
+          "vote_mismatch": 8.93,
+          "net_diff": -2090067,
+          "net_diff_pct": -8.92
         },
         {
           "year": "2018",
           "availability": 91.6,
           "missing": 10,
-          "vote_mismatch": 9.1
+          "vote_mismatch": 9.1,
+          "net_diff": -1883770,
+          "net_diff_pct": -9.1
         },
         {
           "year": "2009",
           "availability": 99.16,
           "missing": 1,
-          "vote_mismatch": 1.67
+          "vote_mismatch": 1.67,
+          "net_diff": -281551,
+          "net_diff_pct": -1.67
         }
       ],
       "matrix_ge": [
@@ -76162,19 +76336,25 @@
           "year": "2024",
           "availability": 99.16,
           "missing": 1,
-          "vote_mismatch": 0.87
+          "vote_mismatch": 0.87,
+          "net_diff": -188988,
+          "net_diff_pct": -0.87
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.63
+          "vote_mismatch": 0.63,
+          "net_diff": -114153,
+          "net_diff_pct": -0.61
         },
         {
           "year": "2009",
           "availability": 92.44,
           "missing": 9,
-          "vote_mismatch": 6.93
+          "vote_mismatch": 6.93,
+          "net_diff": -1109920,
+          "net_diff_pct": -6.61
         }
       ],
       "unavailable_bypolls": [
@@ -76276,7 +76456,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1175260,
+      "net_bias_pct": -0.78
     },
     "demographics": {
       "joshua": {
@@ -77020,19 +77202,25 @@
           "year": "2022",
           "availability": 98.9,
           "missing": 2,
-          "vote_mismatch": 1.96
+          "vote_mismatch": 1.96,
+          "net_diff": -623319,
+          "net_diff_pct": -1.96
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.84
+          "vote_mismatch": 0.84,
+          "net_diff": -251139,
+          "net_diff_pct": -0.84
         },
         {
           "year": "2012",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.93
+          "vote_mismatch": 0.93,
+          "net_diff": -254905,
+          "net_diff_pct": -0.93
         }
       ],
       "matrix_ge": [
@@ -77040,25 +77228,33 @@
           "year": "2024",
           "availability": 93.96,
           "missing": 11,
-          "vote_mismatch": 2.44
+          "vote_mismatch": 2.44,
+          "net_diff": -692721,
+          "net_diff_pct": -2.4
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.12
+          "vote_mismatch": 0.12,
+          "net_diff": -33679,
+          "net_diff_pct": -0.12
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.05
+          "vote_mismatch": 0.05,
+          "net_diff": -12203,
+          "net_diff_pct": -0.05
         },
         {
           "year": "2009",
           "availability": 99.45,
           "missing": 1,
-          "vote_mismatch": 1.65
+          "vote_mismatch": 1.65,
+          "net_diff": -263478,
+          "net_diff_pct": -1.51
         }
       ],
       "unavailable_bypolls": [
@@ -77160,7 +77356,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -958339,
+      "net_bias_pct": -0.51
     },
     "demographics": {
       "joshua": {
@@ -77881,25 +78079,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.59
+          "vote_mismatch": 0.59,
+          "net_diff": -147678,
+          "net_diff_pct": -0.59
         },
         {
           "year": "2019",
           "availability": 99.32,
           "missing": 1,
-          "vote_mismatch": 1.15
+          "vote_mismatch": 1.15,
+          "net_diff": -263178,
+          "net_diff_pct": -1.12
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.46
+          "vote_mismatch": 1.46,
+          "net_diff": -309377,
+          "net_diff_pct": -1.44
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.13
+          "vote_mismatch": 0.13,
+          "net_diff": -13056,
+          "net_diff_pct": -0.07
         }
       ],
       "matrix_ge": [
@@ -77907,25 +78113,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.01
+          "vote_mismatch": 0.01,
+          "net_diff": -826,
+          "net_diff_pct": -0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.61
+          "vote_mismatch": 1.61,
+          "net_diff": -343391,
+          "net_diff_pct": -1.6
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.79
+          "vote_mismatch": 0.79,
+          "net_diff": -129268,
+          "net_diff_pct": -0.73
         }
       ],
       "unavailable_bypolls": [
@@ -77987,7 +78201,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1206774,
+      "net_bias_pct": -0.69
     },
     "demographics": {
       "joshua": {
@@ -88268,19 +88484,25 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.67
+          "vote_mismatch": 0.67,
+          "net_diff": -621454,
+          "net_diff_pct": -0.67
         },
         {
           "year": "2017",
           "availability": 98.26,
           "missing": 7,
-          "vote_mismatch": 2.75
+          "vote_mismatch": 2.75,
+          "net_diff": -1548708,
+          "net_diff_pct": -1.79
         },
         {
           "year": "2012",
           "availability": 98.51,
           "missing": 6,
-          "vote_mismatch": 1.68
+          "vote_mismatch": 1.68,
+          "net_diff": -1277720,
+          "net_diff_pct": -1.68
         }
       ],
       "matrix_ge": [
@@ -88288,25 +88510,33 @@
           "year": "2024",
           "availability": 98.76,
           "missing": 5,
-          "vote_mismatch": 1.56
+          "vote_mismatch": 1.56,
+          "net_diff": -1371604,
+          "net_diff_pct": -1.56
         },
         {
           "year": "2019",
           "availability": 99.01,
           "missing": 4,
-          "vote_mismatch": 0.96
+          "vote_mismatch": 0.96,
+          "net_diff": -824470,
+          "net_diff_pct": -0.96
         },
         {
           "year": "2014",
           "availability": 68.98,
           "missing": 125,
-          "vote_mismatch": 31.0
+          "vote_mismatch": 31.0,
+          "net_diff": -25096362,
+          "net_diff_pct": -30.97
         },
         {
           "year": "2009",
           "availability": 94.54,
           "missing": 22,
-          "vote_mismatch": 5.46
+          "vote_mismatch": 5.46,
+          "net_diff": -2991139,
+          "net_diff_pct": -5.4
         }
       ],
       "unavailable_bypolls": [
@@ -88448,7 +88678,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1241857,
+      "net_bias_pct": -0.23
     },
     "demographics": {
       "joshua": {
@@ -115130,19 +115362,25 @@
           "year": "2023",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 1.97
+          "vote_mismatch": 1.97,
+          "net_diff": -22609,
+          "net_diff_pct": -1.97
         },
         {
           "year": "2018",
           "availability": 98.33,
           "missing": 1,
-          "vote_mismatch": 1.84
+          "vote_mismatch": 1.84,
+          "net_diff": -18484,
+          "net_diff_pct": -1.84
         },
         {
           "year": "2013",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.41
+          "vote_mismatch": 1.41,
+          "net_diff": -15459,
+          "net_diff_pct": -1.41
         }
       ],
       "matrix_ge": [],
@@ -115190,7 +115428,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -56552,
+      "net_bias_pct": -1.74
     },
     "demographics": {
       "joshua": {
@@ -115704,19 +115944,25 @@
           "year": "2026",
           "availability": 97.96,
           "missing": 6,
-          "vote_mismatch": 3.24
+          "vote_mismatch": 3.24,
+          "net_diff": -1627260,
+          "net_diff_pct": -2.55
         },
         {
           "year": "2021",
           "availability": 99.32,
           "missing": 2,
-          "vote_mismatch": 2.12
+          "vote_mismatch": 2.12,
+          "net_diff": -1281370,
+          "net_diff_pct": -2.12
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.51
+          "vote_mismatch": 0.51,
+          "net_diff": -279487,
+          "net_diff_pct": -0.51
         }
       ],
       "matrix_ge": [
@@ -115724,25 +115970,33 @@
           "year": "2024",
           "availability": 91.5,
           "missing": 25,
-          "vote_mismatch": 8.41
+          "vote_mismatch": 8.41,
+          "net_diff": -5068596,
+          "net_diff_pct": -8.41
         },
         {
           "year": "2019",
           "availability": 97.62,
           "missing": 7,
-          "vote_mismatch": 2.65
+          "vote_mismatch": 2.65,
+          "net_diff": -1512309,
+          "net_diff_pct": -2.65
         },
         {
           "year": "2014",
           "availability": 99.32,
           "missing": 2,
-          "vote_mismatch": 1.1
+          "vote_mismatch": 1.1,
+          "net_diff": -560389,
+          "net_diff_pct": -1.09
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.32
+          "vote_mismatch": 0.32,
+          "net_diff": -137102,
+          "net_diff_pct": -0.32
         }
       ],
       "unavailable_bypolls": [
@@ -115859,7 +116113,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -2210809,
+      "net_bias_pct": -0.58
     },
     "demographics": {
       "joshua": {
@@ -137438,19 +137694,25 @@
           "year": "2020",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.34
+          "vote_mismatch": 0.34,
+          "net_diff": -31925,
+          "net_diff_pct": -0.34
         },
         {
           "year": "2015",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.48
+          "vote_mismatch": 0.48,
+          "net_diff": -42733,
+          "net_diff_pct": -0.48
         },
         {
           "year": "2013",
           "availability": 98.57,
           "missing": 1,
-          "vote_mismatch": 2.27
+          "vote_mismatch": 2.27,
+          "net_diff": -178509,
+          "net_diff_pct": -2.27
         }
       ],
       "matrix_ge": [
@@ -137458,13 +137720,17 @@
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 181,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.02
+          "vote_mismatch": 0.02,
+          "net_diff": -211,
+          "net_diff_pct": -0.0
         }
       ],
       "unavailable_bypolls": [
@@ -137496,7 +137762,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -154600,
+      "net_bias_pct": -0.25
     },
     "demographics": {
       "joshua": {
@@ -142520,25 +142788,33 @@
           "year": "2024",
           "availability": 98.89,
           "missing": 1,
-          "vote_mismatch": 1.45
+          "vote_mismatch": 1.45,
+          "net_diff": -200894,
+          "net_diff_pct": -1.45
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.01
+          "vote_mismatch": 1.01,
+          "net_diff": -126758,
+          "net_diff_pct": -1.01
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.58
+          "vote_mismatch": 0.58,
+          "net_diff": -72269,
+          "net_diff_pct": -0.58
         },
         {
           "year": "2009",
           "availability": 93.33,
           "missing": 6,
-          "vote_mismatch": 6.83
+          "vote_mismatch": 6.83,
+          "net_diff": -648557,
+          "net_diff_pct": -6.83
         }
       ],
       "matrix_ge": [
@@ -142546,25 +142822,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.08
+          "vote_mismatch": 0.08,
+          "net_diff": -5905,
+          "net_diff_pct": -0.05
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.01
+          "vote_mismatch": 0.01,
+          "net_diff": -1539,
+          "net_diff_pct": -0.01
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 2,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.04
+          "vote_mismatch": 0.04,
+          "net_diff": -3299,
+          "net_diff_pct": -0.04
         }
       ],
       "unavailable_bypolls": [
@@ -142626,7 +142910,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -312163,
+      "net_bias_pct": -0.34
     },
     "demographics": {
       "joshua": {
@@ -149292,25 +149578,33 @@
           "year": "2024",
           "availability": 99.31,
           "missing": 2,
-          "vote_mismatch": 1.62
+          "vote_mismatch": 1.62,
+          "net_diff": -1048014,
+          "net_diff_pct": -1.62
         },
         {
           "year": "2019",
           "availability": 98.61,
           "missing": 4,
-          "vote_mismatch": 2.09
+          "vote_mismatch": 2.09,
+          "net_diff": -1154929,
+          "net_diff_pct": -2.09
         },
         {
           "year": "2014",
           "availability": 97.57,
           "missing": 7,
-          "vote_mismatch": 2.86
+          "vote_mismatch": 2.86,
+          "net_diff": -1502828,
+          "net_diff_pct": -2.84
         },
         {
           "year": "2009",
           "availability": 53.12,
           "missing": 135,
-          "vote_mismatch": 45.94
+          "vote_mismatch": 45.94,
+          "net_diff": -20815384,
+          "net_diff_pct": -45.94
         }
       ],
       "matrix_ge": [
@@ -149318,25 +149612,33 @@
           "year": "2024",
           "availability": 97.92,
           "missing": 6,
-          "vote_mismatch": 2.02
+          "vote_mismatch": 2.02,
+          "net_diff": -1153136,
+          "net_diff_pct": -2.02
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.27
+          "vote_mismatch": 0.27,
+          "net_diff": -141296,
+          "net_diff_pct": -0.26
         },
         {
           "year": "2014",
           "availability": 98.26,
           "missing": 5,
-          "vote_mismatch": 2.06
+          "vote_mismatch": 2.06,
+          "net_diff": -1001589,
+          "net_diff_pct": -2.06
         },
         {
           "year": "2009",
           "availability": 95.49,
           "missing": 13,
-          "vote_mismatch": 4.52
+          "vote_mismatch": 4.52,
+          "net_diff": -1658653,
+          "net_diff_pct": -4.49
         }
       ],
       "unavailable_bypolls": [
@@ -149448,7 +149750,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1805079,
+      "net_bias_pct": -0.47
     },
     "demographics": {
       "joshua": {
@@ -168587,7 +168891,9 @@
           "year": "2009",
           "availability": 95.0,
           "missing": 3,
-          "vote_mismatch": 2.48
+          "vote_mismatch": 2.48,
+          "net_diff": -14268,
+          "net_diff_pct": -2.48
         }
       ],
       "matrix_ge": [],
@@ -168640,7 +168946,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -14268,
+      "net_bias_pct": -1.33
     },
     "demographics": {
       "joshua": {
@@ -169249,25 +169557,33 @@
           "year": "2023",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.6
+          "vote_mismatch": 0.6,
+          "net_diff": -94129,
+          "net_diff_pct": -0.6
         },
         {
           "year": "2018",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.67
+          "vote_mismatch": 0.67,
+          "net_diff": -92915,
+          "net_diff_pct": -0.65
         },
         {
           "year": "2013",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.37
+          "vote_mismatch": 0.37,
+          "net_diff": -48042,
+          "net_diff_pct": -0.37
         },
         {
           "year": "2008",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.17
+          "vote_mismatch": 0.17,
+          "net_diff": -18791,
+          "net_diff_pct": -0.17
         }
       ],
       "matrix_ge": [
@@ -169275,25 +169591,33 @@
           "year": "2024",
           "availability": 97.78,
           "missing": 2,
-          "vote_mismatch": 2.11
+          "vote_mismatch": 2.11,
+          "net_diff": -316776,
+          "net_diff_pct": -2.11
         },
         {
           "year": "2019",
           "availability": 98.89,
           "missing": 1,
-          "vote_mismatch": 2.07
+          "vote_mismatch": 2.07,
+          "net_diff": -276988,
+          "net_diff_pct": -2.04
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": -200,
+          "net_diff_pct": -0.0
         }
       ],
       "unavailable_bypolls": [
@@ -169355,7 +169679,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -388676,
+      "net_bias_pct": -0.38
     },
     "demographics": {
       "joshua": {
@@ -176119,25 +176445,33 @@
           "year": "2023",
           "availability": 97.77,
           "missing": 5,
-          "vote_mismatch": 5.99
+          "vote_mismatch": 5.99,
+          "net_diff": -2344666,
+          "net_diff_pct": -5.99
         },
         {
           "year": "2018",
           "availability": 99.11,
           "missing": 2,
-          "vote_mismatch": 1.92
+          "vote_mismatch": 1.92,
+          "net_diff": -704222,
+          "net_diff_pct": -1.92
         },
         {
           "year": "2013",
           "availability": 99.55,
           "missing": 1,
-          "vote_mismatch": 0.57
+          "vote_mismatch": 0.57,
+          "net_diff": -178875,
+          "net_diff_pct": -0.57
         },
         {
           "year": "2008",
           "availability": 92.41,
           "missing": 17,
-          "vote_mismatch": 8.49
+          "vote_mismatch": 8.49,
+          "net_diff": -2029015,
+          "net_diff_pct": -7.76
         }
       ],
       "matrix_ge": [
@@ -176145,25 +176479,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": -598,
+          "net_diff_pct": -0.0
         },
         {
           "year": "2014",
           "availability": 98.66,
           "missing": 3,
-          "vote_mismatch": 1.31
+          "vote_mismatch": 1.31,
+          "net_diff": -405388,
+          "net_diff_pct": -1.31
         },
         {
           "year": "2009",
           "availability": 90.62,
           "missing": 21,
-          "vote_mismatch": 10.48
+          "vote_mismatch": 10.48,
+          "net_diff": -2574605,
+          "net_diff_pct": -10.48
         }
       ],
       "unavailable_bypolls": [
@@ -176280,7 +176622,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1982685,
+      "net_bias_pct": -0.77
     },
     "demographics": {
       "joshua": {
@@ -191372,25 +191716,33 @@
           "year": "2024",
           "availability": 59.52,
           "missing": 119,
-          "vote_mismatch": 1.38
+          "vote_mismatch": 1.38,
+          "net_diff": -466227,
+          "net_diff_pct": -1.38
         },
         {
           "year": "2019",
           "availability": 54.08,
           "missing": 135,
-          "vote_mismatch": 10.39
+          "vote_mismatch": 10.39,
+          "net_diff": -3263336,
+          "net_diff_pct": -10.39
         },
         {
           "year": "2014",
           "availability": 59.18,
           "missing": 120,
-          "vote_mismatch": 1.46
+          "vote_mismatch": 1.46,
+          "net_diff": -420735,
+          "net_diff_pct": -1.45
         },
         {
           "year": "2009",
           "availability": 57.14,
           "missing": 126,
-          "vote_mismatch": 4.47
+          "vote_mismatch": 4.47,
+          "net_diff": -1096594,
+          "net_diff_pct": -4.35
         }
       ],
       "matrix_ge": [
@@ -191398,25 +191750,33 @@
           "year": "2024",
           "availability": 59.52,
           "missing": 119,
-          "vote_mismatch": 0.56
+          "vote_mismatch": 0.56,
+          "net_diff": -187628,
+          "net_diff_pct": -0.56
         },
         {
           "year": "2019",
           "availability": 57.14,
           "missing": 126,
-          "vote_mismatch": 5.68
+          "vote_mismatch": 5.68,
+          "net_diff": -1781176,
+          "net_diff_pct": -5.68
         },
         {
           "year": "2014",
           "availability": 54.76,
           "missing": 133,
-          "vote_mismatch": 8.08
+          "vote_mismatch": 8.08,
+          "net_diff": -2322111,
+          "net_diff_pct": -8.07
         },
         {
           "year": "2009",
           "availability": 40.48,
           "missing": 175,
-          "vote_mismatch": 32.68
+          "vote_mismatch": 32.68,
+          "net_diff": -8204996,
+          "net_diff_pct": -32.68
         }
       ],
       "unavailable_bypolls": [
@@ -191523,7 +191883,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "remark_count": 0
+      "remark_count": 0,
+      "net_bias_votes": -1967735,
+      "net_bias_pct": -0.89
     },
     "demographics": {
       "joshua": {
@@ -203330,19 +203692,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.0
+          "vote_mismatch": 1.0,
+          "net_diff": -178545,
+          "net_diff_pct": -1.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.27
+          "vote_mismatch": 0.27,
+          "net_diff": -40379,
+          "net_diff_pct": -0.27
         },
         {
           "year": "2014",
           "availability": 85.19,
           "missing": 12,
-          "vote_mismatch": 16.91
+          "vote_mismatch": 16.91,
+          "net_diff": -2344565,
+          "net_diff_pct": -16.91
         }
       ],
       "matrix_ge": [
@@ -203350,19 +203718,25 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.02
+          "vote_mismatch": 0.02,
+          "net_diff": 2984,
+          "net_diff_pct": 0.02
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 8,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 275,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -203444,7 +203818,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "total_acs": 81
+      "total_acs": 81,
+      "net_bias_votes": -232832,
+      "net_bias_pct": -0.26
     },
     "demographics": {
       "joshua": {
@@ -209503,25 +209879,33 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.41
+          "vote_mismatch": 1.41,
+          "net_diff": -12240,
+          "net_diff_pct": -1.41
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.94
+          "vote_mismatch": 1.94,
+          "net_diff": -16257,
+          "net_diff_pct": -1.94
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.18
+          "vote_mismatch": 1.18,
+          "net_diff": -9462,
+          "net_diff_pct": -1.18
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.66
+          "vote_mismatch": 0.66,
+          "net_diff": -4629,
+          "net_diff_pct": -0.66
         }
       ],
       "matrix_ge": [
@@ -209529,25 +209913,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": -1,
+          "net_diff_pct": -0.0
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.29
+          "vote_mismatch": 0.29,
+          "net_diff": -2104,
+          "net_diff_pct": -0.28
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -209574,7 +209966,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "total_acs": 30
+      "total_acs": 30,
+      "net_bias_votes": -44693,
+      "net_bias_pct": -0.73
     },
     "demographics": {
       "joshua": {
@@ -209825,7 +210219,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "total_acs": 1
+      "total_acs": 1,
+      "net_bias_votes": 0,
+      "net_bias_pct": 0.0
     },
     "demographics": {
       "joshua": {
@@ -209995,7 +210391,9 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [],
@@ -210006,7 +210404,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "total_acs": 2
+      "total_acs": 2,
+      "net_bias_votes": 0,
+      "net_bias_pct": 0.0
     },
     "demographics": {
       "joshua": {
@@ -210512,7 +210912,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "total_acs": 32
+      "total_acs": 32,
+      "net_bias_votes": -40457,
+      "net_bias_pct": -2.19
     },
     "demographics": {
       "joshua": {
@@ -210851,19 +211253,25 @@
           "year": "2022",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.61
+          "vote_mismatch": 1.61,
+          "net_diff": -86796,
+          "net_diff_pct": -1.61
         },
         {
           "year": "2017",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 1.31
+          "vote_mismatch": 1.31,
+          "net_diff": -65079,
+          "net_diff_pct": -1.31
         },
         {
           "year": "2012",
           "availability": 98.57,
           "missing": 1,
-          "vote_mismatch": 1.92
+          "vote_mismatch": 1.92,
+          "net_diff": -81564,
+          "net_diff_pct": -1.92
         }
       ],
       "matrix_ge": [
@@ -210871,25 +211279,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.07
+          "vote_mismatch": 0.07,
+          "net_diff": -3236,
+          "net_diff_pct": -0.07
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.27
+          "vote_mismatch": 0.27,
+          "net_diff": -12492,
+          "net_diff_pct": -0.26
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2009",
           "availability": 98.57,
           "missing": 1,
-          "vote_mismatch": 1.55
+          "vote_mismatch": 1.55,
+          "net_diff": -48381,
+          "net_diff_pct": -1.55
         }
       ],
       "unavailable_bypolls": [
@@ -210966,7 +211382,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "total_acs": 70
+      "total_acs": 70,
+      "net_bias_votes": -204510,
+      "net_bias_pct": -0.65
     },
     "demographics": {
       "joshua": {
@@ -216117,7 +216535,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "total_acs": 60
+      "total_acs": 60,
+      "net_bias_votes": -216052,
+      "net_bias_pct": -2.41
     },
     "demographics": {
       "joshua": {
@@ -216519,25 +216939,33 @@
           "year": "2026",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.62
+          "vote_mismatch": 0.62,
+          "net_diff": -134209,
+          "net_diff_pct": -0.62
         },
         {
           "year": "2021",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.6
+          "vote_mismatch": 0.6,
+          "net_diff": -116287,
+          "net_diff_pct": -0.6
         },
         {
           "year": "2016",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.2
+          "vote_mismatch": 0.2,
+          "net_diff": -33387,
+          "net_diff_pct": -0.2
         },
         {
           "year": "2011",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.12
+          "vote_mismatch": 0.12,
+          "net_diff": -16833,
+          "net_diff_pct": -0.12
         }
       ],
       "matrix_ge": [
@@ -216545,25 +216973,33 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2019",
           "availability": 94.44,
           "missing": 7,
-          "vote_mismatch": 5.36
+          "vote_mismatch": 5.36,
+          "net_diff": -960332,
+          "net_diff_pct": -5.36
         },
         {
           "year": "2014",
           "availability": 92.06,
           "missing": 10,
-          "vote_mismatch": 9.02
+          "vote_mismatch": 9.02,
+          "net_diff": -1357365,
+          "net_diff_pct": -9.0
         },
         {
           "year": "2009",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": -147,
+          "net_diff_pct": -0.0
         }
       ],
       "unavailable_bypolls": [
@@ -216630,7 +217066,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "total_acs": 126
+      "total_acs": 126,
+      "net_bias_votes": -301488,
+      "net_bias_pct": -0.22
     },
     "demographics": {
       "joshua": {
@@ -226726,25 +227164,33 @@
           "year": "2023",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 1.61
+          "vote_mismatch": 1.61,
+          "net_diff": -641704,
+          "net_diff_pct": -1.61
         },
         {
           "year": "2018",
           "availability": 99.0,
           "missing": 2,
-          "vote_mismatch": 1.82
+          "vote_mismatch": 1.82,
+          "net_diff": -650039,
+          "net_diff_pct": -1.82
         },
         {
           "year": "2013",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 1.35
+          "vote_mismatch": 1.35,
+          "net_diff": -416640,
+          "net_diff_pct": -1.35
         },
         {
           "year": "2008",
           "availability": 94.5,
           "missing": 11,
-          "vote_mismatch": 6.27
+          "vote_mismatch": 6.27,
+          "net_diff": -1510781,
+          "net_diff_pct": -6.27
         }
       ],
       "matrix_ge": [
@@ -226752,25 +227198,33 @@
           "year": "2024",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 0.48
+          "vote_mismatch": 0.48,
+          "net_diff": -159033,
+          "net_diff_pct": -0.48
         },
         {
           "year": "2019",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         },
         {
           "year": "2014",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.09
+          "vote_mismatch": 0.09,
+          "net_diff": -25407,
+          "net_diff_pct": -0.09
         },
         {
           "year": "2009",
           "availability": 99.5,
           "missing": 1,
-          "vote_mismatch": 0.41
+          "vote_mismatch": 0.41,
+          "net_diff": -74227,
+          "net_diff_pct": -0.41
         }
       ],
       "unavailable_bypolls": [
@@ -226852,7 +227306,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "total_acs": 200
+      "total_acs": 200,
+      "net_bias_votes": -1123353,
+      "net_bias_pct": -0.47
     },
     "demographics": {
       "joshua": {
@@ -227669,13 +228125,17 @@
           "year": "2023",
           "availability": 84.78,
           "missing": 35,
-          "vote_mismatch": 15.98
+          "vote_mismatch": 15.98,
+          "net_diff": -6933906,
+          "net_diff_pct": -15.94
         },
         {
           "year": "2018",
           "availability": 88.26,
           "missing": 27,
-          "vote_mismatch": 18.63
+          "vote_mismatch": 18.63,
+          "net_diff": -7071908,
+          "net_diff_pct": -18.54
         }
       ],
       "matrix_ge": [
@@ -227683,25 +228143,33 @@
           "year": "2024",
           "availability": 80.87,
           "missing": 44,
-          "vote_mismatch": 18.25
+          "vote_mismatch": 18.25,
+          "net_diff": -6895993,
+          "net_diff_pct": -18.22
         },
         {
           "year": "2019",
           "availability": 26.52,
           "missing": 169,
-          "vote_mismatch": 76.15
+          "vote_mismatch": 76.15,
+          "net_diff": -28041466,
+          "net_diff_pct": -76.12
         },
         {
           "year": "2014",
           "availability": 94.35,
           "missing": 13,
-          "vote_mismatch": 5.63
+          "vote_mismatch": 5.63,
+          "net_diff": -1667646,
+          "net_diff_pct": -5.63
         },
         {
           "year": "2009",
           "availability": 81.74,
           "missing": 42,
-          "vote_mismatch": 18.5
+          "vote_mismatch": 18.5,
+          "net_diff": -3602461,
+          "net_diff_pct": -18.5
         }
       ],
       "unavailable_bypolls": [
@@ -227803,7 +228271,9 @@
           "issues": "Incomplete upload"
         }
       ],
-      "total_acs": 230
+      "total_acs": 230,
+      "net_bias_votes": -3705163,
+      "net_bias_pct": -2.39
     },
     "demographics": {
       "joshua": {
@@ -243497,7 +243967,9 @@
           "year": "2024",
           "availability": 100.0,
           "missing": 0,
-          "vote_mismatch": 0.0
+          "vote_mismatch": 0.0,
+          "net_diff": 0,
+          "net_diff_pct": 0.0
         }
       ],
       "unavailable_bypolls": [
@@ -243514,7 +243986,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "total_acs": 1
+      "total_acs": 1,
+      "net_bias_votes": 0,
+      "net_bias_pct": 0.0
     },
     "demographics": {
       "joshua": {
@@ -243743,7 +244217,9 @@
           "issues": "Data complete \u2713"
         }
       ],
-      "total_acs": 1
+      "total_acs": 1,
+      "net_bias_votes": 0,
+      "net_bias_pct": 0.0
     },
     "demographics": {
       "joshua": {
@@ -244072,7 +244548,9 @@
     },
     "form20": {
       "vote_mismatch_pct": 19.13,
-      "deviation_cat": "High"
+      "deviation_cat": "High",
+      "net_bias_votes": 273233,
+      "net_bias_pct": 19.13
     }
   }
 }

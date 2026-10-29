@@ -545,6 +545,10 @@
             <div>
               <p class="text-[10px] font-bold text-amber-700 uppercase tracking-wider mb-1">Vote Mismatch</p>
               <p class="text-3xl font-black text-amber-600 tabular-nums leading-none tracking-tight" id="f20VoteMismatch">--%</p>
+              <p class="text-[10px] font-medium text-gray-500 mt-2 flex items-center gap-1.5" id="f20NetBiasContainer" style="display:none;">
+                <span class="w-1.5 h-1.5 rounded-full inline-block" id="f20NetBiasDot"></span>
+                <span id="f20NetBiasLabel">--</span>
+              </p>
             </div>
             <span class="px-2 py-0.5 rounded text-[9px] font-bold uppercase tracking-wider bg-white text-amber-600 border border-amber-200 shadow-sm" id="f20DevCat">--</span>
           </div>
@@ -1846,7 +1850,21 @@ document.addEventListener("DOMContentLoaded", () => {
     b += `</tr><tr><td>Vote Mismatch %</td>`;
     matrix.forEach(m => {
       const c = m.vote_mismatch > 5 ? '#b91c1c' : m.vote_mismatch > 2.5 ? '#92400e' : '#15803d';
-      b += `<td class="tabular-nums font-bold" style="color:${c}">${m.vote_mismatch.toFixed(2)}%</td>`;
+      let netHtml = '';
+      if (m.net_diff !== undefined && m.net_diff !== null && m.vote_mismatch > 0) {
+        const sign = m.net_diff > 0 ? '+' : '';
+        const leader = m.net_diff > 0 ? 'Form 20 > Retro' : (m.net_diff < 0 ? 'Retro > Form 20' : 'Equal');
+        const netFmt = Math.abs(m.net_diff) >= 1000000 
+          ? (m.net_diff / 1000000).toFixed(2) + 'M' 
+          : (m.net_diff / 1000).toFixed(1) + 'k';
+        netHtml = `<div class="text-[9px] font-medium text-gray-400 mt-0.5 whitespace-nowrap" title="Net Difference: ${sign}${Math.round(m.net_diff).toLocaleString()} votes (${leader})">
+          ${sign}${netFmt} net
+        </div>`;
+      }
+      b += `<td class="tabular-nums font-bold" style="color:${c}">
+        <div>${m.vote_mismatch.toFixed(2)}%</div>
+        ${netHtml}
+      </td>`;
     });
     b += `</tr>`;
     html(bodyId, b);
@@ -2753,6 +2771,25 @@ document.addEventListener("DOMContentLoaded", () => {
       set('f20DevCat',     f.deviation_cat);
       set('f20RemarkCount', f.remark_count);
       set('f20IndicatorLabel', f.vote_mismatch_pct + '%');
+
+      const nbContainer = document.getElementById('f20NetBiasContainer');
+      const nbLabel = document.getElementById('f20NetBiasLabel');
+      const nbDot = document.getElementById('f20NetBiasDot');
+      if (nbContainer && nbLabel && f.net_bias_votes !== undefined && f.net_bias_votes !== null) {
+        nbContainer.style.display = 'flex';
+        const sign = f.net_bias_votes > 0 ? '+' : '';
+        const leader = f.net_bias_votes > 0 ? 'Form 20 higher' : (f.net_bias_votes < 0 ? 'Retro higher' : 'Balanced');
+        const vFmt = Math.abs(f.net_bias_votes) >= 1000000
+          ? (f.net_bias_votes / 1000000).toFixed(2) + 'M'
+          : (f.net_bias_votes / 1000).toFixed(1) + 'k';
+        nbLabel.textContent = `Net: ${sign}${vFmt} votes (${leader})`;
+        if (nbDot) {
+          nbDot.className = `w-1.5 h-1.5 rounded-full inline-block ${f.net_bias_votes > 0 ? 'bg-sky-500' : (f.net_bias_votes < 0 ? 'bg-amber-500' : 'bg-emerald-500')}`;
+        }
+      } else if (nbContainer) {
+        nbContainer.style.display = 'none';
+      }
+
       setBar('f20AvailBar', f.availability_pct);
       setBar('f20QualBar',  f.overall_quality_score);
       /* mismatch linear bar: scale 0-10% -> 0-100% of bar */

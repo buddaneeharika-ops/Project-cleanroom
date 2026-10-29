@@ -78,6 +78,7 @@ def compute_mismatch_for_state(state_abb):
         # 3. Calculate AC-wise, Election-wise, and State-wide Mismatch
         election_mismatches = {}
         tot_abs_diff = 0.0
+        tot_net_diff = 0.0
         tot_retro_votes = 0.0
 
         all_keys = set(retro_data.keys()).union(set(f20_data.keys()))
@@ -92,6 +93,7 @@ def compute_mismatch_for_state(state_abb):
                 continue
 
             el_abs_diff = 0.0
+            el_net_diff = 0.0
             el_retro_votes = 0.0
 
             for ac_no in all_ac_nos:
@@ -99,33 +101,47 @@ def compute_mismatch_for_state(state_abb):
                 f_val = f_acs.get(ac_no, 0.0)
 
                 diff = abs(f_val - r_val)
+                signed_diff = f_val - r_val
                 el_abs_diff += diff
+                el_net_diff += signed_diff
                 el_retro_votes += r_val
 
                 # Include regular elections in overall state calculation if Form 20 exists for it
                 if 'BP' not in ty and f_val > 0:
                     tot_abs_diff += diff
+                    tot_net_diff += signed_diff
                     tot_retro_votes += r_val
 
             # Election mismatch: aggregate weighted difference across ACs
             if el_retro_votes > 0 and len(f_acs) > 0:
                 el_mismatch_pct = round((el_abs_diff / el_retro_votes * 100.0), 2)
+                el_net_pct = round((el_net_diff / el_retro_votes * 100.0), 2)
             else:
                 el_mismatch_pct = 0.0
-            election_mismatches[key] = el_mismatch_pct
+                el_net_pct = 0.0
+
+            election_mismatches[key] = {
+                'mismatch_pct': el_mismatch_pct,
+                'net_diff': round(el_net_diff),
+                'net_diff_pct': el_net_pct
+            }
 
         # Overall State Deviation across regular elections
         if tot_retro_votes > 0:
             overall_state_pct = round((tot_abs_diff / tot_retro_votes * 100.0), 2)
+            overall_net_diff = round(tot_net_diff)
+            overall_net_pct = round((tot_net_diff / tot_retro_votes * 100.0), 2)
             dev_cat = "Low" if overall_state_pct < 2.5 else ("Medium" if overall_state_pct <= 5.0 else "High")
         else:
             overall_state_pct = 0.0
+            overall_net_diff = 0
+            overall_net_pct = 0.0
             dev_cat = "Low"
 
         # Apply to cache
-        update_cache_file(state_abb, election_mismatches, overall_state_pct, dev_cat)
+        update_cache_file(state_abb, election_mismatches, overall_state_pct, overall_net_diff, overall_net_pct, dev_cat)
         duration = time.time() - t_start
-        print(f"[{time.strftime('%X')}] [OK] {state_abb:4s}: Overall={overall_state_pct}% ({dev_cat}), Elections={len(election_mismatches)} in {duration:.2f}s")
+        print(f"[{time.strftime('%X')}] [OK] {state_abb:4s}: Overall={overall_state_pct}% ({dev_cat}, Net={overall_net_diff:+,d} votes), Elections={len(election_mismatches)} in {duration:.2f}s")
         return state_abb, overall_state_pct, dev_cat
 
     except Exception as e:
@@ -137,7 +153,7 @@ def compute_mismatch_for_state(state_abb):
                 pass
         return state_abb, None, None
 
-def update_cache_file(state_abb, election_mismatches, overall_state_pct, dev_cat):
+def update_cache_file(state_abb, election_mismatches, overall_state_pct, overall_net_diff, overall_net_pct, dev_cat):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     cache_path = os.path.join(base_dir, 'static', 'data', 'state_glance_cache.json')
 
@@ -157,38 +173,28 @@ def update_cache_file(state_abb, election_mismatches, overall_state_pct, dev_cat
 
         f20 = st_data['form20']
         f20['vote_mismatch_pct'] = overall_state_pct
+        f20['net_bias_votes'] = overall_net_diff
+        f20['net_bias_pct'] = overall_net_pct
         f20['deviation_cat'] = dev_cat
 
-        # Update matrix_ae
-        for item in f20.get('matrix_ae', []):
-            yr = str(item.get('year'))
-            if (yr, 'AE') in election_mismatches:
-                item['vote_mismatch'] = election_mismatches[(yr, 'AE')]
-            elif item.get('vote_mismatch') == 2.41:
-                item['vote_mismatch'] = 0.0
+        def apply_matrix_mismatch(matrix, el_type):
+            for item in matrix:
+                yr = str(item.get('year'))
+                k = (yr, el_type)
+                if k in election_mismatches:
+                    m_data = election_mismatches[k]
+                    item['vote_mismatch'] = m_data['mismatch_pct']
+                    item['net_diff'] = m_data['net_diff']
+                    item['net_diff_pct'] = m_data['net_diff_pct']
+                elif item.get('vote_mismatch') == 2.41:
+                    item['vote_mismatch'] = 0.0
+                    item['net_diff'] = 0
+                    item['net_diff_pct'] = 0.0
 
-        # Update matrix_ge
-        for item in f20.get('matrix_ge', []):
-            yr = str(item.get('year'))
-            if (yr, 'GE') in election_mismatches:
-                item['vote_mismatch'] = election_mismatches[(yr, 'GE')]
-            elif item.get('vote_mismatch') == 2.41:
-                item['vote_mismatch'] = 0.0
-
-        # Update matrix_ae_bp and matrix_ge_bp if present
-        for item in f20.get('matrix_ae_bp', []):
-            yr = str(item.get('year'))
-            if (yr, 'AE-BP') in election_mismatches:
-                item['vote_mismatch'] = election_mismatches[(yr, 'AE-BP')]
-            elif item.get('vote_mismatch') == 2.41:
-                item['vote_mismatch'] = 0.0
-
-        for item in f20.get('matrix_ge_bp', []):
-            yr = str(item.get('year'))
-            if (yr, 'GE-BP') in election_mismatches:
-                item['vote_mismatch'] = election_mismatches[(yr, 'GE-BP')]
-            elif item.get('vote_mismatch') == 2.41:
-                item['vote_mismatch'] = 0.0
+        apply_matrix_mismatch(f20.get('matrix_ae', []), 'AE')
+        apply_matrix_mismatch(f20.get('matrix_ge', []), 'GE')
+        apply_matrix_mismatch(f20.get('matrix_ae_bp', []), 'AE-BP')
+        apply_matrix_mismatch(f20.get('matrix_ge_bp', []), 'GE-BP')
 
         with open(cache_path, 'w', encoding='utf-8') as f:
             json.dump(cache, f, indent=2)
